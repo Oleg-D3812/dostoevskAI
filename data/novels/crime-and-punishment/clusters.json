@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "novel_id": "crime-and-punishment",
+  "vad_dimensions": [
+    "V",
+    "A",
+    "D"
+  ],
+  "clusters": [
+    {
+      "id": "svidrigailov-1",
+      "character_id": "svidrigailov",
+      "local_index": 0,
+      "display_id": "Свидригайлов-1",
+      "name": "Раздражённая скука",
+      "centroid": [
+        -0.4194791666666668,
+        0.2733333333333333,
+        0.0632291666666666
+      ],
+      "size": 96,
+      "within_cluster_spread": 0.4623322471673735,
+      "sphere_radius": 0.04990548204158791,
+      "color": "#636EFA"
+    },
+    {
+      "id": "svidrigailov-2",
+      "character_id": "svidrigailov",
+      "local_index": 1,
+      "display_id": "Свидригайлов-2",
+      "name": "Ироническое оживление",
+      "centroid": [
+        0.4793478260869565,
+        0.4069565217391305,
+        0.3554347826086956
+      ],
+      "size": 46,
+      "within_cluster_spread": 0.4664853707612014,
+      "sphere_radius": 0.02391304347826087,
+      "color": "#636EFA"
+    },
+    {
+      "id": "svidrigailov-3",
+      "character_id": "svidrigailov",
+      "local_index": 2,
+      "display_id": "Свидригайлов-3",
+      "name": "Мучительное отчаяние",
+      "centroid": [
+        -0.7902380952380952,
+        0.6973809523809522,
+        -0.5335714285714287
+      ],
+      "size": 84,
+      "within_cluster_spread": 0.3189705841611271,
+      "sphere_radius": 0.04366729678638942,
+      "color": "#636EFA"
+    },
+    {
+      "id": "raskolnikov-1",
+      "character_id": "raskolnikov",
+      "local_index": 0,
+      "display_id": "Раскольников-1",
+      "name": "Раздражённая злость",
+      "centroid": [
+        -0.596318407960199,
+        0.5800000000000002,
+        0.2812935323383086
+      ],
+      "size": 201,
+      "within_cluster_spread": 0.3870627965524945,
+      "sphere_radius": 0.10448960302457468,
+      "color": "#EF553B"
+    },
+    {
+      "id": "raskolnikov-2",
+      "character_id": "raskolnikov",
+      "local_index": 1,
+      "display_id": "Раскольников-2",
+      "name": "Умеренное оживление",
+      "centroid": [
+        0.4542028985507249,
+        0.3546376811594204,
+        0.2571739130434783
+      ],
+      "size": 138,
+      "within_cluster_spread": 0.502407191148063,
+      "sphere_radius": 0.07173913043478261,
+      "color": "#EF553B"
+    },
+    {
+      "id": "raskolnikov-3",
+      "character_id": "raskolnikov",
+      "local_index": 2,
+      "display_id": "Раскольников-3",
+      "name": "Болезненная растерянность",
+      "centroid": [
+        -0.4330597014925372,
+        0.0784328358208955,
+        -0.1962313432835821
+      ],
+      "size": 268,
+      "within_cluster_spread": 0.4670506320331897,
+      "sphere_radius": 0.1393194706994329,
+      "color": "#EF553B"
+    },
+    {
+      "id": "raskolnikov-4",
+      "character_id": "raskolnikov",
+      "local_index": 3,
+      "display_id": "Раскольников-4",
+      "name": "Тревожная беспомощность",
+      "centroid": [
+        -0.7847258979206064,
+        0.6810018903591685,
+        -0.5247448015122859
+      ],
+      "size": 529,
+      "within_cluster_spread": 0.3055935524262942,
+      "sphere_radius": 0.275,
+      "color": "#EF553B"
+    },
+    {
+      "id": "marmeladova-1",
+      "character_id": "marmeladova",
+      "local_index": 0,
+      "display_id": "Мармеладова-1",
+      "name": "Панический страх",
+      "centroid": [
+        -0.8036734693877544,
+        0.7187074829931972,
+        -0.5881632653061222
+      ],
+      "size": 147,
+      "within_cluster_spread": 0.2614100283552781,
+      "sphere_radius": 0.07641776937618149,
+      "color": "#00CC96"
+    },
+    {
+      "id": "marmeladova-2",
+      "character_id": "marmeladova",
+      "local_index": 1,
+      "display_id": "Мармеладова-2",
+      "name": "Восторженная любовь",
+      "centroid": [
+        0.6153846153846152,
+        0.5923076923076922,
+        0.1523076923076922
+      ],
+      "size": 26,
+      "within_cluster_spread": 0.5009056886038924,
+      "sphere_radius": 0.013516068052930057,
+      "color": "#00CC96"
+    },
+    {
+      "id": "marmeladova-3",
+      "character_id": "marmeladova",
+      "local_index": 2,
+      "display_id": "Мармеладова-3",
+      "name": "Тревожная робость",
+      "centroid": [
+        -0.4568224299065423,
+        0.3257009345794392,
+        -0.2700934579439251
+      ],
+      "size": 107,
+      "within_cluster_spread": 0.3668359423667559,
+      "sphere_radius": 0.05562381852551985,
+      "color": "#00CC96"
+    }
+  ]
+}

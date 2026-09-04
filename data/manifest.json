@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "models": [
+    {
+      "id": "plutchik-vad-gaussian-v1",
+      "path": "models/plutchik-vad-gaussian-v1.json",
+      "sha256": "64af2d12a8d822817b7bfdbae105919d08a9ee86d16aef54e55ad6d2bc5f6eb4"
+    }
+  ],
+  "novels": [
+    {
+      "id": "crime-and-punishment",
+      "title": "Преступление и наказание",
+      "language": "ru",
+      "path": "novels/crime-and-punishment",
+      "manifest": "novels/crime-and-punishment/manifest.json",
+      "data_version": "444a08974efe3645"
+    }
+  ],
+  "updated_at": "2026-09-03T00:38:13.894036+00:00"
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "novel_id": "crime-and-punishment",
+  "characters": [
+    {
+      "id": "raskolnikov",
+      "name": "Родион Романович Раскольников",
+      "label": "Раскольников",
+      "color": "#EF553B",
+      "fragment_count": 1136,
+      "chapter_count": 40,
+      "clusters_path": "clusters.json",
+      "fragments_path_template": "fragments/raskolnikov/{chapter_id}.json",
+      "profile_path": "profiles/raskolnikov.json"
+    },
+    {
+      "id": "marmeladova",
+      "name": "Софья Семёновна Мармеладова",
+      "label": "Мармеладова",
+      "color": "#00CC96",
+      "fragment_count": 280,
+      "chapter_count": 13,
+      "clusters_path": "clusters.json",
+      "fragments_path_template": "fragments/marmeladova/{chapter_id}.json",
+      "profile_path": "profiles/marmeladova.json"
+    },
+    {
+      "id": "svidrigailov",
+      "name": "Аркадий Иванович Свидригайлов",
+      "label": "Свидригайлов",
+      "color": "#636EFA",
+      "fragment_count": 226,
+      "chapter_count": 9,
+      "clusters_path": "clusters.json",
+      "fragments_path_template": "fragments/svidrigailov/{chapter_id}.json",
+      "profile_path": "profiles/svidrigailov.json"
+    }
+  ]
+}

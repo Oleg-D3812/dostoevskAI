@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "crime-and-punishment",
+  "character_id": "raskolnikov",
+  "chapter_id": "6_6",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "Родион Романович Раскольников::6_6_0001",
+      "source_section": "6_6",
+      "source_sentence": 50,
+      "character_position": 1003,
+      "text": "У Родиона Романовича две дороги: или пуля в лоб, или по Владимирке.",
+      "vad": [
+        -0.92,
+        0.72,
+        -0.35
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.2244007150267412,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 50,
+      "timeline_start_index": 13294,
+      "timeline_end_index": 13294,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 0,
+          "end": 67
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::6_6_0002",
+      "source_section": "6_6",
+      "source_sentence": 175,
+      "character_position": 1004,
+      "text": "все это надо бросить, бросить!..",
+      "vad": [
+        -0.55,
+        0.7,
+        0.45
+      ],
+      "cluster_id": "raskolnikov-1",
+      "distance_to_centroid": 0.2121491624938752,
+      "warning": null,
+      "chapter_sentence_start": 175,
+      "chapter_sentence_end": 175,
+      "timeline_start_index": 13419,
+      "timeline_end_index": 13419,
+      "highlights": [
+        {
+          "chapter_sentence": 175,
+          "start": 17,
+          "end": 49
+        }
+      ]
+    }
+  ]
+}

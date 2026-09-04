@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>K-Means · центроиды и сферы</title>
+  <script src="https://cdn.plot.ly/plotly-3.7.0.min.js"></script>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    body { overflow: hidden; }
+    .centroid-page { width: min(1800px, calc(100% - 32px)); max-width: none; margin: 0 auto; padding: 14px 0 16px; min-height: 0; flex: 1; display: grid; grid-template-rows: auto minmax(0, 1fr); gap: 12px; }
+    .centroid-controls { display: grid; gap: 10px; padding: 14px 16px; }
+    .filter-line { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+    .filter-line strong { min-width: 128px; font-size: 13px; }
+    .filter-items { display: flex; align-items: center; gap: 13px; flex-wrap: wrap; }
+    .filter-items label { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; white-space: nowrap; cursor: pointer; }
+    .filter-items input { margin: 0; }
+    .swatch { display: inline-block; width: 10px; height: 10px; border-radius: 50%; }
+    .opposite-note { color: var(--text-muted); font-size: 11px; }
+    .centroid-plot-card { min-height: 0; overflow: hidden; }
+    #centroid-spheres, #centroid-spheres .plotly-graph-div { width: 100%; height: 100% !important; min-height: 0; }
+    .loading-state, .error-state { padding: 28px; color: var(--text-muted); }
+    @media (max-width: 760px) {
+      body { overflow: auto; }
+      .centroid-page { width: min(100% - 20px, 720px); min-height: 900px; }
+      .filter-line { align-items: flex-start; }
+      .filter-line strong { width: 100%; }
+      .centroid-plot-card { min-height: 620px; }
+    }
+  </style>
+</head>
+<body class="explorer-page">
+  <header class="site-header explorer-header">
+    <a id="back-link" href="../index.html" class="back-link">&larr; Каталог романов</a>
+    <h1>Кластеры K-Means: центроиды и сферы</h1>
+    <p>Центроиды кластеров и референсные эмоции в пространстве VAD.</p>
+  </header>
+  <main class="centroid-page">
+    <section class="explorer-control-panel centroid-controls" aria-label="Фильтры визуализации">
+      <div class="filter-line"><strong>Characters</strong><div id="character-filter" class="filter-items"></div></div>
+      <div class="filter-line"><strong>Emotion anchors</strong><div id="emotion-filter" class="filter-items"></div></div>
+    </section>
+    <section class="plot-card centroid-plot-card" aria-label="3D VAD centroids and spheres">
+      <div id="centroid-spheres"><div class="loading-state">Загрузка данных…</div></div>
+    </section>
+  </main>
+  <script src="../js/separate-kmeans-centroids.js"></script>
+</body>
+</html>

@@ -1,0 +1,763 @@
+{
+  "schema_version": 1,
+  "novel_id": "crime-and-punishment",
+  "character_id": "svidrigailov",
+  "chapter_id": "4_4",
+  "count": 29,
+  "fragments": [
+    {
+      "id": "Аркадий Иванович Свидригайлов::4_4_1_0001",
+      "source_section": "4_4_1",
+      "source_sentence": 2,
+      "character_position": 65,
+      "text": "глаза его сверкали",
+      "vad": [
+        -0.55,
+        0.9,
+        0.35
+      ],
+      "cluster_id": "svidrigailov-1",
+      "distance_to_centroid": 0.7014159321656683,
+      "warning": null,
+      "chapter_sentence_start": 245,
+      "chapter_sentence_end": 245,
+      "timeline_start_index": 8450,
+      "timeline_end_index": 8450,
+      "highlights": [
+        {
+          "chapter_sentence": 245,
+          "start": 24,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::4_4_1_0002",
+      "source_section": "4_4_1",
+      "source_sentence": 4,
+      "character_position": 66,
+      "text": "Взгляд его был сухой, воспаленный, острый",
+      "vad": [
+        -0.65,
+        0.8,
+        0.2
+      ],
+      "cluster_id": "svidrigailov-1",
+      "distance_to_centroid": 0.590951684344132,
+      "warning": null,
+      "chapter_sentence_start": 247,
+      "chapter_sentence_end": 247,
+      "timeline_start_index": 8452,
+      "timeline_end_index": 8452,
+      "highlights": [
+        {
+          "chapter_sentence": 247,
+          "start": 0,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::4_4_1_0003",
+      "source_section": "4_4_1",
+      "source_sentence": 4,
+      "character_position": 67,
+      "text": "губы его сильно вздрагивали",
+      "vad": [
+        -0.72,
+        0.78,
+        -0.38
+      ],
+      "cluster_id": "svidrigailov-3",
+      "distance_to_centroid": 0.1879986189460541,
+      "warning": null,
+      "chapter_sentence_start": 247,
+      "chapter_sentence_end": 247,
+      "timeline_start_index": 8452,
+      "timeline_end_index": 8452,
+      "highlights": [
+        {
+          "chapter_sentence": 247,
+          "start": 43,
+          "end": 70
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::4_4_1_0004",
+      "source_section": "4_4_1",
+      "source_sentence": 7,
+      "character_position": 68,
+      "text": "как совсем сумасшедший",
+      "vad": [
+        -0.55,
+        0.85,
+        -0.25
+      ],
+      "cluster_id": "svidrigailov-3",
+      "distance_to_centroid": 0.4017706699123445,
+      "warning": null,
+      "chapter_sentence_start": 250,
+      "chapter_sentence_end": 250,
+      "timeline_start_index": 8455,
+      "timeline_end_index": 8455,
+      "highlights": [
+        {
+          "chapter_sentence": 250,
+          "start": 29,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::4_4_1_0005",
+      "source_section": "4_4_1",
+      "source_sentence": 12,
+      "character_position": 69,
+      "text": "как-то дико произнес он",
+      "vad": [
+        -0.55,
+        0.72,
+        0.18
+      ],
+      "cluster_id": "svidrigailov-1",
+      "distance_to_centroid": 0.4797730990400566,
+      "warning": null,
+      "chapter_sentence_start": 255,
+      "chapter_sentence_end": 255,
+      "timeline_start_index": 8460,
+      "timeline_end_index": 8460,
+      "highlights": [
+        {
+          "chapter_sentence": 255,
+          "start": 70,
+          "end": 93
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::4_4_1_0007",
+      "source_section": "4_4_1",
+      "source_sentence": 23,
+      "character_position": 70,
+      "text": "почти в исступлении",
+      "vad": [
+        -0.85,
+        0.9,
+        -0.65
+      ],
+      "cluster_id": "svidrigailov-3",
+      "distance_to_centroid": 0.2412085735700928,
+      "warning": null,
+      "chapter_sentence_start": 266,
+      "chapter_sentence_end": 266,
+      "timeline_start_index": 8471,
+      "timeline_end_index": 8471,
+      "highlights": [
+        {
+          "chapter_sentence": 266,
+          "start": 42,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::4_4_1_0008",
+      "source_section": "4_4_1",
+      "source_sentence": 43,
+      "character_position": 71,
+      "text": "он был уже скептик",
+      "vad": [
+        -0.2,
+        0.1,
+        0.1
+      ],
+      "cluster_id": "svidrigailov-1",
+      "distance_to_centroid": 0.2820773709980414,
+      "warning": null,
+      "chapter_sentence_start": 286,
+      "chapter_sentence_end": 286,
+      "timeline_start_index": 8491,
+      "timeline_end_index": 8491,
+      "highlights": [
+        {
+          "chapter_sentence": 286,
+          "start": 50,
+          "end": 68
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::4_4_1_0009",
+      "source_section": "4_4_1",
+      "source_sentence": 43,
+      "character_position": 72,
+      "text": "он был молод, отвлечен и, стало быть, жесток",
+      "vad": [
+        -0.55,
+        0.2,
+        0.35
+      ],
+      "cluster_id": "svidrigailov-1",
+      "distance_to_centroid": 0.3234980317753108,
+      "warning": null,
+      "chapter_sentence_start": 286,
+      "chapter_sentence_end": 286,
+      "timeline_start_index": 8491,
+      "timeline_end_index": 8491,
+      "highlights": [
+        {
+          "chapter_sentence": 286,
+          "start": 70,
+          "end": 114
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::4_4_1_0010",
+      "source_section": "4_4_1",
+      "source_sentence": 43,
+      "character_position": 73,
+      "text": "Последняя мысль была ему всего отвратительнее",
+      "vad": [
+        -0.78,
+        0.42,
+        0.18
+      ],
+      "cluster_id": "svidrigailov-1",
+      "distance_to_centroid": 0.4063518301863956,
+      "warning": null,
+      "chapter_sentence_start": 286,
+      "chapter_sentence_end": 286,
+      "timeline_start_index": 8491,
+      "timeline_end_index": 8491,
+      "highlights": [
+        {
+          "chapter_sentence": 286,
+          "start": 0,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::4_4_1_0011",
+      "source_section": "4_4_1",
+      "source_sentence": 44,
+      "character_position": 74,
+      "text": "воскликнул он про себя",
+      "vad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster_id": "svidrigailov-1",
+      "distance_to_centroid": 0.5046501856690766,
+      "warning": null,
+      "chapter_sentence_start": 287,
+      "chapter_sentence_end": 287,
+      "timeline_start_index": 8492,
+      "timeline_end_index": 8492,
+      "highlights": [
+        {
+          "chapter_sentence": 287,
+          "start": 28,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::4_4_1_0012",
+      "source_section": "4_4_1",
+      "source_sentence": 47,
+      "character_position": 75,
+      "text": "восклицал он",
+      "vad": [
+        -0.2,
+        0.5,
+        0.1
+      ],
+      "cluster_id": "svidrigailov-1",
+      "distance_to_centroid": 0.3176491406607297,
+      "warning": null,
+      "chapter_sentence_start": 290,
+      "chapter_sentence_end": 290,
+      "timeline_start_index": 8495,
+      "timeline_end_index": 8495,
+      "highlights": [
+        {
+          "chapter_sentence": 290,
+          "start": 2,
+          "end": 14
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::4_4_1_0013",
+      "source_section": "4_4_1",
+      "source_sentence": 57,
+      "character_position": 76,
+      "text": "Он с упорством остановился на этой мысли",
+      "vad": [
+        -0.2,
+        0.35,
+        0.55
+      ],
+      "cluster_id": "svidrigailov-1",
+      "distance_to_centroid": 0.5394392705045676,
+      "warning": null,
+      "chapter_sentence_start": 300,
+      "chapter_sentence_end": 300,
+      "timeline_start_index": 8505,
+      "timeline_end_index": 8505,
+      "highlights": [
+        {
+          "chapter_sentence": 300,
+          "start": 0,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::4_4_1_0014",
+      "source_section": "4_4_1",
+      "source_sentence": 58,
+      "character_position": 77,
+      "text": "Этот исход ему даже более нравился, чем всякий другой",
+      "vad": [
+        0.35,
+        0.2,
+        0.3
+      ],
+      "cluster_id": "svidrigailov-2",
+      "distance_to_centroid": 0.2502696088754167,
+      "warning": null,
+      "chapter_sentence_start": 301,
+      "chapter_sentence_end": 301,
+      "timeline_start_index": 8506,
+      "timeline_end_index": 8506,
+      "highlights": [
+        {
+          "chapter_sentence": 301,
+          "start": 0,
+          "end": 53
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::4_4_1_0015",
+      "source_section": "4_4_1",
+      "source_sentence": 76,
+      "character_position": 78,
+      "text": "повторял он настойчиво про себя",
+      "vad": [
+        0.1,
+        0.45,
+        0.35
+      ],
+      "cluster_id": "svidrigailov-2",
+      "distance_to_centroid": 0.3818207053574982,
+      "warning": null,
+      "chapter_sentence_start": 319,
+      "chapter_sentence_end": 319,
+      "timeline_start_index": 8524,
+      "timeline_end_index": 8524,
+      "highlights": [
+        {
+          "chapter_sentence": 319,
+          "start": 2,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::4_4_1_0016",
+      "source_section": "4_4_1",
+      "source_sentence": 81,
+      "character_position": 79,
+      "text": "с жадным любопытством рассматривая ее",
+      "vad": [
+        0.35,
+        0.55,
+        0.1
+      ],
+      "cluster_id": "svidrigailov-2",
+      "distance_to_centroid": 0.3200612831205001,
+      "warning": null,
+      "chapter_sentence_start": 324,
+      "chapter_sentence_end": 324,
+      "timeline_start_index": 8529,
+      "timeline_end_index": 8529,
+      "highlights": [
+        {
+          "chapter_sentence": 324,
+          "start": 21,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::4_4_1_0017",
+      "source_section": "4_4_1",
+      "source_sentence": 82,
+      "character_position": 80,
+      "text": "С новым, странным, почти болезненным, чувством всматривался он",
+      "vad": [
+        -0.62,
+        0.68,
+        0.12
+      ],
+      "cluster_id": "svidrigailov-1",
+      "distance_to_centroid": 0.4569565733150507,
+      "warning": null,
+      "chapter_sentence_start": 325,
+      "chapter_sentence_end": 325,
+      "timeline_start_index": 8530,
+      "timeline_end_index": 8530,
+      "highlights": [
+        {
+          "chapter_sentence": 325,
+          "start": 0,
+          "end": 62
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::4_4_1_0018",
+      "source_section": "4_4_1",
+      "source_sentence": 83,
+      "character_position": 81,
+      "text": "Юродивая! юродивая!",
+      "vad": [
+        -0.72,
+        0.48,
+        0.34
+      ],
+      "cluster_id": "svidrigailov-1",
+      "distance_to_centroid": 0.4578492945964861,
+      "warning": null,
+      "chapter_sentence_start": 326,
+      "chapter_sentence_end": 326,
+      "timeline_start_index": 8531,
+      "timeline_end_index": 8531,
+      "highlights": [
+        {
+          "chapter_sentence": 326,
+          "start": 1,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::4_4_1_0019",
+      "source_section": "4_4_1",
+      "source_sentence": 84,
+      "character_position": 82,
+      "text": "твердил он про себя",
+      "vad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster_id": "svidrigailov-1",
+      "distance_to_centroid": 0.5046501856690766,
+      "warning": null,
+      "chapter_sentence_start": 327,
+      "chapter_sentence_end": 327,
+      "timeline_start_index": 8532,
+      "timeline_end_index": 8532,
+      "highlights": [
+        {
+          "chapter_sentence": 327,
+          "start": 2,
+          "end": 21
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::4_4_1_0020",
+      "source_section": "4_4_1",
+      "source_sentence": 95,
+      "character_position": 83,
+      "text": "Лизавета! странно!",
+      "vad": [
+        -0.12,
+        0.38,
+        0.08
+      ],
+      "cluster_id": "svidrigailov-1",
+      "distance_to_centroid": 0.3183501372637263,
+      "warning": null,
+      "chapter_sentence_start": 338,
+      "chapter_sentence_end": 338,
+      "timeline_start_index": 8543,
+      "timeline_end_index": 8543,
+      "highlights": [
+        {
+          "chapter_sentence": 338,
+          "start": 1,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::4_4_1_0021",
+      "source_section": "4_4_1",
+      "source_sentence": 97,
+      "character_position": 84,
+      "text": "Все у Сони становилось для него как-то страннее и чудеснее",
+      "vad": [
+        0.35,
+        0.25,
+        0.1
+      ],
+      "cluster_id": "svidrigailov-2",
+      "distance_to_centroid": 0.3265166733816502,
+      "warning": null,
+      "chapter_sentence_start": 340,
+      "chapter_sentence_end": 340,
+      "timeline_start_index": 8545,
+      "timeline_end_index": 8545,
+      "highlights": [
+        {
+          "chapter_sentence": 340,
+          "start": 0,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::4_4_1_0022",
+      "source_section": "4_4_1",
+      "source_sentence": 108,
+      "character_position": 85,
+      "text": "угрюмо уставился в сторону",
+      "vad": [
+        -0.65,
+        0.25,
+        -0.2
+      ],
+      "cluster_id": "svidrigailov-1",
+      "distance_to_centroid": 0.3506763368537526,
+      "warning": null,
+      "chapter_sentence_start": 351,
+      "chapter_sentence_end": 351,
+      "timeline_start_index": 8556,
+      "timeline_end_index": 8556,
+      "highlights": [
+        {
+          "chapter_sentence": 351,
+          "start": 83,
+          "end": 109
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::4_4_1_0023",
+      "source_section": "4_4_1",
+      "source_sentence": 110,
+      "character_position": 86,
+      "text": "Я, кажется, сам там буду, если еще хуже не будет",
+      "vad": [
+        -0.55,
+        0.35,
+        -0.25
+      ],
+      "cluster_id": "svidrigailov-1",
+      "distance_to_centroid": 0.3478878792980576,
+      "warning": null,
+      "chapter_sentence_start": 353,
+      "chapter_sentence_end": 353,
+      "timeline_start_index": 8558,
+      "timeline_end_index": 8558,
+      "highlights": [
+        {
+          "chapter_sentence": 353,
+          "start": 0,
+          "end": 48
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::4_4_1_0024",
+      "source_section": "4_4_1",
+      "source_sentence": 110,
+      "character_position": 87,
+      "text": "бормотал он про себя",
+      "vad": [
+        -0.2,
+        -0.25,
+        -0.2
+      ],
+      "cluster_id": "svidrigailov-1",
+      "distance_to_centroid": 0.6255705208547635,
+      "warning": null,
+      "chapter_sentence_start": 353,
+      "chapter_sentence_end": 353,
+      "timeline_start_index": 8558,
+      "timeline_end_index": 8558,
+      "highlights": [
+        {
+          "chapter_sentence": 353,
+          "start": 53,
+          "end": 73
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::4_4_1_0025",
+      "source_section": "4_4_1",
+      "source_sentence": 131,
+      "character_position": 88,
+      "text": "Нервы его раздражались все более и более",
+      "vad": [
+        -0.72,
+        0.78,
+        -0.38
+      ],
+      "cluster_id": "svidrigailov-3",
+      "distance_to_centroid": 0.1879986189460541,
+      "warning": null,
+      "chapter_sentence_start": 374,
+      "chapter_sentence_end": 374,
+      "timeline_start_index": 8579,
+      "timeline_end_index": 8579,
+      "highlights": [
+        {
+          "chapter_sentence": 374,
+          "start": 0,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::4_4_1_0026",
+      "source_section": "4_4_1",
+      "source_sentence": 132,
+      "character_position": 89,
+      "text": "Голова начала кружиться",
+      "vad": [
+        -0.45,
+        0.7,
+        -0.35
+      ],
+      "cluster_id": "svidrigailov-3",
+      "distance_to_centroid": 0.3866099976066748,
+      "warning": null,
+      "chapter_sentence_start": 375,
+      "chapter_sentence_end": 375,
+      "timeline_start_index": 8580,
+      "timeline_end_index": 8580,
+      "highlights": [
+        {
+          "chapter_sentence": 375,
+          "start": 0,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::4_4_1_0027",
+      "source_section": "4_4_1",
+      "source_sentence": 140,
+      "character_position": 90,
+      "text": "Тут и сам станешь юродивым! заразительно!",
+      "vad": [
+        -0.55,
+        0.78,
+        0.28
+      ],
+      "cluster_id": "svidrigailov-1",
+      "distance_to_centroid": 0.566335936727634,
+      "warning": null,
+      "chapter_sentence_start": 383,
+      "chapter_sentence_end": 383,
+      "timeline_start_index": 8588,
+      "timeline_end_index": 8588,
+      "highlights": [
+        {
+          "chapter_sentence": 383,
+          "start": 1,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::4_4_1_0028",
+      "source_section": "4_4_1",
+      "source_sentence": 143,
+      "character_position": 91,
+      "text": "воскликнул он вдруг настойчиво и раздражительно",
+      "vad": [
+        -0.45,
+        0.7,
+        0.65
+      ],
+      "cluster_id": "svidrigailov-1",
+      "distance_to_centroid": 0.7261377118443167,
+      "warning": null,
+      "chapter_sentence_start": 386,
+      "chapter_sentence_end": 386,
+      "timeline_start_index": 8591,
+      "timeline_end_index": 8591,
+      "highlights": [
+        {
+          "chapter_sentence": 386,
+          "start": 2,
+          "end": 49
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::4_4_1_0029",
+      "source_section": "4_4_1",
+      "source_sentence": 147,
+      "character_position": 92,
+      "text": "Почти с мучением смотрел он на «несчастную помешанную»",
+      "vad": [
+        -0.72,
+        0.38,
+        -0.18
+      ],
+      "cluster_id": "svidrigailov-1",
+      "distance_to_centroid": 0.4010623100747562,
+      "warning": null,
+      "chapter_sentence_start": 390,
+      "chapter_sentence_end": 390,
+      "timeline_start_index": 8595,
+      "timeline_end_index": 8595,
+      "highlights": [
+        {
+          "chapter_sentence": 390,
+          "start": 0,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::4_4_2_0001",
+      "source_section": "4_4_2",
+      "source_sentence": 166,
+      "character_position": 93,
+      "text": "Разговор показался ему занимательным и знаменательным и очень, очень понравился",
+      "vad": [
+        0.85,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "svidrigailov-2",
+      "distance_to_centroid": 0.4537334102327452,
+      "warning": null,
+      "chapter_sentence_start": 562,
+      "chapter_sentence_end": 562,
+      "timeline_start_index": 8767,
+      "timeline_end_index": 8767,
+      "highlights": [
+        {
+          "chapter_sentence": 562,
+          "start": 0,
+          "end": 79
+        }
+      ]
+    }
+  ]
+}

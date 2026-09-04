@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "crime-and-punishment",
+  "character_id": "marmeladova",
+  "chapter_id": "6_1",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "Софья Семёновна Мармеладова::6_1_0001",
+      "source_section": "6_1",
+      "source_sentence": 40,
+      "character_position": 239,
+      "text": "Сзади них, тихо и как бы робко плача, молилась Соня.",
+      "vad": [
+        -0.45,
+        0.2,
+        -0.2
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.1440845701333455,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 11549,
+      "timeline_end_index": 11549,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 0,
+          "end": 52
+        }
+      ]
+    }
+  ]
+}

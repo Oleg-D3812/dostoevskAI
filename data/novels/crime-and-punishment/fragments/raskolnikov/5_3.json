@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "crime-and-punishment",
+  "character_id": "raskolnikov",
+  "chapter_id": "5_3",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "Родион Романович Раскольников::5_3_0001",
+      "source_section": "5_3",
+      "source_sentence": 72,
+      "character_position": 776,
+      "text": "огненным взглядом смотрел на нее",
+      "vad": [
+        -0.85,
+        0.8,
+        0.45
+      ],
+      "cluster_id": "raskolnikov-1",
+      "distance_to_centroid": 0.3757874696829755,
+      "warning": null,
+      "chapter_sentence_start": 72,
+      "chapter_sentence_end": 72,
+      "timeline_start_index": 10192,
+      "timeline_end_index": 10192,
+      "highlights": [
+        {
+          "chapter_sentence": 72,
+          "start": 74,
+          "end": 106
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::5_3_0002",
+      "source_section": "5_3",
+      "source_sentence": 215,
+      "character_position": 777,
+      "text": "Горящий взгляд Раскольникова готов был испепелить его.",
+      "vad": [
+        -0.85,
+        0.9,
+        0.65
+      ],
+      "cluster_id": "raskolnikov-1",
+      "distance_to_centroid": 0.5501807061642654,
+      "warning": null,
+      "chapter_sentence_start": 215,
+      "chapter_sentence_end": 215,
+      "timeline_start_index": 10335,
+      "timeline_end_index": 10335,
+      "highlights": [
+        {
+          "chapter_sentence": 215,
+          "start": 0,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::5_3_0003",
+      "source_section": "5_3",
+      "source_sentence": 323,
+      "character_position": 778,
+      "text": "Он был, по-видимому, тверд и спокоен.",
+      "vad": [
+        0.35,
+        -0.2,
+        0.75
+      ],
+      "cluster_id": "raskolnikov-2",
+      "distance_to_centroid": 0.749238782640854,
+      "warning": null,
+      "chapter_sentence_start": 323,
+      "chapter_sentence_end": 323,
+      "timeline_start_index": 10443,
+      "timeline_end_index": 10443,
+      "highlights": [
+        {
+          "chapter_sentence": 323,
+          "start": 0,
+          "end": 37
+        }
+      ]
+    }
+  ]
+}

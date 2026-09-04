@@ -1,0 +1,581 @@
+{
+  "schema_version": 1,
+  "novel_id": "crime-and-punishment",
+  "character_id": "raskolnikov",
+  "chapter_id": "3_2",
+  "count": 22,
+  "fragments": [
+    {
+      "id": "Родион Романович Раскольников::3_2_0001",
+      "source_section": "3_2",
+      "source_sentence": 1,
+      "character_position": 473,
+      "text": "Озабоченный и серьезный",
+      "vad": [
+        -0.2,
+        0.45,
+        0.1
+      ],
+      "cluster_id": "raskolnikov-1",
+      "distance_to_centroid": 0.4547918483832006,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 5410,
+      "timeline_end_index": 5410,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 0,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_2_0002",
+      "source_section": "3_2",
+      "source_sentence": 5,
+      "character_position": 474,
+      "text": "ему даже стало стыдно ее",
+      "vad": [
+        -0.8,
+        0.35,
+        -0.45
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.3396797535455796,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 5414,
+      "timeline_end_index": 5414,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 131,
+          "end": 155
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_2_0003",
+      "source_section": "3_2",
+      "source_sentence": 6,
+      "character_position": 475,
+      "text": "как он оказался вчера «низок и гадок»",
+      "vad": [
+        -0.82,
+        0.42,
+        -0.48
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.2671485472746216,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 5415,
+      "timeline_end_index": 5415,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 44,
+          "end": 81
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_2_0006",
+      "source_section": "3_2",
+      "source_sentence": 20,
+      "character_position": 476,
+      "text": "это уж было невыносимо",
+      "vad": [
+        -0.96,
+        0.9,
+        -0.35
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.3304798458931551,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 5429,
+      "timeline_end_index": 5429,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 207,
+          "end": 229
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_2_0007",
+      "source_section": "3_2",
+      "source_sentence": 22,
+      "character_position": 477,
+      "text": "с каким-то чувством самоунижения",
+      "vad": [
+        -0.75,
+        0.2,
+        -0.65
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.4982545245792381,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 5431,
+      "timeline_end_index": 5431,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 50,
+          "end": 82
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_2_0008",
+      "source_section": "3_2",
+      "source_sentence": 22,
+      "character_position": 478,
+      "text": "все погибло",
+      "vad": [
+        -0.95,
+        0.75,
+        -0.7
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.2505806308339215,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 5431,
+      "timeline_end_index": 5431,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 337,
+          "end": 348
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_2_0009",
+      "source_section": "3_2",
+      "source_sentence": 29,
+      "character_position": 479,
+      "text": "с ожесточением даже был решен отрицательно",
+      "vad": [
+        -0.72,
+        0.68,
+        0.56
+      ],
+      "cluster_id": "raskolnikov-1",
+      "distance_to_centroid": 0.3208962937242454,
+      "warning": null,
+      "chapter_sentence_start": 29,
+      "chapter_sentence_end": 29,
+      "timeline_start_index": 5438,
+      "timeline_end_index": 5438,
+      "highlights": [
+        {
+          "chapter_sentence": 29,
+          "start": 169,
+          "end": 211
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_2_0010",
+      "source_section": "3_2",
+      "source_sentence": 37,
+      "character_position": 480,
+      "text": "наплевать",
+      "vad": [
+        -0.35,
+        0.25,
+        0.45
+      ],
+      "cluster_id": "raskolnikov-1",
+      "distance_to_centroid": 0.4450108204649999,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 5446,
+      "timeline_end_index": 5446,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 57,
+          "end": 66
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_2_0012",
+      "source_section": "3_2",
+      "source_sentence": 94,
+      "character_position": 481,
+      "text": "рассердился – на себя, разумеется",
+      "vad": [
+        -0.65,
+        0.45,
+        0.1
+      ],
+      "cluster_id": "raskolnikov-1",
+      "distance_to_centroid": 0.2294538258378557,
+      "warning": null,
+      "chapter_sentence_start": 94,
+      "chapter_sentence_end": 94,
+      "timeline_start_index": 5503,
+      "timeline_end_index": 5503,
+      "highlights": [
+        {
+          "chapter_sentence": 94,
+          "start": 67,
+          "end": 100
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_2_0013",
+      "source_section": "3_2",
+      "source_sentence": 96,
+      "character_position": 482,
+      "text": "ему уж, право, было бы легче, если бы встретили бранью, а то уж слишком стало конфузливо",
+      "vad": [
+        -0.72,
+        0.48,
+        -0.38
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.2560122250097034,
+      "warning": null,
+      "chapter_sentence_start": 96,
+      "chapter_sentence_end": 96,
+      "timeline_start_index": 5505,
+      "timeline_end_index": 5505,
+      "highlights": [
+        {
+          "chapter_sentence": 96,
+          "start": 247,
+          "end": 335
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_2_0014",
+      "source_section": "3_2",
+      "source_sentence": 101,
+      "character_position": 483,
+      "text": "сконфузился и ужасно обрадовался",
+      "vad": [
+        0.55,
+        0.65,
+        -0.25
+      ],
+      "cluster_id": "raskolnikov-2",
+      "distance_to_centroid": 0.5946775278323545,
+      "warning": null,
+      "chapter_sentence_start": 101,
+      "chapter_sentence_end": 101,
+      "timeline_start_index": 5510,
+      "timeline_end_index": 5510,
+      "highlights": [
+        {
+          "chapter_sentence": 101,
+          "start": 76,
+          "end": 108
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_2_0015",
+      "source_section": "3_2",
+      "source_sentence": 139,
+      "character_position": 484,
+      "text": "в сердце его вселился страх",
+      "vad": [
+        -0.82,
+        0.72,
+        -0.55
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.0583347227962868,
+      "warning": null,
+      "chapter_sentence_start": 139,
+      "chapter_sentence_end": 139,
+      "timeline_start_index": 5548,
+      "timeline_end_index": 5548,
+      "highlights": [
+        {
+          "chapter_sentence": 139,
+          "start": 186,
+          "end": 213
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_2_0016",
+      "source_section": "3_2",
+      "source_sentence": 139,
+      "character_position": 485,
+      "text": "стал бояться за каждое слово свое, за каждый жест",
+      "vad": [
+        -0.72,
+        0.68,
+        -0.62
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.1151694338132057,
+      "warning": null,
+      "chapter_sentence_start": 139,
+      "chapter_sentence_end": 139,
+      "timeline_start_index": 5548,
+      "timeline_end_index": 5548,
+      "highlights": [
+        {
+          "chapter_sentence": 139,
+          "start": 220,
+          "end": 269
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_2_0017",
+      "source_section": "3_2",
+      "source_sentence": 119,
+      "character_position": 486,
+      "text": "угрюм, мрачен, надменен и горд",
+      "vad": [
+        -0.65,
+        0.35,
+        0.7
+      ],
+      "cluster_id": "raskolnikov-1",
+      "distance_to_centroid": 0.4807253055390975,
+      "warning": null,
+      "chapter_sentence_start": 119,
+      "chapter_sentence_end": 119,
+      "timeline_start_index": 5528,
+      "timeline_end_index": 5528,
+      "highlights": [
+        {
+          "chapter_sentence": 119,
+          "start": 29,
+          "end": 59
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_2_0018",
+      "source_section": "3_2",
+      "source_sentence": 119,
+      "character_position": 487,
+      "text": "мнителен и ипохондрик",
+      "vad": [
+        -0.35,
+        0.2,
+        -0.15
+      ],
+      "cluster_id": "raskolnikov-3",
+      "distance_to_centroid": 0.1543205317525284,
+      "warning": null,
+      "chapter_sentence_start": 119,
+      "chapter_sentence_end": 119,
+      "timeline_start_index": 5528,
+      "timeline_end_index": 5528,
+      "highlights": [
+        {
+          "chapter_sentence": 119,
+          "start": 105,
+          "end": 126
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_2_0019",
+      "source_section": "3_2",
+      "source_sentence": 121,
+      "character_position": 488,
+      "text": "жестокость сделает, чем словами выскажет сердце",
+      "vad": [
+        -0.72,
+        0.18,
+        0.22
+      ],
+      "cluster_id": "raskolnikov-1",
+      "distance_to_centroid": 0.4231477677076971,
+      "warning": null,
+      "chapter_sentence_start": 121,
+      "chapter_sentence_end": 121,
+      "timeline_start_index": 5530,
+      "timeline_end_index": 5530,
+      "highlights": [
+        {
+          "chapter_sentence": 121,
+          "start": 43,
+          "end": 90
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_2_0020",
+      "source_section": "3_2",
+      "source_sentence": 122,
+      "character_position": 489,
+      "text": "вовсе не ипохондрик, а просто холоден и бесчувствен до бесчеловечия",
+      "vad": [
+        -0.8,
+        0.1,
+        0.5
+      ],
+      "cluster_id": "raskolnikov-1",
+      "distance_to_centroid": 0.5654367426449421,
+      "warning": null,
+      "chapter_sentence_start": 122,
+      "chapter_sentence_end": 122,
+      "timeline_start_index": 5531,
+      "timeline_end_index": 5531,
+      "highlights": [
+        {
+          "chapter_sentence": 122,
+          "start": 17,
+          "end": 84
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_2_0021",
+      "source_section": "3_2",
+      "source_sentence": 123,
+      "character_position": 490,
+      "text": "Ужасно иногда неразговорчив",
+      "vad": [
+        -0.35,
+        -0.45,
+        0.1
+      ],
+      "cluster_id": "raskolnikov-3",
+      "distance_to_centroid": 0.6114680569983508,
+      "warning": null,
+      "chapter_sentence_start": 123,
+      "chapter_sentence_end": 123,
+      "timeline_start_index": 5532,
+      "timeline_end_index": 5532,
+      "highlights": [
+        {
+          "chapter_sentence": 123,
+          "start": 0,
+          "end": 27
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_2_0022",
+      "source_section": "3_2",
+      "source_sentence": 128,
+      "character_position": 491,
+      "text": "Ужасно высоко себя ценит",
+      "vad": [
+        -0.35,
+        0.15,
+        0.75
+      ],
+      "cluster_id": "raskolnikov-1",
+      "distance_to_centroid": 0.6820986079211327,
+      "warning": null,
+      "chapter_sentence_start": 128,
+      "chapter_sentence_end": 128,
+      "timeline_start_index": 5537,
+      "timeline_end_index": 5537,
+      "highlights": [
+        {
+          "chapter_sentence": 128,
+          "start": 0,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_2_0023",
+      "source_section": "3_2",
+      "source_sentence": 177,
+      "character_position": 492,
+      "text": "с убитым видом",
+      "vad": [
+        -0.72,
+        0.18,
+        -0.62
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.5140679807613219,
+      "warning": null,
+      "chapter_sentence_start": 177,
+      "chapter_sentence_end": 177,
+      "timeline_start_index": 5586,
+      "timeline_end_index": 5586,
+      "highlights": [
+        {
+          "chapter_sentence": 177,
+          "start": 54,
+          "end": 68
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_2_0024",
+      "source_section": "3_2",
+      "source_sentence": 218,
+      "character_position": 493,
+      "text": "он такой раздражительный",
+      "vad": [
+        -0.55,
+        0.45,
+        0.05
+      ],
+      "cluster_id": "raskolnikov-1",
+      "distance_to_centroid": 0.269336393785726,
+      "warning": null,
+      "chapter_sentence_start": 218,
+      "chapter_sentence_end": 218,
+      "timeline_start_index": 5627,
+      "timeline_end_index": 5627,
+      "highlights": [
+        {
+          "chapter_sentence": 218,
+          "start": 122,
+          "end": 146
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_2_0025",
+      "source_section": "3_2",
+      "source_sentence": 221,
+      "character_position": 494,
+      "text": "Он был не в себе вчера",
+      "vad": [
+        -0.45,
+        0.25,
+        -0.35
+      ],
+      "cluster_id": "raskolnikov-3",
+      "distance_to_centroid": 0.2310131280389781,
+      "warning": null,
+      "chapter_sentence_start": 221,
+      "chapter_sentence_end": 221,
+      "timeline_start_index": 5630,
+      "timeline_end_index": 5630,
+      "highlights": [
+        {
+          "chapter_sentence": 221,
+          "start": 2,
+          "end": 24
+        }
+      ]
+    }
+  ]
+}

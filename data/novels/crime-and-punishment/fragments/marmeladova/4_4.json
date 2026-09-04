@@ -1,0 +1,2479 @@
+{
+  "schema_version": 1,
+  "novel_id": "crime-and-punishment",
+  "character_id": "marmeladova",
+  "chapter_id": "4_4",
+  "count": 95,
+  "fragments": [
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0001",
+      "source_section": "4_4_0",
+      "source_sentence": 7,
+      "character_position": 26,
+      "text": "– тревожно спросил женский голос.",
+      "vad": [
+        -0.35,
+        0.55,
+        0.1
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.4457468675072962,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 8212,
+      "timeline_end_index": 8212,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 0,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0002",
+      "source_section": "4_4_0",
+      "source_sentence": 12,
+      "character_position": 27,
+      "text": "– слабо вскрикнула Соня и стала как вкопанная.",
+      "vad": [
+        -0.72,
+        0.76,
+        -0.58
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.093664082446788,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 8217,
+      "timeline_end_index": 8217,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 0,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0003",
+      "source_section": "4_4_0",
+      "source_sentence": 15,
+      "character_position": 28,
+      "text": "совсем растерявшаяся, вся в невыразимом волнении и, видимо, испуганная его неожиданным посещением.",
+      "vad": [
+        -0.85,
+        0.9,
+        -0.75
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.2473949329667158,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 8220,
+      "timeline_end_index": 8220,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 78,
+          "end": 176
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0004",
+      "source_section": "4_4_0",
+      "source_sentence": 17,
+      "character_position": 29,
+      "text": "Ей было и тошно, и стыдно, и сладко…",
+      "vad": [
+        -0.45,
+        0.72,
+        -0.2
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.4005388762503511,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 8222,
+      "timeline_end_index": 8222,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 0,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0005",
+      "source_section": "4_4_0",
+      "source_sentence": 32,
+      "character_position": 30,
+      "text": "начала, наконец, дрожать в страхе",
+      "vad": [
+        -0.82,
+        0.78,
+        -0.65
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.0885839150210851,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 8237,
+      "timeline_end_index": 8237,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 102,
+          "end": 135
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0006",
+      "source_section": "4_4_0",
+      "source_sentence": 44,
+      "character_position": 31,
+      "text": "– дрогнул голос у Сони.",
+      "vad": [
+        -0.55,
+        0.35,
+        -0.2
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.1191033038810036,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 8249,
+      "timeline_end_index": 8249,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 0,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0007",
+      "source_section": "4_4_0",
+      "source_sentence": 73,
+      "character_position": 32,
+      "text": "все еще как бы не опомнившись и не сообразившись",
+      "vad": [
+        -0.35,
+        0.45,
+        -0.45
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.2433673212864398,
+      "warning": null,
+      "chapter_sentence_start": 73,
+      "chapter_sentence_end": 73,
+      "timeline_start_index": 8278,
+      "timeline_end_index": 8278,
+      "highlights": [
+        {
+          "chapter_sentence": 73,
+          "start": 58,
+          "end": 106
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0008",
+      "source_section": "4_4_0",
+      "source_sentence": 88,
+      "character_position": 33,
+      "text": "Соня смутилась.",
+      "vad": [
+        -0.55,
+        0.3,
+        -0.2
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.1193971961702394,
+      "warning": null,
+      "chapter_sentence_start": 88,
+      "chapter_sentence_end": 88,
+      "timeline_start_index": 8293,
+      "timeline_end_index": 8293,
+      "highlights": [
+        {
+          "chapter_sentence": 88,
+          "start": 0,
+          "end": 15
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0009",
+      "source_section": "4_4_0",
+      "source_sentence": 89,
+      "character_position": 34,
+      "text": "прошептала она нерешительно.",
+      "vad": [
+        -0.3,
+        0.35,
+        -0.2
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.1734843276744095,
+      "warning": null,
+      "chapter_sentence_start": 89,
+      "chapter_sentence_end": 89,
+      "timeline_start_index": 8294,
+      "timeline_end_index": 8294,
+      "highlights": [
+        {
+          "chapter_sentence": 89,
+          "start": 32,
+          "end": 60
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0010",
+      "source_section": "4_4_0",
+      "source_sentence": 96,
+      "character_position": 35,
+      "text": "опять смутившись и потупившись.",
+      "vad": [
+        -0.45,
+        0.2,
+        -0.3
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.1293896122636045,
+      "warning": null,
+      "chapter_sentence_start": 96,
+      "chapter_sentence_end": 96,
+      "timeline_start_index": 8301,
+      "timeline_end_index": 8301,
+      "highlights": [
+        {
+          "chapter_sentence": 96,
+          "start": 35,
+          "end": 66
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0011",
+      "source_section": "4_4_0",
+      "source_sentence": 99,
+      "character_position": 36,
+      "text": "– с каким-то даже испугом посмотрела на него Соня.",
+      "vad": [
+        -0.45,
+        0.55,
+        -0.2
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.2350951065949767,
+      "warning": null,
+      "chapter_sentence_start": 99,
+      "chapter_sentence_end": 99,
+      "timeline_start_index": 8304,
+      "timeline_end_index": 8304,
+      "highlights": [
+        {
+          "chapter_sentence": 99,
+          "start": 0,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0012",
+      "source_section": "4_4_0",
+      "source_sentence": 103,
+      "character_position": 37,
+      "text": "жалобно и с страданием сложив вдруг руки.",
+      "vad": [
+        -0.82,
+        0.56,
+        -0.42
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.2318048846730495,
+      "warning": null,
+      "chapter_sentence_start": 103,
+      "chapter_sentence_end": 103,
+      "timeline_start_index": 8308,
+      "timeline_end_index": 8308,
+      "highlights": [
+        {
+          "chapter_sentence": 103,
+          "start": 17,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0013",
+      "source_section": "4_4_0",
+      "source_sentence": 110,
+      "character_position": 38,
+      "text": "точно в отчаянии, волнуясь и страдая",
+      "vad": [
+        -0.95,
+        0.9,
+        -0.65
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.2410440043670021,
+      "warning": null,
+      "chapter_sentence_start": 110,
+      "chapter_sentence_end": 110,
+      "timeline_start_index": 8315,
+      "timeline_end_index": 8315,
+      "highlights": [
+        {
+          "chapter_sentence": 110,
+          "start": 21,
+          "end": 57
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0014",
+      "source_section": "4_4_0",
+      "source_sentence": 111,
+      "character_position": 39,
+      "text": "в глазах выразилась мука.",
+      "vad": [
+        -0.9,
+        0.5,
+        -0.6
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.2392736339533146,
+      "warning": null,
+      "chapter_sentence_start": 111,
+      "chapter_sentence_end": 111,
+      "timeline_start_index": 8316,
+      "timeline_end_index": 8316,
+      "highlights": [
+        {
+          "chapter_sentence": 111,
+          "start": 33,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0015",
+      "source_section": "4_4_0",
+      "source_sentence": 112,
+      "character_position": 40,
+      "text": "Видно было, что в ней ужасно много затронули, что ей ужасно хотелось что-то выразить, сказать, заступиться.",
+      "vad": [
+        -0.45,
+        0.78,
+        -0.25
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.4547943858975932,
+      "warning": null,
+      "chapter_sentence_start": 112,
+      "chapter_sentence_end": 112,
+      "timeline_start_index": 8317,
+      "timeline_end_index": 8317,
+      "highlights": [
+        {
+          "chapter_sentence": 112,
+          "start": 0,
+          "end": 107
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0016",
+      "source_section": "4_4_0",
+      "source_sentence": 113,
+      "character_position": 41,
+      "text": "Какое-то ненасытимое сострадание, если можно так выразиться, изобразилось вдруг во всех чертах лица ее.",
+      "vad": [
+        -0.35,
+        0.55,
+        -0.15
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.2759411910545514,
+      "warning": null,
+      "chapter_sentence_start": 113,
+      "chapter_sentence_end": 113,
+      "timeline_start_index": 8318,
+      "timeline_end_index": 8318,
+      "highlights": [
+        {
+          "chapter_sentence": 113,
+          "start": 0,
+          "end": 103
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0017",
+      "source_section": "4_4_0",
+      "source_sentence": 134,
+      "character_position": 42,
+      "text": "– Не знаю, – грустно произнесла Соня.",
+      "vad": [
+        -0.55,
+        -0.2,
+        -0.35
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.539841261529328,
+      "warning": null,
+      "chapter_sentence_start": 134,
+      "chapter_sentence_end": 134,
+      "timeline_start_index": 8339,
+      "timeline_end_index": 8339,
+      "highlights": [
+        {
+          "chapter_sentence": 134,
+          "start": 0,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0018",
+      "source_section": "4_4_0",
+      "source_sentence": 139,
+      "character_position": 43,
+      "text": "– Ах, нет, не говорите так!..",
+      "vad": [
+        -0.45,
+        0.55,
+        -0.3
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.2263868758477806,
+      "warning": null,
+      "chapter_sentence_start": 139,
+      "chapter_sentence_end": 139,
+      "timeline_start_index": 8344,
+      "timeline_end_index": 8344,
+      "highlights": [
+        {
+          "chapter_sentence": 139,
+          "start": 0,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0019",
+      "source_section": "4_4_0",
+      "source_sentence": 140,
+      "character_position": 44,
+      "text": "вдруг опять взволновалась и даже раздражилась Соня",
+      "vad": [
+        -0.72,
+        0.78,
+        -0.18
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.4211356945994587,
+      "warning": null,
+      "chapter_sentence_start": 140,
+      "chapter_sentence_end": 140,
+      "timeline_start_index": 8345,
+      "timeline_end_index": 8345,
+      "highlights": [
+        {
+          "chapter_sentence": 140,
+          "start": 25,
+          "end": 75
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0020",
+      "source_section": "4_4_0",
+      "source_sentence": 143,
+      "character_position": 45,
+      "text": "спрашивала она, горячась и волнуясь.",
+      "vad": [
+        -0.55,
+        0.82,
+        -0.2
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.4746378868209999,
+      "warning": null,
+      "chapter_sentence_start": 143,
+      "chapter_sentence_end": 143,
+      "timeline_start_index": 8348,
+      "timeline_end_index": 8348,
+      "highlights": [
+        {
+          "chapter_sentence": 143,
+          "start": 2,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0021",
+      "source_section": "4_4_0",
+      "source_sentence": 151,
+      "character_position": 46,
+      "text": "Ах, как было жалко смотреть.",
+      "vad": [
+        -0.82,
+        0.42,
+        -0.28
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.3753510366759205,
+      "warning": null,
+      "chapter_sentence_start": 151,
+      "chapter_sentence_end": 151,
+      "timeline_start_index": 8356,
+      "timeline_end_index": 8356,
+      "highlights": [
+        {
+          "chapter_sentence": 151,
+          "start": 0,
+          "end": 28
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0022",
+      "source_section": "4_4_0",
+      "source_sentence": 155,
+      "character_position": 47,
+      "text": "– вскинулась опять Соня",
+      "vad": [
+        0.1,
+        0.65,
+        0.2
+      ],
+      "cluster_id": "marmeladova-2",
+      "distance_to_centroid": 0.5207919549638123,
+      "warning": null,
+      "chapter_sentence_start": 155,
+      "chapter_sentence_end": 155,
+      "timeline_start_index": 8360,
+      "timeline_end_index": 8360,
+      "highlights": [
+        {
+          "chapter_sentence": 155,
+          "start": 0,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0023",
+      "source_section": "4_4_0",
+      "source_sentence": 159,
+      "character_position": 48,
+      "text": "Ох, я!",
+      "vad": [
+        -0.85,
+        0.72,
+        -0.62
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.0562262902452986,
+      "warning": null,
+      "chapter_sentence_start": 159,
+      "chapter_sentence_end": 159,
+      "timeline_start_index": 8364,
+      "timeline_end_index": 8364,
+      "highlights": [
+        {
+          "chapter_sentence": 159,
+          "start": 0,
+          "end": 6
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0024",
+      "source_section": "4_4_0",
+      "source_sentence": 161,
+      "character_position": 49,
+      "text": "Я жестоко поступила!",
+      "vad": [
+        -0.9,
+        0.6,
+        -0.4
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.2424369638257215,
+      "warning": null,
+      "chapter_sentence_start": 161,
+      "chapter_sentence_end": 161,
+      "timeline_start_index": 8366,
+      "timeline_end_index": 8366,
+      "highlights": [
+        {
+          "chapter_sentence": 161,
+          "start": 0,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0025",
+      "source_section": "4_4_0",
+      "source_sentence": 163,
+      "character_position": 50,
+      "text": "Ах, как теперь, целый день вспоминать было больно!",
+      "vad": [
+        -0.82,
+        0.58,
+        -0.28
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.3383355132472382,
+      "warning": null,
+      "chapter_sentence_start": 163,
+      "chapter_sentence_end": 163,
+      "timeline_start_index": 8368,
+      "timeline_end_index": 8368,
+      "highlights": [
+        {
+          "chapter_sentence": 163,
+          "start": 0,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0026",
+      "source_section": "4_4_0",
+      "source_sentence": 164,
+      "character_position": 51,
+      "text": "Соня даже руки ломала, говоря, от боли воспоминания.",
+      "vad": [
+        -0.86,
+        0.78,
+        -0.58
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.0836426302330312,
+      "warning": null,
+      "chapter_sentence_start": 164,
+      "chapter_sentence_end": 164,
+      "timeline_start_index": 8369,
+      "timeline_end_index": 8369,
+      "highlights": [
+        {
+          "chapter_sentence": 164,
+          "start": 0,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0027",
+      "source_section": "4_4_0",
+      "source_sentence": 167,
+      "character_position": 52,
+      "text": "продолжала она, плача",
+      "vad": [
+        -0.7,
+        0.6,
+        -0.2
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.3732136127389893,
+      "warning": null,
+      "chapter_sentence_start": 167,
+      "chapter_sentence_end": 167,
+      "timeline_start_index": 8372,
+      "timeline_end_index": 8372,
+      "highlights": [
+        {
+          "chapter_sentence": 167,
+          "start": 18,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0029",
+      "source_section": "4_4_0",
+      "source_sentence": 178,
+      "character_position": 53,
+      "text": "так это было жалко смотреть…",
+      "vad": [
+        -0.72,
+        0.18,
+        -0.45
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.3505104272517339,
+      "warning": null,
+      "chapter_sentence_start": 178,
+      "chapter_sentence_end": 178,
+      "timeline_start_index": 8383,
+      "timeline_end_index": 8383,
+      "highlights": [
+        {
+          "chapter_sentence": 178,
+          "start": 76,
+          "end": 104
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0030",
+      "source_section": "4_4_0",
+      "source_sentence": 180,
+      "character_position": 54,
+      "text": "Ах, так бы, кажется, теперь все воротила, все переделала, все эти прежние слова…",
+      "vad": [
+        -0.82,
+        0.68,
+        -0.7
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.1194666483521239,
+      "warning": null,
+      "chapter_sentence_start": 180,
+      "chapter_sentence_end": 180,
+      "timeline_start_index": 8385,
+      "timeline_end_index": 8385,
+      "highlights": [
+        {
+          "chapter_sentence": 180,
+          "start": 0,
+          "end": 80
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0031",
+      "source_section": "4_4_0",
+      "source_sentence": 181,
+      "character_position": 55,
+      "text": "Ох, я… да что!..",
+      "vad": [
+        -0.45,
+        0.55,
+        -0.2
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.2350951065949767,
+      "warning": null,
+      "chapter_sentence_start": 181,
+      "chapter_sentence_end": 181,
+      "timeline_start_index": 8386,
+      "timeline_end_index": 8386,
+      "highlights": [
+        {
+          "chapter_sentence": 181,
+          "start": 0,
+          "end": 16
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0032",
+      "source_section": "4_4_0",
+      "source_sentence": 187,
+      "character_position": 56,
+      "text": "– Ох, нет, нет, нет!",
+      "vad": [
+        -0.82,
+        0.78,
+        -0.62
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.070971162586153,
+      "warning": null,
+      "chapter_sentence_start": 187,
+      "chapter_sentence_end": 187,
+      "timeline_start_index": 8392,
+      "timeline_end_index": 8392,
+      "highlights": [
+        {
+          "chapter_sentence": 187,
+          "start": 0,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0033",
+      "source_section": "4_4_0",
+      "source_sentence": 191,
+      "character_position": 57,
+      "text": "– испуганно и безотчетно повторяла она.",
+      "vad": [
+        -0.78,
+        0.72,
+        -0.48
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.1107311867305159,
+      "warning": null,
+      "chapter_sentence_start": 191,
+      "chapter_sentence_end": 191,
+      "timeline_start_index": 8396,
+      "timeline_end_index": 8396,
+      "highlights": [
+        {
+          "chapter_sentence": 191,
+          "start": 0,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0034",
+      "source_section": "4_4_0",
+      "source_sentence": 195,
+      "character_position": 58,
+      "text": "вскрикнула Соня почти в отчаянии",
+      "vad": [
+        -0.85,
+        0.75,
+        -0.7
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.1250312932276443,
+      "warning": null,
+      "chapter_sentence_start": 195,
+      "chapter_sentence_end": 195,
+      "timeline_start_index": 8400,
+      "timeline_end_index": 8400,
+      "highlights": [
+        {
+          "chapter_sentence": 195,
+          "start": 2,
+          "end": 34
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0035",
+      "source_section": "4_4_0",
+      "source_sentence": 213,
+      "character_position": 59,
+      "text": "в страшной тоске.",
+      "vad": [
+        -0.95,
+        0.55,
+        -0.7
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.2497621340513912,
+      "warning": null,
+      "chapter_sentence_start": 213,
+      "chapter_sentence_end": 213,
+      "timeline_start_index": 8418,
+      "timeline_end_index": 8418,
+      "highlights": [
+        {
+          "chapter_sentence": 213,
+          "start": 36,
+          "end": 53
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0036",
+      "source_section": "4_4_0",
+      "source_sentence": 228,
+      "character_position": 60,
+      "text": "Соня больше прежнего смутилась",
+      "vad": [
+        -0.45,
+        0.35,
+        -0.3
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.0391329961527883,
+      "warning": null,
+      "chapter_sentence_start": 228,
+      "chapter_sentence_end": 228,
+      "timeline_start_index": 8433,
+      "timeline_end_index": 8433,
+      "highlights": [
+        {
+          "chapter_sentence": 228,
+          "start": 0,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0037",
+      "source_section": "4_4_0",
+      "source_sentence": 229,
+      "character_position": 61,
+      "text": "с мучительным усилием.",
+      "vad": [
+        -0.82,
+        0.58,
+        -0.46
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.1895577590447517,
+      "warning": null,
+      "chapter_sentence_start": 229,
+      "chapter_sentence_end": 229,
+      "timeline_start_index": 8434,
+      "timeline_end_index": 8434,
+      "highlights": [
+        {
+          "chapter_sentence": 229,
+          "start": 24,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0038",
+      "source_section": "4_4_0",
+      "source_sentence": 233,
+      "character_position": 62,
+      "text": "– как отчаянная, громко вскрикнула Соня",
+      "vad": [
+        -0.88,
+        0.93,
+        -0.72
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.2604826129190124,
+      "warning": null,
+      "chapter_sentence_start": 233,
+      "chapter_sentence_end": 233,
+      "timeline_start_index": 8438,
+      "timeline_end_index": 8438,
+      "highlights": [
+        {
+          "chapter_sentence": 233,
+          "start": 0,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0039",
+      "source_section": "4_4_0",
+      "source_sentence": 233,
+      "character_position": 63,
+      "text": "как будто ее вдруг ножом ранили.",
+      "vad": [
+        -0.95,
+        0.82,
+        -0.72
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.2214781076705636,
+      "warning": null,
+      "chapter_sentence_start": 233,
+      "chapter_sentence_end": 233,
+      "timeline_start_index": 8438,
+      "timeline_end_index": 8438,
+      "highlights": [
+        {
+          "chapter_sentence": 233,
+          "start": 41,
+          "end": 73
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0040",
+      "source_section": "4_4_0",
+      "source_sentence": 234,
+      "character_position": 64,
+      "text": "– Бог, бог такого ужаса не допустит!..",
+      "vad": [
+        -0.88,
+        0.78,
+        -0.58
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.098230091198112,
+      "warning": null,
+      "chapter_sentence_start": 234,
+      "chapter_sentence_end": 234,
+      "timeline_start_index": 8439,
+      "timeline_end_index": 8439,
+      "highlights": [
+        {
+          "chapter_sentence": 234,
+          "start": 0,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0041",
+      "source_section": "4_4_0",
+      "source_sentence": 238,
+      "character_position": 65,
+      "text": "повторяла она, не помня себя.",
+      "vad": [
+        -0.78,
+        0.82,
+        -0.58
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.1043419668919678,
+      "warning": null,
+      "chapter_sentence_start": 238,
+      "chapter_sentence_end": 238,
+      "timeline_start_index": 8443,
+      "timeline_end_index": 8443,
+      "highlights": [
+        {
+          "chapter_sentence": 238,
+          "start": 2,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_0_0042",
+      "source_section": "4_4_0",
+      "source_sentence": 241,
+      "character_position": 66,
+      "text": "хотела было что-то сказать, но ничего не могла выговорить и только вдруг горько-горько зарыдала",
+      "vad": [
+        -0.95,
+        0.72,
+        -0.78
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.2412767227463905,
+      "warning": null,
+      "chapter_sentence_start": 241,
+      "chapter_sentence_end": 241,
+      "timeline_start_index": 8446,
+      "timeline_end_index": 8446,
+      "highlights": [
+        {
+          "chapter_sentence": 241,
+          "start": 44,
+          "end": 139
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_1_0001",
+      "source_section": "4_4_1",
+      "source_sentence": 6,
+      "character_position": 67,
+      "text": "Соня в ужасе от него отшатнулась",
+      "vad": [
+        -0.85,
+        0.9,
+        -0.65
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.1970708144775127,
+      "warning": null,
+      "chapter_sentence_start": 249,
+      "chapter_sentence_end": 249,
+      "timeline_start_index": 8454,
+      "timeline_end_index": 8454,
+      "highlights": [
+        {
+          "chapter_sentence": 249,
+          "start": 0,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_1_0002",
+      "source_section": "4_4_1",
+      "source_sentence": 10,
+      "character_position": 68,
+      "text": "побледнев, и больно-больно сжало вдруг ей сердце",
+      "vad": [
+        -0.92,
+        0.58,
+        -0.45
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.2277294786421813,
+      "warning": null,
+      "chapter_sentence_start": 253,
+      "chapter_sentence_end": 253,
+      "timeline_start_index": 8458,
+      "timeline_end_index": 8458,
+      "highlights": [
+        {
+          "chapter_sentence": 253,
+          "start": 20,
+          "end": 68
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_1_0003",
+      "source_section": "4_4_1",
+      "source_sentence": 16,
+      "character_position": 69,
+      "text": "испуганно вскрикнула Соня",
+      "vad": [
+        -0.78,
+        0.82,
+        -0.55
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.1108018139438693,
+      "warning": null,
+      "chapter_sentence_start": 259,
+      "chapter_sentence_end": 259,
+      "timeline_start_index": 8464,
+      "timeline_end_index": 8464,
+      "highlights": [
+        {
+          "chapter_sentence": 259,
+          "start": 2,
+          "end": 27
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_1_0004",
+      "source_section": "4_4_1",
+      "source_sentence": 17,
+      "character_position": 70,
+      "text": "я великая, великая грешница!",
+      "vad": [
+        -0.88,
+        0.7,
+        -0.72
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.1534817051312199,
+      "warning": null,
+      "chapter_sentence_start": 260,
+      "chapter_sentence_end": 260,
+      "timeline_start_index": 8465,
+      "timeline_end_index": 8465,
+      "highlights": [
+        {
+          "chapter_sentence": 260,
+          "start": 30,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_1_0005",
+      "source_section": "4_4_1",
+      "source_sentence": 21,
+      "character_position": 71,
+      "text": "Еще бы это не ужас!",
+      "vad": [
+        -0.72,
+        0.68,
+        -0.18
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.4184456593924808,
+      "warning": null,
+      "chapter_sentence_start": 264,
+      "chapter_sentence_end": 264,
+      "timeline_start_index": 8469,
+      "timeline_end_index": 8469,
+      "highlights": [
+        {
+          "chapter_sentence": 264,
+          "start": 0,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_1_0006",
+      "source_section": "4_4_1",
+      "source_sentence": 30,
+      "character_position": 72,
+      "text": "в отчаянии",
+      "vad": [
+        -0.95,
+        0.75,
+        -0.8
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.259355889363249,
+      "warning": null,
+      "chapter_sentence_start": 273,
+      "chapter_sentence_end": 273,
+      "timeline_start_index": 8478,
+      "timeline_end_index": 8478,
+      "highlights": [
+        {
+          "chapter_sentence": 273,
+          "start": 48,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_1_0007",
+      "source_section": "4_4_1",
+      "source_sentence": 32,
+      "character_position": 73,
+      "text": "до какой чудовищной боли истерзала ее, и уже давно, мысль о бесчестном и позорном ее положении",
+      "vad": [
+        -1.0,
+        0.75,
+        -0.85
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.32875797158094,
+      "warning": null,
+      "chapter_sentence_start": 275,
+      "chapter_sentence_end": 275,
+      "timeline_start_index": 8480,
+      "timeline_end_index": 8480,
+      "highlights": [
+        {
+          "chapter_sentence": 275,
+          "start": 20,
+          "end": 114
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_1_0008",
+      "source_section": "4_4_1",
+      "source_sentence": 50,
+      "character_position": 74,
+      "text": "в здравом рассудке",
+      "vad": [
+        -0.35,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.4051924531604389,
+      "warning": null,
+      "chapter_sentence_start": 293,
+      "chapter_sentence_end": 293,
+      "timeline_start_index": 8498,
+      "timeline_end_index": 8498,
+      "highlights": [
+        {
+          "chapter_sentence": 293,
+          "start": 10,
+          "end": 28
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_1_0009",
+      "source_section": "4_4_1",
+      "source_sentence": 74,
+      "character_position": 75,
+      "text": "строго и гневно смотря на него",
+      "vad": [
+        -0.35,
+        0.65,
+        0.55
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.8883322549171633,
+      "warning": null,
+      "chapter_sentence_start": 317,
+      "chapter_sentence_end": 317,
+      "timeline_start_index": 8522,
+      "timeline_end_index": 8522,
+      "highlights": [
+        {
+          "chapter_sentence": 317,
+          "start": 24,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_1_0010",
+      "source_section": "4_4_1",
+      "source_sentence": 82,
+      "character_position": 76,
+      "text": "от негодования и гнева",
+      "vad": [
+        -0.8,
+        0.75,
+        -0.2
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.3894399010515933,
+      "warning": null,
+      "chapter_sentence_start": 325,
+      "chapter_sentence_end": 325,
+      "timeline_start_index": 8530,
+      "timeline_end_index": 8530,
+      "highlights": [
+        {
+          "chapter_sentence": 325,
+          "start": 249,
+          "end": 271
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_1_0011",
+      "source_section": "4_4_1",
+      "source_sentence": 92,
+      "character_position": 77,
+      "text": "будто нехотя",
+      "vad": [
+        -0.2,
+        -0.3,
+        0.1
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.7709919504440863,
+      "warning": null,
+      "chapter_sentence_start": 335,
+      "chapter_sentence_end": 335,
+      "timeline_start_index": 8540,
+      "timeline_end_index": 8540,
+      "highlights": [
+        {
+          "chapter_sentence": 335,
+          "start": 32,
+          "end": 44
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_1_0012",
+      "source_section": "4_4_1",
+      "source_sentence": 111,
+      "character_position": 78,
+      "text": "нерешительно ступила к столу, недоверчиво выслушав странное желание Раскольникова",
+      "vad": [
+        -0.35,
+        0.2,
+        -0.25
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.1661791308721613,
+      "warning": null,
+      "chapter_sentence_start": 354,
+      "chapter_sentence_end": 354,
+      "timeline_start_index": 8559,
+      "timeline_end_index": 8559,
+      "highlights": [
+        {
+          "chapter_sentence": 354,
+          "start": 5,
+          "end": 86
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_1_0013",
+      "source_section": "4_4_1",
+      "source_sentence": 115,
+      "character_position": 79,
+      "text": "Голос ее становился все суровее и суровее",
+      "vad": [
+        -0.55,
+        0.45,
+        0.2
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.4950961284787258,
+      "warning": null,
+      "chapter_sentence_start": 358,
+      "chapter_sentence_end": 358,
+      "timeline_start_index": 8563,
+      "timeline_end_index": 8563,
+      "highlights": [
+        {
+          "chapter_sentence": 358,
+          "start": 0,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_1_0014",
+      "source_section": "4_4_1",
+      "source_sentence": 145,
+      "character_position": 80,
+      "text": "Сердце ее стучало",
+      "vad": [
+        -0.45,
+        0.7,
+        -0.35
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.382794189334026,
+      "warning": null,
+      "chapter_sentence_start": 388,
+      "chapter_sentence_end": 388,
+      "timeline_start_index": 8593,
+      "timeline_end_index": 8593,
+      "highlights": [
+        {
+          "chapter_sentence": 388,
+          "start": 0,
+          "end": 17
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_1_0015",
+      "source_section": "4_4_1",
+      "source_sentence": 146,
+      "character_position": 81,
+      "text": "Не смела как-то она ему читать",
+      "vad": [
+        -0.45,
+        0.35,
+        -0.35
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.0837976467062269,
+      "warning": null,
+      "chapter_sentence_start": 389,
+      "chapter_sentence_end": 389,
+      "timeline_start_index": 8594,
+      "timeline_end_index": 8594,
+      "highlights": [
+        {
+          "chapter_sentence": 389,
+          "start": 0,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0001",
+      "source_section": "4_4_2",
+      "source_sentence": 6,
+      "character_position": 82,
+      "text": "Дух пресекло, и в груди стеснилось",
+      "vad": [
+        -0.82,
+        0.68,
+        -0.62
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.0527105541373793,
+      "warning": null,
+      "chapter_sentence_start": 402,
+      "chapter_sentence_end": 402,
+      "timeline_start_index": 8607,
+      "timeline_end_index": 8607,
+      "highlights": [
+        {
+          "chapter_sentence": 402,
+          "start": 0,
+          "end": 34
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0002",
+      "source_section": "4_4_2",
+      "source_sentence": 7,
+      "character_position": 83,
+      "text": "не решалась ему читать",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.55
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.3409628872081456,
+      "warning": null,
+      "chapter_sentence_start": 403,
+      "chapter_sentence_end": 403,
+      "timeline_start_index": 8608,
+      "timeline_end_index": 8608,
+      "highlights": [
+        {
+          "chapter_sentence": 403,
+          "start": 42,
+          "end": 64
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0003",
+      "source_section": "4_4_2",
+      "source_sentence": 8,
+      "character_position": 84,
+      "text": "как тяжело было ей теперь выдавать и обличать все свое",
+      "vad": [
+        -0.85,
+        0.55,
+        -0.7
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.2076434864941735,
+      "warning": null,
+      "chapter_sentence_start": 404,
+      "chapter_sentence_end": 404,
+      "timeline_start_index": 8609,
+      "timeline_end_index": 8609,
+      "highlights": [
+        {
+          "chapter_sentence": 404,
+          "start": 27,
+          "end": 81
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0004",
+      "source_section": "4_4_2",
+      "source_sentence": 10,
+      "character_position": 85,
+      "text": "тосковала она и боялась чего-то ужасно",
+      "vad": [
+        -0.85,
+        0.8,
+        -0.65
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.1121534775094811,
+      "warning": null,
+      "chapter_sentence_start": 406,
+      "chapter_sentence_end": 406,
+      "timeline_start_index": 8611,
+      "timeline_end_index": 8611,
+      "highlights": [
+        {
+          "chapter_sentence": 406,
+          "start": 62,
+          "end": 100
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0005",
+      "source_section": "4_4_2",
+      "source_sentence": 10,
+      "character_position": 86,
+      "text": "ей мучительно самой хотелось прочесть",
+      "vad": [
+        -0.75,
+        0.55,
+        -0.35
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.2967571348346868,
+      "warning": null,
+      "chapter_sentence_start": 406,
+      "chapter_sentence_end": 406,
+      "timeline_start_index": 8611,
+      "timeline_end_index": 8611,
+      "highlights": [
+        {
+          "chapter_sentence": 406,
+          "start": 148,
+          "end": 185
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0006",
+      "source_section": "4_4_2",
+      "source_sentence": 11,
+      "character_position": 87,
+      "text": "восторженного волнения",
+      "vad": [
+        0.82,
+        0.88,
+        0.12
+      ],
+      "cluster_id": "marmeladova-2",
+      "distance_to_centroid": 0.3545110809394762,
+      "warning": null,
+      "chapter_sentence_start": 407,
+      "chapter_sentence_end": 407,
+      "timeline_start_index": 8612,
+      "timeline_end_index": 8612,
+      "highlights": [
+        {
+          "chapter_sentence": 407,
+          "start": 39,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0007",
+      "source_section": "4_4_2",
+      "source_sentence": 12,
+      "character_position": 88,
+      "text": "пересилила себя",
+      "vad": [
+        -0.35,
+        0.45,
+        0.35
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.6413869236119625,
+      "warning": null,
+      "chapter_sentence_start": 408,
+      "chapter_sentence_end": 408,
+      "timeline_start_index": 8613,
+      "timeline_end_index": 8613,
+      "highlights": [
+        {
+          "chapter_sentence": 408,
+          "start": 4,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0008",
+      "source_section": "4_4_2",
+      "source_sentence": 17,
+      "character_position": 89,
+      "text": "стыдливо предчувствуя, что дрогнет и порвется опять ее голос",
+      "vad": [
+        -0.58,
+        0.34,
+        -0.32
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.1336706399551708,
+      "warning": null,
+      "chapter_sentence_start": 413,
+      "chapter_sentence_end": 413,
+      "timeline_start_index": 8618,
+      "timeline_end_index": 8618,
+      "highlights": [
+        {
+          "chapter_sentence": 413,
+          "start": 28,
+          "end": 88
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0009",
+      "source_section": "4_4_2",
+      "source_sentence": 23,
+      "character_position": 90,
+      "text": "как бы с болью переведя дух",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.2
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.206932624334739,
+      "warning": null,
+      "chapter_sentence_start": 419,
+      "chapter_sentence_end": 419,
+      "timeline_start_index": 8624,
+      "timeline_end_index": 8624,
+      "highlights": [
+        {
+          "chapter_sentence": 419,
+          "start": 20,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0010",
+      "source_section": "4_4_2",
+      "source_sentence": 23,
+      "character_position": 91,
+      "text": "точно сама во всеуслышание исповедовала",
+      "vad": [
+        0.2,
+        0.25,
+        0.45
+      ],
+      "cluster_id": "marmeladova-2",
+      "distance_to_centroid": 0.6150932002310007,
+      "warning": null,
+      "chapter_sentence_start": 419,
+      "chapter_sentence_end": 419,
+      "timeline_start_index": 8624,
+      "timeline_end_index": 8624,
+      "highlights": [
+        {
+          "chapter_sentence": 419,
+          "start": 82,
+          "end": 121
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0011",
+      "source_section": "4_4_2",
+      "source_sentence": 25,
+      "character_position": 92,
+      "text": "пересилила себя",
+      "vad": [
+        -0.35,
+        0.55,
+        0.35
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.6680097296181617,
+      "warning": null,
+      "chapter_sentence_start": 421,
+      "chapter_sentence_end": 421,
+      "timeline_start_index": 8626,
+      "timeline_end_index": 8626,
+      "highlights": [
+        {
+          "chapter_sentence": 421,
+          "start": 70,
+          "end": 85
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0012",
+      "source_section": "4_4_2",
+      "source_sentence": 36,
+      "character_position": 93,
+      "text": "вся дрожала в действительной, настоящей лихорадке",
+      "vad": [
+        -0.65,
+        0.95,
+        -0.35
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.3658326182262669,
+      "warning": null,
+      "chapter_sentence_start": 432,
+      "chapter_sentence_end": 432,
+      "timeline_start_index": 8637,
+      "timeline_end_index": 8637,
+      "highlights": [
+        {
+          "chapter_sentence": 432,
+          "start": 8,
+          "end": 57
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0013",
+      "source_section": "4_4_2",
+      "source_sentence": 38,
+      "character_position": 94,
+      "text": "чувство великого торжества охватило ее",
+      "vad": [
+        0.95,
+        0.85,
+        0.7
+      ],
+      "cluster_id": "marmeladova-2",
+      "distance_to_centroid": 0.6916210269869001,
+      "warning": null,
+      "chapter_sentence_start": 434,
+      "chapter_sentence_end": 434,
+      "timeline_start_index": 8639,
+      "timeline_end_index": 8639,
+      "highlights": [
+        {
+          "chapter_sentence": 434,
+          "start": 60,
+          "end": 98
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0014",
+      "source_section": "4_4_2",
+      "source_sentence": 39,
+      "character_position": 95,
+      "text": "торжество и радость звучали в нем и крепили его",
+      "vad": [
+        0.94,
+        0.76,
+        0.62
+      ],
+      "cluster_id": "marmeladova-2",
+      "distance_to_centroid": 0.5934913248420082,
+      "warning": null,
+      "chapter_sentence_start": 435,
+      "chapter_sentence_end": 435,
+      "timeline_start_index": 8640,
+      "timeline_end_index": 8640,
+      "highlights": [
+        {
+          "chapter_sentence": 435,
+          "start": 34,
+          "end": 81
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0015",
+      "source_section": "4_4_2",
+      "source_sentence": 40,
+      "character_position": 96,
+      "text": "в глазах темнело",
+      "vad": [
+        -0.55,
+        0.72,
+        -0.35
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.3479563774565817,
+      "warning": null,
+      "chapter_sentence_start": 436,
+      "chapter_sentence_end": 436,
+      "timeline_start_index": 8641,
+      "timeline_end_index": 8641,
+      "highlights": [
+        {
+          "chapter_sentence": 436,
+          "start": 39,
+          "end": 55
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0016",
+      "source_section": "4_4_2",
+      "source_sentence": 42,
+      "character_position": 97,
+      "text": "горячо и страстно передала сомнение, укор и хулу неверующих, слепых иудеев",
+      "vad": [
+        0.78,
+        0.93,
+        0.72
+      ],
+      "cluster_id": "marmeladova-2",
+      "distance_to_centroid": 0.6807414162070978,
+      "warning": null,
+      "chapter_sentence_start": 438,
+      "chapter_sentence_end": 438,
+      "timeline_start_index": 8643,
+      "timeline_end_index": 8643,
+      "highlights": [
+        {
+          "chapter_sentence": 438,
+          "start": 22,
+          "end": 96
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0017",
+      "source_section": "4_4_2",
+      "source_sentence": 43,
+      "character_position": 98,
+      "text": "мечталось ей",
+      "vad": [
+        0.8,
+        0.7,
+        0.2
+      ],
+      "cluster_id": "marmeladova-2",
+      "distance_to_centroid": 0.2189863684931071,
+      "warning": null,
+      "chapter_sentence_start": 439,
+      "chapter_sentence_end": 439,
+      "timeline_start_index": 8644,
+      "timeline_end_index": 8644,
+      "highlights": [
+        {
+          "chapter_sentence": 439,
+          "start": 119,
+          "end": 131
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0018",
+      "source_section": "4_4_2",
+      "source_sentence": 43,
+      "character_position": 99,
+      "text": "дрожала от радостного ожидания",
+      "vad": [
+        0.95,
+        0.88,
+        0.2
+      ],
+      "cluster_id": "marmeladova-2",
+      "distance_to_centroid": 0.4438568189626528,
+      "warning": null,
+      "chapter_sentence_start": 439,
+      "chapter_sentence_end": 439,
+      "timeline_start_index": 8644,
+      "timeline_end_index": 8644,
+      "highlights": [
+        {
+          "chapter_sentence": 439,
+          "start": 139,
+          "end": 169
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0019",
+      "source_section": "4_4_2",
+      "source_sentence": 54,
+      "character_position": 100,
+      "text": "дрожа и холодея",
+      "vad": [
+        -0.85,
+        0.75,
+        -0.65
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.0833615667846364,
+      "warning": null,
+      "chapter_sentence_start": 450,
+      "chapter_sentence_end": 450,
+      "timeline_start_index": 8655,
+      "timeline_end_index": 8655,
+      "highlights": [
+        {
+          "chapter_sentence": 450,
+          "start": 50,
+          "end": 65
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0020",
+      "source_section": "4_4_2",
+      "source_sentence": 57,
+      "character_position": 101,
+      "text": "не могла читать",
+      "vad": [
+        -0.72,
+        0.68,
+        -0.58
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.0925535392057498,
+      "warning": null,
+      "chapter_sentence_start": 453,
+      "chapter_sentence_end": 453,
+      "timeline_start_index": 8658,
+      "timeline_end_index": 8658,
+      "highlights": [
+        {
+          "chapter_sentence": 453,
+          "start": 22,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0021",
+      "source_section": "4_4_2",
+      "source_sentence": 58,
+      "character_position": 102,
+      "text": "не смея и как бы стыдясь поднять на него глаза",
+      "vad": [
+        -0.72,
+        0.18,
+        -0.78
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.5779345417002333,
+      "warning": null,
+      "chapter_sentence_start": 454,
+      "chapter_sentence_end": 454,
+      "timeline_start_index": 8659,
+      "timeline_end_index": 8659,
+      "highlights": [
+        {
+          "chapter_sentence": 454,
+          "start": 109,
+          "end": 155
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0022",
+      "source_section": "4_4_2",
+      "source_sentence": 59,
+      "character_position": 103,
+      "text": "Лихорадочная дрожь ее еще продолжалась",
+      "vad": [
+        -0.75,
+        0.9,
+        -0.35
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.3040880776683861,
+      "warning": null,
+      "chapter_sentence_start": 455,
+      "chapter_sentence_end": 455,
+      "timeline_start_index": 8660,
+      "timeline_end_index": 8660,
+      "highlights": [
+        {
+          "chapter_sentence": 455,
+          "start": 0,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0023",
+      "source_section": "4_4_2",
+      "source_sentence": 69,
+      "character_position": 104,
+      "text": "как ошеломленная",
+      "vad": [
+        -0.65,
+        0.8,
+        -0.55
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.1779900090842064,
+      "warning": null,
+      "chapter_sentence_start": 465,
+      "chapter_sentence_end": 465,
+      "timeline_start_index": 8670,
+      "timeline_end_index": 8670,
+      "highlights": [
+        {
+          "chapter_sentence": 465,
+          "start": 2,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0024",
+      "source_section": "4_4_2",
+      "source_sentence": 70,
+      "character_position": 105,
+      "text": "хотя и самой ей неясное",
+      "vad": [
+        -0.2,
+        0.05,
+        -0.35
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.3851672640482786,
+      "warning": null,
+      "chapter_sentence_start": 466,
+      "chapter_sentence_end": 466,
+      "timeline_start_index": 8671,
+      "timeline_end_index": 8671,
+      "highlights": [
+        {
+          "chapter_sentence": 466,
+          "start": 84,
+          "end": 107
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0025",
+      "source_section": "4_4_2",
+      "source_sentence": 71,
+      "character_position": 106,
+      "text": "почти с ужасом",
+      "vad": [
+        -0.72,
+        0.68,
+        -0.18
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.4184456593924808,
+      "warning": null,
+      "chapter_sentence_start": 467,
+      "chapter_sentence_end": 467,
+      "timeline_start_index": 8672,
+      "timeline_end_index": 8672,
+      "highlights": [
+        {
+          "chapter_sentence": 467,
+          "start": 33,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0026",
+      "source_section": "4_4_2",
+      "source_sentence": 80,
+      "character_position": 107,
+      "text": "в страхе",
+      "vad": [
+        -0.78,
+        0.48,
+        -0.5
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.255566932405658,
+      "warning": null,
+      "chapter_sentence_start": 476,
+      "chapter_sentence_end": 476,
+      "timeline_start_index": 8681,
+      "timeline_end_index": 8681,
+      "highlights": [
+        {
+          "chapter_sentence": 476,
+          "start": 2,
+          "end": 10
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0027",
+      "source_section": "4_4_2",
+      "source_sentence": 84,
+      "character_position": 108,
+      "text": "ничего не понимала",
+      "vad": [
+        -0.55,
+        0.25,
+        -0.65
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.3984239849227528,
+      "warning": null,
+      "chapter_sentence_start": 480,
+      "chapter_sentence_end": 480,
+      "timeline_start_index": 8685,
+      "timeline_end_index": 8685,
+      "highlights": [
+        {
+          "chapter_sentence": 480,
+          "start": 23,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0029",
+      "source_section": "4_4_2",
+      "source_sentence": 89,
+      "character_position": 109,
+      "text": "Не понимаю",
+      "vad": [
+        -0.55,
+        0.2,
+        -0.45
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.2384305945075839,
+      "warning": null,
+      "chapter_sentence_start": 484,
+      "chapter_sentence_end": 484,
+      "timeline_start_index": 8689,
+      "timeline_end_index": 8689,
+      "highlights": [
+        {
+          "chapter_sentence": 484,
+          "start": 2,
+          "end": 12
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0030",
+      "source_section": "4_4_2",
+      "source_sentence": 100,
+      "character_position": 110,
+      "text": "странно и мятежно взволнованная его словами",
+      "vad": [
+        -0.72,
+        0.86,
+        -0.34
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.2975732365131278,
+      "warning": null,
+      "chapter_sentence_start": 496,
+      "chapter_sentence_end": 496,
+      "timeline_start_index": 8701,
+      "timeline_end_index": 8701,
+      "highlights": [
+        {
+          "chapter_sentence": 496,
+          "start": 20,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0031",
+      "source_section": "4_4_2",
+      "source_sentence": 114,
+      "character_position": 111,
+      "text": "истерически плача и ломая руки",
+      "vad": [
+        -0.9,
+        0.95,
+        -0.75
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.2982719524519706,
+      "warning": null,
+      "chapter_sentence_start": 510,
+      "chapter_sentence_end": 510,
+      "timeline_start_index": 8715,
+      "timeline_end_index": 8715,
+      "highlights": [
+        {
+          "chapter_sentence": 510,
+          "start": 2,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0032",
+      "source_section": "4_4_2",
+      "source_sentence": 130,
+      "character_position": 112,
+      "text": "вся вздрогнула от испуга",
+      "vad": [
+        -0.92,
+        0.88,
+        -0.72
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.2385960233981602,
+      "warning": null,
+      "chapter_sentence_start": 526,
+      "chapter_sentence_end": 526,
+      "timeline_start_index": 8731,
+      "timeline_end_index": 8731,
+      "highlights": [
+        {
+          "chapter_sentence": 526,
+          "start": 5,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0033",
+      "source_section": "4_4_2",
+      "source_sentence": 132,
+      "character_position": 113,
+      "text": "леденея от ужаса",
+      "vad": [
+        -0.98,
+        0.93,
+        -0.82
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.3598386370226809,
+      "warning": null,
+      "chapter_sentence_start": 528,
+      "chapter_sentence_end": 528,
+      "timeline_start_index": 8733,
+      "timeline_end_index": 8733,
+      "highlights": [
+        {
+          "chapter_sentence": 528,
+          "start": 16,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0034",
+      "source_section": "4_4_2",
+      "source_sentence": 142,
+      "character_position": 114,
+      "text": "смотрела на него как на помешанного",
+      "vad": [
+        -0.75,
+        0.85,
+        -0.55
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.1468843121539031,
+      "warning": null,
+      "chapter_sentence_start": 538,
+      "chapter_sentence_end": 538,
+      "timeline_start_index": 8743,
+      "timeline_end_index": 8743,
+      "highlights": [
+        {
+          "chapter_sentence": 538,
+          "start": 5,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0035",
+      "source_section": "4_4_2",
+      "source_sentence": 142,
+      "character_position": 115,
+      "text": "сама была как безумная и чувствовала это",
+      "vad": [
+        -0.88,
+        0.93,
+        -0.72
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.2604826129190124,
+      "warning": null,
+      "chapter_sentence_start": 538,
+      "chapter_sentence_end": 538,
+      "timeline_start_index": 8743,
+      "timeline_end_index": 8743,
+      "highlights": [
+        {
+          "chapter_sentence": 538,
+          "start": 51,
+          "end": 91
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0036",
+      "source_section": "4_4_2",
+      "source_sentence": 143,
+      "character_position": 116,
+      "text": "Голова у ней кружилась",
+      "vad": [
+        -0.45,
+        0.65,
+        -0.35
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.3340680841472858,
+      "warning": null,
+      "chapter_sentence_start": 539,
+      "chapter_sentence_end": 539,
+      "timeline_start_index": 8744,
+      "timeline_end_index": 8744,
+      "highlights": [
+        {
+          "chapter_sentence": 539,
+          "start": 0,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0037",
+      "source_section": "4_4_2",
+      "source_sentence": 146,
+      "character_position": 117,
+      "text": "Страшно это!",
+      "vad": [
+        -0.85,
+        0.8,
+        -0.65
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.1121534775094811,
+      "warning": null,
+      "chapter_sentence_start": 542,
+      "chapter_sentence_end": 542,
+      "timeline_start_index": 8747,
+      "timeline_end_index": 8747,
+      "highlights": [
+        {
+          "chapter_sentence": 542,
+          "start": 0,
+          "end": 12
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0038",
+      "source_section": "4_4_2",
+      "source_sentence": 150,
+      "character_position": 118,
+      "text": "О, он должен быть ужасно несчастен",
+      "vad": [
+        -0.85,
+        0.35,
+        -0.25
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.3944398474508537,
+      "warning": null,
+      "chapter_sentence_start": 546,
+      "chapter_sentence_end": 546,
+      "timeline_start_index": 8751,
+      "timeline_end_index": 8751,
+      "highlights": [
+        {
+          "chapter_sentence": 546,
+          "start": 1,
+          "end": 35
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0039",
+      "source_section": "4_4_2",
+      "source_sentence": 158,
+      "character_position": 119,
+      "text": "В лихорадке и в бреду провела всю ночь Соня",
+      "vad": [
+        -0.9,
+        0.95,
+        -0.75
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.2982719524519706,
+      "warning": null,
+      "chapter_sentence_start": 554,
+      "chapter_sentence_end": 554,
+      "timeline_start_index": 8759,
+      "timeline_end_index": 8759,
+      "highlights": [
+        {
+          "chapter_sentence": 554,
+          "start": 0,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::4_4_2_0040",
+      "source_section": "4_4_2",
+      "source_sentence": 159,
+      "character_position": 120,
+      "text": "плакала, руки ломала",
+      "vad": [
+        -0.95,
+        0.85,
+        -0.8
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.2890051569587685,
+      "warning": null,
+      "chapter_sentence_start": 555,
+      "chapter_sentence_end": 555,
+      "timeline_start_index": 8760,
+      "timeline_end_index": 8760,
+      "highlights": [
+        {
+          "chapter_sentence": 555,
+          "start": 23,
+          "end": 43
+        }
+      ]
+    }
+  ]
+}

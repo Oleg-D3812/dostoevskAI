@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Multi-character cluster space</title>
+  <script src="https://cdn.plot.ly/plotly-3.7.0.min.js"></script>
+  <link rel="stylesheet" href="../css/style.css"/>
+</head>
+<body class="explorer-page">
+  <header class="site-header explorer-header">
+    <a href="../novel.html?id=crime-and-punishment" class="back-link">&larr; Преступление и наказание</a>
+    <h1>Multi-character cluster space</h1>
+    <p>VAD-пространство фрагментов Раскольникова, Мармеладовой и Свидригайлова с фильтрами персонажей и кластеров.</p>
+  </header>
+
+  <main class="explorer-shell">
+    <section class="explorer-control-panel clusters-only" aria-label="Фильтры визуализации">
+      <div>
+        <p class="landing-kicker">Clusters</p>
+        <div id="cluster-filter" class="filter-row"></div>
+        <div class="filter-actions">
+          <button type="button" id="clusters-all">All</button>
+          <button type="button" id="clusters-none">None</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="plot-card" aria-label="VAD cluster plot">
+      <div id="cluster-plot" class="cluster-plot">
+        <div class="loading-state">Загрузка данных...</div>
+      </div>
+    </section>
+
+    <section class="centroid-card" aria-labelledby="centroids-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Centroids</p>
+          <h2 id="centroids-title">Кластеры</h2>
+        </div>
+        <span id="dataset-count" class="scope-badge"></span>
+      </div>
+      <div class="centroid-table-wrap">
+        <table id="centroid-table" class="centroids">
+          <thead>
+            <tr>
+              <th>Кластер</th>
+              <th>Персонаж</th>
+              <th>V</th>
+              <th>A</th>
+              <th>D</th>
+              <th>Фрагменты</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script src="../js/separate-kmeans.js"></script>
+</body>
+</html>

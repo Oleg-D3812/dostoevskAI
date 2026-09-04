@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Анализ литературных произведений</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <style>body { overflow: auto; }</style>
+</head>
+<body>
+  <header class="site-header">
+    <h1>Анализ литературных произведений</h1>
+    <p>Связи персонажей, хронология и эмоциональная динамика</p>
+  </header>
+
+  <div class="catalog-wrap">
+    <div id="catalog" class="catalog-grid"></div>
+  </div>
+
+  <script>
+    fetch("data/catalog.json")
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        var el = document.getElementById("catalog");
+        data.novels.forEach(function(novel) {
+          var card = document.createElement("a");
+          card.className = "novel-card";
+          card.href = "novel.html?id=" + encodeURIComponent(novel.id);
+          card.innerHTML =
+            '<h2>' + esc(novel.title) + '</h2>' +
+            '<p class="meta"><span>' + esc(novel.author) + '</span><span class="year-badge">' + novel.year + '</span></p>' +
+            '<p class="desc">' + esc(novel.description) + '</p>' +
+            '<div class="card-arrow">Открыть &rarr;</div>';
+          el.appendChild(card);
+        });
+      })
+      .catch(function(err) {
+        document.getElementById("catalog").innerHTML =
+          '<p style="color:#fc8181;padding:20px">Не удалось загрузить каталог: ' + err.message + '</p>';
+      });
+
+    function esc(s) {
+      var d = document.createElement("div");
+      d.appendChild(document.createTextNode(s));
+      return d.innerHTML;
+    }
+  </script>
+</body>
+</html>

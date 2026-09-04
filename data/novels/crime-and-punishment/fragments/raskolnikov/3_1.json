@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "novel_id": "crime-and-punishment",
+  "character_id": "raskolnikov",
+  "chapter_id": "3_1",
+  "count": 12,
+  "fragments": [
+    {
+      "id": "Родион Романович Раскольников::3_1_0001",
+      "source_section": "3_1",
+      "source_sentence": 4,
+      "character_position": 461,
+      "text": "сильное до страдания чувство",
+      "vad": [
+        -0.85,
+        0.8,
+        -0.25
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.3064408009035151,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 5033,
+      "timeline_end_index": 5033,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 30,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_1_0002",
+      "source_section": "3_1",
+      "source_sentence": 4,
+      "character_position": 462,
+      "text": "что-то неподвижное, даже как будто безумное",
+      "vad": [
+        -0.75,
+        0.35,
+        -0.65
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.3556079360137116,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 5033,
+      "timeline_end_index": 5033,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 82,
+          "end": 125
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_1_0003",
+      "source_section": "3_1",
+      "source_sentence": 12,
+      "character_position": 463,
+      "text": "Не мучьте меня!",
+      "vad": [
+        -0.82,
+        0.72,
+        -0.58
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.0762774658269562,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 5041,
+      "timeline_end_index": 5041,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 2,
+          "end": 17
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_1_0004",
+      "source_section": "3_1",
+      "source_sentence": 13,
+      "character_position": 464,
+      "text": "раздражительно махнув рукой",
+      "vad": [
+        -0.65,
+        0.55,
+        0.35
+      ],
+      "cluster_id": "raskolnikov-1",
+      "distance_to_centroid": 0.0922078739722084,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 5042,
+      "timeline_end_index": 5042,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 17,
+          "end": 44
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_1_0005",
+      "source_section": "3_1",
+      "source_sentence": 19,
+      "character_position": 465,
+      "text": "не могу, не могу, – раздражительно повторял он",
+      "vad": [
+        -0.65,
+        0.75,
+        -0.35
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.2311872668640945,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 5048,
+      "timeline_end_index": 5048,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 4,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_1_0006",
+      "source_section": "3_1",
+      "source_sentence": 26,
+      "character_position": 466,
+      "text": "а у меня мысли мешаются",
+      "vad": [
+        -0.55,
+        0.65,
+        -0.45
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.2482823991216208,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 5055,
+      "timeline_end_index": 5055,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 47,
+          "end": 70
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_1_0007",
+      "source_section": "3_1",
+      "source_sentence": 36,
+      "character_position": 467,
+      "text": "с усилием продолжал Раскольников",
+      "vad": [
+        -0.35,
+        0.2,
+        0.25
+      ],
+      "cluster_id": "raskolnikov-1",
+      "distance_to_centroid": 0.4539295576036616,
+      "warning": null,
+      "chapter_sentence_start": 36,
+      "chapter_sentence_end": 36,
+      "timeline_start_index": 5065,
+      "timeline_end_index": 5065,
+      "highlights": [
+        {
+          "chapter_sentence": 36,
+          "start": 10,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_1_0008",
+      "source_section": "3_1",
+      "source_sentence": 66,
+      "character_position": 468,
+      "text": "я не в бреду",
+      "vad": [
+        -0.35,
+        0.35,
+        0.45
+      ],
+      "cluster_id": "raskolnikov-1",
+      "distance_to_centroid": 0.3768748205053402,
+      "warning": null,
+      "chapter_sentence_start": 66,
+      "chapter_sentence_end": 66,
+      "timeline_start_index": 5095,
+      "timeline_end_index": 5095,
+      "highlights": [
+        {
+          "chapter_sentence": 66,
+          "start": 67,
+          "end": 79
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_1_0009",
+      "source_section": "3_1",
+      "source_sentence": 73,
+      "character_position": 469,
+      "text": "в полном изнеможении",
+      "vad": [
+        -0.9,
+        -0.8,
+        -0.7
+      ],
+      "cluster_id": "raskolnikov-3",
+      "distance_to_centroid": 1.115105532632873,
+      "warning": null,
+      "chapter_sentence_start": 73,
+      "chapter_sentence_end": 73,
+      "timeline_start_index": 5102,
+      "timeline_end_index": 5102,
+      "highlights": [
+        {
+          "chapter_sentence": 73,
+          "start": 37,
+          "end": 57
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_1_0010",
+      "source_section": "3_1",
+      "source_sentence": 155,
+      "character_position": 470,
+      "text": "чтоб он не сошел с ума",
+      "vad": [
+        -0.2,
+        0.25,
+        0.1
+      ],
+      "cluster_id": "raskolnikov-3",
+      "distance_to_centroid": 0.4141317725408735,
+      "warning": null,
+      "chapter_sentence_start": 155,
+      "chapter_sentence_end": 155,
+      "timeline_start_index": 5184,
+      "timeline_end_index": 5184,
+      "highlights": [
+        {
+          "chapter_sentence": 155,
+          "start": 28,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_1_0011",
+      "source_section": "3_1",
+      "source_sentence": 156,
+      "character_position": 471,
+      "text": "Вот отчего его раздражать не надо",
+      "vad": [
+        -0.2,
+        0.1,
+        0.1
+      ],
+      "cluster_id": "raskolnikov-3",
+      "distance_to_centroid": 0.3775380454657708,
+      "warning": null,
+      "chapter_sentence_start": 156,
+      "chapter_sentence_end": 156,
+      "timeline_start_index": 5185,
+      "timeline_end_index": 5185,
+      "highlights": [
+        {
+          "chapter_sentence": 156,
+          "start": 0,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_1_0012",
+      "source_section": "3_1",
+      "source_sentence": 258,
+      "character_position": 472,
+      "text": "Он очень расстроен от большой болезни",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.25
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.3834027215318747,
+      "warning": null,
+      "chapter_sentence_start": 258,
+      "chapter_sentence_end": 258,
+      "timeline_start_index": 5287,
+      "timeline_end_index": 5287,
+      "highlights": [
+        {
+          "chapter_sentence": 258,
+          "start": 0,
+          "end": 37
+        }
+      ]
+    }
+  ]
+}

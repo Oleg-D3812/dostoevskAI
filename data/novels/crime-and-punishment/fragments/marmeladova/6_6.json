@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "crime-and-punishment",
+  "character_id": "marmeladova",
+  "chapter_id": "6_6",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "Софья Семёновна Мармеладова::6_6_0001",
+      "source_section": "6_6",
+      "source_sentence": 32,
+      "character_position": 240,
+      "text": "Та робко приготовилась слушать.",
+      "vad": [
+        -0.35,
+        0.25,
+        -0.55
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.3090134872673488,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 13276,
+      "timeline_end_index": 13276,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 0,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::6_6_0002",
+      "source_section": "6_6",
+      "source_sentence": 35,
+      "character_position": 241,
+      "text": "Соня сделала было движение и покраснела.",
+      "vad": [
+        -0.35,
+        0.3,
+        -0.2
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.1303252178817729,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 13279,
+      "timeline_end_index": 13279,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 53,
+          "end": 93
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::6_6_0003",
+      "source_section": "6_6",
+      "source_sentence": 50,
+      "character_position": 242,
+      "text": "Соня дико посмотрела на него и задрожала.",
+      "vad": [
+        -0.82,
+        0.88,
+        -0.7
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.1969499603229489,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 50,
+      "timeline_start_index": 13294,
+      "timeline_end_index": 13294,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 69,
+          "end": 110
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::6_6_0004",
+      "source_section": "6_6",
+      "source_sentence": 73,
+      "character_position": 243,
+      "text": "Соня также вскочила со стула и испуганно смотрела на него.",
+      "vad": [
+        -0.65,
+        0.78,
+        -0.55
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.1697902902215664,
+      "warning": null,
+      "chapter_sentence_start": 73,
+      "chapter_sentence_end": 73,
+      "timeline_start_index": 13317,
+      "timeline_end_index": 13317,
+      "highlights": [
+        {
+          "chapter_sentence": 73,
+          "start": 0,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::6_6_0005",
+      "source_section": "6_6",
+      "source_sentence": 74,
+      "character_position": 244,
+      "text": "Ей очень хотелось что-то сказать, что-то спросить, но она в первые минуты не смела, да и не знала, как ей начать.",
+      "vad": [
+        -0.55,
+        0.35,
+        -0.65
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.3919202531712773,
+      "warning": null,
+      "chapter_sentence_start": 74,
+      "chapter_sentence_end": 74,
+      "timeline_start_index": 13318,
+      "timeline_end_index": 13318,
+      "highlights": [
+        {
+          "chapter_sentence": 74,
+          "start": 0,
+          "end": 113
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::6_6_0006",
+      "source_section": "6_6",
+      "source_sentence": 81,
+      "character_position": 245,
+      "text": "оставив Соню в изумлении, в испуге и в каком-то неясном и тяжелом подозрении.",
+      "vad": [
+        -0.85,
+        0.75,
+        -0.25
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.3427532101406012,
+      "warning": null,
+      "chapter_sentence_start": 81,
+      "chapter_sentence_end": 81,
+      "timeline_start_index": 13325,
+      "timeline_end_index": 13325,
+      "highlights": [
+        {
+          "chapter_sentence": 81,
+          "start": 10,
+          "end": 87
+        }
+      ]
+    }
+  ]
+}

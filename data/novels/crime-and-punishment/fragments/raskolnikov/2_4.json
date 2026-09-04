@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "novel_id": "crime-and-punishment",
+  "character_id": "raskolnikov",
+  "chapter_id": "2_4",
+  "count": 5,
+  "fragments": [
+    {
+      "id": "Родион Романович Раскольников::2_4_0001",
+      "source_section": "2_4",
+      "source_sentence": 11,
+      "character_position": 383,
+      "text": "Да все хандрит",
+      "vad": [
+        -0.6,
+        -0.2,
+        -0.2
+      ],
+      "cluster_id": "raskolnikov-3",
+      "distance_to_centroid": 0.3246661517658912,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 3258,
+      "timeline_end_index": 3258,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 2,
+          "end": 16
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::2_4_0002",
+      "source_section": "2_4",
+      "source_sentence": 11,
+      "character_position": 384,
+      "text": "так чуть не заплакал",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.35
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.3194506011507744,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 3258,
+      "timeline_end_index": 3258,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 75,
+          "end": 95
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::2_4_0003",
+      "source_section": "2_4",
+      "source_sentence": 16,
+      "character_position": 385,
+      "text": "настойчиво и раздражительно проговорил Раскольников",
+      "vad": [
+        -0.65,
+        0.72,
+        0.45
+      ],
+      "cluster_id": "raskolnikov-1",
+      "distance_to_centroid": 0.2257068575715254,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 3263,
+      "timeline_end_index": 3263,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 2,
+          "end": 53
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::2_4_0004",
+      "source_section": "2_4",
+      "source_sentence": 92,
+      "character_position": 386,
+      "text": "у него онемели руки и ноги, точно отнялись",
+      "vad": [
+        -0.85,
+        0.75,
+        -0.85
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.338839772871429,
+      "warning": null,
+      "chapter_sentence_start": 92,
+      "chapter_sentence_end": 92,
+      "timeline_start_index": 3339,
+      "timeline_end_index": 3339,
+      "highlights": [
+        {
+          "chapter_sentence": 92,
+          "start": 19,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::2_4_0009",
+      "source_section": "2_4",
+      "source_sentence": 212,
+      "character_position": 387,
+      "text": "мутным, испуганным взглядом",
+      "vad": [
+        -0.78,
+        0.82,
+        -0.58
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.1496527499072345,
+      "warning": null,
+      "chapter_sentence_start": 212,
+      "chapter_sentence_end": 212,
+      "timeline_start_index": 3459,
+      "timeline_end_index": 3459,
+      "highlights": [
+        {
+          "chapter_sentence": 212,
+          "start": 31,
+          "end": 58
+        }
+      ]
+    }
+  ]
+}

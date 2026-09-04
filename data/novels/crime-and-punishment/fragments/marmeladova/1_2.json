@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "novel_id": "crime-and-punishment",
+  "character_id": "marmeladova",
+  "chapter_id": "1_2",
+  "count": 5,
+  "fragments": [
+    {
+      "id": "Софья Семёновна Мармеладова::1_2_0001",
+      "source_section": "1_2",
+      "source_sentence": 84,
+      "character_position": 1,
+      "text": "с некоторым беспокойством смотря на молодого человека",
+      "vad": [
+        -0.2,
+        0.35,
+        -0.1
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.3089983649127215,
+      "warning": null,
+      "chapter_sentence_start": 84,
+      "chapter_sentence_end": 84,
+      "timeline_start_index": 276,
+      "timeline_end_index": 276,
+      "highlights": [
+        {
+          "chapter_sentence": 84,
+          "start": 25,
+          "end": 78
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::1_2_0002",
+      "source_section": "1_2",
+      "source_sentence": 169,
+      "character_position": 2,
+      "text": "безответная она, и голосок у ней такой кроткий",
+      "vad": [
+        -0.2,
+        -0.1,
+        -0.7
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.6572660656899308,
+      "warning": null,
+      "chapter_sentence_start": 169,
+      "chapter_sentence_end": 169,
+      "timeline_start_index": 361,
+      "timeline_end_index": 361,
+      "highlights": [
+        {
+          "chapter_sentence": 169,
+          "start": 77,
+          "end": 123
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::1_2_0003",
+      "source_section": "1_2",
+      "source_sentence": 178,
+      "character_position": 3,
+      "text": "только плечики да тело все вздрагивают",
+      "vad": [
+        -0.78,
+        0.72,
+        -0.52
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.0721687916641162,
+      "warning": null,
+      "chapter_sentence_start": 178,
+      "chapter_sentence_end": 178,
+      "timeline_start_index": 370,
+      "timeline_end_index": 370,
+      "highlights": [
+        {
+          "chapter_sentence": 178,
+          "start": 263,
+          "end": 301
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::1_2_0004",
+      "source_section": "1_2",
+      "source_sentence": 180,
+      "character_position": 4,
+      "text": "весь вечер в ногах у ней на коленках простояла, ноги ей целовала, встать не хотела",
+      "vad": [
+        -0.85,
+        0.75,
+        -0.8
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.2190894137674222,
+      "warning": null,
+      "chapter_sentence_start": 180,
+      "chapter_sentence_end": 180,
+      "timeline_start_index": 372,
+      "timeline_end_index": 372,
+      "highlights": [
+        {
+          "chapter_sentence": 180,
+          "start": 132,
+          "end": 214
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::1_2_0005",
+      "source_section": "1_2",
+      "source_sentence": 292,
+      "character_position": 5,
+      "text": "что отца своего земного, пьяницу непотребного, не ужасаясь зверства его, пожалела",
+      "vad": [
+        0.25,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "marmeladova-2",
+      "distance_to_centroid": 0.6149368563341331,
+      "warning": null,
+      "chapter_sentence_start": 292,
+      "chapter_sentence_end": 292,
+      "timeline_start_index": 484,
+      "timeline_end_index": 484,
+      "highlights": [
+        {
+          "chapter_sentence": 292,
+          "start": 11,
+          "end": 92
+        }
+      ]
+    }
+  ]
+}

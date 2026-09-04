@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "crime-and-punishment",
+  "character_id": "raskolnikov",
+  "chapter_id": "5_2",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "Родион Романович Раскольников::5_2_0001",
+      "source_section": "5_2",
+      "source_sentence": 152,
+      "character_position": 775,
+      "text": "сидел и слушал молча и с отвращением",
+      "vad": [
+        -0.75,
+        -0.2,
+        -0.1
+      ],
+      "cluster_id": "raskolnikov-3",
+      "distance_to_centroid": 0.4327082947106838,
+      "warning": null,
+      "chapter_sentence_start": 152,
+      "chapter_sentence_end": 152,
+      "timeline_start_index": 10068,
+      "timeline_end_index": 10068,
+      "highlights": [
+        {
+          "chapter_sentence": 152,
+          "start": 13,
+          "end": 49
+        }
+      ]
+    }
+  ]
+}

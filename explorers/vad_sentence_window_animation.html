@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Анимация VAD по тексту</title>
+  <script src="https://cdn.plot.ly/plotly-3.7.0.min.js"></script>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    *{box-sizing:border-box}
+    body.animation-page{height:100vh;overflow:hidden}
+    .animation-page .explorer-header{padding-bottom:14px}
+    .animation-page .explorer-header h1{font-size:clamp(1.45rem,2.5vw,2.35rem);margin-bottom:.15rem}
+    .animation-shell{display:grid;grid-template-rows:auto minmax(0,1fr);height:calc(100vh - 118px);min-height:0}
+    .animation-controls{display:grid;grid-template-columns:minmax(230px,auto) minmax(390px,auto) minmax(340px,1fr);gap:12px;align-items:stretch;padding:10px 14px;border-bottom:1px solid var(--border-color);background:var(--sidebar-bg)}
+    .animation-controls fieldset{border:1px solid var(--border-color);border-radius:10px;margin:0;padding:7px 10px;min-width:0}
+    .animation-controls legend{padding:0 5px;font-weight:700}
+    #character-controls{display:flex;gap:8px 16px;flex-wrap:wrap;align-items:center}
+    .character-choice{display:flex;align-items:center;gap:7px;font-size:.82rem;white-space:nowrap}
+    .character-dot{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--character-color)}
+    .playback-buttons{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+    .playback-buttons button{min-width:42px}
+    .playback-buttons label{display:flex;gap:6px;align-items:center;font-size:.82rem}
+    .playback-fields{display:grid;grid-template-columns:auto minmax(120px,1fr) 38px;gap:7px;align-items:center;margin-top:7px;font-size:.8rem}
+    .playback-fields input,#timeline{width:100%}
+    #timeline-group{display:grid;grid-template-rows:auto auto auto;gap:3px;align-content:center}
+    #timeline-head{display:flex;justify-content:space-between;gap:12px;font-size:.78rem;color:var(--text-muted)}
+    #range-label{text-align:right}
+    #timeline-markers{position:relative;height:22px;margin:0 8px}
+    .timeline-marker{position:absolute;top:0;width:0;height:20px;color:var(--text-muted)}
+    .timeline-tick{position:absolute;left:0;top:0;width:1px;height:7px;background:currentColor}
+    .part-marker{color:var(--text-color)}
+    .part-marker .timeline-tick{width:2px;height:13px}
+    .timeline-part-label{position:absolute;top:11px;left:0;transform:translateX(-50%);font-size:.63rem;line-height:10px;white-space:nowrap}
+    .timeline-marker.at-start .timeline-part-label{transform:none}
+    #animation-workspace{--text-width:max(340px,31vw);display:grid;grid-template-columns:minmax(360px,1fr) 8px var(--text-width);min-height:0}
+    #animation-plot-wrap{min-width:0;min-height:0;position:relative;overflow:hidden}
+    #sentence-animation-plot{height:100%;width:100%;min-height:0}
+    #sentence-animation-plot .plotly-graph-div{height:100%!important}
+    #animation-splitter{width:8px;height:100%;padding:0;margin:0;border:0;border-left:1px solid var(--border-color);border-right:1px solid var(--border-color);background:var(--sidebar-bg);cursor:col-resize;position:relative;z-index:4}
+    #animation-splitter::after{content:"";position:absolute;left:2px;top:calc(50% - 24px);width:2px;height:48px;background:var(--text-muted)}
+    #animation-splitter:hover,#animation-splitter.dragging{background:var(--surface-solid)}
+    #novel-panel{min-width:0;min-height:0;overflow:auto;padding:10px 14px;border-left:1px solid var(--border-color);background:var(--sidebar-bg)}
+    #text-heading{display:flex;justify-content:space-between;gap:12px;align-items:baseline;position:sticky;top:-10px;background:var(--surface-solid);padding:9px 0;z-index:2}
+    #text-heading h2{font-size:1rem;margin:0}
+    #animation-status{font-size:.75rem;color:var(--text-muted);white-space:nowrap}
+    #novel-text{font-family:Georgia,"Times New Roman",serif;font-size:.92rem;line-height:1.55;margin:0}
+    .novel-sentence{margin:.28em 0}
+    .sentence-number{display:inline-block;min-width:62px;font-family:Inter,system-ui,sans-serif;font-size:.68rem;color:var(--text-muted);vertical-align:baseline}
+    #novel-text mark{color:inherit;padding:1px 0;border-radius:2px}
+    .loading-state,.error-state{display:grid;place-items:center;height:100%;padding:28px;text-align:center}
+    @media(max-width:1000px){body.animation-page{height:auto;overflow:auto}.animation-shell{height:auto}.animation-controls{grid-template-columns:1fr}.animation-controls fieldset{min-height:0}#animation-workspace{grid-template-columns:1fr;grid-template-rows:66vh 0 minmax(420px,auto)}#animation-splitter{display:none}#novel-panel{border-left:0;border-top:1px solid var(--border-color);overflow:visible}}
+  </style>
+</head>
+<body class="explorer-page animation-page">
+  <header class="site-header explorer-header">
+    <a id="back-link" href="../index.html" class="back-link">&larr; Каталог романов</a>
+    <h1>Анимация VAD по тексту</h1>
+    <p>Скользящее окно предложений показывает, как эмоциональные состояния персонажей движутся по VAD-пространству.</p>
+  </header>
+  <main class="animation-shell">
+    <section class="animation-controls" aria-label="Управление анимацией">
+      <fieldset><legend>Персонажи</legend><div id="character-controls"><span class="loading-state">Загрузка…</span></div></fieldset>
+      <fieldset><legend>Анимация</legend>
+        <div class="playback-buttons">
+          <button id="restart" type="button">Начало</button><button id="step-back" type="button">−1</button>
+          <button id="play-pause" type="button" aria-pressed="false">Старт</button><button id="step-forward" type="button">+1</button>
+          <label>Скорость <select id="speed"><option value="1">1 предл./с</option><option value="2">2 предл./с</option><option value="5">5 предл./с</option><option value="10" selected>10 предл./с</option><option value="20">20 предл./с</option><option value="40">40 предл./с</option></select></label>
+          <label>Сферы <input id="show-spheres" type="checkbox"></label>
+        </div>
+        <div class="playback-fields"><label for="window-size">Окно</label><input id="window-size" type="range" min="20" max="300" value="50"><output id="window-size-value">50</output></div>
+      </fieldset>
+      <fieldset id="timeline-group"><legend>Текст романа</legend><div id="timeline-head"><span id="timeline-value"></span><span id="range-label"></span></div><input id="timeline" type="range" min="0" value="0" aria-label="Начало окна предложений"><div id="timeline-markers" aria-label="Границы частей и глав"></div></fieldset>
+    </section>
+    <section id="animation-workspace">
+      <section id="animation-plot-wrap"><div id="sentence-animation-plot"><div class="loading-state">Загрузка данных…</div></div></section>
+      <button id="animation-splitter" type="button" aria-label="Изменить ширину панели текста"></button>
+      <aside id="novel-panel"><div id="text-heading"><h2>Текст романа</h2><span id="animation-status"></span></div><div id="novel-text"></div></aside>
+    </section>
+  </main>
+  <script src="../js/vad-sentence-window-animation.js"></script>
+</body>
+</html>

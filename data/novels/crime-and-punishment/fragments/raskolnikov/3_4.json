@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "novel_id": "crime-and-punishment",
+  "character_id": "raskolnikov",
+  "chapter_id": "3_4",
+  "count": 12,
+  "fragments": [
+    {
+      "id": "Родион Романович Раскольников::3_4_0001",
+      "source_section": "3_4",
+      "source_sentence": 10,
+      "character_position": 531,
+      "text": "сказал Раскольников в чрезвычайном удивлении и вдруг сам смутился",
+      "vad": [
+        -0.45,
+        0.7,
+        -0.25
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.4334594108641623,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 6076,
+      "timeline_end_index": 6076,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 2,
+          "end": 67
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_4_0002",
+      "source_section": "3_4",
+      "source_sentence": 15,
+      "character_position": 532,
+      "text": "ему вдруг стало жалко",
+      "vad": [
+        -0.45,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "raskolnikov-3",
+      "distance_to_centroid": 0.320653329724902,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 6081,
+      "timeline_end_index": 6081,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 99,
+          "end": 120
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_4_0003",
+      "source_section": "3_4",
+      "source_sentence": 16,
+      "character_position": 533,
+      "text": "в нем что-то как бы перевернулось",
+      "vad": [
+        0.2,
+        0.55,
+        0.1
+      ],
+      "cluster_id": "raskolnikov-2",
+      "distance_to_centroid": 0.3570562815520228,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 6082,
+      "timeline_end_index": 6082,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 56,
+          "end": 89
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_4_0004",
+      "source_section": "3_4",
+      "source_sentence": 33,
+      "character_position": 534,
+      "text": "привстав тоже и тоже запинаясь и не договаривая",
+      "vad": [
+        -0.45,
+        0.35,
+        -0.65
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.4871268242545219,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 6099,
+      "timeline_end_index": 6099,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 61,
+          "end": 108
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_4_0005",
+      "source_section": "3_4",
+      "source_sentence": 38,
+      "character_position": 535,
+      "text": "Бледное лицо Раскольникова вспыхнуло; его как будто всего передернуло; глаза загорелись",
+      "vad": [
+        -0.45,
+        0.85,
+        0.2
+      ],
+      "cluster_id": "raskolnikov-1",
+      "distance_to_centroid": 0.3176754867912328,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 6104,
+      "timeline_end_index": 6104,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 0,
+          "end": 87
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_4_0006",
+      "source_section": "3_4",
+      "source_sentence": 325,
+      "character_position": 536,
+      "text": "с преувеличенною раздражительностию",
+      "vad": [
+        -0.65,
+        0.72,
+        0.12
+      ],
+      "cluster_id": "raskolnikov-1",
+      "distance_to_centroid": 0.2202210637021277,
+      "warning": null,
+      "chapter_sentence_start": 325,
+      "chapter_sentence_end": 325,
+      "timeline_start_index": 6391,
+      "timeline_end_index": 6391,
+      "highlights": [
+        {
+          "chapter_sentence": 325,
+          "start": 23,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_4_0007",
+      "source_section": "3_4",
+      "source_sentence": 332,
+      "character_position": 537,
+      "text": "с отвращением это чувствовал",
+      "vad": [
+        -0.75,
+        0.35,
+        -0.2
+      ],
+      "cluster_id": "raskolnikov-3",
+      "distance_to_centroid": 0.4173896024719908,
+      "warning": null,
+      "chapter_sentence_start": 332,
+      "chapter_sentence_end": 332,
+      "timeline_start_index": 6398,
+      "timeline_end_index": 6398,
+      "highlights": [
+        {
+          "chapter_sentence": 332,
+          "start": 51,
+          "end": 79
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_4_0008",
+      "source_section": "3_4",
+      "source_sentence": 333,
+      "character_position": 538,
+      "text": "Тревожило его и то, что Разумихин сейчас говорил о Порфирии",
+      "vad": [
+        -0.65,
+        0.55,
+        -0.25
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.332862236978325,
+      "warning": null,
+      "chapter_sentence_start": 333,
+      "chapter_sentence_end": 333,
+      "timeline_start_index": 6399,
+      "timeline_end_index": 6399,
+      "highlights": [
+        {
+          "chapter_sentence": 333,
+          "start": 0,
+          "end": 59
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_4_0009",
+      "source_section": "3_4",
+      "source_sentence": 334,
+      "character_position": 539,
+      "text": "думал он, бледнея и с постукивающим сердцем",
+      "vad": [
+        -0.72,
+        0.78,
+        -0.28
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.2718273081229608,
+      "warning": null,
+      "chapter_sentence_start": 334,
+      "chapter_sentence_end": 334,
+      "timeline_start_index": 6400,
+      "timeline_end_index": 6400,
+      "highlights": [
+        {
+          "chapter_sentence": 334,
+          "start": 32,
+          "end": 75
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_4_0010",
+      "source_section": "3_4",
+      "source_sentence": 340,
+      "character_position": 540,
+      "text": "Сердце стучит, вот что нехорошо!",
+      "vad": [
+        -0.65,
+        0.7,
+        -0.2
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.3520954158316928,
+      "warning": null,
+      "chapter_sentence_start": 340,
+      "chapter_sentence_end": 340,
+      "timeline_start_index": 6406,
+      "timeline_end_index": 6406,
+      "highlights": [
+        {
+          "chapter_sentence": 340,
+          "start": 0,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_4_0011",
+      "source_section": "3_4",
+      "source_sentence": 345,
+      "character_position": 541,
+      "text": "с плутоватою улыбкой",
+      "vad": [
+        0.2,
+        0.3,
+        0.4
+      ],
+      "cluster_id": "raskolnikov-2",
+      "distance_to_centroid": 0.2966541436578638,
+      "warning": null,
+      "chapter_sentence_start": 345,
+      "chapter_sentence_end": 345,
+      "timeline_start_index": 6411,
+      "timeline_end_index": 6411,
+      "highlights": [
+        {
+          "chapter_sentence": 345,
+          "start": 34,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::3_4_0012",
+      "source_section": "3_4",
+      "source_sentence": 376,
+      "character_position": 542,
+      "text": "Раскольников до того смеялся, что, казалось, уж и сдержать себя не мог",
+      "vad": [
+        0.84,
+        0.88,
+        0.42
+      ],
+      "cluster_id": "raskolnikov-2",
+      "distance_to_centroid": 0.6718313063096909,
+      "warning": null,
+      "chapter_sentence_start": 376,
+      "chapter_sentence_end": 376,
+      "timeline_start_index": 6442,
+      "timeline_end_index": 6442,
+      "highlights": [
+        {
+          "chapter_sentence": 376,
+          "start": 0,
+          "end": 70
+        }
+      ]
+    }
+  ]
+}

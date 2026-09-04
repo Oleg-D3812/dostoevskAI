@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "crime-and-punishment",
+  "character_id": "marmeladova",
+  "chapter_id": "2_7",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "Софья Семёновна Мармеладова::2_7_0001",
+      "source_section": "2_7",
+      "source_sentence": 287,
+      "character_position": 6,
+      "text": "слабо вскрикнула",
+      "vad": [
+        -0.2,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.435716821338401,
+      "warning": null,
+      "chapter_sentence_start": 287,
+      "chapter_sentence_end": 287,
+      "timeline_start_index": 4810,
+      "timeline_end_index": 4810,
+      "highlights": [
+        {
+          "chapter_sentence": 287,
+          "start": 5,
+          "end": 21
+        }
+      ]
+    }
+  ]
+}

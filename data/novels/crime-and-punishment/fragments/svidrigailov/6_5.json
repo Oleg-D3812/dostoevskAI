@@ -1,0 +1,633 @@
+{
+  "schema_version": 1,
+  "novel_id": "crime-and-punishment",
+  "character_id": "svidrigailov",
+  "chapter_id": "6_5",
+  "count": 24,
+  "fragments": [
+    {
+      "id": "Аркадий Иванович Свидригайлов::6_5_0001",
+      "source_section": "6_5",
+      "source_sentence": 3,
+      "character_position": 181,
+      "text": "вскричал Свидригайлов",
+      "vad": [
+        -0.35,
+        0.82,
+        0.05
+      ],
+      "cluster_id": "svidrigailov-1",
+      "distance_to_centroid": 0.5512230128503647,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 12743,
+      "timeline_end_index": 12743,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 2,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::6_5_0002",
+      "source_section": "6_5",
+      "source_sentence": 18,
+      "character_position": 182,
+      "text": "принял вдруг самый веселый и дружеский вид",
+      "vad": [
+        0.7,
+        0.5,
+        0.6
+      ],
+      "cluster_id": "svidrigailov-2",
+      "distance_to_centroid": 0.3422814868746027,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 12758,
+      "timeline_end_index": 12758,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 58,
+          "end": 100
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::6_5_0003",
+      "source_section": "6_5",
+      "source_sentence": 20,
+      "character_position": 183,
+      "text": "меня, разумеется, мучит любопытство",
+      "vad": [
+        -0.35,
+        0.45,
+        0.05
+      ],
+      "cluster_id": "svidrigailov-1",
+      "distance_to_centroid": 0.190298388228855,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 12760,
+      "timeline_end_index": 12760,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 51,
+          "end": 86
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::6_5_0004",
+      "source_section": "6_5",
+      "source_sentence": 39,
+      "character_position": 184,
+      "text": "засмеялся Свидригайлов",
+      "vad": [
+        0.65,
+        0.55,
+        0.35
+      ],
+      "cluster_id": "svidrigailov-2",
+      "distance_to_centroid": 0.2227400682325012,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 12779,
+      "timeline_end_index": 12779,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 2,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::6_5_0005",
+      "source_section": "6_5",
+      "source_sentence": 378,
+      "character_position": 185,
+      "text": "мне бояться нечего",
+      "vad": [
+        0.2,
+        0.35,
+        0.85
+      ],
+      "cluster_id": "svidrigailov-2",
+      "distance_to_centroid": 0.5708537532165631,
+      "warning": null,
+      "chapter_sentence_start": 378,
+      "chapter_sentence_end": 378,
+      "timeline_start_index": 13118,
+      "timeline_end_index": 13118,
+      "highlights": [
+        {
+          "chapter_sentence": 378,
+          "start": 62,
+          "end": 80
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::6_5_0006",
+      "source_section": "6_5",
+      "source_sentence": 144,
+      "character_position": 186,
+      "text": "но ему было уже не до улыбки",
+      "vad": [
+        -0.55,
+        0.35,
+        -0.2
+      ],
+      "cluster_id": "svidrigailov-1",
+      "distance_to_centroid": 0.3036495675871008,
+      "warning": null,
+      "chapter_sentence_start": 144,
+      "chapter_sentence_end": 144,
+      "timeline_start_index": 12884,
+      "timeline_end_index": 12884,
+      "highlights": [
+        {
+          "chapter_sentence": 144,
+          "start": 57,
+          "end": 85
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::6_5_0007",
+      "source_section": "6_5",
+      "source_sentence": 175,
+      "character_position": 187,
+      "text": "в глазах его уже блистал тот же самый пламень, который так испугал когда-то Дунечку",
+      "vad": [
+        -0.65,
+        0.9,
+        0.2
+      ],
+      "cluster_id": "svidrigailov-1",
+      "distance_to_centroid": 0.6815843502916569,
+      "warning": null,
+      "chapter_sentence_start": 175,
+      "chapter_sentence_end": 175,
+      "timeline_start_index": 12915,
+      "timeline_end_index": 12915,
+      "highlights": [
+        {
+          "chapter_sentence": 175,
+          "start": 80,
+          "end": 163
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::6_5_0008",
+      "source_section": "6_5",
+      "source_sentence": 175,
+      "character_position": 188,
+      "text": "в глазах его уже блистал тот же самый пламень",
+      "vad": [
+        0.2,
+        0.85,
+        0.35
+      ],
+      "cluster_id": "svidrigailov-2",
+      "distance_to_centroid": 0.5237864721725847,
+      "warning": null,
+      "chapter_sentence_start": 175,
+      "chapter_sentence_end": 175,
+      "timeline_start_index": 12915,
+      "timeline_end_index": 12915,
+      "highlights": [
+        {
+          "chapter_sentence": 175,
+          "start": 80,
+          "end": 125
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::6_5_0009",
+      "source_section": "6_5",
+      "source_sentence": 332,
+      "character_position": 189,
+      "text": "сбиваясь и даже не выговаривая иных слов от волнения",
+      "vad": [
+        -0.65,
+        0.9,
+        -0.35
+      ],
+      "cluster_id": "svidrigailov-3",
+      "distance_to_centroid": 0.3072778404015073,
+      "warning": null,
+      "chapter_sentence_start": 332,
+      "chapter_sentence_end": 332,
+      "timeline_start_index": 13072,
+      "timeline_end_index": 13072,
+      "highlights": [
+        {
+          "chapter_sentence": 332,
+          "start": 97,
+          "end": 149
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::6_5_0010",
+      "source_section": "6_5",
+      "source_sentence": 334,
+      "character_position": 190,
+      "text": "Он тоже весь дрожал",
+      "vad": [
+        -0.65,
+        0.9,
+        -0.35
+      ],
+      "cluster_id": "svidrigailov-3",
+      "distance_to_centroid": 0.3072778404015073,
+      "warning": null,
+      "chapter_sentence_start": 334,
+      "chapter_sentence_end": 334,
+      "timeline_start_index": 13074,
+      "timeline_end_index": 13074,
+      "highlights": [
+        {
+          "chapter_sentence": 334,
+          "start": 0,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::6_5_0011",
+      "source_section": "6_5",
+      "source_sentence": 343,
+      "character_position": 191,
+      "text": "Я вас также люблю",
+      "vad": [
+        0.82,
+        0.72,
+        0.08
+      ],
+      "cluster_id": "svidrigailov-2",
+      "distance_to_centroid": 0.5384277503472915,
+      "warning": null,
+      "chapter_sentence_start": 343,
+      "chapter_sentence_end": 343,
+      "timeline_start_index": 13083,
+      "timeline_end_index": 13083,
+      "highlights": [
+        {
+          "chapter_sentence": 343,
+          "start": 0,
+          "end": 17
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::6_5_0012",
+      "source_section": "6_5",
+      "source_sentence": 344,
+      "character_position": 192,
+      "text": "Я вас бесконечно люблю",
+      "vad": [
+        0.9,
+        0.85,
+        0.1
+      ],
+      "cluster_id": "svidrigailov-2",
+      "distance_to_centroid": 0.6621802648928844,
+      "warning": null,
+      "chapter_sentence_start": 344,
+      "chapter_sentence_end": 344,
+      "timeline_start_index": 13084,
+      "timeline_end_index": 13084,
+      "highlights": [
+        {
+          "chapter_sentence": 344,
+          "start": 0,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::6_5_0013",
+      "source_section": "6_5",
+      "source_sentence": 353,
+      "character_position": 193,
+      "text": "Знаете ли, что вы меня убиваете",
+      "vad": [
+        -0.9,
+        0.9,
+        -0.7
+      ],
+      "cluster_id": "svidrigailov-3",
+      "distance_to_centroid": 0.2842545049471802,
+      "warning": null,
+      "chapter_sentence_start": 353,
+      "chapter_sentence_end": 353,
+      "timeline_start_index": 13093,
+      "timeline_end_index": 13093,
+      "highlights": [
+        {
+          "chapter_sentence": 353,
+          "start": 0,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::6_5_0014",
+      "source_section": "6_5",
+      "source_sentence": 354,
+      "character_position": 194,
+      "text": "Он начинал даже бредить",
+      "vad": [
+        -0.78,
+        0.93,
+        -0.62
+      ],
+      "cluster_id": "svidrigailov-3",
+      "distance_to_centroid": 0.2483673446097147,
+      "warning": null,
+      "chapter_sentence_start": 354,
+      "chapter_sentence_end": 354,
+      "timeline_start_index": 13094,
+      "timeline_end_index": 13094,
+      "highlights": [
+        {
+          "chapter_sentence": 354,
+          "start": 0,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::6_5_0015",
+      "source_section": "6_5",
+      "source_sentence": 355,
+      "character_position": 195,
+      "text": "С ним что-то вдруг сделалось, точно ему в голову вдруг ударило",
+      "vad": [
+        -0.45,
+        0.85,
+        -0.35
+      ],
+      "cluster_id": "svidrigailov-3",
+      "distance_to_centroid": 0.4156356632137664,
+      "warning": "non_verbatim_evidence;empty_evidence",
+      "chapter_sentence_start": 355,
+      "chapter_sentence_end": 355,
+      "timeline_start_index": 13095,
+      "timeline_end_index": 13095,
+      "highlights": [
+        {
+          "chapter_sentence": 355,
+          "start": 0,
+          "end": 62
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::6_5_0016",
+      "source_section": "6_5",
+      "source_sentence": 361,
+      "character_position": 196,
+      "text": "Свидригайлов встал и опомнился",
+      "vad": [
+        -0.2,
+        0.2,
+        0.3
+      ],
+      "cluster_id": "svidrigailov-1",
+      "distance_to_centroid": 0.3310729676307526,
+      "warning": null,
+      "chapter_sentence_start": 361,
+      "chapter_sentence_end": 361,
+      "timeline_start_index": 13101,
+      "timeline_end_index": 13101,
+      "highlights": [
+        {
+          "chapter_sentence": 361,
+          "start": 0,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::6_5_0017",
+      "source_section": "6_5",
+      "source_sentence": 396,
+      "character_position": 197,
+      "text": "с удивлением проговорил Свидригайлов",
+      "vad": [
+        0.1,
+        0.35,
+        0.2
+      ],
+      "cluster_id": "svidrigailov-2",
+      "distance_to_centroid": 0.4138946607171108,
+      "warning": null,
+      "chapter_sentence_start": 466,
+      "chapter_sentence_end": 466,
+      "timeline_start_index": 13206,
+      "timeline_end_index": 13206,
+      "highlights": [
+        {
+          "chapter_sentence": 466,
+          "start": 2,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::6_5_0018",
+      "source_section": "6_5",
+      "source_sentence": 437,
+      "character_position": 198,
+      "text": "сердце его с болью сжалось",
+      "vad": [
+        -0.75,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "svidrigailov-1",
+      "distance_to_centroid": 0.3412827174486961,
+      "warning": null,
+      "chapter_sentence_start": 437,
+      "chapter_sentence_end": 437,
+      "timeline_start_index": 13177,
+      "timeline_end_index": 13177,
+      "highlights": [
+        {
+          "chapter_sentence": 437,
+          "start": 93,
+          "end": 119
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::6_5_0019",
+      "source_section": "6_5",
+      "source_sentence": 461,
+      "character_position": 199,
+      "text": "с дикою решимостью, воспаленно-страстным, тяжелым взглядом",
+      "vad": [
+        -0.75,
+        0.9,
+        0.55
+      ],
+      "cluster_id": "svidrigailov-1",
+      "distance_to_centroid": 0.8595934949512474,
+      "warning": null,
+      "chapter_sentence_start": 461,
+      "chapter_sentence_end": 461,
+      "timeline_start_index": 13201,
+      "timeline_end_index": 13201,
+      "highlights": [
+        {
+          "chapter_sentence": 461,
+          "start": 54,
+          "end": 112
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::6_5_0020",
+      "source_section": "6_5",
+      "source_sentence": 466,
+      "character_position": 200,
+      "text": "с удивлением проговорил Свидригайлов и глубоко перевел дух",
+      "vad": [
+        0.35,
+        0.25,
+        0.2
+      ],
+      "cluster_id": "svidrigailov-2",
+      "distance_to_centroid": 0.2559808224740286,
+      "warning": null,
+      "chapter_sentence_start": 466,
+      "chapter_sentence_end": 466,
+      "timeline_start_index": 13206,
+      "timeline_end_index": 13206,
+      "highlights": [
+        {
+          "chapter_sentence": 466,
+          "start": 2,
+          "end": 60
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::6_5_0021",
+      "source_section": "6_5",
+      "source_sentence": 467,
+      "character_position": 201,
+      "text": "не одна тягость смертного страха",
+      "vad": [
+        -0.85,
+        0.8,
+        -0.65
+      ],
+      "cluster_id": "svidrigailov-3",
+      "distance_to_centroid": 0.1663062429372671,
+      "warning": null,
+      "chapter_sentence_start": 467,
+      "chapter_sentence_end": 467,
+      "timeline_start_index": 13207,
+      "timeline_end_index": 13207,
+      "highlights": [
+        {
+          "chapter_sentence": 467,
+          "start": 60,
+          "end": 92
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::6_5_0022",
+      "source_section": "6_5",
+      "source_sentence": 483,
+      "character_position": 202,
+      "text": "Прошло мгновение ужасной немой борьбы в душе Свидригайлова",
+      "vad": [
+        -0.8,
+        0.9,
+        -0.3
+      ],
+      "cluster_id": "svidrigailov-3",
+      "distance_to_centroid": 0.3093628702471072,
+      "warning": null,
+      "chapter_sentence_start": 483,
+      "chapter_sentence_end": 483,
+      "timeline_start_index": 13223,
+      "timeline_end_index": 13223,
+      "highlights": [
+        {
+          "chapter_sentence": 483,
+          "start": 0,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::6_5_0023",
+      "source_section": "6_5",
+      "source_sentence": 498,
+      "character_position": 203,
+      "text": "Странная улыбка искривила его лицо, жалкая, печальная, слабая улыбка, улыбка отчаяния",
+      "vad": [
+        -0.95,
+        0.55,
+        -0.7
+      ],
+      "cluster_id": "svidrigailov-3",
+      "distance_to_centroid": 0.2737580696995496,
+      "warning": null,
+      "chapter_sentence_start": 498,
+      "chapter_sentence_end": 498,
+      "timeline_start_index": 13238,
+      "timeline_end_index": 13238,
+      "highlights": [
+        {
+          "chapter_sentence": 498,
+          "start": 0,
+          "end": 85
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::6_5_0024",
+      "source_section": "6_5",
+      "source_sentence": 499,
+      "character_position": 204,
+      "text": "он посмотрел на кровь со злобою",
+      "vad": [
+        -0.75,
+        0.55,
+        0.2
+      ],
+      "cluster_id": "svidrigailov-1",
+      "distance_to_centroid": 0.4522109314938107,
+      "warning": null,
+      "chapter_sentence_start": 499,
+      "chapter_sentence_end": 499,
+      "timeline_start_index": 13239,
+      "timeline_end_index": 13239,
+      "highlights": [
+        {
+          "chapter_sentence": 499,
+          "start": 45,
+          "end": 76
+        }
+      ]
+    }
+  ]
+}

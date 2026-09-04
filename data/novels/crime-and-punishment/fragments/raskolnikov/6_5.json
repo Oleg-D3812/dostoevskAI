@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "novel_id": "crime-and-punishment",
+  "character_id": "raskolnikov",
+  "chapter_id": "6_5",
+  "count": 5,
+  "fragments": [
+    {
+      "id": "Родион Романович Раскольников::6_5_0001",
+      "source_section": "6_5",
+      "source_sentence": 12,
+      "character_position": 998,
+      "text": "Раскольников вряд ли и сам мог определить, чего ему именно теперь хотелось и в чем именно желал он удостовериться лично.",
+      "vad": [
+        -0.18,
+        0.24,
+        -0.3
+      ],
+      "cluster_id": "raskolnikov-3",
+      "distance_to_centroid": 0.3176650676059606,
+      "warning": "non_verbatim_evidence",
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 12752,
+      "timeline_end_index": 12752,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 0,
+          "end": 120
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::6_5_0005",
+      "source_section": "6_5",
+      "source_sentence": 63,
+      "character_position": 999,
+      "text": "Вы, кажется, нарочно хотите меня раздразнить",
+      "vad": [
+        -0.55,
+        0.65,
+        -0.25
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.3626872899875348,
+      "warning": null,
+      "chapter_sentence_start": 63,
+      "chapter_sentence_end": 63,
+      "timeline_start_index": 12803,
+      "timeline_end_index": 12803,
+      "highlights": [
+        {
+          "chapter_sentence": 63,
+          "start": 2,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::6_5_0006",
+      "source_section": "6_5",
+      "source_sentence": 94,
+      "character_position": 1000,
+      "text": "Глубокое отвращение влекло его прочь от Свидригайлова.",
+      "vad": [
+        -0.88,
+        0.62,
+        0.48
+      ],
+      "cluster_id": "raskolnikov-1",
+      "distance_to_centroid": 0.3486538483264208,
+      "warning": null,
+      "chapter_sentence_start": 94,
+      "chapter_sentence_end": 94,
+      "timeline_start_index": 12834,
+      "timeline_end_index": 12834,
+      "highlights": [
+        {
+          "chapter_sentence": 94,
+          "start": 0,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::6_5_0007",
+      "source_section": "6_5",
+      "source_sentence": 95,
+      "character_position": 1001,
+      "text": "И я мог хоть мгновение ожидать чего-нибудь от этого грубого злодея, от этого сладострастного развратника и подлеца!",
+      "vad": [
+        -0.88,
+        0.72,
+        0.18
+      ],
+      "cluster_id": "raskolnikov-1",
+      "distance_to_centroid": 0.3321680679352066,
+      "warning": null,
+      "chapter_sentence_start": 95,
+      "chapter_sentence_end": 95,
+      "timeline_start_index": 12835,
+      "timeline_end_index": 12835,
+      "highlights": [
+        {
+          "chapter_sentence": 95,
+          "start": 1,
+          "end": 116
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::6_5_0008",
+      "source_section": "6_5",
+      "source_sentence": 100,
+      "character_position": 1002,
+      "text": "слишком уж тяжело и невыносимо становилось обо всем этом думать и передумывать!",
+      "vad": [
+        -0.9,
+        0.6,
+        -0.5
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.143044503752684,
+      "warning": null,
+      "chapter_sentence_start": 100,
+      "chapter_sentence_end": 100,
+      "timeline_start_index": 12840,
+      "timeline_end_index": 12840,
+      "highlights": [
+        {
+          "chapter_sentence": 100,
+          "start": 3,
+          "end": 82
+        }
+      ]
+    }
+  ]
+}

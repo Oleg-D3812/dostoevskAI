@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "novel_id": "crime-and-punishment",
+  "character_id": "raskolnikov",
+  "chapter_id": "6_4",
+  "count": 5,
+  "fragments": [
+    {
+      "id": "Родион Романович Раскольников::6_4_0001",
+      "source_section": "6_4",
+      "source_sentence": 38,
+      "character_position": 993,
+      "text": "– раздражался все более и более Раскольников.",
+      "vad": [
+        -0.72,
+        0.72,
+        -0.18
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.3529295575421991,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 12524,
+      "timeline_end_index": 12524,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 0,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::6_4_0002",
+      "source_section": "6_4",
+      "source_sentence": 232,
+      "character_position": 994,
+      "text": "– со злобою пробормотал Раскольников.",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.2
+      ],
+      "cluster_id": "raskolnikov-3",
+      "distance_to_centroid": 0.3476003747843692,
+      "warning": null,
+      "chapter_sentence_start": 232,
+      "chapter_sentence_end": 232,
+      "timeline_start_index": 12718,
+      "timeline_end_index": 12718,
+      "highlights": [
+        {
+          "chapter_sentence": 232,
+          "start": 0,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::6_4_0003",
+      "source_section": "6_4",
+      "source_sentence": 231,
+      "character_position": 995,
+      "text": "– Еще бы, разве я сам себе в эту минуту не смешон?",
+      "vad": [
+        -0.35,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "raskolnikov-3",
+      "distance_to_centroid": 0.3791357685552698,
+      "warning": null,
+      "chapter_sentence_start": 231,
+      "chapter_sentence_end": 231,
+      "timeline_start_index": 12717,
+      "timeline_end_index": 12717,
+      "highlights": [
+        {
+          "chapter_sentence": 231,
+          "start": 0,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::6_4_0004",
+      "source_section": "6_4",
+      "source_sentence": 236,
+      "character_position": 996,
+      "text": "– Еще бы вам-то не ощущать наслаждения, – вскрикнул Раскольников, тоже вставая, – разве для исшаркавшегося развратника рассказывать о таких похождениях, – имея в виду какое-нибудь чудовищное намерение в этом же роде, – не наслаждение, да еще при таких обстоятельствах и такому человеку, как я…",
+      "vad": [
+        -0.7,
+        0.8,
+        0.4
+      ],
+      "cluster_id": "raskolnikov-1",
+      "distance_to_centroid": 0.2706309257875453,
+      "warning": null,
+      "chapter_sentence_start": 236,
+      "chapter_sentence_end": 236,
+      "timeline_start_index": 12722,
+      "timeline_end_index": 12722,
+      "highlights": [
+        {
+          "chapter_sentence": 236,
+          "start": 0,
+          "end": 293
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::6_4_0006",
+      "source_section": "6_4",
+      "source_sentence": 250,
+      "character_position": 997,
+      "text": "Раскольников все это приметил и был тоже в тревоге.",
+      "vad": [
+        -0.7,
+        0.7,
+        -0.2
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.3361526320849385,
+      "warning": null,
+      "chapter_sentence_start": 250,
+      "chapter_sentence_end": 250,
+      "timeline_start_index": 12736,
+      "timeline_end_index": 12736,
+      "highlights": [
+        {
+          "chapter_sentence": 250,
+          "start": 0,
+          "end": 51
+        }
+      ]
+    }
+  ]
+}

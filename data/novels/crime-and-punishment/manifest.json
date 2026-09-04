@@ -1,0 +1,976 @@
+{
+  "schema_version": 1,
+  "novel_id": "crime-and-punishment",
+  "title": "Преступление и наказание",
+  "language": "ru",
+  "data_version": "444a08974efe3645",
+  "generated_at": "2026-09-03T00:38:13.609339+00:00",
+  "vad_dimensions": [
+    "V",
+    "A",
+    "D"
+  ],
+  "sentence_numbering": "one-based within logical chapter",
+  "timeline_indexing": "zero-based across the complete novel",
+  "files": {
+    "characters": "characters.json",
+    "chapters": "chapters.json",
+    "clusters": "clusters.json",
+    "novel_chapter_template": "novel/{chapter_id}.json",
+    "fragment_template": "fragments/{character_id}/{chapter_id}.json",
+    "profile_template": "profiles/{character_id}.json"
+  },
+  "emotion_model": {
+    "id": "plutchik-vad-gaussian-v1",
+    "path": "../../models/plutchik-vad-gaussian-v1.json",
+    "sha256": "64af2d12a8d822817b7bfdbae105919d08a9ee86d16aef54e55ad6d2bc5f6eb4"
+  },
+  "counts": {
+    "characters": 3,
+    "logical_chapters": 41,
+    "source_sections": 47,
+    "sentences": 14484,
+    "fragments": 1642,
+    "clusters": 10,
+    "fragment_files": 62
+  },
+  "assets": [
+    {
+      "path": "chapters.json",
+      "bytes": 24872,
+      "sha256": "4e8f3cae970a9b10ce70623b0988f6e2cf7b01a4b10f4fcd89fdee7ec18339f3"
+    },
+    {
+      "path": "characters.json",
+      "bytes": 1337,
+      "sha256": "ae1a3d0f686a883a045b591c5712feca159736bcc4789a16d712e5730261956f"
+    },
+    {
+      "path": "clusters.json",
+      "bytes": 4904,
+      "sha256": "3ff98fcbd17d789ae400ed7f789ca40e1695778a29e411e82a8718ca1731bcd9"
+    },
+    {
+      "path": "fragments/marmeladova/1_2.json",
+      "bytes": 4068,
+      "sha256": "ba89314ae587f66d7ff49e2000daea365baa01c848af915763d9b32aa5c86911"
+    },
+    {
+      "path": "fragments/marmeladova/2_7.json",
+      "bytes": 863,
+      "sha256": "845a66b77cb2bb423c7905a2401dfba80a154ce399adc82c55ca90b1bcbdbd92"
+    },
+    {
+      "path": "fragments/marmeladova/3_4.json",
+      "bytes": 14484,
+      "sha256": "cf22be77fa1abc5c7ba4d9e69a78e4ef97760f429939c549aad441f2867abff3"
+    },
+    {
+      "path": "fragments/marmeladova/4_4.json",
+      "bytes": 70522,
+      "sha256": "8d7ff2a475e3ccdb5d2e6435b3757e45595076a423d7c7e9c042dcac1d5b11d8"
+    },
+    {
+      "path": "fragments/marmeladova/5_1.json",
+      "bytes": 7048,
+      "sha256": "1686179b8b65f582358ad52197ba3b9c165ca94cc979f5f6f474f25c125f7bbf"
+    },
+    {
+      "path": "fragments/marmeladova/5_2.json",
+      "bytes": 3971,
+      "sha256": "caee2870d39b64ef48dc96465b24b0b05c7672aa076b5286adebdd6fcd852b85"
+    },
+    {
+      "path": "fragments/marmeladova/5_3.json",
+      "bytes": 13360,
+      "sha256": "5c62386ef262e5430c9e9f48b685596d36f667649588f683a8d3dd697f56b805"
+    },
+    {
+      "path": "fragments/marmeladova/5_4.json",
+      "bytes": 59320,
+      "sha256": "26ddb607ba3baf449637c237d6a4a48aa29c4b58a9674e2b4ab83f30d6f030ae"
+    },
+    {
+      "path": "fragments/marmeladova/5_5.json",
+      "bytes": 6174,
+      "sha256": "17a7c92a4016142afba1ae210ee1c08bf3e439b86a24d06d79e79301d6e53c77"
+    },
+    {
+      "path": "fragments/marmeladova/6_1.json",
+      "bytes": 927,
+      "sha256": "9122ae05c43279debd4e83082cf8c931de6094097239d02f68a66b5edd2ab30b"
+    },
+    {
+      "path": "fragments/marmeladova/6_6.json",
+      "bytes": 4855,
+      "sha256": "2fbf8dbf28b7949d6c4f1c01043567ed20d8d8e246ca45a38816de4ff2e56077"
+    },
+    {
+      "path": "fragments/marmeladova/6_8.json",
+      "bytes": 16557,
+      "sha256": "df0d4aa0d189d2660d9c99dda3fd2236dd01752aceebf498e7caa492c2474a36"
+    },
+    {
+      "path": "fragments/marmeladova/7_2.json",
+      "bytes": 9799,
+      "sha256": "3127e0b622157ab1b6f0f207fec120abce2d0dd82f437f2d43819d5f85813bf4"
+    },
+    {
+      "path": "fragments/raskolnikov/1_1.json",
+      "bytes": 31417,
+      "sha256": "791c6afd3f75b2d18f1065efc20ed60a063dc394cda4c24f934e9c25fc618bd0"
+    },
+    {
+      "path": "fragments/raskolnikov/1_2.json",
+      "bytes": 10597,
+      "sha256": "47d2b5ddedcdf9988c5cebf85b7c61fe3c9dbb24106472cd425a7451b3b8c45f"
+    },
+    {
+      "path": "fragments/raskolnikov/1_3.json",
+      "bytes": 16376,
+      "sha256": "89d2a288ce1c035a393200b40fbada66ef08ab7d8a6e809cfccc0910d78b9028"
+    },
+    {
+      "path": "fragments/raskolnikov/1_4.json",
+      "bytes": 23978,
+      "sha256": "3800d136620633c8b1b813ac4b08d3b82cb27f43c2667d172213030f4304d2d2"
+    },
+    {
+      "path": "fragments/raskolnikov/1_5.json",
+      "bytes": 38238,
+      "sha256": "480ee29f3acf1b2cdced6ba2c0be1bdeea65edb326eac7c148ca3ede49d63656"
+    },
+    {
+      "path": "fragments/raskolnikov/1_6.json",
+      "bytes": 30603,
+      "sha256": "98d6d44595b01759b35c706e2d880ef6ee02256bc5ec2cf9364fcd4fc66c2674"
+    },
+    {
+      "path": "fragments/raskolnikov/1_7.json",
+      "bytes": 39842,
+      "sha256": "4ab66b0640c2cea230ac4c8087378a7f76d7040717f04e73d0759a01cfee0822"
+    },
+    {
+      "path": "fragments/raskolnikov/2_1.json",
+      "bytes": 56836,
+      "sha256": "edd98a7617698c236e16f208937906da6bb6680e8a9f335158942d466fb72162"
+    },
+    {
+      "path": "fragments/raskolnikov/2_2.json",
+      "bytes": 30928,
+      "sha256": "ce32df0d9c6c9d7ba1bcb47f4bde0c714edcb1ad8cc673b8e431877579474da4"
+    },
+    {
+      "path": "fragments/raskolnikov/2_3.json",
+      "bytes": 11108,
+      "sha256": "6c43477aa652ff065c6c05b825128a8cba75448128d55db7574316763253f529"
+    },
+    {
+      "path": "fragments/raskolnikov/2_4.json",
+      "bytes": 3830,
+      "sha256": "bda5e8468b082b137f9fa8588ad7310497d29477b3d2b2bd095615fda3b02d24"
+    },
+    {
+      "path": "fragments/raskolnikov/2_5.json",
+      "bytes": 11380,
+      "sha256": "78de91be73547c0207930b4d768950c06ce3219a71c84e24baed0ddecb63614f"
+    },
+    {
+      "path": "fragments/raskolnikov/2_6.json",
+      "bytes": 35958,
+      "sha256": "a008f5a7961bfea0f48516f7b0f61cf028c6868788da11e3fb02b00c5019121d"
+    },
+    {
+      "path": "fragments/raskolnikov/2_7.json",
+      "bytes": 10119,
+      "sha256": "d093693b0e5c13333cbc0dc72050702107db7ed3f74c1403c2981231e0d15744"
+    },
+    {
+      "path": "fragments/raskolnikov/3_1.json",
+      "bytes": 8889,
+      "sha256": "91cd64ec9dbaefc38f2d292ea9db27a24a69e7aed93bbab44e778ccf0dbce6ba"
+    },
+    {
+      "path": "fragments/raskolnikov/3_2.json",
+      "bytes": 16373,
+      "sha256": "5db863d5417abe2ad1b3e34148609a4de7b67ef71ec9ff026d6c81395e87e761"
+    },
+    {
+      "path": "fragments/raskolnikov/3_3.json",
+      "bytes": 26908,
+      "sha256": "09dbeb4f3ef38087ba756dcaa506c8d6498072c5e8a3abcb37d979f055174ffc"
+    },
+    {
+      "path": "fragments/raskolnikov/3_4.json",
+      "bytes": 9279,
+      "sha256": "6f124261ccbad90df0e38628e519779d982bb2ae337fadfd9d52d8bb33d0a32c"
+    },
+    {
+      "path": "fragments/raskolnikov/3_5.json",
+      "bytes": 24518,
+      "sha256": "2a4b143cc29ecfce76bd8412c0f3c6cce42c1998fb5c1d596d7a8ce03410001b"
+    },
+    {
+      "path": "fragments/raskolnikov/3_6.json",
+      "bytes": 38208,
+      "sha256": "6074f9f9b5e260ad2bdf9555743acd4f95de75954af2a69a8c4f19836c1daa6e"
+    },
+    {
+      "path": "fragments/raskolnikov/4_1.json",
+      "bytes": 10914,
+      "sha256": "979cf3b915a106238551b94f9f7159f8110262114f738e5aa7c0966117c538c5"
+    },
+    {
+      "path": "fragments/raskolnikov/4_2.json",
+      "bytes": 6341,
+      "sha256": "1a00948411478c8e5f94154ec80c74b0346f06d941f7f42fe64d38e84635b7bf"
+    },
+    {
+      "path": "fragments/raskolnikov/4_3.json",
+      "bytes": 7604,
+      "sha256": "c988448e859a311ba873a03ffe6e876611a77ffccf4e8e11f3d43a3bbda71d1d"
+    },
+    {
+      "path": "fragments/raskolnikov/4_4.json",
+      "bytes": 22619,
+      "sha256": "202403cde4088460424b8cd5f8a984b98d60744dc517f16694ac01ce5b1da00a"
+    },
+    {
+      "path": "fragments/raskolnikov/4_5.json",
+      "bytes": 55209,
+      "sha256": "e62e7166c1faad5d2ce844e9a181055d91bf8f522b7a2c15f537e7dfca963806"
+    },
+    {
+      "path": "fragments/raskolnikov/4_6.json",
+      "bytes": 10971,
+      "sha256": "5d77865691c3362e0e8b27fdbd8c9b072f2582f04d647c182e61d9b2ce202bc5"
+    },
+    {
+      "path": "fragments/raskolnikov/5_2.json",
+      "bytes": 911,
+      "sha256": "575044308265ad610602d81069a31b48be6291e1b22da449c6efdfb241fd05f0"
+    },
+    {
+      "path": "fragments/raskolnikov/5_3.json",
+      "bytes": 2424,
+      "sha256": "ebe05891a225f3ad28c57b8a0ac0428f0bdc4f747e9f2639b1895fed6d69609c"
+    },
+    {
+      "path": "fragments/raskolnikov/5_4.json",
+      "bytes": 84069,
+      "sha256": "6a667290663ef0cacb7ffa8922236d2da3dc2aa472da691d48e132cd7da2fb45"
+    },
+    {
+      "path": "fragments/raskolnikov/5_5.json",
+      "bytes": 18943,
+      "sha256": "b433a1abb16b0b19ad54d898e4baa042a7124d28d4ffa72ccc08ca98c011cb89"
+    },
+    {
+      "path": "fragments/raskolnikov/6_1.json",
+      "bytes": 21425,
+      "sha256": "f593dd57e1dd10cb9a0b3caeaf35c7b8ec42fbdb58e7624cf99ad5ee16797fb5"
+    },
+    {
+      "path": "fragments/raskolnikov/6_2.json",
+      "bytes": 19880,
+      "sha256": "1d3303928d1b531c368ea2524a47cd356e25a6e6e1eb4dc0794b9f48daf042c4"
+    },
+    {
+      "path": "fragments/raskolnikov/6_3.json",
+      "bytes": 18111,
+      "sha256": "bb7070ec0c4f94fff1e3acd38bb79c59d6692a9b870f0470e706b3cc1bfaba3e"
+    },
+    {
+      "path": "fragments/raskolnikov/6_4.json",
+      "bytes": 4429,
+      "sha256": "0e357e91fd5594fbd606272ff933a94887ff02be15a04887088274b211b0e9d3"
+    },
+    {
+      "path": "fragments/raskolnikov/6_5.json",
+      "bytes": 4328,
+      "sha256": "9a785ee528bb09ec974ef531471866452efe526b3829c1a329b29661e1502816"
+    },
+    {
+      "path": "fragments/raskolnikov/6_6.json",
+      "bytes": 1699,
+      "sha256": "0b089578cb8ef17516ab2adc51e47db91f08d2d6bbf366aac89d017db502a3f7"
+    },
+    {
+      "path": "fragments/raskolnikov/6_7.json",
+      "bytes": 37408,
+      "sha256": "b6c4862ee1ab7564f92063ba51eea56a023a40d2d9b2e82fd09846108856225d"
+    },
+    {
+      "path": "fragments/raskolnikov/6_8.json",
+      "bytes": 21979,
+      "sha256": "09510be1ed3d6a910ea19acf1dde33ef7b441264ac94962ce61df44051951772"
+    },
+    {
+      "path": "fragments/raskolnikov/7_1.json",
+      "bytes": 19283,
+      "sha256": "3525bbd922739845df3ef181d7d5c64af4a752dda7afc7dfb94a5ac69d73a42c"
+    },
+    {
+      "path": "fragments/raskolnikov/7_2.json",
+      "bytes": 21166,
+      "sha256": "0f0a93535a0f81cbf0604308f9e8721703d4bbce2abd6b968d8a2b3ffffc412b"
+    },
+    {
+      "path": "fragments/svidrigailov/2_1.json",
+      "bytes": 20808,
+      "sha256": "ab8cda385ac355e7342e5ecb542bef8f4c9a0a1041ac64f3b73c71e3e4cfb80e"
+    },
+    {
+      "path": "fragments/svidrigailov/4_1.json",
+      "bytes": 26234,
+      "sha256": "b655e802c8cc04b2d73edf36f5a56c07f8d0bf645a8f2722d86574dba8255de1"
+    },
+    {
+      "path": "fragments/svidrigailov/4_4.json",
+      "bytes": 21768,
+      "sha256": "b12e709c2b735a01598f33f04f9b227558d1f0c157a057124cf2071036334202"
+    },
+    {
+      "path": "fragments/svidrigailov/5_4.json",
+      "bytes": 28504,
+      "sha256": "bc6cd3a51cbcfb4266a25fcda7648c083370cd7dcb1d8811153550cbe5fef93f"
+    },
+    {
+      "path": "fragments/svidrigailov/5_5.json",
+      "bytes": 10885,
+      "sha256": "ad544b21c7fed33d2c043d27150b3816f71bd8b61001c83ac0c3962c365707f6"
+    },
+    {
+      "path": "fragments/svidrigailov/6_3.json",
+      "bytes": 6947,
+      "sha256": "1ef484ee3f23d387d24cababe6a4ded63e5fb1d62a04052e5d693e455c7dc94c"
+    },
+    {
+      "path": "fragments/svidrigailov/6_4.json",
+      "bytes": 20073,
+      "sha256": "7c43483d238260d94aee710e0da4276f63474a5b9d48d0d26fbb81fb6f95bf09"
+    },
+    {
+      "path": "fragments/svidrigailov/6_5.json",
+      "bytes": 18243,
+      "sha256": "08fbed0281bdf301dbaec8facc3aee827e72d6c6ed480587dafb40a1c2ae66f5"
+    },
+    {
+      "path": "fragments/svidrigailov/6_6.json",
+      "bytes": 16427,
+      "sha256": "46718264c2ac6d4476d4aff40703ba9c5c0442cf82b4ebf92405ba9ed1e83c28"
+    },
+    {
+      "path": "novel/1_1.json",
+      "bytes": 58704,
+      "sha256": "f0bb90a4c4ca0ce372df3beed32281f62d76424fa2038b28ba6753da3ccdf2ed"
+    },
+    {
+      "path": "novel/1_2.json",
+      "bytes": 125569,
+      "sha256": "71e5727f5f0ee6007c620750fbb27e1d5f4672c304f5a3a4902d9a91762f1d17"
+    },
+    {
+      "path": "novel/1_3.json",
+      "bytes": 82047,
+      "sha256": "f667d9b6b0799f3ec5649a1273c2cba4433f5728c83b0b46ed8fdc71a27ec3a2"
+    },
+    {
+      "path": "novel/1_4.json",
+      "bytes": 96334,
+      "sha256": "1af202199b57aab5611aa4c8d4adb5e78d55131db94476b92bd4d37e86d91db9"
+    },
+    {
+      "path": "novel/1_5.json",
+      "bytes": 76656,
+      "sha256": "a14d57d1c809594e612395cdc9b121167139496f4adaed810283ece7def62865"
+    },
+    {
+      "path": "novel/1_6.json",
+      "bytes": 88170,
+      "sha256": "4cdbf70c28b021f7002cbae345b403fb33ebb08eeca5490f58b1c5e2bce7a7f1"
+    },
+    {
+      "path": "novel/1_7.json",
+      "bytes": 91042,
+      "sha256": "2df1b69acf78e961b7788382807d9eaaac23799449ddbb7527b9841372f788f3"
+    },
+    {
+      "path": "novel/2_1.json",
+      "bytes": 132329,
+      "sha256": "cce016c74ec5fc20382bc325b3cb8bca848b45eb811c0c99211e069eb034f3e0"
+    },
+    {
+      "path": "novel/2_2.json",
+      "bytes": 81977,
+      "sha256": "1d73d6bfc1cb7110e28aeb9fffb977838dd25262e8868254ee3ce391dd5052ac"
+    },
+    {
+      "path": "novel/2_3.json",
+      "bytes": 113857,
+      "sha256": "024ead41d216e7beaa1e9e206b29c94a9230b155a215c5cbb52ee5d004c1182c"
+    },
+    {
+      "path": "novel/2_4.json",
+      "bytes": 81565,
+      "sha256": "f5ec03a1817f206ed8ae6f21f355a56ad6af9934b8b178c0bdd42208c6a82475"
+    },
+    {
+      "path": "novel/2_5.json",
+      "bytes": 84130,
+      "sha256": "e26543ae01a3940deba1c06c5a67d8c01892e2a7b4ce5df217a9ace56b64a58b"
+    },
+    {
+      "path": "novel/2_6.json",
+      "bytes": 172539,
+      "sha256": "b955aab07ac1943f50b8746c49b264ac1b608483dce4b206888fcdd2fb304062"
+    },
+    {
+      "path": "novel/2_7.json",
+      "bytes": 140771,
+      "sha256": "d3e38c4301cc6bfeea864b8076d36c21da90e115ec94c860417d153a05353c82"
+    },
+    {
+      "path": "novel/3_1.json",
+      "bytes": 104659,
+      "sha256": "fad2059397e341ae50e2268df72a3ad8f5564750daefa4d03725ce60c40c9304"
+    },
+    {
+      "path": "novel/3_2.json",
+      "bytes": 84736,
+      "sha256": "ec78ef3d24b8347ddd373fcab09582229842c122384bd4eb7d24cd0574d9d5c6"
+    },
+    {
+      "path": "novel/3_3.json",
+      "bytes": 104633,
+      "sha256": "a8a53c909836b9e67140886a95783afd05f076ff3504ff6ab62ef8ffd66d6765"
+    },
+    {
+      "path": "novel/3_4.json",
+      "bytes": 97092,
+      "sha256": "b30a35a1a3c8bc45a501f4e396e67f0e75ff72fec59f8d8de40b2bd428c430a4"
+    },
+    {
+      "path": "novel/3_5.json",
+      "bytes": 153172,
+      "sha256": "9318f4543860569c2d336f63ff54dce96e8231e61ac76c7a722bd3039ea1c760"
+    },
+    {
+      "path": "novel/3_6.json",
+      "bytes": 84881,
+      "sha256": "2532e35d0fd84b4cec5796076e2f5aa83b4f93caa3237462cd3eed0c0cc4baf6"
+    },
+    {
+      "path": "novel/4_1.json",
+      "bytes": 101999,
+      "sha256": "69945950eea8159bfe934bd8cc39b618198ebff9f924aaebce9fcc6a8b233483"
+    },
+    {
+      "path": "novel/4_2.json",
+      "bytes": 90155,
+      "sha256": "04734c67e3e2f9c8897a2c8856e31ad8fa0c9fd3693982c831aff32458f93028"
+    },
+    {
+      "path": "novel/4_3.json",
+      "bytes": 63375,
+      "sha256": "54cbc7e81291be3ee31842a2332ca1604e6afd971141a76db8d361b250afb254"
+    },
+    {
+      "path": "novel/4_4.json",
+      "bytes": 141370,
+      "sha256": "6820409cc445dd06db1d8d04ef279ed01fffad6f9c0df19e920e9982e2e08a6e"
+    },
+    {
+      "path": "novel/4_5.json",
+      "bytes": 142979,
+      "sha256": "e85c80ff3b86c813776052db74fc22a075207993b67e4efe8a7df47ce64cb8d4"
+    },
+    {
+      "path": "novel/4_6.json",
+      "bytes": 64421,
+      "sha256": "870f6926bd7b080e5d24c86538c5d250e345beb0d88257b8a9c3a43800dcba9e"
+    },
+    {
+      "path": "novel/5_1.json",
+      "bytes": 130529,
+      "sha256": "16f5a14bbca654287265eda9b0b0e72d7ad86c0bc064b79bebf84b05cf76909b"
+    },
+    {
+      "path": "novel/5_2.json",
+      "bytes": 83186,
+      "sha256": "1604a22dd81e71330a58a6e8c4ddbfe9acb7a0173db6c1a8cc2213eaa8b90a36"
+    },
+    {
+      "path": "novel/5_3.json",
+      "bytes": 117832,
+      "sha256": "b4a6989aa30550e977dadebd0239c8faf86126874e1b2f2cee38d1fe45baa4f2"
+    },
+    {
+      "path": "novel/5_4.json",
+      "bytes": 143632,
+      "sha256": "58d0836d9bb80b74ede1e37e111ab1dd3ea284263e4189b8f4894a85401611cb"
+    },
+    {
+      "path": "novel/5_5.json",
+      "bytes": 109175,
+      "sha256": "fbb69ac462457a82b5bda7f48df6d29b49bfa58a83a815e70bd295179a0a4e8f"
+    },
+    {
+      "path": "novel/6_1.json",
+      "bytes": 79738,
+      "sha256": "43dc5e12fa1045cd20c886a7a1792fd3f6ffb813100b8ef7915287087a97d53c"
+    },
+    {
+      "path": "novel/6_2.json",
+      "bytes": 110863,
+      "sha256": "d2e14d209e63dee3c7826cbcda2135d0f8c28004c98c793487fc25215d6a2ebe"
+    },
+    {
+      "path": "novel/6_3.json",
+      "bytes": 78901,
+      "sha256": "6b145f1ce65269c0007e5225eb7c6b9602bb2333b0661f7c62ee97d6f646bf7c"
+    },
+    {
+      "path": "novel/6_4.json",
+      "bytes": 81458,
+      "sha256": "79ec1fca86c79100d13ad6a8eedede9edd90f53a56b5f941996bdbfb77ea3109"
+    },
+    {
+      "path": "novel/6_5.json",
+      "bytes": 127166,
+      "sha256": "7fd29240c9f04ec5b35351400976ade611ccb9d6ba2e6801862b3afa98c74e16"
+    },
+    {
+      "path": "novel/6_6.json",
+      "bytes": 100111,
+      "sha256": "ab0bb324c730bce71d1a0e30a7a2960d962a1671a599ce2fbd30590ad7910b44"
+    },
+    {
+      "path": "novel/6_7.json",
+      "bytes": 74726,
+      "sha256": "af5f7b740f35864a67257b1ae4b3fba65b9f0b96c4e7a3f6771a69e5f6e1990f"
+    },
+    {
+      "path": "novel/6_8.json",
+      "bytes": 87233,
+      "sha256": "041e39e35a35f303d746e20a59bf994da088b0fb95ddbb69a4415e672b8a1e74"
+    },
+    {
+      "path": "novel/7_1.json",
+      "bytes": 50056,
+      "sha256": "e8632a6a5912558de41e2db7d052b1e997c7334cd627769bd1411d93c6507822"
+    },
+    {
+      "path": "novel/7_2.json",
+      "bytes": 60290,
+      "sha256": "25bcdbc0d9f89db311b24541cd11b1c4d0833cab7de275a3491ef8c9fd46dd9b"
+    },
+    {
+      "path": "profiles/marmeladova.json",
+      "bytes": 17900,
+      "sha256": "3dc143dab976296fb6d8851cec21c01cc17d1b3f12e2a5cdffa84131d3ac1cc3"
+    },
+    {
+      "path": "profiles/raskolnikov.json",
+      "bytes": 54171,
+      "sha256": "980707529656f10d9eb1937bf0499197545c55f78579a43640ebef7cfe47f482"
+    },
+    {
+      "path": "profiles/svidrigailov.json",
+      "bytes": 12618,
+      "sha256": "1f4ebe5788b59429e3ddd61ce01caa487117e8cdfdb3dc44ad6903e1c31d8f07"
+    }
+  ],
+  "provenance": [
+    {
+      "role": "step6-summary",
+      "file": "step6_summary.json",
+      "bytes": 6102,
+      "sha256": "ed42eafd6d1dff0f163609e8736969d1d238bf5c546b3a7af3ad117b79e4132c"
+    },
+    {
+      "role": "chapter-catalog",
+      "file": "PandN-short.json",
+      "bytes": 8637,
+      "sha256": "5f3a95e9229f28ac07eb78d6a66bd05338d35578107783a227834944dfce4d6b"
+    },
+    {
+      "role": "emotion-model",
+      "file": "plutchik_vad_statistics.json",
+      "bytes": 8543,
+      "sha256": "25d6f12cfcdbd1f399d3b4ba97a181e8d660e3db0303b2a65398aac30b3113b6"
+    },
+    {
+      "role": "raskolnikov/step4/best_assignments.csv",
+      "file": "best_assignments.csv",
+      "bytes": 2184328,
+      "sha256": "ea5dabfca62380d5b91e75550171989b386b29b51f05251f0d5c45288511bb29"
+    },
+    {
+      "role": "raskolnikov/step4/best_centroids.csv",
+      "file": "best_centroids.csv",
+      "bytes": 477,
+      "sha256": "412ad283f696ec0bcbe16daeb62e5eb05782f92f58236f5a5c9c7f110af3cf80"
+    },
+    {
+      "role": "raskolnikov/step4/step4_summary.json",
+      "file": "step4_summary.json",
+      "bytes": 1417,
+      "sha256": "70d79cfa5a1358d4483a7a626e7c17da0ff5e1ab18632bf5597c8087039390ef"
+    },
+    {
+      "role": "raskolnikov/step5/cluster_names.csv",
+      "file": "cluster_names.csv",
+      "bytes": 7355,
+      "sha256": "fbfc804f0b3631586c4f1dfa90d21451db698107be3012843d9f1c48a370b60d"
+    },
+    {
+      "role": "raskolnikov/step5/step5_summary.json",
+      "file": "step5_summary.json",
+      "bytes": 862,
+      "sha256": "1e1fd4837469681085bca567927be3af607fbabfd5d2b4d61e8d762559dec2ca"
+    },
+    {
+      "role": "marmeladova/step4/best_assignments.csv",
+      "file": "best_assignments.csv",
+      "bytes": 546648,
+      "sha256": "6c696b57109a95d727077db5410f17a05ab1293871b0a179a42ac465a99b1ec9"
+    },
+    {
+      "role": "marmeladova/step4/best_centroids.csv",
+      "file": "best_centroids.csv",
+      "bytes": 381,
+      "sha256": "e428bd134855353699f5959219acfb67e557c7358c1fd6764d0eb739d7575464"
+    },
+    {
+      "role": "marmeladova/step4/step4_summary.json",
+      "file": "step4_summary.json",
+      "bytes": 1412,
+      "sha256": "3d8c1559d9b510b3bc0ae5b3ea2c30508adebc2db9e13816cf7a29318110c491"
+    },
+    {
+      "role": "marmeladova/step5/cluster_names.csv",
+      "file": "cluster_names.csv",
+      "bytes": 5501,
+      "sha256": "e584c363e6f87d0ebd9b89f5402b727ee8298ca926eda50b9372451ac6bd49dd"
+    },
+    {
+      "role": "marmeladova/step5/step5_summary.json",
+      "file": "step5_summary.json",
+      "bytes": 858,
+      "sha256": "5919137694581556b2016ba4e58585267a8512a177ad1ca08c9b7ac27f4042f9"
+    },
+    {
+      "role": "svidrigailov/step4/best_assignments.csv",
+      "file": "best_assignments.csv",
+      "bytes": 437609,
+      "sha256": "9f4f47714780ae1f57c09d456e5552170ea0ce01a02862ed01eeba72a757fa0f"
+    },
+    {
+      "role": "svidrigailov/step4/best_centroids.csv",
+      "file": "best_centroids.csv",
+      "bytes": 375,
+      "sha256": "b93fdeba9252a9cde46d894a43f5cbbe00aab9293d5bb50a5f1e1767e35f02ac"
+    },
+    {
+      "role": "svidrigailov/step4/step4_summary.json",
+      "file": "step4_summary.json",
+      "bytes": 1414,
+      "sha256": "c36bb43319d833df1fc7dda3d3473df12fee08b5537418db00e0cc2bde3f1136"
+    },
+    {
+      "role": "svidrigailov/step5/cluster_names.csv",
+      "file": "cluster_names.csv",
+      "bytes": 5498,
+      "sha256": "789e9ff7deb16b1796465756c2e3542d69411e51eef0604e0b1f21d80a97cfbe"
+    },
+    {
+      "role": "svidrigailov/step5/step5_summary.json",
+      "file": "step5_summary.json",
+      "bytes": 862,
+      "sha256": "a172173962a65e92598fa2c73e6d6870a9129a216e5514603030821830c5d940"
+    },
+    {
+      "role": "novel-source/1_1",
+      "file": "chapter_1_1.txt",
+      "bytes": 30251,
+      "sha256": "b156289d5d181235ac467fb7c3828b1a4b378bd315ba84d6802d317fd5867b5c"
+    },
+    {
+      "role": "novel-source/1_2",
+      "file": "chapter_1_2.txt",
+      "bytes": 63772,
+      "sha256": "b718f5e3786187f1bdd245f735f1c4aebab42f0dd5b9eb0a5e8f1a51d5bd4e87"
+    },
+    {
+      "role": "novel-source/1_3",
+      "file": "chapter_1_3.txt",
+      "bytes": 49074,
+      "sha256": "2f261de8f2129d9467f779f523a38e40ff6c92e789284703467e2f02dd744e87"
+    },
+    {
+      "role": "novel-source/1_4",
+      "file": "chapter_1_4.txt",
+      "bytes": 45384,
+      "sha256": "bfba53c655c7ab09eff90985276fe59bb57fbca37e0bdfff8bacede302765dbd"
+    },
+    {
+      "role": "novel-source/1_5",
+      "file": "chapter_1_5.txt",
+      "bytes": 37506,
+      "sha256": "d266f65a9994e21eecbdce3e126ccf69554204b3c6cf1058f4cc90d32640c9c4"
+    },
+    {
+      "role": "novel-source/1_6",
+      "file": "chapter_1_6.txt",
+      "bytes": 45929,
+      "sha256": "69d0c592546a180392fb35241e025d8f726a698d3a26bccd01b79ebad522992e"
+    },
+    {
+      "role": "novel-source/1_7",
+      "file": "chapter_1_7.txt",
+      "bytes": 41374,
+      "sha256": "5d186ef678387b001ec67f17e0fddaaf2494dbd46a5a1ac87c2f99716ac74620"
+    },
+    {
+      "role": "novel-source/2_1_1",
+      "file": "chapter_2_1_1.txt",
+      "bytes": 20039,
+      "sha256": "07ed324a54626a525c0a7f5c23aeea62fa814c1d44342a6930e47ee8c4042140"
+    },
+    {
+      "role": "novel-source/2_1_2",
+      "file": "chapter_2_1_2.txt",
+      "bytes": 42518,
+      "sha256": "0f226f39c29b8725543eae00793e1095ba0baa5d36a409e27ffaad19c7e12169"
+    },
+    {
+      "role": "novel-source/2_2",
+      "file": "chapter_2_2.txt",
+      "bytes": 39137,
+      "sha256": "57d23995c86f08262777ffe64532edf40cd46fa1c66d857f52541216abcc7dc2"
+    },
+    {
+      "role": "novel-source/2_3",
+      "file": "chapter_2_3.txt",
+      "bytes": 48909,
+      "sha256": "4273643e5f4efff615f906d0f2cfb665b18e2747e0ce07f406352143c95f9e91"
+    },
+    {
+      "role": "novel-source/2_4",
+      "file": "chapter_2_4.txt",
+      "bytes": 37824,
+      "sha256": "d11cb3914d5bfa0a9d05cdcb6b33fc455c97622185bfa4dc45f114302a955747"
+    },
+    {
+      "role": "novel-source/2_5",
+      "file": "chapter_2_5.txt",
+      "bytes": 41096,
+      "sha256": "f0c8322a645e8599a6397698425cc35f4d6551d5e660ca090d781a2b9e1dbc90"
+    },
+    {
+      "role": "novel-source/2_6",
+      "file": "chapter_2_6.txt",
+      "bytes": 69608,
+      "sha256": "0f0fd61dd74b77b7e2c7f983bedcf464e51a636326b75f2e375747bcc8fe56ac"
+    },
+    {
+      "role": "novel-source/2_7",
+      "file": "chapter_2_7.txt",
+      "bytes": 65585,
+      "sha256": "bd3e05c410d174457db643d982cd852bdf975d2aa43c17917901c50d49398b9a"
+    },
+    {
+      "role": "novel-source/3_1",
+      "file": "chapter_3_1.txt",
+      "bytes": 48178,
+      "sha256": "87afb588c9b8689d8ef6107a6da9ae1972bac6cb58babe68b800f490aa825450"
+    },
+    {
+      "role": "novel-source/3_2",
+      "file": "chapter_3_2.txt",
+      "bytes": 43360,
+      "sha256": "77384e39f8a7ebc367535a52c59dacde7d251238c6fa795ada1f392666f720d7"
+    },
+    {
+      "role": "novel-source/3_3",
+      "file": "chapter_3_3.txt",
+      "bytes": 48250,
+      "sha256": "0fe035e0244701c92d8a25d3e5c2ee4fcc2b7c12d3bdc0c578e4b23092ab9463"
+    },
+    {
+      "role": "novel-source/3_4",
+      "file": "chapter_3_4.txt",
+      "bytes": 40720,
+      "sha256": "edc62e7110baf238eee8e027c1a84025d62909d16608189df2348b810676c9fe"
+    },
+    {
+      "role": "novel-source/3_5",
+      "file": "chapter_3_5.txt",
+      "bytes": 71458,
+      "sha256": "fd48837a6be9016253f7fabea82b1187dad53956f3306cfee8a593b0f9843b06"
+    },
+    {
+      "role": "novel-source/3_6",
+      "file": "chapter_3_6.txt",
+      "bytes": 40263,
+      "sha256": "cb70693fa8e87eb1b6b1df96134728012384dae2fdb39ec74ded6e03c9080e8e"
+    },
+    {
+      "role": "novel-source/4_1",
+      "file": "chapter_4_1.txt",
+      "bytes": 46812,
+      "sha256": "eb004245f65d7f61c8fed85f33174c33a140acbcaeebcf88bdf46086e42b7838"
+    },
+    {
+      "role": "novel-source/4_2",
+      "file": "chapter_4_2.txt",
+      "bytes": 44459,
+      "sha256": "f78770eab30ee3f39ab62243de00c41bccd8e22898585d2729fadd4c7d53d611"
+    },
+    {
+      "role": "novel-source/4_3",
+      "file": "chapter_4_3.txt",
+      "bytes": 28826,
+      "sha256": "61f494b9ffb9727b811aae0d67f5057c46faa395ebaede3224f78fd50ea0898a"
+    },
+    {
+      "role": "novel-source/4_4_0",
+      "file": "chapter_4_4_0.txt",
+      "bytes": 23256,
+      "sha256": "4f69bfc2f9c036acb939576e8dd1420dc0e752acebb787b5598878f438b56ca7"
+    },
+    {
+      "role": "novel-source/4_4_1",
+      "file": "chapter_4_4_1.txt",
+      "bytes": 15295,
+      "sha256": "f246c19561f8162096a78c06cdb746653a133a9bb8c864c7501bb9f69d3b915f"
+    },
+    {
+      "role": "novel-source/4_4_2",
+      "file": "chapter_4_4_2.txt",
+      "bytes": 18123,
+      "sha256": "df888fa3a55d1d3cc923184dce0e19f607bbb196d0d989ba78673517f616b208"
+    },
+    {
+      "role": "novel-source/4_5",
+      "file": "chapter_4_5.txt",
+      "bytes": 74505,
+      "sha256": "379968b8b3a4007b7a622e884d4d7d7b6bf323459056529348c1ec5b3c7fbb65"
+    },
+    {
+      "role": "novel-source/4_6",
+      "file": "chapter_4_6.txt",
+      "bytes": 26721,
+      "sha256": "1b8976e0abcf6480523c8bc4268707172f71e0a1ff38b137f2e37a348364c29b"
+    },
+    {
+      "role": "novel-source/5_1",
+      "file": "chapter_5_1.txt",
+      "bytes": 65909,
+      "sha256": "d3442a6962ae65ff26255373fac77dd384972b7b1e585d3fd4950b1a12301453"
+    },
+    {
+      "role": "novel-source/5_2",
+      "file": "chapter_5_2.txt",
+      "bytes": 52700,
+      "sha256": "e9f6035a1efc935d5f10deef69e0c577ae34d8a6b9ec1e8699b3ac88444e58ee"
+    },
+    {
+      "role": "novel-source/5_3",
+      "file": "chapter_5_3.txt",
+      "bytes": 54580,
+      "sha256": "0bd0b4a3b24622e74be24dc2a80351beb982fa8c64a800c025620e52f3d7741b"
+    },
+    {
+      "role": "novel-source/5_4_0",
+      "file": "chapter_5_4_0.txt",
+      "bytes": 20185,
+      "sha256": "6771ade02406cc9058dea8f76badd882f5b839dc869f2db0f1946c6303a35e08"
+    },
+    {
+      "role": "novel-source/5_4_1",
+      "file": "chapter_5_4_1.txt",
+      "bytes": 21928,
+      "sha256": "1ffdc873f63eca5a2951d2bc61e8dabe1a4faa8c816be56f6d8fb8043c30940f"
+    },
+    {
+      "role": "novel-source/5_4_2",
+      "file": "chapter_5_4_2.txt",
+      "bytes": 16725,
+      "sha256": "32dd4788f5f012f1db44117db89f0225d4ec38b66caca82e33960fc42bac1701"
+    },
+    {
+      "role": "novel-source/5_5",
+      "file": "chapter_5_5.txt",
+      "bytes": 48285,
+      "sha256": "91b0ab40e45cae06f5881e960bf379a09e579dae3252127d28b48552eb7a9460"
+    },
+    {
+      "role": "novel-source/6_1",
+      "file": "chapter_6_1.txt",
+      "bytes": 35725,
+      "sha256": "2f97f6f60c63ccb0dd076ba2e1cea8b2822efc85be80bcd0cd15d036f61fb4a4"
+    },
+    {
+      "role": "novel-source/6_2",
+      "file": "chapter_6_2.txt",
+      "bytes": 51645,
+      "sha256": "b02a41506bd1348f35c7e9ed039c6bb90fe21639ee8b62493e060611e3eda7e2"
+    },
+    {
+      "role": "novel-source/6_3",
+      "file": "chapter_6_3.txt",
+      "bytes": 35905,
+      "sha256": "83c9b9b5dfa828635a0905a1936b958594aac1fb9ff713143302f2ac88b82def"
+    },
+    {
+      "role": "novel-source/6_4",
+      "file": "chapter_6_4.txt",
+      "bytes": 43422,
+      "sha256": "fe00e5ba8e5e9223b0888c5c6f095b2364777f24532a681c506d33b7dcb88630"
+    },
+    {
+      "role": "novel-source/6_5",
+      "file": "chapter_6_5.txt",
+      "bytes": 51790,
+      "sha256": "2939536fb52533908d35aefb4c49f5c3276ca554b1020d2bd6f273acc01d3421"
+    },
+    {
+      "role": "novel-source/6_6",
+      "file": "chapter_6_6.txt",
+      "bytes": 52674,
+      "sha256": "c5b683df879720c7df4823cbc1e4ec5dd422e8899073fb113d535cfeb0a8e06c"
+    },
+    {
+      "role": "novel-source/6_7_1",
+      "file": "chapter_6_7_1.txt",
+      "bytes": 15835,
+      "sha256": "ee6b187c877c1ec071e90e729b5925ab702c8fc97b105edad4e4001158c895c3"
+    },
+    {
+      "role": "novel-source/6_7_2",
+      "file": "chapter_6_7_2.txt",
+      "bytes": 16347,
+      "sha256": "742a46800194a3240100a5642f542ea73ea8ba867c0965628dd5cdab4a36b0c8"
+    },
+    {
+      "role": "novel-source/6_8",
+      "file": "chapter_6_8.txt",
+      "bytes": 36784,
+      "sha256": "c96c96f77882d789ef77f824fe921adab6304c9ed3017f4736e2128fbed61c7c"
+    },
+    {
+      "role": "novel-source/7_1",
+      "file": "chapter_7_1.txt",
+      "bytes": 33205,
+      "sha256": "137601b56ee7f3125ad6d9ca46da2109cfd11a8d042038709eb73343833a85d9"
+    },
+    {
+      "role": "novel-source/7_2",
+      "file": "chapter_7_2.txt",
+      "bytes": 31347,
+      "sha256": "08cd2820ad8a92521c4564805a45bf15054833444e3fef7c396a98ecc64b37b7"
+    }
+  ]
+}

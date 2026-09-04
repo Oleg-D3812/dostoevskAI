@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "novel_id": "crime-and-punishment",
+  "character_id": "svidrigailov",
+  "chapter_id": "6_3",
+  "count": 9,
+  "fragments": [
+    {
+      "id": "Аркадий Иванович Свидригайлов::6_3_0002",
+      "source_section": "6_3",
+      "source_sentence": 217,
+      "character_position": 146,
+      "text": "Ну да, – улыбнулся с побеждающею откровенностью Свидригайлов.",
+      "vad": [
+        0.6,
+        0.35,
+        0.8
+      ],
+      "cluster_id": "svidrigailov-2",
+      "distance_to_centroid": 0.4641543115740078,
+      "warning": null,
+      "chapter_sentence_start": 217,
+      "chapter_sentence_end": 217,
+      "timeline_start_index": 12416,
+      "timeline_end_index": 12416,
+      "highlights": [
+        {
+          "chapter_sentence": 217,
+          "start": 2,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::6_3_0003",
+      "source_section": "6_3",
+      "source_sentence": 241,
+      "character_position": 147,
+      "text": "с отвращением отпарировал Свидригайлов",
+      "vad": [
+        -0.75,
+        0.45,
+        0.25
+      ],
+      "cluster_id": "svidrigailov-1",
+      "distance_to_centroid": 0.4187343747084778,
+      "warning": null,
+      "chapter_sentence_start": 241,
+      "chapter_sentence_end": 241,
+      "timeline_start_index": 12440,
+      "timeline_end_index": 12440,
+      "highlights": [
+        {
+          "chapter_sentence": 241,
+          "start": 2,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::6_3_0004",
+      "source_section": "6_3",
+      "source_sentence": 243,
+      "character_position": 148,
+      "text": "боюсь смерти и не люблю, когда говорят о ней",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.35
+      ],
+      "cluster_id": "svidrigailov-3",
+      "distance_to_centroid": 0.3384708677931841,
+      "warning": null,
+      "chapter_sentence_start": 243,
+      "chapter_sentence_end": 243,
+      "timeline_start_index": 12442,
+      "timeline_end_index": 12442,
+      "highlights": [
+        {
+          "chapter_sentence": 243,
+          "start": 54,
+          "end": 98
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::6_3_0005",
+      "source_section": "6_3",
+      "source_sentence": 248,
+      "character_position": 149,
+      "text": "вскричал он с каким-то раздражительным видом",
+      "vad": [
+        -0.45,
+        0.65,
+        0.1
+      ],
+      "cluster_id": "svidrigailov-1",
+      "distance_to_centroid": 0.3796859139198696,
+      "warning": null,
+      "chapter_sentence_start": 248,
+      "chapter_sentence_end": 248,
+      "timeline_start_index": 12447,
+      "timeline_end_index": 12447,
+      "highlights": [
+        {
+          "chapter_sentence": 248,
+          "start": 2,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::6_3_0006",
+      "source_section": "6_3",
+      "source_sentence": 259,
+      "character_position": 150,
+      "text": "Удивили же вы меня сейчас",
+      "vad": [
+        0.15,
+        0.35,
+        0.05
+      ],
+      "cluster_id": "svidrigailov-2",
+      "distance_to_centroid": 0.4527741626286169,
+      "warning": null,
+      "chapter_sentence_start": 259,
+      "chapter_sentence_end": 259,
+      "timeline_start_index": 12458,
+      "timeline_end_index": 12458,
+      "highlights": [
+        {
+          "chapter_sentence": 259,
+          "start": 0,
+          "end": 25
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::6_3_0007",
+      "source_section": "6_3",
+      "source_sentence": 270,
+      "character_position": 151,
+      "text": "просто рад поболтать",
+      "vad": [
+        0.65,
+        0.2,
+        0.25
+      ],
+      "cluster_id": "svidrigailov-2",
+      "distance_to_centroid": 0.2882180766977494,
+      "warning": null,
+      "chapter_sentence_start": 270,
+      "chapter_sentence_end": 270,
+      "timeline_start_index": 12469,
+      "timeline_end_index": 12469,
+      "highlights": [
+        {
+          "chapter_sentence": 270,
+          "start": 148,
+          "end": 168
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::6_3_0008",
+      "source_section": "6_3",
+      "source_sentence": 271,
+      "character_position": 152,
+      "text": "существует одно обстоятельство, которое меня очень монтировало",
+      "vad": [
+        0.32,
+        0.28,
+        0.08
+      ],
+      "cluster_id": "svidrigailov-2",
+      "distance_to_centroid": 0.3425989018684044,
+      "warning": null,
+      "chapter_sentence_start": 271,
+      "chapter_sentence_end": 271,
+      "timeline_start_index": 12470,
+      "timeline_end_index": 12470,
+      "highlights": [
+        {
+          "chapter_sentence": 271,
+          "start": 11,
+          "end": 73
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::6_3_0009",
+      "source_section": "6_3",
+      "source_sentence": 273,
+      "character_position": 153,
+      "text": "с испугом спросил вдруг Свидригайлов",
+      "vad": [
+        -0.8,
+        0.8,
+        -0.4
+      ],
+      "cluster_id": "svidrigailov-3",
+      "distance_to_centroid": 0.1687225244282255,
+      "warning": null,
+      "chapter_sentence_start": 273,
+      "chapter_sentence_end": 273,
+      "timeline_start_index": 12472,
+      "timeline_end_index": 12472,
+      "highlights": [
+        {
+          "chapter_sentence": 273,
+          "start": 2,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "Аркадий Иванович Свидригайлов::6_3_0010",
+      "source_section": "6_3",
+      "source_sentence": 278,
+      "character_position": 154,
+      "text": "упрашивал Свидригайлов",
+      "vad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster_id": "svidrigailov-1",
+      "distance_to_centroid": 0.5046501856690766,
+      "warning": null,
+      "chapter_sentence_start": 278,
+      "chapter_sentence_end": 278,
+      "timeline_start_index": 12477,
+      "timeline_end_index": 12477,
+      "highlights": [
+        {
+          "chapter_sentence": 278,
+          "start": 24,
+          "end": 46
+        }
+      ]
+    }
+  ]
+}

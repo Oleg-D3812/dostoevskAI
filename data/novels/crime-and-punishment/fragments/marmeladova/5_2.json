@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "novel_id": "crime-and-punishment",
+  "character_id": "marmeladova",
+  "chapter_id": "5_2",
+  "count": 5,
+  "fragments": [
+    {
+      "id": "Софья Семёновна Мармеладова::5_2_0001",
+      "source_section": "5_2",
+      "source_sentence": 106,
+      "character_position": 130,
+      "text": "Она была как будто даже рассеянна",
+      "vad": [
+        -0.15,
+        0.2,
+        -0.2
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.3389009018790543,
+      "warning": null,
+      "chapter_sentence_start": 106,
+      "chapter_sentence_end": 106,
+      "timeline_start_index": 10022,
+      "timeline_end_index": 10022,
+      "highlights": [
+        {
+          "chapter_sentence": 106,
+          "start": 0,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::5_2_0002",
+      "source_section": "5_2",
+      "source_sentence": 155,
+      "character_position": 131,
+      "text": "Соня становилась все тревожнее и озабоченнее",
+      "vad": [
+        -0.7,
+        0.7,
+        -0.3
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.3068162734385531,
+      "warning": null,
+      "chapter_sentence_start": 155,
+      "chapter_sentence_end": 155,
+      "timeline_start_index": 10071,
+      "timeline_end_index": 10071,
+      "highlights": [
+        {
+          "chapter_sentence": 155,
+          "start": 3,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::5_2_0003",
+      "source_section": "5_2",
+      "source_sentence": 155,
+      "character_position": 132,
+      "text": "и со страхом следила за возраставшим раздражением Катерины Ивановны",
+      "vad": [
+        -0.82,
+        0.68,
+        -0.55
+      ],
+      "cluster_id": "marmeladova-1",
+      "distance_to_centroid": 0.0567561420493562,
+      "warning": null,
+      "chapter_sentence_start": 155,
+      "chapter_sentence_end": 155,
+      "timeline_start_index": 10071,
+      "timeline_end_index": 10071,
+      "highlights": [
+        {
+          "chapter_sentence": 155,
+          "start": 106,
+          "end": 173
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::5_2_0004",
+      "source_section": "5_2",
+      "source_sentence": 158,
+      "character_position": 133,
+      "text": "Соня предчувствовала, что Катерине Ивановне как-нибудь уже это известно",
+      "vad": [
+        -0.35,
+        0.2,
+        -0.2
+      ],
+      "cluster_id": "marmeladova-3",
+      "distance_to_centroid": 0.1792340629786075,
+      "warning": null,
+      "chapter_sentence_start": 158,
+      "chapter_sentence_end": 158,
+      "timeline_start_index": 10074,
+      "timeline_end_index": 10074,
+      "highlights": [
+        {
+          "chapter_sentence": 158,
+          "start": 0,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "id": "Софья Семёновна Мармеладова::5_2_0005",
+      "source_section": "5_2",
+      "source_sentence": 186,
+      "character_position": 134,
+      "text": "Соня вспыхнула",
+      "vad": [
+        0.1,
+        0.65,
+        -0.1
+      ],
+      "cluster_id": "marmeladova-2",
+      "distance_to_centroid": 0.5767225292457758,
+      "warning": null,
+      "chapter_sentence_start": 186,
+      "chapter_sentence_end": 186,
+      "timeline_start_index": 10102,
+      "timeline_end_index": 10102,
+      "highlights": [
+        {
+          "chapter_sentence": 186,
+          "start": 0,
+          "end": 14
+        }
+      ]
+    }
+  ]
+}

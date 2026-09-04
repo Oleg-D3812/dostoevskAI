@@ -1,0 +1,752 @@
+{
+  "schema_version": 1,
+  "novel_id": "crime-and-punishment",
+  "chapter_count": 41,
+  "sentence_count": 14484,
+  "chapters": [
+    {
+      "id": "1_1",
+      "part": 1,
+      "chapter": 1,
+      "label": "Часть 1 · Глава 1",
+      "description": "Раскольников закладывает у старухи-процентщицы часы отца и обдумывает страшный план её убийства.",
+      "sentence_count": 193,
+      "timeline_start_index": 0,
+      "source_sections": [
+        "1_1"
+      ],
+      "novel_path": "novel/1_1.json",
+      "character_counts": {
+        "raskolnikov": 41,
+        "marmeladova": 0,
+        "svidrigailov": 0
+      }
+    },
+    {
+      "id": "1_2",
+      "part": 1,
+      "chapter": 2,
+      "label": "Часть 1 · Глава 2",
+      "description": "В трактире Раскольников знакомится с Мармеладовым, который рассказывает о нищете своей семьи и судьбе дочери Сони.",
+      "sentence_count": 419,
+      "timeline_start_index": 193,
+      "source_sections": [
+        "1_2"
+      ],
+      "novel_path": "novel/1_2.json",
+      "character_counts": {
+        "raskolnikov": 14,
+        "marmeladova": 5,
+        "svidrigailov": 0
+      }
+    },
+    {
+      "id": "1_3",
+      "part": 1,
+      "chapter": 3,
+      "label": "Часть 1 · Глава 3",
+      "description": "Раскольников получает письмо от матери с новостями о сестре Дуне и её сватовстве с Лужиным.",
+      "sentence_count": 223,
+      "timeline_start_index": 612,
+      "source_sections": [
+        "1_3"
+      ],
+      "novel_path": "novel/1_3.json",
+      "character_counts": {
+        "raskolnikov": 22,
+        "marmeladova": 0,
+        "svidrigailov": 0
+      }
+    },
+    {
+      "id": "1_4",
+      "part": 1,
+      "chapter": 4,
+      "label": "Часть 1 · Глава 4",
+      "description": "Раскольников размышляет о готовящемся браке сестры и по дороге спасает от преследователя пьяную девушку.",
+      "sentence_count": 344,
+      "timeline_start_index": 835,
+      "source_sections": [
+        "1_4"
+      ],
+      "novel_path": "novel/1_4.json",
+      "character_counts": {
+        "raskolnikov": 31,
+        "marmeladova": 0,
+        "svidrigailov": 0
+      }
+    },
+    {
+      "id": "1_5",
+      "part": 1,
+      "chapter": 5,
+      "label": "Часть 1 · Глава 5",
+      "description": "Во сне ему является детское воспоминание об избиении лошади, а после он случайно узнаёт, что старуха будет одна дома.",
+      "sentence_count": 263,
+      "timeline_start_index": 1179,
+      "source_sections": [
+        "1_5"
+      ],
+      "novel_path": "novel/1_5.json",
+      "character_counts": {
+        "raskolnikov": 51,
+        "marmeladova": 0,
+        "svidrigailov": 0
+      }
+    },
+    {
+      "id": "1_6",
+      "part": 1,
+      "chapter": 6,
+      "label": "Часть 1 · Глава 6",
+      "description": "Подслушав разговор студента и офицера об убийстве старухи, Раскольников готовится к преступлению.",
+      "sentence_count": 284,
+      "timeline_start_index": 1442,
+      "source_sections": [
+        "1_6"
+      ],
+      "novel_path": "novel/1_6.json",
+      "character_counts": {
+        "raskolnikov": 41,
+        "marmeladova": 0,
+        "svidrigailov": 0
+      }
+    },
+    {
+      "id": "1_7",
+      "part": 1,
+      "chapter": 7,
+      "label": "Часть 1 · Глава 7",
+      "description": "Раскольников убивает старуху-процентщицу и её сестру Лизавету, едва не попавшись.",
+      "sentence_count": 334,
+      "timeline_start_index": 1726,
+      "source_sections": [
+        "1_7"
+      ],
+      "novel_path": "novel/1_7.json",
+      "character_counts": {
+        "raskolnikov": 53,
+        "marmeladova": 0,
+        "svidrigailov": 0
+      }
+    },
+    {
+      "id": "2_1",
+      "part": 2,
+      "chapter": 1,
+      "label": "Часть 2 · Глава 1",
+      "description": "Раскольников в лихорадке прячет украденное и его вызывают в полицейскую контору по делу о долге.",
+      "sentence_count": 463,
+      "timeline_start_index": 2060,
+      "source_sections": [
+        "2_1_1",
+        "2_1_2"
+      ],
+      "novel_path": "novel/2_1.json",
+      "character_counts": {
+        "raskolnikov": 75,
+        "marmeladova": 0,
+        "svidrigailov": 28
+      }
+    },
+    {
+      "id": "2_2",
+      "part": 2,
+      "chapter": 2,
+      "label": "Часть 2 · Глава 2",
+      "description": "Раскольников прячет ценности во дворе и, отказавшись от помощи Разумихина, теряет сознание дома.",
+      "sentence_count": 288,
+      "timeline_start_index": 2523,
+      "source_sections": [
+        "2_2"
+      ],
+      "novel_path": "novel/2_2.json",
+      "character_counts": {
+        "raskolnikov": 40,
+        "marmeladova": 0,
+        "svidrigailov": 0
+      }
+    },
+    {
+      "id": "2_3",
+      "part": 2,
+      "chapter": 3,
+      "label": "Часть 2 · Глава 3",
+      "description": "Друг Разумихин ухаживает за заболевшим Раскольниковым и уговаривает его принять деньги матери.",
+      "sentence_count": 437,
+      "timeline_start_index": 2811,
+      "source_sections": [
+        "2_3"
+      ],
+      "novel_path": "novel/2_3.json",
+      "character_counts": {
+        "raskolnikov": 14,
+        "marmeladova": 0,
+        "svidrigailov": 0
+      }
+    },
+    {
+      "id": "2_4",
+      "part": 2,
+      "chapter": 4,
+      "label": "Часть 2 · Глава 4",
+      "description": "Врач Зосимов сообщает, что полиция подозревает в убийстве случайного красильщика.",
+      "sentence_count": 294,
+      "timeline_start_index": 3248,
+      "source_sections": [
+        "2_4"
+      ],
+      "novel_path": "novel/2_4.json",
+      "character_counts": {
+        "raskolnikov": 5,
+        "marmeladova": 0,
+        "svidrigailov": 0
+      }
+    },
+    {
+      "id": "2_5",
+      "part": 2,
+      "chapter": 5,
+      "label": "Часть 2 · Глава 5",
+      "description": "Приходит Лужин, и Раскольников в бешенстве выгоняет его после ссоры.",
+      "sentence_count": 289,
+      "timeline_start_index": 3542,
+      "source_sections": [
+        "2_5"
+      ],
+      "novel_path": "novel/2_5.json",
+      "character_counts": {
+        "raskolnikov": 14,
+        "marmeladova": 0,
+        "svidrigailov": 0
+      }
+    },
+    {
+      "id": "2_6",
+      "part": 2,
+      "chapter": 6,
+      "label": "Часть 2 · Глава 6",
+      "description": "Раскольников почти проговаривается об убийстве полицейскому в трактире, а затем решает сдаться и пугает рабочих в квартире старухи.",
+      "sentence_count": 693,
+      "timeline_start_index": 3831,
+      "source_sections": [
+        "2_6"
+      ],
+      "novel_path": "novel/2_6.json",
+      "character_counts": {
+        "raskolnikov": 46,
+        "marmeladova": 0,
+        "svidrigailov": 0
+      }
+    },
+    {
+      "id": "2_7",
+      "part": 2,
+      "chapter": 7,
+      "label": "Часть 2 · Глава 7",
+      "description": "Раскольников видит, как под лошадь попадает Мармеладов, помогает его семье и падает в обморок при виде приехавших матери и сестры.",
+      "sentence_count": 506,
+      "timeline_start_index": 4524,
+      "source_sections": [
+        "2_7"
+      ],
+      "novel_path": "novel/2_7.json",
+      "character_counts": {
+        "raskolnikov": 13,
+        "marmeladova": 1,
+        "svidrigailov": 0
+      }
+    },
+    {
+      "id": "3_1",
+      "part": 3,
+      "chapter": 1,
+      "label": "Часть 3 · Глава 1",
+      "description": "Раскольников резко требует, чтобы сестра разорвала помолвку с Лужиным.",
+      "sentence_count": 380,
+      "timeline_start_index": 5030,
+      "source_sections": [
+        "3_1"
+      ],
+      "novel_path": "novel/3_1.json",
+      "character_counts": {
+        "raskolnikov": 12,
+        "marmeladova": 0,
+        "svidrigailov": 0
+      }
+    },
+    {
+      "id": "3_2",
+      "part": 3,
+      "chapter": 2,
+      "label": "Часть 3 · Глава 2",
+      "description": "Разумихин узнаёт об ультиматуме Лужина, и все вместе отправляются к Раскольникову.",
+      "sentence_count": 278,
+      "timeline_start_index": 5410,
+      "source_sections": [
+        "3_2"
+      ],
+      "novel_path": "novel/3_2.json",
+      "character_counts": {
+        "raskolnikov": 22,
+        "marmeladova": 0,
+        "svidrigailov": 0
+      }
+    },
+    {
+      "id": "3_3",
+      "part": 3,
+      "chapter": 3,
+      "label": "Часть 3 · Глава 3",
+      "description": "Раскольников признаётся матери, что отдал последние деньги вдове Мармеладова, и заявляет о своём несогласии с браком сестры.",
+      "sentence_count": 379,
+      "timeline_start_index": 5688,
+      "source_sections": [
+        "3_3"
+      ],
+      "novel_path": "novel/3_3.json",
+      "character_counts": {
+        "raskolnikov": 36,
+        "marmeladova": 0,
+        "svidrigailov": 0
+      }
+    },
+    {
+      "id": "3_4",
+      "part": 3,
+      "chapter": 4,
+      "label": "Часть 3 · Глава 4",
+      "description": "Раскольников впервые знакомит семью с Соней Мармеладовой.",
+      "sentence_count": 379,
+      "timeline_start_index": 6067,
+      "source_sections": [
+        "3_4"
+      ],
+      "novel_path": "novel/3_4.json",
+      "character_counts": {
+        "raskolnikov": 12,
+        "marmeladova": 19,
+        "svidrigailov": 0
+      }
+    },
+    {
+      "id": "3_5",
+      "part": 3,
+      "chapter": 5,
+      "label": "Часть 3 · Глава 5",
+      "description": "У следователя Порфирия Петровича Раскольников впервые ощущает подозрение в свой адрес.",
+      "sentence_count": 550,
+      "timeline_start_index": 6446,
+      "source_sections": [
+        "3_5"
+      ],
+      "novel_path": "novel/3_5.json",
+      "character_counts": {
+        "raskolnikov": 32,
+        "marmeladova": 0,
+        "svidrigailov": 0
+      }
+    },
+    {
+      "id": "3_6",
+      "part": 3,
+      "chapter": 6,
+      "label": "Часть 3 · Глава 6",
+      "description": "Раскольников в ужасе проверяет тайник с уликами и после кошмарного сна видит перед собой Свидригайлова.",
+      "sentence_count": 300,
+      "timeline_start_index": 6996,
+      "source_sections": [
+        "3_6"
+      ],
+      "novel_path": "novel/3_6.json",
+      "character_counts": {
+        "raskolnikov": 52,
+        "marmeladova": 0,
+        "svidrigailov": 0
+      }
+    },
+    {
+      "id": "4_1",
+      "part": 4,
+      "chapter": 1,
+      "label": "Часть 4 · Глава 1",
+      "description": "Свидригайлов делает Раскольникову странное предложение помочь встретиться с Дуней.",
+      "sentence_count": 371,
+      "timeline_start_index": 7296,
+      "source_sections": [
+        "4_1"
+      ],
+      "novel_path": "novel/4_1.json",
+      "character_counts": {
+        "raskolnikov": 14,
+        "marmeladova": 0,
+        "svidrigailov": 36
+      }
+    },
+    {
+      "id": "4_2",
+      "part": 4,
+      "chapter": 2,
+      "label": "Часть 4 · Глава 2",
+      "description": "Лужин пытается очернить Дуню перед семьёй, и Раскольников порывает с ним на глазах у родных.",
+      "sentence_count": 307,
+      "timeline_start_index": 7667,
+      "source_sections": [
+        "4_2"
+      ],
+      "novel_path": "novel/4_2.json",
+      "character_counts": {
+        "raskolnikov": 8,
+        "marmeladova": 0,
+        "svidrigailov": 0
+      }
+    },
+    {
+      "id": "4_3",
+      "part": 4,
+      "chapter": 3,
+      "label": "Часть 4 · Глава 3",
+      "description": "Раскольников, мучимый содеянным, просит Разумихина позаботиться о матери и сестре.",
+      "sentence_count": 232,
+      "timeline_start_index": 7974,
+      "source_sections": [
+        "4_3"
+      ],
+      "novel_path": "novel/4_3.json",
+      "character_counts": {
+        "raskolnikov": 10,
+        "marmeladova": 0,
+        "svidrigailov": 0
+      }
+    },
+    {
+      "id": "4_4",
+      "part": 4,
+      "chapter": 4,
+      "label": "Часть 4 · Глава 4",
+      "description": "Раскольников исповедуется Соне и узнаёт о судьбе её семьи после смерти Мармеладова.",
+      "sentence_count": 562,
+      "timeline_start_index": 8206,
+      "source_sections": [
+        "4_4_0",
+        "4_4_1",
+        "4_4_2"
+      ],
+      "novel_path": "novel/4_4.json",
+      "character_counts": {
+        "raskolnikov": 30,
+        "marmeladova": 95,
+        "svidrigailov": 29
+      }
+    },
+    {
+      "id": "4_5",
+      "part": 4,
+      "chapter": 5,
+      "label": "Часть 4 · Глава 5",
+      "description": "Порфирий Петрович психологически давит на Раскольникова, намекая на его вину.",
+      "sentence_count": 461,
+      "timeline_start_index": 8768,
+      "source_sections": [
+        "4_5"
+      ],
+      "novel_path": "novel/4_5.json",
+      "character_counts": {
+        "raskolnikov": 72,
+        "marmeladova": 0,
+        "svidrigailov": 0
+      }
+    },
+    {
+      "id": "4_6",
+      "part": 4,
+      "chapter": 6,
+      "label": "Часть 4 · Глава 6",
+      "description": "Раскольников узнаёт, что красильщик ложно взял вину на себя, и следователь отпускает его.",
+      "sentence_count": 253,
+      "timeline_start_index": 9229,
+      "source_sections": [
+        "4_6"
+      ],
+      "novel_path": "novel/4_6.json",
+      "character_counts": {
+        "raskolnikov": 14,
+        "marmeladova": 0,
+        "svidrigailov": 0
+      }
+    },
+    {
+      "id": "5_1",
+      "part": 5,
+      "chapter": 1,
+      "label": "Часть 5 · Глава 1",
+      "description": "Лужин тайно подкладывает Соне деньги, чтобы позже обвинить её в воровстве.",
+      "sentence_count": 435,
+      "timeline_start_index": 9482,
+      "source_sections": [
+        "5_1"
+      ],
+      "novel_path": "novel/5_1.json",
+      "character_counts": {
+        "raskolnikov": 0,
+        "marmeladova": 9,
+        "svidrigailov": 0
+      }
+    },
+    {
+      "id": "5_2",
+      "part": 5,
+      "chapter": 2,
+      "label": "Часть 5 · Глава 2",
+      "description": "На поминках по Мармеладову вспыхивает скандал, устроенный Лужиным против Сони.",
+      "sentence_count": 204,
+      "timeline_start_index": 9917,
+      "source_sections": [
+        "5_2"
+      ],
+      "novel_path": "novel/5_2.json",
+      "character_counts": {
+        "raskolnikov": 1,
+        "marmeladova": 5,
+        "svidrigailov": 0
+      }
+    },
+    {
+      "id": "5_3",
+      "part": 5,
+      "chapter": 3,
+      "label": "Часть 5 · Глава 3",
+      "description": "На поминках по Мармеладову вспыхивает скандал, устроенный Лужиным против Сони.",
+      "sentence_count": 423,
+      "timeline_start_index": 10121,
+      "source_sections": [
+        "5_3"
+      ],
+      "novel_path": "novel/5_3.json",
+      "character_counts": {
+        "raskolnikov": 3,
+        "marmeladova": 17,
+        "svidrigailov": 0
+      }
+    },
+    {
+      "id": "5_4",
+      "part": 5,
+      "chapter": 4,
+      "label": "Часть 5 · Глава 4",
+      "description": "Раскольников открывает Соне, что убийца — он.",
+      "sentence_count": 559,
+      "timeline_start_index": 10544,
+      "source_sections": [
+        "5_4_0",
+        "5_4_1",
+        "5_4_2"
+      ],
+      "novel_path": "novel/5_4.json",
+      "character_counts": {
+        "raskolnikov": 112,
+        "marmeladova": 79,
+        "svidrigailov": 38
+      }
+    },
+    {
+      "id": "5_5",
+      "part": 5,
+      "chapter": 5,
+      "label": "Часть 5 · Глава 5",
+      "description": "Обезумевшая от горя вдова Мармеладова умирает, а Свидригайлов, подслушавший признание, намекает Раскольникову, что знает о его вине.",
+      "sentence_count": 407,
+      "timeline_start_index": 11103,
+      "source_sections": [
+        "5_5"
+      ],
+      "novel_path": "novel/5_5.json",
+      "character_counts": {
+        "raskolnikov": 24,
+        "marmeladova": 8,
+        "svidrigailov": 14
+      }
+    },
+    {
+      "id": "6_1",
+      "part": 6,
+      "chapter": 1,
+      "label": "Часть 6 · Глава 1",
+      "description": "Разумихин пытается успокоить Раскольникова, но того неожиданно навещает сам следователь.",
+      "sentence_count": 294,
+      "timeline_start_index": 11510,
+      "source_sections": [
+        "6_1"
+      ],
+      "novel_path": "novel/6_1.json",
+      "character_counts": {
+        "raskolnikov": 28,
+        "marmeladova": 1,
+        "svidrigailov": 0
+      }
+    },
+    {
+      "id": "6_2",
+      "part": 6,
+      "chapter": 2,
+      "label": "Часть 6 · Глава 2",
+      "description": "Порфирий Петрович прямо говорит Раскольникову, что знает о его вине, и даёт два дня на явку с повинной.",
+      "sentence_count": 396,
+      "timeline_start_index": 11804,
+      "source_sections": [
+        "6_2"
+      ],
+      "novel_path": "novel/6_2.json",
+      "character_counts": {
+        "raskolnikov": 26,
+        "marmeladova": 0,
+        "svidrigailov": 0
+      }
+    },
+    {
+      "id": "6_3",
+      "part": 6,
+      "chapter": 3,
+      "label": "Часть 6 · Глава 3",
+      "description": "Раскольников встречает Свидригайлова и предупреждает, что убьёт его, если тот причинит вред Дуне.",
+      "sentence_count": 287,
+      "timeline_start_index": 12200,
+      "source_sections": [
+        "6_3"
+      ],
+      "novel_path": "novel/6_3.json",
+      "character_counts": {
+        "raskolnikov": 24,
+        "marmeladova": 0,
+        "svidrigailov": 9
+      }
+    },
+    {
+      "id": "6_4",
+      "part": 6,
+      "chapter": 4,
+      "label": "Часть 6 · Глава 4",
+      "description": "Свидригайлов рассказывает о своих неудачных попытках соблазнить Дуню и о планах жениться на юной невесте.",
+      "sentence_count": 254,
+      "timeline_start_index": 12487,
+      "source_sections": [
+        "6_4"
+      ],
+      "novel_path": "novel/6_4.json",
+      "character_counts": {
+        "raskolnikov": 5,
+        "marmeladova": 0,
+        "svidrigailov": 26
+      }
+    },
+    {
+      "id": "6_5",
+      "part": 6,
+      "chapter": 5,
+      "label": "Часть 6 · Глава 5",
+      "description": "Свидригайлов шантажирует Дуню преступлением брата, но после её выстрела и отказа отпускает её, не причинив вреда.",
+      "sentence_count": 504,
+      "timeline_start_index": 12741,
+      "source_sections": [
+        "6_5"
+      ],
+      "novel_path": "novel/6_5.json",
+      "character_counts": {
+        "raskolnikov": 5,
+        "marmeladova": 0,
+        "svidrigailov": 24
+      }
+    },
+    {
+      "id": "6_6",
+      "part": 6,
+      "chapter": 6,
+      "label": "Часть 6 · Глава 6",
+      "description": "Свидригайлов раздаёт деньги нуждающимся и после мучительной ночи с кошмарами кончает жизнь самоубийством.",
+      "sentence_count": 317,
+      "timeline_start_index": 13245,
+      "source_sections": [
+        "6_6"
+      ],
+      "novel_path": "novel/6_6.json",
+      "character_counts": {
+        "raskolnikov": 2,
+        "marmeladova": 6,
+        "svidrigailov": 22
+      }
+    },
+    {
+      "id": "6_7",
+      "part": 6,
+      "chapter": 7,
+      "label": "Часть 6 · Глава 7",
+      "description": "Раскольников прощается с матерью и сестрой, признаваясь, что не раскаивается в убийстве.",
+      "sentence_count": 280,
+      "timeline_start_index": 13562,
+      "source_sections": [
+        "6_7_1",
+        "6_7_2"
+      ],
+      "novel_path": "novel/6_7.json",
+      "character_counts": {
+        "raskolnikov": 50,
+        "marmeladova": 0,
+        "svidrigailov": 0
+      }
+    },
+    {
+      "id": "6_8",
+      "part": 6,
+      "chapter": 8,
+      "label": "Часть 6 · Глава 8",
+      "description": "По настоянию Сони Раскольников идёт на площадь и является в полицию с повинной.",
+      "sentence_count": 337,
+      "timeline_start_index": 13842,
+      "source_sections": [
+        "6_8"
+      ],
+      "novel_path": "novel/6_8.json",
+      "character_counts": {
+        "raskolnikov": 29,
+        "marmeladova": 22,
+        "svidrigailov": 0
+      }
+    },
+    {
+      "id": "7_1",
+      "part": 7,
+      "chapter": 1,
+      "label": "Эпилог · Глава 1",
+      "description": "Раскольникова осуждают и отправляют на каторгу в Сибирь, куда за ним едет Соня, а Дуня выходит замуж за Разумихина.",
+      "sentence_count": 112,
+      "timeline_start_index": 14179,
+      "source_sections": [
+        "7_1"
+      ],
+      "novel_path": "novel/7_1.json",
+      "character_counts": {
+        "raskolnikov": 25,
+        "marmeladova": 0,
+        "svidrigailov": 0
+      }
+    },
+    {
+      "id": "7_2",
+      "part": 7,
+      "chapter": 2,
+      "label": "Эпилог · Глава 2",
+      "description": "На каторге Раскольников постепенно привязывается к Соне, обретает веру в Бога и переживает духовное возрождение.",
+      "sentence_count": 193,
+      "timeline_start_index": 14291,
+      "source_sections": [
+        "7_2"
+      ],
+      "novel_path": "novel/7_2.json",
+      "character_counts": {
+        "raskolnikov": 28,
+        "marmeladova": 13,
+        "svidrigailov": 0
+      }
+    }
+  ]
+}

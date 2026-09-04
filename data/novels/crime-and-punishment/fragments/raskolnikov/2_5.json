@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "novel_id": "crime-and-punishment",
+  "character_id": "raskolnikov",
+  "chapter_id": "2_5",
+  "count": 14,
+  "fragments": [
+    {
+      "id": "Родион Романович Раскольников::2_5_0001",
+      "source_section": "2_5",
+      "source_sentence": 14,
+      "character_position": 388,
+      "text": "Лицо его, отвернувшееся теперь от любопытного цветка на обоях, было чрезвычайно бледно и выражало необыкновенное страдание, как будто он только что перенес мучительную операцию или выпустили его сейчас из-под пытки.",
+      "vad": [
+        -0.95,
+        0.78,
+        -0.72
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.274300468587067,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 3555,
+      "timeline_end_index": 3555,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 0,
+          "end": 215
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::2_5_0002",
+      "source_section": "2_5",
+      "source_sentence": 15,
+      "character_position": 389,
+      "text": "Но вошедший господин мало-помалу стал возбуждать в нем все больше и больше внимания, потом недоумения, потом недоверчивости и даже как будто боязни.",
+      "vad": [
+        -0.55,
+        0.5,
+        -0.35
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.3440838228161788,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 3556,
+      "timeline_end_index": 3556,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 0,
+          "end": 148
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::2_5_0003",
+      "source_section": "2_5",
+      "source_sentence": 21,
+      "character_position": 390,
+      "text": "Но Раскольников, ожидавший чего-то совсем другого, тупо и задумчиво посмотрел на него и ничего не ответил, как будто имя Петра Петровича слышал он решительно в первый раз.",
+      "vad": [
+        -0.45,
+        -0.2,
+        -0.35
+      ],
+      "cluster_id": "raskolnikov-3",
+      "distance_to_centroid": 0.3185225542487678,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 3562,
+      "timeline_end_index": 3562,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 0,
+          "end": 171
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::2_5_0004",
+      "source_section": "2_5",
+      "source_sentence": 55,
+      "character_position": 391,
+      "text": "с выражением самой нетерпеливой досады",
+      "vad": [
+        -0.78,
+        0.72,
+        0.18
+      ],
+      "cluster_id": "raskolnikov-1",
+      "distance_to_centroid": 0.2521890301893558,
+      "warning": null,
+      "chapter_sentence_start": 55,
+      "chapter_sentence_end": 55,
+      "timeline_start_index": 3596,
+      "timeline_end_index": 3596,
+      "highlights": [
+        {
+          "chapter_sentence": 55,
+          "start": 32,
+          "end": 70
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::2_5_0005",
+      "source_section": "2_5",
+      "source_sentence": 83,
+      "character_position": 392,
+      "text": "лицо его выразило некоторое волнение.",
+      "vad": [
+        -0.1,
+        0.35,
+        0.05
+      ],
+      "cluster_id": "raskolnikov-3",
+      "distance_to_centroid": 0.4952851338712034,
+      "warning": null,
+      "chapter_sentence_start": 83,
+      "chapter_sentence_end": 83,
+      "timeline_start_index": 3624,
+      "timeline_end_index": 3624,
+      "highlights": [
+        {
+          "chapter_sentence": 83,
+          "start": 54,
+          "end": 91
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::2_5_0006",
+      "source_section": "2_5",
+      "source_sentence": 75,
+      "character_position": 393,
+      "text": "Раскольников ядовито улыбнулся",
+      "vad": [
+        -0.55,
+        0.35,
+        0.25
+      ],
+      "cluster_id": "raskolnikov-1",
+      "distance_to_centroid": 0.2366953317709842,
+      "warning": null,
+      "chapter_sentence_start": 75,
+      "chapter_sentence_end": 75,
+      "timeline_start_index": 3616,
+      "timeline_end_index": 3616,
+      "highlights": [
+        {
+          "chapter_sentence": 75,
+          "start": 38,
+          "end": 68
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::2_5_0008",
+      "source_section": "2_5",
+      "source_sentence": 219,
+      "character_position": 394,
+      "text": "Раскольников лежал бледный, с вздрагивающей верхнею губой и трудно дышал.",
+      "vad": [
+        -0.75,
+        0.7,
+        -0.45
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.0845789661170461,
+      "warning": null,
+      "chapter_sentence_start": 219,
+      "chapter_sentence_end": 219,
+      "timeline_start_index": 3760,
+      "timeline_end_index": 3760,
+      "highlights": [
+        {
+          "chapter_sentence": 219,
+          "start": 0,
+          "end": 73
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::2_5_0009",
+      "source_section": "2_5",
+      "source_sentence": 249,
+      "character_position": 395,
+      "text": "– Оставьте, оставьте меня все!",
+      "vad": [
+        -0.85,
+        0.9,
+        -0.65
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.2605949830229381,
+      "warning": null,
+      "chapter_sentence_start": 249,
+      "chapter_sentence_end": 249,
+      "timeline_start_index": 3790,
+      "timeline_end_index": 3790,
+      "highlights": [
+        {
+          "chapter_sentence": 249,
+          "start": 0,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::2_5_0010",
+      "source_section": "2_5",
+      "source_sentence": 250,
+      "character_position": 396,
+      "text": "– в исступлении вскричал Раскольников.",
+      "vad": [
+        -0.85,
+        0.95,
+        0.25
+      ],
+      "cluster_id": "raskolnikov-1",
+      "distance_to_centroid": 0.4497039418395803,
+      "warning": null,
+      "chapter_sentence_start": 250,
+      "chapter_sentence_end": 250,
+      "timeline_start_index": 3791,
+      "timeline_end_index": 3791,
+      "highlights": [
+        {
+          "chapter_sentence": 250,
+          "start": 0,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::2_5_0011",
+      "source_section": "2_5",
+      "source_sentence": 251,
+      "character_position": 397,
+      "text": "Да оставите ли вы меня, наконец, мучители!",
+      "vad": [
+        -0.92,
+        0.96,
+        -0.72
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.3664200054759841,
+      "warning": null,
+      "chapter_sentence_start": 251,
+      "chapter_sentence_end": 251,
+      "timeline_start_index": 3792,
+      "timeline_end_index": 3792,
+      "highlights": [
+        {
+          "chapter_sentence": 251,
+          "start": 2,
+          "end": 44
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::2_5_0012",
+      "source_section": "2_5",
+      "source_sentence": 252,
+      "character_position": 398,
+      "text": "Я вас не боюсь!",
+      "vad": [
+        -0.55,
+        0.9,
+        0.75
+      ],
+      "cluster_id": "raskolnikov-1",
+      "distance_to_centroid": 0.5694129852258968,
+      "warning": null,
+      "chapter_sentence_start": 252,
+      "chapter_sentence_end": 252,
+      "timeline_start_index": 3793,
+      "timeline_end_index": 3793,
+      "highlights": [
+        {
+          "chapter_sentence": 252,
+          "start": 0,
+          "end": 15
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::2_5_0013",
+      "source_section": "2_5",
+      "source_sentence": 253,
+      "character_position": 399,
+      "text": "Я никого, никого теперь не боюсь!",
+      "vad": [
+        -0.45,
+        0.85,
+        0.7
+      ],
+      "cluster_id": "raskolnikov-1",
+      "distance_to_centroid": 0.5192534858522743,
+      "warning": null,
+      "chapter_sentence_start": 253,
+      "chapter_sentence_end": 253,
+      "timeline_start_index": 3794,
+      "timeline_end_index": 3794,
+      "highlights": [
+        {
+          "chapter_sentence": 253,
+          "start": 0,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::2_5_0014",
+      "source_section": "2_5",
+      "source_sentence": 255,
+      "character_position": 400,
+      "text": "Я один хочу быть, один, один, один!",
+      "vad": [
+        -0.75,
+        0.85,
+        -0.25
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.3244240358028243,
+      "warning": null,
+      "chapter_sentence_start": 255,
+      "chapter_sentence_end": 255,
+      "timeline_start_index": 3796,
+      "timeline_end_index": 3796,
+      "highlights": [
+        {
+          "chapter_sentence": 255,
+          "start": 0,
+          "end": 35
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::2_5_0015",
+      "source_section": "2_5",
+      "source_sentence": 283,
+      "character_position": 401,
+      "text": "с нетерпением и тоской поглядел на Настасью",
+      "vad": [
+        -0.55,
+        0.55,
+        -0.35
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.3206142356288609,
+      "warning": null,
+      "chapter_sentence_start": 283,
+      "chapter_sentence_end": 283,
+      "timeline_start_index": 3824,
+      "timeline_end_index": 3824,
+      "highlights": [
+        {
+          "chapter_sentence": 283,
+          "start": 30,
+          "end": 73
+        }
+      ]
+    }
+  ]
+}

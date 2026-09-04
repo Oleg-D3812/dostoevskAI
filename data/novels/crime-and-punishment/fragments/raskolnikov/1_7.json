@@ -1,0 +1,1387 @@
+{
+  "schema_version": 1,
+  "novel_id": "crime-and-punishment",
+  "character_id": "raskolnikov",
+  "chapter_id": "1_7",
+  "count": 53,
+  "fragments": [
+    {
+      "id": "Родион Романович Раскольников::1_7_0001",
+      "source_section": "1_7",
+      "source_sentence": 2,
+      "character_position": 201,
+      "text": "Тут Раскольников потерялся",
+      "vad": [
+        -0.55,
+        0.35,
+        -0.45
+      ],
+      "cluster_id": "raskolnikov-3",
+      "distance_to_centroid": 0.3896437978551055,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 1727,
+      "timeline_end_index": 1727,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 0,
+          "end": 26
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0002",
+      "source_section": "1_7",
+      "source_sentence": 7,
+      "character_position": 202,
+      "text": "голос не послушался его, прервался и задрожал",
+      "vad": [
+        -0.65,
+        0.72,
+        -0.45
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.1589298759805184,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 1732,
+      "timeline_end_index": 1732,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 67,
+          "end": 112
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0003",
+      "source_section": "1_7",
+      "source_sentence": 19,
+      "character_position": 203,
+      "text": "ему почти страшно, до того страшно",
+      "vad": [
+        -0.82,
+        0.9,
+        -0.68
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.270755629602091,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 1744,
+      "timeline_end_index": 1744,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 33,
+          "end": 67
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0004",
+      "source_section": "1_7",
+      "source_sentence": 34,
+      "character_position": 204,
+      "text": "Силы опять покидали его",
+      "vad": [
+        -0.82,
+        -0.58,
+        -0.7
+      ],
+      "cluster_id": "raskolnikov-3",
+      "distance_to_centroid": 0.914898602789432,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 1759,
+      "timeline_end_index": 1759,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 0,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0005",
+      "source_section": "1_7",
+      "source_sentence": 43,
+      "character_position": 205,
+      "text": "самому ему слышалось, как они, с каждым мгновением, все более немели и деревенели",
+      "vad": [
+        -0.72,
+        0.78,
+        -0.48
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.1264601314108946,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 1768,
+      "timeline_end_index": 1768,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 28,
+          "end": 109
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0006",
+      "source_section": "1_7",
+      "source_sentence": 44,
+      "character_position": 206,
+      "text": "Он боялся, что выпустит и уронит топор",
+      "vad": [
+        -0.75,
+        0.7,
+        -0.65
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.1313608804192256,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 1769,
+      "timeline_end_index": 1769,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 0,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0007",
+      "source_section": "1_7",
+      "source_sentence": 48,
+      "character_position": 207,
+      "text": "едва себя чувствуя",
+      "vad": [
+        -0.85,
+        0.75,
+        -0.8
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.2911818535396569,
+      "warning": null,
+      "chapter_sentence_start": 48,
+      "chapter_sentence_end": 48,
+      "timeline_start_index": 1773,
+      "timeline_end_index": 1773,
+      "highlights": [
+        {
+          "chapter_sentence": 48,
+          "start": 51,
+          "end": 69
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0008",
+      "source_section": "1_7",
+      "source_sentence": 49,
+      "character_position": 208,
+      "text": "Силы его тут как бы не было",
+      "vad": [
+        -0.72,
+        0.32,
+        -0.66
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.3909037930520408,
+      "warning": null,
+      "chapter_sentence_start": 49,
+      "chapter_sentence_end": 49,
+      "timeline_start_index": 1774,
+      "timeline_end_index": 1774,
+      "highlights": [
+        {
+          "chapter_sentence": 49,
+          "start": 0,
+          "end": 27
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0009",
+      "source_section": "1_7",
+      "source_sentence": 68,
+      "character_position": 209,
+      "text": "как будто судорога прошла по нем",
+      "vad": [
+        -0.72,
+        0.78,
+        -0.38
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.1869254534270758,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 1793,
+      "timeline_end_index": 1793,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 95,
+          "end": 127
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0010",
+      "source_section": "1_7",
+      "source_sentence": 69,
+      "character_position": 210,
+      "text": "Ему вдруг опять захотелось бросить все и уйти",
+      "vad": [
+        -0.75,
+        0.55,
+        -0.35
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.2211405184936405,
+      "warning": null,
+      "chapter_sentence_start": 69,
+      "chapter_sentence_end": 69,
+      "timeline_start_index": 1794,
+      "timeline_end_index": 1794,
+      "highlights": [
+        {
+          "chapter_sentence": 69,
+          "start": 0,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0011",
+      "source_section": "1_7",
+      "source_sentence": 71,
+      "character_position": 211,
+      "text": "Он даже усмехнулся на себя",
+      "vad": [
+        -0.35,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "raskolnikov-3",
+      "distance_to_centroid": 0.3308028085766114,
+      "warning": null,
+      "chapter_sentence_start": 71,
+      "chapter_sentence_end": 71,
+      "timeline_start_index": 1796,
+      "timeline_end_index": 1796,
+      "highlights": [
+        {
+          "chapter_sentence": 71,
+          "start": 0,
+          "end": 26
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0012",
+      "source_section": "1_7",
+      "source_sentence": 71,
+      "character_position": 212,
+      "text": "другая тревожная мысль ударила ему в голову",
+      "vad": [
+        -0.75,
+        0.8,
+        -0.35
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.2142479492085092,
+      "warning": null,
+      "chapter_sentence_start": 71,
+      "chapter_sentence_end": 71,
+      "timeline_start_index": 1796,
+      "timeline_end_index": 1796,
+      "highlights": [
+        {
+          "chapter_sentence": 71,
+          "start": 38,
+          "end": 81
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0013",
+      "source_section": "1_7",
+      "source_sentence": 80,
+      "character_position": 213,
+      "text": "В нетерпении он взмахнул было опять топором",
+      "vad": [
+        -0.75,
+        0.85,
+        0.65
+      ],
+      "cluster_id": "raskolnikov-1",
+      "distance_to_centroid": 0.4821436414881457,
+      "warning": null,
+      "chapter_sentence_start": 80,
+      "chapter_sentence_end": 80,
+      "timeline_start_index": 1805,
+      "timeline_end_index": 1805,
+      "highlights": [
+        {
+          "chapter_sentence": 80,
+          "start": 0,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0014",
+      "source_section": "1_7",
+      "source_sentence": 83,
+      "character_position": 214,
+      "text": "Он спешил ужасно",
+      "vad": [
+        -0.7,
+        0.95,
+        -0.45
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.2917623110031603,
+      "warning": null,
+      "chapter_sentence_start": 83,
+      "chapter_sentence_end": 83,
+      "timeline_start_index": 1808,
+      "timeline_end_index": 1808,
+      "highlights": [
+        {
+          "chapter_sentence": 83,
+          "start": 0,
+          "end": 16
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0015",
+      "source_section": "1_7",
+      "source_sentence": 85,
+      "character_position": 215,
+      "text": "он все ошибался",
+      "vad": [
+        -0.45,
+        0.55,
+        -0.65
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.3806465378334978,
+      "warning": null,
+      "chapter_sentence_start": 85,
+      "chapter_sentence_end": 85,
+      "timeline_start_index": 1810,
+      "timeline_end_index": 1810,
+      "highlights": [
+        {
+          "chapter_sentence": 85,
+          "start": 37,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0016",
+      "source_section": "1_7",
+      "source_sentence": 94,
+      "character_position": 216,
+      "text": "подумал он в испуге",
+      "vad": [
+        -0.65,
+        0.75,
+        -0.25
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.3136821841650354,
+      "warning": null,
+      "chapter_sentence_start": 94,
+      "chapter_sentence_end": 94,
+      "timeline_start_index": 1819,
+      "timeline_end_index": 1819,
+      "highlights": [
+        {
+          "chapter_sentence": 94,
+          "start": 2,
+          "end": 21
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0017",
+      "source_section": "1_7",
+      "source_sentence": 101,
+      "character_position": 217,
+      "text": "Он остановился и притих, как мертвый",
+      "vad": [
+        -0.85,
+        0.9,
+        -0.55
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.2299102117766468,
+      "warning": null,
+      "chapter_sentence_start": 101,
+      "chapter_sentence_end": 101,
+      "timeline_start_index": 1826,
+      "timeline_end_index": 1826,
+      "highlights": [
+        {
+          "chapter_sentence": 101,
+          "start": 0,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0018",
+      "source_section": "1_7",
+      "source_sentence": 105,
+      "character_position": 218,
+      "text": "ждал, едва переводя дух",
+      "vad": [
+        -0.86,
+        0.88,
+        -0.62
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.2331093969007195,
+      "warning": null,
+      "chapter_sentence_start": 105,
+      "chapter_sentence_end": 105,
+      "timeline_start_index": 1830,
+      "timeline_end_index": 1830,
+      "highlights": [
+        {
+          "chapter_sentence": 105,
+          "start": 34,
+          "end": 57
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0019",
+      "source_section": "1_7",
+      "source_sentence": 113,
+      "character_position": 219,
+      "text": "Раскольников совсем было потерялся",
+      "vad": [
+        -0.85,
+        0.75,
+        -0.9
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.3870890227432612,
+      "warning": null,
+      "chapter_sentence_start": 113,
+      "chapter_sentence_end": 113,
+      "timeline_start_index": 1838,
+      "timeline_end_index": 1838,
+      "highlights": [
+        {
+          "chapter_sentence": 113,
+          "start": 0,
+          "end": 34
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0020",
+      "source_section": "1_7",
+      "source_sentence": 114,
+      "character_position": 220,
+      "text": "Страх охватывал его все больше и больше",
+      "vad": [
+        -0.9,
+        0.85,
+        -0.75
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.3042833944173169,
+      "warning": null,
+      "chapter_sentence_start": 114,
+      "chapter_sentence_end": 114,
+      "timeline_start_index": 1839,
+      "timeline_end_index": 1839,
+      "highlights": [
+        {
+          "chapter_sentence": 114,
+          "start": 0,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0021",
+      "source_section": "1_7",
+      "source_sentence": 115,
+      "character_position": 221,
+      "text": "Ему хотелось поскорее убежать отсюда",
+      "vad": [
+        -0.82,
+        0.74,
+        -0.62
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.1174674084911762,
+      "warning": null,
+      "chapter_sentence_start": 115,
+      "chapter_sentence_end": 115,
+      "timeline_start_index": 1840,
+      "timeline_end_index": 1840,
+      "highlights": [
+        {
+          "chapter_sentence": 115,
+          "start": 0,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0022",
+      "source_section": "1_7",
+      "source_sentence": 116,
+      "character_position": 222,
+      "text": "все отчаяние, все безобразие и всю нелепость его",
+      "vad": [
+        -0.95,
+        0.55,
+        -0.7
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.2742105189317023,
+      "warning": null,
+      "chapter_sentence_start": 116,
+      "chapter_sentence_end": 116,
+      "timeline_start_index": 1841,
+      "timeline_end_index": 1841,
+      "highlights": [
+        {
+          "chapter_sentence": 116,
+          "start": 135,
+          "end": 183
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0023",
+      "source_section": "1_7",
+      "source_sentence": 116,
+      "character_position": 223,
+      "text": "от одного только ужаса и отвращения к тому, что он сделал",
+      "vad": [
+        -0.98,
+        0.9,
+        -0.82
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.416254464484395,
+      "warning": null,
+      "chapter_sentence_start": 116,
+      "chapter_sentence_end": 116,
+      "timeline_start_index": 1841,
+      "timeline_end_index": 1841,
+      "highlights": [
+        {
+          "chapter_sentence": 116,
+          "start": 446,
+          "end": 503
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0024",
+      "source_section": "1_7",
+      "source_sentence": 117,
+      "character_position": 224,
+      "text": "Отвращение особенно поднималось и росло в нем с каждою минутою",
+      "vad": [
+        -0.9,
+        0.7,
+        -0.2
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.3451206062949435,
+      "warning": null,
+      "chapter_sentence_start": 117,
+      "chapter_sentence_end": 117,
+      "timeline_start_index": 1842,
+      "timeline_end_index": 1842,
+      "highlights": [
+        {
+          "chapter_sentence": 117,
+          "start": 0,
+          "end": 62
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0025",
+      "source_section": "1_7",
+      "source_sentence": 119,
+      "character_position": 225,
+      "text": "какая-то рассеянность, как будто даже задумчивость, стала понемногу овладевать им",
+      "vad": [
+        -0.2,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "raskolnikov-3",
+      "distance_to_centroid": 0.3054320008077052,
+      "warning": null,
+      "chapter_sentence_start": 119,
+      "chapter_sentence_end": 119,
+      "timeline_start_index": 1844,
+      "timeline_end_index": 1844,
+      "highlights": [
+        {
+          "chapter_sentence": 119,
+          "start": 3,
+          "end": 84
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0026",
+      "source_section": "1_7",
+      "source_sentence": 132,
+      "character_position": 226,
+      "text": "Мучительная, темная мысль поднималась в нем – мысль, что он сумасшествует и что в эту минуту не в силах ни рассудить, ни себя защитить",
+      "vad": [
+        -0.95,
+        0.82,
+        -0.88
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.4157430208126404,
+      "warning": null,
+      "chapter_sentence_start": 132,
+      "chapter_sentence_end": 132,
+      "timeline_start_index": 1857,
+      "timeline_end_index": 1857,
+      "highlights": [
+        {
+          "chapter_sentence": 132,
+          "start": 0,
+          "end": 134
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0027",
+      "source_section": "1_7",
+      "source_sentence": 135,
+      "character_position": 227,
+      "text": "– пробормотал он и бросился в переднюю",
+      "vad": [
+        -0.72,
+        0.88,
+        0.18
+      ],
+      "cluster_id": "raskolnikov-1",
+      "distance_to_centroid": 0.339937517645628,
+      "warning": null,
+      "chapter_sentence_start": 135,
+      "chapter_sentence_end": 135,
+      "timeline_start_index": 1860,
+      "timeline_end_index": 1860,
+      "highlights": [
+        {
+          "chapter_sentence": 135,
+          "start": 0,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0028",
+      "source_section": "1_7",
+      "source_sentence": 136,
+      "character_position": 228,
+      "text": "здесь ожидал его такой ужас, какого, конечно, он еще ни разу не испытывал",
+      "vad": [
+        -0.98,
+        0.96,
+        -0.88
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.4921160190225634,
+      "warning": null,
+      "chapter_sentence_start": 136,
+      "chapter_sentence_end": 136,
+      "timeline_start_index": 1861,
+      "timeline_end_index": 1861,
+      "highlights": [
+        {
+          "chapter_sentence": 136,
+          "start": 3,
+          "end": 76
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0029",
+      "source_section": "1_7",
+      "source_sentence": 137,
+      "character_position": 229,
+      "text": "Он стоял, смотрел и не верил глазам своим",
+      "vad": [
+        -0.82,
+        0.78,
+        -0.7
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.2043508565847807,
+      "warning": null,
+      "chapter_sentence_start": 137,
+      "chapter_sentence_end": 137,
+      "timeline_start_index": 1862,
+      "timeline_end_index": 1862,
+      "highlights": [
+        {
+          "chapter_sentence": 137,
+          "start": 0,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0030",
+      "source_section": "1_7",
+      "source_sentence": 166,
+      "character_position": 230,
+      "text": "вдруг показалось ему, что он точно окостенел, что это точно во сне",
+      "vad": [
+        -0.75,
+        0.85,
+        -0.8
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.3248563887983085,
+      "warning": null,
+      "chapter_sentence_start": 166,
+      "chapter_sentence_end": 166,
+      "timeline_start_index": 1891,
+      "timeline_end_index": 1891,
+      "highlights": [
+        {
+          "chapter_sentence": 166,
+          "start": 2,
+          "end": 68
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0031",
+      "source_section": "1_7",
+      "source_sentence": 167,
+      "character_position": 231,
+      "text": "он весь вдруг встрепенулся",
+      "vad": [
+        0.05,
+        0.82,
+        0.18
+      ],
+      "cluster_id": "raskolnikov-2",
+      "distance_to_centroid": 0.6212067963632812,
+      "warning": null,
+      "chapter_sentence_start": 167,
+      "chapter_sentence_end": 167,
+      "timeline_start_index": 1892,
+      "timeline_end_index": 1892,
+      "highlights": [
+        {
+          "chapter_sentence": 167,
+          "start": 74,
+          "end": 100
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0032",
+      "source_section": "1_7",
+      "source_sentence": 170,
+      "character_position": 232,
+      "text": "притаился не дыша",
+      "vad": [
+        -0.75,
+        0.9,
+        -0.65
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.2546663007954659,
+      "warning": null,
+      "chapter_sentence_start": 170,
+      "chapter_sentence_end": 170,
+      "timeline_start_index": 1895,
+      "timeline_end_index": 1895,
+      "highlights": [
+        {
+          "chapter_sentence": 170,
+          "start": 15,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0033",
+      "source_section": "1_7",
+      "source_sentence": 175,
+      "character_position": 233,
+      "text": "В самом деле, точно все это снилось",
+      "vad": [
+        -0.35,
+        -0.25,
+        -0.2
+      ],
+      "cluster_id": "raskolnikov-3",
+      "distance_to_centroid": 0.3387938081353183,
+      "warning": null,
+      "chapter_sentence_start": 175,
+      "chapter_sentence_end": 175,
+      "timeline_start_index": 1900,
+      "timeline_end_index": 1900,
+      "highlights": [
+        {
+          "chapter_sentence": 175,
+          "start": 0,
+          "end": 35
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0034",
+      "source_section": "1_7",
+      "source_sentence": 180,
+      "character_position": 234,
+      "text": "В ужасе смотрел Раскольников",
+      "vad": [
+        -0.95,
+        0.9,
+        -0.75
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.354986767767683,
+      "warning": null,
+      "chapter_sentence_start": 180,
+      "chapter_sentence_end": 180,
+      "timeline_start_index": 1905,
+      "timeline_end_index": 1905,
+      "highlights": [
+        {
+          "chapter_sentence": 180,
+          "start": 0,
+          "end": 28
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0035",
+      "source_section": "1_7",
+      "source_sentence": 180,
+      "character_position": 235,
+      "text": "с тупым страхом ждал",
+      "vad": [
+        -0.82,
+        0.72,
+        -0.58
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.0762774658269562,
+      "warning": null,
+      "chapter_sentence_start": 180,
+      "chapter_sentence_end": 180,
+      "timeline_start_index": 1905,
+      "timeline_end_index": 1905,
+      "highlights": [
+        {
+          "chapter_sentence": 180,
+          "start": 64,
+          "end": 84
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0036",
+      "source_section": "1_7",
+      "source_sentence": 183,
+      "character_position": 236,
+      "text": "Голова его как будто опять начинала кружиться",
+      "vad": [
+        -0.65,
+        0.55,
+        -0.45
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.2022358726865742,
+      "warning": null,
+      "chapter_sentence_start": 183,
+      "chapter_sentence_end": 183,
+      "timeline_start_index": 1908,
+      "timeline_end_index": 1908,
+      "highlights": [
+        {
+          "chapter_sentence": 183,
+          "start": 0,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0037",
+      "source_section": "1_7",
+      "source_sentence": 184,
+      "character_position": 237,
+      "text": "«Вот упаду!»",
+      "vad": [
+        -0.88,
+        0.86,
+        -0.72
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.2814996808497346,
+      "warning": null,
+      "chapter_sentence_start": 184,
+      "chapter_sentence_end": 184,
+      "timeline_start_index": 1909,
+      "timeline_end_index": 1909,
+      "highlights": [
+        {
+          "chapter_sentence": 184,
+          "start": 0,
+          "end": 12
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0038",
+      "source_section": "1_7",
+      "source_sentence": 185,
+      "character_position": 238,
+      "text": "– промелькнуло в нем",
+      "vad": [
+        -0.35,
+        0.2,
+        -0.15
+      ],
+      "cluster_id": "raskolnikov-3",
+      "distance_to_centroid": 0.1543205317525284,
+      "warning": null,
+      "chapter_sentence_start": 185,
+      "chapter_sentence_end": 185,
+      "timeline_start_index": 1910,
+      "timeline_end_index": 1910,
+      "highlights": [
+        {
+          "chapter_sentence": 185,
+          "start": 0,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0039",
+      "source_section": "1_7",
+      "source_sentence": 265,
+      "character_position": 239,
+      "text": "Он был точно в бреду",
+      "vad": [
+        -0.8,
+        0.9,
+        -0.7
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.2809054197012893,
+      "warning": null,
+      "chapter_sentence_start": 265,
+      "chapter_sentence_end": 265,
+      "timeline_start_index": 1990,
+      "timeline_end_index": 1990,
+      "highlights": [
+        {
+          "chapter_sentence": 265,
+          "start": 0,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0040",
+      "source_section": "1_7",
+      "source_sentence": 266,
+      "character_position": 240,
+      "text": "Он готовился даже драться с ними",
+      "vad": [
+        -0.65,
+        0.8,
+        0.45
+      ],
+      "cluster_id": "raskolnikov-1",
+      "distance_to_centroid": 0.2823890676970567,
+      "warning": null,
+      "chapter_sentence_start": 266,
+      "chapter_sentence_end": 266,
+      "timeline_start_index": 1991,
+      "timeline_end_index": 1991,
+      "highlights": [
+        {
+          "chapter_sentence": 266,
+          "start": 0,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0041",
+      "source_section": "1_7",
+      "source_sentence": 267,
+      "character_position": 241,
+      "text": "ему несколько раз вдруг приходила мысль кончить все разом и крикнуть им из-за дверей",
+      "vad": [
+        -0.72,
+        0.88,
+        -0.58
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.2164320365892486,
+      "warning": null,
+      "chapter_sentence_start": 267,
+      "chapter_sentence_end": 267,
+      "timeline_start_index": 1992,
+      "timeline_end_index": 1992,
+      "highlights": [
+        {
+          "chapter_sentence": 267,
+          "start": 37,
+          "end": 121
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0042",
+      "source_section": "1_7",
+      "source_sentence": 268,
+      "character_position": 242,
+      "text": "Порой хотелось ему начать ругаться с ними, дразнить их",
+      "vad": [
+        -0.45,
+        0.72,
+        0.18
+      ],
+      "cluster_id": "raskolnikov-1",
+      "distance_to_centroid": 0.2264275959364916,
+      "warning": null,
+      "chapter_sentence_start": 268,
+      "chapter_sentence_end": 268,
+      "timeline_start_index": 1993,
+      "timeline_end_index": 1993,
+      "highlights": [
+        {
+          "chapter_sentence": 268,
+          "start": 0,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0043",
+      "source_section": "1_7",
+      "source_sentence": 269,
+      "character_position": 243,
+      "text": "«Поскорей бы уж!»",
+      "vad": [
+        -0.35,
+        0.85,
+        0.1
+      ],
+      "cluster_id": "raskolnikov-1",
+      "distance_to_centroid": 0.407970713370149,
+      "warning": null,
+      "chapter_sentence_start": 269,
+      "chapter_sentence_end": 269,
+      "timeline_start_index": 1994,
+      "timeline_end_index": 1994,
+      "highlights": [
+        {
+          "chapter_sentence": 269,
+          "start": 0,
+          "end": 17
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0044",
+      "source_section": "1_7",
+      "source_sentence": 295,
+      "character_position": 244,
+      "text": "В полном отчаянии пошел он им прямо навстречу",
+      "vad": [
+        -0.95,
+        0.8,
+        -0.75
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.3036708470729132,
+      "warning": null,
+      "chapter_sentence_start": 295,
+      "chapter_sentence_end": 295,
+      "timeline_start_index": 2020,
+      "timeline_end_index": 2020,
+      "highlights": [
+        {
+          "chapter_sentence": 295,
+          "start": 0,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0045",
+      "source_section": "1_7",
+      "source_sentence": 314,
+      "character_position": 245,
+      "text": "он поворотил в него полумертвый",
+      "vad": [
+        -0.95,
+        0.85,
+        -0.9
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.4435001171052585,
+      "warning": null,
+      "chapter_sentence_start": 314,
+      "chapter_sentence_end": 314,
+      "timeline_start_index": 2039,
+      "timeline_end_index": 2039,
+      "highlights": [
+        {
+          "chapter_sentence": 314,
+          "start": 25,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0046",
+      "source_section": "1_7",
+      "source_sentence": 315,
+      "character_position": 246,
+      "text": "все эти мучения до того его обессилили",
+      "vad": [
+        -0.95,
+        -0.6,
+        -0.85
+      ],
+      "cluster_id": "raskolnikov-3",
+      "distance_to_centroid": 1.0746682471561892,
+      "warning": null,
+      "chapter_sentence_start": 315,
+      "chapter_sentence_end": 315,
+      "timeline_start_index": 2040,
+      "timeline_end_index": 2040,
+      "highlights": [
+        {
+          "chapter_sentence": 315,
+          "start": 3,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0047",
+      "source_section": "1_7",
+      "source_sentence": 318,
+      "character_position": 247,
+      "text": "Он плохо теперь помнил себя",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.7
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.3980297772639941,
+      "warning": null,
+      "chapter_sentence_start": 318,
+      "chapter_sentence_end": 318,
+      "timeline_start_index": 2043,
+      "timeline_end_index": 2043,
+      "highlights": [
+        {
+          "chapter_sentence": 318,
+          "start": 0,
+          "end": 27
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0048",
+      "source_section": "1_7",
+      "source_sentence": 321,
+      "character_position": 248,
+      "text": "Не в полной памяти прошел он",
+      "vad": [
+        -0.55,
+        0.45,
+        -0.6
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.3378186871734147,
+      "warning": null,
+      "chapter_sentence_start": 321,
+      "chapter_sentence_end": 321,
+      "timeline_start_index": 2046,
+      "timeline_end_index": 2046,
+      "highlights": [
+        {
+          "chapter_sentence": 321,
+          "start": 0,
+          "end": 28
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0049",
+      "source_section": "1_7",
+      "source_sentence": 326,
+      "character_position": 249,
+      "text": "до того уже он потерял способность сообразить что-нибудь",
+      "vad": [
+        -0.85,
+        0.8,
+        -0.8
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.3068984893981614,
+      "warning": null,
+      "chapter_sentence_start": 326,
+      "chapter_sentence_end": 326,
+      "timeline_start_index": 2051,
+      "timeline_end_index": 2051,
+      "highlights": [
+        {
+          "chapter_sentence": 326,
+          "start": 3,
+          "end": 59
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0050",
+      "source_section": "1_7",
+      "source_sentence": 331,
+      "character_position": 250,
+      "text": "он бросился на диван",
+      "vad": [
+        -0.45,
+        0.65,
+        -0.35
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.3788644739219637,
+      "warning": null,
+      "chapter_sentence_start": 331,
+      "chapter_sentence_end": 331,
+      "timeline_start_index": 2056,
+      "timeline_end_index": 2056,
+      "highlights": [
+        {
+          "chapter_sentence": 331,
+          "start": 14,
+          "end": 34
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0051",
+      "source_section": "1_7",
+      "source_sentence": 332,
+      "character_position": 251,
+      "text": "был в забытьи",
+      "vad": [
+        -0.55,
+        0.45,
+        -0.65
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.3523449804557188,
+      "warning": null,
+      "chapter_sentence_start": 332,
+      "chapter_sentence_end": 332,
+      "timeline_start_index": 2057,
+      "timeline_end_index": 2057,
+      "highlights": [
+        {
+          "chapter_sentence": 332,
+          "start": 15,
+          "end": 28
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0052",
+      "source_section": "1_7",
+      "source_sentence": 333,
+      "character_position": 252,
+      "text": "он бы тотчас же вскочил и закричал",
+      "vad": [
+        -0.2,
+        0.85,
+        0.1
+      ],
+      "cluster_id": "raskolnikov-1",
+      "distance_to_centroid": 0.5126749704791603,
+      "warning": null,
+      "chapter_sentence_start": 333,
+      "chapter_sentence_end": 333,
+      "timeline_start_index": 2058,
+      "timeline_end_index": 2058,
+      "highlights": [
+        {
+          "chapter_sentence": 333,
+          "start": 39,
+          "end": 73
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::1_7_0053",
+      "source_section": "1_7",
+      "source_sentence": 334,
+      "character_position": 253,
+      "text": "Клочки и отрывки каких-то мыслей так и кишели в его голове",
+      "vad": [
+        -0.35,
+        0.7,
+        -0.45
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.4415136689230737,
+      "warning": null,
+      "chapter_sentence_start": 334,
+      "chapter_sentence_end": 334,
+      "timeline_start_index": 2059,
+      "timeline_end_index": 2059,
+      "highlights": [
+        {
+          "chapter_sentence": 334,
+          "start": 0,
+          "end": 58
+        }
+      ]
+    }
+  ]
+}

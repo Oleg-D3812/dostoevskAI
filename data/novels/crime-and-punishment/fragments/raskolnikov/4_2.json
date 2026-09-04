@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "novel_id": "crime-and-punishment",
+  "character_id": "raskolnikov",
+  "chapter_id": "4_2",
+  "count": 8,
+  "fragments": [
+    {
+      "id": "Родион Романович Раскольников::4_2_0001",
+      "source_section": "4_2",
+      "source_sentence": 8,
+      "character_position": 641,
+      "text": "я этого человека очень боюсь",
+      "vad": [
+        -0.85,
+        0.7,
+        -0.65
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.1425149161329887,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 7674,
+      "timeline_end_index": 7674,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 16,
+          "end": 44
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::4_2_0002",
+      "source_section": "4_2",
+      "source_sentence": 32,
+      "character_position": 642,
+      "text": "мне подумалось… мне все кажется… что это может быть и фантазия",
+      "vad": [
+        -0.35,
+        0.45,
+        -0.4
+      ],
+      "cluster_id": "raskolnikov-3",
+      "distance_to_centroid": 0.4318364701691421,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 7698,
+      "timeline_end_index": 7698,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 15,
+          "end": 77
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::4_2_0003",
+      "source_section": "4_2",
+      "source_sentence": 35,
+      "character_position": 643,
+      "text": "мне и показалось теперь, что, может быть, я в самом деле помешанный и только призрак видел!",
+      "vad": [
+        -0.82,
+        0.72,
+        -0.78
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.2606152934654222,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 7701,
+      "timeline_end_index": 7701,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 91,
+          "end": 182
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::4_2_0004",
+      "source_section": "4_2",
+      "source_sentence": 38,
+      "character_position": 644,
+      "text": "Может, я и впрямь помешанный, и все, что во все эти дни было, все, может быть, так только, в воображении…",
+      "vad": [
+        -0.72,
+        0.38,
+        -0.62
+      ],
+      "cluster_id": "raskolnikov-4",
+      "distance_to_centroid": 0.3222811392252973,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 7704,
+      "timeline_end_index": 7704,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 0,
+          "end": 105
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::4_2_0005",
+      "source_section": "4_2",
+      "source_sentence": 40,
+      "character_position": 645,
+      "text": "Расстроили тебя опять!",
+      "vad": [
+        -0.65,
+        0.25,
+        -0.25
+      ],
+      "cluster_id": "raskolnikov-3",
+      "distance_to_centroid": 0.2817613411844408,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 7706,
+      "timeline_end_index": 7706,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 0,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::4_2_0006",
+      "source_section": "4_2",
+      "source_sentence": 66,
+      "character_position": 646,
+      "text": "что подумает Разумихин, когда узнает?",
+      "vad": [
+        -0.1,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "raskolnikov-3",
+      "distance_to_centroid": 0.4620176932850546,
+      "warning": null,
+      "chapter_sentence_start": 66,
+      "chapter_sentence_end": 66,
+      "timeline_start_index": 7732,
+      "timeline_end_index": 7732,
+      "highlights": [
+        {
+          "chapter_sentence": 66,
+          "start": 66,
+          "end": 103
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::4_2_0007",
+      "source_section": "4_2",
+      "source_sentence": 68,
+      "character_position": 647,
+      "text": "так много убыло с тех пор и прибавилось!..",
+      "vad": [
+        -0.35,
+        0.15,
+        -0.2
+      ],
+      "cluster_id": "raskolnikov-3",
+      "distance_to_centroid": 0.1097040371823867,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 7734,
+      "timeline_end_index": 7734,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 90,
+          "end": 132
+        }
+      ]
+    },
+    {
+      "id": "Родион Романович Раскольников::4_2_0008",
+      "source_section": "4_2",
+      "source_sentence": 208,
+      "character_position": 648,
+      "text": "Раскольников молча и язвительно улыбнулся",
+      "vad": [
+        -0.45,
+        0.2,
+        0.25
+      ],
+      "cluster_id": "raskolnikov-1",
+      "distance_to_centroid": 0.4083973086030515,
+      "warning": null,
+      "chapter_sentence_start": 208,
+      "chapter_sentence_end": 208,
+      "timeline_start_index": 7874,
+      "timeline_end_index": 7874,
+      "highlights": [
+        {
+          "chapter_sentence": 208,
+          "start": 0,
+          "end": 41
+        }
+      ]
+    }
+  ]
+}
