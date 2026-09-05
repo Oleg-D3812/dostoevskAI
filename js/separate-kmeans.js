@@ -1,7 +1,8 @@
 (function() {
   "use strict";
 
-  var DATA_BASE = "../data/novels/crime-and-punishment/";
+  var DATA_ROOT = "../data/";
+  var requestedNovelId = new URLSearchParams(window.location.search).get("novel");
   var plot = document.getElementById("cluster-plot");
   var clusterFilter = document.getElementById("cluster-filter");
   var allButton = document.getElementById("clusters-all");
@@ -20,17 +21,37 @@
     traceGroups: {}
   };
 
-  Promise.all([
-    fetchJson("manifest.json"),
-    fetchJson("characters.json"),
-    fetchJson("chapters.json"),
-    fetchJson("clusters.json")
-  ])
+  document.querySelectorAll(".view-tab-btn").forEach(function(button) {
+    button.addEventListener("click", function() { setView(button.dataset.view); });
+  });
+
+  function setView(view) {
+    document.querySelectorAll(".view-tab-btn").forEach(function(button) {
+      var active = button.dataset.view === view;
+      button.classList.toggle("active", active);
+      button.setAttribute("aria-selected", String(active));
+    });
+    document.querySelectorAll(".view-panel").forEach(function(panel) {
+      panel.classList.toggle("active", panel.id === "view-" + view);
+    });
+    if (view === "chart" && window.Plotly) Plotly.Plots.resize(plot);
+  }
+
+  AtlasData.loadNovelContext(requestedNovelId, { catalogUrl: DATA_ROOT + "catalog.json" }).then(function(context) {
+    state.manifest = context.novelManifest;
+    state.base = context.dataBaseUrl;
+    var backLink = document.getElementById("back-link");
+    if (backLink) backLink.href = "../novel.html?id=" + encodeURIComponent(context.novel.id) + "&feature=emotion-vad";
+    return Promise.all([
+      fetchJson(state.base + state.manifest.files.characters),
+      fetchJson(state.base + state.manifest.files.chapters),
+      fetchJson(state.base + state.manifest.files.clusters)
+    ]);
+  })
     .then(function(results) {
-      state.manifest = results[0];
-      state.characters = results[1].characters || [];
-      state.chapters = results[2].chapters || [];
-      state.clusters = results[3].clusters || [];
+      state.characters = results[0].characters || [];
+      state.chapters = results[1].chapters || [];
+      state.clusters = results[2].clusters || [];
       return loadFragments();
     })
     .then(function(fragments) {
@@ -49,7 +70,7 @@
     state.characters.forEach(function(character) {
       state.chapters.forEach(function(chapter) {
         if ((chapter.character_counts[character.id] || 0) < 1) return;
-        var path = character.fragments_path_template.replace("{chapter_id}", chapter.id);
+        var path = state.base + character.fragments_path_template.replace("{chapter_id}", chapter.id);
         requests.push(
           fetchJson(path).then(function(data) {
             return (data.fragments || []).map(function(fragment) {
@@ -102,6 +123,7 @@
   }
 
   function renderPlot() {
+    plot.innerHTML = "";
     var traces = [];
     var layout = {
       title: { text: "" },
@@ -109,8 +131,7 @@
       paper_bgcolor: "rgba(0,0,0,0)",
       plot_bgcolor: "rgba(0,0,0,0)",
       font: { family: "Inter, system-ui, sans-serif", color: getCss("--text-color") },
-      showlegend: true,
-      legend: { orientation: "h", yanchor: "bottom", y: 1.02, xanchor: "center", x: 0.5 },
+      showlegend: false,
       scene: sceneLayout(),
       xaxis: axisLayout("Valence (V)", [0.72, 1]),
       yaxis: axisLayout("Arousal (A)", [0.69, 1]),
@@ -136,8 +157,8 @@
   }
 
   function addCoordinateFrame(traces) {
-    var axisColor = "rgba(45,45,45,.68)";
-    var gridColor = "rgba(105,112,120,.75)";
+    var axisColor = "rgba(125,132,137,.75)";
+    var gridColor = "rgba(125,132,137,.5)";
     var axisTraces = [
       { name: "V axis", x: [-1, 1], y: [0, 0], z: [0, 0] },
       { name: "A axis", x: [0, 0], y: [-1, 1], z: [0, 0] },
@@ -181,7 +202,7 @@
       x: [0],
       y: [0],
       z: [0],
-      marker: { size: 6, color: getCss("--text-color"), symbol: "diamond" },
+      marker: { size: 4, color: getCss("--text-color"), symbol: "diamond" },
       showlegend: false,
       hovertemplate: "origin (0, 0, 0)<extra></extra>"
     });
@@ -232,7 +253,7 @@
       surfacecolor: [[0, 0], [0, 0]],
       colorscale: [[0, color], [1, color]],
       showscale: false,
-      opacity: .35,
+      opacity: .18,
       showlegend: false,
       hoverinfo: "skip",
       lighting: { ambient: 1, diffuse: 0, specular: 0 }
@@ -255,7 +276,7 @@
     var y = fragments.map(function(fragment) { return fragment.vad[1]; });
     var z = fragments.map(function(fragment) { return fragment.vad[2]; });
     var color = clusterColor(cluster);
-    var marker = { size: 4, opacity: .74, color: color, symbol: "circle" };
+    var marker = { size: 2.7, opacity: .74, color: color, symbol: "circle" };
 
     pushTrace({
       type: "scatter3d",
@@ -274,6 +295,51 @@
     pushTrace(projectionTrace(label, cluster, x, y, hover, "x", "y"), cluster.id, traces);
     pushTrace(projectionTrace(label, cluster, x, z, hover, "x2", "y2"), cluster.id, traces);
     pushTrace(projectionTrace(label, cluster, y, z, hover, "x3", "y3"), cluster.id, traces);
+
+    addCentroidTraces(traces, cluster, label);
+  }
+
+  function addCentroidTraces(traces, cluster, label) {
+    var color = clusterColor(cluster);
+    var cx = cluster.centroid[0];
+    var cy = cluster.centroid[1];
+    var cz = cluster.centroid[2];
+    var hover = escapeHtml(label) + " centroid<br>V " + formatNumber(cx) +
+      " · A " + formatNumber(cy) + " · D " + formatNumber(cz) + "<extra></extra>";
+    var outline = getCss("--text-color");
+
+    pushTrace({
+      type: "scatter3d",
+      mode: "markers",
+      name: label + " centroid",
+      legendgroup: cluster.id,
+      showlegend: false,
+      x: [cx],
+      y: [cy],
+      z: [cz],
+      marker: { size: 5, symbol: "cross", color: color, line: { color: outline, width: .5 } },
+      hovertemplate: hover
+    }, cluster.id, traces);
+
+    pushTrace(centroidProjectionTrace(cx, cy, "x", "y", color, hover, cluster.id), cluster.id, traces);
+    pushTrace(centroidProjectionTrace(cx, cz, "x2", "y2", color, hover, cluster.id), cluster.id, traces);
+    pushTrace(centroidProjectionTrace(cy, cz, "x3", "y3", color, hover, cluster.id), cluster.id, traces);
+  }
+
+  function centroidProjectionTrace(x, y, xaxis, yaxis, color, hover, clusterId) {
+    return {
+      type: "scattergl",
+      mode: "markers",
+      name: "centroid",
+      legendgroup: clusterId,
+      showlegend: false,
+      x: [x],
+      y: [y],
+      xaxis: xaxis,
+      yaxis: yaxis,
+      marker: { size: 13, symbol: "cross-thin", line: { color: color, width: 1.5 } },
+      hovertemplate: hover
+    };
   }
 
   function pushTrace(trace, clusterId, traces) {
@@ -293,7 +359,7 @@
       xaxis: xaxis,
       yaxis: yaxis,
       text: hover,
-      marker: { size: 5, opacity: .64, color: clusterColor(cluster) },
+      marker: { size: 3.3, opacity: .64, color: clusterColor(cluster) },
       hovertemplate: "%{text}<br>%{x:.3f} · %{y:.3f}<extra></extra>"
     };
   }
@@ -365,7 +431,7 @@
   }
 
   function fetchJson(path) {
-    return fetch(DATA_BASE + path).then(function(response) {
+    return fetch(path).then(function(response) {
       if (!response.ok) throw new Error("HTTP " + response.status + ": " + path);
       return response.json();
     });

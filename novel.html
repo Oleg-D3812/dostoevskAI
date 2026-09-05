@@ -14,67 +14,8 @@
     <p id="novelMeta"></p>
   </header>
 
-  <div class="tab-bar">
-    <button id="graphTab" class="tab-btn" data-tab="graph">Граф связей</button>
-    <button id="emotionTab" class="tab-btn" data-tab="emotion">Эмоциональный анализ</button>
-    <button id="timelineTab" class="tab-btn" data-tab="timeline" disabled>Хронология <span class="tab-badge">скоро</span></button>
-  </div>
-
-  <div id="panel-graph" class="tab-panel">
-    <div id="graph-container"></div>
-  </div>
-
-  <div id="panel-emotion" class="tab-panel">
-    <div class="analysis-shell">
-      <aside class="analysis-sidebar">
-        <label class="control-label" for="characterSelect">Персонаж</label>
-        <select id="characterSelect" class="analysis-select"></select>
-
-        <label class="control-label" for="chapterSelect">Глава</label>
-        <select id="chapterSelect" class="analysis-select"></select>
-
-        <div id="analysisStats" class="analysis-stats"></div>
-      </aside>
-
-      <main class="analysis-main">
-        <section class="analysis-card">
-          <div class="section-heading">
-            <div>
-              <p class="eyebrow">Профиль Плутчика</p>
-              <h2 id="emotionHeading">Эмоциональный профиль</h2>
-            </div>
-            <span id="profileScope" class="scope-badge"></span>
-          </div>
-          <div id="emotionBars" class="emotion-bars"></div>
-        </section>
-
-        <section class="analysis-card">
-          <div class="section-heading">
-            <div>
-              <p class="eyebrow">Пространство VAD</p>
-              <h2>Эмоциональные состояния</h2>
-            </div>
-          </div>
-          <div id="clusterList" class="cluster-list"></div>
-        </section>
-
-        <section class="analysis-card fragments-card">
-          <div class="section-heading">
-            <div>
-              <p class="eyebrow">Текстовые свидетельства</p>
-              <h2>Фрагменты главы</h2>
-            </div>
-            <span id="fragmentCount" class="scope-badge"></span>
-          </div>
-          <div id="fragmentList" class="fragment-list"></div>
-        </section>
-      </main>
-    </div>
-  </div>
-
-  <div id="panel-timeline" class="tab-panel">
-    <div class="placeholder">Раздел в разработке</div>
-  </div>
+  <div class="tab-bar" aria-label="Разделы анализа"></div>
+  <div id="featurePanels"></div>
 
   <!-- Modal -->
   <div id="modalOverlay" onclick="hideModal(event)">
@@ -92,6 +33,8 @@
 
   <script src="js/modal.js"></script>
   <script src="js/graph.js"></script>
+  <script src="js/data-client.js"></script>
+  <script src="js/feature-registry.js"></script>
   <script src="js/novel.js"></script>
 </body>
 </html>

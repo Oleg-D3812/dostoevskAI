@@ -34,22 +34,20 @@
 
   function loadData() {
     setLoading("Чтение каталога романов…");
-    return fetchJson(DATA_ROOT + "manifest.json").then(function (root) {
-      var novel = (root.novels || []).find(function (item) { return item.id === requestedNovelId; }) || (root.novels || [])[0];
-      if (!novel) throw new Error("Роман не найден в data/manifest.json");
-      return fetchJson(DATA_ROOT + novel.manifest).then(function (manifest) {
+    return AtlasData.loadNovelContext(requestedNovelId, { catalogUrl: DATA_ROOT + "catalog.json" }).then(function (context) {
+        var manifest = context.novelManifest;
         state.manifest = manifest;
-        state.base = DATA_ROOT + String(novel.path || "").replace(/\\/g, "/").replace(/\/$/, "") + "/";
-        document.title = manifest.title + " — анимация VAD";
-        document.querySelector(".animation-page h1").textContent = manifest.title + ": анимация VAD";
-        document.getElementById("back-link").href = "../novel.html?id=" + encodeURIComponent(manifest.novel_id);
+        state.base = context.dataBaseUrl;
+        var title = AtlasData.localized(context.novel.title);
+        document.title = title + " — анимация VAD";
+        document.querySelector(".animation-page h1").textContent = title + ": анимация VAD";
+        document.getElementById("back-link").href = "../novel.html?id=" + encodeURIComponent(context.novel.id) + "&feature=emotion-vad";
         setLoading("Загрузка структуры и персонажей…");
         return Promise.all([
           fetchJson(state.base + manifest.files.characters),
           fetchJson(state.base + manifest.files.chapters),
           fetchJson(state.base + manifest.files.clusters)
         ]);
-      });
     }).then(function (results) {
       state.characters = results[0].characters || [];
       state.chapters = (results[1].chapters || []).slice().sort(function (a, b) { return a.timeline_start_index - b.timeline_start_index; });

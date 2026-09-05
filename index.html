@@ -17,6 +17,7 @@
     <div id="catalog" class="catalog-grid"></div>
   </div>
 
+  <script src="js/data-client.js"></script>
   <script>
     fetch("data/catalog.json")
       .then(function(r) { return r.json(); })
@@ -27,9 +28,9 @@
           card.className = "novel-card";
           card.href = "novel.html?id=" + encodeURIComponent(novel.id);
           card.innerHTML =
-            '<h2>' + esc(novel.title) + '</h2>' +
-            '<p class="meta"><span>' + esc(novel.author) + '</span><span class="year-badge">' + novel.year + '</span></p>' +
-            '<p class="desc">' + esc(novel.description) + '</p>' +
+            '<h2>' + esc(AtlasData.localized(novel.title)) + '</h2>' +
+            '<p class="meta"><span>' + esc(AtlasData.localized(novel.author)) + '</span><span class="year-badge">' + novel.year + '</span></p>' +
+            '<p class="desc">' + esc(AtlasData.localized(novel.description)) + '</p>' +
             '<div class="card-arrow">Открыть &rarr;</div>';
           el.appendChild(card);
         });

@@ -11,28 +11,24 @@
   var chapterSelect = document.getElementById("chapter-select");
   var aggregationSelect = document.getElementById("aggregation-select");
   var spheresCheck = document.getElementById("show-spheres");
-  var summary = document.getElementById("chapter-summary");
   var status = document.getElementById("dashboard-status");
   var backLink = document.getElementById("back-link");
   var state = { root: null, manifest: null, characters: [], chapters: [], clusters: [], profiles: {}, fragments: [], traceIndices: [], sphereIndices: [], request: 0 };
 
-  fetchJson(DATA_ROOT + "manifest.json")
-    .then(function(root) {
-      state.root = root;
-      var novel = chooseNovel(root);
-      if (!novel) throw new Error("Роман не найден в data/manifest.json");
-      return fetchJson(DATA_ROOT + novel.manifest).then(function(manifest) {
+  AtlasData.loadNovelContext(requestedNovelId, { catalogUrl: DATA_ROOT + "catalog.json" })
+    .then(function(context) {
+      var manifest = context.novelManifest;
         state.manifest = manifest;
-        state.base = DATA_ROOT + novel.path.replace(/\\/g, "/").replace(/\/$/, "") + "/";
-        document.title = manifest.title + " — VAD и Plutchik";
-        backLink.href = "../novel.html?id=" + encodeURIComponent(manifest.novel_id);
-        backLink.textContent = "← " + manifest.title;
+        state.base = context.dataBaseUrl;
+        var title = AtlasData.localized(context.novel.title);
+        document.title = title + " — VAD и Plutchik";
+        backLink.href = "../novel.html?id=" + encodeURIComponent(context.novel.id) + "&feature=emotion-vad";
+        backLink.textContent = "← " + title;
         return Promise.all([
           fetchJson(state.base + manifest.files.characters),
           fetchJson(state.base + manifest.files.chapters),
           fetchJson(state.base + manifest.files.clusters)
         ]);
-      });
     })
     .then(function(results) {
       state.characters = results[0].characters || [];
@@ -52,14 +48,8 @@
       loadSelection();
     })
     .catch(function(error) {
-      summary.textContent = "Ошибка загрузки данных";
       plot.innerHTML = '<div class="error-state">Не удалось загрузить данные: ' + escapeHtml(error.message) + '</div>';
     });
-
-  function chooseNovel(root) {
-    var novels = root.novels || [];
-    return novels.find(function(item) { return item.id === requestedNovelId; }) || novels[0];
-  }
 
   function renderControls() {
     characterSelect.innerHTML = state.characters.map(function(character) {
@@ -85,7 +75,7 @@
       if (available && !firstAvailable) firstAvailable = chapter.id;
       if (available && chapter.id === current) selectedAvailable = true;
       return '<option value="' + escapeHtml(chapter.id) + '"' + (available ? "" : " disabled") + '>' +
-        escapeHtml(chapter.label) + " · " + count.toLocaleString("ru-RU") + " фрагм." + '</option>';
+        escapeHtml(chapter.label + " — " + (chapter.description || "")) + " · " + count.toLocaleString("ru-RU") + " фрагм." + '</option>';
     }).join("");
     if (!selectedAvailable) chapterSelect.value = firstAvailable;
   }
@@ -103,8 +93,6 @@
       state.fragments = payload.fragments || [];
       drawPlot();
       renderRadars();
-      var chapterMeta = state.chapters.find(function(item) { return item.id === chapter; });
-      summary.textContent = chapterMeta.label + " — " + chapterMeta.description;
       status.textContent = state.fragments.length.toLocaleString("ru-RU") + " фрагментов · " + (characterMeta.label || characterMeta.name);
     }).catch(function(error) {
       if (request !== state.request) return;
@@ -196,14 +184,14 @@
   }
 
   function coordinateFrame() {
-    var axis = "rgba(45,45,45,.65)", grid = "rgba(105,112,120,.65)";
+    var axis = "rgba(125,132,137,.75)", grid = "rgba(125,132,137,.5)";
     var traces = [
       { type: "scatter3d", mode: "lines", x: [-1,1], y: [0,0], z: [0,0], line: { color: axis, width: 4 }, showlegend: false, hoverinfo: "skip" },
       { type: "scatter3d", mode: "lines", x: [0,0], y: [-1,1], z: [0,0], line: { color: axis, width: 4 }, showlegend: false, hoverinfo: "skip" },
       { type: "scatter3d", mode: "lines", x: [0,0], y: [0,0], z: [-1,1], line: { color: axis, width: 4 }, showlegend: false, hoverinfo: "skip" }
     ];
     ["z", "y", "x"].forEach(function(fixed) {
-      var values = [-.75,-.5,-.25,.25,.5,.75], x=[], y=[], z=[];
+      var values = [-1,-.75,-.5,-.25,.25,.5,.75,1], x=[], y=[], z=[];
       values.forEach(function(value) {
         if (fixed === "z") { x.push(-1,1,null,value,value,null); y.push(value,value,null,-1,1,null); z.push(0,0,null,0,0,null); }
         else if (fixed === "y") { x.push(-1,1,null,value,value,null); y.push(0,0,null,0,0,null); z.push(value,value,null,-1,1,null); }
@@ -218,7 +206,7 @@
   }
 
   function surface(name, x, y, z, color) {
-    return { type:"surface", name:name, x:x, y:y, z:z, surfacecolor:[[0,0],[0,0]], colorscale:[[0,color],[1,color]], showscale:false, opacity:.35, showlegend:false, hoverinfo:"skip", lighting:{ambient:1,diffuse:0,specular:0} };
+    return { type:"surface", name:name, x:x, y:y, z:z, surfacecolor:[[0,0],[0,0]], colorscale:[[0,color],[1,color]], showscale:false, opacity:.18, showlegend:false, hoverinfo:"skip", lighting:{ambient:1,diffuse:0,specular:0} };
   }
 
   function sphereTrace(cluster, visible) {

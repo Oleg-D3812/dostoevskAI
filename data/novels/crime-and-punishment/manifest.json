@@ -1,4 +1,24 @@
 {
+  "schemaVersion": 1,
+  "novelId": "crime-and-punishment",
+  "features": [
+    {
+      "id": "emotion-vad",
+      "renderer": "explorer-index",
+      "label": { "ru": "Эмоциональный анализ", "en": "Emotion analysis" },
+      "status": "ready",
+      "entry": "manifest.json",
+      "explorers": [
+        { "name": "Multi-character cluster space", "description": "Explore 1691 fragments in 3D and linked projections; select Raskolnikov, Marmeladova, Svidrigailov, or any combination.", "entry": "../../../explorers/separate_kmeans_interactive.html" },
+        { "name": "Chapter VAD and Plutchik profiles", "description": "Select a character and chapter to compare the 3D VAD cloud with 8- and 16-component Plutchik profiles.", "entry": "../../../explorers/chapter_vad_clouds_with_radar.html" },
+        { "name": "Chapter VAD clouds", "description": "Select characters and chapters to explore fragment-level VAD points in 3D.", "entry": "../../../explorers/chapter_vad_clouds.html" },
+        { "name": "K-Means centroids and spheres", "description": "Inspect cluster centroids, VAD fragments, spheres and Plutchik anchors.", "entry": "../../../explorers/separate_kmeans_centroid_spheres.html" },
+        { "name": "Sentence-window VAD animation", "description": "Move a configurable sentence window through the novel and watch active character states appear in VAD space alongside the highlighted text.", "entry": "../../../explorers/vad_sentence_window_animation.html" }
+      ]
+    },
+    { "id": "character-network", "renderer": "graph", "label": { "ru": "Граф связей", "en": "Character network" }, "status": "unavailable" },
+    { "id": "timeline", "renderer": "timeline", "label": { "ru": "Хронология", "en": "Timeline" }, "status": "planned" }
+  ],
   "schema_version": 1,
   "novel_id": "crime-and-punishment",
   "title": "Преступление и наказание",

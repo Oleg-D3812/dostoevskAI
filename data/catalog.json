@@ -1,57 +1,21 @@
 {
+  "schemaVersion": 1,
   "novels": [
     {
       "id": "demons",
-      "title": "Бесы",
-      "author": "Ф.М. Достоевский",
+      "title": { "ru": "Бесы", "en": "Demons" },
+      "author": { "ru": "Ф.М. Достоевский", "en": "Fyodor Dostoevsky" },
       "year": 1872,
-      "description": "Роман о революционном движении и нигилизме в русской провинции.",
-      "features": [
-        { "name": "Граф связей", "data": "novels/demons/demons.json" },
-        { "name": "Эмоциональный анализ", "data": "" },
-        { "name": "Хронология", "data": "" }
-      ]
+      "description": { "ru": "Роман о революционном движении и нигилизме в русской провинции.", "en": "Роман о революционном движении и нигилизме в русской провинции." },
+      "manifest": "novels/demons/manifest.json"
     },
     {
       "id": "crime-and-punishment",
-      "title": "Преступление и наказание",
-      "author": "Ф.М. Достоевский",
+      "title": { "ru": "Преступление и наказание", "en": "Crime and Punishment" },
+      "author": { "ru": "Ф.М. Достоевский", "en": "Fyodor Dostoevsky" },
       "year": 1866,
-      "description": "Роман о преступлении, совести и нравственном возрождении Родиона Раскольникова.",
-      "features": [
-        { "name": "Граф связей", "data": "" },
-        {
-          "name": "Эмоциональный анализ",
-          "data": "",
-          "explorers": [
-            {
-              "name": "Multi-character cluster space",
-              "description": "Explore 1691 fragments in 3D and linked projections; select Raskolnikov, Marmeladova, Svidrigailov, or any combination.",
-              "data": "explorers/separate_kmeans_interactive.html"
-            },
-            {
-              "name": "Chapter VAD and Plutchik profiles",
-              "description": "Select a character and chapter to compare the 3D VAD cloud with 8- and 16-component Plutchik profiles.",
-              "data": "explorers/chapter_vad_clouds_with_radar.html"
-            },
-            {
-              "name": "Chapter VAD clouds",
-              "description": "Select characters and chapters to explore fragment-level VAD points in 3D.",
-              "data": "explorers/chapter_vad_clouds.html"
-            },
-            {
-              "name": "K-Means centroids and spheres",
-              "description": "Inspect cluster centroids, VAD fragments, spheres and Plutchik anchors.",
-              "data": "explorers/separate_kmeans_centroid_spheres.html"
-            },
-            {
-              "name": "Sentence-window VAD animation",
-              "description": "Move a configurable sentence window through the novel and watch active character states appear in VAD space alongside the highlighted text.",
-              "data": "explorers/vad_sentence_window_animation.html"
-            }
-          ]
-        }
-      ]
+      "description": { "ru": "Роман о преступлении, совести и нравственном возрождении Родиона Раскольникова.", "en": "Роман о преступлении, совести и нравственном возрождении Родиона Раскольникова." },
+      "manifest": "novels/crime-and-punishment/manifest.json"
     }
   ]
 }

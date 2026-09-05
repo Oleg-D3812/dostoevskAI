@@ -26,38 +26,48 @@
       </div>
     </section>
 
-    <section class="plot-card" aria-label="VAD cluster plot">
-      <div id="cluster-plot" class="cluster-plot">
-        <div class="loading-state">Загрузка данных...</div>
-      </div>
-    </section>
+    <div class="view-tabs" role="tablist">
+      <button type="button" class="view-tab-btn active" data-view="chart" role="tab" aria-selected="true">Chart</button>
+      <button type="button" class="view-tab-btn" data-view="clusters" role="tab" aria-selected="false">Clusters</button>
+    </div>
 
-    <section class="centroid-card" aria-labelledby="centroids-title">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">Centroids</p>
-          <h2 id="centroids-title">Кластеры</h2>
+    <div id="view-chart" class="view-panel active">
+      <section class="plot-card" aria-label="VAD cluster plot">
+        <div id="cluster-plot" class="cluster-plot">
+          <div class="loading-state">Загрузка данных...</div>
         </div>
-        <span id="dataset-count" class="scope-badge"></span>
-      </div>
-      <div class="centroid-table-wrap">
-        <table id="centroid-table" class="centroids">
-          <thead>
-            <tr>
-              <th>Кластер</th>
-              <th>Персонаж</th>
-              <th>V</th>
-              <th>A</th>
-              <th>D</th>
-              <th>Фрагменты</th>
-            </tr>
-          </thead>
-          <tbody></tbody>
-        </table>
-      </div>
-    </section>
+      </section>
+    </div>
+
+    <div id="view-clusters" class="view-panel">
+      <section class="centroid-card" aria-labelledby="centroids-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Centroids</p>
+            <h2 id="centroids-title">Кластеры</h2>
+          </div>
+          <span id="dataset-count" class="scope-badge"></span>
+        </div>
+        <div class="centroid-table-wrap">
+          <table id="centroid-table" class="centroids">
+            <thead>
+              <tr>
+                <th>Кластер</th>
+                <th>Персонаж</th>
+                <th>V</th>
+                <th>A</th>
+                <th>D</th>
+                <th>Фрагменты</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+    </div>
   </main>
 
+  <script src="../js/data-client.js"></script>
   <script src="../js/separate-kmeans.js"></script>
 </body>
 </html>

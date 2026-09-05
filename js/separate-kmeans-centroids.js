@@ -15,21 +15,19 @@
     clusterTraces: {}, emotionTraces: {}, oppositeTraces: {}, sphereIndices: [], initialized: false
   };
 
-  fetchJson(DATA_ROOT + "manifest.json").then(function (root) {
-    var novel = (root.novels || []).find(function (item) { return item.id === requestedNovel; }) || (root.novels || [])[0];
-    if (!novel) throw new Error("Novel not found in data/manifest.json");
-    return fetchJson(DATA_ROOT + novel.manifest).then(function (manifest) {
+  AtlasData.loadNovelContext(requestedNovel, { catalogUrl: DATA_ROOT + "catalog.json" }).then(function (context) {
+      var manifest = context.novelManifest;
       state.manifest = manifest;
-      state.base = DATA_ROOT + novel.path.replace(/\\/g, "/").replace(/\/$/, "") + "/";
-      document.title = manifest.title + " — центроиды и сферы";
-      backLink.href = "../novel.html?id=" + encodeURIComponent(manifest.novel_id);
-      backLink.textContent = "← " + manifest.title;
+      state.base = context.dataBaseUrl;
+      var title = AtlasData.localized(context.novel.title);
+      document.title = title + " — центроиды и сферы";
+      backLink.href = "../novel.html?id=" + encodeURIComponent(context.novel.id) + "&feature=emotion-vad";
+      backLink.textContent = "← " + title;
       return Promise.all([
         fetchJson(state.base + manifest.files.characters),
         fetchJson(state.base + manifest.files.clusters),
         fetchJson(state.base + manifest.emotion_model.path)
       ]);
-    });
   }).then(function (data) {
     state.characters = data[0].characters || [];
     state.clusters = data[1].clusters || [];
@@ -158,7 +156,7 @@
       paper_bgcolor: "rgba(0,0,0,0)",
       plot_bgcolor: "rgba(0,0,0,0)",
       font: { family: "Inter, system-ui, sans-serif", color: css("--text-color") },
-      title: { text: "Separate K-Means · " + state.characters.length + " characters · centroids and emotion anchors", x: .025, font: { size: 16 } },
+      title: { text: "Separate K-Means · " + state.characters.length + " characters · centroids and emotion anchors", x: .025, font: { size: 10 } },
       legend: { groupclick: "togglegroup", title: { text: "Click to show/hide" }, x: .99, xanchor: "right", y: .98 },
       scene: {
         xaxis: sceneAxis("Valence (V)"), yaxis: sceneAxis("Arousal (A)"), zaxis: sceneAxis("Dominance (D)"),

@@ -17,8 +17,21 @@ function initGraph(container, nodesData, edgesData, onNodeClick, onEdgeClick) {
     return MIN_WIDTH + (w - 1) / 4 * (MAX_WIDTH - MIN_WIDTH);
   }
 
+  var connectedNodeIds = {};
+  edgesData.forEach(function(e) {
+    connectedNodeIds[e.from] = true;
+    connectedNodeIds[e.to] = true;
+  });
+  var isolatedIndex = 0;
   var nodes = new vis.DataSet(nodesData.map(function(n) {
-    return { id: n.id, label: n.label };
+    var node = { id: n.id, label: n.label };
+    if (!connectedNodeIds[n.id]) {
+      node.x = isolatedIndex % 2 === 0 ? -340 : 340;
+      node.y = 230 + Math.floor(isolatedIndex / 2) * 90;
+      node.physics = false;
+      isolatedIndex += 1;
+    }
+    return node;
   }));
 
   var edgesVis = new vis.DataSet(edgesData.map(function(e, idx) {
@@ -33,8 +46,14 @@ function initGraph(container, nodesData, edgesData, onNodeClick, onEdgeClick) {
   var options = {
     interaction: { hover: true },
     physics: {
-      stabilization: true,
-      barnesHut: { gravitationalConstant: -8000, springLength: 160 }
+      stabilization: { iterations: 300 },
+      barnesHut: {
+        gravitationalConstant: -9000,
+        centralGravity: 1.2,
+        springLength: 110,
+        springConstant: 0.06,
+        avoidOverlap: 0.35
+      }
     },
     edges: {
       font: { align: "middle", color: "#a0aec0", strokeWidth: 0, size: 8 },
@@ -44,8 +63,11 @@ function initGraph(container, nodesData, edgesData, onNodeClick, onEdgeClick) {
     },
     nodes: {
       shape: "dot",
-      size: 16,
-      font: { size: 14, color: "#e2e8f0" },
+      size: 18,
+      font: { size: 16, color: "#e2e8f0" },
+      scaling: {
+        label: { enabled: true, min: 16, max: 24, maxVisible: 40, drawThreshold: 0 }
+      },
       borderWidth: 2,
       color: {
         background: "#2c5282",
