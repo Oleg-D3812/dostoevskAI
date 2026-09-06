@@ -98,11 +98,24 @@
 
   function explorerVisual(explorer) {
     var key = ((explorer.entry || "") + " " + (explorer.name || "")).toLowerCase();
+    if (/pipeline|diagram/.test(key)) return visualPipeline();
     if (/radar|plutchik/.test(key)) return visualRadar();
     if (/centroid.*sphere|sphere/.test(key)) return visualSpheres();
     if (/sentence.window|animation/.test(key)) return visualAnimation();
     if (/kmeans_interactive|cluster space/.test(key)) return visualClusterScatter();
     return visualCloud();
+  }
+
+  // VAD -> Plutchik pipeline: a row of connected stage boxes, final step highlighted.
+  function visualPipeline() {
+    return '<svg viewBox="0 0 360 130">' +
+      '<rect class="chart-line" fill="none" stroke-width="1.5" x="12" y="52" width="62" height="26" rx="7"/>' +
+      '<rect class="chart-line" fill="none" stroke-width="1.5" x="100" y="52" width="62" height="26" rx="7"/>' +
+      '<rect class="chart-line" fill="none" stroke-width="1.5" x="188" y="52" width="62" height="26" rx="7"/>' +
+      '<rect class="series-v" opacity=".85" x="276" y="52" width="62" height="26" rx="7"/>' +
+      '<path class="chart-line" fill="none" stroke-width="1.5" d="M74,65 L98,65 M92,59 L98,65 L92,71"/>' +
+      '<path class="chart-line" fill="none" stroke-width="1.5" d="M162,65 L186,65 M180,59 L186,65 L180,71"/>' +
+      '<path class="chart-line" fill="none" stroke-width="1.5" d="M250,65 L274,65 M268,59 L274,65 L268,71"/></svg>';
   }
 
   // Multi-character cluster space: axes + colored fragment clusters with cross centroids.

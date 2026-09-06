@@ -1,0 +1,840 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Интерактивная диаграмма итогового пайплайна VAD → профили Плутчика.">
+  <title>VAD → Plutchik · Pipeline Diagram</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f4f2ed;
+      --surface: rgba(255, 255, 255, .78);
+      --surface-solid: #fbfaf7;
+      --text: #17201f;
+      --muted: #66706d;
+      --line: rgba(23, 32, 31, .12);
+      --accent: #d8583d;
+      --accent-soft: rgba(216, 88, 61, .13);
+      --teal: #187f78;
+      --teal-soft: rgba(24, 127, 120, .12);
+      --violet: #6857a5;
+      --violet-soft: rgba(104, 87, 165, .12);
+      --amber: #9a6a16;
+      --amber-soft: rgba(154, 106, 22, .13);
+      --shadow: 0 18px 50px rgba(29, 35, 34, .09);
+      --radius: 22px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-width: 320px;
+      background:
+        radial-gradient(circle at 10% 0%, var(--accent-soft), transparent 30rem),
+        radial-gradient(circle at 90% 18%, var(--teal-soft), transparent 34rem),
+        var(--bg);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; }
+    .shell { width: min(1220px, calc(100% - 40px)); margin: 0 auto; }
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.35fr) minmax(280px, .75fr);
+      gap: clamp(38px, 8vw, 96px);
+      align-items: center;
+      padding: clamp(64px, 10vw, 112px) 0 56px;
+    }
+    .eyebrow {
+      margin: 0 0 20px;
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 0;
+      max-width: 820px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(28px, 7.5vw, 86px);
+      font-weight: 400;
+      letter-spacing: -.055em;
+      line-height: .95;
+    }
+    .lede {
+      max-width: 760px;
+      margin: 26px 0 0;
+      color: var(--muted);
+      font-size: clamp(17px, 2vw, 20px);
+      line-height: 1.58;
+    }
+    .hero-panel {
+      padding: 24px;
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      background: var(--surface);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(18px);
+    }
+    .hero-panel h3 {
+      margin: 0 0 16px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 28px;
+      font-weight: 400;
+      letter-spacing: -.02em;
+    }
+    .mini-grid {
+      display: grid;
+      gap: 12px;
+      grid-template-columns: 1fr;
+    }
+    .mini-card {
+      padding: 14px 15px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: var(--surface-solid);
+    }
+    .mini-card strong { display: block; margin-bottom: 4px; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+    .mini-card span { font-size: 15px; line-height: 1.35; }
+    main { padding-bottom: 80px; }
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      margin-bottom: 28px;
+    }
+    .chips { display: flex; flex-wrap: wrap; gap: 10px; }
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 14px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--surface);
+      color: var(--muted);
+      font-size: 13px;
+      box-shadow: var(--shadow);
+    }
+    .chip i {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--text);
+    }
+    .chip.final i { background: var(--accent); }
+    .chip.validation i { background: var(--teal); }
+    .chip.research i { background: var(--violet); }
+    .chip.output i { background: var(--amber); }
+    .toggle-row { display: flex; gap: 10px; }
+    button {
+      appearance: none;
+      border: 1px solid var(--line);
+      background: var(--surface);
+      color: var(--text);
+      padding: 10px 14px;
+      border-radius: 999px;
+      cursor: pointer;
+      font: inherit;
+      box-shadow: var(--shadow);
+    }
+    button:hover { border-color: color-mix(in srgb, var(--accent) 35%, var(--line)); }
+    .section-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 24px;
+      margin: 40px 0 24px;
+    }
+    .section-kicker {
+      margin: 0 0 7px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+    h2 {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(30px, 4vw, 44px);
+      font-weight: 400;
+      letter-spacing: -.025em;
+    }
+    .section-note {
+      max-width: 460px;
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.55;
+      text-align: right;
+    }
+    .pipeline {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+      margin-bottom: 34px;
+    }
+    .branch-wrap {
+      display: grid;
+      grid-template-columns: 1.08fr .92fr;
+      gap: 24px;
+      align-items: start;
+    }
+    details.stage {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--surface);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      backdrop-filter: blur(18px);
+    }
+    details.stage[open] { border-color: color-mix(in srgb, var(--accent) 35%, var(--line)); }
+    details.stage.final[open] { border-color: color-mix(in srgb, var(--accent) 48%, var(--line)); }
+    details.stage.validation[open] { border-color: color-mix(in srgb, var(--teal) 48%, var(--line)); }
+    details.stage.research[open] { border-color: color-mix(in srgb, var(--violet) 48%, var(--line)); }
+    details.stage.output[open] { border-color: color-mix(in srgb, var(--amber) 48%, var(--line)); }
+    summary.stage-head {
+      list-style: none;
+      cursor: pointer;
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 16px;
+    }
+    summary::-webkit-details-marker { display: none; }
+    .num {
+      width: 28px;
+      height: 28px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 17px;
+      border: 1px solid var(--line);
+      background: var(--surface-solid);
+    }
+    .final .num { color: var(--accent); }
+    .validation .num { color: var(--teal); }
+    .research .num { color: var(--violet); }
+    .output .num { color: var(--amber); }
+    .title-block small {
+      display: inline-block;
+      margin-bottom: 3px;
+      color: var(--muted);
+      font-size: 10px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+    .title-block h3 {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(19px, 2.1vw, 24px);
+      font-weight: 400;
+      letter-spacing: -.02em;
+    }
+    .summary-note {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.45;
+      margin-top: 3px;
+    }
+    .caret {
+      width: 34px;
+      height: 34px;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--line);
+      border-radius: 50%;
+      color: var(--muted);
+      transition: transform .2s ease;
+      font-size: 16px;
+    }
+    details[open] .caret { transform: rotate(45deg); }
+    .stage-body {
+      padding: 0 20px 20px;
+      border-top: 1px solid var(--line);
+      display: grid;
+      gap: 16px;
+    }
+    .stage-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 16px;
+    }
+    .stage-card {
+      padding: 14px 15px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: var(--surface-solid);
+    }
+    .stage-card h4 {
+      margin: 0 0 8px;
+      font-size: 14px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    .stage-card p, .stage-body p, .stage-body li {
+      margin: 0;
+      line-height: 1.58;
+      color: var(--text);
+      font-size: 15px;
+    }
+    .stage-body ul { margin: 0; padding-left: 18px; color: var(--muted); }
+    .formula {
+      margin-top: 2px;
+      padding: 12px 14px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: linear-gradient(180deg, rgba(255,255,255,.34), rgba(255,255,255,.08));
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+      font-size: 14px;
+      line-height: 1.55;
+      overflow-x: auto;
+      white-space: pre-wrap;
+    }
+    .arrow {
+      position: relative;
+      width: 28px;
+      height: 42px;
+      margin: -4px auto -2px;
+    }
+    .arrow::before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 0;
+      width: 1px;
+      height: 30px;
+      background: var(--line);
+      transform: translateX(-50%);
+    }
+    .arrow::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: 4px;
+      width: 10px;
+      height: 10px;
+      border-right: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      transform: translateX(-50%) rotate(45deg);
+      background: transparent;
+    }
+    .branch-divider {
+      margin: 10px 0 16px;
+      padding: 15px 18px;
+      border: 1px dashed var(--line);
+      border-radius: 18px;
+      color: var(--muted);
+      background: rgba(255,255,255,.18);
+      line-height: 1.55;
+    }
+    .out-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+      margin-top: 8px;
+    }
+    .out-card {
+      min-height: 100%;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      background: var(--surface);
+      box-shadow: var(--shadow);
+    }
+    .out-card h3 { margin: 0 0 10px; font-family: Georgia, "Times New Roman", serif; font-size: 29px; font-weight: 400; }
+    .out-card p { margin: 0; color: var(--muted); line-height: 1.55; }
+    .stat-list {
+      display: grid;
+      gap: 10px;
+      margin-top: 14px;
+    }
+    .stat-item {
+      padding: 12px 14px;
+      border-radius: 16px;
+      border: 1px solid var(--line);
+      background: var(--surface-solid);
+      line-height: 1.5;
+    }
+    footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      padding: 28px 0 44px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 56px;
+    }
+    .muted { color: var(--muted); }
+    code.inline {
+      padding: .16rem .42rem;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: var(--surface-solid);
+      font-size: .95em;
+    }
+    @media (max-width: 980px) {
+      .hero { grid-template-columns: 1fr; }
+      .branch-wrap { grid-template-columns: 1fr; }
+      .section-head { align-items: start; flex-direction: column; }
+      .section-note { text-align: left; max-width: none; }
+      .out-grid, .stage-grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 620px) {
+      .shell { width: min(100% - 28px, 1220px); }
+      .top-meta span:last-child { display: none; }
+      h1 { font-size: clamp(42px, 16vw, 66px); }
+      summary.stage-head { grid-template-columns: auto 1fr; }
+      .caret { grid-column: 1 / -1; justify-self: end; margin-top: -8px; }
+      .toolbar { align-items: start; }
+      footer { flex-direction: column; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .caret { transition: none; }
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111615;
+        --surface: rgba(28, 35, 33, .82);
+        --surface-solid: #171d1c;
+        --text: #edf0ea;
+        --muted: #9ba6a2;
+        --line: rgba(237, 240, 234, .12);
+        --accent: #ef765d;
+        --accent-soft: rgba(239, 118, 93, .13);
+        --teal: #4eb8ae;
+        --teal-soft: rgba(78, 184, 174, .12);
+        --violet: #a796e6;
+        --violet-soft: rgba(167, 150, 230, .12);
+        --amber: #d0aa5a;
+        --amber-soft: rgba(208, 170, 90, .12);
+        --shadow: 0 18px 55px rgba(0, 0, 0, .25);
+      }
+      .formula { background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02)); }
+      .branch-divider { background: rgba(255,255,255,.03); }
+    }
+  </style>
+</head>
+<body class="explorer-page">
+  <header class="site-header explorer-header">
+    <a href="../novel.html?id=crime-and-punishment&feature=emotion-vad" class="back-link">&larr; Преступление и наказание</a>
+    <h1>Пайплайн VAD → Plutchik</h1>
+    <p>Диаграмма подтверждённой методологии: от извлечения цитат и оценки VAD до 8- и 16-компонентных профилей Плутчика.</p>
+  </header>
+
+  <div class="shell hero">
+    <aside class="hero-panel">
+      <h3>Что здесь главное</h3>
+      <div class="mini-grid">
+        <div class="mini-card"><strong>Финальный выход</strong><span>Профили 8 базовых эмоций и 16 компонентов по фрагментам и главам.</span></div>
+        <div class="mini-card"><strong>Ключевой вектор</strong><span><code class="inline">xₜ = (Vₜ, Aₜ, Dₜ)ᵀ</code> в диапазоне <code class="inline">[-1,1]³</code>.</span></div>
+        <div class="mini-card"><strong>Две ветви</strong><span> -- Перевод VAD в систему Плутчика; -- структурный анализ состояний по кластерам.</span></div>
+      </div>
+    </aside>
+  </div>
+
+  <main class="shell">
+    <section>
+      <div class="toolbar">
+        <div class="chips">
+          <span class="chip final"><i></i> Финальный пайплайн</span>
+          <span class="chip validation"><i></i> Проверка / валидация</span>
+          <span class="chip research"><i></i> Исследовательская ветвь</span>
+          <span class="chip output"><i></i> Выходы</span>
+        </div>
+        <div class="toggle-row">
+          <button type="button" id="expandAll">Раскрыть всё</button>
+          <button type="button" id="collapseAll">Свернуть всё</button>
+        </div>
+      </div>
+
+      <div class="section-head">
+        <div>
+          <p class="section-kicker">Flow diagram</p>
+          <h2>Последовательность шагов</h2>
+        </div>
+        <p class="section-note">Нажмите на любой блок, чтобы увидеть пояснение, выбранный метод и формулы. Центральная ветвь — финальный путь. Правая ветвь — структурный анализ кластеров.</p>
+      </div>
+
+      <div class="pipeline">
+        <details class="stage final" open>
+          <summary class="stage-head">
+            <div class="num">1</div>
+            <div class="title-block">
+              <small>Input / LLM extraction</small>
+              <h3>Извлечение единицы наблюдения</h3>
+              <div class="summary-note">Берётся непрерывная цитата, где словами выражено эмоциональное или психическое состояние героя.</div>
+            </div>
+            <div class="caret">+</div>
+          </summary>
+          <div class="stage-body">
+            <p>LLM получает текст главы с пронумерованными предложениями, именем героя и алиасами. Источник состояния может быть у рассказчика, самого персонажа или другого персонажа.</p>
+            <div class="stage-grid">
+              <div class="stage-card">
+                <h4>Что считается наблюдением</h4>
+                <p>Непрерывная цитата о состоянии героя. Не отдельное слово и не целая глава.</p>
+              </div>
+              <div class="stage-card">
+                <h4>Ограничение</h4>
+                <p>Телесные проявления сами по себе не считаются достаточным основанием без явного эмоционального смысла.</p>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <div class="arrow" aria-hidden="true"></div>
+
+        <details class="stage final">
+          <summary class="stage-head">
+            <div class="num">2</div>
+            <div class="title-block">
+              <small>Filtering</small>
+              <h3>Проверки и правило допуска</h3>
+              <div class="summary-note">До финального набора доходят только цитаты, прошедшие дословность, эмоциональную релевантность и атрибуцию.</div>
+            </div>
+            <div class="caret">+</div>
+          </summary>
+          <div class="stage-body">
+            <div class="stage-grid">
+              <div class="stage-card">
+                <h4>Дословность</h4>
+                <p>Цитата должна быть точной подстрокой исходного текста.</p>
+              </div>
+              <div class="stage-card">
+                <h4>Эмоциональная релевантность</h4>
+                <p>Цитата сама по себе должна описывать состояние человека.</p>
+              </div>
+              <div class="stage-card">
+                <h4>Атрибуция</h4>
+                <p>Состояние должно принадлежать целевому персонажу.</p>
+              </div>
+              <div class="stage-card">
+                <h4>Повторный аудит</h4>
+                <p>Первичные отрицательные и неоднозначные решения повторно проверяются отдельным LLM-вызовом.</p>
+              </div>
+            </div>
+            <div class="formula">Iₜ = Cₜ Eₜ Tₜ = 1</div>
+          </div>
+        </details>
+
+        <div class="arrow" aria-hidden="true"></div>
+
+        <details class="stage final" open>
+          <summary class="stage-head">
+            <div class="num">3</div>
+            <div class="title-block">
+              <small>VAD scoring</small>
+              <h3>Оценивание состояния в координатах VAD</h3>
+              <div class="summary-note">Каждый допущенный фрагмент получает один вектор Valence–Arousal–Dominance.</div>
+            </div>
+            <div class="caret">+</div>
+          </summary>
+          <div class="stage-body">
+            <p>Текущий пайплайн использует одну VAD-оценку на фрагмент. Для смыслового разрешения подаются полные соседние предложения до и после цитаты, отдельно до 350 символов на каждую сторону.</p>
+            <div class="formula">xₜ = (Vₜ, Aₜ, Dₜ)ᵀ ∈ [-1,1]³</div>
+            <div class="stage-grid">
+              <div class="stage-card">
+                <h4>Valence</h4>
+                <p>От крайне неприятного состояния к крайне приятному.</p>
+              </div>
+              <div class="stage-card">
+                <h4>Arousal</h4>
+                <p>От покоя и заторможенности к возбуждению.</p>
+              </div>
+              <div class="stage-card">
+                <h4>Dominance</h4>
+                <p>От беспомощности к контролю над собой или ситуацией.</p>
+              </div>
+              <div class="stage-card">
+                <h4>Важно</h4>
+                <p>Центрирование, z-стандартизация и PCA для текущей кластеризации не применялись.</p>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <div class="arrow" aria-hidden="true"></div>
+
+        <details class="stage validation">
+          <summary class="stage-head">
+            <div class="num">4</div>
+            <div class="title-block">
+              <small>Validation</small>
+              <h3>Предварительное исследование устойчивости к контексту</h3>
+              <div class="summary-note">Проверяется, насколько VAD меняется при повторных вызовах и при расширении контекста.</div>
+            </div>
+            <div class="caret">+</div>
+          </summary>
+          <div class="stage-body">
+            <p>В раннем эксперименте рассматривались окна <code class="inline">h ∈ {0,1,2,3,5,8}</code> предыдущих фрагментов и по 7 оценок на каждую пару «фрагмент × окно».</p>
+            <div class="stage-grid">
+              <div class="stage-card">
+                <h4>Повторная стабильность</h4>
+                <p>Используются медиана и межквартильный размах для каждой оси.</p>
+                <div class="formula">mₜ,ₕ,ₐ = medianᵣ xₜ,ₕ,ᵣ,ₐ
+IQRₜ,ₕ,ₐ = Q₀.₇₅ − Q₀.₂₅</div>
+              </div>
+              <div class="stage-card">
+                <h4>Чувствительность к контексту</h4>
+                <p>Сравнивается сдвиг медианного VAD при изменении ширины окна.</p>
+                <div class="formula">Δₜ(h,h′) = ‖mₜ,ₕ′ − mₜ,ₕ‖₂
+ diamₜ = maxₕ,ₕ′ Δₜ(h,h′)</div>
+              </div>
+              <div class="stage-card">
+                <h4>Диагностические пороги</h4>
+                <p>Нестабильный: max IQR ≥ 0.25. Чувствителен к контексту: max IQR &lt; 0.25, но diam ≥ 0.35.</p>
+              </div>
+              <div class="stage-card">
+                <h4>Что выбрано дальше</h4>
+                <p>В финальном пайплайне используется предложенческий контекст вокруг TARGET; сам лимит 350 символов не выводится строго из этого эксперимента, но исследование подтверждает необходимость контролируемого контекста.</p>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <div class="arrow" aria-hidden="true"></div>
+
+        <div class="branch-divider">После получения подтверждённых VAD-векторов пайплайн расходится на две ветви: <strong>основная</strong> — финальное сопоставление с Плутчиком по статистическим моделям эмоций; <strong>исследовательская</strong> — поиск структуры состояний через кластеры и их именование.</div>
+
+        <div class="branch-wrap">
+          <div>
+            <details class="stage final" open>
+              <summary class="stage-head">
+                <div class="num">5</div>
+                <div class="title-block">
+                  <small>Step 8 core</small>
+                  <h3>Статистические эталоны 8 эмоций Плутчика</h3>
+                  <div class="summary-note">Для каждой эмоции строятся средний VAD-вектор и полная ковариационная матрица.</div>
+                </div>
+                <div class="caret">+</div>
+              </summary>
+              <div class="stage-body">
+                <p>Эталоны берутся из лексического справочника. Для anger и fear выполнялся дополнительный отбор слов по семантической уверенности, затем по каждому списку напрямую считались средние и ковариации.</p>
+                <div class="formula">μₑ = (1 / Mₑ) Σ yₑ,ₗ
+Σₑ = (1 / (Mₑ − 1)) Σ (yₑ,ₗ − μₑ)(yₑ,ₗ − μₑ)ᵀ</div>
+                <div class="stage-grid">
+                  <div class="stage-card">
+                    <h4>8 эмоций</h4>
+                    <p>joy, trust, fear, surprise, sadness, disgust, anger, anticipation.</p>
+                  </div>
+                  <div class="stage-card">
+                    <h4>Важно</h4>
+                    <p>Это статистические параметры справочника, а не фиксированные теоретические точки.</p>
+                  </div>
+                </div>
+              </div>
+            </details>
+
+            <div class="arrow" aria-hidden="true"></div>
+
+            <details class="stage final" open>
+              <summary class="stage-head">
+                <div class="num">6</div>
+                <div class="title-block">
+                  <small>Fragment → emotion weights</small>
+                  <h3>Сопоставление фрагмента с 8 эмоциями</h3>
+                  <div class="summary-note">Каждый фрагмент сравнивается со всеми восьмью моделями эмоций.</div>
+                </div>
+                <div class="caret">+</div>
+              </summary>
+              <div class="stage-body">
+                <p>Сначала вычисляется расстояние Махаланобиса до каждой эмоции, затем полная гауссовская плотность. После нормировки получаются относительные веса по восьми эмоциям.</p>
+                <div class="formula">δ²ₜₑ = (xₜ − μₑ)ᵀ Σₑ⁻¹ (xₜ − μₑ)</div>
+                <div class="formula">fₑ(xₜ) = exp(−δ²ₜₑ / 2) / ((2π)^(3/2) |Σₑ|^(1/2))</div>
+                <div class="formula">P(e | xₜ) = fₑ(xₜ) / Σⱼ fⱼ(xₜ)</div>
+                <ul>
+                  <li>Мера учитывает не только расстояние до среднего, но и форму распределения эмоции.</li>
+                  <li>Каждый фрагмент распределяется между всеми 8 эмоциями, категории «вне модели» нет.</li>
+                </ul>
+              </div>
+            </details>
+
+            <div class="arrow" aria-hidden="true"></div>
+
+            <details class="stage final">
+              <summary class="stage-head">
+                <div class="num">7</div>
+                <div class="title-block">
+                  <small>Aggregation</small>
+                  <h3>Агрегация по главам</h3>
+                  <div class="summary-note">Постериорные веса отдельных фрагментов суммируются и усредняются на уровне главы.</div>
+                </div>
+                <div class="caret">+</div>
+              </summary>
+              <div class="stage-body">
+                <p>Если в главе <code class="inline">h</code> есть <code class="inline">Nₕ</code> фрагментов, для каждой эмоции сохраняются две агрегированные меры.</p>
+                <div class="formula">Sumₕ(e) = Σₜ∈ₕ P(e | xₜ)
+Meanₕ(e) = (1 / Nₕ) Σₜ∈ₕ P(e | xₜ)</div>
+                <p class="muted">Среднее вычисляется после нелинейного преобразования каждого VAD, поэтому оно не равно вероятности для среднего VAD главы.</p>
+              </div>
+            </details>
+
+            <div class="arrow" aria-hidden="true"></div>
+
+            <details class="stage output" open>
+              <summary class="stage-head">
+                <div class="num">8</div>
+                <div class="title-block">
+                  <small>Outputs</small>
+                  <h3>Итоговые профили: 8 эмоций и 16 компонентов</h3>
+                  <div class="summary-note">Из восьми базовых весов строится как базовый профиль, так и расширенное представление с первичными диадами.</div>
+                </div>
+                <div class="caret">+</div>
+              </summary>
+              <div class="stage-body">
+                <div class="out-grid">
+                  <div class="out-card">
+                    <h3>8 базовых эмоций</h3>
+                    <p>На уровне фрагмента и главы сохраняются веса для joy, trust, fear, surprise, sadness, disgust, anger и anticipation.</p>
+                    <div class="stat-list">
+                      <div class="stat-item">Фрагмент → 8 relative weights <code class="inline">P(e | xₜ)</code></div>
+                      <div class="stat-item">Глава → <code class="inline">Sumₕ(e)</code> и <code class="inline">Meanₕ(e)</code></div>
+                    </div>
+                  </div>
+                  <div class="out-card">
+                    <h3>16 компонентов</h3>
+                    <p>Включают 8 базовых эмоций и 8 первичных диад: love, submission, awe, disapproval, remorse, contempt, aggressiveness, optimism.</p>
+                    <div class="stat-list">
+                      <div class="stat-item"><strong>Непрерывная сила диады:</strong><br><code class="inline">dᵢⱼ = 2√(pᵢpⱼ)</code></div>
+                      <div class="stat-item"><strong>Совместное нормированное разложение:</strong><br><code class="inline">r(Eᵢ)=pᵢ²</code>, <code class="inline">r(Dᵢ,ᵢ₊₁)=2pᵢpᵢ₊₁</code><br><code class="inline">q_c = r(c) / Z</code>, где <code class="inline">Σq_c = 1</code></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </details>
+          </div>
+
+          <div>
+            <details class="stage research">
+              <summary class="stage-head">
+                <div class="num">A</div>
+                <div class="title-block">
+                  <small>Cluster branch</small>
+                  <h3>Поиск структуры состояний</h3>
+                  <div class="summary-note">Подтверждённая исследовательская ветвь: сравнение семейств кластеризации и финальный выбор K-Means.</div>
+                </div>
+                <div class="caret">+</div>
+              </summary>
+              <div class="stage-body">
+                <p>Ранний Experiment 2B сравнивал 33 решения: K-Means, GMM и HDBSCAN. В текущем пайплайне как рабочий метод выбран K-Means для каждого героя отдельно.</p>
+                <div class="stage-grid">
+                  <div class="stage-card">
+                    <h4>Сравнивались</h4>
+                    <p>K-Means: K=2…10; GMM: K=2…10; HDBSCAN: разные min cluster size и min_samples.</p>
+                  </div>
+                  <div class="stage-card">
+                    <h4>Финальный выбор</h4>
+                    <p>K-Means по диапазону <code class="inline">K ∈ {3,4,5,6}</code>, 50 инициализаций, seed 42.</p>
+                    <div class="formula">J_K = Σᵢ Σₜ∈Cᵢ ‖xₜ − cᵢ‖₂²
+cᵢ = (1 / nᵢ) Σₜ∈Cᵢ xₜ</div>
+                  </div>
+                </div>
+              </div>
+            </details>
+
+            <div class="arrow" aria-hidden="true"></div>
+
+            <details class="stage research" open>
+              <summary class="stage-head">
+                <div class="num">B</div>
+                <div class="title-block">
+                  <small>K selection</small>
+                  <h3>Выбор числа кластеров</h3>
+                  <div class="summary-note">K выбирается по сочетанию компактности, разделённости, устойчивости и размера минимального кластера.</div>
+                </div>
+                <div class="caret">+</div>
+              </summary>
+              <div class="stage-body">
+                <div class="stage-grid">
+                  <div class="stage-card">
+                    <h4>Метрики</h4>
+                    <p>Silhouette, Calinski–Harabasz, Davies–Bouldin, средний ARI по 100 подвыборкам, доля минимального кластера.</p>
+                  </div>
+                  <div class="stage-card">
+                    <h4>Итоговый балл</h4>
+                    <div class="formula">Q(K) = (1/5) [ Z_S + Z_CH − Z_DB + Z_ARI + Z_(n_min / N) ]</div>
+                    <p>Выбирается K с максимальным <code class="inline">Q</code>.</p>
+                  </div>
+                  <div class="stage-card">
+                    <h4>Устойчивость</h4>
+                    <p>100 повторений на случайных подвыборках ≈80% без возвращения; каждое решение сравнивается с исходным через ARI.</p>
+                  </div>
+                  <div class="stage-card">
+                    <h4>Выбранные K</h4>
+                    <p>Раскольников — <strong>4</strong>, Софья Мармеладова — <strong>3</strong>, Свидригайлов — <strong>3</strong>.</p>
+                  </div>
+                </div>
+              </div>
+            </details>
+
+            <div class="arrow" aria-hidden="true"></div>
+
+            <details class="stage research" open>
+              <summary class="stage-head">
+                <div class="num">C</div>
+                <div class="title-block">
+                  <small>Naming</small>
+                  <h3>Интерпретация и названия кластеров</h3>
+                  <div class="summary-note">После численного выделения кластеров им присваиваются содержательные названия по центральным примерам.</div>
+                </div>
+                <div class="caret">+</div>
+              </summary>
+              <div class="stage-body">
+                <p>Для каждого кластера сохраняются центроид, размер, среднеквадратический радиус и ближайшие/периферийные фрагменты. Для именования выбираются 8 ближайших уникальных цитат, которые подаются в LLM вместе с VAD и координатами центра.</p>
+                <div class="formula">rᵢ = √[(1 / nᵢ) Σₜ∈Cᵢ ‖xₜ − cᵢ‖₂²]</div>
+                <ul>
+                  <li>Названия не влияют на границы кластеров и не участвуют в выборе K.</li>
+                  <li>Это интерпретация центральных примеров, а не новая модельная оптимизация.</li>
+                </ul>
+              </div>
+            </details>
+
+            <div class="arrow" aria-hidden="true"></div>
+
+            <details class="stage research">
+              <summary class="stage-head">
+                <div class="num">D</div>
+                <div class="title-block">
+                  <small>Auxiliary step 7</small>
+                  <h3>Кластерный профиль Плутчика</h3>
+                  <div class="summary-note">Дополнительная схема: центроиды кластеров сравниваются с точечными VAD-прототипами эмоций.</div>
+                </div>
+                <div class="caret">+</div>
+              </summary>
+              <div class="stage-body">
+                <p>Это отдельная подтверждённая ветвь Step 7, но не финальный способ расчёта итоговых профилей. Она полезна для обзорного сопоставления структуры состояний героя с прототипами эмоций.</p>
+                <div class="formula">αᵢ = nᵢ / N
+ dᵢₑ = ‖cᵢ − pₑ‖₂
+ sᵢₑ(σ) = exp(−dᵢₑ² / (2σ²))
+ Fₑ(σ) = Σᵢ αᵢ sᵢₑ(σ)</div>
+                <p class="muted">Здесь получаются восемь независимых мер сходства, а не нормированное распределение вероятностей.</p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script>
+    const stages = Array.from(document.querySelectorAll('details.stage'));
+    document.getElementById('expandAll').addEventListener('click', () => stages.forEach(d => d.open = true));
+    document.getElementById('collapseAll').addEventListener('click', () => stages.forEach(d => d.open = false));
+  </script>
+</body>
+</html>

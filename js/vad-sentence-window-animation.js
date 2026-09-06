@@ -20,7 +20,7 @@
   var novelText = document.getElementById("novel-text");
   var state = {
     characters: [], chapters: [], clusters: [], locations: [], events: [],
-    clusterById: {}, characterById: {}, animationTraces: {}, centroidIndices: [],
+    clusterById: {}, characterById: {}, animationTraces: {}, animationTailTraces: {}, centroidIndices: [],
     sphereIndices: [], hiddenClusters: new Set(), chapterById: {}, chapterLoads: {},
     position: 0, windowSize: 50, playing: false, timer: 0, resizeFrame: 0, renderRequest: 0
   };
@@ -166,6 +166,13 @@
       traces.push(sphereTrace(cluster));
     });
     state.characters.forEach(function (character) {
+      state.animationTailTraces[character.id] = traces.length;
+      traces.push({
+        type: "scatter3d", mode: "lines", name: (character.label || character.name) + " tail",
+        meta: "animation-tail:" + character.id, showlegend: false,
+        x: [], y: [], z: [], line: { color: css("--text-muted"), width: 2 },
+        hoverinfo: "skip"
+      });
       state.animationTraces[character.id] = traces.length;
       traces.push({
         type: "scatter3d", mode: "markers", name: character.label || character.name,
@@ -244,12 +251,21 @@
   function renderLoaded(end) {
     var active = activeEvents(end);
     var characterIds = state.characters.map(function (item) { return item.id; });
-    var payloads = characterIds.map(function (id) {
-      var selected = active.filter(function (event) { return event.character_id === id; });
-      return { x: selected.map(vad(0)), y: selected.map(vad(1)), z: selected.map(vad(2)), text: selected.map(eventHover) };
+    var selections = characterIds.map(function (id) {
+      return active.filter(function (event) { return event.character_id === id; })
+        .slice().sort(function (a, b) { return a.start - b.start; });
     });
-    var traceIndices = characterIds.map(function (id) { return state.animationTraces[id]; });
-    var update = Plotly.restyle(plot, { x: payloads.map(prop("x")), y: payloads.map(prop("y")), z: payloads.map(prop("z")), text: payloads.map(prop("text")) }, traceIndices);
+    var markerPayloads = selections.map(markerPayload);
+    var tailPayloads = selections.map(tailPayload);
+    var markerIndices = characterIds.map(function (id) { return state.animationTraces[id]; });
+    var tailIndices = characterIds.map(function (id) { return state.animationTailTraces[id]; });
+    var markerUpdate = Plotly.restyle(plot, {
+      x: markerPayloads.map(prop("x")), y: markerPayloads.map(prop("y")), z: markerPayloads.map(prop("z")),
+      text: markerPayloads.map(prop("text"))
+    }, markerIndices);
+    var tailUpdate = Plotly.restyle(plot, {
+      x: tailPayloads.map(prop("x")), y: tailPayloads.map(prop("y")), z: tailPayloads.map(prop("z"))
+    }, tailIndices);
     timeline.max = maximumPosition();
     timeline.value = state.position;
     syncTimelineFill();
@@ -259,7 +275,7 @@
     statusLabel.textContent = active.length + " активных фрагм.";
     renderNovelText(active, end);
     prefetchAfter(end);
-    return update;
+    return Promise.all([markerUpdate, tailUpdate]);
   }
 
   function activeEvents(end) {
@@ -317,6 +333,7 @@
       indices.push(index); visibility.push(showSpheres && characterVisible && !clusterHidden); legends.push(false);
     });
     Object.keys(state.animationTraces).forEach(function (id) { indices.push(state.animationTraces[id]); visibility.push(enabled(id)); legends.push(false); });
+    Object.keys(state.animationTailTraces).forEach(function (id) { indices.push(state.animationTailTraces[id]); visibility.push(enabled(id)); legends.push(false); });
     return Plotly.restyle(plot, { visible: visibility, showlegend: legends }, indices).then(render);
   }
 
@@ -336,6 +353,34 @@
   function planeTrace(x,y,z,color){return {type:"surface",x:x,y:y,z:z,surfacecolor:[[0,0],[0,0]],colorscale:[[0,color],[1,color]],showscale:false,opacity:.18,showlegend:false,hoverinfo:"skip",lighting:{ambient:1,diffuse:0,specular:0}};}
   function sphereTrace(cluster){ var center=cluster.centroid,r=Number(cluster.sphere_radius||0),lon=12,lat=8,vertices=[[center[0],center[1],center[2]+r]],i=[],j=[],k=[]; for(var a=1;a<lat;a++)for(var b=0;b<lon;b++){var ph=Math.PI*a/lat,th=2*Math.PI*b/lon;vertices.push([center[0]+r*Math.sin(ph)*Math.cos(th),center[1]+r*Math.sin(ph)*Math.sin(th),center[2]+r*Math.cos(ph)]);}var bottom=vertices.length;vertices.push([center[0],center[1],center[2]-r]);for(var q=0;q<lon;q++){i.push(0);j.push(1+q);k.push(1+(q+1)%lon);}for(var ring=0;ring<lat-2;ring++)for(var n=0;n<lon;n++){var c=1+ring*lon+n,d=1+ring*lon+(n+1)%lon,e=c+lon,f=d+lon;i.push(c,c);j.push(e,f);k.push(f,d);}var last=1+(lat-2)*lon;for(var q2=0;q2<lon;q2++){i.push(last+q2);j.push(bottom);k.push(last+(q2+1)%lon);}return {type:"mesh3d",name:cluster.display_id+" sphere",legendgroup:"cluster-"+cluster.id,meta:"sphere:"+cluster.character_id+":"+cluster.id,x:vertices.map(prop(0)),y:vertices.map(prop(1)),z:vertices.map(prop(2)),i:i,j:j,k:k,color:cluster.color,opacity:.22,flatshading:false,showlegend:false,visible:false,hoverinfo:"skip",lighting:{ambient:.72,diffuse:.58,specular:.12,roughness:.8,fresnel:.08}}; }
   function axis(title){return {title:{text:title},range:[-1.08,1.08],showgrid:false,zeroline:false,showspikes:false,backgroundcolor:"rgba(0,0,0,0)",color:css("--text-muted")};}
+
+  function markerPayload(events) {
+    return { x: events.map(vad(0)), y: events.map(vad(1)), z: events.map(vad(2)), text: events.map(eventHover) };
+  }
+
+  var TAIL_LENGTH = .07;
+  function tailPayload(events) {
+    var x = [], y = [], z = [];
+    events.forEach(function (event, index) {
+      var point = event.vad.map(Number);
+      var incoming;
+      if (index > 0) incoming = subtract(point, events[index - 1].vad.map(Number));
+      else if (events.length > 1) incoming = subtract(events[index + 1].vad.map(Number), point);
+      else return;
+      var offset = unitScale(incoming, TAIL_LENGTH);
+      x.push(point[0] - offset[0], point[0], null);
+      y.push(point[1] - offset[1], point[1], null);
+      z.push(point[2] - offset[2], point[2], null);
+    });
+    return { x: x, y: y, z: z };
+  }
+  function subtract(a, b) { return [a[0] - b[0], a[1] - b[1], a[2] - b[2]]; }
+  function unitScale(vector, length) {
+    var magnitude = Math.sqrt(vector[0] * vector[0] + vector[1] * vector[1] + vector[2] * vector[2]);
+    if (magnitude < 1e-6) return [0, 0, 0];
+    var scale = length / magnitude;
+    return [vector[0] * scale, vector[1] * scale, vector[2] * scale];
+  }
 
   function stop(){state.playing=false;clearTimeout(state.timer);playButton.textContent="Старт";playButton.setAttribute("aria-pressed","false");}
   function play(){if(state.position>=maximumPosition())state.position=0;state.playing=true;playButton.textContent="Пауза";playButton.setAttribute("aria-pressed","true");tick();}
