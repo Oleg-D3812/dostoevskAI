@@ -26,11 +26,17 @@
     #timeline-group{display:grid;grid-template-rows:auto auto auto;gap:3px;align-content:center}
     #timeline-head{display:flex;justify-content:space-between;gap:12px;font-size:.78rem;color:var(--text-muted)}
     #range-label{text-align:right}
+    #timeline{-webkit-appearance:none;appearance:none;height:16px;margin:6px 8px 0;background:transparent;outline:none;cursor:pointer}
+    #timeline::-webkit-slider-runnable-track{height:6px;border-radius:999px;background:linear-gradient(to right,var(--accent-color) var(--timeline-fill,0%),var(--border-color) 0)}
+    #timeline::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:16px;height:16px;margin-top:-5px;border-radius:50%;background:var(--accent-color);border:2px solid var(--surface-solid);box-shadow:0 1px 4px rgba(0,0,0,.4)}
+    #timeline::-moz-range-track{height:6px;border-radius:999px;background:var(--border-color)}
+    #timeline::-moz-range-progress{height:6px;border-radius:999px;background:var(--accent-color)}
+    #timeline::-moz-range-thumb{width:16px;height:16px;border-radius:50%;background:var(--accent-color);border:2px solid var(--surface-solid);box-shadow:0 1px 4px rgba(0,0,0,.4)}
     #timeline-markers{position:relative;height:22px;margin:0 8px}
     .timeline-marker{position:absolute;top:0;width:0;height:20px;color:var(--text-muted)}
     .timeline-tick{position:absolute;left:0;top:0;width:1px;height:7px;background:currentColor}
     .part-marker{color:var(--text-color)}
-    .part-marker .timeline-tick{width:2px;height:13px}
+    .part-marker .timeline-tick{width:2px;height:13px;background:var(--accent-color)}
     .timeline-part-label{position:absolute;top:11px;left:0;transform:translateX(-50%);font-size:.63rem;line-height:10px;white-space:nowrap}
     .timeline-marker.at-start .timeline-part-label{transform:none}
     #animation-workspace{--text-width:max(340px,31vw);display:grid;grid-template-columns:minmax(360px,1fr) 8px var(--text-width);min-height:0}
@@ -70,7 +76,7 @@
         </div>
         <div class="playback-fields"><label for="window-size">Окно</label><input id="window-size" type="range" min="20" max="300" value="50"><output id="window-size-value">50</output></div>
       </fieldset>
-      <fieldset id="timeline-group"><legend>Текст романа</legend><div id="timeline-head"><span id="timeline-value"></span><span id="range-label"></span></div><input id="timeline" type="range" min="0" value="0" aria-label="Начало окна предложений"><div id="timeline-markers" aria-label="Границы частей и глав"></div></fieldset>
+      <fieldset id="timeline-group"><legend>Текст романа</legend><div id="timeline-head"><span id="timeline-value"></span><span id="range-label"></span></div><input id="timeline" type="range" min="0" value="0" aria-label="Начало окна предложений (метки — части и главы)"><div id="timeline-markers" aria-label="Part and chapter boundaries"></div></fieldset>
     </section>
     <section id="animation-workspace">
       <section id="animation-plot-wrap"><div id="sentence-animation-plot"><div class="loading-state">Загрузка данных…</div></div></section>
@@ -79,6 +85,6 @@
     </section>
   </main>
   <script src="../js/data-client.js"></script>
-  <script src="../js/vad-sentence-window-animation.js"></script>
+  <script>document.write('<script src="../js/vad-sentence-window-animation.js?v=' + Date.now() + '"><\/script>');</script>
 </body>
 </html>

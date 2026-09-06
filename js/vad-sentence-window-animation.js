@@ -27,10 +27,23 @@
 
   loadData().then(function () {
     renderCharacterControls();
+    setupTimeline();
     bindControls();
     renderTimelineMarkers();
     return buildPlot().then(updateVisibility);
   }).then(resizePlot).catch(showError);
+
+  function setupTimeline() {
+    timeline.min = 0;
+    timeline.max = maximumPosition();
+    timeline.step = 1;
+    syncTimelineFill();
+  }
+
+  function syncTimelineFill() {
+    var max = Number(timeline.max) || 1;
+    timeline.style.setProperty("--timeline-fill", (Number(timeline.value) / max * 100) + "%");
+  }
 
   function loadData() {
     setLoading("Чтение каталога романов…");
@@ -186,7 +199,12 @@
     document.getElementById("step-back").addEventListener("click", function () { stop(); state.position = Math.max(0, state.position - 1); render(); });
     document.getElementById("step-forward").addEventListener("click", function () { stop(); state.position = Math.min(maximumPosition(), state.position + 1); render(); });
     document.getElementById("restart").addEventListener("click", function () { stop(); state.position = 0; render(); });
-    timeline.addEventListener("input", function () { stop(); state.position = Number(timeline.value); render(); });
+    timeline.addEventListener("input", function () {
+      stop();
+      state.position = Number(timeline.value);
+      syncTimelineFill();
+      render();
+    });
     windowInput.addEventListener("input", function () { state.windowSize = Number(windowInput.value); state.position = Math.min(state.position, maximumPosition()); render(); });
     splitter.addEventListener("pointerdown", function (event) { if (window.matchMedia("(max-width:1000px)").matches) return; event.preventDefault(); splitter.setPointerCapture(event.pointerId); splitter.classList.add("dragging"); });
     splitter.addEventListener("pointermove", function (event) { if (splitter.hasPointerCapture(event.pointerId)) resizePanels(event.clientX); });
@@ -198,17 +216,16 @@
 
   function renderTimelineMarkers() {
     var fragment = document.createDocumentFragment();
-    state.locations.forEach(function (location, index) {
-      var previous = index ? state.locations[index - 1] : null;
-      var startsPart = !previous || previous.part !== location.part;
-      var startsChapter = startsPart || previous.chapter !== location.chapter;
-      if (!startsChapter) return;
+    var total = Math.max(1, state.locations.length - 1);
+    state.chapters.forEach(function (chapter, index) {
+      var previous = index ? state.chapters[index - 1] : null;
+      var startsPart = !previous || previous.part !== chapter.part;
       var marker = document.createElement("span");
       marker.className = "timeline-marker " + (startsPart ? "part-marker" : "chapter-marker") + (index === 0 ? " at-start" : "");
-      marker.style.left = (100 * index / Math.max(1, state.locations.length - 1)) + "%";
-      marker.title = "Часть " + location.part + ", глава " + location.chapter + " · предложение " + (index + 1);
+      marker.style.left = (100 * Number(chapter.timeline_start_index) / total) + "%";
+      marker.title = "Part " + chapter.part + ", Chapter " + chapter.chapter + " · novel sentence " + (Number(chapter.timeline_start_index) + 1);
       var tick = document.createElement("span"); tick.className = "timeline-tick"; marker.appendChild(tick);
-      if (startsPart) { var label = document.createElement("span"); label.className = "timeline-part-label"; label.textContent = "Ч" + location.part; marker.appendChild(label); }
+      if (startsPart) { var label = document.createElement("span"); label.className = "timeline-part-label"; label.textContent = "P" + chapter.part; marker.appendChild(label); }
       fragment.appendChild(marker);
     });
     timelineMarkers.replaceChildren(fragment);
@@ -233,7 +250,9 @@
     });
     var traceIndices = characterIds.map(function (id) { return state.animationTraces[id]; });
     var update = Plotly.restyle(plot, { x: payloads.map(prop("x")), y: payloads.map(prop("y")), z: payloads.map(prop("z")), text: payloads.map(prop("text")) }, traceIndices);
-    timeline.max = maximumPosition(); timeline.value = state.position;
+    timeline.max = maximumPosition();
+    timeline.value = state.position;
+    syncTimelineFill();
     document.getElementById("window-size-value").textContent = state.windowSize;
     document.getElementById("timeline-value").textContent = (state.position + 1) + "–" + (end + 1) + " / " + state.locations.length;
     rangeLabel.textContent = locationLabel(state.locations[state.position]) + " → " + locationLabel(state.locations[end]);
