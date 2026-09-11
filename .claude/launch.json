@@ -4,7 +4,7 @@
     {
       "name": "dostoevskai",
       "runtimeExecutable": "python",
-      "runtimeArgs": ["-m", "http.server", "8123"],
+      "runtimeArgs": [".claude/serve_nocache.py", "8123"],
       "port": 8123
     }
   ]

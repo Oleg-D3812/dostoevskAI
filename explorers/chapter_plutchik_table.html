@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Plutchik profiles by chapter</title>
+  <script src="https://cdn.plot.ly/plotly-3.7.0.min.js"></script>
+  <link rel="stylesheet" href="../css/style.css"/>
+  <style>
+    .chapter-table-wrap { overflow-x: auto; }
+    .chapter-plutchik-table { width: 100%; border-collapse: collapse; color: var(--text-color); font-size: 13px; }
+    .chapter-plutchik-table th, .chapter-plutchik-table td { padding: 10px 12px; border-bottom: 1px solid var(--border-color); vertical-align: middle; text-align: left; }
+    .chapter-plutchik-table th { color: var(--text-muted); font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+    .chapter-plutchik-table tr:last-child td { border-bottom: 0; }
+    .chapter-plutchik-table tr:hover td { background: var(--accent-soft); }
+    .col-chapter { white-space: nowrap; font-weight: 700; width: 1%; }
+    .col-count { text-align: right; width: 1%; font-variant-numeric: tabular-nums; color: var(--text-muted); }
+    .col-desc { color: var(--text-muted); line-height: 1.5; min-width: 220px; }
+    .col-chart { width: 1%; text-align: center; }
+    .radar-thumb, .bar-thumb, .text-link {
+      display: inline-flex; align-items: center; gap: 6px; padding: 2px; border: 1px solid transparent; border-radius: 10px;
+      background: transparent; cursor: pointer; transition: border-color .15s ease, transform .15s ease;
+    }
+    .radar-thumb:hover, .radar-thumb:focus-visible, .bar-thumb:hover, .bar-thumb:focus-visible, .text-link:hover, .text-link:focus-visible { border-color: var(--accent-color); transform: translateY(-1px); outline: none; }
+    .text-link {
+      padding: 6px 12px; color: var(--text-color); font: inherit; font-size: 12px; font-weight: 700;
+      letter-spacing: .04em; border-color: var(--border-color); border-radius: 999px; background: var(--surface-solid);
+    }
+    .text-link:hover { color: var(--accent-color); }
+    .chapter-empty { color: var(--text-muted); font-size: 12px; }
+    #modal { max-width: 640px; }
+    #modal.modal-text { max-width: 760px; }
+    #modalBody { max-height: 72vh; overflow-y: auto; }
+    #radar-modal-plot { width: 100%; height: 420px; }
+    #chapter-text-modal { font-family: Georgia, "Times New Roman", serif; font-size: .92rem; line-height: 1.55; white-space: normal; }
+    #chapter-text-modal .novel-sentence { margin: .28em 0; }
+    #chapter-text-modal .sentence-number { display: inline-block; min-width: 34px; font-family: Inter, system-ui, sans-serif; font-size: .68rem; color: var(--text-muted); vertical-align: baseline; }
+    #chapter-text-modal mark { color: inherit; padding: 1px 0; border-radius: 2px; }
+  </style>
+</head>
+<body class="explorer-page">
+  <header class="site-header explorer-header">
+    <a id="back-link" href="../index.html" class="back-link">&larr; Каталог романов</a>
+    <h1>Plutchik-профили по главам</h1>
+    <p>Профили 8 и 16 базовых эмоций для каждой главы одного персонажа — пролистайте таблицу, чтобы увидеть динамику от главы к главе.</p>
+  </header>
+
+  <main class="explorer-shell">
+    <section class="explorer-control-panel clusters-only" aria-label="Выбор персонажа">
+      <div>
+        <p class="landing-kicker">Персонаж</p>
+        <div id="character-filter" class="filter-row"></div>
+      </div>
+    </section>
+
+    <section class="plot-card">
+      <div class="chapter-table-wrap">
+        <table id="chapter-table" class="chapter-plutchik-table">
+          <thead>
+            <tr>
+              <th class="col-chapter">Глава</th>
+              <th class="col-desc">Описание</th>
+              <th class="col-count">Фрагм.</th>
+              <th class="col-chart">Текст</th>
+              <th class="col-chart">8 компонентов</th>
+              <th class="col-chart">16 компонентов</th>
+              <th class="col-chart">16 компонентов (бары)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td colspan="7" class="loading-state">Загрузка данных...</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <div id="modalOverlay">
+    <div id="modal">
+      <div id="modalHeader">
+        <div><span id="modalTitle"></span></div>
+        <button id="closeBtn">&times;</button>
+      </div>
+      <div id="modalBody">
+        <div id="radar-modal-plot"></div>
+        <div id="chapter-text-modal" hidden></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../js/data-client.js"></script>
+  <script src="../js/chapter-plutchik-table.js"></script>
+</body>
+</html>

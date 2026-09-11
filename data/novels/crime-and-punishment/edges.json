@@ -1,0 +1,2794 @@
+[
+  {
+    "source_id": "raskolnikov",
+    "target_id": "sonya",
+    "label_a": "Родион Романович Раскольников",
+    "label_b": "Софья Семёновна Мармеладова",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 179.0,
+        "count": 58
+      },
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 118.0,
+        "count": 28
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 109.0,
+        "count": 27
+      },
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 59.0,
+        "count": 14
+      }
+    ],
+    "scenes": [
+      "chapter_2_7_S3",
+      "chapter_3_4_S1",
+      "chapter_3_4_S3",
+      "chapter_4_4_0_S1",
+      "chapter_4_4_1_S1",
+      "chapter_4_4_1_S2",
+      "chapter_4_4_1_S3",
+      "chapter_4_4_2_S1",
+      "chapter_4_4_2_S2",
+      "chapter_5_4_0_S1",
+      "chapter_5_4_0_S2",
+      "chapter_5_4_1_S1",
+      "chapter_5_4_2_S1",
+      "chapter_6_1_S1",
+      "chapter_6_7_2_S1",
+      "chapter_6_8_S2",
+      "chapter_6_8_S3",
+      "chapter_7_1_S4",
+      "chapter_7_1_S7",
+      "chapter_7_1_S8",
+      "chapter_7_2_S1",
+      "chapter_7_2_S3",
+      "chapter_7_2_S4",
+      "chapter_7_2_S6"
+    ],
+    "interactions": 127
+  },
+  {
+    "source_id": "raskolnikov",
+    "target_id": "razumikhin",
+    "label_a": "Родион Романович Раскольников",
+    "label_b": "Дмитрий Прокофьич Разумихин",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 95.0,
+        "count": 24
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 75.0,
+        "count": 20
+      },
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 72.0,
+        "count": 15
+      },
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 28.0,
+        "count": 8
+      }
+    ],
+    "scenes": [
+      "chapter_1_4_S3",
+      "chapter_2_2_S1",
+      "chapter_2_3_S3",
+      "chapter_2_3_S4",
+      "chapter_2_3_S6",
+      "chapter_2_4_S1",
+      "chapter_2_5_S2",
+      "chapter_2_6_S1",
+      "chapter_2_6_S3",
+      "chapter_2_7_S4",
+      "chapter_2_7_S5",
+      "chapter_3_1_S1",
+      "chapter_3_2_S3",
+      "chapter_3_3_S1",
+      "chapter_3_4_S1",
+      "chapter_3_4_S3",
+      "chapter_3_4_S4",
+      "chapter_3_5_S1",
+      "chapter_3_5_S2",
+      "chapter_3_6_S1",
+      "chapter_4_2_S1",
+      "chapter_4_2_S2",
+      "chapter_4_3_S2",
+      "chapter_4_3_S3",
+      "chapter_4_3_S4",
+      "chapter_5_4_1_S1",
+      "chapter_5_5_S3",
+      "chapter_6_1_S2",
+      "chapter_6_7_1_S1",
+      "chapter_6_7_2_S3",
+      "chapter_7_1_S4"
+    ],
+    "interactions": 67
+  },
+  {
+    "source_id": "porfiry",
+    "target_id": "raskolnikov",
+    "label_a": "Порфирий Петрович",
+    "label_b": "Родион Романович Раскольников",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 113.0,
+        "count": 24
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 82.0,
+        "count": 19
+      },
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 42.0,
+        "count": 11
+      },
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 9.0,
+        "count": 3
+      }
+    ],
+    "scenes": [
+      "chapter_3_4_S4",
+      "chapter_3_5_S1",
+      "chapter_3_5_S2",
+      "chapter_3_5_S3",
+      "chapter_3_5_S4",
+      "chapter_4_5_S1",
+      "chapter_4_6_S1",
+      "chapter_4_6_S2",
+      "chapter_6_1_S3",
+      "chapter_6_2_S1",
+      "chapter_6_7_2_S2",
+      "chapter_7_1_S1"
+    ],
+    "interactions": 57
+  },
+  {
+    "source_id": "pulcheria",
+    "target_id": "raskolnikov",
+    "label_a": "Пульхерия Александровна Раскольникова",
+    "label_b": "Родион Романович Раскольников",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 56.0,
+        "count": 15
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 43.0,
+        "count": 9
+      },
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 40.0,
+        "count": 8
+      },
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 38.0,
+        "count": 10
+      }
+    ],
+    "scenes": [
+      "chapter_1_3_S2",
+      "chapter_1_4_S1",
+      "chapter_2_7_S5",
+      "chapter_3_1_S1",
+      "chapter_3_3_S1",
+      "chapter_3_4_S1",
+      "chapter_4_3_S4",
+      "chapter_5_4_1_S1",
+      "chapter_6_1_S2",
+      "chapter_6_7_1_S1",
+      "chapter_6_7_2_S2",
+      "chapter_7_1_S6"
+    ],
+    "interactions": 42
+  },
+  {
+    "source_id": "raskolnikov",
+    "target_id": "svidrigailov",
+    "label_a": "Родион Романович Раскольников",
+    "label_b": "Аркадий Иванович Свидригайлов",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 55.0,
+        "count": 20
+      },
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 51.0,
+        "count": 10
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 27.0,
+        "count": 7
+      },
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 13.0,
+        "count": 5
+      }
+    ],
+    "scenes": [
+      "chapter_3_6_S5",
+      "chapter_4_1_S1",
+      "chapter_4_2_S2",
+      "chapter_4_3_S2",
+      "chapter_4_4_2_S3",
+      "chapter_5_5_S7",
+      "chapter_6_1_S1",
+      "chapter_6_3_S1",
+      "chapter_6_3_S2",
+      "chapter_6_4_S1",
+      "chapter_6_4_S3",
+      "chapter_6_4_S5",
+      "chapter_6_4_S6",
+      "chapter_6_5_S1"
+    ],
+    "interactions": 42
+  },
+  {
+    "source_id": "dunya",
+    "target_id": "raskolnikov",
+    "label_a": "Авдотья Романовна Раскольникова",
+    "label_b": "Родион Романович Раскольников",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 80.0,
+        "count": 15
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 66.0,
+        "count": 11
+      },
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 48.0,
+        "count": 8
+      },
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 9.0,
+        "count": 2
+      }
+    ],
+    "scenes": [
+      "chapter_1_3_S2",
+      "chapter_2_7_S5",
+      "chapter_3_1_S1",
+      "chapter_3_3_S1",
+      "chapter_3_4_S1",
+      "chapter_4_2_S2",
+      "chapter_4_3_S2",
+      "chapter_4_3_S4",
+      "chapter_5_5_S3",
+      "chapter_6_1_S2",
+      "chapter_6_7_2_S1",
+      "chapter_6_7_2_S2",
+      "chapter_6_7_2_S3",
+      "chapter_7_1_S4"
+    ],
+    "interactions": 36
+  },
+  {
+    "source_id": "dunya",
+    "target_id": "svidrigailov",
+    "label_a": "Авдотья Романовна Раскольникова",
+    "label_b": "Аркадий Иванович Свидригайлов",
+    "types": [
+      {
+        "type": "Влияние и содействие",
+        "weight": 77.0,
+        "count": 14
+      },
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 35.0,
+        "count": 7
+      },
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 32.0,
+        "count": 7
+      },
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 30.0,
+        "count": 6
+      }
+    ],
+    "scenes": [
+      "chapter_1_3_S3",
+      "chapter_3_3_S1",
+      "chapter_4_1_S1",
+      "chapter_4_2_S2",
+      "chapter_4_3_S2",
+      "chapter_5_5_S7",
+      "chapter_6_3_S1",
+      "chapter_6_3_S2",
+      "chapter_6_4_S2",
+      "chapter_6_5_S2",
+      "chapter_6_5_S3"
+    ],
+    "interactions": 34
+  },
+  {
+    "source_id": "pulcheria",
+    "target_id": "razumikhin",
+    "label_a": "Пульхерия Александровна Раскольникова",
+    "label_b": "Дмитрий Прокофьич Разумихин",
+    "types": [
+      {
+        "type": "Влияние и содействие",
+        "weight": 37.0,
+        "count": 9
+      },
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 34.0,
+        "count": 8
+      },
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 17.0,
+        "count": 4
+      },
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 7.0,
+        "count": 2
+      }
+    ],
+    "scenes": [
+      "chapter_2_7_S5",
+      "chapter_3_1_S2",
+      "chapter_3_1_S3",
+      "chapter_3_1_S5",
+      "chapter_3_2_S3",
+      "chapter_3_2_S4",
+      "chapter_3_4_S1",
+      "chapter_4_2_S2",
+      "chapter_4_3_S3",
+      "chapter_4_3_S4",
+      "chapter_4_3_S5",
+      "chapter_6_7_1_S1",
+      "chapter_7_1_S3",
+      "chapter_7_1_S6"
+    ],
+    "interactions": 23
+  },
+  {
+    "source_id": "nastasya",
+    "target_id": "raskolnikov",
+    "label_a": "Настасья",
+    "label_b": "Родион Романович Раскольников",
+    "types": [
+      {
+        "type": "Влияние и содействие",
+        "weight": 28.0,
+        "count": 10
+      },
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 11.0,
+        "count": 5
+      },
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 11.0,
+        "count": 3
+      },
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 7.0,
+        "count": 4
+      }
+    ],
+    "scenes": [
+      "chapter_1_3_S1",
+      "chapter_1_6_S3",
+      "chapter_2_2_S4",
+      "chapter_2_3_S1",
+      "chapter_2_3_S3",
+      "chapter_2_3_S6",
+      "chapter_2_4_S1",
+      "chapter_2_5_S3",
+      "chapter_3_3_S1",
+      "chapter_5_4_1_S1",
+      "chapter_6_7_2_S1"
+    ],
+    "interactions": 22
+  },
+  {
+    "source_id": "alena_ivanovna",
+    "target_id": "raskolnikov",
+    "label_a": "Алёна Ивановна",
+    "label_b": "Родион Романович Раскольников",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 56.0,
+        "count": 14
+      },
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 14.0,
+        "count": 5
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 7.0,
+        "count": 2
+      }
+    ],
+    "scenes": [
+      "chapter_1_1_S2",
+      "chapter_1_6_S1",
+      "chapter_1_6_S4",
+      "chapter_1_7_S1",
+      "chapter_3_5_S4",
+      "chapter_3_6_S4",
+      "chapter_5_4_1_S1",
+      "chapter_7_1_S1"
+    ],
+    "interactions": 21
+  },
+  {
+    "source_id": "dunya",
+    "target_id": "razumikhin",
+    "label_a": "Авдотья Романовна Раскольникова",
+    "label_b": "Дмитрий Прокофьич Разумихин",
+    "types": [
+      {
+        "type": "Влияние и содействие",
+        "weight": 38.0,
+        "count": 10
+      },
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 28.0,
+        "count": 5
+      },
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 21.0,
+        "count": 5
+      },
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 5.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_2_7_S5",
+      "chapter_3_1_S2",
+      "chapter_3_1_S3",
+      "chapter_3_1_S5",
+      "chapter_3_2_S1",
+      "chapter_3_2_S3",
+      "chapter_3_2_S4",
+      "chapter_3_3_S1",
+      "chapter_3_4_S1",
+      "chapter_4_3_S2",
+      "chapter_4_3_S3",
+      "chapter_4_3_S4",
+      "chapter_4_3_S5",
+      "chapter_7_1_S5"
+    ],
+    "interactions": 21
+  },
+  {
+    "source_id": "luzhin",
+    "target_id": "raskolnikov",
+    "label_a": "Пётр Петрович Лужин",
+    "label_b": "Родион Романович Раскольников",
+    "types": [
+      {
+        "type": "Влияние и содействие",
+        "weight": 44.0,
+        "count": 8
+      },
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 32.0,
+        "count": 6
+      },
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 16.0,
+        "count": 4
+      },
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 15.0,
+        "count": 3
+      }
+    ],
+    "scenes": [
+      "chapter_1_3_S5",
+      "chapter_1_4_S1",
+      "chapter_2_5_S1",
+      "chapter_3_1_S1",
+      "chapter_3_2_S3",
+      "chapter_4_2_S2",
+      "chapter_4_3_S1",
+      "chapter_5_3_S2",
+      "chapter_5_4_0_S1"
+    ],
+    "interactions": 21
+  },
+  {
+    "source_id": "amalia_lippewechsel",
+    "target_id": "katerina_ivanovna",
+    "label_a": "Амалия Ивановна Липпевехзель",
+    "label_b": "Катерина Ивановна Мармеладова",
+    "types": [
+      {
+        "type": "Влияние и содействие",
+        "weight": 61.0,
+        "count": 9
+      },
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 57.0,
+        "count": 8
+      },
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 18.0,
+        "count": 2
+      },
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 3.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_1_2_S7",
+      "chapter_2_7_S2",
+      "chapter_5_2_S1",
+      "chapter_5_2_S2",
+      "chapter_5_2_S3",
+      "chapter_5_3_S3"
+    ],
+    "interactions": 20
+  },
+  {
+    "source_id": "razumikhin",
+    "target_id": "zosimov",
+    "label_a": "Дмитрий Прокофьич Разумихин",
+    "label_b": "Зосимов",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 39.0,
+        "count": 8
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 21.0,
+        "count": 5
+      },
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 15.0,
+        "count": 3
+      },
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 13.0,
+        "count": 4
+      }
+    ],
+    "scenes": [
+      "chapter_2_3_S7",
+      "chapter_2_4_S1",
+      "chapter_2_4_S2",
+      "chapter_2_5_S2",
+      "chapter_2_7_S4",
+      "chapter_3_1_S2",
+      "chapter_3_1_S5",
+      "chapter_3_1_S6",
+      "chapter_3_2_S2"
+    ],
+    "interactions": 20
+  },
+  {
+    "source_id": "katerina_ivanovna",
+    "target_id": "sonya",
+    "label_a": "Катерина Ивановна Мармеладова",
+    "label_b": "Софья Семёновна Мармеладова",
+    "types": [
+      {
+        "type": "Влияние и содействие",
+        "weight": 54.0,
+        "count": 10
+      },
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 36.0,
+        "count": 6
+      },
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 14.0,
+        "count": 3
+      }
+    ],
+    "scenes": [
+      "chapter_1_2_S2",
+      "chapter_1_2_S3",
+      "chapter_4_4_0_S1",
+      "chapter_5_2_S2",
+      "chapter_5_2_S3",
+      "chapter_5_3_S2",
+      "chapter_5_5_S4",
+      "chapter_5_5_S5",
+      "chapter_5_5_S6"
+    ],
+    "interactions": 19
+  },
+  {
+    "source_id": "lebezyatnikov",
+    "target_id": "luzhin",
+    "label_a": "Андрей Семёнович Лебезятников",
+    "label_b": "Пётр Петрович Лужин",
+    "types": [
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 30.0,
+        "count": 5
+      },
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 23.0,
+        "count": 6
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 12.0,
+        "count": 3
+      },
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 2.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_5_1_S1",
+      "chapter_5_1_S3",
+      "chapter_5_1_S4",
+      "chapter_5_1_S5",
+      "chapter_5_3_S2",
+      "chapter_5_3_S3"
+    ],
+    "interactions": 15
+  },
+  {
+    "source_id": "raskolnikov",
+    "target_id": "zosimov",
+    "label_a": "Родион Романович Раскольников",
+    "label_b": "Зосимов",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 32.0,
+        "count": 7
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 26.0,
+        "count": 6
+      },
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 6.0,
+        "count": 1
+      },
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 5.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_2_4_S1",
+      "chapter_2_5_S2",
+      "chapter_2_7_S2",
+      "chapter_2_7_S4",
+      "chapter_3_1_S5",
+      "chapter_3_2_S2",
+      "chapter_3_3_S1"
+    ],
+    "interactions": 15
+  },
+  {
+    "source_id": "raskolnikov",
+    "target_id": "zametov",
+    "label_a": "Родион Романович Раскольников",
+    "label_b": "Александр Григорьевич Заметов",
+    "types": [
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 39.0,
+        "count": 6
+      },
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 20.0,
+        "count": 6
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 2.0,
+        "count": 1
+      },
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 1.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_2_1_2_S1",
+      "chapter_2_1_2_S2",
+      "chapter_2_1_2_S4",
+      "chapter_2_3_S4",
+      "chapter_2_6_S2",
+      "chapter_3_5_S1",
+      "chapter_3_5_S2",
+      "chapter_3_5_S4",
+      "chapter_6_2_S1"
+    ],
+    "interactions": 14
+  },
+  {
+    "source_id": "ilya_petrovich",
+    "target_id": "raskolnikov",
+    "label_a": "Илья Петрович (Порох)",
+    "label_b": "Родион Романович Раскольников",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 34.0,
+        "count": 8
+      },
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 14.0,
+        "count": 2
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 9.0,
+        "count": 2
+      },
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 5.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_2_1_2_S2",
+      "chapter_2_1_2_S4",
+      "chapter_2_1_2_S5",
+      "chapter_6_8_S4"
+    ],
+    "interactions": 13
+  },
+  {
+    "source_id": "porfiry",
+    "target_id": "razumikhin",
+    "label_a": "Порфирий Петрович",
+    "label_b": "Дмитрий Прокофьич Разумихин",
+    "types": [
+      {
+        "type": "Влияние и содействие",
+        "weight": 20.0,
+        "count": 5
+      },
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 11.0,
+        "count": 3
+      },
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 9.0,
+        "count": 3
+      },
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 9.0,
+        "count": 2
+      }
+    ],
+    "scenes": [
+      "chapter_2_4_S2",
+      "chapter_3_5_S1",
+      "chapter_3_5_S2",
+      "chapter_3_5_S3",
+      "chapter_3_5_S4",
+      "chapter_4_2_S1",
+      "chapter_4_5_S1",
+      "chapter_6_1_S2",
+      "chapter_6_2_S1"
+    ],
+    "interactions": 13
+  },
+  {
+    "source_id": "dunya",
+    "target_id": "luzhin",
+    "label_a": "Авдотья Романовна Раскольникова",
+    "label_b": "Пётр Петрович Лужин",
+    "types": [
+      {
+        "type": "Влияние и содействие",
+        "weight": 31.0,
+        "count": 6
+      },
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 27.0,
+        "count": 4
+      },
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 8.0,
+        "count": 1
+      },
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 5.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_1_3_S5",
+      "chapter_1_4_S1",
+      "chapter_3_3_S1",
+      "chapter_4_2_S2",
+      "chapter_4_3_S1",
+      "chapter_5_1_S1"
+    ],
+    "interactions": 12
+  },
+  {
+    "source_id": "dunya",
+    "target_id": "pulcheria",
+    "label_a": "Авдотья Романовна Раскольникова",
+    "label_b": "Пульхерия Александровна Раскольникова",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 20.0,
+        "count": 5
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 17.0,
+        "count": 4
+      },
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 6.0,
+        "count": 2
+      },
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 4.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_1_3_S4",
+      "chapter_1_4_S1",
+      "chapter_3_1_S1",
+      "chapter_3_1_S4",
+      "chapter_3_2_S4",
+      "chapter_3_4_S2",
+      "chapter_6_7_1_S1",
+      "chapter_7_1_S3"
+    ],
+    "interactions": 12
+  },
+  {
+    "source_id": "luzhin",
+    "target_id": "sonya",
+    "label_a": "Пётр Петрович Лужин",
+    "label_b": "Софья Семёновна Мармеладова",
+    "types": [
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 24.0,
+        "count": 4
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 22.0,
+        "count": 4
+      },
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 9.0,
+        "count": 2
+      },
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 3.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_5_1_S3",
+      "chapter_5_1_S4",
+      "chapter_5_3_S1"
+    ],
+    "interactions": 11
+  },
+  {
+    "source_id": "katerina_ivanovna",
+    "target_id": "raskolnikov",
+    "label_a": "Катерина Ивановна Мармеладова",
+    "label_b": "Родион Романович Раскольников",
+    "types": [
+      {
+        "type": "Влияние и содействие",
+        "weight": 26.0,
+        "count": 6
+      },
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 11.0,
+        "count": 2
+      },
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 9.0,
+        "count": 2
+      }
+    ],
+    "scenes": [
+      "chapter_1_2_S6",
+      "chapter_1_2_S7",
+      "chapter_2_7_S2",
+      "chapter_2_7_S3",
+      "chapter_5_2_S1",
+      "chapter_5_2_S2",
+      "chapter_5_4_1_S1",
+      "chapter_5_5_S4"
+    ],
+    "interactions": 10
+  },
+  {
+    "source_id": "luzhin",
+    "target_id": "razumikhin",
+    "label_a": "Пётр Петрович Лужин",
+    "label_b": "Дмитрий Прокофьич Разумихин",
+    "types": [
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 22.0,
+        "count": 4
+      },
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 14.0,
+        "count": 4
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 10.0,
+        "count": 2
+      }
+    ],
+    "scenes": [
+      "chapter_2_5_S1",
+      "chapter_3_1_S3",
+      "chapter_3_2_S1",
+      "chapter_3_2_S3",
+      "chapter_4_2_S2"
+    ],
+    "interactions": 10
+  },
+  {
+    "source_id": "marfa_petrovna",
+    "target_id": "svidrigailov",
+    "label_a": "Марфа Петровна Свидригайлова",
+    "label_b": "Аркадий Иванович Свидригайлов",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 24.0,
+        "count": 4
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 23.0,
+        "count": 5
+      },
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 6.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_1_3_S4",
+      "chapter_3_3_S1",
+      "chapter_4_1_S2",
+      "chapter_4_1_S3",
+      "chapter_4_2_S2",
+      "chapter_6_4_S1"
+    ],
+    "interactions": 10
+  },
+  {
+    "source_id": "katerina_ivanovna",
+    "target_id": "luzhin",
+    "label_a": "Катерина Ивановна Мармеладова",
+    "label_b": "Пётр Петрович Лужин",
+    "types": [
+      {
+        "type": "Влияние и содействие",
+        "weight": 22.0,
+        "count": 4
+      },
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 14.0,
+        "count": 2
+      },
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 8.0,
+        "count": 2
+      },
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 8.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_5_1_S4",
+      "chapter_5_2_S1",
+      "chapter_5_2_S2",
+      "chapter_5_2_S3",
+      "chapter_5_3_S1",
+      "chapter_5_3_S2"
+    ],
+    "interactions": 9
+  },
+  {
+    "source_id": "luzhin",
+    "target_id": "pulcheria",
+    "label_a": "Пётр Петрович Лужин",
+    "label_b": "Пульхерия Александровна Раскольникова",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 14.0,
+        "count": 4
+      },
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 13.0,
+        "count": 2
+      },
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 10.0,
+        "count": 2
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 4.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_1_3_S5",
+      "chapter_3_2_S3",
+      "chapter_4_2_S2",
+      "chapter_5_1_S1"
+    ],
+    "interactions": 9
+  },
+  {
+    "source_id": "ilya_petrovich",
+    "target_id": "nikodim_fomich",
+    "label_a": "Илья Петрович (Порох)",
+    "label_b": "Никодим Фомич",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 8.0,
+        "count": 2
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 7.0,
+        "count": 2
+      },
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 6.0,
+        "count": 2
+      },
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 4.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_2_1_2_S4",
+      "chapter_2_1_2_S5"
+    ],
+    "interactions": 7
+  },
+  {
+    "source_id": "luzhin",
+    "target_id": "zosimov",
+    "label_a": "Пётр Петрович Лужин",
+    "label_b": "Зосимов",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 12.0,
+        "count": 6
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 2.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_2_5_S1"
+    ],
+    "interactions": 7
+  },
+  {
+    "source_id": "nastasya",
+    "target_id": "razumikhin",
+    "label_a": "Настасья",
+    "label_b": "Дмитрий Прокофьич Разумихин",
+    "types": [
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 6.0,
+        "count": 2
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 5.0,
+        "count": 2
+      },
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 3.0,
+        "count": 2
+      },
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 2.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_2_3_S3",
+      "chapter_2_3_S5",
+      "chapter_2_5_S1",
+      "chapter_2_5_S2",
+      "chapter_3_6_S3"
+    ],
+    "interactions": 7
+  },
+  {
+    "source_id": "dunya",
+    "target_id": "sonya",
+    "label_a": "Авдотья Романовна Раскольникова",
+    "label_b": "Софья Семёновна Мармеладова",
+    "types": [
+      {
+        "type": "Влияние и содействие",
+        "weight": 11.0,
+        "count": 3
+      },
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 5.0,
+        "count": 1
+      },
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 4.0,
+        "count": 1
+      },
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 3.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_3_4_S1",
+      "chapter_3_4_S2",
+      "chapter_6_8_S1",
+      "chapter_7_1_S7"
+    ],
+    "interactions": 6
+  },
+  {
+    "source_id": "lebezyatnikov",
+    "target_id": "raskolnikov",
+    "label_a": "Андрей Семёнович Лебезятников",
+    "label_b": "Родион Романович Раскольников",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 16.0,
+        "count": 4
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 5.0,
+        "count": 1
+      },
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 5.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_5_3_S2",
+      "chapter_5_5_S1",
+      "chapter_5_5_S2",
+      "chapter_5_5_S4",
+      "chapter_5_5_S7"
+    ],
+    "interactions": 6
+  },
+  {
+    "source_id": "lebezyatnikov",
+    "target_id": "sonya",
+    "label_a": "Андрей Семёнович Лебезятников",
+    "label_b": "Софья Семёновна Мармеладова",
+    "types": [
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 14.0,
+        "count": 2
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 8.0,
+        "count": 3
+      },
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 3.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_5_1_S3",
+      "chapter_5_1_S4",
+      "chapter_5_3_S2",
+      "chapter_5_4_2_S1",
+      "chapter_5_5_S1"
+    ],
+    "interactions": 6
+  },
+  {
+    "source_id": "svidrigailov",
+    "target_id": "svidrigailov_servant",
+    "label_a": "Аркадий Иванович Свидригайлов",
+    "label_b": "Филипп",
+    "types": [
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 11.0,
+        "count": 2
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 10.0,
+        "count": 4
+      }
+    ],
+    "scenes": [
+      "chapter_4_1_S3",
+      "chapter_4_2_S2",
+      "chapter_6_3_S2",
+      "chapter_6_4_S3"
+    ],
+    "interactions": 6
+  },
+  {
+    "source_id": "dunya",
+    "target_id": "marfa_petrovna",
+    "label_a": "Авдотья Романовна Раскольникова",
+    "label_b": "Марфа Петровна Свидригайлова",
+    "types": [
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 14.0,
+        "count": 2
+      },
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 12.0,
+        "count": 2
+      },
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 5.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_1_3_S3",
+      "chapter_1_3_S4",
+      "chapter_4_2_S2",
+      "chapter_6_4_S1"
+    ],
+    "interactions": 5
+  },
+  {
+    "source_id": "katerina_ivanovna",
+    "target_id": "marmeladov",
+    "label_a": "Катерина Ивановна Мармеладова",
+    "label_b": "Семён Захарович Мармеладов",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 30.0,
+        "count": 4
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 7.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_1_2_S2",
+      "chapter_1_2_S5",
+      "chapter_1_2_S6",
+      "chapter_2_7_S2"
+    ],
+    "interactions": 5
+  },
+  {
+    "source_id": "marmeladov",
+    "target_id": "raskolnikov",
+    "label_a": "Семён Захарович Мармеладов",
+    "label_b": "Родион Романович Раскольников",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 13.0,
+        "count": 3
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 12.0,
+        "count": 2
+      }
+    ],
+    "scenes": [
+      "chapter_1_2_S1",
+      "chapter_1_2_S6",
+      "chapter_2_7_S1",
+      "chapter_2_7_S2"
+    ],
+    "interactions": 5
+  },
+  {
+    "source_id": "nikodim_fomich",
+    "target_id": "raskolnikov",
+    "label_a": "Никодим Фомич",
+    "label_b": "Родион Романович Раскольников",
+    "types": [
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 9.0,
+        "count": 2
+      },
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 5.0,
+        "count": 1
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 3.0,
+        "count": 1
+      },
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 3.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_2_1_2_S4",
+      "chapter_2_1_2_S5",
+      "chapter_2_7_S3"
+    ],
+    "interactions": 5
+  },
+  {
+    "source_id": "sonya",
+    "target_id": "svidrigailov",
+    "label_a": "Софья Семёновна Мармеладова",
+    "label_b": "Аркадий Иванович Свидригайлов",
+    "types": [
+      {
+        "type": "Влияние и содействие",
+        "weight": 15.0,
+        "count": 3
+      },
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 2.0,
+        "count": 1
+      },
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 1.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_4_4_2_S3",
+      "chapter_5_5_S7",
+      "chapter_6_5_S1",
+      "chapter_6_6_S2"
+    ],
+    "interactions": 5
+  },
+  {
+    "source_id": "dushkin",
+    "target_id": "nikolai_dementyev",
+    "label_a": "Душкин",
+    "label_b": "Николай Дементьев (Миколай, маляр)",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 17.0,
+        "count": 3
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 6.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_2_4_S2"
+    ],
+    "interactions": 4
+  },
+  {
+    "source_id": "ilya_petrovich",
+    "target_id": "luiza_ivanovna",
+    "label_a": "Илья Петрович (Порох)",
+    "label_b": "Луиза Ивановна",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 10.0,
+        "count": 2
+      },
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 9.0,
+        "count": 1
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 8.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_2_1_2_S3"
+    ],
+    "interactions": 4
+  },
+  {
+    "source_id": "katerina_ivanovna",
+    "target_id": "lebezyatnikov",
+    "label_a": "Катерина Ивановна Мармеладова",
+    "label_b": "Андрей Семёнович Лебезятников",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 14.0,
+        "count": 2
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 11.0,
+        "count": 2
+      }
+    ],
+    "scenes": [
+      "chapter_1_2_S2",
+      "chapter_5_1_S3",
+      "chapter_5_2_S1",
+      "chapter_5_3_S2"
+    ],
+    "interactions": 4
+  },
+  {
+    "source_id": "katerina_ivanovna",
+    "target_id": "polenka",
+    "label_a": "Катерина Ивановна Мармеладова",
+    "label_b": "Полина Мармеладова",
+    "types": [
+      {
+        "type": "Влияние и содействие",
+        "weight": 8.0,
+        "count": 2
+      },
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 8.0,
+        "count": 1
+      },
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 1.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_2_7_S2",
+      "chapter_4_4_0_S1",
+      "chapter_5_2_S2",
+      "chapter_5_5_S6"
+    ],
+    "interactions": 4
+  },
+  {
+    "source_id": "marmeladov",
+    "target_id": "sonya",
+    "label_a": "Семён Захарович Мармеладов",
+    "label_b": "Софья Семёновна Мармеладова",
+    "types": [
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 18.0,
+        "count": 2
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 12.0,
+        "count": 2
+      }
+    ],
+    "scenes": [
+      "chapter_1_2_S5",
+      "chapter_2_7_S2"
+    ],
+    "interactions": 4
+  },
+  {
+    "source_id": "svidrigailov",
+    "target_id": "svidrigailov_fiancee",
+    "label_a": "Аркадий Иванович Свидригайлов",
+    "label_b": "Невеста Свидригайлова",
+    "types": [
+      {
+        "type": "Влияние и содействие",
+        "weight": 14.0,
+        "count": 3
+      },
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 4.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_6_4_S4",
+      "chapter_6_6_S3"
+    ],
+    "interactions": 4
+  },
+  {
+    "source_id": "achilles_watchman",
+    "target_id": "svidrigailov",
+    "label_a": "Ахиллес",
+    "label_b": "Аркадий Иванович Свидригайлов",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 16.0,
+        "count": 3
+      }
+    ],
+    "scenes": [
+      "chapter_6_6_S6"
+    ],
+    "interactions": 3
+  },
+  {
+    "source_id": "amalia_lippewechsel",
+    "target_id": "luzhin",
+    "label_a": "Амалия Ивановна Липпевехзель",
+    "label_b": "Пётр Петрович Лужин",
+    "types": [
+      {
+        "type": "Влияние и содействие",
+        "weight": 6.0,
+        "count": 1
+      },
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 4.0,
+        "count": 2
+      }
+    ],
+    "scenes": [
+      "chapter_5_1_S2",
+      "chapter_5_3_S1"
+    ],
+    "interactions": 3
+  },
+  {
+    "source_id": "katerina_ivanovna",
+    "target_id": "lida_marmeladov",
+    "label_a": "Катерина Ивановна Мармеладова",
+    "label_b": "Лидочка Мармеладова",
+    "types": [
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 7.0,
+        "count": 1
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 2.0,
+        "count": 1
+      },
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 1.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_4_4_0_S1",
+      "chapter_5_2_S2",
+      "chapter_5_5_S6"
+    ],
+    "interactions": 3
+  },
+  {
+    "source_id": "katya_singer",
+    "target_id": "svidrigailov",
+    "label_a": "Катя",
+    "label_b": "Аркадий Иванович Свидригайлов",
+    "types": [
+      {
+        "type": "Влияние и содействие",
+        "weight": 6.0,
+        "count": 2
+      },
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 3.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_6_3_S2",
+      "chapter_6_6_S1"
+    ],
+    "interactions": 3
+  },
+  {
+    "source_id": "lizaveta",
+    "target_id": "raskolnikov",
+    "label_a": "Лизавета Ивановна",
+    "label_b": "Родион Романович Раскольников",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 23.0,
+        "count": 3
+      }
+    ],
+    "scenes": [
+      "chapter_1_7_S2",
+      "chapter_5_4_0_S2",
+      "chapter_7_1_S1"
+    ],
+    "interactions": 3
+  },
+  {
+    "source_id": "lizaveta",
+    "target_id": "sonya",
+    "label_a": "Лизавета Ивановна",
+    "label_b": "Софья Семёновна Мармеладова",
+    "types": [
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 3.0,
+        "count": 2
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 2.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_4_4_0_S1",
+      "chapter_4_4_1_S3"
+    ],
+    "interactions": 3
+  },
+  {
+    "source_id": "nikolai_dementyev",
+    "target_id": "porfiry",
+    "label_a": "Николай Дементьев (Миколай, маляр)",
+    "label_b": "Порфирий Петрович",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 10.0,
+        "count": 2
+      },
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 9.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_4_6_S1"
+    ],
+    "interactions": 3
+  },
+  {
+    "source_id": "polenka",
+    "target_id": "raskolnikov",
+    "label_a": "Полина Мармеладова",
+    "label_b": "Родион Романович Раскольников",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 10.0,
+        "count": 2
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 6.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_2_7_S3"
+    ],
+    "interactions": 3
+  },
+  {
+    "source_id": "praskovya_pavlovna",
+    "target_id": "raskolnikov",
+    "label_a": "Прасковья Павловна Зарницына",
+    "label_b": "Родион Романович Раскольников",
+    "types": [
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 5.0,
+        "count": 1
+      },
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 4.0,
+        "count": 2
+      }
+    ],
+    "scenes": [
+      "chapter_1_1_S1",
+      "chapter_1_3_S1"
+    ],
+    "interactions": 3
+  },
+  {
+    "source_id": "pulcheria",
+    "target_id": "zosimov",
+    "label_a": "Пульхерия Александровна Раскольникова",
+    "label_b": "Зосимов",
+    "types": [
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 6.0,
+        "count": 2
+      },
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 5.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_3_1_S5",
+      "chapter_3_3_S1"
+    ],
+    "interactions": 3
+  },
+  {
+    "source_id": "raskolnikov",
+    "target_id": "raskolnikov_father",
+    "label_a": "Родион Романович Раскольников",
+    "label_b": "Отец Раскольникова",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 15.0,
+        "count": 3
+      }
+    ],
+    "scenes": [
+      "chapter_1_5_S1"
+    ],
+    "interactions": 3
+  },
+  {
+    "source_id": "razumikhin",
+    "target_id": "sonya",
+    "label_a": "Дмитрий Прокофьич Разумихин",
+    "label_b": "Софья Семёновна Мармеладова",
+    "types": [
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 5.0,
+        "count": 1
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 2.0,
+        "count": 1
+      },
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 2.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_3_4_S1",
+      "chapter_6_1_S2",
+      "chapter_7_1_S7"
+    ],
+    "interactions": 3
+  },
+  {
+    "source_id": "amalia_lippewechsel",
+    "target_id": "sonya",
+    "label_a": "Амалия Ивановна Липпевехзель",
+    "label_b": "Софья Семёновна Мармеладова",
+    "types": [
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 8.0,
+        "count": 1
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 6.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_1_2_S2",
+      "chapter_5_3_S1"
+    ],
+    "interactions": 2
+  },
+  {
+    "source_id": "chebarov",
+    "target_id": "praskovya_pavlovna",
+    "label_a": "Чебаров",
+    "label_b": "Прасковья Павловна Зарницына",
+    "types": [
+      {
+        "type": "Влияние и содействие",
+        "weight": 10.0,
+        "count": 2
+      }
+    ],
+    "scenes": [
+      "chapter_2_3_S4"
+    ],
+    "interactions": 2
+  },
+  {
+    "source_id": "duklida",
+    "target_id": "raskolnikov",
+    "label_a": "Дуклида",
+    "label_b": "Родион Романович Раскольников",
+    "types": [
+      {
+        "type": "Влияние и содействие",
+        "weight": 8.0,
+        "count": 2
+      }
+    ],
+    "scenes": [
+      "chapter_2_6_S1"
+    ],
+    "interactions": 2
+  },
+  {
+    "source_id": "dunya",
+    "target_id": "zosimov",
+    "label_a": "Авдотья Романовна Раскольникова",
+    "label_b": "Зосимов",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 7.0,
+        "count": 2
+      }
+    ],
+    "scenes": [
+      "chapter_3_1_S5",
+      "chapter_3_3_S1"
+    ],
+    "interactions": 2
+  },
+  {
+    "source_id": "ivan_afanasievich",
+    "target_id": "marmeladov",
+    "label_a": "Иван Афанасьевич",
+    "label_b": "Семён Захарович Мармеладов",
+    "types": [
+      {
+        "type": "Влияние и содействие",
+        "weight": 12.0,
+        "count": 2
+      }
+    ],
+    "scenes": [
+      "chapter_1_2_S4"
+    ],
+    "interactions": 2
+  },
+  {
+    "source_id": "katerina_ivanovna",
+    "target_id": "kolya_marmeladov",
+    "label_a": "Катерина Ивановна Мармеладова",
+    "label_b": "Коля Мармеладов",
+    "types": [
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 7.0,
+        "count": 1
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 2.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_5_2_S2",
+      "chapter_5_5_S6"
+    ],
+    "interactions": 2
+  },
+  {
+    "source_id": "luiza_ivanovna",
+    "target_id": "zametov",
+    "label_a": "Луиза Ивановна",
+    "label_b": "Александр Григорьевич Заметов",
+    "types": [
+      {
+        "type": "Влияние и содействие",
+        "weight": 1.0,
+        "count": 1
+      },
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 1.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_2_1_2_S1"
+    ],
+    "interactions": 2
+  },
+  {
+    "source_id": "luzhin",
+    "target_id": "svidrigailov",
+    "label_a": "Пётр Петрович Лужин",
+    "label_b": "Аркадий Иванович Свидригайлов",
+    "types": [
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 7.0,
+        "count": 1
+      },
+      {
+        "type": "Влияние и содействие",
+        "weight": 4.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_4_1_S1",
+      "chapter_4_2_S2"
+    ],
+    "interactions": 2
+  },
+  {
+    "source_id": "mikolka_dream",
+    "target_id": "porfiry",
+    "label_a": "Миколка (мужик из сна Раскольникова)",
+    "label_b": "Порфирий Петрович",
+    "types": [
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 4.0,
+        "count": 1
+      },
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 3.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_6_2_S1"
+    ],
+    "interactions": 2
+  },
+  {
+    "source_id": "mikolka_dream",
+    "target_id": "raskolnikov",
+    "label_a": "Миколка (мужик из сна Раскольникова)",
+    "label_b": "Родион Романович Раскольников",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 8.0,
+        "count": 1
+      },
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 5.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_1_5_S1",
+      "chapter_6_2_S1"
+    ],
+    "interactions": 2
+  },
+  {
+    "source_id": "nikolai_dementyev",
+    "target_id": "razumikhin",
+    "label_a": "Николай Дементьев (Миколай, маляр)",
+    "label_b": "Дмитрий Прокофьич Разумихин",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 14.0,
+        "count": 2
+      }
+    ],
+    "scenes": [
+      "chapter_2_4_S2"
+    ],
+    "interactions": 2
+  },
+  {
+    "source_id": "officer_tavern",
+    "target_id": "student_tavern",
+    "label_a": "Офицер (в трактире)",
+    "label_b": "Студент (в трактире)",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 6.0,
+        "count": 2
+      }
+    ],
+    "scenes": [
+      "chapter_1_6_S2"
+    ],
+    "interactions": 2
+  },
+  {
+    "source_id": "pulcheria",
+    "target_id": "sonya",
+    "label_a": "Пульхерия Александровна Раскольникова",
+    "label_b": "Софья Семёновна Мармеладова",
+    "types": [
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 10.0,
+        "count": 2
+      }
+    ],
+    "scenes": [
+      "chapter_3_4_S1",
+      "chapter_3_4_S2"
+    ],
+    "interactions": 2
+  },
+  {
+    "source_id": "razumikhin",
+    "target_id": "svidrigailov",
+    "label_a": "Дмитрий Прокофьич Разумихин",
+    "label_b": "Аркадий Иванович Свидригайлов",
+    "types": [
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 3.0,
+        "count": 1
+      },
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 3.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_4_1_S4",
+      "chapter_6_6_S2"
+    ],
+    "interactions": 2
+  },
+  {
+    "source_id": "razumikhin",
+    "target_id": "zametov",
+    "label_a": "Дмитрий Прокофьич Разумихин",
+    "label_b": "Александр Григорьевич Заметов",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 4.0,
+        "count": 2
+      }
+    ],
+    "scenes": [
+      "chapter_2_3_S4",
+      "chapter_4_2_S1"
+    ],
+    "interactions": 2
+  },
+  {
+    "source_id": "alena_ivanovna",
+    "target_id": "koch",
+    "label_a": "Алёна Ивановна",
+    "label_b": "Кох",
+    "types": [
+      {
+        "type": "Влияние и содействие",
+        "weight": 4.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_1_7_S3"
+    ],
+    "interactions": 1
+  },
+  {
+    "source_id": "alena_ivanovna",
+    "target_id": "lizaveta",
+    "label_a": "Алёна Ивановна",
+    "label_b": "Лизавета Ивановна",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 6.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_1_6_S2"
+    ],
+    "interactions": 1
+  },
+  {
+    "source_id": "alena_ivanovna",
+    "target_id": "student_tavern",
+    "label_a": "Алёна Ивановна",
+    "label_b": "Студент (в трактире)",
+    "types": [
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 5.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_1_6_S2"
+    ],
+    "interactions": 1
+  },
+  {
+    "source_id": "amalia_lippewechsel",
+    "target_id": "lebezyatnikov",
+    "label_a": "Амалия Ивановна Липпевехзель",
+    "label_b": "Андрей Семёнович Лебезятников",
+    "types": [
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 4.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_2_7_S2"
+    ],
+    "interactions": 1
+  },
+  {
+    "source_id": "chebarov",
+    "target_id": "razumikhin",
+    "label_a": "Чебаров",
+    "label_b": "Дмитрий Прокофьич Разумихин",
+    "types": [
+      {
+        "type": "Влияние и содействие",
+        "weight": 6.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_2_3_S4"
+    ],
+    "interactions": 1
+  },
+  {
+    "source_id": "daria_frantsovna",
+    "target_id": "sonya",
+    "label_a": "Дарья Францовна",
+    "label_b": "Софья Семёновна Мармеладова",
+    "types": [
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 7.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_1_2_S2"
+    ],
+    "interactions": 1
+  },
+  {
+    "source_id": "dmitri_painter",
+    "target_id": "nikolai_dementyev",
+    "label_a": "Дмитрий (напарник маляра)",
+    "label_b": "Николай Дементьев (Миколай, маляр)",
+    "types": [
+      {
+        "type": "Влияние и содействие",
+        "weight": 4.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_4_6_S1"
+    ],
+    "interactions": 1
+  },
+  {
+    "source_id": "doctor_bn",
+    "target_id": "porfiry",
+    "label_a": "Доктор Б—н",
+    "label_b": "Порфирий Петрович",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 2.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_6_2_S1"
+    ],
+    "interactions": 1
+  },
+  {
+    "source_id": "ilya_petrovich",
+    "target_id": "praskovya_pavlovna",
+    "label_a": "Илья Петрович (Порох)",
+    "label_b": "Прасковья Павловна Зарницына",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 10.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_2_2_S3"
+    ],
+    "interactions": 1
+  },
+  {
+    "source_id": "ilya_petrovich",
+    "target_id": "razumikhin",
+    "label_a": "Илья Петрович (Порох)",
+    "label_b": "Дмитрий Прокофьич Разумихин",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 2.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_2_3_S4"
+    ],
+    "interactions": 1
+  },
+  {
+    "source_id": "ivan_afanasievich",
+    "target_id": "katerina_ivanovna",
+    "label_a": "Иван Афанасьевич",
+    "label_b": "Катерина Ивановна Мармеладова",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 7.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_5_5_S1"
+    ],
+    "interactions": 1
+  },
+  {
+    "source_id": "kapernaumov",
+    "target_id": "zosimov",
+    "label_a": "Капернаумов",
+    "label_b": "Зосимов",
+    "types": [
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 4.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_5_5_S5"
+    ],
+    "interactions": 1
+  },
+  {
+    "source_id": "katerina_ivanovna",
+    "target_id": "svidrigailov",
+    "label_a": "Катерина Ивановна Мармеладова",
+    "label_b": "Аркадий Иванович Свидригайлов",
+    "types": [
+      {
+        "type": "Влияние и содействие",
+        "weight": 4.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_6_1_S1"
+    ],
+    "interactions": 1
+  },
+  {
+    "source_id": "klopstock",
+    "target_id": "sonya",
+    "label_a": "Клопшток, Иван Иванович",
+    "label_b": "Софья Семёновна Мармеладова",
+    "types": [
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 6.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_1_2_S2"
+    ],
+    "interactions": 1
+  },
+  {
+    "source_id": "koch",
+    "target_id": "lizaveta",
+    "label_a": "Кох",
+    "label_b": "Лизавета Ивановна",
+    "types": [
+      {
+        "type": "Влияние и содействие",
+        "weight": 4.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_1_7_S3"
+    ],
+    "interactions": 1
+  },
+  {
+    "source_id": "koch",
+    "target_id": "raskolnikov",
+    "label_a": "Кох",
+    "label_b": "Родион Романович Раскольников",
+    "types": [
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 3.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_7_1_S1"
+    ],
+    "interactions": 1
+  },
+  {
+    "source_id": "lizaveta",
+    "target_id": "officer_tavern",
+    "label_a": "Лизавета Ивановна",
+    "label_b": "Офицер (в трактире)",
+    "types": [
+      {
+        "type": "Влияние и содействие",
+        "weight": 1.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_1_6_S2"
+    ],
+    "interactions": 1
+  },
+  {
+    "source_id": "luzhin",
+    "target_id": "marfa_petrovna",
+    "label_a": "Пётр Петрович Лужин",
+    "label_b": "Марфа Петровна Свидригайлова",
+    "types": [
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 3.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_1_3_S5"
+    ],
+    "interactions": 1
+  },
+  {
+    "source_id": "marmeladov",
+    "target_id": "zosimov",
+    "label_a": "Семён Захарович Мармеладов",
+    "label_b": "Зосимов",
+    "types": [
+      {
+        "type": "Влияние и содействие",
+        "weight": 8.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_2_7_S2"
+    ],
+    "interactions": 1
+  },
+  {
+    "source_id": "nastasya",
+    "target_id": "pulcheria",
+    "label_a": "Настасья",
+    "label_b": "Пульхерия Александровна Раскольникова",
+    "types": [
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 5.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_3_3_S1"
+    ],
+    "interactions": 1
+  },
+  {
+    "source_id": "nastasya",
+    "target_id": "zosimov",
+    "label_a": "Настасья",
+    "label_b": "Зосимов",
+    "types": [
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 4.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_2_4_S1"
+    ],
+    "interactions": 1
+  },
+  {
+    "source_id": "nikodim_fomich",
+    "target_id": "razumikhin",
+    "label_a": "Никодим Фомич",
+    "label_b": "Дмитрий Прокофьич Разумихин",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 2.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_2_3_S4"
+    ],
+    "interactions": 1
+  },
+  {
+    "source_id": "nikodim_fomich",
+    "target_id": "zametov",
+    "label_a": "Никодим Фомич",
+    "label_b": "Александр Григорьевич Заметов",
+    "types": [
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 3.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_2_1_2_S5"
+    ],
+    "interactions": 1
+  },
+  {
+    "source_id": "parasha",
+    "target_id": "svidrigailov",
+    "label_a": "Параша",
+    "label_b": "Аркадий Иванович Свидригайлов",
+    "types": [
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 6.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_6_4_S2"
+    ],
+    "interactions": 1
+  },
+  {
+    "source_id": "pokorev",
+    "target_id": "raskolnikov",
+    "label_a": "Покорев",
+    "label_b": "Родион Романович Раскольников",
+    "types": [
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 1.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_1_6_S1"
+    ],
+    "interactions": 1
+  },
+  {
+    "source_id": "polenka",
+    "target_id": "sonya",
+    "label_a": "Полина Мармеладова",
+    "label_b": "Софья Семёновна Мармеладова",
+    "types": [
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 5.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_2_7_S2"
+    ],
+    "interactions": 1
+  },
+  {
+    "source_id": "porfiry",
+    "target_id": "zametov",
+    "label_a": "Порфирий Петрович",
+    "label_b": "Александр Григорьевич Заметов",
+    "types": [
+      {
+        "type": "Влияние и содействие",
+        "weight": 4.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_6_2_S1"
+    ],
+    "interactions": 1
+  },
+  {
+    "source_id": "praskovya_pavlovna",
+    "target_id": "razumikhin",
+    "label_a": "Прасковья Павловна Зарницына",
+    "label_b": "Дмитрий Прокофьич Разумихин",
+    "types": [
+      {
+        "type": "Влияние и содействие",
+        "weight": 4.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_2_3_S4"
+    ],
+    "interactions": 1
+  },
+  {
+    "source_id": "praskovya_pavlovna",
+    "target_id": "zosimov",
+    "label_a": "Прасковья Павловна Зарницына",
+    "label_b": "Зосимов",
+    "types": [
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 2.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_3_2_S2"
+    ],
+    "interactions": 1
+  },
+  {
+    "source_id": "pulcheria",
+    "target_id": "svidrigailov",
+    "label_a": "Пульхерия Александровна Раскольникова",
+    "label_b": "Аркадий Иванович Свидригайлов",
+    "types": [
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 4.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_4_3_S2"
+    ],
+    "interactions": 1
+  },
+  {
+    "source_id": "pulcheria",
+    "target_id": "vakhrushin",
+    "label_a": "Пульхерия Александровна Раскольникова",
+    "label_b": "Афанасий Иванович Вахрушин",
+    "types": [
+      {
+        "type": "Влияние и содействие",
+        "weight": 3.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_1_3_S2"
+    ],
+    "interactions": 1
+  },
+  {
+    "source_id": "raskolnikov",
+    "target_id": "raskolnikov_fiancee",
+    "label_a": "Родион Романович Раскольников",
+    "label_b": "Наталья Егоровна Зарницына",
+    "types": [
+      {
+        "type": "Прямое взаимодействие",
+        "weight": 2.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_6_7_2_S3"
+    ],
+    "interactions": 1
+  },
+  {
+    "source_id": "raskolnikov",
+    "target_id": "student_tavern",
+    "label_a": "Родион Романович Раскольников",
+    "label_b": "Студент (в трактире)",
+    "types": [
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 3.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_7_1_S1"
+    ],
+    "interactions": 1
+  },
+  {
+    "source_id": "resslich",
+    "target_id": "svidrigailov",
+    "label_a": "Гертруда Карловна Ресслих",
+    "label_b": "Аркадий Иванович Свидригайлов",
+    "types": [
+      {
+        "type": "Непрямое взаимодействие",
+        "weight": 5.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_6_4_S4"
+    ],
+    "interactions": 1
+  },
+  {
+    "source_id": "zametov",
+    "target_id": "zosimov",
+    "label_a": "Александр Григорьевич Заметов",
+    "label_b": "Зосимов",
+    "types": [
+      {
+        "type": "Эмоциональное отношение",
+        "weight": 4.0,
+        "count": 1
+      }
+    ],
+    "scenes": [
+      "chapter_2_4_S1"
+    ],
+    "interactions": 1
+  }
+]

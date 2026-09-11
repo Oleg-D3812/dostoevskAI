@@ -69,11 +69,166 @@
   function loadGraph(context) {
     context.panel.classList.add("graph-panel");
     var container = document.createElement("div"); container.id = "graph-container";
-    container.innerHTML = '<div class="loading-state">Загрузка графа…</div>'; context.panel.appendChild(container);
-    return AtlasData.fetchJson(AtlasData.resolveRelative(context.manifestUrl, context.feature.entry), context.signal).then(function(data) {
+    container.innerHTML = '<div class="loading-state">Загрузка графа…</div>';
+    var entryUrl = AtlasData.resolveRelative(context.manifestUrl, context.feature.entry);
+    return AtlasData.fetchJson(entryUrl, context.signal).then(function(data) {
+      if (data && Array.isArray(data.interaction_types)) {
+        return setupNetworkGraph(context, container, data);
+      }
+      context.panel.appendChild(container); container.innerHTML = "";
       initGraph(container, data.nodes || [], data.edges || [], function(node) { showModal(node.label, "герой", node.desc); },
         function(edge, fromNode, toNode) { var title = (fromNode ? fromNode.label : edge.from) + " → " + (toNode ? toNode.label : edge.to); showModal(title, "связь", (edge.label || "") + "\n\n" + (edge.desc || "")); });
     }).catch(function(error) { if (error.name !== "AbortError") renderPanelError(container, "Не удалось загрузить граф: " + error.message); });
+  }
+
+  // Self-contained character network (character-network.json, schema_version 1):
+  // one "Отношения" mode (edge.relation, coloured by category) plus one mode per
+  // interaction type (edge.types[typeId]). Edge weights arrive pre-normalised 1..5.
+  function setupNetworkGraph(context, container, data) {
+    var files = context.novelManifest && context.novelManifest.files;
+    var chaptersRel = (files && files.chapters) || "chapters.json";
+    var chaptersUrl = AtlasData.resolveRelative(context.manifestUrl, chaptersRel);
+    return AtlasData.fetchJson(chaptersUrl, context.signal).catch(function() { return null; }).then(function(chaptersDoc) {
+      var chapterById = {};
+      var chList = chaptersDoc && chaptersDoc.chapters ? chaptersDoc.chapters : (Array.isArray(chaptersDoc) ? chaptersDoc : []);
+      chList.forEach(function(c) { if (c && c.id) chapterById[c.id] = c; });
+      buildNetworkGraph(context, container, data, chapterById);
+    });
+  }
+
+  // Resolve "chapter_2_1_2" to a chapters.json entry, falling back to the parent
+  // logical chapter ("2_1_2" -> "2_1") when the sub-section isn't listed.
+  function resolveChapter(chapterById, introChapter) {
+    if (!introChapter) return null;
+    var key = String(introChapter).replace(/^chapter_/, "");
+    while (key) {
+      if (chapterById[key]) return chapterById[key];
+      var cut = key.lastIndexOf("_");
+      if (cut < 0) return null;
+      key = key.slice(0, cut);
+    }
+    return null;
+  }
+
+  function nodeModalBody(node, chapterById) {
+    var body = node.desc || "";
+    var ch = resolveChapter(chapterById, node.intro_chapter);
+    if (ch) {
+      body += (body ? "\n\n" : "") + "──────────\nВпервые появляется: " + (ch.label || node.intro_chapter);
+      if (ch.description) body += "\n\n" + ch.description;
+    }
+    return body;
+  }
+
+  function buildNetworkGraph(context, container, data, chapterById) {
+    var catColor = {};
+    (data.categories || []).forEach(function(c) { catColor[c.id] = c.color; });
+    var typeLabel = {};
+    (data.interaction_types || []).forEach(function(t) { typeLabel[t.id] = AtlasData.localized(t.label); });
+
+    var nodesData = (data.nodes || []).map(function(n) {
+      return { id: n.id, label: n.label || n.id, desc: n.desc || "", intro_chapter: n.intro_chapter };
+    });
+    var nameById = {};
+    nodesData.forEach(function(n) { nameById[n.id] = n.label; });
+
+    var modes = [{ id: "relations", label: "Отношения", kind: "relations" }].concat(
+      (data.interaction_types || []).map(function(t) { return { id: t.id, label: typeLabel[t.id], kind: "type" }; }));
+
+    var modeEdges = {};
+    modes.forEach(function(mode) {
+      var list = [];
+      (data.edges || []).forEach(function(e) {
+        if (mode.kind === "relations") {
+          if (!e.relation) return;
+          list.push({ from: e.a, to: e.b, label: "",
+            color: catColor[e.relation.category] || catColor["прочее"],
+            weight: { N: e.relation.weight || 1 },
+            desc: relationDesc(e, nameById) });
+        } else {
+          var t = e.types && e.types[mode.id];
+          if (!t) return;
+          list.push({ from: e.a, to: e.b, label: String(t.count),
+            weight: { N: t.weight || 1 },
+            desc: typeDesc(e, mode.id, typeLabel) });
+        }
+      });
+      modeEdges[mode.id] = list;
+    });
+
+    // Superset used once to lay out the nodes; every mode is a subset of it,
+    // so positions stay put when the filter changes.
+    var layoutEdges = (data.edges || []).map(function(e) {
+      var rw = e.relation ? e.relation.weight : 1;
+      return { from: e.a, to: e.b, weight: { N: rw || 1 } };
+    });
+
+    var graph;
+    var bar = document.createElement("div"); bar.className = "graph-modes";
+    var legend = document.createElement("div"); legend.className = "graph-legend";
+    modes.forEach(function(mode, index) {
+      var button = document.createElement("button");
+      button.className = "graph-mode-btn" + (index === 0 ? " active" : "");
+      button.textContent = mode.label;
+      button.addEventListener("click", function() {
+        bar.querySelectorAll(".graph-mode-btn").forEach(function(x) { x.classList.remove("active"); });
+        button.classList.add("active");
+        if (graph) graph.applyEdges(modeEdges[mode.id]);
+        renderLegend(mode);
+      });
+      bar.appendChild(button);
+    });
+
+    context.panel.appendChild(bar);
+    context.panel.appendChild(legend);
+    context.panel.appendChild(container);
+    container.innerHTML = "";
+
+    graph = initGraph(container, nodesData, modeEdges[modes[0].id],
+      function(node) { showModal(node.label, "герой", nodeModalBody(node, chapterById)); },
+      function(edge, fromNode, toNode) {
+        var title = (fromNode ? fromNode.label : edge.from) + " ↔ " + (toNode ? toNode.label : edge.to);
+        showModal(title, "связь", edge.desc || edge.label || "");
+      },
+      layoutEdges);
+    renderLegend(modes[0]);
+
+    function renderLegend(mode) {
+      if (mode.kind === "relations") {
+        legend.innerHTML = (data.categories || []).map(function(c) {
+          return '<span class="graph-legend-item"><i style="background:' + c.color + '"></i>' + escapeHtml(c.id) + "</span>";
+        }).join("");
+      } else {
+        legend.innerHTML = '<span class="graph-legend-note">Толщина линии — сила взаимодействия, число на ней — количество реплик. Персонажи без связей этого типа приглушены.</span>';
+      }
+    }
+  }
+
+  function relationDesc(e, nameById) {
+    var r = e.relation || {};
+    var na = nameById[e.a] || e.a, nb = nameById[e.b] || e.b;
+    var roles = r.roles || [];
+    var lines = ["Категория: " + r.category];
+    if (roles[0] || roles[1]) {
+      lines.push(na + " → " + nb + ": " + (roles[0] || "—"));
+      lines.push(nb + " → " + na + ": " + (roles[1] || "—"));
+    }
+    if (r.evolves) lines.push("Отношения меняются по ходу романа.");
+    if (r.note) lines.push("\n" + r.note);
+    lines.push("\nВзаимодействий: " + (e.interactions || 0) + " · глав: " + ((r.chapters || []).length));
+    return lines.join("\n");
+  }
+
+  function typeDesc(e, typeId, typeLabel) {
+    var types = e.types || {};
+    var here = types[typeId] || {};
+    var order = Object.keys(types).sort(function(x, y) { return (types[y].count || 0) - (types[x].count || 0); });
+    var lines = [typeLabel[typeId] || typeId, "Реплик: " + here.count + " · сила: " + here.raw_weight, "", "Все типы для этой пары:"];
+    order.forEach(function(k) {
+      lines.push("· " + (typeLabel[k] || k) + " — " + types[k].count + " реплик (сила " + types[k].raw_weight + ")");
+    });
+    lines.push("\nВсего взаимодействий: " + (e.interactions || 0));
+    return lines.join("\n");
   }
 
   function renderExplorerIndex(context) {
@@ -99,11 +254,23 @@
   function explorerVisual(explorer) {
     var key = ((explorer.entry || "") + " " + (explorer.name || "")).toLowerCase();
     if (/pipeline|diagram/.test(key)) return visualPipeline();
+    if (/chapter_plutchik_table|profiles by chapter|table/.test(key)) return visualChapterTable();
     if (/radar|plutchik/.test(key)) return visualRadar();
     if (/centroid.*sphere|sphere/.test(key)) return visualSpheres();
     if (/sentence.window|animation/.test(key)) return visualAnimation();
     if (/kmeans_interactive|cluster space/.test(key)) return visualClusterScatter();
     return visualCloud();
+  }
+
+  // Plutchik profiles by chapter: three small radar shapes in a row, each a different silhouette.
+  function visualChapterTable() {
+    return '<svg viewBox="0 0 360 130">' +
+      '<polygon class="chart-line" fill="none" stroke-width="1.2" points="75,37 99,51 99,79 75,93 51,79 51,51"/>' +
+      '<polygon class="series-v" opacity=".8" points="75,55 91,56 85,75 75,81 57,72 63,54"/>' +
+      '<polygon class="chart-line" fill="none" stroke-width="1.2" points="180,37 204,51 204,79 180,93 156,79 156,51"/>' +
+      '<polygon class="series-a" opacity=".8" points="180,41 200,59 188,77 180,75 158,77 170,47"/>' +
+      '<polygon class="chart-line" fill="none" stroke-width="1.2" points="285,37 309,51 309,79 285,93 261,79 261,51"/>' +
+      '<polygon class="series-d" opacity=".8" points="285,49 299,53 307,73 285,85 275,71 265,57"/></svg>';
   }
 
   // VAD -> Plutchik pipeline: a row of connected stage boxes, final step highlighted.

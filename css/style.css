@@ -177,6 +177,60 @@ a:hover { color: var(--hover-color); }
   min-height: 0;
 }
 
+.graph-modes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border-color);
+  background: var(--sidebar-bg);
+  flex-shrink: 0;
+}
+.graph-mode-btn {
+  padding: 6px 13px;
+  border: 1px solid var(--border-color);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--text-muted);
+  font: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color .15s, background .15s, border-color .15s;
+}
+.graph-mode-btn:hover {
+  color: var(--text-color);
+  background: var(--surface-solid);
+}
+.graph-mode-btn.active {
+  border-color: color-mix(in srgb, var(--accent-color) 42%, var(--border-color));
+  color: var(--accent-color);
+  background: var(--accent-soft);
+}
+.graph-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--border-color);
+  background: var(--surface-solid);
+  font-size: 11px;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+.graph-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.graph-legend-item i {
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  display: inline-block;
+}
+.graph-legend-note { line-height: 1.5; }
+
 /* === Emotional analysis === */
 .analysis-shell { min-height: 100%; display: grid; grid-template-columns: 250px minmax(0, 1fr); }
 .analysis-sidebar { padding: 24px; background: rgba(45, 55, 72, 0.55); border-right: 1px solid var(--border-color); }

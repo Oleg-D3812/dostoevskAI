@@ -14,11 +14,11 @@
         { "name": "Chapter VAD and Plutchik profiles", "description": "Select a character and chapter to compare the 3D VAD cloud with 8- and 16-component Plutchik profiles.", "entry": "../../../explorers/chapter_vad_clouds_with_radar.html" },
         { "name": "Chapter VAD clouds", "description": "Select characters and chapters to explore fragment-level VAD points in 3D.", "entry": "../../../explorers/chapter_vad_clouds.html" },
         { "name": "K-Means centroids and spheres", "description": "Inspect cluster centroids, VAD fragments, spheres and Plutchik anchors.", "entry": "../../../explorers/separate_kmeans_centroid_spheres.html" },
-        { "name": "Sentence-window VAD animation", "description": "Move a configurable sentence window through the novel and watch active character states appear in VAD space alongside the highlighted text.", "entry": "../../../explorers/vad_sentence_window_animation.html" }
-
+        { "name": "Sentence-window VAD animation", "description": "Move a configurable sentence window through the novel and watch active character states appear in VAD space alongside the highlighted text.", "entry": "../../../explorers/vad_sentence_window_animation.html" },
+        { "name": "Plutchik profiles by chapter", "description": "Scroll a table of every chapter's 8- and 16-component Plutchik profile for one character at a time; click any chart to zoom in.", "entry": "../../../explorers/chapter_plutchik_table.html" }
       ]
     },
-    { "id": "character-network", "renderer": "graph", "label": { "ru": "Граф связей", "en": "Character network" }, "status": "unavailable" },
+    { "id": "character-network", "renderer": "graph", "label": { "ru": "Граф связей", "en": "Character network" }, "status": "ready", "entry": "character-network.json" },
     { "id": "timeline", "renderer": "timeline", "label": { "ru": "Хронология", "en": "Timeline" }, "status": "planned" }
   ],
   "schema_version": 1,
