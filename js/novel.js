@@ -110,17 +110,38 @@
     return null;
   }
 
-  function nodeModalBody(node, chapterById) {
-    var body = node.desc || "";
-    var ch = resolveChapter(chapterById, node.intro_chapter);
-    if (ch) {
-      body += (body ? "\n\n" : "") + "──────────\nВпервые появляется: " + (ch.label || node.intro_chapter);
-      if (ch.description) body += "\n\n" + ch.description;
-    }
-    return body;
+  function normalizeYo(s) { return s.replace(/Ё/g, "Е").replace(/ё/g, "е"); }
+
+  // Highlight every occurrence of any alias from any group in `text`
+  // (е/ё-insensitive, whole words only), tagging each match with its group's
+  // CSS class so several characters can be picked out in different colours.
+  // `text` is escaped first, so the result is safe to use as HTML.
+  // groups: [{ aliases: [string], className: string }]
+  function highlightNames(text, groups) {
+    var escaped = escapeHtml(text);
+    var entries = [];
+    (groups || []).forEach(function(g) {
+      (g.aliases || []).filter(Boolean).forEach(function(a) { entries.push({ alias: a, cls: g.className || "" }); });
+    });
+    if (!entries.length) return escaped;
+    entries.sort(function(a, b) { return b.alias.length - a.alias.length; });
+    var boundary = "A-Za-zА-Яа-яЁё";
+    var pattern = entries.map(function(e) {
+      return e.alias.replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/[её]/gi, "[её]");
+    }).join("|");
+    var re = new RegExp("(^|[^" + boundary + "])(" + pattern + ")(?![" + boundary + "])", "gi");
+    return escaped.replace(re, function(m, pre, name) {
+      var norm = normalizeYo(name.toLowerCase());
+      var hit = entries.find(function(e) { return normalizeYo(e.alias.toLowerCase()) === norm; });
+      return pre + '<mark class="' + (hit ? hit.cls : "") + '">' + name + "</mark>";
+    });
   }
 
   function buildNetworkGraph(context, container, data, chapterById) {
+    var files = context.novelManifest && context.novelManifest.files;
+    // Guards against a slow async render (chapter text, scene list) landing
+    // after the user has already clicked something else.
+    var renderSeq = 0;
     var catColor = {};
     (data.categories || []).forEach(function(c) { catColor[c.id] = c.color; });
     var typeLabel = {};
@@ -144,13 +165,13 @@
           list.push({ from: e.a, to: e.b, label: "",
             color: catColor[e.relation.category] || catColor["прочее"],
             weight: { N: e.relation.weight || 1 },
-            desc: relationDesc(e, nameById) });
+            kind: "relations", raw: e });
         } else {
           var t = e.types && e.types[mode.id];
           if (!t) return;
           list.push({ from: e.a, to: e.b, label: String(t.count),
             weight: { N: t.weight || 1 },
-            desc: typeDesc(e, mode.id, typeLabel) });
+            kind: "type", typeId: mode.id, raw: e });
         }
       });
       modeEdges[mode.id] = list;
@@ -166,6 +187,8 @@
     var graph;
     var bar = document.createElement("div"); bar.className = "graph-modes";
     var legend = document.createElement("div"); legend.className = "graph-legend";
+    var body = document.createElement("div"); body.className = "graph-body";
+    var side = document.createElement("div"); side.className = "graph-side";
     modes.forEach(function(mode, index) {
       var button = document.createElement("button");
       button.className = "graph-mode-btn" + (index === 0 ? " active" : "");
@@ -181,17 +204,15 @@
 
     context.panel.appendChild(bar);
     context.panel.appendChild(legend);
-    context.panel.appendChild(container);
+    context.panel.appendChild(body);
+    body.appendChild(container);
+    body.appendChild(side);
     container.innerHTML = "";
 
     graph = initGraph(container, nodesData, modeEdges[modes[0].id],
-      function(node) { showModal(node.label, "герой", nodeModalBody(node, chapterById)); },
-      function(edge, fromNode, toNode) {
-        var title = (fromNode ? fromNode.label : edge.from) + " ↔ " + (toNode ? toNode.label : edge.to);
-        showModal(title, "связь", edge.desc || edge.label || "");
-      },
-      layoutEdges);
+      renderNodeDetails, renderEdgeDetails, layoutEdges, renderEmptyDetails);
     renderLegend(modes[0]);
+    renderEmptyDetails();
 
     function renderLegend(mode) {
       if (mode.kind === "relations") {
@@ -202,21 +223,149 @@
         legend.innerHTML = '<span class="graph-legend-note">Толщина линии — сила взаимодействия, число на ней — количество реплик. Персонажи без связей этого типа приглушены.</span>';
       }
     }
-  }
 
-  function relationDesc(e, nameById) {
-    var r = e.relation || {};
-    var na = nameById[e.a] || e.a, nb = nameById[e.b] || e.b;
-    var roles = r.roles || [];
-    var lines = ["Категория: " + r.category];
-    if (roles[0] || roles[1]) {
-      lines.push(na + " → " + nb + ": " + (roles[0] || "—"));
-      lines.push(nb + " → " + na + ": " + (roles[1] || "—"));
+    function renderEmptyDetails() {
+      renderSeq++;
+      side.innerHTML = '<p class="side-hint">Кликните героя или связь на графе, чтобы увидеть подробности.</p>';
     }
-    if (r.evolves) lines.push("Отношения меняются по ходу романа.");
-    if (r.note) lines.push("\n" + r.note);
-    lines.push("\nВзаимодействий: " + (e.interactions || 0) + " · глав: " + ((r.chapters || []).length));
-    return lines.join("\n");
+
+    function renderNodeDetails(node) {
+      renderSeq++;
+      var html = "<h3>" + escapeHtml(node.label) + '</h3><span class="pill pill-hero">герой</span>' +
+        '<p class="side-desc">' + escapeHtml(node.desc || "") + "</p>";
+      var ch = resolveChapter(chapterById, node.intro_chapter);
+      if (ch) {
+        html += '<hr class="side-sep"><p class="side-kicker">Впервые появляется</p>' +
+          '<p class="side-chapter-label">' + escapeHtml(ch.label || node.intro_chapter) + "</p>";
+        if (ch.description) {
+          html += '<button type="button" class="side-chapter-link" data-chapter="' + escapeHtml(ch.id) +
+            '" data-label="' + escapeHtml(ch.label || "") + '">' + escapeHtml(ch.description) + "</button>";
+        }
+      }
+      side.innerHTML = html;
+      var link = side.querySelector(".side-chapter-link");
+      if (link) link.addEventListener("click", function() {
+        showChapterReader(ch.id, ch.label, [{ id: node.id, label: node.label, className: "mark-solo" }],
+          node.label, function() { renderNodeDetails(node); });
+      });
+    }
+
+    function renderEdgeDetails(edge, fromNode, toNode) {
+      var mySeq = ++renderSeq;
+      var fromLabel = fromNode ? fromNode.label : (nameById[edge.from] || edge.from);
+      var toLabel = toNode ? toNode.label : (nameById[edge.to] || edge.to);
+      var title = fromLabel + " ↔ " + toLabel;
+      var html = "<h3>" + escapeHtml(title) + '</h3><span class="pill pill-edge">связь</span>';
+      if (edge.kind === "relations") {
+        var r = edge.raw.relation || {};
+        var roles = r.roles || [];
+        var catLine = "Категория: " + (r.category || "");
+        if (roles[0] || roles[1]) catLine += " (" + (roles[0] || "—") + "/" + (roles[1] || "—") + ")";
+        html += '<p class="side-desc">' + escapeHtml(catLine) + "</p>";
+        if (r.note) html += '<p class="side-desc">' + escapeHtml(r.note) + "</p>";
+      } else {
+        html += '<div class="side-edge-text">' + escapeHtml(typeDesc(edge.raw, edge.typeId, typeLabel)) + "</div>";
+      }
+      side.innerHTML = html + '<p class="side-hint side-scene-loading">Загрузка сцен…</p>';
+
+      var sceneIds = edge.raw.scenes || [];
+      loadScenes().then(function(sceneById) {
+        if (mySeq !== renderSeq) return;
+        var placeholder = side.querySelector(".side-scene-loading");
+        if (!placeholder) return;
+        var known = sceneIds.map(function(id) { return sceneById[id]; }).filter(Boolean);
+        if (!known.length) { placeholder.remove(); return; }
+        var kicker = document.createElement("p");
+        kicker.className = "side-kicker"; kicker.textContent = "Сцены";
+        var list = document.createElement("div");
+        list.className = "side-scene-list";
+        var lastChapterId = null;
+        known.forEach(function(sc) {
+          var ch = resolveChapter(chapterById, sc.chapter);
+          var chapterKey = ch ? ch.id : sc.chapter;
+          if (chapterKey !== lastChapterId) {
+            var chapterHead = document.createElement("p");
+            chapterHead.className = "side-chapter-label";
+            chapterHead.textContent = ch ? ch.label : sc.chapter;
+            list.appendChild(chapterHead);
+            lastChapterId = chapterKey;
+          }
+          var btn = document.createElement("button");
+          btn.type = "button"; btn.className = "side-scene-link";
+          btn.textContent = sc.summary || sc.title || sc.id;
+          btn.addEventListener("click", function() {
+            if (!ch) return;
+            showChapterReader(ch.id, ch.label,
+              [{ id: edge.from, label: fromLabel, className: "mark-a" }, { id: edge.to, label: toLabel, className: "mark-b" }],
+              title, function() { renderEdgeDetails(edge, fromNode, toNode); });
+          });
+          list.appendChild(btn);
+        });
+        placeholder.replaceWith(kicker, list);
+      });
+    }
+
+    var chapterTextCache = {};
+    function loadChapterText(chapterId) {
+      if (chapterTextCache[chapterId]) return Promise.resolve(chapterTextCache[chapterId]);
+      var tmpl = (files && files.novel_chapter_template) || "novel/{chapter_id}.json";
+      var url = AtlasData.resolveRelative(context.manifestUrl, tmpl.replace("{chapter_id}", chapterId));
+      return AtlasData.fetchJson(url, context.signal).then(function(doc) {
+        var text = (doc.sentences || []).map(function(s) { return s.text; }).join(" ");
+        chapterTextCache[chapterId] = text;
+        return text;
+      });
+    }
+
+    var aliasesByIdPromise = null;
+    function loadAliases() {
+      if (!aliasesByIdPromise) {
+        var url = AtlasData.resolveRelative(context.manifestUrl, "characters_full.json");
+        aliasesByIdPromise = AtlasData.fetchJson(url, context.signal).then(function(doc) {
+          var map = {};
+          (doc.characters || []).forEach(function(c) {
+            map[c.id] = (c.aliases && c.aliases.length ? c.aliases : [c.name]).filter(Boolean);
+          });
+          return map;
+        }).catch(function() { return {}; });
+      }
+      return aliasesByIdPromise;
+    }
+
+    var scenesByIdPromise = null;
+    function loadScenes() {
+      if (!scenesByIdPromise) {
+        var url = AtlasData.resolveRelative(context.manifestUrl, "scenes.json");
+        scenesByIdPromise = AtlasData.fetchJson(url, context.signal).then(function(list) {
+          var map = {};
+          (Array.isArray(list) ? list : []).forEach(function(s) { if (s && s.id) map[s.id] = s; });
+          return map;
+        }).catch(function() { return {}; });
+      }
+      return scenesByIdPromise;
+    }
+
+    // groups: [{ id: characterId, label: fallbackLabel, className }] — names to
+    // highlight in the chapter text, resolved to real aliases once loaded.
+    function showChapterReader(chapterId, chapterLabel, groups, backLabel, onBack) {
+      var mySeq = ++renderSeq;
+      side.innerHTML = '<p class="side-hint">Загрузка главы…</p>';
+      Promise.all([loadChapterText(chapterId), loadAliases()]).then(function(res) {
+        if (mySeq !== renderSeq) return;
+        var text = res[0], aliasMap = res[1];
+        var resolvedGroups = groups.map(function(g) {
+          return { aliases: (aliasMap[g.id] && aliasMap[g.id].length ? aliasMap[g.id] : [g.label]), className: g.className };
+        });
+        side.innerHTML = '<button type="button" class="side-back">← ' + escapeHtml(backLabel) + "</button>" +
+          "<h3>" + escapeHtml(chapterLabel) + '</h3><div class="side-chapter-text">' + highlightNames(text, resolvedGroups) + "</div>";
+        side.querySelector(".side-back").addEventListener("click", onBack);
+      }).catch(function(error) {
+        if (error.name === "AbortError" || mySeq !== renderSeq) return;
+        side.innerHTML = '<button type="button" class="side-back">← ' + escapeHtml(backLabel) + "</button>" +
+          '<p class="side-hint">Не удалось загрузить главу: ' + escapeHtml(error.message) + "</p>";
+        side.querySelector(".side-back").addEventListener("click", onBack);
+      });
+    }
   }
 
   function typeDesc(e, typeId, typeLabel) {

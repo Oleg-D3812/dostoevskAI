@@ -12,9 +12,10 @@
  * @param {Function} onNodeClick - callback(nodeData)
  * @param {Function} onEdgeClick - callback(edgeData, fromNode, toNode)
  * @param {Array} [layoutEdges] - superset edge set used only for the one-time layout (defaults to edgesData)
+ * @param {Function} [onBlankClick] - callback() when clicking empty canvas (deselect)
  * @returns {{network, applyEdges: function(Array)}}
  */
-function initGraph(container, nodesData, edgesData, onNodeClick, onEdgeClick, layoutEdges) {
+function initGraph(container, nodesData, edgesData, onNodeClick, onEdgeClick, layoutEdges, onBlankClick) {
   var MIN_WIDTH = 0.5;
   var MAX_WIDTH = 6;
 
@@ -162,7 +163,9 @@ function initGraph(container, nodesData, edgesData, onNodeClick, onEdgeClick, la
     if (params.edges && params.edges.length > 0) {
       var e = edgeByVisId[params.edges[0]];
       if (e && onEdgeClick) onEdgeClick(e, nodeById[e.from], nodeById[e.to]);
+      return;
     }
+    if (onBlankClick) onBlankClick();
   });
 
   network.setOptions({ physics: { enabled: true } });
