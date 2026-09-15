@@ -309,6 +309,33 @@ a:hover { color: var(--hover-color); }
   color: var(--accent-color);
   background: var(--accent-soft);
 }
+.graph-filter-clear {
+  margin-left: auto;
+}
+.graph-filter-clear:disabled {
+  color: var(--border-color);
+  border-color: var(--border-color);
+  cursor: default;
+  background: transparent;
+}
+.graph-tiers {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--border-color);
+  background: var(--sidebar-bg);
+  flex-shrink: 0;
+}
+.graph-tiers-label {
+  color: var(--text-muted);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  margin-right: 2px;
+}
 .graph-legend {
   display: flex;
   flex-wrap: wrap;

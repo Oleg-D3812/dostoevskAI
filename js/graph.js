@@ -6,6 +6,15 @@
  * `applyEdges` after that is a pure filter: edges are swapped and unconnected
  * nodes are dimmed, but no node ever moves and the view is not refitted.
  *
+ * Double-clicking a node selects it alone; Ctrl/Cmd-click adds or removes a
+ * node from the selection. Whenever the selection is non-empty, only selected
+ * nodes and their direct neighbours (in the currently visible edge set) stay
+ * shown — everyone else is hidden until `clearFilter()` is called.
+ *
+ * `setHiddenByFilter(ids)` hides an arbitrary set of nodes (e.g. by importance
+ * tier) independently of the click-driven selection above — a node is shown
+ * only when neither filter hides it.
+ *
  * @param {HTMLElement} container - DOM element to render into
  * @param {Array} nodesData - [{id, label, desc}]
  * @param {Array} edgesData - initial visible edge set [{from, to, label, desc, color?, weight?:{N}}]
@@ -13,15 +22,18 @@
  * @param {Function} onEdgeClick - callback(edgeData, fromNode, toNode)
  * @param {Array} [layoutEdges] - superset edge set used only for the one-time layout (defaults to edgesData)
  * @param {Function} [onBlankClick] - callback() when clicking empty canvas (deselect)
- * @returns {{network, applyEdges: function(Array)}}
+ * @param {Function} [onFilterChange] - callback(hasFilter) whenever the node selection changes
+ * @returns {{network, applyEdges: function(Array), clearFilter: function(), setHiddenByFilter: function(Array)}}
  */
-function initGraph(container, nodesData, edgesData, onNodeClick, onEdgeClick, layoutEdges, onBlankClick) {
+function initGraph(container, nodesData, edgesData, onNodeClick, onEdgeClick, layoutEdges, onBlankClick, onFilterChange) {
   var MIN_WIDTH = 0.5;
   var MAX_WIDTH = 6;
 
   var NODE_ACTIVE = { background: "#2c5282", border: "#4a5568",
     highlight: { background: "#e53e3e", border: "#fc8181" }, hover: { background: "#e53e3e", border: "#fc8181" } };
   var NODE_DIM = { background: "#3b4555", border: "#4a5568",
+    highlight: { background: "#e53e3e", border: "#fc8181" }, hover: { background: "#e53e3e", border: "#fc8181" } };
+  var NODE_SELECTED = { background: "#d69e2e", border: "#f6e05e",
     highlight: { background: "#e53e3e", border: "#fc8181" }, hover: { background: "#e53e3e", border: "#fc8181" } };
 
   function edgeWidth(w) {
@@ -45,6 +57,8 @@ function initGraph(container, nodesData, edgesData, onNodeClick, onEdgeClick, la
   var edgeByVisId = {};
   var userMoved = false;
   var frozen = false;
+  var selectedIds = [];
+  var externallyHidden = {}; // id -> true, set via setHiddenByFilter (e.g. tier filter)
 
   function autoFit() {
     if (!userMoved && network) network.fit({ animation: false });
@@ -67,17 +81,80 @@ function initGraph(container, nodesData, edgesData, onNodeClick, onEdgeClick, la
   // Colour/size only — never touches positions, so filtering can't move the graph.
   function markConnectivity(list) {
     var connected = connectedSet(list);
+    var selected = {};
+    selectedIds.forEach(function(id) { selected[id] = true; });
     nodes.update(nodesData.map(function(n) {
+      if (selected[n.id]) return { id: n.id, size: 20, color: NODE_SELECTED };
       return connected[n.id]
         ? { id: n.id, size: 18, color: NODE_ACTIVE }
         : { id: n.id, size: 11, color: NODE_DIM };
     }));
   }
 
-  // Public: swap the visible edge set. A pure filter once the layout is frozen.
+  // Selected nodes plus whoever they're directly linked to in the current
+  // edge set stay visible; everyone else is hidden. Null means "no filter".
+  // Membership is checked against `selected` (never mutated) rather than the
+  // `visible` set being built, so a freshly-added neighbour can't make a
+  // *later* edge look like it touches a selected node — that would pull in
+  // neighbours-of-neighbours instead of stopping at one hop.
+  function filterVisibleSet() {
+    if (!selectedIds.length) return null;
+    var selected = {};
+    selectedIds.forEach(function(id) { selected[id] = true; });
+    var visible = {};
+    selectedIds.forEach(function(id) { visible[id] = true; });
+    currentEdges.forEach(function(e) {
+      if (selected[e.from] || selected[e.to]) { visible[e.from] = true; visible[e.to] = true; }
+    });
+    return visible;
+  }
+
+  function applyFilter() {
+    var visible = filterVisibleSet();
+    nodes.update(nodesData.map(function(n) {
+      var hidden = !!externallyHidden[n.id] || !!(visible && !visible[n.id]);
+      return { id: n.id, hidden: hidden };
+    }));
+    if (onFilterChange) onFilterChange(selectedIds.length > 0);
+  }
+
+  // Public: hide a set of nodes by id, independent of and composable with the
+  // click-driven neighbour filter above (e.g. an importance-tier checklist).
+  // Pass an empty array/undefined to clear it.
+  function setHiddenByFilter(hiddenIds) {
+    externallyHidden = {};
+    (hiddenIds || []).forEach(function(id) { externallyHidden[id] = true; });
+    if (frozen) applyFilter();
+  }
+
+  function selectOnly(id) {
+    if (!frozen) return;
+    selectedIds = [id];
+    markConnectivity(currentEdges);
+    applyFilter();
+  }
+
+  function toggleSelect(id) {
+    if (!frozen) return;
+    var idx = selectedIds.indexOf(id);
+    if (idx >= 0) selectedIds.splice(idx, 1); else selectedIds.push(id);
+    markConnectivity(currentEdges);
+    applyFilter();
+  }
+
+  // Public: drop the node selection and show the whole graph again.
+  function clearFilter() {
+    if (!selectedIds.length) return;
+    selectedIds = [];
+    markConnectivity(currentEdges);
+    applyFilter();
+  }
+
+  // Public: swap the visible edge set. A pure filter once the layout is frozen;
+  // the current node selection (if any) is re-applied against the new edges.
   function applyEdges(list) {
     renderEdges(list);
-    if (frozen) markConnectivity(list);
+    if (frozen) { markConnectivity(list); applyFilter(); }
   }
 
   var options = {
@@ -156,7 +233,10 @@ function initGraph(container, nodesData, edgesData, onNodeClick, onEdgeClick, la
 
   network.on("click", function(params) {
     if (params.nodes && params.nodes.length > 0) {
-      var n = nodeById[params.nodes[0]];
+      var id = params.nodes[0];
+      var srcEvent = params.event && params.event.srcEvent;
+      if (srcEvent && (srcEvent.ctrlKey || srcEvent.metaKey)) { toggleSelect(id); return; }
+      var n = nodeById[id];
       if (n && onNodeClick) onNodeClick(n);
       return;
     }
@@ -168,8 +248,12 @@ function initGraph(container, nodesData, edgesData, onNodeClick, onEdgeClick, la
     if (onBlankClick) onBlankClick();
   });
 
+  network.on("doubleClick", function(params) {
+    if (params.nodes && params.nodes.length > 0) selectOnly(params.nodes[0]);
+  });
+
   network.setOptions({ physics: { enabled: true } });
   network.stabilize(300);
 
-  return { network: network, applyEdges: applyEdges };
+  return { network: network, applyEdges: applyEdges, clearFilter: clearFilter, setHiddenByFilter: setHiddenByFilter };
 }

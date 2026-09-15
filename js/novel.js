@@ -156,6 +156,21 @@
     var nameById = {};
     nodesData.forEach(function(n) { nameById[n.id] = n.label; });
 
+    // Importance tier (character-network.json nodes[].importance.tier) — only
+    // present once the pipeline has computed it; the filter row below stays
+    // hidden when a novel doesn't have tier data yet, or has just one tier.
+    var TIER_LABELS = { main: "Главные", secondary: "Второстепенные", minor: "Малозначительные" };
+    var TIER_ORDER = ["main", "secondary", "minor"];
+    var tierByNodeId = {};
+    (data.nodes || []).forEach(function(n) {
+      var tier = n.importance && n.importance.tier;
+      if (tier) tierByNodeId[n.id] = tier;
+    });
+    var tiersSeen = {};
+    Object.keys(tierByNodeId).forEach(function(id) { tiersSeen[tierByNodeId[id]] = true; });
+    var tiersPresent = TIER_ORDER.filter(function(t) { return tiersSeen[t]; })
+      .concat(Object.keys(tiersSeen).filter(function(t) { return TIER_ORDER.indexOf(t) < 0; }).sort());
+
     var modes = [{ id: "relations", label: "Отношения", kind: "relations" }].concat(
       (data.interaction_types || []).map(function(t) { return { id: t.id, label: typeLabel[t.id], kind: "type" }; }));
 
@@ -205,7 +220,41 @@
       bar.appendChild(button);
     });
 
+    var clearFilterBtn = document.createElement("button");
+    clearFilterBtn.type = "button";
+    clearFilterBtn.className = "graph-mode-btn graph-filter-clear";
+    clearFilterBtn.textContent = "Показать всех";
+    clearFilterBtn.disabled = true;
+    clearFilterBtn.title = "Двойной клик по герою — показать только его связи. Ctrl+клик — добавить ещё одного.";
+    clearFilterBtn.addEventListener("click", function() { if (graph) graph.clearFilter(); });
+    bar.appendChild(clearFilterBtn);
+
+    var tierBar = null;
+    if (tiersPresent.length > 1) {
+      tierBar = document.createElement("div"); tierBar.className = "graph-tiers";
+      var tierCaption = document.createElement("span"); tierCaption.className = "graph-tiers-label"; tierCaption.textContent = "Уровень:";
+      tierBar.appendChild(tierCaption);
+      var activeTiers = {};
+      tiersPresent.forEach(function(t) { activeTiers[t] = true; });
+      var applyTierFilter = function() {
+        var hidden = Object.keys(tierByNodeId).filter(function(id) { return !activeTiers[tierByNodeId[id]]; });
+        if (graph) graph.setHiddenByFilter(hidden);
+      };
+      tiersPresent.forEach(function(t) {
+        var tierBtn = document.createElement("button");
+        tierBtn.type = "button"; tierBtn.className = "graph-mode-btn active";
+        tierBtn.textContent = TIER_LABELS[t] || (t.charAt(0).toUpperCase() + t.slice(1));
+        tierBtn.addEventListener("click", function() {
+          activeTiers[t] = !activeTiers[t];
+          tierBtn.classList.toggle("active", activeTiers[t]);
+          applyTierFilter();
+        });
+        tierBar.appendChild(tierBtn);
+      });
+    }
+
     context.panel.appendChild(bar);
+    if (tierBar) context.panel.appendChild(tierBar);
     context.panel.appendChild(legend);
     context.panel.appendChild(body);
     body.appendChild(container);
@@ -213,7 +262,8 @@
     container.innerHTML = "";
 
     graph = initGraph(container, nodesData, modeEdges[modes[0].id],
-      renderNodeDetails, renderEdgeDetails, layoutEdges, renderEmptyDetails);
+      renderNodeDetails, renderEdgeDetails, layoutEdges, renderEmptyDetails,
+      function(hasFilter) { clearFilterBtn.disabled = !hasFilter; });
     renderLegend(modes[0]);
     renderEmptyDetails();
 
