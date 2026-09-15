@@ -29,7 +29,7 @@
   "sentence_numbering": "one-based within logical chapter",
   "timeline_indexing": "zero-based across the complete novel",
   "files": {
-    "characters": "characters.json",
+    "characters": "emo-characters.json",
     "chapters": "chapters.json",
     "clusters": "clusters.json",
     "novel_chapter_template": "novel/{chapter_id}.json",

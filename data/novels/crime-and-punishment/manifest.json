@@ -35,7 +35,7 @@
   "sentence_numbering": "one-based within logical chapter",
   "timeline_indexing": "zero-based across the complete novel",
   "files": {
-    "characters": "characters.json",
+    "characters": "emo-characters.json",
     "chapters": "chapters.json",
     "clusters": "clusters.json",
     "novel_chapter_template": "novel/{chapter_id}.json",
@@ -63,7 +63,7 @@
       "sha256": "4e8f3cae970a9b10ce70623b0988f6e2cf7b01a4b10f4fcd89fdee7ec18339f3"
     },
     {
-      "path": "characters.json",
+      "path": "emo-characters.json",
       "bytes": 1337,
       "sha256": "ae1a3d0f686a883a045b591c5712feca159736bcc4789a16d712e5730261956f"
     },
