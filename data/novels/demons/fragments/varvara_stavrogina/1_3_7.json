@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "1_3_7",
+  "count": 10,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_01_03_07_0002",
+      "source_section": "chapter_01_03_07",
+      "source_sentence": 44,
+      "character_position": 93,
+      "text": "в болезни будто бы плакала и спрашивала Степана Трофимовича",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.35
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.1644197148296207,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 1988,
+      "timeline_end_index": 1988,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 120,
+          "end": 179
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_03_07_0009",
+      "source_section": "chapter_01_03_07",
+      "source_sentence": 102,
+      "character_position": 94,
+      "text": "ужасно хотела и мучилась тем, чтобы заставить себя быть несколько доброю",
+      "vad": [
+        -0.82,
+        0.63,
+        -0.28
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2302450650786563,
+      "warning": null,
+      "chapter_sentence_start": 102,
+      "chapter_sentence_end": 102,
+      "timeline_start_index": 2046,
+      "timeline_end_index": 2046,
+      "highlights": [
+        {
+          "chapter_sentence": 102,
+          "start": 101,
+          "end": 173
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_03_07_0010",
+      "source_section": "chapter_01_03_07",
+      "source_sentence": 103,
+      "character_position": 95,
+      "text": "всё было в хаосе, в волнении, в беспокойстве",
+      "vad": [
+        -0.72,
+        0.72,
+        -0.28
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2631457480749342,
+      "warning": null,
+      "chapter_sentence_start": 103,
+      "chapter_sentence_end": 103,
+      "timeline_start_index": 2047,
+      "timeline_end_index": 2047,
+      "highlights": [
+        {
+          "chapter_sentence": 103,
+          "start": 155,
+          "end": 199
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_03_07_0011",
+      "source_section": "chapter_01_03_07",
+      "source_sentence": 104,
+      "character_position": 96,
+      "text": "никогда не находя в себе силы удовлетворить этим требованиям",
+      "vad": [
+        -0.75,
+        0.25,
+        -0.7
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.3814976036255303,
+      "warning": null,
+      "chapter_sentence_start": 104,
+      "chapter_sentence_end": 104,
+      "timeline_start_index": 2048,
+      "timeline_end_index": 2048,
+      "highlights": [
+        {
+          "chapter_sentence": 104,
+          "start": 72,
+          "end": 132
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_03_07_0012",
+      "source_section": "chapter_01_03_07",
+      "source_sentence": 106,
+      "character_position": 97,
+      "text": "мне в эдакие минуты всегда становится грустно",
+      "vad": [
+        -0.7,
+        -0.2,
+        -0.1
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.7637086799872134,
+      "warning": null,
+      "chapter_sentence_start": 106,
+      "chapter_sentence_end": 106,
+      "timeline_start_index": 2050,
+      "timeline_end_index": 2050,
+      "highlights": [
+        {
+          "chapter_sentence": 106,
+          "start": 9,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_03_07_0013",
+      "source_section": "chapter_01_03_07",
+      "source_sentence": 107,
+      "character_position": 98,
+      "text": "как будто не рада, несмотря на то, что вас люблю",
+      "vad": [
+        -0.35,
+        0.1,
+        -0.15
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.5850109315158778,
+      "warning": null,
+      "chapter_sentence_start": 107,
+      "chapter_sentence_end": 107,
+      "timeline_start_index": 2051,
+      "timeline_end_index": 2051,
+      "highlights": [
+        {
+          "chapter_sentence": 107,
+          "start": 98,
+          "end": 146
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_03_07_0014",
+      "source_section": "chapter_01_03_07",
+      "source_sentence": 127,
+      "character_position": 99,
+      "text": "я очень рада",
+      "vad": [
+        0.85,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.442794603879146,
+      "warning": null,
+      "chapter_sentence_start": 127,
+      "chapter_sentence_end": 127,
+      "timeline_start_index": 2071,
+      "timeline_end_index": 2071,
+      "highlights": [
+        {
+          "chapter_sentence": 127,
+          "start": 31,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_03_07_0015",
+      "source_section": "chapter_01_03_07",
+      "source_sentence": 132,
+      "character_position": 100,
+      "text": "покраснела и сконфузилась",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.45
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.0703910168717053,
+      "warning": null,
+      "chapter_sentence_start": 132,
+      "chapter_sentence_end": 132,
+      "timeline_start_index": 2076,
+      "timeline_end_index": 2076,
+      "highlights": [
+        {
+          "chapter_sentence": 132,
+          "start": 87,
+          "end": 112
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_03_07_0016",
+      "source_section": "chapter_01_03_07",
+      "source_sentence": 142,
+      "character_position": 101,
+      "text": "в изумлении",
+      "vad": [
+        -0.2,
+        0.8,
+        -0.3
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.5879275828064657,
+      "warning": null,
+      "chapter_sentence_start": 142,
+      "chapter_sentence_end": 142,
+      "timeline_start_index": 2086,
+      "timeline_end_index": 2086,
+      "highlights": [
+        {
+          "chapter_sentence": 142,
+          "start": 16,
+          "end": 27
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_03_07_0017",
+      "source_section": "chapter_01_03_07",
+      "source_sentence": 166,
+      "character_position": 102,
+      "text": "в нетерпении",
+      "vad": [
+        -0.2,
+        0.75,
+        0.1
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.4683182305020555,
+      "warning": null,
+      "chapter_sentence_start": 166,
+      "chapter_sentence_end": 166,
+      "timeline_start_index": 2110,
+      "timeline_end_index": 2110,
+      "highlights": [
+        {
+          "chapter_sentence": 166,
+          "start": 15,
+          "end": 27
+        }
+      ]
+    }
+  ]
+}

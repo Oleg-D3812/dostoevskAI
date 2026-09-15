@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "1_1_2",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_01_01_02_0001",
+      "source_section": "chapter_01_01_02",
+      "source_sentence": 34,
+      "character_position": 1,
+      "text": "но чуткая Варвара Петровна всю жизнь охраняла его от всех тривиальных наклонностей",
+      "vad": [
+        0.2,
+        -0.2,
+        0.5
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.6391589818516459,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 89,
+      "timeline_end_index": 89,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 72,
+          "end": 154
+        }
+      ]
+    }
+  ]
+}

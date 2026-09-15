@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "2_6_1",
+  "count": 7,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_02_06_01_0002",
+      "source_section": "chapter_02_06_01",
+      "source_sentence": 28,
+      "character_position": 251,
+      "text": "Бедняжка разом очутилась игралищем самых различных влияний, в то же время вполне воображая себя оригинальною",
+      "vad": [
+        -0.75,
+        0.25,
+        -0.8
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.4611209459948444,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 7287,
+      "timeline_end_index": 7287,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 0,
+          "end": 108
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_06_01_0004",
+      "source_section": "chapter_02_06_01",
+      "source_sentence": 32,
+      "character_position": 252,
+      "text": "Она мечтала дать счастье и примирить непримиримое, вернее же, соединить всех и всё в обожании собственной её особы",
+      "vad": [
+        0.25,
+        0.35,
+        0.55
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.3154519271891471,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 7291,
+      "timeline_end_index": 7291,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 0,
+          "end": 114
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_06_01_0005",
+      "source_section": "chapter_02_06_01",
+      "source_sentence": 33,
+      "character_position": 253,
+      "text": "Пётр Степанович, действуя, между прочим, грубейшею лестью, ей очень нравился",
+      "vad": [
+        0.75,
+        0.15,
+        0.05
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.4412918419775267,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 7292,
+      "timeline_end_index": 7292,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 22,
+          "end": 98
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_06_01_0006",
+      "source_section": "chapter_02_06_01",
+      "source_sentence": 34,
+      "character_position": 254,
+      "text": "она всё надеялась, что он укажет ей целый государственный заговор",
+      "vad": [
+        0.2,
+        0.35,
+        0.25
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.2745826517700293,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 7293,
+      "timeline_end_index": 7293,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 97,
+          "end": 162
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_06_01_0007",
+      "source_section": "chapter_02_06_01",
+      "source_sentence": 36,
+      "character_position": 255,
+      "text": "Ей почему-то казалось, что в губернии непременно укрывается государственный заговор",
+      "vad": [
+        -0.2,
+        0.4,
+        -0.3
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.512194350955738,
+      "warning": null,
+      "chapter_sentence_start": 36,
+      "chapter_sentence_end": 36,
+      "timeline_start_index": 7295,
+      "timeline_end_index": 7295,
+      "highlights": [
+        {
+          "chapter_sentence": 36,
+          "start": 0,
+          "end": 83
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_06_01_0008",
+      "source_section": "chapter_02_06_01",
+      "source_sentence": 38,
+      "character_position": 256,
+      "text": "Она же воображала его в связях со всем, что есть в России революционного, но в то же время ей преданным до обожания",
+      "vad": [
+        0.35,
+        0.55,
+        0.3
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.2294930526715128,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 7297,
+      "timeline_end_index": 7297,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 0,
+          "end": 115
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_06_01_0009",
+      "source_section": "chapter_02_06_01",
+      "source_sentence": 40,
+      "character_position": 257,
+      "text": "в этом она была почему-то неотразимо уверена",
+      "vad": [
+        0.72,
+        0.18,
+        0.91
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.6655834635406559,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 7299,
+      "timeline_end_index": 7299,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 55,
+          "end": 99
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "1_2_7",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_01_02_07_0001",
+      "source_section": "chapter_01_02_07",
+      "source_sentence": 2,
+      "character_position": 78,
+      "text": "Самое благородное и безупречное негодование загорелось в душе её",
+      "vad": [
+        -0.75,
+        0.8,
+        0.35
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.4004485011304363,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 1165,
+      "timeline_end_index": 1165,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 0,
+          "end": 64
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_07_0002",
+      "source_section": "chapter_01_02_07",
+      "source_sentence": 7,
+      "character_position": 79,
+      "text": "она имела свойство привязываться упрямо и страстно к каждой пленившей её мечте, к каждому своему новому предначертанию, к каждой мысли своей, показавшейся ей светлою",
+      "vad": [
+        0.72,
+        0.68,
+        0.34
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.4150437891822687,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 1170,
+      "timeline_end_index": 1170,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 109,
+          "end": 274
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_07_0004",
+      "source_section": "chapter_01_02_07",
+      "source_sentence": 89,
+      "character_position": 80,
+      "text": "вдруг яростно вскричала она",
+      "vad": [
+        -0.86,
+        0.96,
+        0.52
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.6299336548121717,
+      "warning": null,
+      "chapter_sentence_start": 89,
+      "chapter_sentence_end": 89,
+      "timeline_start_index": 1252,
+      "timeline_end_index": 1252,
+      "highlights": [
+        {
+          "chapter_sentence": 89,
+          "start": 2,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_07_0005",
+      "source_section": "chapter_01_02_07",
+      "source_sentence": 100,
+      "character_position": 81,
+      "text": "я спокойна",
+      "vad": [
+        0.2,
+        -0.6,
+        0.4
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.9922895191404162,
+      "warning": null,
+      "chapter_sentence_start": 100,
+      "chapter_sentence_end": 100,
+      "timeline_start_index": 1263,
+      "timeline_end_index": 1263,
+      "highlights": [
+        {
+          "chapter_sentence": 100,
+          "start": 26,
+          "end": 36
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "1_5_1",
+  "count": 7,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_01_05_01_0001",
+      "source_section": "chapter_01_05_01",
+      "source_sentence": 14,
+      "character_position": 133,
+      "text": "уставилась на неё почти в испуге",
+      "vad": [
+        -0.45,
+        0.6,
+        -0.35
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2694065612716822,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 3207,
+      "timeline_end_index": 3207,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 17,
+          "end": 49
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_05_01_0002",
+      "source_section": "chapter_01_05_01",
+      "source_sentence": 42,
+      "character_position": 134,
+      "text": "с негодованием оборвала Варвара Петровна",
+      "vad": [
+        -0.75,
+        0.45,
+        0.75
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.5019570239666585,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 3235,
+      "timeline_end_index": 3235,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 2,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_05_01_0003",
+      "source_section": "chapter_01_05_01",
+      "source_sentence": 43,
+      "character_position": 135,
+      "text": "Ей ясно было теперь, что всё что-то знают и между тем все чего-то трусят и уклоняются пред её вопросами, хотят что-то скрыть от неё",
+      "vad": [
+        -0.55,
+        0.45,
+        0.3
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.0401123678883851,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 3236,
+      "timeline_end_index": 3236,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 0,
+          "end": 131
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_05_01_0004",
+      "source_section": "chapter_01_05_01",
+      "source_sentence": 47,
+      "character_position": 136,
+      "text": "грозный взгляд Варвары Петровны",
+      "vad": [
+        -0.85,
+        0.85,
+        0.8
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.7032449406160397,
+      "warning": null,
+      "chapter_sentence_start": 47,
+      "chapter_sentence_end": 47,
+      "timeline_start_index": 3240,
+      "timeline_end_index": 3240,
+      "highlights": [
+        {
+          "chapter_sentence": 47,
+          "start": 13,
+          "end": 44
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_05_01_0005",
+      "source_section": "chapter_01_05_01",
+      "source_sentence": 68,
+      "character_position": 137,
+      "text": "всякий толк потеряешь",
+      "vad": [
+        -0.55,
+        0.2,
+        -0.35
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.3335824690796647,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 3261,
+      "timeline_end_index": 3261,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 39,
+          "end": 60
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_05_01_0006",
+      "source_section": "chapter_01_05_01",
+      "source_sentence": 71,
+      "character_position": 138,
+      "text": "Взгляд её подозрительно и раздражительно скользил по всем нашим лицам",
+      "vad": [
+        -0.45,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.2501438886332749,
+      "warning": null,
+      "chapter_sentence_start": 71,
+      "chapter_sentence_end": 71,
+      "timeline_start_index": 3264,
+      "timeline_end_index": 3264,
+      "highlights": [
+        {
+          "chapter_sentence": 71,
+          "start": 0,
+          "end": 69
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_05_01_0007",
+      "source_section": "chapter_01_05_01",
+      "source_sentence": 83,
+      "character_position": 139,
+      "text": "едва скрывая досаду",
+      "vad": [
+        -0.45,
+        0.25,
+        0.05
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.3473946979038215,
+      "warning": null,
+      "chapter_sentence_start": 83,
+      "chapter_sentence_end": 83,
+      "timeline_start_index": 3276,
+      "timeline_end_index": 3276,
+      "highlights": [
+        {
+          "chapter_sentence": 83,
+          "start": 73,
+          "end": 92
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "1_2_2",
+  "count": 5,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_01_02_02_0001",
+      "source_section": "chapter_01_02_02",
+      "source_sentence": 37,
+      "character_position": 45,
+      "text": "Варвара Петровна была ужасно поражена.",
+      "vad": [
+        -0.75,
+        0.65,
+        -0.35
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.1775777086929935,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 648,
+      "timeline_end_index": 648,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 0,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_02_0002",
+      "source_section": "chapter_01_02_02",
+      "source_sentence": 39,
+      "character_position": 46,
+      "text": "«Началось!» подумала она содрогаясь.",
+      "vad": [
+        -0.75,
+        0.85,
+        -0.45
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.3609485318222718,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 650,
+      "timeline_end_index": 650,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 2,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_02_0003",
+      "source_section": "chapter_01_02_02",
+      "source_sentence": 40,
+      "character_position": 47,
+      "text": "а между тем вся так и трепетала, бедная, несмотря на решимость.",
+      "vad": [
+        -0.8,
+        0.85,
+        -0.45
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.3725458650582797,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 651,
+      "timeline_end_index": 651,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 111,
+          "end": 174
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_02_0004",
+      "source_section": "chapter_01_02_02",
+      "source_sentence": 41,
+      "character_position": 48,
+      "text": "Она всю ночь не спала и даже ходила рано утром совещаться к Степану Трофимовичу и у него заплакала, чего никогда ещё с нею при людях не случалось.",
+      "vad": [
+        -0.88,
+        0.82,
+        -0.72
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.4842529792245076,
+      "warning": null,
+      "chapter_sentence_start": 41,
+      "chapter_sentence_end": 41,
+      "timeline_start_index": 652,
+      "timeline_end_index": 652,
+      "highlights": [
+        {
+          "chapter_sentence": 41,
+          "start": 0,
+          "end": 146
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_02_0005",
+      "source_section": "chapter_01_02_02",
+      "source_sentence": 46,
+      "character_position": 49,
+      "text": "Варвара Петровна уже давно с содроганием смотрела на такое низкое направление знакомств Николая Всеволодовича",
+      "vad": [
+        -0.75,
+        0.35,
+        -0.1
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.3518760255565814,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 657,
+      "timeline_end_index": 657,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 0,
+          "end": 109
+        }
+      ]
+    }
+  ]
+}

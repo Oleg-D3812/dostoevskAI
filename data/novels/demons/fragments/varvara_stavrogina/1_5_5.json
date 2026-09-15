@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "1_5_5",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_01_05_05_0002",
+      "source_section": "chapter_01_05_05",
+      "source_sentence": 64,
+      "character_position": 164,
+      "text": "в её жизни не переводились такие мгновения, которым она отдавалась вдруг вся, всецело и, если позволительно так выразиться, совершенно без удержу",
+      "vad": [
+        0.72,
+        0.9,
+        0.18
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.6194962733165239,
+      "warning": null,
+      "chapter_sentence_start": 64,
+      "chapter_sentence_end": 64,
+      "timeline_start_index": 3704,
+      "timeline_end_index": 3704,
+      "highlights": [
+        {
+          "chapter_sentence": 64,
+          "start": 191,
+          "end": 336
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_05_05_0003",
+      "source_section": "chapter_01_05_05",
+      "source_sentence": 65,
+      "character_position": 165,
+      "text": "настоящая минута действительно могла быть для неё из таких, в которых вдруг, как в фокусе, сосредоточивается вся сущность жизни, — всего прожитого, всего настоящего и, пожалуй, будущего",
+      "vad": [
+        0.18,
+        0.72,
+        0.05
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.5377691257901118,
+      "warning": null,
+      "chapter_sentence_start": 65,
+      "chapter_sentence_end": 65,
+      "timeline_start_index": 3705,
+      "timeline_end_index": 3705,
+      "highlights": [
+        {
+          "chapter_sentence": 65,
+          "start": 37,
+          "end": 222
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_05_05_0004",
+      "source_section": "chapter_01_05_05",
+      "source_sentence": 66,
+      "character_position": 166,
+      "text": "так раздражительно проговорилась",
+      "vad": [
+        -0.72,
+        0.58,
+        -0.2
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2324036880163502,
+      "warning": null,
+      "chapter_sentence_start": 66,
+      "chapter_sentence_end": 66,
+      "timeline_start_index": 3706,
+      "timeline_end_index": 3706,
+      "highlights": [
+        {
+          "chapter_sentence": 66,
+          "start": 78,
+          "end": 110
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_05_05_0005",
+      "source_section": "chapter_01_05_05",
+      "source_sentence": 72,
+      "character_position": 167,
+      "text": "весь вид её говорил, что ещё один миг, и она не вынесет неизвестности",
+      "vad": [
+        -0.86,
+        0.84,
+        -0.68
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.4667196842616402,
+      "warning": null,
+      "chapter_sentence_start": 72,
+      "chapter_sentence_end": 72,
+      "timeline_start_index": 3712,
+      "timeline_end_index": 3712,
+      "highlights": [
+        {
+          "chapter_sentence": 72,
+          "start": 54,
+          "end": 123
+        }
+      ]
+    }
+  ]
+}

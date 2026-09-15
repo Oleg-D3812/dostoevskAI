@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "1_5_2",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_01_05_02_0001",
+      "source_section": "chapter_01_05_02",
+      "source_sentence": 6,
+      "character_position": 140,
+      "text": "Варвара Петровна, разумеется, была уязвлена",
+      "vad": [
+        -0.72,
+        0.38,
+        0.12
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.288947198531314,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 3283,
+      "timeline_end_index": 3283,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 0,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_05_02_0002",
+      "source_section": "chapter_01_05_02",
+      "source_sentence": 6,
+      "character_position": 141,
+      "text": "тоже чрезмерно её раздражавшие",
+      "vad": [
+        -0.75,
+        0.65,
+        -0.2
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2709163795895641,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 3283,
+      "timeline_end_index": 3283,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 111,
+          "end": 141
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_05_02_0003",
+      "source_section": "chapter_01_05_02",
+      "source_sentence": 10,
+      "character_position": 142,
+      "text": "обиженная и смущённая",
+      "vad": [
+        -0.65,
+        0.25,
+        -0.35
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2573031194063391,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 3287,
+      "timeline_end_index": 3287,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 80,
+          "end": 101
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_05_02_0004",
+      "source_section": "chapter_01_05_02",
+      "source_sentence": 12,
+      "character_position": 143,
+      "text": "овладевал Варварой Петровной бес самой заносчивой гордости",
+      "vad": [
+        -0.65,
+        0.55,
+        0.7
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.4227530167470411,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 3289,
+      "timeline_end_index": 3289,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 20,
+          "end": 78
+        }
+      ]
+    }
+  ]
+}

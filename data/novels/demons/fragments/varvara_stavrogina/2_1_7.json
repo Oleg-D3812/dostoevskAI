@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "2_1_7",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_02_01_07_0004",
+      "source_section": "chapter_02_01_07",
+      "source_sentence": 226,
+      "character_position": 192,
+      "text": "подумав, как будто действительно встретил что-то новое и серьёзное, что стоило обдумать",
+      "vad": [
+        0.3,
+        0.15,
+        0.1
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.3417328590270118,
+      "warning": null,
+      "chapter_sentence_start": 226,
+      "chapter_sentence_end": 226,
+      "timeline_start_index": 5341,
+      "timeline_end_index": 5341,
+      "highlights": [
+        {
+          "chapter_sentence": 226,
+          "start": 18,
+          "end": 105
+        }
+      ]
+    }
+  ]
+}

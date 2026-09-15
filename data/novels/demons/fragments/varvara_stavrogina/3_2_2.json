@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "3_2_2",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_03_02_02_0001",
+      "source_section": "chapter_03_02_02",
+      "source_sentence": 4,
+      "character_position": 267,
+      "text": "Я застал её в слезах, почти в истерике",
+      "vad": [
+        -0.85,
+        0.85,
+        -0.55
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.4115690777774106,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 10558,
+      "timeline_end_index": 10558,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 0,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_02_02_0002",
+      "source_section": "chapter_03_02_02",
+      "source_sentence": 6,
+      "character_position": 268,
+      "text": "Она со слезами и вскрикиваниями укоряла Петра Степановича за «отступничество».",
+      "vad": [
+        -0.75,
+        0.85,
+        -0.45
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.3609485318222718,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 10560,
+      "timeline_end_index": 10560,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 0,
+          "end": 78
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_02_02_0005",
+      "source_section": "chapter_03_02_02",
+      "source_sentence": 59,
+      "character_position": 269,
+      "text": "Я, признаюсь, до того удивлена",
+      "vad": [
+        -0.15,
+        0.45,
+        -0.2
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.5828025760278123,
+      "warning": null,
+      "chapter_sentence_start": 59,
+      "chapter_sentence_end": 59,
+      "timeline_start_index": 10613,
+      "timeline_end_index": 10613,
+      "highlights": [
+        {
+          "chapter_sentence": 59,
+          "start": 0,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_02_02_0007",
+      "source_section": "chapter_03_02_02",
+      "source_sentence": 158,
+      "character_position": 270,
+      "text": "Признаюсь, я сама чувствую, что я даже обязана, но… что если ждёт другой позор?",
+      "vad": [
+        -0.62,
+        0.34,
+        -0.28
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2174454571500175,
+      "warning": null,
+      "chapter_sentence_start": 158,
+      "chapter_sentence_end": 158,
+      "timeline_start_index": 10712,
+      "timeline_end_index": 10712,
+      "highlights": [
+        {
+          "chapter_sentence": 158,
+          "start": 2,
+          "end": 81
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_02_02_0010",
+      "source_section": "chapter_03_02_02",
+      "source_sentence": 169,
+      "character_position": 271,
+      "text": "в злобном нетерпении",
+      "vad": [
+        -0.75,
+        0.85,
+        0.1
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.4849758701731517,
+      "warning": null,
+      "chapter_sentence_start": 169,
+      "chapter_sentence_end": 169,
+      "timeline_start_index": 10723,
+      "timeline_end_index": 10723,
+      "highlights": [
+        {
+          "chapter_sentence": 169,
+          "start": 22,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_02_02_0013",
+      "source_section": "chapter_03_02_02",
+      "source_sentence": 208,
+      "character_position": 272,
+      "text": "Я слишком неловко вступилась.",
+      "vad": [
+        -0.55,
+        0.25,
+        -0.35
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.290158124755272,
+      "warning": null,
+      "chapter_sentence_start": 208,
+      "chapter_sentence_end": 208,
+      "timeline_start_index": 10762,
+      "timeline_end_index": 10762,
+      "highlights": [
+        {
+          "chapter_sentence": 208,
+          "start": 0,
+          "end": 29
+        }
+      ]
+    }
+  ]
+}

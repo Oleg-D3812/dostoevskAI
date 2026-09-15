@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "1_1_7",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_01_01_07_0001",
+      "source_section": "chapter_01_01_07",
+      "source_sentence": 1,
+      "character_position": 28,
+      "text": "да и надо было им расстаться на время, она это чувствовала",
+      "vad": [
+        -0.35,
+        0.1,
+        0.15
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.4402521607222118,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 300,
+      "timeline_end_index": 300,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 105,
+          "end": 163
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_01_07_0002",
+      "source_section": "chapter_01_01_07",
+      "source_sentence": 15,
+      "character_position": 29,
+      "text": "с жадностию прочла это первое письмо",
+      "vad": [
+        0.3,
+        0.4,
+        0.1
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.27914907143251,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 314,
+      "timeline_end_index": 314,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 17,
+          "end": 53
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_01_07_0003",
+      "source_section": "chapter_01_01_07",
+      "source_sentence": 17,
+      "character_position": 30,
+      "text": "хоть бы по одиннадцати, проворчала Варвара Петровна",
+      "vad": [
+        -0.1,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.5728079975503253,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 316,
+      "timeline_end_index": 316,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 98,
+          "end": 149
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_01_07_0004",
+      "source_section": "chapter_01_01_07",
+      "source_sentence": 28,
+      "character_position": 31,
+      "text": "решила Варвара Петровна, складывая и это письмо",
+      "vad": [
+        -0.2,
+        0.1,
+        0.6
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.5747605960731423,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 327,
+      "timeline_end_index": 327,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 2,
+          "end": 49
+        }
+      ]
+    }
+  ]
+}

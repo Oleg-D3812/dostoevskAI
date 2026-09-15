@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "vad_dimensions": [
+    "V",
+    "A",
+    "D"
+  ],
+  "clusters": [
+    {
+      "id": "varvara_stavrogina-1",
+      "character_id": "varvara_stavrogina",
+      "local_index": 0,
+      "display_id": "Ставрогина-1",
+      "name": "Воодушевлённая вовлечённость",
+      "centroid": [
+        0.4655714285714285,
+        0.3527142857142857,
+        0.3197142857142857
+      ],
+      "size": 70,
+      "within_cluster_spread": 0.5045776977445837,
+      "sphere_radius": 0.12664473684210525,
+      "color": "#636EFA"
+    },
+    {
+      "id": "varvara_stavrogina-2",
+      "character_id": "varvara_stavrogina",
+      "local_index": 1,
+      "display_id": "Ставрогина-2",
+      "name": "Тревожная уязвимость",
+      "centroid": [
+        -0.6899342105263159,
+        0.4958552631578949,
+        -0.4145394736842105
+      ],
+      "size": 152,
+      "within_cluster_spread": 0.4014951982495575,
+      "sphere_radius": 0.275,
+      "color": "#636EFA"
+    },
+    {
+      "id": "varvara_stavrogina-3",
+      "character_id": "varvara_stavrogina",
+      "local_index": 2,
+      "display_id": "Ставрогина-3",
+      "name": "Раздражённое недовольство",
+      "centroid": [
+        -0.5195370370370374,
+        0.4756481481481481,
+        0.304814814814815
+      ],
+      "size": 108,
+      "within_cluster_spread": 0.4616940202263369,
+      "sphere_radius": 0.1953947368421053,
+      "color": "#636EFA"
+    }
+  ]
+}

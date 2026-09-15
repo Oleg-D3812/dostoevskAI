@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "1_4_2",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_01_04_02_0005",
+      "source_section": "chapter_01_04_02",
+      "source_sentence": 102,
+      "character_position": 117,
+      "text": "покраснев и торопясь",
+      "vad": [
+        -0.55,
+        0.55,
+        -0.2
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2618022566213327,
+      "warning": null,
+      "chapter_sentence_start": 102,
+      "chapter_sentence_end": 102,
+      "timeline_start_index": 2629,
+      "timeline_end_index": 2629,
+      "highlights": [
+        {
+          "chapter_sentence": 102,
+          "start": 33,
+          "end": 53
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_04_02_0006",
+      "source_section": "chapter_01_04_02",
+      "source_sentence": 102,
+      "character_position": 118,
+      "text": "чтобы не расстроить её ещё более",
+      "vad": [
+        -0.25,
+        0.2,
+        0.05
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.4621284515817189,
+      "warning": null,
+      "chapter_sentence_start": 102,
+      "chapter_sentence_end": 102,
+      "timeline_start_index": 2629,
+      "timeline_end_index": 2629,
+      "highlights": [
+        {
+          "chapter_sentence": 102,
+          "start": 174,
+          "end": 206
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_04_02_0008",
+      "source_section": "chapter_01_04_02",
+      "source_sentence": 121,
+      "character_position": 119,
+      "text": "всё в возрастающей тревоге",
+      "vad": [
+        -0.7,
+        0.8,
+        -0.2
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.3723338916015837,
+      "warning": null,
+      "chapter_sentence_start": 121,
+      "chapter_sentence_end": 121,
+      "timeline_start_index": 2648,
+      "timeline_end_index": 2648,
+      "highlights": [
+        {
+          "chapter_sentence": 121,
+          "start": 75,
+          "end": 101
+        }
+      ]
+    }
+  ]
+}

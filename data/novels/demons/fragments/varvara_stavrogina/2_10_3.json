@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "2_10_3",
+  "count": 7,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_02_10_03_0001",
+      "source_section": "chapter_02_10_03",
+      "source_sentence": 18,
+      "character_position": 259,
+      "text": "чем та, по малодушию своему, была совершенно восхищена",
+      "vad": [
+        -0.25,
+        0.25,
+        -0.55
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.5218586726342691,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 9769,
+      "timeline_end_index": 9769,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 164,
+          "end": 218
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_10_03_0002",
+      "source_section": "chapter_02_10_03",
+      "source_sentence": 10,
+      "character_position": 260,
+      "text": "Её конечно должны были тоже заинтересовать известия, сообщённые Лямшиным о Степане Трофимовиче, а может быть даже и взволновать",
+      "vad": [
+        0.2,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.3446881465431425,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 9761,
+      "timeline_end_index": 9761,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 0,
+          "end": 127
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_10_03_0003",
+      "source_section": "chapter_02_10_03",
+      "source_sentence": 33,
+      "character_position": 261,
+      "text": "Варвара Петровна была в особенно возбуждённом состоянии, хотя и старалась казаться равнодушною",
+      "vad": [
+        -0.2,
+        0.8,
+        0.2
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.4672196349071801,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 9784,
+      "timeline_end_index": 9784,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 0,
+          "end": 94
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_10_03_0004",
+      "source_section": "chapter_02_10_03",
+      "source_sentence": 33,
+      "character_position": 262,
+      "text": "два-три ненавистных взгляда на Кармазинова и гневных на Степана Трофимовича, — гневных заранее, гневных из ревности, из любви",
+      "vad": [
+        -0.72,
+        0.68,
+        0.12
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.3407368407586795,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 9784,
+      "timeline_end_index": 9784,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 111,
+          "end": 236
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_10_03_0005",
+      "source_section": "chapter_02_10_03",
+      "source_sentence": 33,
+      "character_position": 263,
+      "text": "то, мне кажется, она тотчас бы вскочила и прибила его",
+      "vad": [
+        -0.65,
+        0.75,
+        0.35
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.3071338865703935,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 9784,
+      "timeline_end_index": 9784,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 336,
+          "end": 389
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_10_03_0006",
+      "source_section": "chapter_02_10_03",
+      "source_sentence": 142,
+      "character_position": 264,
+      "text": "Никогда не забуду ужаса, изобразившегося в лице Варвары Петровны",
+      "vad": [
+        -0.93,
+        0.84,
+        -0.58
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.4510480783025719,
+      "warning": null,
+      "chapter_sentence_start": 142,
+      "chapter_sentence_end": 142,
+      "timeline_start_index": 9893,
+      "timeline_end_index": 9893,
+      "highlights": [
+        {
+          "chapter_sentence": 142,
+          "start": 0,
+          "end": 64
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_10_03_0007",
+      "source_section": "chapter_02_10_03",
+      "source_sentence": 143,
+      "character_position": 265,
+      "text": "С безумным видом привстала она со стула",
+      "vad": [
+        -0.85,
+        0.9,
+        -0.65
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.4943639193245364,
+      "warning": null,
+      "chapter_sentence_start": 143,
+      "chapter_sentence_end": 143,
+      "timeline_start_index": 9894,
+      "timeline_end_index": 9894,
+      "highlights": [
+        {
+          "chapter_sentence": 143,
+          "start": 0,
+          "end": 39
+        }
+      ]
+    }
+  ]
+}

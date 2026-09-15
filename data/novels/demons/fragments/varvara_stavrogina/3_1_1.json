@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "3_1_1",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_03_01_01_0001",
+      "source_section": "chapter_03_01_01",
+      "source_sentence": 23,
+      "character_position": 266,
+      "text": "до самой катастрофы с её сынком, состояла чуть не на посылках у всей этой сволочи",
+      "vad": [
+        -0.8,
+        0.3,
+        -0.5
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2403690156348888,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 9930,
+      "timeline_end_index": 9930,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 26,
+          "end": 107
+        }
+      ]
+    }
+  ]
+}

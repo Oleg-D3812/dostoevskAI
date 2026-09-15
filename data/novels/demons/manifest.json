@@ -2,8 +2,52 @@
   "schemaVersion": 1,
   "novelId": "demons",
   "features": [
-    { "id": "character-network", "renderer": "graph", "label": { "ru": "Граф связей", "en": "Character network" }, "status": "ready", "entry": "demons.json" },
-    { "id": "emotion-vad", "renderer": "explorer-index", "label": { "ru": "Эмоциональный анализ", "en": "Emotion analysis" }, "status": "planned" },
+    { "id": "character-network", "renderer": "graph", "label": { "ru": "Граф связей", "en": "Character network" }, "status": "ready", "entry": "character-network.json" },
+    {
+      "id": "emotion-vad",
+      "renderer": "explorer-index",
+      "label": { "ru": "Эмоциональный анализ", "en": "Emotion analysis" },
+      "status": "ready",
+      "entry": "manifest.json",
+      "explorers": [
+        { "name": "VAD → Plutchik pipeline", "description": "Interactive diagram of the methodology: from quote extraction and VAD scoring to the 8- and 16-component Plutchik profiles.", "entry": "../../../explorers/vad_to_plutchik_pipeline_diagram.html" },
+        { "name": "Multi-character cluster space", "description": "Explore 330 fragments in 3D and linked projections for Varvara Stavrogina.", "entry": "../../../explorers/separate_kmeans_interactive.html" },
+        { "name": "Chapter VAD and Plutchik profiles", "description": "Select a character and chapter to compare the 3D VAD cloud with 8- and 16-component Plutchik profiles.", "entry": "../../../explorers/chapter_vad_clouds_with_radar.html" },
+        { "name": "Chapter VAD clouds", "description": "Select characters and chapters to explore fragment-level VAD points in 3D.", "entry": "../../../explorers/chapter_vad_clouds.html" },
+        { "name": "K-Means centroids and spheres", "description": "Inspect cluster centroids, VAD fragments, spheres and Plutchik anchors.", "entry": "../../../explorers/separate_kmeans_centroid_spheres.html" },
+        { "name": "Sentence-window VAD animation", "description": "Move a configurable sentence window through the novel and watch active character states appear in VAD space alongside the highlighted text.", "entry": "../../../explorers/vad_sentence_window_animation.html" },
+        { "name": "Plutchik profiles by chapter", "description": "Scroll a table of every chapter's 8- and 16-component Plutchik profile for one character at a time; click any chart to zoom in.", "entry": "../../../explorers/chapter_plutchik_table.html" }
+      ]
+    },
     { "id": "timeline", "renderer": "timeline", "label": { "ru": "Хронология", "en": "Timeline" }, "status": "planned" }
-  ]
+  ],
+  "schema_version": 1,
+  "novel_id": "demons",
+  "title": "Бесы",
+  "language": "ru",
+  "vad_dimensions": ["V", "A", "D"],
+  "sentence_numbering": "one-based within logical chapter",
+  "timeline_indexing": "zero-based across the complete novel",
+  "files": {
+    "characters": "characters.json",
+    "chapters": "chapters.json",
+    "clusters": "clusters.json",
+    "novel_chapter_template": "novel/{chapter_id}.json",
+    "fragment_template": "fragments/{character_id}/{chapter_id}.json",
+    "profile_template": "profiles/{character_id}.json"
+  },
+  "emotion_model": {
+    "id": "plutchik-vad-gaussian-v1",
+    "path": "../../models/plutchik-vad-gaussian-v1.json",
+    "sha256": "64af2d12a8d822817b7bfdbae105919d08a9ee86d16aef54e55ad6d2bc5f6eb4"
+  },
+  "counts": {
+    "characters": 1,
+    "logical_chapters": 108,
+    "source_sections": 108,
+    "sentences": 15913,
+    "fragments": 330,
+    "clusters": 3,
+    "fragment_files": 48
+  }
 }

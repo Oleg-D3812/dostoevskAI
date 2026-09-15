@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "1_3_10",
+  "count": 9,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_01_03_10_0002",
+      "source_section": "chapter_01_03_10",
+      "source_sentence": 31,
+      "character_position": 103,
+      "text": "Заметьте эту раздражительную фразу в конце о формальности.",
+      "vad": [
+        -0.55,
+        0.45,
+        -0.1
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.3473029929909088,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 2385,
+      "timeline_end_index": 2385,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 2,
+          "end": 60
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_03_10_0003",
+      "source_section": "chapter_01_03_10",
+      "source_sentence": 32,
+      "character_position": 104,
+      "text": "Бедная, бедная, друг всей моей жизни!",
+      "vad": [
+        -0.92,
+        0.72,
+        -0.78
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.4865516692348099,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 2386,
+      "timeline_end_index": 2386,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 0,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_03_10_0004",
+      "source_section": "chapter_01_03_10",
+      "source_sentence": 33,
+      "character_position": 105,
+      "text": "это внезапное решение судьбы меня точно придавило",
+      "vad": [
+        -0.82,
+        0.42,
+        -0.68
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.3051891570354723,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 2387,
+      "timeline_end_index": 2387,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 11,
+          "end": 60
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_03_10_0005",
+      "source_section": "chapter_01_03_10",
+      "source_sentence": 34,
+      "character_position": 106,
+      "text": "я уж знаю, что кончено; c’est terrible.",
+      "vad": [
+        -0.92,
+        0.78,
+        -0.72
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.476418547181297,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 2388,
+      "timeline_end_index": 2388,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 55,
+          "end": 94
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_03_10_0010",
+      "source_section": "chapter_01_03_10",
+      "source_sentence": 64,
+      "character_position": 107,
+      "text": "как я тогда оскорблял её!",
+      "vad": [
+        -0.75,
+        0.35,
+        -0.4
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.1584078695992392,
+      "warning": null,
+      "chapter_sentence_start": 64,
+      "chapter_sentence_end": 64,
+      "timeline_start_index": 2418,
+      "timeline_end_index": 2418,
+      "highlights": [
+        {
+          "chapter_sentence": 64,
+          "start": 57,
+          "end": 82
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_03_10_0014",
+      "source_section": "chapter_01_03_10",
+      "source_sentence": 82,
+      "character_position": 108,
+      "text": "теперь меня не испугаете вашим криком",
+      "vad": [
+        -0.35,
+        0.55,
+        0.75
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.4821419437359344,
+      "warning": null,
+      "chapter_sentence_start": 82,
+      "chapter_sentence_end": 82,
+      "timeline_start_index": 2436,
+      "timeline_end_index": 2436,
+      "highlights": [
+        {
+          "chapter_sentence": 82,
+          "start": 5,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_03_10_0016",
+      "source_section": "chapter_01_03_10",
+      "source_sentence": 99,
+      "character_position": 109,
+      "text": "О, как я любил её!",
+      "vad": [
+        -0.75,
+        0.65,
+        -0.2
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2709163795895641,
+      "warning": null,
+      "chapter_sentence_start": 99,
+      "chapter_sentence_end": 99,
+      "timeline_start_index": 2453,
+      "timeline_end_index": 2453,
+      "highlights": [
+        {
+          "chapter_sentence": 99,
+          "start": 0,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_03_10_0020",
+      "source_section": "chapter_01_03_10",
+      "source_sentence": 106,
+      "character_position": 110,
+      "text": "она единственная женщина, которую я обожал двадцать лет!",
+      "vad": [
+        0.86,
+        0.7,
+        0.18
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.5437842834606159,
+      "warning": null,
+      "chapter_sentence_start": 106,
+      "chapter_sentence_end": 106,
+      "timeline_start_index": 2460,
+      "timeline_end_index": 2460,
+      "highlights": [
+        {
+          "chapter_sentence": 106,
+          "start": 35,
+          "end": 91
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_03_10_0021",
+      "source_section": "chapter_01_03_10",
+      "source_sentence": 112,
+      "character_position": 111,
+      "text": "как бы внезапно поражённый новою мыслию",
+      "vad": [
+        0.0,
+        0.65,
+        0.1
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.5850353916345754,
+      "warning": null,
+      "chapter_sentence_start": 112,
+      "chapter_sentence_end": 112,
+      "timeline_start_index": 2466,
+      "timeline_end_index": 2466,
+      "highlights": [
+        {
+          "chapter_sentence": 112,
+          "start": 29,
+          "end": 68
+        }
+      ]
+    }
+  ]
+}

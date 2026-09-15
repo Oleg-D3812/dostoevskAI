@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "1_5_7",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_01_05_07_0001",
+      "source_section": "chapter_01_05_07",
+      "source_sentence": 11,
+      "character_position": 182,
+      "text": "восторженно подхватила Варвара Петровна",
+      "vad": [
+        0.8,
+        0.7,
+        0.2
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.4967709199810065,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 3951,
+      "timeline_end_index": 3951,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 97,
+          "end": 136
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_05_07_0002",
+      "source_section": "chapter_01_05_07",
+      "source_sentence": 23,
+      "character_position": 183,
+      "text": "экзальтация её не проходила, даже напротив",
+      "vad": [
+        0.55,
+        0.9,
+        0.1
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.5957551544734067,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 3963,
+      "timeline_end_index": 3963,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 38,
+          "end": 80
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_05_07_0003",
+      "source_section": "chapter_01_05_07",
+      "source_sentence": 146,
+      "character_position": 184,
+      "text": "я вижу, что вы выведены из терпения",
+      "vad": [
+        -0.45,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.2501438886332749,
+      "warning": null,
+      "chapter_sentence_start": 146,
+      "chapter_sentence_end": 146,
+      "timeline_start_index": 4086,
+      "timeline_end_index": 4086,
+      "highlights": [
+        {
+          "chapter_sentence": 146,
+          "start": 22,
+          "end": 57
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_05_07_0004",
+      "source_section": "chapter_01_05_07",
+      "source_sentence": 147,
+      "character_position": 185,
+      "text": "со злобным наслаждением",
+      "vad": [
+        -0.65,
+        0.55,
+        0.45
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.2088720196104101,
+      "warning": null,
+      "chapter_sentence_start": 147,
+      "chapter_sentence_end": 147,
+      "timeline_start_index": 4087,
+      "timeline_end_index": 4087,
+      "highlights": [
+        {
+          "chapter_sentence": 147,
+          "start": 4,
+          "end": 27
+        }
+      ]
+    }
+  ]
+}

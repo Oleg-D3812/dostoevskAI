@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "2_5_3",
+  "count": 8,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_02_05_03_0001",
+      "source_section": "chapter_02_05_03",
+      "source_sentence": 3,
+      "character_position": 243,
+      "text": "вся в хлопотах",
+      "vad": [
+        -0.2,
+        0.65,
+        0.3
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.3640407514609869,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 7074,
+      "timeline_end_index": 7074,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 48,
+          "end": 62
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_05_03_0002",
+      "source_section": "chapter_02_05_03",
+      "source_sentence": 11,
+      "character_position": 244,
+      "text": "ей вдруг вздумалось послать карету за Степаном Трофимовичем",
+      "vad": [
+        0.1,
+        0.45,
+        0.2
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.3967851935190101,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 7082,
+      "timeline_end_index": 7082,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 35,
+          "end": 94
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_05_03_0003",
+      "source_section": "chapter_02_05_03",
+      "source_sentence": 61,
+      "character_position": 245,
+      "text": "покоробило Варвару Петровну",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.2
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2624798749045666,
+      "warning": null,
+      "chapter_sentence_start": 61,
+      "chapter_sentence_end": 61,
+      "timeline_start_index": 7132,
+      "timeline_end_index": 7132,
+      "highlights": [
+        {
+          "chapter_sentence": 61,
+          "start": 2,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_05_03_0004",
+      "source_section": "chapter_02_05_03",
+      "source_sentence": 77,
+      "character_position": 246,
+      "text": "вскипела Варвара Петровна",
+      "vad": [
+        -0.72,
+        0.83,
+        0.18
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.4258278671341079,
+      "warning": null,
+      "chapter_sentence_start": 77,
+      "chapter_sentence_end": 77,
+      "timeline_start_index": 7148,
+      "timeline_end_index": 7148,
+      "highlights": [
+        {
+          "chapter_sentence": 77,
+          "start": 47,
+          "end": 72
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_05_03_0005",
+      "source_section": "chapter_02_05_03",
+      "source_sentence": 134,
+      "character_position": 247,
+      "text": "горестно изумилась Варвара Петровна",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.35
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.0886723744639491,
+      "warning": null,
+      "chapter_sentence_start": 134,
+      "chapter_sentence_end": 134,
+      "timeline_start_index": 7205,
+      "timeline_end_index": 7205,
+      "highlights": [
+        {
+          "chapter_sentence": 134,
+          "start": 2,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_05_03_0006",
+      "source_section": "chapter_02_05_03",
+      "source_sentence": 165,
+      "character_position": 248,
+      "text": "засверкав глазами, Варвара Петровна",
+      "vad": [
+        -0.75,
+        0.8,
+        0.25
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.4016490570393214,
+      "warning": null,
+      "chapter_sentence_start": 165,
+      "chapter_sentence_end": 165,
+      "timeline_start_index": 7236,
+      "timeline_end_index": 7236,
+      "highlights": [
+        {
+          "chapter_sentence": 165,
+          "start": 31,
+          "end": 66
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_05_03_0007",
+      "source_section": "chapter_02_05_03",
+      "source_sentence": 182,
+      "character_position": 249,
+      "text": "изо всех сил скрепляя себя",
+      "vad": [
+        -0.55,
+        0.65,
+        0.3
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.1770585857798314,
+      "warning": null,
+      "chapter_sentence_start": 182,
+      "chapter_sentence_end": 182,
+      "timeline_start_index": 7253,
+      "timeline_end_index": 7253,
+      "highlights": [
+        {
+          "chapter_sentence": 182,
+          "start": 65,
+          "end": 91
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_05_03_0008",
+      "source_section": "chapter_02_05_03",
+      "source_sentence": 183,
+      "character_position": 250,
+      "text": "негодование и каприз ещё раз взяли верх",
+      "vad": [
+        -0.82,
+        0.7,
+        -0.35
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2505145242000549,
+      "warning": null,
+      "chapter_sentence_start": 183,
+      "chapter_sentence_end": 183,
+      "timeline_start_index": 7254,
+      "timeline_end_index": 7254,
+      "highlights": [
+        {
+          "chapter_sentence": 183,
+          "start": 53,
+          "end": 92
+        }
+      ]
+    }
+  ]
+}

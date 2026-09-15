@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "2_4_1",
+  "count": 12,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_02_04_01_0002",
+      "source_section": "chapter_02_04_01",
+      "source_sentence": 86,
+      "character_position": 228,
+      "text": "Всех более торжествовала Варвара Петровна.",
+      "vad": [
+        0.8,
+        0.5,
+        0.7
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.5274019107949877,
+      "warning": null,
+      "chapter_sentence_start": 86,
+      "chapter_sentence_end": 86,
+      "timeline_start_index": 6314,
+      "timeline_end_index": 6314,
+      "highlights": [
+        {
+          "chapter_sentence": 86,
+          "start": 0,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_04_01_0003",
+      "source_section": "chapter_02_04_01",
+      "source_sentence": 87,
+      "character_position": 229,
+      "text": "очень ли тужила она о разрушившихся мечтах насчёт Лизаветы Николаевны",
+      "vad": [
+        -0.45,
+        0.25,
+        -0.2
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.4050190385303169,
+      "warning": null,
+      "chapter_sentence_start": 87,
+      "chapter_sentence_end": 87,
+      "timeline_start_index": 6315,
+      "timeline_end_index": 6315,
+      "highlights": [
+        {
+          "chapter_sentence": 87,
+          "start": 17,
+          "end": 86
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_04_01_0004",
+      "source_section": "chapter_02_04_01",
+      "source_sentence": 89,
+      "character_position": 230,
+      "text": "сама же боялась прямо спросить Николая Всеволодовича",
+      "vad": [
+        -0.55,
+        0.35,
+        -0.65
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.3103175801004363,
+      "warning": null,
+      "chapter_sentence_start": 89,
+      "chapter_sentence_end": 89,
+      "timeline_start_index": 6317,
+      "timeline_end_index": 6317,
+      "highlights": [
+        {
+          "chapter_sentence": 89,
+          "start": 201,
+          "end": 253
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_04_01_0005",
+      "source_section": "chapter_02_04_01",
+      "source_sentence": 90,
+      "character_position": 231,
+      "text": "весело исподтишка попрекнула его",
+      "vad": [
+        0.45,
+        0.35,
+        0.55
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.2308275263888073,
+      "warning": null,
+      "chapter_sentence_start": 90,
+      "chapter_sentence_end": 90,
+      "timeline_start_index": 6318,
+      "timeline_end_index": 6318,
+      "highlights": [
+        {
+          "chapter_sentence": 90,
+          "start": 34,
+          "end": 66
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_04_01_0006",
+      "source_section": "chapter_02_04_01",
+      "source_sentence": 93,
+      "character_position": 232,
+      "text": "Мысль о ней лежала на её сердце камнем, кошмаром, мучила её странными привидениями и гаданиями",
+      "vad": [
+        -0.95,
+        0.78,
+        -0.55
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.4083160546921837,
+      "warning": null,
+      "chapter_sentence_start": 93,
+      "chapter_sentence_end": 93,
+      "timeline_start_index": 6321,
+      "timeline_end_index": 6321,
+      "highlights": [
+        {
+          "chapter_sentence": 93,
+          "start": 0,
+          "end": 94
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_04_01_0007",
+      "source_section": "chapter_02_04_01",
+      "source_sentence": 97,
+      "character_position": 233,
+      "text": "они много сняли тоски с её сердца и разом разрешили многое из того, что так мучило её с того несчастного воскресенья",
+      "vad": [
+        0.72,
+        0.35,
+        0.58
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.3639916460131289,
+      "warning": null,
+      "chapter_sentence_start": 97,
+      "chapter_sentence_end": 97,
+      "timeline_start_index": 6325,
+      "timeline_end_index": 6325,
+      "highlights": [
+        {
+          "chapter_sentence": 97,
+          "start": 137,
+          "end": 253
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_04_01_0008",
+      "source_section": "chapter_02_04_01",
+      "source_sentence": 98,
+      "character_position": 234,
+      "text": "Я не понимала эту женщину!",
+      "vad": [
+        -0.35,
+        0.45,
+        -0.25
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.3804355543922078,
+      "warning": null,
+      "chapter_sentence_start": 98,
+      "chapter_sentence_end": 98,
+      "timeline_start_index": 6326,
+      "timeline_end_index": 6326,
+      "highlights": [
+        {
+          "chapter_sentence": 98,
+          "start": 1,
+          "end": 27
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_04_01_0009",
+      "source_section": "chapter_02_04_01",
+      "source_sentence": 106,
+      "character_position": 235,
+      "text": "Варвара Петровна тотчас же поспешила заметить",
+      "vad": [
+        0.0,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.5430955491533732,
+      "warning": null,
+      "chapter_sentence_start": 106,
+      "chapter_sentence_end": 106,
+      "timeline_start_index": 6334,
+      "timeline_end_index": 6334,
+      "highlights": [
+        {
+          "chapter_sentence": 106,
+          "start": 0,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_04_01_0011",
+      "source_section": "chapter_02_04_01",
+      "source_sentence": 146,
+      "character_position": 236,
+      "text": "Варвара Петровна воротилась домой окончательно приворожённая; она стояла горой за Юлию Михайловну и почему-то уже совсем рассердилась на Степана Трофимовича",
+      "vad": [
+        -0.35,
+        0.45,
+        0.55
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.2991929301721894,
+      "warning": null,
+      "chapter_sentence_start": 146,
+      "chapter_sentence_end": 146,
+      "timeline_start_index": 6374,
+      "timeline_end_index": 6374,
+      "highlights": [
+        {
+          "chapter_sentence": 146,
+          "start": 0,
+          "end": 156
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_04_01_0012",
+      "source_section": "chapter_02_04_01",
+      "source_sentence": 147,
+      "character_position": 237,
+      "text": "Я влюблена в неё, я не понимаю, как я могла так ошибаться в этой женщине",
+      "vad": [
+        0.82,
+        0.68,
+        -0.18
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.6945861489889839,
+      "warning": null,
+      "chapter_sentence_start": 147,
+      "chapter_sentence_end": 147,
+      "timeline_start_index": 6375,
+      "timeline_end_index": 6375,
+      "highlights": [
+        {
+          "chapter_sentence": 147,
+          "start": 2,
+          "end": 74
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_04_01_0013",
+      "source_section": "chapter_02_04_01",
+      "source_sentence": 157,
+      "character_position": 238,
+      "text": "проговорила она в нерешимости",
+      "vad": [
+        -0.18,
+        0.28,
+        -0.22
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.5869173711174263,
+      "warning": null,
+      "chapter_sentence_start": 157,
+      "chapter_sentence_end": 157,
+      "timeline_start_index": 6385,
+      "timeline_end_index": 6385,
+      "highlights": [
+        {
+          "chapter_sentence": 157,
+          "start": 41,
+          "end": 70
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_04_01_0015",
+      "source_section": "chapter_02_04_01",
+      "source_sentence": 159,
+      "character_position": 239,
+      "text": "Она сильно нахмурилась.",
+      "vad": [
+        -0.45,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.2501438886332749,
+      "warning": null,
+      "chapter_sentence_start": 159,
+      "chapter_sentence_end": 159,
+      "timeline_start_index": 6387,
+      "timeline_end_index": 6387,
+      "highlights": [
+        {
+          "chapter_sentence": 159,
+          "start": 2,
+          "end": 25
+        }
+      ]
+    }
+  ]
+}

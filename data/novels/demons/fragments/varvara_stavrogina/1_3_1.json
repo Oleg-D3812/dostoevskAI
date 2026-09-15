@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "1_3_1",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_01_03_01_0001",
+      "source_section": "chapter_01_03_01",
+      "source_sentence": 28,
+      "character_position": 84,
+      "text": "Теперь всё переменилось!",
+      "vad": [
+        -0.85,
+        0.45,
+        -0.2
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2715712574773177,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 1439,
+      "timeline_end_index": 1439,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 0,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_03_01_0002",
+      "source_section": "chapter_01_03_01",
+      "source_sentence": 30,
+      "character_position": 85,
+      "text": "Она презирает прежнее…",
+      "vad": [
+        -0.75,
+        0.2,
+        -0.35
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.3087127782693148,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 1441,
+      "timeline_end_index": 1441,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 0,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_03_01_0003",
+      "source_section": "chapter_01_03_01",
+      "source_sentence": 31,
+      "character_position": 86,
+      "text": "ожесточённый человек, и всё сердится…",
+      "vad": [
+        -0.72,
+        0.48,
+        -0.28
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.1387667505049619,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 1442,
+      "timeline_end_index": 1442,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 39,
+          "end": 76
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_03_01_0004",
+      "source_section": "chapter_01_03_01",
+      "source_sentence": 35,
+      "character_position": 87,
+      "text": "она бы рассердилась ужасно, ужа-а-сно!",
+      "vad": [
+        -0.85,
+        0.9,
+        -0.2
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.4847486060276049,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 1446,
+      "timeline_end_index": 1446,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 36,
+          "end": 74
+        }
+      ]
+    }
+  ]
+}

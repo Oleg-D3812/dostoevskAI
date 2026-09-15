@@ -1,0 +1,5014 @@
+[
+  {
+    "a": "stepan_verkhovenskii",
+    "b": "varvara_stavrogina",
+    "label_a": "Степан Трофимович Верховенский",
+    "label_b": "Варвара Петровна Ставрогина",
+    "rel_a_to_b": "друг и приживальщик",
+    "rel_b_to_a": "покровительница и благодетельница",
+    "category": "дружба",
+    "evolves": true,
+    "note": "Двадцатилетняя зависимая дружба постепенно превращается в разрыв и расставание.",
+    "interactions": 115,
+    "chapters": [
+      "chapter_01_01_02",
+      "chapter_01_01_03",
+      "chapter_01_01_04",
+      "chapter_01_01_05",
+      "chapter_01_01_06",
+      "chapter_01_01_07",
+      "chapter_01_01_08",
+      "chapter_01_01_09",
+      "chapter_01_02_01",
+      "chapter_01_02_02",
+      "chapter_01_02_04",
+      "chapter_01_02_05",
+      "chapter_01_02_07",
+      "chapter_01_02_08",
+      "chapter_01_03_01",
+      "chapter_01_03_03",
+      "chapter_01_03_10",
+      "chapter_01_04_07",
+      "chapter_01_05_01",
+      "chapter_01_05_03",
+      "chapter_01_05_04",
+      "chapter_01_05_06",
+      "chapter_01_05_07",
+      "chapter_02_01_02",
+      "chapter_02_04_01",
+      "chapter_02_05_03",
+      "chapter_02_09_01",
+      "chapter_02_10_03",
+      "chapter_03_07_01",
+      "chapter_03_07_03"
+    ],
+    "scenes": [
+      "chapter_01_01_02_S1",
+      "chapter_01_01_02_S2",
+      "chapter_01_01_02_S3",
+      "chapter_01_01_02_S4",
+      "chapter_01_01_03_S1",
+      "chapter_01_01_03_S2",
+      "chapter_01_01_03_S3",
+      "chapter_01_01_03_S4",
+      "chapter_01_01_04_S1",
+      "chapter_01_01_04_S2",
+      "chapter_01_01_04_S3",
+      "chapter_01_01_05_S1",
+      "chapter_01_01_05_S2",
+      "chapter_01_01_05_S3",
+      "chapter_01_01_05_S4",
+      "chapter_01_01_06_S4",
+      "chapter_01_01_07_S1",
+      "chapter_01_01_07_S2",
+      "chapter_01_01_07_S3",
+      "chapter_01_01_07_S4",
+      "chapter_01_01_08_S1",
+      "chapter_01_01_09_S2",
+      "chapter_01_01_09_S3",
+      "chapter_01_02_01_S1",
+      "chapter_01_02_01_S3",
+      "chapter_01_02_01_S6",
+      "chapter_01_02_02_S2",
+      "chapter_01_02_04_S2",
+      "chapter_01_02_05_S1",
+      "chapter_01_02_07_S3",
+      "chapter_01_02_07_S4",
+      "chapter_01_02_08_S1",
+      "chapter_01_02_08_S2",
+      "chapter_01_02_08_S3",
+      "chapter_01_03_01_S1",
+      "chapter_01_03_03_S1",
+      "chapter_01_03_03_S2",
+      "chapter_01_03_03_S3",
+      "chapter_01_03_10_S3",
+      "chapter_01_03_10_S4",
+      "chapter_01_04_07_S1",
+      "chapter_01_05_01_S1",
+      "chapter_01_05_03_S2",
+      "chapter_01_05_03_S4",
+      "chapter_01_05_04_S1",
+      "chapter_01_05_06_S1",
+      "chapter_01_05_07_S6",
+      "chapter_02_01_02_S1",
+      "chapter_02_04_01_S3",
+      "chapter_02_05_03_S1",
+      "chapter_02_05_03_S2",
+      "chapter_02_09_01_S4",
+      "chapter_02_10_03_S2",
+      "chapter_02_10_03_S5",
+      "chapter_03_07_01_S1",
+      "chapter_03_07_03_S2",
+      "chapter_03_07_03_S5",
+      "chapter_03_07_03_S6"
+    ]
+  },
+  {
+    "a": "nikolai_stavrogin",
+    "b": "petr_verkhovenskii",
+    "label_a": "Николай Всеволодович Ставрогин",
+    "label_b": "Пётр Степанович Верховенский",
+    "rel_a_to_b": "политический союзник и объект расчётов",
+    "rel_b_to_a": "манипулятор и вербовщик",
+    "category": "служебные",
+    "evolves": true,
+    "note": "Свободное сотрудничество сменяется попыткой Петра подчинить Ставрогина и вовлечь его в преступления.",
+    "interactions": 62,
+    "chapters": [
+      "chapter_01_05_07",
+      "chapter_02_01_03",
+      "chapter_02_01_07",
+      "chapter_02_02_04",
+      "chapter_02_04_01",
+      "chapter_02_06_05",
+      "chapter_02_06_07",
+      "chapter_02_07_02",
+      "chapter_02_08_01",
+      "chapter_03_02_02",
+      "chapter_03_03_01",
+      "chapter_03_03_02",
+      "chapter_03_04_01",
+      "chapter_03_04_02",
+      "chapter_03_04_03",
+      "chapter_03_09_02"
+    ],
+    "scenes": [
+      "chapter_01_05_07_S1",
+      "chapter_01_05_07_S4",
+      "chapter_02_01_03_S1",
+      "chapter_02_01_07_S1",
+      "chapter_02_02_04_S2",
+      "chapter_02_04_01_S4",
+      "chapter_02_06_05_S1",
+      "chapter_02_06_07_S2",
+      "chapter_02_07_02_S4",
+      "chapter_02_08_01_S1",
+      "chapter_02_08_01_S2",
+      "chapter_02_08_01_S3",
+      "chapter_03_02_02_S3",
+      "chapter_03_03_01_S2",
+      "chapter_03_03_02_S1",
+      "chapter_03_03_02_S3",
+      "chapter_03_04_01_S1",
+      "chapter_03_04_02_S1",
+      "chapter_03_04_03_S2",
+      "chapter_03_09_02_S7"
+    ]
+  },
+  {
+    "a": "anton_lavrentevich",
+    "b": "stepan_verkhovenskii",
+    "label_a": "Антон Лаврентьевич",
+    "label_b": "Степан Трофимович Верховенский",
+    "rel_a_to_b": "конфидент и друг",
+    "rel_b_to_a": "друг и доверенное лицо",
+    "category": "дружба",
+    "evolves": false,
+    "note": "",
+    "interactions": 56,
+    "chapters": [
+      "chapter_01_01_01",
+      "chapter_01_01_03",
+      "chapter_01_02_05",
+      "chapter_01_03_01",
+      "chapter_01_03_02",
+      "chapter_01_03_03",
+      "chapter_01_03_07",
+      "chapter_01_03_10",
+      "chapter_01_05_02",
+      "chapter_02_09_01",
+      "chapter_03_02_01"
+    ],
+    "scenes": [
+      "chapter_01_01_01_S3",
+      "chapter_01_01_01_S5",
+      "chapter_01_01_03_S1",
+      "chapter_01_01_03_S2",
+      "chapter_01_02_05_S1",
+      "chapter_01_03_01_S1",
+      "chapter_01_03_01_S2",
+      "chapter_01_03_01_S4",
+      "chapter_01_03_02_S2",
+      "chapter_01_03_03_S1",
+      "chapter_01_03_03_S2",
+      "chapter_01_03_03_S3",
+      "chapter_01_03_07_S1",
+      "chapter_01_03_07_S3",
+      "chapter_01_03_07_S5",
+      "chapter_01_03_10_S1",
+      "chapter_01_03_10_S3",
+      "chapter_01_05_02_S3",
+      "chapter_02_09_01_S1",
+      "chapter_02_09_01_S2",
+      "chapter_02_09_01_S3",
+      "chapter_02_09_01_S4",
+      "chapter_02_09_01_S5",
+      "chapter_03_02_01_S1"
+    ]
+  },
+  {
+    "a": "nikolai_stavrogin",
+    "b": "tikhon",
+    "label_a": "Николай Всеволодович Ставрогин",
+    "label_b": "Тихон",
+    "rel_a_to_b": "исповедник",
+    "rel_b_to_a": "духовный наставник",
+    "category": "покровительство",
+    "evolves": false,
+    "note": "Тихон выслушивает исповедь Ставрогина и пытается наставить его.",
+    "interactions": 39,
+    "chapters": [
+      "chapter_03_09_01",
+      "chapter_03_09_03"
+    ],
+    "scenes": [
+      "chapter_03_09_01_S3",
+      "chapter_03_09_03_S1"
+    ]
+  },
+  {
+    "a": "ivan_shatov",
+    "b": "nikolai_stavrogin",
+    "label_a": "Иван Шатов",
+    "label_b": "Николай Всеволодович Ставрогин",
+    "rel_a_to_b": "бывший ученик и сторонник",
+    "rel_b_to_a": "бывший идеологический наставник",
+    "category": "прочее",
+    "evolves": true,
+    "note": "Восхищение и ученичество Шатова сменяются обвинением, пощёчиной и враждебностью.",
+    "interactions": 37,
+    "chapters": [
+      "chapter_01_04_04",
+      "chapter_01_05_08",
+      "chapter_02_01_04",
+      "chapter_02_01_06",
+      "chapter_02_01_07",
+      "chapter_02_06_05"
+    ],
+    "scenes": [
+      "chapter_01_04_04_S3",
+      "chapter_01_05_08_S2",
+      "chapter_02_01_04_S4",
+      "chapter_02_01_06_S1",
+      "chapter_02_01_07_S1",
+      "chapter_02_06_05_S1"
+    ]
+  },
+  {
+    "a": "petr_verkhovenskii",
+    "b": "sergei_liputin",
+    "label_a": "Пётр Степанович Верховенский",
+    "label_b": "Сергей Васильевич Липутин",
+    "rel_a_to_b": "руководитель и манипулятор",
+    "rel_b_to_a": "подчинённый сообщник",
+    "category": "служебные",
+    "evolves": true,
+    "note": "Липутин из услужливого сообщника превращается в недовольного и тайно враждебного подчинённого.",
+    "interactions": 36,
+    "chapters": [
+      "chapter_02_01_03",
+      "chapter_02_07_02",
+      "chapter_03_03_02",
+      "chapter_03_04_01",
+      "chapter_03_04_02",
+      "chapter_03_04_03",
+      "chapter_03_04_04",
+      "chapter_03_06_01"
+    ],
+    "scenes": [
+      "chapter_02_01_03_S1",
+      "chapter_02_07_02_S3",
+      "chapter_03_03_02_S1",
+      "chapter_03_04_01_S3",
+      "chapter_03_04_02_S2",
+      "chapter_03_04_02_S3",
+      "chapter_03_04_03_S1",
+      "chapter_03_04_03_S3",
+      "chapter_03_04_04_S1",
+      "chapter_03_04_04_S3",
+      "chapter_03_06_01_S2",
+      "chapter_03_06_01_S5"
+    ]
+  },
+  {
+    "a": "lizaveta_tushina",
+    "b": "nikolai_stavrogin",
+    "label_a": "Лизавета Николаевна Тушина",
+    "label_b": "Николай Всеволодович Ставрогин",
+    "rel_a_to_b": "возлюбленная",
+    "rel_b_to_a": "возлюбленный и соблазнитель",
+    "category": "любовь",
+    "evolves": true,
+    "note": "Взаимное влечение и надежда на брак заканчиваются публичным разрывом и гибелью Лизы.",
+    "interactions": 35,
+    "chapters": [
+      "chapter_01_02_04",
+      "chapter_01_02_06",
+      "chapter_01_04_02",
+      "chapter_01_05_05",
+      "chapter_01_05_07",
+      "chapter_02_01_03",
+      "chapter_02_05_02",
+      "chapter_02_10_03",
+      "chapter_03_03_01",
+      "chapter_03_03_02"
+    ],
+    "scenes": [
+      "chapter_01_02_04_S1",
+      "chapter_01_02_06_S1",
+      "chapter_01_04_02_S1",
+      "chapter_01_05_05_S2",
+      "chapter_01_05_07_S2",
+      "chapter_02_01_03_S1",
+      "chapter_02_05_02_S3",
+      "chapter_02_10_03_S4",
+      "chapter_03_03_01_S1",
+      "chapter_03_03_01_S2",
+      "chapter_03_03_02_S2"
+    ]
+  },
+  {
+    "a": "andrei_fon_lembke",
+    "b": "yuliya_fon_lembke",
+    "label_a": "Андрей Антонович фон-Лембке",
+    "label_b": "Юлия Михайловна фон-Лембке",
+    "rel_a_to_b": "муж",
+    "rel_b_to_a": "жена",
+    "category": "брак",
+    "evolves": true,
+    "note": "Супружеское подчинение и сотрудничество переходят в ревность, конфликт и нервный срыв Андрея Антоновича.",
+    "interactions": 34,
+    "chapters": [
+      "chapter_02_04_03",
+      "chapter_02_05_01",
+      "chapter_02_06_01",
+      "chapter_02_06_03",
+      "chapter_02_06_04",
+      "chapter_02_10_01",
+      "chapter_02_10_03",
+      "chapter_03_01_02",
+      "chapter_03_01_04",
+      "chapter_03_02_02",
+      "chapter_03_02_03",
+      "chapter_03_02_04"
+    ],
+    "scenes": [
+      "chapter_02_04_03_S4",
+      "chapter_02_04_03_S5",
+      "chapter_02_04_03_S6",
+      "chapter_02_04_03_S8",
+      "chapter_02_05_01_S3",
+      "chapter_02_06_01_S1",
+      "chapter_02_06_01_S2",
+      "chapter_02_06_03_S1",
+      "chapter_02_06_04_S4",
+      "chapter_02_10_01_S3",
+      "chapter_02_10_01_S4",
+      "chapter_02_10_03_S1",
+      "chapter_02_10_03_S3",
+      "chapter_03_01_02_S4",
+      "chapter_03_01_04_S3",
+      "chapter_03_02_02_S2",
+      "chapter_03_02_03_S2",
+      "chapter_03_02_03_S4",
+      "chapter_03_02_04_S1"
+    ]
+  },
+  {
+    "a": "aleksei_kirillov",
+    "b": "nikolai_stavrogin",
+    "label_a": "Алексей Нилыч Кириллов",
+    "label_b": "Николай Всеволодович Ставрогин",
+    "rel_a_to_b": "идеологический собеседник и бывший товарищ",
+    "rel_b_to_a": "бывший товарищ и идейный соблазнитель",
+    "category": "знакомство",
+    "evolves": true,
+    "note": "Прежняя близость и уважение сменяются отчуждением и использованием Кириллова в преступном плане.",
+    "interactions": 32,
+    "chapters": [
+      "chapter_01_05_06",
+      "chapter_02_01_04",
+      "chapter_02_01_05",
+      "chapter_02_01_07",
+      "chapter_02_03_02",
+      "chapter_02_03_03",
+      "chapter_02_06_03",
+      "chapter_02_07_02",
+      "chapter_02_08_01",
+      "chapter_03_09_02"
+    ],
+    "scenes": [
+      "chapter_01_05_06_S1",
+      "chapter_02_01_04_S4",
+      "chapter_02_01_05_S2",
+      "chapter_02_01_05_S3",
+      "chapter_02_01_05_S4",
+      "chapter_02_01_07_S1",
+      "chapter_02_03_02_S1",
+      "chapter_02_03_02_S2",
+      "chapter_02_03_03_S1",
+      "chapter_02_06_03_S1",
+      "chapter_02_07_02_S4",
+      "chapter_02_08_01_S1",
+      "chapter_03_09_02_S7"
+    ]
+  },
+  {
+    "a": "sofya_ulitina",
+    "b": "stepan_verkhovenskii",
+    "label_a": "Софья Матвеевна Улитина",
+    "label_b": "Степан Трофимович Верховенский",
+    "rel_a_to_b": "поздняя знакомая и сиделка",
+    "rel_b_to_a": "поклонник и избранный спутник",
+    "category": "знакомство",
+    "evolves": true,
+    "note": "Случайное знакомство на дороге превращается в болезненную эмоциональную привязанность Степана Трофимовича.",
+    "interactions": 32,
+    "chapters": [
+      "chapter_03_07_01",
+      "chapter_03_07_02",
+      "chapter_03_07_03"
+    ],
+    "scenes": [
+      "chapter_03_07_01_S2",
+      "chapter_03_07_01_S3",
+      "chapter_03_07_02_S1",
+      "chapter_03_07_02_S3",
+      "chapter_03_07_02_S4",
+      "chapter_03_07_02_S5",
+      "chapter_03_07_02_S7",
+      "chapter_03_07_02_S8",
+      "chapter_03_07_03_S2",
+      "chapter_03_07_03_S5"
+    ]
+  },
+  {
+    "a": "aleksei_kirillov",
+    "b": "petr_verkhovenskii",
+    "label_a": "Алексей Нилыч Кириллов",
+    "label_b": "Пётр Степанович Верховенский",
+    "rel_a_to_b": "подневольный сообщник",
+    "rel_b_to_a": "организатор и принуждающий руководитель",
+    "category": "служебные",
+    "evolves": true,
+    "note": "Идейное соглашение Кириллова превращается в его использование Петром для прикрытия убийства.",
+    "interactions": 30,
+    "chapters": [
+      "chapter_02_06_03",
+      "chapter_02_06_06",
+      "chapter_02_07_02",
+      "chapter_02_08_01",
+      "chapter_03_04_01",
+      "chapter_03_04_03",
+      "chapter_03_05_02",
+      "chapter_03_06_02"
+    ],
+    "scenes": [
+      "chapter_02_06_03_S1",
+      "chapter_02_06_06_S1",
+      "chapter_02_07_02_S4",
+      "chapter_02_08_01_S1",
+      "chapter_03_04_01_S3",
+      "chapter_03_04_03_S1",
+      "chapter_03_04_03_S2",
+      "chapter_03_05_02_S3",
+      "chapter_03_06_02_S2",
+      "chapter_03_06_02_S3",
+      "chapter_03_06_02_S4"
+    ]
+  },
+  {
+    "a": "andrei_fon_lembke",
+    "b": "petr_verkhovenskii",
+    "label_a": "Андрей Антонович фон-Лембке",
+    "label_b": "Пётр Степанович Верховенский",
+    "rel_a_to_b": "административный начальник, подвергаемый манипуляции",
+    "rel_b_to_a": "политический интриган и подчиняющий манипулятор",
+    "category": "служебные",
+    "evolves": true,
+    "note": "Пётр сначала выступает фаворитом губернаторского дома, а затем сознательно доводит Лембке до срыва.",
+    "interactions": 30,
+    "chapters": [
+      "chapter_02_01_01",
+      "chapter_02_04_03",
+      "chapter_02_06_01",
+      "chapter_02_06_02",
+      "chapter_02_06_03",
+      "chapter_02_06_04",
+      "chapter_02_10_01"
+    ],
+    "scenes": [
+      "chapter_02_01_01_S4",
+      "chapter_02_04_03_S6",
+      "chapter_02_04_03_S7",
+      "chapter_02_06_01_S2",
+      "chapter_02_06_02_S3",
+      "chapter_02_06_03_S1",
+      "chapter_02_06_04_S1",
+      "chapter_02_10_01_S3"
+    ]
+  },
+  {
+    "a": "nikolai_stavrogin",
+    "b": "varvara_stavrogina",
+    "label_a": "Николай Всеволодович Ставрогин",
+    "label_b": "Варвара Петровна Ставрогина",
+    "rel_a_to_b": "сын",
+    "rel_b_to_a": "мать",
+    "category": "родство",
+    "evolves": false,
+    "note": "",
+    "interactions": 30,
+    "chapters": [
+      "chapter_01_02_01",
+      "chapter_01_02_02",
+      "chapter_01_02_03",
+      "chapter_01_02_04",
+      "chapter_01_02_06",
+      "chapter_01_05_04",
+      "chapter_01_05_05",
+      "chapter_01_05_07",
+      "chapter_02_01_03",
+      "chapter_02_01_04",
+      "chapter_02_03_04",
+      "chapter_02_04_01",
+      "chapter_02_10_03",
+      "chapter_03_08_01"
+    ],
+    "scenes": [
+      "chapter_01_02_01_S2",
+      "chapter_01_02_01_S5",
+      "chapter_01_02_01_S6",
+      "chapter_01_02_02_S2",
+      "chapter_01_02_03_S4",
+      "chapter_01_02_04_S1",
+      "chapter_01_02_04_S2",
+      "chapter_01_02_06_S2",
+      "chapter_01_05_04_S2",
+      "chapter_01_05_05_S2",
+      "chapter_01_05_07_S1",
+      "chapter_01_05_07_S5",
+      "chapter_02_01_03_S1",
+      "chapter_02_01_04_S1",
+      "chapter_02_03_04_S1",
+      "chapter_02_04_01_S3",
+      "chapter_02_10_03_S4",
+      "chapter_03_08_01_S7"
+    ]
+  },
+  {
+    "a": "petr_verkhovenskii",
+    "b": "stepan_verkhovenskii",
+    "label_a": "Пётр Степанович Верховенский",
+    "label_b": "Степан Трофимович Верховенский",
+    "rel_a_to_b": "сын и мучитель",
+    "rel_b_to_a": "отец",
+    "category": "родство",
+    "evolves": true,
+    "note": "Формальная сыновняя связь превращается в открытое унижение, конфликт и проклятие.",
+    "interactions": 29,
+    "chapters": [
+      "chapter_01_02_08",
+      "chapter_01_03_10",
+      "chapter_01_05_05",
+      "chapter_01_05_06",
+      "chapter_01_05_07",
+      "chapter_02_01_01",
+      "chapter_02_01_02",
+      "chapter_02_04_01",
+      "chapter_02_04_02",
+      "chapter_02_04_03",
+      "chapter_02_10_03"
+    ],
+    "scenes": [
+      "chapter_01_02_08_S1",
+      "chapter_01_03_10_S1",
+      "chapter_01_05_05_S1",
+      "chapter_01_05_06_S1",
+      "chapter_01_05_07_S4",
+      "chapter_01_05_07_S5",
+      "chapter_01_05_07_S7",
+      "chapter_02_01_01_S1",
+      "chapter_02_01_02_S1",
+      "chapter_02_01_02_S2",
+      "chapter_02_04_01_S3",
+      "chapter_02_04_02_S1",
+      "chapter_02_04_02_S2",
+      "chapter_02_04_03_S1",
+      "chapter_02_10_03_S3"
+    ]
+  },
+  {
+    "a": "praskovya_ivanovna",
+    "b": "varvara_stavrogina",
+    "label_a": "Прасковья Ивановна",
+    "label_b": "Варвара Петровна Ставрогина",
+    "rel_a_to_b": "пансионская подруга",
+    "rel_b_to_a": "пансионская подруга",
+    "category": "дружба",
+    "evolves": true,
+    "note": "Старая дружба подруг детства переходит в взаимную враждебность и почти полный разрыв.",
+    "interactions": 26,
+    "chapters": [
+      "chapter_01_02_04",
+      "chapter_01_02_06",
+      "chapter_01_05_01",
+      "chapter_01_05_02",
+      "chapter_01_05_03",
+      "chapter_01_05_06"
+    ],
+    "scenes": [
+      "chapter_01_02_04_S1",
+      "chapter_01_02_04_S2",
+      "chapter_01_02_06_S1",
+      "chapter_01_05_01_S2",
+      "chapter_01_05_02_S1",
+      "chapter_01_05_02_S2",
+      "chapter_01_05_03_S1",
+      "chapter_01_05_03_S2",
+      "chapter_01_05_03_S4",
+      "chapter_01_05_06_S1"
+    ]
+  },
+  {
+    "a": "fedor_fedorovich",
+    "b": "nikolai_stavrogin",
+    "label_a": "Фёдор Фёдорович",
+    "label_b": "Николай Всеволодович Ставрогин",
+    "rel_a_to_b": "наёмный пособник",
+    "rel_b_to_a": "наниматель и благодетель",
+    "category": "служебные",
+    "evolves": true,
+    "note": "Фёдор пытается предложить Ставрогину свои услуги, но тот отвергает его и затем унижает.",
+    "interactions": 25,
+    "chapters": [
+      "chapter_02_02_01",
+      "chapter_02_02_04",
+      "chapter_02_03_04"
+    ],
+    "scenes": [
+      "chapter_02_02_01_S1",
+      "chapter_02_02_04_S1",
+      "chapter_02_02_04_S2",
+      "chapter_02_02_04_S3",
+      "chapter_02_03_04_S3"
+    ]
+  },
+  {
+    "a": "lizaveta_tushina",
+    "b": "mavrikii_nikolaevich",
+    "label_a": "Лизавета Николаевна Тушина",
+    "label_b": "Маврикий Николаевич",
+    "rel_a_to_b": "невеста",
+    "rel_b_to_a": "жених",
+    "category": "сватовство",
+    "evolves": true,
+    "note": "Помолвка и взаимное уважение разрушаются из-за одержимости Лизы Ставрогиным, но затем их связь частично возобновляется.",
+    "interactions": 25,
+    "chapters": [
+      "chapter_01_04_01",
+      "chapter_01_04_02",
+      "chapter_01_04_03",
+      "chapter_01_05_07",
+      "chapter_01_05_08",
+      "chapter_02_05_02",
+      "chapter_02_06_07",
+      "chapter_02_10_03",
+      "chapter_03_03_02",
+      "chapter_03_03_03"
+    ],
+    "scenes": [
+      "chapter_01_04_01_S1",
+      "chapter_01_04_01_S3",
+      "chapter_01_04_02_S1",
+      "chapter_01_04_03_S1",
+      "chapter_01_04_03_S2",
+      "chapter_01_05_07_S2",
+      "chapter_01_05_08_S1",
+      "chapter_01_05_08_S3",
+      "chapter_02_05_02_S2",
+      "chapter_02_06_07_S1",
+      "chapter_02_10_03_S4",
+      "chapter_03_03_02_S1",
+      "chapter_03_03_03_S2",
+      "chapter_03_03_03_S3"
+    ]
+  },
+  {
+    "a": "sergei_liputin",
+    "b": "stepan_verkhovenskii",
+    "label_a": "Сергей Васильевич Липутин",
+    "label_b": "Степан Трофимович Верховенский",
+    "rel_a_to_b": "приятель и осведомитель",
+    "rel_b_to_a": "собутыльник и недоверчивый знакомый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "Липутин входит в кружок Степана, но остаётся для него подозрительным сплетником.",
+    "interactions": 25,
+    "chapters": [
+      "chapter_01_01_08",
+      "chapter_01_01_09",
+      "chapter_01_03_03",
+      "chapter_01_03_04",
+      "chapter_01_03_05",
+      "chapter_01_03_06",
+      "chapter_01_03_07",
+      "chapter_01_03_10",
+      "chapter_01_05_04"
+    ],
+    "scenes": [
+      "chapter_01_01_08_S4",
+      "chapter_01_01_09_S2",
+      "chapter_01_01_09_S3",
+      "chapter_01_03_03_S3",
+      "chapter_01_03_04_S1",
+      "chapter_01_03_04_S2",
+      "chapter_01_03_04_S4",
+      "chapter_01_03_05_S1",
+      "chapter_01_03_05_S2",
+      "chapter_01_03_06_S4",
+      "chapter_01_03_07_S1",
+      "chapter_01_03_10_S1",
+      "chapter_01_05_04_S1"
+    ]
+  },
+  {
+    "a": "petr_verkhovenskii",
+    "b": "yuliya_fon_lembke",
+    "label_a": "Пётр Степанович Верховенский",
+    "label_b": "Юлия Михайловна фон-Лембке",
+    "rel_a_to_b": "фаворит и манипулятор",
+    "rel_b_to_a": "покровительница",
+    "category": "покровительство",
+    "evolves": true,
+    "note": "Пётр становится её доверенным фаворитом, а затем использует её влияние для разрушения порядка и компрометации мужа.",
+    "interactions": 24,
+    "chapters": [
+      "chapter_02_01_01",
+      "chapter_02_04_02",
+      "chapter_02_04_03",
+      "chapter_02_05_01",
+      "chapter_02_06_01",
+      "chapter_02_06_02",
+      "chapter_02_06_03",
+      "chapter_03_01_01",
+      "chapter_03_02_02",
+      "chapter_03_02_03",
+      "chapter_03_04_01"
+    ],
+    "scenes": [
+      "chapter_02_01_01_S4",
+      "chapter_02_04_02_S2",
+      "chapter_02_04_03_S8",
+      "chapter_02_05_01_S1",
+      "chapter_02_05_01_S3",
+      "chapter_02_06_01_S2",
+      "chapter_02_06_01_S3",
+      "chapter_02_06_02_S3",
+      "chapter_02_06_03_S1",
+      "chapter_03_01_01_S2",
+      "chapter_03_02_02_S1",
+      "chapter_03_02_02_S2",
+      "chapter_03_02_02_S3",
+      "chapter_03_02_03_S3",
+      "chapter_03_04_01_S1",
+      "chapter_03_04_01_S2"
+    ]
+  },
+  {
+    "a": "ivan_shatov",
+    "b": "marya_shatova",
+    "label_a": "Иван Шатов",
+    "label_b": "Марья Игнатьевна Шатова",
+    "rel_a_to_b": "муж",
+    "rel_b_to_a": "жена",
+    "category": "брак",
+    "evolves": true,
+    "note": "После трёх лет разрыва супруги вновь сходятся, и Марья рожает ребёнка в доме Шатова.",
+    "interactions": 23,
+    "chapters": [
+      "chapter_03_05_02",
+      "chapter_03_05_04",
+      "chapter_03_05_06"
+    ],
+    "scenes": [
+      "chapter_03_05_02_S2",
+      "chapter_03_05_04_S2",
+      "chapter_03_05_06_S2",
+      "chapter_03_05_06_S3",
+      "chapter_03_05_06_S4",
+      "chapter_03_05_06_S5"
+    ]
+  },
+  {
+    "a": "marya_lebyadkina",
+    "b": "nikolai_stavrogin",
+    "label_a": "Марья Тимофеевна Лебядкина",
+    "label_b": "Николай Всеволодович Ставрогин",
+    "rel_a_to_b": "законная жена",
+    "rel_b_to_a": "муж",
+    "category": "брак",
+    "evolves": true,
+    "note": "Тайный брак превращается в намерение публично признать супругу, но заканчивается её убийством.",
+    "interactions": 23,
+    "chapters": [
+      "chapter_01_05_05",
+      "chapter_01_05_06",
+      "chapter_02_01_06",
+      "chapter_02_02_02",
+      "chapter_02_02_03",
+      "chapter_03_02_04",
+      "chapter_03_09_02"
+    ],
+    "scenes": [
+      "chapter_01_05_05_S2",
+      "chapter_01_05_06_S1",
+      "chapter_02_01_06_S1",
+      "chapter_02_02_02_S1",
+      "chapter_02_02_03_S1",
+      "chapter_03_02_04_S4",
+      "chapter_03_09_02_S7"
+    ]
+  },
+  {
+    "a": "aleksei_kirillov",
+    "b": "stepan_verkhovenskii",
+    "label_a": "Алексей Нилыч Кириллов",
+    "label_b": "Степан Трофимович Верховенский",
+    "rel_a_to_b": "знакомый по кружку",
+    "rel_b_to_a": "знакомый и собеседник",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 22,
+    "chapters": [
+      "chapter_01_03_04",
+      "chapter_01_03_05",
+      "chapter_01_03_06"
+    ],
+    "scenes": [
+      "chapter_01_03_04_S1",
+      "chapter_01_03_04_S2",
+      "chapter_01_03_04_S3",
+      "chapter_01_03_04_S4",
+      "chapter_01_03_05_S1",
+      "chapter_01_03_05_S2",
+      "chapter_01_03_06_S4"
+    ]
+  },
+  {
+    "a": "petr_verkhovenskii",
+    "b": "semen_karmazinov",
+    "label_a": "Пётр Степанович Верховенский",
+    "label_b": "Семён Егорович Кармазинов",
+    "rel_a_to_b": "политический собеседник и манипулятор",
+    "rel_b_to_a": "заискивающий информатор",
+    "category": "служебные",
+    "evolves": true,
+    "note": "Кармазинов пытается использовать Петра как источник сведений, а Пётр цинично подыгрывает его страхам и тщеславию.",
+    "interactions": 21,
+    "chapters": [
+      "chapter_02_01_01",
+      "chapter_02_06_05",
+      "chapter_02_06_07"
+    ],
+    "scenes": [
+      "chapter_02_01_01_S5",
+      "chapter_02_06_05_S1",
+      "chapter_02_06_07_S2"
+    ]
+  },
+  {
+    "a": "aleksei_egorovich",
+    "b": "nikolai_stavrogin",
+    "label_a": "Алексей Егорович",
+    "label_b": "Николай Всеволодович Ставрогин",
+    "rel_a_to_b": "преданный слуга",
+    "rel_b_to_a": "господин и воспитанник",
+    "category": "служебные",
+    "evolves": false,
+    "note": "",
+    "interactions": 20,
+    "chapters": [
+      "chapter_02_01_04",
+      "chapter_02_03_04",
+      "chapter_02_06_07",
+      "chapter_03_09_01"
+    ],
+    "scenes": [
+      "chapter_02_01_04_S2",
+      "chapter_02_01_04_S3",
+      "chapter_02_03_04_S1",
+      "chapter_02_06_07_S1",
+      "chapter_03_09_01_S1"
+    ]
+  },
+  {
+    "a": "ignat_lebyadkin",
+    "b": "nikolai_stavrogin",
+    "label_a": "Игнат Лебядкин",
+    "label_b": "Николай Всеволодович Ставрогин",
+    "rel_a_to_b": "шурин и зависимый от него человек",
+    "rel_b_to_a": "зять и благодетель",
+    "category": "родство",
+    "evolves": true,
+    "note": "Зависимость Лебядкина от денежных выплат Ставрогина сменяется угрозами, шантажом и окончательным разрывом.",
+    "interactions": 20,
+    "chapters": [
+      "chapter_01_03_09",
+      "chapter_01_05_04",
+      "chapter_01_05_06",
+      "chapter_02_02_02",
+      "chapter_02_02_03",
+      "chapter_02_02_04",
+      "chapter_02_10_03",
+      "chapter_03_02_04",
+      "chapter_03_09_02"
+    ],
+    "scenes": [
+      "chapter_01_03_09_S2",
+      "chapter_01_05_04_S2",
+      "chapter_01_05_06_S1",
+      "chapter_02_02_02_S1",
+      "chapter_02_02_03_S1",
+      "chapter_02_02_04_S2",
+      "chapter_02_10_03_S4",
+      "chapter_03_02_04_S4",
+      "chapter_03_09_02_S3",
+      "chapter_03_09_02_S7"
+    ]
+  },
+  {
+    "a": "ivan_shatov",
+    "b": "petr_verkhovenskii",
+    "label_a": "Иван Шатов",
+    "label_b": "Пётр Степанович Верховенский",
+    "rel_a_to_b": "бывший сообщник и противник",
+    "rel_b_to_a": "организатор убийства и враг",
+    "category": "вражда",
+    "evolves": true,
+    "note": "Попытка Шатова выйти из общества заканчивается его убийством по приказу Петра.",
+    "interactions": 20,
+    "chapters": [
+      "chapter_02_01_06",
+      "chapter_02_06_03",
+      "chapter_02_06_06",
+      "chapter_02_07_02",
+      "chapter_03_04_01",
+      "chapter_03_05_01",
+      "chapter_03_06_01",
+      "chapter_03_06_02"
+    ],
+    "scenes": [
+      "chapter_02_01_06_S1",
+      "chapter_02_06_03_S1",
+      "chapter_02_06_06_S2",
+      "chapter_02_07_02_S4",
+      "chapter_03_04_01_S3",
+      "chapter_03_05_01_S1",
+      "chapter_03_05_01_S5",
+      "chapter_03_06_01_S2",
+      "chapter_03_06_01_S3",
+      "chapter_03_06_02_S2"
+    ]
+  },
+  {
+    "a": "aleksei_kirillov",
+    "b": "ivan_shatov",
+    "label_a": "Алексей Нилыч Кириллов",
+    "label_b": "Иван Шатов",
+    "rel_a_to_b": "друг и бывший товарищ",
+    "rel_b_to_a": "друг и бывший товарищ",
+    "category": "дружба",
+    "evolves": true,
+    "note": "Совместная близость в Америке сменяется отчуждением, но прежняя связь используется Петром для инсценировки вины Кириллова.",
+    "interactions": 19,
+    "chapters": [
+      "chapter_01_03_08",
+      "chapter_01_04_04",
+      "chapter_02_06_03",
+      "chapter_03_05_01",
+      "chapter_03_05_03",
+      "chapter_03_05_04",
+      "chapter_03_05_05"
+    ],
+    "scenes": [
+      "chapter_01_03_08_S1",
+      "chapter_01_04_04_S3",
+      "chapter_02_06_03_S1",
+      "chapter_03_05_01_S4",
+      "chapter_03_05_03_S1",
+      "chapter_03_05_04_S2",
+      "chapter_03_05_05_S1"
+    ]
+  },
+  {
+    "a": "aleksei_kirillov",
+    "b": "sergei_liputin",
+    "label_a": "Алексей Нилыч Кириллов",
+    "label_b": "Сергей Васильевич Липутин",
+    "rel_a_to_b": "сосед и объект наблюдения",
+    "rel_b_to_a": "сообщник и осведомитель",
+    "category": "служебные",
+    "evolves": true,
+    "note": "Липутин вовлекает Кириллова в сеть и пытается использовать его, тогда как Кириллов всё сильнее отвергает его влияние.",
+    "interactions": 19,
+    "chapters": [
+      "chapter_01_03_04",
+      "chapter_01_03_05",
+      "chapter_01_03_06",
+      "chapter_01_03_08",
+      "chapter_03_04_03",
+      "chapter_03_04_04",
+      "chapter_03_05_02"
+    ],
+    "scenes": [
+      "chapter_01_03_04_S2",
+      "chapter_01_03_04_S3",
+      "chapter_01_03_05_S1",
+      "chapter_01_03_06_S2",
+      "chapter_01_03_06_S4",
+      "chapter_01_03_06_S5",
+      "chapter_01_03_08_S2",
+      "chapter_03_04_03_S1",
+      "chapter_03_04_04_S1",
+      "chapter_03_05_02_S3"
+    ]
+  },
+  {
+    "a": "anton_lavrentevich",
+    "b": "lizaveta_tushina",
+    "label_a": "Антон Лаврентьевич",
+    "label_b": "Лизавета Николаевна Тушина",
+    "rel_a_to_b": "знакомый и помощник",
+    "rel_b_to_a": "доверенное лицо",
+    "category": "знакомство",
+    "evolves": true,
+    "note": "Случайное знакомство превращается в доверительное поручение помочь ей увидеть Марью Тимофеевну.",
+    "interactions": 18,
+    "chapters": [
+      "chapter_01_03_01",
+      "chapter_01_03_07",
+      "chapter_01_04_01",
+      "chapter_01_04_02",
+      "chapter_01_04_03",
+      "chapter_02_05_02"
+    ],
+    "scenes": [
+      "chapter_01_03_01_S3",
+      "chapter_01_03_07_S3",
+      "chapter_01_04_01_S2",
+      "chapter_01_04_01_S3",
+      "chapter_01_04_02_S1",
+      "chapter_01_04_03_S1",
+      "chapter_01_04_03_S2",
+      "chapter_02_05_02_S1"
+    ]
+  },
+  {
+    "a": "darya_shatova",
+    "b": "nikolai_stavrogin",
+    "label_a": "Дарья Павловна Шатова",
+    "label_b": "Николай Всеволодович Ставрогин",
+    "rel_a_to_b": "преданная возлюбленная и будущая сиделка",
+    "rel_b_to_a": "любимый и зависимый от её преданности мужчина",
+    "category": "любовь",
+    "evolves": false,
+    "note": "Связь не оформляется браком, но Даша постоянно готова следовать за Ставрогиным и ухаживать за ним.",
+    "interactions": 18,
+    "chapters": [
+      "chapter_01_02_06",
+      "chapter_01_05_03",
+      "chapter_01_05_07",
+      "chapter_02_03_04",
+      "chapter_03_08_01"
+    ],
+    "scenes": [
+      "chapter_01_02_06_S1",
+      "chapter_01_05_03_S3",
+      "chapter_01_05_07_S4",
+      "chapter_02_03_04_S1",
+      "chapter_02_03_04_S2",
+      "chapter_03_08_01_S6",
+      "chapter_03_08_01_S7"
+    ]
+  },
+  {
+    "a": "darya_shatova",
+    "b": "varvara_stavrogina",
+    "label_a": "Дарья Павловна Шатова",
+    "label_b": "Варвара Петровна Ставрогина",
+    "rel_a_to_b": "воспитанница",
+    "rel_b_to_a": "покровительница",
+    "category": "покровительство",
+    "evolves": false,
+    "note": "",
+    "interactions": 18,
+    "chapters": [
+      "chapter_01_02_04",
+      "chapter_01_02_06",
+      "chapter_01_02_07",
+      "chapter_01_05_01",
+      "chapter_01_05_03",
+      "chapter_01_05_07",
+      "chapter_03_07_03",
+      "chapter_03_08_01"
+    ],
+    "scenes": [
+      "chapter_01_02_04_S1",
+      "chapter_01_02_06_S3",
+      "chapter_01_02_07_S1",
+      "chapter_01_05_01_S1",
+      "chapter_01_05_03_S3",
+      "chapter_01_05_07_S7",
+      "chapter_03_07_03_S1",
+      "chapter_03_07_03_S2",
+      "chapter_03_07_03_S3",
+      "chapter_03_08_01_S6"
+    ]
+  },
+  {
+    "a": "ivan_shatov",
+    "b": "lizaveta_tushina",
+    "label_a": "Иван Шатов",
+    "label_b": "Лизавета Николаевна Тушина",
+    "rel_a_to_b": "знакомый",
+    "rel_b_to_a": "знакомая",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 18,
+    "chapters": [
+      "chapter_01_03_07",
+      "chapter_01_04_01",
+      "chapter_01_04_02",
+      "chapter_01_04_04"
+    ],
+    "scenes": [
+      "chapter_01_03_07_S4",
+      "chapter_01_04_01_S1",
+      "chapter_01_04_01_S2",
+      "chapter_01_04_02_S1",
+      "chapter_01_04_04_S4"
+    ]
+  },
+  {
+    "a": "lizaveta_tushina",
+    "b": "petr_verkhovenskii",
+    "label_a": "Лизавета Николаевна Тушина",
+    "label_b": "Пётр Степанович Верховенский",
+    "rel_a_to_b": "знакомая",
+    "rel_b_to_a": "посредник",
+    "category": "знакомство",
+    "evolves": true,
+    "note": "Пётр Степанович из доброжелательного посредника превращается в манипулятора, использующего её положение.",
+    "interactions": 16,
+    "chapters": [
+      "chapter_01_04_02",
+      "chapter_01_05_05",
+      "chapter_01_05_06",
+      "chapter_03_02_02",
+      "chapter_03_03_01",
+      "chapter_03_03_02",
+      "chapter_03_03_03"
+    ],
+    "scenes": [
+      "chapter_01_04_02_S1",
+      "chapter_01_05_05_S1",
+      "chapter_01_05_06_S1",
+      "chapter_03_02_02_S3",
+      "chapter_03_03_01_S1",
+      "chapter_03_03_01_S2",
+      "chapter_03_03_02_S1",
+      "chapter_03_03_02_S2",
+      "chapter_03_03_02_S3",
+      "chapter_03_03_03_S1"
+    ]
+  },
+  {
+    "a": "lizaveta_tushina",
+    "b": "stepan_verkhovenskii",
+    "label_a": "Лизавета Николаевна Тушина",
+    "label_b": "Степан Трофимович Верховенский",
+    "rel_a_to_b": "бывшая ученица",
+    "rel_b_to_a": "бывший учитель",
+    "category": "дружба",
+    "evolves": false,
+    "note": "В юности Лизавета была его ученицей и сохранила к нему тёплую привязанность.",
+    "interactions": 16,
+    "chapters": [
+      "chapter_01_02_07",
+      "chapter_01_03_07",
+      "chapter_01_03_10",
+      "chapter_03_03_03"
+    ],
+    "scenes": [
+      "chapter_01_02_07_S2",
+      "chapter_01_03_07_S2",
+      "chapter_01_03_07_S3",
+      "chapter_01_03_10_S1",
+      "chapter_01_03_10_S2",
+      "chapter_03_03_03_S3"
+    ]
+  },
+  {
+    "a": "arina_virginskaya",
+    "b": "ivan_shatov",
+    "label_a": "Арина Прохоровна Виргинская",
+    "label_b": "Иван Шатов",
+    "rel_a_to_b": "знакомая",
+    "rel_b_to_a": "знакомый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 15,
+    "chapters": [
+      "chapter_03_05_03",
+      "chapter_03_05_04",
+      "chapter_03_05_06"
+    ],
+    "scenes": [
+      "chapter_03_05_03_S2",
+      "chapter_03_05_04_S1",
+      "chapter_03_05_04_S2",
+      "chapter_03_05_06_S1",
+      "chapter_03_05_06_S2",
+      "chapter_03_05_06_S4"
+    ]
+  },
+  {
+    "a": "erkel",
+    "b": "petr_verkhovenskii",
+    "label_a": "Эркель",
+    "label_b": "Пётр Степанович Верховенский",
+    "rel_a_to_b": "подчинённый исполнитель",
+    "rel_b_to_a": "руководитель",
+    "category": "служебные",
+    "evolves": false,
+    "note": "",
+    "interactions": 15,
+    "chapters": [
+      "chapter_03_05_01",
+      "chapter_03_05_02",
+      "chapter_03_06_01",
+      "chapter_03_06_03"
+    ],
+    "scenes": [
+      "chapter_03_05_01_S5",
+      "chapter_03_05_02_S1",
+      "chapter_03_06_01_S3",
+      "chapter_03_06_01_S4",
+      "chapter_03_06_03_S1",
+      "chapter_03_06_03_S2",
+      "chapter_03_06_03_S3"
+    ]
+  },
+  {
+    "a": "marya_lebyadkina",
+    "b": "varvara_stavrogina",
+    "label_a": "Марья Тимофеевна Лебядкина",
+    "label_b": "Варвара Петровна Ставрогина",
+    "rel_a_to_b": "подопечная",
+    "rel_b_to_a": "защитница",
+    "category": "покровительство",
+    "evolves": true,
+    "note": "Случайная встреча превращается в намерение Варвары Петровны взять Марью под свою защиту.",
+    "interactions": 15,
+    "chapters": [
+      "chapter_01_04_07",
+      "chapter_01_05_01",
+      "chapter_01_05_06"
+    ],
+    "scenes": [
+      "chapter_01_04_07_S2",
+      "chapter_01_05_01_S1",
+      "chapter_01_05_06_S1"
+    ]
+  },
+  {
+    "a": "aleksei_kirillov",
+    "b": "anton_lavrentevich",
+    "label_a": "Алексей Нилыч Кириллов",
+    "label_b": "Антон Лаврентьевич",
+    "rel_a_to_b": "случайный собеседник",
+    "rel_b_to_a": "случайный собеседник",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 14,
+    "chapters": [
+      "chapter_01_03_08",
+      "chapter_01_03_10",
+      "chapter_01_04_04"
+    ],
+    "scenes": [
+      "chapter_01_03_08_S1",
+      "chapter_01_03_08_S2",
+      "chapter_01_03_08_S3",
+      "chapter_01_03_10_S1",
+      "chapter_01_04_04_S1"
+    ]
+  },
+  {
+    "a": "rasskazchik",
+    "b": "stepan_verkhovenskii",
+    "label_a": "рассказчик",
+    "label_b": "Степан Трофимович Верховенский",
+    "rel_a_to_b": "друг и конфидент",
+    "rel_b_to_a": "друг и конфидент",
+    "category": "дружба",
+    "evolves": false,
+    "note": "",
+    "interactions": 14,
+    "chapters": [
+      "chapter_01_02_08",
+      "chapter_02_01_01",
+      "chapter_02_01_02",
+      "chapter_02_04_02",
+      "chapter_03_01_04"
+    ],
+    "scenes": [
+      "chapter_01_02_08_S1",
+      "chapter_01_02_08_S3",
+      "chapter_02_01_01_S1",
+      "chapter_02_01_01_S5",
+      "chapter_02_01_02_S2",
+      "chapter_02_01_02_S3",
+      "chapter_02_04_02_S2",
+      "chapter_03_01_04_S1",
+      "chapter_03_01_04_S2"
+    ]
+  },
+  {
+    "a": "ignat_lebyadkin",
+    "b": "varvara_stavrogina",
+    "label_a": "Игнат Лебядкин",
+    "label_b": "Варвара Петровна Ставрогина",
+    "rel_a_to_b": "проситель",
+    "rel_b_to_a": "благотворительница",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "Варвара Петровна принимает его главным образом из-за желания разобраться в судьбе его сестры.",
+    "interactions": 13,
+    "chapters": [
+      "chapter_01_05_04"
+    ],
+    "scenes": [
+      "chapter_01_05_04_S1"
+    ]
+  },
+  {
+    "a": "ivan_shatov",
+    "b": "rasskazchik",
+    "label_a": "Иван Шатов",
+    "label_b": "рассказчик",
+    "rel_a_to_b": "знакомый",
+    "rel_b_to_a": "знакомый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 12,
+    "chapters": [
+      "chapter_01_04_05",
+      "chapter_01_04_06",
+      "chapter_02_01_01",
+      "chapter_03_02_02"
+    ],
+    "scenes": [
+      "chapter_01_04_05_S1",
+      "chapter_01_04_05_S4",
+      "chapter_01_04_06_S1",
+      "chapter_02_01_01_S1",
+      "chapter_03_02_02_S4"
+    ]
+  },
+  {
+    "a": "nikolai_stavrogin",
+    "b": "sergei_liputin",
+    "label_a": "Николай Всеволодович Ставрогин",
+    "label_b": "Сергей Васильевич Липутин",
+    "rel_a_to_b": "обидчик",
+    "rel_b_to_a": "враг",
+    "category": "вражда",
+    "evolves": false,
+    "note": "Липутин считает себя лично оскорблённым Ставрогиным, тогда как тот относится к нему почти безразлично.",
+    "interactions": 12,
+    "chapters": [
+      "chapter_01_02_02",
+      "chapter_01_02_03",
+      "chapter_01_03_06"
+    ],
+    "scenes": [
+      "chapter_01_02_02_S3",
+      "chapter_01_02_02_S4",
+      "chapter_01_02_03_S5",
+      "chapter_01_03_06_S4"
+    ]
+  },
+  {
+    "a": "erkel",
+    "b": "ivan_shatov",
+    "label_a": "Эркель",
+    "label_b": "Иван Шатов",
+    "rel_a_to_b": "участник покушения",
+    "rel_b_to_a": "жертва покушения",
+    "category": "вражда",
+    "evolves": false,
+    "note": "",
+    "interactions": 11,
+    "chapters": [
+      "chapter_03_05_01",
+      "chapter_03_05_02",
+      "chapter_03_05_06",
+      "chapter_03_06_01"
+    ],
+    "scenes": [
+      "chapter_03_05_01_S5",
+      "chapter_03_05_02_S1",
+      "chapter_03_05_06_S5",
+      "chapter_03_05_06_S6",
+      "chapter_03_06_01_S2",
+      "chapter_03_06_01_S3"
+    ]
+  },
+  {
+    "a": "ignat_lebyadkin",
+    "b": "ivan_shatov",
+    "label_a": "Игнат Лебядкин",
+    "label_b": "Иван Шатов",
+    "rel_a_to_b": "обидчик",
+    "rel_b_to_a": "защитник",
+    "category": "вражда",
+    "evolves": false,
+    "note": "Шатов неоднократно защищает Марью Тимофеевну от насилия со стороны её брата.",
+    "interactions": 11,
+    "chapters": [
+      "chapter_01_04_05",
+      "chapter_01_04_06",
+      "chapter_01_05_04",
+      "chapter_03_02_02"
+    ],
+    "scenes": [
+      "chapter_01_04_05_S3",
+      "chapter_01_04_06_S1",
+      "chapter_01_05_04_S1",
+      "chapter_03_02_02_S4"
+    ]
+  },
+  {
+    "a": "varvara_stavrogina",
+    "b": "yuliya_fon_lembke",
+    "label_a": "Варвара Петровна Ставрогина",
+    "label_b": "Юлия Михайловна фон-Лембке",
+    "rel_a_to_b": "соперница",
+    "rel_b_to_a": "соперница",
+    "category": "вражда",
+    "evolves": true,
+    "note": "Светская вражда постепенно сменяется внешним примирением и взаимным признанием влияния.",
+    "interactions": 11,
+    "chapters": [
+      "chapter_01_04_07",
+      "chapter_02_01_01",
+      "chapter_02_04_01",
+      "chapter_02_05_01",
+      "chapter_02_10_01"
+    ],
+    "scenes": [
+      "chapter_01_04_07_S2",
+      "chapter_02_01_01_S3",
+      "chapter_02_04_01_S2",
+      "chapter_02_05_01_S1",
+      "chapter_02_10_01_S4"
+    ]
+  },
+  {
+    "a": "andrei_fon_lembke",
+    "b": "stepan_verkhovenskii_2",
+    "label_a": "Андрей Антонович фон-Лембке",
+    "label_b": "Степан Трофимов Верховенский",
+    "rel_a_to_b": "начальник",
+    "rel_b_to_a": "поднадзорный",
+    "category": "служебные",
+    "evolves": true,
+    "note": "Формальное административное отношение переходит в подозрение, обыск и открытый конфликт.",
+    "interactions": 10,
+    "chapters": [
+      "chapter_02_10_02"
+    ],
+    "scenes": [
+      "chapter_02_10_02_S1",
+      "chapter_02_10_02_S2"
+    ]
+  },
+  {
+    "a": "anton_lavrentevich",
+    "b": "ivan_shatov",
+    "label_a": "Антон Лаврентьевич",
+    "label_b": "Иван Шатов",
+    "rel_a_to_b": "знакомый",
+    "rel_b_to_a": "знакомый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 10,
+    "chapters": [
+      "chapter_01_03_07",
+      "chapter_01_03_08",
+      "chapter_01_04_01",
+      "chapter_01_04_04"
+    ],
+    "scenes": [
+      "chapter_01_03_07_S4",
+      "chapter_01_03_08_S1",
+      "chapter_01_04_01_S1",
+      "chapter_01_04_04_S1",
+      "chapter_01_04_04_S2",
+      "chapter_01_04_04_S3",
+      "chapter_01_04_04_S4"
+    ]
+  },
+  {
+    "a": "ivan_shatov",
+    "b": "marya_shatova_2",
+    "label_a": "Иван Шатов",
+    "label_b": "Марья Шатова",
+    "rel_a_to_b": "муж",
+    "rel_b_to_a": "жена",
+    "category": "брак",
+    "evolves": true,
+    "note": "После многолетней разлуки супруги вновь сходятся, и Марья рожает ребёнка.",
+    "interactions": 10,
+    "chapters": [
+      "chapter_03_05_01"
+    ],
+    "scenes": [
+      "chapter_03_05_01_S2",
+      "chapter_03_05_01_S3"
+    ]
+  },
+  {
+    "a": "mavrikii_nikolaevich",
+    "b": "nikolai_stavrogin",
+    "label_a": "Маврикий Николаевич",
+    "label_b": "Николай Всеволодович Ставрогин",
+    "rel_a_to_b": "соперник",
+    "rel_b_to_a": "соперник",
+    "category": "вражда",
+    "evolves": true,
+    "note": "Соперничество из-за Лизаветы сменяется прямой враждой после признания Ставрогина в браке.",
+    "interactions": 10,
+    "chapters": [
+      "chapter_02_03_02",
+      "chapter_02_06_07"
+    ],
+    "scenes": [
+      "chapter_02_03_02_S1",
+      "chapter_02_06_07_S1"
+    ]
+  },
+  {
+    "a": "petr_verkhovenskii",
+    "b": "varvara_stavrogina",
+    "label_a": "Пётр Степанович Верховенский",
+    "label_b": "Варвара Петровна Ставрогина",
+    "rel_a_to_b": "фаворит и манипулятор",
+    "rel_b_to_a": "покровительница",
+    "category": "покровительство",
+    "evolves": true,
+    "note": "Пётр Степанович из принятого в доме фаворита превращается в манипулятора, использующего покровительство Варвары.",
+    "interactions": 10,
+    "chapters": [
+      "chapter_01_02_08",
+      "chapter_01_05_05",
+      "chapter_01_05_06",
+      "chapter_01_05_07",
+      "chapter_02_01_03",
+      "chapter_02_04_01",
+      "chapter_02_06_04"
+    ],
+    "scenes": [
+      "chapter_01_02_08_S1",
+      "chapter_01_05_05_S1",
+      "chapter_01_05_06_S1",
+      "chapter_01_05_07_S5",
+      "chapter_01_05_07_S7",
+      "chapter_02_01_03_S1",
+      "chapter_02_04_01_S3",
+      "chapter_02_06_04_S8"
+    ]
+  },
+  {
+    "a": "arina_virginskaya",
+    "b": "marya_shatova",
+    "label_a": "Арина Прохоровна Виргинская",
+    "label_b": "Марья Игнатьевна Шатова",
+    "rel_a_to_b": "акушерка",
+    "rel_b_to_a": "пациентка",
+    "category": "служебные",
+    "evolves": false,
+    "note": "",
+    "interactions": 9,
+    "chapters": [
+      "chapter_02_07_01",
+      "chapter_03_05_04",
+      "chapter_03_05_06",
+      "chapter_03_08_01"
+    ],
+    "scenes": [
+      "chapter_02_07_01_S1",
+      "chapter_03_05_04_S2",
+      "chapter_03_05_06_S1",
+      "chapter_03_05_06_S2",
+      "chapter_03_08_01_S1"
+    ]
+  },
+  {
+    "a": "artemii_gaganov",
+    "b": "nikolai_stavrogin",
+    "label_a": "Артемий Павлович Гаганов",
+    "label_b": "Николай Всеволодович Ставрогин",
+    "rel_a_to_b": "противник",
+    "rel_b_to_a": "противник",
+    "category": "вражда",
+    "evolves": false,
+    "note": "Артемий Гаганов преследует Ставрогина из-за старого оскорбления и вызывает его на дуэль.",
+    "interactions": 9,
+    "chapters": [
+      "chapter_02_03_01"
+    ],
+    "scenes": [
+      "chapter_02_03_01_S1",
+      "chapter_02_03_01_S2"
+    ]
+  },
+  {
+    "a": "fedor_fedorovich",
+    "b": "petr_verkhovenskii",
+    "label_a": "Фёдор Фёдорович",
+    "label_b": "Пётр Степанович Верховенский",
+    "rel_a_to_b": "исполнитель",
+    "rel_b_to_a": "наниматель",
+    "category": "служебные",
+    "evolves": false,
+    "note": "",
+    "interactions": 9,
+    "chapters": [
+      "chapter_02_01_03",
+      "chapter_02_02_01",
+      "chapter_02_06_06",
+      "chapter_02_08_01",
+      "chapter_03_04_03"
+    ],
+    "scenes": [
+      "chapter_02_01_03_S1",
+      "chapter_02_02_01_S1",
+      "chapter_02_06_06_S1",
+      "chapter_02_08_01_S1",
+      "chapter_03_04_03_S2"
+    ]
+  },
+  {
+    "a": "ignat_lebyadkin",
+    "b": "sergei_liputin",
+    "label_a": "Игнат Лебядкин",
+    "label_b": "Сергей Васильевич Липутин",
+    "rel_a_to_b": "осведомитель",
+    "rel_b_to_a": "манипулятор",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "Липутин спаивает Лебядкина и использует его болтовню для получения сведений.",
+    "interactions": 9,
+    "chapters": [
+      "chapter_01_03_06",
+      "chapter_01_03_09",
+      "chapter_01_05_04",
+      "chapter_02_02_02",
+      "chapter_03_01_02",
+      "chapter_03_03_02"
+    ],
+    "scenes": [
+      "chapter_01_03_06_S3",
+      "chapter_01_03_06_S5",
+      "chapter_01_03_09_S1",
+      "chapter_01_05_04_S1",
+      "chapter_02_02_02_S1",
+      "chapter_03_01_02_S5",
+      "chapter_03_03_02_S1"
+    ]
+  },
+  {
+    "a": "lizaveta_tushina",
+    "b": "praskovya_ivanovna",
+    "label_a": "Лизавета Николаевна Тушина",
+    "label_b": "Прасковья Ивановна",
+    "rel_a_to_b": "дочь",
+    "rel_b_to_a": "мать",
+    "category": "родство",
+    "evolves": true,
+    "note": "Дочь всё решительнее отдаляется от матери и в итоге остаётся у Варвары Петровны вопреки её воле.",
+    "interactions": 9,
+    "chapters": [
+      "chapter_01_02_04",
+      "chapter_01_05_01",
+      "chapter_01_05_02",
+      "chapter_01_05_03",
+      "chapter_01_05_06",
+      "chapter_01_05_07"
+    ],
+    "scenes": [
+      "chapter_01_02_04_S2",
+      "chapter_01_05_01_S2",
+      "chapter_01_05_02_S3",
+      "chapter_01_05_03_S2",
+      "chapter_01_05_03_S4",
+      "chapter_01_05_06_S1",
+      "chapter_01_05_07_S2",
+      "chapter_01_05_07_S3"
+    ]
+  },
+  {
+    "a": "lizaveta_tushina",
+    "b": "varvara_stavrogina",
+    "label_a": "Лизавета Николаевна Тушина",
+    "label_b": "Варвара Петровна Ставрогина",
+    "rel_a_to_b": "племянница и подопечная",
+    "rel_b_to_a": "тётка и покровительница",
+    "category": "покровительство",
+    "evolves": true,
+    "note": "После конфликта с матерью Лизавета сближается с Варварой Петровной и выбирает её дом как убежище.",
+    "interactions": 9,
+    "chapters": [
+      "chapter_01_03_10",
+      "chapter_01_04_07",
+      "chapter_01_05_01",
+      "chapter_01_05_03",
+      "chapter_01_05_07"
+    ],
+    "scenes": [
+      "chapter_01_03_10_S2",
+      "chapter_01_04_07_S2",
+      "chapter_01_05_01_S1",
+      "chapter_01_05_03_S2",
+      "chapter_01_05_03_S4",
+      "chapter_01_05_07_S3"
+    ]
+  },
+  {
+    "a": "sofya_ulitina",
+    "b": "varvara_stavrogina",
+    "label_a": "Софья Матвеевна Улитина",
+    "label_b": "Варвара Петровна Ставрогина",
+    "rel_a_to_b": "подопечная",
+    "rel_b_to_a": "покровительница",
+    "category": "покровительство",
+    "evolves": true,
+    "note": "После случайного знакомства Варвара Петровна берёт Софью Матвеевну под своё покровительство и поселяет у себя.",
+    "interactions": 9,
+    "chapters": [
+      "chapter_03_07_03"
+    ],
+    "scenes": [
+      "chapter_03_07_03_S1",
+      "chapter_03_07_03_S3",
+      "chapter_03_07_03_S5",
+      "chapter_03_07_03_S7"
+    ]
+  },
+  {
+    "a": "stepan_verkhovenskii",
+    "b": "yuliya_fon_lembke",
+    "label_a": "Степан Трофимович Верховенский",
+    "label_b": "Юлия Михайловна фон-Лембке",
+    "rel_a_to_b": "приглашённый литератор",
+    "rel_b_to_a": "устроительница литературного чтения",
+    "category": "служебные",
+    "evolves": false,
+    "note": "",
+    "interactions": 9,
+    "chapters": [
+      "chapter_02_04_01",
+      "chapter_02_04_02",
+      "chapter_02_10_03"
+    ],
+    "scenes": [
+      "chapter_02_04_01_S2",
+      "chapter_02_04_02_S2",
+      "chapter_02_10_03_S1",
+      "chapter_02_10_03_S2",
+      "chapter_02_10_03_S3"
+    ]
+  },
+  {
+    "a": "darya_shatova",
+    "b": "stepan_verkhovenskii",
+    "label_a": "Дарья Павловна Шатова",
+    "label_b": "Степан Трофимович Верховенский",
+    "rel_a_to_b": "бывшая ученица и предполагаемая невеста",
+    "rel_b_to_a": "бывший учитель и предполагаемый жених",
+    "category": "сватовство",
+    "evolves": true,
+    "note": "Варвара Петровна превращает прежнюю связь учителя и воспитанницы в сватовство, но свадьба срывается.",
+    "interactions": 8,
+    "chapters": [
+      "chapter_01_02_07",
+      "chapter_01_03_10",
+      "chapter_01_05_03",
+      "chapter_01_05_07",
+      "chapter_03_02_01"
+    ],
+    "scenes": [
+      "chapter_01_02_07_S1",
+      "chapter_01_02_07_S3",
+      "chapter_01_03_10_S4",
+      "chapter_01_05_03_S3",
+      "chapter_01_05_07_S7",
+      "chapter_03_02_01_S2"
+    ]
+  },
+  {
+    "a": "ignat_lebyadkin",
+    "b": "marya_lebyadkina",
+    "label_a": "Игнат Лебядкин",
+    "label_b": "Марья Тимофеевна Лебядкина",
+    "rel_a_to_b": "брат и мучитель",
+    "rel_b_to_a": "сестра и жертва насилия",
+    "category": "родство",
+    "evolves": false,
+    "note": "",
+    "interactions": 8,
+    "chapters": [
+      "chapter_01_04_05",
+      "chapter_01_05_04",
+      "chapter_01_05_06",
+      "chapter_02_02_03"
+    ],
+    "scenes": [
+      "chapter_01_04_05_S1",
+      "chapter_01_04_05_S3",
+      "chapter_01_05_04_S1",
+      "chapter_01_05_06_S1",
+      "chapter_02_02_03_S1"
+    ]
+  },
+  {
+    "a": "ignat_lebyadkin",
+    "b": "petr_verkhovenskii",
+    "label_a": "Игнат Лебядкин",
+    "label_b": "Пётр Степанович Верховенский",
+    "rel_a_to_b": "подчинённый исполнитель",
+    "rel_b_to_a": "манипулятор",
+    "category": "служебные",
+    "evolves": false,
+    "note": "",
+    "interactions": 8,
+    "chapters": [
+      "chapter_01_05_06",
+      "chapter_02_02_02",
+      "chapter_03_03_02",
+      "chapter_03_04_01"
+    ],
+    "scenes": [
+      "chapter_01_05_06_S1",
+      "chapter_02_02_02_S1",
+      "chapter_03_03_02_S1",
+      "chapter_03_04_01_S1"
+    ]
+  },
+  {
+    "a": "ivan_osipovich",
+    "b": "nikolai_stavrogin",
+    "label_a": "Иван Осипович",
+    "label_b": "Николай Всеволодович Ставрогин",
+    "rel_a_to_b": "родственник",
+    "rel_b_to_a": "родственник",
+    "category": "родство",
+    "evolves": false,
+    "note": "",
+    "interactions": 8,
+    "chapters": [
+      "chapter_01_02_01",
+      "chapter_01_02_03"
+    ],
+    "scenes": [
+      "chapter_01_02_01_S5",
+      "chapter_01_02_03_S1",
+      "chapter_01_02_03_S2",
+      "chapter_01_02_03_S4"
+    ]
+  },
+  {
+    "a": "ivan_shatov",
+    "b": "lyamshin",
+    "label_a": "Иван Шатов",
+    "label_b": "Лямшин",
+    "rel_a_to_b": "знакомый",
+    "rel_b_to_a": "знакомый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 8,
+    "chapters": [
+      "chapter_02_01_06",
+      "chapter_03_05_03"
+    ],
+    "scenes": [
+      "chapter_02_01_06_S1",
+      "chapter_03_05_03_S3"
+    ]
+  },
+  {
+    "a": "ivan_shatov",
+    "b": "marya_lebyadkina",
+    "label_a": "Иван Шатов",
+    "label_b": "Марья Тимофеевна Лебядкина",
+    "rel_a_to_b": "защитник и знакомый",
+    "rel_b_to_a": "подопечная и знакомая",
+    "category": "покровительство",
+    "evolves": false,
+    "note": "",
+    "interactions": 8,
+    "chapters": [
+      "chapter_01_04_05",
+      "chapter_01_05_01",
+      "chapter_02_01_06",
+      "chapter_03_02_02"
+    ],
+    "scenes": [
+      "chapter_01_04_05_S1",
+      "chapter_01_05_01_S1",
+      "chapter_02_01_06_S1",
+      "chapter_03_02_02_S4"
+    ]
+  },
+  {
+    "a": "ivan_shatov",
+    "b": "stepan_verkhovenskii",
+    "label_a": "Иван Шатов",
+    "label_b": "Степан Трофимович Верховенский",
+    "rel_a_to_b": "бывший ученик и друг",
+    "rel_b_to_a": "бывший наставник и друг",
+    "category": "дружба",
+    "evolves": false,
+    "note": "",
+    "interactions": 8,
+    "chapters": [
+      "chapter_01_01_08",
+      "chapter_01_01_09",
+      "chapter_01_04_07"
+    ],
+    "scenes": [
+      "chapter_01_01_08_S4",
+      "chapter_01_01_09_S6",
+      "chapter_01_04_07_S1"
+    ]
+  },
+  {
+    "a": "ivan_shatov",
+    "b": "varvara_stavrogina",
+    "label_a": "Иван Шатов",
+    "label_b": "Варвара Петровна Ставрогина",
+    "rel_a_to_b": "бывший крепостной и воспитанник",
+    "rel_b_to_a": "благодетельница и покровительница",
+    "category": "покровительство",
+    "evolves": false,
+    "note": "",
+    "interactions": 8,
+    "chapters": [
+      "chapter_01_01_08",
+      "chapter_01_03_10",
+      "chapter_01_04_07",
+      "chapter_01_05_01"
+    ],
+    "scenes": [
+      "chapter_01_01_08_S3",
+      "chapter_01_03_10_S3",
+      "chapter_01_04_07_S1",
+      "chapter_01_05_01_S1"
+    ]
+  },
+  {
+    "a": "arina_virginskaya",
+    "b": "nikolai_stavrogin",
+    "label_a": "Арина Прохоровна Виргинская",
+    "label_b": "Николай Всеволодович Ставрогин",
+    "rel_a_to_b": "знакомая",
+    "rel_b_to_a": "знакомый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 7,
+    "chapters": [
+      "chapter_02_07_02"
+    ],
+    "scenes": [
+      "chapter_02_07_02_S1",
+      "chapter_02_07_02_S2",
+      "chapter_02_07_02_S4"
+    ]
+  },
+  {
+    "a": "petr_verkhovenskii",
+    "b": "virginskii",
+    "label_a": "Пётр Степанович Верховенский",
+    "label_b": "Виргинский",
+    "rel_a_to_b": "руководитель",
+    "rel_b_to_a": "подчинённый участник",
+    "category": "служебные",
+    "evolves": false,
+    "note": "",
+    "interactions": 7,
+    "chapters": [
+      "chapter_02_01_03",
+      "chapter_03_04_01",
+      "chapter_03_05_04",
+      "chapter_03_06_01"
+    ],
+    "scenes": [
+      "chapter_02_01_03_S1",
+      "chapter_03_04_01_S3",
+      "chapter_03_05_04_S1",
+      "chapter_03_06_01_S2",
+      "chapter_03_06_01_S4"
+    ]
+  },
+  {
+    "a": "semen_karmazinov",
+    "b": "yuliya_fon_lembke",
+    "label_a": "Семён Егорович Кармазинов",
+    "label_b": "Юлия Михайловна фон-Лембке",
+    "rel_a_to_b": "протеже и участник её мероприятий",
+    "rel_b_to_a": "покровительница",
+    "category": "покровительство",
+    "evolves": false,
+    "note": "",
+    "interactions": 7,
+    "chapters": [
+      "chapter_02_05_01",
+      "chapter_02_06_05",
+      "chapter_02_10_03",
+      "chapter_03_01_02",
+      "chapter_03_01_03"
+    ],
+    "scenes": [
+      "chapter_02_05_01_S3",
+      "chapter_02_06_05_S1",
+      "chapter_02_10_03_S2",
+      "chapter_03_01_02_S1",
+      "chapter_03_01_02_S5",
+      "chapter_03_01_03_S3"
+    ]
+  },
+  {
+    "a": "andrei_fon_lembke",
+    "b": "ilya_ilich",
+    "label_a": "Андрей Антонович фон-Лембке",
+    "label_b": "Илья Ильич",
+    "rel_a_to_b": "начальник",
+    "rel_b_to_a": "подчинённый чиновник",
+    "category": "служебные",
+    "evolves": false,
+    "note": "",
+    "interactions": 6,
+    "chapters": [
+      "chapter_02_10_01",
+      "chapter_02_10_02",
+      "chapter_03_02_03"
+    ],
+    "scenes": [
+      "chapter_02_10_01_S1",
+      "chapter_02_10_02_S2",
+      "chapter_03_02_03_S5"
+    ]
+  },
+  {
+    "a": "andrei_fon_lembke",
+    "b": "stepan_verkhovenskii",
+    "label_a": "Андрей Антонович фон-Лембке",
+    "label_b": "Степан Трофимович Верховенский",
+    "rel_a_to_b": "административный начальник",
+    "rel_b_to_a": "поднадзорный",
+    "category": "служебные",
+    "evolves": false,
+    "note": "",
+    "interactions": 6,
+    "chapters": [
+      "chapter_01_01_01",
+      "chapter_01_01_09",
+      "chapter_01_02_04",
+      "chapter_02_09_01",
+      "chapter_02_10_03"
+    ],
+    "scenes": [
+      "chapter_01_01_01_S4",
+      "chapter_01_01_09_S4",
+      "chapter_01_02_04_S3",
+      "chapter_02_09_01_S5",
+      "chapter_02_10_03_S3"
+    ]
+  },
+  {
+    "a": "anton_lavrentevich",
+    "b": "ignat_lebyadkin",
+    "label_a": "Антон Лаврентьевич",
+    "label_b": "Игнат Лебядкин",
+    "rel_a_to_b": "знакомый",
+    "rel_b_to_a": "знакомый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 6,
+    "chapters": [
+      "chapter_01_03_09",
+      "chapter_01_04_02"
+    ],
+    "scenes": [
+      "chapter_01_03_09_S1",
+      "chapter_01_04_02_S1"
+    ]
+  },
+  {
+    "a": "anton_lavrentevich",
+    "b": "semen_karmazinov",
+    "label_a": "Антон Лаврентьевич",
+    "label_b": "Семён Егорович Кармазинов",
+    "rel_a_to_b": "читатель и случайный знакомый",
+    "rel_b_to_a": "случайный знакомый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 6,
+    "chapters": [
+      "chapter_01_03_02"
+    ],
+    "scenes": [
+      "chapter_01_03_02_S1"
+    ]
+  },
+  {
+    "a": "arina_virginskaya",
+    "b": "petr_verkhovenskii",
+    "label_a": "Арина Прохоровна Виргинская",
+    "label_b": "Пётр Степанович Верховенский",
+    "rel_a_to_b": "участница его кружка",
+    "rel_b_to_a": "руководитель",
+    "category": "служебные",
+    "evolves": false,
+    "note": "",
+    "interactions": 6,
+    "chapters": [
+      "chapter_02_07_02"
+    ],
+    "scenes": [
+      "chapter_02_07_02_S1",
+      "chapter_02_07_02_S2",
+      "chapter_02_07_02_S3"
+    ]
+  },
+  {
+    "a": "khromoi_uchitel",
+    "b": "petr_verkhovenskii",
+    "label_a": "хромой учитель",
+    "label_b": "Пётр Степанович Верховенский",
+    "rel_a_to_b": "идеологический противник",
+    "rel_b_to_a": "агитатор и противник",
+    "category": "вражда",
+    "evolves": false,
+    "note": "",
+    "interactions": 6,
+    "chapters": [
+      "chapter_02_07_02"
+    ],
+    "scenes": [
+      "chapter_02_07_02_S3",
+      "chapter_02_07_02_S4"
+    ]
+  },
+  {
+    "a": "nikolai_stavrogin",
+    "b": "stepan_verkhovenskii",
+    "label_a": "Николай Всеволодович Ставрогин",
+    "label_b": "Степан Трофимович Верховенский",
+    "rel_a_to_b": "бывший воспитанник и друг",
+    "rel_b_to_a": "бывший воспитатель и друг",
+    "category": "дружба",
+    "evolves": true,
+    "note": "Детская близость и дружба постепенно сменяются отчуждением и болезненной взаимной зависимостью.",
+    "interactions": 6,
+    "chapters": [
+      "chapter_01_02_01",
+      "chapter_01_03_10",
+      "chapter_02_10_03"
+    ],
+    "scenes": [
+      "chapter_01_02_01_S1",
+      "chapter_01_02_01_S2",
+      "chapter_01_03_10_S4",
+      "chapter_02_10_03_S3"
+    ]
+  },
+  {
+    "a": "petr_verkhovenskii",
+    "b": "shigalev",
+    "label_a": "Пётр Степанович Верховенский",
+    "label_b": "Шигалёв",
+    "rel_a_to_b": "руководитель",
+    "rel_b_to_a": "подчинённый участник",
+    "category": "служебные",
+    "evolves": false,
+    "note": "",
+    "interactions": 6,
+    "chapters": [
+      "chapter_02_07_02",
+      "chapter_03_04_01",
+      "chapter_03_06_01"
+    ],
+    "scenes": [
+      "chapter_02_07_02_S3",
+      "chapter_03_04_01_S3",
+      "chapter_03_06_01_S2"
+    ]
+  },
+  {
+    "a": "rasskazchik",
+    "b": "yuliya_fon_lembke",
+    "label_a": "рассказчик",
+    "label_b": "Юлия Михайловна фон-Лембке",
+    "rel_a_to_b": "знакомый и наблюдатель",
+    "rel_b_to_a": "знакомая",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 6,
+    "chapters": [
+      "chapter_03_01_02",
+      "chapter_03_01_04",
+      "chapter_03_02_02"
+    ],
+    "scenes": [
+      "chapter_03_01_02_S4",
+      "chapter_03_01_04_S2",
+      "chapter_03_02_02_S1",
+      "chapter_03_02_02_S3"
+    ]
+  },
+  {
+    "a": "semen_karmazinov",
+    "b": "stepan_verkhovenskii",
+    "label_a": "Семён Егорович Кармазинов",
+    "label_b": "Степан Трофимович Верховенский",
+    "rel_a_to_b": "бывший друг и соперник",
+    "rel_b_to_a": "бывший друг и соперник",
+    "category": "вражда",
+    "evolves": true,
+    "note": "Прежняя дружба сменяется взаимной неприязнью и публичным соперничеством.",
+    "interactions": 6,
+    "chapters": [
+      "chapter_02_10_03"
+    ],
+    "scenes": [
+      "chapter_02_10_03_S2",
+      "chapter_02_10_03_S5"
+    ]
+  },
+  {
+    "a": "sergei_liputin",
+    "b": "varvara_stavrogina",
+    "label_a": "Сергей Васильевич Липутин",
+    "label_b": "Варвара Петровна Ставрогина",
+    "rel_a_to_b": "назойливый знакомый",
+    "rel_b_to_a": "неохотно принимающая знакомая",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 6,
+    "chapters": [
+      "chapter_01_01_08",
+      "chapter_01_03_05",
+      "chapter_01_03_06"
+    ],
+    "scenes": [
+      "chapter_01_01_08_S2",
+      "chapter_01_03_05_S1",
+      "chapter_01_03_06_S1",
+      "chapter_01_03_06_S4"
+    ]
+  },
+  {
+    "a": "varvara_stavrogina",
+    "b": "zaltsfish",
+    "label_a": "Варвара Петровна Ставрогина",
+    "label_b": "Зальцфиш",
+    "rel_a_to_b": "нанимательница врача",
+    "rel_b_to_a": "лечащий врач",
+    "category": "служебные",
+    "evolves": false,
+    "note": "",
+    "interactions": 6,
+    "chapters": [
+      "chapter_03_07_03"
+    ],
+    "scenes": [
+      "chapter_03_07_03_S2",
+      "chapter_03_07_03_S4",
+      "chapter_03_07_03_S7"
+    ]
+  },
+  {
+    "a": "anton_lavrentevich",
+    "b": "sergei_liputin",
+    "label_a": "Антон Лаврентьевич",
+    "label_b": "Сергей Васильевич Липутин",
+    "rel_a_to_b": "знакомый и недоброжелатель",
+    "rel_b_to_a": "знакомый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 5,
+    "chapters": [
+      "chapter_01_03_01",
+      "chapter_01_03_09"
+    ],
+    "scenes": [
+      "chapter_01_03_01_S4",
+      "chapter_01_03_09_S2"
+    ]
+  },
+  {
+    "a": "baron",
+    "b": "stepan_verkhovenskii",
+    "label_a": "барон",
+    "label_b": "Степан Трофимович Верховенский",
+    "rel_a_to_b": "случайный знакомый",
+    "rel_b_to_a": "случайный знакомый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 5,
+    "chapters": [
+      "chapter_01_01_04"
+    ],
+    "scenes": [
+      "chapter_01_01_04_S1"
+    ]
+  },
+  {
+    "a": "lyamshin",
+    "b": "petr_verkhovenskii",
+    "label_a": "Лямшин",
+    "label_b": "Пётр Степанович Верховенский",
+    "rel_a_to_b": "исполнитель",
+    "rel_b_to_a": "руководитель",
+    "category": "служебные",
+    "evolves": false,
+    "note": "",
+    "interactions": 5,
+    "chapters": [
+      "chapter_02_07_02",
+      "chapter_03_04_01",
+      "chapter_03_06_01",
+      "chapter_03_08_01"
+    ],
+    "scenes": [
+      "chapter_02_07_02_S4",
+      "chapter_03_04_01_S3",
+      "chapter_03_06_01_S4",
+      "chapter_03_08_01_S4"
+    ]
+  },
+  {
+    "a": "lyamshin",
+    "b": "yuliya_fon_lembke",
+    "label_a": "Лямшин",
+    "label_b": "Юлия Михайловна фон-Лембке",
+    "rel_a_to_b": "придворный шут и исполнитель",
+    "rel_b_to_a": "покровительница",
+    "category": "покровительство",
+    "evolves": false,
+    "note": "",
+    "interactions": 5,
+    "chapters": [
+      "chapter_02_05_01",
+      "chapter_02_10_03",
+      "chapter_03_08_01"
+    ],
+    "scenes": [
+      "chapter_02_05_01_S4",
+      "chapter_02_10_03_S1",
+      "chapter_03_08_01_S4"
+    ]
+  },
+  {
+    "a": "matresha",
+    "b": "nikolai_stavrogin",
+    "label_a": "Матреша",
+    "label_b": "Николай Всеволодович Ставрогин",
+    "rel_a_to_b": "жертва насилия",
+    "rel_b_to_a": "насильник",
+    "category": "вражда",
+    "evolves": false,
+    "note": "Связь основана на описанном в признании Ставрогина сексуальном насилии над Матрешей.",
+    "interactions": 5,
+    "chapters": [
+      "chapter_03_09_02"
+    ],
+    "scenes": [
+      "chapter_03_09_02_S1",
+      "chapter_03_09_02_S2",
+      "chapter_03_09_02_S4",
+      "chapter_03_09_02_S8"
+    ]
+  },
+  {
+    "a": "nikolai_stavrogin",
+    "b": "stepanida_mikhailovna",
+    "label_a": "Николай Всеволодович Ставрогин",
+    "label_b": "Степанида Михайловна",
+    "rel_a_to_b": "квартиросъёмщик",
+    "rel_b_to_a": "квартирная хозяйка",
+    "category": "деловые",
+    "evolves": false,
+    "note": "",
+    "interactions": 5,
+    "chapters": [
+      "chapter_03_09_02"
+    ],
+    "scenes": [
+      "chapter_03_09_02_S1",
+      "chapter_03_09_02_S4",
+      "chapter_03_09_02_S5",
+      "chapter_03_09_02_S6"
+    ]
+  },
+  {
+    "a": "andrei_fon_lembke",
+    "b": "vasilii_flibusterov",
+    "label_a": "Андрей Антонович фон-Лембке",
+    "label_b": "Василий Иванович Флибустьеров",
+    "rel_a_to_b": "начальник",
+    "rel_b_to_a": "подчинённый полицейский",
+    "category": "служебные",
+    "evolves": false,
+    "note": "",
+    "interactions": 4,
+    "chapters": [
+      "chapter_02_10_01"
+    ],
+    "scenes": [
+      "chapter_02_10_01_S4",
+      "chapter_02_10_01_S5"
+    ]
+  },
+  {
+    "a": "arina_virginskaya",
+    "b": "virginskii",
+    "label_a": "Арина Прохоровна Виргинская",
+    "label_b": "Виргинский",
+    "rel_a_to_b": "жена",
+    "rel_b_to_a": "муж",
+    "category": "брак",
+    "evolves": false,
+    "note": "",
+    "interactions": 4,
+    "chapters": [
+      "chapter_01_01_08",
+      "chapter_03_05_04",
+      "chapter_03_05_06"
+    ],
+    "scenes": [
+      "chapter_01_01_08_S6",
+      "chapter_03_05_04_S1",
+      "chapter_03_05_06_S2"
+    ]
+  },
+  {
+    "a": "ignat_lebyadkin",
+    "b": "lizaveta_tushina",
+    "label_a": "Игнат Лебядкин",
+    "label_b": "Лизавета Николаевна Тушина",
+    "rel_a_to_b": "назойливый поклонник",
+    "rel_b_to_a": "объект безответной любви",
+    "category": "любовь",
+    "evolves": true,
+    "note": "Первоначальная ненависть Лебядкина к Лизавете сменяется навязчивой влюблённостью и сватовством.",
+    "interactions": 4,
+    "chapters": [
+      "chapter_01_03_09",
+      "chapter_01_04_02",
+      "chapter_01_05_04"
+    ],
+    "scenes": [
+      "chapter_01_03_09_S2",
+      "chapter_01_04_02_S1",
+      "chapter_01_05_04_S1"
+    ]
+  },
+  {
+    "a": "ignat_lebyadkin",
+    "b": "mavrikii_nikolaevich",
+    "label_a": "Игнат Лебядкин",
+    "label_b": "Маврикий Николаевич",
+    "rel_a_to_b": "неприятный знакомец",
+    "rel_b_to_a": "знакомец",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 4,
+    "chapters": [
+      "chapter_01_04_02",
+      "chapter_01_05_03",
+      "chapter_01_05_04"
+    ],
+    "scenes": [
+      "chapter_01_04_02_S1",
+      "chapter_01_05_03_S4",
+      "chapter_01_05_04_S1"
+    ]
+  },
+  {
+    "a": "lyamshin",
+    "b": "virginskii",
+    "label_a": "Лямшин",
+    "label_b": "Виргинский",
+    "rel_a_to_b": "товарищ по кружку",
+    "rel_b_to_a": "товарищ по кружку",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 4,
+    "chapters": [
+      "chapter_03_06_01"
+    ],
+    "scenes": [
+      "chapter_03_06_01_S1",
+      "chapter_03_06_01_S4"
+    ]
+  },
+  {
+    "a": "madam_liputina",
+    "b": "nikolai_stavrogin",
+    "label_a": "мадам Липутина",
+    "label_b": "Николай Всеволодович Ставрогин",
+    "rel_a_to_b": "хозяйка дома",
+    "rel_b_to_a": "гость",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 4,
+    "chapters": [
+      "chapter_01_02_02"
+    ],
+    "scenes": [
+      "chapter_01_02_02_S3"
+    ]
+  },
+  {
+    "a": "nastasya",
+    "b": "stepan_verkhovenskii",
+    "label_a": "Настасья",
+    "label_b": "Степан Трофимович Верховенский",
+    "rel_a_to_b": "служанка",
+    "rel_b_to_a": "хозяин",
+    "category": "служебные",
+    "evolves": false,
+    "note": "",
+    "interactions": 4,
+    "chapters": [
+      "chapter_01_03_03",
+      "chapter_02_09_01",
+      "chapter_03_02_01"
+    ],
+    "scenes": [
+      "chapter_01_03_03_S3",
+      "chapter_02_09_01_S3",
+      "chapter_02_09_01_S4",
+      "chapter_03_02_01_S2"
+    ]
+  },
+  {
+    "a": "petr_verkhovenskii",
+    "b": "tolkachenko",
+    "label_a": "Пётр Степанович Верховенский",
+    "label_b": "Толкаченко",
+    "rel_a_to_b": "руководитель",
+    "rel_b_to_a": "сообщник",
+    "category": "служебные",
+    "evolves": false,
+    "note": "",
+    "interactions": 4,
+    "chapters": [
+      "chapter_03_04_01",
+      "chapter_03_06_01",
+      "chapter_03_08_01"
+    ],
+    "scenes": [
+      "chapter_03_04_01_S3",
+      "chapter_03_06_01_S3",
+      "chapter_03_06_01_S4",
+      "chapter_03_08_01_S4"
+    ]
+  },
+  {
+    "a": "rasskazchik",
+    "b": "sergei_liputin",
+    "label_a": "рассказчик",
+    "label_b": "Сергей Васильевич Липутин",
+    "rel_a_to_b": "знакомый",
+    "rel_b_to_a": "знакомый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 4,
+    "chapters": [
+      "chapter_02_01_01",
+      "chapter_02_01_02",
+      "chapter_03_01_02"
+    ],
+    "scenes": [
+      "chapter_02_01_01_S5",
+      "chapter_02_01_02_S3",
+      "chapter_03_01_02_S6"
+    ]
+  },
+  {
+    "a": "aleksei_egorovich",
+    "b": "varvara_stavrogina",
+    "label_a": "Алексей Егорович",
+    "label_b": "Варвара Петровна Ставрогина",
+    "rel_a_to_b": "камердинер",
+    "rel_b_to_a": "хозяйка",
+    "category": "служебные",
+    "evolves": false,
+    "note": "",
+    "interactions": 3,
+    "chapters": [
+      "chapter_01_05_03"
+    ],
+    "scenes": [
+      "chapter_01_05_03_S4"
+    ]
+  },
+  {
+    "a": "aleksei_kirillov",
+    "b": "ignat_lebyadkin",
+    "label_a": "Алексей Нилыч Кириллов",
+    "label_b": "Игнат Лебядкин",
+    "rel_a_to_b": "защитник его сестры",
+    "rel_b_to_a": "сосед",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 3,
+    "chapters": [
+      "chapter_01_03_05",
+      "chapter_01_03_09"
+    ],
+    "scenes": [
+      "chapter_01_03_05_S1",
+      "chapter_01_03_09_S1"
+    ]
+  },
+  {
+    "a": "andrei_fon_lembke",
+    "b": "lyamshin",
+    "label_a": "Андрей Антонович фон-Лембке",
+    "label_b": "Лямшин",
+    "rel_a_to_b": "начальник",
+    "rel_b_to_a": "подчинённый",
+    "category": "служебные",
+    "evolves": false,
+    "note": "",
+    "interactions": 3,
+    "chapters": [
+      "chapter_02_10_03",
+      "chapter_03_01_02",
+      "chapter_03_02_03"
+    ],
+    "scenes": [
+      "chapter_02_10_03_S3",
+      "chapter_03_01_02_S4",
+      "chapter_03_02_03_S4"
+    ]
+  },
+  {
+    "a": "anisim_ivanov",
+    "b": "stepan_verkhovenskii",
+    "label_a": "Анисим Иванов",
+    "label_b": "Степан Трофимович Верховенский",
+    "rel_a_to_b": "бывший знакомый семьи",
+    "rel_b_to_a": "бывший знакомый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 3,
+    "chapters": [
+      "chapter_03_07_01"
+    ],
+    "scenes": [
+      "chapter_03_07_01_S2"
+    ]
+  },
+  {
+    "a": "darya_shatova",
+    "b": "ignat_lebyadkin",
+    "label_a": "Дарья Павловна Шатова",
+    "label_b": "Игнат Лебядкин",
+    "rel_a_to_b": "посредница по денежному поручению",
+    "rel_b_to_a": "получатель денег",
+    "category": "деловые",
+    "evolves": false,
+    "note": "Дарья передала Лебядкину триста рублей по поручению Ставрогина.",
+    "interactions": 3,
+    "chapters": [
+      "chapter_01_03_09",
+      "chapter_01_05_03",
+      "chapter_02_02_02"
+    ],
+    "scenes": [
+      "chapter_01_03_09_S1",
+      "chapter_01_05_03_S3",
+      "chapter_02_02_02_S1"
+    ]
+  },
+  {
+    "a": "fedor_fedorovich",
+    "b": "ignat_lebyadkin",
+    "label_a": "Фёдор Фёдорович",
+    "label_b": "Игнат Лебядкин",
+    "rel_a_to_b": "знакомец",
+    "rel_b_to_a": "знакомец",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 3,
+    "chapters": [
+      "chapter_02_03_04",
+      "chapter_03_03_02",
+      "chapter_03_04_04"
+    ],
+    "scenes": [
+      "chapter_02_03_04_S3",
+      "chapter_03_03_02_S1",
+      "chapter_03_04_04_S2"
+    ]
+  },
+  {
+    "a": "ignat_lebyadkin",
+    "b": "virginskii",
+    "label_a": "Игнат Лебядкин",
+    "label_b": "Виргинский",
+    "rel_a_to_b": "любовник его жены",
+    "rel_b_to_a": "обманутый муж",
+    "category": "вражда",
+    "evolves": false,
+    "note": "",
+    "interactions": 3,
+    "chapters": [
+      "chapter_01_01_08",
+      "chapter_02_02_02"
+    ],
+    "scenes": [
+      "chapter_01_01_08_S6",
+      "chapter_02_02_02_S1"
+    ]
+  },
+  {
+    "a": "ivan_osipovich",
+    "b": "varvara_stavrogina",
+    "label_a": "Иван Осипович",
+    "label_b": "Варвара Петровна Ставрогина",
+    "rel_a_to_b": "близкий родственник",
+    "rel_b_to_a": "близкая родственница",
+    "category": "родство",
+    "evolves": false,
+    "note": "",
+    "interactions": 3,
+    "chapters": [
+      "chapter_01_01_08",
+      "chapter_01_02_03"
+    ],
+    "scenes": [
+      "chapter_01_01_08_S1",
+      "chapter_01_02_03_S2"
+    ]
+  },
+  {
+    "a": "ivan_shatov",
+    "b": "sergei_liputin",
+    "label_a": "Иван Шатов",
+    "label_b": "Сергей Васильевич Липутин",
+    "rel_a_to_b": "товарищ по кружку",
+    "rel_b_to_a": "товарищ по кружку",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 3,
+    "chapters": [
+      "chapter_03_04_04",
+      "chapter_03_05_01",
+      "chapter_03_06_01"
+    ],
+    "scenes": [
+      "chapter_03_04_04_S4",
+      "chapter_03_05_01_S5",
+      "chapter_03_06_01_S3"
+    ]
+  },
+  {
+    "a": "lizaveta_tushina",
+    "b": "marya_lebyadkina",
+    "label_a": "Лизавета Николаевна Тушина",
+    "label_b": "Марья Тимофеевна Лебядкина",
+    "rel_a_to_b": "покровительница",
+    "rel_b_to_a": "подопечная",
+    "category": "покровительство",
+    "evolves": true,
+    "note": "Сначала Лиза стремится помочь Марье, но после встречи начинает относиться к ней с ненавистью и презрением.",
+    "interactions": 3,
+    "chapters": [
+      "chapter_01_04_03",
+      "chapter_01_05_01",
+      "chapter_01_05_02"
+    ],
+    "scenes": [
+      "chapter_01_04_03_S2",
+      "chapter_01_05_01_S1",
+      "chapter_01_05_02_S3"
+    ]
+  },
+  {
+    "a": "nikolai_stavrogin",
+    "b": "petr_gaganov",
+    "label_a": "Николай Всеволодович Ставрогин",
+    "label_b": "Пётр Павлович Гаганов",
+    "rel_a_to_b": "обидчик и противник",
+    "rel_b_to_a": "противник и мститель",
+    "category": "вражда",
+    "evolves": true,
+    "note": "Старое оскорбление отца Гаганова перерастает в затяжную вражду и дуэль.",
+    "interactions": 3,
+    "chapters": [
+      "chapter_01_02_02",
+      "chapter_01_02_03"
+    ],
+    "scenes": [
+      "chapter_01_02_02_S1",
+      "chapter_01_02_03_S4"
+    ]
+  },
+  {
+    "a": "nikolai_stavrogin",
+    "b": "semen_karmazinov",
+    "label_a": "Николай Всеволодович Ставрогин",
+    "label_b": "Семён Егорович Кармазинов",
+    "rel_a_to_b": "бывший знакомый",
+    "rel_b_to_a": "бывший знакомый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 3,
+    "chapters": [
+      "chapter_02_06_05",
+      "chapter_02_06_07"
+    ],
+    "scenes": [
+      "chapter_02_06_05_S1",
+      "chapter_02_06_07_S2"
+    ]
+  },
+  {
+    "a": "petr_verkhovenskii",
+    "b": "rasskazchik",
+    "label_a": "Пётр Степанович Верховенский",
+    "label_b": "рассказчик",
+    "rel_a_to_b": "знакомый",
+    "rel_b_to_a": "знакомый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 3,
+    "chapters": [
+      "chapter_02_04_02",
+      "chapter_03_02_02"
+    ],
+    "scenes": [
+      "chapter_02_04_02_S2",
+      "chapter_03_02_02_S1",
+      "chapter_03_02_02_S3"
+    ]
+  },
+  {
+    "a": "semen_yakovlevich",
+    "b": "ubogaya_dvoryanka",
+    "label_a": "Семён Яковлевич",
+    "label_b": "убогая дворянка",
+    "rel_a_to_b": "благодетель",
+    "rel_b_to_a": "просительница",
+    "category": "покровительство",
+    "evolves": false,
+    "note": "",
+    "interactions": 3,
+    "chapters": [
+      "chapter_02_05_02"
+    ],
+    "scenes": [
+      "chapter_02_05_02_S2"
+    ]
+  },
+  {
+    "a": "stepan_verkhovenskii",
+    "b": "svyashchennik",
+    "label_a": "Степан Трофимович Верховенский",
+    "label_b": "священник",
+    "rel_a_to_b": "исповедующийся",
+    "rel_b_to_a": "духовник",
+    "category": "покровительство",
+    "evolves": false,
+    "note": "",
+    "interactions": 3,
+    "chapters": [
+      "chapter_03_07_03"
+    ],
+    "scenes": [
+      "chapter_03_07_03_S5"
+    ]
+  },
+  {
+    "a": "agafya",
+    "b": "nikolai_stavrogin",
+    "label_a": "Агафья",
+    "label_b": "Николай Всеволодович Ставрогин",
+    "rel_a_to_b": "посланница",
+    "rel_b_to_a": "адресат",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_01_02_02"
+    ],
+    "scenes": [
+      "chapter_01_02_02_S4"
+    ]
+  },
+  {
+    "a": "agafya",
+    "b": "petr_verkhovenskii",
+    "label_a": "Агафья",
+    "label_b": "Пётр Степанович Верховенский",
+    "rel_a_to_b": "случайная знакомая",
+    "rel_b_to_a": "случайный знакомец",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_03_04_01"
+    ],
+    "scenes": [
+      "chapter_03_04_01_S3"
+    ]
+  },
+  {
+    "a": "aleksei_egorovich",
+    "b": "stepan_verkhovenskii",
+    "label_a": "Алексей Егорович",
+    "label_b": "Степан Трофимович Верховенский",
+    "rel_a_to_b": "слуга покровительницы",
+    "rel_b_to_a": "подопечный покровительницы",
+    "category": "служебные",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_02_01_02"
+    ],
+    "scenes": [
+      "chapter_02_01_02_S1"
+    ]
+  },
+  {
+    "a": "aleksei_kirillov",
+    "b": "arina_virginskaya",
+    "label_a": "Алексей Нилыч Кириллов",
+    "label_b": "Арина Прохоровна Виргинская",
+    "rel_a_to_b": "обратившийся за помощью",
+    "rel_b_to_a": "повитуха",
+    "category": "служебные",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_03_05_03",
+      "chapter_03_05_04"
+    ],
+    "scenes": [
+      "chapter_03_05_03_S1",
+      "chapter_03_05_04_S2"
+    ]
+  },
+  {
+    "a": "aleksei_kirillov",
+    "b": "fedor_fedorovich",
+    "label_a": "Алексей Нилыч Кириллов",
+    "label_b": "Фёдор Фёдорович",
+    "rel_a_to_b": "приютивший знакомого",
+    "rel_b_to_a": "приютившийся знакомый",
+    "category": "покровительство",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_02_06_06",
+      "chapter_03_04_03"
+    ],
+    "scenes": [
+      "chapter_02_06_06_S1",
+      "chapter_03_04_03_S2"
+    ]
+  },
+  {
+    "a": "aleksei_kirillov",
+    "b": "marya_shatova",
+    "label_a": "Алексей Нилыч Кириллов",
+    "label_b": "Марья Игнатьевна Шатова",
+    "rel_a_to_b": "знакомый её мужа",
+    "rel_b_to_a": "знакомая его товарища",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_03_05_06",
+      "chapter_03_08_01"
+    ],
+    "scenes": [
+      "chapter_03_05_06_S4",
+      "chapter_03_08_01_S2"
+    ]
+  },
+  {
+    "a": "anton_lavrentevich",
+    "b": "varvara_stavrogina",
+    "label_a": "Антон Лаврентьевич",
+    "label_b": "Варвара Петровна Ставрогина",
+    "rel_a_to_b": "друг дома",
+    "rel_b_to_a": "знакомая дома",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_01_03_10",
+      "chapter_02_09_01"
+    ],
+    "scenes": [
+      "chapter_01_03_10_S3",
+      "chapter_02_09_01_S4"
+    ]
+  },
+  {
+    "a": "anton_lavrentevich",
+    "b": "yuliya_fon_lembke",
+    "label_a": "Антон Лаврентьевич",
+    "label_b": "Юлия Михайловна фон-Лембке",
+    "rel_a_to_b": "знакомый",
+    "rel_b_to_a": "знакомая",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_03_02_01",
+      "chapter_03_02_03"
+    ],
+    "scenes": [
+      "chapter_03_02_01_S3",
+      "chapter_03_02_03_S5"
+    ]
+  },
+  {
+    "a": "arina_virginskaya",
+    "b": "ignat_lebyadkin",
+    "label_a": "Арина Прохоровна Виргинская",
+    "label_b": "Игнат Лебядкин",
+    "rel_a_to_b": "бывшая любовница",
+    "rel_b_to_a": "бывший любовник",
+    "category": "любовь",
+    "evolves": true,
+    "note": "Их связь заканчивается разрывом: Лебядкин оставляет Виргинскую и поселяется у неё, фактически третируя её мужа.",
+    "interactions": 2,
+    "chapters": [
+      "chapter_01_01_08",
+      "chapter_02_07_01"
+    ],
+    "scenes": [
+      "chapter_01_01_08_S6",
+      "chapter_02_07_01_S1"
+    ]
+  },
+  {
+    "a": "arina_virginskaya",
+    "b": "lyamshin",
+    "label_a": "Арина Прохоровна Виргинская",
+    "label_b": "Лямшин",
+    "rel_a_to_b": "знакомая",
+    "rel_b_to_a": "знакомый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_02_07_02"
+    ],
+    "scenes": [
+      "chapter_02_07_02_S2"
+    ]
+  },
+  {
+    "a": "darya_shatova",
+    "b": "lizaveta_tushina",
+    "label_a": "Дарья Павловна Шатова",
+    "label_b": "Лизавета Николаевна Тушина",
+    "rel_a_to_b": "подруга",
+    "rel_b_to_a": "подруга",
+    "category": "дружба",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_01_02_06",
+      "chapter_01_03_10"
+    ],
+    "scenes": [
+      "chapter_01_02_06_S1",
+      "chapter_01_03_10_S1"
+    ]
+  },
+  {
+    "a": "darya_shatova",
+    "b": "marya_lebyadkina",
+    "label_a": "Дарья Павловна Шатова",
+    "label_b": "Марья Тимофеевна Лебядкина",
+    "rel_a_to_b": "знакомая",
+    "rel_b_to_a": "знакомая",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_01_05_03"
+    ],
+    "scenes": [
+      "chapter_01_05_03_S3"
+    ]
+  },
+  {
+    "a": "darya_shatova",
+    "b": "petr_verkhovenskii",
+    "label_a": "Дарья Павловна Шатова",
+    "label_b": "Пётр Степанович Верховенский",
+    "rel_a_to_b": "знакомая",
+    "rel_b_to_a": "знакомый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_01_05_07"
+    ],
+    "scenes": [
+      "chapter_01_05_07_S4",
+      "chapter_01_05_07_S7"
+    ]
+  },
+  {
+    "a": "devitsa_virginskaya",
+    "b": "kapiton_maksimovich",
+    "label_a": "девица Виргинская",
+    "label_b": "Капитон Максимович",
+    "rel_a_to_b": "племянница",
+    "rel_b_to_a": "дядя",
+    "category": "родство",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_02_07_01"
+    ],
+    "scenes": [
+      "chapter_02_07_01_S4"
+    ]
+  },
+  {
+    "a": "erkel",
+    "b": "sergei_liputin",
+    "label_a": "Эркель",
+    "label_b": "Сергей Васильевич Липутин",
+    "rel_a_to_b": "сообщник",
+    "rel_b_to_a": "сообщник",
+    "category": "служебные",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_03_06_01"
+    ],
+    "scenes": [
+      "chapter_03_06_01_S2"
+    ]
+  },
+  {
+    "a": "erkel",
+    "b": "virginskii",
+    "label_a": "Эркель",
+    "label_b": "Виргинский",
+    "rel_a_to_b": "сообщник",
+    "rel_b_to_a": "сообщник",
+    "category": "служебные",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_03_06_01"
+    ],
+    "scenes": [
+      "chapter_03_06_01_S1"
+    ]
+  },
+  {
+    "a": "filippov",
+    "b": "ignat_lebyadkin",
+    "label_a": "Филиппов",
+    "label_b": "Игнат Лебядкин",
+    "rel_a_to_b": "домовладелец",
+    "rel_b_to_a": "жилец",
+    "category": "деловые",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_01_04_05"
+    ],
+    "scenes": [
+      "chapter_01_04_05_S3"
+    ]
+  },
+  {
+    "a": "ivan_aleksandrovich",
+    "b": "petr_mikhailovich",
+    "label_a": "Иван Александрович",
+    "label_b": "Пётр Михайлович",
+    "rel_a_to_b": "клубный знакомый",
+    "rel_b_to_a": "клубный знакомый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_02_04_01"
+    ],
+    "scenes": [
+      "chapter_02_04_01_S1"
+    ]
+  },
+  {
+    "a": "ivan_shatov",
+    "b": "shigalev",
+    "label_a": "Иван Шатов",
+    "label_b": "Шигалёв",
+    "rel_a_to_b": "сообщник",
+    "rel_b_to_a": "сообщник",
+    "category": "служебные",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_01_04_04"
+    ],
+    "scenes": [
+      "chapter_01_04_04_S1"
+    ]
+  },
+  {
+    "a": "ivan_shatov",
+    "b": "virginskii",
+    "label_a": "Иван Шатов",
+    "label_b": "Виргинский",
+    "rel_a_to_b": "бывший сообщник",
+    "rel_b_to_a": "бывший сообщник",
+    "category": "вражда",
+    "evolves": true,
+    "note": "Сначала они входят в одну революционную пятёрку, но после разрыва Шатова с организацией становятся противниками.",
+    "interactions": 2,
+    "chapters": [
+      "chapter_03_05_03"
+    ],
+    "scenes": [
+      "chapter_03_05_03_S2"
+    ]
+  },
+  {
+    "a": "kapiton_maksimovich",
+    "b": "petr_verkhovenskii",
+    "label_a": "Капитон Максимович",
+    "label_b": "Пётр Степанович Верховенский",
+    "rel_a_to_b": "знакомый",
+    "rel_b_to_a": "знакомый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "Пётр Степанович использует сведения о капитане и его окружении, но устойчивой близкой связи между ними не показано.",
+    "interactions": 2,
+    "chapters": [
+      "chapter_02_07_02"
+    ],
+    "scenes": [
+      "chapter_02_07_02_S4"
+    ]
+  },
+  {
+    "a": "kapiton_maksimovich",
+    "b": "sergei_liputin",
+    "label_a": "Капитон Максимович",
+    "label_b": "Сергей Васильевич Липутин",
+    "rel_a_to_b": "собутыльник",
+    "rel_b_to_a": "собутыльник",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_02_07_02"
+    ],
+    "scenes": [
+      "chapter_02_07_02_S1"
+    ]
+  },
+  {
+    "a": "komandir",
+    "b": "podporuchik",
+    "label_a": "командир",
+    "label_b": "подпоручик",
+    "rel_a_to_b": "начальник",
+    "rel_b_to_a": "подчинённый",
+    "category": "служебные",
+    "evolves": true,
+    "note": "После публичного выговора подпоручик нападает на командира и их служебные отношения фактически разрушаются.",
+    "interactions": 2,
+    "chapters": [
+      "chapter_02_06_02"
+    ],
+    "scenes": [
+      "chapter_02_06_02_S1"
+    ]
+  },
+  {
+    "a": "kupets_stotysyachnik",
+    "b": "semen_yakovlevich",
+    "label_a": "купец-стотысячник",
+    "label_b": "Семён Яковлевич",
+    "rel_a_to_b": "посетитель",
+    "rel_b_to_a": "юродивый прорицатель",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_02_05_02"
+    ],
+    "scenes": [
+      "chapter_02_05_02_S2"
+    ]
+  },
+  {
+    "a": "lizaveta_tushina",
+    "b": "yuliya_fon_lembke",
+    "label_a": "Лизавета Николаевна Тушина",
+    "label_b": "Юлия Михайловна фон-Лембке",
+    "rel_a_to_b": "двоюродная родственница",
+    "rel_b_to_a": "двоюродная родственница",
+    "category": "родство",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_01_04_07"
+    ],
+    "scenes": [
+      "chapter_01_04_07_S2"
+    ]
+  },
+  {
+    "a": "lyamshin",
+    "b": "sergei_liputin",
+    "label_a": "Лямшин",
+    "label_b": "Сергей Васильевич Липутин",
+    "rel_a_to_b": "сообщник",
+    "rel_b_to_a": "сообщник",
+    "category": "служебные",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_03_06_01"
+    ],
+    "scenes": [
+      "chapter_03_06_01_S1",
+      "chapter_03_06_01_S4"
+    ]
+  },
+  {
+    "a": "lyamshin",
+    "b": "shigalev",
+    "label_a": "Лямшин",
+    "label_b": "Шигалёв",
+    "rel_a_to_b": "сообщник",
+    "rel_b_to_a": "сообщник",
+    "category": "служебные",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_02_07_02"
+    ],
+    "scenes": [
+      "chapter_02_07_02_S3"
+    ]
+  },
+  {
+    "a": "lyamshin",
+    "b": "stepan_verkhovenskii",
+    "label_a": "Лямшин",
+    "label_b": "Степан Трофимович Верховенский",
+    "rel_a_to_b": "бывший приятель",
+    "rel_b_to_a": "бывший приятель",
+    "category": "вражда",
+    "evolves": true,
+    "note": "Лямшин из участника его кружка и развлечений превращается в публичного обличителя и соучастника его унижения.",
+    "interactions": 2,
+    "chapters": [
+      "chapter_02_05_01",
+      "chapter_02_07_01"
+    ],
+    "scenes": [
+      "chapter_02_05_01_S4",
+      "chapter_02_07_01_S3"
+    ]
+  },
+  {
+    "a": "marya_lebyadkina",
+    "b": "mat_praskovya",
+    "label_a": "Марья Тимофеевна Лебядкина",
+    "label_b": "мать Прасковья",
+    "rel_a_to_b": "знакомая по монастырю",
+    "rel_b_to_a": "знакомая по монастырю",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_01_04_05"
+    ],
+    "scenes": [
+      "chapter_01_04_05_S2"
+    ]
+  },
+  {
+    "a": "marya_lebyadkina",
+    "b": "praskovya_ivanovna",
+    "label_a": "Марья Тимофеевна Лебядкина",
+    "label_b": "Прасковья Ивановна",
+    "rel_a_to_b": "знакомая",
+    "rel_b_to_a": "знакомая",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "В тексте мать Прасковья упоминается Марьей Тимофеевной, но её тождество с Прасковьей Ивановной прямо не подтверждено.",
+    "interactions": 2,
+    "chapters": [
+      "chapter_01_05_03"
+    ],
+    "scenes": [
+      "chapter_01_05_03_S2"
+    ]
+  },
+  {
+    "a": "marya_lebyadkina",
+    "b": "vanya",
+    "label_a": "Марья Тимофеевна Лебядкина",
+    "label_b": "Ваня",
+    "rel_a_to_b": "пассажирка",
+    "rel_b_to_a": "извозчик",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_01_04_07"
+    ],
+    "scenes": [
+      "chapter_01_04_07_S2"
+    ]
+  },
+  {
+    "a": "matresha",
+    "b": "stepanida_mikhailovna",
+    "label_a": "Матреша",
+    "label_b": "Степанида Михайловна",
+    "rel_a_to_b": "дочь",
+    "rel_b_to_a": "мать",
+    "category": "родство",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_03_09_02"
+    ],
+    "scenes": [
+      "chapter_03_09_02_S1",
+      "chapter_03_09_02_S3"
+    ]
+  },
+  {
+    "a": "mavrikii_nikolaevich",
+    "b": "praskovya_ivanovna",
+    "label_a": "Маврикий Николаевич",
+    "label_b": "Прасковья Ивановна",
+    "rel_a_to_b": "жених дочери",
+    "rel_b_to_a": "мать невесты",
+    "category": "сватовство",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_01_05_01",
+      "chapter_01_05_03"
+    ],
+    "scenes": [
+      "chapter_01_05_01_S2",
+      "chapter_01_05_03_S1"
+    ]
+  },
+  {
+    "a": "mavrikii_nikolaevich",
+    "b": "varvara_stavrogina",
+    "label_a": "Маврикий Николаевич",
+    "label_b": "Варвара Петровна Ставрогина",
+    "rel_a_to_b": "знакомый",
+    "rel_b_to_a": "знакомая",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_01_05_03"
+    ],
+    "scenes": [
+      "chapter_01_05_03_S4"
+    ]
+  },
+  {
+    "a": "nastasya",
+    "b": "varvara_stavrogina",
+    "label_a": "Настасья",
+    "label_b": "Варвара Петровна Ставрогина",
+    "rel_a_to_b": "служанка",
+    "rel_b_to_a": "нанимательница",
+    "category": "служебные",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_01_02_07"
+    ],
+    "scenes": [
+      "chapter_01_02_07_S4"
+    ]
+  },
+  {
+    "a": "nikolai_stavrogin",
+    "b": "nina_savelevna",
+    "label_a": "Николай Всеволодович Ставрогин",
+    "label_b": "Нина Савельевна",
+    "rel_a_to_b": "любовник",
+    "rel_b_to_a": "любовница",
+    "category": "любовь",
+    "evolves": false,
+    "note": "В признании Ставрогина описана его интимная связь с горничной Ниной Савельевной.",
+    "interactions": 2,
+    "chapters": [
+      "chapter_03_09_02"
+    ],
+    "scenes": [
+      "chapter_03_09_02_S3"
+    ]
+  },
+  {
+    "a": "nikolai_stavrogin",
+    "b": "yuliya_fon_lembke",
+    "label_a": "Николай Всеволодович Ставрогин",
+    "label_b": "Юлия Михайловна фон-Лембке",
+    "rel_a_to_b": "фаворит",
+    "rel_b_to_a": "покровительница",
+    "category": "покровительство",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_02_04_01",
+      "chapter_02_05_01"
+    ],
+    "scenes": [
+      "chapter_02_04_01_S1",
+      "chapter_02_05_01_S1"
+    ]
+  },
+  {
+    "a": "nikon_andreev",
+    "b": "varvara_stavrogina",
+    "label_a": "Никон Семеныч Андреев",
+    "label_b": "Варвара Петровна Ставрогина",
+    "rel_a_to_b": "знакомый",
+    "rel_b_to_a": "знакомая",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_01_04_07"
+    ],
+    "scenes": [
+      "chapter_01_04_07_S2"
+    ]
+  },
+  {
+    "a": "petr_verkhovenskii",
+    "b": "praskovya_ivanovna",
+    "label_a": "Пётр Степанович Верховенский",
+    "label_b": "Прасковья Ивановна",
+    "rel_a_to_b": "знакомый семьи",
+    "rel_b_to_a": "знакомая семьи",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_01_05_05",
+      "chapter_01_05_06"
+    ],
+    "scenes": [
+      "chapter_01_05_05_S1",
+      "chapter_01_05_06_S1"
+    ]
+  },
+  {
+    "a": "predvoditelsha",
+    "b": "semen_karmazinov",
+    "label_a": "предводительша",
+    "label_b": "Семён Егорович Кармазинов",
+    "rel_a_to_b": "организатор литературного вечера",
+    "rel_b_to_a": "приглашённый писатель",
+    "category": "деловые",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_03_01_02",
+      "chapter_03_01_03"
+    ],
+    "scenes": [
+      "chapter_03_01_02_S1",
+      "chapter_03_01_03_S2"
+    ]
+  },
+  {
+    "a": "stepan_verkhovenskii",
+    "b": "vasilii_flibusterov",
+    "label_a": "Степан Трофимович Верховенский",
+    "label_b": "Василий Иванович Флибустьеров",
+    "rel_a_to_b": "объект агрессии",
+    "rel_b_to_a": "преследователь",
+    "category": "вражда",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_02_10_01"
+    ],
+    "scenes": [
+      "chapter_02_10_01_S5"
+    ]
+  },
+  {
+    "a": "stepan_verkhovenskii",
+    "b": "virginskii",
+    "label_a": "Степан Трофимович Верховенский",
+    "label_b": "Виргинский",
+    "rel_a_to_b": "старший друг",
+    "rel_b_to_a": "младший друг",
+    "category": "дружба",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_01_01_08"
+    ],
+    "scenes": [
+      "chapter_01_01_08_S4"
+    ]
+  },
+  {
+    "a": "svyashchennik",
+    "b": "varvara_stavrogina",
+    "label_a": "священник",
+    "label_b": "Варвара Петровна Ставрогина",
+    "rel_a_to_b": "священник",
+    "rel_b_to_a": "прихожанка",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 2,
+    "chapters": [
+      "chapter_03_07_03"
+    ],
+    "scenes": [
+      "chapter_03_07_03_S5"
+    ]
+  },
+  {
+    "a": "agasha",
+    "b": "varvara_stavrogina",
+    "label_a": "Агаша",
+    "label_b": "Варвара Петровна Ставрогина",
+    "rel_a_to_b": "горничная",
+    "rel_b_to_a": "госпожа",
+    "category": "служебные",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_01_05_01"
+    ],
+    "scenes": [
+      "chapter_01_05_01_S1"
+    ]
+  },
+  {
+    "a": "aleksei_egorovich",
+    "b": "lizaveta_tushina",
+    "label_a": "Алексей Егорович",
+    "label_b": "Лизавета Николаевна Тушина",
+    "rel_a_to_b": "слуга в доме родственницы",
+    "rel_b_to_a": "гостья",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_03_03_03"
+    ],
+    "scenes": [
+      "chapter_03_03_03_S1"
+    ]
+  },
+  {
+    "a": "aleksei_egorovich",
+    "b": "petr_verkhovenskii",
+    "label_a": "Алексей Егорович",
+    "label_b": "Пётр Степанович Верховенский",
+    "rel_a_to_b": "камердинер семьи",
+    "rel_b_to_a": "посетитель",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_03_03_03"
+    ],
+    "scenes": [
+      "chapter_03_03_03_S1"
+    ]
+  },
+  {
+    "a": "aleksei_kirillov",
+    "b": "artemii_gaganov",
+    "label_a": "Алексей Нилыч Кириллов",
+    "label_b": "Артемий Павлович Гаганов",
+    "rel_a_to_b": "секундант противника",
+    "rel_b_to_a": "участник дуэли",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_02_03_01"
+    ],
+    "scenes": [
+      "chapter_02_03_01_S1"
+    ]
+  },
+  {
+    "a": "aleksei_kirillov",
+    "b": "marya_shatova_2",
+    "label_a": "Алексей Нилыч Кириллов",
+    "label_b": "Марья Шатова",
+    "rel_a_to_b": "знакомый её мужа",
+    "rel_b_to_a": "жена знакомого",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_03_06_02"
+    ],
+    "scenes": [
+      "chapter_03_06_02_S2"
+    ]
+  },
+  {
+    "a": "aleksei_kirillov",
+    "b": "mavrikii_nikolaevich",
+    "label_a": "Алексей Нилыч Кириллов",
+    "label_b": "Маврикий Николаевич",
+    "rel_a_to_b": "секундант противника",
+    "rel_b_to_a": "секундант противника",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_02_03_02"
+    ],
+    "scenes": [
+      "chapter_02_03_02_S2"
+    ]
+  },
+  {
+    "a": "alesha_telyatnikov",
+    "b": "nikolai_stavrogin",
+    "label_a": "Алёша Телятников",
+    "label_b": "Николай Всеволодович Ставрогин",
+    "rel_a_to_b": "домашний чиновник родственника",
+    "rel_b_to_a": "родственник губернатора",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_01_02_03"
+    ],
+    "scenes": [
+      "chapter_01_02_03_S2"
+    ]
+  },
+  {
+    "a": "alesha_telyatnikov",
+    "b": "rasskazchik",
+    "label_a": "Алёша Телятников",
+    "label_b": "рассказчик",
+    "rel_a_to_b": "знакомый",
+    "rel_b_to_a": "знакомый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_02_01_01"
+    ],
+    "scenes": [
+      "chapter_02_01_01_S5"
+    ]
+  },
+  {
+    "a": "andreev",
+    "b": "stepan_verkhovenskii",
+    "label_a": "Андреев",
+    "label_b": "Степан Трофимович Верховенский",
+    "rel_a_to_b": "покупатель леса",
+    "rel_b_to_a": "продавец имения",
+    "category": "деловые",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_01_01_07"
+    ],
+    "scenes": [
+      "chapter_01_01_07_S1"
+    ]
+  },
+  {
+    "a": "andrei_fon_blyum",
+    "b": "andrei_fon_lembke",
+    "label_a": "Андрей Антонович фон-Блюм",
+    "label_b": "Андрей Антонович фон-Лембке",
+    "rel_a_to_b": "подчинённый и дальний родственник",
+    "rel_b_to_a": "начальник и покровитель",
+    "category": "служебные",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_02_04_03"
+    ],
+    "scenes": [
+      "chapter_02_04_03_S8"
+    ]
+  },
+  {
+    "a": "andrei_fon_blyum",
+    "b": "yuliya_fon_lembke",
+    "label_a": "Андрей Антонович фон-Блюм",
+    "label_b": "Юлия Михайловна фон-Лембке",
+    "rel_a_to_b": "подчинённый её мужа",
+    "rel_b_to_a": "жена начальника",
+    "category": "служебные",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_02_04_03"
+    ],
+    "scenes": [
+      "chapter_02_04_03_S8"
+    ]
+  },
+  {
+    "a": "andrei_fon_lembke",
+    "b": "praskovya_ivanovna",
+    "label_a": "Андрей Антонович фон-Лембке",
+    "label_b": "Прасковья Ивановна",
+    "rel_a_to_b": "свойственник",
+    "rel_b_to_a": "свойственница",
+    "category": "родство",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_01_02_04"
+    ],
+    "scenes": [
+      "chapter_01_02_04_S2"
+    ]
+  },
+  {
+    "a": "andrei_fon_lembke",
+    "b": "sergei_liputin",
+    "label_a": "Андрей Антонович фон-Лембке",
+    "label_b": "Сергей Васильевич Липутин",
+    "rel_a_to_b": "губернатор",
+    "rel_b_to_a": "губернский чиновник",
+    "category": "служебные",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_02_06_02"
+    ],
+    "scenes": [
+      "chapter_02_06_02_S2"
+    ]
+  },
+  {
+    "a": "andrei_fon_lembke",
+    "b": "sofya_antropovna",
+    "label_a": "Андрей Антонович фон-Лембке",
+    "label_b": "Софья Антроповна",
+    "rel_a_to_b": "знакомый её дома",
+    "rel_b_to_a": "знакомая его семьи",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_02_10_01"
+    ],
+    "scenes": [
+      "chapter_02_10_01_S4"
+    ]
+  },
+  {
+    "a": "andrei_fon_lembke",
+    "b": "varvara_stavrogina",
+    "label_a": "Андрей Антонович фон-Лембке",
+    "label_b": "Варвара Петровна Ставрогина",
+    "rel_a_to_b": "губернатор",
+    "rel_b_to_a": "влиятельная помещица",
+    "category": "служебные",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_01_02_04"
+    ],
+    "scenes": [
+      "chapter_01_02_04_S2"
+    ]
+  },
+  {
+    "a": "anisim_ivanov",
+    "b": "varvara_stavrogina",
+    "label_a": "Анисим Иванов",
+    "label_b": "Варвара Петровна Ставрогина",
+    "rel_a_to_b": "бывший дворовый знакомый",
+    "rel_b_to_a": "знакомая помещица",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_03_07_03"
+    ],
+    "scenes": [
+      "chapter_03_07_03_S1"
+    ]
+  },
+  {
+    "a": "anton_lavrentevich",
+    "b": "mavrikii_nikolaevich",
+    "label_a": "Антон Лаврентьевич",
+    "label_b": "Маврикий Николаевич",
+    "rel_a_to_b": "знакомый",
+    "rel_b_to_a": "знакомый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_01_04_01"
+    ],
+    "scenes": [
+      "chapter_01_04_01_S3"
+    ]
+  },
+  {
+    "a": "anton_lavrentevich",
+    "b": "nastasya",
+    "label_a": "Антон Лаврентьевич",
+    "label_b": "Настасья",
+    "rel_a_to_b": "домашний знакомый",
+    "rel_b_to_a": "служанка знакомого",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_02_09_01"
+    ],
+    "scenes": [
+      "chapter_02_09_01_S1"
+    ]
+  },
+  {
+    "a": "anton_lavrentevich",
+    "b": "shigalev",
+    "label_a": "Антон Лаврентьевич",
+    "label_b": "Шигалёв",
+    "rel_a_to_b": "знакомый",
+    "rel_b_to_a": "знакомый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_01_04_04"
+    ],
+    "scenes": [
+      "chapter_01_04_04_S1"
+    ]
+  },
+  {
+    "a": "anton_lavrentevich",
+    "b": "stepan_vysotskii",
+    "label_a": "Антон Лаврентьевич",
+    "label_b": "Степан Высоцкий",
+    "rel_a_to_b": "заочный знакомый",
+    "rel_b_to_a": "заочный знакомый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_02_09_01"
+    ],
+    "scenes": [
+      "chapter_02_09_01_S5"
+    ]
+  },
+  {
+    "a": "arina_virginskaya",
+    "b": "khromoi_uchitel",
+    "label_a": "Арина Прохоровна Виргинская",
+    "label_b": "хромой учитель",
+    "rel_a_to_b": "знакомая по кружку",
+    "rel_b_to_a": "знакомая по кружку",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_02_07_02"
+    ],
+    "scenes": [
+      "chapter_02_07_02_S3"
+    ]
+  },
+  {
+    "a": "arina_virginskaya",
+    "b": "sergei_liputin",
+    "label_a": "Арина Прохоровна Виргинская",
+    "label_b": "Сергей Васильевич Липутин",
+    "rel_a_to_b": "знакомая по кружку",
+    "rel_b_to_a": "знакомая по кружку",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_02_07_02"
+    ],
+    "scenes": [
+      "chapter_02_07_02_S2"
+    ]
+  },
+  {
+    "a": "artemii_gaganov",
+    "b": "mavrikii_drozdov",
+    "label_a": "Артемий Павлович Гаганов",
+    "label_b": "Маврикий Николаевич Дроздов",
+    "rel_a_to_b": "друг и школьный товарищ",
+    "rel_b_to_a": "друг и школьный товарищ",
+    "category": "дружба",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_02_03_01"
+    ],
+    "scenes": [
+      "chapter_02_03_01_S1"
+    ]
+  },
+  {
+    "a": "artemii_gaganov",
+    "b": "petr_verkhovenskii",
+    "label_a": "Артемий Павлович Гаганов",
+    "label_b": "Пётр Степанович Верховенский",
+    "rel_a_to_b": "знакомый",
+    "rel_b_to_a": "спутник и знакомый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_02_01_01"
+    ],
+    "scenes": [
+      "chapter_02_01_01_S4"
+    ]
+  },
+  {
+    "a": "baron",
+    "b": "varvara_stavrogina",
+    "label_a": "барон",
+    "label_b": "Варвара Петровна Ставрогина",
+    "rel_a_to_b": "светский гость",
+    "rel_b_to_a": "хозяйка дома",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_01_01_04"
+    ],
+    "scenes": [
+      "chapter_01_01_04_S1"
+    ]
+  },
+  {
+    "a": "boikaya_dama",
+    "b": "zhena_poruchika",
+    "label_a": "бойкая дама",
+    "label_b": "жена одного местного поручика",
+    "rel_a_to_b": "покровительница",
+    "rel_b_to_a": "подопечная",
+    "category": "покровительство",
+    "evolves": true,
+    "note": "Случайное знакомство переходит в покровительство: бойкая дама увозит поручицу к себе и защищает её от мужа.",
+    "interactions": 1,
+    "chapters": [
+      "chapter_02_05_01"
+    ],
+    "scenes": [
+      "chapter_02_05_01_S2"
+    ]
+  },
+  {
+    "a": "darya_shatova",
+    "b": "praskovya_ivanovna",
+    "label_a": "Дарья Павловна Шатова",
+    "label_b": "Прасковья Ивановна",
+    "rel_a_to_b": "временная гостья",
+    "rel_b_to_a": "хозяйка",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "Дарья некоторое время жила у Дроздовых и была втянута Прасковьей Ивановной в подозрения, от которых та затем отказалась.",
+    "interactions": 1,
+    "chapters": [
+      "chapter_01_02_06"
+    ],
+    "scenes": [
+      "chapter_01_02_06_S1"
+    ]
+  },
+  {
+    "a": "darya_shatova",
+    "b": "rasskazchik",
+    "label_a": "Дарья Павловна Шатова",
+    "label_b": "рассказчик",
+    "rel_a_to_b": "знакомая",
+    "rel_b_to_a": "знакомый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_03_02_02"
+    ],
+    "scenes": [
+      "chapter_03_02_02_S4"
+    ]
+  },
+  {
+    "a": "darya_shatova",
+    "b": "sergei_liputin",
+    "label_a": "Дарья Павловна Шатова",
+    "label_b": "Сергей Васильевич Липутин",
+    "rel_a_to_b": "знакомая",
+    "rel_b_to_a": "знакомый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_01_03_10"
+    ],
+    "scenes": [
+      "chapter_01_03_10_S1"
+    ]
+  },
+  {
+    "a": "erkel",
+    "b": "lyamshin",
+    "label_a": "Эркель",
+    "label_b": "Лямшин",
+    "rel_a_to_b": "сообщник",
+    "rel_b_to_a": "сообщник",
+    "category": "служебные",
+    "evolves": false,
+    "note": "Оба состоят в революционной пятёрке Петра Верховенского.",
+    "interactions": 1,
+    "chapters": [
+      "chapter_03_06_01"
+    ],
+    "scenes": [
+      "chapter_03_06_01_S4"
+    ]
+  },
+  {
+    "a": "fedor_fedorovich",
+    "b": "fomka_zavyalov",
+    "label_a": "Фёдор Фёдорович",
+    "label_b": "Фомка Завьялов",
+    "rel_a_to_b": "сообщник по преступлению",
+    "rel_b_to_a": "сообщник по преступлению",
+    "category": "вражда",
+    "evolves": false,
+    "note": "Оба связаны с поджогами и грабежами, но прямого устойчивого союза между ними текст не показывает.",
+    "interactions": 1,
+    "chapters": [
+      "chapter_03_04_04"
+    ],
+    "scenes": [
+      "chapter_03_04_04_S2"
+    ]
+  },
+  {
+    "a": "fedor_fedorovich",
+    "b": "marya_lebyadkina",
+    "label_a": "Фёдор Фёдорович",
+    "label_b": "Марья Тимофеевна Лебядкина",
+    "rel_a_to_b": "преследователь",
+    "rel_b_to_a": "жертва преступного замысла",
+    "category": "вражда",
+    "evolves": false,
+    "note": "Федька участвовал в замысле убить Марью Тимофеевну и затем оказался причастен к её убийству.",
+    "interactions": 1,
+    "chapters": [
+      "chapter_02_03_04"
+    ],
+    "scenes": [
+      "chapter_02_03_04_S3"
+    ]
+  },
+  {
+    "a": "fomka_zavyalov",
+    "b": "tolkachenko",
+    "label_a": "Фомка Завьялов",
+    "label_b": "Толкаченко",
+    "rel_a_to_b": "сообщник",
+    "rel_b_to_a": "сообщник",
+    "category": "служебные",
+    "evolves": false,
+    "note": "Оба связаны с революционной сетью и поджогами.",
+    "interactions": 1,
+    "chapters": [
+      "chapter_03_04_01"
+    ],
+    "scenes": [
+      "chapter_03_04_01_S3"
+    ]
+  },
+  {
+    "a": "ignat_lebyadkin",
+    "b": "korovaev",
+    "label_a": "Игнат Лебядкин",
+    "label_b": "Короваев",
+    "rel_a_to_b": "обманщик-контрагент",
+    "rel_b_to_a": "получатель фальшивых денег",
+    "category": "деловые",
+    "evolves": false,
+    "note": "Лебядкин передал Короваеву поддельные пятидесятирублёвые купюры.",
+    "interactions": 1,
+    "chapters": [
+      "chapter_02_02_02"
+    ],
+    "scenes": [
+      "chapter_02_02_02_S1"
+    ]
+  },
+  {
+    "a": "ignat_lebyadkin",
+    "b": "praskovya_ivanovna",
+    "label_a": "Игнат Лебядкин",
+    "label_b": "Прасковья Ивановна",
+    "rel_a_to_b": "знакомый",
+    "rel_b_to_a": "знакомая",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_01_05_04"
+    ],
+    "scenes": [
+      "chapter_01_05_04_S1"
+    ]
+  },
+  {
+    "a": "ignat_lebyadkin",
+    "b": "stepan_verkhovenskii",
+    "label_a": "Игнат Лебядкин",
+    "label_b": "Степан Трофимович Верховенский",
+    "rel_a_to_b": "знакомый",
+    "rel_b_to_a": "знакомый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "Они пересекались в общем кругу, но устойчивой личной связи между ними не сложилось.",
+    "interactions": 1,
+    "chapters": [
+      "chapter_01_05_04"
+    ],
+    "scenes": [
+      "chapter_01_05_04_S1"
+    ]
+  },
+  {
+    "a": "ilya_ilich",
+    "b": "lyamshin",
+    "label_a": "Илья Ильич",
+    "label_b": "Лямшин",
+    "rel_a_to_b": "начальник полиции",
+    "rel_b_to_a": "местный чиновник",
+    "category": "служебные",
+    "evolves": false,
+    "note": "Илья Ильич как полицейский начальник сталкивается с Лямшиным в связи с беспорядками и преступлениями.",
+    "interactions": 1,
+    "chapters": [
+      "chapter_02_05_02"
+    ],
+    "scenes": [
+      "chapter_02_05_02_S1"
+    ]
+  },
+  {
+    "a": "ivan_shatov",
+    "b": "mavrikii_nikolaevich",
+    "label_a": "Иван Шатов",
+    "label_b": "Маврикий Николаевич",
+    "rel_a_to_b": "знакомый",
+    "rel_b_to_a": "знакомый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_01_04_02"
+    ],
+    "scenes": [
+      "chapter_01_04_02_S1"
+    ]
+  },
+  {
+    "a": "ivan_shatov",
+    "b": "tolkachenko",
+    "label_a": "Иван Шатов",
+    "label_b": "Толкаченко",
+    "rel_a_to_b": "противник",
+    "rel_b_to_a": "противник",
+    "category": "вражда",
+    "evolves": false,
+    "note": "Толкаченко входит в группу, решившую убить Шатова.",
+    "interactions": 1,
+    "chapters": [
+      "chapter_03_06_01"
+    ],
+    "scenes": [
+      "chapter_03_06_01_S3"
+    ]
+  },
+  {
+    "a": "kapiton_maksimovich",
+    "b": "nikolai_stavrogin",
+    "label_a": "Капитон Максимович",
+    "label_b": "Николай Всеволодович Ставрогин",
+    "rel_a_to_b": "знакомый",
+    "rel_b_to_a": "знакомый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_02_07_02"
+    ],
+    "scenes": [
+      "chapter_02_07_02_S1"
+    ]
+  },
+  {
+    "a": "kapiton_maksimovich",
+    "b": "virginskii",
+    "label_a": "Капитон Максимович",
+    "label_b": "Виргинский",
+    "rel_a_to_b": "любовник жены",
+    "rel_b_to_a": "муж любовницы",
+    "category": "любовь",
+    "evolves": true,
+    "note": "Капитан Лебядкин становится любовником жены Виргинского, вытесняя мужа из семейной жизни.",
+    "interactions": 1,
+    "chapters": [
+      "chapter_02_07_01"
+    ],
+    "scenes": [
+      "chapter_02_07_01_S2"
+    ]
+  },
+  {
+    "a": "khromoi_uchitel",
+    "b": "nikolai_stavrogin",
+    "label_a": "хромой учитель",
+    "label_b": "Николай Всеволодович Ставрогин",
+    "rel_a_to_b": "участник общего собрания",
+    "rel_b_to_a": "участник общего собрания",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "Они присутствуют на собрании у Виргинского, но устойчивой личной связи между ними не возникает.",
+    "interactions": 1,
+    "chapters": [
+      "chapter_02_07_02"
+    ],
+    "scenes": [
+      "chapter_02_07_02_S4"
+    ]
+  },
+  {
+    "a": "knigonosha",
+    "b": "lyamshin",
+    "label_a": "книгоноша",
+    "label_b": "Лямшин",
+    "rel_a_to_b": "жертва провокации",
+    "rel_b_to_a": "провокатор",
+    "category": "вражда",
+    "evolves": false,
+    "note": "Лямшин подложил книгоноше непристойные фотографии, чтобы скомпрометировать её.",
+    "interactions": 1,
+    "chapters": [
+      "chapter_02_05_01"
+    ],
+    "scenes": [
+      "chapter_02_05_01_S4"
+    ]
+  },
+  {
+    "a": "knigonosha",
+    "b": "mavrikii_nikolaevich",
+    "label_a": "книгоноша",
+    "label_b": "Маврикий Николаевич",
+    "rel_a_to_b": "подзащитная",
+    "rel_b_to_a": "защитник",
+    "category": "покровительство",
+    "evolves": false,
+    "note": "Маврикий Николаевич добился освобождения книгоноши после провокации и ареста.",
+    "interactions": 1,
+    "chapters": [
+      "chapter_02_05_01"
+    ],
+    "scenes": [
+      "chapter_02_05_01_S4"
+    ]
+  },
+  {
+    "a": "lizaveta_tushina",
+    "b": "rasskazchik",
+    "label_a": "Лизавета Николаевна Тушина",
+    "label_b": "рассказчик",
+    "rel_a_to_b": "доверительница",
+    "rel_b_to_a": "друг и помощник",
+    "category": "дружба",
+    "evolves": false,
+    "note": "Лизавета обращается к рассказчику за помощью и доверяет ему свои намерения.",
+    "interactions": 1,
+    "chapters": [
+      "chapter_02_01_02"
+    ],
+    "scenes": [
+      "chapter_02_01_02_S3"
+    ]
+  },
+  {
+    "a": "lizaveta_tushina",
+    "b": "semen_yakovlevich",
+    "label_a": "Лизавета Николаевна Тушина",
+    "label_b": "Семён Яковлевич",
+    "rel_a_to_b": "посетительница",
+    "rel_b_to_a": "юродивый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "Лиза лишь посещает Семёна Яковлевича и оказывается свидетелем его поведения.",
+    "interactions": 1,
+    "chapters": [
+      "chapter_02_05_02"
+    ],
+    "scenes": [
+      "chapter_02_05_02_S2"
+    ]
+  },
+  {
+    "a": "lyamshin",
+    "b": "nikolai_stavrogin",
+    "label_a": "Лямшин",
+    "label_b": "Николай Всеволодович Ставрогин",
+    "rel_a_to_b": "знакомый",
+    "rel_b_to_a": "знакомый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_03_08_01"
+    ],
+    "scenes": [
+      "chapter_03_08_01_S4"
+    ]
+  },
+  {
+    "a": "lyamshin",
+    "b": "semen_yakovlevich",
+    "label_a": "Лямшин",
+    "label_b": "Семён Яковлевич",
+    "rel_a_to_b": "посетитель",
+    "rel_b_to_a": "юродивый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "Лямшин ранее посещал Семёна Яковлевича и был им прогнан.",
+    "interactions": 1,
+    "chapters": [
+      "chapter_02_05_02"
+    ],
+    "scenes": [
+      "chapter_02_05_02_S1"
+    ]
+  },
+  {
+    "a": "lyamshin",
+    "b": "tolkachenko",
+    "label_a": "Лямшин",
+    "label_b": "Толкаченко",
+    "rel_a_to_b": "сообщник",
+    "rel_b_to_a": "сообщник",
+    "category": "служебные",
+    "evolves": false,
+    "note": "Они входят в одну революционную пятёрку.",
+    "interactions": 1,
+    "chapters": [
+      "chapter_03_06_01"
+    ],
+    "scenes": [
+      "chapter_03_06_01_S4"
+    ]
+  },
+  {
+    "a": "marya_lebyadkina",
+    "b": "mat_igumenya",
+    "label_a": "Марья Тимофеевна Лебядкина",
+    "label_b": "мать-игуменья",
+    "rel_a_to_b": "бывшая подопечная",
+    "rel_b_to_a": "бывшая наставница",
+    "category": "покровительство",
+    "evolves": false,
+    "note": "Марья Тимофеевна находилась в монастыре под присмотром матери-игуменьи до возвращения к брату.",
+    "interactions": 1,
+    "chapters": [
+      "chapter_01_04_05"
+    ],
+    "scenes": [
+      "chapter_01_04_05_S2"
+    ]
+  },
+  {
+    "a": "marya_lebyadkina",
+    "b": "rasskazchik",
+    "label_a": "Марья Тимофеевна Лебядкина",
+    "label_b": "рассказчик",
+    "rel_a_to_b": "знакомая",
+    "rel_b_to_a": "наблюдатель",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "Рассказчик посещает Марью Тимофеевну и описывает её состояние.",
+    "interactions": 1,
+    "chapters": [
+      "chapter_01_04_05"
+    ],
+    "scenes": [
+      "chapter_01_04_05_S1"
+    ]
+  },
+  {
+    "a": "marya_lebyadkina",
+    "b": "sergei_liputin",
+    "label_a": "Марья Тимофеевна Лебядкина",
+    "label_b": "Сергей Васильевич Липутин",
+    "rel_a_to_b": "жертва сплетника",
+    "rel_b_to_a": "сплетник",
+    "category": "вражда",
+    "evolves": false,
+    "note": "Липутин распространяет сведения и слухи, связанные с Марьёй Тимофеевной и её братом.",
+    "interactions": 1,
+    "chapters": [
+      "chapter_03_01_02"
+    ],
+    "scenes": [
+      "chapter_03_01_02_S5"
+    ]
+  },
+  {
+    "a": "marya_lebyadkina",
+    "b": "stepan_verkhovenskii",
+    "label_a": "Марья Тимофеевна Лебядкина",
+    "label_b": "Степан Трофимович Верховенский",
+    "rel_a_to_b": "знакомая",
+    "rel_b_to_a": "знакомый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "Они встречаются в доме Варвары Петровны, но устойчивой связи между ними не возникает.",
+    "interactions": 1,
+    "chapters": [
+      "chapter_01_05_01"
+    ],
+    "scenes": [
+      "chapter_01_05_01_S1"
+    ]
+  },
+  {
+    "a": "marya_shatova",
+    "b": "nikolai_stavrogin",
+    "label_a": "Марья Игнатьевна Шатова",
+    "label_b": "Николай Всеволодович Ставрогин",
+    "rel_a_to_b": "бывшая любовница",
+    "rel_b_to_a": "бывший любовник",
+    "category": "любовь",
+    "evolves": true,
+    "note": "Их связь в Париже заканчивается расставанием Марьи с Шатовым и её возвращением к мужу.",
+    "interactions": 1,
+    "chapters": [
+      "chapter_03_05_06"
+    ],
+    "scenes": [
+      "chapter_03_05_06_S3"
+    ]
+  },
+  {
+    "a": "mavrikii_nikolaevich",
+    "b": "petr_verkhovenskii",
+    "label_a": "Маврикий Николаевич",
+    "label_b": "Пётр Степанович Верховенский",
+    "rel_a_to_b": "соперник",
+    "rel_b_to_a": "манипулятор соперника",
+    "category": "вражда",
+    "evolves": false,
+    "note": "Пётр Степанович использует Маврикия как препятствие и соперника в истории Лизы.",
+    "interactions": 1,
+    "chapters": [
+      "chapter_03_02_02"
+    ],
+    "scenes": [
+      "chapter_03_02_02_S3"
+    ]
+  },
+  {
+    "a": "mavrikii_nikolaevich",
+    "b": "semen_yakovlevich",
+    "label_a": "Маврикий Николаевич",
+    "label_b": "Семён Яковлевич",
+    "rel_a_to_b": "посетитель",
+    "rel_b_to_a": "юродивый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "Маврикий посещает Семёна Яковлевича и по его указанию становится перед ним на колени.",
+    "interactions": 1,
+    "chapters": [
+      "chapter_02_05_02"
+    ],
+    "scenes": [
+      "chapter_02_05_02_S2"
+    ]
+  },
+  {
+    "a": "mavrikii_nikolaevich",
+    "b": "stepan_verkhovenskii",
+    "label_a": "Маврикий Николаевич",
+    "label_b": "Степан Трофимович Верховенский",
+    "rel_a_to_b": "знакомый",
+    "rel_b_to_a": "знакомый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_03_03_03"
+    ],
+    "scenes": [
+      "chapter_03_03_03_S3"
+    ]
+  },
+  {
+    "a": "miss_krigs",
+    "b": "varvara_stavrogina",
+    "label_a": "мисс Кригс",
+    "label_b": "Варвара Петровна Ставрогина",
+    "rel_a_to_b": "гувернантка воспитанницы",
+    "rel_b_to_a": "нанимательница",
+    "category": "служебные",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_01_02_07"
+    ],
+    "scenes": [
+      "chapter_01_02_07_S1"
+    ]
+  },
+  {
+    "a": "molodoi_uchilishcha",
+    "b": "semen_karmazinov",
+    "label_a": "молодой учитель уездного училища",
+    "label_b": "Семён Егорович Кармазинов",
+    "rel_a_to_b": "критик",
+    "rel_b_to_a": "объект критики",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_03_01_03"
+    ],
+    "scenes": [
+      "chapter_03_01_03_S2"
+    ]
+  },
+  {
+    "a": "nadezhda_nikolaevna",
+    "b": "stepan_verkhovenskii",
+    "label_a": "Надежда Николаевна",
+    "label_b": "Степан Трофимович Верховенский",
+    "rel_a_to_b": "знакомая",
+    "rel_b_to_a": "знакомый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_01_01_07"
+    ],
+    "scenes": [
+      "chapter_01_01_07_S3"
+    ]
+  },
+  {
+    "a": "nadezhda_nikolaevna",
+    "b": "varvara_stavrogina",
+    "label_a": "Надежда Николаевна",
+    "label_b": "Варвара Петровна Ставрогина",
+    "rel_a_to_b": "знакомая",
+    "rel_b_to_a": "знакомая",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_01_01_07"
+    ],
+    "scenes": [
+      "chapter_01_01_07_S3"
+    ]
+  },
+  {
+    "a": "nadezhda_svetlitsyna",
+    "b": "sofya_ulitina",
+    "label_a": "Надежда Егоровна Светлицына",
+    "label_b": "Софья Матвеевна Улитина",
+    "rel_a_to_b": "знакомая, не выполнившая обещание подвезти",
+    "rel_b_to_a": "знакомая, ожидавшая обещанной поездки",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "Светлицына обещала встретить Софью Матвеевну в Хатове и довезти её до Спасова, но не приехала.",
+    "interactions": 1,
+    "chapters": [
+      "chapter_03_07_01"
+    ],
+    "scenes": [
+      "chapter_03_07_01_S3"
+    ]
+  },
+  {
+    "a": "nikolai_stavrogin",
+    "b": "praskovya_drozdova",
+    "label_a": "Николай Всеволодович Ставрогин",
+    "label_b": "Прасковья Ивановна Дроздова",
+    "rel_a_to_b": "знакомый дочери",
+    "rel_b_to_a": "знакомая матери",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_01_03_10"
+    ],
+    "scenes": [
+      "chapter_01_03_10_S2"
+    ]
+  },
+  {
+    "a": "nikolai_stavrogin",
+    "b": "prokhor_malov",
+    "label_a": "Николай Всеволодович Ставрогин",
+    "label_b": "Прохор Малов",
+    "rel_a_to_b": "свидетель брака",
+    "rel_b_to_a": "жених, чей брак засвидетельствован",
+    "category": "прочее",
+    "evolves": false,
+    "note": "Прохор Малов был одним из свидетелей тайного брака Ставрогина с Марьей Тимофеевной.",
+    "interactions": 1,
+    "chapters": [
+      "chapter_03_09_02"
+    ],
+    "scenes": [
+      "chapter_03_09_02_S7"
+    ]
+  },
+  {
+    "a": "odna_devitsa",
+    "b": "semen_karmazinov",
+    "label_a": "одна девица",
+    "label_b": "Семён Егорович Кармазинов",
+    "rel_a_to_b": "случайная знакомая",
+    "rel_b_to_a": "случайный знакомый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_03_01_03"
+    ],
+    "scenes": [
+      "chapter_03_01_03_S2"
+    ]
+  },
+  {
+    "a": "praskovya_drozdova",
+    "b": "stepan_verkhovenskii",
+    "label_a": "Прасковья Ивановна Дроздова",
+    "label_b": "Степан Трофимович Верховенский",
+    "rel_a_to_b": "знакомая",
+    "rel_b_to_a": "знакомый",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "Прасковья Ивановна давно знала Степана Трофимовича и обычно называла его «профессором».",
+    "interactions": 1,
+    "chapters": [
+      "chapter_01_03_10"
+    ],
+    "scenes": [
+      "chapter_01_03_10_S2"
+    ]
+  },
+  {
+    "a": "semen_karmazinov",
+    "b": "varvara_stavrogina",
+    "label_a": "Семён Егорович Кармазинов",
+    "label_b": "Варвара Петровна Ставрогина",
+    "rel_a_to_b": "литературный знакомый",
+    "rel_b_to_a": "литературная знакомая",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "Кармазинов прежде бывал у Варвары Петровны и писал ей письма, но позднее их отношения стали холодными.",
+    "interactions": 1,
+    "chapters": [
+      "chapter_02_10_03"
+    ],
+    "scenes": [
+      "chapter_02_10_03_S2"
+    ]
+  },
+  {
+    "a": "sergei_liputin",
+    "b": "slontsevskii",
+    "label_a": "Сергей Васильевич Липутин",
+    "label_b": "Слоньцевский",
+    "rel_a_to_b": "пригласивший в кружок",
+    "rel_b_to_a": "приглашённый знакомый",
+    "category": "знакомство",
+    "evolves": true,
+    "note": "Липутин привёл Слоньцевского в кружок, но после первоначального приёма его перестали принимать.",
+    "interactions": 1,
+    "chapters": [
+      "chapter_01_01_08"
+    ],
+    "scenes": [
+      "chapter_01_01_08_S7"
+    ]
+  },
+  {
+    "a": "stepan_verkhovenskii",
+    "b": "zaltsfish",
+    "label_a": "Степан Трофимович Верховенский",
+    "label_b": "Зальцфиш",
+    "rel_a_to_b": "пациент",
+    "rel_b_to_a": "лечащий врач",
+    "category": "служебные",
+    "evolves": false,
+    "note": "",
+    "interactions": 1,
+    "chapters": [
+      "chapter_03_07_03"
+    ],
+    "scenes": [
+      "chapter_03_07_03_S4"
+    ]
+  },
+  {
+    "a": "stepan_verkhovenskii_2",
+    "b": "yuliya_fon_lembke",
+    "label_a": "Степан Трофимов Верховенский",
+    "label_b": "Юлия Михайловна фон-Лембке",
+    "rel_a_to_b": "приглашённый литератор",
+    "rel_b_to_a": "пригласившая губернаторша",
+    "category": "знакомство",
+    "evolves": false,
+    "note": "Юлия Михайловна пригласила Степана Трофимовича выступить на литературном утре.",
+    "interactions": 1,
+    "chapters": [
+      "chapter_02_10_02"
+    ],
+    "scenes": [
+      "chapter_02_10_02_S3"
+    ]
+  },
+  {
+    "a": "syn_golovy",
+    "b": "zhena_poruchika",
+    "label_a": "сын городского головы",
+    "label_b": "жена одного местного поручика",
+    "rel_a_to_b": "отказавший в займе знакомый",
+    "rel_b_to_a": "просительница займа",
+    "category": "деловые",
+    "evolves": false,
+    "note": "Жена поручика просила у сына городского головы денег в долг после проигрыша, но он отказал и рассказал об этом её мужу.",
+    "interactions": 1,
+    "chapters": [
+      "chapter_02_05_01"
+    ],
+    "scenes": [
+      "chapter_02_05_01_S2"
+    ]
+  }
+]

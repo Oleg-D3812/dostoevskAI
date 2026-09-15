@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "1_5_6",
+  "count": 14,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_01_05_06_0001",
+      "source_section": "chapter_01_05_06",
+      "source_sentence": 3,
+      "character_position": 168,
+      "text": "Варваре Петровне было не до него",
+      "vad": [
+        -0.2,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.5797650563600155,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 3737,
+      "timeline_end_index": 3737,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 72,
+          "end": 104
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_05_06_0002",
+      "source_section": "chapter_01_05_06",
+      "source_sentence": 7,
+      "character_position": 169,
+      "text": "Варвара Петровна, вся раскрасневшись",
+      "vad": [
+        -0.35,
+        0.72,
+        0.05
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.3916391505963565,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 3741,
+      "timeline_end_index": 3741,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 0,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_05_06_0003",
+      "source_section": "chapter_01_05_06",
+      "source_sentence": 13,
+      "character_position": 170,
+      "text": "с жадностию его слушала",
+      "vad": [
+        0.35,
+        0.55,
+        0.1
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.3171005763321852,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 3747,
+      "timeline_end_index": 3747,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 62,
+          "end": 85
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_05_06_0004",
+      "source_section": "chapter_01_05_06",
+      "source_sentence": 29,
+      "character_position": 171,
+      "text": "несколько страдая от своего снисхождения",
+      "vad": [
+        -0.35,
+        0.15,
+        0.25
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.3712063943991247,
+      "warning": null,
+      "chapter_sentence_start": 29,
+      "chapter_sentence_end": 29,
+      "timeline_start_index": 3763,
+      "timeline_end_index": 3763,
+      "highlights": [
+        {
+          "chapter_sentence": 29,
+          "start": 68,
+          "end": 108
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_05_06_0005",
+      "source_section": "chapter_01_05_06",
+      "source_sentence": 75,
+      "character_position": 172,
+      "text": "она была в сильнейшей экзальтации",
+      "vad": [
+        -0.2,
+        0.95,
+        0.1
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.6075053133605641,
+      "warning": null,
+      "chapter_sentence_start": 75,
+      "chapter_sentence_end": 75,
+      "timeline_start_index": 3809,
+      "timeline_end_index": 3809,
+      "highlights": [
+        {
+          "chapter_sentence": 75,
+          "start": 92,
+          "end": 125
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_05_06_0006",
+      "source_section": "chapter_01_05_06",
+      "source_sentence": 81,
+      "character_position": 173,
+      "text": "О, как я хорошо сделала, что допустила вас говорить!",
+      "vad": [
+        0.82,
+        0.42,
+        0.62
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.4693809644584219,
+      "warning": null,
+      "chapter_sentence_start": 81,
+      "chapter_sentence_end": 81,
+      "timeline_start_index": 3815,
+      "timeline_end_index": 3815,
+      "highlights": [
+        {
+          "chapter_sentence": 81,
+          "start": 0,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_05_06_0007",
+      "source_section": "chapter_01_05_06",
+      "source_sentence": 101,
+      "character_position": 174,
+      "text": "когда я падала духом",
+      "vad": [
+        -0.65,
+        -0.35,
+        -0.55
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.8575636545306841,
+      "warning": null,
+      "chapter_sentence_start": 101,
+      "chapter_sentence_end": 101,
+      "timeline_start_index": 3835,
+      "timeline_end_index": 3835,
+      "highlights": [
+        {
+          "chapter_sentence": 101,
+          "start": 37,
+          "end": 57
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_05_06_0011",
+      "source_section": "chapter_01_05_06",
+      "source_sentence": 130,
+      "character_position": 175,
+      "text": "О, как я страдала всю жизнь, Пётр Степанович!",
+      "vad": [
+        -0.95,
+        0.72,
+        -0.78
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.501434416652468,
+      "warning": null,
+      "chapter_sentence_start": 130,
+      "chapter_sentence_end": 130,
+      "timeline_start_index": 3864,
+      "timeline_end_index": 3864,
+      "highlights": [
+        {
+          "chapter_sentence": 130,
+          "start": 0,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_05_06_0012",
+      "source_section": "chapter_01_05_06",
+      "source_sentence": 133,
+      "character_position": 176,
+      "text": "о, как я виновата пред Nicolas!..",
+      "vad": [
+        -0.85,
+        0.35,
+        -0.55
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2554297730109849,
+      "warning": null,
+      "chapter_sentence_start": 133,
+      "chapter_sentence_end": 133,
+      "timeline_start_index": 3867,
+      "timeline_end_index": 3867,
+      "highlights": [
+        {
+          "chapter_sentence": 133,
+          "start": 25,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_05_06_0013",
+      "source_section": "chapter_01_05_06",
+      "source_sentence": 134,
+      "character_position": 177,
+      "text": "они измучили меня со всех сторон",
+      "vad": [
+        -0.85,
+        0.75,
+        -0.7
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.4143649554545655,
+      "warning": null,
+      "chapter_sentence_start": 134,
+      "chapter_sentence_end": 134,
+      "timeline_start_index": 3868,
+      "timeline_end_index": 3868,
+      "highlights": [
+        {
+          "chapter_sentence": 134,
+          "start": 16,
+          "end": 48
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_05_06_0014",
+      "source_section": "chapter_01_05_06",
+      "source_sentence": 135,
+      "character_position": 178,
+      "text": "у меня не достало, наконец, презрения в ответ на всю эту злость",
+      "vad": [
+        -0.8,
+        0.5,
+        -0.6
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2157017934030343,
+      "warning": null,
+      "chapter_sentence_start": 135,
+      "chapter_sentence_end": 135,
+      "timeline_start_index": 3869,
+      "timeline_end_index": 3869,
+      "highlights": [
+        {
+          "chapter_sentence": 135,
+          "start": 98,
+          "end": 161
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_05_06_0015",
+      "source_section": "chapter_01_05_06",
+      "source_sentence": 136,
+      "character_position": 179,
+      "text": "Никогда, никогда не прощу себе моего малодушия!",
+      "vad": [
+        -0.95,
+        0.72,
+        -0.78
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.501434416652468,
+      "warning": null,
+      "chapter_sentence_start": 136,
+      "chapter_sentence_end": 136,
+      "timeline_start_index": 3870,
+      "timeline_end_index": 3870,
+      "highlights": [
+        {
+          "chapter_sentence": 136,
+          "start": 0,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_05_06_0018",
+      "source_section": "chapter_01_05_06",
+      "source_sentence": 143,
+      "character_position": 180,
+      "text": "я намерена теперь сама усыновить",
+      "vad": [
+        0.7,
+        0.25,
+        0.9
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.634222744622044,
+      "warning": null,
+      "chapter_sentence_start": 143,
+      "chapter_sentence_end": 143,
+      "timeline_start_index": 3877,
+      "timeline_end_index": 3877,
+      "highlights": [
+        {
+          "chapter_sentence": 143,
+          "start": 97,
+          "end": 129
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_05_06_0019",
+      "source_section": "chapter_01_05_06",
+      "source_sentence": 143,
+      "character_position": 181,
+      "text": "это долг, который я намерена свято исполнить",
+      "vad": [
+        0.72,
+        0.18,
+        0.88
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.6391276899662794,
+      "warning": null,
+      "chapter_sentence_start": 143,
+      "chapter_sentence_end": 143,
+      "timeline_start_index": 3877,
+      "timeline_end_index": 3877,
+      "highlights": [
+        {
+          "chapter_sentence": 143,
+          "start": 171,
+          "end": 215
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "3_2_3",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_03_02_03_0001",
+      "source_section": "chapter_03_02_03",
+      "source_sentence": 46,
+      "character_position": 273,
+      "text": "с самым искренним негодованием отвергла",
+      "vad": [
+        -0.82,
+        0.58,
+        0.62
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.4477823154810971,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 10879,
+      "timeline_end_index": 10879,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 38,
+          "end": 77
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_02_03_0002",
+      "source_section": "chapter_03_02_03",
+      "source_sentence": 56,
+      "character_position": 274,
+      "text": "как мучилась, должно быть, теперь",
+      "vad": [
+        -0.75,
+        0.35,
+        -0.55
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2079211654587056,
+      "warning": null,
+      "chapter_sentence_start": 56,
+      "chapter_sentence_end": 56,
+      "timeline_start_index": 10889,
+      "timeline_end_index": 10889,
+      "highlights": [
+        {
+          "chapter_sentence": 56,
+          "start": 3,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_02_03_0003",
+      "source_section": "chapter_03_02_03",
+      "source_sentence": 58,
+      "character_position": 275,
+      "text": "Гордость ли её мучила или просто она потерялась",
+      "vad": [
+        -0.72,
+        0.38,
+        -0.45
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.1248352619441069,
+      "warning": null,
+      "chapter_sentence_start": 58,
+      "chapter_sentence_end": 58,
+      "timeline_start_index": 10891,
+      "timeline_end_index": 10891,
+      "highlights": [
+        {
+          "chapter_sentence": 58,
+          "start": 0,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_02_03_0007",
+      "source_section": "chapter_03_02_03",
+      "source_sentence": 167,
+      "character_position": 276,
+      "text": "«От меня это утаили, утаили», — повторяла она мне потом в отчаянии и негодовании",
+      "vad": [
+        -0.86,
+        0.72,
+        -0.58
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.3264053026101475,
+      "warning": null,
+      "chapter_sentence_start": 167,
+      "chapter_sentence_end": 167,
+      "timeline_start_index": 11000,
+      "timeline_end_index": 11000,
+      "highlights": [
+        {
+          "chapter_sentence": 167,
+          "start": 0,
+          "end": 80
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_02_03_0009",
+      "source_section": "chapter_03_02_03",
+      "source_sentence": 217,
+      "character_position": 277,
+      "text": "Она вскрикнула и упала в обморок",
+      "vad": [
+        -0.9,
+        0.9,
+        -0.95
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.702978363441407,
+      "warning": null,
+      "chapter_sentence_start": 217,
+      "chapter_sentence_end": 217,
+      "timeline_start_index": 11050,
+      "timeline_end_index": 11050,
+      "highlights": [
+        {
+          "chapter_sentence": 217,
+          "start": 0,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_02_03_0010",
+      "source_section": "chapter_03_02_03",
+      "source_sentence": 219,
+      "character_position": 278,
+      "text": "она очнулась лишь подъезжая к дому",
+      "vad": [
+        -0.45,
+        -0.75,
+        -0.7
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 1.3004658681424903,
+      "warning": null,
+      "chapter_sentence_start": 219,
+      "chapter_sentence_end": 219,
+      "timeline_start_index": 11052,
+      "timeline_end_index": 11052,
+      "highlights": [
+        {
+          "chapter_sentence": 219,
+          "start": 48,
+          "end": 82
+        }
+      ]
+    }
+  ]
+}

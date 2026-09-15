@@ -1,0 +1,451 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "1_2_4",
+  "count": 17,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_01_02_04_0001",
+      "source_section": "chapter_01_02_04",
+      "source_sentence": 4,
+      "character_position": 52,
+      "text": "Варвара Петровна не сердилась и не обижалась",
+      "vad": [
+        0.2,
+        -0.25,
+        0.35
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.6593253509211875,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 767,
+      "timeline_end_index": 767,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 56,
+          "end": 100
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_04_0002",
+      "source_section": "chapter_01_02_04",
+      "source_sentence": 5,
+      "character_position": 53,
+      "text": "каждый день во все эти три года беспокоилась, тосковала и мечтала о своём Nicolas непрерывно",
+      "vad": [
+        -0.85,
+        0.55,
+        -0.45
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.1726561855657866,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 768,
+      "timeline_end_index": 768,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 93,
+          "end": 185
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_04_0003",
+      "source_section": "chapter_01_02_04",
+      "source_sentence": 7,
+      "character_position": 54,
+      "text": "несколько отдалилась",
+      "vad": [
+        -0.35,
+        -0.2,
+        0.05
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.7417370267638176,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 770,
+      "timeline_end_index": 770,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 42,
+          "end": 62
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_04_0004",
+      "source_section": "chapter_01_02_04",
+      "source_sentence": 8,
+      "character_position": 55,
+      "text": "сделалась ещё скупее, чем прежде, и ещё пуще стала копить и сердиться за карточные проигрыши Степана Трофимовича",
+      "vad": [
+        -0.72,
+        0.42,
+        0.18
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.2426125592574814,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 771,
+      "timeline_end_index": 771,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 50,
+          "end": 162
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_04_0006",
+      "source_section": "chapter_01_02_04",
+      "source_sentence": 24,
+      "character_position": 56,
+      "text": "даже была с ним весьма экспансивна",
+      "vad": [
+        0.45,
+        0.55,
+        0.35
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.2002032640562474,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 787,
+      "timeline_end_index": 787,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 135,
+          "end": 169
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_04_0007",
+      "source_section": "chapter_01_02_04",
+      "source_sentence": 29,
+      "character_position": 57,
+      "text": "Она сердилась на него тогда за значительный картёжный проигрыш",
+      "vad": [
+        -0.55,
+        0.2,
+        0.15
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.3176122172967087,
+      "warning": null,
+      "chapter_sentence_start": 29,
+      "chapter_sentence_end": 29,
+      "timeline_start_index": 792,
+      "timeline_end_index": 792,
+      "highlights": [
+        {
+          "chapter_sentence": 29,
+          "start": 0,
+          "end": 62
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_04_0008",
+      "source_section": "chapter_01_02_04",
+      "source_sentence": 30,
+      "character_position": 58,
+      "text": "почувствовала сердцем своим, что брошенного друга надо, по возвращении, вознаградить",
+      "vad": [
+        0.72,
+        0.18,
+        0.34
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.3081811685568429,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 793,
+      "timeline_end_index": 793,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 19,
+          "end": 103
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_04_0009",
+      "source_section": "chapter_01_02_04",
+      "source_sentence": 40,
+      "character_position": 59,
+      "text": "презрительное равнодушие, с которым она выслушала о мнениях наших дам и о волнении общества",
+      "vad": [
+        -0.35,
+        -0.2,
+        0.75
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.8267001125751025,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 803,
+      "timeline_end_index": 803,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 44,
+          "end": 135
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_04_0011",
+      "source_section": "chapter_01_02_04",
+      "source_sentence": 148,
+      "character_position": 60,
+      "text": "Мне эта репутация не нравится",
+      "vad": [
+        -0.55,
+        0.05,
+        0.2
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.4394206225691902,
+      "warning": null,
+      "chapter_sentence_start": 148,
+      "chapter_sentence_end": 148,
+      "timeline_start_index": 911,
+      "timeline_end_index": 911,
+      "highlights": [
+        {
+          "chapter_sentence": 148,
+          "start": 0,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_04_0012",
+      "source_section": "chapter_01_02_04",
+      "source_sentence": 149,
+      "character_position": 61,
+      "text": "Я бы не желала, чтобы вас называли атеистом, особенно теперь не желала бы",
+      "vad": [
+        -0.25,
+        0.2,
+        0.35
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.38816725373533,
+      "warning": null,
+      "chapter_sentence_start": 149,
+      "chapter_sentence_end": 149,
+      "timeline_start_index": 912,
+      "timeline_end_index": 912,
+      "highlights": [
+        {
+          "chapter_sentence": 149,
+          "start": 0,
+          "end": 73
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_04_0013",
+      "source_section": "chapter_01_02_04",
+      "source_sentence": 153,
+      "character_position": 62,
+      "text": "я ехала сюда и много о вас думала",
+      "vad": [
+        0.35,
+        0.15,
+        0.2
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.2622619814970814,
+      "warning": null,
+      "chapter_sentence_start": 153,
+      "chapter_sentence_end": 153,
+      "timeline_start_index": 916,
+      "timeline_end_index": 916,
+      "highlights": [
+        {
+          "chapter_sentence": 153,
+          "start": 78,
+          "end": 111
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_04_0014",
+      "source_section": "chapter_01_02_04",
+      "source_sentence": 173,
+      "character_position": 63,
+      "text": "Ах, Степан Трофимович, я с вами серьёзно, серьёзно ехала говорить!",
+      "vad": [
+        -0.25,
+        0.45,
+        0.35
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.2744990761338807,
+      "warning": null,
+      "chapter_sentence_start": 173,
+      "chapter_sentence_end": 173,
+      "timeline_start_index": 936,
+      "timeline_end_index": 936,
+      "highlights": [
+        {
+          "chapter_sentence": 173,
+          "start": 0,
+          "end": 66
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_04_0015",
+      "source_section": "chapter_01_02_04",
+      "source_sentence": 176,
+      "character_position": 64,
+      "text": "О Боже, как вы опустились!",
+      "vad": [
+        -0.9,
+        0.8,
+        0.2
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.5108251514862462,
+      "warning": null,
+      "chapter_sentence_start": 176,
+      "chapter_sentence_end": 176,
+      "timeline_start_index": 939,
+      "timeline_end_index": 939,
+      "highlights": [
+        {
+          "chapter_sentence": 176,
+          "start": 0,
+          "end": 26
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_04_0016",
+      "source_section": "chapter_01_02_04",
+      "source_sentence": 177,
+      "character_position": 65,
+      "text": "О, как вы меня мучаете!..",
+      "vad": [
+        -0.92,
+        0.78,
+        -0.58
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.4013049772055123,
+      "warning": null,
+      "chapter_sentence_start": 177,
+      "chapter_sentence_end": 177,
+      "timeline_start_index": 940,
+      "timeline_end_index": 940,
+      "highlights": [
+        {
+          "chapter_sentence": 177,
+          "start": 0,
+          "end": 25
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_04_0018",
+      "source_section": "chapter_01_02_04",
+      "source_sentence": 192,
+      "character_position": 66,
+      "text": "Терпеть не могу вашего Шатова",
+      "vad": [
+        -0.82,
+        0.58,
+        0.32
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.3184303549388811,
+      "warning": null,
+      "chapter_sentence_start": 192,
+      "chapter_sentence_end": 192,
+      "timeline_start_index": 955,
+      "timeline_end_index": 955,
+      "highlights": [
+        {
+          "chapter_sentence": 192,
+          "start": 2,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_04_0019",
+      "source_section": "chapter_01_02_04",
+      "source_sentence": 200,
+      "character_position": 67,
+      "text": "измучилась",
+      "vad": [
+        -0.85,
+        0.65,
+        -0.35
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2314022483023673,
+      "warning": null,
+      "chapter_sentence_start": 200,
+      "chapter_sentence_end": 200,
+      "timeline_start_index": 963,
+      "timeline_end_index": 963,
+      "highlights": [
+        {
+          "chapter_sentence": 200,
+          "start": 44,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_04_0020",
+      "source_section": "chapter_01_02_04",
+      "source_sentence": 208,
+      "character_position": 68,
+      "text": "устала",
+      "vad": [
+        -0.8,
+        -0.5,
+        -0.2
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 1.024631333183035,
+      "warning": null,
+      "chapter_sentence_start": 208,
+      "chapter_sentence_end": 208,
+      "timeline_start_index": 971,
+      "timeline_end_index": 971,
+      "highlights": [
+        {
+          "chapter_sentence": 208,
+          "start": 23,
+          "end": 29
+        }
+      ]
+    }
+  ]
+}

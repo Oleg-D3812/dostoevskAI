@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "1_3_3",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_01_03_03_0001",
+      "source_section": "chapter_01_03_03",
+      "source_sentence": 7,
+      "character_position": 88,
+      "text": "суетное и честолюбивое волнение Варвары Петровны от страха, что Кармазинов забудет ей сделать визит",
+      "vad": [
+        -0.65,
+        0.72,
+        -0.45
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2304192985645287,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 1545,
+      "timeline_end_index": 1545,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 160,
+          "end": 259
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "1_4_1",
+  "count": 5,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_01_04_01_0001",
+      "source_section": "chapter_01_04_01",
+      "source_sentence": 5,
+      "character_position": 112,
+      "text": "старуха со злости расплакалась",
+      "vad": [
+        -0.9,
+        0.6,
+        -0.4
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2349152153738181,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 2473,
+      "timeline_end_index": 2473,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 96,
+          "end": 126
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_04_01_0002",
+      "source_section": "chapter_01_04_01",
+      "source_sentence": 7,
+      "character_position": 113,
+      "text": "несмотря на то, что Лизу всегда побаивалась",
+      "vad": [
+        -0.2,
+        0.1,
+        -0.3
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.6402001335876982,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 2475,
+      "timeline_end_index": 2475,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 103,
+          "end": 146
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_04_01_0004",
+      "source_section": "chapter_01_04_01",
+      "source_sentence": 7,
+      "character_position": 114,
+      "text": "только и делала, что капризничала и ко всем придиралась",
+      "vad": [
+        -0.75,
+        0.45,
+        0.3
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.2319357394684963,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 2475,
+      "timeline_end_index": 2475,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 46,
+          "end": 101
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_04_01_0006",
+      "source_section": "chapter_01_04_01",
+      "source_sentence": 45,
+      "character_position": 115,
+      "text": "она теперь очень страдает",
+      "vad": [
+        -0.85,
+        0.45,
+        -0.55
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2146469573715506,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 2513,
+      "timeline_end_index": 2513,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 41,
+          "end": 66
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_04_01_0007",
+      "source_section": "chapter_01_04_01",
+      "source_sentence": 57,
+      "character_position": 116,
+      "text": "Она сердито вышла из залы",
+      "vad": [
+        -0.55,
+        0.45,
+        0.1
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.2086502527761209,
+      "warning": null,
+      "chapter_sentence_start": 57,
+      "chapter_sentence_end": 57,
+      "timeline_start_index": 2525,
+      "timeline_end_index": 2525,
+      "highlights": [
+        {
+          "chapter_sentence": 57,
+          "start": 0,
+          "end": 25
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "2_1_4",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_02_01_04_0001",
+      "source_section": "chapter_02_01_04",
+      "source_sentence": 7,
+      "character_position": 186,
+      "text": "измучившая себя в эти дни заботами",
+      "vad": [
+        -0.78,
+        0.58,
+        -0.42
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.1233774716850305,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 4639,
+      "timeline_end_index": 4639,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 18,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_01_04_0002",
+      "source_section": "chapter_02_01_04",
+      "source_sentence": 8,
+      "character_position": 187,
+      "text": "Ей всё мерещилось: не скажет ли он наконец чего-нибудь окончательно?",
+      "vad": [
+        -0.32,
+        0.28,
+        -0.18
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.4883170890586967,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 4640,
+      "timeline_end_index": 4640,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 0,
+          "end": 68
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_01_04_0003",
+      "source_section": "chapter_02_01_04",
+      "source_sentence": 10,
+      "character_position": 188,
+      "text": "с бьющимся сердцем",
+      "vad": [
+        -0.45,
+        0.75,
+        -0.2
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.4101038385752166,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 4642,
+      "timeline_end_index": 4642,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 60,
+          "end": 78
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_01_04_0004",
+      "source_section": "chapter_02_01_04",
+      "source_sentence": 11,
+      "character_position": 189,
+      "text": "Её как бы поразило",
+      "vad": [
+        -0.55,
+        0.65,
+        -0.25
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2653590427553244,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 4643,
+      "timeline_end_index": 4643,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 0,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_01_04_0005",
+      "source_section": "chapter_02_01_04",
+      "source_sentence": 13,
+      "character_position": 190,
+      "text": "её обнял страх",
+      "vad": [
+        -0.82,
+        0.72,
+        -0.38
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2614401420742642,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 4645,
+      "timeline_end_index": 4645,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 65,
+          "end": 79
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_01_04_0006",
+      "source_section": "chapter_02_01_04",
+      "source_sentence": 13,
+      "character_position": 191,
+      "text": "с новым тяжёлым ощущением и с новою тоской",
+      "vad": [
+        -0.9,
+        0.2,
+        -0.3
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.3804960757712035,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 4645,
+      "timeline_end_index": 4645,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 181,
+          "end": 223
+        }
+      ]
+    }
+  ]
+}

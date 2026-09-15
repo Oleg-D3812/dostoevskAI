@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "1_2_6",
+  "count": 9,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_01_02_06_0001",
+      "source_section": "chapter_01_02_06",
+      "source_sentence": 10,
+      "character_position": 69,
+      "text": "Произнесены были эти ядовитые слова с замечательным раздражением.",
+      "vad": [
+        -0.82,
+        0.78,
+        0.12
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.4659018755201234,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 1009,
+      "timeline_end_index": 1009,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 0,
+          "end": 65
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_06_0002",
+      "source_section": "chapter_01_02_06",
+      "source_sentence": 48,
+      "character_position": 70,
+      "text": "Но всё-таки оставалось тут для неё нечто неясное и неизвестное.",
+      "vad": [
+        -0.18,
+        0.18,
+        -0.12
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.6189998819947105,
+      "warning": null,
+      "chapter_sentence_start": 48,
+      "chapter_sentence_end": 48,
+      "timeline_start_index": 1047,
+      "timeline_end_index": 1047,
+      "highlights": [
+        {
+          "chapter_sentence": 48,
+          "start": 0,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_06_0004",
+      "source_section": "chapter_01_02_06",
+      "source_sentence": 59,
+      "character_position": 71,
+      "text": "слишком она была в ней уверена.",
+      "vad": [
+        0.2,
+        0.15,
+        0.65
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.4697977419777014,
+      "warning": null,
+      "chapter_sentence_start": 59,
+      "chapter_sentence_end": 59,
+      "timeline_start_index": 1058,
+      "timeline_end_index": 1058,
+      "highlights": [
+        {
+          "chapter_sentence": 59,
+          "start": 144,
+          "end": 175
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_06_0005",
+      "source_section": "chapter_01_02_06",
+      "source_sentence": 62,
+      "character_position": 72,
+      "text": "с уверенностию произнесла по себя",
+      "vad": [
+        0.7,
+        0.1,
+        0.8
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.5911815564215965,
+      "warning": null,
+      "chapter_sentence_start": 62,
+      "chapter_sentence_end": 62,
+      "timeline_start_index": 1061,
+      "timeline_end_index": 1061,
+      "highlights": [
+        {
+          "chapter_sentence": 62,
+          "start": 167,
+          "end": 200
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_06_0007",
+      "source_section": "chapter_01_02_06",
+      "source_sentence": 106,
+      "character_position": 73,
+      "text": "— как-то особенно раздражительно взвизгнула Варвара Петровна, —",
+      "vad": [
+        -0.55,
+        0.7,
+        0.1
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.305304526513226,
+      "warning": null,
+      "chapter_sentence_start": 106,
+      "chapter_sentence_end": 106,
+      "timeline_start_index": 1105,
+      "timeline_end_index": 1105,
+      "highlights": [
+        {
+          "chapter_sentence": 106,
+          "start": 0,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_06_0008",
+      "source_section": "chapter_01_02_06",
+      "source_sentence": 116,
+      "character_position": 74,
+      "text": "Ты не думай, что я по глупости сейчас сбрендила; я понимаю, что говорю.",
+      "vad": [
+        -0.2,
+        0.45,
+        0.7
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.5088546709343319,
+      "warning": null,
+      "chapter_sentence_start": 116,
+      "chapter_sentence_end": 116,
+      "timeline_start_index": 1115,
+      "timeline_end_index": 1115,
+      "highlights": [
+        {
+          "chapter_sentence": 116,
+          "start": 0,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_06_0009",
+      "source_section": "chapter_01_02_06",
+      "source_sentence": 117,
+      "character_position": 75,
+      "text": "Я эгоистка",
+      "vad": [
+        -0.55,
+        0.05,
+        -0.35
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.4717349283492308,
+      "warning": null,
+      "chapter_sentence_start": 117,
+      "chapter_sentence_end": 117,
+      "timeline_start_index": 1116,
+      "timeline_end_index": 1116,
+      "highlights": [
+        {
+          "chapter_sentence": 117,
+          "start": 0,
+          "end": 10
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_06_0010",
+      "source_section": "chapter_01_02_06",
+      "source_sentence": 155,
+      "character_position": 76,
+      "text": "Варвара Петровна вдруг обернулась к ней с пылающим от гнева лицом:",
+      "vad": [
+        -0.75,
+        0.9,
+        0.55
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.5415749684965669,
+      "warning": null,
+      "chapter_sentence_start": 155,
+      "chapter_sentence_end": 155,
+      "timeline_start_index": 1154,
+      "timeline_end_index": 1154,
+      "highlights": [
+        {
+          "chapter_sentence": 155,
+          "start": 0,
+          "end": 66
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_06_0011",
+      "source_section": "chapter_01_02_06",
+      "source_sentence": 156,
+      "character_position": 77,
+      "text": "— накинулась она на неё, как ястреб, — дура неблагодарная!",
+      "vad": [
+        -0.88,
+        0.9,
+        0.72
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.6945406970332196,
+      "warning": null,
+      "chapter_sentence_start": 156,
+      "chapter_sentence_end": 156,
+      "timeline_start_index": 1155,
+      "timeline_end_index": 1155,
+      "highlights": [
+        {
+          "chapter_sentence": 156,
+          "start": 0,
+          "end": 58
+        }
+      ]
+    }
+  ]
+}

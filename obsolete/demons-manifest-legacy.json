@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "novelId": "demons",
+  "features": [
+    { "id": "character-network", "renderer": "graph", "label": { "ru": "Граф связей", "en": "Character network" }, "status": "ready", "entry": "demons.json" },
+    { "id": "emotion-vad", "renderer": "explorer-index", "label": { "ru": "Эмоциональный анализ", "en": "Emotion analysis" }, "status": "planned" },
+    { "id": "timeline", "renderer": "timeline", "label": { "ru": "Хронология", "en": "Timeline" }, "status": "planned" }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "1_1_6",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_01_01_06_0001",
+      "source_section": "chapter_01_01_06",
+      "source_sentence": 5,
+      "character_position": 26,
+      "text": "Оскорблённая Варвара Петровна",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.25
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2234764805555517,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 236,
+      "timeline_end_index": 236,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 0,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_01_06_0004",
+      "source_section": "chapter_01_01_06",
+      "source_sentence": 30,
+      "character_position": 27,
+      "text": "главное, всё чего-то ждала",
+      "vad": [
+        -0.2,
+        0.2,
+        -0.3
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.583682412287819,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 261,
+      "timeline_end_index": 261,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 145,
+          "end": 171
+        }
+      ]
+    }
+  ]
+}

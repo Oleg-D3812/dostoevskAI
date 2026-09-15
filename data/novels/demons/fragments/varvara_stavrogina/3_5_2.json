@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "3_5_2",
+  "count": 10,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_03_05_02_0001",
+      "source_section": "chapter_03_05_02",
+      "source_sentence": 50,
+      "character_position": 279,
+      "text": "вся всполошилась в негодовании, в гневе",
+      "vad": [
+        -0.82,
+        0.86,
+        0.48
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.5183572004349878,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 50,
+      "timeline_start_index": 12662,
+      "timeline_end_index": 12662,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 80,
+          "end": 119
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_05_02_0002",
+      "source_section": "chapter_03_05_02",
+      "source_sentence": 51,
+      "character_position": 280,
+      "text": "вне себя от усталости",
+      "vad": [
+        -0.85,
+        0.8,
+        -0.35
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.3497004740803506,
+      "warning": null,
+      "chapter_sentence_start": 51,
+      "chapter_sentence_end": 51,
+      "timeline_start_index": 12663,
+      "timeline_end_index": 12663,
+      "highlights": [
+        {
+          "chapter_sentence": 51,
+          "start": 35,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_05_02_0003",
+      "source_section": "chapter_03_05_02",
+      "source_sentence": 81,
+      "character_position": 281,
+      "text": "горько усмехнулась она",
+      "vad": [
+        -0.72,
+        0.28,
+        -0.38
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2206590618398035,
+      "warning": null,
+      "chapter_sentence_start": 81,
+      "chapter_sentence_end": 81,
+      "timeline_start_index": 12693,
+      "timeline_end_index": 12693,
+      "highlights": [
+        {
+          "chapter_sentence": 81,
+          "start": 2,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_05_02_0004",
+      "source_section": "chapter_03_05_02",
+      "source_sentence": 88,
+      "character_position": 282,
+      "text": "брезгливо и злобно замахала рукой",
+      "vad": [
+        -0.75,
+        0.65,
+        0.45
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.3234045199731977,
+      "warning": null,
+      "chapter_sentence_start": 88,
+      "chapter_sentence_end": 88,
+      "timeline_start_index": 12700,
+      "timeline_end_index": 12700,
+      "highlights": [
+        {
+          "chapter_sentence": 88,
+          "start": 4,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_05_02_0005",
+      "source_section": "chapter_03_05_02",
+      "source_sentence": 115,
+      "character_position": 283,
+      "text": "отрывисто и болезненно проговорила она",
+      "vad": [
+        -0.8,
+        0.7,
+        -0.2
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.31593786946407,
+      "warning": null,
+      "chapter_sentence_start": 115,
+      "chapter_sentence_end": 115,
+      "timeline_start_index": 12727,
+      "timeline_end_index": 12727,
+      "highlights": [
+        {
+          "chapter_sentence": 115,
+          "start": 25,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_05_02_0006",
+      "source_section": "chapter_03_05_02",
+      "source_sentence": 116,
+      "character_position": 284,
+      "text": "утомлённым, но горячим взглядом",
+      "vad": [
+        -0.35,
+        0.65,
+        -0.1
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.4722461322922835,
+      "warning": null,
+      "chapter_sentence_start": 116,
+      "chapter_sentence_end": 116,
+      "timeline_start_index": 12728,
+      "timeline_end_index": 12728,
+      "highlights": [
+        {
+          "chapter_sentence": 116,
+          "start": 129,
+          "end": 160
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_05_02_0007",
+      "source_section": "chapter_03_05_02",
+      "source_sentence": 125,
+      "character_position": 285,
+      "text": "почти в ярости",
+      "vad": [
+        -0.65,
+        0.8,
+        0.25
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.3538776235197466,
+      "warning": null,
+      "chapter_sentence_start": 125,
+      "chapter_sentence_end": 125,
+      "timeline_start_index": 12737,
+      "timeline_end_index": 12737,
+      "highlights": [
+        {
+          "chapter_sentence": 125,
+          "start": 37,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_05_02_0008",
+      "source_section": "chapter_03_05_02",
+      "source_sentence": 129,
+      "character_position": 286,
+      "text": "с брезгливым нетерпением",
+      "vad": [
+        -0.75,
+        0.45,
+        0.2
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.2544742623641165,
+      "warning": null,
+      "chapter_sentence_start": 129,
+      "chapter_sentence_end": 129,
+      "timeline_start_index": 12741,
+      "timeline_end_index": 12741,
+      "highlights": [
+        {
+          "chapter_sentence": 129,
+          "start": 15,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_05_02_0009",
+      "source_section": "chapter_03_05_02",
+      "source_sentence": 145,
+      "character_position": 287,
+      "text": "болезненно прокричала",
+      "vad": [
+        -0.9,
+        0.9,
+        -0.5
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.463426483687055,
+      "warning": null,
+      "chapter_sentence_start": 145,
+      "chapter_sentence_end": 145,
+      "timeline_start_index": 12757,
+      "timeline_end_index": 12757,
+      "highlights": [
+        {
+          "chapter_sentence": 145,
+          "start": 69,
+          "end": 90
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_05_02_0010",
+      "source_section": "chapter_03_05_02",
+      "source_sentence": 149,
+      "character_position": 288,
+      "text": "уже не жалея себя",
+      "vad": [
+        -0.72,
+        0.38,
+        -0.58
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2042145427406164,
+      "warning": null,
+      "chapter_sentence_start": 149,
+      "chapter_sentence_end": 149,
+      "timeline_start_index": 12761,
+      "timeline_end_index": 12761,
+      "highlights": [
+        {
+          "chapter_sentence": 149,
+          "start": 16,
+          "end": 33
+        }
+      ]
+    }
+  ]
+}

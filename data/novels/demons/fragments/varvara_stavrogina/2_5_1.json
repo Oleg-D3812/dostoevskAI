@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "2_5_1",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_02_05_01_0001",
+      "source_section": "chapter_02_05_01",
+      "source_sentence": 9,
+      "character_position": 240,
+      "text": "Самой Варваре Петровне слишком хотелось бы, чтобы назначили у неё.",
+      "vad": [
+        0.65,
+        0.2,
+        -0.1
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.4832138580929372,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 6747,
+      "timeline_end_index": 6747,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 0,
+          "end": 66
+        }
+      ]
+    }
+  ]
+}

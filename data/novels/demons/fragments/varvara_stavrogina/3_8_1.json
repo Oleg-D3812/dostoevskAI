@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "3_8_1",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_03_08_01_0001",
+      "source_section": "chapter_03_08_01",
+      "source_sentence": 122,
+      "character_position": 307,
+      "text": "Разом хлынули на неё все накопившиеся известия и потрясли её ужасно.",
+      "vad": [
+        -0.95,
+        0.9,
+        -0.55
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.4993162698746112,
+      "warning": null,
+      "chapter_sentence_start": 122,
+      "chapter_sentence_end": 122,
+      "timeline_start_index": 14968,
+      "timeline_end_index": 14968,
+      "highlights": [
+        {
+          "chapter_sentence": 122,
+          "start": 0,
+          "end": 68
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_08_01_0002",
+      "source_section": "chapter_03_08_01",
+      "source_sentence": 123,
+      "character_position": 308,
+      "text": "Она затворилась у себя одна.",
+      "vad": [
+        -0.45,
+        0.35,
+        -0.3
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.303251503217381,
+      "warning": null,
+      "chapter_sentence_start": 123,
+      "chapter_sentence_end": 123,
+      "timeline_start_index": 14969,
+      "timeline_end_index": 14969,
+      "highlights": [
+        {
+          "chapter_sentence": 123,
+          "start": 0,
+          "end": 28
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_08_01_0003",
+      "source_section": "chapter_03_08_01",
+      "source_sentence": 243,
+      "character_position": 309,
+      "text": "— ужасно побледнела Варвара Петровна, озираясь на слуг.",
+      "vad": [
+        -0.95,
+        0.9,
+        -0.65
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.5351717879565902,
+      "warning": null,
+      "chapter_sentence_start": 243,
+      "chapter_sentence_end": 243,
+      "timeline_start_index": 15089,
+      "timeline_end_index": 15089,
+      "highlights": [
+        {
+          "chapter_sentence": 243,
+          "start": 0,
+          "end": 55
+        }
+      ]
+    }
+  ]
+}

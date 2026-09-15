@@ -97,10 +97,13 @@
   }
 
   // Resolve "chapter_2_1_2" to a chapters.json entry, falling back to the parent
-  // logical chapter ("2_1_2" -> "2_1") when the sub-section isn't listed.
+  // logical chapter ("2_1_2" -> "2_1") when the sub-section isn't listed. Segments
+  // are unpadded ("01" -> "1") since some novels' source ids are zero-padded while
+  // chapters.json ids are not.
   function resolveChapter(chapterById, introChapter) {
     if (!introChapter) return null;
-    var key = String(introChapter).replace(/^chapter_/, "");
+    var key = String(introChapter).replace(/^chapter_/, "")
+      .split("_").map(function(seg) { return seg.replace(/^0+(?=\d)/, ""); }).join("_");
     while (key) {
       if (chapterById[key]) return chapterById[key];
       var cut = key.lastIndexOf("_");

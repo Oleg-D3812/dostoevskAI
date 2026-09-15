@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "1_2_3",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_01_02_03_0001",
+      "source_section": "chapter_01_02_03",
+      "source_sentence": 30,
+      "character_position": 50,
+      "text": "поспешно и в раздражении прибывшей",
+      "vad": [
+        -0.65,
+        0.72,
+        0.05
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.3763761443790151,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 710,
+      "timeline_end_index": 710,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 35,
+          "end": 69
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_03_0003",
+      "source_section": "chapter_01_02_03",
+      "source_sentence": 41,
+      "character_position": 51,
+      "text": "Она простила.",
+      "vad": [
+        0.75,
+        -0.2,
+        0.55
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.6628907934808212,
+      "warning": null,
+      "chapter_sentence_start": 41,
+      "chapter_sentence_end": 41,
+      "timeline_start_index": 721,
+      "timeline_end_index": 721,
+      "highlights": [
+        {
+          "chapter_sentence": 41,
+          "start": 0,
+          "end": 13
+        }
+      ]
+    }
+  ]
+}

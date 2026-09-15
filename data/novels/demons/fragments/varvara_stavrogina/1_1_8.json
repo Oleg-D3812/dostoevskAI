@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "1_1_8",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_01_01_08_0001",
+      "source_section": "chapter_01_01_08",
+      "source_sentence": 23,
+      "character_position": 32,
+      "text": "Варвара Петровна не любила его",
+      "vad": [
+        -0.6,
+        -0.2,
+        0.3
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.6804394836769115,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 361,
+      "timeline_end_index": 361,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 0,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_01_08_0002",
+      "source_section": "chapter_01_01_08",
+      "source_sentence": 24,
+      "character_position": 33,
+      "text": "Не любила она и Шатова",
+      "vad": [
+        -0.45,
+        -0.1,
+        0.2
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.5892302906257846,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 362,
+      "timeline_end_index": 362,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 0,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_01_08_0003",
+      "source_section": "chapter_01_01_08",
+      "source_sentence": 26,
+      "character_position": 34,
+      "text": "Не любила она его за гордость и неблагодарность, и никак не могла простить ему",
+      "vad": [
+        -0.7,
+        0.2,
+        0.3
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.3295026024488668,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 364,
+      "timeline_end_index": 364,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 0,
+          "end": 78
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_01_08_0005",
+      "source_section": "chapter_01_01_08",
+      "source_sentence": 50,
+      "character_position": 35,
+      "text": "Та с жаром приняла его",
+      "vad": [
+        0.7,
+        0.6,
+        0.1
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.4054396958103331,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 50,
+      "timeline_start_index": 388,
+      "timeline_end_index": 388,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 0,
+          "end": 22
+        }
+      ]
+    }
+  ]
+}

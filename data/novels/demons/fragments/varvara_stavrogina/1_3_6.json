@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "1_3_6",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_01_03_06_0001",
+      "source_section": "chapter_01_03_06",
+      "source_sentence": 5,
+      "character_position": 89,
+      "text": "сами знаете, как она меня всегда третировала!",
+      "vad": [
+        -0.75,
+        0.35,
+        -0.45
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.161675928271801,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 1820,
+      "timeline_end_index": 1820,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 27,
+          "end": 72
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_03_06_0002",
+      "source_section": "chapter_01_03_06",
+      "source_sentence": 22,
+      "character_position": 90,
+      "text": "заметила в нём некоторое постоянное беспокойство",
+      "vad": [
+        -0.35,
+        0.35,
+        -0.1
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.4565142915111309,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 1837,
+      "timeline_end_index": 1837,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 33,
+          "end": 81
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_03_06_0003",
+      "source_section": "chapter_01_03_06",
+      "source_sentence": 24,
+      "character_position": 91,
+      "text": "Умоляю вас, наконец",
+      "vad": [
+        -0.35,
+        0.45,
+        -0.55
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.3687919831492818,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 1839,
+      "timeline_end_index": 1839,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 0,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_03_06_0005",
+      "source_section": "chapter_01_03_06",
+      "source_sentence": 84,
+      "character_position": 92,
+      "text": "Варвару Петровну вчера в этом смысле совсем успокоил",
+      "vad": [
+        0.35,
+        0.05,
+        0.45
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.3492378290284285,
+      "warning": null,
+      "chapter_sentence_start": 84,
+      "chapter_sentence_end": 84,
+      "timeline_start_index": 1899,
+      "timeline_end_index": 1899,
+      "highlights": [
+        {
+          "chapter_sentence": 84,
+          "start": 60,
+          "end": 112
+        }
+      ]
+    }
+  ]
+}

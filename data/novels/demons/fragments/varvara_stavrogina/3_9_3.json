@@ -1,0 +1,503 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "3_9_3",
+  "count": 19,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_03_09_03_0002",
+      "source_section": "chapter_03_09_03",
+      "source_sentence": 4,
+      "character_position": 312,
+      "text": "сменившись спокойствием и как бы какой-то искренностию",
+      "vad": [
+        0.35,
+        -0.15,
+        0.25
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.5205175211228902,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 15695,
+      "timeline_end_index": 15695,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 107,
+          "end": 161
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_09_03_0005",
+      "source_section": "chapter_03_09_03",
+      "source_sentence": 27,
+      "character_position": 313,
+      "text": "смертельно уязвлённого",
+      "vad": [
+        -0.95,
+        0.72,
+        -0.7
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.4465006046950828,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 15718,
+      "timeline_end_index": 15718,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 50,
+          "end": 72
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_09_03_0006",
+      "source_section": "chapter_03_09_03",
+      "source_sentence": 30,
+      "character_position": 314,
+      "text": "вы как бы уже ненавидите вперёд всех тех",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.3
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.129679363668611,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 15721,
+      "timeline_end_index": 15721,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 3,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_09_03_0007",
+      "source_section": "chapter_03_09_03",
+      "source_sentence": 31,
+      "character_position": 315,
+      "text": "зачем стыдитесь вы покаяния",
+      "vad": [
+        -0.45,
+        0.2,
+        -0.25
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.414936140290757,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 15722,
+      "timeline_end_index": 15722,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 38,
+          "end": 65
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_09_03_0008",
+      "source_section": "chapter_03_09_03",
+      "source_sentence": 33,
+      "character_position": 316,
+      "text": "вы как бы любуетесь психологией вашею",
+      "vad": [
+        -0.35,
+        0.25,
+        0.5
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.343157617146642,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 15724,
+      "timeline_end_index": 15724,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 45,
+          "end": 82
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_09_03_0011",
+      "source_section": "chapter_03_09_03",
+      "source_sentence": 54,
+      "character_position": 317,
+      "text": "может быть, действительно много налгал на себя",
+      "vad": [
+        -0.55,
+        0.05,
+        -0.2
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.5141942091563432,
+      "warning": null,
+      "chapter_sentence_start": 54,
+      "chapter_sentence_end": 54,
+      "timeline_start_index": 15745,
+      "timeline_end_index": 15745,
+      "highlights": [
+        {
+          "chapter_sentence": 54,
+          "start": 59,
+          "end": 105
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_09_03_0020",
+      "source_section": "chapter_03_09_03",
+      "source_sentence": 95,
+      "character_position": 318,
+      "text": "Ставрогин смутился; беспокойство выразилось в его лице",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.25
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2234764805555517,
+      "warning": null,
+      "chapter_sentence_start": 95,
+      "chapter_sentence_end": 95,
+      "timeline_start_index": 15786,
+      "timeline_end_index": 15786,
+      "highlights": [
+        {
+          "chapter_sentence": 95,
+          "start": 0,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_09_03_0021",
+      "source_section": "chapter_03_09_03",
+      "source_sentence": 96,
+      "character_position": 319,
+      "text": "Я это предчувствовал",
+      "vad": [
+        -0.35,
+        0.2,
+        0.35
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.3267512960418376,
+      "warning": null,
+      "chapter_sentence_start": 96,
+      "chapter_sentence_end": 96,
+      "timeline_start_index": 15787,
+      "timeline_end_index": 15787,
+      "highlights": [
+        {
+          "chapter_sentence": 96,
+          "start": 2,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_09_03_0022",
+      "source_section": "chapter_03_09_03",
+      "source_sentence": 98,
+      "character_position": 320,
+      "text": "Не беспокойтесь, не конфузьтесь",
+      "vad": [
+        0.15,
+        -0.1,
+        0.7
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.6701886118923568,
+      "warning": null,
+      "chapter_sentence_start": 98,
+      "chapter_sentence_end": 98,
+      "timeline_start_index": 15789,
+      "timeline_end_index": 15789,
+      "highlights": [
+        {
+          "chapter_sentence": 98,
+          "start": 0,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_09_03_0027",
+      "source_section": "chapter_03_09_03",
+      "source_sentence": 131,
+      "character_position": 321,
+      "text": "подхватил в волнении Ставрогин",
+      "vad": [
+        -0.35,
+        0.72,
+        0.18
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.3225358467333262,
+      "warning": null,
+      "chapter_sentence_start": 131,
+      "chapter_sentence_end": 131,
+      "timeline_start_index": 15822,
+      "timeline_end_index": 15822,
+      "highlights": [
+        {
+          "chapter_sentence": 131,
+          "start": 13,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_09_03_0028",
+      "source_section": "chapter_03_09_03",
+      "source_sentence": 133,
+      "character_position": 322,
+      "text": "вы именно потому отчаиваетесь за меня",
+      "vad": [
+        -0.75,
+        0.35,
+        -0.45
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.161675928271801,
+      "warning": null,
+      "chapter_sentence_start": 133,
+      "chapter_sentence_end": 133,
+      "timeline_start_index": 15824,
+      "timeline_end_index": 15824,
+      "highlights": [
+        {
+          "chapter_sentence": 133,
+          "start": 2,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_09_03_0029",
+      "source_section": "chapter_03_09_03",
+      "source_sentence": 133,
+      "character_position": 323,
+      "text": "что некрасиво, гадливо, нет, не то что гадливо, а стыдно, смешно",
+      "vad": [
+        -0.85,
+        0.35,
+        0.15
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.3859544712909346,
+      "warning": null,
+      "chapter_sentence_start": 133,
+      "chapter_sentence_end": 133,
+      "timeline_start_index": 15824,
+      "timeline_end_index": 15824,
+      "highlights": [
+        {
+          "chapter_sentence": 133,
+          "start": 41,
+          "end": 105
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_09_03_0030",
+      "source_section": "chapter_03_09_03",
+      "source_sentence": 138,
+      "character_position": 324,
+      "text": "я хочу простить сам себе",
+      "vad": [
+        -0.35,
+        0.2,
+        0.25
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.3282215295010119,
+      "warning": null,
+      "chapter_sentence_start": 138,
+      "chapter_sentence_end": 138,
+      "timeline_start_index": 15829,
+      "timeline_end_index": 15829,
+      "highlights": [
+        {
+          "chapter_sentence": 138,
+          "start": 24,
+          "end": 48
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_09_03_0031",
+      "source_section": "chapter_03_09_03",
+      "source_sentence": 139,
+      "character_position": 325,
+      "text": "с мрачным восторгом в глазах",
+      "vad": [
+        -0.55,
+        0.8,
+        0.35
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.3288978821343001,
+      "warning": null,
+      "chapter_sentence_start": 139,
+      "chapter_sentence_end": 139,
+      "timeline_start_index": 15830,
+      "timeline_end_index": 15830,
+      "highlights": [
+        {
+          "chapter_sentence": 139,
+          "start": 25,
+          "end": 53
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_09_03_0040",
+      "source_section": "chapter_03_09_03",
+      "source_sentence": 177,
+      "character_position": 326,
+      "text": "не раздражайтесь",
+      "vad": [
+        -0.2,
+        0.3,
+        0.4
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.3768506460987173,
+      "warning": null,
+      "chapter_sentence_start": 177,
+      "chapter_sentence_end": 177,
+      "timeline_start_index": 15868,
+      "timeline_end_index": 15868,
+      "highlights": [
+        {
+          "chapter_sentence": 177,
+          "start": 37,
+          "end": 53
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_09_03_0042",
+      "source_section": "chapter_03_09_03",
+      "source_sentence": 187,
+      "character_position": 327,
+      "text": "небрежно и с досадой промямлил Ставрогин",
+      "vad": [
+        -0.55,
+        0.35,
+        -0.1
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.3738855728321464,
+      "warning": null,
+      "chapter_sentence_start": 187,
+      "chapter_sentence_end": 187,
+      "timeline_start_index": 15878,
+      "timeline_end_index": 15878,
+      "highlights": [
+        {
+          "chapter_sentence": 187,
+          "start": 96,
+          "end": 136
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_09_03_0047",
+      "source_section": "chapter_03_09_03",
+      "source_sentence": 204,
+      "character_position": 328,
+      "text": "в минуту самого малодушного страха",
+      "vad": [
+        -0.85,
+        0.65,
+        -0.8
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.4449286169753537,
+      "warning": null,
+      "chapter_sentence_start": 204,
+      "chapter_sentence_end": 204,
+      "timeline_start_index": 15895,
+      "timeline_end_index": 15895,
+      "highlights": [
+        {
+          "chapter_sentence": 204,
+          "start": 44,
+          "end": 78
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_09_03_0049",
+      "source_section": "chapter_03_09_03",
+      "source_sentence": 209,
+      "character_position": 329,
+      "text": "почти в испуге всматриваясь в Тихона",
+      "vad": [
+        -0.72,
+        0.78,
+        -0.38
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2878109768826187,
+      "warning": null,
+      "chapter_sentence_start": 209,
+      "chapter_sentence_end": 209,
+      "timeline_start_index": 15900,
+      "timeline_end_index": 15900,
+      "highlights": [
+        {
+          "chapter_sentence": 209,
+          "start": 21,
+          "end": 57
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_09_03_0052",
+      "source_section": "chapter_03_09_03",
+      "source_sentence": 217,
+      "character_position": 330,
+      "text": "я в злобе сделаю новое преступление",
+      "vad": [
+        -0.93,
+        0.86,
+        0.72
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.6989885034702207,
+      "warning": null,
+      "chapter_sentence_start": 217,
+      "chapter_sentence_end": 217,
+      "timeline_start_index": 15908,
+      "timeline_end_index": 15908,
+      "highlights": [
+        {
+          "chapter_sentence": 217,
+          "start": 116,
+          "end": 151
+        }
+      ]
+    }
+  ]
+}

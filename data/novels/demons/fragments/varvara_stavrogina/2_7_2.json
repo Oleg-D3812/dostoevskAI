@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "2_7_2",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_02_07_02_0002",
+      "source_section": "chapter_02_07_02",
+      "source_sentence": 375,
+      "character_position": 258,
+      "text": "Но так или этак, а вы меня очень тревожите",
+      "vad": [
+        -0.65,
+        0.7,
+        -0.45
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2110148423151443,
+      "warning": null,
+      "chapter_sentence_start": 375,
+      "chapter_sentence_end": 375,
+      "timeline_start_index": 8805,
+      "timeline_end_index": 8805,
+      "highlights": [
+        {
+          "chapter_sentence": 375,
+          "start": 0,
+          "end": 42
+        }
+      ]
+    }
+  ]
+}

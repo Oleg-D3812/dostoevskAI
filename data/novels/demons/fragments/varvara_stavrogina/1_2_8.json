@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "1_2_8",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_01_02_08_0002",
+      "source_section": "chapter_01_02_08",
+      "source_sentence": 76,
+      "character_position": 82,
+      "text": "Варвара Петровна раздражительно на него накинулась",
+      "vad": [
+        -0.65,
+        0.72,
+        0.58
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.3904552450075543,
+      "warning": null,
+      "chapter_sentence_start": 76,
+      "chapter_sentence_end": 76,
+      "timeline_start_index": 1374,
+      "timeline_end_index": 1374,
+      "highlights": [
+        {
+          "chapter_sentence": 76,
+          "start": 86,
+          "end": 136
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_08_0003",
+      "source_section": "chapter_01_02_08",
+      "source_sentence": 90,
+      "character_position": 83,
+      "text": "ушла видимо расстроенная",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.2
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2624798749045666,
+      "warning": null,
+      "chapter_sentence_start": 90,
+      "chapter_sentence_end": 90,
+      "timeline_start_index": 1388,
+      "timeline_end_index": 1388,
+      "highlights": [
+        {
+          "chapter_sentence": 90,
+          "start": 39,
+          "end": 63
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "1_1_3",
+  "count": 5,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_01_01_03_0002",
+      "source_section": "chapter_01_01_03",
+      "source_sentence": 21,
+      "character_position": 2,
+      "text": "С каким, должно быть, ядом она смотрела на него в те минуты",
+      "vad": [
+        -0.82,
+        0.48,
+        -0.3
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.1740338759927927,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 116,
+      "timeline_end_index": 116,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 0,
+          "end": 59
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_01_03_0003",
+      "source_section": "chapter_01_01_03",
+      "source_sentence": 25,
+      "character_position": 3,
+      "text": "как, должно быть, она была оскорбляема такими предположениями",
+      "vad": [
+        -0.75,
+        0.45,
+        -0.35
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.0993778037984923,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 120,
+      "timeline_end_index": 120,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 2,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_01_03_0004",
+      "source_section": "chapter_01_01_03",
+      "source_sentence": 26,
+      "character_position": 4,
+      "text": "В ней таилась какая-то нестерпимая любовь к нему, среди беспрерывной ненависти, ревности и презрения",
+      "vad": [
+        -0.65,
+        0.9,
+        -0.35
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.4112092571319004,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 121,
+      "timeline_end_index": 121,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 0,
+          "end": 100
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_01_03_0005",
+      "source_section": "chapter_01_01_03",
+      "source_sentence": 27,
+      "character_position": 5,
+      "text": "не спала бы целых ночей от заботы",
+      "vad": [
+        -0.65,
+        0.55,
+        -0.25
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.177762853539028,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 122,
+      "timeline_end_index": 122,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 71,
+          "end": 104
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_01_03_0006",
+      "source_section": "chapter_01_01_03",
+      "source_sentence": 31,
+      "character_position": 6,
+      "text": "Злопамятна же была до невероятности",
+      "vad": [
+        -0.65,
+        0.25,
+        0.7
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.473401523083326,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 126,
+      "timeline_end_index": 126,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 0,
+          "end": 35
+        }
+      ]
+    }
+  ]
+}

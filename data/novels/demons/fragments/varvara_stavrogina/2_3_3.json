@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "2_3_3",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_02_03_03_0001",
+      "source_section": "chapter_02_03_03",
+      "source_sentence": 15,
+      "character_position": 226,
+      "text": "злобно проговорил Ставрогин",
+      "vad": [
+        -0.7,
+        0.6,
+        0.2
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.2429329320306748,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 6076,
+      "timeline_end_index": 6076,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 2,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_03_03_0004",
+      "source_section": "chapter_02_03_03",
+      "source_sentence": 34,
+      "character_position": 227,
+      "text": "засмеялся Ставрогин",
+      "vad": [
+        -0.1,
+        0.35,
+        0.25
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.441365434194906,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 6095,
+      "timeline_end_index": 6095,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 17,
+          "end": 36
+        }
+      ]
+    }
+  ]
+}
