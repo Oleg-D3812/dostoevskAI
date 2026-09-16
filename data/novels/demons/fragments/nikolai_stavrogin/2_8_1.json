@@ -1,0 +1,300 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "nikolai_stavrogin",
+  "chapter_id": "2_8_1",
+  "count": 11,
+  "fragments": [
+    {
+      "id": "nikolai_stavrogin::chapter_02_08_01_0001",
+      "source_section": "chapter_02_08_01",
+      "source_sentence": 33,
+      "character_position": 278,
+      "text": "Ставрогин присматривался к нему с удивлением.",
+      "vad": [
+        0.05,
+        0.18,
+        0.08
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.4590384843446897,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 8930,
+      "timeline_end_index": 8930,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 0,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_08_01_0003",
+      "source_section": "chapter_02_08_01",
+      "source_sentence": 158,
+      "character_position": 279,
+      "text": "«Если этот человек пьян, то где же он успел напиться», приходило ему на ум.",
+      "vad": [
+        -0.1,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.3102540365940012,
+      "warning": null,
+      "chapter_sentence_start": 158,
+      "chapter_sentence_end": 158,
+      "timeline_start_index": 9055,
+      "timeline_end_index": 9055,
+      "highlights": [
+        {
+          "chapter_sentence": 158,
+          "start": 0,
+          "end": 75
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_08_01_0005",
+      "source_section": "chapter_02_08_01",
+      "source_sentence": 187,
+      "character_position": 280,
+      "text": "Довольно, — пробормотал Ставрогин с досадой.",
+      "vad": [
+        -0.55,
+        0.2,
+        0.35
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.220554222723157,
+      "warning": null,
+      "chapter_sentence_start": 187,
+      "chapter_sentence_end": 187,
+      "timeline_start_index": 9084,
+      "timeline_end_index": 9084,
+      "highlights": [
+        {
+          "chapter_sentence": 187,
+          "start": 2,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_08_01_0006",
+      "source_section": "chapter_02_08_01",
+      "source_sentence": 222,
+      "character_position": 281,
+      "text": "Холод прошёл по спине Ставрогина, и он в испуге вырвал свою руку.",
+      "vad": [
+        -0.88,
+        0.83,
+        -0.62
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.3691147190661116,
+      "warning": null,
+      "chapter_sentence_start": 222,
+      "chapter_sentence_end": 222,
+      "timeline_start_index": 9119,
+      "timeline_end_index": 9119,
+      "highlights": [
+        {
+          "chapter_sentence": 222,
+          "start": 0,
+          "end": 65
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_08_01_0007",
+      "source_section": "chapter_02_08_01",
+      "source_sentence": 224,
+      "character_position": 282,
+      "text": "— Помешанный! — прошептал Ставрогин.",
+      "vad": [
+        -0.65,
+        0.55,
+        0.2
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.452581188485917,
+      "warning": null,
+      "chapter_sentence_start": 224,
+      "chapter_sentence_end": 225,
+      "timeline_start_index": 9121,
+      "timeline_end_index": 9122,
+      "highlights": [
+        {
+          "chapter_sentence": 224,
+          "start": 0,
+          "end": 14
+        },
+        {
+          "chapter_sentence": 225,
+          "start": 0,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_08_01_0008",
+      "source_section": "chapter_02_08_01",
+      "source_sentence": 278,
+      "character_position": 283,
+      "text": "Ну, Верховенский, я в первый раз слушаю вас и слушаю с изумлением",
+      "vad": [
+        0.35,
+        0.25,
+        0.15
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.2843525659634155,
+      "warning": null,
+      "chapter_sentence_start": 278,
+      "chapter_sentence_end": 278,
+      "timeline_start_index": 9175,
+      "timeline_end_index": 9175,
+      "highlights": [
+        {
+          "chapter_sentence": 278,
+          "start": 2,
+          "end": 67
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_08_01_0009",
+      "source_section": "chapter_02_08_01",
+      "source_sentence": 303,
+      "character_position": 284,
+      "text": "— вдруг спросил он, в глубоком удивлении смотря на исступлённого.",
+      "vad": [
+        -0.15,
+        0.55,
+        0.05
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.4692995880089243,
+      "warning": null,
+      "chapter_sentence_start": 303,
+      "chapter_sentence_end": 303,
+      "timeline_start_index": 9200,
+      "timeline_end_index": 9200,
+      "highlights": [
+        {
+          "chapter_sentence": 303,
+          "start": 0,
+          "end": 65
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_08_01_0010",
+      "source_section": "chapter_02_08_01",
+      "source_sentence": 318,
+      "character_position": 285,
+      "text": "— усмехнулся злобно Ставрогин.",
+      "vad": [
+        -0.65,
+        0.55,
+        0.45
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.5191535936703219,
+      "warning": null,
+      "chapter_sentence_start": 318,
+      "chapter_sentence_end": 318,
+      "timeline_start_index": 9215,
+      "timeline_end_index": 9215,
+      "highlights": [
+        {
+          "chapter_sentence": 318,
+          "start": 0,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_08_01_0011",
+      "source_section": "chapter_02_08_01",
+      "source_sentence": 317,
+      "character_position": 286,
+      "text": "Так это вы серьёзно на меня рассчитывали?",
+      "vad": [
+        -0.18,
+        0.3,
+        -0.2
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.4665002847549829,
+      "warning": null,
+      "chapter_sentence_start": 317,
+      "chapter_sentence_end": 317,
+      "timeline_start_index": 9214,
+      "timeline_end_index": 9214,
+      "highlights": [
+        {
+          "chapter_sentence": 317,
+          "start": 2,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_08_01_0012",
+      "source_section": "chapter_02_08_01",
+      "source_sentence": 349,
+      "character_position": 287,
+      "text": "«Что он, вправду помешался?» улыбнулся Ставрогин.",
+      "vad": [
+        0.1,
+        0.2,
+        0.4
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.3612978785585068,
+      "warning": null,
+      "chapter_sentence_start": 349,
+      "chapter_sentence_end": 349,
+      "timeline_start_index": 9246,
+      "timeline_end_index": 9246,
+      "highlights": [
+        {
+          "chapter_sentence": 349,
+          "start": 0,
+          "end": 49
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_08_01_0013",
+      "source_section": "chapter_02_08_01",
+      "source_sentence": 354,
+      "character_position": 288,
+      "text": "— серьёзно и строго проговорил Николай Всеволодович.",
+      "vad": [
+        -0.25,
+        0.35,
+        0.7
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.5524965272141503,
+      "warning": null,
+      "chapter_sentence_start": 354,
+      "chapter_sentence_end": 354,
+      "timeline_start_index": 9251,
+      "timeline_end_index": 9251,
+      "highlights": [
+        {
+          "chapter_sentence": 354,
+          "start": 0,
+          "end": 52
+        }
+      ]
+    }
+  ]
+}

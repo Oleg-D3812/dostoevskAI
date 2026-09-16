@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "nikolai_stavrogin",
+  "chapter_id": "2_1_6",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_06_0001",
+      "source_section": "chapter_02_01_06",
+      "source_sentence": 57,
+      "character_position": 174,
+      "text": "довольно холодно продолжал Ставрогин, с видом человека, исполняющего только обязанность",
+      "vad": [
+        -0.25,
+        -0.15,
+        0.55
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.5030779901069896,
+      "warning": null,
+      "chapter_sentence_start": 57,
+      "chapter_sentence_end": 57,
+      "timeline_start_index": 4964,
+      "timeline_end_index": 4964,
+      "highlights": [
+        {
+          "chapter_sentence": 57,
+          "start": 41,
+          "end": 128
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_06_0002",
+      "source_section": "chapter_02_01_06",
+      "source_sentence": 113,
+      "character_position": 175,
+      "text": "продолжал с прежним равнодушием, даже вяло Ставрогин",
+      "vad": [
+        0.05,
+        -0.45,
+        0.15
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.7694855961529038,
+      "warning": null,
+      "chapter_sentence_start": 113,
+      "chapter_sentence_end": 113,
+      "timeline_start_index": 5020,
+      "timeline_end_index": 5020,
+      "highlights": [
+        {
+          "chapter_sentence": 113,
+          "start": 39,
+          "end": 91
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_06_0003",
+      "source_section": "chapter_02_01_06",
+      "source_sentence": 170,
+      "character_position": 176,
+      "text": "да, я почти знаю, для чего я тогда женился и для чего решаюсь на такую «кару» теперь",
+      "vad": [
+        -0.35,
+        0.2,
+        0.45
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.2592511821965223,
+      "warning": null,
+      "chapter_sentence_start": 170,
+      "chapter_sentence_end": 170,
+      "timeline_start_index": 5077,
+      "timeline_end_index": 5077,
+      "highlights": [
+        {
+          "chapter_sentence": 170,
+          "start": 62,
+          "end": 146
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_06_0004",
+      "source_section": "chapter_02_01_06",
+      "source_sentence": 198,
+      "character_position": 177,
+      "text": "Николай Всеволодович нахмурился и как бы стал осторожнее",
+      "vad": [
+        -0.2,
+        0.2,
+        0.2
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.1956744619461706,
+      "warning": null,
+      "chapter_sentence_start": 198,
+      "chapter_sentence_end": 198,
+      "timeline_start_index": 5105,
+      "timeline_end_index": 5105,
+      "highlights": [
+        {
+          "chapter_sentence": 198,
+          "start": 35,
+          "end": 91
+        }
+      ]
+    }
+  ]
+}

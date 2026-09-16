@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "nikolai_stavrogin",
+  "chapter_id": "1_3_9",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "nikolai_stavrogin::chapter_01_03_09_0001",
+      "source_section": "chapter_01_03_09",
+      "source_sentence": 44,
+      "character_position": 79,
+      "text": "проговорил я в ярости",
+      "vad": [
+        -0.85,
+        0.9,
+        0.35
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.8217413004324965,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 2347,
+      "timeline_end_index": 2347,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 2,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_03_09_0002",
+      "source_section": "chapter_01_03_09",
+      "source_sentence": 45,
+      "character_position": 80,
+      "text": "не сердчишко ли у нас ёкнуло, испугавшись соперника",
+      "vad": [
+        -0.55,
+        0.45,
+        -0.15
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.3276996141099332,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 2348,
+      "timeline_end_index": 2348,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 47,
+          "end": 98
+        }
+      ]
+    }
+  ]
+}

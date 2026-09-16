@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "nikolai_stavrogin",
+  "chapter_id": "2_1_2",
+  "count": 9,
+  "fragments": [
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_02_0002",
+      "source_section": "chapter_02_01_02",
+      "source_sentence": 14,
+      "character_position": 136,
+      "text": "он начинал бороться с каким-то новым соблазнительным наплывом идей",
+      "vad": [
+        0.2,
+        0.75,
+        0.35
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.5109114787058022,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 4248,
+      "timeline_end_index": 4248,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 90,
+          "end": 156
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_02_0003",
+      "source_section": "chapter_02_01_02",
+      "source_sentence": 16,
+      "character_position": 137,
+      "text": "ему очень бы хотелось опять заявить себя, выйти из уединения, предложить борьбу, задать последнюю битву",
+      "vad": [
+        0.74,
+        0.82,
+        0.72
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.6677592748780872,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 4250,
+      "timeline_end_index": 4250,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 18,
+          "end": 121
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_02_0004",
+      "source_section": "chapter_02_01_02",
+      "source_sentence": 17,
+      "character_position": 138,
+      "text": "я бы их разгромил!",
+      "vad": [
+        0.82,
+        0.93,
+        0.96
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.9110817004616248,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 4251,
+      "timeline_end_index": 4251,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 8,
+          "end": 26
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_02_0005",
+      "source_section": "chapter_02_01_02",
+      "source_sentence": 24,
+      "character_position": 139,
+      "text": "как в бреду",
+      "vad": [
+        -0.45,
+        0.75,
+        -0.55
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.3504142954404908,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 4258,
+      "timeline_end_index": 4258,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 55,
+          "end": 66
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_02_0006",
+      "source_section": "chapter_02_01_02",
+      "source_sentence": 46,
+      "character_position": 140,
+      "text": "Я очень раздражён сегодня.",
+      "vad": [
+        -0.65,
+        0.55,
+        0.1
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.4625510171986776,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 4280,
+      "timeline_end_index": 4280,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 0,
+          "end": 26
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_02_0007",
+      "source_section": "chapter_02_01_02",
+      "source_sentence": 51,
+      "character_position": 141,
+      "text": "ощутил себя патриотом",
+      "vad": [
+        0.6,
+        0.1,
+        0.4
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.2580331390947722,
+      "warning": null,
+      "chapter_sentence_start": 51,
+      "chapter_sentence_end": 51,
+      "timeline_start_index": 4285,
+      "timeline_end_index": 4285,
+      "highlights": [
+        {
+          "chapter_sentence": 51,
+          "start": 39,
+          "end": 60
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_02_0009",
+      "source_section": "chapter_02_01_02",
+      "source_sentence": 68,
+      "character_position": 142,
+      "text": "я ничего не понимаю",
+      "vad": [
+        -0.65,
+        0.2,
+        -0.55
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.4191266417204244,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 4302,
+      "timeline_end_index": 4302,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 38,
+          "end": 57
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_02_0010",
+      "source_section": "chapter_02_01_02",
+      "source_sentence": 69,
+      "character_position": 143,
+      "text": "Я перестал понимать!",
+      "vad": [
+        -0.72,
+        0.58,
+        -0.63
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.2329249939242359,
+      "warning": null,
+      "chapter_sentence_start": 69,
+      "chapter_sentence_end": 69,
+      "timeline_start_index": 4303,
+      "timeline_end_index": 4303,
+      "highlights": [
+        {
+          "chapter_sentence": 69,
+          "start": 0,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_02_0011",
+      "source_section": "chapter_02_01_02",
+      "source_sentence": 80,
+      "character_position": 144,
+      "text": "сильнейшем волнении",
+      "vad": [
+        -0.35,
+        0.9,
+        -0.15
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.5443879510755917,
+      "warning": null,
+      "chapter_sentence_start": 80,
+      "chapter_sentence_end": 80,
+      "timeline_start_index": 4314,
+      "timeline_end_index": 4314,
+      "highlights": [
+        {
+          "chapter_sentence": 80,
+          "start": 32,
+          "end": 51
+        }
+      ]
+    }
+  ]
+}

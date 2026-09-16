@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "nikolai_stavrogin",
+  "chapter_id": "2_1_4",
+  "count": 5,
+  "fragments": [
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_04_0001",
+      "source_section": "chapter_02_01_04",
+      "source_sentence": 2,
+      "character_position": 163,
+      "text": "Николай Всеволодович оставался спокоен",
+      "vad": [
+        0.1,
+        -0.6,
+        0.4
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.9429826775235428,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 4634,
+      "timeline_end_index": 4634,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 26,
+          "end": 64
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_04_0002",
+      "source_section": "chapter_02_01_04",
+      "source_sentence": 3,
+      "character_position": 164,
+      "text": "очень задумавшись",
+      "vad": [
+        0.0,
+        -0.35,
+        0.1
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.6647686522673171,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 4635,
+      "timeline_end_index": 4635,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 64,
+          "end": 81
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_04_0003",
+      "source_section": "chapter_02_01_04",
+      "source_sentence": 3,
+      "character_position": 165,
+      "text": "вялая, холодная улыбка выдавилась на его губах",
+      "vad": [
+        -0.55,
+        -0.35,
+        0.1
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.5574655832436853,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 4635,
+      "timeline_end_index": 4635,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 93,
+          "end": 139
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_04_0004",
+      "source_section": "chapter_02_01_04",
+      "source_sentence": 4,
+      "character_position": 166,
+      "text": "как бы от усталости",
+      "vad": [
+        -0.35,
+        -0.55,
+        0.05
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.7424151450739964,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 4636,
+      "timeline_end_index": 4636,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 75,
+          "end": 94
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_04_0005",
+      "source_section": "chapter_02_01_04",
+      "source_sentence": 6,
+      "character_position": 167,
+      "text": "Скоро он забылся совсем",
+      "vad": [
+        -0.2,
+        -0.9,
+        -0.2
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 1.1633624570176442,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 4638,
+      "timeline_end_index": 4638,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 0,
+          "end": 23
+        }
+      ]
+    }
+  ]
+}

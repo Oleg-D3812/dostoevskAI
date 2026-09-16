@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "nikolai_stavrogin",
+  "chapter_id": "3_6_2",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "nikolai_stavrogin::chapter_03_06_02_0001",
+      "source_section": "chapter_03_06_02",
+      "source_sentence": 200,
+      "character_position": 331,
+      "text": "Ставрогина тоже съела идея",
+      "vad": [
+        -0.45,
+        0.25,
+        -0.2
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.4062080623317121,
+      "warning": null,
+      "chapter_sentence_start": 200,
+      "chapter_sentence_end": 200,
+      "timeline_start_index": 13655,
+      "timeline_end_index": 13655,
+      "highlights": [
+        {
+          "chapter_sentence": 200,
+          "start": 2,
+          "end": 28
+        }
+      ]
+    }
+  ]
+}

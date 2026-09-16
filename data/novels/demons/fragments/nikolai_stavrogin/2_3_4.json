@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "nikolai_stavrogin",
+  "chapter_id": "2_3_4",
+  "count": 10,
+  "fragments": [
+    {
+      "id": "nikolai_stavrogin::chapter_02_03_04_0001",
+      "source_section": "chapter_02_03_04",
+      "source_sentence": 3,
+      "character_position": 247,
+      "text": "крепко нахмурился",
+      "vad": [
+        -0.35,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.162216732348422,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 6122,
+      "timeline_end_index": 6122,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 58,
+          "end": 75
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_03_04_0002",
+      "source_section": "chapter_02_03_04",
+      "source_sentence": 20,
+      "character_position": 248,
+      "text": "с досадой, даже как будто с гадливостью",
+      "vad": [
+        -0.72,
+        0.28,
+        0.1
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.3548977494767982,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 6139,
+      "timeline_end_index": 6139,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 61,
+          "end": 100
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_03_04_0003",
+      "source_section": "chapter_02_03_04",
+      "source_sentence": 45,
+      "character_position": 249,
+      "text": "я так подл и гадок",
+      "vad": [
+        -0.95,
+        0.2,
+        -0.75
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.5708651654180689,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 6164,
+      "timeline_end_index": 6164,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 73,
+          "end": 91
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_03_04_0004",
+      "source_section": "chapter_02_03_04",
+      "source_sentence": 63,
+      "character_position": 250,
+      "text": "мне кажется, что вы интересуетесь мною как иные устарелые сиделки интересуются почему-либо одним каким-нибудь больным сравнительно пред прочими, или, ещё лучше, как иные богомольные старушонки, шатающиеся по похоронам, предпочитают иные трупики попригляднее пред другими",
+      "vad": [
+        -0.78,
+        0.28,
+        -0.32
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.3198856477926377,
+      "warning": null,
+      "chapter_sentence_start": 63,
+      "chapter_sentence_end": 63,
+      "timeline_start_index": 6182,
+      "timeline_end_index": 6182,
+      "highlights": [
+        {
+          "chapter_sentence": 63,
+          "start": 48,
+          "end": 318
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_03_04_0005",
+      "source_section": "chapter_02_03_04",
+      "source_sentence": 69,
+      "character_position": 251,
+      "text": "я теперь всё вижу привидения",
+      "vad": [
+        -0.75,
+        0.8,
+        -0.65
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.3339312410317634,
+      "warning": null,
+      "chapter_sentence_start": 69,
+      "chapter_sentence_end": 69,
+      "timeline_start_index": 6188,
+      "timeline_end_index": 6188,
+      "highlights": [
+        {
+          "chapter_sentence": 69,
+          "start": 18,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_03_04_0006",
+      "source_section": "chapter_02_03_04",
+      "source_sentence": 83,
+      "character_position": 252,
+      "text": "с злобною и раздражительною улыбкой",
+      "vad": [
+        -0.72,
+        0.62,
+        0.28
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.556604062765256,
+      "warning": null,
+      "chapter_sentence_start": 83,
+      "chapter_sentence_end": 83,
+      "timeline_start_index": 6202,
+      "timeline_end_index": 6202,
+      "highlights": [
+        {
+          "chapter_sentence": 83,
+          "start": 76,
+          "end": 111
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_03_04_0007",
+      "source_section": "chapter_02_03_04",
+      "source_sentence": 91,
+      "character_position": 253,
+      "text": "мне со вчерашней ночи ужасно хочется смеяться, всё смеяться, беспрерывно, долго, много",
+      "vad": [
+        0.82,
+        0.9,
+        0.08
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.7768484153434722,
+      "warning": null,
+      "chapter_sentence_start": 91,
+      "chapter_sentence_end": 91,
+      "timeline_start_index": 6210,
+      "timeline_end_index": 6210,
+      "highlights": [
+        {
+          "chapter_sentence": 91,
+          "start": 8,
+          "end": 94
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_03_04_0008",
+      "source_section": "chapter_02_03_04",
+      "source_sentence": 92,
+      "character_position": 254,
+      "text": "Я точно заряжён смехом",
+      "vad": [
+        0.82,
+        0.88,
+        0.7
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.743524237589023,
+      "warning": null,
+      "chapter_sentence_start": 92,
+      "chapter_sentence_end": 92,
+      "timeline_start_index": 6211,
+      "timeline_end_index": 6211,
+      "highlights": [
+        {
+          "chapter_sentence": 92,
+          "start": 0,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_03_04_0009",
+      "source_section": "chapter_02_03_04",
+      "source_sentence": 102,
+      "character_position": 255,
+      "text": "с злобною, искривлённою улыбкой",
+      "vad": [
+        -0.82,
+        0.63,
+        0.38
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.6486956303468667,
+      "warning": null,
+      "chapter_sentence_start": 102,
+      "chapter_sentence_end": 102,
+      "timeline_start_index": 6221,
+      "timeline_end_index": 6221,
+      "highlights": [
+        {
+          "chapter_sentence": 102,
+          "start": 24,
+          "end": 55
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_03_04_0010",
+      "source_section": "chapter_02_03_04",
+      "source_sentence": 106,
+      "character_position": 256,
+      "text": "брезгливое презрение выразилось в лице его",
+      "vad": [
+        -0.78,
+        0.28,
+        0.62
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.5827537190956216,
+      "warning": null,
+      "chapter_sentence_start": 106,
+      "chapter_sentence_end": 106,
+      "timeline_start_index": 6225,
+      "timeline_end_index": 6225,
+      "highlights": [
+        {
+          "chapter_sentence": 106,
+          "start": 26,
+          "end": 68
+        }
+      ]
+    }
+  ]
+}

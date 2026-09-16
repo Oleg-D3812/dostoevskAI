@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "nikolai_stavrogin",
+  "chapter_id": "2_1_5",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_05_0004",
+      "source_section": "chapter_02_01_05",
+      "source_sentence": 82,
+      "character_position": 168,
+      "text": "ещё осторожнее спросил Николай Всеволодович",
+      "vad": [
+        0.0,
+        0.18,
+        0.08
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.4108450434130838,
+      "warning": null,
+      "chapter_sentence_start": 82,
+      "chapter_sentence_end": 82,
+      "timeline_start_index": 4778,
+      "timeline_end_index": 4778,
+      "highlights": [
+        {
+          "chapter_sentence": 82,
+          "start": 2,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_05_0007",
+      "source_section": "chapter_02_01_05",
+      "source_sentence": 132,
+      "character_position": 169,
+      "text": "с каким-то брезгливым сожалением пробормотал Ставрогин",
+      "vad": [
+        -0.35,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.2147039203378429,
+      "warning": null,
+      "chapter_sentence_start": 132,
+      "chapter_sentence_end": 132,
+      "timeline_start_index": 4828,
+      "timeline_end_index": 4828,
+      "highlights": [
+        {
+          "chapter_sentence": 132,
+          "start": 59,
+          "end": 113
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_05_0008",
+      "source_section": "chapter_02_01_05",
+      "source_sentence": 178,
+      "character_position": 170,
+      "text": "нахмуренно пробормотал Ставрогин",
+      "vad": [
+        -0.45,
+        0.25,
+        0.05
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.1723244368996127,
+      "warning": null,
+      "chapter_sentence_start": 178,
+      "chapter_sentence_end": 178,
+      "timeline_start_index": 4874,
+      "timeline_end_index": 4874,
+      "highlights": [
+        {
+          "chapter_sentence": 178,
+          "start": 33,
+          "end": 65
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_05_0009",
+      "source_section": "chapter_02_01_05",
+      "source_sentence": 193,
+      "character_position": 171,
+      "text": "Ставрогин нахмуренно и брезгливо следил за ним",
+      "vad": [
+        -0.55,
+        0.2,
+        0.35
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.220554222723157,
+      "warning": null,
+      "chapter_sentence_start": 193,
+      "chapter_sentence_end": 193,
+      "timeline_start_index": 4889,
+      "timeline_end_index": 4889,
+      "highlights": [
+        {
+          "chapter_sentence": 193,
+          "start": 0,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_05_0010",
+      "source_section": "chapter_02_01_05",
+      "source_sentence": 193,
+      "character_position": 172,
+      "text": "но насмешки в его взгляде не было",
+      "vad": [
+        0.05,
+        0.1,
+        0.35
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.4499652667934943,
+      "warning": null,
+      "chapter_sentence_start": 193,
+      "chapter_sentence_end": 193,
+      "timeline_start_index": 4889,
+      "timeline_end_index": 4889,
+      "highlights": [
+        {
+          "chapter_sentence": 193,
+          "start": 48,
+          "end": 81
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_05_0011",
+      "source_section": "chapter_02_01_05",
+      "source_sentence": 197,
+      "character_position": 173,
+      "text": "усмехнулся Николай Всеволодович",
+      "vad": [
+        0.2,
+        0.1,
+        0.4
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.3204932640973541,
+      "warning": null,
+      "chapter_sentence_start": 197,
+      "chapter_sentence_end": 197,
+      "timeline_start_index": 4893,
+      "timeline_end_index": 4893,
+      "highlights": [
+        {
+          "chapter_sentence": 197,
+          "start": 139,
+          "end": 170
+        }
+      ]
+    }
+  ]
+}

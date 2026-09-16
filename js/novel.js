@@ -76,7 +76,10 @@
         return setupNetworkGraph(context, container, data);
       }
       context.panel.appendChild(container); container.innerHTML = "";
-      initGraph(container, data.nodes || [], data.edges || [], function(node) { showModal(node.label, "герой", node.desc); },
+      var nodesData = (data.nodes || []).map(function(n) {
+        return { id: n.id, label: n.label, graphLabel: shortPersonName(n.label), desc: n.desc };
+      });
+      initGraph(container, nodesData, data.edges || [], function(node) { showModal(node.label, "герой", node.desc); },
         function(edge, fromNode, toNode) { var title = (fromNode ? fromNode.label : edge.from) + " → " + (toNode ? toNode.label : edge.to); showModal(title, "связь", (edge.label || "") + "\n\n" + (edge.desc || "")); });
     }).catch(function(error) { if (error.name !== "AbortError") renderPanelError(container, "Не удалось загрузить граф: " + error.message); });
   }
@@ -151,7 +154,8 @@
     (data.interaction_types || []).forEach(function(t) { typeLabel[t.id] = AtlasData.localized(t.label); });
 
     var nodesData = (data.nodes || []).map(function(n) {
-      return { id: n.id, label: n.label || n.id, desc: n.desc || "", intro_chapter: n.intro_chapter };
+      var label = n.label || n.id;
+      return { id: n.id, label: label, graphLabel: shortPersonName(label), desc: n.desc || "", intro_chapter: n.intro_chapter };
     });
     var nameById = {};
     nodesData.forEach(function(n) { nameById[n.id] = n.label; });
@@ -545,4 +549,14 @@
   function showPageError(message) { document.getElementById("novelTitle").textContent = "Ошибка загрузки"; document.getElementById("novelMeta").textContent = message; showFeatureMessage(message); }
   function readableLoadError(error) { if (/Unknown novel ID/.test(error.message)) return "Произведение с таким идентификатором отсутствует в каталоге."; if (/HTTP 404/.test(error.message)) return "Не удалось найти манифест произведения."; return "Не удалось загрузить данные произведения: " + error.message; }
   function escapeHtml(value) { var div = document.createElement("div"); div.textContent = value == null ? "" : String(value); return div.innerHTML; }
+
+  // "Родион Романович Раскольников" -> "Р.Р. Раскольников" — graph canvas labels only;
+  // side panels and modals keep the full name from node.label.
+  function shortPersonName(fullName) {
+    var parts = (fullName || "").trim().split(/\s+/);
+    if (parts.length < 2) return fullName;
+    var last = parts.pop();
+    var initials = parts.map(function(p) { return p.charAt(0).toUpperCase() + "."; }).join("");
+    return initials + " " + last;
+  }
 })();

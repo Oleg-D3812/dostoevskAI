@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "nikolai_stavrogin",
+  "chapter_id": "1_2_1",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "nikolai_stavrogin::chapter_01_02_01_0001",
+      "source_section": "chapter_01_02_01",
+      "source_sentence": 18,
+      "character_position": 2,
+      "text": "первое, ещё неопределённое ощущение той вековечной, священной тоски",
+      "vad": [
+        -0.72,
+        0.18,
+        -0.2
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.4497446866402066,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 544,
+      "timeline_end_index": 544,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 95,
+          "end": 162
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_02_01_0002",
+      "source_section": "chapter_01_02_01",
+      "source_sentence": 16,
+      "character_position": 3,
+      "text": "был тщедушен и бледен, странно тих и задумчив",
+      "vad": [
+        -0.45,
+        -0.55,
+        -0.2
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.8292431278949595,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 542,
+      "timeline_end_index": 542,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 57,
+          "end": 102
+        }
+      ]
+    }
+  ]
+}

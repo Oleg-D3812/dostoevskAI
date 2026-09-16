@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "nikolai_stavrogin",
+  "chapter_id": "3_4_4",
+  "count": 10,
+  "fragments": [
+    {
+      "id": "nikolai_stavrogin::chapter_03_04_04_0001",
+      "source_section": "chapter_03_04_04",
+      "source_sentence": 4,
+      "character_position": 321,
+      "text": "после «дурака», выслушанного от Петра Степановича на тротуаре",
+      "vad": [
+        -0.55,
+        0.35,
+        -0.25
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.3237454568907997,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 12311,
+      "timeline_end_index": 12311,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 51,
+          "end": 112
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_04_04_0004",
+      "source_section": "chapter_03_04_04",
+      "source_sentence": 12,
+      "character_position": 322,
+      "text": "с целым вихрем мыслей в голове",
+      "vad": [
+        -0.35,
+        0.78,
+        -0.18
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.4701582895073862,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 12319,
+      "timeline_end_index": 12319,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 42,
+          "end": 72
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_04_04_0005",
+      "source_section": "chapter_03_04_04",
+      "source_sentence": 12,
+      "character_position": 323,
+      "text": "с глубоким стоном протянулся на диване",
+      "vad": [
+        -0.75,
+        0.45,
+        -0.55
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.2059192654757729,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 12319,
+      "timeline_end_index": 12319,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 132,
+          "end": 170
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_04_04_0006",
+      "source_section": "chapter_03_04_04",
+      "source_sentence": 13,
+      "character_position": 324,
+      "text": "Он ясно почувствовал и вдруг сознал",
+      "vad": [
+        -0.72,
+        0.46,
+        -0.84
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.45997964946886,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 12320,
+      "timeline_end_index": 12320,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 0,
+          "end": 35
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_04_04_0007",
+      "source_section": "chapter_03_04_04",
+      "source_sentence": 14,
+      "character_position": 325,
+      "text": "он уже совершенно теперь не в силах",
+      "vad": [
+        -0.88,
+        0.48,
+        -0.86
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.5012947847041386,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 12321,
+      "timeline_end_index": 12321,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 2,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_04_04_0008",
+      "source_section": "chapter_03_04_04",
+      "source_sentence": 14,
+      "character_position": 326,
+      "text": "что теперь он только грубое, бесчувственное тело",
+      "vad": [
+        -0.82,
+        0.18,
+        -0.74
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.5397557334086271,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 12321,
+      "timeline_end_index": 12321,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 39,
+          "end": 87
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_04_04_0009",
+      "source_section": "chapter_03_04_04",
+      "source_sentence": 15,
+      "character_position": 327,
+      "text": "В нестерпимой тоске, ежеминутно трепеща и удивляясь на самого себя, стеная и замирая попеременно",
+      "vad": [
+        -0.95,
+        0.9,
+        -0.8
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.5619055280277221,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 12322,
+      "timeline_end_index": 12322,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 0,
+          "end": 96
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_04_04_0010",
+      "source_section": "chapter_03_04_04",
+      "source_sentence": 15,
+      "character_position": 328,
+      "text": "вдруг направивший его решимость",
+      "vad": [
+        0.0,
+        0.25,
+        0.15
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.4035791420823218,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 12322,
+      "timeline_end_index": 12322,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 236,
+          "end": 267
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_04_04_0011",
+      "source_section": "chapter_03_04_04",
+      "source_sentence": 16,
+      "character_position": 329,
+      "text": "наводивший на всех ужас",
+      "vad": [
+        -0.65,
+        0.7,
+        0.45
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.6356300877554373,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 12323,
+      "timeline_end_index": 12323,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 129,
+          "end": 152
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_04_04_0012",
+      "source_section": "chapter_03_04_04",
+      "source_sentence": 17,
+      "character_position": 330,
+      "text": "Тотчас же сломя голову бросился он из дому узнавать подробности",
+      "vad": [
+        0.2,
+        0.9,
+        0.2
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.6766217968165688,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 12324,
+      "timeline_end_index": 12324,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 0,
+          "end": 63
+        }
+      ]
+    }
+  ]
+}

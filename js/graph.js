@@ -16,7 +16,9 @@
  * only when neither filter hides it.
  *
  * @param {HTMLElement} container - DOM element to render into
- * @param {Array} nodesData - [{id, label, desc}]
+ * @param {Array} nodesData - [{id, label, desc, graphLabel?}] - graphLabel, when present,
+ *   is shown on the canvas instead of label (e.g. an abbreviated name); the full label is
+ *   still what's passed to onNodeClick/onEdgeClick for side-panel/modal display.
  * @param {Array} edgesData - initial visible edge set [{from, to, label, desc, color?, weight?:{N}}]
  * @param {Function} onNodeClick - callback(nodeData)
  * @param {Function} onEdgeClick - callback(edgeData, fromNode, toNode)
@@ -41,13 +43,29 @@ function initGraph(container, nodesData, edgesData, onNodeClick, onEdgeClick, la
     return MIN_WIDTH + (w - 1) / 4 * (MAX_WIDTH - MIN_WIDTH);
   }
 
+  // Mix a "#rrggbb" colour toward white by `amount` (0..1). Used to brighten
+  // an edge's own colour on select/hover instead of relying on a fixed
+  // highlight colour, which is indistinguishable from the base for edges
+  // that already carry a custom (category) colour.
+  function lightenColor(hex, amount) {
+    var c = String(hex).replace("#", "");
+    if (c.length === 3) c = c.split("").map(function(ch) { return ch + ch; }).join("");
+    var num = parseInt(c, 16);
+    if (isNaN(num) || c.length !== 6) return hex;
+    var r = (num >> 16) & 255, g = (num >> 8) & 255, b = num & 255;
+    r = Math.round(r + (255 - r) * amount);
+    g = Math.round(g + (255 - g) * amount);
+    b = Math.round(b + (255 - b) * amount);
+    return "#" + [r, g, b].map(function(v) { return v.toString(16).padStart(2, "0"); }).join("");
+  }
+
   function connectedSet(list) {
     var c = {};
     (list || []).forEach(function(e) { c[e.from] = true; c[e.to] = true; });
     return c;
   }
 
-  var nodes = new vis.DataSet(nodesData.map(function(n) { return { id: n.id, label: n.label }; }));
+  var nodes = new vis.DataSet(nodesData.map(function(n) { return { id: n.id, label: n.graphLabel || n.label }; }));
   var edgesVis = new vis.DataSet();
 
   var nodeById = {};
@@ -71,7 +89,7 @@ function initGraph(container, nodesData, edgesData, onNodeClick, onEdgeClick, la
       edgeByVisId["e" + idx] = e;
       var w = e.weight ? e.weight["N"] : 3;
       var visEdge = { id: "e" + idx, from: e.from, to: e.to, label: e.label, width: edgeWidth(w) };
-      if (e.color) visEdge.color = { color: e.color, highlight: e.color, hover: e.color };
+      if (e.color) visEdge.color = e.color;
       return visEdge;
     });
     edgesVis.clear();
@@ -173,8 +191,22 @@ function initGraph(container, nodesData, edgesData, onNodeClick, onEdgeClick, la
     edges: {
       font: { align: "middle", color: "#a0aec0", strokeWidth: 0, size: 8 },
       smooth: true,
-      color: { color: "#4a5568", highlight: "#e53e3e", hover: "#fc8181" },
-      scaling: { min: MIN_WIDTH, max: MAX_WIDTH }
+      color: { color: "#4a5568" },
+      scaling: { min: MIN_WIDTH, max: MAX_WIDTH },
+      // A selected/hovered edge keeps its own colour (category colour, or the
+      // default grey) but brightened and thickened — visible regardless of
+      // what that base colour is, instead of a single fixed highlight colour.
+      chosen: {
+        edge: function(values, id, selected, hovering) {
+          if (selected) {
+            values.color = lightenColor(values.color, 0.55);
+            values.width = values.width * 1.8;
+          } else if (hovering) {
+            values.color = lightenColor(values.color, 0.3);
+            values.width = values.width * 1.3;
+          }
+        }
+      }
     },
     nodes: {
       shape: "dot",

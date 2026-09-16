@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "nikolai_stavrogin",
+  "chapter_id": "3_4_3",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "nikolai_stavrogin::chapter_03_04_03_0002",
+      "source_section": "chapter_03_04_03",
+      "source_sentence": 166,
+      "character_position": 320,
+      "text": "как подлец Ставрогин",
+      "vad": [
+        -0.75,
+        0.1,
+        -0.2
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.5237896748459575,
+      "warning": null,
+      "chapter_sentence_start": 166,
+      "chapter_sentence_end": 166,
+      "timeline_start_index": 12291,
+      "timeline_end_index": 12291,
+      "highlights": [
+        {
+          "chapter_sentence": 166,
+          "start": 36,
+          "end": 56
+        }
+      ]
+    }
+  ]
+}

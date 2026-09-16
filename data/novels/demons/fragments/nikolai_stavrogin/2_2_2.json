@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "nikolai_stavrogin",
+  "chapter_id": "2_2_2",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "nikolai_stavrogin::chapter_02_02_02_0002",
+      "source_section": "chapter_02_02_02",
+      "source_sentence": 134,
+      "character_position": 203,
+      "text": "как будто вдруг рассердился",
+      "vad": [
+        -0.55,
+        0.62,
+        0.08
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.4839345190924732,
+      "warning": null,
+      "chapter_sentence_start": 134,
+      "chapter_sentence_end": 134,
+      "timeline_start_index": 5569,
+      "timeline_end_index": 5569,
+      "highlights": [
+        {
+          "chapter_sentence": 134,
+          "start": 21,
+          "end": 48
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_02_02_0003",
+      "source_section": "chapter_02_02_02",
+      "source_sentence": 162,
+      "character_position": 204,
+      "text": "как-то особенно раздражительно",
+      "vad": [
+        -0.55,
+        0.45,
+        0.1
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.3288292889076187,
+      "warning": null,
+      "chapter_sentence_start": 162,
+      "chapter_sentence_end": 162,
+      "timeline_start_index": 5597,
+      "timeline_end_index": 5597,
+      "highlights": [
+        {
+          "chapter_sentence": 162,
+          "start": 16,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_02_02_0005",
+      "source_section": "chapter_02_02_02",
+      "source_sentence": 72,
+      "character_position": 205,
+      "text": "любопытно слушал",
+      "vad": [
+        0.3,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.3601141825402158,
+      "warning": null,
+      "chapter_sentence_start": 72,
+      "chapter_sentence_end": 72,
+      "timeline_start_index": 5507,
+      "timeline_end_index": 5507,
+      "highlights": [
+        {
+          "chapter_sentence": 72,
+          "start": 21,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_02_02_0009",
+      "source_section": "chapter_02_02_02",
+      "source_sentence": 217,
+      "character_position": 206,
+      "text": "усмехнулся",
+      "vad": [
+        -0.1,
+        0.2,
+        0.5
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.4239843415293153,
+      "warning": null,
+      "chapter_sentence_start": 217,
+      "chapter_sentence_end": 217,
+      "timeline_start_index": 5652,
+      "timeline_end_index": 5652,
+      "highlights": [
+        {
+          "chapter_sentence": 217,
+          "start": 21,
+          "end": 31
+        }
+      ]
+    }
+  ]
+}

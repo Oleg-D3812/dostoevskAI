@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "nikolai_stavrogin",
+  "chapter_id": "2_4_1",
+  "count": 11,
+  "fragments": [
+    {
+      "id": "nikolai_stavrogin::chapter_02_04_01_0002",
+      "source_section": "chapter_02_04_01",
+      "source_sentence": 51,
+      "character_position": 257,
+      "text": "Объявлялось лицо новое, в котором все ошиблись, лицо почти с идеальною строгостью понятий.",
+      "vad": [
+        0.55,
+        0.15,
+        0.8
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.4311301841701213,
+      "warning": null,
+      "chapter_sentence_start": 51,
+      "chapter_sentence_end": 51,
+      "timeline_start_index": 6279,
+      "timeline_end_index": 6279,
+      "highlights": [
+        {
+          "chapter_sentence": 51,
+          "start": 0,
+          "end": 90
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_04_01_0003",
+      "source_section": "chapter_02_04_01",
+      "source_sentence": 52,
+      "character_position": 258,
+      "text": "Оскорблённый на смерть студентом",
+      "vad": [
+        -0.85,
+        0.65,
+        -0.7
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.3367882184749131,
+      "warning": null,
+      "chapter_sentence_start": 52,
+      "chapter_sentence_end": 52,
+      "timeline_start_index": 6280,
+      "timeline_end_index": 6280,
+      "highlights": [
+        {
+          "chapter_sentence": 52,
+          "start": 0,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_04_01_0004",
+      "source_section": "chapter_02_04_01",
+      "source_sentence": 52,
+      "character_position": 259,
+      "text": "он презирает обиду",
+      "vad": [
+        -0.65,
+        0.2,
+        0.7
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.5660086701151775,
+      "warning": null,
+      "chapter_sentence_start": 52,
+      "chapter_sentence_end": 52,
+      "timeline_start_index": 6280,
+      "timeline_end_index": 6280,
+      "highlights": [
+        {
+          "chapter_sentence": 52,
+          "start": 86,
+          "end": 104
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_04_01_0005",
+      "source_section": "chapter_02_04_01",
+      "source_sentence": 53,
+      "character_position": 260,
+      "text": "он презирает мнением общества, не доросшего до настоящих понятий",
+      "vad": [
+        -0.72,
+        0.18,
+        0.76
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.6516638816487775,
+      "warning": null,
+      "chapter_sentence_start": 53,
+      "chapter_sentence_end": 53,
+      "timeline_start_index": 6281,
+      "timeline_end_index": 6281,
+      "highlights": [
+        {
+          "chapter_sentence": 53,
+          "start": 100,
+          "end": 164
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_04_01_0006",
+      "source_section": "chapter_02_04_01",
+      "source_sentence": 80,
+      "character_position": 261,
+      "text": "Николай Всеволодович тотчас же заключился в самое строгое молчание",
+      "vad": [
+        -0.2,
+        -0.4,
+        0.3
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.6173687432653328,
+      "warning": null,
+      "chapter_sentence_start": 80,
+      "chapter_sentence_end": 80,
+      "timeline_start_index": 6308,
+      "timeline_end_index": 6308,
+      "highlights": [
+        {
+          "chapter_sentence": 80,
+          "start": 0,
+          "end": 66
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_04_01_0007",
+      "source_section": "chapter_02_04_01",
+      "source_sentence": 84,
+      "character_position": 262,
+      "text": "Весёлым его не находили",
+      "vad": [
+        -0.35,
+        -0.2,
+        0.1
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.3911058076657545,
+      "warning": null,
+      "chapter_sentence_start": 84,
+      "chapter_sentence_end": 84,
+      "timeline_start_index": 6312,
+      "timeline_end_index": 6312,
+      "highlights": [
+        {
+          "chapter_sentence": 84,
+          "start": 0,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_04_01_0008",
+      "source_section": "chapter_02_04_01",
+      "source_sentence": 84,
+      "character_position": 263,
+      "text": "человек претерпел, человек не то что другие; есть о чём и задуматься",
+      "vad": [
+        -0.2,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.2088501663038358,
+      "warning": null,
+      "chapter_sentence_start": 84,
+      "chapter_sentence_end": 84,
+      "timeline_start_index": 6312,
+      "timeline_end_index": 6312,
+      "highlights": [
+        {
+          "chapter_sentence": 84,
+          "start": 26,
+          "end": 94
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_04_01_0009",
+      "source_section": "chapter_02_04_01",
+      "source_sentence": 85,
+      "character_position": 264,
+      "text": "гордость и та брезгливая неприступность",
+      "vad": [
+        -0.2,
+        0.2,
+        0.7
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.5409897765733584,
+      "warning": null,
+      "chapter_sentence_start": 85,
+      "chapter_sentence_end": 85,
+      "timeline_start_index": 6313,
+      "timeline_end_index": 6313,
+      "highlights": [
+        {
+          "chapter_sentence": 85,
+          "start": 5,
+          "end": 44
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_04_01_0010",
+      "source_section": "chapter_02_04_01",
+      "source_sentence": 90,
+      "character_position": 265,
+      "text": "Николай Всеволодович улыбался и продолжал молчать",
+      "vad": [
+        0.2,
+        0.1,
+        0.4
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.3204932640973541,
+      "warning": null,
+      "chapter_sentence_start": 90,
+      "chapter_sentence_end": 90,
+      "timeline_start_index": 6318,
+      "timeline_end_index": 6318,
+      "highlights": [
+        {
+          "chapter_sentence": 90,
+          "start": 100,
+          "end": 149
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_04_01_0011",
+      "source_section": "chapter_02_04_01",
+      "source_sentence": 171,
+      "character_position": 266,
+      "text": "его самолюбие",
+      "vad": [
+        -0.35,
+        0.25,
+        0.1
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.1283714014389803,
+      "warning": null,
+      "chapter_sentence_start": 171,
+      "chapter_sentence_end": 171,
+      "timeline_start_index": 6399,
+      "timeline_end_index": 6399,
+      "highlights": [
+        {
+          "chapter_sentence": 171,
+          "start": 24,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_04_01_0013",
+      "source_section": "chapter_02_04_01",
+      "source_sentence": 177,
+      "character_position": 267,
+      "text": "грозно нахмурившись",
+      "vad": [
+        -0.35,
+        0.45,
+        0.3
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.2959256667012215,
+      "warning": null,
+      "chapter_sentence_start": 177,
+      "chapter_sentence_end": 177,
+      "timeline_start_index": 6405,
+      "timeline_end_index": 6405,
+      "highlights": [
+        {
+          "chapter_sentence": 177,
+          "start": 77,
+          "end": 96
+        }
+      ]
+    }
+  ]
+}

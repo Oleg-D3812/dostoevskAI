@@ -12,6 +12,17 @@
       "clusters_path": "clusters.json",
       "fragments_path_template": "fragments/varvara_stavrogina/{chapter_id}.json",
       "profile_path": "profiles/varvara_stavrogina.json"
+    },
+    {
+      "id": "nikolai_stavrogin",
+      "name": "Николай Всеволодович Ставрогин",
+      "label": "Ставрогин",
+      "color": "#EF553B",
+      "fragment_count": 474,
+      "chapter_count": 44,
+      "clusters_path": "clusters.json",
+      "fragments_path_template": "fragments/nikolai_stavrogin/{chapter_id}.json",
+      "profile_path": "profiles/nikolai_stavrogin.json"
     }
   ]
 }

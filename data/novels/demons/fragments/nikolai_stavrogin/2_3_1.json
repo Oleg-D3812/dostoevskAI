@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "nikolai_stavrogin",
+  "chapter_id": "2_3_1",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "nikolai_stavrogin::chapter_02_03_01_0001",
+      "source_section": "chapter_02_03_01",
+      "source_sentence": 34,
+      "character_position": 230,
+      "text": "Он казался очень усталым",
+      "vad": [
+        -0.45,
+        -0.55,
+        0.0
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.7545838207121882,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 5959,
+      "timeline_end_index": 5959,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 0,
+          "end": 24
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "nikolai_stavrogin",
+  "chapter_id": "1_5_8",
+  "count": 14,
+  "fragments": [
+    {
+      "id": "nikolai_stavrogin::chapter_01_05_08_0001",
+      "source_section": "chapter_01_05_08",
+      "source_sentence": 6,
+      "character_position": 122,
+      "text": "Тот ещё издали заметил его приближение и чуть-чуть усмехнулся",
+      "vad": [
+        0.2,
+        0.2,
+        0.5
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.2812435862445337,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 4131,
+      "timeline_end_index": 4131,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 0,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_05_08_0002",
+      "source_section": "chapter_01_05_08",
+      "source_sentence": 8,
+      "character_position": 123,
+      "text": "выражение дерзкого недоумения сменилось в лице Николая Всеволодовича гневом",
+      "vad": [
+        -0.75,
+        0.7,
+        0.25
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.6351595628782227,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 4133,
+      "timeline_end_index": 4133,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 24,
+          "end": 99
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_05_08_0003",
+      "source_section": "chapter_01_05_08",
+      "source_sentence": 16,
+      "character_position": 124,
+      "text": "Напомню опять читателю, что Николай Всеволодович принадлежал к тем натурам, которые страха не ведают.",
+      "vad": [
+        0.2,
+        0.35,
+        0.9
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.547868371560629,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 4141,
+      "timeline_end_index": 4141,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 0,
+          "end": 101
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_05_08_0004",
+      "source_section": "chapter_01_05_08",
+      "source_sentence": 17,
+      "character_position": 125,
+      "text": "На дуэли он мог стоять под выстрелом противника хладнокровно",
+      "vad": [
+        0.2,
+        -0.5,
+        0.9
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.9736397482118674,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 4142,
+      "timeline_end_index": 4142,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 0,
+          "end": 60
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_05_08_0005",
+      "source_section": "chapter_01_05_08",
+      "source_sentence": 17,
+      "character_position": 126,
+      "text": "сам целить и убивать до зверства спокойно",
+      "vad": [
+        -0.85,
+        0.55,
+        0.95
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.957189205679992,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 4142,
+      "timeline_end_index": 4142,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 62,
+          "end": 103
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_05_08_0006",
+      "source_section": "chapter_01_05_08",
+      "source_sentence": 19,
+      "character_position": 127,
+      "text": "он никогда и не знал тех ослепляющих порывов гнева",
+      "vad": [
+        -0.2,
+        -0.45,
+        0.65
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.7980451891490249,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 4144,
+      "timeline_end_index": 4144,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 22,
+          "end": 72
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_05_08_0007",
+      "source_section": "chapter_01_05_08",
+      "source_sentence": 20,
+      "character_position": 128,
+      "text": "При бесконечной злобе, овладевавшей им иногда",
+      "vad": [
+        -0.9,
+        0.8,
+        0.2
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.6604156397243416,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 4145,
+      "timeline_end_index": 4145,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 0,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_05_08_0008",
+      "source_section": "chapter_01_05_08",
+      "source_sentence": 20,
+      "character_position": 129,
+      "text": "он всё-таки всегда мог сохранять полную власть над собой",
+      "vad": [
+        0.2,
+        -0.35,
+        0.95
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.8831488478099011,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 4145,
+      "timeline_end_index": 4145,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 47,
+          "end": 103
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_05_08_0011",
+      "source_section": "chapter_01_05_08",
+      "source_sentence": 33,
+      "character_position": 130,
+      "text": "Злобы в Николае Всеволодовиче было, может быть, больше чем в тех обоих вместе",
+      "vad": [
+        -0.85,
+        0.55,
+        0.35
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.6090594745273495,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 4158,
+      "timeline_end_index": 4158,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 0,
+          "end": 77
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_05_08_0012",
+      "source_section": "chapter_01_05_08",
+      "source_sentence": 33,
+      "character_position": 131,
+      "text": "злоба эта была холодная, спокойная и, если можно так выразиться, — разумная",
+      "vad": [
+        -0.65,
+        -0.2,
+        0.55
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.5769497112268341,
+      "warning": "non_verbatim_evidence;empty_evidence",
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 4158,
+      "timeline_end_index": 4158,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 82,
+          "end": 157
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_05_08_0014",
+      "source_section": "chapter_01_05_08",
+      "source_sentence": 37,
+      "character_position": 132,
+      "text": "Он молчал, смотрел на Шатова и бледнел как рубашка.",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.25
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.210520721689277,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 4162,
+      "timeline_end_index": 4162,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 0,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_05_08_0015",
+      "source_section": "chapter_01_05_08",
+      "source_sentence": 38,
+      "character_position": 133,
+      "text": "взор его как бы погасал",
+      "vad": [
+        -0.45,
+        -0.65,
+        -0.4
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 1.0204026091443734,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 4163,
+      "timeline_end_index": 4163,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 12,
+          "end": 35
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_05_08_0016",
+      "source_section": "chapter_01_05_08",
+      "source_sentence": 39,
+      "character_position": 134,
+      "text": "глаза его смотрели холодно и — я убеждён, что не лгу — спокойно",
+      "vad": [
+        0.1,
+        -0.2,
+        0.2
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.6214049928677886,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 4164,
+      "timeline_end_index": 4164,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 20,
+          "end": 83
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_05_08_0017",
+      "source_section": "chapter_01_05_08",
+      "source_sentence": 42,
+      "character_position": 135,
+      "text": "что испытал теперь, в эти десять секунд, Николай Всеволодович",
+      "vad": [
+        -0.45,
+        0.2,
+        0.15
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.0757426476047058,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 4167,
+      "timeline_end_index": 4167,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 313,
+          "end": 374
+        }
+      ]
+    }
+  ]
+}

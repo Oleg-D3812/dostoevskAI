@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "nikolai_stavrogin",
+  "chapter_id": "2_5_2",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "nikolai_stavrogin::chapter_02_05_02_0001",
+      "source_section": "chapter_02_05_02",
+      "source_sentence": 13,
+      "character_position": 268,
+      "text": "всегда имел прилично весёлую мину",
+      "vad": [
+        0.45,
+        0.1,
+        0.15
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.333381011192766,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 6866,
+      "timeline_end_index": 6866,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 66,
+          "end": 99
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_05_02_0002",
+      "source_section": "chapter_02_05_02",
+      "source_sentence": 218,
+      "character_position": 269,
+      "text": "Николай Всеволодович во всю обратную дорогу был несколько бледен",
+      "vad": [
+        -0.3,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.2302617072394147,
+      "warning": null,
+      "chapter_sentence_start": 218,
+      "chapter_sentence_end": 218,
+      "timeline_start_index": 7071,
+      "timeline_end_index": 7071,
+      "highlights": [
+        {
+          "chapter_sentence": 218,
+          "start": 18,
+          "end": 82
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,477 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "nikolai_stavrogin",
+  "chapter_id": "2_1_3",
+  "count": 18,
+  "fragments": [
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_03_0001",
+      "source_section": "chapter_02_01_03",
+      "source_sentence": 6,
+      "character_position": 145,
+      "text": "Взгляд его был задумчив и сосредоточен, не совсем спокоен",
+      "vad": [
+        -0.2,
+        0.25,
+        0.15
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.2125685825196616,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 4328,
+      "timeline_end_index": 4328,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 0,
+          "end": 57
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_03_0002",
+      "source_section": "chapter_02_01_03",
+      "source_sentence": 21,
+      "character_position": 146,
+      "text": "над которым он сильно задумался",
+      "vad": [
+        -0.2,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.2177434416879864,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 4343,
+      "timeline_end_index": 4343,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 63,
+          "end": 94
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_03_0003",
+      "source_section": "chapter_02_01_03",
+      "source_sentence": 22,
+      "character_position": 147,
+      "text": "Он вздрогнул",
+      "vad": [
+        -0.35,
+        0.65,
+        -0.2
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.4228080158176185,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 4344,
+      "timeline_end_index": 4344,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 0,
+          "end": 12
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_03_0004",
+      "source_section": "chapter_02_01_03",
+      "source_sentence": 49,
+      "character_position": 148,
+      "text": "с некоторым раздражением",
+      "vad": [
+        -0.35,
+        0.45,
+        0.1
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.2929495227730791,
+      "warning": null,
+      "chapter_sentence_start": 49,
+      "chapter_sentence_end": 49,
+      "timeline_start_index": 4371,
+      "timeline_end_index": 4371,
+      "highlights": [
+        {
+          "chapter_sentence": 49,
+          "start": 70,
+          "end": 94
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_03_0005",
+      "source_section": "chapter_02_01_03",
+      "source_sentence": 61,
+      "character_position": 149,
+      "text": "выразилось наконец несколько тревожное любопытство",
+      "vad": [
+        -0.2,
+        0.45,
+        0.1
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.3486939404837547,
+      "warning": null,
+      "chapter_sentence_start": 61,
+      "chapter_sentence_end": 61,
+      "timeline_start_index": 4383,
+      "timeline_end_index": 4383,
+      "highlights": [
+        {
+          "chapter_sentence": 61,
+          "start": 219,
+          "end": 269
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_03_0006",
+      "source_section": "chapter_02_01_03",
+      "source_sentence": 69,
+      "character_position": 150,
+      "text": "чуть-чуть улыбнулся Николай Всеволодович",
+      "vad": [
+        0.35,
+        0.1,
+        0.25
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.2788765176687655,
+      "warning": null,
+      "chapter_sentence_start": 69,
+      "chapter_sentence_end": 69,
+      "timeline_start_index": 4391,
+      "timeline_end_index": 4391,
+      "highlights": [
+        {
+          "chapter_sentence": 69,
+          "start": 29,
+          "end": 69
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_03_0007",
+      "source_section": "chapter_02_01_03",
+      "source_sentence": 89,
+      "character_position": 151,
+      "text": "слушал нахмуренно и несколько нетерпеливо",
+      "vad": [
+        -0.35,
+        0.2,
+        0.15
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.0676927580388994,
+      "warning": null,
+      "chapter_sentence_start": 89,
+      "chapter_sentence_end": 89,
+      "timeline_start_index": 4411,
+      "timeline_end_index": 4411,
+      "highlights": [
+        {
+          "chapter_sentence": 89,
+          "start": 63,
+          "end": 104
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_03_0008",
+      "source_section": "chapter_02_01_03",
+      "source_sentence": 105,
+      "character_position": 152,
+      "text": "усмехнулся наконец Николай Всеволодович",
+      "vad": [
+        0.25,
+        0.15,
+        0.35
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.2574773466096962,
+      "warning": null,
+      "chapter_sentence_start": 105,
+      "chapter_sentence_end": 105,
+      "timeline_start_index": 4427,
+      "timeline_end_index": 4427,
+      "highlights": [
+        {
+          "chapter_sentence": 105,
+          "start": 12,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_03_0009",
+      "source_section": "chapter_02_01_03",
+      "source_sentence": 117,
+      "character_position": 153,
+      "text": "Не сердитесь, не сердитесь, не сверкайте глазами",
+      "vad": [
+        -0.35,
+        0.45,
+        -0.15
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.4428642018085118,
+      "warning": null,
+      "chapter_sentence_start": 117,
+      "chapter_sentence_end": 117,
+      "timeline_start_index": 4439,
+      "timeline_end_index": 4439,
+      "highlights": [
+        {
+          "chapter_sentence": 117,
+          "start": 2,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_03_0011",
+      "source_section": "chapter_02_01_03",
+      "source_sentence": 136,
+      "character_position": 154,
+      "text": "несколько успокоившись",
+      "vad": [
+        0.2,
+        -0.35,
+        0.1
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.7667399100315224,
+      "warning": null,
+      "chapter_sentence_start": 136,
+      "chapter_sentence_end": 136,
+      "timeline_start_index": 4458,
+      "timeline_end_index": 4458,
+      "highlights": [
+        {
+          "chapter_sentence": 136,
+          "start": 149,
+          "end": 171
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_03_0012",
+      "source_section": "chapter_02_01_03",
+      "source_sentence": 144,
+      "character_position": 155,
+      "text": "раздумчиво промолвил Николай Всеволодович",
+      "vad": [
+        0.1,
+        -0.2,
+        0.1
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.6287033294815788,
+      "warning": null,
+      "chapter_sentence_start": 144,
+      "chapter_sentence_end": 144,
+      "timeline_start_index": 4466,
+      "timeline_end_index": 4466,
+      "highlights": [
+        {
+          "chapter_sentence": 144,
+          "start": 2,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_03_0014",
+      "source_section": "chapter_02_01_03",
+      "source_sentence": 190,
+      "character_position": 156,
+      "text": "пристально и холодно посмотрел на него",
+      "vad": [
+        -0.45,
+        0.38,
+        0.72
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.5651884460903333,
+      "warning": null,
+      "chapter_sentence_start": 190,
+      "chapter_sentence_end": 190,
+      "timeline_start_index": 4512,
+      "timeline_end_index": 4512,
+      "highlights": [
+        {
+          "chapter_sentence": 190,
+          "start": 21,
+          "end": 59
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_03_0015",
+      "source_section": "chapter_02_01_03",
+      "source_sentence": 198,
+      "character_position": 157,
+      "text": "Николай Всеволодович зевнул",
+      "vad": [
+        -0.25,
+        -0.55,
+        0.2
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.7408373920434066,
+      "warning": null,
+      "chapter_sentence_start": 198,
+      "chapter_sentence_end": 198,
+      "timeline_start_index": 4520,
+      "timeline_end_index": 4520,
+      "highlights": [
+        {
+          "chapter_sentence": 198,
+          "start": 0,
+          "end": 27
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_03_0016",
+      "source_section": "chapter_02_01_03",
+      "source_sentence": 232,
+      "character_position": 158,
+      "text": "вдруг вскинулся Николай Всеволодович",
+      "vad": [
+        -0.2,
+        0.75,
+        0.2
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.6053710119160254,
+      "warning": null,
+      "chapter_sentence_start": 232,
+      "chapter_sentence_end": 232,
+      "timeline_start_index": 4554,
+      "timeline_end_index": 4554,
+      "highlights": [
+        {
+          "chapter_sentence": 232,
+          "start": 2,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_03_0017",
+      "source_section": "chapter_02_01_03",
+      "source_sentence": 233,
+      "character_position": 159,
+      "text": "мгновенного волнения Николая Всеволодовича",
+      "vad": [
+        -0.2,
+        0.85,
+        0.2
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.7008167843031559,
+      "warning": null,
+      "chapter_sentence_start": 233,
+      "chapter_sentence_end": 233,
+      "timeline_start_index": 4555,
+      "timeline_end_index": 4555,
+      "highlights": [
+        {
+          "chapter_sentence": 233,
+          "start": 120,
+          "end": 162
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_03_0019",
+      "source_section": "chapter_02_01_03",
+      "source_sentence": 261,
+      "character_position": 160,
+      "text": "зевнул в третий раз Николай Всеволодович",
+      "vad": [
+        -0.25,
+        -0.65,
+        0.05
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.8516780526508839,
+      "warning": null,
+      "chapter_sentence_start": 261,
+      "chapter_sentence_end": 261,
+      "timeline_start_index": 4583,
+      "timeline_end_index": 4583,
+      "highlights": [
+        {
+          "chapter_sentence": 261,
+          "start": 36,
+          "end": 76
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_03_0020",
+      "source_section": "chapter_02_01_03",
+      "source_sentence": 282,
+      "character_position": 161,
+      "text": "усмехнулся Николай Всеволодович",
+      "vad": [
+        0.2,
+        0.1,
+        0.4
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.3204932640973541,
+      "warning": null,
+      "chapter_sentence_start": 282,
+      "chapter_sentence_end": 282,
+      "timeline_start_index": 4604,
+      "timeline_end_index": 4604,
+      "highlights": [
+        {
+          "chapter_sentence": 282,
+          "start": 2,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_03_0023",
+      "source_section": "chapter_02_01_03",
+      "source_sentence": 306,
+      "character_position": 162,
+      "text": "с каким-то странным движением в лице",
+      "vad": [
+        -0.2,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.2491632185755214,
+      "warning": null,
+      "chapter_sentence_start": 306,
+      "chapter_sentence_end": 306,
+      "timeline_start_index": 4628,
+      "timeline_end_index": 4628,
+      "highlights": [
+        {
+          "chapter_sentence": 306,
+          "start": 101,
+          "end": 137
+        }
+      ]
+    }
+  ]
+}

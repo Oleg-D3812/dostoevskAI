@@ -1,0 +1,633 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "nikolai_stavrogin",
+  "chapter_id": "3_8_1",
+  "count": 24,
+  "fragments": [
+    {
+      "id": "nikolai_stavrogin::chapter_03_08_01_0001",
+      "source_section": "chapter_03_08_01",
+      "source_sentence": 83,
+      "character_position": 332,
+      "text": "полное негодование и даже отчаяние в «благородном» Николае Всеволодовиче",
+      "vad": [
+        -0.8,
+        0.7,
+        -0.4
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.1417619877526015,
+      "warning": null,
+      "chapter_sentence_start": 83,
+      "chapter_sentence_end": 83,
+      "timeline_start_index": 14929,
+      "timeline_end_index": 14929,
+      "highlights": [
+        {
+          "chapter_sentence": 83,
+          "start": 323,
+          "end": 395
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_08_01_0002",
+      "source_section": "chapter_03_08_01",
+      "source_sentence": 143,
+      "character_position": 333,
+      "text": "Я нездоров, но от галюсинаций надеюсь избавиться с тамошним воздухом.",
+      "vad": [
+        -0.55,
+        0.35,
+        -0.2
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.3493181397268819,
+      "warning": null,
+      "chapter_sentence_start": 143,
+      "chapter_sentence_end": 143,
+      "timeline_start_index": 14989,
+      "timeline_end_index": 14989,
+      "highlights": [
+        {
+          "chapter_sentence": 143,
+          "start": 0,
+          "end": 69
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_08_01_0004",
+      "source_section": "chapter_03_08_01",
+      "source_sentence": 148,
+      "character_position": 334,
+      "text": "совестью я виноват в смерти жены",
+      "vad": [
+        -0.95,
+        0.45,
+        -0.75
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.4430198847000341,
+      "warning": null,
+      "chapter_sentence_start": 148,
+      "chapter_sentence_end": 148,
+      "timeline_start_index": 14994,
+      "timeline_end_index": 14994,
+      "highlights": [
+        {
+          "chapter_sentence": 148,
+          "start": 25,
+          "end": 57
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_08_01_0006",
+      "source_section": "chapter_03_08_01",
+      "source_sentence": 154,
+      "character_position": 335,
+      "text": "Мне вы милы, и мне, в тоске, было хорошо подле вас; при вас при одной я мог вслух говорить о себе.",
+      "vad": [
+        0.35,
+        0.35,
+        -0.2
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.620933675170698,
+      "warning": null,
+      "chapter_sentence_start": 154,
+      "chapter_sentence_end": 154,
+      "timeline_start_index": 15000,
+      "timeline_end_index": 15000,
+      "highlights": [
+        {
+          "chapter_sentence": 154,
+          "start": 0,
+          "end": 98
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_08_01_0007",
+      "source_section": "chapter_03_08_01",
+      "source_sentence": 163,
+      "character_position": 336,
+      "text": "мне всё так же чужое как и везде",
+      "vad": [
+        -0.55,
+        -0.2,
+        -0.35
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.6810504622796503,
+      "warning": null,
+      "chapter_sentence_start": 163,
+      "chapter_sentence_end": 163,
+      "timeline_start_index": 15009,
+      "timeline_end_index": 15009,
+      "highlights": [
+        {
+          "chapter_sentence": 163,
+          "start": 36,
+          "end": 68
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_08_01_0008",
+      "source_section": "chapter_03_08_01",
+      "source_sentence": 164,
+      "character_position": 337,
+      "text": "я в ней более чем в другом месте не любил жить; но даже и в ней ничего не мог возненавидеть!",
+      "vad": [
+        -0.45,
+        0.05,
+        -0.1
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.3264062995371121,
+      "warning": null,
+      "chapter_sentence_start": 164,
+      "chapter_sentence_end": 164,
+      "timeline_start_index": 15010,
+      "timeline_end_index": 15010,
+      "highlights": [
+        {
+          "chapter_sentence": 164,
+          "start": 8,
+          "end": 100
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_08_01_0009",
+      "source_section": "chapter_03_08_01",
+      "source_sentence": 167,
+      "character_position": 338,
+      "text": "она оказывалась беспредельною",
+      "vad": [
+        0.05,
+        0.1,
+        0.35
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.4499652667934943,
+      "warning": null,
+      "chapter_sentence_start": 167,
+      "chapter_sentence_end": 167,
+      "timeline_start_index": 15013,
+      "timeline_end_index": 15013,
+      "highlights": [
+        {
+          "chapter_sentence": 167,
+          "start": 64,
+          "end": 93
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_08_01_0010",
+      "source_section": "chapter_03_08_01",
+      "source_sentence": 169,
+      "character_position": 339,
+      "text": "Но к чему приложить эту силу — вот чего никогда не видел, не вижу и теперь",
+      "vad": [
+        -0.55,
+        -0.2,
+        -0.75
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.876273714928865,
+      "warning": null,
+      "chapter_sentence_start": 169,
+      "chapter_sentence_end": 169,
+      "timeline_start_index": 15015,
+      "timeline_end_index": 15015,
+      "highlights": [
+        {
+          "chapter_sentence": 169,
+          "start": 0,
+          "end": 74
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_08_01_0011",
+      "source_section": "chapter_03_08_01",
+      "source_sentence": 170,
+      "character_position": 340,
+      "text": "могу пожелать сделать доброе дело и ощущаю от того удовольствие; рядом желаю и злого и тоже чувствую удовольствие",
+      "vad": [
+        0.25,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.3706465346932182,
+      "warning": null,
+      "chapter_sentence_start": 170,
+      "chapter_sentence_end": 170,
+      "timeline_start_index": 15016,
+      "timeline_end_index": 15016,
+      "highlights": [
+        {
+          "chapter_sentence": 170,
+          "start": 35,
+          "end": 148
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_08_01_0012",
+      "source_section": "chapter_03_08_01",
+      "source_sentence": 172,
+      "character_position": 341,
+      "text": "Мои желания слишком несильны; руководить не могут.",
+      "vad": [
+        -0.55,
+        -0.45,
+        -0.8
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 1.1226148050148743,
+      "warning": null,
+      "chapter_sentence_start": 172,
+      "chapter_sentence_end": 172,
+      "timeline_start_index": 15018,
+      "timeline_end_index": 15018,
+      "highlights": [
+        {
+          "chapter_sentence": 172,
+          "start": 0,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_08_01_0013",
+      "source_section": "chapter_03_08_01",
+      "source_sentence": 176,
+      "character_position": 342,
+      "text": "я не люблю и не хотел разврата",
+      "vad": [
+        -0.55,
+        -0.2,
+        0.15
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.4101355574322889,
+      "warning": null,
+      "chapter_sentence_start": 176,
+      "chapter_sentence_end": 176,
+      "timeline_start_index": 15022,
+      "timeline_end_index": 15022,
+      "highlights": [
+        {
+          "chapter_sentence": 176,
+          "start": 52,
+          "end": 82
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_08_01_0014",
+      "source_section": "chapter_03_08_01",
+      "source_sentence": 178,
+      "character_position": 343,
+      "text": "я смотрел даже на отрицающих наших со злобой, от зависти к их надеждам",
+      "vad": [
+        -0.75,
+        0.55,
+        -0.2
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.2025805260841529,
+      "warning": null,
+      "chapter_sentence_start": 178,
+      "chapter_sentence_end": 178,
+      "timeline_start_index": 15024,
+      "timeline_end_index": 15024,
+      "highlights": [
+        {
+          "chapter_sentence": 178,
+          "start": 15,
+          "end": 85
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_08_01_0015",
+      "source_section": "chapter_03_08_01",
+      "source_sentence": 180,
+      "character_position": 344,
+      "text": "мне мерзило",
+      "vad": [
+        -0.85,
+        0.35,
+        -0.1
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.4006436188673272,
+      "warning": null,
+      "chapter_sentence_start": 180,
+      "chapter_sentence_end": 180,
+      "timeline_start_index": 15026,
+      "timeline_end_index": 15026,
+      "highlights": [
+        {
+          "chapter_sentence": 180,
+          "start": 165,
+          "end": 176
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_08_01_0016",
+      "source_section": "chapter_03_08_01",
+      "source_sentence": 182,
+      "character_position": 345,
+      "text": "мне было легко и сколько я метался!",
+      "vad": [
+        -0.75,
+        0.75,
+        -0.45
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.1768681007019475,
+      "warning": null,
+      "chapter_sentence_start": 182,
+      "chapter_sentence_end": 182,
+      "timeline_start_index": 15028,
+      "timeline_end_index": 15028,
+      "highlights": [
+        {
+          "chapter_sentence": 182,
+          "start": 25,
+          "end": 60
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_08_01_0017",
+      "source_section": "chapter_03_08_01",
+      "source_sentence": 185,
+      "character_position": 346,
+      "text": "любовь моя будет так же мелка, как и я сам",
+      "vad": [
+        -0.82,
+        -0.38,
+        -0.7
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 1.0158029451991335,
+      "warning": null,
+      "chapter_sentence_start": 185,
+      "chapter_sentence_end": 185,
+      "timeline_start_index": 15031,
+      "timeline_end_index": 15031,
+      "highlights": [
+        {
+          "chapter_sentence": 185,
+          "start": 32,
+          "end": 74
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_08_01_0018",
+      "source_section": "chapter_03_08_01",
+      "source_sentence": 187,
+      "character_position": 347,
+      "text": "из меня вылилось одно отрицание, без всякого великодушия и безо всякой силы",
+      "vad": [
+        -0.82,
+        -0.42,
+        -0.8
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 1.086816822984125,
+      "warning": null,
+      "chapter_sentence_start": 187,
+      "chapter_sentence_end": 187,
+      "timeline_start_index": 15033,
+      "timeline_end_index": 15033,
+      "highlights": [
+        {
+          "chapter_sentence": 187,
+          "start": 38,
+          "end": 113
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_08_01_0019",
+      "source_section": "chapter_03_08_01",
+      "source_sentence": 189,
+      "character_position": 348,
+      "text": "Всё всегда мелко и вяло.",
+      "vad": [
+        -0.7,
+        -0.5,
+        -0.2
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.8413476181968735,
+      "warning": null,
+      "chapter_sentence_start": 189,
+      "chapter_sentence_end": 189,
+      "timeline_start_index": 15035,
+      "timeline_end_index": 15035,
+      "highlights": [
+        {
+          "chapter_sentence": 189,
+          "start": 0,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_08_01_0020",
+      "source_section": "chapter_03_08_01",
+      "source_sentence": 191,
+      "character_position": 349,
+      "text": "Я никогда не могу потерять рассудок и никогда не могу поверить идее в той степени, как он.",
+      "vad": [
+        -0.78,
+        0.2,
+        0.38
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.4282087363214893,
+      "warning": null,
+      "chapter_sentence_start": 191,
+      "chapter_sentence_end": 191,
+      "timeline_start_index": 15037,
+      "timeline_end_index": 15037,
+      "highlights": [
+        {
+          "chapter_sentence": 191,
+          "start": 0,
+          "end": 90
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_08_01_0021",
+      "source_section": "chapter_03_08_01",
+      "source_sentence": 192,
+      "character_position": 350,
+      "text": "Я даже заняться идеей в той степени не могу.",
+      "vad": [
+        -0.72,
+        -0.34,
+        -0.58
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.9421620009534872,
+      "warning": null,
+      "chapter_sentence_start": 192,
+      "chapter_sentence_end": 192,
+      "timeline_start_index": 15038,
+      "timeline_end_index": 15038,
+      "highlights": [
+        {
+          "chapter_sentence": 192,
+          "start": 0,
+          "end": 44
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_08_01_0022",
+      "source_section": "chapter_03_08_01",
+      "source_sentence": 193,
+      "character_position": 351,
+      "text": "Никогда, никогда я не могу застрелиться!",
+      "vad": [
+        -0.93,
+        0.72,
+        -0.78
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.4581245862909334,
+      "warning": null,
+      "chapter_sentence_start": 193,
+      "chapter_sentence_end": 193,
+      "timeline_start_index": 15039,
+      "timeline_end_index": 15039,
+      "highlights": [
+        {
+          "chapter_sentence": 193,
+          "start": 0,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_08_01_0023",
+      "source_section": "chapter_03_08_01",
+      "source_sentence": 194,
+      "character_position": 352,
+      "text": "я боюсь самоубийства, ибо боюсь показать великодушие",
+      "vad": [
+        -0.82,
+        0.68,
+        -0.48
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.1624747114236458,
+      "warning": null,
+      "chapter_sentence_start": 194,
+      "chapter_sentence_end": 194,
+      "timeline_start_index": 15040,
+      "timeline_end_index": 15040,
+      "highlights": [
+        {
+          "chapter_sentence": 194,
+          "start": 81,
+          "end": 133
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_08_01_0024",
+      "source_section": "chapter_03_08_01",
+      "source_sentence": 195,
+      "character_position": 353,
+      "text": "Я знаю, что это будет ещё обман, — последний обман в бесконечном ряду обманов.",
+      "vad": [
+        -0.75,
+        0.35,
+        -0.45
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.2422292203739722,
+      "warning": null,
+      "chapter_sentence_start": 195,
+      "chapter_sentence_end": 195,
+      "timeline_start_index": 15041,
+      "timeline_end_index": 15041,
+      "highlights": [
+        {
+          "chapter_sentence": 195,
+          "start": 0,
+          "end": 78
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_08_01_0025",
+      "source_section": "chapter_03_08_01",
+      "source_sentence": 197,
+      "character_position": 354,
+      "text": "Негодования и стыда во мне никогда быть не может; стало быть, и отчаяния.",
+      "vad": [
+        -0.72,
+        0.28,
+        0.34
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.3710195484973823,
+      "warning": null,
+      "chapter_sentence_start": 197,
+      "chapter_sentence_end": 197,
+      "timeline_start_index": 15043,
+      "timeline_end_index": 15043,
+      "highlights": [
+        {
+          "chapter_sentence": 197,
+          "start": 0,
+          "end": 73
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_08_01_0026",
+      "source_section": "chapter_03_08_01",
+      "source_sentence": 199,
+      "character_position": 355,
+      "text": "Я опомнился и это нечаянно.",
+      "vad": [
+        0.1,
+        0.2,
+        0.4
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.3612978785585068,
+      "warning": null,
+      "chapter_sentence_start": 199,
+      "chapter_sentence_end": 199,
+      "timeline_start_index": 15045,
+      "timeline_end_index": 15045,
+      "highlights": [
+        {
+          "chapter_sentence": 199,
+          "start": 0,
+          "end": 27
+        }
+      ]
+    }
+  ]
+}

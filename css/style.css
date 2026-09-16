@@ -825,32 +825,59 @@ a:hover { color: var(--hover-color); }
   text-transform: uppercase;
 }
 .back-link:hover { color: var(--accent-color); }
+.novel-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 9px 16px;
+}
+.novel-header .back-link {
+  margin-bottom: 0;
+  flex-shrink: 0;
+}
+.novel-header h1 {
+  max-width: none;
+  flex: 0 1 auto;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.novel-header p {
+  margin-top: 0;
+  flex-shrink: 1;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .tab-bar {
-  gap: 6px;
-  padding: 6px max(14px, calc((100vw - 1180px) / 2));
+  gap: 26px;
+  padding: 0 16px;
   background: rgba(255, 255, 255, .46);
   border-bottom: 1px solid var(--border-color);
   backdrop-filter: blur(18px);
 }
 .tab-btn {
   margin: 0;
-  padding: 7px 13px;
-  border: 1px solid transparent;
-  border-radius: 999px;
+  padding: 11px 2px;
+  border: none;
+  border-bottom: 2px solid transparent;
+  border-radius: 0;
+  background: transparent;
   color: var(--text-muted);
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 700;
-  letter-spacing: .1em;
+  letter-spacing: .08em;
 }
 .tab-btn:hover:not(:disabled) {
-  border-color: var(--border-color);
   color: var(--text-color);
-  background: var(--sidebar-bg);
+  background: transparent;
 }
 .tab-btn.active {
-  border-color: color-mix(in srgb, var(--accent-color) 42%, var(--border-color));
   color: var(--accent-color);
-  background: var(--accent-soft);
+  border-bottom-color: var(--accent-color);
+  background: transparent;
 }
 .tab-btn:disabled {
   color: color-mix(in srgb, var(--text-muted) 55%, transparent);
@@ -1247,11 +1274,14 @@ a:hover { color: var(--hover-color); }
   .site-header { padding: 20px 16px; }
   .site-header h1 { font-size: clamp(30px, 10vw, 44px); }
   .site-header p { font-size: 7px; }
+  .novel-header { padding: 10px 16px; gap: 8px; }
+  .novel-header h1 { font-size: 16px; }
+  .novel-header p { display: none; }
   .catalog-wrap { padding: 20px 16px; }
   .catalog-grid { grid-template-columns: 1fr; }
   #modal { max-width: 100%; }
-  .tab-bar { padding: 10px 8px; overflow-x: auto; }
-  .tab-btn { padding: 11px 12px; white-space: nowrap; font-size: 11px; }
+  .tab-bar { padding: 0 12px; gap: 16px; overflow-x: auto; }
+  .tab-btn { padding: 10px 2px; white-space: nowrap; font-size: 11px; }
   .analysis-shell { display: block; }
   .analysis-sidebar { border-right: 0; border-bottom: 1px solid var(--border-color); }
   .analysis-main { grid-template-columns: 1fr; padding: 16px; }

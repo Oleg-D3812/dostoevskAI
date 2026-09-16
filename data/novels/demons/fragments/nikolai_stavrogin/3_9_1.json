@@ -1,0 +1,737 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "nikolai_stavrogin",
+  "chapter_id": "3_9_1",
+  "count": 28,
+  "fragments": [
+    {
+      "id": "nikolai_stavrogin::chapter_03_09_01_0001",
+      "source_section": "chapter_03_09_01",
+      "source_sentence": 7,
+      "character_position": 356,
+      "text": "выказывал иногда какое-то неопределённое, но сильное беспокойство",
+      "vad": [
+        -0.75,
+        0.8,
+        -0.35
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.2231195308481853,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 15105,
+      "timeline_end_index": 15105,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 95,
+          "end": 160
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_09_01_0002",
+      "source_section": "chapter_03_09_01",
+      "source_sentence": 12,
+      "character_position": 357,
+      "text": "наскоро и тревожно пощупал что-то в своём боковом кармане",
+      "vad": [
+        -0.45,
+        0.65,
+        0.05
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.4983734783512286,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 15110,
+      "timeline_end_index": 15110,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 57,
+          "end": 114
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_09_01_0003",
+      "source_section": "chapter_03_09_01",
+      "source_sentence": 34,
+      "character_position": 358,
+      "text": "в большой рассеянности от какого-то внутреннего подавлявшего его волнения",
+      "vad": [
+        -0.65,
+        0.72,
+        -0.55
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.2155380954626176,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 15132,
+      "timeline_end_index": 15132,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 33,
+          "end": 106
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_09_01_0004",
+      "source_section": "chapter_03_09_01",
+      "source_sentence": 35,
+      "character_position": 359,
+      "text": "Похоже было на то, что он решился на что-то чрезвычайное и неоспоримое и в то же время почти для него невозможное",
+      "vad": [
+        -0.72,
+        0.78,
+        -0.38
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.1965144451183045,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 15133,
+      "timeline_end_index": 15133,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 0,
+          "end": 113
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_09_01_0005",
+      "source_section": "chapter_03_09_01",
+      "source_sentence": 38,
+      "character_position": 360,
+      "text": "Это мгновенно возбудило в нём отвращение",
+      "vad": [
+        -0.85,
+        0.62,
+        -0.18
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.256487796917086,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 15136,
+      "timeline_end_index": 15136,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 0,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_09_01_0006",
+      "source_section": "chapter_03_09_01",
+      "source_sentence": 39,
+      "character_position": 361,
+      "text": "что он чуть не вздрогнул",
+      "vad": [
+        -0.45,
+        0.55,
+        -0.2
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.3346203919687307,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 15137,
+      "timeline_end_index": 15137,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 145,
+          "end": 169
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_09_01_0007",
+      "source_section": "chapter_03_09_01",
+      "source_sentence": 43,
+      "character_position": 362,
+      "text": "Я так рассеян",
+      "vad": [
+        -0.2,
+        0.25,
+        -0.15
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.4031830059601183,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 15141,
+      "timeline_end_index": 15141,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 0,
+          "end": 13
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_09_01_0009",
+      "source_section": "chapter_03_09_01",
+      "source_sentence": 59,
+      "character_position": 363,
+      "text": "спросил он вдруг тревожно и подозрительно",
+      "vad": [
+        -0.72,
+        0.68,
+        -0.42
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.0984706106996841,
+      "warning": null,
+      "chapter_sentence_start": 59,
+      "chapter_sentence_end": 59,
+      "timeline_start_index": 15157,
+      "timeline_end_index": 15157,
+      "highlights": [
+        {
+          "chapter_sentence": 59,
+          "start": 2,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_09_01_0011",
+      "source_section": "chapter_03_09_01",
+      "source_sentence": 74,
+      "character_position": 364,
+      "text": "А вы, конечно, слышали от неё, что я помешанный",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.2
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.2480544620549906,
+      "warning": null,
+      "chapter_sentence_start": 74,
+      "chapter_sentence_end": 74,
+      "timeline_start_index": 15172,
+      "timeline_end_index": 15172,
+      "highlights": [
+        {
+          "chapter_sentence": 74,
+          "start": 0,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_09_01_0012",
+      "source_section": "chapter_03_09_01",
+      "source_sentence": 101,
+      "character_position": 365,
+      "text": "Я решительно не знаю, зачем я пришёл сюда?",
+      "vad": [
+        -0.45,
+        0.35,
+        -0.2
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.4070222866132039,
+      "warning": null,
+      "chapter_sentence_start": 101,
+      "chapter_sentence_end": 101,
+      "timeline_start_index": 15199,
+      "timeline_end_index": 15199,
+      "highlights": [
+        {
+          "chapter_sentence": 101,
+          "start": 2,
+          "end": 44
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_09_01_0013",
+      "source_section": "chapter_03_09_01",
+      "source_sentence": 105,
+      "character_position": 366,
+      "text": "рассказал, что он подвержен, особенно по ночам, некоторого рода галлюцинациям",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.35
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.1577811474509566,
+      "warning": null,
+      "chapter_sentence_start": 105,
+      "chapter_sentence_end": 105,
+      "timeline_start_index": 15203,
+      "timeline_end_index": 15203,
+      "highlights": [
+        {
+          "chapter_sentence": 105,
+          "start": 92,
+          "end": 169
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_09_01_0014",
+      "source_section": "chapter_03_09_01",
+      "source_sentence": 105,
+      "character_position": 367,
+      "text": "что он видит иногда или чувствует подле себя какое-то злобное существо, насмешливое и «разумное»",
+      "vad": [
+        -0.85,
+        0.65,
+        -0.55
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.2122791317062423,
+      "warning": null,
+      "chapter_sentence_start": 105,
+      "chapter_sentence_end": 105,
+      "timeline_start_index": 15203,
+      "timeline_end_index": 15203,
+      "highlights": [
+        {
+          "chapter_sentence": 105,
+          "start": 171,
+          "end": 267
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_09_01_0015",
+      "source_section": "chapter_03_09_01",
+      "source_sentence": 105,
+      "character_position": 368,
+      "text": "а я всегда злюсь…",
+      "vad": [
+        -0.55,
+        0.45,
+        -0.1
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.3668774713342534,
+      "warning": null,
+      "chapter_sentence_start": 105,
+      "chapter_sentence_end": 105,
+      "timeline_start_index": 15203,
+      "timeline_end_index": 15203,
+      "highlights": [
+        {
+          "chapter_sentence": 105,
+          "start": 329,
+          "end": 346
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_09_01_0016",
+      "source_section": "chapter_03_09_01",
+      "source_sentence": 108,
+      "character_position": 369,
+      "text": "Он нисколько не постыдился обнаружить тот страх, с которым говорил о своём привидении",
+      "vad": [
+        -0.65,
+        0.55,
+        -0.35
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.0897035280893314,
+      "warning": null,
+      "chapter_sentence_start": 108,
+      "chapter_sentence_end": 108,
+      "timeline_start_index": 15206,
+      "timeline_end_index": 15206,
+      "highlights": [
+        {
+          "chapter_sentence": 108,
+          "start": 0,
+          "end": 85
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_09_01_0017",
+      "source_section": "chapter_03_09_01",
+      "source_sentence": 110,
+      "character_position": 370,
+      "text": "с неловкой досадой",
+      "vad": [
+        -0.45,
+        0.2,
+        -0.15
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.3508676141891543,
+      "warning": null,
+      "chapter_sentence_start": 110,
+      "chapter_sentence_end": 110,
+      "timeline_start_index": 15208,
+      "timeline_end_index": 15208,
+      "highlights": [
+        {
+          "chapter_sentence": 110,
+          "start": 28,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_09_01_0018",
+      "source_section": "chapter_03_09_01",
+      "source_sentence": 124,
+      "character_position": 371,
+      "text": "я всё ещё сомневаюсь и не уверен",
+      "vad": [
+        -0.45,
+        0.2,
+        -0.35
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.4709599425155937,
+      "warning": null,
+      "chapter_sentence_start": 124,
+      "chapter_sentence_end": 124,
+      "timeline_start_index": 15222,
+      "timeline_end_index": 15222,
+      "highlights": [
+        {
+          "chapter_sentence": 124,
+          "start": 67,
+          "end": 99
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_09_01_0019",
+      "source_section": "chapter_03_09_01",
+      "source_sentence": 128,
+      "character_position": 372,
+      "text": "стал опять раздражаться с каждым словом Ставрогин",
+      "vad": [
+        -0.55,
+        0.55,
+        0.05
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.4299542533879352,
+      "warning": null,
+      "chapter_sentence_start": 128,
+      "chapter_sentence_end": 128,
+      "timeline_start_index": 15226,
+      "timeline_end_index": 15226,
+      "highlights": [
+        {
+          "chapter_sentence": 128,
+          "start": 79,
+          "end": 128
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_09_01_0020",
+      "source_section": "chapter_03_09_01",
+      "source_sentence": 134,
+      "character_position": 373,
+      "text": "с раздражительной насмешкой",
+      "vad": [
+        -0.65,
+        0.55,
+        0.2
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.452581188485917,
+      "warning": null,
+      "chapter_sentence_start": 134,
+      "chapter_sentence_end": 134,
+      "timeline_start_index": 15232,
+      "timeline_end_index": 15232,
+      "highlights": [
+        {
+          "chapter_sentence": 134,
+          "start": 63,
+          "end": 90
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_09_01_0022",
+      "source_section": "chapter_03_09_01",
+      "source_sentence": 190,
+      "character_position": 374,
+      "text": "впал опять в давешнюю задумчивость",
+      "vad": [
+        -0.1,
+        -0.35,
+        0.05
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.6205915370698072,
+      "warning": null,
+      "chapter_sentence_start": 190,
+      "chapter_sentence_end": 190,
+      "timeline_start_index": 15288,
+      "timeline_end_index": 15288,
+      "highlights": [
+        {
+          "chapter_sentence": 190,
+          "start": 25,
+          "end": 59
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_09_01_0023",
+      "source_section": "chapter_03_09_01",
+      "source_sentence": 192,
+      "character_position": 375,
+      "text": "чуть не в припадке, по крайней мере неожиданно для себя самого",
+      "vad": [
+        -0.45,
+        0.78,
+        -0.35
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.335386188932315,
+      "warning": null,
+      "chapter_sentence_start": 192,
+      "chapter_sentence_end": 192,
+      "timeline_start_index": 15290,
+      "timeline_end_index": 15290,
+      "highlights": [
+        {
+          "chapter_sentence": 192,
+          "start": 35,
+          "end": 97
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_09_01_0024",
+      "source_section": "chapter_03_09_01",
+      "source_sentence": 195,
+      "character_position": 376,
+      "text": "Тот вздрогнул и гневно нахмурил брови",
+      "vad": [
+        -0.65,
+        0.72,
+        0.45
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.6521960051077755,
+      "warning": null,
+      "chapter_sentence_start": 195,
+      "chapter_sentence_end": 195,
+      "timeline_start_index": 15293,
+      "timeline_end_index": 15293,
+      "highlights": [
+        {
+          "chapter_sentence": 195,
+          "start": 0,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_09_01_0025",
+      "source_section": "chapter_03_09_01",
+      "source_sentence": 196,
+      "character_position": 377,
+      "text": "я рассердился",
+      "vad": [
+        -0.75,
+        0.65,
+        0.25
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.5946365434189722,
+      "warning": null,
+      "chapter_sentence_start": 196,
+      "chapter_sentence_end": 196,
+      "timeline_start_index": 15294,
+      "timeline_end_index": 15294,
+      "highlights": [
+        {
+          "chapter_sentence": 196,
+          "start": 24,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_09_01_0026",
+      "source_section": "chapter_03_09_01",
+      "source_sentence": 197,
+      "character_position": 378,
+      "text": "в необъяснимой тревоге",
+      "vad": [
+        -0.72,
+        0.78,
+        -0.38
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.1965144451183045,
+      "warning": null,
+      "chapter_sentence_start": 197,
+      "chapter_sentence_end": 197,
+      "timeline_start_index": 15295,
+      "timeline_end_index": 15295,
+      "highlights": [
+        {
+          "chapter_sentence": 197,
+          "start": 58,
+          "end": 80
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_09_01_0027",
+      "source_section": "chapter_03_09_01",
+      "source_sentence": 198,
+      "character_position": 379,
+      "text": "Да, я был зол",
+      "vad": [
+        -0.75,
+        0.65,
+        0.2
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.5921608518294386,
+      "warning": null,
+      "chapter_sentence_start": 198,
+      "chapter_sentence_end": 198,
+      "timeline_start_index": 15296,
+      "timeline_end_index": 15296,
+      "highlights": [
+        {
+          "chapter_sentence": 198,
+          "start": 0,
+          "end": 13
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_09_01_0028",
+      "source_section": "chapter_03_09_01",
+      "source_sentence": 203,
+      "character_position": 380,
+      "text": "Он раздражался всё больше и больше",
+      "vad": [
+        -0.65,
+        0.75,
+        0.1
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.52844939666584,
+      "warning": null,
+      "chapter_sentence_start": 203,
+      "chapter_sentence_end": 203,
+      "timeline_start_index": 15301,
+      "timeline_end_index": 15301,
+      "highlights": [
+        {
+          "chapter_sentence": 203,
+          "start": 0,
+          "end": 34
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_09_01_0030",
+      "source_section": "chapter_03_09_01",
+      "source_sentence": 209,
+      "character_position": 381,
+      "text": "вас борет намерение чрезвычайное, может быть ужасное",
+      "vad": [
+        -0.65,
+        0.8,
+        -0.35
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.2311413076529289,
+      "warning": null,
+      "chapter_sentence_start": 209,
+      "chapter_sentence_end": 209,
+      "timeline_start_index": 15307,
+      "timeline_end_index": 15307,
+      "highlights": [
+        {
+          "chapter_sentence": 209,
+          "start": 18,
+          "end": 70
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_09_01_0031",
+      "source_section": "chapter_03_09_01",
+      "source_sentence": 213,
+      "character_position": 382,
+      "text": "был несколько бледен, руки его немного дрожали",
+      "vad": [
+        -0.55,
+        0.45,
+        -0.25
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.2606970527607967,
+      "warning": null,
+      "chapter_sentence_start": 213,
+      "chapter_sentence_end": 213,
+      "timeline_start_index": 15311,
+      "timeline_end_index": 15311,
+      "highlights": [
+        {
+          "chapter_sentence": 213,
+          "start": 21,
+          "end": 67
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_09_01_0034",
+      "source_section": "chapter_03_09_01",
+      "source_sentence": 224,
+      "character_position": 383,
+      "text": "я давно спокоен",
+      "vad": [
+        0.1,
+        -0.8,
+        0.4
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 1.1134972491766215,
+      "warning": null,
+      "chapter_sentence_start": 224,
+      "chapter_sentence_end": 224,
+      "timeline_start_index": 15322,
+      "timeline_end_index": 15322,
+      "highlights": [
+        {
+          "chapter_sentence": 224,
+          "start": 11,
+          "end": 26
+        }
+      ]
+    }
+  ]
+}

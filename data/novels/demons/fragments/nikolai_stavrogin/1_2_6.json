@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "nikolai_stavrogin",
+  "chapter_id": "1_2_6",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "nikolai_stavrogin::chapter_01_02_06_0003",
+      "source_section": "chapter_01_02_06",
+      "source_sentence": 27,
+      "character_position": 40,
+      "text": "точно и не видит ничего, али как будто ему всё равно",
+      "vad": [
+        -0.4,
+        0.2,
+        -0.1
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.2965955283362467,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 1026,
+      "timeline_end_index": 1026,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 106,
+          "end": 158
+        }
+      ]
+    }
+  ]
+}

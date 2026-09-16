@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "nikolai_stavrogin",
+  "chapter_id": "2_3_2",
+  "count": 9,
+  "fragments": [
+    {
+      "id": "nikolai_stavrogin::chapter_02_03_02_0001",
+      "source_section": "chapter_02_03_02",
+      "source_sentence": 18,
+      "character_position": 231,
+      "text": "чуть не свела его с ума",
+      "vad": [
+        -0.9,
+        0.9,
+        -0.7
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.4737973150267342,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 5978,
+      "timeline_end_index": 5978,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 74,
+          "end": 97
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_03_02_0002",
+      "source_section": "chapter_02_03_02",
+      "source_sentence": 19,
+      "character_position": 232,
+      "text": "в страшном беспокойстве",
+      "vad": [
+        -0.85,
+        0.9,
+        -0.45
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.346216831883463,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 5979,
+      "timeline_end_index": 5979,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 50,
+          "end": 73
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_03_02_0003",
+      "source_section": "chapter_02_03_02",
+      "source_sentence": 20,
+      "character_position": 233,
+      "text": "Ему всё казалось, что ещё как-нибудь не состоится дело",
+      "vad": [
+        -0.75,
+        0.7,
+        -0.35
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.1289592671551033,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 5980,
+      "timeline_end_index": 5980,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 0,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_03_02_0004",
+      "source_section": "chapter_02_03_02",
+      "source_sentence": 20,
+      "character_position": 234,
+      "text": "бросало его в трепет",
+      "vad": [
+        -0.75,
+        0.85,
+        -0.55
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.308237041474599,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 5980,
+      "timeline_end_index": 5980,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 77,
+          "end": 97
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_03_02_0005",
+      "source_section": "chapter_02_03_02",
+      "source_sentence": 21,
+      "character_position": 235,
+      "text": "Болезненное впечатление выразилось в его лице",
+      "vad": [
+        -0.72,
+        0.28,
+        -0.18
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.3737739054237967,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 5981,
+      "timeline_end_index": 5981,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 0,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_03_02_0007",
+      "source_section": "chapter_02_03_02",
+      "source_sentence": 60,
+      "character_position": 236,
+      "text": "с нетерпением проговорил Николай Всеволодович",
+      "vad": [
+        0.1,
+        0.65,
+        0.75
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.5930090661672007,
+      "warning": null,
+      "chapter_sentence_start": 60,
+      "chapter_sentence_end": 60,
+      "timeline_start_index": 6020,
+      "timeline_end_index": 6020,
+      "highlights": [
+        {
+          "chapter_sentence": 60,
+          "start": 52,
+          "end": 97
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_03_02_0008",
+      "source_section": "chapter_02_03_02",
+      "source_sentence": 69,
+      "character_position": 237,
+      "text": "уже совсем теряя терпение",
+      "vad": [
+        -0.65,
+        0.72,
+        -0.25
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.211492132015716,
+      "warning": null,
+      "chapter_sentence_start": 69,
+      "chapter_sentence_end": 69,
+      "timeline_start_index": 6029,
+      "timeline_end_index": 6029,
+      "highlights": [
+        {
+          "chapter_sentence": 69,
+          "start": 22,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_03_02_0009",
+      "source_section": "chapter_02_03_02",
+      "source_sentence": 93,
+      "character_position": 238,
+      "text": "в чрезвычайном волнении Маврикий Николаевич, видя, что Ставрогин как бы забыл о выстреле",
+      "vad": [
+        -0.85,
+        0.95,
+        -0.35
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.3916198343794937,
+      "warning": null,
+      "chapter_sentence_start": 93,
+      "chapter_sentence_end": 93,
+      "timeline_start_index": 6053,
+      "timeline_end_index": 6053,
+      "highlights": [
+        {
+          "chapter_sentence": 93,
+          "start": 12,
+          "end": 100
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_03_02_0010",
+      "source_section": "chapter_02_03_02",
+      "source_sentence": 99,
+      "character_position": 239,
+      "text": "Лицо его выражало злобу",
+      "vad": [
+        -0.85,
+        0.45,
+        0.35
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.553428713041479,
+      "warning": null,
+      "chapter_sentence_start": 99,
+      "chapter_sentence_end": 99,
+      "timeline_start_index": 6059,
+      "timeline_end_index": 6059,
+      "highlights": [
+        {
+          "chapter_sentence": 99,
+          "start": 0,
+          "end": 23
+        }
+      ]
+    }
+  ]
+}

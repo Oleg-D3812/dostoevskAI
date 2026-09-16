@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "nikolai_stavrogin",
+  "chapter_id": "2_2_1",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "nikolai_stavrogin::chapter_02_02_01_0001",
+      "source_section": "chapter_02_02_01",
+      "source_sentence": 4,
+      "character_position": 200,
+      "text": "вдруг, очнувшись от глубокого раздумья",
+      "vad": [
+        0.0,
+        0.2,
+        -0.1
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.4933055348645772,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 5364,
+      "timeline_end_index": 5364,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 60,
+          "end": 98
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_02_01_0003",
+      "source_section": "chapter_02_02_01",
+      "source_sentence": 61,
+      "character_position": 201,
+      "text": "грозно обернулся Николай Всеволодович",
+      "vad": [
+        -0.55,
+        0.7,
+        0.75
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.7781386992459047,
+      "warning": null,
+      "chapter_sentence_start": 61,
+      "chapter_sentence_end": 61,
+      "timeline_start_index": 5421,
+      "timeline_end_index": 5421,
+      "highlights": [
+        {
+          "chapter_sentence": 61,
+          "start": 2,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_02_01_0004",
+      "source_section": "chapter_02_02_01",
+      "source_sentence": 72,
+      "character_position": 202,
+      "text": "дошёл до места озабоченный",
+      "vad": [
+        -0.35,
+        0.35,
+        0.05
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.2306754765255604,
+      "warning": null,
+      "chapter_sentence_start": 72,
+      "chapter_sentence_end": 72,
+      "timeline_start_index": 5432,
+      "timeline_end_index": 5432,
+      "highlights": [
+        {
+          "chapter_sentence": 72,
+          "start": 21,
+          "end": 47
+        }
+      ]
+    }
+  ]
+}

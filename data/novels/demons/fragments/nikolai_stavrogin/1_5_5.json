@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "nikolai_stavrogin",
+  "chapter_id": "1_5_5",
+  "count": 10,
+  "fragments": [
+    {
+      "id": "nikolai_stavrogin::chapter_01_05_05_0002",
+      "source_section": "chapter_01_05_05",
+      "source_sentence": 13,
+      "character_position": 92,
+      "text": "В нём большое самодовольство",
+      "vad": [
+        0.7,
+        0.2,
+        0.8
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.4761469650557232,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 3653,
+      "timeline_end_index": 3653,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 0,
+          "end": 28
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_05_05_0003",
+      "source_section": "chapter_01_05_05",
+      "source_sentence": 15,
+      "character_position": 93,
+      "text": "Его мысли спокойны",
+      "vad": [
+        0.2,
+        -0.6,
+        0.4
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.9387280300248032,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 3655,
+      "timeline_end_index": 3655,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 0,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_05_05_0004",
+      "source_section": "chapter_01_05_05",
+      "source_sentence": 55,
+      "character_position": 94,
+      "text": "Лёгкая улыбка его была так же официально ласкова и так же самодовольна",
+      "vad": [
+        0.35,
+        0.05,
+        0.7
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.3969365553347156,
+      "warning": null,
+      "chapter_sentence_start": 55,
+      "chapter_sentence_end": 55,
+      "timeline_start_index": 3695,
+      "timeline_end_index": 3695,
+      "highlights": [
+        {
+          "chapter_sentence": 55,
+          "start": 0,
+          "end": 70
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_05_05_0005",
+      "source_section": "chapter_01_05_05",
+      "source_sentence": 55,
+      "character_position": 95,
+      "text": "взгляд так же строг, вдумчив и как бы рассеян",
+      "vad": [
+        -0.18,
+        0.12,
+        0.48
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.3605205860919286,
+      "warning": null,
+      "chapter_sentence_start": 55,
+      "chapter_sentence_end": 55,
+      "timeline_start_index": 3695,
+      "timeline_end_index": 3695,
+      "highlights": [
+        {
+          "chapter_sentence": 55,
+          "start": 72,
+          "end": 117
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_05_05_0006",
+      "source_section": "chapter_01_05_05",
+      "source_sentence": 69,
+      "character_position": 96,
+      "text": "он не смигнул даже глазом",
+      "vad": [
+        0.1,
+        0.2,
+        0.9
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.6070532803146402,
+      "warning": null,
+      "chapter_sentence_start": 69,
+      "chapter_sentence_end": 69,
+      "timeline_start_index": 3709,
+      "timeline_end_index": 3709,
+      "highlights": [
+        {
+          "chapter_sentence": 69,
+          "start": 31,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_05_05_0007",
+      "source_section": "chapter_01_05_05",
+      "source_sentence": 69,
+      "character_position": 97,
+      "text": "ни малейшего изменения в лице его не последовало",
+      "vad": [
+        0.0,
+        -0.15,
+        0.85
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.7733025483005864,
+      "warning": null,
+      "chapter_sentence_start": 69,
+      "chapter_sentence_end": 69,
+      "timeline_start_index": 3709,
+      "timeline_end_index": 3709,
+      "highlights": [
+        {
+          "chapter_sentence": 69,
+          "start": 87,
+          "end": 135
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_05_05_0008",
+      "source_section": "chapter_01_05_05",
+      "source_sentence": 70,
+      "character_position": 98,
+      "text": "он медленно улыбнулся какой-то снисходящей улыбкой",
+      "vad": [
+        -0.1,
+        0.1,
+        0.8
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.6765511693498468,
+      "warning": null,
+      "chapter_sentence_start": 70,
+      "chapter_sentence_end": 70,
+      "timeline_start_index": 3710,
+      "timeline_end_index": 3710,
+      "highlights": [
+        {
+          "chapter_sentence": 70,
+          "start": 8,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_05_05_0009",
+      "source_section": "chapter_01_05_05",
+      "source_sentence": 78,
+      "character_position": 99,
+      "text": "в глазах его засветилась необыкновенная нежность",
+      "vad": [
+        0.86,
+        0.28,
+        0.2
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.4666028070241191,
+      "warning": null,
+      "chapter_sentence_start": 78,
+      "chapter_sentence_end": 78,
+      "timeline_start_index": 3718,
+      "timeline_end_index": 3718,
+      "highlights": [
+        {
+          "chapter_sentence": 78,
+          "start": 96,
+          "end": 144
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_05_05_0010",
+      "source_section": "chapter_01_05_05",
+      "source_sentence": 79,
+      "character_position": 100,
+      "text": "в каждом движении его сказывалось самое искреннее уважение",
+      "vad": [
+        0.7,
+        0.1,
+        0.4
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.3279441919076071,
+      "warning": null,
+      "chapter_sentence_start": 79,
+      "chapter_sentence_end": 79,
+      "timeline_start_index": 3719,
+      "timeline_end_index": 3719,
+      "highlights": [
+        {
+          "chapter_sentence": 79,
+          "start": 47,
+          "end": 105
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_05_05_0011",
+      "source_section": "chapter_01_05_05",
+      "source_sentence": 81,
+      "character_position": 101,
+      "text": "великолепно улыбнулся он ей",
+      "vad": [
+        0.85,
+        0.35,
+        0.8
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.5624456825462546,
+      "warning": null,
+      "chapter_sentence_start": 81,
+      "chapter_sentence_end": 81,
+      "timeline_start_index": 3721,
+      "timeline_end_index": 3721,
+      "highlights": [
+        {
+          "chapter_sentence": 81,
+          "start": 29,
+          "end": 56
+        }
+      ]
+    }
+  ]
+}

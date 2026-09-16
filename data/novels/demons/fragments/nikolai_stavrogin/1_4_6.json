@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "nikolai_stavrogin",
+  "chapter_id": "1_4_6",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "nikolai_stavrogin::chapter_01_04_06_0001",
+      "source_section": "chapter_01_04_06",
+      "source_sentence": 17,
+      "character_position": 81,
+      "text": "я добр",
+      "vad": [
+        0.8,
+        0.2,
+        0.4
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.3705404188407757,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 3003,
+      "timeline_end_index": 3003,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 7,
+          "end": 13
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_04_06_0003",
+      "source_section": "chapter_01_04_06",
+      "source_sentence": 22,
+      "character_position": 82,
+      "text": "дико заревел он вдруг и неистово застучал опять кулаками",
+      "vad": [
+        -0.9,
+        1.0,
+        0.2
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.7499683207402679,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 3008,
+      "timeline_end_index": 3008,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 2,
+          "end": 58
+        }
+      ]
+    }
+  ]
+}

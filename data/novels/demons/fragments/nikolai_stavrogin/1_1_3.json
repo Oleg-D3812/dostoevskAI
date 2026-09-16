@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "nikolai_stavrogin",
+  "chapter_id": "1_1_3",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "nikolai_stavrogin::chapter_01_01_03_0001",
+      "source_section": "chapter_01_01_03",
+      "source_sentence": 22,
+      "character_position": 1,
+      "text": "вдруг сгорал от стыда и до того, бывало, мучился",
+      "vad": [
+        -0.92,
+        0.82,
+        -0.58
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.3601979101410751,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 117,
+      "timeline_end_index": 117,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 198,
+          "end": 246
+        }
+      ]
+    }
+  ]
+}

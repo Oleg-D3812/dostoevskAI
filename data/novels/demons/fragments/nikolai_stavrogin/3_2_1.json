@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "nikolai_stavrogin",
+  "chapter_id": "3_2_1",
+  "count": 5,
+  "fragments": [
+    {
+      "id": "nikolai_stavrogin::chapter_03_02_01_0002",
+      "source_section": "chapter_03_02_01",
+      "source_sentence": 10,
+      "character_position": 289,
+      "text": "я всё покончил с людьми, с добрыми и злыми",
+      "vad": [
+        -0.85,
+        0.45,
+        -0.75
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.3998882310061439,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 10516,
+      "timeline_end_index": 10516,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 47,
+          "end": 89
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_02_01_0003",
+      "source_section": "chapter_03_02_01",
+      "source_sentence": 23,
+      "character_position": 290,
+      "text": "я в волнении",
+      "vad": [
+        -0.45,
+        0.7,
+        -0.2
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.3524181542037902,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 10529,
+      "timeline_end_index": 10529,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 307,
+          "end": 319
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_02_01_0004",
+      "source_section": "chapter_03_02_01",
+      "source_sentence": 39,
+      "character_position": 291,
+      "text": "рука моя дрожит",
+      "vad": [
+        -0.55,
+        0.7,
+        -0.35
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.2095672939663165,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 10545,
+      "timeline_end_index": 10545,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 13,
+          "end": 28
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_02_01_0005",
+      "source_section": "chapter_03_02_01",
+      "source_sentence": 44,
+      "character_position": 292,
+      "text": "Все, кого любил, от меня отвернулись",
+      "vad": [
+        -0.86,
+        0.34,
+        -0.72
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.4289596820396384,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 10550,
+      "timeline_end_index": 10550,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 0,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_02_01_0006",
+      "source_section": "chapter_03_02_01",
+      "source_sentence": 45,
+      "character_position": 293,
+      "text": "я проливал мои малодушные слёзы",
+      "vad": [
+        -0.86,
+        0.42,
+        -0.7
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.3725757527511162,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 10551,
+      "timeline_end_index": 10551,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 190,
+          "end": 221
+        }
+      ]
+    }
+  ]
+}
