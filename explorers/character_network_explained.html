@@ -1,0 +1,663 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Как устроен граф связей: управление, четыре режима взаимодействия, категории связи, вес линий и деление героев на уровни по Дженксу.">
+<title>Как устроен граф связей</title>
+<style>
+  :root{
+    --bg:#f4f2ed; --surface:#ffffff; --surface-2:#fbfaf7; --text:#17201f; --muted:#66706d;
+    --line:rgba(23,32,31,.13); --accent:#c9532f; --accent-soft:rgba(201,83,47,.12);
+    --teal:#187f78; --teal-soft:rgba(24,127,120,.12);
+    --violet:#6857a5; --violet-soft:rgba(104,87,165,.12);
+    --amber:#9a6a16; --amber-soft:rgba(154,106,22,.14);
+    --rose:#a54368; --rose-soft:rgba(165,67,104,.12);
+    --shadow:0 14px 40px rgba(23,32,31,.08);
+    --mono:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;
+    --serif:Georgia,"Times New Roman",serif;
+    --sans:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#111615; --surface:#171d1c; --surface-2:#1a201f; --text:#edf0ea; --muted:#9ba6a2;
+      --line:rgba(237,240,234,.13); --accent:#ef7a5f; --accent-soft:rgba(239,122,95,.14);
+      --teal:#4eb8ae; --teal-soft:rgba(78,184,174,.13); --violet:#a796e6; --violet-soft:rgba(167,150,230,.13);
+      --amber:#d0aa5a; --amber-soft:rgba(208,170,90,.13); --rose:#d98aab; --rose-soft:rgba(217,138,171,.13);
+      --shadow:0 14px 44px rgba(0,0,0,.32);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#111615; --surface:#171d1c; --surface-2:#1a201f; --text:#edf0ea; --muted:#9ba6a2;
+    --line:rgba(237,240,234,.13); --accent:#ef7a5f; --accent-soft:rgba(239,122,95,.14);
+    --teal:#4eb8ae; --teal-soft:rgba(78,184,174,.13); --violet:#a796e6; --violet-soft:rgba(167,150,230,.13);
+    --amber:#d0aa5a; --amber-soft:rgba(208,170,90,.13); --rose:#d98aab; --rose-soft:rgba(217,138,171,.13);
+    --shadow:0 14px 44px rgba(0,0,0,.32);
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;}
+  body{
+    background:var(--bg); color:var(--text); font-family:var(--sans);
+    -webkit-font-smoothing:antialiased; padding:0 20px;
+  }
+  .wrap{ width:min(760px, 100%); margin:0 auto; }
+  a{color:inherit;}
+  h1,h2,h3{font-family:var(--serif); font-weight:400; text-wrap:balance;}
+  code, .mono{font-family:var(--mono);}
+  .tnum{font-variant-numeric:tabular-nums;}
+
+  header.page{ padding:44px 0 20px; border-bottom:1px solid var(--line); }
+  .eyebrow{margin:0 0 10px; color:var(--accent); font-size:12px; font-weight:700; letter-spacing:.16em; text-transform:uppercase;}
+  h1.title{margin:0; font-size:clamp(30px,6vw,46px); letter-spacing:-.02em; line-height:1.06; max-width:16ch;}
+  p.lede{max-width:56ch; margin:16px 0 0; color:var(--muted); font-size:16px; line-height:1.6;}
+  .back{display:inline-block; margin-bottom:18px; font-size:12px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); text-decoration:none;}
+  .back:hover{color:var(--text);}
+
+  nav.steps{
+    position:sticky; top:0; z-index:20; display:flex; gap:4px; overflow-x:auto;
+    padding:12px 0; margin:0 -20px; padding-inline:20px; background:var(--bg);
+    border-bottom:1px solid var(--line);
+  }
+  nav.steps a{
+    flex:none; display:flex; align-items:center; gap:7px; padding:7px 13px; border-radius:999px;
+    border:1px solid transparent; color:var(--muted); font-size:12.5px; font-weight:600; text-decoration:none;
+    white-space:nowrap; transition:border-color .15s, color .15s, background .15s;
+  }
+  nav.steps a .n{
+    width:16px; height:16px; border-radius:50%; display:grid; place-items:center; font-size:9.5px;
+    font-family:var(--serif); border:1px solid currentColor;
+  }
+  nav.steps a.active{ color:var(--accent); border-color:color-mix(in srgb, var(--accent) 40%, var(--line)); background:var(--accent-soft); }
+
+  main{padding:8px 0 40px;}
+  section.chapter{ padding:52px 0; border-bottom:1px solid var(--line); scroll-margin-top:64px; }
+  section.chapter:last-of-type{border-bottom:none;}
+  .kicker{ display:flex; align-items:center; gap:10px; margin:0 0 12px; color:var(--muted); font-size:12px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; }
+  .kicker .dot{width:9px; height:9px; border-radius:50%;}
+  h2.q{margin:0; font-size:clamp(22px,3.6vw,30px); letter-spacing:-.015em; line-height:1.18; max-width:22ch;}
+  p.explain{max-width:60ch; margin:14px 0 0; color:var(--muted); font-size:15.5px; line-height:1.62;}
+
+  .demo{
+    margin-top:26px; padding:22px; border:1px solid var(--line); border-radius:20px;
+    background:var(--surface); box-shadow:var(--shadow);
+  }
+  .demo-grid{display:grid; grid-template-columns:minmax(0,1.2fr) minmax(0,1fr); gap:22px; align-items:start;}
+  @media (max-width:640px){ .demo-grid{grid-template-columns:1fr;} }
+
+  svg{display:block; width:100%; height:auto; overflow:visible;}
+  .axis-label{ font-size:9.5px; fill:var(--muted); font-family:var(--sans); }
+
+  .kbd-row{display:flex; flex-direction:column; gap:9px; margin-bottom:16px;}
+  .kbd-item{display:flex; align-items:center; gap:10px; font-size:13.5px; color:var(--text);}
+  .kbd{display:inline-flex; align-items:center; padding:4px 9px; border-radius:7px; border:1px solid var(--line);
+    background:var(--surface-2); font-family:var(--mono); font-size:11px; font-weight:700; color:var(--accent); flex-shrink:0; min-width:90px; justify-content:center;}
+
+  .graph-box{ border:1px solid var(--line); border-radius:14px; background:var(--surface-2); padding:14px; }
+  .node-dot{ cursor:pointer; }
+  .node-label{ font-size:8.5px; fill:var(--text); font-family:var(--sans); pointer-events:none; }
+  .edge-line{ stroke:var(--muted); stroke-opacity:.55; }
+
+  .readout{
+    margin-top:14px; padding:10px 13px; border-radius:12px; background:var(--surface-2);
+    border:1px solid var(--line); font-size:13.5px; min-height:20px;
+  }
+  .readout .val{color:var(--accent); font-weight:700;}
+  .readout.muted-text{color:var(--muted);}
+
+  button.ghost-btn{
+    appearance:none; border:1px solid var(--line); background:var(--surface-2); color:var(--text);
+    padding:8px 14px; border-radius:999px; font:inherit; font-size:13px; font-weight:600; cursor:pointer; margin-top:12px;
+  }
+  button.ghost-btn:disabled{ color:var(--muted); cursor:default; opacity:.5; }
+  button.ghost-btn:not(:disabled):hover{ border-color:color-mix(in srgb, var(--accent) 40%, var(--line)); }
+
+  .pill-row{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:16px;}
+  .pill-btn{
+    appearance:none; border:1px solid var(--line); background:var(--surface-2); color:var(--text);
+    padding:8px 13px; border-radius:999px; font:inherit; font-size:12.5px; font-weight:600; cursor:pointer;
+  }
+  .pill-btn.active{ border-color:var(--violet); background:var(--violet-soft); color:var(--violet); }
+
+  .legend-row{display:flex; flex-wrap:wrap; gap:8px 14px; margin-top:14px;}
+  .legend-chip{display:inline-flex; align-items:center; gap:6px; font-size:12px; color:var(--muted);}
+  .legend-chip i{width:9px; height:9px; border-radius:50%; flex-shrink:0;}
+
+  .inspector{ border:1px solid var(--line); border-radius:16px; background:var(--surface-2); padding:16px; }
+  .inspector h4{margin:0 0 4px; font-family:var(--serif); font-size:19px; font-weight:400;}
+  .inspector .sub{color:var(--muted); font-size:12.5px; margin:0 0 12px;}
+  .cat-pill{display:inline-flex; align-items:center; gap:6px; padding:5px 11px; border-radius:999px; font-size:12px; font-weight:700; margin-bottom:12px;}
+  .role-list{margin:0 0 12px; padding-left:18px; font-size:13px; color:var(--text); line-height:1.55;}
+  .note-box{padding:10px 12px; border-radius:10px; background:var(--surface); border:1px solid var(--line); font-size:13px; line-height:1.55; font-style:italic; color:var(--text); margin-bottom:12px;}
+  .type-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:8px;}
+  .type-cell{padding:8px 10px; border-radius:10px; background:var(--surface); border:1px solid var(--line); font-size:11.5px;}
+  .type-cell b{display:block; font-size:15px; color:var(--text); margin-top:2px;}
+
+  .field{display:flex; flex-direction:column; gap:6px; margin-bottom:0;}
+  .field-label{display:flex; justify-content:space-between; font-size:12.5px; color:var(--muted); font-weight:600;}
+  .field-label b{color:var(--text); font-weight:700;}
+  input[type=range]{ width:100%; accent-color:var(--accent); }
+
+  .weight-line-box{ display:flex; align-items:center; justify-content:center; height:70px; }
+
+  details.math{ margin-top:16px; border:1px dashed var(--line); border-radius:14px; padding:0; }
+  details.math summary{
+    cursor:pointer; list-style:none; padding:11px 14px; font-size:12.5px; font-weight:700;
+    color:var(--muted); letter-spacing:.03em; display:flex; align-items:center; gap:8px;
+  }
+  details.math summary::-webkit-details-marker{display:none;}
+  details.math summary::before{content:"+"; font-family:var(--serif); font-size:15px; color:var(--accent);}
+  details.math[open] summary::before{content:"–";}
+  .math-body{padding:0 16px 16px; font-size:13.5px; line-height:1.65; color:var(--text);}
+  .math-body ul{margin:8px 0 0; padding-left:18px; color:var(--muted);}
+  .math-body p{margin:0 0 8px;}
+  .math-body .formula{
+    margin:8px 0; padding:10px 12px; border-radius:10px; background:var(--surface-2); border:1px solid var(--line);
+    font-family:var(--mono); font-size:12.5px; overflow-x:auto; white-space:pre;
+  }
+
+  footer.page{padding:34px 0 50px; color:var(--muted); font-size:13px; line-height:1.6; border-top:1px solid var(--line); margin-top:8px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="page">
+    <a class="back" id="back-link" href="../index.html">&larr; Граф связей</a>
+    <p class="eyebrow">Методология</p>
+    <h1 class="title">Как устроен граф связей</h1>
+    <p class="lede">Пять вопросов о том, что вы видите на графе героев: как им управлять, почему связи перестраиваются при переключении вкладок, откуда берутся категории и толщина линий, и кто и почему считается «главным героем» сети.</p>
+  </header>
+
+  <nav class="steps" id="stepsNav">
+    <a href="#g1"><span class="n">1</span>Управление</a>
+    <a href="#g2"><span class="n">2</span>Четыре объектива</a>
+    <a href="#g3"><span class="n">3</span>Категория связи</a>
+    <a href="#g4"><span class="n">4</span>Толщина линии</a>
+    <a href="#g5"><span class="n">5</span>Главные герои</a>
+  </nav>
+
+  <main>
+
+    <!-- CHAPTER 1: reading / controlling the graph -->
+    <section class="chapter" id="g1">
+      <div class="kicker"><span class="dot" style="background:var(--accent)"></span>Навигация по графу</div>
+      <h2 class="q">Как посмотреть только то, что нужно?</h2>
+      <p class="explain">Граф ниже — упрощённый фрагмент сети «Бесов», не настоящая раскладка. Попробуйте все три действия по очереди — точно так же они работают и на настоящей странице.</p>
+
+      <div class="demo">
+        <div class="demo-grid">
+          <div>
+            <div class="graph-box">
+              <svg viewBox="0 0 300 220" id="g1-svg" role="img" aria-label="Упрощённый граф персонажей — кликайте и наводите"></svg>
+            </div>
+          </div>
+          <div>
+            <div class="kbd-row">
+              <div class="kbd-item"><span class="kbd">клик</span> показать карточку героя</div>
+              <div class="kbd-item"><span class="kbd">двойной клик</span> оставить только его связи</div>
+              <div class="kbd-item"><span class="kbd">Ctrl/⌘ + клик</span> добавить ещё одного в изоляцию</div>
+            </div>
+            <div class="readout muted-text" id="g1-readout">Кликните героя, чтобы увидеть карточку.</div>
+            <button class="ghost-btn" id="g1-clear" disabled>Показать всех</button>
+          </div>
+        </div>
+
+        <details class="math">
+          <summary>Что именно происходит технически</summary>
+          <div class="math-body">
+            <p>Клик по герою вызывает карточку в правой панели — сам граф при этом не меняется. Двойной клик заменяет текущий выбор одним героем и скрывает всех, кто с ним не связан ни одной видимой линией. Ctrl/⌘-клик добавляет ещё одного героя к уже выбранным — тогда остаются видны оба и их соседи. «Показать всех» снимает любую изоляцию и возвращает исходный вид.</p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <!-- CHAPTER 2: four lenses -->
+    <section class="chapter" id="g2">
+      <div class="kicker"><span class="dot" style="background:var(--teal)"></span>Режимы графа</div>
+      <h2 class="q">Почему связи меняются, когда я переключаю вкладку?</h2>
+      <p class="explain">Каждая пара героев размечена по четырём типам взаимодействия одновременно: сколько раз они говорили друг с другом напрямую, сколько раз — через третьих лиц, сколько раз один переживал из-за другого, и сколько раз один влиял на решения другого. У вкладки «Отношения» — своя, пятая шкала: единая эмоциональная категория пары. Переключите режим — и граф перерисуется под выбранную шкалу.</p>
+
+      <div class="demo">
+        <div class="pill-row" id="g2-pills">
+          <button class="pill-btn active" data-type="direct">Прямое взаимодействие</button>
+          <button class="pill-btn" data-type="indirect">Непрямое взаимодействие</button>
+          <button class="pill-btn" data-type="emotional">Эмоциональное отношение</button>
+          <button class="pill-btn" data-type="influence">Влияние и содействие</button>
+        </div>
+        <div class="graph-box">
+          <svg viewBox="0 0 300 170" id="g2-svg" role="img" aria-label="Один и тот же граф в четырёх режимах взаимодействия"></svg>
+        </div>
+        <div class="readout" id="g2-readout">Показаны пары, у которых есть хотя бы одна сцена этого типа. Толщина линии — число таких сцен.</div>
+
+        <details class="math">
+          <summary>Откуда берутся эти четыре числа</summary>
+          <div class="math-body">
+            <p>Для каждой пары героев в данных хранятся счётчики сцен по всем четырём типам одновременно — они не исключают друг друга. Пара может ни разу не заговорить напрямую (direct = 0) и при этом иметь долгую историю сочувствия и влияния — тогда в режиме «Прямое взаимодействие» линия между ними просто не рисуется, а в «Эмоциональном отношении» или «Влиянии» — появляется.</p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <!-- CHAPTER 3: relation category -->
+    <section class="chapter" id="g3">
+      <div class="kicker"><span class="dot" style="background:var(--violet)"></span>Вкладка «Отношения»</div>
+      <h2 class="q">Почему это «дружба», а не «вражда»?</h2>
+      <p class="explain">В отличие от четырёх счётчиков сцен, категория связи — это одна общая метка на пару героев на весь роман: любовь, брак, родство, дружба, вражда и так далее. Вот настоящая запись из данных «Бесов» — карточка ровно такая же появляется в правой панели, когда вы кликаете по этой связи на графе.</p>
+
+      <div class="demo">
+        <div class="inspector">
+          <h4>Степан Трофимович Верховенский ↔ Варвара Петровна Ставрогина</h4>
+          <p class="sub">29 глав общей истории</p>
+          <span class="cat-pill" style="background:rgba(24,127,120,.14); color:var(--teal);">● дружба</span>
+          <ul class="role-list">
+            <li>друг и приживальщик</li>
+            <li>покровительница и благодетельница</li>
+          </ul>
+          <div class="note-box">«Двадцатилетняя зависимая дружба постепенно превращается в разрыв и расставание.»</div>
+          <p class="sub" style="margin-bottom:8px;">Эта же пара по четырём типам взаимодействия:</p>
+          <div class="type-grid">
+            <div class="type-cell">прямое<b>29 сцен</b></div>
+            <div class="type-cell">непрямое<b>12 сцен</b></div>
+            <div class="type-cell">эмоциональное<b>31 сцена</b></div>
+            <div class="type-cell">влияние<b>43 сцены</b></div>
+          </div>
+        </div>
+
+        <p style="margin:18px 0 0; font-size:13px; color:var(--muted); font-weight:600;">Все 11 категорий связи:</p>
+        <div class="legend-row" id="g3-legend"></div>
+
+        <details class="math">
+          <summary>Что ещё хранится в этой метке</summary>
+          <div class="math-body">
+            <p>Кроме категории, у связи есть роли (не всегда симметричные — «друг» и «покровительница» это про одну и ту же пару), необязательная пометка <code>evolves</code>, если отношения меняются по ходу романа, и вес от 1 до 5, отвечающий за то, насколько эта связь заметна на графе.</p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <!-- CHAPTER 4: line weight -->
+    <section class="chapter" id="g4">
+      <div class="kicker"><span class="dot" style="background:var(--rose)"></span>Толщина линии</div>
+      <h2 class="q">Что означает толстая или тонкая линия?</h2>
+      <p class="explain">Толщина линии — это не сырое число сцен, а линейная растяжка в шкалу от 1 до 5: самая слабая пара во всём романе получает вес 1, самая сильная — вес 5, а все остальные — пропорционально между ними. Ниже — настоящий диапазон вкладки «Отношения» для «Бесов»: от 1 до 115 совместных взаимодействий. Подвигайте ползунок.</p>
+
+      <div class="demo">
+        <div class="field">
+          <div class="field-label"><span>Взаимодействий у пары (interactions)</span><b class="tnum" id="g4-count">115</b></div>
+          <input type="range" id="g4-slider" min="1" max="115" step="1" value="115">
+        </div>
+        <div class="weight-line-box">
+          <svg viewBox="0 0 260 40" width="100%" height="40">
+            <circle cx="20" cy="20" r="6" fill="var(--text)"></circle>
+            <line id="g4-line" x1="20" y1="20" x2="240" y2="20" stroke="var(--accent)" stroke-linecap="round"></line>
+            <circle cx="240" cy="20" r="6" fill="var(--text)"></circle>
+          </svg>
+        </div>
+        <div class="readout">вес = <span class="tnum val" id="g4-weight">5.0</span> из 5 <span id="g4-example" style="color:var(--muted)"></span></div>
+
+        <details class="math">
+          <summary>Точная формула</summary>
+          <div class="math-body">
+            <div class="formula">weight = round(1 + 4 · (v − min) / (max − min), 2)</div>
+            <p>Один и тот же расчёт используется и для вкладки «Отношения» (v = число взаимодействий пары, min/max — по всем парам с категорией связи в этом романе), и для каждого из четырёх типов взаимодействия отдельно (v = «сырой» вес этого типа у пары, min/max — по всем парам, где этот тип вообще встречается). Если у всех пар одинаковое значение (max = min), вес ставится равным 3 — середине шкалы.</p>
+            <p>Реальные крайние точки для «Бесов»: Степан Трофимович ↔ Варвара Петровна — 115 взаимодействий, самая сильная пара романа, вес 5.0. У Кириллова и Лебядкина — 3 взаимодействия, вес 1.07. У самой слабой пары — 1 взаимодействие, вес 1.0.</p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <!-- CHAPTER 5: importance tiers -->
+    <section class="chapter" id="g5">
+      <div class="kicker"><span class="dot" style="background:var(--amber)"></span>Фильтр «Уровень»</div>
+      <h2 class="q">Кто здесь «главный герой» сети?</h2>
+      <p class="explain">Важность героя складывается из четырёх сигналов: в скольких сценах он участвует (F), с каким числом других героев напрямую связан (D), сколько всего у него было взаимодействий (W) — и отдельно, оказывается ли он «мостом» между группами персонажей, которые иначе почти не пересекаются (B). Переключайте сигнал и смотрите, кто загорается.</p>
+
+      <div class="demo">
+        <div class="pill-row" id="g5-pills">
+          <button class="pill-btn active" data-metric="F">Сцены (F)</button>
+          <button class="pill-btn" data-metric="D">Прямые связи (D)</button>
+          <button class="pill-btn" data-metric="W">Взаимодействия (W)</button>
+          <button class="pill-btn" data-metric="B">Роль «моста» (B)</button>
+        </div>
+        <div class="graph-box">
+          <svg viewBox="0 0 300 170" id="g5-svg" role="img" aria-label="Иллюстративная сеть из двух групп персонажей, соединённых одним связным"></svg>
+        </div>
+        <div class="readout" id="g5-readout"></div>
+
+        <details class="math">
+          <summary>Почему «мост» — это не то же самое, что «известный»</summary>
+          <div class="math-body">
+            <p>В примере выше у связного персонажа всего 2 прямые связи — меньше, чем почти у всех остальных. Но обе группы говорят друг с другом только через него: уберите его — и граф распадётся на две несвязанные половины. Это и называется betweenness — мера того, насколько часто кратчайший путь между двумя произвольными героями романа проходит именно через этого персонажа.</p>
+            <p>Считается алгоритмом Брандеса по взвешенному графу «сила связи → расстояние»: чем больше взаимодействий у пары, тем короче между ними расстояние (<code>distance = 1 / interactions</code>). Поэтому betweenness достаётся не просто тому, у кого много связей, а тому, чей путь оказывается кратчайшим мостом между двумя иначе далёкими друг от друга героями.</p>
+          </div>
+        </details>
+      </div>
+
+      <h2 class="q" style="margin-top:44px;">Где проходит граница между уровнями?</h2>
+      <p class="explain">F, D, W и B сначала независимо приводятся к шкале 0–1 (min-max по всем героям романа), а затем складываются с фиксированными весами в один общий балл (score):</p>
+      <div class="demo" style="margin-top:16px; padding:16px 20px;">
+        <div class="formula" style="margin:0;">score = 0.25·F + 0.20·D + 0.20·W + 0.15·B<br><span style="color:var(--muted); font-size:11.5px;">(здесь F, D, W, B — уже нормированные к 0..1 значения, не сырые числа)</span></div>
+      </div>
+      <p class="explain" style="margin-top:16px;">Порог между «Главные» и «Второстепенные» — это не фиксированное число вроде «score выше 0.3». Он вычисляется отдельно для каждого романа методом <b>естественных границ Дженкса</b> (алгоритм Фишера — Fisher's exact 1-D partitioning): героев по score выстраивают в ряд и ищут разрыв(ы), которые делят их на группы так, чтобы внутри каждой группы герои были похожи между собой, а разница между группами была как можно больше.</p>
+
+      <div class="demo">
+        <div class="pill-row" id="g5b-pills">
+          <button class="pill-btn" data-k="2">2 класса</button>
+          <button class="pill-btn active" data-k="3">3 класса</button>
+        </div>
+        <svg viewBox="0 0 620 70" id="g5b-svg" role="img" aria-label="77 реальных значений score героев «Бесов» на числовой оси, раскрашенные по классам Дженкса"></svg>
+        <div class="readout" id="g5b-readout"></div>
+
+        <details class="math">
+          <summary>Точный критерий и почему не 2 класса</summary>
+          <div class="math-body">
+            <p>Алгоритм Фишера минимизирует суммарную внутригрупповую дисперсию по всем способам разбить отсортированный ряд на k групп — это точный, а не приближённый минимум (решается динамическим программированием, а не k-means-подбором).</p>
+            <div class="formula">GVF = 1 − ΣᵢΣⱼ(xᵢⱼ − x̄ᵢ)² / Σⱼ(xⱼ − x̄)²</div>
+            <p>Берётся k = 3, если в романе есть хотя бы 3 разных значения score (иначе k = 2 для совсем маленьких списков персонажей), и из двух точек разрыва используется только нижняя — то есть второй и третий классы Дженкса вместе становятся «Главными». Условие в коде звучит так: «k=2 Jenks would isolate a single dominant outlier as its own class rather than finding a main-cast/periphery split» — при k=2 алгоритм честно находит самый большой разрыв в ряду, а это разрыв между несколькими сверхглавными героями и всеми остальными, а не граница основного состава.</p>
+            <p>Для «Бесов» нижняя точка разрыва при k=3 — это score ≈ <b>0.1243</b> (середина между 0.1183 у Кармазинова и 0.1303 у Дарьи Шатовой). Всё, что ≥ порога, становится «Главные» — ровно 16 героев; всё, что ниже — «Второстепенные», 61 герой.</p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<script src="../js/data-client.js"></script>
+<script>
+(function(){
+  "use strict";
+
+  var novelId = new URLSearchParams(window.location.search).get('novel') || 'demons';
+  AtlasData.loadNovelContext(novelId, { catalogUrl: '../data/catalog.json' }).then(function(context){
+    document.title = AtlasData.localized(context.novel.title) + ' — как устроен граф связей';
+    var backLink = document.getElementById('back-link');
+    backLink.href = '../novel.html?id=' + encodeURIComponent(context.novel.id) + '&feature=character-network';
+  }).catch(function(){});
+
+  // ---------- scrollspy ----------
+  var navLinks = Array.prototype.slice.call(document.querySelectorAll('#stepsNav a'));
+  var sections = navLinks.map(function(a){ return document.querySelector(a.getAttribute('href')); });
+  function onScroll(){
+    var y = window.scrollY + 90;
+    var idx = 0;
+    for (var i=0;i<sections.length;i++){ if (sections[i] && sections[i].offsetTop <= y) idx = i; }
+    navLinks.forEach(function(a,i){ a.classList.toggle('active', i===idx); });
+  }
+  window.addEventListener('scroll', onScroll, { passive:true });
+  onScroll();
+
+  // ================= CHAPTER 1: click / double-click / ctrl-click =================
+  var g1nodes = [
+    { id:'stavrogin', label:'Ставрогин', x:170, y:55 },
+    { id:'stepan', label:'Верховенский-отец', x:55, y:45 },
+    { id:'petr', label:'Верховенский-сын', x:255, y:45 },
+    { id:'shatov', label:'Шатов', x:100, y:140 },
+    { id:'lebyadkin', label:'Лебядкин', x:225, y:150 },
+    { id:'lebyadkina', label:'Лебядкина', x:265, y:190 },
+    { id:'kirillov', label:'Кириллов', x:55, y:195 },
+    { id:'liputin', label:'Липутин', x:150, y:195 }
+  ];
+  var g1edges = [
+    ['stepan','stavrogin'], ['petr','stavrogin'], ['petr','stepan'],
+    ['stavrogin','shatov'], ['stavrogin','lebyadkina'], ['lebyadkin','lebyadkina'],
+    ['shatov','kirillov'], ['liputin','petr'], ['liputin','shatov']
+  ];
+  var g1byId = {}; g1nodes.forEach(function(n){ g1byId[n.id]=n; });
+  var g1svg = document.getElementById('g1-svg');
+  var g1selected = [];
+  function g1neighbors(id){
+    var s = {}; s[id]=true;
+    g1edges.forEach(function(e){ if(e[0]===id) s[e[1]]=true; if(e[1]===id) s[e[0]]=true; });
+    return s;
+  }
+  function g1visible(){
+    if (!g1selected.length) return null;
+    var vis = {};
+    g1selected.forEach(function(id){
+      vis[id]=true;
+      var n = g1neighbors(id);
+      for (var k in n) vis[k]=true;
+    });
+    return vis;
+  }
+  function g1degree(id){ return g1edges.filter(function(e){ return e[0]===id||e[1]===id; }).length; }
+  function g1Render(){
+    var vis = g1visible();
+    var parts = '';
+    g1edges.forEach(function(e){
+      var a = g1byId[e[0]], b = g1byId[e[1]];
+      var dim = vis && !(vis[e[0]] && vis[e[1]]);
+      parts += '<line class="edge-line" x1="'+a.x+'" y1="'+a.y+'" x2="'+b.x+'" y2="'+b.y+'" stroke-width="1.6" opacity="'+(dim?0.08:0.55)+'"></line>';
+    });
+    g1nodes.forEach(function(n){
+      var dim = vis && !vis[n.id];
+      var isSel = g1selected.indexOf(n.id) >= 0;
+      var fill = isSel ? 'var(--accent)' : 'var(--teal)';
+      parts += '<circle class="node-dot" data-id="'+n.id+'" cx="'+n.x+'" cy="'+n.y+'" r="'+(isSel?11:9)+'" fill="'+fill+'" opacity="'+(dim?0.15:0.9)+'"></circle>';
+      parts += '<text class="node-label" x="'+n.x+'" y="'+(n.y-13)+'" text-anchor="middle" opacity="'+(dim?0.2:1)+'">'+n.label+'</text>';
+    });
+    g1svg.innerHTML = parts;
+    g1svg.querySelectorAll('.node-dot').forEach(function(c){
+      c.addEventListener('click', function(evt){
+        var id = c.dataset.id;
+        if (evt.ctrlKey || evt.metaKey){
+          var idx = g1selected.indexOf(id);
+          if (idx>=0) g1selected.splice(idx,1); else g1selected.push(id);
+          g1Render(); updateClearBtn(); return;
+        }
+        document.getElementById('g1-readout').innerHTML = '<b style="color:var(--text)">'+g1byId[id].label+'</b> — '+g1degree(id)+' связ'+(g1degree(id)===1?'ь':'и')+' в этом фрагменте.';
+      });
+      c.addEventListener('dblclick', function(evt){
+        evt.stopPropagation();
+        g1selected = [c.dataset.id];
+        g1Render(); updateClearBtn();
+      });
+    });
+    g1svg.addEventListener('click', function(evt){
+      if (evt.target === g1svg){ g1selected = []; g1Render(); updateClearBtn(); }
+    });
+  }
+  function updateClearBtn(){
+    document.getElementById('g1-clear').disabled = g1selected.length === 0;
+  }
+  document.getElementById('g1-clear').addEventListener('click', function(){
+    g1selected = []; g1Render(); updateClearBtn();
+    document.getElementById('g1-readout').textContent = 'Кликните героя, чтобы увидеть карточку.';
+  });
+  g1Render();
+
+  // ================= CHAPTER 2: four interaction-type lenses =================
+  var g2nodes = [
+    { id:'stepan', label:'Верховенский-отец', x:50, y:35 },
+    { id:'varvara', label:'Ставрогина', x:220, y:30 },
+    { id:'stavrogin', label:'Ставрогин', x:150, y:110 },
+    { id:'petr', label:'Верховенский-сын', x:250, y:120 },
+    { id:'liputin', label:'Липутин', x:60, y:135 }
+  ];
+  var g2byId = {}; g2nodes.forEach(function(n){ g2byId[n.id]=n; });
+  var g2edges = [
+    { a:'stepan', b:'varvara', direct:29, indirect:12, emotional:31, influence:43 },
+    { a:'petr', b:'stavrogin', direct:15, indirect:9, emotional:3, influence:12 },
+    { a:'stavrogin', b:'liputin', direct:0, indirect:5, emotional:2, influence:6 },
+    { a:'liputin', b:'petr', direct:8, indirect:0, emotional:0, influence:4 },
+    { a:'stepan', b:'stavrogin', direct:3, indirect:2, emotional:9, influence:1 }
+  ];
+  var g2svg = document.getElementById('g2-svg');
+  function g2Render(type){
+    var maxCount = Math.max.apply(null, g2edges.map(function(e){ return e[type]; }).concat([1]));
+    var parts = '';
+    g2edges.forEach(function(e){
+      var count = e[type];
+      if (count <= 0) return;
+      var a = g2byId[e.a], b = g2byId[e.b];
+      var w = 1 + (count/maxCount) * 5;
+      parts += '<line class="edge-line" x1="'+a.x+'" y1="'+a.y+'" x2="'+b.x+'" y2="'+b.y+'" stroke="var(--teal)" stroke-opacity=".65" stroke-width="'+w.toFixed(1)+'"></line>';
+      var mx=(a.x+b.x)/2, my=(a.y+b.y)/2;
+      parts += '<text class="node-label" x="'+mx+'" y="'+(my-4)+'" text-anchor="middle" fill="var(--muted)">'+count+'</text>';
+    });
+    g2nodes.forEach(function(n){
+      var connected = g2edges.some(function(e){ return (e.a===n.id||e.b===n.id) && e[type]>0; });
+      parts += '<circle class="node-dot" cx="'+n.x+'" cy="'+n.y+'" r="9" fill="var(--violet)" opacity="'+(connected?0.9:0.25)+'"></circle>';
+      parts += '<text class="node-label" x="'+n.x+'" y="'+(n.y-13)+'" text-anchor="middle" opacity="'+(connected?1:0.35)+'">'+n.label+'</text>';
+    });
+    g2svg.innerHTML = parts;
+  }
+  document.querySelectorAll('#g2-pills .pill-btn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      document.querySelectorAll('#g2-pills .pill-btn').forEach(function(b){ b.classList.remove('active'); });
+      btn.classList.add('active');
+      g2Render(btn.dataset.type);
+    });
+  });
+  g2Render('direct');
+
+  // ================= CHAPTER 3: category legend =================
+  var categories = [
+    {id:'любовь', color:'#d8583d'}, {id:'брак', color:'#c98a2e'}, {id:'сватовство', color:'#d7a45c'},
+    {id:'родство', color:'#6857a5'}, {id:'дружба', color:'#187f78'}, {id:'вражда', color:'#b73f29'},
+    {id:'покровительство', color:'#8a6fb0'}, {id:'служебные', color:'#4a7a9c'}, {id:'деловые', color:'#5a8f5a'},
+    {id:'знакомство', color:'#9aa3a0'}, {id:'прочее', color:'#c0c4c2'}
+  ];
+  document.getElementById('g3-legend').innerHTML = categories.map(function(c){
+    return '<span class="legend-chip"><i style="background:'+c.color+'"></i>'+c.id+'</span>';
+  }).join('');
+
+  // ================= CHAPTER 4: exact weight normalization (real min/max for "Бесы") =================
+  var G4_MIN = 1, G4_MAX = 115;
+  var g4slider = document.getElementById('g4-slider');
+  function g4Weight(v){ return Math.round((1 + 4*(v-G4_MIN)/(G4_MAX-G4_MIN)) * 100) / 100; }
+  function g4Render(){
+    var count = parseInt(g4slider.value, 10);
+    document.getElementById('g4-count').textContent = count;
+    var weight = g4Weight(count);
+    document.getElementById('g4-weight').textContent = String(weight);
+    document.getElementById('g4-line').setAttribute('stroke-width', (1 + weight*1.6).toFixed(1));
+    var example = document.getElementById('g4-example');
+    if (count === 115) example.textContent = '— как раз Степан Трофимович ↔ Варвара Петровна';
+    else if (count === 3) example.textContent = '— как раз Кириллов ↔ Лебядкин';
+    else if (count === 1) example.textContent = '— самая слабая пара в романе';
+    else example.textContent = '';
+  }
+  g4slider.addEventListener('input', g4Render);
+  g4Render();
+
+  // ================= CHAPTER 5: importance signals (hub vs bridge) =================
+  var g5nodes = [
+    { id:'a1', x:80, y:55, F:52, D:4, W:140, B:35 },
+    { id:'a2', x:45, y:95, F:40, D:3, W:95, B:4 },
+    { id:'a3', x:110, y:100, F:45, D:3, W:100, B:4 },
+    { id:'a4', x:75, y:130, F:38, D:3, W:90, B:3 },
+    { id:'bridge', x:150, y:105, F:18, D:2, W:40, B:120 },
+    { id:'b1', x:220, y:55, F:55, D:4, W:150, B:38 },
+    { id:'b2', x:185, y:95, F:42, D:3, W:98, B:4 },
+    { id:'b3', x:250, y:100, F:44, D:3, W:102, B:4 },
+    { id:'b4', x:215, y:130, F:40, D:3, W:94, B:3 }
+  ];
+  var g5byId = {}; g5nodes.forEach(function(n){ g5byId[n.id]=n; });
+  var g5edges = [
+    ['a1','a2'],['a1','a3'],['a1','a4'],['a2','a3'],['a2','a4'],['a3','a4'],
+    ['a1','bridge'],['bridge','b1'],
+    ['b1','b2'],['b1','b3'],['b1','b4'],['b2','b3'],['b2','b4'],['b3','b4']
+  ];
+  var metricLabel = { F:'сцены', D:'прямые связи', W:'взаимодействия', B:'роль моста (betweenness)' };
+  function g5Render(metric){
+    var max = Math.max.apply(null, g5nodes.map(function(n){ return n[metric]; }));
+    var parts = '';
+    g5edges.forEach(function(e){
+      var a = g5byId[e[0]], b = g5byId[e[1]];
+      parts += '<line class="edge-line" x1="'+a.x+'" y1="'+a.y+'" x2="'+b.x+'" y2="'+b.y+'" stroke-width="1.4"></line>';
+    });
+    g5nodes.forEach(function(n){
+      var t = n[metric]/max;
+      var r = 6 + t*13;
+      var isBridge = n.id === 'bridge';
+      var color = t > 0.7 ? 'var(--accent)' : (isBridge && metric==='B' ? 'var(--accent)' : 'var(--teal)');
+      parts += '<circle cx="'+n.x+'" cy="'+n.y+'" r="'+r.toFixed(1)+'" fill="'+color+'" opacity="'+(0.35+t*0.6).toFixed(2)+'"></circle>';
+    });
+    g5svg.innerHTML = parts;
+    var bridgeNode = g5byId['bridge'];
+    document.getElementById('g5-readout').innerHTML = 'Сигнал: <b class="val">'+metricLabel[metric]+'</b>. У связного персонажа '+metricLabel['D']+' = <span class="tnum">'+bridgeNode.D+'</span> (меньше, чем почти у всех), но '+metricLabel['B']+' = <span class="tnum">'+bridgeNode.B+'</span> — на порядок выше остальных.';
+  }
+  var g5svg = document.getElementById('g5-svg');
+  document.querySelectorAll('#g5-pills .pill-btn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      document.querySelectorAll('#g5-pills .pill-btn').forEach(function(b){ b.classList.remove('active'); });
+      btn.classList.add('active');
+      g5Render(btn.dataset.metric);
+    });
+  });
+  g5Render('F');
+
+  // ================= CHAPTER 5b: Jenks natural breaks on real Demons scores =================
+  var g5bScores = [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0005,0.0005,0.0005,0.0005,0.0005,0.0005,0.0005,0.0005,0.0005,0.001,0.0014,0.0023,0.0028,0.0042,0.0069,0.0069,0.007,0.0084,0.0088,0.0088,0.0088,0.0093,0.0097,0.0097,0.0107,0.0107,0.0107,0.0149,0.0168,0.0168,0.0168,0.0187,0.0199,0.0251,0.0311,0.0315,0.0348,0.0458,0.0504,0.061,0.0631,0.0641,0.0768,0.081,0.0822,0.0958,0.1074,0.1183,0.1303,0.1436,0.154,0.1741,0.2023,0.2235,0.2247,0.2318,0.284,0.291,0.3174,0.3471,0.5528,0.5697,0.6824,0.7459];
+
+  // Fisher's exact algorithm (Jenks natural breaks): the DP-optimal partition of
+  // sorted 1-D data into k classes minimizing total within-class squared error.
+  function fisherJenks(sortedValues, k){
+    var n = sortedValues.length;
+    var prefix = [0], prefix2 = [0];
+    for (var i=0;i<n;i++){ prefix.push(prefix[i]+sortedValues[i]); prefix2.push(prefix2[i]+sortedValues[i]*sortedValues[i]); }
+    function sse(i,j){ var m=j-i; if(m<=0) return 0; var s=prefix[j]-prefix[i]; var s2=prefix2[j]-prefix2[i]; return s2-(s*s)/m; }
+    var INF = Infinity;
+    var dp = [], bt = [];
+    for (var c=0;c<=k;c++){ dp.push(new Array(n+1).fill(INF)); bt.push(new Array(n+1).fill(0)); }
+    dp[0][0] = 0;
+    for (var c2=1;c2<=k;c2++){
+      for (var j=c2;j<=n;j++){
+        var best=INF, bestm=0;
+        for (var m=c2-1;m<j;m++){
+          if (dp[c2-1][m]===INF) continue;
+          var cost = dp[c2-1][m] + sse(m,j);
+          if (cost<best){ best=cost; bestm=m; }
+        }
+        dp[c2][j]=best; bt[c2][j]=bestm;
+      }
+    }
+    var breaks = []; var j2=n, c3=k;
+    while (c3>0){ var m2=bt[c3][j2]; breaks.push(m2); j2=m2; c3--; }
+    breaks.sort(function(a,b){return a-b;});
+    breaks.shift();
+    return breaks; // ascending internal break indices
+  }
+
+  var g5bSorted = g5bScores.slice().sort(function(a,b){return a-b;});
+  var g5bSvg = document.getElementById('g5b-svg');
+  function g5bRender(k){
+    var breaks = fisherJenks(g5bSorted, k);
+    function classOf(idx){ var c=0; for (var b=0;b<breaks.length;b++){ if (idx>=breaks[b]) c=b+1; } return c; }
+    var maxScore = g5bSorted[g5bSorted.length-1];
+    var parts = '';
+    g5bSorted.forEach(function(v, idx){
+      var cls = classOf(idx);
+      var mainClass = k===3 ? (cls>=1) : (cls===k-1);
+      var x = 20 + Math.pow(v/maxScore, 0.42) * 580;
+      var color = mainClass ? 'var(--accent)' : 'var(--muted)';
+      parts += '<circle cx="'+x.toFixed(1)+'" cy="35" r="4" fill="'+color+'" fill-opacity="'+(mainClass?0.9:0.45)+'"></circle>';
+    });
+    g5bSvg.innerHTML = parts;
+    var mainCount = 0;
+    g5bSorted.forEach(function(v, idx){ if ((k===3 ? classOf(idx)>=1 : classOf(idx)===k-1)) mainCount++; });
+    var secondaryCount = g5bSorted.length - mainCount;
+    // graph_stats.natural_breaks() returns the midpoint between the two values
+    // straddling each cut — this mirrors that exactly so the number shown here
+    // is the same threshold the real pipeline would compute.
+    var lowerBreakIdx = breaks[0];
+    var threshold = (g5bSorted[lowerBreakIdx-1] + g5bSorted[lowerBreakIdx]) / 2;
+    var matchNote = (k===3 && mainCount===16 && secondaryCount===61)
+      ? ' Совпадает с реальным делением «Бесов»: 16 главных, 61 второстепенный.'
+      : (k===2 ? ' При 2 классах алгоритм цепляется за самый большой разрыв — между 4 сверхглавными героями и всеми остальными, а не за границу «Главные / Второстепенные».' : '');
+    g5bSvg.setAttribute('aria-label', 'Классы: '+ (k) );
+    document.getElementById('g5b-readout').innerHTML = 'k = <b class="val">'+k+'</b>'+(k===3?' (нижняя точка разрыва — порог, второй и третий классы вместе становятся «Главными»)':'')+', порог score ≈ <span class="tnum val">'+threshold.toFixed(4)+'</span> → <span class="tnum val">'+mainCount+'</span> «главных», <span class="tnum val">'+secondaryCount+'</span> «второстепенных».'+matchNote;
+  }
+  document.querySelectorAll('#g5b-pills .pill-btn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      document.querySelectorAll('#g5b-pills .pill-btn').forEach(function(b){ b.classList.remove('active'); });
+      btn.classList.add('active');
+      g5bRender(parseInt(btn.dataset.k, 10));
+    });
+  });
+  g5bRender(3);
+})();
+</script>
+</body>
+</html>

@@ -851,6 +851,40 @@ a:hover { color: var(--hover-color); }
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.help-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: auto;
+  padding: 6px 12px;
+  flex-shrink: 0;
+  border: 1px solid var(--border-color);
+  border-radius: 999px;
+  color: var(--text-muted);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: color .15s, border-color .15s, background .15s;
+}
+.help-link:hover {
+  color: var(--accent-color);
+  border-color: color-mix(in srgb, var(--accent-color) 40%, var(--border-color));
+  background: var(--accent-soft);
+}
+.help-link[hidden] { display: none; }
+.help-icon {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 10px;
+}
 .tab-bar {
   gap: 26px;
   padding: 0 16px;
@@ -1292,6 +1326,8 @@ a:hover { color: var(--hover-color); }
   .novel-header { padding: 10px 16px; gap: 8px; }
   .novel-header h1 { font-size: 16px; }
   .novel-header p { display: none; }
+  .help-link { padding: 6px; }
+  .help-link .help-text { display: none; }
   .explorer-header { padding: 10px 16px; gap: 8px; }
   .explorer-header h1 { font-size: 16px; }
   .catalog-wrap { padding: 20px 16px; }

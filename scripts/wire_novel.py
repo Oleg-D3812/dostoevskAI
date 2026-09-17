@@ -177,6 +177,7 @@ def build_features(root, warnings):
             "id": "character-network", "renderer": "graph",
             "label": {"ru": "Граф связей", "en": "Character network"},
             "status": "ready", "entry": "character-network.json",
+            "help": "../../../explorers/character_network_explained.html",
         })
     else:
         warnings.append("no character-network.json found - character-network feature omitted")
@@ -185,7 +186,9 @@ def build_features(root, warnings):
         features.append({
             "id": "emotion-vad", "renderer": "explorer-index",
             "label": {"ru": "Эмоциональный анализ", "en": "Emotion analysis"},
-            "status": "ready", "entry": "manifest.json", "explorers": EXPLORERS,
+            "status": "ready", "entry": "manifest.json",
+            "help": "../../../explorers/vad_to_plutchik_explained.html",
+            "explorers": EXPLORERS,
         })
     else:
         warnings.append("no emo-characters.json + profiles/ + fragments/ found - emotion-vad feature omitted")

@@ -48,6 +48,7 @@
   function openFeature(feature, updateUrl, explanation) {
     if (activeController) activeController.abort();
     activeController = new AbortController(); activateFeature(feature.id);
+    updateHelpLink(feature);
     if (updateUrl) {
       var url = new URL(window.location.href); url.searchParams.set("id", pageContext.novel.id);
       url.searchParams.set("feature", feature.id); history.pushState(null, "", url);
@@ -64,6 +65,16 @@
   function activateFeature(featureId) {
     document.querySelectorAll(".tab-btn").forEach(function(button) { button.classList.toggle("active", button.dataset.featureId === featureId); });
     document.querySelectorAll(".tab-panel").forEach(function(panel) { panel.classList.toggle("active", panel.id === "panel-" + featureId); });
+  }
+
+  function updateHelpLink(feature) {
+    var link = document.getElementById("helpLink");
+    if (!link) return;
+    if (!feature.help) { link.hidden = true; return; }
+    var url = new URL(AtlasData.resolveRelative(pageContext.manifestUrl, feature.help));
+    url.searchParams.set("novel", pageContext.novel.id);
+    link.href = url.toString();
+    link.hidden = false;
   }
 
   function loadGraph(context) {

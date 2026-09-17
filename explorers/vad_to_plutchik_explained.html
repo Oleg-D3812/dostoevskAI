@@ -1,0 +1,646 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Как текст становится вектором VAD, затем одной из 8 эмоций Плутчика и кластером состояний — на живых мини-моделях.">
+<title>Как текст становится числом</title>
+<style>
+  :root{
+    --bg:#f4f2ed; --surface:#ffffff; --surface-2:#fbfaf7; --text:#17201f; --muted:#66706d;
+    --line:rgba(23,32,31,.13); --accent:#c9532f; --accent-soft:rgba(201,83,47,.12);
+    --teal:#187f78; --teal-soft:rgba(24,127,120,.12);
+    --violet:#6857a5; --violet-soft:rgba(104,87,165,.12);
+    --amber:#9a6a16; --amber-soft:rgba(154,106,22,.14);
+    --rose:#a54368; --rose-soft:rgba(165,67,104,.12);
+    --shadow:0 14px 40px rgba(23,32,31,.08);
+    --mono:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;
+    --serif:Georgia,"Times New Roman",serif;
+    --sans:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#111615; --surface:#171d1c; --surface-2:#1a201f; --text:#edf0ea; --muted:#9ba6a2;
+      --line:rgba(237,240,234,.13); --accent:#ef7a5f; --accent-soft:rgba(239,122,95,.14);
+      --teal:#4eb8ae; --teal-soft:rgba(78,184,174,.13); --violet:#a796e6; --violet-soft:rgba(167,150,230,.13);
+      --amber:#d0aa5a; --amber-soft:rgba(208,170,90,.13); --rose:#d98aab; --rose-soft:rgba(217,138,171,.13);
+      --shadow:0 14px 44px rgba(0,0,0,.32);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#111615; --surface:#171d1c; --surface-2:#1a201f; --text:#edf0ea; --muted:#9ba6a2;
+    --line:rgba(237,240,234,.13); --accent:#ef7a5f; --accent-soft:rgba(239,122,95,.14);
+    --teal:#4eb8ae; --teal-soft:rgba(78,184,174,.13); --violet:#a796e6; --violet-soft:rgba(167,150,230,.13);
+    --amber:#d0aa5a; --amber-soft:rgba(208,170,90,.13); --rose:#d98aab; --rose-soft:rgba(217,138,171,.13);
+    --shadow:0 14px 44px rgba(0,0,0,.32);
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;}
+  body{
+    background:var(--bg); color:var(--text); font-family:var(--sans);
+    -webkit-font-smoothing:antialiased; padding:0 20px;
+  }
+  .wrap{ width:min(760px, 100%); margin:0 auto; }
+  a{color:inherit;}
+  h1,h2,h3{font-family:var(--serif); font-weight:400; text-wrap:balance;}
+  code, .mono{font-family:var(--mono);}
+  .tnum{font-variant-numeric:tabular-nums;}
+
+  /* ---- header ---- */
+  header.page{ padding:44px 0 20px; border-bottom:1px solid var(--line); }
+  .eyebrow{margin:0 0 10px; color:var(--accent); font-size:12px; font-weight:700; letter-spacing:.16em; text-transform:uppercase;}
+  h1.title{margin:0; font-size:clamp(30px,6vw,46px); letter-spacing:-.02em; line-height:1.06; max-width:15ch;}
+  p.lede{max-width:56ch; margin:16px 0 0; color:var(--muted); font-size:16px; line-height:1.6;}
+  .back{display:inline-block; margin-bottom:18px; font-size:12px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); text-decoration:none;}
+  .back:hover{color:var(--text);}
+
+  /* ---- step nav ---- */
+  nav.steps{
+    position:sticky; top:0; z-index:20; display:flex; gap:4px; overflow-x:auto;
+    padding:12px 0; margin:0 -20px; padding-inline:20px; background:var(--bg);
+    border-bottom:1px solid var(--line);
+  }
+  nav.steps a{
+    flex:none; display:flex; align-items:center; gap:7px; padding:7px 13px; border-radius:999px;
+    border:1px solid transparent; color:var(--muted); font-size:12.5px; font-weight:600; text-decoration:none;
+    white-space:nowrap; transition:border-color .15s, color .15s, background .15s;
+  }
+  nav.steps a .n{
+    width:16px; height:16px; border-radius:50%; display:grid; place-items:center; font-size:9.5px;
+    font-family:var(--serif); border:1px solid currentColor;
+  }
+  nav.steps a.active{ color:var(--accent); border-color:color-mix(in srgb, var(--accent) 40%, var(--line)); background:var(--accent-soft); }
+
+  /* ---- chapters ---- */
+  main{padding:8px 0 40px;}
+  section.chapter{ padding:52px 0; border-bottom:1px solid var(--line); scroll-margin-top:64px; }
+  section.chapter:last-of-type{border-bottom:none;}
+  .kicker{ display:flex; align-items:center; gap:10px; margin:0 0 12px; color:var(--muted); font-size:12px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; }
+  .kicker .dot{width:9px; height:9px; border-radius:50%;}
+  h2.q{margin:0; font-size:clamp(22px,3.6vw,30px); letter-spacing:-.015em; line-height:1.18; max-width:20ch;}
+  p.explain{max-width:60ch; margin:14px 0 0; color:var(--muted); font-size:15.5px; line-height:1.62;}
+
+  .demo{
+    margin-top:26px; padding:22px; border:1px solid var(--line); border-radius:20px;
+    background:var(--surface); box-shadow:var(--shadow);
+  }
+  .demo-grid{display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:22px; align-items:center;}
+  @media (max-width:640px){ .demo-grid{grid-template-columns:1fr;} }
+
+  .field{display:flex; flex-direction:column; gap:6px; margin-bottom:14px;}
+  .field:last-child{margin-bottom:0;}
+  .field-label{display:flex; justify-content:space-between; font-size:12.5px; color:var(--muted); font-weight:600;}
+  .field-label b{color:var(--text); font-weight:700;}
+  input[type=range]{ width:100%; accent-color:var(--accent); }
+
+  .presets{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:16px;}
+  .preset-btn{
+    appearance:none; border:1px solid var(--line); background:var(--surface-2); color:var(--text);
+    padding:8px 12px; border-radius:12px; font:inherit; font-size:13px; cursor:pointer; text-align:left; line-height:1.4;
+  }
+  .preset-btn:hover{border-color:color-mix(in srgb, var(--accent) 40%, var(--line));}
+  .preset-btn.active{border-color:var(--accent); background:var(--accent-soft); color:var(--accent);}
+
+  svg{display:block; width:100%; height:auto; overflow:visible;}
+  .axis-label{ font-size:9.5px; fill:var(--muted); font-family:var(--sans); }
+  .grid-line{ stroke:var(--line); stroke-width:1; }
+
+  .readout{
+    margin-top:14px; padding:10px 13px; border-radius:12px; background:var(--surface-2);
+    border:1px solid var(--line); font-size:13.5px;
+  }
+  .readout .val{color:var(--accent); font-weight:700;}
+
+  .barlist{display:flex; flex-direction:column; gap:7px;}
+  .bar-row{display:grid; grid-template-columns:88px 1fr 42px; align-items:center; gap:10px; font-size:12.5px;}
+  .bar-track{height:9px; border-radius:999px; background:var(--surface-2); overflow:hidden; border:1px solid var(--line);}
+  .bar-fill{height:100%; border-radius:999px; transition:width .18s ease;}
+  .bar-pct{text-align:right; color:var(--muted); font-size:11.5px;}
+
+  .tag{display:inline-flex; align-items:center; gap:6px; padding:5px 11px; border-radius:999px; font-size:11.5px; font-weight:700; letter-spacing:.04em;}
+  .tag.stable{background:var(--teal-soft); color:var(--teal);}
+  .tag.sensitive{background:var(--amber-soft); color:var(--amber);}
+  .tag.unstable{background:var(--rose-soft); color:var(--rose);}
+
+  details.math{ margin-top:16px; border:1px dashed var(--line); border-radius:14px; padding:0; }
+  details.math summary{
+    cursor:pointer; list-style:none; padding:11px 14px; font-size:12.5px; font-weight:700;
+    color:var(--muted); letter-spacing:.03em; display:flex; align-items:center; gap:8px;
+  }
+  details.math summary::-webkit-details-marker{display:none;}
+  details.math summary::before{content:"+"; font-family:var(--serif); font-size:15px; color:var(--accent);}
+  details.math[open] summary::before{content:"–";}
+  .math-body{padding:0 16px 16px; font-size:13.5px; line-height:1.65; color:var(--text);}
+  .math-body .formula{
+    margin:8px 0; padding:10px 12px; border-radius:10px; background:var(--surface-2); border:1px solid var(--line);
+    font-family:var(--mono); font-size:12.5px; overflow-x:auto; white-space:pre;
+  }
+  .math-body ul{margin:8px 0 0; padding-left:18px; color:var(--muted);}
+  .math-body p{margin:0 0 8px;}
+
+  .k-buttons{display:flex; gap:8px; margin-bottom:14px;}
+  .k-btn{
+    flex:1; appearance:none; border:1px solid var(--line); background:var(--surface-2); color:var(--text);
+    padding:9px 0; border-radius:12px; font:inherit; font-weight:700; font-size:14px; cursor:pointer;
+  }
+  .k-btn.active{border-color:var(--violet); background:var(--violet-soft); color:var(--violet);}
+
+  .qbars{display:flex; gap:8px; align-items:end; height:64px; margin-top:14px;}
+  .qbar{flex:1; display:flex; flex-direction:column; align-items:center; gap:6px; justify-content:flex-end; height:100%;}
+  .qbar i{width:100%; border-radius:6px 6px 2px 2px; background:var(--surface-2); border:1px solid var(--line); transition:height .2s ease, background .2s ease;}
+  .qbar span{font-size:10.5px; color:var(--muted); font-weight:700;}
+  .qbar.best i{background:var(--violet-soft); border-color:var(--violet);}
+  .qbar.best span{color:var(--violet);}
+
+  .flow{display:grid; grid-template-columns:1fr; gap:12px; margin-top:8px;}
+  @media (min-width:640px){ .flow{grid-template-columns:1fr auto 1fr auto 1fr;} }
+  .flow-arrow{display:flex; align-items:center; justify-content:center; color:var(--muted); font-size:18px;}
+  @media (max-width:639px){ .flow-arrow{transform:rotate(90deg); margin:-2px 0;} }
+  .flow-card{padding:15px; border:1px solid var(--line); border-radius:14px; background:var(--surface-2);}
+  .flow-card h4{margin:0 0 8px; font-size:11px; letter-spacing:.09em; text-transform:uppercase; color:var(--muted);}
+  .flow-card .quote{font-size:13px; line-height:1.5; color:var(--text); font-style:italic; margin:0 0 6px;}
+  .flow-card .name-out{font-family:var(--serif); font-size:18px; color:var(--violet);}
+
+  .out-grid{display:grid; grid-template-columns:1fr; gap:14px; margin-top:20px;}
+  @media (min-width:640px){ .out-grid{grid-template-columns:1fr 1fr;} }
+  .out-card{padding:18px; border:1px solid var(--line); border-radius:16px; background:var(--surface); box-shadow:var(--shadow);}
+  .out-card h4{margin:0 0 10px; font-family:var(--serif); font-size:19px; font-weight:400;}
+  .out-card p{margin:0 0 12px; color:var(--muted); font-size:13.5px; line-height:1.5;}
+
+  footer.page{padding:34px 0 50px; color:var(--muted); font-size:13px; line-height:1.6; border-top:1px solid var(--line); margin-top:8px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="page">
+    <a class="back" id="back-link" href="../index.html">&larr; Эмоциональный анализ</a>
+    <p class="eyebrow">Методология</p>
+    <h1 class="title">Как текст становится числом</h1>
+    <p class="lede">Пять шагов, которыми фраза героя превращается в вектор VAD, затем в один из восьми плутчиковских эмоций и в кластер состояний. На каждом шаге — рабочая мини-модель: подвигайте её, прежде чем читать формулы.</p>
+  </header>
+
+  <nav class="steps" id="stepsNav">
+    <a href="#ch1"><span class="n">1</span>Фраза → VAD</a>
+    <a href="#ch2"><span class="n">2</span>Устойчивость</a>
+    <a href="#ch3"><span class="n">3</span>VAD → эмоция</a>
+    <a href="#ch4"><span class="n">4</span>Кластеры</a>
+    <a href="#ch5"><span class="n">5</span>Названия и выход</a>
+  </nav>
+
+  <main>
+
+    <!-- CHAPTER 1 -->
+    <section class="chapter" id="ch1">
+      <div class="kicker"><span class="dot" style="background:var(--accent)"></span>Шаг 1 — Извлечение и оценка</div>
+      <h2 class="q">Что чувствует герой в этой фразе?</h2>
+      <p class="explain">Каждая допущенная цитата получает три числа: <b>Valence</b> (приятно ↔ неприятно), <b>Arousal</b> (спокойно ↔ возбуждённо) и <b>Dominance</b> (беспомощно ↔ подконтрольно). Нажмите на пример или подвигайте ползунки — точка на графике и есть вектор VAD этой фразы.</p>
+
+      <div class="demo">
+        <div class="presets" id="ch1-presets">
+          <button class="preset-btn active" data-v="-0.75" data-a="0.7" data-d="-0.55">«Он похолодел от ужаса, не в силах пошевелиться»</button>
+          <button class="preset-btn" data-v="0.7" data-a="0.35" data-d="0.15">«Она обняла его с тихой, благодарной нежностью»</button>
+          <button class="preset-btn" data-v="-0.35" data-a="0.45" data-d="0.8">«Он усмехнулся холодно, чувствуя полную власть над разговором»</button>
+        </div>
+        <div class="demo-grid">
+          <div>
+            <div class="field">
+              <div class="field-label"><span>Valence</span><b class="tnum" id="ch1-vval">−0.75</b></div>
+              <input type="range" id="ch1-v" min="-1" max="1" step="0.05" value="-0.75">
+            </div>
+            <div class="field">
+              <div class="field-label"><span>Arousal</span><b class="tnum" id="ch1-aval">0.70</b></div>
+              <input type="range" id="ch1-a" min="-1" max="1" step="0.05" value="0.7">
+            </div>
+            <div class="field">
+              <div class="field-label"><span>Dominance <span style="opacity:.7">(размер точки)</span></span><b class="tnum" id="ch1-dval">−0.55</b></div>
+              <input type="range" id="ch1-d" min="-1" max="1" step="0.05" value="-0.55">
+            </div>
+          </div>
+          <div>
+            <svg viewBox="0 0 220 220" id="ch1-svg" role="img" aria-label="Точка вектора VAD на плоскости Valence–Arousal">
+              <line class="grid-line" x1="10" y1="110" x2="210" y2="110"></line>
+              <line class="grid-line" x1="110" y1="10" x2="110" y2="210"></line>
+              <text class="axis-label" x="196" y="105" text-anchor="end">V+</text>
+              <text class="axis-label" x="14" y="105">V−</text>
+              <text class="axis-label" x="114" y="20">A+</text>
+              <text class="axis-label" x="114" y="205">A−</text>
+              <circle id="ch1-dot" cx="110" cy="110" r="14" fill="var(--accent)" fill-opacity=".85"></circle>
+            </svg>
+          </div>
+        </div>
+        <div class="readout">x<sub>t</sub> = (<span class="tnum val" id="ch1-read-v">−0.75</span>, <span class="tnum val" id="ch1-read-a">0.70</span>, <span class="tnum val" id="ch1-read-d">−0.55</span>) — в диапазоне [−1, 1]³</div>
+
+        <details class="math">
+          <summary>Точный критерий допуска и оценки</summary>
+          <div class="math-body">
+            <p>До сохранения цитата должна пройти три проверки: <b>дословность</b> (точная подстрока текста), <b>эмоциональная релевантность</b> (сама по себе описывает состояние) и <b>атрибуция</b> (состояние принадлежит именно этому герою). Спорные и отрицательные решения перепроверяются вторым вызовом LLM.</p>
+            <div class="formula">Iₜ = Cₜ · Eₜ · Tₜ = 1
+xₜ = (Vₜ, Aₜ, Dₜ)ᵀ ∈ [-1,1]³</div>
+            <p>Оценка учитывает соседние предложения (до 350 символов с каждой стороны) для разрешения смысла — без них короткая цитата легко читается неоднозначно.</p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <!-- CHAPTER 2 -->
+    <section class="chapter" id="ch2">
+      <div class="kicker"><span class="dot" style="background:var(--teal)"></span>Шаг 2 — Проверка на шум</div>
+      <h2 class="q">Можно ли доверять одной оценке?</h2>
+      <p class="explain">Одна и та же фраза, оценённая семь раз подряд, каждый раз даёт чуть другое число. Ширина контекста вокруг цитаты меняет и разброс повторов, и то, куда в среднем «уезжает» оценка. Подвигайте окно контекста.</p>
+
+      <div class="demo">
+        <div class="field">
+          <div class="field-label"><span>Окно контекста h (соседних фрагментов)</span><b class="tnum" id="ch2-hval">0</b></div>
+          <input type="range" id="ch2-h" min="0" max="5" step="1" value="0">
+        </div>
+        <svg viewBox="0 0 640 90" id="ch2-svg" role="img" aria-label="Разброс семи повторных оценок на числовой оси">
+          <line class="grid-line" x1="20" y1="45" x2="620" y2="45"></line>
+          <g id="ch2-dots"></g>
+          <rect id="ch2-iqr" x="0" y="30" width="0" height="30" fill="var(--teal)" fill-opacity=".13" stroke="var(--teal)" stroke-opacity=".5"></rect>
+        </svg>
+        <div class="readout" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+          <span>IQR = <span class="tnum val" id="ch2-iqrval">0.42</span>, смещение от узкого окна (diam) = <span class="tnum val" id="ch2-diamval">0.10</span></span>
+          <span class="tag unstable" id="ch2-tag">нестабильно</span>
+        </div>
+
+        <details class="math">
+          <summary>Пороги и формулы устойчивости</summary>
+          <div class="math-body">
+            <div class="formula">mₜ,ₕ,ₐ = medianᵣ xₜ,ₕ,ᵣ,ₐ      IQRₜ,ₕ,ₐ = Q₀.₇₅ − Q₀.₂₅
+Δₜ(h,h′) = ‖mₜ,ₕ′ − mₜ,ₕ‖₂     diamₜ = maxₕ,ₕ′ Δₜ(h,h′)</div>
+            <p>Нестабильно: max IQR ≥ 0.25. Чувствительно к контексту: IQR &lt; 0.25, но diam ≥ 0.35. Иначе — стабильно.</p>
+            <p>Вывод эксперимента: расширять окно нужно до определённого предела — дальше разброс почти не падает, а смысл цитаты начинает «плыть». Отсюда — предложенческий контекст, а не максимально широкий.</p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <!-- CHAPTER 3 -->
+    <section class="chapter" id="ch3">
+      <div class="kicker"><span class="dot" style="background:var(--violet)"></span>Шаг 3 — Сопоставление с Плутчиком</div>
+      <h2 class="q">Какая это эмоция из восьми?</h2>
+      <p class="explain">У каждой из 8 базовых эмоций Плутчика есть свой «центр тяжести» в пространстве VAD. Фрагмент сравнивается со всеми восемью и получает не одну метку, а вес по каждой. Перетащите точку — веса пересчитаются на лету.</p>
+
+      <div class="demo">
+        <div class="demo-grid">
+          <div>
+            <svg viewBox="0 0 260 260" id="ch3-svg" role="img" aria-label="Плоскость Valence–Arousal с восемью эмоциями и перетаскиваемой точкой">
+              <line class="grid-line" x1="10" y1="130" x2="250" y2="130"></line>
+              <line class="grid-line" x1="130" y1="10" x2="130" y2="250"></line>
+              <g id="ch3-anchors"></g>
+              <circle id="ch3-dot" cx="130" cy="130" r="9" fill="var(--text)" stroke="var(--surface)" stroke-width="2" style="cursor:grab;"></circle>
+            </svg>
+            <p style="font-size:11.5px; color:var(--muted); margin:8px 0 0;">Упрощённая 2D-иллюстрация: в реальном пайплайне используется полная 3D-модель (VAD) с ковариацией на эмоцию.</p>
+          </div>
+          <div class="barlist" id="ch3-bars"></div>
+        </div>
+
+        <details class="math">
+          <summary>Точная формула (Махаланобис → вероятность)</summary>
+          <div class="math-body">
+            <p>Для каждой из 8 эмоций заранее посчитаны средний вектор μₑ и полная ковариация Σₑ по лексическому справочнику.</p>
+            <div class="formula">δ²ₜₑ = (xₜ − μₑ)ᵀ Σₑ⁻¹ (xₜ − μₑ)
+fₑ(xₜ) = exp(−δ²ₜₑ/2) / ((2π)^(3/2) |Σₑ|^(1/2))
+P(e | xₜ) = fₑ(xₜ) / Σⱼ fⱼ(xₜ)</div>
+            <p>Учитывается не только расстояние до среднего, но и форма «облака» эмоции — категории «вне модели» нет, фрагмент всегда распределяется между всеми восемью.</p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <!-- CHAPTER 4 -->
+    <section class="chapter" id="ch4">
+      <div class="kicker"><span class="dot" style="background:var(--rose)"></span>Шаг A–B — Кластеризация</div>
+      <h2 class="q">Сколько у героя разных состояний?</h2>
+      <p class="explain">Все фрагменты одного героя за роман — это облако точек в пространстве VAD. K-Means ищет в нём K сгущений. Слишком мало K — разное сольётся вместе; слишком много — одно состояние раздробится на копии. Переключите K.</p>
+
+      <div class="demo">
+        <div class="demo-grid">
+          <div>
+            <div class="k-buttons" id="ch4-kbuttons">
+              <button class="k-btn" data-k="3">K=3</button>
+              <button class="k-btn active" data-k="4">K=4</button>
+              <button class="k-btn" data-k="5">K=5</button>
+              <button class="k-btn" data-k="6">K=6</button>
+            </div>
+            <svg viewBox="0 0 300 220" id="ch4-svg" role="img" aria-label="Точки-фрагменты, раскрашенные по кластеру, с центроидами"></svg>
+          </div>
+          <div>
+            <p style="margin:0 0 6px; font-size:12.5px; color:var(--muted); font-weight:600;">Q(K) — итоговый балл (компактность + разделённость + устойчивость)</p>
+            <div class="qbars" id="ch4-qbars"></div>
+            <div class="readout" style="margin-top:16px;">Для Раскольникова финально выбрано <b class="val">K = 4</b> — по максимуму Q(K) на диапазоне {3,4,5,6}.</div>
+          </div>
+        </div>
+
+        <details class="math">
+          <summary>Как считается Q(K)</summary>
+          <div class="math-body">
+            <div class="formula">J_K = Σᵢ Σₜ∈Cᵢ ‖xₜ − cᵢ‖₂²        cᵢ = (1/nᵢ) Σₜ∈Cᵢ xₜ
+Q(K) = (1/5)[ Z_S + Z_CH − Z_DB + Z_ARI + Z_(n_min/N) ]</div>
+            <ul>
+              <li>Silhouette, Calinski–Harabasz, Davies–Bouldin — форма и разделённость кластеров.</li>
+              <li>Средний ARI по 100 случайным подвыборкам (≈80% без возвращения) — устойчивость решения.</li>
+              <li>Доля минимального кластера — штраф за один аномально маленький кластер.</li>
+            </ul>
+            <p>50 инициализаций K-Means на каждый K, seed 42. Выбирается K с максимальным Q.</p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <!-- CHAPTER 5 -->
+    <section class="chapter" id="ch5">
+      <div class="kicker"><span class="dot" style="background:var(--amber)"></span>Шаг C–D — Имя и итог</div>
+      <h2 class="q">Что получает читатель в итоге</h2>
+      <p class="explain">Кластер — это пока просто номер и координаты. Название ему даёт LLM, глядя на восемь ближайших к центру цитат. Названия не меняют границы кластеров — это интерпретация, а не новая модель.</p>
+
+      <div class="demo">
+        <div class="flow">
+          <div class="flow-card">
+            <h4>Центроид кластера 2</h4>
+            <p style="font-size:13px; color:var(--muted); margin:0;">c₂ = (−0.31, 0.62, −0.44)<br>18 фрагментов, r = 0.21</p>
+          </div>
+          <div class="flow-arrow">→</div>
+          <div class="flow-card">
+            <h4>8 ближайших цитат</h4>
+            <p class="quote">«...сердце его стучало так, что заглушало все мысли...»</p>
+            <p class="quote">«...он не смел поднять глаз...»</p>
+            <p style="font-size:12px; color:var(--muted); margin:0;">+ 6 ещё</p>
+          </div>
+          <div class="flow-arrow">→</div>
+          <div class="flow-card">
+            <h4>Название от LLM</h4>
+            <p class="name-out">«Тревожное оцепенение»</p>
+          </div>
+        </div>
+
+        <details class="math">
+          <summary>Формулы кластерного профиля Плутчика (вспомогательная ветвь)</summary>
+          <div class="math-body">
+            <div class="formula">rᵢ = √[(1/nᵢ) Σₜ∈Cᵢ ‖xₜ − cᵢ‖₂²]
+αᵢ = nᵢ/N     dᵢₑ = ‖cᵢ − pₑ‖₂     sᵢₑ(σ) = exp(−dᵢₑ²/2σ²)     Fₑ(σ) = Σᵢ αᵢ·sᵢₑ(σ)</div>
+            <p>Даёт восемь независимых мер сходства кластеров героя с прототипами эмоций — не финальный способ расчёта профилей, а обзорное сопоставление.</p>
+          </div>
+        </details>
+
+        <div class="out-grid">
+          <div class="out-card">
+            <h4>8 базовых эмоций</h4>
+            <p>На уровне фрагмента и главы — веса joy, trust, fear, surprise, sadness, disgust, anger, anticipation.</p>
+            <div class="barlist" id="ch5-bars8"></div>
+          </div>
+          <div class="out-card">
+            <h4>16 компонентов</h4>
+            <p>8 базовых + 8 диад (love, submission, awe, disapproval, remorse, contempt, aggressiveness, optimism), с непрерывной силой связи.</p>
+            <div class="formula" style="margin-top:0;">dᵢⱼ = 2√(pᵢpⱼ)     q_c = r(c)/Z,  Σq_c = 1</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="page">
+    Числа и точки в демо иллюстративны и не взяты из реального прогона модели — они показывают форму метода, а не значения конкретных фрагментов текста.
+  </footer>
+</div>
+
+<script src="../js/data-client.js"></script>
+<script>
+(function(){
+  "use strict";
+
+  var novelId = new URLSearchParams(window.location.search).get('novel') || 'crime-and-punishment';
+  AtlasData.loadNovelContext(novelId, { catalogUrl: '../data/catalog.json' }).then(function(context){
+    document.title = AtlasData.localized(context.novel.title) + ' — как текст становится числом';
+    var backLink = document.getElementById('back-link');
+    backLink.href = '../novel.html?id=' + encodeURIComponent(context.novel.id) + '&feature=emotion-vad';
+  }).catch(function(){});
+
+  // ---------- scrollspy ----------
+  var navLinks = Array.prototype.slice.call(document.querySelectorAll('#stepsNav a'));
+  var sections = navLinks.map(function(a){ return document.querySelector(a.getAttribute('href')); });
+  function onScroll(){
+    var y = window.scrollY + 90;
+    var idx = 0;
+    for (var i=0;i<sections.length;i++){ if (sections[i] && sections[i].offsetTop <= y) idx = i; }
+    navLinks.forEach(function(a,i){ a.classList.toggle('active', i===idx); });
+  }
+  window.addEventListener('scroll', onScroll, { passive:true });
+  onScroll();
+
+  // ---------- chapter 1: quote -> VAD ----------
+  var c1v = document.getElementById('ch1-v'), c1a = document.getElementById('ch1-a'), c1d = document.getElementById('ch1-d');
+  var c1dot = document.getElementById('ch1-dot');
+  function fmt(n){ return (n>=0?'':'') + n.toFixed(2); }
+  function ch1Render(){
+    var v = parseFloat(c1v.value), a = parseFloat(c1a.value), d = parseFloat(c1d.value);
+    document.getElementById('ch1-vval').textContent = fmt(v);
+    document.getElementById('ch1-aval').textContent = fmt(a);
+    document.getElementById('ch1-dval').textContent = fmt(d);
+    document.getElementById('ch1-read-v').textContent = fmt(v);
+    document.getElementById('ch1-read-a').textContent = fmt(a);
+    document.getElementById('ch1-read-d').textContent = fmt(d);
+    var cx = 110 + v*95, cy = 110 - a*95;
+    var r = 8 + (d+1)/2 * 16;
+    c1dot.setAttribute('cx', cx); c1dot.setAttribute('cy', cy); c1dot.setAttribute('r', r);
+  }
+  [c1v,c1a,c1d].forEach(function(el){ el.addEventListener('input', function(){
+    document.querySelectorAll('#ch1-presets .preset-btn').forEach(function(b){ b.classList.remove('active'); });
+    ch1Render();
+  }); });
+  document.querySelectorAll('#ch1-presets .preset-btn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      document.querySelectorAll('#ch1-presets .preset-btn').forEach(function(b){ b.classList.remove('active'); });
+      btn.classList.add('active');
+      c1v.value = btn.dataset.v; c1a.value = btn.dataset.a; c1d.value = btn.dataset.d;
+      ch1Render();
+    });
+  });
+  ch1Render();
+
+  // ---------- chapter 2: stability ----------
+  var ch2Data = [
+    { spread:0.42, diam:0.10, jitter:[-0.20,0.15,-0.05,0.30,-0.35,0.08,-0.12] },
+    { spread:0.33, diam:0.15, jitter:[-0.15,0.12,-0.04,0.22,-0.27,0.06,-0.09] },
+    { spread:0.27, diam:0.22, jitter:[-0.12,0.10,-0.03,0.18,-0.22,0.05,-0.07] },
+    { spread:0.21, diam:0.40, jitter:[-0.09,0.08,-0.02,0.13,-0.16,0.04,-0.05] },
+    { spread:0.17, diam:0.29, jitter:[-0.07,0.06,-0.01,0.10,-0.12,0.03,-0.04] },
+    { spread:0.15, diam:0.31, jitter:[-0.06,0.05,-0.01,0.08,-0.10,0.02,-0.03] }
+  ];
+  var ch2Labels = ['0','1','2','3','5','8'];
+  var ch2h = document.getElementById('ch2-h');
+  var ch2dots = document.getElementById('ch2-dots');
+  var ch2iqr = document.getElementById('ch2-iqr');
+  function ch2Render(){
+    var idx = parseInt(ch2h.value, 10);
+    document.getElementById('ch2-hval').textContent = ch2Labels[idx];
+    var d = ch2Data[idx];
+    var cx0 = 320;
+    var scale = 260;
+    ch2dots.innerHTML = '';
+    d.jitter.forEach(function(j){
+      var x = cx0 + j*scale;
+      var c = document.createElementNS('http://www.w3.org/2000/svg','circle');
+      c.setAttribute('cx', x); c.setAttribute('cy', 45); c.setAttribute('r', 5);
+      c.setAttribute('fill', 'var(--teal)'); c.setAttribute('fill-opacity', '.75');
+      ch2dots.appendChild(c);
+    });
+    var half = d.spread/2*scale;
+    ch2iqr.setAttribute('x', cx0-half); ch2iqr.setAttribute('width', half*2);
+    document.getElementById('ch2-iqrval').textContent = d.spread.toFixed(2);
+    document.getElementById('ch2-diamval').textContent = d.diam.toFixed(2);
+    var tag = document.getElementById('ch2-tag');
+    if (d.spread >= 0.25) { tag.textContent = 'нестабильно'; tag.className = 'tag unstable'; }
+    else if (d.diam >= 0.35) { tag.textContent = 'чувствительно к контексту'; tag.className = 'tag sensitive'; }
+    else { tag.textContent = 'стабильно'; tag.className = 'tag stable'; }
+  }
+  ch2h.addEventListener('input', ch2Render);
+  ch2Render();
+
+  // ---------- chapter 3: VAD -> plutchik ----------
+  var ch3Emotions = [
+    { id:'joy', label:'радость', v:0.75, a:0.25, color:'var(--amber)' },
+    { id:'trust', label:'доверие', v:0.6, a:-0.25, color:'var(--teal)' },
+    { id:'fear', label:'страх', v:-0.6, a:0.65, color:'var(--violet)' },
+    { id:'surprise', label:'удивление', v:0.05, a:0.85, color:'var(--rose)' },
+    { id:'sadness', label:'грусть', v:-0.65, a:-0.5, color:'var(--muted)' },
+    { id:'disgust', label:'отвращение', v:-0.8, a:0.05, color:'var(--accent)' },
+    { id:'anger', label:'гнев', v:-0.5, a:0.75, color:'#b3453f' },
+    { id:'anticipation', label:'предвкушение', v:0.4, a:0.45, color:'#7a8f3f' }
+  ];
+  var ch3svg = document.getElementById('ch3-svg');
+  var ch3anchors = document.getElementById('ch3-anchors');
+  var ch3dot = document.getElementById('ch3-dot');
+  var ch3bars = document.getElementById('ch3-bars');
+  function toXY(v,a){ return [130 + v*115, 130 - a*115]; }
+  ch3Emotions.forEach(function(e){
+    var p = toXY(e.v, e.a);
+    var g = document.createElementNS('http://www.w3.org/2000/svg','g');
+    var c = document.createElementNS('http://www.w3.org/2000/svg','circle');
+    c.setAttribute('cx', p[0]); c.setAttribute('cy', p[1]); c.setAttribute('r', 4); c.setAttribute('fill', e.color);
+    var t = document.createElementNS('http://www.w3.org/2000/svg','text');
+    t.setAttribute('x', p[0]); t.setAttribute('y', p[1]-8); t.setAttribute('text-anchor','middle');
+    t.setAttribute('class','axis-label'); t.textContent = e.label;
+    g.appendChild(c); g.appendChild(t);
+    ch3anchors.appendChild(g);
+    e._x = p[0]; e._y = p[1];
+  });
+  ch3bars.innerHTML = ch3Emotions.map(function(e){
+    return '<div class="bar-row" data-id="'+e.id+'"><span>'+e.label+'</span>'+
+      '<div class="bar-track"><div class="bar-fill" style="background:'+e.color+'; width:0%"></div></div>'+
+      '<span class="bar-pct tnum">0%</span></div>';
+  }).join('');
+  function ch3Weights(px, py){
+    var v = (px-130)/115, a = (130-py)/115;
+    var sigma = 0.65;
+    var raw = ch3Emotions.map(function(e){
+      var dx=v-e.v, dy=a-e.a, d2=dx*dx+dy*dy;
+      return Math.exp(-d2/(2*sigma*sigma));
+    });
+    var sum = raw.reduce(function(s,x){return s+x;}, 0);
+    return raw.map(function(x){ return x/sum; });
+  }
+  function ch3Render(px, py){
+    ch3dot.setAttribute('cx', px); ch3dot.setAttribute('cy', py);
+    var w = ch3Weights(px, py);
+    var rows = ch3Emotions.map(function(e,i){ return { e:e, w:w[i] }; }).sort(function(a,b){ return b.w-a.w; });
+    rows.forEach(function(row){
+      var el = ch3bars.querySelector('[data-id="'+row.e.id+'"]');
+      ch3bars.appendChild(el);
+      el.querySelector('.bar-fill').style.width = (row.w*100).toFixed(0)+'%';
+      el.querySelector('.bar-pct').textContent = (row.w*100).toFixed(0)+'%';
+    });
+  }
+  (function initDrag(){
+    var dragging = false;
+    function pt(evt){
+      var rect = ch3svg.getBoundingClientRect();
+      var cx = (evt.touches ? evt.touches[0].clientX : evt.clientX) - rect.left;
+      var cy = (evt.touches ? evt.touches[0].clientY : evt.clientY) - rect.top;
+      var scale = 260/rect.width;
+      return [Math.max(10,Math.min(250, cx*scale)), Math.max(10,Math.min(250, cy*scale))];
+    }
+    function down(evt){ dragging = true; var p = pt(evt); ch3Render(p[0], p[1]); evt.preventDefault(); }
+    function move(evt){ if(!dragging) return; var p = pt(evt); ch3Render(p[0], p[1]); }
+    function up(){ dragging = false; }
+    ch3dot.addEventListener('mousedown', down); ch3dot.addEventListener('touchstart', down, {passive:false});
+    ch3svg.addEventListener('mousedown', down); ch3svg.addEventListener('touchstart', down, {passive:false});
+    window.addEventListener('mousemove', move); window.addEventListener('touchmove', move, {passive:false});
+    window.addEventListener('mouseup', up); window.addEventListener('touchend', up);
+  })();
+  ch3Render(130,130);
+
+  // ---------- chapter 4: clustering ----------
+  var ch4Points = [
+    [40,40],[55,32],[35,55],[60,50],[48,65],[70,38],[45,28],
+    [230,35],[245,48],[220,55],[250,30],[235,62],[210,40],[248,60],
+    [50,165],[65,180],[40,190],[58,155],[75,170],[45,175],
+    [220,170],[235,185],[210,160],[245,178],[228,195],[205,180],[240,150],[218,150]
+  ];
+  var ch4Colors = ['var(--accent)','var(--teal)','var(--violet)','var(--amber)','var(--rose)','#7a8f3f'];
+  var ch4Q = { 3:0.61, 4:0.78, 5:0.69, 6:0.58 };
+  var ch4svg = document.getElementById('ch4-svg');
+  function kmeans(points, k){
+    var n = points.length;
+    var centroids = [];
+    for (var i=0;i<k;i++){ centroids.push(points[Math.floor(i*n/k)].slice()); }
+    var assign = new Array(n).fill(0);
+    for (var it=0; it<12; it++){
+      for (var p=0;p<n;p++){
+        var best=0, bestD=Infinity;
+        for (var c=0;c<k;c++){
+          var dx=points[p][0]-centroids[c][0], dy=points[p][1]-centroids[c][1];
+          var dd=dx*dx+dy*dy;
+          if(dd<bestD){bestD=dd;best=c;}
+        }
+        assign[p]=best;
+      }
+      var sums = []; for (var c2=0;c2<k;c2++) sums.push([0,0,0]);
+      for (var p2=0;p2<n;p2++){ var cc=assign[p2]; sums[cc][0]+=points[p2][0]; sums[cc][1]+=points[p2][1]; sums[cc][2]+=1; }
+      for (var c3=0;c3<k;c3++){ if(sums[c3][2]>0) centroids[c3]=[sums[c3][0]/sums[c3][2], sums[c3][1]/sums[c3][2]]; }
+    }
+    return { assign:assign, centroids:centroids };
+  }
+  function ch4Render(k){
+    var res = kmeans(ch4Points, k);
+    var svgParts = '';
+    ch4Points.forEach(function(p,i){
+      svgParts += '<circle cx="'+p[0]+'" cy="'+p[1]+'" r="5" fill="'+ch4Colors[res.assign[i]]+'" fill-opacity=".8"></circle>';
+    });
+    res.centroids.forEach(function(c){
+      svgParts += '<path d="M'+(c[0]-7)+' '+c[1]+' L'+(c[0]+7)+' '+c[1]+' M'+c[0]+' '+(c[1]-7)+' L'+c[0]+' '+(c[1]+7)+'" stroke="var(--text)" stroke-width="2.5"></path>';
+    });
+    ch4svg.innerHTML = svgParts;
+    document.querySelectorAll('#ch4-kbuttons .k-btn').forEach(function(b){ b.classList.toggle('active', parseInt(b.dataset.k,10)===k); });
+    var maxQ = Math.max.apply(null, Object.values(ch4Q));
+    var bars = [3,4,5,6].map(function(kk){
+      var q = ch4Q[kk];
+      var isBest = q===maxQ;
+      return '<div class="qbar'+(isBest?' best':'')+'"><i style="height:'+(q*100)+'%"></i><span>'+(kk===k?'▶':'')+'K='+kk+'</span></div>';
+    }).join('');
+    document.getElementById('ch4-qbars').innerHTML = bars;
+  }
+  document.querySelectorAll('#ch4-kbuttons .k-btn').forEach(function(btn){
+    btn.addEventListener('click', function(){ ch4Render(parseInt(btn.dataset.k,10)); });
+  });
+  ch4Render(4);
+
+  // ---------- chapter 5: output bars ----------
+  var ch5emotions = [
+    {label:'joy', w:0.22, color:'var(--amber)'},
+    {label:'trust', w:0.09, color:'var(--teal)'},
+    {label:'fear', w:0.04, color:'var(--violet)'},
+    {label:'surprise', w:0.06, color:'var(--rose)'},
+    {label:'sadness', w:0.18, color:'var(--muted)'},
+    {label:'disgust', w:0.05, color:'var(--accent)'},
+    {label:'anger', w:0.14, color:'#b3453f'},
+    {label:'anticipation', w:0.22, color:'#7a8f3f'}
+  ];
+  document.getElementById('ch5-bars8').innerHTML = ch5emotions.map(function(e){
+    return '<div class="bar-row"><span>'+e.label+'</span><div class="bar-track"><div class="bar-fill" style="background:'+e.color+'; width:'+(e.w*100)+'%"></div></div><span class="bar-pct tnum">'+(e.w*100).toFixed(0)+'%</span></div>';
+  }).join('');
+})();
+</script>
+</body>
+</html>
