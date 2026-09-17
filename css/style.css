@@ -1083,8 +1083,23 @@ a:hover { color: var(--hover-color); }
   min-height: 100%;
   overflow: auto;
 }
-.explorer-header p {
-  max-width: 760px;
+.explorer-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 9px 16px;
+}
+.explorer-header .back-link {
+  margin-bottom: 0;
+  flex-shrink: 0;
+}
+.explorer-header h1 {
+  max-width: none;
+  flex: 0 1 auto;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .explorer-shell {
   width: calc(100% - 40px);
@@ -1277,6 +1292,8 @@ a:hover { color: var(--hover-color); }
   .novel-header { padding: 10px 16px; gap: 8px; }
   .novel-header h1 { font-size: 16px; }
   .novel-header p { display: none; }
+  .explorer-header { padding: 10px 16px; gap: 8px; }
+  .explorer-header h1 { font-size: 16px; }
   .catalog-wrap { padding: 20px 16px; }
   .catalog-grid { grid-template-columns: 1fr; }
   #modal { max-width: 100%; }

@@ -63,9 +63,112 @@
     var traces = referenceFrame(); state.sphereIndices = [];
     var colors = {}; state.clusters.forEach(function (c) { colors[c.id] = c.color; });
     state.characters.forEach(function (ch) { if (!Array.from(state.selected).some(function (k) { return k.indexOf(ch.id + "::") === 0; })) return; state.clusters.filter(function (c) { return c.character_id === ch.id; }).forEach(function (c) { traces.push({ type: "scatter3d", mode: "markers", name: c.display_id + " — " + c.name, legendgroup: c.id, x: [c.centroid[0]], y: [c.centroid[1]], z: [c.centroid[2]], marker: { size: 4, color: c.color, symbol: "diamond" }, hovertemplate: escapeHtml(c.display_id + " — " + c.name) + "<br>n=" + c.size + "<extra></extra>" }); traces.push(sphere(c, spheresCheck.checked)); state.sphereIndices.push(traces.length - 1); }); });
-    state.characters.forEach(function (ch) { var pts = Array.from(state.selected).filter(function (k) { return k.indexOf(ch.id + "::") === 0; }).reduce(function (a, k) { return a.concat(state.fragments[k] || []); }, []); if (!pts.length) return; traces.push({ type: "scatter3d", mode: "markers", name: ch.label || ch.name, legendgroup: ch.id, x: pts.map(function (p) { return p.vad[0]; }), y: pts.map(function (p) { return p.vad[1]; }), z: pts.map(function (p) { return p.vad[2]; }), marker: { size: 3.5, color: ch.color, opacity: .8 }, text: pts.map(function (p) { return escapeHtml(p.id) + "<br>" + escapeHtml(p.text) + "<br>V " + p.vad[0].toFixed(3) + " · A " + p.vad[1].toFixed(3) + " · D " + p.vad[2].toFixed(3); }), hovertemplate: "%{text}<extra></extra>" }); });
-    Plotly.react(plot, traces, { margin: { l: 0, r: 0, t: 32, b: 0 }, paper_bgcolor: "rgba(0,0,0,0)", plot_bgcolor: "rgba(0,0,0,0)", font: { family: "Inter, system-ui, sans-serif", color: getCss("--text-color") }, legend: { orientation: "h", y: 1.02, x: .5, xanchor: "center" }, scene: { xaxis: axis("Valence (V)"), yaxis: axis("Arousal (A)"), zaxis: axis("Dominance (D)"), aspectmode: "cube", camera: { eye: { x: 1.45, y: 1.45, z: 1.15 } } } }, { responsive: true, displaylogo: false });
+    state.characters.forEach(function (ch) { var pts = Array.from(state.selected).filter(function (k) { return k.indexOf(ch.id + "::") === 0; }).reduce(function (a, k) { var chapterId = k.split("::")[1]; return a.concat((state.fragments[k] || []).map(function (p) { p.chapter_id = p.chapter_id || chapterId; return p; })); }, []); if (!pts.length) return; traces.push({ type: "scatter3d", mode: "markers", name: ch.label || ch.name, legendgroup: ch.id, x: pts.map(function (p) { return p.vad[0]; }), y: pts.map(function (p) { return p.vad[1]; }), z: pts.map(function (p) { return p.vad[2]; }), marker: { size: 3.5, color: ch.color, opacity: .8 }, text: pts.map(function (p) { return fragmentHover(p, ch); }), customdata: pts.map(function (p) { return [ch.id, p.chapter_id, p.id]; }), hovertemplate: "%{text}<extra></extra>" }); });
+    Plotly.react(plot, traces, { margin: { l: 0, r: 0, t: 32, b: 0 }, paper_bgcolor: "rgba(0,0,0,0)", plot_bgcolor: "rgba(0,0,0,0)", font: { family: "Inter, system-ui, sans-serif", color: getCss("--text-color") }, legend: { orientation: "h", y: 1.02, x: .5, xanchor: "center" }, scene: { xaxis: axis("Valence (V)"), yaxis: axis("Arousal (A)"), zaxis: axis("Dominance (D)"), aspectmode: "cube", camera: { eye: { x: 1.45, y: 1.45, z: 1.15 } } } }, { responsive: true, displaylogo: false }).then(function () { if (!state.clickBound) { plot.on("plotly_click", handlePointClick); state.clickBound = true; } });
   }
+
+  function handlePointClick(eventData) {
+    var point = eventData.points && eventData.points[0];
+    if (!point || !point.customdata) return;
+    var characterId = point.customdata[0], chapterId = point.customdata[1], fragmentId = point.customdata[2];
+    var key = characterId + "::" + chapterId;
+    var fragment = (state.fragments[key] || []).find(function (f) { return f.id === fragmentId; });
+    var character = state.characters.find(function (c) { return c.id === characterId; });
+    if (!fragment || !character) return;
+    var chapter = state.chapters.find(function (c) { return c.id === chapterId; });
+    var cluster = state.clusters.find(function (c) { return c.id === fragment.cluster_id; }) || {};
+    openQuoteModal(fragment, character, chapter ? chapter.label : chapterId, cluster.color);
+  }
+
+  var chapterTextCache = {};
+  function loadChapterText(chapterId) {
+    if (!chapterTextCache[chapterId]) {
+      var chapter = state.chapters.find(function (c) { return c.id === chapterId; });
+      var path = (chapter && chapter.novel_path) || ("novel/" + chapterId + ".json");
+      chapterTextCache[chapterId] = fetchJson(state.base + path);
+    }
+    return chapterTextCache[chapterId];
+  }
+
+  function openQuoteModal(fragment, character, chapterLabel, color) {
+    var modalOverlay = document.getElementById("modalOverlay");
+    var modalTitle = document.getElementById("modalTitle");
+    var textEl = document.getElementById("chapter-text-modal");
+    if (!modalOverlay || !textEl) return;
+    modalTitle.textContent = (character.name || character.label || "") + " · " + chapterLabel;
+    textEl.innerHTML = '<div class="loading-state">Загрузка текста…</div>';
+    modalOverlay.style.display = "flex";
+    loadChapterText(fragment.chapter_id).then(function (doc) {
+      renderQuoteText(textEl, doc.sentences || [], fragment, color);
+    }).catch(function (error) {
+      textEl.innerHTML = '<div class="error-state">Не удалось загрузить текст: ' + escapeHtml(error.message) + '</div>';
+    });
+  }
+
+  function renderQuoteText(container, sentences, fragment, color) {
+    var rangesBySentence = {};
+    (fragment.highlights || []).forEach(function (segment) {
+      if (!rangesBySentence[segment.chapter_sentence]) rangesBySentence[segment.chapter_sentence] = [];
+      rangesBySentence[segment.chapter_sentence].push({ start: segment.start, end: segment.end });
+    });
+    var fragmentEl = document.createDocumentFragment();
+    var scrollTarget = null;
+    sentences.forEach(function (sentence) {
+      var paragraph = document.createElement("p"); paragraph.className = "novel-sentence";
+      var number = document.createElement("span"); number.className = "sentence-number"; number.textContent = sentence.number;
+      paragraph.append(number, document.createTextNode(" "));
+      var marked = appendHighlightedRanges(paragraph, sentence.text, rangesBySentence[sentence.number] || [], color);
+      if (marked && !scrollTarget) scrollTarget = paragraph;
+      fragmentEl.appendChild(paragraph);
+    });
+    container.replaceChildren(fragmentEl);
+    if (scrollTarget) scrollTarget.scrollIntoView({ block: "center" });
+  }
+
+  function appendHighlightedRanges(parent, text, ranges, color) {
+    if (!ranges.length) { parent.appendChild(document.createTextNode(text)); return false; }
+    var boundaries = Array.from(new Set([0, text.length].concat(ranges.reduce(function (all, range) {
+      return all.concat([clampNum(range.start, 0, text.length), clampNum(range.end, 0, text.length)]);
+    }, [])))).sort(function (a, b) { return a - b; });
+    var marked = false;
+    for (var i = 0; i < boundaries.length - 1; i += 1) {
+      var start = boundaries[i], finish = boundaries[i + 1];
+      if (finish <= start) continue;
+      var covering = ranges.some(function (range) { return range.start < finish && range.end > start; });
+      var content = text.slice(start, finish);
+      if (!covering) { parent.appendChild(document.createTextNode(content)); continue; }
+      var mark = document.createElement("mark");
+      mark.textContent = content;
+      mark.style.backgroundColor = hexToRgba(color, .35);
+      parent.appendChild(mark);
+      marked = true;
+    }
+    return marked;
+  }
+
+  function clampNum(value, min, max) { return Math.max(min, Math.min(max, Number(value))); }
+
+  function hexToRgba(hex, opacity) {
+    var value = String(hex || "#4a5568").replace("#", "");
+    if (value.length === 3) value = value.split("").map(function (c) { return c + c; }).join("");
+    return "rgba(" + parseInt(value.slice(0, 2), 16) + "," + parseInt(value.slice(2, 4), 16) + "," + parseInt(value.slice(4, 6), 16) + "," + opacity + ")";
+  }
+
+  function hideQuoteModal(event) {
+    if (event && event.target !== event.currentTarget) return;
+    document.getElementById("modalOverlay").style.display = "none";
+  }
+
+  (function bindModal() {
+    var overlay = document.getElementById("modalOverlay");
+    var modal = document.getElementById("modal");
+    var closeBtn = document.getElementById("closeBtn");
+    if (!overlay) return;
+    overlay.addEventListener("click", hideQuoteModal);
+    modal.addEventListener("click", function (event) { event.stopPropagation(); });
+    closeBtn.addEventListener("click", function () { hideQuoteModal(); });
+    document.addEventListener("keydown", function (event) { if (event.key === "Escape") hideQuoteModal(); });
+  })();
   function frame() { var a = document.getElementById("grid-color").value, w = Number(document.getElementById("grid-width").value), o = Number(document.getElementById("grid-opacity").value), dash = document.getElementById("grid-dash").value, p = Number(document.getElementById("plane-opacity").value); var t = [{ type: "scatter3d", mode: "lines", x: [-1,1], y: [0,0], z: [0,0], line: { color: a, width: 4 }, showlegend: false, hoverinfo: "skip" }, { type: "scatter3d", mode: "lines", x: [0,0], y: [-1,1], z: [0,0], line: { color: a, width: 4 }, showlegend: false, hoverinfo: "skip" }, { type: "scatter3d", mode: "lines", x: [0,0], y: [0,0], z: [-1,1], line: { color: a, width: 4 }, showlegend: false, hoverinfo: "skip" }]; [-.75,-.5,-.25,.25,.5,.75].forEach(function (v) { t.push({ type: "scatter3d", mode: "lines", x: [-1,1,null,v,v], y: [v,v,null,-1,1], z: [0,0,null,0,0], line: { color: a, width: w, dash: dash }, opacity: o, showlegend: false, hoverinfo: "skip" }); }); return t.concat([{ type: "mesh3d", x: [-1,1,1,-1], y: [-1,-1,1,1], z: [0,0,0,0], i:[0,0],j:[1,2],k:[2,3], color:"#dce7f5", opacity:p, hoverinfo:"skip", showlegend:false }, { type: "mesh3d", x: [-1,1,1,-1], y: [0,0,0,0], z: [-1,-1,1,1], i:[0,0],j:[1,2],k:[2,3], color:"#e3f0e5", opacity:p, hoverinfo:"skip", showlegend:false }, { type: "mesh3d", x: [0,0,0,0], y: [-1,1,1,-1], z: [-1,-1,1,1], i:[0,0],j:[1,2],k:[2,3], color:"#f4e5df", opacity:p, hoverinfo:"skip", showlegend:false }]); }
   function referenceFrame() {
     function line(x,y,z,color,width) { return {type:"scatter3d",mode:"lines",x:x,y:y,z:z,line:{color:color,width:width},showlegend:false,hoverinfo:"skip"}; }
@@ -77,6 +180,16 @@
     return traces;
   }
   function axis(title) { return { title: { text: title }, range: [-1.05, 1.05], showgrid: false, zeroline: false, showspikes: false, backgroundcolor: "rgba(0,0,0,0)", color: getCss("--text-muted") }; }
+  function fragmentHover(fragment, character) {
+    var chapter = state.chapters.find(function (c) { return c.id === fragment.chapter_id; });
+    var cluster = state.clusters.find(function (c) { return c.id === fragment.cluster_id; });
+    return escapeHtml(character.name || character.label) + "<br>" +
+      escapeHtml(chapter ? chapter.label : fragment.chapter_id) + "<br>" +
+      escapeHtml(fragment.text) + "<br>" +
+      escapeHtml(cluster ? cluster.name : fragment.cluster_id) + "<br>" +
+      "position " + fragment.character_position + " · distance " + Number(fragment.distance_to_centroid).toFixed(3) + "<br>" +
+      "V " + fragment.vad[0].toFixed(3) + " · A " + fragment.vad[1].toFixed(3) + " · D " + fragment.vad[2].toFixed(3);
+  }
   function sphere(c, visible) { var r = Number(c.sphere_radius || 0), lon = 12, lat = 8, v = [[c.centroid[0], c.centroid[1], c.centroid[2] + r]]; for (var y=1;y<lat;y++) for (var x=0;x<lon;x++) { var ph=Math.PI*y/lat, th=2*Math.PI*x/lon; v.push([c.centroid[0]+r*Math.sin(ph)*Math.cos(th),c.centroid[1]+r*Math.sin(ph)*Math.sin(th),c.centroid[2]+r*Math.cos(ph)]); } var bot=v.length; v.push([c.centroid[0],c.centroid[1],c.centroid[2]-r]); var i=[],j=[],k=[]; for(var q=0;q<lon;q++){i.push(0);j.push(1+q);k.push(1+(q+1)%lon);} for(var ring=0;ring<lat-2;ring++) for(var q2=0;q2<lon;q2++){var a=1+ring*lon,b=a+lon,n=(q2+1)%lon;i.push(a+q2,a+q2);j.push(b+q2,b+n);k.push(b+n,a+n);} var last=1+(lat-2)*lon; for(var q3=0;q3<lon;q3++){i.push(last+q3);j.push(bot);k.push(last+(q3+1)%lon);} return {type:"mesh3d",x:v.map(function(a){return a[0];}),y:v.map(function(a){return a[1];}),z:v.map(function(a){return a[2];}),i:i,j:j,k:k,color:c.color,opacity:.08,visible:visible,showlegend:false,hoverinfo:"skip"}; }
   function fetchJson(path) { return fetch(path).then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); }); }
   function getCss(n) { return getComputedStyle(document.documentElement).getPropertyValue(n).trim(); }

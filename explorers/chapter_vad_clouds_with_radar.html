@@ -14,7 +14,7 @@
     #chapter-dashboard select option:disabled { color:#9aa0a6; }
     #chapter-dashboard .dashboard-check { display:flex; align-items:center; gap:7px; padding-bottom:9px; white-space:nowrap; color:var(--text-color); font-size:13px; }
     #chapter-dashboard .chapter-summary { grid-column:1/-1; color:var(--text-muted); font-size:12px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
-    #chapter-dashboard .dashboard-workspace { display:grid; grid-template-columns:minmax(0,1.42fr) minmax(400px,.78fr); height:calc(100vh - 245px); min-height:680px; margin-top:18px; gap:18px; }
+    #chapter-dashboard .dashboard-workspace { display:grid; grid-template-columns:minmax(0,1.42fr) minmax(400px,.78fr); height:calc(100vh - 182px); min-height:680px; margin-top:18px; gap:18px; }
     #chapter-dashboard .dashboard-panel { min-width:0; min-height:0; border:1px solid var(--border-color); border-radius:22px; background:var(--sidebar-bg); box-shadow:var(--shadow-soft); backdrop-filter:blur(18px); overflow:hidden; }
     #chapter-dashboard .vad-panel { position:relative; }
     #chapter-dashboard #vad-plot, #chapter-dashboard #radar-8, #chapter-dashboard #radar-16 { width:100%; height:100%; min-height:0; }
@@ -29,14 +29,29 @@
       #chapter-dashboard .chapter-summary { white-space:normal; }
       #chapter-dashboard .dashboard-workspace { grid-template-columns:1fr; grid-template-rows:70vh 75vh; height:auto; min-height:0; }
     }
+    #modal.modal-text { max-width: 760px; }
+    #modalBody { max-height: 72vh; overflow-y: auto; }
+    #chapter-text-modal { font-family: Georgia, "Times New Roman", serif; font-size: .92rem; line-height: 1.55; }
+    #chapter-text-modal .novel-sentence { margin: .28em 0; }
+    #chapter-text-modal .sentence-number { display: inline-block; min-width: 34px; font-family: Inter, system-ui, sans-serif; font-size: .68rem; color: var(--text-muted); vertical-align: baseline; }
+    #chapter-text-modal mark { color: inherit; padding: 1px 0; border-radius: 2px; }
   </style>
 </head>
 <body class="explorer-page">
   <header class="site-header explorer-header">
     <a id="back-link" href="../index.html" class="back-link">&larr; Каталог романов</a>
     <h1>VAD главы и профили Plutchik</h1>
-    <p>Выберите героя и главу, чтобы сравнить VAD-точки с восьми- и шестнадцатикомпонентным профилем эмоций.</p>
   </header>
+
+  <div id="modalOverlay">
+    <div id="modal" class="modal-text">
+      <div id="modalHeader">
+        <div><span id="modalTitle"></span> <span id="modalTag" class="pill pill-fragment">фрагмент</span></div>
+        <button id="closeBtn" type="button">&times;</button>
+      </div>
+      <div id="modalBody"><div id="chapter-text-modal"></div></div>
+    </div>
+  </div>
 
   <main id="chapter-dashboard" class="explorer-shell">
     <section class="explorer-control-panel dashboard-controls" aria-label="Параметры визуализации">

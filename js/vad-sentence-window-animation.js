@@ -102,9 +102,13 @@
           state.events.push({
             fragment_id: fragment.id,
             character_id: fragmentData.character_id,
-            character_label: character.label || character.name || fragmentData.character_id,
+            character_label: character.name || character.label || fragmentData.character_id,
             cluster_id: fragment.cluster_id,
             cluster_name: cluster.name || fragment.cluster_id,
+            chapter_id: chapter.id,
+            chapter_label: chapter.label,
+            character_position: fragment.character_position,
+            distance_to_centroid: fragment.distance_to_centroid,
             start: fragment.timeline_start_index,
             end: fragment.timeline_end_index,
             part: chapter.part,
@@ -196,8 +200,61 @@
         updateVisibility();
         return false;
       });
+      plot.on("plotly_click", handlePointClick);
     });
   }
+
+  function handlePointClick(eventData) {
+    var point = eventData.points && eventData.points[0];
+    if (!point || point.customdata == null) return;
+    var event = state.events.find(function (item) { return item.fragment_id === point.customdata; });
+    if (event) openQuoteModal(event);
+  }
+
+  function openQuoteModal(event) {
+    var modalOverlay = document.getElementById("modalOverlay");
+    var modalTitle = document.getElementById("modalTitle");
+    var textEl = document.getElementById("chapter-text-modal");
+    if (!modalOverlay || !textEl) return;
+    modalTitle.textContent = event.character_label + " · " + (event.chapter_label || ("Часть " + event.part + ", глава " + event.chapter));
+    var color = (state.characterById[event.character_id] || {}).color;
+    var rangesBySentence = new Map();
+    event.segments.forEach(function (segment) {
+      if (!rangesBySentence.has(segment.sentence)) rangesBySentence.set(segment.sentence, []);
+      rangesBySentence.get(segment.sentence).push({ start: segment.start, end: segment.end, color: color, label: event.text });
+    });
+    var fragmentEl = document.createDocumentFragment();
+    var scrollTarget = null;
+    for (var index = 0; index < state.locations.length; index += 1) {
+      var location = state.locations[index];
+      if (!location || location.chapter_id !== event.chapter_id) continue;
+      var paragraph = document.createElement("p"); paragraph.className = "novel-sentence";
+      var number = document.createElement("span"); number.className = "sentence-number"; number.textContent = location.part + "." + location.chapter + "." + location.sentence;
+      paragraph.append(number, document.createTextNode(" "));
+      appendHighlightedText(paragraph, location.text, rangesBySentence.get(index) || []);
+      if (rangesBySentence.has(index) && !scrollTarget) scrollTarget = paragraph;
+      fragmentEl.appendChild(paragraph);
+    }
+    textEl.replaceChildren(fragmentEl);
+    modalOverlay.style.display = "flex";
+    if (scrollTarget) scrollTarget.scrollIntoView({ block: "center" });
+  }
+
+  function hideQuoteModal(event) {
+    if (event && event.target !== event.currentTarget) return;
+    document.getElementById("modalOverlay").style.display = "none";
+  }
+
+  (function bindModal() {
+    var overlay = document.getElementById("modalOverlay");
+    var modal = document.getElementById("modal");
+    var closeBtn = document.getElementById("closeBtn");
+    if (!overlay) return;
+    overlay.addEventListener("click", hideQuoteModal);
+    modal.addEventListener("click", function (event) { event.stopPropagation(); });
+    closeBtn.addEventListener("click", function () { hideQuoteModal(); });
+    document.addEventListener("keydown", function (event) { if (event.key === "Escape") hideQuoteModal(); });
+  })();
 
   function bindControls() {
     controls.addEventListener("change", function (event) { if (event.target.classList.contains("character-toggle")) updateVisibility(); });
@@ -261,7 +318,7 @@
     var tailIndices = characterIds.map(function (id) { return state.animationTailTraces[id]; });
     var markerUpdate = Plotly.restyle(plot, {
       x: markerPayloads.map(prop("x")), y: markerPayloads.map(prop("y")), z: markerPayloads.map(prop("z")),
-      text: markerPayloads.map(prop("text"))
+      text: markerPayloads.map(prop("text")), customdata: markerPayloads.map(prop("customdata"))
     }, markerIndices);
     var tailUpdate = Plotly.restyle(plot, {
       x: tailPayloads.map(prop("x")), y: tailPayloads.map(prop("y")), z: tailPayloads.map(prop("z"))
@@ -355,7 +412,7 @@
   function axis(title){return {title:{text:title},range:[-1.08,1.08],showgrid:false,zeroline:false,showspikes:false,backgroundcolor:"rgba(0,0,0,0)",color:css("--text-muted")};}
 
   function markerPayload(events) {
-    return { x: events.map(vad(0)), y: events.map(vad(1)), z: events.map(vad(2)), text: events.map(eventHover) };
+    return { x: events.map(vad(0)), y: events.map(vad(1)), z: events.map(vad(2)), text: events.map(eventHover), customdata: events.map(prop("fragment_id")) };
   }
 
   var TAIL_LENGTH = .07;
@@ -389,7 +446,7 @@
   function enabled(id){var box=controls.querySelector('[data-character="'+cssEscape(id)+'"]');return box ? box.checked : true;}
   function clusterId(trace){var group=String(trace.legendgroup||"");return group.indexOf("cluster-")===0?group.slice(8):null;}
   function locationLabel(item){return "Часть "+item.part+", глава "+item.chapter+", предложение "+item.sentence;}
-  function eventHover(event){return escapeHtml(event.fragment_id)+"<br>"+escapeHtml(event.character_label)+" · "+escapeHtml(event.cluster_name)+"<br>Часть "+event.part+", глава "+event.chapter+", предложение "+event.sentence_start+(event.sentence_end!==event.sentence_start?"–"+event.sentence_end:"")+"<br>"+escapeHtml(event.text)+"<br>V "+Number(event.vad[0]).toFixed(3)+" · A "+Number(event.vad[1]).toFixed(3)+" · D "+Number(event.vad[2]).toFixed(3)+(event.warning?"<br>warning: "+escapeHtml(event.warning):"");}
+  function eventHover(event){return escapeHtml(event.character_label)+"<br>"+escapeHtml(event.chapter_label||("Часть "+event.part+", глава "+event.chapter))+"<br>"+escapeHtml(event.text)+"<br>"+escapeHtml(event.cluster_name)+"<br>position "+event.character_position+" · distance "+Number(event.distance_to_centroid).toFixed(3)+"<br>V "+Number(event.vad[0]).toFixed(3)+" · A "+Number(event.vad[1]).toFixed(3)+" · D "+Number(event.vad[2]).toFixed(3)+(event.warning?"<br>warning: "+escapeHtml(event.warning):"");}
   function resizePlot(){cancelAnimationFrame(state.resizeFrame);state.resizeFrame=requestAnimationFrame(function(){if(plot.data)Plotly.Plots.resize(plot);});}
   function resizePanels(clientX){var rect=workspace.getBoundingClientRect(),available=rect.width-splitter.offsetWidth,requested=rect.right-clientX,width=Math.max(300,Math.min(Math.max(300,available-360),requested));workspace.style.setProperty("--text-width",width+"px");resizePlot();}
   function setLoading(message){plot.innerHTML='<div class="loading-state">'+escapeHtml(message)+'</div>';}

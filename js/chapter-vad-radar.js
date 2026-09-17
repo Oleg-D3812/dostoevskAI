@@ -127,7 +127,8 @@
       type: "scatter3d", mode: "markers", name: "Фрагменты главы", showlegend: false, meta: "selected-points",
       x: points.map(function(item) { return item.vad[0]; }), y: points.map(function(item) { return item.vad[1]; }), z: points.map(function(item) { return item.vad[2]; }),
       marker: { size: 3.2, opacity: .78, color: points.map(function(item) { return colors[item.cluster_id] || "#636EFA"; }) },
-      text: points.map(function(item) { return hoverText(item, characterId); }),
+      text: points.map(function(item) { return hoverText(item, characterId, chapterSelect.value); }),
+      customdata: points.map(function(item, index) { return index; }),
       hovertemplate: "%{text}<br>V %{x:.3f} · A %{y:.3f} · D %{z:.3f}<extra></extra>"
     });
     state.pointIndex = traces.length - 1;
@@ -135,17 +136,122 @@
       margin: { l: 0, r: 0, t: 24, b: 0 }, paper_bgcolor: "rgba(0,0,0,0)", plot_bgcolor: "rgba(0,0,0,0)",
       font: { family: "Inter, system-ui, sans-serif", color: getCss("--text-color") },
       showlegend: true, legend: { orientation: "h", y: 1.02, x: .5, xanchor: "center" }, scene: sceneLayout()
-    }, { responsive: true, displaylogo: false });
+    }, { responsive: true, displaylogo: false }).then(function() {
+      if (!state.clickBound) { plot.on("plotly_click", handlePointClick); state.clickBound = true; }
+    });
   }
 
-  function hoverText(fragment, characterId) {
+  function handlePointClick(eventData) {
+    var point = eventData.points && eventData.points[0];
+    if (!point || point.customdata == null) return;
+    var fragment = state.fragments[point.customdata];
+    if (!fragment) return;
+    var character = state.characters.find(function(item) { return item.id === characterSelect.value; }) || {};
+    var chapter = state.chapters.find(function(item) { return item.id === chapterSelect.value; });
+    var cluster = state.clusters.find(function(item) { return item.id === fragment.cluster_id; }) || {};
+    openQuoteModal(fragment, character, chapterSelect.value, chapter ? chapter.label : chapterSelect.value, cluster.color);
+  }
+
+  var chapterTextCache = {};
+  function loadChapterText(chapterId) {
+    if (!chapterTextCache[chapterId]) {
+      var path = state.manifest.files.novel_chapter_template.replace("{chapter_id}", chapterId);
+      chapterTextCache[chapterId] = fetchJson(state.base + path);
+    }
+    return chapterTextCache[chapterId];
+  }
+
+  function openQuoteModal(fragment, character, chapterId, chapterLabel, color) {
+    var modalOverlay = document.getElementById("modalOverlay");
+    var modalTitle = document.getElementById("modalTitle");
+    var textEl = document.getElementById("chapter-text-modal");
+    if (!modalOverlay || !textEl) return;
+    modalTitle.textContent = (character.name || character.label || "") + " · " + chapterLabel;
+    textEl.innerHTML = '<div class="loading-state">Загрузка текста…</div>';
+    modalOverlay.style.display = "flex";
+    loadChapterText(chapterId).then(function(doc) {
+      renderQuoteText(textEl, doc.sentences || [], fragment, color);
+    }).catch(function(error) {
+      textEl.innerHTML = '<div class="error-state">Не удалось загрузить текст: ' + escapeHtml(error.message) + '</div>';
+    });
+  }
+
+  function renderQuoteText(container, sentences, fragment, color) {
+    var rangesBySentence = {};
+    (fragment.highlights || []).forEach(function(segment) {
+      if (!rangesBySentence[segment.chapter_sentence]) rangesBySentence[segment.chapter_sentence] = [];
+      rangesBySentence[segment.chapter_sentence].push({ start: segment.start, end: segment.end });
+    });
+    var fragmentEl = document.createDocumentFragment();
+    var scrollTarget = null;
+    sentences.forEach(function(sentence) {
+      var paragraph = document.createElement("p"); paragraph.className = "novel-sentence";
+      var number = document.createElement("span"); number.className = "sentence-number"; number.textContent = sentence.number;
+      paragraph.append(number, document.createTextNode(" "));
+      var marked = appendHighlightedRanges(paragraph, sentence.text, rangesBySentence[sentence.number] || [], color);
+      if (marked && !scrollTarget) scrollTarget = paragraph;
+      fragmentEl.appendChild(paragraph);
+    });
+    container.replaceChildren(fragmentEl);
+    if (scrollTarget) scrollTarget.scrollIntoView({ block: "center" });
+  }
+
+  function appendHighlightedRanges(parent, text, ranges, color) {
+    if (!ranges.length) { parent.appendChild(document.createTextNode(text)); return false; }
+    var boundaries = Array.from(new Set([0, text.length].concat(ranges.reduce(function(all, range) {
+      return all.concat([clampNum(range.start, 0, text.length), clampNum(range.end, 0, text.length)]);
+    }, [])))).sort(function(a, b) { return a - b; });
+    var marked = false;
+    for (var i = 0; i < boundaries.length - 1; i += 1) {
+      var start = boundaries[i], finish = boundaries[i + 1];
+      if (finish <= start) continue;
+      var covering = ranges.some(function(range) { return range.start < finish && range.end > start; });
+      var content = text.slice(start, finish);
+      if (!covering) { parent.appendChild(document.createTextNode(content)); continue; }
+      var mark = document.createElement("mark");
+      mark.textContent = content;
+      mark.style.backgroundColor = hexToRgba(color, .35);
+      parent.appendChild(mark);
+      marked = true;
+    }
+    return marked;
+  }
+
+  function clampNum(value, min, max) { return Math.max(min, Math.min(max, Number(value))); }
+
+  function hexToRgba(hex, opacity) {
+    var value = String(hex || "#4a5568").replace("#", "");
+    if (value.length === 3) value = value.split("").map(function(c) { return c + c; }).join("");
+    return "rgba(" + parseInt(value.slice(0, 2), 16) + "," + parseInt(value.slice(2, 4), 16) + "," + parseInt(value.slice(4, 6), 16) + "," + opacity + ")";
+  }
+
+  function hideQuoteModal(event) {
+    if (event && event.target !== event.currentTarget) return;
+    document.getElementById("modalOverlay").style.display = "none";
+  }
+
+  (function bindModal() {
+    var overlay = document.getElementById("modalOverlay");
+    var modal = document.getElementById("modal");
+    var closeBtn = document.getElementById("closeBtn");
+    if (!overlay) return;
+    overlay.addEventListener("click", hideQuoteModal);
+    modal.addEventListener("click", function(event) { event.stopPropagation(); });
+    closeBtn.addEventListener("click", function() { hideQuoteModal(); });
+    document.addEventListener("keydown", function(event) { if (event.key === "Escape") hideQuoteModal(); });
+  })();
+
+  function hoverText(fragment, characterId, chapterId) {
     var character = state.characters.find(function(item) { return item.id === characterId; });
     var cluster = state.clusters.find(function(item) { return item.id === fragment.cluster_id; });
+    var chapter = state.chapters.find(function(item) { return item.id === chapterId; });
     var warning = fragment.warning ? "<br>⚠ " + escapeHtml(fragment.warning) : "";
-    return escapeHtml(fragment.id) + "<br>" + escapeHtml(character ? (character.name || character.label) : characterId) +
-      "<br>" + escapeHtml(cluster ? cluster.display_id + " — " + cluster.name : fragment.cluster_id) +
-      "<br>sentence " + fragment.chapter_sentence_start + " · distance " + Number(fragment.distance_to_centroid).toFixed(3) +
-      warning + "<br>" + escapeHtml(fragment.text);
+    return escapeHtml(character ? (character.name || character.label) : characterId) + "<br>" +
+      escapeHtml(chapter ? chapter.label : chapterId) + "<br>" +
+      escapeHtml(fragment.text) + "<br>" +
+      escapeHtml(cluster ? cluster.name : fragment.cluster_id) + "<br>" +
+      "position " + fragment.character_position + " · distance " + Number(fragment.distance_to_centroid).toFixed(3) +
+      warning;
   }
 
   function updateSphereVisibility() {

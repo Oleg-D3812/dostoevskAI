@@ -3,16 +3,33 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Multi-character cluster space</title>
+  <title>Кластеры: пространство нескольких персонажей</title>
   <script src="https://cdn.plot.ly/plotly-3.7.0.min.js"></script>
   <link rel="stylesheet" href="../css/style.css"/>
+  <style>
+    #modal.modal-text { max-width: 760px; }
+    #modalBody { max-height: 72vh; overflow-y: auto; }
+    #chapter-text-modal { font-family: Georgia, "Times New Roman", serif; font-size: .92rem; line-height: 1.55; }
+    #chapter-text-modal .novel-sentence { margin: .28em 0; }
+    #chapter-text-modal .sentence-number { display: inline-block; min-width: 34px; font-family: Inter, system-ui, sans-serif; font-size: .68rem; color: var(--text-muted); vertical-align: baseline; }
+    #chapter-text-modal mark { color: inherit; padding: 1px 0; border-radius: 2px; }
+  </style>
 </head>
 <body class="explorer-page">
   <header class="site-header explorer-header">
-    <a href="../novel.html?id=crime-and-punishment" class="back-link">&larr; Преступление и наказание</a>
-    <h1>Multi-character cluster space</h1>
-    <p>VAD-пространство фрагментов Раскольникова, Мармеладовой и Свидригайлова с фильтрами персонажей и кластеров.</p>
+    <a id="back-link" href="../index.html" class="back-link">&larr; Каталог романов</a>
+    <h1>Кластеры: пространство нескольких персонажей</h1>
   </header>
+
+  <div id="modalOverlay">
+    <div id="modal" class="modal-text">
+      <div id="modalHeader">
+        <div><span id="modalTitle"></span> <span id="modalTag" class="pill pill-fragment">фрагмент</span></div>
+        <button id="closeBtn" type="button">&times;</button>
+      </div>
+      <div id="modalBody"><div id="chapter-text-modal"></div></div>
+    </div>
+  </div>
 
   <main class="explorer-shell">
     <section class="explorer-control-panel clusters-only" aria-label="Фильтры визуализации">

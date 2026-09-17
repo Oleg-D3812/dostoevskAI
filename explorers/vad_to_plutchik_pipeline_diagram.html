@@ -431,7 +431,7 @@
 </head>
 <body class="explorer-page">
   <header class="site-header explorer-header">
-    <a href="../novel.html?id=crime-and-punishment&feature=emotion-vad" class="back-link">&larr; Преступление и наказание</a>
+    <a id="back-link" href="../index.html" class="back-link">&larr; Каталог романов</a>
     <h1>Пайплайн VAD → Plutchik</h1>
     <p>Диаграмма подтверждённой методологии: от извлечения цитат и оценки VAD до 8- и 16-компонентных профилей Плутчика.</p>
   </header>
@@ -831,10 +831,18 @@ cᵢ = (1 / nᵢ) Σₜ∈Cᵢ xₜ</div>
 
   </main>
 
+  <script src="../js/data-client.js"></script>
   <script>
     const stages = Array.from(document.querySelectorAll('details.stage'));
     document.getElementById('expandAll').addEventListener('click', () => stages.forEach(d => d.open = true));
     document.getElementById('collapseAll').addEventListener('click', () => stages.forEach(d => d.open = false));
+
+    const novelId = new URLSearchParams(window.location.search).get('novel') || 'crime-and-punishment';
+    AtlasData.loadNovelContext(novelId, { catalogUrl: '../data/catalog.json' }).then((context) => {
+      document.title = AtlasData.localized(context.novel.title) + ' — Pipeline Diagram';
+      const backLink = document.getElementById('back-link');
+      backLink.href = '../novel.html?id=' + encodeURIComponent(context.novel.id) + '&feature=emotion-vad';
+    }).catch(() => {});
   </script>
 </body>
 </html>

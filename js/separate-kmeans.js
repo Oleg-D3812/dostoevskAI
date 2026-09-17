@@ -40,6 +40,7 @@
   AtlasData.loadNovelContext(requestedNovelId, { catalogUrl: DATA_ROOT + "catalog.json" }).then(function(context) {
     state.manifest = context.novelManifest;
     state.base = context.dataBaseUrl;
+    document.title = AtlasData.localized(context.novel.title) + " — Кластеры: пространство нескольких персонажей";
     var backLink = document.getElementById("back-link");
     if (backLink) backLink.href = "../novel.html?id=" + encodeURIComponent(context.novel.id) + "&feature=emotion-vad";
     return Promise.all([
@@ -153,8 +154,111 @@
       addClusterTraces(traces, cluster, fragments);
     });
 
-    Plotly.newPlot(plot, traces, layout, { responsive: true, displaylogo: false });
+    Plotly.newPlot(plot, traces, layout, { responsive: true, displaylogo: false }).then(function() {
+      plot.on("plotly_click", handlePointClick);
+    });
   }
+
+  function handlePointClick(eventData) {
+    var point = eventData.points && eventData.points[0];
+    if (!point || !point.customdata) return;
+    var chapterId = point.customdata[0], fragmentId = point.customdata[1];
+    var fragment = state.fragments.find(function(item) { return item.id === fragmentId && item.chapter_id === chapterId; });
+    if (!fragment) return;
+    var cluster = state.clusters.find(function(item) { return item.id === fragment.cluster_id; }) || {};
+    var character = state.characters.find(function(item) { return item.id === cluster.character_id; }) || {};
+    var chapter = state.chapters.find(function(item) { return item.id === chapterId; });
+    openQuoteModal(fragment, character, chapter ? chapter.label : chapterId, clusterColor(cluster));
+  }
+
+  var chapterTextCache = {};
+  function loadChapterText(chapterId) {
+    if (!chapterTextCache[chapterId]) {
+      var path = state.manifest.files.novel_chapter_template.replace("{chapter_id}", chapterId);
+      chapterTextCache[chapterId] = fetchJson(state.base + path);
+    }
+    return chapterTextCache[chapterId];
+  }
+
+  function openQuoteModal(fragment, character, chapterLabel, color) {
+    var modalOverlay = document.getElementById("modalOverlay");
+    var modalTitle = document.getElementById("modalTitle");
+    var textEl = document.getElementById("chapter-text-modal");
+    if (!modalOverlay || !textEl) return;
+    modalTitle.textContent = (character.name || character.label || "") + " · " + chapterLabel;
+    textEl.innerHTML = '<div class="loading-state">Загрузка текста…</div>';
+    modalOverlay.style.display = "flex";
+    loadChapterText(fragment.chapter_id).then(function(doc) {
+      renderQuoteText(textEl, doc.sentences || [], fragment, color);
+    }).catch(function(error) {
+      textEl.innerHTML = '<div class="error-state">Не удалось загрузить текст: ' + escapeHtml(error.message) + '</div>';
+    });
+  }
+
+  function renderQuoteText(container, sentences, fragment, color) {
+    var rangesBySentence = {};
+    (fragment.highlights || []).forEach(function(segment) {
+      if (!rangesBySentence[segment.chapter_sentence]) rangesBySentence[segment.chapter_sentence] = [];
+      rangesBySentence[segment.chapter_sentence].push({ start: segment.start, end: segment.end });
+    });
+    var fragmentEl = document.createDocumentFragment();
+    var scrollTarget = null;
+    sentences.forEach(function(sentence) {
+      var paragraph = document.createElement("p"); paragraph.className = "novel-sentence";
+      var number = document.createElement("span"); number.className = "sentence-number"; number.textContent = sentence.number;
+      paragraph.append(number, document.createTextNode(" "));
+      var marked = appendHighlightedRanges(paragraph, sentence.text, rangesBySentence[sentence.number] || [], color);
+      if (marked && !scrollTarget) scrollTarget = paragraph;
+      fragmentEl.appendChild(paragraph);
+    });
+    container.replaceChildren(fragmentEl);
+    if (scrollTarget) scrollTarget.scrollIntoView({ block: "center" });
+  }
+
+  function appendHighlightedRanges(parent, text, ranges, color) {
+    if (!ranges.length) { parent.appendChild(document.createTextNode(text)); return false; }
+    var boundaries = Array.from(new Set([0, text.length].concat(ranges.reduce(function(all, range) {
+      return all.concat([clampNum(range.start, 0, text.length), clampNum(range.end, 0, text.length)]);
+    }, [])))).sort(function(a, b) { return a - b; });
+    var marked = false;
+    for (var i = 0; i < boundaries.length - 1; i += 1) {
+      var start = boundaries[i], finish = boundaries[i + 1];
+      if (finish <= start) continue;
+      var covering = ranges.some(function(range) { return range.start < finish && range.end > start; });
+      var content = text.slice(start, finish);
+      if (!covering) { parent.appendChild(document.createTextNode(content)); continue; }
+      var mark = document.createElement("mark");
+      mark.textContent = content;
+      mark.style.backgroundColor = hexToRgba(color, .35);
+      parent.appendChild(mark);
+      marked = true;
+    }
+    return marked;
+  }
+
+  function clampNum(value, min, max) { return Math.max(min, Math.min(max, Number(value))); }
+
+  function hexToRgba(hex, opacity) {
+    var value = String(hex || "#4a5568").replace("#", "");
+    if (value.length === 3) value = value.split("").map(function(c) { return c + c; }).join("");
+    return "rgba(" + parseInt(value.slice(0, 2), 16) + "," + parseInt(value.slice(2, 4), 16) + "," + parseInt(value.slice(4, 6), 16) + "," + opacity + ")";
+  }
+
+  function hideQuoteModal(event) {
+    if (event && event.target !== event.currentTarget) return;
+    document.getElementById("modalOverlay").style.display = "none";
+  }
+
+  (function bindModal() {
+    var overlay = document.getElementById("modalOverlay");
+    var modal = document.getElementById("modal");
+    var closeBtn = document.getElementById("closeBtn");
+    if (!overlay) return;
+    overlay.addEventListener("click", hideQuoteModal);
+    modal.addEventListener("click", function(event) { event.stopPropagation(); });
+    closeBtn.addEventListener("click", function() { hideQuoteModal(); });
+    document.addEventListener("keydown", function(event) { if (event.key === "Escape") hideQuoteModal(); });
+  })();
 
   function addCoordinateFrame(traces) {
     var axisColor = "rgba(125,132,137,.75)";
@@ -265,18 +369,19 @@
     var label = cluster.display_id + " — " + cluster.name;
     var hover = fragments.map(function(fragment) {
       var chapter = state.chapters.find(function(item) { return item.id === fragment.chapter_id; });
-      return escapeHtml(fragment.id) + "<br>" +
-        escapeHtml(character.name || cluster.character_id) + " · " +
+      return escapeHtml(character.name || character.label || cluster.character_id) + "<br>" +
         escapeHtml(chapter ? chapter.label : fragment.chapter_id) + "<br>" +
-        escapeHtml(label) + "<br>" +
-        "position " + fragment.character_position + " · distance " + formatNumber(fragment.distance_to_centroid) + "<br>" +
-        escapeHtml(fragment.text);
+        escapeHtml(fragment.text) + "<br>" +
+        escapeHtml(cluster.name) + "<br>" +
+        "position " + fragment.character_position + " · distance " + formatNumber(fragment.distance_to_centroid);
     });
     var x = fragments.map(function(fragment) { return fragment.vad[0]; });
     var y = fragments.map(function(fragment) { return fragment.vad[1]; });
     var z = fragments.map(function(fragment) { return fragment.vad[2]; });
     var color = clusterColor(cluster);
     var marker = { size: 2.7, opacity: .74, color: color, symbol: "circle" };
+
+    var customdata = fragments.map(function(fragment) { return [fragment.chapter_id, fragment.id]; });
 
     pushTrace({
       type: "scatter3d",
@@ -288,13 +393,13 @@
       z: z,
       text: hover,
       marker: marker,
-      customdata: fragments.map(function() { return [cluster.id, cluster.character_id]; }),
+      customdata: customdata,
       hovertemplate: "%{text}<br>V %{x:.3f} · A %{y:.3f} · D %{z:.3f}<extra></extra>"
     }, cluster.id, traces);
 
-    pushTrace(projectionTrace(label, cluster, x, y, hover, "x", "y"), cluster.id, traces);
-    pushTrace(projectionTrace(label, cluster, x, z, hover, "x2", "y2"), cluster.id, traces);
-    pushTrace(projectionTrace(label, cluster, y, z, hover, "x3", "y3"), cluster.id, traces);
+    pushTrace(projectionTrace(label, cluster, x, y, hover, "x", "y", customdata), cluster.id, traces);
+    pushTrace(projectionTrace(label, cluster, x, z, hover, "x2", "y2", customdata), cluster.id, traces);
+    pushTrace(projectionTrace(label, cluster, y, z, hover, "x3", "y3", customdata), cluster.id, traces);
 
     addCentroidTraces(traces, cluster, label);
   }
@@ -347,7 +452,7 @@
     traces.push(trace);
   }
 
-  function projectionTrace(label, cluster, x, y, hover, xaxis, yaxis) {
+  function projectionTrace(label, cluster, x, y, hover, xaxis, yaxis, customdata) {
     return {
       type: "scattergl",
       mode: "markers",
@@ -359,6 +464,7 @@
       xaxis: xaxis,
       yaxis: yaxis,
       text: hover,
+      customdata: customdata,
       marker: { size: 3.3, opacity: .64, color: clusterColor(cluster) },
       hovertemplate: "%{text}<br>%{x:.3f} · %{y:.3f}<extra></extra>"
     };

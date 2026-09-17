@@ -53,6 +53,10 @@
     .sentence-number{display:inline-block;min-width:62px;font-family:Inter,system-ui,sans-serif;font-size:.68rem;color:var(--text-muted);vertical-align:baseline}
     #novel-text mark{color:inherit;padding:1px 0;border-radius:2px}
     .loading-state,.error-state{display:grid;place-items:center;height:100%;padding:28px;text-align:center}
+    #modal.modal-text{max-width:760px}
+    #modalBody{max-height:72vh;overflow-y:auto}
+    #chapter-text-modal{font-family:Georgia,"Times New Roman",serif;font-size:.92rem;line-height:1.55}
+    #chapter-text-modal mark{color:inherit;padding:1px 0;border-radius:2px}
     @media(max-width:1000px){body.animation-page{height:auto;overflow:auto}.animation-shell{height:auto}.animation-controls{grid-template-columns:1fr}.animation-controls fieldset{min-height:0}#animation-workspace{grid-template-columns:1fr;grid-template-rows:66vh 0 minmax(420px,auto)}#animation-splitter{display:none}#novel-panel{border-left:0;border-top:1px solid var(--border-color);overflow:visible}}
   </style>
 </head>
@@ -60,8 +64,17 @@
   <header class="site-header explorer-header">
     <a id="back-link" href="../index.html" class="back-link">&larr; Каталог романов</a>
     <h1>Анимация VAD по тексту</h1>
-    <p>Скользящее окно предложений показывает, как эмоциональные состояния персонажей движутся по VAD-пространству.</p>
   </header>
+
+  <div id="modalOverlay">
+    <div id="modal" class="modal-text">
+      <div id="modalHeader">
+        <div><span id="modalTitle"></span> <span id="modalTag" class="pill pill-fragment">фрагмент</span></div>
+        <button id="closeBtn" type="button">&times;</button>
+      </div>
+      <div id="modalBody"><div id="chapter-text-modal"></div></div>
+    </div>
+  </div>
   <main class="animation-shell">
     <section class="animation-controls" aria-label="Управление анимацией">
       <fieldset><legend>Персонажи</legend><div id="character-controls"><span class="loading-state">Загрузка…</span></div></fieldset>
