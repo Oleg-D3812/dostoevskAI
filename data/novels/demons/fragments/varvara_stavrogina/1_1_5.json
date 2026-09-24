@@ -3,21 +3,21 @@
   "novel_id": "demons",
   "character_id": "varvara_stavrogina",
   "chapter_id": "1_1_5",
-  "count": 7,
+  "count": 5,
   "fragments": [
     {
       "id": "varvara_stavrogina::chapter_01_01_05_0001",
       "source_section": "chapter_01_01_05",
       "source_sentence": 17,
-      "character_position": 19,
-      "text": "влюбилась в портрет",
+      "character_position": 23,
+      "text": "тотчас же влюбилась в портрет",
       "vad": [
-        0.82,
-        0.48,
-        -0.18
+        0.85,
+        0.55,
+        -0.15
       ],
-      "cluster_id": "varvara_stavrogina-1",
-      "distance_to_centroid": 0.6257280820396837,
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.6380643621764149,
       "warning": null,
       "chapter_sentence_start": 17,
       "chapter_sentence_end": 17,
@@ -26,7 +26,7 @@
       "highlights": [
         {
           "chapter_sentence": 17,
-          "start": 14,
+          "start": 4,
           "end": 33
         }
       ]
@@ -35,15 +35,15 @@
       "id": "varvara_stavrogina::chapter_01_01_05_0002",
       "source_section": "chapter_01_01_05",
       "source_sentence": 29,
-      "character_position": 20,
+      "character_position": 24,
       "text": "не могла она перенести мысли о том, что друг её забыт и не нужен",
       "vad": [
-        -0.72,
-        0.28,
-        -0.46
+        -0.78,
+        0.58,
+        -0.42
       ],
-      "cluster_id": "varvara_stavrogina-2",
-      "distance_to_centroid": 0.2226299750315499,
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.1857177016921377,
       "warning": null,
       "chapter_sentence_start": 29,
       "chapter_sentence_end": 29,
@@ -58,44 +58,18 @@
       ]
     },
     {
-      "id": "varvara_stavrogina::chapter_01_01_05_0003",
-      "source_section": "chapter_01_01_05",
-      "source_sentence": 36,
-      "character_position": 21,
-      "text": "у ней только голова закружилась",
-      "vad": [
-        -0.35,
-        0.45,
-        -0.2
-      ],
-      "cluster_id": "varvara_stavrogina-2",
-      "distance_to_centroid": 0.4045802249420101,
-      "warning": null,
-      "chapter_sentence_start": 36,
-      "chapter_sentence_end": 36,
-      "timeline_start_index": 217,
-      "timeline_end_index": 217,
-      "highlights": [
-        {
-          "chapter_sentence": 36,
-          "start": 147,
-          "end": 178
-        }
-      ]
-    },
-    {
       "id": "varvara_stavrogina::chapter_01_01_05_0004",
       "source_section": "chapter_01_01_05",
       "source_sentence": 38,
-      "character_position": 22,
-      "text": "она осталась положительно недовольна",
+      "character_position": 25,
+      "text": "объяснениями его она осталась положительно недовольна",
       "vad": [
-        -0.7,
-        0.1,
-        0.0
+        -0.65,
+        0.2,
+        -0.1
       ],
-      "cluster_id": "varvara_stavrogina-3",
-      "distance_to_centroid": 0.5163240102291338,
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.4075851373161957,
       "warning": null,
       "chapter_sentence_start": 38,
       "chapter_sentence_end": 38,
@@ -104,7 +78,7 @@
       "highlights": [
         {
           "chapter_sentence": 38,
-          "start": 107,
+          "start": 90,
           "end": 143
         }
       ]
@@ -113,15 +87,15 @@
       "id": "varvara_stavrogina::chapter_01_01_05_0005",
       "source_section": "chapter_01_01_05",
       "source_sentence": 44,
-      "character_position": 23,
-      "text": "тотчас же вновь и во всё уверовала и ужасно засуетилась",
+      "character_position": 26,
+      "text": "вновь и во всё уверовала и ужасно засуетилась",
       "vad": [
         0.35,
-        0.85,
+        0.75,
         0.2
       ],
-      "cluster_id": "varvara_stavrogina-1",
-      "distance_to_centroid": 0.524386638787427,
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.5569225400766691,
       "warning": null,
       "chapter_sentence_start": 44,
       "chapter_sentence_end": 44,
@@ -130,7 +104,7 @@
       "highlights": [
         {
           "chapter_sentence": 44,
-          "start": 17,
+          "start": 27,
           "end": 72
         }
       ]
@@ -138,42 +112,16 @@
     {
       "id": "varvara_stavrogina::chapter_01_01_05_0006",
       "source_section": "chapter_01_01_05",
-      "source_sentence": 46,
-      "character_position": 24,
-      "text": "готова основать свой журнал и посвятить ему отныне всю свою жизнь",
-      "vad": [
-        0.78,
-        0.7,
-        0.82
-      ],
-      "cluster_id": "varvara_stavrogina-1",
-      "distance_to_centroid": 0.6853892979875877,
-      "warning": null,
-      "chapter_sentence_start": 46,
-      "chapter_sentence_end": 46,
-      "timeline_start_index": 227,
-      "timeline_end_index": 227,
-      "highlights": [
-        {
-          "chapter_sentence": 46,
-          "start": 31,
-          "end": 96
-        }
-      ]
-    },
-    {
-      "id": "varvara_stavrogina::chapter_01_01_05_0007",
-      "source_section": "chapter_01_01_05",
       "source_sentence": 47,
-      "character_position": 25,
-      "text": "тотчас же сложила в сердце своём",
+      "character_position": 27,
+      "text": "что она тотчас же сложила в сердце своём",
       "vad": [
+        0.2,
         0.1,
-        0.05,
-        0.1
+        0.4
       ],
-      "cluster_id": "varvara_stavrogina-1",
-      "distance_to_centroid": 0.5230227294393658,
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.3367770972118277,
       "warning": null,
       "chapter_sentence_start": 47,
       "chapter_sentence_end": 47,
@@ -182,7 +130,7 @@
       "highlights": [
         {
           "chapter_sentence": 47,
-          "start": 158,
+          "start": 150,
           "end": 190
         }
       ]

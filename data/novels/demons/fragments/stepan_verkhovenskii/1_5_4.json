@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "stepan_verkhovenskii",
+  "chapter_id": "1_5_4",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "stepan_verkhovenskii::chapter_01_05_04_0001",
+      "source_section": "chapter_01_05_04",
+      "source_sentence": 112,
+      "character_position": 290,
+      "text": "Степан Трофимович дрожал тоже, но напротив, потому что наклонён был всегда понимать с излишком.",
+      "vad": [
+        -0.6,
+        0.7,
+        -0.4
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.1901609490160488,
+      "warning": null,
+      "chapter_sentence_start": 112,
+      "chapter_sentence_end": 112,
+      "timeline_start_index": 3567,
+      "timeline_end_index": 3567,
+      "highlights": [
+        {
+          "chapter_sentence": 112,
+          "start": 0,
+          "end": 95
+        }
+      ]
+    }
+  ]
+}

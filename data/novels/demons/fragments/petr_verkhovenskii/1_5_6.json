@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "petr_verkhovenskii",
+  "chapter_id": "1_5_6",
+  "count": 10,
+  "fragments": [
+    {
+      "id": "petr_verkhovenskii::chapter_01_05_06_0001",
+      "source_section": "chapter_01_05_06",
+      "source_sentence": 5,
+      "character_position": 11,
+      "text": "всех более горячился Пётр Степанович",
+      "vad": [
+        -0.3,
+        0.8,
+        -0.1
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.5328900909479092,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 3739,
+      "timeline_end_index": 3739,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 3,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_01_05_06_0002",
+      "source_section": "chapter_01_05_06",
+      "source_sentence": 5,
+      "character_position": 12,
+      "text": "отчаянно убеждал",
+      "vad": [
+        -0.65,
+        0.85,
+        0.55
+      ],
+      "cluster_id": "petr_verkhovenskii-4",
+      "distance_to_centroid": 0.2818311433969456,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 3739,
+      "timeline_end_index": 3739,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 53,
+          "end": 69
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_01_05_06_0003",
+      "source_section": "chapter_01_05_06",
+      "source_sentence": 6,
+      "character_position": 13,
+      "text": "сгоряча крикнул что-то отцу",
+      "vad": [
+        -0.65,
+        0.82,
+        0.2
+      ],
+      "cluster_id": "petr_verkhovenskii-4",
+      "distance_to_centroid": 0.2096136548450998,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 3740,
+      "timeline_end_index": 3740,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 71,
+          "end": 98
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_01_05_06_0004",
+      "source_section": "chapter_01_05_06",
+      "source_sentence": 82,
+      "character_position": 14,
+      "text": "встрепенулся Пётр Степанович",
+      "vad": [
+        0.0,
+        0.65,
+        0.1
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.6422003689752985,
+      "warning": null,
+      "chapter_sentence_start": 82,
+      "chapter_sentence_end": 82,
+      "timeline_start_index": 3816,
+      "timeline_end_index": 3816,
+      "highlights": [
+        {
+          "chapter_sentence": 82,
+          "start": 34,
+          "end": 62
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_01_05_06_0005",
+      "source_section": "chapter_01_05_06",
+      "source_sentence": 91,
+      "character_position": 15,
+      "text": "я и сам устал",
+      "vad": [
+        -0.25,
+        -0.35,
+        0.05
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.3344574794432852,
+      "warning": null,
+      "chapter_sentence_start": 91,
+      "chapter_sentence_end": 91,
+      "timeline_start_index": 3825,
+      "timeline_end_index": 3825,
+      "highlights": [
+        {
+          "chapter_sentence": 91,
+          "start": 21,
+          "end": 34
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_01_05_06_0006",
+      "source_section": "chapter_01_05_06",
+      "source_sentence": 96,
+      "character_position": 16,
+      "text": "Пётр Степанович лишь только заметил это, весь обратился во внимание",
+      "vad": [
+        0.1,
+        0.45,
+        0.15
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.4846868204438919,
+      "warning": null,
+      "chapter_sentence_start": 96,
+      "chapter_sentence_end": 96,
+      "timeline_start_index": 3830,
+      "timeline_end_index": 3830,
+      "highlights": [
+        {
+          "chapter_sentence": 96,
+          "start": 0,
+          "end": 67
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_01_05_06_0007",
+      "source_section": "chapter_01_05_06",
+      "source_sentence": 123,
+      "character_position": 17,
+      "text": "несколько уже нетерпеливо шевелился Пётр Степанович",
+      "vad": [
+        -0.25,
+        0.25,
+        0.0
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.3954261063151439,
+      "warning": null,
+      "chapter_sentence_start": 123,
+      "chapter_sentence_end": 123,
+      "timeline_start_index": 3857,
+      "timeline_end_index": 3857,
+      "highlights": [
+        {
+          "chapter_sentence": 123,
+          "start": 50,
+          "end": 101
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_01_05_06_0008",
+      "source_section": "chapter_01_05_06",
+      "source_sentence": 137,
+      "character_position": 18,
+      "text": "оживился вдруг Пётр Степанович",
+      "vad": [
+        0.25,
+        0.65,
+        0.05
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.4828692299394881,
+      "warning": null,
+      "chapter_sentence_start": 137,
+      "chapter_sentence_end": 137,
+      "timeline_start_index": 3871,
+      "timeline_end_index": 3871,
+      "highlights": [
+        {
+          "chapter_sentence": 137,
+          "start": 61,
+          "end": 91
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_01_05_06_0009",
+      "source_section": "chapter_01_05_06",
+      "source_sentence": 145,
+      "character_position": 19,
+      "text": "совершенно оживился Пётр Степанович",
+      "vad": [
+        0.65,
+        0.75,
+        0.2
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.3908530945230142,
+      "warning": null,
+      "chapter_sentence_start": 145,
+      "chapter_sentence_end": 145,
+      "timeline_start_index": 3879,
+      "timeline_end_index": 3879,
+      "highlights": [
+        {
+          "chapter_sentence": 145,
+          "start": 56,
+          "end": 91
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_01_05_06_0010",
+      "source_section": "chapter_01_05_06",
+      "source_sentence": 164,
+      "character_position": 20,
+      "text": "лицо его передёрнулось какой-то злобной судорогой",
+      "vad": [
+        -0.8,
+        0.7,
+        -0.25
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.273641633833949,
+      "warning": null,
+      "chapter_sentence_start": 164,
+      "chapter_sentence_end": 164,
+      "timeline_start_index": 3898,
+      "timeline_end_index": 3898,
+      "highlights": [
+        {
+          "chapter_sentence": 164,
+          "start": 80,
+          "end": 129
+        }
+      ]
+    }
+  ]
+}

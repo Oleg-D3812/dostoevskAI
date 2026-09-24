@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "petr_verkhovenskii",
+  "chapter_id": "2_1_7",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "petr_verkhovenskii::chapter_02_01_07_0001",
+      "source_section": "chapter_02_01_07",
+      "source_sentence": 158,
+      "character_position": 47,
+      "text": "Пётр Верховенский тоже убеждён, что я мог бы «поднять у них знамя»",
+      "vad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.1584670488005489,
+      "warning": null,
+      "chapter_sentence_start": 158,
+      "chapter_sentence_end": 158,
+      "timeline_start_index": 5273,
+      "timeline_end_index": 5273,
+      "highlights": [
+        {
+          "chapter_sentence": 158,
+          "start": 0,
+          "end": 66
+        }
+      ]
+    }
+  ]
+}

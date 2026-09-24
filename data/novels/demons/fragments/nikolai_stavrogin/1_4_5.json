@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "nikolai_stavrogin",
+  "chapter_id": "1_4_5",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "nikolai_stavrogin::chapter_01_04_05_0002",
+      "source_section": "chapter_01_04_05",
+      "source_sentence": 23,
+      "character_position": 53,
+      "text": "К удивлению моему",
+      "vad": [
+        0.1,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "nikolai_stavrogin-4",
+      "distance_to_centroid": 0.3562786419818018,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 2854,
+      "timeline_end_index": 2854,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 0,
+          "end": 17
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_04_05_0003",
+      "source_section": "chapter_01_04_05",
+      "source_sentence": 20,
+      "character_position": 54,
+      "text": "мне стало почти приятно смотреть на неё, с первой же минуты, и только разве жалость, но отнюдь не отвращение, овладела мною потом",
+      "vad": [
+        0.2,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "nikolai_stavrogin-4",
+      "distance_to_centroid": 0.3116313244570937,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 2851,
+      "timeline_end_index": 2851,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 138,
+          "end": 267
+        }
+      ]
+    }
+  ]
+}

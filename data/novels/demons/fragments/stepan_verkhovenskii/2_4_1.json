@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "stepan_verkhovenskii",
+  "chapter_id": "2_4_1",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "stepan_verkhovenskii::chapter_02_04_01_0001",
+      "source_section": "chapter_02_04_01",
+      "source_sentence": 148,
+      "character_position": 325,
+      "text": "он в отчаянии.",
+      "vad": [
+        -0.95,
+        0.8,
+        -0.75
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.4114759750503059,
+      "warning": null,
+      "chapter_sentence_start": 148,
+      "chapter_sentence_end": 148,
+      "timeline_start_index": 6376,
+      "timeline_end_index": 6376,
+      "highlights": [
+        {
+          "chapter_sentence": 148,
+          "start": 75,
+          "end": 89
+        }
+      ]
+    }
+  ]
+}

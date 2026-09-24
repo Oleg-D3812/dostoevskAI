@@ -3,57 +3,57 @@
   "novel_id": "demons",
   "character_id": "varvara_stavrogina",
   "chapter_id": "1_4_7",
-  "count": 13,
+  "count": 12,
   "fragments": [
     {
       "id": "varvara_stavrogina::chapter_01_04_07_0001",
       "source_section": "chapter_01_04_07",
-      "source_sentence": 22,
-      "character_position": 120,
-      "text": "она почти влетела в комнату, запыхавшись и в чрезвычайном волнении",
+      "source_sentence": 54,
+      "character_position": 124,
+      "text": "с самым непоколебимым видом достоинства",
       "vad": [
-        -0.45,
-        0.95,
-        0.15
+        0.2,
+        0.1,
+        0.85
       ],
-      "cluster_id": "varvara_stavrogina-3",
-      "distance_to_centroid": 0.5037982788391768,
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.682046263745614,
       "warning": null,
-      "chapter_sentence_start": 22,
-      "chapter_sentence_end": 22,
-      "timeline_start_index": 3069,
-      "timeline_end_index": 3069,
+      "chapter_sentence_start": 54,
+      "chapter_sentence_end": 54,
+      "timeline_start_index": 3101,
+      "timeline_end_index": 3101,
       "highlights": [
         {
-          "chapter_sentence": 22,
-          "start": 8,
-          "end": 74
+          "chapter_sentence": 54,
+          "start": 203,
+          "end": 242
         }
       ]
     },
     {
-      "id": "varvara_stavrogina::chapter_01_04_07_0002",
+      "id": "varvara_stavrogina::chapter_01_04_07_0003",
       "source_section": "chapter_01_04_07",
-      "source_sentence": 32,
-      "character_position": 121,
-      "text": "даже слёзы стояли в глазах её",
+      "source_sentence": 63,
+      "character_position": 125,
+      "text": "в восхищённом уме основательницы",
       "vad": [
-        -0.65,
-        0.35,
-        -0.2
+        0.8,
+        0.5,
+        0.2
       ],
       "cluster_id": "varvara_stavrogina-2",
-      "distance_to_centroid": 0.2624798749045666,
+      "distance_to_centroid": 0.4401820948437802,
       "warning": null,
-      "chapter_sentence_start": 32,
-      "chapter_sentence_end": 32,
-      "timeline_start_index": 3079,
-      "timeline_end_index": 3079,
+      "chapter_sentence_start": 63,
+      "chapter_sentence_end": 63,
+      "timeline_start_index": 3110,
+      "timeline_end_index": 3110,
       "highlights": [
         {
-          "chapter_sentence": 32,
-          "start": 149,
-          "end": 178
+          "chapter_sentence": 63,
+          "start": 251,
+          "end": 283
         }
       ]
     },
@@ -61,15 +61,15 @@
       "id": "varvara_stavrogina::chapter_01_04_07_0004",
       "source_section": "chapter_01_04_07",
       "source_sentence": 65,
-      "character_position": 122,
-      "text": "полагаю, что Варвара Петровна даже с некоторым удовольствием приостановилась теперь в самых соборных вратах",
+      "character_position": 126,
+      "text": "с некоторым удовольствием",
       "vad": [
         0.45,
-        0.1,
-        0.55
+        0.05,
+        0.1
       ],
-      "cluster_id": "varvara_stavrogina-1",
-      "distance_to_centroid": 0.3422550069698301,
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2083425498655364,
       "warning": null,
       "chapter_sentence_start": 65,
       "chapter_sentence_end": 65,
@@ -78,34 +78,8 @@
       "highlights": [
         {
           "chapter_sentence": 65,
-          "start": 34,
-          "end": 141
-        }
-      ]
-    },
-    {
-      "id": "varvara_stavrogina::chapter_01_04_07_0005",
-      "source_section": "chapter_01_04_07",
-      "source_sentence": 68,
-      "character_position": 123,
-      "text": "внимательнее всмотрелась Варвара Петровна в коленопреклонённую пред нею просительницу",
-      "vad": [
-        0.1,
-        0.2,
-        0.5
-      ],
-      "cluster_id": "varvara_stavrogina-1",
-      "distance_to_centroid": 0.4352781423693244,
-      "warning": null,
-      "chapter_sentence_start": 68,
-      "chapter_sentence_end": 68,
-      "timeline_start_index": 3115,
-      "timeline_end_index": 3115,
-      "highlights": [
-        {
-          "chapter_sentence": 68,
-          "start": 2,
-          "end": 87
+          "start": 69,
+          "end": 94
         }
       ]
     },
@@ -113,15 +87,15 @@
       "id": "varvara_stavrogina::chapter_01_04_07_0006",
       "source_section": "chapter_01_04_07",
       "source_sentence": 82,
-      "character_position": 124,
-      "text": "улыбнулась Варвара Петровна с сострадательною улыбкой",
+      "character_position": 127,
+      "text": "с сострадательною улыбкой",
       "vad": [
-        0.55,
-        0.1,
-        0.45
+        0.45,
+        -0.1,
+        0.2
       ],
-      "cluster_id": "varvara_stavrogina-1",
-      "distance_to_centroid": 0.2965924159928737,
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.3105137890761452,
       "warning": null,
       "chapter_sentence_start": 82,
       "chapter_sentence_end": 82,
@@ -130,7 +104,7 @@
       "highlights": [
         {
           "chapter_sentence": 82,
-          "start": 2,
+          "start": 30,
           "end": 55
         }
       ]
@@ -139,15 +113,15 @@
       "id": "varvara_stavrogina::chapter_01_04_07_0007",
       "source_section": "chapter_01_04_07",
       "source_sentence": 84,
-      "character_position": 125,
-      "text": "Варвара Петровна была очень заинтересована",
+      "character_position": 128,
+      "text": "была очень заинтересована",
       "vad": [
+        0.6,
         0.5,
-        0.45,
-        0.1
+        0.2
       ],
-      "cluster_id": "varvara_stavrogina-1",
-      "distance_to_centroid": 0.2427430824588676,
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.3206004785788088,
       "warning": null,
       "chapter_sentence_start": 84,
       "chapter_sentence_end": 84,
@@ -156,7 +130,7 @@
       "highlights": [
         {
           "chapter_sentence": 84,
-          "start": 0,
+          "start": 17,
           "end": 42
         }
       ]
@@ -165,15 +139,15 @@
       "id": "varvara_stavrogina::chapter_01_04_07_0008",
       "source_section": "chapter_01_04_07",
       "source_sentence": 87,
-      "character_position": 126,
-      "text": "Варвара Петровна почему-то немного нахмурилась и с серьёзным, почти строгим видом",
+      "character_position": 129,
+      "text": "почему-то немного нахмурилась и с серьёзным, почти строгим видом",
       "vad": [
-        -0.2,
-        0.1,
-        0.2
+        -0.25,
+        0.2,
+        0.45
       ],
       "cluster_id": "varvara_stavrogina-3",
-      "distance_to_centroid": 0.5041840880573344,
+      "distance_to_centroid": 0.3979356494217678,
       "warning": null,
       "chapter_sentence_start": 87,
       "chapter_sentence_end": 87,
@@ -182,7 +156,7 @@
       "highlights": [
         {
           "chapter_sentence": 87,
-          "start": 0,
+          "start": 17,
           "end": 81
         }
       ]
@@ -191,15 +165,15 @@
       "id": "varvara_stavrogina::chapter_01_04_07_0009",
       "source_section": "chapter_01_04_07",
       "source_sentence": 97,
-      "character_position": 127,
-      "text": "снова нетерпеливо оглянулась кругом Варвара Петровна",
+      "character_position": 130,
+      "text": "нетерпеливо оглянулась кругом",
       "vad": [
-        -0.35,
-        0.55,
-        0.15
+        -0.25,
+        0.4,
+        0.1
       ],
       "cluster_id": "varvara_stavrogina-3",
-      "distance_to_centroid": 0.2413268151019339,
+      "distance_to_centroid": 0.3633527141412702,
       "warning": null,
       "chapter_sentence_start": 97,
       "chapter_sentence_end": 97,
@@ -208,24 +182,50 @@
       "highlights": [
         {
           "chapter_sentence": 97,
-          "start": 2,
-          "end": 54
+          "start": 8,
+          "end": 37
         }
       ]
     },
     {
       "id": "varvara_stavrogina::chapter_01_04_07_0010",
       "source_section": "chapter_01_04_07",
-      "source_sentence": 120,
-      "character_position": 128,
-      "text": "но вдруг смутилась, заметив необычайное волнение Лизы",
+      "source_sentence": 119,
+      "character_position": 131,
+      "text": "я всегда тебе рада",
       "vad": [
-        -0.18,
-        0.42,
-        -0.22
+        0.7,
+        0.1,
+        0.2
       ],
       "cluster_id": "varvara_stavrogina-2",
-      "distance_to_centroid": 0.5510286080006919,
+      "distance_to_centroid": 0.2540007365777398,
+      "warning": null,
+      "chapter_sentence_start": 119,
+      "chapter_sentence_end": 119,
+      "timeline_start_index": 3166,
+      "timeline_end_index": 3166,
+      "highlights": [
+        {
+          "chapter_sentence": 119,
+          "start": 24,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_04_07_0011",
+      "source_section": "chapter_01_04_07",
+      "source_sentence": 120,
+      "character_position": 132,
+      "text": "вдруг смутилась",
+      "vad": [
+        -0.35,
+        0.45,
+        -0.25
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.3297328843202989,
       "warning": null,
       "chapter_sentence_start": 120,
       "chapter_sentence_end": 120,
@@ -234,76 +234,50 @@
       "highlights": [
         {
           "chapter_sentence": 120,
-          "start": 41,
-          "end": 94
-        }
-      ]
-    },
-    {
-      "id": "varvara_stavrogina::chapter_01_04_07_0011",
-      "source_section": "chapter_01_04_07",
-      "source_sentence": 127,
-      "character_position": 129,
-      "text": "Варвара Петровна даже на шаг отшатнулась и пронзительным взглядом посмотрела на сумасшедшую девушку",
-      "vad": [
-        -0.78,
-        0.82,
-        0.28
-      ],
-      "cluster_id": "varvara_stavrogina-3",
-      "distance_to_centroid": 0.4324753495675088,
-      "warning": null,
-      "chapter_sentence_start": 127,
-      "chapter_sentence_end": 127,
-      "timeline_start_index": 3174,
-      "timeline_end_index": 3174,
-      "highlights": [
-        {
-          "chapter_sentence": 127,
-          "start": 0,
-          "end": 99
-        }
-      ]
-    },
-    {
-      "id": "varvara_stavrogina::chapter_01_04_07_0013",
-      "source_section": "chapter_01_04_07",
-      "source_sentence": 129,
-      "character_position": 130,
-      "text": "Этому надо положить конец, — вырвалось у ней",
-      "vad": [
-        -0.45,
-        0.35,
-        0.55
-      ],
-      "cluster_id": "varvara_stavrogina-3",
-      "distance_to_centroid": 0.2841454410812229,
-      "warning": null,
-      "chapter_sentence_start": 129,
-      "chapter_sentence_end": 129,
-      "timeline_start_index": 3176,
-      "timeline_end_index": 3176,
-      "highlights": [
-        {
-          "chapter_sentence": 129,
-          "start": 2,
-          "end": 46
+          "start": 44,
+          "end": 59
         }
       ]
     },
     {
       "id": "varvara_stavrogina::chapter_01_04_07_0014",
       "source_section": "chapter_01_04_07",
+      "source_sentence": 130,
+      "character_position": 133,
+      "text": "с удовольствием беру тебя, Лиза",
+      "vad": [
+        0.8,
+        0.3,
+        0.7
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.5768326328989686,
+      "warning": null,
+      "chapter_sentence_start": 130,
+      "chapter_sentence_end": 130,
+      "timeline_start_index": 3177,
+      "timeline_end_index": 3177,
+      "highlights": [
+        {
+          "chapter_sentence": 130,
+          "start": 12,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_04_07_0016",
+      "source_section": "chapter_01_04_07",
       "source_sentence": 143,
-      "character_position": 131,
+      "character_position": 134,
       "text": "совершенно как в испуге, и побледнела",
       "vad": [
         -0.75,
-        0.8,
-        -0.45
+        0.75,
+        -0.35
       ],
-      "cluster_id": "varvara_stavrogina-2",
-      "distance_to_centroid": 0.3120406527048088,
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.3156871147852508,
       "warning": null,
       "chapter_sentence_start": 143,
       "chapter_sentence_end": 143,
@@ -318,18 +292,18 @@
       ]
     },
     {
-      "id": "varvara_stavrogina::chapter_01_04_07_0015",
+      "id": "varvara_stavrogina::chapter_01_04_07_0017",
       "source_section": "chapter_01_04_07",
       "source_sentence": 146,
-      "character_position": 132,
-      "text": "Варвара Петровна сидела «как будто в каком-то магнетическом сне»",
+      "character_position": 135,
+      "text": "сидела «как будто в каком-то магнетическом сне»",
       "vad": [
-        -0.2,
+        -0.1,
         -0.6,
-        -0.4
+        -0.5
       ],
-      "cluster_id": "varvara_stavrogina-2",
-      "distance_to_centroid": 1.2004772737248788,
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 1.1931382632323455,
       "warning": null,
       "chapter_sentence_start": 146,
       "chapter_sentence_end": 146,
@@ -338,7 +312,7 @@
       "highlights": [
         {
           "chapter_sentence": 146,
-          "start": 92,
+          "start": 109,
           "end": 156
         }
       ]

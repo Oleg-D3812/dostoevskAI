@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "petr_verkhovenskii",
+  "chapter_id": "3_5_1",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "petr_verkhovenskii::chapter_03_05_01_0001",
+      "source_section": "chapter_03_05_01",
+      "source_sentence": 11,
+      "character_position": 193,
+      "text": "С его стороны тут было, по обыкновению, много самонадеянности и презрения ко всем этим «людишкам», а к Шатову в особенности.",
+      "vad": [
+        -0.6,
+        0.35,
+        0.8
+      ],
+      "cluster_id": "petr_verkhovenskii-4",
+      "distance_to_centroid": 0.5627624016058261,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 12339,
+      "timeline_end_index": 12339,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 0,
+          "end": 124
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_05_01_0002",
+      "source_section": "chapter_03_05_01",
+      "source_sentence": 12,
+      "character_position": 194,
+      "text": "Он презирал Шатова уже давно за его «плаксивое идиотство»",
+      "vad": [
+        -0.75,
+        0.3,
+        0.7
+      ],
+      "cluster_id": "petr_verkhovenskii-4",
+      "distance_to_centroid": 0.5190302782613613,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 12340,
+      "timeline_end_index": 12340,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 0,
+          "end": 57
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_05_01_0003",
+      "source_section": "chapter_03_05_01",
+      "source_sentence": 12,
+      "character_position": 195,
+      "text": "и твёрдо надеялся справиться с таким нехитрым человеком",
+      "vad": [
+        0.45,
+        0.3,
+        0.8
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.4697291260322742,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 12340,
+      "timeline_end_index": 12340,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 99,
+          "end": 154
+        }
+      ]
+    }
+  ]
+}

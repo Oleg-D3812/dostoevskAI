@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "stepan_verkhovenskii",
+  "chapter_id": "1_5_7",
+  "count": 8,
+  "fragments": [
+    {
+      "id": "stepan_verkhovenskii::chapter_01_05_07_0001",
+      "source_section": "chapter_01_05_07",
+      "source_sentence": 104,
+      "character_position": 295,
+      "text": "удивился и смутился Степан Трофимович.",
+      "vad": [
+        -0.25,
+        0.55,
+        -0.35
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.4746301008745076,
+      "warning": null,
+      "chapter_sentence_start": 104,
+      "chapter_sentence_end": 104,
+      "timeline_start_index": 4044,
+      "timeline_end_index": 4044,
+      "highlights": [
+        {
+          "chapter_sentence": 104,
+          "start": 2,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_05_07_0004",
+      "source_section": "chapter_01_05_07",
+      "source_sentence": 133,
+      "character_position": 296,
+      "text": "не обижайся",
+      "vad": [
+        0.1,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.5176648237298339,
+      "warning": null,
+      "chapter_sentence_start": 134,
+      "chapter_sentence_end": 134,
+      "timeline_start_index": 4074,
+      "timeline_end_index": 4074,
+      "highlights": [
+        {
+          "chapter_sentence": 134,
+          "start": 7,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_05_07_0006",
+      "source_section": "chapter_01_05_07",
+      "source_sentence": 158,
+      "character_position": 297,
+      "text": "несомненно и глубоко оскорблён был давешнею первою встречей с Петрушей, именно давешними объятиями.",
+      "vad": [
+        -0.85,
+        0.45,
+        -0.35
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.2608613432558055,
+      "warning": null,
+      "chapter_sentence_start": 158,
+      "chapter_sentence_end": 158,
+      "timeline_start_index": 4098,
+      "timeline_end_index": 4098,
+      "highlights": [
+        {
+          "chapter_sentence": 158,
+          "start": 28,
+          "end": 127
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_05_07_0007",
+      "source_section": "chapter_01_05_07",
+      "source_sentence": 159,
+      "character_position": 298,
+      "text": "Это было глубокое и настоящее уже горе, по крайней мере на его глаза, его сердцу.",
+      "vad": [
+        -0.9,
+        0.35,
+        -0.55
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.3109245915971202,
+      "warning": null,
+      "chapter_sentence_start": 159,
+      "chapter_sentence_end": 159,
+      "timeline_start_index": 4099,
+      "timeline_end_index": 4099,
+      "highlights": [
+        {
+          "chapter_sentence": 159,
+          "start": 0,
+          "end": 81
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_05_07_0008",
+      "source_section": "chapter_01_05_07",
+      "source_sentence": 160,
+      "character_position": 299,
+      "text": "Было у него и другое горе в ту минуту, а именно язвительное собственное сознание в том, что он сподличал",
+      "vad": [
+        -0.88,
+        0.52,
+        -0.58
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.2060888780237201,
+      "warning": null,
+      "chapter_sentence_start": 160,
+      "chapter_sentence_end": 160,
+      "timeline_start_index": 4100,
+      "timeline_end_index": 4100,
+      "highlights": [
+        {
+          "chapter_sentence": 160,
+          "start": 0,
+          "end": 104
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_05_07_0009",
+      "source_section": "chapter_01_05_07",
+      "source_sentence": 161,
+      "character_position": 300,
+      "text": "А ведь настоящее, несомненное горе даже феноменально легкомысленного человека способно иногда сделать солидным и стойким, ну хоть на малое время",
+      "vad": [
+        -0.2,
+        0.25,
+        0.45
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.5439035438154542,
+      "warning": null,
+      "chapter_sentence_start": 161,
+      "chapter_sentence_end": 161,
+      "timeline_start_index": 4101,
+      "timeline_end_index": 4101,
+      "highlights": [
+        {
+          "chapter_sentence": 161,
+          "start": 0,
+          "end": 144
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_05_07_0011",
+      "source_section": "chapter_01_05_07",
+      "source_sentence": 178,
+      "character_position": 301,
+      "text": "старые, больные нервы",
+      "vad": [
+        -0.65,
+        0.2,
+        -0.35
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.4165828372982045,
+      "warning": null,
+      "chapter_sentence_start": 178,
+      "chapter_sentence_end": 178,
+      "timeline_start_index": 4118,
+      "timeline_end_index": 4118,
+      "highlights": [
+        {
+          "chapter_sentence": 178,
+          "start": 71,
+          "end": 92
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_05_07_0012",
+      "source_section": "chapter_01_05_07",
+      "source_sentence": 183,
+      "character_position": 302,
+      "text": "мы ещё злые дети",
+      "vad": [
+        -0.65,
+        0.3,
+        -0.1
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.363638592230422,
+      "warning": null,
+      "chapter_sentence_start": 183,
+      "chapter_sentence_end": 183,
+      "timeline_start_index": 4123,
+      "timeline_end_index": 4123,
+      "highlights": [
+        {
+          "chapter_sentence": 183,
+          "start": 35,
+          "end": 51
+        }
+      ]
+    }
+  ]
+}

@@ -3,21 +3,47 @@
   "novel_id": "demons",
   "character_id": "varvara_stavrogina",
   "chapter_id": "1_2_3",
-  "count": 2,
+  "count": 4,
   "fragments": [
     {
       "id": "varvara_stavrogina::chapter_01_02_03_0001",
       "source_section": "chapter_01_02_03",
-      "source_sentence": 30,
-      "character_position": 50,
-      "text": "поспешно и в раздражении прибывшей",
+      "source_sentence": 8,
+      "character_position": 57,
+      "text": "успокоили сердце дорогой нам всем матушки вашей",
       "vad": [
-        -0.65,
-        0.72,
+        0.6,
+        -0.3,
+        0.2
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.5246641513797279,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 688,
+      "timeline_end_index": 688,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 182,
+          "end": 229
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_03_0002",
+      "source_section": "chapter_01_02_03",
+      "source_sentence": 30,
+      "character_position": 58,
+      "text": "в раздражении",
+      "vad": [
+        -0.55,
+        0.45,
         0.05
       ],
       "cluster_id": "varvara_stavrogina-3",
-      "distance_to_centroid": 0.3763761443790151,
+      "distance_to_centroid": 0.266246622212085,
       "warning": null,
       "chapter_sentence_start": 30,
       "chapter_sentence_end": 30,
@@ -26,24 +52,50 @@
       "highlights": [
         {
           "chapter_sentence": 30,
-          "start": 35,
-          "end": 69
+          "start": 46,
+          "end": 59
         }
       ]
     },
     {
       "id": "varvara_stavrogina::chapter_01_02_03_0003",
       "source_section": "chapter_01_02_03",
-      "source_sentence": 41,
-      "character_position": 51,
-      "text": "Она простила.",
+      "source_sentence": 30,
+      "character_position": 59,
+      "text": "не веря самой себе",
       "vad": [
-        0.75,
-        -0.2,
-        0.55
+        -0.25,
+        0.45,
+        -0.2
       ],
       "cluster_id": "varvara_stavrogina-1",
-      "distance_to_centroid": 0.6628907934808212,
+      "distance_to_centroid": 0.4413757583385301,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 710,
+      "timeline_end_index": 710,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 207,
+          "end": 225
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_03_0004",
+      "source_section": "chapter_01_02_03",
+      "source_sentence": 41,
+      "character_position": 60,
+      "text": "Она простила",
+      "vad": [
+        0.65,
+        0.05,
+        0.45
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.3209046413129309,
       "warning": null,
       "chapter_sentence_start": 41,
       "chapter_sentence_end": 41,
@@ -53,7 +105,7 @@
         {
           "chapter_sentence": 41,
           "start": 0,
-          "end": 13
+          "end": 12
         }
       ]
     }

@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "petr_verkhovenskii",
+  "chapter_id": "3_2_3",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "petr_verkhovenskii::chapter_03_02_03_0001",
+      "source_section": "chapter_03_02_03",
+      "source_sentence": 44,
+      "character_position": 130,
+      "text": "он был чрезмерно весел",
+      "vad": [
+        0.7,
+        0.75,
+        0.2
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.4079054193724186,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 10877,
+      "timeline_end_index": 10877,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 104,
+          "end": 126
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_02_03_0002",
+      "source_section": "chapter_03_02_03",
+      "source_sentence": 107,
+      "character_position": 131,
+      "text": "с видом виноватого школьника",
+      "vad": [
+        -0.4,
+        0.1,
+        -0.6
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.5862218518247053,
+      "warning": null,
+      "chapter_sentence_start": 107,
+      "chapter_sentence_end": 107,
+      "timeline_start_index": 10940,
+      "timeline_end_index": 10940,
+      "highlights": [
+        {
+          "chapter_sentence": 107,
+          "start": 44,
+          "end": 72
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_02_03_0003",
+      "source_section": "chapter_03_02_03",
+      "source_sentence": 111,
+      "character_position": 132,
+      "text": "чрезвычайно довольный собой",
+      "vad": [
+        0.9,
+        0.3,
+        0.8
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.5858597603007019,
+      "warning": null,
+      "chapter_sentence_start": 111,
+      "chapter_sentence_end": 111,
+      "timeline_start_index": 10944,
+      "timeline_end_index": 10944,
+      "highlights": [
+        {
+          "chapter_sentence": 111,
+          "start": 25,
+          "end": 52
+        }
+      ]
+    }
+  ]
+}

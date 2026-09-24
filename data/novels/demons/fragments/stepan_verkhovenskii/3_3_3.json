@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "stepan_verkhovenskii",
+  "chapter_id": "3_3_3",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "stepan_verkhovenskii::chapter_03_03_03_0001",
+      "source_section": "chapter_03_03_03",
+      "source_sentence": 120,
+      "character_position": 443,
+      "text": "бросаясь к ней тоже почти в бреду",
+      "vad": [
+        0.4,
+        0.85,
+        -0.35
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.7336308879805854,
+      "warning": null,
+      "chapter_sentence_start": 120,
+      "chapter_sentence_end": 120,
+      "timeline_start_index": 11727,
+      "timeline_end_index": 11727,
+      "highlights": [
+        {
+          "chapter_sentence": 120,
+          "start": 32,
+          "end": 65
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_03_03_03_0002",
+      "source_section": "chapter_03_03_03",
+      "source_sentence": 123,
+      "character_position": 444,
+      "text": "Nous sommes tous malheureux",
+      "vad": [
+        -0.75,
+        0.2,
+        -0.35
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.417918235394597,
+      "warning": null,
+      "chapter_sentence_start": 123,
+      "chapter_sentence_end": 123,
+      "timeline_start_index": 11730,
+      "timeline_end_index": 11730,
+      "highlights": [
+        {
+          "chapter_sentence": 123,
+          "start": 59,
+          "end": 86
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_03_03_03_0005",
+      "source_section": "chapter_03_03_03",
+      "source_sentence": 128,
+      "character_position": 445,
+      "text": "там — безумец, мечтавший взлететь на небо",
+      "vad": [
+        -0.7,
+        0.5,
+        -0.5
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.0818080182154391,
+      "warning": null,
+      "chapter_sentence_start": 128,
+      "chapter_sentence_end": 128,
+      "timeline_start_index": 11735,
+      "timeline_end_index": 11735,
+      "highlights": [
+        {
+          "chapter_sentence": 128,
+          "start": 32,
+          "end": 73
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_03_03_03_0006",
+      "source_section": "chapter_03_03_03",
+      "source_sentence": 135,
+      "character_position": 446,
+      "text": "в глубоком недоумении",
+      "vad": [
+        -0.45,
+        0.35,
+        -0.55
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.3378747423413508,
+      "warning": null,
+      "chapter_sentence_start": 135,
+      "chapter_sentence_end": 135,
+      "timeline_start_index": 11742,
+      "timeline_end_index": 11742,
+      "highlights": [
+        {
+          "chapter_sentence": 135,
+          "start": 40,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_03_03_03_0007",
+      "source_section": "chapter_03_03_03",
+      "source_sentence": 142,
+      "character_position": 447,
+      "text": "Бегу из бреду, горячешного сна",
+      "vad": [
+        -0.8,
+        0.8,
+        -0.4
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.2688892112616244,
+      "warning": null,
+      "chapter_sentence_start": 142,
+      "chapter_sentence_end": 142,
+      "timeline_start_index": 11749,
+      "timeline_end_index": 11749,
+      "highlights": [
+        {
+          "chapter_sentence": 142,
+          "start": 0,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_03_03_03_0008",
+      "source_section": "chapter_03_03_03",
+      "source_sentence": 143,
+      "character_position": 448,
+      "text": "Никогда не сомневался",
+      "vad": [
+        0.2,
+        0.0,
+        0.8
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.8133100716239395,
+      "warning": null,
+      "chapter_sentence_start": 143,
+      "chapter_sentence_end": 143,
+      "timeline_start_index": 11750,
+      "timeline_end_index": 11750,
+      "highlights": [
+        {
+          "chapter_sentence": 143,
+          "start": 0,
+          "end": 21
+        }
+      ]
+    }
+  ]
+}

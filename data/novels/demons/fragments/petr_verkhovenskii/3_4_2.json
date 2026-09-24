@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "petr_verkhovenskii",
+  "chapter_id": "3_4_2",
+  "count": 10,
+  "fragments": [
+    {
+      "id": "petr_verkhovenskii::chapter_03_04_02_0001",
+      "source_section": "chapter_03_04_02",
+      "source_sentence": 7,
+      "character_position": 165,
+      "text": "он сам был выбит из рельсов",
+      "vad": [
+        -0.7,
+        0.4,
+        -0.7
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.3259371211218625,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 12024,
+      "timeline_end_index": 12024,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 51,
+          "end": 78
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_04_02_0002",
+      "source_section": "chapter_03_04_02",
+      "source_sentence": 8,
+      "character_position": 166,
+      "text": "Бегство Ставрогина ошеломило и придавило его",
+      "vad": [
+        -0.9,
+        0.8,
+        -0.7
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.3966614048317563,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 12025,
+      "timeline_end_index": 12025,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 0,
+          "end": 44
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_04_02_0003",
+      "source_section": "chapter_03_04_02",
+      "source_sentence": 10,
+      "character_position": 167,
+      "text": "никогда он так не тревожился",
+      "vad": [
+        -0.7,
+        0.75,
+        -0.45
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.1474725900631862,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 12027,
+      "timeline_end_index": 12027,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 70,
+          "end": 98
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_04_02_0004",
+      "source_section": "chapter_03_04_02",
+      "source_sentence": 12,
+      "character_position": 168,
+      "text": "не мог быть слишком нежным с нашими",
+      "vad": [
+        -0.2,
+        0.1,
+        -0.1
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.3134939747781801,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 12029,
+      "timeline_end_index": 12029,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 16,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_04_02_0005",
+      "source_section": "chapter_03_04_02",
+      "source_sentence": 20,
+      "character_position": 169,
+      "text": "он ненавидел Шатова лично",
+      "vad": [
+        -0.85,
+        0.45,
+        0.35
+      ],
+      "cluster_id": "petr_verkhovenskii-4",
+      "distance_to_centroid": 0.2791084388927661,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 12037,
+      "timeline_end_index": 12037,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 19,
+          "end": 44
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_04_02_0006",
+      "source_section": "chapter_03_04_02",
+      "source_sentence": 25,
+      "character_position": 170,
+      "text": "бешенство захватило ему дух",
+      "vad": [
+        -0.95,
+        0.95,
+        -0.55
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.4626562399869819,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 12042,
+      "timeline_end_index": 12042,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 30,
+          "end": 57
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_04_02_0007",
+      "source_section": "chapter_03_04_02",
+      "source_sentence": 53,
+      "character_position": 171,
+      "text": "Он был в глубокой задумчивости",
+      "vad": [
+        0.0,
+        -0.2,
+        0.0
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.1828801216340608,
+      "warning": null,
+      "chapter_sentence_start": 53,
+      "chapter_sentence_end": 53,
+      "timeline_start_index": 12070,
+      "timeline_end_index": 12070,
+      "highlights": [
+        {
+          "chapter_sentence": 53,
+          "start": 0,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_04_02_0008",
+      "source_section": "chapter_03_04_02",
+      "source_sentence": 54,
+      "character_position": 172,
+      "text": "быть в глубокой задумчивости",
+      "vad": [
+        0.0,
+        -0.25,
+        0.0
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.2191539920289434,
+      "warning": null,
+      "chapter_sentence_start": 54,
+      "chapter_sentence_end": 54,
+      "timeline_start_index": 12071,
+      "timeline_end_index": 12071,
+      "highlights": [
+        {
+          "chapter_sentence": 54,
+          "start": 42,
+          "end": 70
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_04_02_0009",
+      "source_section": "chapter_03_04_02",
+      "source_sentence": 84,
+      "character_position": 173,
+      "text": "ужасно хладнокровно",
+      "vad": [
+        0.0,
+        -0.65,
+        0.75
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.8527573739868152,
+      "warning": null,
+      "chapter_sentence_start": 84,
+      "chapter_sentence_end": 84,
+      "timeline_start_index": 12101,
+      "timeline_end_index": 12101,
+      "highlights": [
+        {
+          "chapter_sentence": 84,
+          "start": 44,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_04_02_0010",
+      "source_section": "chapter_03_04_02",
+      "source_sentence": 101,
+      "character_position": 174,
+      "text": "самоуверенно направился",
+      "vad": [
+        0.45,
+        0.25,
+        0.85
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.530312793301836,
+      "warning": null,
+      "chapter_sentence_start": 101,
+      "chapter_sentence_end": 101,
+      "timeline_start_index": 12118,
+      "timeline_end_index": 12118,
+      "highlights": [
+        {
+          "chapter_sentence": 101,
+          "start": 29,
+          "end": 52
+        }
+      ]
+    }
+  ]
+}

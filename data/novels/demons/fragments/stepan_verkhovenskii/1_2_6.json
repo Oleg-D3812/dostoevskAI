@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "stepan_verkhovenskii",
+  "chapter_id": "1_2_6",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_06_0001",
+      "source_section": "chapter_01_02_06",
+      "source_sentence": 15,
+      "character_position": 131,
+      "text": "как и Степан Трофимович, беспрерывно нуждалась в истинной дружбе",
+      "vad": [
+        -0.4,
+        0.1,
+        -0.55
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.5379618577555906,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 1014,
+      "timeline_end_index": 1014,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 51,
+          "end": 115
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_06_0003",
+      "source_section": "chapter_01_02_06",
+      "source_sentence": 100,
+      "character_position": 132,
+      "text": "за беззащитность его любить",
+      "vad": [
+        0.55,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.2659486196399427,
+      "warning": null,
+      "chapter_sentence_start": 100,
+      "chapter_sentence_end": 100,
+      "timeline_start_index": 1099,
+      "timeline_end_index": 1099,
+      "highlights": [
+        {
+          "chapter_sentence": 100,
+          "start": 13,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_06_0006",
+      "source_section": "chapter_01_02_06",
+      "source_sentence": 106,
+      "character_position": 133,
+      "text": "в тебя влюбится",
+      "vad": [
+        0.8,
+        0.4,
+        0.0
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.2944667768643519,
+      "warning": null,
+      "chapter_sentence_start": 106,
+      "chapter_sentence_end": 106,
+      "timeline_start_index": 1105,
+      "timeline_end_index": 1105,
+      "highlights": [
+        {
+          "chapter_sentence": 106,
+          "start": 89,
+          "end": 104
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_06_0007",
+      "source_section": "chapter_01_02_06",
+      "source_sentence": 109,
+      "character_position": 134,
+      "text": "без тебя всё-таки не проживёт",
+      "vad": [
+        0.2,
+        0.35,
+        0.65
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.5949535069924671,
+      "warning": null,
+      "chapter_sentence_start": 109,
+      "chapter_sentence_end": 109,
+      "timeline_start_index": 1108,
+      "timeline_end_index": 1108,
+      "highlights": [
+        {
+          "chapter_sentence": 109,
+          "start": 203,
+          "end": 232
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_06_0008",
+      "source_section": "chapter_01_02_06",
+      "source_sentence": 111,
+      "character_position": 135,
+      "text": "Повеситься захочет",
+      "vad": [
+        -0.95,
+        0.75,
+        -0.85
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.4550786864762273,
+      "warning": null,
+      "chapter_sentence_start": 111,
+      "chapter_sentence_end": 111,
+      "timeline_start_index": 1110,
+      "timeline_end_index": 1110,
+      "highlights": [
+        {
+          "chapter_sentence": 111,
+          "start": 0,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_06_0009",
+      "source_section": "chapter_01_02_06",
+      "source_sentence": 159,
+      "character_position": 136,
+      "text": "он должен от счастья умереть",
+      "vad": [
+        0.8,
+        0.7,
+        0.7
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.6406425781141206,
+      "warning": null,
+      "chapter_sentence_start": 159,
+      "chapter_sentence_end": 159,
+      "timeline_start_index": 1158,
+      "timeline_end_index": 1158,
+      "highlights": [
+        {
+          "chapter_sentence": 159,
+          "start": 45,
+          "end": 73
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "stepan_verkhovenskii",
+  "chapter_id": "1_1_3",
+  "count": 13,
+  "fragments": [
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_03_0001",
+      "source_section": "chapter_01_01_03",
+      "source_sentence": 1,
+      "character_position": 23,
+      "text": "оба друга один другого почти съесть хотят",
+      "vad": [
+        -0.85,
+        0.8,
+        0.1
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.6701935104969563,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 96,
+      "timeline_end_index": 96,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 22,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_03_0002",
+      "source_section": "chapter_01_01_03",
+      "source_sentence": 2,
+      "character_position": 24,
+      "text": "раскапризившийся и разорвавший связь друг первый же заболеет и, пожалуй, умрёт",
+      "vad": [
+        -0.88,
+        0.42,
+        -0.76
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.3475527598049366,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 97,
+      "timeline_end_index": 97,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 30,
+          "end": 108
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_03_0004",
+      "source_section": "chapter_01_01_03",
+      "source_sentence": 7,
+      "character_position": 25,
+      "text": "неоднократно рыдал на моём плече",
+      "vad": [
+        -0.85,
+        0.9,
+        -0.75
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.4267429273158251,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 102,
+      "timeline_end_index": 102,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 31,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_03_0006",
+      "source_section": "chapter_01_01_03",
+      "source_sentence": 8,
+      "character_position": 26,
+      "text": "готов был распять самого себя за неблагодарность",
+      "vad": [
+        -0.9,
+        0.7,
+        -0.7
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.302032973627038,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 103,
+      "timeline_end_index": 103,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 70,
+          "end": 118
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_03_0007",
+      "source_section": "chapter_01_01_03",
+      "source_sentence": 9,
+      "character_position": 27,
+      "text": "он себя презирает",
+      "vad": [
+        -0.85,
+        0.25,
+        -0.65
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.3898016410586455,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 104,
+      "timeline_end_index": 104,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 438,
+          "end": 455
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_03_0008",
+      "source_section": "chapter_01_01_03",
+      "source_sentence": 9,
+      "character_position": 28,
+      "text": "решился погибнуть насильственною смертью",
+      "vad": [
+        -0.95,
+        0.8,
+        -0.65
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.3634179765023683,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 104,
+      "timeline_end_index": 104,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 458,
+          "end": 498
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_03_0009",
+      "source_section": "chapter_01_01_03",
+      "source_sentence": 10,
+      "character_position": 29,
+      "text": "до какой истерики доходили иногда нервные взрывы этого невиннейшего из всех пятидесятилетних младенцев",
+      "vad": [
+        -0.8,
+        0.95,
+        -0.65
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.4077599754767446,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 105,
+      "timeline_end_index": 105,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 31,
+          "end": 133
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_03_0010",
+      "source_section": "chapter_01_01_03",
+      "source_sentence": 14,
+      "character_position": 30,
+      "text": "отвечал он чуть не в горячке",
+      "vad": [
+        -0.4,
+        0.75,
+        -0.35
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.3771845670236188,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 109,
+      "timeline_end_index": 109,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 2,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_03_0011",
+      "source_section": "chapter_01_01_03",
+      "source_sentence": 16,
+      "character_position": 31,
+      "text": "писать любил без памяти",
+      "vad": [
+        0.65,
+        0.55,
+        0.1
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.2022496657134359,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 111,
+      "timeline_end_index": 111,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 11,
+          "end": 34
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_03_0012",
+      "source_section": "chapter_01_01_03",
+      "source_sentence": 16,
+      "character_position": 32,
+      "text": "в истерических случаях",
+      "vad": [
+        -0.7,
+        0.8,
+        -0.7
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.2879350169475035,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 111,
+      "timeline_end_index": 111,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 80,
+          "end": 102
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_03_0013",
+      "source_section": "chapter_01_01_03",
+      "source_sentence": 20,
+      "character_position": 33,
+      "text": "ободрённый её же спокойствием, нередко в тот же день смеялся и школьничал за шампанским",
+      "vad": [
+        0.72,
+        0.48,
+        0.34
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.2294815064739871,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 115,
+      "timeline_end_index": 115,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 67,
+          "end": 154
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_03_0014",
+      "source_section": "chapter_01_01_03",
+      "source_sentence": 22,
+      "character_position": 34,
+      "text": "вдруг сгорал от стыда и до того, бывало, мучился, что заболевал своими припадками холерины",
+      "vad": [
+        -0.95,
+        0.88,
+        -0.7
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.435570548976685,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 117,
+      "timeline_end_index": 117,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 198,
+          "end": 288
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_03_0015",
+      "source_section": "chapter_01_01_03",
+      "source_sentence": 23,
+      "character_position": 35,
+      "text": "его нервных потрясений",
+      "vad": [
+        -0.8,
+        0.8,
+        -0.5
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.2440107791295757,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 118,
+      "timeline_end_index": 118,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 95,
+          "end": 117
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "stepan_verkhovenskii",
+  "chapter_id": "3_1_2",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "stepan_verkhovenskii::chapter_03_01_02_0001",
+      "source_section": "chapter_03_01_02",
+      "source_sentence": 221,
+      "character_position": 420,
+      "text": "разговаривать со мною он уже был не в состоянии",
+      "vad": [
+        -0.35,
+        0.08,
+        -0.28
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.2720204353768138,
+      "warning": null,
+      "chapter_sentence_start": 221,
+      "chapter_sentence_end": 221,
+      "timeline_start_index": 10164,
+      "timeline_end_index": 10164,
+      "highlights": [
+        {
+          "chapter_sentence": 221,
+          "start": 51,
+          "end": 98
+        }
+      ]
+    }
+  ]
+}

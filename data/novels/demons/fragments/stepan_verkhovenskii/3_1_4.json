@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "stepan_verkhovenskii",
+  "chapter_id": "3_1_4",
+  "count": 8,
+  "fragments": [
+    {
+      "id": "stepan_verkhovenskii::chapter_03_01_04_0001",
+      "source_section": "chapter_03_01_04",
+      "source_sentence": 22,
+      "character_position": 421,
+      "text": "По волнению и по всему слишком мне в нём знакомому, для меня ясно было, что и сам он смотрит на теперешнее появление своё на эстраде как на решение судьбы своей или в роде того.",
+      "vad": [
+        -0.7,
+        0.82,
+        -0.45
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.2479702216217246,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 10355,
+      "timeline_end_index": 10355,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 0,
+          "end": 177
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_03_01_04_0002",
+      "source_section": "chapter_03_01_04",
+      "source_sentence": 27,
+      "character_position": 422,
+      "text": "как бы решившись на всё, и в то же время почти срывавшимся голосом",
+      "vad": [
+        -0.35,
+        0.82,
+        0.38
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.8667000481549206,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 10360,
+      "timeline_end_index": 10360,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 21,
+          "end": 87
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_03_01_04_0004",
+      "source_section": "chapter_03_01_04",
+      "source_sentence": 52,
+      "character_position": 423,
+      "text": "уже в совершенном исступлении, бравируя залу",
+      "vad": [
+        -0.85,
+        1.0,
+        0.7
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 1.270941324093577,
+      "warning": null,
+      "chapter_sentence_start": 52,
+      "chapter_sentence_end": 52,
+      "timeline_start_index": 10385,
+      "timeline_end_index": 10385,
+      "highlights": [
+        {
+          "chapter_sentence": 52,
+          "start": 31,
+          "end": 75
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_03_01_04_0005",
+      "source_section": "chapter_03_01_04",
+      "source_sentence": 75,
+      "character_position": 424,
+      "text": "в последней степени азарта провизжал Степан Трофимович",
+      "vad": [
+        0.5,
+        0.98,
+        0.35
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.6209906502620238,
+      "warning": null,
+      "chapter_sentence_start": 75,
+      "chapter_sentence_end": 75,
+      "timeline_start_index": 10408,
+      "timeline_end_index": 10408,
+      "highlights": [
+        {
+          "chapter_sentence": 75,
+          "start": 18,
+          "end": 72
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_03_01_04_0006",
+      "source_section": "chapter_03_01_04",
+      "source_sentence": 92,
+      "character_position": 425,
+      "text": "убитый, оскорблённый отец",
+      "vad": [
+        -0.95,
+        0.65,
+        -0.75
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.3548877560187351,
+      "warning": null,
+      "chapter_sentence_start": 92,
+      "chapter_sentence_end": 92,
+      "timeline_start_index": 10425,
+      "timeline_end_index": 10425,
+      "highlights": [
+        {
+          "chapter_sentence": 92,
+          "start": 35,
+          "end": 60
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_03_01_04_0007",
+      "source_section": "chapter_03_01_04",
+      "source_sentence": 94,
+      "character_position": 426,
+      "text": "И он вдруг зарыдал истерически.",
+      "vad": [
+        -0.9,
+        0.95,
+        -0.75
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.484378406974579,
+      "warning": null,
+      "chapter_sentence_start": 94,
+      "chapter_sentence_end": 94,
+      "timeline_start_index": 10427,
+      "timeline_end_index": 10427,
+      "highlights": [
+        {
+          "chapter_sentence": 94,
+          "start": 0,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_03_01_04_0008",
+      "source_section": "chapter_03_01_04",
+      "source_sentence": 97,
+      "character_position": 427,
+      "text": "Он забыл всё на свете.",
+      "vad": [
+        -0.35,
+        0.35,
+        -0.7
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.4543178721623317,
+      "warning": null,
+      "chapter_sentence_start": 97,
+      "chapter_sentence_end": 97,
+      "timeline_start_index": 10430,
+      "timeline_end_index": 10430,
+      "highlights": [
+        {
+          "chapter_sentence": 97,
+          "start": 0,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_03_01_04_0009",
+      "source_section": "chapter_03_01_04",
+      "source_sentence": 114,
+      "character_position": 428,
+      "text": "буквально был раздавлен словами семинариста",
+      "vad": [
+        -0.95,
+        0.65,
+        -0.85
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.4280013688886255,
+      "warning": null,
+      "chapter_sentence_start": 114,
+      "chapter_sentence_end": 114,
+      "timeline_start_index": 10447,
+      "timeline_end_index": 10447,
+      "highlights": [
+        {
+          "chapter_sentence": 114,
+          "start": 67,
+          "end": 110
+        }
+      ]
+    }
+  ]
+}

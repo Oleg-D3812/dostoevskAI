@@ -3,21 +3,21 @@
   "novel_id": "demons",
   "character_id": "nikolai_stavrogin",
   "chapter_id": "1_5_6",
-  "count": 10,
+  "count": 15,
   "fragments": [
     {
       "id": "nikolai_stavrogin::chapter_01_05_06_0001",
       "source_section": "chapter_01_05_06",
       "source_sentence": 17,
-      "character_position": 102,
-      "text": "сам Николай Всеволодович не придаёт этому делу никакого значения",
+      "character_position": 63,
+      "text": "не придаёт этому делу никакого значения",
       "vad": [
         0.1,
-        -0.2,
-        0.2
+        -0.4,
+        0.1
       ],
       "cluster_id": "nikolai_stavrogin-1",
-      "distance_to_centroid": 0.6214049928677886,
+      "distance_to_centroid": 0.3010728781517524,
       "warning": null,
       "chapter_sentence_start": 17,
       "chapter_sentence_end": 17,
@@ -26,24 +26,24 @@
       "highlights": [
         {
           "chapter_sentence": 17,
-          "start": 15,
+          "start": 40,
           "end": 79
         }
       ]
     },
     {
-      "id": "nikolai_stavrogin::chapter_01_05_06_0004",
+      "id": "nikolai_stavrogin::chapter_01_05_06_0003",
       "source_section": "chapter_01_05_06",
       "source_sentence": 39,
-      "character_position": 103,
-      "text": "Николай Всеволодович вёл тогда в Петербурге жизнь, так сказать, насмешливую",
+      "character_position": 64,
+      "text": "в разочарование этот человек не впадёт",
       "vad": [
+        0.25,
         -0.2,
-        0.1,
-        0.2
+        0.35
       ],
       "cluster_id": "nikolai_stavrogin-1",
-      "distance_to_centroid": 0.2088501663038358,
+      "distance_to_centroid": 0.510580997376182,
       "warning": null,
       "chapter_sentence_start": 39,
       "chapter_sentence_end": 39,
@@ -52,24 +52,24 @@
       "highlights": [
         {
           "chapter_sentence": 39,
-          "start": 0,
-          "end": 75
+          "start": 127,
+          "end": 165
         }
       ]
     },
     {
-      "id": "nikolai_stavrogin::chapter_01_05_06_0005",
+      "id": "nikolai_stavrogin::chapter_01_05_06_0004",
       "source_section": "chapter_01_05_06",
       "source_sentence": 46,
-      "character_position": 104,
-      "text": "жизни, которой из чудачества предавался тогда и Николай Всеволодович",
+      "character_position": 65,
+      "text": "из чудачества предавался тогда и Николай Всеволодович",
       "vad": [
-        -0.45,
-        0.2,
-        0.1
+        -0.15,
+        0.1,
+        0.35
       ],
       "cluster_id": "nikolai_stavrogin-1",
-      "distance_to_centroid": 0.1131318007293871,
+      "distance_to_centroid": 0.4682420818223721,
       "warning": null,
       "chapter_sentence_start": 46,
       "chapter_sentence_end": 46,
@@ -78,25 +78,77 @@
       "highlights": [
         {
           "chapter_sentence": 46,
-          "start": 60,
+          "start": 75,
           "end": 128
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_05_06_0005",
+      "source_section": "chapter_01_05_06",
+      "source_sentence": 54,
+      "character_position": 66,
+      "text": "никогда не обращал на неё ни малейшего внимания",
+      "vad": [
+        -0.55,
+        -0.15,
+        -0.5
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.6721440966771547,
+      "warning": null,
+      "chapter_sentence_start": 54,
+      "chapter_sentence_end": 54,
+      "timeline_start_index": 3788,
+      "timeline_end_index": 3788,
+      "highlights": [
+        {
+          "chapter_sentence": 54,
+          "start": 21,
+          "end": 68
         }
       ]
     },
     {
       "id": "nikolai_stavrogin::chapter_01_05_06_0006",
       "source_section": "chapter_01_05_06",
-      "source_sentence": 60,
-      "character_position": 105,
-      "text": "он вдруг стал обращаться к m-lle Лебядкиной с неожиданным уважением",
+      "source_sentence": 56,
+      "character_position": 67,
+      "text": "смеялся всех больше Николай Всеволодович сам",
       "vad": [
-        0.35,
-        0.2,
-        0.25
+        0.8,
+        0.5,
+        0.1
       ],
-      "cluster_id": "nikolai_stavrogin-3",
-      "distance_to_centroid": 0.2157744863532059,
+      "cluster_id": "nikolai_stavrogin-4",
+      "distance_to_centroid": 0.5058372899819472,
       "warning": null,
+      "chapter_sentence_start": 56,
+      "chapter_sentence_end": 56,
+      "timeline_start_index": 3790,
+      "timeline_end_index": 3790,
+      "highlights": [
+        {
+          "chapter_sentence": 56,
+          "start": 118,
+          "end": 162
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_05_06_0007",
+      "source_section": "chapter_01_05_06",
+      "source_sentence": 60,
+      "character_position": 68,
+      "text": "стал обращаться к m-lle Лебядкиной с неожиданным уважением",
+      "vad": [
+        0.2,
+        0.1,
+        0.3
+      ],
+      "cluster_id": "nikolai_stavrogin-4",
+      "distance_to_centroid": 0.2671451095703391,
+      "warning": "non_verbatim_evidence;empty_evidence",
       "chapter_sentence_start": 60,
       "chapter_sentence_end": 60,
       "timeline_start_index": 3794,
@@ -104,24 +156,24 @@
       "highlights": [
         {
           "chapter_sentence": 60,
-          "start": 96,
+          "start": 105,
           "end": 163
         }
       ]
     },
     {
-      "id": "nikolai_stavrogin::chapter_01_05_06_0007",
+      "id": "nikolai_stavrogin::chapter_01_05_06_0008",
       "source_section": "chapter_01_05_06",
       "source_sentence": 62,
-      "character_position": 106,
+      "character_position": 69,
       "text": "несколько уважал этого Кириллова",
       "vad": [
         0.35,
-        -0.1,
-        0.2
+        0.05,
+        0.1
       ],
-      "cluster_id": "nikolai_stavrogin-3",
-      "distance_to_centroid": 0.4678689192393563,
+      "cluster_id": "nikolai_stavrogin-4",
+      "distance_to_centroid": 0.3000445029359908,
       "warning": null,
       "chapter_sentence_start": 62,
       "chapter_sentence_end": 62,
@@ -136,18 +188,44 @@
       ]
     },
     {
-      "id": "nikolai_stavrogin::chapter_01_05_06_0008",
+      "id": "nikolai_stavrogin::chapter_01_05_06_0009",
       "source_section": "chapter_01_05_06",
       "source_sentence": 63,
-      "character_position": 107,
-      "text": "я в самом деле её уважаю",
+      "character_position": 70,
+      "text": "я смеюсь над нею",
       "vad": [
-        0.6,
-        -0.1,
-        0.2
+        -0.25,
+        0.35,
+        0.45
       ],
       "cluster_id": "nikolai_stavrogin-3",
-      "distance_to_centroid": 0.4835463327616929,
+      "distance_to_centroid": 0.3515433954952411,
+      "warning": null,
+      "chapter_sentence_start": 63,
+      "chapter_sentence_end": 63,
+      "timeline_start_index": 3797,
+      "timeline_end_index": 3797,
+      "highlights": [
+        {
+          "chapter_sentence": 63,
+          "start": 73,
+          "end": 89
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_05_06_0010",
+      "source_section": "chapter_01_05_06",
+      "source_sentence": 63,
+      "character_position": 71,
+      "text": "я в самом деле её уважаю",
+      "vad": [
+        0.45,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "nikolai_stavrogin-4",
+      "distance_to_centroid": 0.2370377563108102,
       "warning": null,
       "chapter_sentence_start": 63,
       "chapter_sentence_end": 63,
@@ -162,18 +240,18 @@
       ]
     },
     {
-      "id": "nikolai_stavrogin::chapter_01_05_06_0010",
+      "id": "nikolai_stavrogin::chapter_01_05_06_0011",
       "source_section": "chapter_01_05_06",
       "source_sentence": 69,
-      "character_position": 108,
+      "character_position": 72,
       "text": "фантазия преждевременно уставшего человека",
       "vad": [
-        -0.65,
-        -0.55,
-        -0.25
+        -0.35,
+        -0.45,
+        -0.2
       ],
       "cluster_id": "nikolai_stavrogin-1",
-      "distance_to_centroid": 0.889952413998431,
+      "distance_to_centroid": 0.3711606964294098,
       "warning": null,
       "chapter_sentence_start": 69,
       "chapter_sentence_end": 69,
@@ -188,18 +266,18 @@
       ]
     },
     {
-      "id": "nikolai_stavrogin::chapter_01_05_06_0011",
+      "id": "nikolai_stavrogin::chapter_01_05_06_0012",
       "source_section": "chapter_01_05_06",
       "source_sentence": 69,
-      "character_position": 109,
-      "text": "новый этюд пресыщенного человека",
+      "character_position": 73,
+      "text": "пресыщенного человека",
       "vad": [
+        -0.45,
         -0.35,
-        0.15,
-        0.25
+        0.1
       ],
       "cluster_id": "nikolai_stavrogin-1",
-      "distance_to_centroid": 0.0749903100694686,
+      "distance_to_centroid": 0.2809165511816822,
       "warning": null,
       "chapter_sentence_start": 69,
       "chapter_sentence_end": 69,
@@ -208,50 +286,102 @@
       "highlights": [
         {
           "chapter_sentence": 69,
-          "start": 153,
+          "start": 164,
           "end": 185
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_05_06_0013",
+      "source_section": "chapter_01_05_06",
+      "source_sentence": 98,
+      "character_position": 74,
+      "text": "Человек гордый и рано оскорблённый, дошедший до той «насмешливости»",
+      "vad": [
+        -0.55,
+        0.25,
+        0.2
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.1990472204110392,
+      "warning": null,
+      "chapter_sentence_start": 98,
+      "chapter_sentence_end": 98,
+      "timeline_start_index": 3832,
+      "timeline_end_index": 3832,
+      "highlights": [
+        {
+          "chapter_sentence": 98,
+          "start": 0,
+          "end": 67
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_05_06_0014",
+      "source_section": "chapter_01_05_06",
+      "source_sentence": 104,
+      "character_position": 75,
+      "text": "грустного и «внезапного демона иронии», который всю жизнь терзал его",
+      "vad": [
+        -0.8,
+        0.45,
+        -0.75
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.369855004416505,
+      "warning": null,
+      "chapter_sentence_start": 104,
+      "chapter_sentence_end": 104,
+      "timeline_start_index": 3838,
+      "timeline_end_index": 3838,
+      "highlights": [
+        {
+          "chapter_sentence": 104,
+          "start": 223,
+          "end": 291
         }
       ]
     },
     {
       "id": "nikolai_stavrogin::chapter_01_05_06_0015",
       "source_section": "chapter_01_05_06",
-      "source_sentence": 129,
-      "character_position": 110,
-      "text": "преклоняются пред ним, любят его всю жизнь",
+      "source_sentence": 111,
+      "character_position": 76,
+      "text": "он не смеётся над нею",
       "vad": [
-        0.8,
-        0.1,
-        0.7
+        0.6,
+        0.15,
+        0.2
       ],
-      "cluster_id": "nikolai_stavrogin-3",
-      "distance_to_centroid": 0.5012985158512814,
+      "cluster_id": "nikolai_stavrogin-4",
+      "distance_to_centroid": 0.2979908528836077,
       "warning": null,
-      "chapter_sentence_start": 129,
-      "chapter_sentence_end": 129,
-      "timeline_start_index": 3863,
-      "timeline_end_index": 3863,
+      "chapter_sentence_start": 111,
+      "chapter_sentence_end": 111,
+      "timeline_start_index": 3845,
+      "timeline_end_index": 3845,
       "highlights": [
         {
-          "chapter_sentence": 129,
-          "start": 348,
-          "end": 390
+          "chapter_sentence": 111,
+          "start": 35,
+          "end": 56
         }
       ]
     },
     {
-      "id": "nikolai_stavrogin::chapter_01_05_06_0018",
+      "id": "nikolai_stavrogin::chapter_01_05_06_0016",
       "source_section": "chapter_01_05_06",
       "source_sentence": 119,
-      "character_position": 111,
-      "text": "ту благородную дрожь всего организма, с которою Nicolas вдруг строго отвечает Кириллову",
+      "character_position": 77,
+      "text": "высокое сострадание, ту благородную дрожь всего организма, с которою Nicolas вдруг строго отвечает Кириллову",
       "vad": [
-        0.72,
-        0.78,
-        0.74
+        0.9,
+        0.75,
+        0.55
       ],
-      "cluster_id": "nikolai_stavrogin-3",
-      "distance_to_centroid": 0.6385246159239006,
+      "cluster_id": "nikolai_stavrogin-4",
+      "distance_to_centroid": 0.762964011197699,
       "warning": null,
       "chapter_sentence_start": 119,
       "chapter_sentence_end": 119,
@@ -260,7 +390,7 @@
       "highlights": [
         {
           "chapter_sentence": 119,
-          "start": 46,
+          "start": 25,
           "end": 133
         }
       ]

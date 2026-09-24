@@ -9,15 +9,15 @@
       "id": "varvara_stavrogina::chapter_02_01_04_0001",
       "source_section": "chapter_02_01_04",
       "source_sentence": 7,
-      "character_position": 186,
+      "character_position": 209,
       "text": "измучившая себя в эти дни заботами",
       "vad": [
-        -0.78,
-        0.58,
-        -0.42
+        -0.75,
+        0.35,
+        -0.45
       ],
-      "cluster_id": "varvara_stavrogina-2",
-      "distance_to_centroid": 0.1233774716850305,
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.1635312404128599,
       "warning": null,
       "chapter_sentence_start": 7,
       "chapter_sentence_end": 7,
@@ -35,15 +35,15 @@
       "id": "varvara_stavrogina::chapter_02_01_04_0002",
       "source_section": "chapter_02_01_04",
       "source_sentence": 8,
-      "character_position": 187,
-      "text": "Ей всё мерещилось: не скажет ли он наконец чего-нибудь окончательно?",
+      "character_position": 210,
+      "text": "Ей всё мерещилось",
       "vad": [
-        -0.32,
-        0.28,
-        -0.18
+        -0.4,
+        0.45,
+        -0.25
       ],
-      "cluster_id": "varvara_stavrogina-2",
-      "distance_to_centroid": 0.4883170890586967,
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.2872841558755666,
       "warning": null,
       "chapter_sentence_start": 8,
       "chapter_sentence_end": 8,
@@ -53,49 +53,23 @@
         {
           "chapter_sentence": 8,
           "start": 0,
-          "end": 68
+          "end": 17
         }
       ]
     },
     {
       "id": "varvara_stavrogina::chapter_02_01_04_0003",
       "source_section": "chapter_02_01_04",
-      "source_sentence": 10,
-      "character_position": 188,
-      "text": "с бьющимся сердцем",
-      "vad": [
-        -0.45,
-        0.75,
-        -0.2
-      ],
-      "cluster_id": "varvara_stavrogina-2",
-      "distance_to_centroid": 0.4101038385752166,
-      "warning": null,
-      "chapter_sentence_start": 10,
-      "chapter_sentence_end": 10,
-      "timeline_start_index": 4642,
-      "timeline_end_index": 4642,
-      "highlights": [
-        {
-          "chapter_sentence": 10,
-          "start": 60,
-          "end": 78
-        }
-      ]
-    },
-    {
-      "id": "varvara_stavrogina::chapter_02_01_04_0004",
-      "source_section": "chapter_02_01_04",
       "source_sentence": 11,
-      "character_position": 189,
+      "character_position": 211,
       "text": "Её как бы поразило",
       "vad": [
-        -0.55,
-        0.65,
-        -0.25
+        -0.2,
+        0.55,
+        -0.15
       ],
-      "cluster_id": "varvara_stavrogina-2",
-      "distance_to_centroid": 0.2653590427553244,
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.5170453795702017,
       "warning": null,
       "chapter_sentence_start": 11,
       "chapter_sentence_end": 11,
@@ -110,18 +84,18 @@
       ]
     },
     {
-      "id": "varvara_stavrogina::chapter_02_01_04_0005",
+      "id": "varvara_stavrogina::chapter_02_01_04_0004",
       "source_section": "chapter_02_01_04",
       "source_sentence": 13,
-      "character_position": 190,
+      "character_position": 212,
       "text": "её обнял страх",
       "vad": [
-        -0.82,
-        0.72,
-        -0.38
+        -0.85,
+        0.75,
+        -0.7
       ],
-      "cluster_id": "varvara_stavrogina-2",
-      "distance_to_centroid": 0.2614401420742642,
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.459712871839471,
       "warning": null,
       "chapter_sentence_start": 13,
       "chapter_sentence_end": 13,
@@ -136,18 +110,18 @@
       ]
     },
     {
-      "id": "varvara_stavrogina::chapter_02_01_04_0006",
+      "id": "varvara_stavrogina::chapter_02_01_04_0005",
       "source_section": "chapter_02_01_04",
       "source_sentence": 13,
-      "character_position": 191,
+      "character_position": 213,
       "text": "с новым тяжёлым ощущением и с новою тоской",
       "vad": [
-        -0.9,
-        0.2,
-        -0.3
+        -0.8,
+        0.3,
+        -0.4
       ],
-      "cluster_id": "varvara_stavrogina-2",
-      "distance_to_centroid": 0.3804960757712035,
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.2300943310262291,
       "warning": null,
       "chapter_sentence_start": 13,
       "chapter_sentence_end": 13,
@@ -158,6 +132,32 @@
           "chapter_sentence": 13,
           "start": 181,
           "end": 223
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_01_04_0006",
+      "source_section": "chapter_02_01_04",
+      "source_sentence": 15,
+      "character_position": 214,
+      "text": "не вынесла подавляющего ощущения этой летаргической неподвижности",
+      "vad": [
+        -0.9,
+        0.7,
+        -0.8
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.5257566325634196,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 4647,
+      "timeline_end_index": 4647,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 67,
+          "end": 132
         }
       ]
     }

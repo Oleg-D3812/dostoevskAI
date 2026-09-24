@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "petr_verkhovenskii",
+  "chapter_id": "2_6_2",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "petr_verkhovenskii::chapter_02_06_02_0001",
+      "source_section": "chapter_02_06_02",
+      "source_sentence": 37,
+      "character_position": 65,
+      "text": "смеясь",
+      "vad": [
+        0.45,
+        0.4,
+        0.5
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.1732765482916589,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 7345,
+      "timeline_end_index": 7345,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 11,
+          "end": 17
+        }
+      ]
+    }
+  ]
+}

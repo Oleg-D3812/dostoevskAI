@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "stepan_verkhovenskii",
+  "chapter_id": "1_3_2",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_02_0001",
+      "source_section": "chapter_01_03_02",
+      "source_sentence": 1,
+      "character_position": 196,
+      "text": "к моему скорбному другу",
+      "vad": [
+        -0.7,
+        -0.2,
+        -0.3
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.4835473018015762,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 1476,
+      "timeline_end_index": 1476,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 172,
+          "end": 195
+        }
+      ]
+    }
+  ]
+}

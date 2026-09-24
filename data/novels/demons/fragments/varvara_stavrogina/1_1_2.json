@@ -3,21 +3,73 @@
   "novel_id": "demons",
   "character_id": "varvara_stavrogina",
   "chapter_id": "1_1_2",
-  "count": 1,
+  "count": 4,
   "fragments": [
     {
       "id": "varvara_stavrogina::chapter_01_01_02_0001",
       "source_section": "chapter_01_01_02",
-      "source_sentence": 34,
+      "source_sentence": 12,
       "character_position": 1,
-      "text": "но чуткая Варвара Петровна всю жизнь охраняла его от всех тривиальных наклонностей",
+      "text": "пламенным участием и драгоценною, так сказать, классическою дружбой к нему Варвары Петровны",
+      "vad": [
+        0.8,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.3813541770170819,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 67,
+      "timeline_end_index": 67,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 29,
+          "end": 120
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_01_02_0002",
+      "source_section": "chapter_01_01_02",
+      "source_sentence": 33,
+      "character_position": 2,
+      "text": "словечко это нравилось многоуважаемой Варваре Петровне",
+      "vad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.5668520549762656,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 88,
+      "timeline_end_index": 88,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 191,
+          "end": 245
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_01_02_0003",
+      "source_section": "chapter_01_01_02",
+      "source_sentence": 34,
+      "character_position": 3,
+      "text": "чуткая Варвара Петровна",
       "vad": [
         0.2,
-        -0.2,
-        0.5
+        0.0,
+        0.0
       ],
-      "cluster_id": "varvara_stavrogina-1",
-      "distance_to_centroid": 0.6391589818516459,
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.4150865716774185,
       "warning": null,
       "chapter_sentence_start": 34,
       "chapter_sentence_end": 34,
@@ -26,8 +78,34 @@
       "highlights": [
         {
           "chapter_sentence": 34,
-          "start": 72,
-          "end": 154
+          "start": 75,
+          "end": 98
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_01_02_0004",
+      "source_section": "chapter_01_01_02",
+      "source_sentence": 35,
+      "character_position": 4,
+      "text": "ничего так не боялась Варвара Петровна как юмористического смысла",
+      "vad": [
+        -0.8,
+        0.75,
+        -0.55
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.3586702325951337,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 92,
+      "timeline_end_index": 92,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 3,
+          "end": 68
         }
       ]
     }

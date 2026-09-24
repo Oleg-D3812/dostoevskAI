@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "stepan_verkhovenskii",
+  "chapter_id": "2_10_1",
+  "count": 7,
+  "fragments": [
+    {
+      "id": "stepan_verkhovenskii::chapter_02_10_01_0001",
+      "source_section": "chapter_02_10_01",
+      "source_sentence": 159,
+      "character_position": 401,
+      "text": "тихо и гордо посмотрел на меня",
+      "vad": [
+        0.3,
+        0.1,
+        0.7
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.6460549060797277,
+      "warning": null,
+      "chapter_sentence_start": 159,
+      "chapter_sentence_end": 159,
+      "timeline_start_index": 9652,
+      "timeline_end_index": 9652,
+      "highlights": [
+        {
+          "chapter_sentence": 159,
+          "start": 36,
+          "end": 66
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_02_10_01_0002",
+      "source_section": "chapter_02_10_01",
+      "source_sentence": 159,
+      "character_position": 402,
+      "text": "голосом, в котором задрожала какая-то надорванная струна",
+      "vad": [
+        -0.45,
+        0.7,
+        -0.2
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.4153431051766346,
+      "warning": null,
+      "chapter_sentence_start": 159,
+      "chapter_sentence_end": 159,
+      "timeline_start_index": 9652,
+      "timeline_end_index": 9652,
+      "highlights": [
+        {
+          "chapter_sentence": 159,
+          "start": 115,
+          "end": 171
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_02_10_01_0003",
+      "source_section": "chapter_02_10_01",
+      "source_sentence": 161,
+      "character_position": 403,
+      "text": "дрожа от негодования и с непомерным желанием вызова",
+      "vad": [
+        -0.85,
+        0.9,
+        0.7
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 1.198025753269889,
+      "warning": null,
+      "chapter_sentence_start": 161,
+      "chapter_sentence_end": 161,
+      "timeline_start_index": 9654,
+      "timeline_end_index": 9654,
+      "highlights": [
+        {
+          "chapter_sentence": 161,
+          "start": 6,
+          "end": 57
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_02_10_01_0004",
+      "source_section": "chapter_02_10_01",
+      "source_sentence": 173,
+      "character_position": 404,
+      "text": "может быть, он уже и сам желал отступить",
+      "vad": [
+        -0.35,
+        0.05,
+        -0.2
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.1923224576592855,
+      "warning": null,
+      "chapter_sentence_start": 173,
+      "chapter_sentence_end": 173,
+      "timeline_start_index": 9666,
+      "timeline_end_index": 9666,
+      "highlights": [
+        {
+          "chapter_sentence": 173,
+          "start": 9,
+          "end": 49
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_02_10_01_0005",
+      "source_section": "chapter_02_10_01",
+      "source_sentence": 175,
+      "character_position": 405,
+      "text": "я виновен, что вас подвергаю",
+      "vad": [
+        -0.7,
+        0.2,
+        -0.3
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.436438460386016,
+      "warning": null,
+      "chapter_sentence_start": 175,
+      "chapter_sentence_end": 175,
+      "timeline_start_index": 9668,
+      "timeline_end_index": 9668,
+      "highlights": [
+        {
+          "chapter_sentence": 175,
+          "start": 19,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_02_10_01_0006",
+      "source_section": "chapter_02_10_01",
+      "source_sentence": 181,
+      "character_position": 406,
+      "text": "имел вид человека, обрёкшего себя в роде как бы на верную смерть за отечество",
+      "vad": [
+        -0.85,
+        0.45,
+        0.35
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.7036211331120871,
+      "warning": null,
+      "chapter_sentence_start": 181,
+      "chapter_sentence_end": 181,
+      "timeline_start_index": 9674,
+      "timeline_end_index": 9674,
+      "highlights": [
+        {
+          "chapter_sentence": 181,
+          "start": 3,
+          "end": 80
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_02_10_01_0007",
+      "source_section": "chapter_02_10_01",
+      "source_sentence": 182,
+      "character_position": 407,
+      "text": "задумчиво склонив голову",
+      "vad": [
+        -0.2,
+        -0.3,
+        0.0
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.403418018505307,
+      "warning": null,
+      "chapter_sentence_start": 182,
+      "chapter_sentence_end": 182,
+      "timeline_start_index": 9675,
+      "timeline_end_index": 9675,
+      "highlights": [
+        {
+          "chapter_sentence": 182,
+          "start": 89,
+          "end": 113
+        }
+      ]
+    }
+  ]
+}

@@ -3,21 +3,21 @@
   "novel_id": "demons",
   "character_id": "nikolai_stavrogin",
   "chapter_id": "1_3_6",
-  "count": 6,
+  "count": 8,
   "fragments": [
     {
-      "id": "nikolai_stavrogin::chapter_01_03_06_0002",
+      "id": "nikolai_stavrogin::chapter_01_03_06_0001",
       "source_section": "chapter_01_03_06",
       "source_sentence": 18,
-      "character_position": 51,
-      "text": "могло повлиять на настроение ума его",
+      "character_position": 43,
+      "text": "настроение ума его",
       "vad": [
-        -0.2,
-        0.1,
+        0.0,
+        0.0,
         0.0
       ],
       "cluster_id": "nikolai_stavrogin-1",
-      "distance_to_centroid": 0.2861220275434107,
+      "distance_to_centroid": 0.3452572523007621,
       "warning": null,
       "chapter_sentence_start": 18,
       "chapter_sentence_end": 18,
@@ -26,24 +26,76 @@
       "highlights": [
         {
           "chapter_sentence": 18,
-          "start": 18,
+          "start": 36,
           "end": 54
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_03_06_0002",
+      "source_section": "chapter_01_03_06",
+      "source_sentence": 19,
+      "character_position": 44,
+      "text": "про помешательство",
+      "vad": [
+        -0.45,
+        0.1,
+        -0.1
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.5055658226536904,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 1834,
+      "timeline_end_index": 1834,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 33,
+          "end": 51
         }
       ]
     },
     {
       "id": "nikolai_stavrogin::chapter_01_03_06_0003",
       "source_section": "chapter_01_03_06",
+      "source_sentence": 20,
+      "character_position": 45,
+      "text": "нечто странное, особенное, некоторый оборот мыслей, наклонность к некоторому особому воззрению",
+      "vad": [
+        -0.35,
+        0.15,
+        -0.2
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.5132414484843454,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 1835,
+      "timeline_end_index": 1835,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 14,
+          "end": 108
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_03_06_0004",
+      "source_section": "chapter_01_03_06",
       "source_sentence": 22,
-      "character_position": 52,
+      "character_position": 46,
       "text": "некоторое постоянное беспокойство и стремление к особенным наклонностям",
       "vad": [
-        -0.25,
-        0.45,
-        0.1
+        -0.55,
+        0.6,
+        -0.2
       ],
-      "cluster_id": "nikolai_stavrogin-1",
-      "distance_to_centroid": 0.3235193714721224,
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.2558184907933404,
       "warning": null,
       "chapter_sentence_start": 22,
       "chapter_sentence_end": 22,
@@ -60,68 +112,42 @@
     {
       "id": "nikolai_stavrogin::chapter_01_03_06_0005",
       "source_section": "chapter_01_03_06",
-      "source_sentence": 59,
-      "character_position": 53,
-      "text": "помешан ваш премудрый змий или нет?",
-      "vad": [
-        -0.35,
-        0.55,
-        0.25
-      ],
-      "cluster_id": "nikolai_stavrogin-1",
-      "distance_to_centroid": 0.3798736092116022,
-      "warning": null,
-      "chapter_sentence_start": 59,
-      "chapter_sentence_end": 59,
-      "timeline_start_index": 1874,
-      "timeline_end_index": 1874,
-      "highlights": [
-        {
-          "chapter_sentence": 59,
-          "start": 144,
-          "end": 179
-        }
-      ]
-    },
-    {
-      "id": "nikolai_stavrogin::chapter_01_03_06_0006",
-      "source_section": "chapter_01_03_06",
-      "source_sentence": 60,
-      "character_position": 54,
-      "text": "так потом горестно задумался, так задумался",
+      "source_sentence": 43,
+      "character_position": 47,
+      "text": "некоторого, говорю, как бы уклонения идей, или особенного оборота мыслей, или некоторого, говорю, как бы, так сказать, помешательства",
       "vad": [
         -0.65,
-        0.2,
+        0.35,
         -0.25
       ],
       "cluster_id": "nikolai_stavrogin-2",
-      "distance_to_centroid": 0.4170604190147293,
+      "distance_to_centroid": 0.2386984181310147,
       "warning": null,
-      "chapter_sentence_start": 60,
-      "chapter_sentence_end": 60,
-      "timeline_start_index": 1875,
-      "timeline_end_index": 1875,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 1858,
+      "timeline_end_index": 1858,
       "highlights": [
         {
-          "chapter_sentence": 60,
-          "start": 208,
-          "end": 251
+          "chapter_sentence": 43,
+          "start": 44,
+          "end": 177
         }
       ]
     },
     {
-      "id": "nikolai_stavrogin::chapter_01_03_06_0007",
+      "id": "nikolai_stavrogin::chapter_01_03_06_0008",
       "source_section": "chapter_01_03_06",
-      "source_sentence": 64,
-      "character_position": 55,
-      "text": "и помешан",
+      "source_sentence": 62,
+      "character_position": 48,
+      "text": "пожалуй, и помешан",
       "vad": [
-        -0.55,
-        0.35,
-        -0.2
+        -0.45,
+        0.1,
+        0.05
       ],
-      "cluster_id": "nikolai_stavrogin-2",
-      "distance_to_centroid": 0.3493181397268819,
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.4235425769292615,
       "warning": null,
       "chapter_sentence_start": 62,
       "chapter_sentence_end": 62,
@@ -130,24 +156,50 @@
       "highlights": [
         {
           "chapter_sentence": 62,
-          "start": 83,
+          "start": 74,
           "end": 92
         }
       ]
     },
     {
-      "id": "nikolai_stavrogin::chapter_01_03_06_0008",
+      "id": "nikolai_stavrogin::chapter_01_03_06_0009",
       "source_section": "chapter_01_03_06",
       "source_sentence": 64,
-      "character_position": 56,
-      "text": "«да, говорят, помешан; очень умён, но, может быть, и помешан»",
+      "character_position": 49,
+      "text": "помешан",
+      "vad": [
+        -0.7,
+        0.1,
+        -0.6
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.4527064172637524,
+      "warning": null,
+      "chapter_sentence_start": 62,
+      "chapter_sentence_end": 62,
+      "timeline_start_index": 1877,
+      "timeline_end_index": 1877,
+      "highlights": [
+        {
+          "chapter_sentence": 62,
+          "start": 85,
+          "end": 92
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_03_06_0010",
+      "source_section": "chapter_01_03_06",
+      "source_sentence": 64,
+      "character_position": 50,
+      "text": "может быть, и помешан",
       "vad": [
         -0.2,
-        0.2,
-        0.1
+        0.1,
+        0.0
       ],
       "cluster_id": "nikolai_stavrogin-1",
-      "distance_to_centroid": 0.2177434416879864,
+      "distance_to_centroid": 0.3937866870294839,
       "warning": null,
       "chapter_sentence_start": 64,
       "chapter_sentence_end": 64,
@@ -156,8 +208,8 @@
       "highlights": [
         {
           "chapter_sentence": 64,
-          "start": 167,
-          "end": 228
+          "start": 206,
+          "end": 227
         }
       ]
     }

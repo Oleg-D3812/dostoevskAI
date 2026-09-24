@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "petr_verkhovenskii",
+  "chapter_id": "2_6_7",
+  "count": 5,
+  "fragments": [
+    {
+      "id": "petr_verkhovenskii::chapter_02_06_07_0001",
+      "source_section": "chapter_02_06_07",
+      "source_sentence": 3,
+      "character_position": 93,
+      "text": "Это известие мигом его озаботило.",
+      "vad": [
+        -0.55,
+        0.62,
+        -0.18
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.2953601843582766,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 8169,
+      "timeline_end_index": 8169,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 0,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_06_07_0002",
+      "source_section": "chapter_02_06_07",
+      "source_sentence": 84,
+      "character_position": 94,
+      "text": "весело юлил Пётр Степанович",
+      "vad": [
+        0.75,
+        0.55,
+        0.35
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.2549319113591918,
+      "warning": null,
+      "chapter_sentence_start": 84,
+      "chapter_sentence_end": 84,
+      "timeline_start_index": 8250,
+      "timeline_end_index": 8250,
+      "highlights": [
+        {
+          "chapter_sentence": 84,
+          "start": 2,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_06_07_0003",
+      "source_section": "chapter_02_06_07",
+      "source_sentence": 92,
+      "character_position": 95,
+      "text": "когда он сам бывал возбуждён",
+      "vad": [
+        0.1,
+        0.7,
+        0.1
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.5843274384207195,
+      "warning": null,
+      "chapter_sentence_start": 92,
+      "chapter_sentence_end": 92,
+      "timeline_start_index": 8258,
+      "timeline_end_index": 8258,
+      "highlights": [
+        {
+          "chapter_sentence": 92,
+          "start": 77,
+          "end": 105
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_06_07_0004",
+      "source_section": "chapter_02_06_07",
+      "source_sentence": 178,
+      "character_position": 96,
+      "text": "Ну спасибо, искренно благодарю.",
+      "vad": [
+        -0.35,
+        0.2,
+        0.35
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.4594690474401464,
+      "warning": null,
+      "chapter_sentence_start": 178,
+      "chapter_sentence_end": 178,
+      "timeline_start_index": 8344,
+      "timeline_end_index": 8344,
+      "highlights": [
+        {
+          "chapter_sentence": 178,
+          "start": 2,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_06_07_0005",
+      "source_section": "chapter_02_06_07",
+      "source_sentence": 165,
+      "character_position": 97,
+      "text": "Пётр Степанович дерзко и спокойно выдержал его взгляд.",
+      "vad": [
+        0.2,
+        -0.2,
+        0.8
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.7403457337997941,
+      "warning": null,
+      "chapter_sentence_start": 165,
+      "chapter_sentence_end": 165,
+      "timeline_start_index": 8331,
+      "timeline_end_index": 8331,
+      "highlights": [
+        {
+          "chapter_sentence": 165,
+          "start": 0,
+          "end": 54
+        }
+      ]
+    }
+  ]
+}

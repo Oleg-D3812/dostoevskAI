@@ -1,0 +1,425 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "stepan_verkhovenskii",
+  "chapter_id": "2_5_3",
+  "count": 16,
+  "fragments": [
+    {
+      "id": "stepan_verkhovenskii::chapter_02_05_03_0001",
+      "source_section": "chapter_02_05_03",
+      "source_sentence": 12,
+      "character_position": 339,
+      "text": "готов, и каждый день ожидал именно такого внезапного приглашения",
+      "vad": [
+        0.1,
+        0.3,
+        0.2
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.4828034505733294,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 7083,
+      "timeline_end_index": 7083,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 28,
+          "end": 92
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_02_05_03_0002",
+      "source_section": "chapter_02_05_03",
+      "source_sentence": 16,
+      "character_position": 340,
+      "text": "сдавив моё сердце",
+      "vad": [
+        -0.8,
+        0.55,
+        -0.5
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.1107369068804285,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 7087,
+      "timeline_end_index": 7087,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 30,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_02_05_03_0003",
+      "source_section": "chapter_02_05_03",
+      "source_sentence": 18,
+      "character_position": 341,
+      "text": "Полнейшее убеждение, что всему конец",
+      "vad": [
+        -0.95,
+        0.55,
+        -0.8
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.3849075297482294,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 7089,
+      "timeline_end_index": 7089,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 0,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_02_05_03_0004",
+      "source_section": "chapter_02_05_03",
+      "source_sentence": 19,
+      "character_position": 342,
+      "text": "удивлена моею стойкостью в этот последний час",
+      "vad": [
+        0.2,
+        0.6,
+        0.0
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.4722271195738898,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 7090,
+      "timeline_end_index": 7090,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 18,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_02_05_03_0006",
+      "source_section": "chapter_02_05_03",
+      "source_sentence": 39,
+      "character_position": 343,
+      "text": "Я смирился",
+      "vad": [
+        -0.45,
+        -0.25,
+        -0.65
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.7045586990449031,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 7110,
+      "timeline_end_index": 7110,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 2,
+          "end": 12
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_02_05_03_0007",
+      "source_section": "chapter_02_05_03",
+      "source_sentence": 44,
+      "character_position": 344,
+      "text": "вам очень хотелось самому жениться",
+      "vad": [
+        0.4,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.2142543518372421,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 7115,
+      "timeline_end_index": 7115,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 16,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_02_05_03_0008",
+      "source_section": "chapter_02_05_03",
+      "source_sentence": 46,
+      "character_position": 345,
+      "text": "вы желали, вы желали жениться",
+      "vad": [
+        0.45,
+        0.3,
+        0.15
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.1563013344066896,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 7117,
+      "timeline_end_index": 7117,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 3,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_02_05_03_0010",
+      "source_section": "chapter_02_05_03",
+      "source_sentence": 86,
+      "character_position": 346,
+      "text": "стали вдруг ужасно высокомерны",
+      "vad": [
+        -0.8,
+        0.35,
+        0.85
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.9984830093081054,
+      "warning": null,
+      "chapter_sentence_start": 86,
+      "chapter_sentence_end": 86,
+      "timeline_start_index": 7157,
+      "timeline_end_index": 7157,
+      "highlights": [
+        {
+          "chapter_sentence": 86,
+          "start": 146,
+          "end": 176
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_02_05_03_0011",
+      "source_section": "chapter_02_05_03",
+      "source_sentence": 89,
+      "character_position": 347,
+      "text": "прибежали ко мне перепуганный",
+      "vad": [
+        -0.85,
+        0.85,
+        -0.7
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.3626759990096146,
+      "warning": null,
+      "chapter_sentence_start": 89,
+      "chapter_sentence_end": 89,
+      "timeline_start_index": 7160,
+      "timeline_end_index": 7160,
+      "highlights": [
+        {
+          "chapter_sentence": 89,
+          "start": 58,
+          "end": 87
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_02_05_03_0012",
+      "source_section": "chapter_02_05_03",
+      "source_sentence": 92,
+      "character_position": 348,
+      "text": "минута малодушия, минута глаз на глаз",
+      "vad": [
+        -0.65,
+        0.1,
+        -0.55
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.4838486602379708,
+      "warning": null,
+      "chapter_sentence_start": 92,
+      "chapter_sentence_end": 92,
+      "timeline_start_index": 7163,
+      "timeline_end_index": 7163,
+      "highlights": [
+        {
+          "chapter_sentence": 92,
+          "start": 23,
+          "end": 60
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_02_05_03_0013",
+      "source_section": "chapter_02_05_03",
+      "source_sentence": 92,
+      "character_position": 349,
+      "text": "горестно воскликнул он",
+      "vad": [
+        -0.8,
+        0.55,
+        -0.35
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.197238140195193,
+      "warning": null,
+      "chapter_sentence_start": 92,
+      "chapter_sentence_end": 92,
+      "timeline_start_index": 7163,
+      "timeline_end_index": 7163,
+      "highlights": [
+        {
+          "chapter_sentence": 92,
+          "start": 64,
+          "end": 86
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_02_05_03_0014",
+      "source_section": "chapter_02_05_03",
+      "source_sentence": 95,
+      "character_position": 350,
+      "text": "смотрели предо мною свысока",
+      "vad": [
+        -0.6,
+        0.1,
+        0.7
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.743451379623374,
+      "warning": null,
+      "chapter_sentence_start": 95,
+      "chapter_sentence_end": 95,
+      "timeline_start_index": 7166,
+      "timeline_end_index": 7166,
+      "highlights": [
+        {
+          "chapter_sentence": 95,
+          "start": 38,
+          "end": 65
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_02_05_03_0015",
+      "source_section": "chapter_02_05_03",
+      "source_sentence": 95,
+      "character_position": 351,
+      "text": "высокомерно стали улыбаться в свой галстук",
+      "vad": [
+        -0.45,
+        0.15,
+        0.75
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.772508235212895,
+      "warning": null,
+      "chapter_sentence_start": 95,
+      "chapter_sentence_end": 95,
+      "timeline_start_index": 7166,
+      "timeline_end_index": 7166,
+      "highlights": [
+        {
+          "chapter_sentence": 95,
+          "start": 196,
+          "end": 238
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_02_05_03_0017",
+      "source_section": "chapter_02_05_03",
+      "source_sentence": 107,
+      "character_position": 352,
+      "text": "усмехаетесь иронически",
+      "vad": [
+        -0.35,
+        0.2,
+        0.65
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.6829872530661364,
+      "warning": null,
+      "chapter_sentence_start": 107,
+      "chapter_sentence_end": 107,
+      "timeline_start_index": 7178,
+      "timeline_end_index": 7178,
+      "highlights": [
+        {
+          "chapter_sentence": 107,
+          "start": 5,
+          "end": 27
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_02_05_03_0018",
+      "source_section": "chapter_02_05_03",
+      "source_sentence": 168,
+      "character_position": 353,
+      "text": "ваше мнение было мне всегда дороже всего",
+      "vad": [
+        0.65,
+        0.25,
+        -0.55
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.7554706232097946,
+      "warning": null,
+      "chapter_sentence_start": 168,
+      "chapter_sentence_end": 168,
+      "timeline_start_index": 7239,
+      "timeline_end_index": 7239,
+      "highlights": [
+        {
+          "chapter_sentence": 168,
+          "start": 72,
+          "end": 112
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_02_05_03_0020",
+      "source_section": "chapter_02_05_03",
+      "source_sentence": 188,
+      "character_position": 354,
+      "text": "еле живой от волнения",
+      "vad": [
+        -0.7,
+        0.9,
+        -0.5
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.3199035921991221,
+      "warning": null,
+      "chapter_sentence_start": 188,
+      "chapter_sentence_end": 188,
+      "timeline_start_index": 7259,
+      "timeline_end_index": 7259,
+      "highlights": [
+        {
+          "chapter_sentence": 188,
+          "start": 45,
+          "end": 66
+        }
+      ]
+    }
+  ]
+}

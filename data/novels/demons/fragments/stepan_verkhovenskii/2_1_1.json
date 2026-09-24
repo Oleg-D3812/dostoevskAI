@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "stepan_verkhovenskii",
+  "chapter_id": "2_1_1",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "stepan_verkhovenskii::chapter_02_01_01_0001",
+      "source_section": "chapter_02_01_01",
+      "source_sentence": 3,
+      "character_position": 303,
+      "text": "с испугом наблюдали издали",
+      "vad": [
+        -0.7,
+        0.6,
+        -0.5
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.024576227512146,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 4179,
+      "timeline_end_index": 4179,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 71,
+          "end": 97
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_02_01_01_0002",
+      "source_section": "chapter_02_01_01",
+      "source_sentence": 16,
+      "character_position": 304,
+      "text": "не без страха за смелость предположения, но обоюдно ободряя друг друга",
+      "vad": [
+        0.1,
+        0.25,
+        0.2
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.4940457329782361,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 4192,
+      "timeline_end_index": 4192,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 29,
+          "end": 99
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_02_01_01_0004",
+      "source_section": "chapter_02_01_01",
+      "source_sentence": 50,
+      "character_position": 305,
+      "text": "был почти не в состоянии соображать, сильно задумался",
+      "vad": [
+        -0.35,
+        0.2,
+        -0.55
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.5144684554924004,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 50,
+      "timeline_start_index": 4226,
+      "timeline_end_index": 4226,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 77,
+          "end": 130
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_02_01_01_0005",
+      "source_section": "chapter_02_01_01",
+      "source_sentence": 56,
+      "character_position": 306,
+      "text": "кольнула Степана Трофимовича больнее всего",
+      "vad": [
+        -0.85,
+        0.55,
+        -0.3
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.2661581359274075,
+      "warning": null,
+      "chapter_sentence_start": 56,
+      "chapter_sentence_end": 56,
+      "timeline_start_index": 4232,
+      "timeline_end_index": 4232,
+      "highlights": [
+        {
+          "chapter_sentence": 56,
+          "start": 49,
+          "end": 91
+        }
+      ]
+    }
+  ]
+}

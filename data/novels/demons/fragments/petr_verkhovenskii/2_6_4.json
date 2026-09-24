@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "petr_verkhovenskii",
+  "chapter_id": "2_6_4",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "petr_verkhovenskii::chapter_02_06_04_0001",
+      "source_section": "chapter_02_06_04",
+      "source_sentence": 2,
+      "character_position": 74,
+      "text": "вполне уверенный, что по крайней мере на шесть дней того успокоил",
+      "vad": [
+        0.45,
+        0.1,
+        0.75
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.5110576626973368,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 7698,
+      "timeline_end_index": 7698,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 22,
+          "end": 87
+        }
+      ]
+    }
+  ]
+}

@@ -3,21 +3,47 @@
   "novel_id": "demons",
   "character_id": "nikolai_stavrogin",
   "chapter_id": "1_2_6",
-  "count": 1,
+  "count": 3,
   "fragments": [
+    {
+      "id": "nikolai_stavrogin::chapter_01_02_06_0002",
+      "source_section": "chapter_01_02_06",
+      "source_sentence": 19,
+      "character_position": 39,
+      "text": "гордый же Николай Всеволодович, хоть и сильно был влюблён, но не мог насмешек перенести, и сам стал насмешлив",
+      "vad": [
+        -0.15,
+        0.45,
+        0.3
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.4144042797371567,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 1018,
+      "timeline_end_index": 1018,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 85,
+          "end": 194
+        }
+      ]
+    },
     {
       "id": "nikolai_stavrogin::chapter_01_02_06_0003",
       "source_section": "chapter_01_02_06",
       "source_sentence": 27,
       "character_position": 40,
-      "text": "точно и не видит ничего, али как будто ему всё равно",
+      "text": "вместо того, чтобы приревновать, напротив сам с молодым человеком подружился, точно и не видит ничего, али как будто ему всё равно",
       "vad": [
-        -0.4,
-        0.2,
-        -0.1
+        0.1,
+        -0.35,
+        0.45
       ],
       "cluster_id": "nikolai_stavrogin-1",
-      "distance_to_centroid": 0.2965955283362467,
+      "distance_to_centroid": 0.4642204726090279,
       "warning": null,
       "chapter_sentence_start": 27,
       "chapter_sentence_end": 27,
@@ -26,8 +52,34 @@
       "highlights": [
         {
           "chapter_sentence": 27,
-          "start": 106,
+          "start": 28,
           "end": 158
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_02_06_0004",
+      "source_section": "chapter_01_02_06",
+      "source_sentence": 60,
+      "character_position": 41,
+      "text": "Nicolas мог увлечься её…",
+      "vad": [
+        -0.1,
+        0.15,
+        0.45
+      ],
+      "cluster_id": "nikolai_stavrogin-4",
+      "distance_to_centroid": 0.5230766941988053,
+      "warning": null,
+      "chapter_sentence_start": 60,
+      "chapter_sentence_end": 60,
+      "timeline_start_index": 1059,
+      "timeline_end_index": 1059,
+      "highlights": [
+        {
+          "chapter_sentence": 60,
+          "start": 43,
+          "end": 67
         }
       ]
     }

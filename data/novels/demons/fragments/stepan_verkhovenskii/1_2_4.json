@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "stepan_verkhovenskii",
+  "chapter_id": "1_2_4",
+  "count": 11,
+  "fragments": [
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_04_0001",
+      "source_section": "chapter_01_02_04",
+      "source_sentence": 27,
+      "character_position": 99,
+      "text": "был в полном восторге",
+      "vad": [
+        1.0,
+        0.9,
+        0.4
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.7001170759858324,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 790,
+      "timeline_end_index": 790,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 3,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_04_0002",
+      "source_section": "chapter_01_02_04",
+      "source_sentence": 27,
+      "character_position": 100,
+      "text": "провёл в крайнем унынии",
+      "vad": [
+        -0.9,
+        -0.6,
+        -0.65
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 1.0373125563130976,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 790,
+      "timeline_end_index": 790,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 74,
+          "end": 97
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_04_0003",
+      "source_section": "chapter_01_02_04",
+      "source_sentence": 31,
+      "character_position": 101,
+      "text": "поразила и истерзала робкое сердце Степана Трофимовича",
+      "vad": [
+        -0.9,
+        0.85,
+        -0.7
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.3867700554975498,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 794,
+      "timeline_end_index": 794,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 31,
+          "end": 85
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_04_0004",
+      "source_section": "chapter_01_02_04",
+      "source_sentence": 32,
+      "character_position": 102,
+      "text": "Его мучило одно весьма значительное и давнишнее денежное обязательство",
+      "vad": [
+        -0.75,
+        0.45,
+        -0.5
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.1424571088401621,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 795,
+      "timeline_end_index": 795,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 0,
+          "end": 70
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_04_0005",
+      "source_section": "chapter_01_02_04",
+      "source_sentence": 35,
+      "character_position": 103,
+      "text": "очень оробел один без Варвары Петровны",
+      "vad": [
+        -0.75,
+        0.45,
+        -0.8
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.3193956559733867,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 798,
+      "timeline_end_index": 798,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 101,
+          "end": 139
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_04_0006",
+      "source_section": "chapter_01_02_04",
+      "source_sentence": 36,
+      "character_position": 104,
+      "text": "с волнением подозревал",
+      "vad": [
+        -0.45,
+        0.65,
+        -0.35
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.3023474062371951,
+      "warning": null,
+      "chapter_sentence_start": 36,
+      "chapter_sentence_end": 36,
+      "timeline_start_index": 799,
+      "timeline_end_index": 799,
+      "highlights": [
+        {
+          "chapter_sentence": 36,
+          "start": 3,
+          "end": 25
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_04_0007",
+      "source_section": "chapter_01_02_04",
+      "source_sentence": 40,
+      "character_position": 105,
+      "text": "упавший дух",
+      "vad": [
+        -0.75,
+        -0.35,
+        -0.55
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.7543583731696016,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 803,
+      "timeline_end_index": 803,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 148,
+          "end": 159
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_04_0008",
+      "source_section": "chapter_01_02_04",
+      "source_sentence": 40,
+      "character_position": 106,
+      "text": "робевшего Степана Трофимовича",
+      "vad": [
+        -0.45,
+        0.25,
+        -0.65
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.4329985621181288,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 803,
+      "timeline_end_index": 803,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 160,
+          "end": 189
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_04_0009",
+      "source_section": "chapter_01_02_04",
+      "source_sentence": 40,
+      "character_position": 107,
+      "text": "мигом развеселили его",
+      "vad": [
+        0.85,
+        0.55,
+        0.2
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.320810404710329,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 803,
+      "timeline_end_index": 803,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 192,
+          "end": 213
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_04_0011",
+      "source_section": "chapter_01_02_04",
+      "source_sentence": 184,
+      "character_position": 108,
+      "text": "робко протестовал Степан Трофимович",
+      "vad": [
+        -0.2,
+        0.25,
+        -0.55
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.595786811315981,
+      "warning": null,
+      "chapter_sentence_start": 184,
+      "chapter_sentence_end": 184,
+      "timeline_start_index": 947,
+      "timeline_end_index": 947,
+      "highlights": [
+        {
+          "chapter_sentence": 184,
+          "start": 2,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_04_0012",
+      "source_section": "chapter_01_02_04",
+      "source_sentence": 210,
+      "character_position": 109,
+      "text": "удалился в смущении",
+      "vad": [
+        -0.55,
+        0.35,
+        -0.45
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.2793454496812533,
+      "warning": null,
+      "chapter_sentence_start": 210,
+      "chapter_sentence_end": 210,
+      "timeline_start_index": 973,
+      "timeline_end_index": 973,
+      "highlights": [
+        {
+          "chapter_sentence": 210,
+          "start": 41,
+          "end": 60
+        }
+      ]
+    }
+  ]
+}

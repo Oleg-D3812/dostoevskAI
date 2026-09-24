@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "1_2_5",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_01_02_05_0001",
+      "source_section": "chapter_01_02_05",
+      "source_sentence": 14,
+      "character_position": 88,
+      "text": "она всё сердится",
+      "vad": [
+        -0.5,
+        0.25,
+        -0.2
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.3295485998681844,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 987,
+      "timeline_end_index": 987,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 9,
+          "end": 25
+        }
+      ]
+    }
+  ]
+}

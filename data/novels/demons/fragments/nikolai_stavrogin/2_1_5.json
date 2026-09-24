@@ -3,47 +3,125 @@
   "novel_id": "demons",
   "character_id": "nikolai_stavrogin",
   "chapter_id": "2_1_5",
-  "count": 6,
+  "count": 7,
   "fragments": [
     {
-      "id": "nikolai_stavrogin::chapter_02_01_05_0004",
+      "id": "nikolai_stavrogin::chapter_02_01_05_0001",
       "source_section": "chapter_02_01_05",
-      "source_sentence": 82,
-      "character_position": 168,
-      "text": "ещё осторожнее спросил Николай Всеволодович",
+      "source_sentence": 37,
+      "character_position": 121,
+      "text": "надеясь, что вы не откажетесь в секунданты",
       "vad": [
-        0.0,
-        0.18,
-        0.08
+        0.25,
+        0.2,
+        -0.35
       ],
-      "cluster_id": "nikolai_stavrogin-1",
-      "distance_to_centroid": 0.4108450434130838,
+      "cluster_id": "nikolai_stavrogin-4",
+      "distance_to_centroid": 0.6160061663214007,
       "warning": null,
-      "chapter_sentence_start": 82,
-      "chapter_sentence_end": 82,
-      "timeline_start_index": 4778,
-      "timeline_end_index": 4778,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 4733,
+      "timeline_end_index": 4733,
       "highlights": [
         {
-          "chapter_sentence": 82,
-          "start": 2,
-          "end": 45
+          "chapter_sentence": 37,
+          "start": 10,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_05_0003",
+      "source_section": "chapter_02_01_05",
+      "source_sentence": 52,
+      "character_position": 122,
+      "text": "я хотел бы завтра непременно всё кончить",
+      "vad": [
+        -0.35,
+        0.45,
+        0.65
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.4063037766454104,
+      "warning": null,
+      "chapter_sentence_start": 52,
+      "chapter_sentence_end": 52,
+      "timeline_start_index": 4748,
+      "timeline_end_index": 4748,
+      "highlights": [
+        {
+          "chapter_sentence": 52,
+          "start": 20,
+          "end": 60
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_05_0006",
+      "source_section": "chapter_02_01_05",
+      "source_sentence": 86,
+      "character_position": 123,
+      "text": "задумчивого молчания",
+      "vad": [
+        -0.05,
+        -0.35,
+        0.0
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.1660360047750391,
+      "warning": null,
+      "chapter_sentence_start": 86,
+      "chapter_sentence_end": 86,
+      "timeline_start_index": 4782,
+      "timeline_end_index": 4782,
+      "highlights": [
+        {
+          "chapter_sentence": 86,
+          "start": 125,
+          "end": 145
         }
       ]
     },
     {
       "id": "nikolai_stavrogin::chapter_02_01_05_0007",
       "source_section": "chapter_02_01_05",
-      "source_sentence": 132,
-      "character_position": 169,
-      "text": "с каким-то брезгливым сожалением пробормотал Ставрогин",
+      "source_sentence": 122,
+      "character_position": 124,
+      "text": "как бы задумчиво",
       "vad": [
-        -0.35,
-        0.1,
+        0.05,
+        0.15,
         0.0
       ],
+      "cluster_id": "nikolai_stavrogin-4",
+      "distance_to_centroid": 0.4236772732840948,
+      "warning": null,
+      "chapter_sentence_start": 122,
+      "chapter_sentence_end": 122,
+      "timeline_start_index": 4818,
+      "timeline_end_index": 4818,
+      "highlights": [
+        {
+          "chapter_sentence": 122,
+          "start": 105,
+          "end": 121
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_01_05_0008",
+      "source_section": "chapter_02_01_05",
+      "source_sentence": 132,
+      "character_position": 125,
+      "text": "с каким-то брезгливым сожалением",
+      "vad": [
+        -0.45,
+        -0.1,
+        0.05
+      ],
       "cluster_id": "nikolai_stavrogin-1",
-      "distance_to_centroid": 0.2147039203378429,
+      "distance_to_centroid": 0.330676278307808,
       "warning": null,
       "chapter_sentence_start": 132,
       "chapter_sentence_end": 132,
@@ -53,23 +131,23 @@
         {
           "chapter_sentence": 132,
           "start": 59,
-          "end": 113
+          "end": 91
         }
       ]
     },
     {
-      "id": "nikolai_stavrogin::chapter_02_01_05_0008",
+      "id": "nikolai_stavrogin::chapter_02_01_05_0010",
       "source_section": "chapter_02_01_05",
       "source_sentence": 178,
-      "character_position": 170,
-      "text": "нахмуренно пробормотал Ставрогин",
+      "character_position": 126,
+      "text": "нахмуренно",
       "vad": [
-        -0.45,
-        0.25,
-        0.05
+        -0.35,
+        0.2,
+        0.0
       ],
-      "cluster_id": "nikolai_stavrogin-1",
-      "distance_to_centroid": 0.1723244368996127,
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.4317700215495702,
       "warning": null,
       "chapter_sentence_start": 178,
       "chapter_sentence_end": 178,
@@ -79,85 +157,33 @@
         {
           "chapter_sentence": 178,
           "start": 33,
-          "end": 65
-        }
-      ]
-    },
-    {
-      "id": "nikolai_stavrogin::chapter_02_01_05_0009",
-      "source_section": "chapter_02_01_05",
-      "source_sentence": 193,
-      "character_position": 171,
-      "text": "Ставрогин нахмуренно и брезгливо следил за ним",
-      "vad": [
-        -0.55,
-        0.2,
-        0.35
-      ],
-      "cluster_id": "nikolai_stavrogin-1",
-      "distance_to_centroid": 0.220554222723157,
-      "warning": null,
-      "chapter_sentence_start": 193,
-      "chapter_sentence_end": 193,
-      "timeline_start_index": 4889,
-      "timeline_end_index": 4889,
-      "highlights": [
-        {
-          "chapter_sentence": 193,
-          "start": 0,
-          "end": 46
-        }
-      ]
-    },
-    {
-      "id": "nikolai_stavrogin::chapter_02_01_05_0010",
-      "source_section": "chapter_02_01_05",
-      "source_sentence": 193,
-      "character_position": 172,
-      "text": "но насмешки в его взгляде не было",
-      "vad": [
-        0.05,
-        0.1,
-        0.35
-      ],
-      "cluster_id": "nikolai_stavrogin-3",
-      "distance_to_centroid": 0.4499652667934943,
-      "warning": null,
-      "chapter_sentence_start": 193,
-      "chapter_sentence_end": 193,
-      "timeline_start_index": 4889,
-      "timeline_end_index": 4889,
-      "highlights": [
-        {
-          "chapter_sentence": 193,
-          "start": 48,
-          "end": 81
+          "end": 43
         }
       ]
     },
     {
       "id": "nikolai_stavrogin::chapter_02_01_05_0011",
       "source_section": "chapter_02_01_05",
-      "source_sentence": 197,
-      "character_position": 173,
-      "text": "усмехнулся Николай Всеволодович",
+      "source_sentence": 193,
+      "character_position": 127,
+      "text": "нахмуренно и брезгливо",
       "vad": [
-        0.2,
-        0.1,
-        0.4
+        -0.7,
+        0.35,
+        0.1
       ],
       "cluster_id": "nikolai_stavrogin-3",
-      "distance_to_centroid": 0.3204932640973541,
+      "distance_to_centroid": 0.2561997550191635,
       "warning": null,
-      "chapter_sentence_start": 197,
-      "chapter_sentence_end": 197,
-      "timeline_start_index": 4893,
-      "timeline_end_index": 4893,
+      "chapter_sentence_start": 193,
+      "chapter_sentence_end": 193,
+      "timeline_start_index": 4889,
+      "timeline_end_index": 4889,
       "highlights": [
         {
-          "chapter_sentence": 197,
-          "start": 139,
-          "end": 170
+          "chapter_sentence": 193,
+          "start": 10,
+          "end": 32
         }
       ]
     }

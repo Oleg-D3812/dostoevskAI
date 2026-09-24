@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "stepan_verkhovenskii",
+  "chapter_id": "2_7_2",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "stepan_verkhovenskii::chapter_02_07_02_0004",
+      "source_section": "chapter_02_07_02",
+      "source_sentence": 302,
+      "character_position": 355,
+      "text": "Он закончил видимо торжествуя.",
+      "vad": [
+        0.75,
+        0.55,
+        0.7
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.5642578680618335,
+      "warning": null,
+      "chapter_sentence_start": 302,
+      "chapter_sentence_end": 302,
+      "timeline_start_index": 8732,
+      "timeline_end_index": 8732,
+      "highlights": [
+        {
+          "chapter_sentence": 302,
+          "start": 0,
+          "end": 30
+        }
+      ]
+    }
+  ]
+}

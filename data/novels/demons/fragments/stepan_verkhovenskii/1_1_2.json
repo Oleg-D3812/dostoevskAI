@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "stepan_verkhovenskii",
+  "chapter_id": "1_1_2",
+  "count": 7,
+  "fragments": [
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_02_0001",
+      "source_section": "chapter_01_01_02",
+      "source_sentence": 5,
+      "character_position": 16,
+      "text": "вынес с этою, привлекательною впрочем, особой много горя",
+      "vad": [
+        -0.8,
+        0.35,
+        -0.3
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.3316022911857129,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 60,
+      "timeline_end_index": 60,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 156,
+          "end": 212
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_02_0002",
+      "source_section": "chapter_01_01_02",
+      "source_sentence": 6,
+      "character_position": 17,
+      "text": "грустившего Степана Трофимовича",
+      "vad": [
+        -0.65,
+        -0.2,
+        0.0
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.3535224516187605,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 61,
+      "timeline_end_index": 61,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 175,
+          "end": 206
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_02_0003",
+      "source_section": "chapter_01_01_02",
+      "source_sentence": 30,
+      "character_position": 18,
+      "text": "ужасно любил сразиться в карточки",
+      "vad": [
+        0.7,
+        0.6,
+        0.2
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.248980437417176,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 85,
+      "timeline_end_index": 85,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 13,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_02_0004",
+      "source_section": "chapter_01_01_02",
+      "source_sentence": 32,
+      "character_position": 19,
+      "text": "часто грустил",
+      "vad": [
+        -0.6,
+        -0.3,
+        -0.1
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.4118359415505005,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 87,
+      "timeline_end_index": 87,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 77,
+          "end": 90
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_02_0005",
+      "source_section": "chapter_01_01_02",
+      "source_sentence": 33,
+      "character_position": 20,
+      "text": "впадал в так называемую между нами «гражданскую скорбь», то есть просто в хандру",
+      "vad": [
+        -0.8,
+        -0.5,
+        -0.35
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.7581136417010178,
+      "warning": "non_verbatim_evidence",
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 88,
+      "timeline_end_index": 88,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 106,
+          "end": 186
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_02_0006",
+      "source_section": "chapter_01_01_02",
+      "source_sentence": 35,
+      "character_position": 21,
+      "text": "становился иногда очень странен",
+      "vad": [
+        -0.25,
+        0.2,
+        -0.2
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.282121432868023,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 90,
+      "timeline_end_index": 90,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 38,
+          "end": 69
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_02_0007",
+      "source_section": "chapter_01_01_02",
+      "source_sentence": 35,
+      "character_position": 22,
+      "text": "самой возвышенной скорби",
+      "vad": [
+        -0.75,
+        0.45,
+        -0.25
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.2994902283260468,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 90,
+      "timeline_end_index": 90,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 81,
+          "end": 105
+        }
+      ]
+    }
+  ]
+}

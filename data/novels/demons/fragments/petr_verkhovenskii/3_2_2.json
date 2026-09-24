@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "petr_verkhovenskii",
+  "chapter_id": "3_2_2",
+  "count": 8,
+  "fragments": [
+    {
+      "id": "petr_verkhovenskii::chapter_03_02_02_0001",
+      "source_section": "chapter_03_02_02",
+      "source_sentence": 8,
+      "character_position": 122,
+      "text": "он был как будто чем-то слишком уж озабочен, почти серьёзен",
+      "vad": [
+        -0.35,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.528073674363299,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 10562,
+      "timeline_end_index": 10562,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 41,
+          "end": 100
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_02_02_0002",
+      "source_section": "chapter_03_02_02",
+      "source_sentence": 9,
+      "character_position": 123,
+      "text": "злился он часто",
+      "vad": [
+        -0.6,
+        0.5,
+        0.1
+      ],
+      "cluster_id": "petr_verkhovenskii-4",
+      "distance_to_centroid": 0.2988488105551836,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 10563,
+      "timeline_end_index": 10563,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 82,
+          "end": 97
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_02_02_0003",
+      "source_section": "chapter_03_02_02",
+      "source_sentence": 10,
+      "character_position": 124,
+      "text": "был зол, говорил грубо, небрежно, с досадой и нетерпением",
+      "vad": [
+        -0.78,
+        0.68,
+        0.36
+      ],
+      "cluster_id": "petr_verkhovenskii-4",
+      "distance_to_centroid": 0.1112967888423179,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 10564,
+      "timeline_end_index": 10564,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 15,
+          "end": 72
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_02_02_0004",
+      "source_section": "chapter_03_02_02",
+      "source_sentence": 106,
+      "character_position": 125,
+      "text": "предчувствовал",
+      "vad": [
+        -0.3,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.4889053816662506,
+      "warning": null,
+      "chapter_sentence_start": 106,
+      "chapter_sentence_end": 106,
+      "timeline_start_index": 10660,
+      "timeline_end_index": 10660,
+      "highlights": [
+        {
+          "chapter_sentence": 106,
+          "start": 62,
+          "end": 76
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_02_02_0006",
+      "source_section": "chapter_03_02_02",
+      "source_sentence": 140,
+      "character_position": 126,
+      "text": "я сам ничего не понимаю",
+      "vad": [
+        -0.35,
+        0.2,
+        -0.65
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.5429677285931723,
+      "warning": null,
+      "chapter_sentence_start": 140,
+      "chapter_sentence_end": 140,
+      "timeline_start_index": 10694,
+      "timeline_end_index": 10694,
+      "highlights": [
+        {
+          "chapter_sentence": 140,
+          "start": 13,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_02_02_0007",
+      "source_section": "chapter_03_02_02",
+      "source_sentence": 169,
+      "character_position": 127,
+      "text": "вскричал он наконец в злобном нетерпении",
+      "vad": [
+        -0.8,
+        0.8,
+        0.2
+      ],
+      "cluster_id": "petr_verkhovenskii-4",
+      "distance_to_centroid": 0.2325387020129858,
+      "warning": null,
+      "chapter_sentence_start": 169,
+      "chapter_sentence_end": 169,
+      "timeline_start_index": 10723,
+      "timeline_end_index": 10723,
+      "highlights": [
+        {
+          "chapter_sentence": 169,
+          "start": 2,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_02_02_0009",
+      "source_section": "chapter_03_02_02",
+      "source_sentence": 235,
+      "character_position": 128,
+      "text": "ничего не знает",
+      "vad": [
+        -0.1,
+        -0.1,
+        -0.5
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.6212448300701495,
+      "warning": null,
+      "chapter_sentence_start": 235,
+      "chapter_sentence_end": 235,
+      "timeline_start_index": 10789,
+      "timeline_end_index": 10789,
+      "highlights": [
+        {
+          "chapter_sentence": 235,
+          "start": 31,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_02_02_0010",
+      "source_section": "chapter_03_02_02",
+      "source_sentence": 238,
+      "character_position": 129,
+      "text": "при его-то любопытстве",
+      "vad": [
+        -0.2,
+        0.25,
+        0.1
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.3557084089844127,
+      "warning": null,
+      "chapter_sentence_start": 238,
+      "chapter_sentence_end": 238,
+      "timeline_start_index": 10792,
+      "timeline_end_index": 10792,
+      "highlights": [
+        {
+          "chapter_sentence": 238,
+          "start": 136,
+          "end": 158
+        }
+      ]
+    }
+  ]
+}

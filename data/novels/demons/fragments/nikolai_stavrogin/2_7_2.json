@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "nikolai_stavrogin",
+  "chapter_id": "2_7_2",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "nikolai_stavrogin::chapter_02_07_02_0001",
+      "source_section": "chapter_02_07_02",
+      "source_sentence": 448,
+      "character_position": 220,
+      "text": "засмеялся Ставрогин, но глаза его сверкали",
+      "vad": [
+        0.45,
+        0.7,
+        0.65
+      ],
+      "cluster_id": "nikolai_stavrogin-4",
+      "distance_to_centroid": 0.567969902845408,
+      "warning": null,
+      "chapter_sentence_start": 448,
+      "chapter_sentence_end": 448,
+      "timeline_start_index": 8878,
+      "timeline_end_index": 8878,
+      "highlights": [
+        {
+          "chapter_sentence": 448,
+          "start": 2,
+          "end": 44
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_07_02_0002",
+      "source_section": "chapter_02_07_02",
+      "source_sentence": 456,
+      "character_position": 221,
+      "text": "Ставрогин громко засмеялся в глаза хромому",
+      "vad": [
+        -0.35,
+        0.6,
+        0.7
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.4837922913178192,
+      "warning": null,
+      "chapter_sentence_start": 456,
+      "chapter_sentence_end": 456,
+      "timeline_start_index": 8886,
+      "timeline_end_index": 8886,
+      "highlights": [
+        {
+          "chapter_sentence": 456,
+          "start": 0,
+          "end": 42
+        }
+      ]
+    }
+  ]
+}

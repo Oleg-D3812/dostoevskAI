@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "stepan_verkhovenskii",
+  "chapter_id": "1_5_6",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "stepan_verkhovenskii::chapter_01_05_06_0001",
+      "source_section": "chapter_01_05_06",
+      "source_sentence": 99,
+      "character_position": 293,
+      "text": "с чувством и веско отозвался Степан Трофимович",
+      "vad": [
+        0.45,
+        0.65,
+        0.55
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.4646518375718474,
+      "warning": null,
+      "chapter_sentence_start": 99,
+      "chapter_sentence_end": 99,
+      "timeline_start_index": 3833,
+      "timeline_end_index": 3833,
+      "highlights": [
+        {
+          "chapter_sentence": 99,
+          "start": 25,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_05_06_0002",
+      "source_section": "chapter_01_05_06",
+      "source_sentence": 131,
+      "character_position": 294,
+      "text": "Степан Трофимович с болезненным видом",
+      "vad": [
+        -0.65,
+        0.2,
+        -0.35
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.4165828372982045,
+      "warning": null,
+      "chapter_sentence_start": 131,
+      "chapter_sentence_end": 131,
+      "timeline_start_index": 3865,
+      "timeline_end_index": 3865,
+      "highlights": [
+        {
+          "chapter_sentence": 131,
+          "start": 0,
+          "end": 37
+        }
+      ]
+    }
+  ]
+}

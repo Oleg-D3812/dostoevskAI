@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "stepan_verkhovenskii",
+  "chapter_id": "1_3_6",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_06_0001",
+      "source_section": "chapter_01_03_06",
+      "source_sentence": 13,
+      "character_position": 227,
+      "text": "Я перепугался.",
+      "vad": [
+        -0.8,
+        0.8,
+        -0.5
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.2440107791295757,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 1828,
+      "timeline_end_index": 1828,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 0,
+          "end": 14
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_06_0002",
+      "source_section": "chapter_01_03_06",
+      "source_sentence": 26,
+      "character_position": 228,
+      "text": "Вы… вы так фраппировали меня…",
+      "vad": [
+        -0.65,
+        0.72,
+        -0.35
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.2197287958512863,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 1841,
+      "timeline_end_index": 1841,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 2,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_06_0003",
+      "source_section": "chapter_01_03_06",
+      "source_sentence": 27,
+      "character_position": 229,
+      "text": "что я вам не верю…",
+      "vad": [
+        -0.35,
+        0.25,
+        0.1
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.2359399633004107,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 1842,
+      "timeline_end_index": 1842,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 34,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_06_0004",
+      "source_section": "chapter_01_03_06",
+      "source_sentence": 32,
+      "character_position": 230,
+      "text": "видимо едва справляясь со своими мыслями",
+      "vad": [
+        -0.45,
+        0.65,
+        -0.55
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.2566976019666089,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 1847,
+      "timeline_end_index": 1847,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 29,
+          "end": 69
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_06_0005",
+      "source_section": "chapter_01_03_06",
+      "source_sentence": 65,
+      "character_position": 231,
+      "text": "Степан Трофимович сидел в задумчивости и усиленно соображал.",
+      "vad": [
+        -0.1,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.3547083211310173,
+      "warning": null,
+      "chapter_sentence_start": 65,
+      "chapter_sentence_end": 65,
+      "timeline_start_index": 1880,
+      "timeline_end_index": 1880,
+      "highlights": [
+        {
+          "chapter_sentence": 65,
+          "start": 0,
+          "end": 60
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_06_0006",
+      "source_section": "chapter_01_03_06",
+      "source_sentence": 75,
+      "character_position": 232,
+      "text": "Степан Трофимович в недоумении смотрел на обоих спорщиков.",
+      "vad": [
+        -0.35,
+        0.2,
+        -0.3
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.3265751466552807,
+      "warning": null,
+      "chapter_sentence_start": 75,
+      "chapter_sentence_end": 75,
+      "timeline_start_index": 1890,
+      "timeline_end_index": 1890,
+      "highlights": [
+        {
+          "chapter_sentence": 75,
+          "start": 0,
+          "end": 58
+        }
+      ]
+    }
+  ]
+}

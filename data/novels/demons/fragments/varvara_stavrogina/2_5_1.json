@@ -6,28 +6,28 @@
   "count": 1,
   "fragments": [
     {
-      "id": "varvara_stavrogina::chapter_02_05_01_0001",
+      "id": "varvara_stavrogina::chapter_02_05_01_0002",
       "source_section": "chapter_02_05_01",
-      "source_sentence": 9,
-      "character_position": 240,
-      "text": "Самой Варваре Петровне слишком хотелось бы, чтобы назначили у неё.",
+      "source_sentence": 11,
+      "character_position": 236,
+      "text": "Ей, вероятно, нравилось",
       "vad": [
-        0.65,
-        0.2,
-        -0.1
+        0.45,
+        0.0,
+        0.0
       ],
-      "cluster_id": "varvara_stavrogina-1",
-      "distance_to_centroid": 0.4832138580929372,
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.3138731816865444,
       "warning": null,
-      "chapter_sentence_start": 9,
-      "chapter_sentence_end": 9,
-      "timeline_start_index": 6747,
-      "timeline_end_index": 6747,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 6749,
+      "timeline_end_index": 6749,
       "highlights": [
         {
-          "chapter_sentence": 9,
+          "chapter_sentence": 11,
           "start": 0,
-          "end": 66
+          "end": 23
         }
       ]
     }

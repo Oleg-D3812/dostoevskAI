@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "petr_verkhovenskii",
+  "chapter_id": "1_5_5",
+  "count": 7,
+  "fragments": [
+    {
+      "id": "petr_verkhovenskii::chapter_01_05_05_0001",
+      "source_section": "chapter_01_05_05",
+      "source_sentence": 12,
+      "character_position": 4,
+      "text": "ничего не может привести его в смущение",
+      "vad": [
+        0.2,
+        0.0,
+        0.85
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.727494948517793,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 3652,
+      "timeline_end_index": 3652,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 9,
+          "end": 48
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_01_05_05_0002",
+      "source_section": "chapter_01_05_05",
+      "source_sentence": 13,
+      "character_position": 5,
+      "text": "В нём большое самодовольство",
+      "vad": [
+        0.7,
+        0.1,
+        0.75
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.5284726888662524,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 3653,
+      "timeline_end_index": 3653,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 0,
+          "end": 28
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_01_05_05_0003",
+      "source_section": "chapter_01_05_05",
+      "source_sentence": 14,
+      "character_position": 6,
+      "text": "самоуверенно",
+      "vad": [
+        0.45,
+        0.15,
+        0.85
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.5680492360717201,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 3654,
+      "timeline_end_index": 3654,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 46,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_01_05_05_0004",
+      "source_section": "chapter_01_05_05",
+      "source_sentence": 15,
+      "character_position": 7,
+      "text": "Его мысли спокойны, несмотря на торопливый вид, отчётливы и окончательны",
+      "vad": [
+        0.35,
+        -0.35,
+        0.75
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.8024099984144986,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 3655,
+      "timeline_end_index": 3655,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 0,
+          "end": 72
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_01_05_05_0005",
+      "source_section": "chapter_01_05_05",
+      "source_sentence": 32,
+      "character_position": 8,
+      "text": "как я рад, что встречаю вас с первого же шагу, очень рад",
+      "vad": [
+        0.85,
+        0.62,
+        0.28
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.3836808166750368,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 3672,
+      "timeline_end_index": 3672,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 27,
+          "end": 83
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_01_05_05_0007",
+      "source_section": "chapter_01_05_05",
+      "source_sentence": 44,
+      "character_position": 9,
+      "text": "Ну будь же немного потрезвее",
+      "vad": [
+        -0.2,
+        0.1,
+        0.45
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.398470164783039,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 3684,
+      "timeline_end_index": 3684,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 0,
+          "end": 28
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_01_05_05_0008",
+      "source_section": "chapter_01_05_05",
+      "source_sentence": 48,
+      "character_position": 10,
+      "text": "верю, верю, что любишь",
+      "vad": [
+        0.65,
+        0.1,
+        0.35
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.3267508859945393,
+      "warning": null,
+      "chapter_sentence_start": 48,
+      "chapter_sentence_end": 48,
+      "timeline_start_index": 3688,
+      "timeline_end_index": 3688,
+      "highlights": [
+        {
+          "chapter_sentence": 48,
+          "start": 5,
+          "end": 27
+        }
+      ]
+    }
+  ]
+}

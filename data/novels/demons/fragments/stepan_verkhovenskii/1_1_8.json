@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "stepan_verkhovenskii",
+  "chapter_id": "1_1_8",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_08_0001",
+      "source_section": "chapter_01_01_08",
+      "source_sentence": 4,
+      "character_position": 83,
+      "text": "прибавилось благодушия",
+      "vad": [
+        0.65,
+        -0.25,
+        0.2
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.6392992166679667,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 342,
+      "timeline_end_index": 342,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 33,
+          "end": 55
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_08_0003",
+      "source_section": "chapter_01_01_08",
+      "source_sentence": 63,
+      "character_position": 84,
+      "text": "высокомерные насмешки Степана Трофимовича",
+      "vad": [
+        -0.7,
+        0.4,
+        0.7
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.8501370629253396,
+      "warning": null,
+      "chapter_sentence_start": 63,
+      "chapter_sentence_end": 63,
+      "timeline_start_index": 401,
+      "timeline_end_index": 401,
+      "highlights": [
+        {
+          "chapter_sentence": 63,
+          "start": 4,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_08_0004",
+      "source_section": "chapter_01_01_08",
+      "source_sentence": 36,
+      "character_position": 85,
+      "text": "но он любил его",
+      "vad": [
+        0.8,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.3473308800421248,
+      "warning": null,
+      "chapter_sentence_start": 36,
+      "chapter_sentence_end": 36,
+      "timeline_start_index": 374,
+      "timeline_end_index": 374,
+      "highlights": [
+        {
+          "chapter_sentence": 36,
+          "start": 94,
+          "end": 109
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_08_0005",
+      "source_section": "chapter_01_01_08",
+      "source_sentence": 64,
+      "character_position": 86,
+      "text": "Степан Трофимович обращался с ним ласково, да и вообще ко всем нам относился отечески",
+      "vad": [
+        0.7,
+        -0.2,
+        0.2
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.5980831785230845,
+      "warning": null,
+      "chapter_sentence_start": 64,
+      "chapter_sentence_end": 64,
+      "timeline_start_index": 402,
+      "timeline_end_index": 402,
+      "highlights": [
+        {
+          "chapter_sentence": 64,
+          "start": 0,
+          "end": 85
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "stepan_verkhovenskii",
+  "chapter_id": "2_10_2",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "stepan_verkhovenskii::chapter_02_10_02_0001",
+      "source_section": "chapter_02_10_02",
+      "source_sentence": 33,
+      "character_position": 408,
+      "text": "Я бы очень желал",
+      "vad": [
+        0.3,
+        0.1,
+        0.1
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.4060405842501156,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 9710,
+      "timeline_end_index": 9710,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 2,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_02_10_02_0003",
+      "source_section": "chapter_02_10_02",
+      "source_sentence": 71,
+      "character_position": 409,
+      "text": "сварливою жалобой",
+      "vad": [
+        -0.6,
+        0.35,
+        -0.25
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.3627828152387173,
+      "warning": null,
+      "chapter_sentence_start": 71,
+      "chapter_sentence_end": 71,
+      "timeline_start_index": 9748,
+      "timeline_end_index": 9748,
+      "highlights": [
+        {
+          "chapter_sentence": 71,
+          "start": 174,
+          "end": 191
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_02_10_02_0004",
+      "source_section": "chapter_02_10_02",
+      "source_sentence": 71,
+      "character_position": 410,
+      "text": "глубоко проникнутым голосом",
+      "vad": [
+        -0.15,
+        0.45,
+        0.0
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.4722021344982283,
+      "warning": null,
+      "chapter_sentence_start": 71,
+      "chapter_sentence_end": 71,
+      "timeline_start_index": 9748,
+      "timeline_end_index": 9748,
+      "highlights": [
+        {
+          "chapter_sentence": 71,
+          "start": 79,
+          "end": 106
+        }
+      ]
+    }
+  ]
+}

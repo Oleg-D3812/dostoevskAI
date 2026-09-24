@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "nikolai_stavrogin",
+  "chapter_id": "2_10_3",
+  "count": 7,
+  "fragments": [
+    {
+      "id": "nikolai_stavrogin::chapter_02_10_03_0001",
+      "source_section": "chapter_02_10_03",
+      "source_sentence": 126,
+      "character_position": 236,
+      "text": "лицо его было бледнее обыкновенного, а взгляд необычайно рассеян",
+      "vad": [
+        -0.45,
+        0.25,
+        -0.4
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.3224720344677,
+      "warning": null,
+      "chapter_sentence_start": 126,
+      "chapter_sentence_end": 126,
+      "timeline_start_index": 9877,
+      "timeline_end_index": 9877,
+      "highlights": [
+        {
+          "chapter_sentence": 126,
+          "start": 45,
+          "end": 109
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_10_03_0002",
+      "source_section": "chapter_02_10_03",
+      "source_sentence": 127,
+      "character_position": 237,
+      "text": "как бы забыл о нём тотчас же, и, право, мне кажется, так и забыл подойти к хозяйке",
+      "vad": [
+        -0.2,
+        -0.3,
+        -0.35
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.4345318801672171,
+      "warning": null,
+      "chapter_sentence_start": 127,
+      "chapter_sentence_end": 127,
+      "timeline_start_index": 9878,
+      "timeline_end_index": 9878,
+      "highlights": [
+        {
+          "chapter_sentence": 127,
+          "start": 53,
+          "end": 135
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_10_03_0003",
+      "source_section": "chapter_02_10_03",
+      "source_sentence": 128,
+      "character_position": 238,
+      "text": "не потому что не хотел, а потому, утверждаю это, что и её тоже вовсе не замечал",
+      "vad": [
+        -0.2,
+        -0.35,
+        -0.25
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.3408426676817707,
+      "warning": null,
+      "chapter_sentence_start": 128,
+      "chapter_sentence_end": 128,
+      "timeline_start_index": 9879,
+      "timeline_end_index": 9879,
+      "highlights": [
+        {
+          "chapter_sentence": 128,
+          "start": 31,
+          "end": 110
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_10_03_0004",
+      "source_section": "chapter_02_10_03",
+      "source_sentence": 137,
+      "character_position": 239,
+      "text": "с самым спокойным вниманием",
+      "vad": [
+        0.1,
+        -0.55,
+        0.75
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.769190804250282,
+      "warning": null,
+      "chapter_sentence_start": 137,
+      "chapter_sentence_end": 137,
+      "timeline_start_index": 9888,
+      "timeline_end_index": 9888,
+      "highlights": [
+        {
+          "chapter_sentence": 137,
+          "start": 73,
+          "end": 100
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_10_03_0005",
+      "source_section": "chapter_02_10_03",
+      "source_sentence": 138,
+      "character_position": 240,
+      "text": "Ни смущения, ни гнева не отразилось в лице его",
+      "vad": [
+        0.05,
+        -0.35,
+        0.7
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.6602524816288399,
+      "warning": null,
+      "chapter_sentence_start": 138,
+      "chapter_sentence_end": 138,
+      "timeline_start_index": 9889,
+      "timeline_end_index": 9889,
+      "highlights": [
+        {
+          "chapter_sentence": 138,
+          "start": 0,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_10_03_0006",
+      "source_section": "chapter_02_10_03",
+      "source_sentence": 139,
+      "character_position": 241,
+      "text": "с видом полной готовности",
+      "vad": [
+        0.1,
+        0.2,
+        0.75
+      ],
+      "cluster_id": "nikolai_stavrogin-4",
+      "distance_to_centroid": 0.5746611537299032,
+      "warning": null,
+      "chapter_sentence_start": 139,
+      "chapter_sentence_end": 139,
+      "timeline_start_index": 9890,
+      "timeline_end_index": 9890,
+      "highlights": [
+        {
+          "chapter_sentence": 139,
+          "start": 21,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_10_03_0007",
+      "source_section": "chapter_02_10_03",
+      "source_sentence": 144,
+      "character_position": 242,
+      "text": "с беспредельным высокомерием",
+      "vad": [
+        -0.6,
+        0.2,
+        0.9
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.6343116563920627,
+      "warning": null,
+      "chapter_sentence_start": 144,
+      "chapter_sentence_end": 144,
+      "timeline_start_index": 9895,
+      "timeline_end_index": 9895,
+      "highlights": [
+        {
+          "chapter_sentence": 144,
+          "start": 79,
+          "end": 107
+        }
+      ]
+    }
+  ]
+}

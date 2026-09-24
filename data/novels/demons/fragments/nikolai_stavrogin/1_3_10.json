@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "nikolai_stavrogin",
+  "chapter_id": "1_3_10",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "nikolai_stavrogin::chapter_01_03_10_0001",
+      "source_section": "chapter_01_03_10",
+      "source_sentence": 12,
+      "character_position": 51,
+      "text": "правда ли, что он сумасшедший",
+      "vad": [
+        -0.2,
+        0.1,
+        -0.15
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.4501823061025505,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 2366,
+      "timeline_end_index": 2366,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 128,
+          "end": 157
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_03_10_0002",
+      "source_section": "chapter_01_03_10",
+      "source_sentence": 14,
+      "character_position": 52,
+      "text": "чтобы Nicolas оказался сумасшедшим",
+      "vad": [
+        -0.5,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.3063817813665833,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 2368,
+      "timeline_end_index": 2368,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 41,
+          "end": 75
+        }
+      ]
+    }
+  ]
+}

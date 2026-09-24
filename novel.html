@@ -12,7 +12,7 @@
     <a href="index.html" class="back-link">&larr; Каталог</a>
     <h1 id="novelTitle">Загрузка...</h1>
     <p id="novelMeta"></p>
-    <a id="helpLink" class="help-link" href="#" target="_blank" rel="noopener" hidden><span class="help-icon">?</span><span class="help-text">Помощь</span></a>
+    <a id="helpLink" class="help-link" href="#" hidden><span class="help-icon">?</span><span class="help-text">Помощь</span></a>
   </header>
 
   <div class="tab-bar" aria-label="Разделы анализа"></div>
@@ -29,6 +29,20 @@
         <button id="closeBtn" onclick="hideModal()">&times;</button>
       </div>
       <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- Help overlay -->
+  <div id="helpOverlay" class="help-overlay" hidden>
+    <div class="help-modal">
+      <div class="help-modal-header">
+        <span id="helpModalTitle"></span>
+        <div class="help-modal-actions">
+          <a id="helpOpenNewTab" class="help-open-new" href="#" target="_blank" rel="noopener">Открыть в новой вкладке ↗</a>
+          <button id="helpCloseBtn" class="help-close" type="button" aria-label="Закрыть">&times;</button>
+        </div>
+      </div>
+      <iframe id="helpFrame" class="help-frame" title="Помощь"></iframe>
     </div>
   </div>
 

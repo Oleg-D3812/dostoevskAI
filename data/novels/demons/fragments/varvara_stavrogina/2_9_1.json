@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "2_9_1",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_02_09_01_0001",
+      "source_section": "chapter_02_09_01",
+      "source_sentence": 181,
+      "character_position": 247,
+      "text": "человека, которому она поклонялась двадцать два года!",
+      "vad": [
+        -0.72,
+        0.68,
+        -0.42
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.2335532904674328,
+      "warning": null,
+      "chapter_sentence_start": 181,
+      "chapter_sentence_end": 181,
+      "timeline_start_index": 9442,
+      "timeline_end_index": 9442,
+      "highlights": [
+        {
+          "chapter_sentence": 181,
+          "start": 164,
+          "end": 217
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_09_01_0002",
+      "source_section": "chapter_02_09_01",
+      "source_sentence": 181,
+      "character_position": 248,
+      "text": "Elle me soupçonnera toute sa vie…",
+      "vad": [
+        -0.72,
+        0.38,
+        -0.68
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.2922318872689339,
+      "warning": null,
+      "chapter_sentence_start": 181,
+      "chapter_sentence_end": 181,
+      "timeline_start_index": 9442,
+      "timeline_end_index": 9442,
+      "highlights": [
+        {
+          "chapter_sentence": 181,
+          "start": 100,
+          "end": 133
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_09_01_0003",
+      "source_section": "chapter_02_09_01",
+      "source_sentence": 184,
+      "character_position": 249,
+      "text": "когда оба боялись",
+      "vad": [
+        -0.75,
+        0.55,
+        -0.45
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.1483064497571391,
+      "warning": null,
+      "chapter_sentence_start": 184,
+      "chapter_sentence_end": 184,
+      "timeline_start_index": 9445,
+      "timeline_end_index": 9445,
+      "highlights": [
+        {
+          "chapter_sentence": 184,
+          "start": 84,
+          "end": 101
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_09_01_0004",
+      "source_section": "chapter_02_09_01",
+      "source_sentence": 184,
+      "character_position": 250,
+      "text": "Elle me soupçonnera toute sa vie…",
+      "vad": [
+        -0.82,
+        0.68,
+        -0.64
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.3647729280262931,
+      "warning": null,
+      "chapter_sentence_start": 184,
+      "chapter_sentence_end": 184,
+      "timeline_start_index": 9445,
+      "timeline_end_index": 9445,
+      "highlights": [
+        {
+          "chapter_sentence": 184,
+          "start": 103,
+          "end": 136
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_09_01_0005",
+      "source_section": "chapter_02_09_01",
+      "source_sentence": 187,
+      "character_position": 251,
+      "text": "Она обрадуется.",
+      "vad": [
+        0.5,
+        0.1,
+        0.4
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.199705352558641,
+      "warning": null,
+      "chapter_sentence_start": 187,
+      "chapter_sentence_end": 187,
+      "timeline_start_index": 9448,
+      "timeline_end_index": 9448,
+      "highlights": [
+        {
+          "chapter_sentence": 187,
+          "start": 0,
+          "end": 15
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_09_01_0006",
+      "source_section": "chapter_02_09_01",
+      "source_sentence": 188,
+      "character_position": 252,
+      "text": "Она будет очень огорчена, очень, искренно, как истинный друг, но втайне — обрадуется…",
+      "vad": [
+        -0.2,
+        0.55,
+        0.1
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.4181952460745399,
+      "warning": null,
+      "chapter_sentence_start": 188,
+      "chapter_sentence_end": 188,
+      "timeline_start_index": 9449,
+      "timeline_end_index": 9449,
+      "highlights": [
+        {
+          "chapter_sentence": 188,
+          "start": 0,
+          "end": 85
+        }
+      ]
+    }
+  ]
+}

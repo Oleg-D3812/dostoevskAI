@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "2_1_3",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_02_01_03_0001",
+      "source_section": "chapter_02_01_03",
+      "source_sentence": 12,
+      "character_position": 203,
+      "text": "нетерпеливо ожидавшей его Варваре Петровне",
+      "vad": [
+        0.3,
+        0.55,
+        -0.2
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.5791008872352629,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 4334,
+      "timeline_end_index": 4334,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 170,
+          "end": 212
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_01_03_0002",
+      "source_section": "chapter_02_01_03",
+      "source_sentence": 14,
+      "character_position": 204,
+      "text": "она давно желала их свиданья",
+      "vad": [
+        0.65,
+        0.3,
+        0.15
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2169450498855396,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 4336,
+      "timeline_end_index": 4336,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 55,
+          "end": 83
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_01_03_0003",
+      "source_section": "chapter_02_01_03",
+      "source_sentence": 15,
+      "character_position": 205,
+      "text": "Робко постучалась она к Николаю Всеволодовичу",
+      "vad": [
+        -0.25,
+        0.2,
+        -0.55
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.4871425737417291,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 4337,
+      "timeline_end_index": 4337,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 0,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_01_03_0004",
+      "source_section": "chapter_02_01_03",
+      "source_sentence": 17,
+      "character_position": 206,
+      "text": "тихо и сдержанно спросила она",
+      "vad": [
+        0.0,
+        -0.35,
+        0.1
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.7432734345934063,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 4339,
+      "timeline_end_index": 4339,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 2,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_01_03_0005",
+      "source_section": "chapter_02_01_03",
+      "source_sentence": 175,
+      "character_position": 207,
+      "text": "она была страшно угрюма",
+      "vad": [
+        -0.8,
+        -0.3,
+        -0.2
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.8074706321168316,
+      "warning": null,
+      "chapter_sentence_start": 175,
+      "chapter_sentence_end": 175,
+      "timeline_start_index": 4497,
+      "timeline_end_index": 4497,
+      "highlights": [
+        {
+          "chapter_sentence": 175,
+          "start": 24,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_01_03_0006",
+      "source_section": "chapter_02_01_03",
+      "source_sentence": 175,
+      "character_position": 208,
+      "text": "вся так и сияет",
+      "vad": [
+        0.85,
+        0.55,
+        0.05
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.5417264934394749,
+      "warning": null,
+      "chapter_sentence_start": 175,
+      "chapter_sentence_end": 175,
+      "timeline_start_index": 4497,
+      "timeline_end_index": 4497,
+      "highlights": [
+        {
+          "chapter_sentence": 175,
+          "start": 76,
+          "end": 91
+        }
+      ]
+    }
+  ]
+}

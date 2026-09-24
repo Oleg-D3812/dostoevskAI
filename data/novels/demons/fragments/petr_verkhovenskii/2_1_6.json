@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "petr_verkhovenskii",
+  "chapter_id": "2_1_6",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "petr_verkhovenskii::chapter_02_01_06_0001",
+      "source_section": "chapter_02_01_06",
+      "source_sentence": 123,
+      "character_position": 45,
+      "text": "Верховенский энтузиаст",
+      "vad": [
+        0.2,
+        0.7,
+        0.3
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.4506974711086513,
+      "warning": null,
+      "chapter_sentence_start": 123,
+      "chapter_sentence_end": 123,
+      "timeline_start_index": 5030,
+      "timeline_end_index": 5030,
+      "highlights": [
+        {
+          "chapter_sentence": 123,
+          "start": 118,
+          "end": 140
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_01_06_0002",
+      "source_section": "chapter_02_01_06",
+      "source_sentence": 126,
+      "character_position": 46,
+      "text": "он перестаёт быть шутом и обращается в… полупомешанного",
+      "vad": [
+        -0.75,
+        0.65,
+        -0.55
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.1427115477898553,
+      "warning": null,
+      "chapter_sentence_start": 126,
+      "chapter_sentence_end": 126,
+      "timeline_start_index": 5033,
+      "timeline_end_index": 5033,
+      "highlights": [
+        {
+          "chapter_sentence": 126,
+          "start": 22,
+          "end": 77
+        }
+      ]
+    }
+  ]
+}

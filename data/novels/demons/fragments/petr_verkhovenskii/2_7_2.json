@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "petr_verkhovenskii",
+  "chapter_id": "2_7_2",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "petr_verkhovenskii::chapter_02_07_02_0001",
+      "source_section": "chapter_02_07_02",
+      "source_sentence": 2,
+      "character_position": 98,
+      "text": "Вид его был брезгливый и даже надменный.",
+      "vad": [
+        -0.65,
+        0.25,
+        0.7
+      ],
+      "cluster_id": "petr_verkhovenskii-4",
+      "distance_to_centroid": 0.5501914317492121,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 8432,
+      "timeline_end_index": 8432,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 0,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_07_02_0002",
+      "source_section": "chapter_02_07_02",
+      "source_sentence": 200,
+      "character_position": 99,
+      "text": "безмятежно",
+      "vad": [
+        0.2,
+        -0.6,
+        0.4
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.6486743961512758,
+      "warning": null,
+      "chapter_sentence_start": 200,
+      "chapter_sentence_end": 200,
+      "timeline_start_index": 8630,
+      "timeline_end_index": 8630,
+      "highlights": [
+        {
+          "chapter_sentence": 200,
+          "start": 59,
+          "end": 69
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_07_02_0003",
+      "source_section": "chapter_02_07_02",
+      "source_sentence": 264,
+      "character_position": 100,
+      "text": "совершенно равнодушно",
+      "vad": [
+        0.0,
+        -0.7,
+        0.1
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.6247227162687636,
+      "warning": null,
+      "chapter_sentence_start": 264,
+      "chapter_sentence_end": 264,
+      "timeline_start_index": 8694,
+      "timeline_end_index": 8694,
+      "highlights": [
+        {
+          "chapter_sentence": 264,
+          "start": 12,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_07_02_0005",
+      "source_section": "chapter_02_07_02",
+      "source_sentence": 306,
+      "character_position": 101,
+      "text": "ещё равнодушнее чем прежде, даже как бы со скукой",
+      "vad": [
+        -0.2,
+        -0.7,
+        0.2
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.6400092230238213,
+      "warning": null,
+      "chapter_sentence_start": 306,
+      "chapter_sentence_end": 306,
+      "timeline_start_index": 8736,
+      "timeline_end_index": 8736,
+      "highlights": [
+        {
+          "chapter_sentence": 306,
+          "start": 35,
+          "end": 84
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_07_02_0006",
+      "source_section": "chapter_02_07_02",
+      "source_sentence": 367,
+      "character_position": 102,
+      "text": "как бы начиная очень тревожиться",
+      "vad": [
+        -0.65,
+        0.75,
+        -0.2
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.2931422442198674,
+      "warning": null,
+      "chapter_sentence_start": 367,
+      "chapter_sentence_end": 367,
+      "timeline_start_index": 8797,
+      "timeline_end_index": 8797,
+      "highlights": [
+        {
+          "chapter_sentence": 367,
+          "start": 25,
+          "end": 57
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_07_02_0008",
+      "source_section": "chapter_02_07_02",
+      "source_sentence": 375,
+      "character_position": 103,
+      "text": "вы меня очень тревожите",
+      "vad": [
+        -0.65,
+        0.65,
+        -0.25
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.2123756765212046,
+      "warning": null,
+      "chapter_sentence_start": 375,
+      "chapter_sentence_end": 375,
+      "timeline_start_index": 8805,
+      "timeline_end_index": 8805,
+      "highlights": [
+        {
+          "chapter_sentence": 375,
+          "start": 19,
+          "end": 42
+        }
+      ]
+    }
+  ]
+}

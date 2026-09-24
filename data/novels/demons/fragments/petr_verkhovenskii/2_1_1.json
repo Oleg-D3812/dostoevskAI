@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "petr_verkhovenskii",
+  "chapter_id": "2_1_1",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "petr_verkhovenskii::chapter_02_01_01_0001",
+      "source_section": "chapter_02_01_01",
+      "source_sentence": 48,
+      "character_position": 28,
+      "text": "без всякого беспокойства",
+      "vad": [
+        0.2,
+        -0.6,
+        0.2
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.5905746965644754,
+      "warning": null,
+      "chapter_sentence_start": 48,
+      "chapter_sentence_end": 48,
+      "timeline_start_index": 4224,
+      "timeline_end_index": 4224,
+      "highlights": [
+        {
+          "chapter_sentence": 48,
+          "start": 89,
+          "end": 113
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_01_01_0002",
+      "source_section": "chapter_02_01_01",
+      "source_sentence": 49,
+      "character_position": 29,
+      "text": "принёс покаяние",
+      "vad": [
+        -0.3,
+        0.1,
+        -0.4
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.5974488588062488,
+      "warning": null,
+      "chapter_sentence_start": 49,
+      "chapter_sentence_end": 49,
+      "timeline_start_index": 4225,
+      "timeline_end_index": 4225,
+      "highlights": [
+        {
+          "chapter_sentence": 49,
+          "start": 72,
+          "end": 87
+        }
+      ]
+    }
+  ]
+}

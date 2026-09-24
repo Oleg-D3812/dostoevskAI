@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "stepan_verkhovenskii",
+  "chapter_id": "2_4_3",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "stepan_verkhovenskii::chapter_02_04_03_0001",
+      "source_section": "chapter_02_04_03",
+      "source_sentence": 3,
+      "character_position": 337,
+      "text": "довести старика до отчаяния",
+      "vad": [
+        -0.8,
+        0.5,
+        0.8
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 1.0127041162484296,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 6545,
+      "timeline_end_index": 6545,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 25,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_02_04_03_0002",
+      "source_section": "chapter_02_04_03",
+      "source_sentence": 6,
+      "character_position": 338,
+      "text": "другой мученик, кроме Степана Трофимовича",
+      "vad": [
+        -0.35,
+        0.2,
+        0.55
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.5861704281668964,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 6548,
+      "timeline_end_index": 6548,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 20,
+          "end": 61
+        }
+      ]
+    }
+  ]
+}

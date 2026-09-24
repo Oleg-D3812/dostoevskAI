@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "novelId": "voskreseniye",
+  "features": [
+    {
+      "id": "character-network",
+      "renderer": "graph",
+      "label": {
+        "ru": "Граф связей",
+        "en": "Character network"
+      },
+      "status": "ready",
+      "entry": "character-network.json",
+      "help": "../../../explorers/character_network_explained.html"
+    },
+    {
+      "id": "timeline",
+      "renderer": "timeline",
+      "label": {
+        "ru": "Хронология",
+        "en": "Timeline"
+      },
+      "status": "planned"
+    }
+  ],
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "title": "Воскресение",
+  "language": "ru",
+  "vad_dimensions": [
+    "V",
+    "A",
+    "D"
+  ],
+  "sentence_numbering": "one-based within logical chapter",
+  "timeline_indexing": "zero-based across the complete novel",
+  "files": {
+    "characters": "emo-characters.json",
+    "chapters": "chapters.json",
+    "clusters": "clusters.json",
+    "novel_chapter_template": "novel/{chapter_id}.json",
+    "fragment_template": "fragments/{character_id}/{chapter_id}.json",
+    "profile_template": "profiles/{character_id}.json"
+  },
+  "emotion_model": {
+    "id": "plutchik-vad-gaussian-v1",
+    "path": "../../models/plutchik-vad-gaussian-v1.json",
+    "sha256": "64af2d12a8d822817b7bfdbae105919d08a9ee86d16aef54e55ad6d2bc5f6eb4"
+  },
+  "counts": {
+    "logical_chapters": 129,
+    "source_sections": 129,
+    "sentences": 9446
+  }
+}

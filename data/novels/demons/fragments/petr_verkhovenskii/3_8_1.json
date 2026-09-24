@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "petr_verkhovenskii",
+  "chapter_id": "3_8_1",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "petr_verkhovenskii::chapter_03_08_01_0004",
+      "source_section": "chapter_03_08_01",
+      "source_sentence": 114,
+      "character_position": 249,
+      "text": "при совершенном незнании действительности, при страшной отвлечённости, при уродливом и тупом развитии в одну сторону, с чрезвычайным происходящим от того легкомыслием",
+      "vad": [
+        -0.85,
+        0.25,
+        -0.45
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.4161834825359292,
+      "warning": null,
+      "chapter_sentence_start": 114,
+      "chapter_sentence_end": 114,
+      "timeline_start_index": 14960,
+      "timeline_end_index": 14960,
+      "highlights": [
+        {
+          "chapter_sentence": 114,
+          "start": 61,
+          "end": 227
+        }
+      ]
+    }
+  ]
+}

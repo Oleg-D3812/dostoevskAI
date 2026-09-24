@@ -51,6 +51,7 @@
   h1.title{margin:0; font-size:clamp(30px,6vw,46px); letter-spacing:-.02em; line-height:1.06; max-width:16ch;}
   p.lede{max-width:56ch; margin:16px 0 0; color:var(--muted); font-size:16px; line-height:1.6;}
   .back{display:inline-block; margin-bottom:18px; font-size:12px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); text-decoration:none;}
+  .back[hidden]{display:none;}
   .back:hover{color:var(--text);}
 
   nav.steps{
@@ -366,6 +367,13 @@
 <script>
 (function(){
   "use strict";
+
+  // Opened inside novel.html's help overlay (iframe): the overlay's own close
+  // button/Escape/backdrop already handle "go back", so a link that would
+  // navigate the iframe itself to novel.html is just confusing — hide it.
+  if (window.self !== window.top) {
+    document.getElementById('back-link').hidden = true;
+  }
 
   var novelId = new URLSearchParams(window.location.search).get('novel') || 'demons';
   AtlasData.loadNovelContext(novelId, { catalogUrl: '../data/catalog.json' }).then(function(context){

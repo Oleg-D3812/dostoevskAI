@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "petr_verkhovenskii",
+  "chapter_id": "2_6_1",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "petr_verkhovenskii::chapter_02_06_01_0001",
+      "source_section": "chapter_02_06_01",
+      "source_sentence": 38,
+      "character_position": 64,
+      "text": "ей преданным до обожания",
+      "vad": [
+        0.8,
+        0.4,
+        0.5
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.3006153518602776,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 7297,
+      "timeline_end_index": 7297,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 91,
+          "end": 115
+        }
+      ]
+    }
+  ]
+}

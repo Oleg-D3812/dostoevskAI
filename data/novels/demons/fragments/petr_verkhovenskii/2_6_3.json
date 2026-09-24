@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "petr_verkhovenskii",
+  "chapter_id": "2_6_3",
+  "count": 8,
+  "fragments": [
+    {
+      "id": "petr_verkhovenskii::chapter_02_06_03_0003",
+      "source_section": "chapter_02_06_03",
+      "source_sentence": 73,
+      "character_position": 66,
+      "text": "с грубым сарказмом и в нетерпении оборвал он вдруг речь",
+      "vad": [
+        -0.8,
+        0.8,
+        0.75
+      ],
+      "cluster_id": "petr_verkhovenskii-4",
+      "distance_to_centroid": 0.4514136107096065,
+      "warning": null,
+      "chapter_sentence_start": 73,
+      "chapter_sentence_end": 73,
+      "timeline_start_index": 7468,
+      "timeline_end_index": 7468,
+      "highlights": [
+        {
+          "chapter_sentence": 73,
+          "start": 2,
+          "end": 57
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_06_03_0004",
+      "source_section": "chapter_02_06_03",
+      "source_sentence": 74,
+      "character_position": 67,
+      "text": "от избытка гуманных чувств и излишней, может быть, щекотливости",
+      "vad": [
+        0.4,
+        0.15,
+        -0.1
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.5377545300615,
+      "warning": null,
+      "chapter_sentence_start": 74,
+      "chapter_sentence_end": 74,
+      "timeline_start_index": 7469,
+      "timeline_end_index": 7469,
+      "highlights": [
+        {
+          "chapter_sentence": 74,
+          "start": 73,
+          "end": 136
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_06_03_0006",
+      "source_section": "chapter_02_06_03",
+      "source_sentence": 92,
+      "character_position": 68,
+      "text": "выходил из себя",
+      "vad": [
+        -0.75,
+        0.85,
+        -0.35
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.2807850959062865,
+      "warning": null,
+      "chapter_sentence_start": 92,
+      "chapter_sentence_end": 92,
+      "timeline_start_index": 7487,
+      "timeline_end_index": 7487,
+      "highlights": [
+        {
+          "chapter_sentence": 92,
+          "start": 75,
+          "end": 90
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_06_03_0007",
+      "source_section": "chapter_02_06_03",
+      "source_sentence": 107,
+      "character_position": 69,
+      "text": "с видом окончательно выведенного из терпения человека",
+      "vad": [
+        -0.8,
+        0.75,
+        0.45
+      ],
+      "cluster_id": "petr_verkhovenskii-4",
+      "distance_to_centroid": 0.1899322193149024,
+      "warning": null,
+      "chapter_sentence_start": 107,
+      "chapter_sentence_end": 107,
+      "timeline_start_index": 7502,
+      "timeline_end_index": 7502,
+      "highlights": [
+        {
+          "chapter_sentence": 107,
+          "start": 17,
+          "end": 70
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_06_03_0008",
+      "source_section": "chapter_02_06_03",
+      "source_sentence": 121,
+      "character_position": 70,
+      "text": "что досадно",
+      "vad": [
+        -0.35,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.4154657694149489,
+      "warning": null,
+      "chapter_sentence_start": 121,
+      "chapter_sentence_end": 121,
+      "timeline_start_index": 7516,
+      "timeline_end_index": 7516,
+      "highlights": [
+        {
+          "chapter_sentence": 121,
+          "start": 5,
+          "end": 16
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_06_03_0009",
+      "source_section": "chapter_02_06_03",
+      "source_sentence": 180,
+      "character_position": 71,
+      "text": "я слишком ценю её дружбу, и высоко уважаю",
+      "vad": [
+        0.7,
+        -0.1,
+        0.0
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.637768688568909,
+      "warning": null,
+      "chapter_sentence_start": 180,
+      "chapter_sentence_end": 180,
+      "timeline_start_index": 7575,
+      "timeline_end_index": 7575,
+      "highlights": [
+        {
+          "chapter_sentence": 180,
+          "start": 10,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_06_03_0011",
+      "source_section": "chapter_02_06_03",
+      "source_sentence": 226,
+      "character_position": 72,
+      "text": "весело и легкомысленно",
+      "vad": [
+        0.65,
+        0.35,
+        0.2
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.1963650807717407,
+      "warning": null,
+      "chapter_sentence_start": 226,
+      "chapter_sentence_end": 226,
+      "timeline_start_index": 7621,
+      "timeline_end_index": 7621,
+      "highlights": [
+        {
+          "chapter_sentence": 226,
+          "start": 2,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_06_03_0012",
+      "source_section": "chapter_02_06_03",
+      "source_sentence": 248,
+      "character_position": 73,
+      "text": "к крайней досаде своей",
+      "vad": [
+        -0.72,
+        0.32,
+        0.0
+      ],
+      "cluster_id": "petr_verkhovenskii-4",
+      "distance_to_centroid": 0.4856875845150524,
+      "warning": null,
+      "chapter_sentence_start": 248,
+      "chapter_sentence_end": 248,
+      "timeline_start_index": 7643,
+      "timeline_end_index": 7643,
+      "highlights": [
+        {
+          "chapter_sentence": 248,
+          "start": 16,
+          "end": 38
+        }
+      ]
+    }
+  ]
+}

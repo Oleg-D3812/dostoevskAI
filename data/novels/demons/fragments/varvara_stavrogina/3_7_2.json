@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "3_7_2",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_03_07_02_0001",
+      "source_section": "chapter_03_07_02",
+      "source_sentence": 115,
+      "character_position": 260,
+      "text": "Брюнетка, заметив наконец любовь блондинки к Степану Трофимовичу, заключилась сама в себя.",
+      "vad": [
+        -0.45,
+        -0.35,
+        -0.2
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.8596725301615334,
+      "warning": null,
+      "chapter_sentence_start": 115,
+      "chapter_sentence_end": 115,
+      "timeline_start_index": 14445,
+      "timeline_end_index": 14445,
+      "highlights": [
+        {
+          "chapter_sentence": 115,
+          "start": 0,
+          "end": 90
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_07_02_0002",
+      "source_section": "chapter_03_07_02",
+      "source_sentence": 117,
+      "character_position": 261,
+      "text": "И все трое, изнемогая от взаимного великодушия, промолчали таким образом двадцать лет, заключившись сами в себя.",
+      "vad": [
+        -0.55,
+        -0.45,
+        -0.35
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.9181016778603738,
+      "warning": null,
+      "chapter_sentence_start": 117,
+      "chapter_sentence_end": 117,
+      "timeline_start_index": 14447,
+      "timeline_end_index": 14447,
+      "highlights": [
+        {
+          "chapter_sentence": 117,
+          "start": 0,
+          "end": 112
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_03_07_02_0003",
+      "source_section": "chapter_03_07_02",
+      "source_sentence": 119,
+      "character_position": 262,
+      "text": "Я видел полный расцвет красоты её (брюнетки), видел «с нарывом в сердце» ежедневно, как она проходила мимо меня, как бы стыдясь красоты своей.",
+      "vad": [
+        -0.75,
+        0.6,
+        -0.35
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.1889949790470304,
+      "warning": "non_verbatim_evidence",
+      "chapter_sentence_start": 119,
+      "chapter_sentence_end": 119,
+      "timeline_start_index": 14449,
+      "timeline_end_index": 14449,
+      "highlights": [
+        {
+          "chapter_sentence": 119,
+          "start": 0,
+          "end": 142
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "stepan_verkhovenskii",
+  "chapter_id": "1_5_5",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "stepan_verkhovenskii::chapter_01_05_05_0001",
+      "source_section": "chapter_01_05_05",
+      "source_sentence": 37,
+      "character_position": 291,
+      "text": "мгновенно выходя из оцепенения",
+      "vad": [
+        0.1,
+        0.65,
+        0.25
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.5475109465880247,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 3677,
+      "timeline_end_index": 3677,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 30,
+          "end": 60
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_05_05_0002",
+      "source_section": "chapter_01_05_05",
+      "source_sentence": 41,
+      "character_position": 292,
+      "text": "Я всегда, всегда был виноват пред тобой!",
+      "vad": [
+        -0.8,
+        0.3,
+        -0.6
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.311807500163147,
+      "warning": null,
+      "chapter_sentence_start": 41,
+      "chapter_sentence_end": 41,
+      "timeline_start_index": 3681,
+      "timeline_end_index": 3681,
+      "highlights": [
+        {
+          "chapter_sentence": 41,
+          "start": 2,
+          "end": 42
+        }
+      ]
+    }
+  ]
+}

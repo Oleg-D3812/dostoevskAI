@@ -1,0 +1,451 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "stepan_verkhovenskii",
+  "chapter_id": "1_3_7",
+  "count": 17,
+  "fragments": [
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_07_0001",
+      "source_section": "chapter_01_03_07",
+      "source_sentence": 1,
+      "character_position": 233,
+      "text": "постоял с минуту в раздумьи",
+      "vad": [
+        -0.1,
+        0.1,
+        -0.1
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.3162913456005509,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 1945,
+      "timeline_end_index": 1945,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 18,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_07_0002",
+      "source_section": "chapter_01_03_07",
+      "source_sentence": 13,
+      "character_position": 234,
+      "text": "по бабьему малодушию своему",
+      "vad": [
+        -0.7,
+        -0.2,
+        -0.8
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.831283366391492,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 1957,
+      "timeline_end_index": 1957,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 53,
+          "end": 80
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_07_0003",
+      "source_section": "chapter_01_03_07",
+      "source_sentence": 13,
+      "character_position": 235,
+      "text": "его подозрения",
+      "vad": [
+        -0.6,
+        0.4,
+        -0.3
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.2952744770361754,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 1957,
+      "timeline_end_index": 1957,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 194,
+          "end": 208
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_07_0005",
+      "source_section": "chapter_01_03_07",
+      "source_sentence": 6,
+      "character_position": 236,
+      "text": "С жалкою и потерянною улыбкой, — улыбкой стыда и совершенного отчаяния, и в то же время какого-то странного восторга",
+      "vad": [
+        -0.65,
+        0.78,
+        -0.68
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.2634750844197994,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 1950,
+      "timeline_end_index": 1950,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 0,
+          "end": 116
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_07_0006",
+      "source_section": "chapter_01_03_07",
+      "source_sentence": 18,
+      "character_position": 237,
+      "text": "О, кто меня успокоит!",
+      "vad": [
+        -0.8,
+        0.75,
+        -0.65
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.2417546677357297,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 1962,
+      "timeline_end_index": 1962,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 0,
+          "end": 21
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_07_0007",
+      "source_section": "chapter_01_03_07",
+      "source_sentence": 31,
+      "character_position": 238,
+      "text": "благоговейно поцеловал её",
+      "vad": [
+        0.8,
+        0.45,
+        -0.35
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.5881551751153853,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 1975,
+      "timeline_end_index": 1975,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 56,
+          "end": 81
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_07_0008",
+      "source_section": "chapter_01_03_07",
+      "source_sentence": 32,
+      "character_position": 239,
+      "text": "глядел на неё как бы с молитвой",
+      "vad": [
+        0.75,
+        0.35,
+        -0.45
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.6639444204662368,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 1976,
+      "timeline_end_index": 1976,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 3,
+          "end": 34
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_07_0009",
+      "source_section": "chapter_01_03_07",
+      "source_sentence": 34,
+      "character_position": 240,
+      "text": "он в восторге, что видит меня!",
+      "vad": [
+        0.9,
+        0.75,
+        0.0
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.5242142794072229,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 1978,
+      "timeline_end_index": 1978,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 21,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_07_0010",
+      "source_section": "chapter_01_03_07",
+      "source_sentence": 46,
+      "character_position": 241,
+      "text": "лепетал он теперь обрывавшимся от радости голосом",
+      "vad": [
+        0.9,
+        0.8,
+        -0.2
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.6554738244014334,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 1990,
+      "timeline_end_index": 1990,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 2,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_07_0011",
+      "source_section": "chapter_01_03_07",
+      "source_sentence": 58,
+      "character_position": 242,
+      "text": "вы опять несчастны",
+      "vad": [
+        -0.8,
+        0.2,
+        -0.5
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.3950602810269285,
+      "warning": null,
+      "chapter_sentence_start": 58,
+      "chapter_sentence_end": 58,
+      "timeline_start_index": 2002,
+      "timeline_end_index": 2002,
+      "highlights": [
+        {
+          "chapter_sentence": 58,
+          "start": 44,
+          "end": 62
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_07_0012",
+      "source_section": "chapter_01_03_07",
+      "source_sentence": 59,
+      "character_position": 243,
+      "text": "Несчастны, ведь так?",
+      "vad": [
+        -0.7,
+        0.2,
+        -0.3
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.436438460386016,
+      "warning": null,
+      "chapter_sentence_start": 59,
+      "chapter_sentence_end": 59,
+      "timeline_start_index": 2003,
+      "timeline_end_index": 2003,
+      "highlights": [
+        {
+          "chapter_sentence": 59,
+          "start": 0,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_07_0013",
+      "source_section": "chapter_01_03_07",
+      "source_sentence": 61,
+      "character_position": 244,
+      "text": "Теперь счастлив…",
+      "vad": [
+        0.9,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.4321336131976975,
+      "warning": null,
+      "chapter_sentence_start": 61,
+      "chapter_sentence_end": 61,
+      "timeline_start_index": 2005,
+      "timeline_end_index": 2005,
+      "highlights": [
+        {
+          "chapter_sentence": 61,
+          "start": 2,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_07_0015",
+      "source_section": "chapter_01_03_07",
+      "source_sentence": 79,
+      "character_position": 245,
+      "text": "enfin une minute de bonheur!",
+      "vad": [
+        0.85,
+        0.55,
+        0.1
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.3329158825216263,
+      "warning": null,
+      "chapter_sentence_start": 79,
+      "chapter_sentence_end": 79,
+      "timeline_start_index": 2023,
+      "timeline_end_index": 2023,
+      "highlights": [
+        {
+          "chapter_sentence": 79,
+          "start": 18,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_07_0016",
+      "source_section": "chapter_01_03_07",
+      "source_sentence": 80,
+      "character_position": 246,
+      "text": "Vous et le bonheur, vous arrivez en même temps!",
+      "vad": [
+        0.9,
+        0.8,
+        0.1
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.5347007829442524,
+      "warning": null,
+      "chapter_sentence_start": 80,
+      "chapter_sentence_end": 80,
+      "timeline_start_index": 2024,
+      "timeline_end_index": 2024,
+      "highlights": [
+        {
+          "chapter_sentence": 80,
+          "start": 2,
+          "end": 49
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_07_0017",
+      "source_section": "chapter_01_03_07",
+      "source_sentence": 138,
+      "character_position": 247,
+      "text": "тотчас же испугался",
+      "vad": [
+        -0.75,
+        0.8,
+        -0.45
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.2352958532575633,
+      "warning": null,
+      "chapter_sentence_start": 138,
+      "chapter_sentence_end": 138,
+      "timeline_start_index": 2082,
+      "timeline_end_index": 2082,
+      "highlights": [
+        {
+          "chapter_sentence": 138,
+          "start": 18,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_07_0018",
+      "source_section": "chapter_01_03_07",
+      "source_sentence": 156,
+      "character_position": 248,
+      "text": "j’étais si nerveux et malade",
+      "vad": [
+        -0.7,
+        0.8,
+        -0.4
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.2473600953852237,
+      "warning": null,
+      "chapter_sentence_start": 156,
+      "chapter_sentence_end": 156,
+      "timeline_start_index": 2100,
+      "timeline_end_index": 2100,
+      "highlights": [
+        {
+          "chapter_sentence": 156,
+          "start": 71,
+          "end": 99
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_07_0019",
+      "source_section": "chapter_01_03_07",
+      "source_sentence": 186,
+      "character_position": 249,
+      "text": "О, я слишком, слишком виноват пред вами и… пред всеми, пред всеми.",
+      "vad": [
+        -0.85,
+        0.7,
+        -0.55
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.199516773701484,
+      "warning": null,
+      "chapter_sentence_start": 186,
+      "chapter_sentence_end": 186,
+      "timeline_start_index": 2130,
+      "timeline_end_index": 2130,
+      "highlights": [
+        {
+          "chapter_sentence": 186,
+          "start": 0,
+          "end": 66
+        }
+      ]
+    }
+  ]
+}

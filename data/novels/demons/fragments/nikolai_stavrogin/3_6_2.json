@@ -3,21 +3,21 @@
   "novel_id": "demons",
   "character_id": "nikolai_stavrogin",
   "chapter_id": "3_6_2",
-  "count": 1,
+  "count": 2,
   "fragments": [
     {
       "id": "nikolai_stavrogin::chapter_03_06_02_0001",
       "source_section": "chapter_03_06_02",
       "source_sentence": 200,
-      "character_position": 331,
+      "character_position": 280,
       "text": "Ставрогина тоже съела идея",
       "vad": [
-        -0.45,
-        0.25,
-        -0.2
+        -0.3,
+        0.35,
+        -0.4
       ],
-      "cluster_id": "nikolai_stavrogin-1",
-      "distance_to_centroid": 0.4062080623317121,
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.3739037342517746,
       "warning": null,
       "chapter_sentence_start": 200,
       "chapter_sentence_end": 200,
@@ -28,6 +28,37 @@
           "chapter_sentence": 200,
           "start": 2,
           "end": 28
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_03_06_02_0002",
+      "source_section": "chapter_03_06_02",
+      "source_sentence": 204,
+      "character_position": 281,
+      "text": "Ставрогин если верует, то не верует, что он верует. Если же не верует, то не верует, что он не верует.",
+      "vad": [
+        -0.2,
+        0.05,
+        -0.15
+      ],
+      "cluster_id": "nikolai_stavrogin-1",
+      "distance_to_centroid": 0.4083511322248892,
+      "warning": null,
+      "chapter_sentence_start": 204,
+      "chapter_sentence_end": 205,
+      "timeline_start_index": 13659,
+      "timeline_end_index": 13660,
+      "highlights": [
+        {
+          "chapter_sentence": 204,
+          "start": 21,
+          "end": 73
+        },
+        {
+          "chapter_sentence": 205,
+          "start": 0,
+          "end": 50
         }
       ]
     }

@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "stepan_verkhovenskii",
+  "chapter_id": "1_1_6",
+  "count": 7,
+  "fragments": [
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_06_0001",
+      "source_section": "chapter_01_01_06",
+      "source_sentence": 25,
+      "character_position": 64,
+      "text": "всё своё упоение",
+      "vad": [
+        0.8,
+        0.7,
+        0.1
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.3973725296006211,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 256,
+      "timeline_end_index": 256,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 139,
+          "end": 155
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_06_0002",
+      "source_section": "chapter_01_01_06",
+      "source_sentence": 25,
+      "character_position": 65,
+      "text": "без ощущения обиды",
+      "vad": [
+        0.2,
+        -0.4,
+        0.1
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.7588525606241701,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 256,
+      "timeline_end_index": 256,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 253,
+          "end": 271
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_06_0003",
+      "source_section": "chapter_01_01_06",
+      "source_sentence": 29,
+      "character_position": 66,
+      "text": "в горькие минуты",
+      "vad": [
+        -0.7,
+        0.2,
+        -0.2
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.3831427739582821,
+      "warning": null,
+      "chapter_sentence_start": 29,
+      "chapter_sentence_end": 29,
+      "timeline_start_index": 260,
+      "timeline_end_index": 260,
+      "highlights": [
+        {
+          "chapter_sentence": 29,
+          "start": 37,
+          "end": 53
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_06_0004",
+      "source_section": "chapter_01_01_06",
+      "source_sentence": 45,
+      "character_position": 67,
+      "text": "не выдержал",
+      "vad": [
+        -0.75,
+        0.65,
+        -0.7
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.206389464084115,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 276,
+      "timeline_end_index": 276,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 3,
+          "end": 14
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_06_0005",
+      "source_section": "chapter_01_01_06",
+      "source_sentence": 59,
+      "character_position": 68,
+      "text": "как одурелые",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.7
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.2316448607507501,
+      "warning": null,
+      "chapter_sentence_start": 59,
+      "chapter_sentence_end": 59,
+      "timeline_start_index": 290,
+      "timeline_end_index": 290,
+      "highlights": [
+        {
+          "chapter_sentence": 59,
+          "start": 13,
+          "end": 25
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_06_0006",
+      "source_section": "chapter_01_01_06",
+      "source_sentence": 60,
+      "character_position": 69,
+      "text": "опомнился",
+      "vad": [
+        0.1,
+        0.2,
+        0.4
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.5515757994446415,
+      "warning": null,
+      "chapter_sentence_start": 60,
+      "chapter_sentence_end": 60,
+      "timeline_start_index": 291,
+      "timeline_end_index": 291,
+      "highlights": [
+        {
+          "chapter_sentence": 60,
+          "start": 16,
+          "end": 25
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_06_0007",
+      "source_section": "chapter_01_01_06",
+      "source_sentence": 66,
+      "character_position": 70,
+      "text": "Я не узнаю ничего…",
+      "vad": [
+        -0.55,
+        0.15,
+        -0.65
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.4740155132755546,
+      "warning": null,
+      "chapter_sentence_start": 66,
+      "chapter_sentence_end": 66,
+      "timeline_start_index": 297,
+      "timeline_end_index": 297,
+      "highlights": [
+        {
+          "chapter_sentence": 66,
+          "start": 0,
+          "end": 18
+        }
+      ]
+    }
+  ]
+}

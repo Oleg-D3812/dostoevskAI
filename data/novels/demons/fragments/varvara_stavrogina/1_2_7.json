@@ -3,21 +3,47 @@
   "novel_id": "demons",
   "character_id": "varvara_stavrogina",
   "chapter_id": "1_2_7",
-  "count": 4,
+  "count": 9,
   "fragments": [
     {
       "id": "varvara_stavrogina::chapter_01_02_07_0001",
       "source_section": "chapter_01_02_07",
+      "source_sentence": 1,
+      "character_position": 95,
+      "text": "считала себя её благодетельницей",
+      "vad": [
+        0.45,
+        0.05,
+        0.65
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.4453601267229897,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 1164,
+      "timeline_end_index": 1164,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 70,
+          "end": 102
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_07_0002",
+      "source_section": "chapter_01_02_07",
       "source_sentence": 2,
-      "character_position": 78,
+      "character_position": 96,
       "text": "Самое благородное и безупречное негодование загорелось в душе её",
       "vad": [
         -0.75,
-        0.8,
-        0.35
+        0.82,
+        0.4
       ],
       "cluster_id": "varvara_stavrogina-3",
-      "distance_to_centroid": 0.4004485011304363,
+      "distance_to_centroid": 0.444736677276798,
       "warning": null,
       "chapter_sentence_start": 2,
       "chapter_sentence_end": 2,
@@ -32,18 +58,44 @@
       ]
     },
     {
-      "id": "varvara_stavrogina::chapter_01_02_07_0002",
+      "id": "varvara_stavrogina::chapter_01_02_07_0003",
+      "source_section": "chapter_01_02_07",
+      "source_sentence": 3,
+      "character_position": 97,
+      "text": "Она искренно любила её",
+      "vad": [
+        0.85,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.4250587144941274,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 1166,
+      "timeline_end_index": 1166,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 0,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_07_0004",
       "source_section": "chapter_01_02_07",
       "source_sentence": 7,
-      "character_position": 79,
-      "text": "она имела свойство привязываться упрямо и страстно к каждой пленившей её мечте, к каждому своему новому предначертанию, к каждой мысли своей, показавшейся ей светлою",
+      "character_position": 98,
+      "text": "имела свойство привязываться упрямо и страстно к каждой пленившей её мечте, к каждому своему новому предначертанию, к каждой мысли своей, показавшейся ей светлою",
       "vad": [
+        0.55,
         0.72,
-        0.68,
-        0.34
+        0.28
       ],
-      "cluster_id": "varvara_stavrogina-1",
-      "distance_to_centroid": 0.4150437891822687,
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.5200415401199475,
       "warning": null,
       "chapter_sentence_start": 7,
       "chapter_sentence_end": 7,
@@ -52,24 +104,76 @@
       "highlights": [
         {
           "chapter_sentence": 7,
-          "start": 109,
+          "start": 113,
           "end": 274
         }
       ]
     },
     {
-      "id": "varvara_stavrogina::chapter_01_02_07_0004",
+      "id": "varvara_stavrogina::chapter_01_02_07_0005",
+      "source_section": "chapter_01_02_07",
+      "source_sentence": 43,
+      "character_position": 99,
+      "text": "я рада",
+      "vad": [
+        0.7,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.3437657789358915,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 1206,
+      "timeline_end_index": 1206,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 11,
+          "end": 17
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_07_0006",
+      "source_section": "chapter_01_02_07",
+      "source_sentence": 87,
+      "character_position": 100,
+      "text": "Эта счастливая мысль мне ещё в Швейцарии приходила",
+      "vad": [
+        0.65,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.3129393045438298,
+      "warning": null,
+      "chapter_sentence_start": 87,
+      "chapter_sentence_end": 87,
+      "timeline_start_index": 1250,
+      "timeline_end_index": 1250,
+      "highlights": [
+        {
+          "chapter_sentence": 87,
+          "start": 0,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_07_0007",
       "source_section": "chapter_01_02_07",
       "source_sentence": 89,
-      "character_position": 80,
+      "character_position": 101,
       "text": "вдруг яростно вскричала она",
       "vad": [
-        -0.86,
-        0.96,
-        0.52
+        -0.8,
+        0.9,
+        0.5
       ],
       "cluster_id": "varvara_stavrogina-3",
-      "distance_to_centroid": 0.6299336548121717,
+      "distance_to_centroid": 0.561961793134367,
       "warning": null,
       "chapter_sentence_start": 89,
       "chapter_sentence_end": 89,
@@ -84,28 +188,54 @@
       ]
     },
     {
-      "id": "varvara_stavrogina::chapter_01_02_07_0005",
+      "id": "varvara_stavrogina::chapter_01_02_07_0008",
       "source_section": "chapter_01_02_07",
-      "source_sentence": 100,
-      "character_position": 81,
-      "text": "я спокойна",
+      "source_sentence": 119,
+      "character_position": 102,
+      "text": "ядовито прошипела Варвара Петровна",
       "vad": [
-        0.2,
-        -0.6,
-        0.4
+        -0.8,
+        0.75,
+        0.7
       ],
-      "cluster_id": "varvara_stavrogina-1",
-      "distance_to_centroid": 0.9922895191404162,
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.5595892577619436,
       "warning": null,
-      "chapter_sentence_start": 100,
-      "chapter_sentence_end": 100,
-      "timeline_start_index": 1263,
-      "timeline_end_index": 1263,
+      "chapter_sentence_start": 119,
+      "chapter_sentence_end": 119,
+      "timeline_start_index": 1282,
+      "timeline_end_index": 1282,
       "highlights": [
         {
-          "chapter_sentence": 100,
+          "chapter_sentence": 119,
+          "start": 78,
+          "end": 112
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_07_0009",
+      "source_section": "chapter_01_02_07",
+      "source_sentence": 121,
+      "character_position": 103,
+      "text": "презрительно процедила она",
+      "vad": [
+        -0.7,
+        0.45,
+        0.75
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.4629700712009906,
+      "warning": null,
+      "chapter_sentence_start": 121,
+      "chapter_sentence_end": 121,
+      "timeline_start_index": 1284,
+      "timeline_end_index": 1284,
+      "highlights": [
+        {
+          "chapter_sentence": 121,
           "start": 26,
-          "end": 36
+          "end": 52
         }
       ]
     }

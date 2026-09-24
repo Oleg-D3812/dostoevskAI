@@ -74,8 +74,40 @@
     var url = new URL(AtlasData.resolveRelative(pageContext.manifestUrl, feature.help));
     url.searchParams.set("novel", pageContext.novel.id);
     link.href = url.toString();
+    link.dataset.helpTitle = AtlasData.localized(feature.label);
     link.hidden = false;
   }
+
+  // Help pops up in an overlay (like the chapter reader) instead of navigating
+  // away; Ctrl/Cmd/Shift-click and middle-click still open it as a real link.
+  (function initHelpOverlay() {
+    var link = document.getElementById("helpLink");
+    var overlay = document.getElementById("helpOverlay");
+    if (!link || !overlay) return;
+    var frame = document.getElementById("helpFrame");
+    var titleEl = document.getElementById("helpModalTitle");
+    var newTabLink = document.getElementById("helpOpenNewTab");
+
+    function openHelp() {
+      titleEl.textContent = "Помощь — " + (link.dataset.helpTitle || "");
+      newTabLink.href = link.href;
+      frame.src = link.href;
+      overlay.hidden = false;
+    }
+    function closeHelp() {
+      overlay.hidden = true;
+      frame.src = "about:blank";
+    }
+
+    link.addEventListener("click", function(e) {
+      if (e.ctrlKey || e.metaKey || e.shiftKey) return;
+      e.preventDefault();
+      openHelp();
+    });
+    document.getElementById("helpCloseBtn").addEventListener("click", closeHelp);
+    overlay.addEventListener("click", function(e) { if (e.target === overlay) closeHelp(); });
+    document.addEventListener("keydown", function(e) { if (e.key === "Escape" && !overlay.hidden) closeHelp(); });
+  })();
 
   function loadGraph(context) {
     context.panel.classList.add("graph-panel");
@@ -88,7 +120,7 @@
       }
       context.panel.appendChild(container); container.innerHTML = "";
       var nodesData = (data.nodes || []).map(function(n) {
-        return { id: n.id, label: n.label, graphLabel: shortPersonName(n.label), desc: n.desc };
+        return { id: n.id, label: n.label, graphLabel: n.short_label || n.label, desc: n.desc };
       });
       initGraph(container, nodesData, data.edges || [], function(node) { showModal(node.label, "герой", node.desc); },
         function(edge, fromNode, toNode) { var title = (fromNode ? fromNode.label : edge.from) + " → " + (toNode ? toNode.label : edge.to); showModal(title, "связь", (edge.label || "") + "\n\n" + (edge.desc || "")); });
@@ -166,25 +198,50 @@
 
     var nodesData = (data.nodes || []).map(function(n) {
       var label = n.label || n.id;
-      return { id: n.id, label: label, graphLabel: shortPersonName(label), desc: n.desc || "", intro_chapter: n.intro_chapter };
+      return { id: n.id, label: label, graphLabel: n.short_label || label, desc: n.desc || "", intro_chapter: n.intro_chapter };
     });
     var nameById = {};
     nodesData.forEach(function(n) { nameById[n.id] = n.label; });
 
-    // Importance tier (character-network.json nodes[].importance.tier) — only
-    // present once the pipeline has computed it; the filter row below stays
-    // hidden when a novel doesn't have tier data yet, or has just one tier.
+    // Importance filters (character-network.json nodes[].importance.tier and
+    // nodes[].core) — independent groupings; the user picks ONE dimension to
+    // filter by (a picker row appears only when 2+ dimensions are available),
+    // and within it any number of values stay toggled on/off (OR). A novel
+    // with neither field yet, or with a field that only has one value, gets
+    // no filter UI at all — same "not there yet" degradation as chapters.json.
     var TIER_LABELS = { main: "Главные", secondary: "Второстепенные", minor: "Малозначительные" };
     var TIER_ORDER = ["main", "secondary", "minor"];
-    var tierByNodeId = {};
-    (data.nodes || []).forEach(function(n) {
-      var tier = n.importance && n.importance.tier;
-      if (tier) tierByNodeId[n.id] = tier;
-    });
-    var tiersSeen = {};
-    Object.keys(tierByNodeId).forEach(function(id) { tiersSeen[tierByNodeId[id]] = true; });
-    var tiersPresent = TIER_ORDER.filter(function(t) { return tiersSeen[t]; })
-      .concat(Object.keys(tiersSeen).filter(function(t) { return TIER_ORDER.indexOf(t) < 0; }).sort());
+
+    // `order` names an explicit sequence (falls back to sorted leftovers);
+    // `sortNumericDesc` sorts any leftovers as numbers, highest first —
+    // used for core, so "Уровень-4" (most important) leads, matching the
+    // main-before-secondary convention tier already uses.
+    function buildImportanceDimension(id, label, valueOf, labelOf, order, sortNumericDesc) {
+      var byNodeId = {};
+      (data.nodes || []).forEach(function(n) {
+        var v = valueOf(n);
+        if (v !== null && v !== undefined) byNodeId[n.id] = v;
+      });
+      var seen = {};
+      Object.keys(byNodeId).forEach(function(nid) { seen[byNodeId[nid]] = true; });
+      var known = (order || []).filter(function(v) { return seen[v]; });
+      var rest = Object.keys(seen).filter(function(v) { return known.indexOf(v) < 0; });
+      rest.sort(sortNumericDesc ? function(a, b) { return Number(b) - Number(a); } : undefined);
+      var values = known.concat(rest);
+      if (values.length < 2) return null;
+      return { id: id, label: label, byNodeId: byNodeId, values: values, labelOf: labelOf };
+    }
+
+    var importanceDimensions = [
+      buildImportanceDimension("tier", "Уровень",
+        function(n) { return n.importance && n.importance.tier; },
+        function(v) { return TIER_LABELS[v] || (v.charAt(0).toUpperCase() + v.slice(1)); },
+        TIER_ORDER),
+      buildImportanceDimension("core", "Ядро",
+        function(n) { return n.core !== null && n.core !== undefined ? String(n.core) : null; },
+        function(v) { return "Уровень-" + v; },
+        null, true)
+    ].filter(Boolean);
 
     var modes = [{ id: "relations", label: "Отношения", kind: "relations" }].concat(
       (data.interaction_types || []).map(function(t) { return { id: t.id, label: typeLabel[t.id], kind: "type" }; }));
@@ -244,32 +301,73 @@
     clearFilterBtn.addEventListener("click", function() { if (graph) graph.clearFilter(); });
     bar.appendChild(clearFilterBtn);
 
-    var tierBar = null;
-    if (tiersPresent.length > 1) {
-      tierBar = document.createElement("div"); tierBar.className = "graph-tiers";
-      var tierCaption = document.createElement("span"); tierCaption.className = "graph-tiers-label"; tierCaption.textContent = "Уровень:";
-      tierBar.appendChild(tierCaption);
-      var activeTiers = {};
-      tiersPresent.forEach(function(t) { activeTiers[t] = true; });
-      var applyTierFilter = function() {
-        var hidden = Object.keys(tierByNodeId).filter(function(id) { return !activeTiers[tierByNodeId[id]]; });
-        if (graph) graph.setHiddenByFilter(hidden);
-      };
-      tiersPresent.forEach(function(t) {
-        var tierBtn = document.createElement("button");
-        tierBtn.type = "button"; tierBtn.className = "graph-mode-btn active";
-        tierBtn.textContent = TIER_LABELS[t] || (t.charAt(0).toUpperCase() + t.slice(1));
-        tierBtn.addEventListener("click", function() {
-          activeTiers[t] = !activeTiers[t];
-          tierBtn.classList.toggle("active", activeTiers[t]);
-          applyTierFilter();
-        });
-        tierBar.appendChild(tierBtn);
+    // Picker (only when 2+ dimensions exist) + one row of value pills for
+    // whichever dimension is currently picked. Each dimension keeps its own
+    // on/off state across switches, so flipping back to it restores it as
+    // you left it.
+    var importanceBar = null;
+    var showImportanceDimension = null;
+    if (importanceDimensions.length) {
+      importanceBar = document.createElement("div"); importanceBar.className = "graph-tiers";
+
+      var activeByDim = {};
+      importanceDimensions.forEach(function(dim) {
+        var active = {};
+        dim.values.forEach(function(v) { active[v] = true; });
+        activeByDim[dim.id] = active;
       });
+
+      function applyImportanceFilter(dim) {
+        var active = activeByDim[dim.id];
+        var hidden = Object.keys(dim.byNodeId).filter(function(nid) { return !active[dim.byNodeId[nid]]; });
+        if (graph) graph.setHiddenByFilter(hidden);
+      }
+
+      var pickerRow = null;
+      if (importanceDimensions.length > 1) {
+        pickerRow = document.createElement("div"); pickerRow.className = "graph-tiers-picker";
+        importanceDimensions.forEach(function(dim, index) {
+          var pickBtn = document.createElement("button");
+          pickBtn.type = "button"; pickBtn.className = "graph-tiers-picker-btn" + (index === 0 ? " active" : "");
+          pickBtn.textContent = dim.label;
+          pickBtn.addEventListener("click", function() {
+            pickerRow.querySelectorAll(".graph-tiers-picker-btn").forEach(function(x) { x.classList.remove("active"); });
+            pickBtn.classList.add("active");
+            showImportanceDimension(dim.id);
+          });
+          pickerRow.appendChild(pickBtn);
+        });
+      }
+
+      var valuesRow = document.createElement("div"); valuesRow.className = "graph-tiers-values";
+      var valuesCaption = document.createElement("span"); valuesCaption.className = "graph-tiers-label";
+      valuesRow.appendChild(valuesCaption);
+
+      showImportanceDimension = function(dimId) {
+        var dim = importanceDimensions.filter(function(d) { return d.id === dimId; })[0];
+        valuesCaption.textContent = dim.label + ":";
+        valuesRow.querySelectorAll(".graph-mode-btn").forEach(function(x) { x.remove(); });
+        dim.values.forEach(function(v) {
+          var valBtn = document.createElement("button");
+          valBtn.type = "button";
+          valBtn.className = "graph-mode-btn" + (activeByDim[dim.id][v] ? " active" : "");
+          valBtn.textContent = dim.labelOf(v);
+          valBtn.addEventListener("click", function() {
+            activeByDim[dim.id][v] = !activeByDim[dim.id][v];
+            valBtn.classList.toggle("active", activeByDim[dim.id][v]);
+            applyImportanceFilter(dim);
+          });
+          valuesRow.appendChild(valBtn);
+        });
+        applyImportanceFilter(dim);
+      };
+
+      if (pickerRow) importanceBar.appendChild(pickerRow);
+      importanceBar.appendChild(valuesRow);
     }
 
     context.panel.appendChild(bar);
-    if (tierBar) context.panel.appendChild(tierBar);
+    if (importanceBar) context.panel.appendChild(importanceBar);
     context.panel.appendChild(legend);
     context.panel.appendChild(body);
     body.appendChild(container);
@@ -281,6 +379,7 @@
       function(hasFilter) { clearFilterBtn.disabled = !hasFilter; });
     renderLegend(modes[0]);
     renderEmptyDetails();
+    if (importanceDimensions.length) showImportanceDimension(importanceDimensions[0].id);
 
     function renderLegend(mode) {
       if (mode.kind === "relations") {
@@ -560,14 +659,4 @@
   function showPageError(message) { document.getElementById("novelTitle").textContent = "Ошибка загрузки"; document.getElementById("novelMeta").textContent = message; showFeatureMessage(message); }
   function readableLoadError(error) { if (/Unknown novel ID/.test(error.message)) return "Произведение с таким идентификатором отсутствует в каталоге."; if (/HTTP 404/.test(error.message)) return "Не удалось найти манифест произведения."; return "Не удалось загрузить данные произведения: " + error.message; }
   function escapeHtml(value) { var div = document.createElement("div"); div.textContent = value == null ? "" : String(value); return div.innerHTML; }
-
-  // "Родион Романович Раскольников" -> "Р.Р. Раскольников" — graph canvas labels only;
-  // side panels and modals keep the full name from node.label.
-  function shortPersonName(fullName) {
-    var parts = (fullName || "").trim().split(/\s+/);
-    if (parts.length < 2) return fullName;
-    var last = parts.pop();
-    var initials = parts.map(function(p) { return p.charAt(0).toUpperCase() + "."; }).join("");
-    return initials + " " + last;
-  }
 })();

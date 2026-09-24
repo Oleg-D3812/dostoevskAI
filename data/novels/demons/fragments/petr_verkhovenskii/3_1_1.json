@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "petr_verkhovenskii",
+  "chapter_id": "3_1_1",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "petr_verkhovenskii::chapter_03_01_01_0001",
+      "source_section": "chapter_03_01_01",
+      "source_sentence": 17,
+      "character_position": 119,
+      "text": "Петром Степановичем управляла Интернационалка",
+      "vad": [
+        -0.4,
+        0.0,
+        -0.8
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.7433730072970361,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 9924,
+      "timeline_end_index": 9924,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 52,
+          "end": 97
+        }
+      ]
+    }
+  ]
+}

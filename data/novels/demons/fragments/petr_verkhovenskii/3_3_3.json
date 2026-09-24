@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "petr_verkhovenskii",
+  "chapter_id": "3_3_3",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "petr_verkhovenskii::chapter_03_03_03_0001",
+      "source_section": "chapter_03_03_03",
+      "source_sentence": 18,
+      "character_position": 154,
+      "text": "Я так и боялся…",
+      "vad": [
+        -0.7,
+        0.55,
+        -0.45
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.0831027048704595,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 11625,
+      "timeline_end_index": 11625,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 0,
+          "end": 15
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "petr_verkhovenskii",
+  "chapter_id": "2_4_1",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "petr_verkhovenskii::chapter_02_04_01_0001",
+      "source_section": "chapter_02_04_01",
+      "source_sentence": 166,
+      "character_position": 52,
+      "text": "он в это время был как-то особенно зол и даже позволял себе чрезвычайно нетерпеливые выходки чуть не со всеми",
+      "vad": [
+        -0.8,
+        0.8,
+        0.2
+      ],
+      "cluster_id": "petr_verkhovenskii-4",
+      "distance_to_centroid": 0.2325387020129858,
+      "warning": null,
+      "chapter_sentence_start": 166,
+      "chapter_sentence_end": 166,
+      "timeline_start_index": 6394,
+      "timeline_end_index": 6394,
+      "highlights": [
+        {
+          "chapter_sentence": 166,
+          "start": 26,
+          "end": 135
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_04_01_0002",
+      "source_section": "chapter_02_04_01",
+      "source_sentence": 169,
+      "character_position": 53,
+      "text": "с чрезвычайною злобой отнёсся к поединку Николая Всеволодовича",
+      "vad": [
+        -0.9,
+        0.8,
+        0.4
+      ],
+      "cluster_id": "petr_verkhovenskii-4",
+      "distance_to_centroid": 0.2722994219725988,
+      "warning": null,
+      "chapter_sentence_start": 169,
+      "chapter_sentence_end": 169,
+      "timeline_start_index": 6397,
+      "timeline_end_index": 6397,
+      "highlights": [
+        {
+          "chapter_sentence": 169,
+          "start": 15,
+          "end": 77
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_04_01_0003",
+      "source_section": "chapter_02_04_01",
+      "source_sentence": 170,
+      "character_position": 54,
+      "text": "Его это застало врасплох; он даже позеленел",
+      "vad": [
+        -0.75,
+        0.7,
+        -0.5
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.1413683377747921,
+      "warning": null,
+      "chapter_sentence_start": 170,
+      "chapter_sentence_end": 170,
+      "timeline_start_index": 6398,
+      "timeline_end_index": 6398,
+      "highlights": [
+        {
+          "chapter_sentence": 170,
+          "start": 0,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_04_01_0004",
+      "source_section": "chapter_02_04_01",
+      "source_sentence": 176,
+      "character_position": 55,
+      "text": "как-то в рассеянности ухватился за его плечо",
+      "vad": [
+        -0.05,
+        -0.35,
+        -0.2
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.419557471894164,
+      "warning": null,
+      "chapter_sentence_start": 176,
+      "chapter_sentence_end": 176,
+      "timeline_start_index": 6404,
+      "timeline_end_index": 6404,
+      "highlights": [
+        {
+          "chapter_sentence": 176,
+          "start": 87,
+          "end": 131
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "nikolai_stavrogin",
+  "chapter_id": "1_3_5",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "nikolai_stavrogin::chapter_01_03_05_0001",
+      "source_section": "chapter_01_03_05",
+      "source_sentence": 66,
+      "character_position": 42,
+      "text": "помешан ли Николай Всеволодович или в своём уме?",
+      "vad": [
+        -0.35,
+        0.25,
+        -0.3
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.4075087741186223,
+      "warning": null,
+      "chapter_sentence_start": 66,
+      "chapter_sentence_end": 66,
+      "timeline_start_index": 1795,
+      "timeline_end_index": 1795,
+      "highlights": [
+        {
+          "chapter_sentence": 66,
+          "start": 160,
+          "end": 208
+        }
+      ]
+    }
+  ]
+}

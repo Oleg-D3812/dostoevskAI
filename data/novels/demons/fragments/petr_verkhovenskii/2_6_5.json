@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "petr_verkhovenskii",
+  "chapter_id": "2_6_5",
+  "count": 8,
+  "fragments": [
+    {
+      "id": "petr_verkhovenskii::chapter_02_06_05_0001",
+      "source_section": "chapter_02_06_05",
+      "source_sentence": 3,
+      "character_position": 75,
+      "text": "очень заинтересовало его",
+      "vad": [
+        0.5,
+        0.55,
+        0.1
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.291678738213471,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 7773,
+      "timeline_end_index": 7773,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 31,
+          "end": 55
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_06_05_0002",
+      "source_section": "chapter_02_06_05",
+      "source_sentence": 7,
+      "character_position": 76,
+      "text": "молодой человек наконец догадался",
+      "vad": [
+        0.2,
+        0.2,
+        0.3
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.4004617207350517,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 7777,
+      "timeline_end_index": 7777,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 13,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_06_05_0003",
+      "source_section": "chapter_02_06_05",
+      "source_sentence": 8,
+      "character_position": 77,
+      "text": "Настроение мыслей «умнейшего в России человека» интересовало Петра Степановича",
+      "vad": [
+        0.2,
+        0.25,
+        0.0
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.4402974058015281,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 7778,
+      "timeline_end_index": 7778,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 0,
+          "end": 78
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_06_05_0004",
+      "source_section": "chapter_02_06_05",
+      "source_sentence": 28,
+      "character_position": 78,
+      "text": "с спокойным вниманием рассматривая костюм хозяина",
+      "vad": [
+        0.0,
+        0.1,
+        0.1
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.1922111830484607,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 7798,
+      "timeline_end_index": 7798,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 97,
+          "end": 146
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_06_05_0005",
+      "source_section": "chapter_02_06_05",
+      "source_sentence": 68,
+      "character_position": 79,
+      "text": "спокойно отозвался Пётр Степанович",
+      "vad": [
+        0.0,
+        -0.45,
+        0.25
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.3985747176572488,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 7838,
+      "timeline_end_index": 7838,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 19,
+          "end": 53
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_06_05_0006",
+      "source_section": "chapter_02_06_05",
+      "source_sentence": 71,
+      "character_position": 80,
+      "text": "вероятно, понял сейчас всю колкость моей фразы",
+      "vad": [
+        0.1,
+        0.0,
+        0.2
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.2011097682582547,
+      "warning": null,
+      "chapter_sentence_start": 71,
+      "chapter_sentence_end": 71,
+      "timeline_start_index": 7841,
+      "timeline_end_index": 7841,
+      "highlights": [
+        {
+          "chapter_sentence": 71,
+          "start": 124,
+          "end": 170
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_06_05_0007",
+      "source_section": "chapter_02_06_05",
+      "source_sentence": 71,
+      "character_position": 81,
+      "text": "рукопись конечно прочитал с жадностию",
+      "vad": [
+        0.3,
+        0.45,
+        0.1
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.3493451066884749,
+      "warning": null,
+      "chapter_sentence_start": 71,
+      "chapter_sentence_end": 71,
+      "timeline_start_index": 7841,
+      "timeline_end_index": 7841,
+      "highlights": [
+        {
+          "chapter_sentence": 71,
+          "start": 177,
+          "end": 214
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_06_05_0008",
+      "source_section": "chapter_02_06_05",
+      "source_sentence": 163,
+      "character_position": 82,
+      "text": "нам-то в себе нельзя после того сомневаться",
+      "vad": [
+        0.35,
+        0.05,
+        0.65
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.5024326375657935,
+      "warning": null,
+      "chapter_sentence_start": 163,
+      "chapter_sentence_end": 163,
+      "timeline_start_index": 7933,
+      "timeline_end_index": 7933,
+      "highlights": [
+        {
+          "chapter_sentence": 163,
+          "start": 143,
+          "end": 186
+        }
+      ]
+    }
+  ]
+}

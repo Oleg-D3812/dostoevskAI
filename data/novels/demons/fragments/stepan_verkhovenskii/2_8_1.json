@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "stepan_verkhovenskii",
+  "chapter_id": "2_8_1",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "stepan_verkhovenskii::chapter_02_08_01_0012",
+      "source_section": "chapter_02_08_01",
+      "source_sentence": 158,
+      "character_position": 356,
+      "text": "Если этот человек пьян",
+      "vad": [
+        -0.2,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.2070040405841079,
+      "warning": null,
+      "chapter_sentence_start": 158,
+      "chapter_sentence_end": 158,
+      "timeline_start_index": 9055,
+      "timeline_end_index": 9055,
+      "highlights": [
+        {
+          "chapter_sentence": 158,
+          "start": 1,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_02_08_01_0019",
+      "source_section": "chapter_02_08_01",
+      "source_sentence": 320,
+      "character_position": 357,
+      "text": "Не пугайте меня",
+      "vad": [
+        -0.7,
+        0.6,
+        -0.7
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.1873064220889846,
+      "warning": null,
+      "chapter_sentence_start": 320,
+      "chapter_sentence_end": 320,
+      "timeline_start_index": 9217,
+      "timeline_end_index": 9217,
+      "highlights": [
+        {
+          "chapter_sentence": 320,
+          "start": 0,
+          "end": 15
+        }
+      ]
+    }
+  ]
+}

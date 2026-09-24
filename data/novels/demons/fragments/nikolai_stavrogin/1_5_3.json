@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "nikolai_stavrogin",
+  "chapter_id": "1_5_3",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "nikolai_stavrogin::chapter_01_05_03_0001",
+      "source_section": "chapter_01_05_03",
+      "source_sentence": 90,
+      "character_position": 55,
+      "text": "Ему очень хотелось переслать эти деньги",
+      "vad": [
+        0.2,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "nikolai_stavrogin-4",
+      "distance_to_centroid": 0.2162399441612108,
+      "warning": null,
+      "chapter_sentence_start": 90,
+      "chapter_sentence_end": 90,
+      "timeline_start_index": 3387,
+      "timeline_end_index": 3387,
+      "highlights": [
+        {
+          "chapter_sentence": 90,
+          "start": 2,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_01_05_03_0002",
+      "source_section": "chapter_01_05_03",
+      "source_sentence": 136,
+      "character_position": 56,
+      "text": "Николай Всеволодович сошёл с ума",
+      "vad": [
+        -0.85,
+        0.65,
+        -0.7
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.3751133395722091,
+      "warning": null,
+      "chapter_sentence_start": 136,
+      "chapter_sentence_end": 136,
+      "timeline_start_index": 3433,
+      "timeline_end_index": 3433,
+      "highlights": [
+        {
+          "chapter_sentence": 136,
+          "start": 41,
+          "end": 73
+        }
+      ]
+    }
+  ]
+}

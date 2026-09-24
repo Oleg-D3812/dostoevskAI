@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "2_1_1",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_02_01_01_0001",
+      "source_section": "chapter_02_01_01",
+      "source_sentence": 37,
+      "character_position": 202,
+      "text": "выслушала строго и холодно",
+      "vad": [
+        -0.45,
+        -0.2,
+        0.65
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.7250897047478322,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 4213,
+      "timeline_end_index": 4213,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 61,
+          "end": 87
+        }
+      ]
+    }
+  ]
+}

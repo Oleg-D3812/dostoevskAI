@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "stepan_verkhovenskii",
+  "chapter_id": "1_5_2",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "stepan_verkhovenskii::chapter_01_05_02_0001",
+      "source_section": "chapter_01_05_02",
+      "source_sentence": 17,
+      "character_position": 286,
+      "text": "в изнеможении опустился на стул",
+      "vad": [
+        -0.75,
+        -0.65,
+        -0.55
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.9481445690392044,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 3294,
+      "timeline_end_index": 3294,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 69,
+          "end": 100
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_05_02_0002",
+      "source_section": "chapter_01_05_02",
+      "source_sentence": 17,
+      "character_position": 287,
+      "text": "с отчаянием стал ловить мой взгляд",
+      "vad": [
+        -0.9,
+        0.8,
+        -0.8
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.4151809348596179,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 3294,
+      "timeline_end_index": 3294,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 139,
+          "end": 173
+        }
+      ]
+    }
+  ]
+}

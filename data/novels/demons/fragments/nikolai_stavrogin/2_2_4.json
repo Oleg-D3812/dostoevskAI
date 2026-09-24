@@ -3,21 +3,21 @@
   "novel_id": "demons",
   "character_id": "nikolai_stavrogin",
   "chapter_id": "2_2_4",
-  "count": 7,
+  "count": 5,
   "fragments": [
     {
       "id": "nikolai_stavrogin::chapter_02_02_04_0001",
       "source_section": "chapter_02_02_04",
       "source_sentence": 2,
-      "character_position": 223,
+      "character_position": 176,
       "text": "в неутолимой злобе",
       "vad": [
-        -0.85,
-        0.82,
+        -0.95,
+        0.9,
         0.2
       ],
-      "cluster_id": "nikolai_stavrogin-2",
-      "distance_to_centroid": 0.6553633901992495,
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.6268080363810593,
       "warning": null,
       "chapter_sentence_start": 2,
       "chapter_sentence_end": 2,
@@ -35,15 +35,15 @@
       "id": "nikolai_stavrogin::chapter_02_02_04_0002",
       "source_section": "chapter_02_02_04",
       "source_sentence": 3,
-      "character_position": 224,
-      "text": "ему ужасно хотелось захохотать, громко, бешено",
+      "character_position": 177,
+      "text": "ему ужасно хотелось захохотать, громко, бешено; но он почему-то крепился и сдерживал смех",
       "vad": [
-        -0.35,
-        0.95,
-        0.15
+        0.35,
+        0.85,
+        0.3
       ],
-      "cluster_id": "nikolai_stavrogin-2",
-      "distance_to_centroid": 0.7541262552222591,
+      "cluster_id": "nikolai_stavrogin-4",
+      "distance_to_centroid": 0.5409875048844796,
       "warning": null,
       "chapter_sentence_start": 3,
       "chapter_sentence_end": 3,
@@ -53,33 +53,33 @@
         {
           "chapter_sentence": 3,
           "start": 17,
-          "end": 63
+          "end": 106
         }
       ]
     },
     {
       "id": "nikolai_stavrogin::chapter_02_02_04_0003",
       "source_section": "chapter_02_02_04",
-      "source_sentence": 3,
-      "character_position": 225,
-      "text": "крепился и сдерживал смех",
+      "source_sentence": 6,
+      "character_position": 178,
+      "text": "Его вдруг поразила мысль, что он совершенно забыл про него",
       "vad": [
-        0.35,
-        0.25,
-        0.55
+        -0.2,
+        0.45,
+        0.05
       ],
       "cluster_id": "nikolai_stavrogin-3",
-      "distance_to_centroid": 0.1767438944967793,
+      "distance_to_centroid": 0.4451897011695516,
       "warning": null,
-      "chapter_sentence_start": 3,
-      "chapter_sentence_end": 3,
-      "timeline_start_index": 5879,
-      "timeline_end_index": 5879,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 5882,
+      "timeline_end_index": 5882,
       "highlights": [
         {
-          "chapter_sentence": 3,
-          "start": 81,
-          "end": 106
+          "chapter_sentence": 6,
+          "start": 0,
+          "end": 58
         }
       ]
     },
@@ -87,15 +87,15 @@
       "id": "nikolai_stavrogin::chapter_02_02_04_0004",
       "source_section": "chapter_02_02_04",
       "source_sentence": 7,
-      "character_position": 226,
+      "character_position": 179,
       "text": "со всею накопившеюся злобой",
       "vad": [
         -0.85,
-        0.75,
-        0.2
+        0.8,
+        0.45
       ],
-      "cluster_id": "nikolai_stavrogin-2",
-      "distance_to_centroid": 0.6335573300743514,
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.4988870758717641,
       "warning": null,
       "chapter_sentence_start": 7,
       "chapter_sentence_end": 7,
@@ -113,15 +113,15 @@
       "id": "nikolai_stavrogin::chapter_02_02_04_0005",
       "source_section": "chapter_02_02_04",
       "source_sentence": 14,
-      "character_position": 227,
+      "character_position": 180,
       "text": "с нетерпеливым жестом",
       "vad": [
         -0.2,
         0.5,
-        0.4
+        0.8
       ],
-      "cluster_id": "nikolai_stavrogin-1",
-      "distance_to_centroid": 0.4290120996613749,
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.6188993962026681,
       "warning": null,
       "chapter_sentence_start": 14,
       "chapter_sentence_end": 14,
@@ -132,58 +132,6 @@
           "chapter_sentence": 14,
           "start": 11,
           "end": 32
-        }
-      ]
-    },
-    {
-      "id": "nikolai_stavrogin::chapter_02_02_04_0006",
-      "source_section": "chapter_02_02_04",
-      "source_sentence": 46,
-      "character_position": 228,
-      "text": "громко захохотал",
-      "vad": [
-        0.8,
-        0.8,
-        0.6
-      ],
-      "cluster_id": "nikolai_stavrogin-3",
-      "distance_to_centroid": 0.636561320183883,
-      "warning": null,
-      "chapter_sentence_start": 46,
-      "chapter_sentence_end": 46,
-      "timeline_start_index": 5922,
-      "timeline_end_index": 5922,
-      "highlights": [
-        {
-          "chapter_sentence": 46,
-          "start": 21,
-          "end": 37
-        }
-      ]
-    },
-    {
-      "id": "nikolai_stavrogin::chapter_02_02_04_0007",
-      "source_section": "chapter_02_02_04",
-      "source_sentence": 48,
-      "character_position": 229,
-      "text": "продолжая хохотать",
-      "vad": [
-        0.65,
-        0.75,
-        0.55
-      ],
-      "cluster_id": "nikolai_stavrogin-3",
-      "distance_to_centroid": 0.508005772522366,
-      "warning": null,
-      "chapter_sentence_start": 48,
-      "chapter_sentence_end": 48,
-      "timeline_start_index": 5924,
-      "timeline_end_index": 5924,
-      "highlights": [
-        {
-          "chapter_sentence": 48,
-          "start": 59,
-          "end": 77
         }
       ]
     }

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "petr_verkhovenskii",
+  "chapter_id": "2_2_4",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "petr_verkhovenskii::chapter_02_02_04_0002",
+      "source_section": "chapter_02_02_04",
+      "source_sentence": 31,
+      "character_position": 51,
+      "text": "ни на грош не веруют-с",
+      "vad": [
+        -0.35,
+        0.1,
+        0.05
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.3424594460986909,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 5907,
+      "timeline_end_index": 5907,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 74,
+          "end": 96
+        }
+      ]
+    }
+  ]
+}

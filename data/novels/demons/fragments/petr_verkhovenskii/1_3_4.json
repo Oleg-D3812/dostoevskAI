@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "petr_verkhovenskii",
+  "chapter_id": "1_3_4",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "petr_verkhovenskii::chapter_01_03_04_0001",
+      "source_section": "chapter_01_03_04",
+      "source_sentence": 42,
+      "character_position": 3,
+      "text": "Мальчик, знаете, нервный, очень чувствительный и… боязливый.",
+      "vad": [
+        -0.65,
+        0.7,
+        -0.6
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.165706641797286,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 1648,
+      "timeline_end_index": 1648,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 0,
+          "end": 60
+        }
+      ]
+    }
+  ]
+}

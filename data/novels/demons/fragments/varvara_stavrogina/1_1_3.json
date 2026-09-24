@@ -3,21 +3,47 @@
   "novel_id": "demons",
   "character_id": "varvara_stavrogina",
   "chapter_id": "1_1_3",
-  "count": 5,
+  "count": 8,
   "fragments": [
     {
-      "id": "varvara_stavrogina::chapter_01_01_03_0002",
+      "id": "varvara_stavrogina::chapter_01_01_03_0001",
+      "source_section": "chapter_01_01_03",
+      "source_sentence": 9,
+      "character_position": 5,
+      "text": "завидует его учёности и талантам; ненавидит его и боится только выказать свою ненависть явно, в страхе чтоб он не ушёл от неё",
+      "vad": [
+        -0.78,
+        0.68,
+        0.22
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.3546196271095252,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 104,
+      "timeline_end_index": 104,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 246,
+          "end": 371
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_01_03_0003",
       "source_section": "chapter_01_01_03",
       "source_sentence": 21,
-      "character_position": 2,
-      "text": "С каким, должно быть, ядом она смотрела на него в те минуты",
+      "character_position": 6,
+      "text": "С каким, должно быть, ядом она смотрела на него",
       "vad": [
-        -0.82,
-        0.48,
-        -0.3
+        -0.8,
+        0.45,
+        0.35
       ],
-      "cluster_id": "varvara_stavrogina-2",
-      "distance_to_centroid": 0.1740338759927927,
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.262562350646995,
       "warning": null,
       "chapter_sentence_start": 21,
       "chapter_sentence_end": 21,
@@ -27,23 +53,49 @@
         {
           "chapter_sentence": 21,
           "start": 0,
-          "end": 59
+          "end": 47
         }
       ]
     },
     {
-      "id": "varvara_stavrogina::chapter_01_01_03_0003",
+      "id": "varvara_stavrogina::chapter_01_01_03_0004",
+      "source_section": "chapter_01_01_03",
+      "source_sentence": 24,
+      "character_position": 7,
+      "text": "Варвара Петровна наверно и весьма часто его ненавидела",
+      "vad": [
+        -0.8,
+        0.55,
+        0.1
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.3562123858589768,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 119,
+      "timeline_end_index": 119,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 15,
+          "end": 69
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_01_03_0005",
       "source_section": "chapter_01_01_03",
       "source_sentence": 25,
-      "character_position": 3,
+      "character_position": 8,
       "text": "как, должно быть, она была оскорбляема такими предположениями",
       "vad": [
         -0.75,
-        0.45,
+        0.55,
         -0.35
       ],
-      "cluster_id": "varvara_stavrogina-2",
-      "distance_to_centroid": 0.0993778037984923,
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.1562242554561804,
       "warning": null,
       "chapter_sentence_start": 25,
       "chapter_sentence_end": 25,
@@ -58,18 +110,18 @@
       ]
     },
     {
-      "id": "varvara_stavrogina::chapter_01_01_03_0004",
+      "id": "varvara_stavrogina::chapter_01_01_03_0006",
       "source_section": "chapter_01_01_03",
       "source_sentence": 26,
-      "character_position": 4,
+      "character_position": 9,
       "text": "В ней таилась какая-то нестерпимая любовь к нему, среди беспрерывной ненависти, ревности и презрения",
       "vad": [
-        -0.65,
-        0.9,
-        -0.35
+        -0.45,
+        0.75,
+        -0.3
       ],
-      "cluster_id": "varvara_stavrogina-2",
-      "distance_to_centroid": 0.4112092571319004,
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.3612665146790551,
       "warning": null,
       "chapter_sentence_start": 26,
       "chapter_sentence_end": 26,
@@ -84,18 +136,18 @@
       ]
     },
     {
-      "id": "varvara_stavrogina::chapter_01_01_03_0005",
+      "id": "varvara_stavrogina::chapter_01_01_03_0007",
       "source_section": "chapter_01_01_03",
       "source_sentence": 27,
-      "character_position": 5,
+      "character_position": 10,
       "text": "не спала бы целых ночей от заботы",
       "vad": [
-        -0.65,
-        0.55,
-        -0.25
+        -0.45,
+        0.7,
+        -0.3
       ],
-      "cluster_id": "varvara_stavrogina-2",
-      "distance_to_centroid": 0.177762853539028,
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.3228008836979886,
       "warning": null,
       "chapter_sentence_start": 27,
       "chapter_sentence_end": 27,
@@ -110,18 +162,44 @@
       ]
     },
     {
-      "id": "varvara_stavrogina::chapter_01_01_03_0006",
+      "id": "varvara_stavrogina::chapter_01_01_03_0008",
+      "source_section": "chapter_01_01_03",
+      "source_sentence": 28,
+      "character_position": 11,
+      "text": "в свою выдумку сама же первая и уверовала",
+      "vad": [
+        0.2,
+        0.15,
+        0.35
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.3017498294082174,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 123,
+      "timeline_end_index": 123,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 20,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_01_03_0009",
       "source_section": "chapter_01_01_03",
       "source_sentence": 31,
-      "character_position": 6,
+      "character_position": 12,
       "text": "Злопамятна же была до невероятности",
       "vad": [
-        -0.65,
+        -0.75,
         0.25,
-        0.7
+        0.2
       ],
       "cluster_id": "varvara_stavrogina-3",
-      "distance_to_centroid": 0.473401523083326,
+      "distance_to_centroid": 0.3041606493630523,
       "warning": null,
       "chapter_sentence_start": 31,
       "chapter_sentence_end": 31,

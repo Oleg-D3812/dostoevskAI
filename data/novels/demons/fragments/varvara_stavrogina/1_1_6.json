@@ -3,21 +3,21 @@
   "novel_id": "demons",
   "character_id": "varvara_stavrogina",
   "chapter_id": "1_1_6",
-  "count": 2,
+  "count": 5,
   "fragments": [
     {
       "id": "varvara_stavrogina::chapter_01_01_06_0001",
       "source_section": "chapter_01_01_06",
       "source_sentence": 5,
-      "character_position": 26,
+      "character_position": 28,
       "text": "Оскорблённая Варвара Петровна",
       "vad": [
-        -0.65,
-        0.35,
-        -0.25
+        -0.8,
+        0.4,
+        -0.45
       ],
-      "cluster_id": "varvara_stavrogina-2",
-      "distance_to_centroid": 0.2234764805555517,
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.1785047952243061,
       "warning": null,
       "chapter_sentence_start": 5,
       "chapter_sentence_end": 5,
@@ -32,18 +32,70 @@
       ]
     },
     {
+      "id": "varvara_stavrogina::chapter_01_01_06_0002",
+      "source_section": "chapter_01_01_06",
+      "source_sentence": 20,
+      "character_position": 29,
+      "text": "к удивлению её",
+      "vad": [
+        -0.1,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.5485319168830061,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 251,
+      "timeline_end_index": 251,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 4,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_01_06_0003",
+      "source_section": "chapter_01_01_06",
+      "source_sentence": 29,
+      "character_position": 30,
+      "text": "она с тех-то пор ему и позавидовала",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.3
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.1588787795489651,
+      "warning": null,
+      "chapter_sentence_start": 29,
+      "chapter_sentence_end": 29,
+      "timeline_start_index": 260,
+      "timeline_end_index": 260,
+      "highlights": [
+        {
+          "chapter_sentence": 29,
+          "start": 59,
+          "end": 94
+        }
+      ]
+    },
+    {
       "id": "varvara_stavrogina::chapter_01_01_06_0004",
       "source_section": "chapter_01_01_06",
       "source_sentence": 30,
-      "character_position": 27,
-      "text": "главное, всё чего-то ждала",
+      "character_position": 31,
+      "text": "с жадностию, со всем женским истерическим нетерпением",
       "vad": [
-        -0.2,
-        0.2,
-        -0.3
+        -0.55,
+        0.85,
+        -0.2
       ],
-      "cluster_id": "varvara_stavrogina-2",
-      "distance_to_centroid": 0.583682412287819,
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.4507412786020697,
       "warning": null,
       "chapter_sentence_start": 30,
       "chapter_sentence_end": 30,
@@ -52,7 +104,33 @@
       "highlights": [
         {
           "chapter_sentence": 30,
-          "start": 145,
+          "start": 88,
+          "end": 141
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_01_06_0005",
+      "source_section": "chapter_01_01_06",
+      "source_sentence": 30,
+      "character_position": 32,
+      "text": "всё чего-то ждала",
+      "vad": [
+        0.05,
+        0.3,
+        -0.25
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.6491959631515576,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 261,
+      "timeline_end_index": 261,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 154,
           "end": 171
         }
       ]

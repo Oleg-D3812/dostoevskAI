@@ -3,21 +3,151 @@
   "novel_id": "demons",
   "character_id": "nikolai_stavrogin",
   "chapter_id": "2_2_2",
-  "count": 4,
+  "count": 10,
   "fragments": [
     {
-      "id": "nikolai_stavrogin::chapter_02_02_02_0002",
+      "id": "nikolai_stavrogin::chapter_02_02_02_0001",
       "source_section": "chapter_02_02_02",
-      "source_sentence": 134,
-      "character_position": 203,
-      "text": "как будто вдруг рассердился",
+      "source_sentence": 72,
+      "character_position": 159,
+      "text": "Николай Всеволодович любопытно слушал",
       "vad": [
-        -0.55,
-        0.62,
-        0.08
+        0.2,
+        0.25,
+        0.1
+      ],
+      "cluster_id": "nikolai_stavrogin-4",
+      "distance_to_centroid": 0.2215622046699803,
+      "warning": null,
+      "chapter_sentence_start": 72,
+      "chapter_sentence_end": 72,
+      "timeline_start_index": 5507,
+      "timeline_end_index": 5507,
+      "highlights": [
+        {
+          "chapter_sentence": 72,
+          "start": 0,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_02_02_0003",
+      "source_section": "chapter_02_02_02",
+      "source_sentence": 112,
+      "character_position": 160,
+      "text": "Николай Всеволодович всегда, бывало, веселился его стишками и хохотал над ними иногда",
+      "vad": [
+        0.8,
+        0.65,
+        0.2
+      ],
+      "cluster_id": "nikolai_stavrogin-4",
+      "distance_to_centroid": 0.5617089949468868,
+      "warning": null,
+      "chapter_sentence_start": 112,
+      "chapter_sentence_end": 112,
+      "timeline_start_index": 5547,
+      "timeline_end_index": 5547,
+      "highlights": [
+        {
+          "chapter_sentence": 112,
+          "start": 125,
+          "end": 210
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_02_02_0004",
+      "source_section": "chapter_02_02_02",
+      "source_sentence": 120,
+      "character_position": 161,
+      "text": "Даже вы, говорят, рассердились",
+      "vad": [
+        -0.65,
+        0.65,
+        0.1
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.3217276563216934,
+      "warning": null,
+      "chapter_sentence_start": 120,
+      "chapter_sentence_end": 120,
+      "timeline_start_index": 5555,
+      "timeline_end_index": 5555,
+      "highlights": [
+        {
+          "chapter_sentence": 120,
+          "start": 0,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_02_02_0005",
+      "source_section": "chapter_02_02_02",
+      "source_sentence": 100,
+      "character_position": 162,
+      "text": "как-то подозрительно спросил",
+      "vad": [
+        -0.2,
+        0.3,
+        0.3
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.381953288337565,
+      "warning": null,
+      "chapter_sentence_start": 100,
+      "chapter_sentence_end": 100,
+      "timeline_start_index": 5535,
+      "timeline_end_index": 5535,
+      "highlights": [
+        {
+          "chapter_sentence": 100,
+          "start": 37,
+          "end": 65
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_02_02_0006",
+      "source_section": "chapter_02_02_02",
+      "source_sentence": 144,
+      "character_position": 163,
+      "text": "Спокойно и точно",
+      "vad": [
+        0.1,
+        -0.6,
+        0.7
       ],
       "cluster_id": "nikolai_stavrogin-1",
-      "distance_to_centroid": 0.4839345190924732,
+      "distance_to_centroid": 0.74606059835654,
+      "warning": null,
+      "chapter_sentence_start": 144,
+      "chapter_sentence_end": 144,
+      "timeline_start_index": 5579,
+      "timeline_end_index": 5579,
+      "highlights": [
+        {
+          "chapter_sentence": 144,
+          "start": 0,
+          "end": 16
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_02_02_0007",
+      "source_section": "chapter_02_02_02",
+      "source_sentence": 134,
+      "character_position": 164,
+      "text": "как будто вдруг рассердился",
+      "vad": [
+        -0.65,
+        0.65,
+        0.1
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.3217276563216934,
       "warning": null,
       "chapter_sentence_start": 134,
       "chapter_sentence_end": 134,
@@ -32,18 +162,44 @@
       ]
     },
     {
-      "id": "nikolai_stavrogin::chapter_02_02_02_0003",
+      "id": "nikolai_stavrogin::chapter_02_02_02_0009",
+      "source_section": "chapter_02_02_02",
+      "source_sentence": 161,
+      "character_position": 165,
+      "text": "если это меня теперь тешит",
+      "vad": [
+        0.35,
+        0.1,
+        0.25
+      ],
+      "cluster_id": "nikolai_stavrogin-4",
+      "distance_to_centroid": 0.2117140057883751,
+      "warning": null,
+      "chapter_sentence_start": 161,
+      "chapter_sentence_end": 161,
+      "timeline_start_index": 5596,
+      "timeline_end_index": 5596,
+      "highlights": [
+        {
+          "chapter_sentence": 161,
+          "start": 126,
+          "end": 152
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_02_02_0010",
       "source_section": "chapter_02_02_02",
       "source_sentence": 162,
-      "character_position": 204,
-      "text": "как-то особенно раздражительно",
+      "character_position": 166,
+      "text": "Он произнёс это как-то особенно раздражительно",
       "vad": [
-        -0.55,
-        0.45,
+        -0.65,
+        0.6,
         0.1
       ],
-      "cluster_id": "nikolai_stavrogin-1",
-      "distance_to_centroid": 0.3288292889076187,
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.2878068083216999,
       "warning": null,
       "chapter_sentence_start": 162,
       "chapter_sentence_end": 162,
@@ -52,60 +208,60 @@
       "highlights": [
         {
           "chapter_sentence": 162,
-          "start": 16,
+          "start": 0,
           "end": 46
         }
       ]
     },
     {
-      "id": "nikolai_stavrogin::chapter_02_02_02_0005",
+      "id": "nikolai_stavrogin::chapter_02_02_02_0012",
       "source_section": "chapter_02_02_02",
-      "source_sentence": 72,
-      "character_position": 205,
-      "text": "любопытно слушал",
+      "source_sentence": 173,
+      "character_position": 167,
+      "text": "чрезвычайно серьёзно заговорил вдруг Ставрогин",
       "vad": [
-        0.3,
-        0.2,
-        0.1
+        -0.1,
+        0.5,
+        0.4
       ],
       "cluster_id": "nikolai_stavrogin-3",
-      "distance_to_centroid": 0.3601141825402158,
+      "distance_to_centroid": 0.4796983809583905,
       "warning": null,
-      "chapter_sentence_start": 72,
-      "chapter_sentence_end": 72,
-      "timeline_start_index": 5507,
-      "timeline_end_index": 5507,
+      "chapter_sentence_start": 173,
+      "chapter_sentence_end": 173,
+      "timeline_start_index": 5608,
+      "timeline_end_index": 5608,
       "highlights": [
         {
-          "chapter_sentence": 72,
-          "start": 21,
-          "end": 37
+          "chapter_sentence": 173,
+          "start": 23,
+          "end": 69
         }
       ]
     },
     {
-      "id": "nikolai_stavrogin::chapter_02_02_02_0009",
+      "id": "nikolai_stavrogin::chapter_02_02_02_0013",
       "source_section": "chapter_02_02_02",
-      "source_sentence": 217,
-      "character_position": 206,
-      "text": "усмехнулся",
+      "source_sentence": 175,
+      "character_position": 168,
+      "text": "необыкновенно строгий вид Николая Всеволодовича",
       "vad": [
-        -0.1,
-        0.2,
-        0.5
+        -0.45,
+        0.5,
+        0.85
       ],
-      "cluster_id": "nikolai_stavrogin-1",
-      "distance_to_centroid": 0.4239843415293153,
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.5620558984570819,
       "warning": null,
-      "chapter_sentence_start": 217,
-      "chapter_sentence_end": 217,
-      "timeline_start_index": 5652,
-      "timeline_end_index": 5652,
+      "chapter_sentence_start": 175,
+      "chapter_sentence_end": 175,
+      "timeline_start_index": 5610,
+      "timeline_end_index": 5610,
       "highlights": [
         {
-          "chapter_sentence": 217,
-          "start": 21,
-          "end": 31
+          "chapter_sentence": 175,
+          "start": 10,
+          "end": 57
         }
       ]
     }

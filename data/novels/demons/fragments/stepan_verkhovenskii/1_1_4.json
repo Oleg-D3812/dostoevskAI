@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "stepan_verkhovenskii",
+  "chapter_id": "1_1_4",
+  "count": 13,
+  "fragments": [
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_04_0001",
+      "source_section": "chapter_01_01_04",
+      "source_sentence": 10,
+      "character_position": 36,
+      "text": "Степан Трофимович вдруг не вытерпел и крикнул ура! и даже сделал рукой какой-то жест, изображавший восторг",
+      "vad": [
+        0.85,
+        0.8,
+        0.1
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.5058882415046897,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 137,
+      "timeline_end_index": 137,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 124,
+          "end": 230
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_04_0002",
+      "source_section": "chapter_01_01_04",
+      "source_sentence": 11,
+      "character_position": 37,
+      "text": "восторг был преднамеренный",
+      "vad": [
+        0.45,
+        0.35,
+        0.75
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.5752965134261925,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 138,
+      "timeline_end_index": 138,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 53,
+          "end": 79
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_04_0003",
+      "source_section": "chapter_01_01_04",
+      "source_sentence": 25,
+      "character_position": 38,
+      "text": "Оба друга сходились каждый вечер в саду и просиживали до ночи в беседке, изливая друг пред другом свои чувства и мысли",
+      "vad": [
+        0.7,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.1575277728644782,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 152,
+      "timeline_end_index": 152,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 0,
+          "end": 118
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_04_0004",
+      "source_section": "chapter_01_01_04",
+      "source_sentence": 29,
+      "character_position": 39,
+      "text": "Одна странная мысль вдруг осенила Степана Трофимовича",
+      "vad": [
+        -0.1,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.4397240143156379,
+      "warning": null,
+      "chapter_sentence_start": 29,
+      "chapter_sentence_end": 29,
+      "timeline_start_index": 156,
+      "timeline_end_index": 156,
+      "highlights": [
+        {
+          "chapter_sentence": 29,
+          "start": 0,
+          "end": 53
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_04_0006",
+      "source_section": "chapter_01_01_04",
+      "source_sentence": 32,
+      "character_position": 40,
+      "text": "Он задумался",
+      "vad": [
+        0.0,
+        0.1,
+        -0.1
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.4124385709156351,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 159,
+      "timeline_end_index": 159,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 0,
+          "end": 12
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_04_0007",
+      "source_section": "chapter_01_01_04",
+      "source_sentence": 34,
+      "character_position": 41,
+      "text": "Всё более и более колебался Степан Трофимович, мучился сомнениями, даже всплакнул раза два от нерешимости",
+      "vad": [
+        -0.78,
+        0.52,
+        -0.7
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.2136493795436653,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 161,
+      "timeline_end_index": 161,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 0,
+          "end": 105
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_04_0008",
+      "source_section": "chapter_01_01_04",
+      "source_sentence": 35,
+      "character_position": 42,
+      "text": "лицо его как-то невольно стало выражать нечто капризное и насмешливое, нечто кокетливое и в то же время высокомерное",
+      "vad": [
+        -0.2,
+        0.35,
+        0.6
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.7125103046665748,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 162,
+      "timeline_end_index": 162,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 34,
+          "end": 150
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_04_0009",
+      "source_section": "chapter_01_01_04",
+      "source_sentence": 46,
+      "character_position": 43,
+      "text": "в хлопотливом раздумьи",
+      "vad": [
+        -0.2,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.3611315996908483,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 173,
+      "timeline_end_index": 173,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 30,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_04_0010",
+      "source_section": "chapter_01_01_04",
+      "source_sentence": 46,
+      "character_position": 44,
+      "text": "усталый",
+      "vad": [
+        -0.45,
+        -0.65,
+        0.0
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.7017771695445527,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 173,
+      "timeline_end_index": 173,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 107,
+          "end": 114
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_04_0011",
+      "source_section": "chapter_01_01_04",
+      "source_sentence": 50,
+      "character_position": 45,
+      "text": "он до того остолбенел тогда на месте, что не слышал и не видел",
+      "vad": [
+        -0.65,
+        -0.55,
+        -0.85
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 1.058509412374836,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 50,
+      "timeline_start_index": 177,
+      "timeline_end_index": 177,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 134,
+          "end": 196
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_04_0012",
+      "source_section": "chapter_01_01_04",
+      "source_sentence": 51,
+      "character_position": 46,
+      "text": "он всю жизнь наклонён был к мысли, что всё это была одна галлюцинация пред болезнию",
+      "vad": [
+        -0.25,
+        -0.1,
+        -0.3
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.3558626905387714,
+      "warning": null,
+      "chapter_sentence_start": 51,
+      "chapter_sentence_end": 51,
+      "timeline_start_index": 178,
+      "timeline_end_index": 178,
+      "highlights": [
+        {
+          "chapter_sentence": 51,
+          "start": 104,
+          "end": 187
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_04_0013",
+      "source_section": "chapter_01_01_04",
+      "source_sentence": 52,
+      "character_position": 47,
+      "text": "несмотря на мечту о галлюцинации, он каждый день, всю свою жизнь, как бы ждал продолжения и, так сказать, развязки этого события",
+      "vad": [
+        -0.35,
+        0.3,
+        -0.55
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.4456335162564943,
+      "warning": null,
+      "chapter_sentence_start": 52,
+      "chapter_sentence_end": 52,
+      "timeline_start_index": 179,
+      "timeline_end_index": 179,
+      "highlights": [
+        {
+          "chapter_sentence": 52,
+          "start": 3,
+          "end": 131
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_04_0014",
+      "source_section": "chapter_01_01_04",
+      "source_sentence": 53,
+      "character_position": 48,
+      "text": "Он не верил, что оно так и кончилось!",
+      "vad": [
+        -0.45,
+        0.25,
+        -0.3
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.3522769348555462,
+      "warning": null,
+      "chapter_sentence_start": 53,
+      "chapter_sentence_end": 53,
+      "timeline_start_index": 180,
+      "timeline_end_index": 180,
+      "highlights": [
+        {
+          "chapter_sentence": 53,
+          "start": 0,
+          "end": 37
+        }
+      ]
+    }
+  ]
+}

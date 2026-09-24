@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "petr_verkhovenskii",
+  "chapter_id": "2_4_3",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "petr_verkhovenskii::chapter_02_04_03_0002",
+      "source_section": "chapter_02_04_03",
+      "source_sentence": 94,
+      "character_position": 60,
+      "text": "не скрывая скуки",
+      "vad": [
+        -0.45,
+        -0.35,
+        0.1
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.4697820120959176,
+      "warning": null,
+      "chapter_sentence_start": 94,
+      "chapter_sentence_end": 94,
+      "timeline_start_index": 6636,
+      "timeline_end_index": 6636,
+      "highlights": [
+        {
+          "chapter_sentence": 94,
+          "start": 14,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_04_03_0003",
+      "source_section": "chapter_02_04_03",
+      "source_sentence": 139,
+      "character_position": 61,
+      "text": "как-то не по-обычному серьёзно",
+      "vad": [
+        -0.1,
+        0.2,
+        0.3
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.333833999000834,
+      "warning": null,
+      "chapter_sentence_start": 139,
+      "chapter_sentence_end": 139,
+      "timeline_start_index": 6681,
+      "timeline_end_index": 6681,
+      "highlights": [
+        {
+          "chapter_sentence": 139,
+          "start": 37,
+          "end": 67
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_04_03_0004",
+      "source_section": "chapter_02_04_03",
+      "source_sentence": 181,
+      "character_position": 62,
+      "text": "Он предан мне всем сердцем",
+      "vad": [
+        0.7,
+        0.1,
+        0.7
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.4918549724380242,
+      "warning": null,
+      "chapter_sentence_start": 181,
+      "chapter_sentence_end": 181,
+      "timeline_start_index": 6723,
+      "timeline_end_index": 6723,
+      "highlights": [
+        {
+          "chapter_sentence": 181,
+          "start": 0,
+          "end": 26
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_04_03_0005",
+      "source_section": "chapter_02_04_03",
+      "source_sentence": 194,
+      "character_position": 63,
+      "text": "Он фанатически, фанатически предан мне",
+      "vad": [
+        0.8,
+        0.45,
+        0.7
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.4377142077944386,
+      "warning": null,
+      "chapter_sentence_start": 194,
+      "chapter_sentence_end": 194,
+      "timeline_start_index": 6736,
+      "timeline_end_index": 6736,
+      "highlights": [
+        {
+          "chapter_sentence": 194,
+          "start": 0,
+          "end": 38
+        }
+      ]
+    }
+  ]
+}

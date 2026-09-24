@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "stepan_verkhovenskii",
+  "chapter_id": "1_5_1",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "stepan_verkhovenskii::chapter_01_05_01_0001",
+      "source_section": "chapter_01_05_01",
+      "source_sentence": 9,
+      "character_position": 284,
+      "text": "dans quelle inquiétude",
+      "vad": [
+        -0.7,
+        0.4,
+        -0.3
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.2798238873522029,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 3202,
+      "timeline_end_index": 3202,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 33,
+          "end": 55
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_05_01_0002",
+      "source_section": "chapter_01_05_01",
+      "source_sentence": 16,
+      "character_position": 285,
+      "text": "был в смятении, как будто во всём виноватый",
+      "vad": [
+        -0.75,
+        0.65,
+        -0.7
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.206389464084115,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 3209,
+      "timeline_end_index": 3209,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 46,
+          "end": 89
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "1_1_9",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_01_01_09_0001",
+      "source_section": "chapter_01_01_09",
+      "source_sentence": 18,
+      "character_position": 39,
+      "text": "вышла во гневе",
+      "vad": [
+        -0.75,
+        0.65,
+        0.35
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.3009790910754965,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 442,
+      "timeline_end_index": 442,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 66,
+          "end": 80
+        }
+      ]
+    }
+  ]
+}

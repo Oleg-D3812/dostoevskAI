@@ -1,0 +1,399 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "stepan_verkhovenskii",
+  "chapter_id": "1_1_5",
+  "count": 15,
+  "fragments": [
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_05_0001",
+      "source_section": "chapter_01_01_05",
+      "source_sentence": 8,
+      "character_position": 49,
+      "text": "поэтически задумавшись над закатом солнца",
+      "vad": [
+        0.35,
+        -0.45,
+        0.05
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.8758481393782942,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 189,
+      "timeline_end_index": 189,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 438,
+          "end": 479
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_05_0003",
+      "source_section": "chapter_01_01_05",
+      "source_sentence": 20,
+      "character_position": 50,
+      "text": "всё ещё помышлял о каком-то сочинении",
+      "vad": [
+        0.1,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.5176648237298339,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 201,
+      "timeline_end_index": 201,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 94,
+          "end": 131
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_05_0004",
+      "source_section": "chapter_01_01_05",
+      "source_sentence": 21,
+      "character_position": 51,
+      "text": "и зады позабыл",
+      "vad": [
+        -0.35,
+        -0.25,
+        -0.3
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.4171734403747374,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 202,
+      "timeline_end_index": 202,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 39,
+          "end": 53
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_05_0005",
+      "source_section": "chapter_01_01_05",
+      "source_sentence": 22,
+      "character_position": 52,
+      "text": "Кажется, готов к труду, материалы собраны, и вот не работается!",
+      "vad": [
+        -0.55,
+        0.2,
+        -0.5
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.4071690653589697,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 203,
+      "timeline_end_index": 203,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 35,
+          "end": 98
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_05_0007",
+      "source_section": "chapter_01_01_05",
+      "source_sentence": 24,
+      "character_position": 53,
+      "text": "опускал голову в унынии",
+      "vad": [
+        -0.85,
+        -0.55,
+        -0.65
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.9828850854086658,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 205,
+      "timeline_end_index": 205,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 4,
+          "end": 27
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_05_0008",
+      "source_section": "chapter_01_01_05",
+      "source_sentence": 25,
+      "character_position": 54,
+      "text": "самому ему хотелось чего-то другого",
+      "vad": [
+        -0.15,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.2557016866520616,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 206,
+      "timeline_end_index": 206,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 107,
+          "end": 142
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_05_0009",
+      "source_section": "chapter_01_01_05",
+      "source_sentence": 26,
+      "character_position": 55,
+      "text": "Забыли меня, никому я не нужен!",
+      "vad": [
+        -0.9,
+        0.6,
+        -0.85
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.3945532367645537,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 207,
+      "timeline_end_index": 207,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 1,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_05_0010",
+      "source_section": "chapter_01_01_05",
+      "source_sentence": 27,
+      "character_position": 56,
+      "text": "Эта усиленная хандра особенно овладела им",
+      "vad": [
+        -0.8,
+        -0.5,
+        -0.6
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.8972439753208261,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 208,
+      "timeline_end_index": 208,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 0,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_05_0011",
+      "source_section": "chapter_01_01_05",
+      "source_sentence": 39,
+      "character_position": 57,
+      "text": "Взгляд Степана Трофимовича на всеобщее движение был в высшей степени высокомерный",
+      "vad": [
+        -0.45,
+        0.2,
+        0.7
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.73167215121968,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 220,
+      "timeline_end_index": 220,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 0,
+          "end": 81
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_05_0012",
+      "source_section": "chapter_01_01_05",
+      "source_sentence": 39,
+      "character_position": 58,
+      "text": "у него всё сводилось на то, что он сам забыт и никому не нужен",
+      "vad": [
+        -0.78,
+        0.18,
+        -0.7
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.449830150601828,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 220,
+      "timeline_end_index": 220,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 83,
+          "end": 145
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_05_0013",
+      "source_section": "chapter_01_01_05",
+      "source_sentence": 42,
+      "character_position": 59,
+      "text": "Степан Трофимович мигом воскрес и сильно приосанился",
+      "vad": [
+        0.78,
+        0.7,
+        0.76
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.6831412048020984,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 223,
+      "timeline_end_index": 223,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 0,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_05_0014",
+      "source_section": "chapter_01_01_05",
+      "source_sentence": 43,
+      "character_position": 60,
+      "text": "Всё высокомерие его взгляда на современников разом соскочило",
+      "vad": [
+        0.1,
+        0.0,
+        -0.1
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.5100439103304792,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 224,
+      "timeline_end_index": 224,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 0,
+          "end": 60
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_05_0015",
+      "source_section": "chapter_01_01_05",
+      "source_sentence": 43,
+      "character_position": 61,
+      "text": "в нём загорелась мечта: примкнуть к движению и показать свои силы",
+      "vad": [
+        0.7,
+        0.65,
+        0.55
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.4645550582022978,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 224,
+      "timeline_end_index": 224,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 64,
+          "end": 129
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_05_0016",
+      "source_section": "chapter_01_01_05",
+      "source_sentence": 47,
+      "character_position": 62,
+      "text": "стал ещё высокомернее",
+      "vad": [
+        -0.45,
+        0.2,
+        0.7
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.73167215121968,
+      "warning": null,
+      "chapter_sentence_start": 47,
+      "chapter_sentence_end": 47,
+      "timeline_start_index": 228,
+      "timeline_end_index": 228,
+      "highlights": [
+        {
+          "chapter_sentence": 47,
+          "start": 51,
+          "end": 72
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_01_05_0017",
+      "source_section": "chapter_01_01_05",
+      "source_sentence": 47,
+      "character_position": 63,
+      "text": "начал относиться к Варваре Петровне почти покровительственно",
+      "vad": [
+        0.2,
+        0.1,
+        0.7
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.6945667087420095,
+      "warning": null,
+      "chapter_sentence_start": 47,
+      "chapter_sentence_end": 47,
+      "timeline_start_index": 228,
+      "timeline_end_index": 228,
+      "highlights": [
+        {
+          "chapter_sentence": 47,
+          "start": 86,
+          "end": 146
+        }
+      ]
+    }
+  ]
+}

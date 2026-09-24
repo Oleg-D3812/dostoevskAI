@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "stepan_verkhovenskii",
+  "chapter_id": "1_3_4",
+  "count": 13,
+  "fragments": [
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_04_0001",
+      "source_section": "chapter_01_03_04",
+      "source_sentence": 1,
+      "character_position": 208,
+      "text": "он пропал от Липутина",
+      "vad": [
+        -0.4,
+        0.2,
+        -0.3
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.3226742113562161,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 1607,
+      "timeline_end_index": 1607,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 10,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_04_0002",
+      "source_section": "chapter_01_03_04",
+      "source_sentence": 1,
+      "character_position": 209,
+      "text": "я всё приписывал нервам",
+      "vad": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.4568444833512536,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 1607,
+      "timeline_end_index": 1607,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 73,
+          "end": 96
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_04_0003",
+      "source_section": "chapter_01_03_04",
+      "source_sentence": 2,
+      "character_position": 210,
+      "text": "испуг его был необычайный",
+      "vad": [
+        -0.75,
+        0.9,
+        -0.55
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.3263670174406721,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 1608,
+      "timeline_end_index": 1608,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 12,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_04_0004",
+      "source_section": "chapter_01_03_04",
+      "source_sentence": 5,
+      "character_position": 211,
+      "text": "остолбеневшего Степана Трофимовича",
+      "vad": [
+        -0.75,
+        0.7,
+        -0.8
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.3151066213849653,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 1611,
+      "timeline_end_index": 1611,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 32,
+          "end": 66
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_04_0005",
+      "source_section": "chapter_01_03_04",
+      "source_sentence": 12,
+      "character_position": 212,
+      "text": "как бы опомнившись",
+      "vad": [
+        0.0,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.4425871129582391,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 1618,
+      "timeline_end_index": 1618,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 110,
+          "end": 128
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_04_0006",
+      "source_section": "chapter_01_03_04",
+      "source_sentence": 20,
+      "character_position": 213,
+      "text": "чрезвычайный испуг Степана Трофимовича",
+      "vad": [
+        -0.9,
+        0.9,
+        -0.8
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.47569596149778,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 1626,
+      "timeline_end_index": 1626,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 27,
+          "end": 65
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_04_0007",
+      "source_section": "chapter_01_03_04",
+      "source_sentence": 40,
+      "character_position": 214,
+      "text": "пред которым… о, пред которым я так виноват!",
+      "vad": [
+        -0.85,
+        0.65,
+        -0.55
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.1742160251844061,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 1646,
+      "timeline_end_index": 1646,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 78,
+          "end": 122
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_04_0008",
+      "source_section": "chapter_01_03_04",
+      "source_sentence": 44,
+      "character_position": 215,
+      "text": "я сам, кажется, спутался",
+      "vad": [
+        -0.35,
+        0.2,
+        -0.45
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.4635057722647281,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 1650,
+      "timeline_end_index": 1650,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 9,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_04_0009",
+      "source_section": "chapter_01_03_04",
+      "source_sentence": 50,
+      "character_position": 216,
+      "text": "я теперь… не в состоянии",
+      "vad": [
+        -0.55,
+        0.1,
+        -0.7
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.5351214006820826,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 50,
+      "timeline_start_index": 1656,
+      "timeline_end_index": 1656,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 59,
+          "end": 83
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_04_0010",
+      "source_section": "chapter_01_03_04",
+      "source_sentence": 59,
+      "character_position": 217,
+      "text": "вдруг увлёкшись чувством",
+      "vad": [
+        0.5,
+        0.65,
+        0.1
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.2898186594040325,
+      "warning": null,
+      "chapter_sentence_start": 59,
+      "chapter_sentence_end": 59,
+      "timeline_start_index": 1665,
+      "timeline_end_index": 1665,
+      "highlights": [
+        {
+          "chapter_sentence": 59,
+          "start": 32,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_04_0011",
+      "source_section": "chapter_01_03_04",
+      "source_sentence": 109,
+      "character_position": 218,
+      "text": "я чувствую себя нездоровым и расстроенным",
+      "vad": [
+        -0.65,
+        0.2,
+        -0.3
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.4079892743462081,
+      "warning": null,
+      "chapter_sentence_start": 109,
+      "chapter_sentence_end": 109,
+      "timeline_start_index": 1715,
+      "timeline_end_index": 1715,
+      "highlights": [
+        {
+          "chapter_sentence": 109,
+          "start": 84,
+          "end": 125
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_04_0012",
+      "source_section": "chapter_01_03_04",
+      "source_sentence": 123,
+      "character_position": 219,
+      "text": "так испугался Липутина",
+      "vad": [
+        -0.85,
+        0.8,
+        -0.7
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.3272279949827435,
+      "warning": null,
+      "chapter_sentence_start": 123,
+      "chapter_sentence_end": 123,
+      "timeline_start_index": 1729,
+      "timeline_end_index": 1729,
+      "highlights": [
+        {
+          "chapter_sentence": 123,
+          "start": 49,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_03_04_0013",
+      "source_section": "chapter_01_03_04",
+      "source_sentence": 123,
+      "character_position": 220,
+      "text": "я пропал",
+      "vad": [
+        -0.9,
+        0.75,
+        -0.9
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.4692114038599603,
+      "warning": null,
+      "chapter_sentence_start": 123,
+      "chapter_sentence_end": 123,
+      "timeline_start_index": 1729,
+      "timeline_end_index": 1729,
+      "highlights": [
+        {
+          "chapter_sentence": 123,
+          "start": 92,
+          "end": 100
+        }
+      ]
+    }
+  ]
+}

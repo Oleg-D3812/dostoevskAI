@@ -1,0 +1,399 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "petr_verkhovenskii",
+  "chapter_id": "2_8_1",
+  "count": 15,
+  "fragments": [
+    {
+      "id": "petr_verkhovenskii::chapter_02_08_01_0002",
+      "source_section": "chapter_02_08_01",
+      "source_sentence": 36,
+      "character_position": 104,
+      "text": "иронически улыбнулся Пётр Степанович",
+      "vad": [
+        0.2,
+        0.2,
+        0.6
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.4685530957823051,
+      "warning": null,
+      "chapter_sentence_start": 36,
+      "chapter_sentence_end": 36,
+      "timeline_start_index": 8933,
+      "timeline_end_index": 8933,
+      "highlights": [
+        {
+          "chapter_sentence": 36,
+          "start": 2,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_08_01_0003",
+      "source_section": "chapter_02_08_01",
+      "source_sentence": 39,
+      "character_position": 105,
+      "text": "в злобном нетерпении и как бы властно крикнул он",
+      "vad": [
+        -0.85,
+        0.9,
+        0.65
+      ],
+      "cluster_id": "petr_verkhovenskii-4",
+      "distance_to_centroid": 0.4289115958152603,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 8936,
+      "timeline_end_index": 8936,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 2,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_08_01_0005",
+      "source_section": "chapter_02_08_01",
+      "source_sentence": 80,
+      "character_position": 106,
+      "text": "почти в сумасшествии",
+      "vad": [
+        -0.85,
+        0.95,
+        -0.8
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.5208654302206012,
+      "warning": null,
+      "chapter_sentence_start": 80,
+      "chapter_sentence_end": 80,
+      "timeline_start_index": 8977,
+      "timeline_end_index": 8977,
+      "highlights": [
+        {
+          "chapter_sentence": 80,
+          "start": 32,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_08_01_0006",
+      "source_section": "chapter_02_08_01",
+      "source_sentence": 98,
+      "character_position": 107,
+      "text": "исступлённый",
+      "vad": [
+        -0.8,
+        0.9,
+        -0.6
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.3547768113512722,
+      "warning": null,
+      "chapter_sentence_start": 98,
+      "chapter_sentence_end": 98,
+      "timeline_start_index": 8995,
+      "timeline_end_index": 8995,
+      "highlights": [
+        {
+          "chapter_sentence": 98,
+          "start": 39,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_08_01_0007",
+      "source_section": "chapter_02_08_01",
+      "source_sentence": 104,
+      "character_position": 108,
+      "text": "неопомнившийся человек",
+      "vad": [
+        -0.55,
+        0.25,
+        -0.5
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.3777157892536709,
+      "warning": null,
+      "chapter_sentence_start": 104,
+      "chapter_sentence_end": 104,
+      "timeline_start_index": 9001,
+      "timeline_end_index": 9001,
+      "highlights": [
+        {
+          "chapter_sentence": 104,
+          "start": 12,
+          "end": 34
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_08_01_0008",
+      "source_section": "chapter_02_08_01",
+      "source_sentence": 107,
+      "character_position": 109,
+      "text": "прежним умоляющим, но в то же время и непреклонным взглядом",
+      "vad": [
+        -0.35,
+        0.45,
+        -0.1
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.4933086538647375,
+      "warning": null,
+      "chapter_sentence_start": 107,
+      "chapter_sentence_end": 107,
+      "timeline_start_index": 9004,
+      "timeline_end_index": 9004,
+      "highlights": [
+        {
+          "chapter_sentence": 107,
+          "start": 49,
+          "end": 108
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_08_01_0009",
+      "source_section": "chapter_02_08_01",
+      "source_sentence": 115,
+      "character_position": 110,
+      "text": "почти как в бреду",
+      "vad": [
+        -0.6,
+        0.7,
+        -0.5
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.1068607385877691,
+      "warning": null,
+      "chapter_sentence_start": 115,
+      "chapter_sentence_end": 115,
+      "timeline_start_index": 9012,
+      "timeline_end_index": 9012,
+      "highlights": [
+        {
+          "chapter_sentence": 115,
+          "start": 54,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_08_01_0010",
+      "source_section": "chapter_02_08_01",
+      "source_sentence": 141,
+      "character_position": 111,
+      "text": "«С ним лихорадка, и он бредит; с ним что-то случилось очень особенное»",
+      "vad": [
+        -0.75,
+        0.85,
+        -0.55
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.2742420302137038,
+      "warning": null,
+      "chapter_sentence_start": 141,
+      "chapter_sentence_end": 141,
+      "timeline_start_index": 9038,
+      "timeline_end_index": 9038,
+      "highlights": [
+        {
+          "chapter_sentence": 141,
+          "start": 0,
+          "end": 70
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_08_01_0011",
+      "source_section": "chapter_02_08_01",
+      "source_sentence": 200,
+      "character_position": 112,
+      "text": "почти в упоении",
+      "vad": [
+        0.9,
+        0.8,
+        0.1
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.5898485516740797,
+      "warning": null,
+      "chapter_sentence_start": 200,
+      "chapter_sentence_end": 200,
+      "timeline_start_index": 9097,
+      "timeline_end_index": 9097,
+      "highlights": [
+        {
+          "chapter_sentence": 200,
+          "start": 27,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_08_01_0012",
+      "source_section": "chapter_02_08_01",
+      "source_sentence": 226,
+      "character_position": 113,
+      "text": "может и брежу",
+      "vad": [
+        -0.3,
+        0.2,
+        -0.45
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.5390642541321976,
+      "warning": null,
+      "chapter_sentence_start": 226,
+      "chapter_sentence_end": 226,
+      "timeline_start_index": 9123,
+      "timeline_end_index": 9123,
+      "highlights": [
+        {
+          "chapter_sentence": 226,
+          "start": 17,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_08_01_0013",
+      "source_section": "chapter_02_08_01",
+      "source_sentence": 235,
+      "character_position": 114,
+      "text": "безумные глаза",
+      "vad": [
+        -0.75,
+        0.9,
+        -0.45
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.30534407956469,
+      "warning": null,
+      "chapter_sentence_start": 235,
+      "chapter_sentence_end": 235,
+      "timeline_start_index": 9132,
+      "timeline_end_index": 9132,
+      "highlights": [
+        {
+          "chapter_sentence": 235,
+          "start": 42,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_08_01_0015",
+      "source_section": "chapter_02_08_01",
+      "source_sentence": 303,
+      "character_position": 115,
+      "text": "на исступлённого",
+      "vad": [
+        -0.7,
+        0.95,
+        -0.65
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.391099336659798,
+      "warning": null,
+      "chapter_sentence_start": 303,
+      "chapter_sentence_end": 303,
+      "timeline_start_index": 9200,
+      "timeline_end_index": 9200,
+      "highlights": [
+        {
+          "chapter_sentence": 303,
+          "start": 48,
+          "end": 64
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_08_01_0016",
+      "source_section": "chapter_02_08_01",
+      "source_sentence": 305,
+      "character_position": 116,
+      "text": "в самом деле как будто пьяный",
+      "vad": [
+        -0.2,
+        0.25,
+        -0.4
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.5783581630961429,
+      "warning": null,
+      "chapter_sentence_start": 305,
+      "chapter_sentence_end": 305,
+      "timeline_start_index": 9202,
+      "timeline_end_index": 9202,
+      "highlights": [
+        {
+          "chapter_sentence": 305,
+          "start": 93,
+          "end": 122
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_08_01_0017",
+      "source_section": "chapter_02_08_01",
+      "source_sentence": 321,
+      "character_position": 117,
+      "text": "Я теперь как ребёнок, меня можно до смерти испугать одною вот такою улыбкой",
+      "vad": [
+        -0.9,
+        0.9,
+        -0.9
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.5840631333745634,
+      "warning": null,
+      "chapter_sentence_start": 321,
+      "chapter_sentence_end": 321,
+      "timeline_start_index": 9218,
+      "timeline_end_index": 9218,
+      "highlights": [
+        {
+          "chapter_sentence": 321,
+          "start": 0,
+          "end": 75
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_02_08_01_0019",
+      "source_section": "chapter_02_08_01",
+      "source_sentence": 356,
+      "character_position": 118,
+      "text": "в порыве неистовой злобы",
+      "vad": [
+        -0.9,
+        0.95,
+        0.2
+      ],
+      "cluster_id": "petr_verkhovenskii-4",
+      "distance_to_centroid": 0.3909564876128946,
+      "warning": null,
+      "chapter_sentence_start": 356,
+      "chapter_sentence_end": 356,
+      "timeline_start_index": 9253,
+      "timeline_end_index": 9253,
+      "highlights": [
+        {
+          "chapter_sentence": 356,
+          "start": 15,
+          "end": 39
+        }
+      ]
+    }
+  ]
+}

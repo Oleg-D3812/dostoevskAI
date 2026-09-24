@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "nikolai_stavrogin",
+  "chapter_id": "3_3_3",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "nikolai_stavrogin::chapter_03_03_03_0001",
+      "source_section": "chapter_03_03_03",
+      "source_sentence": 93,
+      "character_position": 278,
+      "text": "он в эту ночь разлюбил меня",
+      "vad": [
+        -0.75,
+        0.3,
+        -0.45
+      ],
+      "cluster_id": "nikolai_stavrogin-2",
+      "distance_to_centroid": 0.2423790657420275,
+      "warning": null,
+      "chapter_sentence_start": 93,
+      "chapter_sentence_end": 93,
+      "timeline_start_index": 11700,
+      "timeline_end_index": 11700,
+      "highlights": [
+        {
+          "chapter_sentence": 93,
+          "start": 50,
+          "end": 77
+        }
+      ]
+    }
+  ]
+}

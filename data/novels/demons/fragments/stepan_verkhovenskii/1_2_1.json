@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "stepan_verkhovenskii",
+  "chapter_id": "1_2_1",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_01_0001",
+      "source_section": "chapter_01_02_01",
+      "source_sentence": 6,
+      "character_position": 96,
+      "text": "в истинном друге он постоянно нуждался",
+      "vad": [
+        -0.35,
+        0.1,
+        -0.4
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.3921088696122601,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 532,
+      "timeline_end_index": 532,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 26,
+          "end": 64
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_01_0002",
+      "source_section": "chapter_01_02_01",
+      "source_sentence": 9,
+      "character_position": 97,
+      "text": "излить пред ним в слезах свои оскорблённые чувства",
+      "vad": [
+        -0.75,
+        0.78,
+        -0.48
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.2098899865569669,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 535,
+      "timeline_end_index": 535,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 87,
+          "end": 137
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_01_0003",
+      "source_section": "chapter_01_02_01",
+      "source_sentence": 82,
+      "character_position": 98,
+      "text": "Степан Трофимович чувствительнее всех нас",
+      "vad": [
+        0.0,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.4277938002861251,
+      "warning": null,
+      "chapter_sentence_start": 82,
+      "chapter_sentence_end": 82,
+      "timeline_start_index": 608,
+      "timeline_end_index": 608,
+      "highlights": [
+        {
+          "chapter_sentence": 82,
+          "start": 31,
+          "end": 72
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "petr_verkhovenskii",
+  "chapter_id": "3_2_1",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "petr_verkhovenskii::chapter_03_02_01_0001",
+      "source_section": "chapter_03_02_01",
+      "source_sentence": 8,
+      "character_position": 120,
+      "text": "Я боялся, чтоб он не предпринял чего-нибудь ещё безумнее.",
+      "vad": [
+        -0.7,
+        0.65,
+        -0.5
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.0769364507338591,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 10514,
+      "timeline_end_index": 10514,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 0,
+          "end": 57
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_02_01_0002",
+      "source_section": "chapter_03_02_01",
+      "source_sentence": 15,
+      "character_position": 121,
+      "text": "вспоминаю с огорчением!",
+      "vad": [
+        -0.65,
+        0.2,
+        -0.1
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.5472041441237999,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 10521,
+      "timeline_end_index": 10521,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 89,
+          "end": 112
+        }
+      ]
+    }
+  ]
+}

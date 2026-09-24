@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "stepan_verkhovenskii",
+  "chapter_id": "1_5_3",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "stepan_verkhovenskii::chapter_01_05_03_0001",
+      "source_section": "chapter_01_05_03",
+      "source_sentence": 112,
+      "character_position": 288,
+      "text": "весь в волнении",
+      "vad": [
+        -0.45,
+        0.85,
+        -0.35
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.3990449000891275,
+      "warning": null,
+      "chapter_sentence_start": 112,
+      "chapter_sentence_end": 112,
+      "timeline_start_index": 3409,
+      "timeline_end_index": 3409,
+      "highlights": [
+        {
+          "chapter_sentence": 112,
+          "start": 52,
+          "end": 67
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_05_03_0003",
+      "source_section": "chapter_01_05_03",
+      "source_sentence": 114,
+      "character_position": 289,
+      "text": "в совершенном негодовании",
+      "vad": [
+        -0.85,
+        0.8,
+        0.1
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.6701935104969563,
+      "warning": null,
+      "chapter_sentence_start": 114,
+      "chapter_sentence_end": 114,
+      "timeline_start_index": 3411,
+      "timeline_end_index": 3411,
+      "highlights": [
+        {
+          "chapter_sentence": 114,
+          "start": 137,
+          "end": 162
+        }
+      ]
+    }
+  ]
+}

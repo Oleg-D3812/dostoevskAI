@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "petr_verkhovenskii",
+  "chapter_id": "3_6_3",
+  "count": 10,
+  "fragments": [
+    {
+      "id": "petr_verkhovenskii::chapter_03_06_03_0001",
+      "source_section": "chapter_03_06_03",
+      "source_sentence": 7,
+      "character_position": 238,
+      "text": "с ним тяготится и с нетерпением ждёт остальных звонков",
+      "vad": [
+        -0.55,
+        0.45,
+        0.1
+      ],
+      "cluster_id": "petr_verkhovenskii-4",
+      "distance_to_centroid": 0.3434340915031758,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 13940,
+      "timeline_end_index": 13940,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 48,
+          "end": 102
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_06_03_0002",
+      "source_section": "chapter_03_06_03",
+      "source_sentence": 13,
+      "character_position": 239,
+      "text": "Я вот только боюсь, чтобы не наслал чёрт Липутина",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.35
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.1960753254262178,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 13946,
+      "timeline_end_index": 13946,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 0,
+          "end": 49
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_06_03_0003",
+      "source_section": "chapter_03_06_03",
+      "source_sentence": 21,
+      "character_position": 240,
+      "text": "Эта мысль уже видимо заходила в голову и Петру Степановичу",
+      "vad": [
+        -0.25,
+        0.2,
+        -0.1
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.3999314177317016,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 13954,
+      "timeline_end_index": 13954,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 0,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_06_03_0004",
+      "source_section": "chapter_03_06_03",
+      "source_sentence": 21,
+      "character_position": 241,
+      "text": "ещё более его рассердило",
+      "vad": [
+        -0.75,
+        0.75,
+        0.1
+      ],
+      "cluster_id": "petr_verkhovenskii-4",
+      "distance_to_centroid": 0.2655041049627408,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 13954,
+      "timeline_end_index": 13954,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 86,
+          "end": 110
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_06_03_0005",
+      "source_section": "chapter_03_06_03",
+      "source_sentence": 22,
+      "character_position": 242,
+      "text": "Я на вас больше чем на всех их надеюсь",
+      "vad": [
+        0.65,
+        0.2,
+        0.35
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.2351975034649549,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 13955,
+      "timeline_end_index": 13955,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 0,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_06_03_0007",
+      "source_section": "chapter_03_06_03",
+      "source_sentence": 47,
+      "character_position": 243,
+      "text": "Я, знаете, не желал бы, чтобы здешняя кучка рассыпалась",
+      "vad": [
+        -0.2,
+        0.1,
+        0.1
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.2242286159753528,
+      "warning": null,
+      "chapter_sentence_start": 47,
+      "chapter_sentence_end": 47,
+      "timeline_start_index": 13980,
+      "timeline_end_index": 13980,
+      "highlights": [
+        {
+          "chapter_sentence": 47,
+          "start": 0,
+          "end": 55
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_06_03_0008",
+      "source_section": "chapter_03_06_03",
+      "source_sentence": 48,
+      "character_position": 244,
+      "text": "Я-то не боюсь",
+      "vad": [
+        0.35,
+        0.1,
+        0.7
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.5015740088220308,
+      "warning": null,
+      "chapter_sentence_start": 48,
+      "chapter_sentence_end": 48,
+      "timeline_start_index": 13981,
+      "timeline_end_index": 13981,
+      "highlights": [
+        {
+          "chapter_sentence": 48,
+          "start": 0,
+          "end": 13
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_06_03_0009",
+      "source_section": "chapter_03_06_03",
+      "source_sentence": 48,
+      "character_position": 245,
+      "text": "мне нечего особенно дорожить",
+      "vad": [
+        -0.15,
+        -0.2,
+        0.25
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.1960743198098335,
+      "warning": null,
+      "chapter_sentence_start": 48,
+      "chapter_sentence_end": 48,
+      "timeline_start_index": 13981,
+      "timeline_end_index": 13981,
+      "highlights": [
+        {
+          "chapter_sentence": 48,
+          "start": 80,
+          "end": 108
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_06_03_0010",
+      "source_section": "chapter_03_06_03",
+      "source_sentence": 49,
+      "character_position": 246,
+      "text": "я за вас спокоен",
+      "vad": [
+        0.65,
+        -0.1,
+        0.7
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.6254575732861304,
+      "warning": null,
+      "chapter_sentence_start": 49,
+      "chapter_sentence_end": 49,
+      "timeline_start_index": 13982,
+      "timeline_end_index": 13982,
+      "highlights": [
+        {
+          "chapter_sentence": 49,
+          "start": 9,
+          "end": 25
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_06_03_0012",
+      "source_section": "chapter_03_06_03",
+      "source_sentence": 77,
+      "character_position": 247,
+      "text": "ужасно люблю",
+      "vad": [
+        0.85,
+        0.55,
+        0.0
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.4906089848147656,
+      "warning": null,
+      "chapter_sentence_start": 77,
+      "chapter_sentence_end": 77,
+      "timeline_start_index": 14010,
+      "timeline_end_index": 14010,
+      "highlights": [
+        {
+          "chapter_sentence": 77,
+          "start": 28,
+          "end": 40
+        }
+      ]
+    }
+  ]
+}

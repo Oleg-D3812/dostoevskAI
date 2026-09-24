@@ -1,0 +1,451 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "stepan_verkhovenskii",
+  "chapter_id": "1_2_7",
+  "count": 17,
+  "fragments": [
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_07_0001",
+      "source_section": "chapter_01_02_07",
+      "source_sentence": 16,
+      "character_position": 137,
+      "text": "сам влюбился в прелестного ребёнка",
+      "vad": [
+        0.9,
+        0.7,
+        0.1
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.4613772383399238,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 1179,
+      "timeline_end_index": 1179,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 6,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_07_0002",
+      "source_section": "chapter_01_02_07",
+      "source_sentence": 21,
+      "character_position": 138,
+      "text": "Степан Трофимович тоже, от восторга.",
+      "vad": [
+        0.9,
+        0.7,
+        0.0
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.4906960618579724,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 1184,
+      "timeline_end_index": 1184,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 0,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_07_0003",
+      "source_section": "chapter_01_02_07",
+      "source_sentence": 25,
+      "character_position": 139,
+      "text": "он был вдруг поражён её миловидностию",
+      "vad": [
+        0.7,
+        0.55,
+        -0.1
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.3559694927928266,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 1188,
+      "timeline_end_index": 1188,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 39,
+          "end": 76
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_07_0004",
+      "source_section": "chapter_01_02_07",
+      "source_sentence": 32,
+      "character_position": 140,
+      "text": "Степан Трофимович покоробился",
+      "vad": [
+        -0.65,
+        0.25,
+        -0.2
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.3699245015816529,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 1195,
+      "timeline_end_index": 1195,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 0,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_07_0005",
+      "source_section": "chapter_01_02_07",
+      "source_sentence": 34,
+      "character_position": 141,
+      "text": "ничего не предчувствовал",
+      "vad": [
+        0.0,
+        -0.2,
+        0.0
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.472126000554774,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 1197,
+      "timeline_end_index": 1197,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 38,
+          "end": 62
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_07_0006",
+      "source_section": "chapter_01_02_07",
+      "source_sentence": 35,
+      "character_position": 142,
+      "text": "В грустном раздумьи",
+      "vad": [
+        -0.6,
+        -0.2,
+        -0.2
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.3698096396122915,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 1198,
+      "timeline_end_index": 1198,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 0,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_07_0007",
+      "source_section": "chapter_01_02_07",
+      "source_sentence": 40,
+      "character_position": 143,
+      "text": "Он до того был поражён",
+      "vad": [
+        -0.35,
+        0.75,
+        -0.45
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.3891668722121182,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 1203,
+      "timeline_end_index": 1203,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 0,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_07_0008",
+      "source_section": "chapter_01_02_07",
+      "source_sentence": 75,
+      "character_position": 144,
+      "text": "Слышал всё, но ясно не мог сообразить.",
+      "vad": [
+        -0.55,
+        0.25,
+        -0.5
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.3608910740687451,
+      "warning": null,
+      "chapter_sentence_start": 75,
+      "chapter_sentence_end": 75,
+      "timeline_start_index": 1238,
+      "timeline_end_index": 1238,
+      "highlights": [
+        {
+          "chapter_sentence": 75,
+          "start": 0,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_07_0009",
+      "source_section": "chapter_01_02_07",
+      "source_sentence": 93,
+      "character_position": 145,
+      "text": "О, пустой, пустой, малодушный человек!",
+      "vad": [
+        -0.9,
+        0.78,
+        0.65
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 1.1064193349329952,
+      "warning": null,
+      "chapter_sentence_start": 93,
+      "chapter_sentence_end": 93,
+      "timeline_start_index": 1256,
+      "timeline_end_index": 1256,
+      "highlights": [
+        {
+          "chapter_sentence": 93,
+          "start": 0,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_07_0010",
+      "source_section": "chapter_01_02_07",
+      "source_sentence": 101,
+      "character_position": 146,
+      "text": "любящее сердце",
+      "vad": [
+        0.8,
+        0.1,
+        0.1
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.3737500500910563,
+      "warning": null,
+      "chapter_sentence_start": 101,
+      "chapter_sentence_end": 101,
+      "timeline_start_index": 1264,
+      "timeline_end_index": 1264,
+      "highlights": [
+        {
+          "chapter_sentence": 101,
+          "start": 21,
+          "end": 35
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_07_0011",
+      "source_section": "chapter_01_02_07",
+      "source_sentence": 107,
+      "character_position": 147,
+      "text": "уже польщённый ловкою лестью Варвары Петровны",
+      "vad": [
+        0.65,
+        0.2,
+        -0.1
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.3515769704205859,
+      "warning": null,
+      "chapter_sentence_start": 107,
+      "chapter_sentence_end": 107,
+      "timeline_start_index": 1270,
+      "timeline_end_index": 1270,
+      "highlights": [
+        {
+          "chapter_sentence": 107,
+          "start": 30,
+          "end": 75
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_07_0012",
+      "source_section": "chapter_01_02_07",
+      "source_sentence": 114,
+      "character_position": 148,
+      "text": "К тому же вы её любите…",
+      "vad": [
+        0.7,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "stepan_verkhovenskii-3",
+      "distance_to_centroid": 0.1754907792795161,
+      "warning": null,
+      "chapter_sentence_start": 114,
+      "chapter_sentence_end": 114,
+      "timeline_start_index": 1277,
+      "timeline_end_index": 1277,
+      "highlights": [
+        {
+          "chapter_sentence": 114,
+          "start": 0,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_07_0013",
+      "source_section": "chapter_01_02_07",
+      "source_sentence": 116,
+      "character_position": 149,
+      "text": "с которою он никак не мог сладить",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.8
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.3701185685646795,
+      "warning": null,
+      "chapter_sentence_start": 116,
+      "chapter_sentence_end": 116,
+      "timeline_start_index": 1279,
+      "timeline_end_index": 1279,
+      "highlights": [
+        {
+          "chapter_sentence": 116,
+          "start": 29,
+          "end": 62
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_07_0014",
+      "source_section": "chapter_01_02_07",
+      "source_sentence": 118,
+      "character_position": 150,
+      "text": "я… я никогда не мог вообразить, что вы решитесь выдать меня… за другую… женщину!",
+      "vad": [
+        -0.8,
+        0.78,
+        -0.68
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.2803403410604468,
+      "warning": null,
+      "chapter_sentence_start": 118,
+      "chapter_sentence_end": 118,
+      "timeline_start_index": 1281,
+      "timeline_end_index": 1281,
+      "highlights": [
+        {
+          "chapter_sentence": 118,
+          "start": 30,
+          "end": 110
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_07_0015",
+      "source_section": "chapter_01_02_07",
+      "source_sentence": 120,
+      "character_position": 151,
+      "text": "уставился он на неё с потерянным видом",
+      "vad": [
+        -0.7,
+        0.45,
+        -0.8
+      ],
+      "cluster_id": "stepan_verkhovenskii-1",
+      "distance_to_centroid": 0.3145733451561245,
+      "warning": null,
+      "chapter_sentence_start": 120,
+      "chapter_sentence_end": 120,
+      "timeline_start_index": 1283,
+      "timeline_end_index": 1283,
+      "highlights": [
+        {
+          "chapter_sentence": 120,
+          "start": 59,
+          "end": 97
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_07_0016",
+      "source_section": "chapter_01_02_07",
+      "source_sentence": 121,
+      "character_position": 152,
+      "text": "с ним обморок!",
+      "vad": [
+        -0.85,
+        -0.95,
+        -1.0
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 1.4742432487477355,
+      "warning": null,
+      "chapter_sentence_start": 121,
+      "chapter_sentence_end": 121,
+      "timeline_start_index": 1284,
+      "timeline_end_index": 1284,
+      "highlights": [
+        {
+          "chapter_sentence": 121,
+          "start": 68,
+          "end": 82
+        }
+      ]
+    },
+    {
+      "id": "stepan_verkhovenskii::chapter_01_02_07_0017",
+      "source_section": "chapter_01_02_07",
+      "source_sentence": 124,
+      "character_position": 153,
+      "text": "Он очнулся.",
+      "vad": [
+        0.0,
+        0.1,
+        -0.1
+      ],
+      "cluster_id": "stepan_verkhovenskii-2",
+      "distance_to_centroid": 0.4124385709156351,
+      "warning": null,
+      "chapter_sentence_start": 124,
+      "chapter_sentence_end": 124,
+      "timeline_start_index": 1287,
+      "timeline_end_index": 1287,
+      "highlights": [
+        {
+          "chapter_sentence": 124,
+          "start": 0,
+          "end": 11
+        }
+      ]
+    }
+  ]
+}

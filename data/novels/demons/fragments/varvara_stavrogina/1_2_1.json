@@ -3,21 +3,99 @@
   "novel_id": "demons",
   "character_id": "varvara_stavrogina",
   "chapter_id": "1_2_1",
-  "count": 9,
+  "count": 12,
   "fragments": [
     {
       "id": "varvara_stavrogina::chapter_01_02_01_0001",
       "source_section": "chapter_01_02_01",
-      "source_sentence": 35,
-      "character_position": 36,
-      "text": "Варвара Петровна волновалась и тосковала.",
+      "source_sentence": 11,
+      "character_position": 40,
+      "text": "она его очень любит",
       "vad": [
-        -0.6,
-        0.5,
-        -0.3
+        0.7,
+        -0.1,
+        0.0
       ],
       "cluster_id": "varvara_stavrogina-2",
-      "distance_to_centroid": 0.1456867602026277,
+      "distance_to_centroid": 0.4486611884116036,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 537,
+      "timeline_end_index": 537,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 32,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_01_0002",
+      "source_section": "chapter_01_02_01",
+      "source_sentence": 14,
+      "character_position": 41,
+      "text": "Тогда ещё она вполне в него веровала",
+      "vad": [
+        0.6,
+        0.0,
+        0.2
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2461494361434569,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 540,
+      "timeline_end_index": 540,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 0,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_01_0003",
+      "source_section": "chapter_01_02_01",
+      "source_sentence": 28,
+      "character_position": 42,
+      "text": "Её очень интересовали успехи сына в высшем петербургском обществе",
+      "vad": [
+        0.35,
+        0.3,
+        0.0
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2799029161597239,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 554,
+      "timeline_end_index": 554,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 0,
+          "end": 65
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_02_01_0004",
+      "source_section": "chapter_01_02_01",
+      "source_sentence": 35,
+      "character_position": 43,
+      "text": "Варвара Петровна волновалась и тосковала",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.3
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.1588787795489651,
       "warning": null,
       "chapter_sentence_start": 35,
       "chapter_sentence_end": 35,
@@ -27,23 +105,23 @@
         {
           "chapter_sentence": 35,
           "start": 0,
-          "end": 41
+          "end": 40
         }
       ]
     },
     {
-      "id": "varvara_stavrogina::chapter_01_02_01_0002",
+      "id": "varvara_stavrogina::chapter_01_02_01_0005",
       "source_section": "chapter_01_02_01",
       "source_sentence": 37,
-      "character_position": 37,
-      "text": "очень прислушалась",
+      "character_position": 44,
+      "text": "с чрезвычайным вниманием прочла бессмертную хронику",
       "vad": [
-        0.0,
+        0.15,
         0.45,
-        0.0
+        0.1
       ],
-      "cluster_id": "varvara_stavrogina-1",
-      "distance_to_centroid": 0.573095532870322,
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.4250874039668816,
       "warning": null,
       "chapter_sentence_start": 37,
       "chapter_sentence_end": 37,
@@ -52,24 +130,24 @@
       "highlights": [
         {
           "chapter_sentence": 37,
-          "start": 152,
-          "end": 170
+          "start": 230,
+          "end": 281
         }
       ]
     },
     {
-      "id": "varvara_stavrogina::chapter_01_02_01_0003",
+      "id": "varvara_stavrogina::chapter_01_02_01_0006",
       "source_section": "chapter_01_02_01",
       "source_sentence": 38,
-      "character_position": 38,
+      "character_position": 45,
       "text": "хроника её не успокоила",
       "vad": [
-        -0.65,
-        0.45,
-        -0.2
+        -0.45,
+        0.4,
+        -0.1
       ],
-      "cluster_id": "varvara_stavrogina-2",
-      "distance_to_centroid": 0.2229902062834553,
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.3689774190243181,
       "warning": null,
       "chapter_sentence_start": 38,
       "chapter_sentence_end": 38,
@@ -84,18 +162,18 @@
       ]
     },
     {
-      "id": "varvara_stavrogina::chapter_01_02_01_0004",
+      "id": "varvara_stavrogina::chapter_01_02_01_0007",
       "source_section": "chapter_01_02_01",
       "source_sentence": 39,
-      "character_position": 39,
-      "text": "Она лихорадочно ждала ответов на несколько своих писем.",
+      "character_position": 46,
+      "text": "Она лихорадочно ждала ответов на несколько своих писем",
       "vad": [
-        -0.45,
+        -0.55,
         0.82,
-        -0.28
+        -0.48
       ],
-      "cluster_id": "varvara_stavrogina-2",
-      "distance_to_centroid": 0.425134220902703,
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.3747378388945796,
       "warning": null,
       "chapter_sentence_start": 39,
       "chapter_sentence_end": 39,
@@ -105,23 +183,23 @@
         {
           "chapter_sentence": 39,
           "start": 0,
-          "end": 55
+          "end": 54
         }
       ]
     },
     {
-      "id": "varvara_stavrogina::chapter_01_02_01_0005",
+      "id": "varvara_stavrogina::chapter_01_02_01_0008",
       "source_section": "chapter_01_02_01",
       "source_sentence": 67,
-      "character_position": 40,
-      "text": "Варвара Петровна смотрела на него с гордостию, но постоянно с беспокойством.",
+      "character_position": 47,
+      "text": "Варвара Петровна смотрела на него с гордостию, но постоянно с беспокойством",
       "vad": [
-        -0.2,
-        0.25,
-        0.1
+        -0.15,
+        0.4,
+        -0.2
       ],
-      "cluster_id": "varvara_stavrogina-3",
-      "distance_to_centroid": 0.4415542018469811,
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.5346799542781236,
       "warning": null,
       "chapter_sentence_start": 67,
       "chapter_sentence_end": 67,
@@ -131,23 +209,23 @@
         {
           "chapter_sentence": 67,
           "start": 0,
-          "end": 76
+          "end": 75
         }
       ]
     },
     {
-      "id": "varvara_stavrogina::chapter_01_02_01_0006",
+      "id": "varvara_stavrogina::chapter_01_02_01_0009",
       "source_section": "chapter_01_02_01",
       "source_sentence": 82,
-      "character_position": 41,
+      "character_position": 48,
       "text": "сын явился пред нею теперь как бы в виде новой надежды и даже в виде какой-то новой мечты",
       "vad": [
-        0.72,
-        0.38,
-        0.08
+        0.7,
+        0.35,
+        0.1
       ],
-      "cluster_id": "varvara_stavrogina-1",
-      "distance_to_centroid": 0.3506299287550558,
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2999053241446824,
       "warning": null,
       "chapter_sentence_start": 82,
       "chapter_sentence_end": 82,
@@ -162,18 +240,18 @@
       ]
     },
     {
-      "id": "varvara_stavrogina::chapter_01_02_01_0007",
+      "id": "varvara_stavrogina::chapter_01_02_01_0010",
       "source_section": "chapter_01_02_01",
       "source_sentence": 83,
-      "character_position": 42,
-      "text": "Страсть её к сыну началась со времени удач его в петербургском обществе и особенно усилилась с той минуты, когда получено было известие о разжаловании его в солдаты.",
+      "character_position": 49,
+      "text": "Страсть её к сыну началась со времени удач его в петербургском обществе и особенно усилилась с той минуты, когда получено было известие о разжаловании его в солдаты",
       "vad": [
-        0.55,
-        0.45,
-        0.2
+        0.5,
+        0.75,
+        0.0
       ],
-      "cluster_id": "varvara_stavrogina-1",
-      "distance_to_centroid": 0.1758527909406974,
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.5912300394498643,
       "warning": null,
       "chapter_sentence_start": 83,
       "chapter_sentence_end": 83,
@@ -183,23 +261,23 @@
         {
           "chapter_sentence": 83,
           "start": 0,
-          "end": 165
+          "end": 164
         }
       ]
     },
     {
-      "id": "varvara_stavrogina::chapter_01_02_01_0008",
+      "id": "varvara_stavrogina::chapter_01_02_01_0011",
       "source_section": "chapter_01_02_01",
       "source_sentence": 84,
-      "character_position": 43,
-      "text": "она очевидно боялась его и казалась пред ним словно рабой",
+      "character_position": 50,
+      "text": "А между тем она очевидно боялась его и казалась пред ним словно рабой",
       "vad": [
         -0.85,
-        0.55,
+        0.65,
         -0.9
       ],
-      "cluster_id": "varvara_stavrogina-2",
-      "distance_to_centroid": 0.5140278514811604,
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.5647010947430975,
       "warning": null,
       "chapter_sentence_start": 84,
       "chapter_sentence_end": 84,
@@ -208,24 +286,24 @@
       "highlights": [
         {
           "chapter_sentence": 84,
-          "start": 12,
+          "start": 0,
           "end": 69
         }
       ]
     },
     {
-      "id": "varvara_stavrogina::chapter_01_02_01_0009",
+      "id": "varvara_stavrogina::chapter_01_02_01_0012",
       "source_section": "chapter_01_02_01",
       "source_sentence": 85,
-      "character_position": 44,
-      "text": "она боялась чего-то неопределённого, таинственного, чего и сама не могла бы высказать",
+      "character_position": 51,
+      "text": "Заметно было, что она боялась чего-то неопределённого, таинственного, чего и сама не могла бы высказать",
       "vad": [
-        -0.72,
-        0.48,
-        -0.62
+        -0.75,
+        0.55,
+        -0.65
       ],
-      "cluster_id": "varvara_stavrogina-2",
-      "distance_to_centroid": 0.2082531366881258,
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.2777991597053971,
       "warning": null,
       "chapter_sentence_start": 85,
       "chapter_sentence_end": 85,
@@ -234,7 +312,7 @@
       "highlights": [
         {
           "chapter_sentence": 85,
-          "start": 18,
+          "start": 0,
           "end": 103
         }
       ]

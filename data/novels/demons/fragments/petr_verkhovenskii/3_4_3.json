@@ -1,0 +1,451 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "petr_verkhovenskii",
+  "chapter_id": "3_4_3",
+  "count": 17,
+  "fragments": [
+    {
+      "id": "petr_verkhovenskii::chapter_03_04_03_0001",
+      "source_section": "chapter_03_04_03",
+      "source_sentence": 6,
+      "character_position": 175,
+      "text": "с некоторым беспокойством приглядываясь ко встревожившемуся Кириллову",
+      "vad": [
+        -0.25,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.4671136252443177,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 12131,
+      "timeline_end_index": 12131,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 30,
+          "end": 99
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_04_03_0002",
+      "source_section": "chapter_03_04_03",
+      "source_sentence": 24,
+      "character_position": 176,
+      "text": "кисловато заметил Пётр Степанович",
+      "vad": [
+        -0.35,
+        0.15,
+        0.1
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.3649590920759324,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 12149,
+      "timeline_end_index": 12149,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 30,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_04_03_0006",
+      "source_section": "chapter_03_04_03",
+      "source_sentence": 59,
+      "character_position": 177,
+      "text": "всё более и более сердясь и беспокоясь и не находя надлежащего тона",
+      "vad": [
+        -0.78,
+        0.74,
+        -0.38
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.2006128940048401,
+      "warning": null,
+      "chapter_sentence_start": 59,
+      "chapter_sentence_end": 59,
+      "timeline_start_index": 12184,
+      "timeline_end_index": 12184,
+      "highlights": [
+        {
+          "chapter_sentence": 59,
+          "start": 46,
+          "end": 113
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_04_03_0007",
+      "source_section": "chapter_03_04_03",
+      "source_sentence": 62,
+      "character_position": 178,
+      "text": "И вы, право, меня беспокоите",
+      "vad": [
+        -0.45,
+        0.35,
+        -0.2
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.4181233217465461,
+      "warning": null,
+      "chapter_sentence_start": 62,
+      "chapter_sentence_end": 62,
+      "timeline_start_index": 12187,
+      "timeline_end_index": 12187,
+      "highlights": [
+        {
+          "chapter_sentence": 62,
+          "start": 0,
+          "end": 28
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_04_03_0008",
+      "source_section": "chapter_03_04_03",
+      "source_sentence": 44,
+      "character_position": 179,
+      "text": "очень рад рассмешить",
+      "vad": [
+        0.65,
+        0.3,
+        0.15
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.2538135416245743,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 12169,
+      "timeline_end_index": 12169,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 15,
+          "end": 35
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_04_03_0009",
+      "source_section": "chapter_03_04_03",
+      "source_sentence": 45,
+      "character_position": 180,
+      "text": "Я всегда рад, если могу угодить",
+      "vad": [
+        0.2,
+        0.1,
+        0.3
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.3682550821856442,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 12170,
+      "timeline_end_index": 12170,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 0,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_04_03_0010",
+      "source_section": "chapter_03_04_03",
+      "source_sentence": 69,
+      "character_position": 181,
+      "text": "Очень рад, очень рад",
+      "vad": [
+        -0.2,
+        0.3,
+        0.4
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.4898419529694133,
+      "warning": null,
+      "chapter_sentence_start": 69,
+      "chapter_sentence_end": 69,
+      "timeline_start_index": 12194,
+      "timeline_end_index": 12194,
+      "highlights": [
+        {
+          "chapter_sentence": 69,
+          "start": 2,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_04_03_0011",
+      "source_section": "chapter_03_04_03",
+      "source_sentence": 70,
+      "character_position": 182,
+      "text": "очень рад доставить развлечение",
+      "vad": [
+        -0.35,
+        0.25,
+        0.55
+      ],
+      "cluster_id": "petr_verkhovenskii-4",
+      "distance_to_centroid": 0.5656626626655542,
+      "warning": null,
+      "chapter_sentence_start": 70,
+      "chapter_sentence_end": 70,
+      "timeline_start_index": 12195,
+      "timeline_end_index": 12195,
+      "highlights": [
+        {
+          "chapter_sentence": 70,
+          "start": 18,
+          "end": 49
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_04_03_0012",
+      "source_section": "chapter_03_04_03",
+      "source_sentence": 121,
+      "character_position": 183,
+      "text": "совсем его закружили",
+      "vad": [
+        -0.7,
+        0.6,
+        -0.5
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.0686199033497866,
+      "warning": null,
+      "chapter_sentence_start": 121,
+      "chapter_sentence_end": 121,
+      "timeline_start_index": 12246,
+      "timeline_end_index": 12246,
+      "highlights": [
+        {
+          "chapter_sentence": 121,
+          "start": 27,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_04_03_0013",
+      "source_section": "chapter_03_04_03",
+      "source_sentence": 96,
+      "character_position": 184,
+      "text": "гневно покраснел Пётр Степанович",
+      "vad": [
+        -0.8,
+        0.8,
+        0.3
+      ],
+      "cluster_id": "petr_verkhovenskii-4",
+      "distance_to_centroid": 0.190505721048125,
+      "warning": null,
+      "chapter_sentence_start": 96,
+      "chapter_sentence_end": 96,
+      "timeline_start_index": 12221,
+      "timeline_end_index": 12221,
+      "highlights": [
+        {
+          "chapter_sentence": 96,
+          "start": 2,
+          "end": 34
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_04_03_0014",
+      "source_section": "chapter_03_04_03",
+      "source_sentence": 142,
+      "character_position": 185,
+      "text": "вошёл в чрезмерный гнев",
+      "vad": [
+        -0.85,
+        0.9,
+        0.45
+      ],
+      "cluster_id": "petr_verkhovenskii-4",
+      "distance_to_centroid": 0.315481843199303,
+      "warning": null,
+      "chapter_sentence_start": 142,
+      "chapter_sentence_end": 142,
+      "timeline_start_index": 12267,
+      "timeline_end_index": 12267,
+      "highlights": [
+        {
+          "chapter_sentence": 142,
+          "start": 16,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_04_03_0015",
+      "source_section": "chapter_03_04_03",
+      "source_sentence": 149,
+      "character_position": 186,
+      "text": "остервенился Пётр Степанович",
+      "vad": [
+        -0.85,
+        0.95,
+        0.35
+      ],
+      "cluster_id": "petr_verkhovenskii-4",
+      "distance_to_centroid": 0.3366839261320657,
+      "warning": null,
+      "chapter_sentence_start": 149,
+      "chapter_sentence_end": 149,
+      "timeline_start_index": 12274,
+      "timeline_end_index": 12274,
+      "highlights": [
+        {
+          "chapter_sentence": 149,
+          "start": 20,
+          "end": 48
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_04_03_0016",
+      "source_section": "chapter_03_04_03",
+      "source_sentence": 154,
+      "character_position": 187,
+      "text": "ошалел, выпучил глаза, что-то пробормотал и вдруг грохнулся со всего росту на пол",
+      "vad": [
+        -0.9,
+        0.8,
+        -0.95
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.5833530632463431,
+      "warning": null,
+      "chapter_sentence_start": 154,
+      "chapter_sentence_end": 154,
+      "timeline_start_index": 12279,
+      "timeline_end_index": 12279,
+      "highlights": [
+        {
+          "chapter_sentence": 154,
+          "start": 16,
+          "end": 97
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_04_03_0017",
+      "source_section": "chapter_03_04_03",
+      "source_sentence": 162,
+      "character_position": 188,
+      "text": "бессмысленно смотрел пред собою",
+      "vad": [
+        -0.35,
+        -0.55,
+        -0.7
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.987097667688236,
+      "warning": null,
+      "chapter_sentence_start": 162,
+      "chapter_sentence_end": 162,
+      "timeline_start_index": 12287,
+      "timeline_end_index": 12287,
+      "highlights": [
+        {
+          "chapter_sentence": 162,
+          "start": 53,
+          "end": 84
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_04_03_0018",
+      "source_section": "chapter_03_04_03",
+      "source_sentence": 165,
+      "character_position": 189,
+      "text": "всё ещё не узнавая",
+      "vad": [
+        -0.45,
+        -0.3,
+        -0.55
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.8028772045310264,
+      "warning": null,
+      "chapter_sentence_start": 165,
+      "chapter_sentence_end": 165,
+      "timeline_start_index": 12290,
+      "timeline_end_index": 12290,
+      "highlights": [
+        {
+          "chapter_sentence": 165,
+          "start": 18,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_04_03_0019",
+      "source_section": "chapter_03_04_03",
+      "source_sentence": 166,
+      "character_position": 190,
+      "text": "исступлённо накинулся он на Кириллова, весь бледный, заикаясь и неточно выговаривая слова",
+      "vad": [
+        -0.9,
+        0.95,
+        0.35
+      ],
+      "cluster_id": "petr_verkhovenskii-4",
+      "distance_to_centroid": 0.3656148901971637,
+      "warning": null,
+      "chapter_sentence_start": 166,
+      "chapter_sentence_end": 166,
+      "timeline_start_index": 12291,
+      "timeline_end_index": 12291,
+      "highlights": [
+        {
+          "chapter_sentence": 166,
+          "start": 60,
+          "end": 149
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_03_04_03_0020",
+      "source_section": "chapter_03_04_03",
+      "source_sentence": 167,
+      "character_position": 191,
+      "text": "опомнившись наконец совершенно",
+      "vad": [
+        0.1,
+        -0.1,
+        0.6
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.5085388928642092,
+      "warning": null,
+      "chapter_sentence_start": 167,
+      "chapter_sentence_end": 167,
+      "timeline_start_index": 12292,
+      "timeline_end_index": 12292,
+      "highlights": [
+        {
+          "chapter_sentence": 167,
+          "start": 72,
+          "end": 102
+        }
+      ]
+    }
+  ]
+}

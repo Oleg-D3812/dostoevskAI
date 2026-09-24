@@ -3,21 +3,47 @@
   "novel_id": "demons",
   "character_id": "nikolai_stavrogin",
   "chapter_id": "2_3_1",
-  "count": 1,
+  "count": 3,
   "fragments": [
     {
       "id": "nikolai_stavrogin::chapter_02_03_01_0001",
       "source_section": "chapter_02_03_01",
+      "source_sentence": 8,
+      "character_position": 181,
+      "text": "что тот бесстыдный трус",
+      "vad": [
+        -0.8,
+        0.4,
+        0.5
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.3069856125679692,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 5933,
+      "timeline_end_index": 5933,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 21,
+          "end": 44
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_03_01_0002",
+      "source_section": "chapter_02_03_01",
       "source_sentence": 34,
-      "character_position": 230,
+      "character_position": 182,
       "text": "Он казался очень усталым",
       "vad": [
-        -0.45,
         -0.55,
-        0.0
+        -0.45,
+        -0.1
       ],
       "cluster_id": "nikolai_stavrogin-1",
-      "distance_to_centroid": 0.7545838207121882,
+      "distance_to_centroid": 0.4472895649147841,
       "warning": null,
       "chapter_sentence_start": 34,
       "chapter_sentence_end": 34,
@@ -28,6 +54,32 @@
           "chapter_sentence": 34,
           "start": 0,
           "end": 24
+        }
+      ]
+    },
+    {
+      "id": "nikolai_stavrogin::chapter_02_03_01_0003",
+      "source_section": "chapter_02_03_01",
+      "source_sentence": 34,
+      "character_position": 183,
+      "text": "своё неприятное расположение духа",
+      "vad": [
+        -0.7,
+        0.0,
+        0.0
+      ],
+      "cluster_id": "nikolai_stavrogin-3",
+      "distance_to_centroid": 0.5357405567077307,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 5959,
+      "timeline_end_index": 5959,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 82,
+          "end": 115
         }
       ]
     }

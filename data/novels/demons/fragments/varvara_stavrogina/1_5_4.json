@@ -6,44 +6,44 @@
   "count": 8,
   "fragments": [
     {
-      "id": "varvara_stavrogina::chapter_01_05_04_0002",
+      "id": "varvara_stavrogina::chapter_01_05_04_0001",
       "source_section": "chapter_01_05_04",
-      "source_sentence": 25,
-      "character_position": 156,
-      "text": "безжалостно долго, целую минуту выдержала его в таком положении, беспощадно его разглядывая",
+      "source_sentence": 54,
+      "character_position": 163,
+      "text": "торопливо и с некоторым испугом проговорила Варвара Петровна",
       "vad": [
-        -0.9,
-        0.5,
-        -0.8
+        -0.45,
+        0.55,
+        -0.25
       ],
-      "cluster_id": "varvara_stavrogina-2",
-      "distance_to_centroid": 0.4390041367667712,
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.2626152426200529,
       "warning": null,
-      "chapter_sentence_start": 25,
-      "chapter_sentence_end": 25,
-      "timeline_start_index": 3480,
-      "timeline_end_index": 3480,
+      "chapter_sentence_start": 54,
+      "chapter_sentence_end": 54,
+      "timeline_start_index": 3509,
+      "timeline_end_index": 3509,
       "highlights": [
         {
-          "chapter_sentence": 25,
-          "start": 17,
-          "end": 108
+          "chapter_sentence": 54,
+          "start": 37,
+          "end": 97
         }
       ]
     },
     {
-      "id": "varvara_stavrogina::chapter_01_05_04_0004",
+      "id": "varvara_stavrogina::chapter_01_05_04_0002",
       "source_section": "chapter_01_05_04",
       "source_sentence": 58,
-      "character_position": 157,
+      "character_position": 164,
       "text": "совсем уже, наконец, испугалась она и даже попятилась в креслах",
       "vad": [
-        -0.82,
-        0.78,
+        -0.85,
+        0.8,
         -0.7
       ],
-      "cluster_id": "varvara_stavrogina-2",
-      "distance_to_centroid": 0.423252942282708,
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.4925941622137268,
       "warning": null,
       "chapter_sentence_start": 58,
       "chapter_sentence_end": 58,
@@ -58,44 +58,70 @@
       ]
     },
     {
-      "id": "varvara_stavrogina::chapter_01_05_04_0005",
+      "id": "varvara_stavrogina::chapter_01_05_04_0003",
       "source_section": "chapter_01_05_04",
-      "source_sentence": 84,
-      "character_position": 158,
-      "text": "как-то не так уже твёрдо спросила Варвара Петровна",
+      "source_sentence": 78,
+      "character_position": 165,
+      "text": "Очень жалею, милостивый государь, что я ошиблась насчёт вашей сестры и подала ей на бедность, когда она так богата.",
       "vad": [
-        -0.28,
-        0.22,
-        0.28
+        -0.45,
+        0.25,
+        0.65
       ],
       "cluster_id": "varvara_stavrogina-3",
-      "distance_to_centroid": 0.3512118204137697,
+      "distance_to_centroid": 0.3934987761453019,
       "warning": null,
-      "chapter_sentence_start": 84,
-      "chapter_sentence_end": 84,
-      "timeline_start_index": 3539,
-      "timeline_end_index": 3539,
+      "chapter_sentence_start": 78,
+      "chapter_sentence_end": 78,
+      "timeline_start_index": 3533,
+      "timeline_end_index": 3533,
       "highlights": [
         {
-          "chapter_sentence": 84,
-          "start": 2,
-          "end": 52
+          "chapter_sentence": 78,
+          "start": 0,
+          "end": 115
         }
       ]
     },
     {
-      "id": "varvara_stavrogina::chapter_01_05_04_0006",
+      "id": "varvara_stavrogina::chapter_01_05_04_0004",
       "source_section": "chapter_01_05_04",
-      "source_sentence": 118,
-      "character_position": 159,
-      "text": "рассердилась наконец Варвара Петровна",
+      "source_sentence": 80,
+      "character_position": 166,
+      "text": "Вы так на этом настаивали, что я желаю совершенно точного объяснения.",
       "vad": [
-        -0.65,
-        0.55,
-        0.2
+        -0.05,
+        0.28,
+        0.42
       ],
       "cluster_id": "varvara_stavrogina-3",
-      "distance_to_centroid": 0.1831254432992288,
+      "distance_to_centroid": 0.5250308360295362,
+      "warning": null,
+      "chapter_sentence_start": 80,
+      "chapter_sentence_end": 80,
+      "timeline_start_index": 3535,
+      "timeline_end_index": 3535,
+      "highlights": [
+        {
+          "chapter_sentence": 80,
+          "start": 0,
+          "end": 69
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_05_04_0005",
+      "source_section": "chapter_01_05_04",
+      "source_sentence": 118,
+      "character_position": 167,
+      "text": "рассердилась наконец Варвара Петровна",
+      "vad": [
+        -0.75,
+        0.8,
+        0.35
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.4206548255163006,
       "warning": null,
       "chapter_sentence_start": 118,
       "chapter_sentence_end": 118,
@@ -110,18 +136,18 @@
       ]
     },
     {
-      "id": "varvara_stavrogina::chapter_01_05_04_0007",
+      "id": "varvara_stavrogina::chapter_01_05_04_0006",
       "source_section": "chapter_01_05_04",
       "source_sentence": 125,
-      "character_position": 160,
+      "character_position": 168,
       "text": "гневалась и теряла терпение Варвара Петровна",
       "vad": [
-        -0.75,
-        0.7,
-        -0.2
+        -0.8,
+        0.75,
+        -0.35
       ],
-      "cluster_id": "varvara_stavrogina-2",
-      "distance_to_centroid": 0.3021757078491375,
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.3368482828461345,
       "warning": null,
       "chapter_sentence_start": 125,
       "chapter_sentence_end": 125,
@@ -136,18 +162,18 @@
       ]
     },
     {
-      "id": "varvara_stavrogina::chapter_01_05_04_0009",
+      "id": "varvara_stavrogina::chapter_01_05_04_0007",
       "source_section": "chapter_01_05_04",
       "source_sentence": 156,
-      "character_position": 161,
-      "text": "Варвара Петровна рассердилась ужасно",
+      "character_position": 169,
+      "text": "Варвара Петровна рассердилась ужасно.",
       "vad": [
         -0.85,
         0.85,
-        0.25
+        0.1
       ],
       "cluster_id": "varvara_stavrogina-3",
-      "distance_to_centroid": 0.5023442473029365,
+      "distance_to_centroid": 0.559563581526156,
       "warning": null,
       "chapter_sentence_start": 156,
       "chapter_sentence_end": 156,
@@ -157,49 +183,23 @@
         {
           "chapter_sentence": 156,
           "start": 0,
-          "end": 36
+          "end": 37
         }
       ]
     },
     {
-      "id": "varvara_stavrogina::chapter_01_05_04_0010",
-      "source_section": "chapter_01_05_04",
-      "source_sentence": 180,
-      "character_position": 162,
-      "text": "сперва она побледнела, но вдруг глаза её засверкали",
-      "vad": [
-        0.15,
-        0.85,
-        0.2
-      ],
-      "cluster_id": "varvara_stavrogina-1",
-      "distance_to_centroid": 0.6010074195609791,
-      "warning": null,
-      "chapter_sentence_start": 180,
-      "chapter_sentence_end": 180,
-      "timeline_start_index": 3635,
-      "timeline_end_index": 3635,
-      "highlights": [
-        {
-          "chapter_sentence": 180,
-          "start": 41,
-          "end": 92
-        }
-      ]
-    },
-    {
-      "id": "varvara_stavrogina::chapter_01_05_04_0011",
+      "id": "varvara_stavrogina::chapter_01_05_04_0008",
       "source_section": "chapter_01_05_04",
       "source_sentence": 181,
-      "character_position": 163,
+      "character_position": 170,
       "text": "с видом необычной решимости",
       "vad": [
         0.2,
-        0.45,
+        0.35,
         0.75
       ],
-      "cluster_id": "varvara_stavrogina-1",
-      "distance_to_centroid": 0.5149160026605488,
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.6005113946942592,
       "warning": null,
       "chapter_sentence_start": 181,
       "chapter_sentence_end": 181,

@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "petr_verkhovenskii",
+  "chapter_id": "1_5_7",
+  "count": 7,
+  "fragments": [
+    {
+      "id": "petr_verkhovenskii::chapter_01_05_07_0002",
+      "source_section": "chapter_01_05_07",
+      "source_sentence": 126,
+      "character_position": 21,
+      "text": "я-то вот именно чего-то и не знаю",
+      "vad": [
+        -0.35,
+        0.25,
+        -0.45
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.4686747908270582,
+      "warning": null,
+      "chapter_sentence_start": 126,
+      "chapter_sentence_end": 126,
+      "timeline_start_index": 4066,
+      "timeline_end_index": 4066,
+      "highlights": [
+        {
+          "chapter_sentence": 126,
+          "start": 145,
+          "end": 178
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_01_05_07_0003",
+      "source_section": "chapter_01_05_07",
+      "source_sentence": 130,
+      "character_position": 22,
+      "text": "как бы испугался и ещё пуще заторопился Пётр Степанович",
+      "vad": [
+        -0.72,
+        0.78,
+        -0.48
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.1837711866165937,
+      "warning": null,
+      "chapter_sentence_start": 130,
+      "chapter_sentence_end": 130,
+      "timeline_start_index": 4070,
+      "timeline_end_index": 4070,
+      "highlights": [
+        {
+          "chapter_sentence": 130,
+          "start": 58,
+          "end": 113
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_01_05_07_0004",
+      "source_section": "chapter_01_05_07",
+      "source_sentence": 138,
+      "character_position": 23,
+      "text": "он меня напугал, и я действительно приготовился отчасти «спасать» его",
+      "vad": [
+        -0.55,
+        0.65,
+        0.2
+      ],
+      "cluster_id": "petr_verkhovenskii-4",
+      "distance_to_centroid": 0.1853293695198136,
+      "warning": null,
+      "chapter_sentence_start": 138,
+      "chapter_sentence_end": 138,
+      "timeline_start_index": 4078,
+      "timeline_end_index": 4078,
+      "highlights": [
+        {
+          "chapter_sentence": 138,
+          "start": 143,
+          "end": 212
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_01_05_07_0005",
+      "source_section": "chapter_01_05_07",
+      "source_sentence": 139,
+      "character_position": 24,
+      "text": "Мне, наконец, и самому совестно",
+      "vad": [
+        -0.55,
+        0.2,
+        -0.15
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.5247036823709443,
+      "warning": null,
+      "chapter_sentence_start": 139,
+      "chapter_sentence_end": 139,
+      "timeline_start_index": 4079,
+      "timeline_end_index": 4079,
+      "highlights": [
+        {
+          "chapter_sentence": 139,
+          "start": 0,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_01_05_07_0006",
+      "source_section": "chapter_01_05_07",
+      "source_sentence": 145,
+      "character_position": 25,
+      "text": "я ведь вот уверен, что вы пожалуй осуждаете меня теперь",
+      "vad": [
+        -0.45,
+        0.28,
+        -0.5
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.3886965486407202,
+      "warning": null,
+      "chapter_sentence_start": 145,
+      "chapter_sentence_end": 145,
+      "timeline_start_index": 4085,
+      "timeline_end_index": 4085,
+      "highlights": [
+        {
+          "chapter_sentence": 145,
+          "start": 22,
+          "end": 77
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_01_05_07_0007",
+      "source_section": "chapter_01_05_07",
+      "source_sentence": 146,
+      "character_position": 26,
+      "text": "выведены из терпения",
+      "vad": [
+        -0.8,
+        0.8,
+        -0.4
+      ],
+      "cluster_id": "petr_verkhovenskii-2",
+      "distance_to_centroid": 0.249152788843243,
+      "warning": null,
+      "chapter_sentence_start": 146,
+      "chapter_sentence_end": 146,
+      "timeline_start_index": 4086,
+      "timeline_end_index": 4086,
+      "highlights": [
+        {
+          "chapter_sentence": 146,
+          "start": 37,
+          "end": 57
+        }
+      ]
+    },
+    {
+      "id": "petr_verkhovenskii::chapter_01_05_07_0008",
+      "source_section": "chapter_01_05_07",
+      "source_sentence": 170,
+      "character_position": 27,
+      "text": "я теперь всё понимаю",
+      "vad": [
+        0.1,
+        0.45,
+        0.65
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.5324866228997515,
+      "warning": null,
+      "chapter_sentence_start": 170,
+      "chapter_sentence_end": 170,
+      "timeline_start_index": 4110,
+      "timeline_end_index": 4110,
+      "highlights": [
+        {
+          "chapter_sentence": 170,
+          "start": 11,
+          "end": 31
+        }
+      ]
+    }
+  ]
+}

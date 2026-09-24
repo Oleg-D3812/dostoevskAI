@@ -3,47 +3,21 @@
   "novel_id": "demons",
   "character_id": "varvara_stavrogina",
   "chapter_id": "1_1_4",
-  "count": 12,
+  "count": 10,
   "fragments": [
-    {
-      "id": "varvara_stavrogina::chapter_01_01_04_0001",
-      "source_section": "chapter_01_01_04",
-      "source_sentence": 2,
-      "character_position": 7,
-      "text": "Варвара Петровна чрезвычайно ценила подобные посещения",
-      "vad": [
-        0.8,
-        0.3,
-        0.5
-      ],
-      "cluster_id": "varvara_stavrogina-1",
-      "distance_to_centroid": 0.3835677307616384,
-      "warning": null,
-      "chapter_sentence_start": 2,
-      "chapter_sentence_end": 2,
-      "timeline_start_index": 129,
-      "timeline_end_index": 129,
-      "highlights": [
-        {
-          "chapter_sentence": 2,
-          "start": 0,
-          "end": 54
-        }
-      ]
-    },
     {
       "id": "varvara_stavrogina::chapter_01_01_04_0002",
       "source_section": "chapter_01_01_04",
       "source_sentence": 13,
-      "character_position": 8,
-      "text": "бледная, со сверкающими глазами",
+      "character_position": 13,
+      "text": "Я вам этого никогда не забуду!",
       "vad": [
-        -0.65,
-        0.75,
-        -0.2
+        -0.85,
+        0.72,
+        0.38
       ],
-      "cluster_id": "varvara_stavrogina-2",
-      "distance_to_centroid": 0.334979811635867,
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.4245537475149639,
       "warning": null,
       "chapter_sentence_start": 13,
       "chapter_sentence_end": 13,
@@ -52,76 +26,102 @@
       "highlights": [
         {
           "chapter_sentence": 13,
-          "start": 147,
-          "end": 178
+          "start": 201,
+          "end": 231
         }
       ]
     },
     {
       "id": "varvara_stavrogina::chapter_01_01_04_0003",
       "source_section": "chapter_01_01_04",
-      "source_sentence": 15,
-      "character_position": 9,
-      "text": "так же точно побледнела",
+      "source_sentence": 16,
+      "character_position": 14,
+      "text": "я вам этого никогда не забуду!",
       "vad": [
-        -0.45,
-        0.5,
-        -0.1
+        -0.85,
+        0.78,
+        0.2
       ],
-      "cluster_id": "varvara_stavrogina-2",
-      "distance_to_centroid": 0.3956269514705955,
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.4765077938842639,
       "warning": null,
-      "chapter_sentence_start": 15,
-      "chapter_sentence_end": 15,
-      "timeline_start_index": 142,
-      "timeline_end_index": 142,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 143,
+      "timeline_end_index": 143,
       "highlights": [
         {
-          "chapter_sentence": 15,
-          "start": 84,
-          "end": 107
+          "chapter_sentence": 16,
+          "start": 52,
+          "end": 82
         }
       ]
     },
     {
       "id": "varvara_stavrogina::chapter_01_01_04_0004",
       "source_section": "chapter_01_01_04",
-      "source_sentence": 21,
-      "character_position": 10,
-      "text": "потрясена неожиданностию известия",
+      "source_sentence": 19,
+      "character_position": 15,
+      "text": "облеклась в полный траур",
       "vad": [
         -0.65,
-        0.75,
-        -0.45
+        0.15,
+        0.1
       ],
-      "cluster_id": "varvara_stavrogina-2",
-      "distance_to_centroid": 0.2596954704293006,
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.3756173761484309,
       "warning": null,
-      "chapter_sentence_start": 21,
-      "chapter_sentence_end": 21,
-      "timeline_start_index": 148,
-      "timeline_end_index": 148,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 146,
+      "timeline_end_index": 146,
       "highlights": [
         {
-          "chapter_sentence": 21,
-          "start": 22,
-          "end": 55
+          "chapter_sentence": 19,
+          "start": 35,
+          "end": 59
         }
       ]
     },
     {
       "id": "varvara_stavrogina::chapter_01_01_04_0005",
       "source_section": "chapter_01_01_04",
-      "source_sentence": 21,
-      "character_position": 11,
-      "text": "удалилась в полное уединение",
+      "source_sentence": 20,
+      "character_position": 16,
+      "text": "не могла она горевать очень много",
       "vad": [
-        -0.45,
-        -0.65,
-        0.25
+        -0.3,
+        -0.35,
+        0.0
       ],
       "cluster_id": "varvara_stavrogina-3",
-      "distance_to_centroid": 1.1291252441037831,
+      "distance_to_centroid": 0.8813990443230565,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 147,
+      "timeline_end_index": 147,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 8,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_01_04_0006",
+      "source_section": "chapter_01_01_04",
+      "source_sentence": 21,
+      "character_position": 17,
+      "text": "была потрясена неожиданностию известия",
+      "vad": [
+        -0.75,
+        0.72,
+        -0.4
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.2820725022002514,
       "warning": null,
       "chapter_sentence_start": 21,
       "chapter_sentence_end": 21,
@@ -130,24 +130,24 @@
       "highlights": [
         {
           "chapter_sentence": 21,
-          "start": 58,
-          "end": 86
+          "start": 17,
+          "end": 55
         }
       ]
     },
     {
-      "id": "varvara_stavrogina::chapter_01_01_04_0006",
+      "id": "varvara_stavrogina::chapter_01_01_04_0007",
       "source_section": "chapter_01_01_04",
       "source_sentence": 27,
-      "character_position": 12,
-      "text": "под впечатлением перемены в судьбе своей",
+      "character_position": 18,
+      "text": "Варвара Петровна под впечатлением перемены в судьбе своей",
       "vad": [
+        -0.1,
         0.35,
-        0.1,
-        0.05
+        -0.05
       ],
-      "cluster_id": "varvara_stavrogina-1",
-      "distance_to_centroid": 0.387255808509685,
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.578758996891645,
       "warning": null,
       "chapter_sentence_start": 27,
       "chapter_sentence_end": 27,
@@ -156,24 +156,24 @@
       "highlights": [
         {
           "chapter_sentence": 27,
-          "start": 17,
+          "start": 0,
           "end": 57
         }
       ]
     },
     {
-      "id": "varvara_stavrogina::chapter_01_01_04_0007",
+      "id": "varvara_stavrogina::chapter_01_01_04_0008",
       "source_section": "chapter_01_01_04",
       "source_sentence": 28,
-      "character_position": 13,
-      "text": "льнула к сердцу своего друга",
+      "character_position": 19,
+      "text": "Она как бы льнула к сердцу своего друга",
       "vad": [
-        0.7,
-        0.3,
-        0.1
+        0.75,
+        0.2,
+        -0.25
       ],
-      "cluster_id": "varvara_stavrogina-1",
-      "distance_to_centroid": 0.3255916435772683,
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.5580600400748793,
       "warning": null,
       "chapter_sentence_start": 28,
       "chapter_sentence_end": 28,
@@ -182,24 +182,24 @@
       "highlights": [
         {
           "chapter_sentence": 28,
-          "start": 11,
+          "start": 0,
           "end": 39
         }
       ]
     },
     {
-      "id": "varvara_stavrogina::chapter_01_01_04_0008",
+      "id": "varvara_stavrogina::chapter_01_01_04_0009",
       "source_section": "chapter_01_01_04",
       "source_sentence": 29,
-      "character_position": 14,
+      "character_position": 20,
       "text": "неутешная вдова",
       "vad": [
-        -0.9,
-        0.2,
-        -0.5
+        -0.8,
+        0.35,
+        -0.45
       ],
-      "cluster_id": "varvara_stavrogina-2",
-      "distance_to_centroid": 0.3727753669485166,
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.2013724852255687,
       "warning": null,
       "chapter_sentence_start": 29,
       "chapter_sentence_end": 29,
@@ -214,18 +214,18 @@
       ]
     },
     {
-      "id": "varvara_stavrogina::chapter_01_01_04_0009",
+      "id": "varvara_stavrogina::chapter_01_01_04_0010",
       "source_section": "chapter_01_01_04",
       "source_sentence": 42,
-      "character_position": 15,
+      "character_position": 21,
       "text": "она была чутка и приглядчива",
       "vad": [
+        0.3,
         0.2,
-        0.1,
-        0.2
+        0.4
       ],
-      "cluster_id": "varvara_stavrogina-1",
-      "distance_to_centroid": 0.3856477720428742,
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.2394695021807944,
       "warning": null,
       "chapter_sentence_start": 42,
       "chapter_sentence_end": 42,
@@ -240,70 +240,18 @@
       ]
     },
     {
-      "id": "varvara_stavrogina::chapter_01_01_04_0010",
-      "source_section": "chapter_01_01_04",
-      "source_sentence": 48,
-      "character_position": 16,
-      "text": "Жёлтое лицо её почти посинело, губы были сжаты и вздрагивали по краям",
-      "vad": [
-        -0.85,
-        0.8,
-        0.45
-      ],
-      "cluster_id": "varvara_stavrogina-3",
-      "distance_to_centroid": 0.4852717091354518,
-      "warning": null,
-      "chapter_sentence_start": 48,
-      "chapter_sentence_end": 48,
-      "timeline_start_index": 175,
-      "timeline_end_index": 175,
-      "highlights": [
-        {
-          "chapter_sentence": 48,
-          "start": 0,
-          "end": 69
-        }
-      ]
-    },
-    {
       "id": "varvara_stavrogina::chapter_01_01_04_0011",
       "source_section": "chapter_01_01_04",
       "source_sentence": 49,
-      "character_position": 17,
-      "text": "твёрдым, неумолимым взглядом",
-      "vad": [
-        -0.35,
-        0.45,
-        0.8
-      ],
-      "cluster_id": "varvara_stavrogina-3",
-      "distance_to_centroid": 0.5240314895668132,
-      "warning": null,
-      "chapter_sentence_start": 49,
-      "chapter_sentence_end": 49,
-      "timeline_start_index": 176,
-      "timeline_end_index": 176,
-      "highlights": [
-        {
-          "chapter_sentence": 49,
-          "start": 53,
-          "end": 81
-        }
-      ]
-    },
-    {
-      "id": "varvara_stavrogina::chapter_01_01_04_0012",
-      "source_section": "chapter_01_01_04",
-      "source_sentence": 49,
-      "character_position": 18,
+      "character_position": 22,
       "text": "Я никогда вам этого не забуду!",
       "vad": [
-        -0.9,
-        0.8,
-        0.6
+        -0.85,
+        0.75,
+        0.45
       ],
       "cluster_id": "varvara_stavrogina-3",
-      "distance_to_centroid": 0.5805949392985563,
+      "distance_to_centroid": 0.460449455012115,
       "warning": null,
       "chapter_sentence_start": 49,
       "chapter_sentence_end": 49,

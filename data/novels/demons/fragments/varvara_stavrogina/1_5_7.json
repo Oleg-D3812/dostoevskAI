@@ -3,47 +3,21 @@
   "novel_id": "demons",
   "character_id": "varvara_stavrogina",
   "chapter_id": "1_5_7",
-  "count": 4,
+  "count": 5,
   "fragments": [
     {
       "id": "varvara_stavrogina::chapter_01_05_07_0001",
       "source_section": "chapter_01_05_07",
-      "source_sentence": 11,
-      "character_position": 182,
-      "text": "восторженно подхватила Варвара Петровна",
-      "vad": [
-        0.8,
-        0.7,
-        0.2
-      ],
-      "cluster_id": "varvara_stavrogina-1",
-      "distance_to_centroid": 0.4967709199810065,
-      "warning": null,
-      "chapter_sentence_start": 11,
-      "chapter_sentence_end": 11,
-      "timeline_start_index": 3951,
-      "timeline_end_index": 3951,
-      "highlights": [
-        {
-          "chapter_sentence": 11,
-          "start": 97,
-          "end": 136
-        }
-      ]
-    },
-    {
-      "id": "varvara_stavrogina::chapter_01_05_07_0002",
-      "source_section": "chapter_01_05_07",
       "source_sentence": 23,
-      "character_position": 183,
-      "text": "экзальтация её не проходила, даже напротив",
+      "character_position": 197,
+      "text": "экзальтация её не проходила",
       "vad": [
-        0.55,
-        0.9,
+        0.75,
+        0.8,
         0.1
       ],
-      "cluster_id": "varvara_stavrogina-1",
-      "distance_to_centroid": 0.5957551544734067,
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.6675797447836842,
       "warning": null,
       "chapter_sentence_start": 23,
       "chapter_sentence_end": 23,
@@ -53,7 +27,33 @@
         {
           "chapter_sentence": 23,
           "start": 38,
-          "end": 80
+          "end": 65
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_05_07_0002",
+      "source_section": "chapter_01_05_07",
+      "source_sentence": 43,
+      "character_position": 198,
+      "text": "её вдруг поразила одна мысль",
+      "vad": [
+        0.0,
+        0.45,
+        -0.2
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.6713944473810802,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 3983,
+      "timeline_end_index": 3983,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 43,
+          "end": 71
         }
       ]
     },
@@ -61,15 +61,15 @@
       "id": "varvara_stavrogina::chapter_01_05_07_0003",
       "source_section": "chapter_01_05_07",
       "source_sentence": 146,
-      "character_position": 184,
-      "text": "я вижу, что вы выведены из терпения",
+      "character_position": 199,
+      "text": "злобно подхватила Варвара Петровна",
       "vad": [
-        -0.45,
-        0.35,
-        0.1
+        -0.85,
+        0.72,
+        0.48
       ],
       "cluster_id": "varvara_stavrogina-3",
-      "distance_to_centroid": 0.2501438886332749,
+      "distance_to_centroid": 0.4506622451921654,
       "warning": null,
       "chapter_sentence_start": 146,
       "chapter_sentence_end": 146,
@@ -78,8 +78,8 @@
       "highlights": [
         {
           "chapter_sentence": 146,
-          "start": 22,
-          "end": 57
+          "start": 97,
+          "end": 131
         }
       ]
     },
@@ -87,15 +87,15 @@
       "id": "varvara_stavrogina::chapter_01_05_07_0004",
       "source_section": "chapter_01_05_07",
       "source_sentence": 147,
-      "character_position": 185,
-      "text": "со злобным наслаждением",
+      "character_position": 200,
+      "text": "со злобным наслаждением выслушала",
       "vad": [
         -0.65,
-        0.55,
-        0.45
+        0.35,
+        0.5
       ],
       "cluster_id": "varvara_stavrogina-3",
-      "distance_to_centroid": 0.2088720196104101,
+      "distance_to_centroid": 0.2316034054209111,
       "warning": null,
       "chapter_sentence_start": 147,
       "chapter_sentence_end": 147,
@@ -105,7 +105,33 @@
         {
           "chapter_sentence": 147,
           "start": 4,
-          "end": 27
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_01_05_07_0005",
+      "source_section": "chapter_01_05_07",
+      "source_sentence": 149,
+      "character_position": 201,
+      "text": "В первый раз в двадцать лет я раскрываю глаза",
+      "vad": [
+        -0.2,
+        0.6,
+        0.3
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.3773271386826972,
+      "warning": null,
+      "chapter_sentence_start": 149,
+      "chapter_sentence_end": 149,
+      "timeline_start_index": 4089,
+      "timeline_end_index": 4089,
+      "highlights": [
+        {
+          "chapter_sentence": 149,
+          "start": 0,
+          "end": 45
         }
       ]
     }

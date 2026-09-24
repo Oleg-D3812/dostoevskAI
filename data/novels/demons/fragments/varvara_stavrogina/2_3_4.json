@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "varvara_stavrogina",
+  "chapter_id": "2_3_4",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "varvara_stavrogina::chapter_02_03_04_0001",
+      "source_section": "chapter_02_03_04",
+      "source_sentence": 1,
+      "character_position": 215,
+      "text": "весьма довольная выездом Николая Всеволодовича",
+      "vad": [
+        0.8,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "varvara_stavrogina-2",
+      "distance_to_centroid": 0.3539385140713144,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 6120,
+      "timeline_end_index": 6120,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 63,
+          "end": 109
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_03_04_0002",
+      "source_section": "chapter_02_03_04",
+      "source_sentence": 22,
+      "character_position": 216,
+      "text": "Варвара Петровна слишком подозревает о наших сношениях",
+      "vad": [
+        -0.45,
+        0.35,
+        -0.25
+      ],
+      "cluster_id": "varvara_stavrogina-1",
+      "distance_to_centroid": 0.2715040132443553,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 6141,
+      "timeline_end_index": 6141,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 0,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "varvara_stavrogina::chapter_02_03_04_0003",
+      "source_section": "chapter_02_03_04",
+      "source_sentence": 24,
+      "character_position": 217,
+      "text": "чтоб она беспокоилась",
+      "vad": [
+        -0.2,
+        -0.1,
+        0.2
+      ],
+      "cluster_id": "varvara_stavrogina-3",
+      "distance_to_centroid": 0.6461441065026287,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 6143,
+      "timeline_end_index": 6143,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 11,
+          "end": 32
+        }
+      ]
+    }
+  ]
+}

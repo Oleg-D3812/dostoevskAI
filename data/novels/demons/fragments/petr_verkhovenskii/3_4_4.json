@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "petr_verkhovenskii",
+  "chapter_id": "3_4_4",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "petr_verkhovenskii::chapter_03_04_04_0001",
+      "source_section": "chapter_03_04_04",
+      "source_sentence": 18,
+      "character_position": 192,
+      "text": "преспокойно изволил почивать у себя дома",
+      "vad": [
+        0.4,
+        -0.8,
+        0.3
+      ],
+      "cluster_id": "petr_verkhovenskii-3",
+      "distance_to_centroid": 0.8773702024927803,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 12325,
+      "timeline_end_index": 12325,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 186,
+          "end": 226
+        }
+      ]
+    }
+  ]
+}

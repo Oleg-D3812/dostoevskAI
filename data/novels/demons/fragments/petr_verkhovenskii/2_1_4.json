@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "demons",
+  "character_id": "petr_verkhovenskii",
+  "chapter_id": "2_1_4",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "petr_verkhovenskii::chapter_02_01_04_0001",
+      "source_section": "chapter_02_01_04",
+      "source_sentence": 1,
+      "character_position": 44,
+      "text": "уж конечно бы рад был подсмотреть",
+      "vad": [
+        0.55,
+        0.25,
+        -0.2
+      ],
+      "cluster_id": "petr_verkhovenskii-1",
+      "distance_to_centroid": 0.5734715248153812,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 4633,
+      "timeline_end_index": 4633,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 109,
+          "end": 142
+        }
+      ]
+    }
+  ]
+}
