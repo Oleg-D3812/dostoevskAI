@@ -1,0 +1,555 @@
+{
+  "schema_version": 1,
+  "novel_id": "andromeda",
+  "character_id": "veda_kong",
+  "chapter_id": "1_4",
+  "count": 21,
+  "fragments": [
+    {
+      "id": "veda_kong::chapter_01_04_0001",
+      "source_section": "chapter_01_04",
+      "source_sentence": 19,
+      "character_position": 15,
+      "text": "сосредоточенно думала",
+      "vad": [
+        0.05,
+        0.2,
+        0.35
+      ],
+      "cluster_id": "veda_kong-3",
+      "distance_to_centroid": 0.225758647141151,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 2021,
+      "timeline_end_index": 2021,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 20,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_04_0002",
+      "source_section": "chapter_01_04",
+      "source_sentence": 39,
+      "character_position": 16,
+      "text": "Теперь я понимаю…",
+      "vad": [
+        0.1,
+        0.2,
+        0.35
+      ],
+      "cluster_id": "veda_kong-3",
+      "distance_to_centroid": 0.2343380788093462,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 2041,
+      "timeline_end_index": 2041,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 2,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_04_0003",
+      "source_section": "chapter_01_04",
+      "source_sentence": 44,
+      "character_position": 17,
+      "text": "посерьезнела Веда",
+      "vad": [
+        -0.25,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "veda_kong-3",
+      "distance_to_centroid": 0.3313745192711121,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 2046,
+      "timeline_end_index": 2046,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 2,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_04_0004",
+      "source_section": "chapter_01_04",
+      "source_sentence": 48,
+      "character_position": 18,
+      "text": "с лукавым огоньком в глазах",
+      "vad": [
+        0.55,
+        0.35,
+        0.45
+      ],
+      "cluster_id": "veda_kong-1",
+      "distance_to_centroid": 0.3445541100062836,
+      "warning": null,
+      "chapter_sentence_start": 48,
+      "chapter_sentence_end": 48,
+      "timeline_start_index": 2050,
+      "timeline_end_index": 2050,
+      "highlights": [
+        {
+          "chapter_sentence": 48,
+          "start": 5,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_04_0005",
+      "source_section": "chapter_01_04",
+      "source_sentence": 78,
+      "character_position": 19,
+      "text": "оба поддались почти гипнотической задумчивости",
+      "vad": [
+        0.6,
+        -0.4,
+        0.1
+      ],
+      "cluster_id": "veda_kong-3",
+      "distance_to_centroid": 0.7628330978530332,
+      "warning": null,
+      "chapter_sentence_start": 78,
+      "chapter_sentence_end": 78,
+      "timeline_start_index": 2080,
+      "timeline_end_index": 2080,
+      "highlights": [
+        {
+          "chapter_sentence": 78,
+          "start": 63,
+          "end": 109
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_04_0006",
+      "source_section": "chapter_01_04",
+      "source_sentence": 80,
+      "character_position": 20,
+      "text": "Что гнетет вас, Веда?",
+      "vad": [
+        -0.25,
+        0.2,
+        0.15
+      ],
+      "cluster_id": "veda_kong-3",
+      "distance_to_centroid": 0.2990662986187662,
+      "warning": null,
+      "chapter_sentence_start": 80,
+      "chapter_sentence_end": 80,
+      "timeline_start_index": 2082,
+      "timeline_end_index": 2082,
+      "highlights": [
+        {
+          "chapter_sentence": 80,
+          "start": 2,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_04_0007",
+      "source_section": "chapter_01_04",
+      "source_sentence": 118,
+      "character_position": 21,
+      "text": "Я тоже становлюсь в тупик",
+      "vad": [
+        -0.3,
+        0.1,
+        -0.45
+      ],
+      "cluster_id": "veda_kong-2",
+      "distance_to_centroid": 0.4792765753354684,
+      "warning": null,
+      "chapter_sentence_start": 118,
+      "chapter_sentence_end": 118,
+      "timeline_start_index": 2120,
+      "timeline_end_index": 2120,
+      "highlights": [
+        {
+          "chapter_sentence": 118,
+          "start": 2,
+          "end": 27
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_04_0008",
+      "source_section": "chapter_01_04",
+      "source_sentence": 133,
+      "character_position": 22,
+      "text": "будто загипнотизированная видением",
+      "vad": [
+        -0.35,
+        0.25,
+        -0.7
+      ],
+      "cluster_id": "veda_kong-2",
+      "distance_to_centroid": 0.5168839314858393,
+      "warning": null,
+      "chapter_sentence_start": 133,
+      "chapter_sentence_end": 133,
+      "timeline_start_index": 2135,
+      "timeline_end_index": 2135,
+      "highlights": [
+        {
+          "chapter_sentence": 133,
+          "start": 62,
+          "end": 96
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_04_0009",
+      "source_section": "chapter_01_04",
+      "source_sentence": 144,
+      "character_position": 23,
+      "text": "откровенного восторга",
+      "vad": [
+        0.9,
+        0.7,
+        0.0
+      ],
+      "cluster_id": "veda_kong-1",
+      "distance_to_centroid": 0.3872026188645365,
+      "warning": null,
+      "chapter_sentence_start": 144,
+      "chapter_sentence_end": 144,
+      "timeline_start_index": 2146,
+      "timeline_end_index": 2146,
+      "highlights": [
+        {
+          "chapter_sentence": 144,
+          "start": 93,
+          "end": 114
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_04_0010",
+      "source_section": "chapter_01_04",
+      "source_sentence": 151,
+      "character_position": 24,
+      "text": "с негодованием воскликнула Веда",
+      "vad": [
+        -0.7,
+        0.75,
+        0.2
+      ],
+      "cluster_id": "veda_kong-2",
+      "distance_to_centroid": 0.5855058896171806,
+      "warning": null,
+      "chapter_sentence_start": 151,
+      "chapter_sentence_end": 151,
+      "timeline_start_index": 2153,
+      "timeline_end_index": 2153,
+      "highlights": [
+        {
+          "chapter_sentence": 151,
+          "start": 2,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_04_0011",
+      "source_section": "chapter_01_04",
+      "source_sentence": 169,
+      "character_position": 25,
+      "text": "задумчиво сказала она",
+      "vad": [
+        0.0,
+        -0.25,
+        0.0
+      ],
+      "cluster_id": "veda_kong-3",
+      "distance_to_centroid": 0.3901667908135438,
+      "warning": null,
+      "chapter_sentence_start": 169,
+      "chapter_sentence_end": 169,
+      "timeline_start_index": 2171,
+      "timeline_end_index": 2171,
+      "highlights": [
+        {
+          "chapter_sentence": 169,
+          "start": 2,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_04_0012",
+      "source_section": "chapter_01_04",
+      "source_sentence": 173,
+      "character_position": 26,
+      "text": "Я так остро почувствовала необходимость защиты!",
+      "vad": [
+        -0.45,
+        0.68,
+        -0.58
+      ],
+      "cluster_id": "veda_kong-2",
+      "distance_to_centroid": 0.4043771141893538,
+      "warning": null,
+      "chapter_sentence_start": 173,
+      "chapter_sentence_end": 173,
+      "timeline_start_index": 2175,
+      "timeline_end_index": 2175,
+      "highlights": [
+        {
+          "chapter_sentence": 173,
+          "start": 2,
+          "end": 49
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_04_0013",
+      "source_section": "chapter_01_04",
+      "source_sentence": 174,
+      "character_position": 27,
+      "text": "Я не боялась, нет!",
+      "vad": [
+        0.2,
+        0.2,
+        0.6
+      ],
+      "cluster_id": "veda_kong-3",
+      "distance_to_centroid": 0.4938235551298743,
+      "warning": null,
+      "chapter_sentence_start": 174,
+      "chapter_sentence_end": 174,
+      "timeline_start_index": 2176,
+      "timeline_end_index": 2176,
+      "highlights": [
+        {
+          "chapter_sentence": 174,
+          "start": 0,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_04_0014",
+      "source_section": "chapter_01_04",
+      "source_sentence": 175,
+      "character_position": 28,
+      "text": "какая-то заманчивая покорность силе судьбы",
+      "vad": [
+        0.35,
+        0.1,
+        -0.45
+      ],
+      "cluster_id": "veda_kong-3",
+      "distance_to_centroid": 0.6712271702839687,
+      "warning": null,
+      "chapter_sentence_start": 175,
+      "chapter_sentence_end": 175,
+      "timeline_start_index": 2177,
+      "timeline_end_index": 2177,
+      "highlights": [
+        {
+          "chapter_sentence": 175,
+          "start": 3,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_04_0016",
+      "source_section": "chapter_01_04",
+      "source_sentence": 187,
+      "character_position": 29,
+      "text": "Молодая женщина вдруг стала серьезной",
+      "vad": [
+        0.0,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "veda_kong-3",
+      "distance_to_centroid": 0.1047232866128769,
+      "warning": null,
+      "chapter_sentence_start": 187,
+      "chapter_sentence_end": 187,
+      "timeline_start_index": 2189,
+      "timeline_end_index": 2189,
+      "highlights": [
+        {
+          "chapter_sentence": 187,
+          "start": 0,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_04_0017",
+      "source_section": "chapter_01_04",
+      "source_sentence": 188,
+      "character_position": 30,
+      "text": "Я слишком сильно почувствовала вашу защиту…",
+      "vad": [
+        0.35,
+        0.45,
+        -0.35
+      ],
+      "cluster_id": "veda_kong-1",
+      "distance_to_centroid": 0.5586151341089458,
+      "warning": null,
+      "chapter_sentence_start": 188,
+      "chapter_sentence_end": 188,
+      "timeline_start_index": 2190,
+      "timeline_end_index": 2190,
+      "highlights": [
+        {
+          "chapter_sentence": 188,
+          "start": 2,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_04_0018",
+      "source_section": "chapter_01_04",
+      "source_sentence": 260,
+      "character_position": 31,
+      "text": "обрадовано согласились",
+      "vad": [
+        0.8,
+        0.3,
+        0.2
+      ],
+      "cluster_id": "veda_kong-1",
+      "distance_to_centroid": 0.2363102509884457,
+      "warning": null,
+      "chapter_sentence_start": 260,
+      "chapter_sentence_end": 260,
+      "timeline_start_index": 2262,
+      "timeline_end_index": 2262,
+      "highlights": [
+        {
+          "chapter_sentence": 260,
+          "start": 17,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_04_0019",
+      "source_section": "chapter_01_04",
+      "source_sentence": 273,
+      "character_position": 32,
+      "text": "Я узнала его",
+      "vad": [
+        0.2,
+        0.15,
+        0.1
+      ],
+      "cluster_id": "veda_kong-3",
+      "distance_to_centroid": 0.1743215976021953,
+      "warning": null,
+      "chapter_sentence_start": 273,
+      "chapter_sentence_end": 273,
+      "timeline_start_index": 2275,
+      "timeline_end_index": 2275,
+      "highlights": [
+        {
+          "chapter_sentence": 273,
+          "start": 2,
+          "end": 14
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_04_0022",
+      "source_section": "chapter_01_04",
+      "source_sentence": 375,
+      "character_position": 33,
+      "text": "я говорю серьезно",
+      "vad": [
+        0.1,
+        0.1,
+        0.5
+      ],
+      "cluster_id": "veda_kong-3",
+      "distance_to_centroid": 0.3630551914270896,
+      "warning": null,
+      "chapter_sentence_start": 375,
+      "chapter_sentence_end": 375,
+      "timeline_start_index": 2377,
+      "timeline_end_index": 2377,
+      "highlights": [
+        {
+          "chapter_sentence": 375,
+          "start": 42,
+          "end": 59
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_04_0023",
+      "source_section": "chapter_01_04",
+      "source_sentence": 386,
+      "character_position": 34,
+      "text": "я была влюблена в машиниста Спиральной Дороги",
+      "vad": [
+        0.8,
+        0.55,
+        0.0
+      ],
+      "cluster_id": "veda_kong-1",
+      "distance_to_centroid": 0.2340068404745658,
+      "warning": null,
+      "chapter_sentence_start": 386,
+      "chapter_sentence_end": 386,
+      "timeline_start_index": 2388,
+      "timeline_end_index": 2388,
+      "highlights": [
+        {
+          "chapter_sentence": 386,
+          "start": 23,
+          "end": 68
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_04_0024",
+      "source_section": "chapter_01_04",
+      "source_sentence": 392,
+      "character_position": 35,
+      "text": "почувствовала себя очень неудобно",
+      "vad": [
+        -0.65,
+        0.25,
+        -0.3
+      ],
+      "cluster_id": "veda_kong-2",
+      "distance_to_centroid": 0.2005144275739153,
+      "warning": null,
+      "chapter_sentence_start": 392,
+      "chapter_sentence_end": 392,
+      "timeline_start_index": 2394,
+      "timeline_end_index": 2394,
+      "highlights": [
+        {
+          "chapter_sentence": 392,
+          "start": 5,
+          "end": 38
+        }
+      ]
+    }
+  ]
+}

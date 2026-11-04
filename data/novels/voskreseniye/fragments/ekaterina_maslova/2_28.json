@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "2_28",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_02_28_0001",
+      "source_section": "chapter_02_28",
+      "source_sentence": 24,
+      "character_position": 226,
+      "text": "совсем разбитое существо",
+      "vad": [
+        -0.9,
+        -0.3,
+        -0.9
+      ],
+      "cluster_id": "ekaterina_maslova-3",
+      "distance_to_centroid": 0.6792602185057244,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 6319,
+      "timeline_end_index": 6319,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 70,
+          "end": 94
+        }
+      ]
+    }
+  ]
+}

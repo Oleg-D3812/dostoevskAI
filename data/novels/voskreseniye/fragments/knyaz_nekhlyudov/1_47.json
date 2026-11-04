@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "1_47",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_47_0001",
+      "source_section": "chapter_01_47",
+      "source_sentence": 16,
+      "character_position": 367,
+      "text": "удивляясь",
+      "vad": [
+        0.0,
+        0.45,
+        -0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4807650722098192,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 3118,
+      "timeline_end_index": 3118,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 56,
+          "end": 65
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_47_0003",
+      "source_section": "chapter_01_47",
+      "source_sentence": 53,
+      "character_position": 368,
+      "text": "немного удивляясь",
+      "vad": [
+        0.0,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3455627314536617,
+      "warning": null,
+      "chapter_sentence_start": 53,
+      "chapter_sentence_end": 53,
+      "timeline_start_index": 3155,
+      "timeline_end_index": 3155,
+      "highlights": [
+        {
+          "chapter_sentence": 53,
+          "start": 58,
+          "end": 75
+        }
+      ]
+    }
+  ]
+}

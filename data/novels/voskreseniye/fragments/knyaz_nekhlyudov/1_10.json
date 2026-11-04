@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "1_10",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_10_0001",
+      "source_section": "chapter_01_10",
+      "source_sentence": 25,
+      "character_position": 48,
+      "text": "не испытывал этого чувства",
+      "vad": [
+        -0.25,
+        0.0,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.1467058209803136,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 584,
+      "timeline_end_index": 584,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 14,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_10_0002",
+      "source_section": "chapter_01_10",
+      "source_sentence": 25,
+      "character_position": 49,
+      "text": "он весь был поглощен ужасом",
+      "vad": [
+        -0.95,
+        0.9,
+        -0.75
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.5997757078120588,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 584,
+      "timeline_end_index": 584,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 42,
+          "end": 69
+        }
+      ]
+    }
+  ]
+}

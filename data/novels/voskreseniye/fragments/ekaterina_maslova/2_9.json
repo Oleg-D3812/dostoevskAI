@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "2_9",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_02_09_0001",
+      "source_section": "chapter_02_09",
+      "source_sentence": 135,
+      "character_position": 196,
+      "text": "жизнерадостную",
+      "vad": [
+        0.9,
+        0.5,
+        0.0
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.2311085236233358,
+      "warning": null,
+      "chapter_sentence_start": 135,
+      "chapter_sentence_end": 135,
+      "timeline_start_index": 4798,
+      "timeline_end_index": 4798,
+      "highlights": [
+        {
+          "chapter_sentence": 135,
+          "start": 282,
+          "end": 296
+        }
+      ]
+    }
+  ]
+}

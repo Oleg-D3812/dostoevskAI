@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "andromeda",
+  "character_id": "mven_mas",
+  "chapter_id": "1_12",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "mven_mas::chapter_01_12_0001",
+      "source_section": "chapter_01_12",
+      "source_sentence": 59,
+      "character_position": 97,
+      "text": "угрюмый, торжественный и спокойный",
+      "vad": [
+        -0.25,
+        -0.45,
+        0.35
+      ],
+      "cluster_id": "mven_mas-4",
+      "distance_to_centroid": 0.3835865898007906,
+      "warning": null,
+      "chapter_sentence_start": 59,
+      "chapter_sentence_end": 59,
+      "timeline_start_index": 5512,
+      "timeline_end_index": 5512,
+      "highlights": [
+        {
+          "chapter_sentence": 59,
+          "start": 82,
+          "end": 116
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_12_0002",
+      "source_section": "chapter_01_12",
+      "source_sentence": 129,
+      "character_position": 98,
+      "text": "Спокойно, не щадя себя",
+      "vad": [
+        -0.2,
+        -0.4,
+        0.5
+      ],
+      "cluster_id": "mven_mas-4",
+      "distance_to_centroid": 0.4736308392355802,
+      "warning": null,
+      "chapter_sentence_start": 129,
+      "chapter_sentence_end": 129,
+      "timeline_start_index": 5582,
+      "timeline_end_index": 5582,
+      "highlights": [
+        {
+          "chapter_sentence": 129,
+          "start": 0,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_12_0004",
+      "source_section": "chapter_01_12",
+      "source_sentence": 149,
+      "character_position": 99,
+      "text": "как нестерпимо было не попытаться сделать",
+      "vad": [
+        -0.65,
+        0.78,
+        0.35
+      ],
+      "cluster_id": "mven_mas-3",
+      "distance_to_centroid": 0.2808661207368695,
+      "warning": null,
+      "chapter_sentence_start": 149,
+      "chapter_sentence_end": 149,
+      "timeline_start_index": 5602,
+      "timeline_end_index": 5602,
+      "highlights": [
+        {
+          "chapter_sentence": 149,
+          "start": 115,
+          "end": 156
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_12_0005",
+      "source_section": "chapter_01_12",
+      "source_sentence": 183,
+      "character_position": 100,
+      "text": "вы боялись, что вам откажут в разрешении на опыт",
+      "vad": [
+        -0.55,
+        0.45,
+        -0.65
+      ],
+      "cluster_id": "mven_mas-2",
+      "distance_to_centroid": 0.218808356709911,
+      "warning": null,
+      "chapter_sentence_start": 183,
+      "chapter_sentence_end": 183,
+      "timeline_start_index": 5636,
+      "timeline_end_index": 5636,
+      "highlights": [
+        {
+          "chapter_sentence": 183,
+          "start": 13,
+          "end": 61
+        }
+      ]
+    }
+  ]
+}

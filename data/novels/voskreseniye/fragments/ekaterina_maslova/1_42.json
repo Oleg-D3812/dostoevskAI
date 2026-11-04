@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "1_42",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_01_42_0001",
+      "source_section": "chapter_01_42",
+      "source_sentence": 42,
+      "character_position": 131,
+      "text": "никак не думала, что этот мужчина к ней.",
+      "vad": [
+        0.0,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "ekaterina_maslova-4",
+      "distance_to_centroid": 0.2092610249197765,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 2766,
+      "timeline_end_index": 2766,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 18,
+          "end": 58
+        }
+      ]
+    }
+  ]
+}

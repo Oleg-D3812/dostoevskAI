@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "2_11",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_11_0002",
+      "source_section": "chapter_02_11",
+      "source_sentence": 25,
+      "character_position": 520,
+      "text": "Это что-то ужасное",
+      "vad": [
+        -0.85,
+        0.7,
+        -0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2582969309056787,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 4930,
+      "timeline_end_index": 4930,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 2,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_11_0003",
+      "source_section": "chapter_02_11",
+      "source_sentence": 51,
+      "character_position": 521,
+      "text": "чувствуя, что он говорит неправду",
+      "vad": [
+        -0.55,
+        0.2,
+        -0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.345394506236352,
+      "warning": null,
+      "chapter_sentence_start": 51,
+      "chapter_sentence_end": 51,
+      "timeline_start_index": 4956,
+      "timeline_end_index": 4956,
+      "highlights": [
+        {
+          "chapter_sentence": 51,
+          "start": 38,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_11_0004",
+      "source_section": "chapter_02_11",
+      "source_sentence": 52,
+      "character_position": 522,
+      "text": "Нехлюдов еще гораздо дальше чувствует себя от адвоката и людей его круга",
+      "vad": [
+        -0.55,
+        -0.15,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4856203210115943,
+      "warning": null,
+      "chapter_sentence_start": 52,
+      "chapter_sentence_end": 52,
+      "timeline_start_index": 4957,
+      "timeline_end_index": 4957,
+      "highlights": [
+        {
+          "chapter_sentence": 52,
+          "start": 427,
+          "end": 499
+        }
+      ]
+    }
+  ]
+}

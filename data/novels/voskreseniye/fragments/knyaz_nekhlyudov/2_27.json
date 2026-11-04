@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "2_27",
+  "count": 11,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_27_0001",
+      "source_section": "chapter_02_27",
+      "source_sentence": 24,
+      "character_position": 590,
+      "text": "Чувствую, что загипнотизировываюсь",
+      "vad": [
+        -0.25,
+        0.2,
+        -0.75
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.6692985185492427,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 6221,
+      "timeline_end_index": 6221,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 2,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_27_0002",
+      "source_section": "chapter_02_27",
+      "source_sentence": 33,
+      "character_position": 591,
+      "text": "с удовольствием пожимая сильную, широкую руку Богатырева",
+      "vad": [
+        0.7,
+        0.2,
+        0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.1216667249091284,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 6230,
+      "timeline_end_index": 6230,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 36,
+          "end": 92
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_27_0003",
+      "source_section": "chapter_02_27",
+      "source_sentence": 33,
+      "character_position": 592,
+      "text": "под приятным впечатлением чего-то здорового, бессознательного, свежего",
+      "vad": [
+        0.75,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.2088736191468672,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 6230,
+      "timeline_end_index": 6230,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 109,
+          "end": 179
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_27_0004",
+      "source_section": "chapter_02_27",
+      "source_sentence": 34,
+      "character_position": 593,
+      "text": "не ожидал ничего хорошего от своей поездки",
+      "vad": [
+        -0.65,
+        0.1,
+        -0.25
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3976859135030823,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 6231,
+      "timeline_end_index": 6231,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 10,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_27_0005",
+      "source_section": "chapter_02_27",
+      "source_sentence": 68,
+      "character_position": 594,
+      "text": "с недобрым чувством глядя на неподвижную маску бледного лица",
+      "vad": [
+        -0.65,
+        0.25,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.340554863730568,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 6265,
+      "timeline_end_index": 6265,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 19,
+          "end": 79
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_27_0006",
+      "source_section": "chapter_02_27",
+      "source_sentence": 77,
+      "character_position": 595,
+      "text": "удивлялся, зачем делает то, что он делает",
+      "vad": [
+        -0.25,
+        0.15,
+        -0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.2135831304641131,
+      "warning": null,
+      "chapter_sentence_start": 77,
+      "chapter_sentence_end": 77,
+      "timeline_start_index": 6274,
+      "timeline_end_index": 6274,
+      "highlights": [
+        {
+          "chapter_sentence": 77,
+          "start": 128,
+          "end": 169
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_27_0007",
+      "source_section": "chapter_02_27",
+      "source_sentence": 90,
+      "character_position": 596,
+      "text": "раскаиваясь в том, что он пожал эту руку",
+      "vad": [
+        -0.75,
+        0.2,
+        -0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2980877007274207,
+      "warning": null,
+      "chapter_sentence_start": 90,
+      "chapter_sentence_end": 90,
+      "timeline_start_index": 6287,
+      "timeline_end_index": 6287,
+      "highlights": [
+        {
+          "chapter_sentence": 90,
+          "start": 42,
+          "end": 82
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_27_0008",
+      "source_section": "chapter_02_27",
+      "source_sentence": 93,
+      "character_position": 597,
+      "text": "Нехлюдову с необыкновенной ясностью пришла мысль о том, что всех этих людей хватали, запирали или ссылали совсем не потому, что эти люди нарушали справедливость или совершали беззакония, а только потому, что они мешали чиновникам и богатым владеть тем богатством, которое они собирали с народа",
+      "vad": [
+        -0.45,
+        0.2,
+        0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3834397711728925,
+      "warning": null,
+      "chapter_sentence_start": 93,
+      "chapter_sentence_end": 93,
+      "timeline_start_index": 6290,
+      "timeline_end_index": 6290,
+      "highlights": [
+        {
+          "chapter_sentence": 93,
+          "start": 486,
+          "end": 779
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_27_0009",
+      "source_section": "chapter_02_27",
+      "source_sentence": 95,
+      "character_position": 598,
+      "text": "Нехлюдову казалось совершенно ясно",
+      "vad": [
+        0.1,
+        0.0,
+        0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.5757048659853385,
+      "warning": null,
+      "chapter_sentence_start": 95,
+      "chapter_sentence_end": 95,
+      "timeline_start_index": 6292,
+      "timeline_end_index": 6292,
+      "highlights": [
+        {
+          "chapter_sentence": 95,
+          "start": 9,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_27_0010",
+      "source_section": "chapter_02_27",
+      "source_sentence": 97,
+      "character_position": 599,
+      "text": "казалось Нехлюдову очень просто и ясно",
+      "vad": [
+        0.25,
+        -0.1,
+        0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.5141501833100246,
+      "warning": null,
+      "chapter_sentence_start": 97,
+      "chapter_sentence_end": 97,
+      "timeline_start_index": 6294,
+      "timeline_end_index": 6294,
+      "highlights": [
+        {
+          "chapter_sentence": 97,
+          "start": 46,
+          "end": 84
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_27_0011",
+      "source_section": "chapter_02_27",
+      "source_sentence": 97,
+      "character_position": 600,
+      "text": "заставляли Нехлюдова колебаться в признании его",
+      "vad": [
+        -0.3,
+        0.2,
+        -0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3062245303064581,
+      "warning": null,
+      "chapter_sentence_start": 97,
+      "chapter_sentence_end": 97,
+      "timeline_start_index": 6294,
+      "timeline_end_index": 6294,
+      "highlights": [
+        {
+          "chapter_sentence": 97,
+          "start": 121,
+          "end": 168
+        }
+      ]
+    }
+  ]
+}

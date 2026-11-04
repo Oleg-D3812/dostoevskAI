@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "1_1",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_01_01_0001",
+      "source_section": "chapter_01_01",
+      "source_sentence": 28,
+      "character_position": 1,
+      "text": "остановилась в готовности исполнить все то, что от нее потребуют",
+      "vad": [
+        -0.1,
+        0.2,
+        -0.5
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.3834358721923184,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 27,
+      "timeline_end_index": 27,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 85,
+          "end": 149
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_01_0002",
+      "source_section": "chapter_01_01",
+      "source_sentence": 48,
+      "character_position": 2,
+      "text": "это обращенное на нее внимание веселило ее",
+      "vad": [
+        0.55,
+        0.2,
+        0.05
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.2667604725055008,
+      "warning": null,
+      "chapter_sentence_start": 48,
+      "chapter_sentence_end": 48,
+      "timeline_start_index": 47,
+      "timeline_end_index": 47,
+      "highlights": [
+        {
+          "chapter_sentence": 48,
+          "start": 123,
+          "end": 165
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_01_0003",
+      "source_section": "chapter_01_01",
+      "source_sentence": 49,
+      "character_position": 3,
+      "text": "Веселил ее тоже чистый, сравнительно с острогом, весенний воздух",
+      "vad": [
+        0.7,
+        0.25,
+        0.0
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.1766038716142312,
+      "warning": null,
+      "chapter_sentence_start": 49,
+      "chapter_sentence_end": 49,
+      "timeline_start_index": 48,
+      "timeline_end_index": 48,
+      "highlights": [
+        {
+          "chapter_sentence": 49,
+          "start": 0,
+          "end": 64
+        }
+      ]
+    }
+  ]
+}

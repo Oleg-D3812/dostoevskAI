@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "1_21",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_01_21_0001",
+      "source_section": "chapter_01_21",
+      "source_sentence": 23,
+      "character_position": 77,
+      "text": "предается своим страстям",
+      "vad": [
+        -0.35,
+        0.65,
+        -0.55
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.3994458240975473,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 1285,
+      "timeline_end_index": 1285,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 238,
+          "end": 262
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_21_0002",
+      "source_section": "chapter_01_21",
+      "source_sentence": 43,
+      "character_position": 78,
+      "text": "она не имела намерения отравить Смелькова",
+      "vad": [
+        0.0,
+        -0.2,
+        0.0
+      ],
+      "cluster_id": "ekaterina_maslova-4",
+      "distance_to_centroid": 0.2831486451916724,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 1305,
+      "timeline_end_index": 1305,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 92,
+          "end": 133
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_21_0003",
+      "source_section": "chapter_01_21",
+      "source_sentence": 53,
+      "character_position": 79,
+      "text": "как затравленный зверь, и тотчас же опустила их и заплакала, громко всхлипывая",
+      "vad": [
+        -0.95,
+        0.75,
+        -0.9
+      ],
+      "cluster_id": "ekaterina_maslova-5",
+      "distance_to_centroid": 0.3506686418229617,
+      "warning": null,
+      "chapter_sentence_start": 53,
+      "chapter_sentence_end": 53,
+      "timeline_start_index": 1315,
+      "timeline_end_index": 1315,
+      "highlights": [
+        {
+          "chapter_sentence": 53,
+          "start": 126,
+          "end": 204
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_21_0004",
+      "source_section": "chapter_01_21",
+      "source_sentence": 37,
+      "character_position": 80,
+      "text": "она была не в нормальном состоянии",
+      "vad": [
+        -0.4,
+        0.2,
+        -0.4
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.1493693532057505,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 1299,
+      "timeline_end_index": 1299,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 87,
+          "end": 121
+        }
+      ]
+    }
+  ]
+}

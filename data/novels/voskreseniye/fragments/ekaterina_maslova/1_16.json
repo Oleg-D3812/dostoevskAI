@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "1_16",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_01_16_0001",
+      "source_section": "chapter_01_16",
+      "source_sentence": 9,
+      "character_position": 57,
+      "text": "она просияла, точно она объявила ему о чем-то необыкновенно радостном",
+      "vad": [
+        0.95,
+        0.7,
+        0.2
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.393569893160629,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 1004,
+      "timeline_end_index": 1004,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 22,
+          "end": 91
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_16_0002",
+      "source_section": "chapter_01_16",
+      "source_sentence": 46,
+      "character_position": 58,
+      "text": "не веселой и радостной, как прежде, а испуганной, жалостной улыбкой",
+      "vad": [
+        -0.65,
+        0.55,
+        -0.6
+      ],
+      "cluster_id": "ekaterina_maslova-5",
+      "distance_to_centroid": 0.2146282147144423,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 1041,
+      "timeline_end_index": 1041,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 105,
+          "end": 172
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_16_0003",
+      "source_section": "chapter_01_16",
+      "source_sentence": 56,
+      "character_position": 59,
+      "text": "говорила она жалобным голосом",
+      "vad": [
+        -0.75,
+        0.45,
+        -0.65
+      ],
+      "cluster_id": "ekaterina_maslova-5",
+      "distance_to_centroid": 0.2343503984660282,
+      "warning": null,
+      "chapter_sentence_start": 56,
+      "chapter_sentence_end": 56,
+      "timeline_start_index": 1051,
+      "timeline_end_index": 1051,
+      "highlights": [
+        {
+          "chapter_sentence": 56,
+          "start": 53,
+          "end": 82
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_16_0004",
+      "source_section": "chapter_01_16",
+      "source_sentence": 63,
+      "character_position": 60,
+      "text": "все взволнованное, смущенное существо ее говорило другое",
+      "vad": [
+        -0.55,
+        0.78,
+        -0.42
+      ],
+      "cluster_id": "ekaterina_maslova-5",
+      "distance_to_centroid": 0.3497751991012905,
+      "warning": null,
+      "chapter_sentence_start": 63,
+      "chapter_sentence_end": 63,
+      "timeline_start_index": 1058,
+      "timeline_end_index": 1058,
+      "highlights": [
+        {
+          "chapter_sentence": 63,
+          "start": 42,
+          "end": 98
+        }
+      ]
+    }
+  ]
+}

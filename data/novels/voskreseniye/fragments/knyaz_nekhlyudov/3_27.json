@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "3_27",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_27_0001",
+      "source_section": "chapter_03_27",
+      "source_sentence": 1,
+      "character_position": 846,
+      "text": "к удивлению своему",
+      "vad": [
+        0.0,
+        0.4,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4380616742371551,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 9279,
+      "timeline_end_index": 9279,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 36,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_27_0002",
+      "source_section": "chapter_03_27",
+      "source_sentence": 61,
+      "character_position": 847,
+      "text": "что-то напомнил Нехлюдову",
+      "vad": [
+        0.0,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3364095522378096,
+      "warning": null,
+      "chapter_sentence_start": 61,
+      "chapter_sentence_end": 61,
+      "timeline_start_index": 9339,
+      "timeline_end_index": 9339,
+      "highlights": [
+        {
+          "chapter_sentence": 61,
+          "start": 10,
+          "end": 35
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_27_0003",
+      "source_section": "chapter_03_27",
+      "source_sentence": 64,
+      "character_position": 848,
+      "text": "не верил своим глазам",
+      "vad": [
+        -0.45,
+        0.55,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2845223261224341,
+      "warning": null,
+      "chapter_sentence_start": 64,
+      "chapter_sentence_end": 64,
+      "timeline_start_index": 9342,
+      "timeline_end_index": 9342,
+      "highlights": [
+        {
+          "chapter_sentence": 64,
+          "start": 28,
+          "end": 49
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_27_0004",
+      "source_section": "chapter_03_27",
+      "source_sentence": 71,
+      "character_position": 849,
+      "text": "ему казалось, что ответа этого нет, что ничего нет, кроме смерти",
+      "vad": [
+        -0.85,
+        0.2,
+        -0.75
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.486453743014001,
+      "warning": null,
+      "chapter_sentence_start": 71,
+      "chapter_sentence_end": 71,
+      "timeline_start_index": 9349,
+      "timeline_end_index": 9349,
+      "highlights": [
+        {
+          "chapter_sentence": 71,
+          "start": 20,
+          "end": 84
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_27_0005",
+      "source_section": "chapter_03_27",
+      "source_sentence": 71,
+      "character_position": 850,
+      "text": "ему сделалось дурно",
+      "vad": [
+        -0.7,
+        0.3,
+        -0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2039187667373443,
+      "warning": null,
+      "chapter_sentence_start": 71,
+      "chapter_sentence_end": 71,
+      "timeline_start_index": 9349,
+      "timeline_end_index": 9349,
+      "highlights": [
+        {
+          "chapter_sentence": 71,
+          "start": 88,
+          "end": 107
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_27_0006",
+      "source_section": "chapter_03_27",
+      "source_sentence": 72,
+      "character_position": 851,
+      "text": "чувствуя необходимость остаться одному, чтобы обдумать все то, что он испытал в нынешний вечер",
+      "vad": [
+        -0.2,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.1909775507726686,
+      "warning": null,
+      "chapter_sentence_start": 72,
+      "chapter_sentence_end": 72,
+      "timeline_start_index": 9350,
+      "timeline_end_index": 9350,
+      "highlights": [
+        {
+          "chapter_sentence": 72,
+          "start": 84,
+          "end": 178
+        }
+      ]
+    }
+  ]
+}

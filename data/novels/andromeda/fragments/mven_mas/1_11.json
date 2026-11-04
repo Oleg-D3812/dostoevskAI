@@ -1,0 +1,971 @@
+{
+  "schema_version": 1,
+  "novel_id": "andromeda",
+  "character_id": "mven_mas",
+  "chapter_id": "1_11",
+  "count": 37,
+  "fragments": [
+    {
+      "id": "mven_mas::chapter_01_11_0001",
+      "source_section": "chapter_01_11",
+      "source_sentence": 13,
+      "character_position": 60,
+      "text": "с горечью подумал",
+      "vad": [
+        -0.7,
+        0.25,
+        0.0
+      ],
+      "cluster_id": "mven_mas-3",
+      "distance_to_centroid": 0.4619658477035336,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 5000,
+      "timeline_end_index": 5000,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 56,
+          "end": 73
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0003",
+      "source_section": "chapter_01_11",
+      "source_sentence": 61,
+      "character_position": 61,
+      "text": "Мне будет трудно жить здесь, на берегу моря, смотреть в его просторную даль и думать о моем потерянном и прекрасном мире.",
+      "vad": [
+        -0.86,
+        0.28,
+        -0.34
+      ],
+      "cluster_id": "mven_mas-2",
+      "distance_to_centroid": 0.3217202608391088,
+      "warning": null,
+      "chapter_sentence_start": 61,
+      "chapter_sentence_end": 61,
+      "timeline_start_index": 5048,
+      "timeline_end_index": 5048,
+      "highlights": [
+        {
+          "chapter_sentence": 61,
+          "start": 2,
+          "end": 123
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0004",
+      "source_section": "chapter_01_11",
+      "source_sentence": 64,
+      "character_position": 62,
+      "text": "горестно усмехнулся",
+      "vad": [
+        -0.75,
+        0.3,
+        -0.2
+      ],
+      "cluster_id": "mven_mas-2",
+      "distance_to_centroid": 0.3223375361480477,
+      "warning": null,
+      "chapter_sentence_start": 64,
+      "chapter_sentence_end": 64,
+      "timeline_start_index": 5051,
+      "timeline_end_index": 5051,
+      "highlights": [
+        {
+          "chapter_sentence": 64,
+          "start": 9,
+          "end": 28
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0005",
+      "source_section": "chapter_01_11",
+      "source_sentence": 71,
+      "character_position": 63,
+      "text": "был рад поскорее удалиться",
+      "vad": [
+        0.65,
+        0.25,
+        0.35
+      ],
+      "cluster_id": "mven_mas-1",
+      "distance_to_centroid": 0.2366467779853851,
+      "warning": null,
+      "chapter_sentence_start": 71,
+      "chapter_sentence_end": 71,
+      "timeline_start_index": 5058,
+      "timeline_end_index": 5058,
+      "highlights": [
+        {
+          "chapter_sentence": 71,
+          "start": 9,
+          "end": 35
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0006",
+      "source_section": "chapter_01_11",
+      "source_sentence": 76,
+      "character_position": 64,
+      "text": "сознание чудовищной утраты",
+      "vad": [
+        -0.85,
+        0.35,
+        -0.45
+      ],
+      "cluster_id": "mven_mas-2",
+      "distance_to_centroid": 0.2589359547714621,
+      "warning": null,
+      "chapter_sentence_start": 76,
+      "chapter_sentence_end": 76,
+      "timeline_start_index": 5063,
+      "timeline_end_index": 5063,
+      "highlights": [
+        {
+          "chapter_sentence": 76,
+          "start": 11,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0007",
+      "source_section": "chapter_01_11",
+      "source_sentence": 77,
+      "character_position": 65,
+      "text": "стал остро тосковать по Большому Миру",
+      "vad": [
+        -0.8,
+        0.6,
+        -0.5
+      ],
+      "cluster_id": "mven_mas-2",
+      "distance_to_centroid": 0.2322982195793806,
+      "warning": null,
+      "chapter_sentence_start": 77,
+      "chapter_sentence_end": 77,
+      "timeline_start_index": 5064,
+      "timeline_end_index": 5064,
+      "highlights": [
+        {
+          "chapter_sentence": 77,
+          "start": 83,
+          "end": 120
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0008",
+      "source_section": "chapter_01_11",
+      "source_sentence": 78,
+      "character_position": 66,
+      "text": "Его не радовали более мирные долины",
+      "vad": [
+        -0.65,
+        -0.3,
+        -0.1
+      ],
+      "cluster_id": "mven_mas-4",
+      "distance_to_centroid": 0.5692219882216427,
+      "warning": null,
+      "chapter_sentence_start": 78,
+      "chapter_sentence_end": 78,
+      "timeline_start_index": 5065,
+      "timeline_end_index": 5065,
+      "highlights": [
+        {
+          "chapter_sentence": 78,
+          "start": 0,
+          "end": 35
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0009",
+      "source_section": "chapter_01_11",
+      "source_sentence": 129,
+      "character_position": 67,
+      "text": "с удовольствием посмотрел",
+      "vad": [
+        0.8,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "mven_mas-1",
+      "distance_to_centroid": 0.3920055665389598,
+      "warning": null,
+      "chapter_sentence_start": 129,
+      "chapter_sentence_end": 129,
+      "timeline_start_index": 5116,
+      "timeline_end_index": 5116,
+      "highlights": [
+        {
+          "chapter_sentence": 129,
+          "start": 36,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0010",
+      "source_section": "chapter_01_11",
+      "source_sentence": 130,
+      "character_position": 68,
+      "text": "Острое сожаление резануло Мвена Maca",
+      "vad": [
+        -0.85,
+        0.65,
+        -0.25
+      ],
+      "cluster_id": "mven_mas-2",
+      "distance_to_centroid": 0.3527232375842924,
+      "warning": null,
+      "chapter_sentence_start": 130,
+      "chapter_sentence_end": 130,
+      "timeline_start_index": 5117,
+      "timeline_end_index": 5117,
+      "highlights": [
+        {
+          "chapter_sentence": 130,
+          "start": 0,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0011",
+      "source_section": "chapter_01_11",
+      "source_sentence": 114,
+      "character_position": 69,
+      "text": "Не темным ли домом стала для него светлая планета?",
+      "vad": [
+        -0.78,
+        0.24,
+        -0.58
+      ],
+      "cluster_id": "mven_mas-2",
+      "distance_to_centroid": 0.3098568109749324,
+      "warning": null,
+      "chapter_sentence_start": 114,
+      "chapter_sentence_end": 114,
+      "timeline_start_index": 5101,
+      "timeline_end_index": 5101,
+      "highlights": [
+        {
+          "chapter_sentence": 114,
+          "start": 0,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0012",
+      "source_section": "chapter_01_11",
+      "source_sentence": 115,
+      "character_position": 70,
+      "text": "его гордое самоотречение — это просто самоуверенность незнания",
+      "vad": [
+        -0.45,
+        0.2,
+        0.35
+      ],
+      "cluster_id": "mven_mas-3",
+      "distance_to_centroid": 0.3444499641134801,
+      "warning": null,
+      "chapter_sentence_start": 115,
+      "chapter_sentence_end": 115,
+      "timeline_start_index": 5102,
+      "timeline_end_index": 5102,
+      "highlights": [
+        {
+          "chapter_sentence": 115,
+          "start": 5,
+          "end": 67
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0013",
+      "source_section": "chapter_01_11",
+      "source_sentence": 116,
+      "character_position": 71,
+      "text": "Незнания самого себя, недооценка высоты насыщенной творчеством жизни, которой он жил, непонимание силы любви к Чаре.",
+      "vad": [
+        -0.75,
+        -0.1,
+        -0.65
+      ],
+      "cluster_id": "mven_mas-2",
+      "distance_to_centroid": 0.6171227686613402,
+      "warning": null,
+      "chapter_sentence_start": 116,
+      "chapter_sentence_end": 116,
+      "timeline_start_index": 5103,
+      "timeline_end_index": 5103,
+      "highlights": [
+        {
+          "chapter_sentence": 116,
+          "start": 0,
+          "end": 116
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0014",
+      "source_section": "chapter_01_11",
+      "source_sentence": 120,
+      "character_position": 72,
+      "text": "чтобы не чувствовать себя отверженцем мира красоты и знания",
+      "vad": [
+        -0.75,
+        0.2,
+        -0.55
+      ],
+      "cluster_id": "mven_mas-2",
+      "distance_to_centroid": 0.3156279445884283,
+      "warning": null,
+      "chapter_sentence_start": 120,
+      "chapter_sentence_end": 120,
+      "timeline_start_index": 5107,
+      "timeline_end_index": 5107,
+      "highlights": [
+        {
+          "chapter_sentence": 120,
+          "start": 51,
+          "end": 110
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0015",
+      "source_section": "chapter_01_11",
+      "source_sentence": 125,
+      "character_position": 73,
+      "text": "поддаваясь легкой, радостной красоте",
+      "vad": [
+        0.82,
+        0.2,
+        0.05
+      ],
+      "cluster_id": "mven_mas-1",
+      "distance_to_centroid": 0.3630985904954094,
+      "warning": null,
+      "chapter_sentence_start": 125,
+      "chapter_sentence_end": 125,
+      "timeline_start_index": 5112,
+      "timeline_end_index": 5112,
+      "highlights": [
+        {
+          "chapter_sentence": 125,
+          "start": 57,
+          "end": 93
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0016",
+      "source_section": "chapter_01_11",
+      "source_sentence": 126,
+      "character_position": 74,
+      "text": "ощущая себя в детском сне",
+      "vad": [
+        0.7,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "mven_mas-1",
+      "distance_to_centroid": 0.4290189425729588,
+      "warning": null,
+      "chapter_sentence_start": 126,
+      "chapter_sentence_end": 126,
+      "timeline_start_index": 5113,
+      "timeline_end_index": 5113,
+      "highlights": [
+        {
+          "chapter_sentence": 126,
+          "start": 79,
+          "end": 104
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0017",
+      "source_section": "chapter_01_11",
+      "source_sentence": 171,
+      "character_position": 75,
+      "text": "беззаботно рассмеялся",
+      "vad": [
+        0.75,
+        0.45,
+        0.4
+      ],
+      "cluster_id": "mven_mas-1",
+      "distance_to_centroid": 0.2021455135341255,
+      "warning": null,
+      "chapter_sentence_start": 171,
+      "chapter_sentence_end": 171,
+      "timeline_start_index": 5158,
+      "timeline_end_index": 5158,
+      "highlights": [
+        {
+          "chapter_sentence": 171,
+          "start": 9,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0018",
+      "source_section": "chapter_01_11",
+      "source_sentence": 178,
+      "character_position": 76,
+      "text": "Опасение открыто говорить безмерно возмущало Мвена Maca.",
+      "vad": [
+        -0.86,
+        0.82,
+        0.28
+      ],
+      "cluster_id": "mven_mas-3",
+      "distance_to_centroid": 0.4472796788488283,
+      "warning": "non_verbatim_evidence;empty_evidence",
+      "chapter_sentence_start": 178,
+      "chapter_sentence_end": 178,
+      "timeline_start_index": 5165,
+      "timeline_end_index": 5165,
+      "highlights": [
+        {
+          "chapter_sentence": 178,
+          "start": 0,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0019",
+      "source_section": "chapter_01_11",
+      "source_sentence": 179,
+      "character_position": 77,
+      "text": "Он не мог примириться с мыслью об угнетении",
+      "vad": [
+        -0.75,
+        0.5,
+        0.3
+      ],
+      "cluster_id": "mven_mas-3",
+      "distance_to_centroid": 0.2370916372300896,
+      "warning": null,
+      "chapter_sentence_start": 179,
+      "chapter_sentence_end": 179,
+      "timeline_start_index": 5166,
+      "timeline_end_index": 5166,
+      "highlights": [
+        {
+          "chapter_sentence": 179,
+          "start": 0,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0020",
+      "source_section": "chapter_01_11",
+      "source_sentence": 201,
+      "character_position": 78,
+      "text": "Но Мвен Мас уже овладел собой.",
+      "vad": [
+        0.35,
+        0.2,
+        0.8
+      ],
+      "cluster_id": "mven_mas-1",
+      "distance_to_centroid": 0.6851411272121467,
+      "warning": null,
+      "chapter_sentence_start": 201,
+      "chapter_sentence_end": 201,
+      "timeline_start_index": 5188,
+      "timeline_end_index": 5188,
+      "highlights": [
+        {
+          "chapter_sentence": 201,
+          "start": 0,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0021",
+      "source_section": "chapter_01_11",
+      "source_sentence": 207,
+      "character_position": 79,
+      "text": "утратившего все свойственное ему добродушие",
+      "vad": [
+        -0.65,
+        0.45,
+        0.2
+      ],
+      "cluster_id": "mven_mas-3",
+      "distance_to_centroid": 0.1950532690773928,
+      "warning": null,
+      "chapter_sentence_start": 207,
+      "chapter_sentence_end": 207,
+      "timeline_start_index": 5194,
+      "timeline_end_index": 5194,
+      "highlights": [
+        {
+          "chapter_sentence": 207,
+          "start": 100,
+          "end": 143
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0023",
+      "source_section": "chapter_01_11",
+      "source_sentence": 228,
+      "character_position": 80,
+      "text": "уверенно и грозно стоял перед Бетом Лоном",
+      "vad": [
+        -0.35,
+        0.55,
+        0.85
+      ],
+      "cluster_id": "mven_mas-3",
+      "distance_to_centroid": 0.562564761704029,
+      "warning": null,
+      "chapter_sentence_start": 228,
+      "chapter_sentence_end": 228,
+      "timeline_start_index": 5215,
+      "timeline_end_index": 5215,
+      "highlights": [
+        {
+          "chapter_sentence": 228,
+          "start": 20,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0024",
+      "source_section": "chapter_01_11",
+      "source_sentence": 229,
+      "character_position": 81,
+      "text": "эта дрожь наполняла его ожесточением",
+      "vad": [
+        -0.75,
+        0.7,
+        0.45
+      ],
+      "cluster_id": "mven_mas-3",
+      "distance_to_centroid": 0.3170369764624379,
+      "warning": null,
+      "chapter_sentence_start": 229,
+      "chapter_sentence_end": 229,
+      "timeline_start_index": 5216,
+      "timeline_end_index": 5216,
+      "highlights": [
+        {
+          "chapter_sentence": 229,
+          "start": 2,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0025",
+      "source_section": "chapter_01_11",
+      "source_sentence": 261,
+      "character_position": 82,
+      "text": "почти со злобой вспомнил",
+      "vad": [
+        -0.65,
+        0.55,
+        0.1
+      ],
+      "cluster_id": "mven_mas-3",
+      "distance_to_centroid": 0.2517520826351018,
+      "warning": null,
+      "chapter_sentence_start": 261,
+      "chapter_sentence_end": 261,
+      "timeline_start_index": 5248,
+      "timeline_end_index": 5248,
+      "highlights": [
+        {
+          "chapter_sentence": 261,
+          "start": 9,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0026",
+      "source_section": "chapter_01_11",
+      "source_sentence": 265,
+      "character_position": 83,
+      "text": "окончательно успокоившись",
+      "vad": [
+        0.4,
+        -0.8,
+        0.2
+      ],
+      "cluster_id": "mven_mas-4",
+      "distance_to_centroid": 0.7729496567532714,
+      "warning": null,
+      "chapter_sentence_start": 265,
+      "chapter_sentence_end": 265,
+      "timeline_start_index": 5252,
+      "timeline_end_index": 5252,
+      "highlights": [
+        {
+          "chapter_sentence": 265,
+          "start": 14,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0027",
+      "source_section": "chapter_01_11",
+      "source_sentence": 268,
+      "character_position": 84,
+      "text": "ощущение следящих за ним невидимых глаз тяготило Мвена Maca",
+      "vad": [
+        -0.7,
+        0.5,
+        -0.4
+      ],
+      "cluster_id": "mven_mas-2",
+      "distance_to_centroid": 0.0978377172531692,
+      "warning": null,
+      "chapter_sentence_start": 268,
+      "chapter_sentence_end": 268,
+      "timeline_start_index": 5255,
+      "timeline_end_index": 5255,
+      "highlights": [
+        {
+          "chapter_sentence": 268,
+          "start": 4,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0028",
+      "source_section": "chapter_01_11",
+      "source_sentence": 277,
+      "character_position": 85,
+      "text": "будившая в ней давно забытые чувства страха и обреченности жертвы, выбранной непобедимым хищником",
+      "vad": [
+        -0.95,
+        0.86,
+        -0.94
+      ],
+      "cluster_id": "mven_mas-2",
+      "distance_to_centroid": 0.7153706352280469,
+      "warning": null,
+      "chapter_sentence_start": 277,
+      "chapter_sentence_end": 277,
+      "timeline_start_index": 5264,
+      "timeline_end_index": 5264,
+      "highlights": [
+        {
+          "chapter_sentence": 277,
+          "start": 62,
+          "end": 159
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0029",
+      "source_section": "chapter_01_11",
+      "source_sentence": 278,
+      "character_position": 86,
+      "text": "загорелась не менее древняя ярость борьбы",
+      "vad": [
+        -0.35,
+        0.82,
+        0.58
+      ],
+      "cluster_id": "mven_mas-3",
+      "distance_to_centroid": 0.4238857288363351,
+      "warning": null,
+      "chapter_sentence_start": 278,
+      "chapter_sentence_end": 278,
+      "timeline_start_index": 5265,
+      "timeline_end_index": 5265,
+      "highlights": [
+        {
+          "chapter_sentence": 278,
+          "start": 36,
+          "end": 77
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0030",
+      "source_section": "chapter_01_11",
+      "source_sentence": 289,
+      "character_position": 87,
+      "text": "Ему хотелось почерпнуть мужество последних минут",
+      "vad": [
+        -0.2,
+        0.35,
+        -0.25
+      ],
+      "cluster_id": "mven_mas-2",
+      "distance_to_centroid": 0.4755346407224896,
+      "warning": null,
+      "chapter_sentence_start": 289,
+      "chapter_sentence_end": 289,
+      "timeline_start_index": 5276,
+      "timeline_end_index": 5276,
+      "highlights": [
+        {
+          "chapter_sentence": 289,
+          "start": 0,
+          "end": 48
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0032",
+      "source_section": "chapter_01_11",
+      "source_sentence": 315,
+      "character_position": 88,
+      "text": "Мвену Масу не казалась такой красивой рабочая одежда Большого Мира",
+      "vad": [
+        0.65,
+        0.15,
+        0.0
+      ],
+      "cluster_id": "mven_mas-1",
+      "distance_to_centroid": 0.3837338889528317,
+      "warning": null,
+      "chapter_sentence_start": 315,
+      "chapter_sentence_end": 315,
+      "timeline_start_index": 5302,
+      "timeline_end_index": 5302,
+      "highlights": [
+        {
+          "chapter_sentence": 315,
+          "start": 12,
+          "end": 78
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0033",
+      "source_section": "chapter_01_11",
+      "source_sentence": 323,
+      "character_position": 89,
+      "text": "где взволнованно колотилось сердце",
+      "vad": [
+        -0.35,
+        0.8,
+        -0.15
+      ],
+      "cluster_id": "mven_mas-2",
+      "distance_to_centroid": 0.519015507442785,
+      "warning": null,
+      "chapter_sentence_start": 323,
+      "chapter_sentence_end": 323,
+      "timeline_start_index": 5310,
+      "timeline_end_index": 5310,
+      "highlights": [
+        {
+          "chapter_sentence": 323,
+          "start": 68,
+          "end": 102
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0034",
+      "source_section": "chapter_01_11",
+      "source_sentence": 324,
+      "character_position": 90,
+      "text": "эта легкая ласка доставила Мвену Масу неиспытанный покой",
+      "vad": [
+        0.75,
+        -0.7,
+        0.1
+      ],
+      "cluster_id": "mven_mas-4",
+      "distance_to_centroid": 0.9780151695525996,
+      "warning": null,
+      "chapter_sentence_start": 324,
+      "chapter_sentence_end": 324,
+      "timeline_start_index": 5311,
+      "timeline_end_index": 5311,
+      "highlights": [
+        {
+          "chapter_sentence": 324,
+          "start": 73,
+          "end": 129
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0035",
+      "source_section": "chapter_01_11",
+      "source_sentence": 404,
+      "character_position": 91,
+      "text": "Дух захватывает от их величайшего многообразия…",
+      "vad": [
+        0.85,
+        0.72,
+        -0.08
+      ],
+      "cluster_id": "mven_mas-1",
+      "distance_to_centroid": 0.4618158937857016,
+      "warning": null,
+      "chapter_sentence_start": 404,
+      "chapter_sentence_end": 404,
+      "timeline_start_index": 5391,
+      "timeline_end_index": 5391,
+      "highlights": [
+        {
+          "chapter_sentence": 404,
+          "start": 0,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0036",
+      "source_section": "chapter_01_11",
+      "source_sentence": 387,
+      "character_position": 92,
+      "text": "любуясь девушкой",
+      "vad": [
+        0.7,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "mven_mas-1",
+      "distance_to_centroid": 0.2942061404634847,
+      "warning": null,
+      "chapter_sentence_start": 387,
+      "chapter_sentence_end": 387,
+      "timeline_start_index": 5374,
+      "timeline_end_index": 5374,
+      "highlights": [
+        {
+          "chapter_sentence": 387,
+          "start": 21,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0038",
+      "source_section": "chapter_01_11",
+      "source_sentence": 442,
+      "character_position": 93,
+      "text": "бесстрашно встал на краю обрыва",
+      "vad": [
+        0.45,
+        0.55,
+        0.8
+      ],
+      "cluster_id": "mven_mas-1",
+      "distance_to_centroid": 0.6050036985908782,
+      "warning": null,
+      "chapter_sentence_start": 442,
+      "chapter_sentence_end": 442,
+      "timeline_start_index": 5429,
+      "timeline_end_index": 5429,
+      "highlights": [
+        {
+          "chapter_sentence": 442,
+          "start": 66,
+          "end": 97
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0039",
+      "source_section": "chapter_01_11",
+      "source_sentence": 463,
+      "character_position": 94,
+      "text": "Мвена Maca обуяла отвага и торжество",
+      "vad": [
+        0.9,
+        0.8,
+        0.85
+      ],
+      "cluster_id": "mven_mas-1",
+      "distance_to_centroid": 0.7546717666036288,
+      "warning": null,
+      "chapter_sentence_start": 463,
+      "chapter_sentence_end": 463,
+      "timeline_start_index": 5450,
+      "timeline_end_index": 5450,
+      "highlights": [
+        {
+          "chapter_sentence": 463,
+          "start": 0,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0040",
+      "source_section": "chapter_01_11",
+      "source_sentence": 464,
+      "character_position": 95,
+      "text": "ощущения безграничной удали и удачи",
+      "vad": [
+        0.88,
+        0.62,
+        0.58
+      ],
+      "cluster_id": "mven_mas-1",
+      "distance_to_centroid": 0.4550354415717744,
+      "warning": null,
+      "chapter_sentence_start": 464,
+      "chapter_sentence_end": 464,
+      "timeline_start_index": 5451,
+      "timeline_end_index": 5451,
+      "highlights": [
+        {
+          "chapter_sentence": 464,
+          "start": 100,
+          "end": 135
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_11_0041",
+      "source_section": "chapter_01_11",
+      "source_sentence": 409,
+      "character_position": 96,
+      "text": "страстного нетерпения дать полноту мира людям",
+      "vad": [
+        0.85,
+        0.8,
+        0.65
+      ],
+      "cluster_id": "mven_mas-1",
+      "distance_to_centroid": 0.5819999310593486,
+      "warning": null,
+      "chapter_sentence_start": 409,
+      "chapter_sentence_end": 409,
+      "timeline_start_index": 5396,
+      "timeline_end_index": 5396,
+      "highlights": [
+        {
+          "chapter_sentence": 409,
+          "start": 20,
+          "end": 65
+        }
+      ]
+    }
+  ]
+}

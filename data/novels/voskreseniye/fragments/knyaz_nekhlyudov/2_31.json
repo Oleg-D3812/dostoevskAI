@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "2_31",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_31_0001",
+      "source_section": "chapter_02_31",
+      "source_sentence": 8,
+      "character_position": 654,
+      "text": "любили Николеньку и любили в нем и себе то, что было в них хорошего и единящего всех людей",
+      "vad": [
+        0.8,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.2449352325423805,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 6535,
+      "timeline_end_index": 6535,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 8,
+          "end": 98
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_31_0002",
+      "source_section": "chapter_02_31",
+      "source_sentence": 12,
+      "character_position": 655,
+      "text": "ненавидел своего зятя",
+      "vad": [
+        -0.95,
+        0.7,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.5685711879386466,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 6539,
+      "timeline_end_index": 6539,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 70,
+          "end": 91
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_31_0003",
+      "source_section": "chapter_02_31",
+      "source_sentence": 13,
+      "character_position": 656,
+      "text": "Антипатичен он ему был своей вульгарностью чувств, самоуверенной ограниченностью и, главное, антипатичен был ему за сестру",
+      "vad": [
+        -0.82,
+        0.42,
+        0.08
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.4715351537181826,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 6540,
+      "timeline_end_index": 6540,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 0,
+          "end": 122
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_31_0004",
+      "source_section": "chapter_02_31",
+      "source_sentence": 14,
+      "character_position": 657,
+      "text": "Нехлюдову всегда было мучительно больно думать, что Наташа – жена этого волосатого, с глянцевитой лысиной самоуверенного человека",
+      "vad": [
+        -0.9,
+        0.7,
+        -0.5
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3011956425470179,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 6541,
+      "timeline_end_index": 6541,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 0,
+          "end": 129
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_31_0005",
+      "source_section": "chapter_02_31",
+      "source_sentence": 15,
+      "character_position": 658,
+      "text": "Он не мог даже удерживать отвращения к его детям",
+      "vad": [
+        -0.85,
+        0.55,
+        -0.65
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3061673603628357,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 6542,
+      "timeline_end_index": 6542,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 0,
+          "end": 48
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_31_0006",
+      "source_section": "chapter_02_31",
+      "source_sentence": 16,
+      "character_position": 659,
+      "text": "испытывал чувство, подобное соболезнованию о том, что опять она чем-то дурным заразилась от этого чуждого им всем человека",
+      "vad": [
+        -0.8,
+        0.35,
+        -0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.1736965075087315,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 6543,
+      "timeline_end_index": 6543,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 61,
+          "end": 183
+        }
+      ]
+    }
+  ]
+}

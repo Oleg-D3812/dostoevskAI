@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "1_22",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_01_22_0001",
+      "source_section": "chapter_01_22",
+      "source_sentence": 16,
+      "character_position": 81,
+      "text": "Маслова, не спуская глаз, смотрела на него, как бы боясь проронить каждое слово",
+      "vad": [
+        -0.35,
+        0.55,
+        -0.4
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.2442685732559434,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 1338,
+      "timeline_end_index": 1338,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 43,
+          "end": 122
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_22_0002",
+      "source_section": "chapter_01_22",
+      "source_sentence": 19,
+      "character_position": 82,
+      "text": "любимого ею человека, своими влюбленными, смеющимися от радости и полноты жизни глазами",
+      "vad": [
+        1.0,
+        0.75,
+        0.1
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.4531004729419808,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 1341,
+      "timeline_end_index": 1341,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 291,
+          "end": 378
+        }
+      ]
+    }
+  ]
+}

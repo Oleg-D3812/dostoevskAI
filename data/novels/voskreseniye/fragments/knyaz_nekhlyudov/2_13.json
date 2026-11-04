@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "2_13",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_13_0001",
+      "source_section": "chapter_02_13",
+      "source_sentence": 1,
+      "character_position": 524,
+      "text": "С замиранием сердца и ужасом перед мыслью о том, в каком состоянии он нынче найдет Маслову",
+      "vad": [
+        -0.9,
+        0.85,
+        -0.65
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.486289135439412,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 5020,
+      "timeline_end_index": 5020,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 0,
+          "end": 90
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_13_0003",
+      "source_section": "chapter_02_13",
+      "source_sentence": 76,
+      "character_position": 525,
+      "text": "никак не мог ответить себе",
+      "vad": [
+        -0.55,
+        0.2,
+        -0.65
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.4332931851224996,
+      "warning": null,
+      "chapter_sentence_start": 76,
+      "chapter_sentence_end": 76,
+      "timeline_start_index": 5095,
+      "timeline_end_index": 5095,
+      "highlights": [
+        {
+          "chapter_sentence": 76,
+          "start": 28,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_13_0004",
+      "source_section": "chapter_02_13",
+      "source_sentence": 78,
+      "character_position": 526,
+      "text": "приводило его в радостно-возбужденное и умиленное состояние",
+      "vad": [
+        0.85,
+        0.65,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.5170478761544505,
+      "warning": null,
+      "chapter_sentence_start": 78,
+      "chapter_sentence_end": 78,
+      "timeline_start_index": 5097,
+      "timeline_end_index": 5097,
+      "highlights": [
+        {
+          "chapter_sentence": 78,
+          "start": 20,
+          "end": 79
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "1_23",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_01_23_0002",
+      "source_section": "chapter_01_23",
+      "source_sentence": 119,
+      "character_position": 83,
+      "text": "Подсудимые сидели невозмутимо, очевидно не понимая значения ответов",
+      "vad": [
+        -0.2,
+        -0.6,
+        -0.35
+      ],
+      "cluster_id": "ekaterina_maslova-3",
+      "distance_to_centroid": 0.3720140379669084,
+      "warning": null,
+      "chapter_sentence_start": 119,
+      "chapter_sentence_end": 119,
+      "timeline_start_index": 1473,
+      "timeline_end_index": 1473,
+      "highlights": [
+        {
+          "chapter_sentence": 119,
+          "start": 0,
+          "end": 67
+        }
+      ]
+    }
+  ]
+}

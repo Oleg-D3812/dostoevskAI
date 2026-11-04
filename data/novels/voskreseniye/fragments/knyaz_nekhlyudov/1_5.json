@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "1_5",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_05_0001",
+      "source_section": "chapter_01_05",
+      "source_sentence": 27,
+      "character_position": 35,
+      "text": "принимал это как должное",
+      "vad": [
+        0.1,
+        -0.2,
+        0.6
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.7754627486151705,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 276,
+      "timeline_end_index": 276,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 49,
+          "end": 73
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_05_0004",
+      "source_section": "chapter_01_05",
+      "source_sentence": 30,
+      "character_position": 36,
+      "text": "оскорблялся, когда этого не было",
+      "vad": [
+        -0.7,
+        0.35,
+        -0.25
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.1887142678973745,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 279,
+      "timeline_end_index": 279,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 116,
+          "end": 148
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_05_0005",
+      "source_section": "chapter_01_05",
+      "source_sentence": 31,
+      "character_position": 37,
+      "text": "это неприятное чувство",
+      "vad": [
+        -0.55,
+        0.2,
+        -0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.345394506236352,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 280,
+      "timeline_end_index": 280,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 50,
+          "end": 72
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_05_0006",
+      "source_section": "chapter_01_05",
+      "source_sentence": 35,
+      "character_position": 38,
+      "text": "Он всегда был невыносим Нехлюдову своей фамильярностью, своим самодовольным хохотом, вообще своей «коммунностью»",
+      "vad": [
+        -0.85,
+        0.35,
+        -0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3330892107830367,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 284,
+      "timeline_end_index": 284,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 0,
+          "end": 112
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_05_0007",
+      "source_section": "chapter_01_05",
+      "source_sentence": 38,
+      "character_position": 39,
+      "text": "уныло сказал Нехлюдов",
+      "vad": [
+        -0.65,
+        -0.35,
+        -0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.59645298383305,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 287,
+      "timeline_end_index": 287,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 41,
+          "end": 62
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_05_0008",
+      "source_section": "chapter_01_05",
+      "source_sentence": 42,
+      "character_position": 40,
+      "text": "выразив на своем лице такую печаль, которая была бы естественна только, если бы он сейчас узнал о смерти всех родных",
+      "vad": [
+        -0.95,
+        0.55,
+        0.15
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.5762558275935565,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 291,
+      "timeline_end_index": 291,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 78,
+          "end": 194
+        }
+      ]
+    }
+  ]
+}

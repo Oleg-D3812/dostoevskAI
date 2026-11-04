@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "1_19",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_01_19_0001",
+      "source_section": "chapter_01_19",
+      "source_sentence": 12,
+      "character_position": 74,
+      "text": "несколько раз взглядывала, как будто не могла оторвать взгляда от очень нарядной, в шелку и бархате, толстой женщины",
+      "vad": [
+        -0.1,
+        0.35,
+        -0.2
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.3398868460000828,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 1193,
+      "timeline_end_index": 1193,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 68,
+          "end": 184
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_19_0002",
+      "source_section": "chapter_01_19",
+      "source_sentence": 31,
+      "character_position": 75,
+      "text": "и лицо ее сделалось серьезно и даже строго",
+      "vad": [
+        -0.35,
+        0.2,
+        0.35
+      ],
+      "cluster_id": "ekaterina_maslova-6",
+      "distance_to_centroid": 0.3505181388578501,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 1212,
+      "timeline_end_index": 1212,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 101,
+          "end": 143
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_19_0003",
+      "source_section": "chapter_01_19",
+      "source_sentence": 40,
+      "character_position": 76,
+      "text": "Она спокойно вздохнула",
+      "vad": [
+        0.0,
+        -0.45,
+        0.2
+      ],
+      "cluster_id": "ekaterina_maslova-4",
+      "distance_to_centroid": 0.4716570674933567,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 1221,
+      "timeline_end_index": 1221,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 0,
+          "end": 22
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "2_18",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_02_18_0001",
+      "source_section": "chapter_02_18",
+      "source_sentence": 58,
+      "character_position": 224,
+      "text": "это оттолкнуло ее",
+      "vad": [
+        -0.6,
+        0.2,
+        -0.25
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.2358490258600576,
+      "warning": null,
+      "chapter_sentence_start": 58,
+      "chapter_sentence_end": 58,
+      "timeline_start_index": 5560,
+      "timeline_end_index": 5560,
+      "highlights": [
+        {
+          "chapter_sentence": 58,
+          "start": 54,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_02_18_0002",
+      "source_section": "chapter_02_18",
+      "source_sentence": 58,
+      "character_position": 225,
+      "text": "они полюбили",
+      "vad": [
+        0.8,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.1068229829735064,
+      "warning": null,
+      "chapter_sentence_start": 58,
+      "chapter_sentence_end": 58,
+      "timeline_start_index": 5560,
+      "timeline_end_index": 5560,
+      "highlights": [
+        {
+          "chapter_sentence": 58,
+          "start": 95,
+          "end": 107
+        }
+      ]
+    }
+  ]
+}

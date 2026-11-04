@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "1_55",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_55_0001",
+      "source_section": "chapter_01_55",
+      "source_sentence": 11,
+      "character_position": 415,
+      "text": "ему очень интересно и приятно знать все тайны народовольства",
+      "vad": [
+        0.65,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.2621288273136773,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 3688,
+      "timeline_end_index": 3688,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 53,
+          "end": 113
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_55_0002",
+      "source_section": "chapter_01_55",
+      "source_sentence": 12,
+      "character_position": 416,
+      "text": "удивлялся, зачем она все это делала и рассказывала",
+      "vad": [
+        -0.2,
+        0.1,
+        0.15
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.2083800659582067,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 3689,
+      "timeline_end_index": 3689,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 67,
+          "end": 117
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_55_0003",
+      "source_section": "chapter_01_55",
+      "source_sentence": 13,
+      "character_position": 417,
+      "text": "Она жалка ему была",
+      "vad": [
+        -0.55,
+        0.1,
+        0.15
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.2661823580489461,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 3690,
+      "timeline_end_index": 3690,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 0,
+          "end": 18
+        }
+      ]
+    }
+  ]
+}

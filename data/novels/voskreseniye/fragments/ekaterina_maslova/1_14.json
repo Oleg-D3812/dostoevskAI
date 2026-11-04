@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "1_14",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_01_14_0001",
+      "source_section": "chapter_01_14",
+      "source_sentence": 40,
+      "character_position": 49,
+      "text": "от неудержимой радости",
+      "vad": [
+        0.98,
+        0.93,
+        -0.25
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.6996050748833008,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 899,
+      "timeline_end_index": 899,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 81,
+          "end": 103
+        }
+      ]
+    }
+  ]
+}

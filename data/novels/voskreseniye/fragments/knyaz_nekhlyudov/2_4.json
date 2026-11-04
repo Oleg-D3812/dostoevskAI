@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "2_4",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_04_0001",
+      "source_section": "chapter_02_04",
+      "source_sentence": 25,
+      "character_position": 465,
+      "text": "не зная, что сказать",
+      "vad": [
+        -0.35,
+        -0.1,
+        -0.55
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.58566654067946,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 4247,
+      "timeline_end_index": 4247,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 19,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_04_0002",
+      "source_section": "chapter_02_04",
+      "source_sentence": 82,
+      "character_position": 466,
+      "text": "чувствуя неловкость и стыд, в причине которых он не давал себе отчета",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.1746461921448637,
+      "warning": null,
+      "chapter_sentence_start": 82,
+      "chapter_sentence_end": 82,
+      "timeline_start_index": 4304,
+      "timeline_end_index": 4304,
+      "highlights": [
+        {
+          "chapter_sentence": 82,
+          "start": 35,
+          "end": 104
+        }
+      ]
+    }
+  ]
+}

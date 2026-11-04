@@ -1,0 +1,659 @@
+{
+  "schema_version": 1,
+  "novel_id": "andromeda",
+  "character_id": "dar_veter",
+  "chapter_id": "1_7",
+  "count": 25,
+  "fragments": [
+    {
+      "id": "dar_veter::chapter_01_07_0001",
+      "source_section": "chapter_01_07",
+      "source_sentence": 38,
+      "character_position": 48,
+      "text": "Мне всегда хотелось, чтобы путь искусства был в преодолении и изменении мира, а не только его ощущением",
+      "vad": [
+        0.55,
+        0.3,
+        0.65
+      ],
+      "cluster_id": "dar_veter-2",
+      "distance_to_centroid": 0.4798588863210204,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 3415,
+      "timeline_end_index": 3415,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 2,
+          "end": 105
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_07_0002",
+      "source_section": "chapter_01_07",
+      "source_sentence": 105,
+      "character_position": 49,
+      "text": "не мог решить, кому больше идет пение",
+      "vad": [
+        0.35,
+        0.1,
+        -0.2
+      ],
+      "cluster_id": "dar_veter-2",
+      "distance_to_centroid": 0.5580788929723556,
+      "warning": null,
+      "chapter_sentence_start": 105,
+      "chapter_sentence_end": 105,
+      "timeline_start_index": 3482,
+      "timeline_end_index": 3482,
+      "highlights": [
+        {
+          "chapter_sentence": 105,
+          "start": 47,
+          "end": 84
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_07_0003",
+      "source_section": "chapter_01_07",
+      "source_sentence": 149,
+      "character_position": 50,
+      "text": "замер, ошеломленный силой противоречивых чувств",
+      "vad": [
+        -0.35,
+        0.8,
+        -0.55
+      ],
+      "cluster_id": "dar_veter-1",
+      "distance_to_centroid": 0.5617802606219712,
+      "warning": null,
+      "chapter_sentence_start": 149,
+      "chapter_sentence_end": 149,
+      "timeline_start_index": 3526,
+      "timeline_end_index": 3526,
+      "highlights": [
+        {
+          "chapter_sentence": 149,
+          "start": 10,
+          "end": 57
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_07_0004",
+      "source_section": "chapter_01_07",
+      "source_sentence": 165,
+      "character_position": 51,
+      "text": "грустную удаль, сквозившую в его прежнем отношении к ней",
+      "vad": [
+        -0.45,
+        0.4,
+        0.3
+      ],
+      "cluster_id": "dar_veter-1",
+      "distance_to_centroid": 0.5531054444254379,
+      "warning": null,
+      "chapter_sentence_start": 165,
+      "chapter_sentence_end": 165,
+      "timeline_start_index": 3542,
+      "timeline_end_index": 3542,
+      "highlights": [
+        {
+          "chapter_sentence": 165,
+          "start": 10,
+          "end": 66
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_07_0005",
+      "source_section": "chapter_01_07",
+      "source_sentence": 216,
+      "character_position": 52,
+      "text": "Дар Ветер был тронут и в задумчивости пошел прочь",
+      "vad": [
+        0.2,
+        -0.1,
+        0.1
+      ],
+      "cluster_id": "dar_veter-3",
+      "distance_to_centroid": 0.4570295312543417,
+      "warning": null,
+      "chapter_sentence_start": 216,
+      "chapter_sentence_end": 216,
+      "timeline_start_index": 3593,
+      "timeline_end_index": 3593,
+      "highlights": [
+        {
+          "chapter_sentence": 216,
+          "start": 0,
+          "end": 49
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_07_0006",
+      "source_section": "chapter_01_07",
+      "source_sentence": 234,
+      "character_position": 53,
+      "text": "Он проснулся с ощущением утраченной прелести мира",
+      "vad": [
+        -0.7,
+        -0.2,
+        -0.25
+      ],
+      "cluster_id": "dar_veter-3",
+      "distance_to_centroid": 0.5211045053365414,
+      "warning": null,
+      "chapter_sentence_start": 234,
+      "chapter_sentence_end": 234,
+      "timeline_start_index": 3611,
+      "timeline_end_index": 3611,
+      "highlights": [
+        {
+          "chapter_sentence": 234,
+          "start": 0,
+          "end": 49
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_07_0007",
+      "source_section": "chapter_01_07",
+      "source_sentence": 242,
+      "character_position": 54,
+      "text": "Мне хотелось бы получить трудную и продолжительную работу",
+      "vad": [
+        0.25,
+        0.2,
+        0.35
+      ],
+      "cluster_id": "dar_veter-2",
+      "distance_to_centroid": 0.4613318228577451,
+      "warning": null,
+      "chapter_sentence_start": 242,
+      "chapter_sentence_end": 242,
+      "timeline_start_index": 3619,
+      "timeline_end_index": 3619,
+      "highlights": [
+        {
+          "chapter_sentence": 242,
+          "start": 2,
+          "end": 59
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_07_0008",
+      "source_section": "chapter_01_07",
+      "source_sentence": 262,
+      "character_position": 55,
+      "text": "радостная картина залитых Солнцем лесов сейчас не для его настроения",
+      "vad": [
+        -0.45,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "dar_veter-1",
+      "distance_to_centroid": 0.3142063536166339,
+      "warning": null,
+      "chapter_sentence_start": 262,
+      "chapter_sentence_end": 262,
+      "timeline_start_index": 3639,
+      "timeline_end_index": 3639,
+      "highlights": [
+        {
+          "chapter_sentence": 262,
+          "start": 23,
+          "end": 91
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_07_0009",
+      "source_section": "chapter_01_07",
+      "source_sentence": 268,
+      "character_position": 56,
+      "text": "Дар Ветер встревожился",
+      "vad": [
+        -0.55,
+        0.65,
+        -0.2
+      ],
+      "cluster_id": "dar_veter-1",
+      "distance_to_centroid": 0.2808607760264934,
+      "warning": null,
+      "chapter_sentence_start": 268,
+      "chapter_sentence_end": 268,
+      "timeline_start_index": 3645,
+      "timeline_end_index": 3645,
+      "highlights": [
+        {
+          "chapter_sentence": 268,
+          "start": 0,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_07_0010",
+      "source_section": "chapter_01_07",
+      "source_sentence": 285,
+      "character_position": 57,
+      "text": "Дар Ветер снова не принадлежал себе",
+      "vad": [
+        -0.55,
+        0.2,
+        -0.8
+      ],
+      "cluster_id": "dar_veter-1",
+      "distance_to_centroid": 0.5824430601933094,
+      "warning": null,
+      "chapter_sentence_start": 285,
+      "chapter_sentence_end": 285,
+      "timeline_start_index": 3662,
+      "timeline_end_index": 3662,
+      "highlights": [
+        {
+          "chapter_sentence": 285,
+          "start": 143,
+          "end": 178
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_07_0011",
+      "source_section": "chapter_01_07",
+      "source_sentence": 329,
+      "character_position": 58,
+      "text": "Дар Ветер всегда с волнением всматривался в лица скульптур этого памятника",
+      "vad": [
+        0.5,
+        0.55,
+        0.0
+      ],
+      "cluster_id": "dar_veter-2",
+      "distance_to_centroid": 0.2908750604318804,
+      "warning": null,
+      "chapter_sentence_start": 329,
+      "chapter_sentence_end": 329,
+      "timeline_start_index": 3706,
+      "timeline_end_index": 3706,
+      "highlights": [
+        {
+          "chapter_sentence": 329,
+          "start": 0,
+          "end": 74
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_07_0012",
+      "source_section": "chapter_01_07",
+      "source_sentence": 336,
+      "character_position": 59,
+      "text": "Дар Ветер с одобрением взглянул на сына знаменитого человека",
+      "vad": [
+        0.7,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "dar_veter-2",
+      "distance_to_centroid": 0.2836957891496627,
+      "warning": null,
+      "chapter_sentence_start": 336,
+      "chapter_sentence_end": 336,
+      "timeline_start_index": 3713,
+      "timeline_end_index": 3713,
+      "highlights": [
+        {
+          "chapter_sentence": 336,
+          "start": 0,
+          "end": 60
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_07_0013",
+      "source_section": "chapter_01_07",
+      "source_sentence": 382,
+      "character_position": 60,
+      "text": "Дар Ветер выразил сомнение в своих возможностях относительно шестого дела",
+      "vad": [
+        -0.45,
+        0.15,
+        -0.5
+      ],
+      "cluster_id": "dar_veter-1",
+      "distance_to_centroid": 0.3532258339871509,
+      "warning": null,
+      "chapter_sentence_start": 382,
+      "chapter_sentence_end": 382,
+      "timeline_start_index": 3759,
+      "timeline_end_index": 3759,
+      "highlights": [
+        {
+          "chapter_sentence": 382,
+          "start": 0,
+          "end": 73
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_07_0014",
+      "source_section": "chapter_01_07",
+      "source_sentence": 384,
+      "character_position": 61,
+      "text": "с удовольствием вглядываясь в радостные юные лица",
+      "vad": [
+        0.7,
+        0.3,
+        0.2
+      ],
+      "cluster_id": "dar_veter-2",
+      "distance_to_centroid": 0.0973822405844616,
+      "warning": null,
+      "chapter_sentence_start": 384,
+      "chapter_sentence_end": 384,
+      "timeline_start_index": 3761,
+      "timeline_end_index": 3761,
+      "highlights": [
+        {
+          "chapter_sentence": 384,
+          "start": 86,
+          "end": 135
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_07_0015",
+      "source_section": "chapter_01_07",
+      "source_sentence": 402,
+      "character_position": 62,
+      "text": "утомленно дремавшего на диване",
+      "vad": [
+        -0.25,
+        -0.75,
+        0.0
+      ],
+      "cluster_id": "dar_veter-3",
+      "distance_to_centroid": 0.6001140408320578,
+      "warning": null,
+      "chapter_sentence_start": 402,
+      "chapter_sentence_end": 402,
+      "timeline_start_index": 3779,
+      "timeline_end_index": 3779,
+      "highlights": [
+        {
+          "chapter_sentence": 402,
+          "start": 47,
+          "end": 77
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_07_0016",
+      "source_section": "chapter_01_07",
+      "source_sentence": 429,
+      "character_position": 63,
+      "text": "под влиянием собственного настроения чаял здесь встретить",
+      "vad": [
+        -0.35,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "dar_veter-3",
+      "distance_to_centroid": 0.2727196223937018,
+      "warning": null,
+      "chapter_sentence_start": 429,
+      "chapter_sentence_end": 429,
+      "timeline_start_index": 3806,
+      "timeline_end_index": 3806,
+      "highlights": [
+        {
+          "chapter_sentence": 429,
+          "start": 111,
+          "end": 168
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_07_0017",
+      "source_section": "chapter_01_07",
+      "source_sentence": 443,
+      "character_position": 64,
+      "text": "Ему казалось, что он забыл свое прежнее общение с космосом",
+      "vad": [
+        -0.55,
+        -0.1,
+        -0.3
+      ],
+      "cluster_id": "dar_veter-3",
+      "distance_to_centroid": 0.4279703273992433,
+      "warning": null,
+      "chapter_sentence_start": 443,
+      "chapter_sentence_end": 443,
+      "timeline_start_index": 3820,
+      "timeline_end_index": 3820,
+      "highlights": [
+        {
+          "chapter_sentence": 443,
+          "start": 0,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_07_0018",
+      "source_section": "chapter_01_07",
+      "source_sentence": 454,
+      "character_position": 65,
+      "text": "необыкновенно остро почувствовал величие каменных масс",
+      "vad": [
+        0.7,
+        0.45,
+        0.05
+      ],
+      "cluster_id": "dar_veter-2",
+      "distance_to_centroid": 0.1640755947155152,
+      "warning": null,
+      "chapter_sentence_start": 454,
+      "chapter_sentence_end": 454,
+      "timeline_start_index": 3831,
+      "timeline_end_index": 3831,
+      "highlights": [
+        {
+          "chapter_sentence": 454,
+          "start": 24,
+          "end": 78
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_07_0019",
+      "source_section": "chapter_01_07",
+      "source_sentence": 457,
+      "character_position": 66,
+      "text": "поверил, что впереди предстоит еще много хорошего",
+      "vad": [
+        0.72,
+        0.28,
+        0.34
+      ],
+      "cluster_id": "dar_veter-2",
+      "distance_to_centroid": 0.1982316846047825,
+      "warning": null,
+      "chapter_sentence_start": 457,
+      "chapter_sentence_end": 457,
+      "timeline_start_index": 3834,
+      "timeline_end_index": 3834,
+      "highlights": [
+        {
+          "chapter_sentence": 457,
+          "start": 85,
+          "end": 134
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_07_0020",
+      "source_section": "chapter_01_07",
+      "source_sentence": 471,
+      "character_position": 67,
+      "text": "очнуться от сложных и неясных размышлений",
+      "vad": [
+        -0.1,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "dar_veter-3",
+      "distance_to_centroid": 0.3775290271642789,
+      "warning": null,
+      "chapter_sentence_start": 471,
+      "chapter_sentence_end": 471,
+      "timeline_start_index": 3848,
+      "timeline_end_index": 3848,
+      "highlights": [
+        {
+          "chapter_sentence": 471,
+          "start": 32,
+          "end": 73
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_07_0021",
+      "source_section": "chapter_01_07",
+      "source_sentence": 486,
+      "character_position": 68,
+      "text": "не мог отделаться от чувства, что произойдет нечто важное",
+      "vad": [
+        -0.12,
+        0.48,
+        -0.3
+      ],
+      "cluster_id": "dar_veter-1",
+      "distance_to_centroid": 0.4445767535487188,
+      "warning": null,
+      "chapter_sentence_start": 486,
+      "chapter_sentence_end": 486,
+      "timeline_start_index": 3863,
+      "timeline_end_index": 3863,
+      "highlights": [
+        {
+          "chapter_sentence": 486,
+          "start": 22,
+          "end": 79
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_07_0022",
+      "source_section": "chapter_01_07",
+      "source_sentence": 487,
+      "character_position": 69,
+      "text": "Со странным нетерпением он ждал одиннадцати часов",
+      "vad": [
+        0.35,
+        0.45,
+        -0.1
+      ],
+      "cluster_id": "dar_veter-2",
+      "distance_to_centroid": 0.415423941030425,
+      "warning": null,
+      "chapter_sentence_start": 487,
+      "chapter_sentence_end": 487,
+      "timeline_start_index": 3864,
+      "timeline_end_index": 3864,
+      "highlights": [
+        {
+          "chapter_sentence": 487,
+          "start": 0,
+          "end": 49
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_07_0023",
+      "source_section": "chapter_01_07",
+      "source_sentence": 504,
+      "character_position": 70,
+      "text": "Потрясенный Дар Ветер уловил в синих звуках стремление к усложняющимся ритмам и формам",
+      "vad": [
+        -0.2,
+        0.75,
+        -0.25
+      ],
+      "cluster_id": "dar_veter-1",
+      "distance_to_centroid": 0.5132222337589143,
+      "warning": null,
+      "chapter_sentence_start": 504,
+      "chapter_sentence_end": 504,
+      "timeline_start_index": 3881,
+      "timeline_end_index": 3881,
+      "highlights": [
+        {
+          "chapter_sentence": 504,
+          "start": 0,
+          "end": 86
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_07_0024",
+      "source_section": "chapter_01_07",
+      "source_sentence": 520,
+      "character_position": 71,
+      "text": "Дар Ветер понял, чего недоставало ему все эти долгие месяцы",
+      "vad": [
+        0.55,
+        0.2,
+        0.4
+      ],
+      "cluster_id": "dar_veter-2",
+      "distance_to_centroid": 0.2933889070521412,
+      "warning": null,
+      "chapter_sentence_start": 520,
+      "chapter_sentence_end": 520,
+      "timeline_start_index": 3897,
+      "timeline_end_index": 3897,
+      "highlights": [
+        {
+          "chapter_sentence": 520,
+          "start": 22,
+          "end": 81
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_07_0026",
+      "source_section": "chapter_01_07",
+      "source_sentence": 533,
+      "character_position": 72,
+      "text": "Дар Ветер застыл в изумлении перед погасшим экраном",
+      "vad": [
+        -0.45,
+        0.45,
+        -0.25
+      ],
+      "cluster_id": "dar_veter-1",
+      "distance_to_centroid": 0.1248309877802946,
+      "warning": null,
+      "chapter_sentence_start": 533,
+      "chapter_sentence_end": 533,
+      "timeline_start_index": 3910,
+      "timeline_end_index": 3910,
+      "highlights": [
+        {
+          "chapter_sentence": 533,
+          "start": 0,
+          "end": 51
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "2_10",
+  "count": 8,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_10_0001",
+      "source_section": "chapter_02_10",
+      "source_sentence": 1,
+      "character_position": 512,
+      "text": "особенно странно и по-новому в этот приезд поразил Нехлюдова",
+      "vad": [
+        -0.1,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3303245274139326,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 4802,
+      "timeline_end_index": 4802,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 6,
+          "end": 66
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_10_0002",
+      "source_section": "chapter_02_10",
+      "source_sentence": 5,
+      "character_position": 513,
+      "text": "так неприятно своим очевидным безумием, которого он когда-то был участником, показалось Нехлюдову",
+      "vad": [
+        -0.78,
+        0.24,
+        -0.12
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3606050965157281,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 4806,
+      "timeline_end_index": 4806,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 8,
+          "end": 105
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_10_0003",
+      "source_section": "chapter_02_10",
+      "source_sentence": 11,
+      "character_position": 514,
+      "text": "он был поражен – точно в первый раз увидел это – сытостью",
+      "vad": [
+        -0.45,
+        0.55,
+        -0.15
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3630993962880955,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 4812,
+      "timeline_end_index": 4812,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 53,
+          "end": 110
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_10_0004",
+      "source_section": "chapter_02_10",
+      "source_sentence": 16,
+      "character_position": 515,
+      "text": "Такими жалкими показались Нехлюдову те сапожники",
+      "vad": [
+        -0.7,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3647368620421371,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 4817,
+      "timeline_end_index": 4817,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 0,
+          "end": 48
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_10_0005",
+      "source_section": "chapter_02_10",
+      "source_sentence": 32,
+      "character_position": 516,
+      "text": "Первое чувство Нехлюдова было удовольствие",
+      "vad": [
+        0.6,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.2515215883585959,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 4833,
+      "timeline_end_index": 4833,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 0,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_10_0006",
+      "source_section": "chapter_02_10",
+      "source_sentence": 34,
+      "character_position": 517,
+      "text": "радостно проговорил он",
+      "vad": [
+        0.8,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.2531335644949584,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 4835,
+      "timeline_end_index": 4835,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 10,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_10_0007",
+      "source_section": "chapter_02_10",
+      "source_sentence": 34,
+      "character_position": 518,
+      "text": "радоваться совершенно было нечему",
+      "vad": [
+        -0.65,
+        -0.1,
+        -0.15
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4087220813438146,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 4835,
+      "timeline_end_index": 4835,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 58,
+          "end": 91
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_10_0008",
+      "source_section": "chapter_02_10",
+      "source_sentence": 91,
+      "character_position": 519,
+      "text": "не сердись",
+      "vad": [
+        -0.25,
+        0.2,
+        -0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.2263600249277384,
+      "warning": null,
+      "chapter_sentence_start": 91,
+      "chapter_sentence_end": 91,
+      "timeline_start_index": 4892,
+      "timeline_end_index": 4892,
+      "highlights": [
+        {
+          "chapter_sentence": 91,
+          "start": 16,
+          "end": 26
+        }
+      ]
+    }
+  ]
+}

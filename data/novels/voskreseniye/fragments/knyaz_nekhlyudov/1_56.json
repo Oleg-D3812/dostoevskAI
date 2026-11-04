@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "1_56",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_56_0001",
+      "source_section": "chapter_01_56",
+      "source_sentence": 45,
+      "character_position": 418,
+      "text": "Но ужаснее всего показался ему этот стареющийся и слабый здоровьем и добрый смотритель, который должен разлучать мать с сыном, отца с дочерью – точно таких же людей, как он сам и его дети.",
+      "vad": [
+        -0.9,
+        0.7,
+        -0.5
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3011956425470179,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 3760,
+      "timeline_end_index": 3760,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 0,
+          "end": 188
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_56_0002",
+      "source_section": "chapter_01_56",
+      "source_sentence": 47,
+      "character_position": 419,
+      "text": "испытывая теперь в высшей степени то чувство нравственной, переходящей в физическую, тошноты, которую он всегда испытывал в тюрьме",
+      "vad": [
+        -0.9,
+        0.8,
+        -0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3663650458372982,
+      "warning": null,
+      "chapter_sentence_start": 47,
+      "chapter_sentence_end": 47,
+      "timeline_start_index": 3762,
+      "timeline_end_index": 3762,
+      "highlights": [
+        {
+          "chapter_sentence": 47,
+          "start": 22,
+          "end": 152
+        }
+      ]
+    }
+  ]
+}

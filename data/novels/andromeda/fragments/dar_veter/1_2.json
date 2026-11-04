@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "novel_id": "andromeda",
+  "character_id": "dar_veter",
+  "chapter_id": "1_2",
+  "count": 9,
+  "fragments": [
+    {
+      "id": "dar_veter::chapter_01_02_0001",
+      "source_section": "chapter_01_02",
+      "source_sentence": 11,
+      "character_position": 1,
+      "text": "приступы равнодушия к работе и жизни",
+      "vad": [
+        -0.8,
+        -0.85,
+        -0.45
+      ],
+      "cluster_id": "dar_veter-3",
+      "distance_to_centroid": 0.9988286144951072,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 697,
+      "timeline_end_index": 697,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 46,
+          "end": 82
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_02_0002",
+      "source_section": "chapter_01_02",
+      "source_sentence": 41,
+      "character_position": 2,
+      "text": "Я бы волновался на его месте тоже",
+      "vad": [
+        -0.35,
+        0.3,
+        0.05
+      ],
+      "cluster_id": "dar_veter-1",
+      "distance_to_centroid": 0.3614216825995103,
+      "warning": null,
+      "chapter_sentence_start": 41,
+      "chapter_sentence_end": 41,
+      "timeline_start_index": 727,
+      "timeline_end_index": 727,
+      "highlights": [
+        {
+          "chapter_sentence": 41,
+          "start": 2,
+          "end": 35
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_02_0004",
+      "source_section": "chapter_01_02",
+      "source_sentence": 159,
+      "character_position": 3,
+      "text": "о своих колебаниях в выборе новой работы",
+      "vad": [
+        -0.25,
+        0.2,
+        -0.45
+      ],
+      "cluster_id": "dar_veter-1",
+      "distance_to_centroid": 0.4012087857910371,
+      "warning": null,
+      "chapter_sentence_start": 159,
+      "chapter_sentence_end": 159,
+      "timeline_start_index": 845,
+      "timeline_end_index": 845,
+      "highlights": [
+        {
+          "chapter_sentence": 159,
+          "start": 40,
+          "end": 80
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_02_0005",
+      "source_section": "chapter_01_02",
+      "source_sentence": 162,
+      "character_position": 4,
+      "text": "Увлеченный переживаниями",
+      "vad": [
+        -0.2,
+        0.35,
+        -0.1
+      ],
+      "cluster_id": "dar_veter-1",
+      "distance_to_centroid": 0.3769197391964479,
+      "warning": null,
+      "chapter_sentence_start": 162,
+      "chapter_sentence_end": 162,
+      "timeline_start_index": 848,
+      "timeline_end_index": 848,
+      "highlights": [
+        {
+          "chapter_sentence": 162,
+          "start": 0,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_02_0006",
+      "source_section": "chapter_01_02",
+      "source_sentence": 361,
+      "character_position": 5,
+      "text": "хмуро буркнул Дар Ветер",
+      "vad": [
+        -0.55,
+        -0.1,
+        0.05
+      ],
+      "cluster_id": "dar_veter-3",
+      "distance_to_centroid": 0.318020222633374,
+      "warning": null,
+      "chapter_sentence_start": 361,
+      "chapter_sentence_end": 361,
+      "timeline_start_index": 1047,
+      "timeline_end_index": 1047,
+      "highlights": [
+        {
+          "chapter_sentence": 361,
+          "start": 70,
+          "end": 93
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_02_0007",
+      "source_section": "chapter_01_02",
+      "source_sentence": 482,
+      "character_position": 6,
+      "text": "Досадливо закусив губу",
+      "vad": [
+        -0.55,
+        0.35,
+        0.2
+      ],
+      "cluster_id": "dar_veter-1",
+      "distance_to_centroid": 0.4442938906000057,
+      "warning": null,
+      "chapter_sentence_start": 482,
+      "chapter_sentence_end": 482,
+      "timeline_start_index": 1168,
+      "timeline_end_index": 1168,
+      "highlights": [
+        {
+          "chapter_sentence": 482,
+          "start": 0,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_02_0008",
+      "source_section": "chapter_01_02",
+      "source_sentence": 493,
+      "character_position": 7,
+      "text": "Я весь наполнен радостью открытия!",
+      "vad": [
+        0.95,
+        0.75,
+        0.25
+      ],
+      "cluster_id": "dar_veter-2",
+      "distance_to_centroid": 0.4870980915393224,
+      "warning": null,
+      "chapter_sentence_start": 493,
+      "chapter_sentence_end": 493,
+      "timeline_start_index": 1179,
+      "timeline_end_index": 1179,
+      "highlights": [
+        {
+          "chapter_sentence": 493,
+          "start": 0,
+          "end": 34
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_02_0009",
+      "source_section": "chapter_01_02",
+      "source_sentence": 496,
+      "character_position": 8,
+      "text": "нервная реакция сделала его многословным",
+      "vad": [
+        -0.45,
+        0.55,
+        -0.25
+      ],
+      "cluster_id": "dar_veter-1",
+      "distance_to_centroid": 0.2026536202388656,
+      "warning": null,
+      "chapter_sentence_start": 496,
+      "chapter_sentence_end": 496,
+      "timeline_start_index": 1182,
+      "timeline_end_index": 1182,
+      "highlights": [
+        {
+          "chapter_sentence": 496,
+          "start": 23,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_02_0010",
+      "source_section": "chapter_01_02",
+      "source_sentence": 513,
+      "character_position": 9,
+      "text": "Лицо Дар Ветра засветилось любовью",
+      "vad": [
+        0.9,
+        0.5,
+        0.1
+      ],
+      "cluster_id": "dar_veter-2",
+      "distance_to_centroid": 0.2974614273838711,
+      "warning": null,
+      "chapter_sentence_start": 513,
+      "chapter_sentence_end": 513,
+      "timeline_start_index": 1199,
+      "timeline_end_index": 1199,
+      "highlights": [
+        {
+          "chapter_sentence": 513,
+          "start": 2,
+          "end": 36
+        }
+      ]
+    }
+  ]
+}

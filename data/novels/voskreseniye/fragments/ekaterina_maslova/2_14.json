@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "2_14",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_02_14_0001",
+      "source_section": "chapter_02_14",
+      "source_sentence": 31,
+      "character_position": 223,
+      "text": "она не хочет",
+      "vad": [
+        -0.2,
+        0.0,
+        0.1
+      ],
+      "cluster_id": "ekaterina_maslova-4",
+      "distance_to_centroid": 0.3017022026828224,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 5180,
+      "timeline_end_index": 5180,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 17,
+          "end": 29
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,503 @@
+{
+  "schema_version": 1,
+  "novel_id": "andromeda",
+  "character_id": "mven_mas",
+  "chapter_id": "1_2",
+  "count": 19,
+  "fragments": [
+    {
+      "id": "mven_mas::chapter_01_02_0001",
+      "source_section": "chapter_01_02",
+      "source_sentence": 40,
+      "character_position": 1,
+      "text": "он взволнован",
+      "vad": [
+        -0.2,
+        0.6,
+        -0.1
+      ],
+      "cluster_id": "mven_mas-3",
+      "distance_to_centroid": 0.5236848076637108,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 726,
+      "timeline_end_index": 726,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 24,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_02_0002",
+      "source_section": "chapter_01_02",
+      "source_sentence": 88,
+      "character_position": 2,
+      "text": "с чуть заметной ноткой извинения добавил он",
+      "vad": [
+        -0.15,
+        0.05,
+        -0.1
+      ],
+      "cluster_id": "mven_mas-4",
+      "distance_to_centroid": 0.3315888596967636,
+      "warning": null,
+      "chapter_sentence_start": 88,
+      "chapter_sentence_end": 88,
+      "timeline_start_index": 774,
+      "timeline_end_index": 774,
+      "highlights": [
+        {
+          "chapter_sentence": 88,
+          "start": 38,
+          "end": 81
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_02_0003",
+      "source_section": "chapter_01_02",
+      "source_sentence": 96,
+      "character_position": 3,
+      "text": "я даю волю своим чувствам",
+      "vad": [
+        0.1,
+        0.45,
+        0.2
+      ],
+      "cluster_id": "mven_mas-1",
+      "distance_to_centroid": 0.5379503568357893,
+      "warning": null,
+      "chapter_sentence_start": 96,
+      "chapter_sentence_end": 96,
+      "timeline_start_index": 782,
+      "timeline_end_index": 782,
+      "highlights": [
+        {
+          "chapter_sentence": 96,
+          "start": 24,
+          "end": 49
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_02_0004",
+      "source_section": "chapter_01_02",
+      "source_sentence": 153,
+      "character_position": 4,
+      "text": "Вы одиноки?",
+      "vad": [
+        -0.15,
+        0.1,
+        0.05
+      ],
+      "cluster_id": "mven_mas-4",
+      "distance_to_centroid": 0.3371960436823065,
+      "warning": null,
+      "chapter_sentence_start": 153,
+      "chapter_sentence_end": 153,
+      "timeline_start_index": 839,
+      "timeline_end_index": 839,
+      "highlights": [
+        {
+          "chapter_sentence": 153,
+          "start": 2,
+          "end": 13
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_02_0005",
+      "source_section": "chapter_01_02",
+      "source_sentence": 134,
+      "character_position": 5,
+      "text": "его сосредоточенный взгляд загорелся восхищением",
+      "vad": [
+        0.8,
+        0.45,
+        0.1
+      ],
+      "cluster_id": "mven_mas-1",
+      "distance_to_centroid": 0.2101627088651335,
+      "warning": null,
+      "chapter_sentence_start": 134,
+      "chapter_sentence_end": 134,
+      "timeline_start_index": 820,
+      "timeline_end_index": 820,
+      "highlights": [
+        {
+          "chapter_sentence": 134,
+          "start": 6,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_02_0006",
+      "source_section": "chapter_01_02",
+      "source_sentence": 143,
+      "character_position": 6,
+      "text": "с нескрываемым восхищением",
+      "vad": [
+        0.85,
+        0.45,
+        0.0
+      ],
+      "cluster_id": "mven_mas-1",
+      "distance_to_centroid": 0.3153948632319277,
+      "warning": null,
+      "chapter_sentence_start": 143,
+      "chapter_sentence_end": 143,
+      "timeline_start_index": 829,
+      "timeline_end_index": 829,
+      "highlights": [
+        {
+          "chapter_sentence": 143,
+          "start": 61,
+          "end": 87
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_02_0007",
+      "source_section": "chapter_01_02",
+      "source_sentence": 181,
+      "character_position": 7,
+      "text": "в его взоре мелькнуло выражение, похожее на восторг",
+      "vad": [
+        0.75,
+        0.45,
+        0.1
+      ],
+      "cluster_id": "mven_mas-1",
+      "distance_to_centroid": 0.1742492715679905,
+      "warning": null,
+      "chapter_sentence_start": 181,
+      "chapter_sentence_end": 181,
+      "timeline_start_index": 867,
+      "timeline_end_index": 867,
+      "highlights": [
+        {
+          "chapter_sentence": 181,
+          "start": 87,
+          "end": 138
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_02_0008",
+      "source_section": "chapter_01_02",
+      "source_sentence": 375,
+      "character_position": 8,
+      "text": "Как я понимаю вас, Веда!",
+      "vad": [
+        0.55,
+        0.45,
+        0.1
+      ],
+      "cluster_id": "mven_mas-1",
+      "distance_to_centroid": 0.1585578330444544,
+      "warning": null,
+      "chapter_sentence_start": 375,
+      "chapter_sentence_end": 375,
+      "timeline_start_index": 1061,
+      "timeline_end_index": 1061,
+      "highlights": [
+        {
+          "chapter_sentence": 375,
+          "start": 2,
+          "end": 26
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_02_0009",
+      "source_section": "chapter_01_02",
+      "source_sentence": 396,
+      "character_position": 9,
+      "text": "каждый нерв его напрягся в радостном ожидании",
+      "vad": [
+        0.88,
+        0.82,
+        0.2
+      ],
+      "cluster_id": "mven_mas-1",
+      "distance_to_centroid": 0.4397240647115185,
+      "warning": null,
+      "chapter_sentence_start": 396,
+      "chapter_sentence_end": 396,
+      "timeline_start_index": 1082,
+      "timeline_end_index": 1082,
+      "highlights": [
+        {
+          "chapter_sentence": 396,
+          "start": 91,
+          "end": 136
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_02_0010",
+      "source_section": "chapter_01_02",
+      "source_sentence": 499,
+      "character_position": 10,
+      "text": "рассеянно отозвался Мвен Мас",
+      "vad": [
+        -0.1,
+        -0.4,
+        -0.1
+      ],
+      "cluster_id": "mven_mas-4",
+      "distance_to_centroid": 0.2344166629636212,
+      "warning": null,
+      "chapter_sentence_start": 499,
+      "chapter_sentence_end": 499,
+      "timeline_start_index": 1185,
+      "timeline_end_index": 1185,
+      "highlights": [
+        {
+          "chapter_sentence": 499,
+          "start": 2,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_02_0011",
+      "source_section": "chapter_01_02",
+      "source_sentence": 500,
+      "character_position": 11,
+      "text": "нотку отрешенности в его голосе",
+      "vad": [
+        -0.25,
+        -0.4,
+        0.0
+      ],
+      "cluster_id": "mven_mas-4",
+      "distance_to_centroid": 0.2269662350989679,
+      "warning": null,
+      "chapter_sentence_start": 500,
+      "chapter_sentence_end": 500,
+      "timeline_start_index": 1186,
+      "timeline_end_index": 1186,
+      "highlights": [
+        {
+          "chapter_sentence": 500,
+          "start": 16,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_02_0012",
+      "source_section": "chapter_01_02",
+      "source_sentence": 502,
+      "character_position": 12,
+      "text": "он чересчур впечатлителен",
+      "vad": [
+        -0.25,
+        0.05,
+        0.1
+      ],
+      "cluster_id": "mven_mas-4",
+      "distance_to_centroid": 0.3191021339242343,
+      "warning": null,
+      "chapter_sentence_start": 502,
+      "chapter_sentence_end": 502,
+      "timeline_start_index": 1188,
+      "timeline_end_index": 1188,
+      "highlights": [
+        {
+          "chapter_sentence": 502,
+          "start": 13,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_02_0013",
+      "source_section": "chapter_01_02",
+      "source_sentence": 525,
+      "character_position": 13,
+      "text": "не испытывал такого потрясения",
+      "vad": [
+        -0.8,
+        0.85,
+        -0.4
+      ],
+      "cluster_id": "mven_mas-2",
+      "distance_to_centroid": 0.4264705112502991,
+      "warning": null,
+      "chapter_sentence_start": 525,
+      "chapter_sentence_end": 525,
+      "timeline_start_index": 1211,
+      "timeline_end_index": 1211,
+      "highlights": [
+        {
+          "chapter_sentence": 525,
+          "start": 15,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_02_0014",
+      "source_section": "chapter_01_02",
+      "source_sentence": 531,
+      "character_position": 14,
+      "text": "в его душе появилось что-то новое",
+      "vad": [
+        0.05,
+        0.15,
+        0.0
+      ],
+      "cluster_id": "mven_mas-4",
+      "distance_to_centroid": 0.4212495363498932,
+      "warning": null,
+      "chapter_sentence_start": 531,
+      "chapter_sentence_end": 531,
+      "timeline_start_index": 1217,
+      "timeline_end_index": 1217,
+      "highlights": [
+        {
+          "chapter_sentence": 531,
+          "start": 85,
+          "end": 118
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_02_0015",
+      "source_section": "chapter_01_02",
+      "source_sentence": 532,
+      "character_position": 15,
+      "text": "С тревогой Мвен Мас чувствовал",
+      "vad": [
+        -0.65,
+        0.62,
+        -0.28
+      ],
+      "cluster_id": "mven_mas-2",
+      "distance_to_centroid": 0.2261211080431831,
+      "warning": null,
+      "chapter_sentence_start": 532,
+      "chapter_sentence_end": 532,
+      "timeline_start_index": 1218,
+      "timeline_end_index": 1218,
+      "highlights": [
+        {
+          "chapter_sentence": 532,
+          "start": 0,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_02_0016",
+      "source_section": "chapter_01_02",
+      "source_sentence": 533,
+      "character_position": 16,
+      "text": "непереносимо сильна жажда новой встречи с планетой звезды Эпсилон Тукана",
+      "vad": [
+        -0.72,
+        0.94,
+        -0.58
+      ],
+      "cluster_id": "mven_mas-2",
+      "distance_to_centroid": 0.5033754593379106,
+      "warning": null,
+      "chapter_sentence_start": 533,
+      "chapter_sentence_end": 533,
+      "timeline_start_index": 1219,
+      "timeline_end_index": 1219,
+      "highlights": [
+        {
+          "chapter_sentence": 533,
+          "start": 4,
+          "end": 76
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_02_0017",
+      "source_section": "chapter_01_02",
+      "source_sentence": 535,
+      "character_position": 17,
+      "text": "жгучую мечту",
+      "vad": [
+        0.35,
+        0.85,
+        -0.2
+      ],
+      "cluster_id": "mven_mas-1",
+      "distance_to_centroid": 0.6522410322860184,
+      "warning": null,
+      "chapter_sentence_start": 535,
+      "chapter_sentence_end": 535,
+      "timeline_start_index": 1221,
+      "timeline_end_index": 1221,
+      "highlights": [
+        {
+          "chapter_sentence": 535,
+          "start": 179,
+          "end": 191
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_02_0018",
+      "source_section": "chapter_01_02",
+      "source_sentence": 536,
+      "character_position": 18,
+      "text": "В душе Мвена Maca выросло нечто живущее теперь само по себе и непокорное контролю воли и спокойного разума",
+      "vad": [
+        0.35,
+        0.82,
+        -0.78
+      ],
+      "cluster_id": "mven_mas-2",
+      "distance_to_centroid": 1.0850015283299317,
+      "warning": null,
+      "chapter_sentence_start": 536,
+      "chapter_sentence_end": 536,
+      "timeline_start_index": 1222,
+      "timeline_end_index": 1222,
+      "highlights": [
+        {
+          "chapter_sentence": 536,
+          "start": 0,
+          "end": 106
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_02_0019",
+      "source_section": "chapter_01_02",
+      "source_sentence": 537,
+      "character_position": 19,
+      "text": "еще никогда не любил и не испытывал ничего похожего на тревогу и небывалую радость",
+      "vad": [
+        0.35,
+        0.82,
+        0.0
+      ],
+      "cluster_id": "mven_mas-1",
+      "distance_to_centroid": 0.5192478831902262,
+      "warning": null,
+      "chapter_sentence_start": 537,
+      "chapter_sentence_end": 537,
+      "timeline_start_index": 1223,
+      "timeline_end_index": 1223,
+      "highlights": [
+        {
+          "chapter_sentence": 537,
+          "start": 59,
+          "end": 141
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "2_32",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_02_32_0001",
+      "source_section": "chapter_02_32",
+      "source_sentence": 43,
+      "character_position": 240,
+      "text": "не может быть счастлива, не может даже желать этого",
+      "vad": [
+        -0.78,
+        0.12,
+        -0.32
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.4191913324111432,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 6606,
+      "timeline_end_index": 6606,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 46,
+          "end": 97
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_02_32_0002",
+      "source_section": "chapter_02_32",
+      "source_sentence": 44,
+      "character_position": 241,
+      "text": "Она и не желает",
+      "vad": [
+        -0.35,
+        -0.45,
+        -0.2
+      ],
+      "cluster_id": "ekaterina_maslova-3",
+      "distance_to_centroid": 0.2321517702806602,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 6607,
+      "timeline_end_index": 6607,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 2,
+          "end": 17
+        }
+      ]
+    }
+  ]
+}

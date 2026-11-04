@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "novel_id": "andromeda",
+  "character_id": "mven_mas",
+  "chapter_id": "1_5",
+  "count": 10,
+  "fragments": [
+    {
+      "id": "mven_mas::chapter_01_05_0002",
+      "source_section": "chapter_01_05",
+      "source_sentence": 179,
+      "character_position": 20,
+      "text": "беспокойство и надежду",
+      "vad": [
+        0.1,
+        0.45,
+        -0.2
+      ],
+      "cluster_id": "mven_mas-1",
+      "distance_to_centroid": 0.6894857405485287,
+      "warning": null,
+      "chapter_sentence_start": 179,
+      "chapter_sentence_end": 179,
+      "timeline_start_index": 2582,
+      "timeline_end_index": 2582,
+      "highlights": [
+        {
+          "chapter_sentence": 179,
+          "start": 33,
+          "end": 55
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_05_0003",
+      "source_section": "chapter_01_05",
+      "source_sentence": 183,
+      "character_position": 21,
+      "text": "жестоких колебаниях",
+      "vad": [
+        -0.75,
+        0.55,
+        -0.65
+      ],
+      "cluster_id": "mven_mas-2",
+      "distance_to_centroid": 0.2590301317631089,
+      "warning": null,
+      "chapter_sentence_start": 183,
+      "chapter_sentence_end": 183,
+      "timeline_start_index": 2586,
+      "timeline_end_index": 2586,
+      "highlights": [
+        {
+          "chapter_sentence": 183,
+          "start": 84,
+          "end": 103
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_05_0004",
+      "source_section": "chapter_01_05",
+      "source_sentence": 185,
+      "character_position": 22,
+      "text": "Видение прекрасного мира звезды Эпсилон Тукана никогда не оставляло его",
+      "vad": [
+        0.65,
+        0.35,
+        0.05
+      ],
+      "cluster_id": "mven_mas-1",
+      "distance_to_centroid": 0.2109542545929429,
+      "warning": null,
+      "chapter_sentence_start": 185,
+      "chapter_sentence_end": 185,
+      "timeline_start_index": 2588,
+      "timeline_end_index": 2588,
+      "highlights": [
+        {
+          "chapter_sentence": 185,
+          "start": 0,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_05_0005",
+      "source_section": "chapter_01_05",
+      "source_sentence": 186,
+      "character_position": 23,
+      "text": "появилась мечта — приблизиться к этому миру",
+      "vad": [
+        0.75,
+        0.35,
+        0.15
+      ],
+      "cluster_id": "mven_mas-1",
+      "distance_to_centroid": 0.1749651640812402,
+      "warning": null,
+      "chapter_sentence_start": 186,
+      "chapter_sentence_end": 186,
+      "timeline_start_index": 2589,
+      "timeline_end_index": 2589,
+      "highlights": [
+        {
+          "chapter_sentence": 186,
+          "start": 13,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_05_0006",
+      "source_section": "chapter_01_05",
+      "source_sentence": 201,
+      "character_position": 24,
+      "text": "гримасу горя на лице африканца",
+      "vad": [
+        -0.8,
+        0.3,
+        -0.3
+      ],
+      "cluster_id": "mven_mas-2",
+      "distance_to_centroid": 0.2844961732182837,
+      "warning": null,
+      "chapter_sentence_start": 201,
+      "chapter_sentence_end": 201,
+      "timeline_start_index": 2604,
+      "timeline_end_index": 2604,
+      "highlights": [
+        {
+          "chapter_sentence": 201,
+          "start": 57,
+          "end": 87
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_05_0007",
+      "source_section": "chapter_01_05",
+      "source_sentence": 430,
+      "character_position": 25,
+      "text": "встревожился",
+      "vad": [
+        -0.55,
+        0.55,
+        -0.25
+      ],
+      "cluster_id": "mven_mas-2",
+      "distance_to_centroid": 0.2212470738739812,
+      "warning": null,
+      "chapter_sentence_start": 430,
+      "chapter_sentence_end": 430,
+      "timeline_start_index": 2833,
+      "timeline_end_index": 2833,
+      "highlights": [
+        {
+          "chapter_sentence": 430,
+          "start": 2,
+          "end": 14
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_05_0009",
+      "source_section": "chapter_01_05",
+      "source_sentence": 509,
+      "character_position": 26,
+      "text": "напряглось, как в смертельной опасности",
+      "vad": [
+        -0.9,
+        0.9,
+        -0.4
+      ],
+      "cluster_id": "mven_mas-2",
+      "distance_to_centroid": 0.5186394249029402,
+      "warning": null,
+      "chapter_sentence_start": 509,
+      "chapter_sentence_end": 509,
+      "timeline_start_index": 2912,
+      "timeline_end_index": 2912,
+      "highlights": [
+        {
+          "chapter_sentence": 509,
+          "start": 37,
+          "end": 76
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_05_0010",
+      "source_section": "chapter_01_05",
+      "source_sentence": 524,
+      "character_position": 27,
+      "text": "для меня это конец, конец всей мечте!",
+      "vad": [
+        -0.95,
+        0.85,
+        -0.7
+      ],
+      "cluster_id": "mven_mas-2",
+      "distance_to_centroid": 0.5683193231482214,
+      "warning": null,
+      "chapter_sentence_start": 524,
+      "chapter_sentence_end": 524,
+      "timeline_start_index": 2927,
+      "timeline_end_index": 2927,
+      "highlights": [
+        {
+          "chapter_sentence": 524,
+          "start": 5,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_05_0011",
+      "source_section": "chapter_01_05",
+      "source_sentence": 534,
+      "character_position": 28,
+      "text": "Я чувствую себя виноватым",
+      "vad": [
+        -0.7,
+        0.3,
+        -0.4
+      ],
+      "cluster_id": "mven_mas-2",
+      "distance_to_centroid": 0.1900231677537367,
+      "warning": null,
+      "chapter_sentence_start": 534,
+      "chapter_sentence_end": 534,
+      "timeline_start_index": 2937,
+      "timeline_end_index": 2937,
+      "highlights": [
+        {
+          "chapter_sentence": 534,
+          "start": 0,
+          "end": 25
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_05_0012",
+      "source_section": "chapter_01_05",
+      "source_sentence": 537,
+      "character_position": 29,
+      "text": "мне грустно и тяжело",
+      "vad": [
+        -0.7,
+        -0.3,
+        -0.1
+      ],
+      "cluster_id": "mven_mas-4",
+      "distance_to_centroid": 0.6169085603839518,
+      "warning": null,
+      "chapter_sentence_start": 537,
+      "chapter_sentence_end": 537,
+      "timeline_start_index": 2940,
+      "timeline_end_index": 2940,
+      "highlights": [
+        {
+          "chapter_sentence": 537,
+          "start": 9,
+          "end": 29
+        }
+      ]
+    }
+  ]
+}

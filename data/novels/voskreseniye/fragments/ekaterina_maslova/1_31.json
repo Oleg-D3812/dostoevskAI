@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "1_31",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_01_31_0001",
+      "source_section": "chapter_01_31",
+      "source_sentence": 24,
+      "character_position": 98,
+      "text": "Масловой захотелось плакать, и у ней задрожали губы",
+      "vad": [
+        -0.85,
+        0.65,
+        -0.45
+      ],
+      "cluster_id": "ekaterina_maslova-5",
+      "distance_to_centroid": 0.1330199338805027,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 2041,
+      "timeline_end_index": 2041,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 74,
+          "end": 125
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_31_0002",
+      "source_section": "chapter_01_31",
+      "source_sentence": 27,
+      "character_position": 99,
+      "text": "Все лицо ее задрожало, и она разрыдалась",
+      "vad": [
+        -0.95,
+        0.85,
+        -0.75
+      ],
+      "cluster_id": "ekaterina_maslova-5",
+      "distance_to_centroid": 0.2802374216392108,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 2044,
+      "timeline_end_index": 2044,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 0,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_31_0003",
+      "source_section": "chapter_01_31",
+      "source_sentence": 31,
+      "character_position": 100,
+      "text": "Маслова хотела ответить и не могла, а, рыдая",
+      "vad": [
+        -0.85,
+        0.8,
+        -0.7
+      ],
+      "cluster_id": "ekaterina_maslova-5",
+      "distance_to_centroid": 0.1856134890725953,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 2048,
+      "timeline_end_index": 2048,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 0,
+          "end": 44
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_31_0004",
+      "source_section": "chapter_01_31",
+      "source_sentence": 33,
+      "character_position": 101,
+      "text": "Маслова, не переставая плакать",
+      "vad": [
+        -0.85,
+        0.65,
+        -0.7
+      ],
+      "cluster_id": "ekaterina_maslova-5",
+      "distance_to_centroid": 0.1192751477638552,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 2050,
+      "timeline_end_index": 2050,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 0,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_31_0005",
+      "source_section": "chapter_01_31",
+      "source_sentence": 34,
+      "character_position": 102,
+      "text": "Каторга, – проговорила она, всхлипывая",
+      "vad": [
+        -0.85,
+        0.45,
+        -0.7
+      ],
+      "cluster_id": "ekaterina_maslova-5",
+      "distance_to_centroid": 0.239288150435005,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 2051,
+      "timeline_end_index": 2051,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 2,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_31_0006",
+      "source_section": "chapter_01_31",
+      "source_sentence": 46,
+      "character_position": 103,
+      "text": "Маслова сердито скомкала",
+      "vad": [
+        -0.55,
+        0.45,
+        0.2
+      ],
+      "cluster_id": "ekaterina_maslova-6",
+      "distance_to_centroid": 0.0972499884985374,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 2063,
+      "timeline_end_index": 2063,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 0,
+          "end": 24
+        }
+      ]
+    }
+  ]
+}

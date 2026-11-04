@@ -1,0 +1,555 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "2_8",
+  "count": 21,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_08_0001",
+      "source_section": "chapter_02_08",
+      "source_sentence": 3,
+      "character_position": 477,
+      "text": "нисколько не смутил Нехлюдова",
+      "vad": [
+        0.2,
+        -0.25,
+        0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.6648585706255428,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 4614,
+      "timeline_end_index": 4614,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 15,
+          "end": 44
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_08_0002",
+      "source_section": "chapter_02_08",
+      "source_sentence": 4,
+      "character_position": 478,
+      "text": "он чувствовал себя спокойным и радостным",
+      "vad": [
+        0.85,
+        0.15,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.2999953939555712,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 4615,
+      "timeline_end_index": 4615,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 150,
+          "end": 190
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_08_0003",
+      "source_section": "chapter_02_08",
+      "source_sentence": 6,
+      "character_position": 479,
+      "text": "ему неприятно было ходить по местам, оскверненным преступными воспоминаниями",
+      "vad": [
+        -0.65,
+        0.2,
+        -0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3457179918559869,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 4617,
+      "timeline_end_index": 4617,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 100,
+          "end": 176
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_08_0005",
+      "source_section": "chapter_02_08",
+      "source_sentence": 13,
+      "character_position": 480,
+      "text": "Это была для него радостная, счастливая ночь",
+      "vad": [
+        1.0,
+        0.7,
+        0.4
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.6065263559990962,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 4624,
+      "timeline_end_index": 4624,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 0,
+          "end": 44
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_08_0006",
+      "source_section": "chapter_02_08",
+      "source_sentence": 14,
+      "character_position": 481,
+      "text": "он почувствовал себя теперь таким, каким он был не только тогда, но и во все лучшие минуты своей жизни",
+      "vad": [
+        0.85,
+        0.25,
+        0.45
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.3156959028261609,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 4625,
+      "timeline_end_index": 4625,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 112,
+          "end": 214
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_08_0007",
+      "source_section": "chapter_02_08",
+      "source_sentence": 15,
+      "character_position": 482,
+      "text": "почувствовал себя таким, каким он был тогда, когда он четырнадцатилетним мальчиком молился Богу, чтобы Бог открыл ему истину, когда плакал ребенком на коленях матери, расставаясь с ней и обещаясь ей быть всегда добрым и никогда не огорчать ее, – почувствовал себя таким, каким он был, когда они с Николенькой Иртеневым решали, что будут всегда поддерживать друг друга в доброй жизни и будут стараться сделать всех людей счастливыми",
+      "vad": [
+        0.88,
+        0.58,
+        0.72
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.6329256318416698,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 4626,
+      "timeline_end_index": 4626,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 26,
+          "end": 457
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_08_0008",
+      "source_section": "chapter_02_08",
+      "source_sentence": 16,
+      "character_position": 483,
+      "text": "стал жалеть и дом, и лес, и хозяйство, и землю",
+      "vad": [
+        -0.45,
+        0.2,
+        -0.15
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.2002639330788414,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 4627,
+      "timeline_end_index": 4627,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 66,
+          "end": 112
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_08_0009",
+      "source_section": "chapter_02_08",
+      "source_sentence": 16,
+      "character_position": 484,
+      "text": "жалеет ли он",
+      "vad": [
+        -0.2,
+        0.1,
+        -0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.1657167591895577,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 4627,
+      "timeline_end_index": 4627,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 137,
+          "end": 149
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_08_0010",
+      "source_section": "chapter_02_08",
+      "source_sentence": 17,
+      "character_position": 485,
+      "text": "ему даже странно было, что он мог жалеть",
+      "vad": [
+        0.15,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.4870803182171879,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 4628,
+      "timeline_end_index": 4628,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 2,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_08_0011",
+      "source_section": "chapter_02_08",
+      "source_sentence": 23,
+      "character_position": 486,
+      "text": "как он запутался в этих вопросах и не мог решить их",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.7
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3587824652702292,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 4634,
+      "timeline_end_index": 4634,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 128,
+          "end": 179
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_08_0012",
+      "source_section": "chapter_02_08",
+      "source_sentence": 24,
+      "character_position": 487,
+      "text": "Он теперь задал себе эти вопросы и удивился",
+      "vad": [
+        0.1,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4839447579066805,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 4635,
+      "timeline_end_index": 4635,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 0,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_08_0013",
+      "source_section": "chapter_02_08",
+      "source_sentence": 25,
+      "character_position": 488,
+      "text": "его даже не интересовало это",
+      "vad": [
+        -0.2,
+        -0.4,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.5468264237414789,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 4636,
+      "timeline_end_index": 4636,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 74,
+          "end": 102
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_08_0014",
+      "source_section": "chapter_02_08",
+      "source_sentence": 31,
+      "character_position": 489,
+      "text": "И эта твердая уверенность была радостна ему",
+      "vad": [
+        0.8,
+        0.3,
+        0.8
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.5887311604218862,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 4642,
+      "timeline_end_index": 4642,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 0,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_08_0015",
+      "source_section": "chapter_02_08",
+      "source_sentence": 37,
+      "character_position": 490,
+      "text": "все дело, весь смысл этого дела не понятен и не может быть понятен мне",
+      "vad": [
+        -0.6,
+        0.25,
+        -0.7
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.4197842482624981,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 4648,
+      "timeline_end_index": 4648,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 39,
+          "end": 109
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_08_0016",
+      "source_section": "chapter_02_08",
+      "source_sentence": 39,
+      "character_position": 491,
+      "text": "мое сумасшествие",
+      "vad": [
+        -0.7,
+        0.6,
+        -0.5
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.1689484788425403,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 4650,
+      "timeline_end_index": 4650,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 2,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_08_0017",
+      "source_section": "chapter_02_08",
+      "source_sentence": 43,
+      "character_position": 492,
+      "text": "это в моей власти, и это я знаю несомненно",
+      "vad": [
+        0.35,
+        0.1,
+        0.85
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.6797125430330545,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 4654,
+      "timeline_end_index": 4654,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 49,
+          "end": 91
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_08_0018",
+      "source_section": "chapter_02_08",
+      "source_sentence": 44,
+      "character_position": 493,
+      "text": "несомненно спокоен",
+      "vad": [
+        0.35,
+        -0.65,
+        0.25
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.9481420921311048,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 4655,
+      "timeline_end_index": 4655,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 15,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_08_0019",
+      "source_section": "chapter_02_08",
+      "source_sentence": 46,
+      "character_position": 494,
+      "text": "не без опасения о клопах",
+      "vad": [
+        -0.35,
+        0.2,
+        -0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.1243395117108135,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 4657,
+      "timeline_end_index": 4657,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 54,
+          "end": 78
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_08_0020",
+      "source_section": "chapter_02_08",
+      "source_sentence": 47,
+      "character_position": 495,
+      "text": "радовался этой мысли",
+      "vad": [
+        0.65,
+        0.2,
+        -0.25
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.4989524883201879,
+      "warning": null,
+      "chapter_sentence_start": 47,
+      "chapter_sentence_end": 47,
+      "timeline_start_index": 4658,
+      "timeline_end_index": 4658,
+      "highlights": [
+        {
+          "chapter_sentence": 47,
+          "start": 59,
+          "end": 79
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_08_0021",
+      "source_section": "chapter_02_08",
+      "source_sentence": 48,
+      "character_position": 496,
+      "text": "Опасения его оправдались",
+      "vad": [
+        -0.55,
+        0.15,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3811392835406643,
+      "warning": null,
+      "chapter_sentence_start": 48,
+      "chapter_sentence_end": 48,
+      "timeline_start_index": 4659,
+      "timeline_end_index": 4659,
+      "highlights": [
+        {
+          "chapter_sentence": 48,
+          "start": 0,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_08_0022",
+      "source_section": "chapter_02_08",
+      "source_sentence": 52,
+      "character_position": 497,
+      "text": "несмотря на все желание, он не мог вынести этого",
+      "vad": [
+        -0.75,
+        0.35,
+        -0.7
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.35143180501875,
+      "warning": null,
+      "chapter_sentence_start": 52,
+      "chapter_sentence_end": 52,
+      "timeline_start_index": 4663,
+      "timeline_end_index": 4663,
+      "highlights": [
+        {
+          "chapter_sentence": 52,
+          "start": 4,
+          "end": 52
+        }
+      ]
+    }
+  ]
+}

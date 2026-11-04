@@ -51,7 +51,7 @@
     updateHelpLink(feature);
     if (updateUrl) {
       var url = new URL(window.location.href); url.searchParams.set("id", pageContext.novel.id);
-      url.searchParams.set("feature", feature.id); history.pushState(null, "", url);
+      url.searchParams.set("feature", feature.id); url.searchParams.delete("spec"); history.pushState(null, "", url);
     }
     var panel = document.getElementById("panel-" + feature.id);
     panel.innerHTML = explanation ? '<div class="placeholder">' + escapeHtml(explanation) + "Открыт первый доступный раздел.</div>" : "";
@@ -142,22 +142,7 @@
     });
   }
 
-  // Resolve "chapter_2_1_2" to a chapters.json entry, falling back to the parent
-  // logical chapter ("2_1_2" -> "2_1") when the sub-section isn't listed. Segments
-  // are unpadded ("01" -> "1") since some novels' source ids are zero-padded while
-  // chapters.json ids are not.
-  function resolveChapter(chapterById, introChapter) {
-    if (!introChapter) return null;
-    var key = String(introChapter).replace(/^chapter_/, "")
-      .split("_").map(function(seg) { return seg.replace(/^0+(?=\d)/, ""); }).join("_");
-    while (key) {
-      if (chapterById[key]) return chapterById[key];
-      var cut = key.lastIndexOf("_");
-      if (cut < 0) return null;
-      key = key.slice(0, cut);
-    }
-    return null;
-  }
+  function resolveChapter(chapterById, chapterId) { return AtlasData.resolveChapter(chapterById, chapterId); }
 
   function normalizeYo(s) { return s.replace(/Ё/g, "Е").replace(/ё/g, "е"); }
 

@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "2_15",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_15_0001",
+      "source_section": "chapter_02_15",
+      "source_sentence": 25,
+      "character_position": 545,
+      "text": "Нехлюдову было, как всегда, мучительно тяжело",
+      "vad": [
+        -0.9,
+        0.65,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2399517058318343,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 5325,
+      "timeline_end_index": 5325,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 295,
+          "end": 340
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_15_0002",
+      "source_section": "chapter_02_15",
+      "source_sentence": 26,
+      "character_position": 546,
+      "text": "он чувствовал внутренний разлад и недовольство собой и колебание",
+      "vad": [
+        -0.7,
+        0.35,
+        -0.45
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.1572413984464122,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 5326,
+      "timeline_end_index": 5326,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 22,
+          "end": 86
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_15_0003",
+      "source_section": "chapter_02_15",
+      "source_sentence": 27,
+      "character_position": 547,
+      "text": "ему будет неловко, стыдно, неприятно",
+      "vad": [
+        -0.85,
+        0.25,
+        -0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3207615927434908,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 5327,
+      "timeline_end_index": 5327,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 21,
+          "end": 57
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_15_0004",
+      "source_section": "chapter_02_15",
+      "source_sentence": 28,
+      "character_position": 548,
+      "text": "он чувствовал фальшь в этом положении просителя среди людей, которых он уже не считал своими",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.45
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.17272848430038,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 5328,
+      "timeline_end_index": 5328,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 16,
+          "end": 108
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_15_0005",
+      "source_section": "chapter_02_15",
+      "source_sentence": 28,
+      "character_position": 549,
+      "text": "в этом обществе он чувствовал, что вступал в прежнюю привычную колею и невольно поддавался тому легкомысленному и безнравственному тону",
+      "vad": [
+        -0.7,
+        0.25,
+        -0.6
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3262550843189934,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 5328,
+      "timeline_end_index": 5328,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 140,
+          "end": 275
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_15_0006",
+      "source_section": "chapter_02_15",
+      "source_sentence": 31,
+      "character_position": 550,
+      "text": "производил на него свое обычное, физически подбадривающее и нравственно притупляющее впечатление",
+      "vad": [
+        0.1,
+        0.35,
+        0.05
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4966201712066277,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 5331,
+      "timeline_end_index": 5331,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 45,
+          "end": 141
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "1_17",
+  "count": 11,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_01_17_0001",
+      "source_section": "chapter_01_17",
+      "source_sentence": 11,
+      "character_position": 61,
+      "text": "задумавшись",
+      "vad": [
+        0.0,
+        -0.2,
+        0.0
+      ],
+      "cluster_id": "ekaterina_maslova-4",
+      "distance_to_centroid": 0.2831486451916724,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 1076,
+      "timeline_end_index": 1076,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 28,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_17_0002",
+      "source_section": "chapter_01_17",
+      "source_sentence": 13,
+      "character_position": 62,
+      "text": "как бы на самое себя укоризненно",
+      "vad": [
+        -0.45,
+        0.1,
+        -0.2
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.2611857257549141,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 1078,
+      "timeline_end_index": 1078,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 76,
+          "end": 108
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_17_0003",
+      "source_section": "chapter_01_17",
+      "source_sentence": 16,
+      "character_position": 63,
+      "text": "задумчивое, мучимое внутренней работой лицо Катюши",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.3
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.2365128375398934,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 1081,
+      "timeline_end_index": 1081,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 19,
+          "end": 69
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_17_0004",
+      "source_section": "chapter_01_17",
+      "source_sentence": 19,
+      "character_position": 64,
+      "text": "ужас изобразился на ее лице",
+      "vad": [
+        -0.95,
+        0.85,
+        -0.75
+      ],
+      "cluster_id": "ekaterina_maslova-5",
+      "distance_to_centroid": 0.2802374216392108,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 1084,
+      "timeline_end_index": 1084,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 62,
+          "end": 89
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_17_0005",
+      "source_section": "chapter_01_17",
+      "source_sentence": 21,
+      "character_position": 65,
+      "text": "Выражение ужаса не оставило ее лица",
+      "vad": [
+        -0.95,
+        0.85,
+        -0.8
+      ],
+      "cluster_id": "ekaterina_maslova-5",
+      "distance_to_centroid": 0.3127930051965614,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 1086,
+      "timeline_end_index": 1086,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 0,
+          "end": 35
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_17_0006",
+      "source_section": "chapter_01_17",
+      "source_sentence": 22,
+      "character_position": 66,
+      "text": "Лицо ее было необыкновенно серьезно",
+      "vad": [
+        -0.25,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.3853869069959227,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 1087,
+      "timeline_end_index": 1087,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 0,
+          "end": 35
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_17_0007",
+      "source_section": "chapter_01_17",
+      "source_sentence": 23,
+      "character_position": 67,
+      "text": "как бы покоряясь ему",
+      "vad": [
+        -0.35,
+        0.05,
+        -0.7
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.472109600478051,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 1088,
+      "timeline_end_index": 1088,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 62,
+          "end": 82
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_17_0008",
+      "source_section": "chapter_01_17",
+      "source_sentence": 23,
+      "character_position": 68,
+      "text": "в душе ее не было улыбки, – был страх",
+      "vad": [
+        -0.85,
+        0.72,
+        -0.58
+      ],
+      "cluster_id": "ekaterina_maslova-5",
+      "distance_to_centroid": 0.0642634163466362,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 1088,
+      "timeline_end_index": 1088,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 87,
+          "end": 124
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_17_0009",
+      "source_section": "chapter_01_17",
+      "source_sentence": 34,
+      "character_position": 69,
+      "text": "как будто была в нерешительности",
+      "vad": [
+        -0.2,
+        0.15,
+        -0.45
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.3065765316830354,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 1099,
+      "timeline_end_index": 1099,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 58,
+          "end": 90
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_17_0010",
+      "source_section": "chapter_01_17",
+      "source_sentence": 55,
+      "character_position": 70,
+      "text": "сердито, как ему показалось",
+      "vad": [
+        -0.45,
+        0.25,
+        0.2
+      ],
+      "cluster_id": "ekaterina_maslova-6",
+      "distance_to_centroid": 0.2098860520795993,
+      "warning": null,
+      "chapter_sentence_start": 55,
+      "chapter_sentence_end": 55,
+      "timeline_start_index": 1120,
+      "timeline_end_index": 1120,
+      "highlights": [
+        {
+          "chapter_sentence": 55,
+          "start": 34,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_17_0011",
+      "source_section": "chapter_01_17",
+      "source_sentence": 58,
+      "character_position": 71,
+      "text": "все существо говорило: «Я вся твоя»",
+      "vad": [
+        0.85,
+        0.8,
+        -0.75
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.9632526117980694,
+      "warning": null,
+      "chapter_sentence_start": 58,
+      "chapter_sentence_end": 58,
+      "timeline_start_index": 1123,
+      "timeline_end_index": 1123,
+      "highlights": [
+        {
+          "chapter_sentence": 58,
+          "start": 40,
+          "end": 75
+        }
+      ]
+    }
+  ]
+}

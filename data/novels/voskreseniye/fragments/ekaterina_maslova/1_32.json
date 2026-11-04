@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "1_32",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_01_32_0001",
+      "source_section": "chapter_01_32",
+      "source_sentence": 11,
+      "character_position": 104,
+      "text": "Маслова оживилась",
+      "vad": [
+        0.65,
+        0.7,
+        0.35
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.4057161497103638,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 2099,
+      "timeline_end_index": 2099,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 22,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_32_0002",
+      "source_section": "chapter_01_32",
+      "source_sentence": 14,
+      "character_position": 105,
+      "text": "улыбаясь и как бы в недоумении",
+      "vad": [
+        0.45,
+        0.1,
+        0.05
+      ],
+      "cluster_id": "ekaterina_maslova-4",
+      "distance_to_centroid": 0.3836592653248769,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 2102,
+      "timeline_end_index": 2102,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 132,
+          "end": 162
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_32_0003",
+      "source_section": "chapter_01_32",
+      "source_sentence": 90,
+      "character_position": 106,
+      "text": "не могла привыкнуть к этой мысли",
+      "vad": [
+        -0.65,
+        0.25,
+        -0.55
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.3347617674783664,
+      "warning": null,
+      "chapter_sentence_start": 90,
+      "chapter_sentence_end": 90,
+      "timeline_start_index": 2178,
+      "timeline_end_index": 2178,
+      "highlights": [
+        {
+          "chapter_sentence": 90,
+          "start": 125,
+          "end": 157
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_32_0004",
+      "source_section": "chapter_01_32",
+      "source_sentence": 93,
+      "character_position": 107,
+      "text": "ни за что страдать должна",
+      "vad": [
+        -0.85,
+        0.35,
+        -0.75
+      ],
+      "cluster_id": "ekaterina_maslova-5",
+      "distance_to_centroid": 0.350829587668667,
+      "warning": null,
+      "chapter_sentence_start": 93,
+      "chapter_sentence_end": 93,
+      "timeline_start_index": 2181,
+      "timeline_end_index": 2181,
+      "highlights": [
+        {
+          "chapter_sentence": 93,
+          "start": 36,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_32_0005",
+      "source_section": "chapter_01_32",
+      "source_sentence": 97,
+      "character_position": 108,
+      "text": "обидно",
+      "vad": [
+        -0.7,
+        0.2,
+        -0.4
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.3207079303017936,
+      "warning": null,
+      "chapter_sentence_start": 97,
+      "chapter_sentence_end": 97,
+      "timeline_start_index": 2185,
+      "timeline_end_index": 2185,
+      "highlights": [
+        {
+          "chapter_sentence": 97,
+          "start": 36,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_32_0006",
+      "source_section": "chapter_01_32",
+      "source_sentence": 100,
+      "character_position": 109,
+      "text": "все трудно",
+      "vad": [
+        -0.65,
+        0.18,
+        -0.45
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.3042289786882807,
+      "warning": null,
+      "chapter_sentence_start": 100,
+      "chapter_sentence_end": 100,
+      "timeline_start_index": 2188,
+      "timeline_end_index": 2188,
+      "highlights": [
+        {
+          "chapter_sentence": 100,
+          "start": 20,
+          "end": 30
+        }
+      ]
+    }
+  ]
+}

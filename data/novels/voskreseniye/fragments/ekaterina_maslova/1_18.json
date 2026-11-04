@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "1_18",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_01_18_0001",
+      "source_section": "chapter_01_18",
+      "source_sentence": 17,
+      "character_position": 72,
+      "text": "Она вспыхнула",
+      "vad": [
+        -0.35,
+        0.7,
+        0.05
+      ],
+      "cluster_id": "ekaterina_maslova-6",
+      "distance_to_centroid": 0.4456374034998642,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 1157,
+      "timeline_end_index": 1157,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 0,
+          "end": 13
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_18_0002",
+      "source_section": "chapter_01_18",
+      "source_sentence": 37,
+      "character_position": 73,
+      "text": "она испортилась и была развращенная натура",
+      "vad": [
+        -0.75,
+        0.2,
+        0.25
+      ],
+      "cluster_id": "ekaterina_maslova-6",
+      "distance_to_centroid": 0.2275563327778201,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 1177,
+      "timeline_end_index": 1177,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 22,
+          "end": 64
+        }
+      ]
+    }
+  ]
+}

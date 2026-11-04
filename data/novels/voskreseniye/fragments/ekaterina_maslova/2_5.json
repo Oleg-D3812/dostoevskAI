@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "2_5",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_02_05_0001",
+      "source_section": "chapter_02_05",
+      "source_sentence": 65,
+      "character_position": 195,
+      "text": "Не могла в разум взять.",
+      "vad": [
+        -0.35,
+        -0.2,
+        -0.55
+      ],
+      "cluster_id": "ekaterina_maslova-3",
+      "distance_to_centroid": 0.3557542847403402,
+      "warning": null,
+      "chapter_sentence_start": 65,
+      "chapter_sentence_end": 65,
+      "timeline_start_index": 4387,
+      "timeline_end_index": 4387,
+      "highlights": [
+        {
+          "chapter_sentence": 65,
+          "start": 0,
+          "end": 23
+        }
+      ]
+    }
+  ]
+}

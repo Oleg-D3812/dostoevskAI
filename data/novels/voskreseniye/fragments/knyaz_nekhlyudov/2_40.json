@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "2_40",
+  "count": 9,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_40_0002",
+      "source_section": "chapter_02_40",
+      "source_sentence": 21,
+      "character_position": 723,
+      "text": "Нехлюдов так задумался",
+      "vad": [
+        0.0,
+        -0.35,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.5766987267533368,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 7338,
+      "timeline_end_index": 7338,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 0,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_40_0003",
+      "source_section": "chapter_02_40",
+      "source_sentence": 28,
+      "character_position": 724,
+      "text": "радуясь на оживающие под благодатным дождем поля, сады, огороды",
+      "vad": [
+        0.88,
+        0.32,
+        0.05
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.3363170247793934,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 7345,
+      "timeline_end_index": 7345,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 20,
+          "end": 83
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_40_0004",
+      "source_section": "chapter_02_40",
+      "source_sentence": 38,
+      "character_position": 725,
+      "text": "грустно смотреть на эту лишенную растительности землю",
+      "vad": [
+        -0.65,
+        0.15,
+        -0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3291676132803637,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 7355,
+      "timeline_end_index": 7355,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 52,
+          "end": 105
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_40_0005",
+      "source_section": "chapter_02_40",
+      "source_sentence": 39,
+      "character_position": 726,
+      "text": "ужасно видеть людей, лишенных главного человеческого свойства – любви и жалости друг к другу",
+      "vad": [
+        -0.9,
+        0.7,
+        -0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3271867072075194,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 7356,
+      "timeline_end_index": 7356,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 107,
+          "end": 199
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_40_0006",
+      "source_section": "chapter_02_40",
+      "source_sentence": 41,
+      "character_position": 727,
+      "text": "мне и бывает так тяжело с этими людьми",
+      "vad": [
+        -0.7,
+        0.35,
+        -0.45
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.1572413984464122,
+      "warning": null,
+      "chapter_sentence_start": 41,
+      "chapter_sentence_end": 41,
+      "timeline_start_index": 7358,
+      "timeline_end_index": 7358,
+      "highlights": [
+        {
+          "chapter_sentence": 41,
+          "start": 12,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_40_0007",
+      "source_section": "chapter_02_40",
+      "source_sentence": 42,
+      "character_position": 728,
+      "text": "Я просто боюсь их",
+      "vad": [
+        -0.85,
+        0.75,
+        -0.7
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.4344525596307075,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 7359,
+      "timeline_end_index": 7359,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 2,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_40_0008",
+      "source_section": "chapter_02_40",
+      "source_sentence": 58,
+      "character_position": 729,
+      "text": "Не чувствуешь любви к людям",
+      "vad": [
+        -0.55,
+        -0.2,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3841227402411987,
+      "warning": null,
+      "chapter_sentence_start": 58,
+      "chapter_sentence_end": 58,
+      "timeline_start_index": 7375,
+      "timeline_end_index": 7375,
+      "highlights": [
+        {
+          "chapter_sentence": 58,
+          "start": 0,
+          "end": 27
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_40_0009",
+      "source_section": "chapter_02_40",
+      "source_sentence": 60,
+      "character_position": 730,
+      "text": "нет пределов страдания для себя",
+      "vad": [
+        -0.85,
+        0.45,
+        -0.75
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3945605525021747,
+      "warning": null,
+      "chapter_sentence_start": 60,
+      "chapter_sentence_end": 60,
+      "timeline_start_index": 7377,
+      "timeline_end_index": 7377,
+      "highlights": [
+        {
+          "chapter_sentence": 60,
+          "start": 174,
+          "end": 205
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_40_0010",
+      "source_section": "chapter_02_40",
+      "source_sentence": 63,
+      "character_position": 731,
+      "text": "испытывая двойное наслаждение – прохлады после мучительной жары и сознания достигнутой высшей ступени ясности в давно уже занимающем его вопросе",
+      "vad": [
+        0.85,
+        0.45,
+        0.7
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.5484368246938495,
+      "warning": null,
+      "chapter_sentence_start": 63,
+      "chapter_sentence_end": 63,
+      "timeline_start_index": 7380,
+      "timeline_end_index": 7380,
+      "highlights": [
+        {
+          "chapter_sentence": 63,
+          "start": 20,
+          "end": 164
+        }
+      ]
+    }
+  ]
+}

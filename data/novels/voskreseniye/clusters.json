@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "vad_dimensions": [
+    "V",
+    "A",
+    "D"
+  ],
+  "clusters": [
+    {
+      "id": "ekaterina_maslova-1",
+      "character_id": "ekaterina_maslova",
+      "local_index": 0,
+      "display_id": "Е.М. Маслова-1",
+      "name": "Влюблённая радость",
+      "centroid": [
+        0.7340277777777778,
+        0.3833333333333335,
+        0.1106944444444443
+      ],
+      "size": 72,
+      "within_cluster_spread": 0.3511369870036128,
+      "sphere_radius": 0.05981873111782478,
+      "color": "#636EFA"
+    },
+    {
+      "id": "ekaterina_maslova-2",
+      "character_id": "ekaterina_maslova",
+      "local_index": 1,
+      "display_id": "Е.М. Маслова-2",
+      "name": "Виноватая растерянность",
+      "centroid": [
+        -0.4157627118644069,
+        0.327457627118644,
+        -0.323728813559322
+      ],
+      "size": 59,
+      "within_cluster_spread": 0.3267336805684577,
+      "sphere_radius": 0.04901812688821753,
+      "color": "#636EFA"
+    },
+    {
+      "id": "ekaterina_maslova-3",
+      "character_id": "ekaterina_maslova",
+      "local_index": 2,
+      "display_id": "Е.М. Маслова-3",
+      "name": "Апатичное уныние",
+      "centroid": [
+        -0.5299999999999999,
+        -0.4283333333333333,
+        -0.345
+      ],
+      "size": 24,
+      "within_cluster_spread": 0.4050068586524869,
+      "sphere_radius": 0.019939577039274927,
+      "color": "#636EFA"
+    },
+    {
+      "id": "ekaterina_maslova-4",
+      "character_id": "ekaterina_maslova",
+      "local_index": 3,
+      "display_id": "Е.М. Маслова-4",
+      "name": "Сдержанная задумчивость",
+      "centroid": [
+        0.0946808510638298,
+        0.0106382978723404,
+        0.1638297872340425
+      ],
+      "size": 47,
+      "within_cluster_spread": 0.3737208453619295,
+      "sphere_radius": 0.039048338368580064,
+      "color": "#636EFA"
+    },
+    {
+      "id": "ekaterina_maslova-5",
+      "character_id": "ekaterina_maslova",
+      "local_index": 4,
+      "display_id": "Е.М. Маслова-5",
+      "name": "Мучительный страх",
+      "centroid": [
+        -0.8348387096774192,
+        0.6575806451612902,
+        -0.5819354838709676
+      ],
+      "size": 62,
+      "within_cluster_spread": 0.2262689388190469,
+      "sphere_radius": 0.05151057401812689,
+      "color": "#636EFA"
+    },
+    {
+      "id": "ekaterina_maslova-6",
+      "character_id": "ekaterina_maslova",
+      "local_index": 5,
+      "display_id": "Е.М. Маслова-6",
+      "name": "Раздражённое неприятие",
+      "centroid": [
+        -0.6156756756756757,
+        0.3786486486486486,
+        0.2072972972972972
+      ],
+      "size": 37,
+      "within_cluster_spread": 0.3450918510816798,
+      "sphere_radius": 0.03074018126888218,
+      "color": "#636EFA"
+    },
+    {
+      "id": "knyaz_nekhlyudov-1",
+      "character_id": "knyaz_nekhlyudov",
+      "local_index": 0,
+      "display_id": "князь Д.И. Нехлюдов-1",
+      "name": "Мучительный стыд",
+      "centroid": [
+        -0.7261027190332328,
+        0.4869184290030208,
+        -0.3772205438066467
+      ],
+      "size": 331,
+      "within_cluster_spread": 0.3699235333960734,
+      "sphere_radius": 0.275,
+      "color": "#EF553B"
+    },
+    {
+      "id": "knyaz_nekhlyudov-2",
+      "character_id": "knyaz_nekhlyudov",
+      "local_index": 1,
+      "display_id": "князь Д.И. Нехлюдов-2",
+      "name": "Спокойное удовлетворение",
+      "centroid": [
+        0.6113492063492054,
+        0.2613888888888891,
+        0.2436507936507938
+      ],
+      "size": 252,
+      "within_cluster_spread": 0.4579153783879423,
+      "sphere_radius": 0.20936555891238673,
+      "color": "#EF553B"
+    },
+    {
+      "id": "knyaz_nekhlyudov-3",
+      "character_id": "knyaz_nekhlyudov",
+      "local_index": 2,
+      "display_id": "князь Д.И. Нехлюдов-3",
+      "name": "Тягостное недовольство",
+      "centroid": [
+        -0.3358131487889275,
+        0.1187889273356402,
+        -0.0069204152249134
+      ],
+      "size": 289,
+      "within_cluster_spread": 0.4592052303850464,
+      "sphere_radius": 0.2401057401812689,
+      "color": "#EF553B"
+    }
+  ]
+}

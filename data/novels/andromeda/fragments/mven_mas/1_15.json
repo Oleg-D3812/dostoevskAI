@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "andromeda",
+  "character_id": "mven_mas",
+  "chapter_id": "1_15",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "mven_mas::chapter_01_15_0001",
+      "source_section": "chapter_01_15",
+      "source_sentence": 333,
+      "character_position": 106,
+      "text": "Нет, не тоска, а великая и печальная гордость — вот мои ощущения сегодня.",
+      "vad": [
+        -0.1,
+        0.55,
+        0.3
+      ],
+      "cluster_id": "mven_mas-3",
+      "distance_to_centroid": 0.4164281984261446,
+      "warning": null,
+      "chapter_sentence_start": 333,
+      "chapter_sentence_end": 333,
+      "timeline_start_index": 7067,
+      "timeline_end_index": 7067,
+      "highlights": [
+        {
+          "chapter_sentence": 333,
+          "start": 29,
+          "end": 102
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_15_0002",
+      "source_section": "chapter_01_15",
+      "source_sentence": 334,
+      "character_position": 107,
+      "text": "Гордость за нас, поднимающихся все выше со своей планеты и сливающихся с космосом.",
+      "vad": [
+        0.8,
+        0.55,
+        0.72
+      ],
+      "cluster_id": "mven_mas-1",
+      "distance_to_centroid": 0.5227507668072147,
+      "warning": null,
+      "chapter_sentence_start": 334,
+      "chapter_sentence_end": 334,
+      "timeline_start_index": 7068,
+      "timeline_end_index": 7068,
+      "highlights": [
+        {
+          "chapter_sentence": 334,
+          "start": 0,
+          "end": 82
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_15_0003",
+      "source_section": "chapter_01_15",
+      "source_sentence": 335,
+      "character_position": 108,
+      "text": "Печаль — потому что маленькой становится милая Земля…",
+      "vad": [
+        -0.7,
+        -0.1,
+        0.0
+      ],
+      "cluster_id": "mven_mas-4",
+      "distance_to_centroid": 0.6092628101853912,
+      "warning": null,
+      "chapter_sentence_start": 335,
+      "chapter_sentence_end": 335,
+      "timeline_start_index": 7069,
+      "timeline_end_index": 7069,
+      "highlights": [
+        {
+          "chapter_sentence": 335,
+          "start": 0,
+          "end": 53
+        }
+      ]
+    }
+  ]
+}

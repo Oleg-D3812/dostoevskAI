@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "1_46",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_01_46_0001",
+      "source_section": "chapter_01_46",
+      "source_sentence": 45,
+      "character_position": 155,
+      "text": "тоскуя от скуки",
+      "vad": [
+        -0.55,
+        -0.65,
+        -0.1
+      ],
+      "cluster_id": "ekaterina_maslova-3",
+      "distance_to_centroid": 0.3310001678415151,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 3092,
+      "timeline_end_index": 3092,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 108,
+          "end": 123
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_46_0003",
+      "source_section": "chapter_01_46",
+      "source_sentence": 55,
+      "character_position": 156,
+      "text": "в самом веселом расположении духа",
+      "vad": [
+        0.88,
+        0.58,
+        0.4
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.3790558955003604,
+      "warning": null,
+      "chapter_sentence_start": 55,
+      "chapter_sentence_end": 55,
+      "timeline_start_index": 3102,
+      "timeline_end_index": 3102,
+      "highlights": [
+        {
+          "chapter_sentence": 55,
+          "start": 27,
+          "end": 60
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "1_21",
+  "count": 5,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_21_0001",
+      "source_section": "chapter_01_21",
+      "source_sentence": 56,
+      "character_position": 174,
+      "text": "остановленное рыдание",
+      "vad": [
+        -0.85,
+        0.6,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.1699380355754193,
+      "warning": null,
+      "chapter_sentence_start": 56,
+      "chapter_sentence_end": 56,
+      "timeline_start_index": 1318,
+      "timeline_end_index": 1318,
+      "highlights": [
+        {
+          "chapter_sentence": 56,
+          "start": 14,
+          "end": 35
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_21_0002",
+      "source_section": "chapter_01_21",
+      "source_sentence": 57,
+      "character_position": 175,
+      "text": "Нехлюдов все еще не понимал всего значения своего теперешнего положения",
+      "vad": [
+        -0.25,
+        0.1,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3541475988693702,
+      "warning": null,
+      "chapter_sentence_start": 57,
+      "chapter_sentence_end": 57,
+      "timeline_start_index": 1319,
+      "timeline_end_index": 1319,
+      "highlights": [
+        {
+          "chapter_sentence": 57,
+          "start": 0,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_21_0003",
+      "source_section": "chapter_01_21",
+      "source_sentence": 57,
+      "character_position": 176,
+      "text": "слабости своих нервов",
+      "vad": [
+        -0.45,
+        0.4,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2907378247889789,
+      "warning": null,
+      "chapter_sentence_start": 57,
+      "chapter_sentence_end": 57,
+      "timeline_start_index": 1319,
+      "timeline_end_index": 1319,
+      "highlights": [
+        {
+          "chapter_sentence": 57,
+          "start": 83,
+          "end": 104
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_21_0004",
+      "source_section": "chapter_01_21",
+      "source_sentence": 59,
+      "character_position": 177,
+      "text": "Страх перед позором, которым он покрыл бы себя, если бы все здесь, в зале суда, узнали его поступок",
+      "vad": [
+        -0.8,
+        0.75,
+        -0.65
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3861105448620401,
+      "warning": null,
+      "chapter_sentence_start": 59,
+      "chapter_sentence_end": 59,
+      "timeline_start_index": 1321,
+      "timeline_end_index": 1321,
+      "highlights": [
+        {
+          "chapter_sentence": 59,
+          "start": 0,
+          "end": 99
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_21_0005",
+      "source_section": "chapter_01_21",
+      "source_sentence": 60,
+      "character_position": 178,
+      "text": "Страх этот в это первое время был сильнее всего",
+      "vad": [
+        -0.82,
+        0.68,
+        -0.42
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2189229871525888,
+      "warning": null,
+      "chapter_sentence_start": 60,
+      "chapter_sentence_end": 60,
+      "timeline_start_index": 1322,
+      "timeline_end_index": 1322,
+      "highlights": [
+        {
+          "chapter_sentence": 60,
+          "start": 0,
+          "end": 47
+        }
+      ]
+    }
+  ]
+}

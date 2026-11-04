@@ -1,0 +1,685 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "2_13",
+  "count": 26,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_02_13_0001",
+      "source_section": "chapter_02_13",
+      "source_sentence": 22,
+      "character_position": 197,
+      "text": "она вспыхнула, остановилась как бы в нерешительности, а потом нахмурилась и, опустив глаза",
+      "vad": [
+        -0.45,
+        0.55,
+        -0.45
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.2581505610136855,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 5041,
+      "timeline_end_index": 5041,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 18,
+          "end": 108
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_02_13_0002",
+      "source_section": "chapter_02_13",
+      "source_sentence": 25,
+      "character_position": 198,
+      "text": "в выражении лица ее было что-то новое: сдержанное, застенчивое и, как показалось Нехлюдову, недоброжелательное к нему",
+      "vad": [
+        -0.35,
+        0.15,
+        -0.2
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.2261078570044353,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 5044,
+      "timeline_end_index": 5044,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 33,
+          "end": 150
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_02_13_0003",
+      "source_section": "chapter_02_13",
+      "source_sentence": 29,
+      "character_position": 199,
+      "text": "удивленно взглянула на него",
+      "vad": [
+        0.0,
+        0.4,
+        0.0
+      ],
+      "cluster_id": "ekaterina_maslova-4",
+      "distance_to_centroid": 0.4329055299104772,
+      "warning": null,
+      "chapter_sentence_start": 29,
+      "chapter_sentence_end": 29,
+      "timeline_start_index": 5048,
+      "timeline_end_index": 5048,
+      "highlights": [
+        {
+          "chapter_sentence": 29,
+          "start": 29,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_02_13_0004",
+      "source_section": "chapter_02_13",
+      "source_sentence": 32,
+      "character_position": 200,
+      "text": "сказала она равнодушно",
+      "vad": [
+        -0.1,
+        -0.6,
+        0.0
+      ],
+      "cluster_id": "ekaterina_maslova-3",
+      "distance_to_centroid": 0.5774031905388508,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 5051,
+      "timeline_end_index": 5051,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 2,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_02_13_0005",
+      "source_section": "chapter_02_13",
+      "source_sentence": 53,
+      "character_position": 201,
+      "text": "теперь все равно",
+      "vad": [
+        -0.35,
+        -0.55,
+        -0.2
+      ],
+      "cluster_id": "ekaterina_maslova-3",
+      "distance_to_centroid": 0.2612044750339813,
+      "warning": null,
+      "chapter_sentence_start": 53,
+      "chapter_sentence_end": 53,
+      "timeline_start_index": 5072,
+      "timeline_end_index": 5072,
+      "highlights": [
+        {
+          "chapter_sentence": 53,
+          "start": 23,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_02_13_0006",
+      "source_section": "chapter_02_13",
+      "source_sentence": 60,
+      "character_position": 202,
+      "text": "все лицо ее просияло радостью",
+      "vad": [
+        0.95,
+        0.7,
+        0.1
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.3834529302161581,
+      "warning": null,
+      "chapter_sentence_start": 60,
+      "chapter_sentence_end": 60,
+      "timeline_start_index": 5079,
+      "timeline_end_index": 5079,
+      "highlights": [
+        {
+          "chapter_sentence": 60,
+          "start": 86,
+          "end": 115
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_02_13_0007",
+      "source_section": "chapter_02_13",
+      "source_sentence": 58,
+      "character_position": 203,
+      "text": "для меня действительно все равно",
+      "vad": [
+        -0.15,
+        -0.35,
+        0.1
+      ],
+      "cluster_id": "ekaterina_maslova-4",
+      "distance_to_centroid": 0.4404576512082883,
+      "warning": null,
+      "chapter_sentence_start": 58,
+      "chapter_sentence_end": 58,
+      "timeline_start_index": 5077,
+      "timeline_end_index": 5077,
+      "highlights": [
+        {
+          "chapter_sentence": 58,
+          "start": 5,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_02_13_0008",
+      "source_section": "chapter_02_13",
+      "source_sentence": 64,
+      "character_position": 204,
+      "text": "с трудом удерживая улыбку",
+      "vad": [
+        0.65,
+        0.35,
+        0.2
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.127071872585829,
+      "warning": null,
+      "chapter_sentence_start": 64,
+      "chapter_sentence_end": 64,
+      "timeline_start_index": 5083,
+      "timeline_end_index": 5083,
+      "highlights": [
+        {
+          "chapter_sentence": 64,
+          "start": 57,
+          "end": 82
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_02_13_0009",
+      "source_section": "chapter_02_13",
+      "source_sentence": 67,
+      "character_position": 205,
+      "text": "Меня зовут, кажется, – сказала она, беспокойно оглядываясь",
+      "vad": [
+        -0.45,
+        0.55,
+        -0.3
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.2264075003604721,
+      "warning": null,
+      "chapter_sentence_start": 67,
+      "chapter_sentence_end": 67,
+      "timeline_start_index": 5086,
+      "timeline_end_index": 5086,
+      "highlights": [
+        {
+          "chapter_sentence": 67,
+          "start": 2,
+          "end": 60
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_02_13_0010",
+      "source_section": "chapter_02_13",
+      "source_sentence": 69,
+      "character_position": 206,
+      "text": "стараясь скрыть свое торжество",
+      "vad": [
+        0.75,
+        0.35,
+        0.55
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.4408577935523002,
+      "warning": null,
+      "chapter_sentence_start": 69,
+      "chapter_sentence_end": 69,
+      "timeline_start_index": 5088,
+      "timeline_end_index": 5088,
+      "highlights": [
+        {
+          "chapter_sentence": 69,
+          "start": 81,
+          "end": 111
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_02_13_0012",
+      "source_section": "chapter_02_13",
+      "source_sentence": 73,
+      "character_position": 207,
+      "text": "Хочет ли она испытать меня или действительно не может простить?",
+      "vad": [
+        -0.35,
+        0.35,
+        -0.55
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.2367098279754247,
+      "warning": null,
+      "chapter_sentence_start": 73,
+      "chapter_sentence_end": 73,
+      "timeline_start_index": 5092,
+      "timeline_end_index": 5092,
+      "highlights": [
+        {
+          "chapter_sentence": 73,
+          "start": 0,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_02_13_0013",
+      "source_section": "chapter_02_13",
+      "source_sentence": 74,
+      "character_position": 208,
+      "text": "Не может она сказать всего, что думает и чувствует, или не хочет?",
+      "vad": [
+        -0.35,
+        0.35,
+        -0.45
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.1441433500790777,
+      "warning": null,
+      "chapter_sentence_start": 74,
+      "chapter_sentence_end": 74,
+      "timeline_start_index": 5093,
+      "timeline_end_index": 5093,
+      "highlights": [
+        {
+          "chapter_sentence": 74,
+          "start": 0,
+          "end": 65
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_02_13_0015",
+      "source_section": "chapter_02_13",
+      "source_sentence": 77,
+      "character_position": 209,
+      "text": "она изменилась и в ней шла важная для ее души перемена",
+      "vad": [
+        0.35,
+        0.15,
+        -0.1
+      ],
+      "cluster_id": "ekaterina_maslova-4",
+      "distance_to_centroid": 0.3927030792664719,
+      "warning": null,
+      "chapter_sentence_start": 77,
+      "chapter_sentence_end": 77,
+      "timeline_start_index": 5096,
+      "timeline_end_index": 5096,
+      "highlights": [
+        {
+          "chapter_sentence": 77,
+          "start": 27,
+          "end": 81
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_02_13_0017",
+      "source_section": "chapter_02_13",
+      "source_sentence": 84,
+      "character_position": 210,
+      "text": "не могла налюбоваться в особенности собою",
+      "vad": [
+        0.8,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.1068229829735064,
+      "warning": null,
+      "chapter_sentence_start": 84,
+      "chapter_sentence_end": 84,
+      "timeline_start_index": 5103,
+      "timeline_end_index": 5103,
+      "highlights": [
+        {
+          "chapter_sentence": 84,
+          "start": 467,
+          "end": 508
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_02_13_0018",
+      "source_section": "chapter_02_13",
+      "source_sentence": 102,
+      "character_position": 211,
+      "text": "все оживление ее прошло",
+      "vad": [
+        -0.55,
+        -0.5,
+        -0.1
+      ],
+      "cluster_id": "ekaterina_maslova-3",
+      "distance_to_centroid": 0.2560490404416918,
+      "warning": null,
+      "chapter_sentence_start": 102,
+      "chapter_sentence_end": 102,
+      "timeline_start_index": 5121,
+      "timeline_end_index": 5121,
+      "highlights": [
+        {
+          "chapter_sentence": 102,
+          "start": 47,
+          "end": 70
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_02_13_0019",
+      "source_section": "chapter_02_13",
+      "source_sentence": 103,
+      "character_position": 212,
+      "text": "Лицо стало унылое",
+      "vad": [
+        -0.7,
+        -0.3,
+        0.0
+      ],
+      "cluster_id": "ekaterina_maslova-3",
+      "distance_to_centroid": 0.405455847712725,
+      "warning": null,
+      "chapter_sentence_start": 103,
+      "chapter_sentence_end": 103,
+      "timeline_start_index": 5122,
+      "timeline_end_index": 5122,
+      "highlights": [
+        {
+          "chapter_sentence": 103,
+          "start": 0,
+          "end": 17
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_02_13_0020",
+      "source_section": "chapter_02_13",
+      "source_sentence": 114,
+      "character_position": 213,
+      "text": "насилу удерживая злые слезы",
+      "vad": [
+        -0.8,
+        0.7,
+        -0.35
+      ],
+      "cluster_id": "ekaterina_maslova-5",
+      "distance_to_centroid": 0.238342623203194,
+      "warning": null,
+      "chapter_sentence_start": 114,
+      "chapter_sentence_end": 114,
+      "timeline_start_index": 5133,
+      "timeline_end_index": 5133,
+      "highlights": [
+        {
+          "chapter_sentence": 114,
+          "start": 71,
+          "end": 98
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_02_13_0021",
+      "source_section": "chapter_02_13",
+      "source_sentence": 115,
+      "character_position": 214,
+      "text": "мечтала о том, как она была счастлива тогда и могла бы еще быть счастлива с ним теперь",
+      "vad": [
+        0.65,
+        0.2,
+        0.05
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.210607678245126,
+      "warning": null,
+      "chapter_sentence_start": 115,
+      "chapter_sentence_end": 115,
+      "timeline_start_index": 5134,
+      "timeline_end_index": 5134,
+      "highlights": [
+        {
+          "chapter_sentence": 115,
+          "start": 85,
+          "end": 171
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_02_13_0022",
+      "source_section": "chapter_02_13",
+      "source_sentence": 116,
+      "character_position": 215,
+      "text": "весь ужас той жизни, который она тогда смутно чувствовала, но не позволяла себе сознавать",
+      "vad": [
+        -0.9,
+        0.65,
+        -0.55
+      ],
+      "cluster_id": "ekaterina_maslova-5",
+      "distance_to_centroid": 0.0729611887762108,
+      "warning": null,
+      "chapter_sentence_start": 116,
+      "chapter_sentence_end": 116,
+      "timeline_start_index": 5135,
+      "timeline_end_index": 5135,
+      "highlights": [
+        {
+          "chapter_sentence": 116,
+          "start": 91,
+          "end": 180
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_02_13_0023",
+      "source_section": "chapter_02_13",
+      "source_sentence": 118,
+      "character_position": 216,
+      "text": "стала жаловаться ей на свою тяжелую жизнь",
+      "vad": [
+        -0.75,
+        0.25,
+        -0.4
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.3514705430902496,
+      "warning": null,
+      "chapter_sentence_start": 118,
+      "chapter_sentence_end": 118,
+      "timeline_start_index": 5137,
+      "timeline_end_index": 5137,
+      "highlights": [
+        {
+          "chapter_sentence": 118,
+          "start": 273,
+          "end": 314
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_02_13_0024",
+      "source_section": "chapter_02_13",
+      "source_sentence": 124,
+      "character_position": 217,
+      "text": "в ней вдруг поднялось опять прежнее озлобление к нему, захотелось бранить, упрекать его",
+      "vad": [
+        -0.85,
+        0.7,
+        0.2
+      ],
+      "cluster_id": "ekaterina_maslova-6",
+      "distance_to_centroid": 0.3977786200051931,
+      "warning": null,
+      "chapter_sentence_start": 124,
+      "chapter_sentence_end": 124,
+      "timeline_start_index": 5143,
+      "timeline_end_index": 5143,
+      "highlights": [
+        {
+          "chapter_sentence": 124,
+          "start": 2,
+          "end": 89
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_02_13_0025",
+      "source_section": "chapter_02_13",
+      "source_sentence": 125,
+      "character_position": 218,
+      "text": "Она жалела, что упустила случай нынче высказать ему еще раз то же",
+      "vad": [
+        -0.55,
+        0.25,
+        -0.35
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.1571925849455056,
+      "warning": null,
+      "chapter_sentence_start": 125,
+      "chapter_sentence_end": 125,
+      "timeline_start_index": 5144,
+      "timeline_end_index": 5144,
+      "highlights": [
+        {
+          "chapter_sentence": 125,
+          "start": 0,
+          "end": 65
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_02_13_0026",
+      "source_section": "chapter_02_13",
+      "source_sentence": 126,
+      "character_position": 219,
+      "text": "это мучительное чувство жалости к себе и бесполезного упрека ему",
+      "vad": [
+        -0.85,
+        0.55,
+        -0.65
+      ],
+      "cluster_id": "ekaterina_maslova-5",
+      "distance_to_centroid": 0.1282038934410508,
+      "warning": null,
+      "chapter_sentence_start": 126,
+      "chapter_sentence_end": 126,
+      "timeline_start_index": 5145,
+      "timeline_end_index": 5145,
+      "highlights": [
+        {
+          "chapter_sentence": 126,
+          "start": 28,
+          "end": 92
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_02_13_0027",
+      "source_section": "chapter_02_13",
+      "source_sentence": 126,
+      "character_position": 220,
+      "text": "ей захотелось вина",
+      "vad": [
+        -0.2,
+        0.3,
+        -0.1
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.3120289267595738,
+      "warning": null,
+      "chapter_sentence_start": 126,
+      "chapter_sentence_end": 126,
+      "timeline_start_index": 5145,
+      "timeline_end_index": 5145,
+      "highlights": [
+        {
+          "chapter_sentence": 126,
+          "start": 94,
+          "end": 112
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_02_13_0028",
+      "source_section": "chapter_02_13",
+      "source_sentence": 128,
+      "character_position": 221,
+      "text": "фельдшера она боялась",
+      "vad": [
+        -0.7,
+        0.5,
+        -0.6
+      ],
+      "cluster_id": "ekaterina_maslova-5",
+      "distance_to_centroid": 0.2081813250507737,
+      "warning": null,
+      "chapter_sentence_start": 128,
+      "chapter_sentence_end": 128,
+      "timeline_start_index": 5147,
+      "timeline_end_index": 5147,
+      "highlights": [
+        {
+          "chapter_sentence": 128,
+          "start": 60,
+          "end": 81
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_02_13_0029",
+      "source_section": "chapter_02_13",
+      "source_sentence": 129,
+      "character_position": 222,
+      "text": "Отношения же с мужчинами были ей противны",
+      "vad": [
+        -0.75,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "ekaterina_maslova-6",
+      "distance_to_centroid": 0.2486683305958843,
+      "warning": null,
+      "chapter_sentence_start": 129,
+      "chapter_sentence_end": 129,
+      "timeline_start_index": 5148,
+      "timeline_end_index": 5148,
+      "highlights": [
+        {
+          "chapter_sentence": 129,
+          "start": 0,
+          "end": 41
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "1_44",
+  "count": 8,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_01_44_0001",
+      "source_section": "chapter_01_44",
+      "source_sentence": 1,
+      "character_position": 147,
+      "text": "Катюша обрадуется и умилится",
+      "vad": [
+        0.85,
+        0.45,
+        0.0
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.1736296656751635,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 2907,
+      "timeline_end_index": 2907,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 102,
+          "end": 130
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_44_0002",
+      "source_section": "chapter_01_44",
+      "source_sentence": 3,
+      "character_position": 148,
+      "text": "не стыдилась своего положения – не арестантки (этого она стыдилась), а своего положения проститутки",
+      "vad": [
+        0.2,
+        0.0,
+        0.2
+      ],
+      "cluster_id": "ekaterina_maslova-4",
+      "distance_to_centroid": 0.1118641175971744,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 2909,
+      "timeline_end_index": 2909,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 55,
+          "end": 154
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_44_0003",
+      "source_section": "chapter_01_44",
+      "source_sentence": 3,
+      "character_position": 149,
+      "text": "как будто даже была довольна, почти гордилась им",
+      "vad": [
+        0.65,
+        0.15,
+        0.4
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.3810548731587418,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 2909,
+      "timeline_end_index": 2909,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 161,
+          "end": 209
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_44_0004",
+      "source_section": "chapter_01_44",
+      "source_sentence": 16,
+      "character_position": 150,
+      "text": "могла одобрить себя и даже гордиться перед людьми своим положением",
+      "vad": [
+        0.8,
+        0.25,
+        0.55
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.463809748738307,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 2922,
+      "timeline_end_index": 2922,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 119,
+          "end": 185
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_44_0005",
+      "source_section": "chapter_01_44",
+      "source_sentence": 23,
+      "character_position": 151,
+      "text": "Маслова дорожила таким пониманием жизни больше всего на свете, не могла не дорожить им",
+      "vad": [
+        0.2,
+        0.35,
+        -0.25
+      ],
+      "cluster_id": "ekaterina_maslova-4",
+      "distance_to_centroid": 0.54544805509397,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 2929,
+      "timeline_end_index": 2929,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 2,
+          "end": 88
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_44_0006",
+      "source_section": "chapter_01_44",
+      "source_sentence": 25,
+      "character_position": 152,
+      "text": "противилась ему",
+      "vad": [
+        -0.55,
+        0.28,
+        0.32
+      ],
+      "cluster_id": "ekaterina_maslova-6",
+      "distance_to_centroid": 0.1635443348213409,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 2931,
+      "timeline_end_index": 2931,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 56,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_44_0007",
+      "source_section": "chapter_01_44",
+      "source_sentence": 25,
+      "character_position": 153,
+      "text": "предвидя, что в том мире, в который он привлекал ее, она должна будет потерять это свое место в жизни, дававшее ей уверенность и самоуважение",
+      "vad": [
+        -0.78,
+        0.58,
+        -0.7
+      ],
+      "cluster_id": "ekaterina_maslova-5",
+      "distance_to_centroid": 0.15154296602452,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 2931,
+      "timeline_end_index": 2931,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 73,
+          "end": 214
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_44_0008",
+      "source_section": "chapter_01_44",
+      "source_sentence": 27,
+      "character_position": 154,
+      "text": "были совершенно вычеркнуты из ее памяти или скорее где-то хранились в ее памяти нетронутыми, но были так заперты, замазаны",
+      "vad": [
+        -0.55,
+        -0.2,
+        0.3
+      ],
+      "cluster_id": "ekaterina_maslova-6",
+      "distance_to_centroid": 0.5896959759458678,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 2933,
+      "timeline_end_index": 2933,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 71,
+          "end": 193
+        }
+      ]
+    }
+  ]
+}

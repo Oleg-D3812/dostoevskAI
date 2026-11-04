@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "1_53",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_53_0001",
+      "source_section": "chapter_01_53",
+      "source_sentence": 1,
+      "character_position": 410,
+      "text": "Нехлюдов испытывал странные чувства – и сострадания к тем людям, которые сидели, и ужаса и недоумения перед теми, кто посадили и держат их тут, и почему-то стыда за себя, за то, что он спокойно рассматривает это.",
+      "vad": [
+        -0.78,
+        0.58,
+        -0.36
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.1089295317343876,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 3566,
+      "timeline_end_index": 3566,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 180,
+          "end": 392
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_53_0002",
+      "source_section": "chapter_01_53",
+      "source_sentence": 59,
+      "character_position": 411,
+      "text": "на него с особенной силой нашло то смешанное чувство любопытства, тоски, недоумения и нравственной, переходящей почти в физическую, тошноты, которое и прежде, но никогда с такой силой не охватывало его.",
+      "vad": [
+        -0.85,
+        0.8,
+        -0.55
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3784486052443125,
+      "warning": null,
+      "chapter_sentence_start": 59,
+      "chapter_sentence_end": 59,
+      "timeline_start_index": 3624,
+      "timeline_end_index": 3624,
+      "highlights": [
+        {
+          "chapter_sentence": 59,
+          "start": 136,
+          "end": 338
+        }
+      ]
+    }
+  ]
+}

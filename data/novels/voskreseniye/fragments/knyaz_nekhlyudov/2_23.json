@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "2_23",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_23_0001",
+      "source_section": "chapter_02_23",
+      "source_sentence": 40,
+      "character_position": 572,
+      "text": "Это же самое – после первого впечатления радости увидать старого приятеля – почувствовал и Нехлюдов.",
+      "vad": [
+        -0.65,
+        0.3,
+        -0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3429013748203139,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 5923,
+      "timeline_end_index": 5923,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 0,
+          "end": 100
+        }
+      ]
+    }
+  ]
+}

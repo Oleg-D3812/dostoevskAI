@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "3_15",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_15_0001",
+      "source_section": "chapter_03_15",
+      "source_sentence": 27,
+      "character_position": 775,
+      "text": "к огорчению своему",
+      "vad": [
+        -0.45,
+        0.05,
+        -0.05
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.1400942687545834,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 8440,
+      "timeline_end_index": 8440,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 50,
+          "end": 68
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_15_0002",
+      "source_section": "chapter_03_15",
+      "source_sentence": 27,
+      "character_position": 776,
+      "text": "то благодушное настроение, в котором он находился во время путешествия",
+      "vad": [
+        0.65,
+        -0.35,
+        0.05
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.6424880443932083,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 8440,
+      "timeline_end_index": 8440,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 99,
+          "end": 169
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_15_0003",
+      "source_section": "chapter_03_15",
+      "source_sentence": 27,
+      "character_position": 777,
+      "text": "сильнейшей антипатии к этому человеку",
+      "vad": [
+        -0.9,
+        0.5,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.4155799928980774,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 8440,
+      "timeline_end_index": 8440,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 223,
+          "end": 260
+        }
+      ]
+    }
+  ]
+}

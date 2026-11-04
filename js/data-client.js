@@ -19,6 +19,27 @@
     return value[language || "ru"] || value.ru || value.en || value[Object.keys(value)[0]] || "";
   }
 
+  // "chapter_02_01_02" -> "2_1_2": drops the prefix and zero padding so source
+  // section ids match chapters.json ids.
+  function normalizeChapterId(chapterId) {
+    if (!chapterId) return "";
+    return String(chapterId).replace(/^chapter_/, "")
+      .split("_").map(function(seg) { return seg.replace(/^0+(?=\d)/, ""); }).join("_");
+  }
+
+  // Resolve a chapter id to a chapters.json entry, falling back to the parent
+  // logical chapter ("2_1_2" -> "2_1") when the sub-section isn't listed.
+  function resolveChapter(chapterById, chapterId) {
+    var key = normalizeChapterId(chapterId);
+    while (key) {
+      if (chapterById[key]) return chapterById[key];
+      var cut = key.lastIndexOf("_");
+      if (cut < 0) return null;
+      key = key.slice(0, cut);
+    }
+    return null;
+  }
+
   function loadNovelContext(novelId, options) {
     options = options || {};
     var catalogUrl = options.catalogUrl || "data/catalog.json";
@@ -40,5 +61,8 @@
     });
   }
 
-  global.AtlasData = { fetchJson: fetchJson, resolveRelative: resolveRelative, localized: localized, loadNovelContext: loadNovelContext };
+  global.AtlasData = {
+    fetchJson: fetchJson, resolveRelative: resolveRelative, localized: localized, loadNovelContext: loadNovelContext,
+    normalizeChapterId: normalizeChapterId, resolveChapter: resolveChapter
+  };
 })(window);

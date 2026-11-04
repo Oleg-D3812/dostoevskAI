@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "2_38",
+  "count": 5,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_02_38_0001",
+      "source_section": "chapter_02_38",
+      "source_sentence": 27,
+      "character_position": 247,
+      "text": "с оживившимся красным и потным улыбающимся лицом",
+      "vad": [
+        0.65,
+        0.65,
+        0.1
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.2797966220156311,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 7138,
+      "timeline_end_index": 7138,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 61,
+          "end": 109
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_02_38_0002",
+      "source_section": "chapter_02_38",
+      "source_sentence": 28,
+      "character_position": 248,
+      "text": "радостно улыбаясь",
+      "vad": [
+        0.85,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.1432074436388704,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 7139,
+      "timeline_end_index": 7139,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 29,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_02_38_0003",
+      "source_section": "chapter_02_38",
+      "source_sentence": 41,
+      "character_position": 249,
+      "text": "радостно взглянув на Нехлюдова",
+      "vad": [
+        0.8,
+        0.3,
+        0.0
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.1534602182334136,
+      "warning": null,
+      "chapter_sentence_start": 41,
+      "chapter_sentence_end": 41,
+      "timeline_start_index": 7152,
+      "timeline_end_index": 7152,
+      "highlights": [
+        {
+          "chapter_sentence": 41,
+          "start": 44,
+          "end": 74
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_02_38_0004",
+      "source_section": "chapter_02_38",
+      "source_sentence": 56,
+      "character_position": 250,
+      "text": "стараясь удержать губы от радостной улыбки",
+      "vad": [
+        0.7,
+        0.35,
+        0.45
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.3426328367253629,
+      "warning": null,
+      "chapter_sentence_start": 56,
+      "chapter_sentence_end": 56,
+      "timeline_start_index": 7167,
+      "timeline_end_index": 7167,
+      "highlights": [
+        {
+          "chapter_sentence": 56,
+          "start": 51,
+          "end": 93
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_02_38_0005",
+      "source_section": "chapter_02_38",
+      "source_sentence": 75,
+      "character_position": 251,
+      "text": "жалостно улыбалась ему",
+      "vad": [
+        -0.45,
+        0.1,
+        -0.35
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.2315153110926458,
+      "warning": null,
+      "chapter_sentence_start": 75,
+      "chapter_sentence_end": 75,
+      "timeline_start_index": 7186,
+      "timeline_end_index": 7186,
+      "highlights": [
+        {
+          "chapter_sentence": 75,
+          "start": 61,
+          "end": 83
+        }
+      ]
+    }
+  ]
+}

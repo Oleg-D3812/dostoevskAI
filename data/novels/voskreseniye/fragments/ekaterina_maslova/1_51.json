@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "1_51",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_01_51_0001",
+      "source_section": "chapter_01_51",
+      "source_sentence": 26,
+      "character_position": 185,
+      "text": "сегодня напилась совсем, так что даже буйная стала",
+      "vad": [
+        -0.7,
+        0.8,
+        -0.4
+      ],
+      "cluster_id": "ekaterina_maslova-5",
+      "distance_to_centroid": 0.2675168603125956,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 3455,
+      "timeline_end_index": 3455,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 90,
+          "end": 140
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_51_0002",
+      "source_section": "chapter_01_51",
+      "source_sentence": 29,
+      "character_position": 186,
+      "text": "Так она женщина смирная",
+      "vad": [
+        0.1,
+        -0.4,
+        0.2
+      ],
+      "cluster_id": "ekaterina_maslova-4",
+      "distance_to_centroid": 0.412262524753867,
+      "warning": null,
+      "chapter_sentence_start": 29,
+      "chapter_sentence_end": 29,
+      "timeline_start_index": 3458,
+      "timeline_end_index": 3458,
+      "highlights": [
+        {
+          "chapter_sentence": 29,
+          "start": 0,
+          "end": 23
+        }
+      ]
+    }
+  ]
+}

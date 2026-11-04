@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "2_32",
+  "count": 11,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_32_0001",
+      "source_section": "chapter_02_32",
+      "source_sentence": 21,
+      "character_position": 660,
+      "text": "Мне велико, одиноко, скучно.",
+      "vad": [
+        -0.7,
+        -0.4,
+        -0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.662611303690195,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 6584,
+      "timeline_end_index": 6584,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 0,
+          "end": 28
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_32_0002",
+      "source_section": "chapter_02_32",
+      "source_sentence": 32,
+      "character_position": 661,
+      "text": "я очень рад, что ты знаешь",
+      "vad": [
+        0.65,
+        0.2,
+        0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.0918570225134371,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 6595,
+      "timeline_end_index": 6595,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 9,
+          "end": 35
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_32_0004",
+      "source_section": "chapter_02_32",
+      "source_sentence": 36,
+      "character_position": 662,
+      "text": "Настроение, вызванное в нем последним свиданием с Масловой, еще продолжало наполнять его душу спокойной радостью и благорасположением ко всем людям.",
+      "vad": [
+        0.8,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.2449352325423805,
+      "warning": null,
+      "chapter_sentence_start": 36,
+      "chapter_sentence_end": 36,
+      "timeline_start_index": 6599,
+      "timeline_end_index": 6599,
+      "highlights": [
+        {
+          "chapter_sentence": 36,
+          "start": 0,
+          "end": 148
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_32_0006",
+      "source_section": "chapter_02_32",
+      "source_sentence": 63,
+      "character_position": 663,
+      "text": "перед которой я считаю себя виноватым",
+      "vad": [
+        -0.55,
+        0.15,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3811392835406643,
+      "warning": null,
+      "chapter_sentence_start": 63,
+      "chapter_sentence_end": 63,
+      "timeline_start_index": 6626,
+      "timeline_end_index": 6626,
+      "highlights": [
+        {
+          "chapter_sentence": 63,
+          "start": 72,
+          "end": 109
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_32_0007",
+      "source_section": "chapter_02_32",
+      "source_sentence": 70,
+      "character_position": 664,
+      "text": "Нехлюдов рассердился на себя за то, что не находил выражения.",
+      "vad": [
+        -0.65,
+        0.55,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.1025273936508076,
+      "warning": null,
+      "chapter_sentence_start": 70,
+      "chapter_sentence_end": 70,
+      "timeline_start_index": 6633,
+      "timeline_end_index": 6633,
+      "highlights": [
+        {
+          "chapter_sentence": 70,
+          "start": 2,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_32_0008",
+      "source_section": "chapter_02_32",
+      "source_sentence": 74,
+      "character_position": 665,
+      "text": "с ненужным волнением",
+      "vad": [
+        -0.45,
+        0.55,
+        -0.25
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3104787638848269,
+      "warning": null,
+      "chapter_sentence_start": 74,
+      "chapter_sentence_end": 74,
+      "timeline_start_index": 6637,
+      "timeline_end_index": 6637,
+      "highlights": [
+        {
+          "chapter_sentence": 74,
+          "start": 11,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_32_0009",
+      "source_section": "chapter_02_32",
+      "source_sentence": 52,
+      "character_position": 666,
+      "text": "испытывая к ней сплетенное из бесчисленных детских воспоминаний нежное чувство",
+      "vad": [
+        0.8,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.2449352325423805,
+      "warning": null,
+      "chapter_sentence_start": 52,
+      "chapter_sentence_end": 52,
+      "timeline_start_index": 6615,
+      "timeline_end_index": 6615,
+      "highlights": [
+        {
+          "chapter_sentence": 52,
+          "start": 71,
+          "end": 149
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_32_0010",
+      "source_section": "chapter_02_32",
+      "source_sentence": 58,
+      "character_position": 667,
+      "text": "кроткое настроение его мгновенно исчезло",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2365278021544824,
+      "warning": null,
+      "chapter_sentence_start": 58,
+      "chapter_sentence_end": 58,
+      "timeline_start_index": 6621,
+      "timeline_end_index": 6621,
+      "highlights": [
+        {
+          "chapter_sentence": 58,
+          "start": 117,
+          "end": 157
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_32_0011",
+      "source_section": "chapter_02_32",
+      "source_sentence": 85,
+      "character_position": 668,
+      "text": "с недобрым чувством к зятю",
+      "vad": [
+        -0.55,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.22917054283196,
+      "warning": null,
+      "chapter_sentence_start": 85,
+      "chapter_sentence_end": 85,
+      "timeline_start_index": 6648,
+      "timeline_end_index": 6648,
+      "highlights": [
+        {
+          "chapter_sentence": 85,
+          "start": 53,
+          "end": 79
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_32_0012",
+      "source_section": "chapter_02_32",
+      "source_sentence": 91,
+      "character_position": 669,
+      "text": "которая особенно раздражала Нехлюдова",
+      "vad": [
+        -0.7,
+        0.4,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3879838964584269,
+      "warning": null,
+      "chapter_sentence_start": 91,
+      "chapter_sentence_end": 91,
+      "timeline_start_index": 6654,
+      "timeline_end_index": 6654,
+      "highlights": [
+        {
+          "chapter_sentence": 91,
+          "start": 202,
+          "end": 239
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_32_0013",
+      "source_section": "chapter_02_32",
+      "source_sentence": 117,
+      "character_position": 670,
+      "text": "побледнев, и, чувствуя, что у него холодеют руки и он не владеет собой",
+      "vad": [
+        -0.8,
+        0.7,
+        -0.9
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.5693530748583344,
+      "warning": null,
+      "chapter_sentence_start": 117,
+      "chapter_sentence_end": 117,
+      "timeline_start_index": 6680,
+      "timeline_end_index": 6680,
+      "highlights": [
+        {
+          "chapter_sentence": 117,
+          "start": 111,
+          "end": 181
+        }
+      ]
+    }
+  ]
+}

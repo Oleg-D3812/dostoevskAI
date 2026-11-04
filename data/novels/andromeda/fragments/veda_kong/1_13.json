@@ -1,0 +1,399 @@
+{
+  "schema_version": 1,
+  "novel_id": "andromeda",
+  "character_id": "veda_kong",
+  "chapter_id": "1_13",
+  "count": 15,
+  "fragments": [
+    {
+      "id": "veda_kong::chapter_01_13_0001",
+      "source_section": "chapter_01_13",
+      "source_sentence": 195,
+      "character_position": 53,
+      "text": "удивилась Веда",
+      "vad": [
+        -0.1,
+        0.55,
+        0.0
+      ],
+      "cluster_id": "veda_kong-3",
+      "distance_to_centroid": 0.4808639356967203,
+      "warning": null,
+      "chapter_sentence_start": 195,
+      "chapter_sentence_end": 195,
+      "timeline_start_index": 6046,
+      "timeline_end_index": 6046,
+      "highlights": [
+        {
+          "chapter_sentence": 195,
+          "start": 2,
+          "end": 16
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_13_0002",
+      "source_section": "chapter_01_13",
+      "source_sentence": 214,
+      "character_position": 54,
+      "text": "Мне стало бы трудно, если бы вы потеряли Низу…",
+      "vad": [
+        -0.55,
+        0.28,
+        -0.22
+      ],
+      "cluster_id": "veda_kong-2",
+      "distance_to_centroid": 0.180191560924084,
+      "warning": null,
+      "chapter_sentence_start": 214,
+      "chapter_sentence_end": 214,
+      "timeline_start_index": 6065,
+      "timeline_end_index": 6065,
+      "highlights": [
+        {
+          "chapter_sentence": 214,
+          "start": 0,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_13_0003",
+      "source_section": "chapter_01_13",
+      "source_sentence": 263,
+      "character_position": 55,
+      "text": "Вы жалеете об этом, Веда?",
+      "vad": [
+        -0.2,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "veda_kong-3",
+      "distance_to_centroid": 0.2552988309311115,
+      "warning": null,
+      "chapter_sentence_start": 263,
+      "chapter_sentence_end": 263,
+      "timeline_start_index": 6114,
+      "timeline_end_index": 6114,
+      "highlights": [
+        {
+          "chapter_sentence": 263,
+          "start": 2,
+          "end": 27
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_13_0004",
+      "source_section": "chapter_01_13",
+      "source_sentence": 278,
+      "character_position": 56,
+      "text": "наполненная светлой грустью",
+      "vad": [
+        -0.2,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "veda_kong-3",
+      "distance_to_centroid": 0.2757165180723675,
+      "warning": null,
+      "chapter_sentence_start": 278,
+      "chapter_sentence_end": 278,
+      "timeline_start_index": 6129,
+      "timeline_end_index": 6129,
+      "highlights": [
+        {
+          "chapter_sentence": 278,
+          "start": 46,
+          "end": 73
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_13_0005",
+      "source_section": "chapter_01_13",
+      "source_sentence": 282,
+      "character_position": 57,
+      "text": "Веда очнулась от мыслей",
+      "vad": [
+        0.0,
+        0.15,
+        0.0
+      ],
+      "cluster_id": "veda_kong-3",
+      "distance_to_centroid": 0.1522415615881295,
+      "warning": null,
+      "chapter_sentence_start": 282,
+      "chapter_sentence_end": 282,
+      "timeline_start_index": 6133,
+      "timeline_end_index": 6133,
+      "highlights": [
+        {
+          "chapter_sentence": 282,
+          "start": 0,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_13_0006",
+      "source_section": "chapter_01_13",
+      "source_sentence": 286,
+      "character_position": 58,
+      "text": "весело рассмеялась",
+      "vad": [
+        0.8,
+        0.6,
+        0.2
+      ],
+      "cluster_id": "veda_kong-1",
+      "distance_to_centroid": 0.2331148530708033,
+      "warning": null,
+      "chapter_sentence_start": 286,
+      "chapter_sentence_end": 286,
+      "timeline_start_index": 6137,
+      "timeline_end_index": 6137,
+      "highlights": [
+        {
+          "chapter_sentence": 286,
+          "start": 100,
+          "end": 118
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_13_0007",
+      "source_section": "chapter_01_13",
+      "source_sentence": 304,
+      "character_position": 59,
+      "text": "легкого удивления",
+      "vad": [
+        0.1,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "veda_kong-3",
+      "distance_to_centroid": 0.1801128839631665,
+      "warning": null,
+      "chapter_sentence_start": 304,
+      "chapter_sentence_end": 304,
+      "timeline_start_index": 6155,
+      "timeline_end_index": 6155,
+      "highlights": [
+        {
+          "chapter_sentence": 304,
+          "start": 17,
+          "end": 34
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_13_0008",
+      "source_section": "chapter_01_13",
+      "source_sentence": 313,
+      "character_position": 60,
+      "text": "болезненную струнку в ее душе",
+      "vad": [
+        -0.75,
+        0.45,
+        -0.25
+      ],
+      "cluster_id": "veda_kong-2",
+      "distance_to_centroid": 0.1610225384457628,
+      "warning": null,
+      "chapter_sentence_start": 313,
+      "chapter_sentence_end": 313,
+      "timeline_start_index": 6164,
+      "timeline_end_index": 6164,
+      "highlights": [
+        {
+          "chapter_sentence": 313,
+          "start": 45,
+          "end": 74
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_13_0009",
+      "source_section": "chapter_01_13",
+      "source_sentence": 331,
+      "character_position": 61,
+      "text": "Веда смягчилась",
+      "vad": [
+        0.2,
+        -0.2,
+        0.1
+      ],
+      "cluster_id": "veda_kong-3",
+      "distance_to_centroid": 0.3546957457063175,
+      "warning": null,
+      "chapter_sentence_start": 331,
+      "chapter_sentence_end": 331,
+      "timeline_start_index": 6182,
+      "timeline_end_index": 6182,
+      "highlights": [
+        {
+          "chapter_sentence": 331,
+          "start": 0,
+          "end": 15
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_13_0010",
+      "source_section": "chapter_01_13",
+      "source_sentence": 335,
+      "character_position": 62,
+      "text": "Веду вдруг осенило",
+      "vad": [
+        0.1,
+        0.45,
+        0.2
+      ],
+      "cluster_id": "veda_kong-3",
+      "distance_to_centroid": 0.3494636769334473,
+      "warning": null,
+      "chapter_sentence_start": 335,
+      "chapter_sentence_end": 335,
+      "timeline_start_index": 6186,
+      "timeline_end_index": 6186,
+      "highlights": [
+        {
+          "chapter_sentence": 335,
+          "start": 27,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_13_0011",
+      "source_section": "chapter_01_13",
+      "source_sentence": 346,
+      "character_position": 63,
+      "text": "Я, кажется, понимаю",
+      "vad": [
+        0.1,
+        0.0,
+        0.1
+      ],
+      "cluster_id": "veda_kong-3",
+      "distance_to_centroid": 0.1356024313594034,
+      "warning": null,
+      "chapter_sentence_start": 346,
+      "chapter_sentence_end": 346,
+      "timeline_start_index": 6197,
+      "timeline_end_index": 6197,
+      "highlights": [
+        {
+          "chapter_sentence": 346,
+          "start": 2,
+          "end": 21
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_13_0012",
+      "source_section": "chapter_01_13",
+      "source_sentence": 348,
+      "character_position": 64,
+      "text": "тебя всю охватывает бесконечная печаль",
+      "vad": [
+        -0.95,
+        0.72,
+        -0.68
+      ],
+      "cluster_id": "veda_kong-2",
+      "distance_to_centroid": 0.5996499893599341,
+      "warning": null,
+      "chapter_sentence_start": 348,
+      "chapter_sentence_end": 348,
+      "timeline_start_index": 6199,
+      "timeline_end_index": 6199,
+      "highlights": [
+        {
+          "chapter_sentence": 348,
+          "start": 35,
+          "end": 73
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_13_0014",
+      "source_section": "chapter_01_13",
+      "source_sentence": 393,
+      "character_position": 65,
+      "text": "насторожила Веду",
+      "vad": [
+        -0.25,
+        0.4,
+        -0.1
+      ],
+      "cluster_id": "veda_kong-2",
+      "distance_to_centroid": 0.3928557818015722,
+      "warning": null,
+      "chapter_sentence_start": 393,
+      "chapter_sentence_end": 393,
+      "timeline_start_index": 6244,
+      "timeline_end_index": 6244,
+      "highlights": [
+        {
+          "chapter_sentence": 393,
+          "start": 29,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_13_0015",
+      "source_section": "chapter_01_13",
+      "source_sentence": 402,
+      "character_position": 66,
+      "text": "следила за ней с восторгом",
+      "vad": [
+        0.86,
+        0.32,
+        0.02
+      ],
+      "cluster_id": "veda_kong-1",
+      "distance_to_centroid": 0.2856440699930985,
+      "warning": null,
+      "chapter_sentence_start": 402,
+      "chapter_sentence_end": 402,
+      "timeline_start_index": 6253,
+      "timeline_end_index": 6253,
+      "highlights": [
+        {
+          "chapter_sentence": 402,
+          "start": 10,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_13_0016",
+      "source_section": "chapter_01_13",
+      "source_sentence": 414,
+      "character_position": 67,
+      "text": "тем больше убеждаюсь, что Эрг Hoop не ошибся в выборе",
+      "vad": [
+        0.68,
+        0.08,
+        0.24
+      ],
+      "cluster_id": "veda_kong-1",
+      "distance_to_centroid": 0.3907802469277188,
+      "warning": null,
+      "chapter_sentence_start": 414,
+      "chapter_sentence_end": 414,
+      "timeline_start_index": 6265,
+      "timeline_end_index": 6265,
+      "highlights": [
+        {
+          "chapter_sentence": 414,
+          "start": 42,
+          "end": 95
+        }
+      ]
+    }
+  ]
+}

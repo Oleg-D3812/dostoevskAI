@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "3_17",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_03_17_0001",
+      "source_section": "chapter_03_17",
+      "source_sentence": 12,
+      "character_position": 284,
+      "text": "так тонко чувствует",
+      "vad": [
+        0.35,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "ekaterina_maslova-4",
+      "distance_to_centroid": 0.3162492384272165,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 8548,
+      "timeline_end_index": 8548,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 89,
+          "end": 108
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_03_17_0002",
+      "source_section": "chapter_03_17",
+      "source_sentence": 13,
+      "character_position": 285,
+      "text": "Она любит вас, хорошо любит, и счастлива тем, что может сделать вам хоть то отрицательное добро, чтобы не запутать вас собой",
+      "vad": [
+        0.7,
+        0.35,
+        0.6
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.4916186809602905,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 8549,
+      "timeline_end_index": 8549,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 0,
+          "end": 124
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_03_17_0003",
+      "source_section": "chapter_03_17",
+      "source_sentence": 15,
+      "character_position": 286,
+      "text": "ваше присутствие тревожит ее",
+      "vad": [
+        -0.55,
+        0.55,
+        -0.25
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.2701493942294301,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 8551,
+      "timeline_end_index": 8551,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 12,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_03_17_0004",
+      "source_section": "chapter_03_17",
+      "source_sentence": 21,
+      "character_position": 287,
+      "text": "польщена ею, и боится ее",
+      "vad": [
+        -0.1,
+        0.55,
+        -0.35
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.3871968145125031,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 8557,
+      "timeline_end_index": 8557,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 145,
+          "end": 169
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_03_17_0005",
+      "source_section": "chapter_03_17",
+      "source_sentence": 47,
+      "character_position": 288,
+      "text": "казалась спокойною",
+      "vad": [
+        0.0,
+        -0.6,
+        0.15
+      ],
+      "cluster_id": "ekaterina_maslova-4",
+      "distance_to_centroid": 0.6180896839468679,
+      "warning": null,
+      "chapter_sentence_start": 47,
+      "chapter_sentence_end": 47,
+      "timeline_start_index": 8583,
+      "timeline_end_index": 8583,
+      "highlights": [
+        {
+          "chapter_sentence": 47,
+          "start": 36,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_03_17_0006",
+      "source_section": "chapter_03_17",
+      "source_sentence": 51,
+      "character_position": 289,
+      "text": "выражая страдание",
+      "vad": [
+        -0.8,
+        0.4,
+        -0.6
+      ],
+      "cluster_id": "ekaterina_maslova-5",
+      "distance_to_centroid": 0.260552971959005,
+      "warning": null,
+      "chapter_sentence_start": 51,
+      "chapter_sentence_end": 51,
+      "timeline_start_index": 8587,
+      "timeline_end_index": 8587,
+      "highlights": [
+        {
+          "chapter_sentence": 51,
+          "start": 26,
+          "end": 43
+        }
+      ]
+    }
+  ]
+}

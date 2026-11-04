@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "1_35",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_35_0001",
+      "source_section": "chapter_01_35",
+      "source_sentence": 11,
+      "character_position": 318,
+      "text": "чувствуя, что он совершает такой поступок, который будет иметь решительное влияние на его жизнь",
+      "vad": [
+        -0.35,
+        0.72,
+        0.28
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.666317751012497,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 2361,
+      "timeline_end_index": 2361,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 134,
+          "end": 229
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_35_0002",
+      "source_section": "chapter_01_35",
+      "source_sentence": 27,
+      "character_position": 319,
+      "text": "чувствуя приближение решительной минуты",
+      "vad": [
+        -0.45,
+        0.65,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.5537651270191968,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 2377,
+      "timeline_end_index": 2377,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 85,
+          "end": 124
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_35_0003",
+      "source_section": "chapter_01_35",
+      "source_sentence": 31,
+      "character_position": 320,
+      "text": "чувствуя вместе с тем, что он говорит то, чего не нужно бы говорить",
+      "vad": [
+        -0.55,
+        0.45,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.1819782845728532,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 2381,
+      "timeline_end_index": 2381,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 58,
+          "end": 125
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_35_0004",
+      "source_section": "chapter_01_35",
+      "source_sentence": 45,
+      "character_position": 321,
+      "text": "вспыхнув, злобно ответил Нехлюдов",
+      "vad": [
+        -0.8,
+        0.75,
+        0.25
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.6841625038728925,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 2395,
+      "timeline_end_index": 2395,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 65,
+          "end": 98
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_35_0005",
+      "source_section": "chapter_01_35",
+      "source_sentence": 62,
+      "character_position": 322,
+      "text": "сердито проговорил Нехлюдов",
+      "vad": [
+        -0.65,
+        0.65,
+        0.15
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.5570895120668403,
+      "warning": null,
+      "chapter_sentence_start": 62,
+      "chapter_sentence_end": 62,
+      "timeline_start_index": 2412,
+      "timeline_end_index": 2412,
+      "highlights": [
+        {
+          "chapter_sentence": 62,
+          "start": 38,
+          "end": 65
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_35_0006",
+      "source_section": "chapter_01_35",
+      "source_sentence": 69,
+      "character_position": 323,
+      "text": "в каком-то странном возбуждении",
+      "vad": [
+        -0.2,
+        0.7,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.6063691100010676,
+      "warning": null,
+      "chapter_sentence_start": 69,
+      "chapter_sentence_end": 69,
+      "timeline_start_index": 2419,
+      "timeline_end_index": 2419,
+      "highlights": [
+        {
+          "chapter_sentence": 69,
+          "start": 23,
+          "end": 54
+        }
+      ]
+    }
+  ]
+}

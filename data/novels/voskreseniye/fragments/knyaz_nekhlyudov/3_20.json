@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "3_20",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_20_0001",
+      "source_section": "chapter_03_20",
+      "source_sentence": 9,
+      "character_position": 801,
+      "text": "желая догнать партию",
+      "vad": [
+        0.1,
+        0.35,
+        0.45
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.5584889746514743,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 8733,
+      "timeline_end_index": 8733,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 123,
+          "end": 143
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_20_0003",
+      "source_section": "chapter_03_20",
+      "source_sentence": 45,
+      "character_position": 802,
+      "text": "Нехлюдов не имел ничего сказать",
+      "vad": [
+        -0.25,
+        -0.2,
+        -0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4414588539250468,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 8769,
+      "timeline_end_index": 8769,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 0,
+          "end": 31
+        }
+      ]
+    }
+  ]
+}

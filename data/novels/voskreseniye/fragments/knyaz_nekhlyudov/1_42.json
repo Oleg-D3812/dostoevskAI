@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "1_42",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_42_0001",
+      "source_section": "chapter_01_42",
+      "source_sentence": 1,
+      "character_position": 334,
+      "text": "подбадривая себя",
+      "vad": [
+        0.25,
+        0.35,
+        0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.3762983005512139,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 2725,
+      "timeline_end_index": 2725,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 52,
+          "end": 68
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_42_0002",
+      "source_section": "chapter_01_42",
+      "source_sentence": 3,
+      "character_position": 335,
+      "text": "с особенно напряженной вежливостью",
+      "vad": [
+        -0.35,
+        0.55,
+        0.25
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.50214774289543,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 2727,
+      "timeline_end_index": 2727,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 210,
+          "end": 244
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_42_0003",
+      "source_section": "chapter_01_42",
+      "source_sentence": 5,
+      "character_position": 336,
+      "text": "с тою же напряженною вежливостью",
+      "vad": [
+        -0.25,
+        0.55,
+        0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.566302982949713,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 2729,
+      "timeline_end_index": 2729,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 55,
+          "end": 87
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_42_0004",
+      "source_section": "chapter_01_42",
+      "source_sentence": 13,
+      "character_position": 337,
+      "text": "боясь как-нибудь попортить настроение смотрителя",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.7
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3336782455971307,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 2737,
+      "timeline_end_index": 2737,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 69,
+          "end": 117
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_42_0005",
+      "source_section": "chapter_01_42",
+      "source_sentence": 18,
+      "character_position": 338,
+      "text": "Все было странно Нехлюдову",
+      "vad": [
+        -0.3,
+        0.2,
+        -0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.2125030494049287,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 2742,
+      "timeline_end_index": 2742,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 0,
+          "end": 26
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_42_0006",
+      "source_section": "chapter_01_42",
+      "source_sentence": 18,
+      "character_position": 339,
+      "text": "чувствовать себя обязанным",
+      "vad": [
+        -0.35,
+        0.05,
+        -0.45
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4486119723276856,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 2742,
+      "timeline_end_index": 2742,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 83,
+          "end": 109
+        }
+      ]
+    }
+  ]
+}

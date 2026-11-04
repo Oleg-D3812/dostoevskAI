@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "2_38",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_38_0001",
+      "source_section": "chapter_02_38",
+      "source_sentence": 12,
+      "character_position": 704,
+      "text": "как того ожидал Нехлюдов",
+      "vad": [
+        0.0,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3364095522378096,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 7123,
+      "timeline_end_index": 7123,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 119,
+          "end": 143
+        }
+      ]
+    }
+  ]
+}

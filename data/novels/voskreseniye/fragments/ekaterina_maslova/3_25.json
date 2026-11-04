@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "3_25",
+  "count": 10,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_03_25_0001",
+      "source_section": "chapter_03_25",
+      "source_sentence": 14,
+      "character_position": 292,
+      "text": "лицо ее показалось ему сурово и неприятно",
+      "vad": [
+        -0.65,
+        0.25,
+        -0.15
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.301742426272305,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 9139,
+      "timeline_end_index": 9139,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 50,
+          "end": 91
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_03_25_0002",
+      "source_section": "chapter_03_25",
+      "source_sentence": 24,
+      "character_position": 293,
+      "text": "Несмотря на все свое волнение",
+      "vad": [
+        -0.2,
+        0.65,
+        -0.1
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.4479304769176581,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 9149,
+      "timeline_end_index": 9149,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 0,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_03_25_0003",
+      "source_section": "chapter_03_25",
+      "source_sentence": 27,
+      "character_position": 294,
+      "text": "она испуганно остановилась",
+      "vad": [
+        -0.65,
+        0.7,
+        -0.45
+      ],
+      "cluster_id": "ekaterina_maslova-5",
+      "distance_to_centroid": 0.2310232069823548,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 9152,
+      "timeline_end_index": 9152,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 64,
+          "end": 90
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_03_25_0004",
+      "source_section": "chapter_03_25",
+      "source_sentence": 31,
+      "character_position": 295,
+      "text": "она полюбила Симонсона",
+      "vad": [
+        0.7,
+        0.3,
+        0.0
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.1426730322653951,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 9156,
+      "timeline_end_index": 9156,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 19,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_03_25_0005",
+      "source_section": "chapter_03_25",
+      "source_sentence": 31,
+      "character_position": 296,
+      "text": "она продолжает любить меня",
+      "vad": [
+        0.6,
+        0.35,
+        -0.1
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.2519259916064906,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 9156,
+      "timeline_end_index": 9156,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 114,
+          "end": 140
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_03_25_0006",
+      "source_section": "chapter_03_25",
+      "source_sentence": 39,
+      "character_position": 297,
+      "text": "как бы боясь, что он скажет лишнее или что она не скажет всего",
+      "vad": [
+        -0.35,
+        0.45,
+        -0.5
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.2245281688170964,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 9164,
+      "timeline_end_index": 9164,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 24,
+          "end": 86
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_03_25_0007",
+      "source_section": "chapter_03_25",
+      "source_sentence": 35,
+      "character_position": 298,
+      "text": "Что любить, не любить?",
+      "vad": [
+        -0.45,
+        0.15,
+        -0.35
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.18262961577592,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 9160,
+      "timeline_end_index": 9160,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 2,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_03_25_0008",
+      "source_section": "chapter_03_25",
+      "source_sentence": 58,
+      "character_position": 299,
+      "text": "жалостная улыбка осветила ее лицо",
+      "vad": [
+        0.2,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "ekaterina_maslova-4",
+      "distance_to_centroid": 0.2142844747641401,
+      "warning": null,
+      "chapter_sentence_start": 58,
+      "chapter_sentence_end": 58,
+      "timeline_start_index": 9183,
+      "timeline_end_index": 9183,
+      "highlights": [
+        {
+          "chapter_sentence": 58,
+          "start": 30,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_03_25_0009",
+      "source_section": "chapter_03_25",
+      "source_sentence": 62,
+      "character_position": 300,
+      "text": "оправилась от волнения и спокойно рассказала",
+      "vad": [
+        0.15,
+        -0.35,
+        0.3
+      ],
+      "cluster_id": "ekaterina_maslova-4",
+      "distance_to_centroid": 0.3894387204375127,
+      "warning": null,
+      "chapter_sentence_start": 62,
+      "chapter_sentence_end": 62,
+      "timeline_start_index": 9187,
+      "timeline_end_index": 9187,
+      "highlights": [
+        {
+          "chapter_sentence": 62,
+          "start": 4,
+          "end": 48
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_03_25_0010",
+      "source_section": "chapter_03_25",
+      "source_sentence": 68,
+      "character_position": 301,
+      "text": "она любила его",
+      "vad": [
+        0.8,
+        0.6,
+        -0.2
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.38448383107489,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 9193,
+      "timeline_end_index": 9193,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 207,
+          "end": 221
+        }
+      ]
+    }
+  ]
+}

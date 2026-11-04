@@ -1,0 +1,607 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "3_24",
+  "count": 23,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_24_0001",
+      "source_section": "chapter_03_24",
+      "source_sentence": 1,
+      "character_position": 813,
+      "text": "все в том же бодром, возбужденно-деятельном настроении",
+      "vad": [
+        0.8,
+        0.8,
+        0.65
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.7005788524199471,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 9040,
+      "timeline_end_index": 9040,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 39,
+          "end": 93
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_24_0002",
+      "source_section": "chapter_03_24",
+      "source_sentence": 4,
+      "character_position": 814,
+      "text": "ему пришла мысль о том, как примет Катюша свое помилование",
+      "vad": [
+        0.15,
+        0.35,
+        -0.25
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.5903902609234378,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 9043,
+      "timeline_end_index": 9043,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 14,
+          "end": 72
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_24_0003",
+      "source_section": "chapter_03_24",
+      "source_sentence": 9,
+      "character_position": 815,
+      "text": "Вспомнил о той перемене, которая произошла в ней",
+      "vad": [
+        0.0,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3364095522378096,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 9048,
+      "timeline_end_index": 9048,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 0,
+          "end": 48
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_24_0005",
+      "source_section": "chapter_03_24",
+      "source_sentence": 11,
+      "character_position": 816,
+      "text": "Надо забыть, вычеркнуть",
+      "vad": [
+        -0.35,
+        0.1,
+        0.55
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.5574178320003758,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 9050,
+      "timeline_end_index": 9050,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 1,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_24_0006",
+      "source_section": "chapter_03_24",
+      "source_sentence": 11,
+      "character_position": 817,
+      "text": "поспешил отогнать от себя мысли о ней",
+      "vad": [
+        -0.45,
+        0.35,
+        0.55
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.613724324111725,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 9050,
+      "timeline_end_index": 9050,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 47,
+          "end": 84
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_24_0007",
+      "source_section": "chapter_03_24",
+      "source_sentence": 12,
+      "character_position": 818,
+      "text": "стал думать о том, что€ ему надо сказать генералу",
+      "vad": [
+        0.0,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3948918243352335,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 9051,
+      "timeline_end_index": 9051,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 41,
+          "end": 90
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_24_0009",
+      "source_section": "chapter_03_24",
+      "source_sentence": 17,
+      "character_position": 819,
+      "text": "почувствовал приятное удовлетворение",
+      "vad": [
+        0.7,
+        0.2,
+        0.25
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.108017921268616,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 9056,
+      "timeline_end_index": 9056,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 145,
+          "end": 181
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_24_0010",
+      "source_section": "chapter_03_24",
+      "source_sentence": 19,
+      "character_position": 820,
+      "text": "весь отдался удовольствию красивой обстановки, вкусной пищи и легкости и приятности отношений с благовоспитанными людьми своего привычного круга",
+      "vad": [
+        0.8,
+        0.35,
+        -0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.4019165571785278,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 9058,
+      "timeline_end_index": 9058,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 98,
+          "end": 242
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_24_0012",
+      "source_section": "chapter_03_24",
+      "source_sentence": 23,
+      "character_position": 821,
+      "text": "был приятен и интересен Нехлюдову",
+      "vad": [
+        0.7,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.2664456194809549,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 9062,
+      "timeline_end_index": 9062,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 223,
+          "end": 256
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_24_0013",
+      "source_section": "chapter_03_24",
+      "source_sentence": 28,
+      "character_position": 822,
+      "text": "Расположение духа Нехлюдова было до такой степени благодушное",
+      "vad": [
+        0.85,
+        0.1,
+        0.45
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.354373489030841,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 9067,
+      "timeline_end_index": 9067,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 0,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_24_0014",
+      "source_section": "chapter_03_24",
+      "source_sentence": 28,
+      "character_position": 823,
+      "text": "неприятен ему",
+      "vad": [
+        -0.45,
+        0.0,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.1649161556486715,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 9067,
+      "timeline_end_index": 9067,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 95,
+          "end": 108
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_24_0015",
+      "source_section": "chapter_03_24",
+      "source_sentence": 29,
+      "character_position": 824,
+      "text": "был приятен своим добродушием",
+      "vad": [
+        0.6,
+        0.05,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.3227689205563288,
+      "warning": null,
+      "chapter_sentence_start": 29,
+      "chapter_sentence_end": 29,
+      "timeline_start_index": 9068,
+      "timeline_end_index": 9068,
+      "highlights": [
+        {
+          "chapter_sentence": 29,
+          "start": 94,
+          "end": 123
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_24_0016",
+      "source_section": "chapter_03_24",
+      "source_sentence": 30,
+      "character_position": 825,
+      "text": "была приятна Нехлюдову",
+      "vad": [
+        0.7,
+        0.0,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.3681695583506946,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 9069,
+      "timeline_end_index": 9069,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 15,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_24_0017",
+      "source_section": "chapter_03_24",
+      "source_sentence": 51,
+      "character_position": 826,
+      "text": "мало интересовали Нехлюдова",
+      "vad": [
+        -0.2,
+        -0.3,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4403149658934894,
+      "warning": null,
+      "chapter_sentence_start": 51,
+      "chapter_sentence_end": 51,
+      "timeline_start_index": 9090,
+      "timeline_end_index": 9090,
+      "highlights": [
+        {
+          "chapter_sentence": 51,
+          "start": 18,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_24_0018",
+      "source_section": "chapter_03_24",
+      "source_sentence": 52,
+      "character_position": 827,
+      "text": "Нехлюдову казалось, что он хорошо высказал много умного, замеченного его собеседниками",
+      "vad": [
+        0.72,
+        0.28,
+        0.62
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.392160800612982,
+      "warning": "non_verbatim_evidence",
+      "chapter_sentence_start": 52,
+      "chapter_sentence_end": 52,
+      "timeline_start_index": 9091,
+      "timeline_end_index": 9091,
+      "highlights": [
+        {
+          "chapter_sentence": 52,
+          "start": 121,
+          "end": 207
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_24_0019",
+      "source_section": "chapter_03_24",
+      "source_sentence": 53,
+      "character_position": 828,
+      "text": "становилось все более и более приятно",
+      "vad": [
+        0.85,
+        0.3,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.3432356748038443,
+      "warning": null,
+      "chapter_sentence_start": 53,
+      "chapter_sentence_end": 53,
+      "timeline_start_index": 9092,
+      "timeline_end_index": 9092,
+      "highlights": [
+        {
+          "chapter_sentence": 53,
+          "start": 111,
+          "end": 148
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_24_0020",
+      "source_section": "chapter_03_24",
+      "source_sentence": 54,
+      "character_position": 829,
+      "text": "почувствовал давно не испытанное им душевное состояние полного довольства собой",
+      "vad": [
+        0.85,
+        0.2,
+        0.7
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.518630306793497,
+      "warning": null,
+      "chapter_sentence_start": 54,
+      "chapter_sentence_end": 54,
+      "timeline_start_index": 9093,
+      "timeline_end_index": 9093,
+      "highlights": [
+        {
+          "chapter_sentence": 54,
+          "start": 169,
+          "end": 248
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_24_0021",
+      "source_section": "chapter_03_24",
+      "source_sentence": 56,
+      "character_position": 830,
+      "text": "любившему и знавшему эту симфонию",
+      "vad": [
+        0.7,
+        0.1,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.233539904916074,
+      "warning": null,
+      "chapter_sentence_start": 56,
+      "chapter_sentence_end": 56,
+      "timeline_start_index": 9095,
+      "timeline_end_index": 9095,
+      "highlights": [
+        {
+          "chapter_sentence": 56,
+          "start": 43,
+          "end": 76
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_24_0022",
+      "source_section": "chapter_03_24",
+      "source_sentence": 57,
+      "character_position": 831,
+      "text": "почувствовал щипание в носу от умиления над самим собою и всеми своими добродетелями",
+      "vad": [
+        0.7,
+        0.25,
+        0.5
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.2714840429949928,
+      "warning": null,
+      "chapter_sentence_start": 57,
+      "chapter_sentence_end": 57,
+      "timeline_start_index": 9096,
+      "timeline_end_index": 9096,
+      "highlights": [
+        {
+          "chapter_sentence": 57,
+          "start": 30,
+          "end": 114
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_24_0023",
+      "source_section": "chapter_03_24",
+      "source_sentence": 61,
+      "character_position": 832,
+      "text": "тронутый этой переливающейся через край счастливой материнской любовью",
+      "vad": [
+        0.85,
+        0.45,
+        0.05
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.3605953167004589,
+      "warning": null,
+      "chapter_sentence_start": 61,
+      "chapter_sentence_end": 61,
+      "timeline_start_index": 9100,
+      "timeline_end_index": 9100,
+      "highlights": [
+        {
+          "chapter_sentence": 61,
+          "start": 55,
+          "end": 125
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_24_0024",
+      "source_section": "chapter_03_24",
+      "source_sentence": 80,
+      "character_position": 833,
+      "text": "Нехлюдов вспомнил цепи, бритые головы, побои, разврат, умирающего Крыльцова, Катюшу со всем ее прошедшим",
+      "vad": [
+        -0.9,
+        0.75,
+        -0.65
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.4169661965279859,
+      "warning": null,
+      "chapter_sentence_start": 80,
+      "chapter_sentence_end": 80,
+      "timeline_start_index": 9119,
+      "timeline_end_index": 9119,
+      "highlights": [
+        {
+          "chapter_sentence": 80,
+          "start": 0,
+          "end": 104
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_24_0025",
+      "source_section": "chapter_03_24",
+      "source_sentence": 81,
+      "character_position": 834,
+      "text": "ему стало завидно и захотелось себе такого же изящного, чистого, как ему казалось теперь, счастья",
+      "vad": [
+        0.55,
+        0.35,
+        0.05
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.2216219393778633,
+      "warning": null,
+      "chapter_sentence_start": 81,
+      "chapter_sentence_end": 81,
+      "timeline_start_index": 9120,
+      "timeline_end_index": 9120,
+      "highlights": [
+        {
+          "chapter_sentence": 81,
+          "start": 2,
+          "end": 99
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_24_0026",
+      "source_section": "chapter_03_24",
+      "source_sentence": 86,
+      "character_position": 835,
+      "text": "с тяжелым чувством исполнения неприятного долга",
+      "vad": [
+        -0.7,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4192864708314714,
+      "warning": null,
+      "chapter_sentence_start": 86,
+      "chapter_sentence_end": 86,
+      "timeline_start_index": 9125,
+      "timeline_end_index": 9125,
+      "highlights": [
+        {
+          "chapter_sentence": 86,
+          "start": 110,
+          "end": 157
+        }
+      ]
+    }
+  ]
+}

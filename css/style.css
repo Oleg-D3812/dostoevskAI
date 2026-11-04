@@ -1395,6 +1395,103 @@ a:hover { color: var(--hover-color); }
   display: block;
 }
 
+/* === Data playground (Конструктор) === */
+.tab-panel.playground-panel.active { overflow-y: auto; }
+.playground { padding: 16px 24px 40px; font-size: 13px; }
+.playground-kicker {
+  margin: 0 4px 0 0;
+  color: var(--text-muted);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.playground-muted { color: var(--text-muted); font-size: 11px; }
+.playground-presets { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 16px; }
+.playground-chip,
+.playground-btn {
+  padding: 4px 11px;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text-muted);
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+  transition: color .15s, background .15s, border-color .15s;
+}
+.playground-chip:hover, .playground-btn:hover { color: var(--text-color); background: var(--surface-solid); }
+.playground-chip.active {
+  border-color: color-mix(in srgb, var(--teal-color) 45%, var(--border-color));
+  color: var(--teal-color);
+  background: var(--teal-soft);
+}
+.playground-btn { padding: 6px 14px; color: var(--text-color); font-weight: 600; }
+.playground-btn-quiet { color: var(--text-muted); font-weight: 400; }
+.playground-filter button {
+  margin-left: 4px; padding: 0 2px; border: 0; background: none; color: inherit; font: inherit; font-size: 14px; line-height: 1; cursor: pointer;
+}
+.playground-body { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 24px; align-items: start; }
+.playground-dict { position: sticky; top: 0; padding-right: 20px; border-right: 1px solid var(--border-color); }
+.playground-dict .playground-kicker { margin: 0 0 8px; }
+.playground-dict .playground-kicker ~ .playground-kicker { margin-top: 18px; }
+.playground-datasets { display: flex; flex-direction: column; gap: 2px; }
+.playground-ds {
+  padding: 6px 10px; border: 0; border-radius: 6px; background: transparent; color: var(--text-muted);
+  font: inherit; text-align: left; cursor: pointer;
+}
+.playground-ds:hover:not(:disabled) { color: var(--text-color); background: var(--surface-solid); }
+.playground-ds.active { color: var(--accent-color); background: var(--accent-soft); font-weight: 600; }
+.playground-ds:disabled { cursor: default; opacity: .6; }
+.playground-ds-desc { margin: 0 0 8px; color: var(--text-muted); font-size: 12px; line-height: 1.5; }
+.playground-fields { display: flex; flex-direction: column; gap: 8px; margin-bottom: 12px; }
+.playground-field code { font-size: 11px; }
+.playground-field-label { color: var(--text-muted); font-size: 11px; line-height: 1.4; }
+.playground-type {
+  margin-left: 6px; padding: 0 5px; border-radius: 4px; background: var(--violet-soft); color: var(--violet-color);
+  font-size: 10px; font-weight: 600;
+}
+.playground-preview-btn { width: 100%; }
+.playground-form { display: flex; flex-direction: column; gap: 12px; margin-bottom: 12px; }
+.playground-row { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 10px; }
+.playground-chips { align-items: center; gap: 6px; }
+.playground-control { display: flex; flex-direction: column; gap: 3px; min-width: 120px; }
+.playground-control > span { color: var(--text-muted); font-size: 11px; }
+.playground-control select,
+.playground-control input,
+.playground-spec-text {
+  padding: 5px 8px; border: 1px solid var(--border-color); border-radius: 6px;
+  background: var(--surface-solid); color: var(--text-color); font: inherit; font-size: 12px;
+}
+.playground-control input { width: 110px; }
+.playground-control select[multiple] { min-width: 200px; }
+.playground-filter-editor { padding: 10px 12px; border: 1px dashed var(--border-color); border-radius: 8px; }
+.playground-field-error { color: var(--hover-color); font-size: 12px; }
+.playground-errors {
+  margin-bottom: 12px; padding: 8px 12px; border-radius: 8px;
+  background: var(--accent-soft); color: var(--hover-color); font-size: 12px; line-height: 1.6;
+}
+.playground-errors[hidden] { display: none; }
+.playground-card { padding: 14px 16px; border: 1px solid var(--border-color); border-radius: 12px; background: var(--sidebar-bg); }
+.playground-card-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px; margin-bottom: 8px; }
+.playground-title { margin: 0; font-size: 15px; }
+.playground-status { color: var(--text-muted); font-size: 12px; }
+.playground-chart.playground-plot { height: 480px; }
+.playground-table-wrap { max-height: 520px; overflow: auto; }
+.playground-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+.playground-table th, .playground-table td { padding: 6px 8px; border-bottom: 1px solid var(--border-color); text-align: left; vertical-align: top; }
+.playground-table th {
+  position: sticky; top: 0; background: var(--surface-solid); color: var(--text-muted);
+  font-size: 11px; font-weight: 700; cursor: pointer; white-space: nowrap;
+}
+.playground-table td.num { text-align: right; font-variant-numeric: tabular-nums; }
+.playground-note { margin: 8px 0 0; color: var(--text-muted); font-size: 12px; }
+.playground-spec { margin-top: 14px; }
+.playground-spec summary { color: var(--text-muted); font-size: 12px; cursor: pointer; }
+.playground-spec-text { display: block; width: 100%; margin-top: 8px; font-family: ui-monospace, Consolas, monospace; font-size: 11px; line-height: 1.5; resize: vertical; }
+.playground-spec-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 8px; }
+.playground-spec-actions .playground-note { margin: 0; }
+
 @media (prefers-color-scheme: dark) {
   :root {
     --primary-color: #171d1c;
@@ -1458,6 +1555,11 @@ a:hover { color: var(--hover-color); }
   .explorer-shell { width: calc(100% - 28px); padding-top: 20px; }
   .explorer-control-panel { grid-template-columns: 1fr; padding: 18px; }
   .cluster-plot { min-height: 760px; }
+  .playground { padding: 12px 16px 32px; }
+  .playground-body { grid-template-columns: 1fr; }
+  .playground-dict { position: static; padding: 0 0 16px; border-right: 0; border-bottom: 1px solid var(--border-color); }
+  .playground-fields { max-height: 200px; overflow-y: auto; }
+  .playground-chart.playground-plot { height: 380px; }
 }
 
 

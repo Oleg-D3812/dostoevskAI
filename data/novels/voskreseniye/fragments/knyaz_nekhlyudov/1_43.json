@@ -1,0 +1,399 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "1_43",
+  "count": 15,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_43_0001",
+      "source_section": "chapter_01_43",
+      "source_sentence": 6,
+      "character_position": 340,
+      "text": "не знал, как сказать",
+      "vad": [
+        -0.2,
+        0.15,
+        -0.45
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4644769756245043,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 2777,
+      "timeline_end_index": 2777,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 11,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_43_0002",
+      "source_section": "chapter_01_43",
+      "source_sentence": 18,
+      "character_position": 341,
+      "text": "«Да, я делаю то, что должно, я каюсь»",
+      "vad": [
+        -0.55,
+        0.35,
+        0.4
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.5147026245135476,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 2789,
+      "timeline_end_index": 2789,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 0,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_43_0003",
+      "source_section": "chapter_01_43",
+      "source_sentence": 19,
+      "character_position": 342,
+      "text": "слезы выступили ему на глаза, подступили к горлу, и он, зацепившись пальцами за решетку, замолчал, делая усилие, чтобы не разрыдаться",
+      "vad": [
+        -0.85,
+        0.82,
+        -0.68
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.4668717899611375,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 2790,
+      "timeline_end_index": 2790,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 29,
+          "end": 162
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_43_0004",
+      "source_section": "chapter_01_43",
+      "source_sentence": 23,
+      "character_position": 343,
+      "text": "его волнение",
+      "vad": [
+        -0.55,
+        0.75,
+        -0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3258636110935533,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 2794,
+      "timeline_end_index": 2794,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 7,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_43_0005",
+      "source_section": "chapter_01_43",
+      "source_sentence": 26,
+      "character_position": 344,
+      "text": "ему стало стыдно",
+      "vad": [
+        -0.78,
+        0.38,
+        -0.42
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.1271477456673286,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 2797,
+      "timeline_end_index": 2797,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 21,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_43_0006",
+      "source_section": "chapter_01_43",
+      "source_sentence": 27,
+      "character_position": 345,
+      "text": "если ему стыдно",
+      "vad": [
+        -0.65,
+        0.3,
+        -0.45
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.214538975920481,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 2798,
+      "timeline_end_index": 2798,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 31,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_43_0007",
+      "source_section": "chapter_01_43",
+      "source_sentence": 28,
+      "character_position": 346,
+      "text": "я страшно виноват перед…",
+      "vad": [
+        -0.85,
+        0.55,
+        -0.45
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.1569288694734185,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 2799,
+      "timeline_end_index": 2799,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 38,
+          "end": 62
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_43_0008",
+      "source_section": "chapter_01_43",
+      "source_sentence": 31,
+      "character_position": 347,
+      "text": "стараясь удержать колебавшие его грудь рыдания",
+      "vad": [
+        -0.9,
+        0.85,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.4034965297625232,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 2802,
+      "timeline_end_index": 2802,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 47,
+          "end": 93
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_43_0009",
+      "source_section": "chapter_01_43",
+      "source_sentence": 33,
+      "character_position": 348,
+      "text": "стараясь иметь спокойный вид",
+      "vad": [
+        -0.25,
+        0.35,
+        0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3937290920283993,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 2804,
+      "timeline_end_index": 2804,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 39,
+          "end": 67
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_43_0010",
+      "source_section": "chapter_01_43",
+      "source_sentence": 97,
+      "character_position": 349,
+      "text": "сконфуженно заговорил",
+      "vad": [
+        -0.45,
+        0.2,
+        -0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3248530719028721,
+      "warning": null,
+      "chapter_sentence_start": 97,
+      "chapter_sentence_end": 97,
+      "timeline_start_index": 2868,
+      "timeline_end_index": 2868,
+      "highlights": [
+        {
+          "chapter_sentence": 97,
+          "start": 12,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_43_0011",
+      "source_section": "chapter_01_43",
+      "source_sentence": 103,
+      "character_position": 350,
+      "text": "на него нашла минута колебания",
+      "vad": [
+        -0.3,
+        0.25,
+        -0.45
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4634851083480167,
+      "warning": null,
+      "chapter_sentence_start": 103,
+      "chapter_sentence_end": 103,
+      "timeline_start_index": 2874,
+      "timeline_end_index": 2874,
+      "highlights": [
+        {
+          "chapter_sentence": 103,
+          "start": 2,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_43_0012",
+      "source_section": "chapter_01_43",
+      "source_sentence": 108,
+      "character_position": 351,
+      "text": "его внутренняя жизнь стоит в эту минуту как бы на колеблющихся весах",
+      "vad": [
+        -0.35,
+        0.45,
+        -0.5
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3973550308318462,
+      "warning": null,
+      "chapter_sentence_start": 108,
+      "chapter_sentence_end": 108,
+      "timeline_start_index": 2879,
+      "timeline_end_index": 2879,
+      "highlights": [
+        {
+          "chapter_sentence": 108,
+          "start": 94,
+          "end": 162
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_43_0013",
+      "source_section": "chapter_01_43",
+      "source_sentence": 117,
+      "character_position": 352,
+      "text": "это его не только не отталкивало, но еще больше какой-то особенной, новой силой притягивало к ней",
+      "vad": [
+        0.78,
+        0.58,
+        0.02
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.4242355570000344,
+      "warning": null,
+      "chapter_sentence_start": 117,
+      "chapter_sentence_end": 117,
+      "timeline_start_index": 2888,
+      "timeline_end_index": 2888,
+      "highlights": [
+        {
+          "chapter_sentence": 117,
+          "start": 23,
+          "end": 120
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_43_0014",
+      "source_section": "chapter_01_43",
+      "source_sentence": 118,
+      "character_position": 353,
+      "text": "самая трудность этого дела привлекала его",
+      "vad": [
+        0.65,
+        0.35,
+        0.25
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.0968820173378255,
+      "warning": null,
+      "chapter_sentence_start": 118,
+      "chapter_sentence_end": 118,
+      "timeline_start_index": 2889,
+      "timeline_end_index": 2889,
+      "highlights": [
+        {
+          "chapter_sentence": 118,
+          "start": 79,
+          "end": 120
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_43_0015",
+      "source_section": "chapter_01_43",
+      "source_sentence": 119,
+      "character_position": 354,
+      "text": "Он испытывал к ней теперь чувство такое, какого он никогда не испытывал прежде ни к ней, ни к кому-либо другому, в котором не было ничего личного: он ничего не желал себе от нее, а желал только того, чтобы она перестала быть такою, какою она была теперь, чтобы она пробудилась и стала такою, какою она была прежде",
+      "vad": [
+        0.55,
+        0.3,
+        0.4
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.172335769203432,
+      "warning": null,
+      "chapter_sentence_start": 119,
+      "chapter_sentence_end": 119,
+      "timeline_start_index": 2890,
+      "timeline_end_index": 2890,
+      "highlights": [
+        {
+          "chapter_sentence": 119,
+          "start": 0,
+          "end": 313
+        }
+      ]
+    }
+  ]
+}

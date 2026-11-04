@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "2_37",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_37_0001",
+      "source_section": "chapter_02_37",
+      "source_sentence": 36,
+      "character_position": 700,
+      "text": "Нехлюдов хотел идти за ними",
+      "vad": [
+        -0.2,
+        0.2,
+        0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3453123093506697,
+      "warning": null,
+      "chapter_sentence_start": 36,
+      "chapter_sentence_end": 36,
+      "timeline_start_index": 7028,
+      "timeline_end_index": 7028,
+      "highlights": [
+        {
+          "chapter_sentence": 36,
+          "start": 0,
+          "end": 27
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_37_0002",
+      "source_section": "chapter_02_37",
+      "source_sentence": 41,
+      "character_position": 701,
+      "text": "желая узнать, куда отнесут мертвого",
+      "vad": [
+        -0.1,
+        0.2,
+        0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3240665636900781,
+      "warning": null,
+      "chapter_sentence_start": 41,
+      "chapter_sentence_end": 41,
+      "timeline_start_index": 7033,
+      "timeline_end_index": 7033,
+      "highlights": [
+        {
+          "chapter_sentence": 41,
+          "start": 70,
+          "end": 105
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_37_0004",
+      "source_section": "chapter_02_37",
+      "source_sentence": 47,
+      "character_position": 702,
+      "text": "Нехлюдов покорился",
+      "vad": [
+        -0.35,
+        -0.25,
+        -0.7
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.785217072219309,
+      "warning": null,
+      "chapter_sentence_start": 47,
+      "chapter_sentence_end": 47,
+      "timeline_start_index": 7039,
+      "timeline_end_index": 7039,
+      "highlights": [
+        {
+          "chapter_sentence": 47,
+          "start": 0,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_37_0005",
+      "source_section": "chapter_02_37",
+      "source_sentence": 73,
+      "character_position": 703,
+      "text": "Нехлюдов, как загипнотизированный",
+      "vad": [
+        -0.2,
+        0.25,
+        -0.7
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.6611361359931076,
+      "warning": null,
+      "chapter_sentence_start": 73,
+      "chapter_sentence_end": 73,
+      "timeline_start_index": 7065,
+      "timeline_end_index": 7065,
+      "highlights": [
+        {
+          "chapter_sentence": 73,
+          "start": 0,
+          "end": 33
+        }
+      ]
+    }
+  ]
+}

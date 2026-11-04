@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "1_54",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_54_0002",
+      "source_section": "chapter_01_54",
+      "source_sentence": 22,
+      "character_position": 412,
+      "text": "с напряженным любопытством глядел вокруг себя",
+      "vad": [
+        0.1,
+        0.45,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.5474319751893206,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 3650,
+      "timeline_end_index": 3650,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 35,
+          "end": 80
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_54_0003",
+      "source_section": "chapter_01_54",
+      "source_sentence": 25,
+      "character_position": 413,
+      "text": "Нехлюдов удивился вопросу",
+      "vad": [
+        0.0,
+        0.25,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3606032565523382,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 3653,
+      "timeline_end_index": 3653,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 0,
+          "end": 25
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_54_0004",
+      "source_section": "chapter_01_54",
+      "source_sentence": 28,
+      "character_position": 414,
+      "text": "ответил удивленно Нехлюдов",
+      "vad": [
+        -0.1,
+        0.45,
+        0.05
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4105466471262446,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 3656,
+      "timeline_end_index": 3656,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 20,
+          "end": 46
+        }
+      ]
+    }
+  ]
+}

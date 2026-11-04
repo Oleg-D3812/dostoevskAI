@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "2_19",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_19_0001",
+      "source_section": "chapter_02_19",
+      "source_sentence": 15,
+      "character_position": 559,
+      "text": "Нехлюдов невольно вспоминал то, о чем он читал в записках декабристов",
+      "vad": [
+        -0.1,
+        0.1,
+        -0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.2542138352530707,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 5598,
+      "timeline_end_index": 5598,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 20,
+          "end": 89
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_19_0002",
+      "source_section": "chapter_02_19",
+      "source_sentence": 99,
+      "character_position": 560,
+      "text": "стараясь удержаться от выражения смешанного чувства отвращения и жалости, которое он испытывал к этому ужасному старику",
+      "vad": [
+        -0.78,
+        0.52,
+        0.38
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.712726940233855,
+      "warning": null,
+      "chapter_sentence_start": 99,
+      "chapter_sentence_end": 99,
+      "timeline_start_index": 5682,
+      "timeline_end_index": 5682,
+      "highlights": [
+        {
+          "chapter_sentence": 99,
+          "start": 16,
+          "end": 135
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_19_0003",
+      "source_section": "chapter_02_19",
+      "source_sentence": 121,
+      "character_position": 561,
+      "text": "с успокоением останавливая глаза на дымчатых облаках, плывущих по небу, и на блестящей ряби Невы от движущихся по ней лодок и пароходов",
+      "vad": [
+        0.45,
+        -0.35,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.6484331039997973,
+      "warning": null,
+      "chapter_sentence_start": 121,
+      "chapter_sentence_end": 121,
+      "timeline_start_index": 5704,
+      "timeline_end_index": 5704,
+      "highlights": [
+        {
+          "chapter_sentence": 121,
+          "start": 61,
+          "end": 196
+        }
+      ]
+    }
+  ]
+}

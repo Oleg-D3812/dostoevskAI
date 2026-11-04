@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "1_18",
+  "count": 13,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_18_0001",
+      "source_section": "chapter_01_18",
+      "source_sentence": 7,
+      "character_position": 151,
+      "text": "поднимались и боролись между собой два чувства: одно – жгучие, чувственные воспоминания животной любви, хотя и далеко не давшей того, что она обещала, и некоторого самодовольства достигнутой цели; другое – сознание того, что им сделано что-то очень дурное и что это дурное нужно поправить, и поправить не для нее, а для себя",
+      "vad": [
+        -0.35,
+        0.72,
+        -0.18
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.4844339138644198,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 1147,
+      "timeline_end_index": 1147,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 98,
+          "end": 422
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_18_0002",
+      "source_section": "chapter_01_18",
+      "source_sentence": 8,
+      "character_position": 152,
+      "text": "состоянии сумасшествия эгоизма",
+      "vad": [
+        -0.85,
+        0.75,
+        -0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.300874494789756,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 1148,
+      "timeline_end_index": 1148,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 6,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_18_0003",
+      "source_section": "chapter_01_18",
+      "source_sentence": 8,
+      "character_position": 153,
+      "text": "думал только о себе",
+      "vad": [
+        -0.45,
+        0.1,
+        0.25
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.2817796311646133,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 1148,
+      "timeline_end_index": 1148,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 71,
+          "end": 90
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_18_0004",
+      "source_section": "chapter_01_18",
+      "source_sentence": 9,
+      "character_position": 154,
+      "text": "льстило его самолюбию",
+      "vad": [
+        0.6,
+        0.2,
+        0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.0840989489824613,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 1149,
+      "timeline_end_index": 1149,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 69,
+          "end": 90
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_18_0005",
+      "source_section": "chapter_01_18",
+      "source_sentence": 13,
+      "character_position": 155,
+      "text": "жалко уезжать теперь",
+      "vad": [
+        -0.55,
+        0.15,
+        -0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.2356139796159739,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 1153,
+      "timeline_end_index": 1153,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 34,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_18_0006",
+      "source_section": "chapter_01_18",
+      "source_sentence": 27,
+      "character_position": 156,
+      "text": "никак не мог утешиться",
+      "vad": [
+        -0.75,
+        0.35,
+        -0.55
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.221744169530409,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 1167,
+      "timeline_end_index": 1167,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 23,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_18_0007",
+      "source_section": "chapter_01_18",
+      "source_sentence": 28,
+      "character_position": 157,
+      "text": "жгло его совесть",
+      "vad": [
+        -0.85,
+        0.65,
+        -0.55
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2679531218558047,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 1168,
+      "timeline_end_index": 1168,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 17,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_18_0008",
+      "source_section": "chapter_01_18",
+      "source_sentence": 29,
+      "character_position": 158,
+      "text": "В глубине, в самой глубине души он знал, что поступил так скверно, подло, жестоко",
+      "vad": [
+        -0.9,
+        0.35,
+        -0.4
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2224990430378408,
+      "warning": null,
+      "chapter_sentence_start": 29,
+      "chapter_sentence_end": 29,
+      "timeline_start_index": 1169,
+      "timeline_end_index": 1169,
+      "highlights": [
+        {
+          "chapter_sentence": 29,
+          "start": 0,
+          "end": 81
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_18_0009",
+      "source_section": "chapter_01_18",
+      "source_sentence": 30,
+      "character_position": 159,
+      "text": "бодро и весело жить",
+      "vad": [
+        0.85,
+        0.55,
+        0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.3893080123219276,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 1170,
+      "timeline_end_index": 1170,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 63,
+          "end": 82
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_18_0011",
+      "source_section": "chapter_01_18",
+      "source_sentence": 35,
+      "character_position": 160,
+      "text": "у него защемило сердце",
+      "vad": [
+        -0.8,
+        0.65,
+        -0.45
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.1932699049953829,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 1175,
+      "timeline_end_index": 1175,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 236,
+          "end": 258
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_18_0012",
+      "source_section": "chapter_01_18",
+      "source_sentence": 38,
+      "character_position": 161,
+      "text": "было приятно ему",
+      "vad": [
+        0.55,
+        0.05,
+        0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.2243978147213129,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 1178,
+      "timeline_end_index": 1178,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 23,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_18_0013",
+      "source_section": "chapter_01_18",
+      "source_sentence": 39,
+      "character_position": 162,
+      "text": "ему было слишком больно и стыдно думать об этом",
+      "vad": [
+        -0.8,
+        0.6,
+        -0.4
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.1369932606294597,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 1179,
+      "timeline_end_index": 1179,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 94,
+          "end": 141
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_18_0014",
+      "source_section": "chapter_01_18",
+      "source_sentence": 40,
+      "character_position": 163,
+      "text": "с таким грехом на совести",
+      "vad": [
+        -0.82,
+        0.32,
+        -0.48
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2173524279348862,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 1180,
+      "timeline_end_index": 1180,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 187,
+          "end": 212
+        }
+      ]
+    }
+  ]
+}

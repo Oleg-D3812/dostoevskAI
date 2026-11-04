@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "1_29",
+  "count": 13,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_01_29_0002",
+      "source_section": "chapter_01_29",
+      "source_sentence": 5,
+      "character_position": 85,
+      "text": "В первую минуту она подумала, что ослышалась, не могла сразу поверить тому, что слышала, не могла соединить себя с понятием каторжанки",
+      "vad": [
+        -0.78,
+        0.58,
+        -0.72
+      ],
+      "cluster_id": "ekaterina_maslova-5",
+      "distance_to_centroid": 0.1675943053825819,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 1909,
+      "timeline_end_index": 1909,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 0,
+          "end": 134
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_29_0003",
+      "source_section": "chapter_01_29",
+      "source_sentence": 6,
+      "character_position": 86,
+      "text": "она возмутилась и закричала на всю залу",
+      "vad": [
+        -0.85,
+        0.85,
+        -0.35
+      ],
+      "cluster_id": "ekaterina_maslova-5",
+      "distance_to_centroid": 0.3017435028617033,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 1910,
+      "timeline_end_index": 1910,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 107,
+          "end": 146
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_29_0004",
+      "source_section": "chapter_01_29",
+      "source_sentence": 7,
+      "character_position": 87,
+      "text": "она заплакала, чувствуя, что надо покориться той жестокой и удивившей ее несправедливости",
+      "vad": [
+        -0.9,
+        0.65,
+        -0.85
+      ],
+      "cluster_id": "ekaterina_maslova-5",
+      "distance_to_centroid": 0.2759747175830737,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 1911,
+      "timeline_end_index": 1911,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 108,
+          "end": 197
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_29_0005",
+      "source_section": "chapter_01_29",
+      "source_sentence": 8,
+      "character_position": 88,
+      "text": "Удивляло ее в особенности то, что так жестоко осудили ее мужчины",
+      "vad": [
+        -0.65,
+        0.4,
+        -0.45
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.2758150023865834,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 1912,
+      "timeline_end_index": 1912,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 0,
+          "end": 64
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_29_0006",
+      "source_section": "chapter_01_29",
+      "source_sentence": 12,
+      "character_position": 89,
+      "text": "потом затихла и в состоянии полного отупения сидела в арестантской",
+      "vad": [
+        -0.85,
+        -0.75,
+        -0.8
+      ],
+      "cluster_id": "ekaterina_maslova-3",
+      "distance_to_centroid": 0.6425686301434614,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 1916,
+      "timeline_end_index": 1916,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 24,
+          "end": 90
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_29_0007",
+      "source_section": "chapter_01_29",
+      "source_sentence": 13,
+      "character_position": 90,
+      "text": "Ей хотелось теперь только одного: покурить",
+      "vad": [
+        -0.25,
+        0.2,
+        -0.15
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.2718536812627104,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 1917,
+      "timeline_end_index": 1917,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 0,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_29_0008",
+      "source_section": "chapter_01_29",
+      "source_sentence": 23,
+      "character_position": 91,
+      "text": "Оживилась она немного",
+      "vad": [
+        0.2,
+        0.3,
+        0.0
+      ],
+      "cluster_id": "ekaterina_maslova-4",
+      "distance_to_centroid": 0.348801543826869,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 1927,
+      "timeline_end_index": 1927,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 0,
+          "end": 21
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_29_0009",
+      "source_section": "chapter_01_29",
+      "source_sentence": 36,
+      "character_position": 92,
+      "text": "Маслова обрадовалась деньгам",
+      "vad": [
+        0.7,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.090646043746617,
+      "warning": null,
+      "chapter_sentence_start": 36,
+      "chapter_sentence_end": 36,
+      "timeline_start_index": 1940,
+      "timeline_end_index": 1940,
+      "highlights": [
+        {
+          "chapter_sentence": 36,
+          "start": 0,
+          "end": 28
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_29_0010",
+      "source_section": "chapter_01_29",
+      "source_sentence": 37,
+      "character_position": 93,
+      "text": "Только бы добыть папирос и затянуться",
+      "vad": [
+        0.1,
+        0.72,
+        -0.28
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.649625198550948,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 1941,
+      "timeline_end_index": 1941,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 1,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_29_0011",
+      "source_section": "chapter_01_29",
+      "source_sentence": 37,
+      "character_position": 94,
+      "text": "все мысли ее сосредоточились на этом желании покурить",
+      "vad": [
+        -0.4,
+        0.55,
+        -0.35
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.2246413720800015,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 1941,
+      "timeline_end_index": 1941,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 57,
+          "end": 110
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_29_0012",
+      "source_section": "chapter_01_29",
+      "source_sentence": 38,
+      "character_position": 95,
+      "text": "Ей так хотелось этого, что она жадно вдыхала воздух",
+      "vad": [
+        0.1,
+        0.7,
+        -0.25
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.640495848925396,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 1942,
+      "timeline_end_index": 1942,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 0,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_29_0013",
+      "source_section": "chapter_01_29",
+      "source_sentence": 45,
+      "character_position": 96,
+      "text": "с тем же неудовлетворенным желанием курения",
+      "vad": [
+        -0.45,
+        0.25,
+        -0.15
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.1932707338384686,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 1949,
+      "timeline_end_index": 1949,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 44,
+          "end": 87
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_29_0014",
+      "source_section": "chapter_01_29",
+      "source_sentence": 61,
+      "character_position": 97,
+      "text": "так устала, что ей лень было говорить",
+      "vad": [
+        -0.65,
+        -0.75,
+        -0.35
+      ],
+      "cluster_id": "ekaterina_maslova-3",
+      "distance_to_centroid": 0.3433576043201089,
+      "warning": null,
+      "chapter_sentence_start": 61,
+      "chapter_sentence_end": 61,
+      "timeline_start_index": 1965,
+      "timeline_end_index": 1965,
+      "highlights": [
+        {
+          "chapter_sentence": 61,
+          "start": 55,
+          "end": 92
+        }
+      ]
+    }
+  ]
+}

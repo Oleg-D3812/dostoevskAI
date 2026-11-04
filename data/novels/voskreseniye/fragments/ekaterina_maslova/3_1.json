@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "3_1",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_03_01_0001",
+      "source_section": "chapter_03_01",
+      "source_sentence": 3,
+      "character_position": 252,
+      "text": "Переезд до Перми был очень тяжел для Масловой и физически и нравственно.",
+      "vad": [
+        -0.88,
+        0.58,
+        -0.62
+      ],
+      "cluster_id": "ekaterina_maslova-5",
+      "distance_to_centroid": 0.0975049026222775,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 7610,
+      "timeline_end_index": 7610,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 0,
+          "end": 72
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_03_01_0002",
+      "source_section": "chapter_03_01",
+      "source_sentence": 6,
+      "character_position": 253,
+      "text": "это всегдашнее положение страха и борьбы было очень тяжело",
+      "vad": [
+        -0.9,
+        0.75,
+        -0.65
+      ],
+      "cluster_id": "ekaterina_maslova-5",
+      "distance_to_centroid": 0.131985261530166,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 7613,
+      "timeline_end_index": 7613,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 2,
+          "end": 60
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_03_01_0003",
+      "source_section": "chapter_03_01",
+      "source_sentence": 11,
+      "character_position": 254,
+      "text": "она так хотела забыть теперь",
+      "vad": [
+        -0.45,
+        0.25,
+        0.1
+      ],
+      "cluster_id": "ekaterina_maslova-6",
+      "distance_to_centroid": 0.2356090285133821,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 7618,
+      "timeline_end_index": 7618,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 294,
+          "end": 322
+        }
+      ]
+    }
+  ]
+}

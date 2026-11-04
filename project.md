@@ -54,7 +54,7 @@ Novel manifests use schema version 1 and own their feature lists:
 }
 ```
 
-Feature IDs are lowercase ASCII kebab-case and identify analyses. Renderer IDs identify reusable browser behavior. Current feature IDs are `character-network`, `emotion-vad`, and `timeline`; current renderer implementations are `graph` and `explorer-index`. Status is `ready`, `planned`, or `unavailable`.
+Feature IDs are lowercase ASCII kebab-case and identify analyses. Renderer IDs identify reusable browser behavior. Current feature IDs are `character-network`, `emotion-vad`, `playground`, and `timeline`; current renderer implementations are `graph`, `explorer-index`, and `playground`. Status is `ready`, `planned`, or `unavailable`.
 
 `js/feature-registry.js` is the trusted renderer allowlist. The novel-page router reads URL state, loads the catalog and selected novel manifest, creates tabs/panels from `feature.id`, selects a ready feature, updates history, and delegates rendering through the registry. A renderer receives a context containing the novel, manifest, feature, base/manifest URLs, panel, and abort signal. Unknown renderers and missing entries render readable errors instead of executing data-provided code.
 
@@ -69,6 +69,32 @@ To add a novel with existing renderers:
 To add an analysis using an existing renderer, add a feature record only to the novel manifest and publish the entry it references. Do not change central routing.
 
 To add genuinely new UI behavior, implement a loader that owns loading, empty, success, and error states; register its stable renderer ID in `js/feature-registry.js`; then reference that ID from feature records. Never dispatch on `label`.
+
+## Data playground
+
+The `playground` renderer ("Конструктор") lets visitors build their own charts. It reads only files the pipeline already publishes, and discovers them through the manifest's `files` block, `emo-characters.json`, and the `character-network` feature entry.
+
+- `js/playground-datasets.js` is the dataset registry. Each dataset turns those files into flat rows plus a field list (`name`, `type` of `number` / `category` / `text`, `label`, `description`). The field list is also the in-app data dictionary. A dataset whose source files are missing is shown as unavailable.
+- `js/playground-engine.js` is pure, with no DOM access. It validates a chart spec and runs filter → aggregate → sort → limit.
+- `js/playground-render.js` draws the result. Plotly is loaded lazily from the same CDN URL the explorers use; tables are plain HTML.
+- `js/playground.js` holds the dictionary, the form, the presets, and the editable spec. The current spec is mirrored into the URL as `&spec=<base64url JSON>`.
+
+Chart spec, version 1:
+
+```json
+{ "version": 1, "dataset": "emotions_by_chapter", "title": "…",
+  "filter": [{ "field": "emotion", "op": "=", "value": "anger" }],
+  "aggregate": { "groupBy": ["character"], "measures": [{ "field": "mean", "fn": "avg", "as": "value" }] },
+  "sort": [{ "field": "value", "dir": "desc" }], "limit": 20,
+  "chart": { "type": "bar", "x": "character", "y": "value" } }
+```
+
+- **Filter ops:** `= != > >= < <= in between contains`.
+- **Measure functions:** `count sum avg min max`.
+- **Chart types:** `line bar scatter scatter3d table`.
+- **Channels:** `x y z color size text`, plus `columns` for tables.
+
+A spec is data and never code, so any future generator, such as an LLM, must produce this format and pass `validateShape` / `validateFields` before rendering.
 
 ## URLs and compatibility
 

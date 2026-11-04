@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "3_4",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_04_0001",
+      "source_section": "chapter_03_04",
+      "source_sentence": 32,
+      "character_position": 740,
+      "text": "Нехлюдов предлагал ей брак по великодушию",
+      "vad": [
+        0.45,
+        0.1,
+        0.55
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.3820075602355236,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 7771,
+      "timeline_end_index": 7771,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 0,
+          "end": 41
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "1_50",
+  "count": 8,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_50_0001",
+      "source_section": "chapter_01_50",
+      "source_sentence": 1,
+      "character_position": 394,
+      "text": "ему стало страшно",
+      "vad": [
+        -0.8,
+        0.7,
+        -0.5
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.256786601862242,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 3350,
+      "timeline_end_index": 3350,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 81,
+          "end": 98
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_50_0002",
+      "source_section": "chapter_01_50",
+      "source_sentence": 2,
+      "character_position": 395,
+      "text": "этот страх",
+      "vad": [
+        -0.8,
+        0.7,
+        -0.5
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.256786601862242,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 3351,
+      "timeline_end_index": 3351,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 16,
+          "end": 26
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_50_0003",
+      "source_section": "chapter_01_50",
+      "source_sentence": 3,
+      "character_position": 396,
+      "text": "С этим чувством сознания своего долга",
+      "vad": [
+        0.35,
+        0.1,
+        0.55
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.4338197982422405,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 3352,
+      "timeline_end_index": 3352,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 0,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_50_0004",
+      "source_section": "chapter_01_50",
+      "source_sentence": 11,
+      "character_position": 397,
+      "text": "ему так неинтересна показалась эта чета",
+      "vad": [
+        -0.45,
+        -0.35,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4825449072665517,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 3360,
+      "timeline_end_index": 3360,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 47,
+          "end": 86
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_50_0006",
+      "source_section": "chapter_01_50",
+      "source_sentence": 25,
+      "character_position": 398,
+      "text": "мне хотелось бы иметь свидание не в общей, а в конторе, и не только в определенные дни, но и чаще",
+      "vad": [
+        0.2,
+        0.2,
+        -0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.5753005256344905,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 3374,
+      "timeline_end_index": 3374,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 123,
+          "end": 220
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_50_0007",
+      "source_section": "chapter_01_50",
+      "source_sentence": 37,
+      "character_position": 399,
+      "text": "всегда удивлявшийся на то, что все его причисляли к какой-то партии и называли либералом",
+      "vad": [
+        -0.15,
+        0.1,
+        0.05
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.195242115647871,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 3386,
+      "timeline_end_index": 3386,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 69,
+          "end": 157
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_50_0008",
+      "source_section": "chapter_01_50",
+      "source_sentence": 65,
+      "character_position": 400,
+      "text": "мне было ужасно тяжело",
+      "vad": [
+        -0.85,
+        0.65,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2066085502464271,
+      "warning": null,
+      "chapter_sentence_start": 65,
+      "chapter_sentence_end": 65,
+      "timeline_start_index": 3414,
+      "timeline_end_index": 3414,
+      "highlights": [
+        {
+          "chapter_sentence": 65,
+          "start": 66,
+          "end": 88
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_50_0009",
+      "source_section": "chapter_01_50",
+      "source_sentence": 76,
+      "character_position": 401,
+      "text": "Нехлюдов остался тверд",
+      "vad": [
+        0.1,
+        0.1,
+        0.8
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.7726893448832746,
+      "warning": null,
+      "chapter_sentence_start": 76,
+      "chapter_sentence_end": 76,
+      "timeline_start_index": 3425,
+      "timeline_end_index": 3425,
+      "highlights": [
+        {
+          "chapter_sentence": 76,
+          "start": 3,
+          "end": 25
+        }
+      ]
+    }
+  ]
+}

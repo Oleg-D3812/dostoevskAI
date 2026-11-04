@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "1_47",
+  "count": 9,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_01_47_0001",
+      "source_section": "chapter_01_47",
+      "source_sentence": 50,
+      "character_position": 157,
+      "text": "улыбалась",
+      "vad": [
+        0.55,
+        0.2,
+        0.15
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.2627208800275859,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 50,
+      "timeline_start_index": 3152,
+      "timeline_end_index": 3152,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 46,
+          "end": 55
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_47_0002",
+      "source_section": "chapter_01_47",
+      "source_sentence": 51,
+      "character_position": 158,
+      "text": "с испуганным лицом",
+      "vad": [
+        -0.65,
+        0.55,
+        -0.55
+      ],
+      "cluster_id": "ekaterina_maslova-5",
+      "distance_to_centroid": 0.2162378758187509,
+      "warning": null,
+      "chapter_sentence_start": 51,
+      "chapter_sentence_end": 51,
+      "timeline_start_index": 3153,
+      "timeline_end_index": 3153,
+      "highlights": [
+        {
+          "chapter_sentence": 51,
+          "start": 23,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_47_0004",
+      "source_section": "chapter_01_47",
+      "source_sentence": 51,
+      "character_position": 159,
+      "text": "бойко и весело",
+      "vad": [
+        0.8,
+        0.6,
+        0.5
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.4503949312945278,
+      "warning": null,
+      "chapter_sentence_start": 51,
+      "chapter_sentence_end": 51,
+      "timeline_start_index": 3153,
+      "timeline_end_index": 3153,
+      "highlights": [
+        {
+          "chapter_sentence": 51,
+          "start": 88,
+          "end": 102
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_47_0005",
+      "source_section": "chapter_01_47",
+      "source_sentence": 52,
+      "character_position": 160,
+      "text": "улыбаясь",
+      "vad": [
+        0.5,
+        0.2,
+        0.2
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.3104119748589003,
+      "warning": null,
+      "chapter_sentence_start": 52,
+      "chapter_sentence_end": 52,
+      "timeline_start_index": 3154,
+      "timeline_end_index": 3154,
+      "highlights": [
+        {
+          "chapter_sentence": 52,
+          "start": 42,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_47_0006",
+      "source_section": "chapter_01_47",
+      "source_sentence": 56,
+      "character_position": 161,
+      "text": "улыбаясь",
+      "vad": [
+        0.55,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.2599840480624025,
+      "warning": null,
+      "chapter_sentence_start": 56,
+      "chapter_sentence_end": 56,
+      "timeline_start_index": 3158,
+      "timeline_end_index": 3158,
+      "highlights": [
+        {
+          "chapter_sentence": 56,
+          "start": 43,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_47_0007",
+      "source_section": "chapter_01_47",
+      "source_sentence": 62,
+      "character_position": 162,
+      "text": "улыбаясь",
+      "vad": [
+        0.5,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.3172276342212013,
+      "warning": null,
+      "chapter_sentence_start": 62,
+      "chapter_sentence_end": 62,
+      "timeline_start_index": 3164,
+      "timeline_end_index": 3164,
+      "highlights": [
+        {
+          "chapter_sentence": 62,
+          "start": 35,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_47_0009",
+      "source_section": "chapter_01_47",
+      "source_sentence": 68,
+      "character_position": 163,
+      "text": "о чем-то задумалась",
+      "vad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster_id": "ekaterina_maslova-4",
+      "distance_to_centroid": 0.1895200151037969,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 3170,
+      "timeline_end_index": 3170,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 52,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_47_0010",
+      "source_section": "chapter_01_47",
+      "source_sentence": 68,
+      "character_position": 164,
+      "text": "захотела спать",
+      "vad": [
+        -0.1,
+        -0.7,
+        0.0
+      ],
+      "cluster_id": "ekaterina_maslova-3",
+      "distance_to_centroid": 0.6145956213460829,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 3170,
+      "timeline_end_index": 3170,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 76,
+          "end": 90
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_47_0011",
+      "source_section": "chapter_01_47",
+      "source_sentence": 68,
+      "character_position": 165,
+      "text": "стала серьезной",
+      "vad": [
+        0.0,
+        0.1,
+        0.1
+      ],
+      "cluster_id": "ekaterina_maslova-4",
+      "distance_to_centroid": 0.14499730722902,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 3170,
+      "timeline_end_index": 3170,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 92,
+          "end": 107
+        }
+      ]
+    }
+  ]
+}

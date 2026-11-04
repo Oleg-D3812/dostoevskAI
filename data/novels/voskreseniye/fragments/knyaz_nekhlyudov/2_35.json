@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "2_35",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_35_0001",
+      "source_section": "chapter_02_35",
+      "source_sentence": 7,
+      "character_position": 692,
+      "text": "Нехлюдову казалось, что это не люди, а какие-то особенные, страшные существа",
+      "vad": [
+        -0.82,
+        0.68,
+        -0.5
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.247329713731992,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 6844,
+      "timeline_end_index": 6844,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 106,
+          "end": 182
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_35_0002",
+      "source_section": "chapter_02_35",
+      "source_sentence": 8,
+      "character_position": 693,
+      "text": "Это впечатление разрушило в нем",
+      "vad": [
+        0.05,
+        0.0,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4037455723384027,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 6845,
+      "timeline_end_index": 6845,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 0,
+          "end": 31
+        }
+      ]
+    }
+  ]
+}

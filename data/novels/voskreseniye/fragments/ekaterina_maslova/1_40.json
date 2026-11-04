@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "1_40",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_01_40_0001",
+      "source_section": "chapter_01_40",
+      "source_sentence": 16,
+      "character_position": 129,
+      "text": "Так же верила и Маслова.",
+      "vad": [
+        0.2,
+        -0.2,
+        0.1
+      ],
+      "cluster_id": "ekaterina_maslova-4",
+      "distance_to_centroid": 0.2439976585984774,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 2641,
+      "timeline_end_index": 2641,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 0,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_40_0002",
+      "source_section": "chapter_01_40",
+      "source_sentence": 17,
+      "character_position": 130,
+      "text": "испытывала во время богослужения смешанное чувство благоговения и скуки.",
+      "vad": [
+        -0.1,
+        -0.2,
+        0.0
+      ],
+      "cluster_id": "ekaterina_maslova-4",
+      "distance_to_centroid": 0.3303170075649232,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 2642,
+      "timeline_end_index": 2642,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 19,
+          "end": 91
+        }
+      ]
+    }
+  ]
+}

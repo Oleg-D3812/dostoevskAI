@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "1_59",
+  "count": 8,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_01_59_0001",
+      "source_section": "chapter_01_59",
+      "source_sentence": 24,
+      "character_position": 187,
+      "text": "вышла из-за решетки тихая и робкая",
+      "vad": [
+        -0.35,
+        -0.55,
+        -0.6
+      ],
+      "cluster_id": "ekaterina_maslova-3",
+      "distance_to_centroid": 0.3350041459113271,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 3946,
+      "timeline_end_index": 3946,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 23,
+          "end": 57
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_59_0002",
+      "source_section": "chapter_01_59",
+      "source_sentence": 28,
+      "character_position": 188,
+      "text": "напряженное и злое выражение",
+      "vad": [
+        -0.85,
+        0.72,
+        0.1
+      ],
+      "cluster_id": "ekaterina_maslova-6",
+      "distance_to_centroid": 0.4277164294795669,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 3950,
+      "timeline_end_index": 3950,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 142,
+          "end": 170
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_59_0003",
+      "source_section": "chapter_01_59",
+      "source_sentence": 32,
+      "character_position": 189,
+      "text": "злым взглядом",
+      "vad": [
+        -0.75,
+        0.45,
+        0.15
+      ],
+      "cluster_id": "ekaterina_maslova-6",
+      "distance_to_centroid": 0.1625331342293783,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 3954,
+      "timeline_end_index": 3954,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 57,
+          "end": 70
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_59_0004",
+      "source_section": "chapter_01_59",
+      "source_sentence": 39,
+      "character_position": 190,
+      "text": "в этом отказе ее была ненависть к нему, непрощенная обида, но было что-то и другое – хорошее и важное",
+      "vad": [
+        0.2,
+        0.25,
+        0.1
+      ],
+      "cluster_id": "ekaterina_maslova-4",
+      "distance_to_centroid": 0.2691846751143771,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 3961,
+      "timeline_end_index": 3961,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 25,
+          "end": 126
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_59_0005",
+      "source_section": "chapter_01_59",
+      "source_sentence": 52,
+      "character_position": 191,
+      "text": "свое волнение",
+      "vad": [
+        -0.55,
+        0.65,
+        0.1
+      ],
+      "cluster_id": "ekaterina_maslova-6",
+      "distance_to_centroid": 0.2990945674246954,
+      "warning": null,
+      "chapter_sentence_start": 52,
+      "chapter_sentence_end": 52,
+      "timeline_start_index": 3974,
+      "timeline_end_index": 3974,
+      "highlights": [
+        {
+          "chapter_sentence": 52,
+          "start": 35,
+          "end": 48
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_59_0006",
+      "source_section": "chapter_01_59",
+      "source_sentence": 73,
+      "character_position": 192,
+      "text": "не впадай духом",
+      "vad": [
+        0.35,
+        0.1,
+        0.45
+      ],
+      "cluster_id": "ekaterina_maslova-4",
+      "distance_to_centroid": 0.3937851854693827,
+      "warning": null,
+      "chapter_sentence_start": 73,
+      "chapter_sentence_end": 73,
+      "timeline_start_index": 3995,
+      "timeline_end_index": 3995,
+      "highlights": [
+        {
+          "chapter_sentence": 73,
+          "start": 13,
+          "end": 28
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_59_0007",
+      "source_section": "chapter_01_59",
+      "source_sentence": 92,
+      "character_position": 193,
+      "text": "да я не хочу",
+      "vad": [
+        -0.55,
+        -0.1,
+        0.35
+      ],
+      "cluster_id": "ekaterina_maslova-6",
+      "distance_to_centroid": 0.5037676891060898,
+      "warning": null,
+      "chapter_sentence_start": 92,
+      "chapter_sentence_end": 92,
+      "timeline_start_index": 4014,
+      "timeline_end_index": 4014,
+      "highlights": [
+        {
+          "chapter_sentence": 92,
+          "start": 20,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_59_0008",
+      "source_section": "chapter_01_59",
+      "source_sentence": 108,
+      "character_position": 194,
+      "text": "не нуждаюсь я им",
+      "vad": [
+        -0.2,
+        0.1,
+        0.7
+      ],
+      "cluster_id": "ekaterina_maslova-4",
+      "distance_to_centroid": 0.6183047912222155,
+      "warning": null,
+      "chapter_sentence_start": 108,
+      "chapter_sentence_end": 108,
+      "timeline_start_index": 4030,
+      "timeline_end_index": 4030,
+      "highlights": [
+        {
+          "chapter_sentence": 108,
+          "start": 68,
+          "end": 84
+        }
+      ]
+    }
+  ]
+}

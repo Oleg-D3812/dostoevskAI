@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "3_16",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_16_0001",
+      "source_section": "chapter_03_16",
+      "source_sentence": 56,
+      "character_position": 778,
+      "text": "невольно любуясь той простотой и правдивостью, с которой Симонсон говорил с ним",
+      "vad": [
+        0.7,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.2664456194809549,
+      "warning": null,
+      "chapter_sentence_start": 56,
+      "chapter_sentence_end": 56,
+      "timeline_start_index": 8496,
+      "timeline_end_index": 8496,
+      "highlights": [
+        {
+          "chapter_sentence": 56,
+          "start": 20,
+          "end": 99
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_16_0002",
+      "source_section": "chapter_03_16",
+      "source_sentence": 81,
+      "character_position": 779,
+      "text": "Нехлюдов удивился",
+      "vad": [
+        0.1,
+        0.45,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.5474319751893206,
+      "warning": null,
+      "chapter_sentence_start": 81,
+      "chapter_sentence_end": 81,
+      "timeline_start_index": 8521,
+      "timeline_end_index": 8521,
+      "highlights": [
+        {
+          "chapter_sentence": 81,
+          "start": 0,
+          "end": 17
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_16_0003",
+      "source_section": "chapter_03_16",
+      "source_sentence": 90,
+      "character_position": 780,
+      "text": "Я рад, что она нашла такого покровителя, как вы",
+      "vad": [
+        0.7,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.1892372279918783,
+      "warning": null,
+      "chapter_sentence_start": 90,
+      "chapter_sentence_end": 90,
+      "timeline_start_index": 8530,
+      "timeline_end_index": 8530,
+      "highlights": [
+        {
+          "chapter_sentence": 90,
+          "start": 2,
+          "end": 49
+        }
+      ]
+    }
+  ]
+}

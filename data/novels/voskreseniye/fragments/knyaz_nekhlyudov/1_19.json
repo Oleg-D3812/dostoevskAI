@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "1_19",
+  "count": 8,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_19_0002",
+      "source_section": "chapter_01_19",
+      "source_sentence": 8,
+      "character_position": 164,
+      "text": "желал только одного – чтобы его оставили в покое",
+      "vad": [
+        -0.4,
+        -0.35,
+        -0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.5565776255589419,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 1189,
+      "timeline_end_index": 1189,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 59,
+          "end": 107
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_19_0003",
+      "source_section": "chapter_01_19",
+      "source_sentence": 9,
+      "character_position": 165,
+      "text": "Нехлюдов почувствовал страх",
+      "vad": [
+        -0.7,
+        0.7,
+        -0.5
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2473052823993133,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 1190,
+      "timeline_end_index": 1190,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 86,
+          "end": 113
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_19_0004",
+      "source_section": "chapter_01_19",
+      "source_sentence": 10,
+      "character_position": 166,
+      "text": "В глубине души он чувствовал уже, что он негодяй, которому должно быть совестно смотреть в глаза людям",
+      "vad": [
+        -0.85,
+        0.35,
+        -0.65
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3294022224465932,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 1191,
+      "timeline_end_index": 1191,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 0,
+          "end": 102
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_19_0005",
+      "source_section": "chapter_01_19",
+      "source_sentence": 23,
+      "character_position": 167,
+      "text": "эта улыбка показалась ему отвратительной",
+      "vad": [
+        -0.8,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.408047549931033,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 1204,
+      "timeline_end_index": 1204,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 57,
+          "end": 97
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_19_0006",
+      "source_section": "chapter_01_19",
+      "source_sentence": 24,
+      "character_position": 168,
+      "text": "Странное, неопределенное чувство гадливости, смешанное с состраданием, поднялось в нем",
+      "vad": [
+        -0.72,
+        0.38,
+        -0.18
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2244208914951146,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 1205,
+      "timeline_end_index": 1205,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 0,
+          "end": 86
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_19_0007",
+      "source_section": "chapter_01_19",
+      "source_sentence": 33,
+      "character_position": 169,
+      "text": "несмотря на охвативший его ужас",
+      "vad": [
+        -0.95,
+        0.9,
+        -0.75
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.5997757078120588,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 1214,
+      "timeline_end_index": 1214,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 73,
+          "end": 104
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_19_0008",
+      "source_section": "chapter_01_19",
+      "source_sentence": 43,
+      "character_position": 170,
+      "text": "Он испытывал теперь чувство, подобное тому, которое испытывал на охоте, когда приходилось добивать раненую птицу: и гадко, и жалко, и досадно",
+      "vad": [
+        -0.78,
+        0.48,
+        -0.18
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2045696078474756,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 1224,
+      "timeline_end_index": 1224,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 0,
+          "end": 141
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_19_0009",
+      "source_section": "chapter_01_19",
+      "source_sentence": 45,
+      "character_position": 171,
+      "text": "Такое смешанное чувство испытывал теперь Нехлюдов",
+      "vad": [
+        -0.55,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3152498366394551,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 1226,
+      "timeline_end_index": 1226,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 0,
+          "end": 49
+        }
+      ]
+    }
+  ]
+}

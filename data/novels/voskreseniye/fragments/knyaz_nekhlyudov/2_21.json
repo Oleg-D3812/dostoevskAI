@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "2_21",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_21_0001",
+      "source_section": "chapter_02_21",
+      "source_sentence": 37,
+      "character_position": 563,
+      "text": "Нехлюдов был уверен, что дело выиграно",
+      "vad": [
+        0.85,
+        0.35,
+        0.75
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.5667412540948211,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 5797,
+      "timeline_end_index": 5797,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 46,
+          "end": 84
+        }
+      ]
+    }
+  ]
+}

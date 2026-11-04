@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "2_35",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_02_35_0001",
+      "source_section": "chapter_02_35",
+      "source_sentence": 17,
+      "character_position": 246,
+      "text": "Лицо ее было спокойно и решительно",
+      "vad": [
+        0.1,
+        0.1,
+        0.7
+      ],
+      "cluster_id": "ekaterina_maslova-4",
+      "distance_to_centroid": 0.5435920383983284,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 6854,
+      "timeline_end_index": 6854,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 0,
+          "end": 34
+        }
+      ]
+    }
+  ]
+}

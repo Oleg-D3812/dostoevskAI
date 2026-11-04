@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "2_6",
+  "count": 7,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_06_0001",
+      "source_section": "chapter_02_06",
+      "source_sentence": 19,
+      "character_position": 468,
+      "text": "с страшной тоскою в сердце",
+      "vad": [
+        -0.9,
+        0.7,
+        -0.4
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2759763103069543,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 4454,
+      "timeline_end_index": 4454,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 91,
+          "end": 117
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_06_0002",
+      "source_section": "chapter_02_06",
+      "source_sentence": 56,
+      "character_position": 469,
+      "text": "не мог достаточно удивляться тому, как люди не видят и он сам так долго не видел того, что так очевидно ясно",
+      "vad": [
+        -0.35,
+        0.55,
+        0.05
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4351829380904189,
+      "warning": null,
+      "chapter_sentence_start": 56,
+      "chapter_sentence_end": 56,
+      "timeline_start_index": 4491,
+      "timeline_end_index": 4491,
+      "highlights": [
+        {
+          "chapter_sentence": 56,
+          "start": 41,
+          "end": 149
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_06_0003",
+      "source_section": "chapter_02_06",
+      "source_sentence": 65,
+      "character_position": 470,
+      "text": "И это ужасно и никак не может и не должно быть",
+      "vad": [
+        -0.85,
+        0.55,
+        -0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2252486225874168,
+      "warning": null,
+      "chapter_sentence_start": 65,
+      "chapter_sentence_end": 65,
+      "timeline_start_index": 4500,
+      "timeline_end_index": 4500,
+      "highlights": [
+        {
+          "chapter_sentence": 65,
+          "start": 0,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_06_0004",
+      "source_section": "chapter_02_06",
+      "source_sentence": 69,
+      "character_position": 471,
+      "text": "свое увлечение им и удивлялся на то, как он мог забыть все это",
+      "vad": [
+        0.2,
+        0.25,
+        -0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.5361284774483306,
+      "warning": null,
+      "chapter_sentence_start": 69,
+      "chapter_sentence_end": 69,
+      "timeline_start_index": 4504,
+      "timeline_end_index": 4504,
+      "highlights": [
+        {
+          "chapter_sentence": 69,
+          "start": 56,
+          "end": 118
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_06_0005",
+      "source_section": "chapter_02_06",
+      "source_sentence": 72,
+      "character_position": 472,
+      "text": "ему было стыдно вспоминать свое устройство дел в Кузминском",
+      "vad": [
+        -0.75,
+        0.35,
+        -0.4
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.1408426067023923,
+      "warning": null,
+      "chapter_sentence_start": 72,
+      "chapter_sentence_end": 72,
+      "timeline_start_index": 4507,
+      "timeline_end_index": 4507,
+      "highlights": [
+        {
+          "chapter_sentence": 72,
+          "start": 26,
+          "end": 85
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_06_0006",
+      "source_section": "chapter_02_06",
+      "source_sentence": 82,
+      "character_position": 473,
+      "text": "так он был занят своею мыслью, сразу разрешившею ту тоску, с которой он пришел с деревни",
+      "vad": [
+        0.55,
+        0.2,
+        0.45
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.2238578025435723,
+      "warning": null,
+      "chapter_sentence_start": 82,
+      "chapter_sentence_end": 82,
+      "timeline_start_index": 4517,
+      "timeline_end_index": 4517,
+      "highlights": [
+        {
+          "chapter_sentence": 82,
+          "start": 73,
+          "end": 161
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_06_0008",
+      "source_section": "chapter_02_06",
+      "source_sentence": 98,
+      "character_position": 474,
+      "text": "человек не вполне здравый",
+      "vad": [
+        -0.5,
+        0.0,
+        -0.4
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4422439274146263,
+      "warning": null,
+      "chapter_sentence_start": 98,
+      "chapter_sentence_end": 98,
+      "timeline_start_index": 4533,
+      "timeline_end_index": 4533,
+      "highlights": [
+        {
+          "chapter_sentence": 98,
+          "start": 23,
+          "end": 48
+        }
+      ]
+    }
+  ]
+}

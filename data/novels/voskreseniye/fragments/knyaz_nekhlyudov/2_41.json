@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "2_41",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_41_0001",
+      "source_section": "chapter_02_41",
+      "source_sentence": 34,
+      "character_position": 732,
+      "text": "не зная, что ответить",
+      "vad": [
+        -0.25,
+        -0.15,
+        -0.55
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.6120023033966417,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 7414,
+      "timeline_end_index": 7414,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 29,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_41_0002",
+      "source_section": "chapter_02_41",
+      "source_sentence": 68,
+      "character_position": 733,
+      "text": "с интересом слушал",
+      "vad": [
+        0.35,
+        0.25,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.3574896134101588,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 7448,
+      "timeline_end_index": 7448,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 65,
+          "end": 83
+        }
+      ]
+    }
+  ]
+}

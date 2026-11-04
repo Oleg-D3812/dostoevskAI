@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "2_34",
+  "count": 11,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_34_0001",
+      "source_section": "chapter_02_34",
+      "source_sentence": 5,
+      "character_position": 681,
+      "text": "Она радует меня",
+      "vad": [
+        0.75,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.2184296731418233,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 6761,
+      "timeline_end_index": 6761,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 0,
+          "end": 15
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_34_0002",
+      "source_section": "chapter_02_34",
+      "source_sentence": 6,
+      "character_position": 682,
+      "text": "Боюсь верить",
+      "vad": [
+        -0.4,
+        0.25,
+        -0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3274628841106444,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 6762,
+      "timeline_end_index": 6762,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 0,
+          "end": 12
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_34_0003",
+      "source_section": "chapter_02_34",
+      "source_sentence": 7,
+      "character_position": 683,
+      "text": "Пережил очень тяжелое и очень радостное",
+      "vad": [
+        0.0,
+        0.75,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.7150145322302975,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 6763,
+      "timeline_end_index": 6763,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 39,
+          "end": 78
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_34_0004",
+      "source_section": "chapter_02_34",
+      "source_sentence": 9,
+      "character_position": 684,
+      "text": "сделалось ужасно больно",
+      "vad": [
+        -0.95,
+        0.82,
+        -0.45
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.4078850016927901,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 6765,
+      "timeline_end_index": 6765,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 8,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_34_0005",
+      "source_section": "chapter_02_34",
+      "source_sentence": 10,
+      "character_position": 685,
+      "text": "Не ожидал, как больно",
+      "vad": [
+        -0.75,
+        0.65,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.1670557896080736,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 6766,
+      "timeline_end_index": 6766,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 0,
+          "end": 21
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_34_0006",
+      "source_section": "chapter_02_34",
+      "source_sentence": 11,
+      "character_position": 686,
+      "text": "С отвращением и ненавистью",
+      "vad": [
+        -0.9,
+        0.8,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.5201496641307708,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 6767,
+      "timeline_end_index": 6767,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 0,
+          "end": 26
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_34_0007",
+      "source_section": "chapter_02_34",
+      "source_sentence": 11,
+      "character_position": 687,
+      "text": "я стал противен себе",
+      "vad": [
+        -0.85,
+        0.45,
+        -0.5
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.1782927410023882,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 6767,
+      "timeline_end_index": 6767,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 193,
+          "end": 213
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_34_0008",
+      "source_section": "chapter_02_34",
+      "source_sentence": 11,
+      "character_position": 688,
+      "text": "мне стало очень хорошо",
+      "vad": [
+        0.85,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.2852338470547796,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 6767,
+      "timeline_end_index": 6767,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 230,
+          "end": 252
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_34_0009",
+      "source_section": "chapter_02_34",
+      "source_sentence": 13,
+      "character_position": 689,
+      "text": "от довольства собой был недобр, зол, и осталось тяжелое чувство",
+      "vad": [
+        -0.65,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4044798051675761,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 6769,
+      "timeline_end_index": 6769,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 54,
+          "end": 117
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_34_0010",
+      "source_section": "chapter_02_34",
+      "source_sentence": 17,
+      "character_position": 690,
+      "text": "все еще не могу свести к единству",
+      "vad": [
+        -0.35,
+        0.1,
+        -0.45
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4437046416053951,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 6773,
+      "timeline_end_index": 6773,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 32,
+          "end": 65
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_34_0011",
+      "source_section": "chapter_02_34",
+      "source_sentence": 18,
+      "character_position": 691,
+      "text": "первым чувством Нехлюдова было раскаяние о том, что у него вышло с зятем",
+      "vad": [
+        -0.72,
+        0.38,
+        -0.18
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2244208914951146,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 6774,
+      "timeline_end_index": 6774,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 28,
+          "end": 100
+        }
+      ]
+    }
+  ]
+}

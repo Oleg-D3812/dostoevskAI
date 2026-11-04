@@ -20,6 +20,7 @@
       ]
     },
     { "id": "character-network", "renderer": "graph", "label": { "ru": "Граф связей", "en": "Character network" }, "status": "ready", "entry": "character-network.json", "help": "../../../explorers/character_network_explained.html" },
+    { "id": "playground", "renderer": "playground", "label": { "ru": "Конструктор", "en": "Playground" }, "status": "ready", "entry": "manifest.json" },
     { "id": "timeline", "renderer": "timeline", "label": { "ru": "Хронология", "en": "Timeline" }, "status": "planned" }
   ],
   "schema_version": 1,

@@ -14,6 +14,16 @@
       "help": "../../../explorers/character_network_explained.html"
     },
     {
+      "id": "playground",
+      "renderer": "playground",
+      "label": {
+        "ru": "Конструктор",
+        "en": "Playground"
+      },
+      "status": "ready",
+      "entry": "manifest.json"
+    },
+    {
       "id": "timeline",
       "renderer": "timeline",
       "label": {
@@ -21,6 +31,54 @@
         "en": "Timeline"
       },
       "status": "planned"
+    },
+    {
+      "id": "emotion-vad",
+      "renderer": "explorer-index",
+      "label": {
+        "ru": "Эмоциональный анализ",
+        "en": "Emotion analysis"
+      },
+      "status": "ready",
+      "entry": "manifest.json",
+      "help": "../../../explorers/vad_to_plutchik_explained.html",
+      "explorers": [
+        {
+          "name": "VAD → Plutchik pipeline",
+          "description": "Interactive diagram of the methodology: from quote extraction and VAD scoring to the 8- and 16-component Plutchik profiles.",
+          "entry": "../../../explorers/vad_to_plutchik_pipeline_diagram.html"
+        },
+        {
+          "name": "Multi-character cluster space",
+          "description": "Explore fragments in 3D and linked projections for the tracked characters.",
+          "entry": "../../../explorers/separate_kmeans_interactive.html"
+        },
+        {
+          "name": "Chapter VAD and Plutchik profiles",
+          "description": "Select a character and chapter to compare the 3D VAD cloud with 8- and 16-component Plutchik profiles.",
+          "entry": "../../../explorers/chapter_vad_clouds_with_radar.html"
+        },
+        {
+          "name": "Chapter VAD clouds",
+          "description": "Select characters and chapters to explore fragment-level VAD points in 3D.",
+          "entry": "../../../explorers/chapter_vad_clouds.html"
+        },
+        {
+          "name": "K-Means centroids and spheres",
+          "description": "Inspect cluster centroids, VAD fragments, spheres and Plutchik anchors.",
+          "entry": "../../../explorers/separate_kmeans_centroid_spheres.html"
+        },
+        {
+          "name": "Sentence-window VAD animation",
+          "description": "Move a configurable sentence window through the novel and watch active character states appear in VAD space alongside the highlighted text.",
+          "entry": "../../../explorers/vad_sentence_window_animation.html"
+        },
+        {
+          "name": "Plutchik profiles by chapter",
+          "description": "Scroll a table of every chapter's 8- and 16-component Plutchik profile for one character at a time; click any chart to zoom in.",
+          "entry": "../../../explorers/chapter_plutchik_table.html"
+        }
+      ]
     }
   ],
   "schema_version": 1,
@@ -48,8 +106,12 @@
     "sha256": "64af2d12a8d822817b7bfdbae105919d08a9ee86d16aef54e55ad6d2bc5f6eb4"
   },
   "counts": {
+    "characters": 2,
     "logical_chapters": 129,
     "source_sections": 129,
-    "sentences": 9446
+    "sentences": 9446,
+    "fragments": 1173,
+    "clusters": 9,
+    "fragment_files": 161
   }
 }

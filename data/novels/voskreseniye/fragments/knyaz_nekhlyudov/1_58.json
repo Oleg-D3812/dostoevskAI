@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "1_58",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_58_0001",
+      "source_section": "chapter_01_58",
+      "source_sentence": 42,
+      "character_position": 423,
+      "text": "мрачно сказал Нехлюдов",
+      "vad": [
+        -0.6,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.2764739098414215,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 3897,
+      "timeline_end_index": 3897,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 2,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_58_0002",
+      "source_section": "chapter_01_58",
+      "source_sentence": 56,
+      "character_position": 424,
+      "text": "с мрачным видом прошел",
+      "vad": [
+        -0.65,
+        0.2,
+        0.25
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4139042347652008,
+      "warning": null,
+      "chapter_sentence_start": 56,
+      "chapter_sentence_end": 56,
+      "timeline_start_index": 3911,
+      "timeline_end_index": 3911,
+      "highlights": [
+        {
+          "chapter_sentence": 56,
+          "start": 75,
+          "end": 97
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_58_0003",
+      "source_section": "chapter_01_58",
+      "source_sentence": 67,
+      "character_position": 425,
+      "text": "он чувствовал, что Масленников снисходил до него",
+      "vad": [
+        -0.55,
+        0.2,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3377503672205091,
+      "warning": null,
+      "chapter_sentence_start": 67,
+      "chapter_sentence_end": 67,
+      "timeline_start_index": 3922,
+      "timeline_end_index": 3922,
+      "highlights": [
+        {
+          "chapter_sentence": 67,
+          "start": 84,
+          "end": 132
+        }
+      ]
+    }
+  ]
+}

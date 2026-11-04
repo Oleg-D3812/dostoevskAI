@@ -1,0 +1,659 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "1_14",
+  "count": 25,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_14_0001",
+      "source_section": "chapter_01_14",
+      "source_sentence": 2,
+      "character_position": 91,
+      "text": "ему хотелось побывать в тех местах, где ему было так хорошо",
+      "vad": [
+        0.65,
+        0.2,
+        0.15
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.1184607558656969,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 861,
+      "timeline_end_index": 861,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 186,
+          "end": 245
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_14_0002",
+      "source_section": "chapter_01_14",
+      "source_sentence": 2,
+      "character_position": 92,
+      "text": "такое приятное воспоминание",
+      "vad": [
+        0.7,
+        -0.1,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.4447770244447473,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 861,
+      "timeline_end_index": 861,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 420,
+          "end": 447
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_14_0003",
+      "source_section": "chapter_01_14",
+      "source_sentence": 3,
+      "character_position": 93,
+      "text": "бодрый и возбужденный, каким он всегда чувствовал себя в это время",
+      "vad": [
+        0.6,
+        0.8,
+        0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.540496184337546,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 862,
+      "timeline_end_index": 862,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 138,
+          "end": 204
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_14_0004",
+      "source_section": "chapter_01_14",
+      "source_sentence": 6,
+      "character_position": 94,
+      "text": "Он ждал, что она выбежит на крыльцо на его колокольчик",
+      "vad": [
+        0.5,
+        0.35,
+        -0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.3719495163913566,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 865,
+      "timeline_end_index": 865,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 0,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_14_0005",
+      "source_section": "chapter_01_14",
+      "source_sentence": 22,
+      "character_position": 95,
+      "text": "сердце Нехлюдова радостно екнуло",
+      "vad": [
+        0.9,
+        0.7,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.5443661800496608,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 881,
+      "timeline_end_index": 881,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 2,
+          "end": 34
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_14_0006",
+      "source_section": "chapter_01_14",
+      "source_sentence": 25,
+      "character_position": 96,
+      "text": "весело пошел",
+      "vad": [
+        0.7,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.1731627316504716,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 884,
+      "timeline_end_index": 884,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 9,
+          "end": 21
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_14_0007",
+      "source_section": "chapter_01_14",
+      "source_sentence": 26,
+      "character_position": 97,
+      "text": "Нехлюдову хотелось спросить Тихона про Катюшу",
+      "vad": [
+        0.35,
+        0.25,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.298443738359487,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 885,
+      "timeline_end_index": 885,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 0,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_14_0008",
+      "source_section": "chapter_01_14",
+      "source_sentence": 27,
+      "character_position": 98,
+      "text": "Нехлюдов не решился спрашивать его о Катюше",
+      "vad": [
+        -0.35,
+        0.15,
+        -0.5
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.494270042310999,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 886,
+      "timeline_end_index": 886,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 128,
+          "end": 171
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_14_0009",
+      "source_section": "chapter_01_14",
+      "source_sentence": 43,
+      "character_position": 99,
+      "text": "не знал он, как, на «ты» или на «вы», говорить с ней, и покраснел так же, как и она",
+      "vad": [
+        -0.25,
+        0.55,
+        -0.4
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.4808034809511566,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 902,
+      "timeline_end_index": 902,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 30,
+          "end": 113
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_14_0010",
+      "source_section": "chapter_01_14",
+      "source_sentence": 49,
+      "character_position": 100,
+      "text": "А как я рад, что приехал",
+      "vad": [
+        0.88,
+        0.58,
+        0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.4190366103802895,
+      "warning": null,
+      "chapter_sentence_start": 49,
+      "chapter_sentence_end": 49,
+      "timeline_start_index": 908,
+      "timeline_end_index": 908,
+      "highlights": [
+        {
+          "chapter_sentence": 49,
+          "start": 0,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_14_0011",
+      "source_section": "chapter_01_14",
+      "source_sentence": 49,
+      "character_position": 101,
+      "text": "чувствуя, что на душе у него становится так же светло и умильно, как бывало прежде",
+      "vad": [
+        0.8,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.2402404844375988,
+      "warning": null,
+      "chapter_sentence_start": 49,
+      "chapter_sentence_end": 49,
+      "timeline_start_index": 908,
+      "timeline_end_index": 908,
+      "highlights": [
+        {
+          "chapter_sentence": 49,
+          "start": 45,
+          "end": 127
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_14_0012",
+      "source_section": "chapter_01_14",
+      "source_sentence": 55,
+      "character_position": 102,
+      "text": "почувствовал прежнее чувство к ней",
+      "vad": [
+        0.8,
+        0.55,
+        0.05
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.395456856412235,
+      "warning": null,
+      "chapter_sentence_start": 55,
+      "chapter_sentence_end": 55,
+      "timeline_start_index": 914,
+      "timeline_end_index": 914,
+      "highlights": [
+        {
+          "chapter_sentence": 55,
+          "start": 49,
+          "end": 83
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_14_0013",
+      "source_section": "chapter_01_14",
+      "source_sentence": 56,
+      "character_position": 103,
+      "text": "не мог без волнения видеть теперь белый фартук Катюши",
+      "vad": [
+        0.45,
+        0.7,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.7555359276578837,
+      "warning": null,
+      "chapter_sentence_start": 56,
+      "chapter_sentence_end": 56,
+      "timeline_start_index": 915,
+      "timeline_end_index": 915,
+      "highlights": [
+        {
+          "chapter_sentence": 56,
+          "start": 25,
+          "end": 78
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_14_0014",
+      "source_section": "chapter_01_14",
+      "source_sentence": 56,
+      "character_position": 104,
+      "text": "не мог без радости слышать ее походку, ее голос, ее смех",
+      "vad": [
+        0.85,
+        0.55,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.446784382016209,
+      "warning": null,
+      "chapter_sentence_start": 56,
+      "chapter_sentence_end": 56,
+      "timeline_start_index": 915,
+      "timeline_end_index": 915,
+      "highlights": [
+        {
+          "chapter_sentence": 56,
+          "start": 80,
+          "end": 136
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_14_0015",
+      "source_section": "chapter_01_14",
+      "source_sentence": 56,
+      "character_position": 105,
+      "text": "не мог без умиления смотреть в ее черные, как мокрая смородина, глаза",
+      "vad": [
+        0.8,
+        0.35,
+        -0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.4019165571785278,
+      "warning": null,
+      "chapter_sentence_start": 56,
+      "chapter_sentence_end": 56,
+      "timeline_start_index": 915,
+      "timeline_end_index": 915,
+      "highlights": [
+        {
+          "chapter_sentence": 56,
+          "start": 138,
+          "end": 207
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_14_0016",
+      "source_section": "chapter_01_14",
+      "source_sentence": 56,
+      "character_position": 106,
+      "text": "не мог, главное, без смущения видеть, как она краснела при встрече с ним",
+      "vad": [
+        0.35,
+        0.42,
+        -0.18
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.522437448110497,
+      "warning": null,
+      "chapter_sentence_start": 56,
+      "chapter_sentence_end": 56,
+      "timeline_start_index": 915,
+      "timeline_end_index": 915,
+      "highlights": [
+        {
+          "chapter_sentence": 56,
+          "start": 239,
+          "end": 311
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_14_0017",
+      "source_section": "chapter_01_14",
+      "source_sentence": 57,
+      "character_position": 107,
+      "text": "Он чувствовал, что влюблен",
+      "vad": [
+        0.8,
+        0.5,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.3363925308434426,
+      "warning": null,
+      "chapter_sentence_start": 57,
+      "chapter_sentence_end": 57,
+      "timeline_start_index": 916,
+      "timeline_end_index": 916,
+      "highlights": [
+        {
+          "chapter_sentence": 57,
+          "start": 0,
+          "end": 26
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_14_0018",
+      "source_section": "chapter_01_14",
+      "source_sentence": 57,
+      "character_position": 108,
+      "text": "эта любовь была для него тайной",
+      "vad": [
+        0.0,
+        0.1,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4804446858686274,
+      "warning": null,
+      "chapter_sentence_start": 57,
+      "chapter_sentence_end": 57,
+      "timeline_start_index": 916,
+      "timeline_end_index": 916,
+      "highlights": [
+        {
+          "chapter_sentence": 57,
+          "start": 57,
+          "end": 88
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_14_0019",
+      "source_section": "chapter_01_14",
+      "source_sentence": 57,
+      "character_position": 109,
+      "text": "сам не решался признаться себе в том, что он любит",
+      "vad": [
+        -0.35,
+        0.25,
+        -0.45
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.4504225199845701,
+      "warning": null,
+      "chapter_sentence_start": 57,
+      "chapter_sentence_end": 57,
+      "timeline_start_index": 916,
+      "timeline_end_index": 916,
+      "highlights": [
+        {
+          "chapter_sentence": 57,
+          "start": 95,
+          "end": 145
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_14_0020",
+      "source_section": "chapter_01_14",
+      "source_sentence": 57,
+      "character_position": 110,
+      "text": "он был убежден в том, что любить можно только один раз",
+      "vad": [
+        0.1,
+        0.1,
+        0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.5466576058026253,
+      "warning": null,
+      "chapter_sentence_start": 57,
+      "chapter_sentence_end": 57,
+      "timeline_start_index": 916,
+      "timeline_end_index": 916,
+      "highlights": [
+        {
+          "chapter_sentence": 57,
+          "start": 155,
+          "end": 209
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_14_0021",
+      "source_section": "chapter_01_14",
+      "source_sentence": 57,
+      "character_position": 111,
+      "text": "теперь он был влюблен",
+      "vad": [
+        0.75,
+        0.45,
+        0.05
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.3038072146874484,
+      "warning": null,
+      "chapter_sentence_start": 57,
+      "chapter_sentence_end": 57,
+      "timeline_start_index": 916,
+      "timeline_end_index": 916,
+      "highlights": [
+        {
+          "chapter_sentence": 57,
+          "start": 213,
+          "end": 234
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_14_0022",
+      "source_section": "chapter_01_14",
+      "source_sentence": 57,
+      "character_position": 112,
+      "text": "радуясь этому",
+      "vad": [
+        0.8,
+        0.45,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.3029832069540248,
+      "warning": null,
+      "chapter_sentence_start": 57,
+      "chapter_sentence_end": 57,
+      "timeline_start_index": 916,
+      "timeline_end_index": 916,
+      "highlights": [
+        {
+          "chapter_sentence": 57,
+          "start": 247,
+          "end": 260
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_14_0023",
+      "source_section": "chapter_01_14",
+      "source_sentence": 57,
+      "character_position": 113,
+      "text": "смутно зная, хотя и скрывая от себя, в чем состоит любовь и что из нее может выйти",
+      "vad": [
+        -0.1,
+        0.2,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.424154076904243,
+      "warning": null,
+      "chapter_sentence_start": 57,
+      "chapter_sentence_end": 57,
+      "timeline_start_index": 916,
+      "timeline_end_index": 916,
+      "highlights": [
+        {
+          "chapter_sentence": 57,
+          "start": 263,
+          "end": 345
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_14_0026",
+      "source_section": "chapter_01_14",
+      "source_sentence": 62,
+      "character_position": 114,
+      "text": "внутренняя, не сознаваемая им борьба",
+      "vad": [
+        -0.65,
+        0.7,
+        -0.45
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2376809394684228,
+      "warning": null,
+      "chapter_sentence_start": 62,
+      "chapter_sentence_end": 62,
+      "timeline_start_index": 921,
+      "timeline_end_index": 921,
+      "highlights": [
+        {
+          "chapter_sentence": 62,
+          "start": 70,
+          "end": 106
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_14_0027",
+      "source_section": "chapter_01_14",
+      "source_sentence": 63,
+      "character_position": 115,
+      "text": "было так радостно и приятно",
+      "vad": [
+        0.85,
+        0.45,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.3897358872254179,
+      "warning": null,
+      "chapter_sentence_start": 63,
+      "chapter_sentence_end": 63,
+      "timeline_start_index": 922,
+      "timeline_end_index": 922,
+      "highlights": [
+        {
+          "chapter_sentence": 63,
+          "start": 138,
+          "end": 165
+        }
+      ]
+    }
+  ]
+}

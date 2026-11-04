@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "2_7",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_07_0001",
+      "source_section": "chapter_02_07",
+      "source_sentence": 4,
+      "character_position": 475,
+      "text": "сделал усилие над собой",
+      "vad": [
+        -0.2,
+        0.45,
+        0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.5055078326235547,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 4542,
+      "timeline_end_index": 4542,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 9,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_07_0002",
+      "source_section": "chapter_02_07",
+      "source_sentence": 44,
+      "character_position": 476,
+      "text": "удивленный Нехлюдов",
+      "vad": [
+        0.0,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4077706747290975,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 4582,
+      "timeline_end_index": 4582,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 60,
+          "end": 79
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "3_22",
+  "count": 5,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_22_0001",
+      "source_section": "chapter_03_22",
+      "source_sentence": 13,
+      "character_position": 804,
+      "text": "он испытал большое облегчение",
+      "vad": [
+        0.85,
+        0.2,
+        0.45
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.3214075169471208,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 8888,
+      "timeline_end_index": 8888,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 60,
+          "end": 89
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_22_0002",
+      "source_section": "chapter_03_22",
+      "source_sentence": 27,
+      "character_position": 805,
+      "text": "лицо мне близкое",
+      "vad": [
+        0.4,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.3606668403497762,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 8902,
+      "timeline_end_index": 8902,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 51,
+          "end": 67
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_22_0003",
+      "source_section": "chapter_03_22",
+      "source_sentence": 38,
+      "character_position": 806,
+      "text": "интересующее его",
+      "vad": [
+        0.1,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4362728694230585,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 8913,
+      "timeline_end_index": 8913,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 34,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_22_0004",
+      "source_section": "chapter_03_22",
+      "source_sentence": 77,
+      "character_position": 807,
+      "text": "вы интересуетесь им и другими",
+      "vad": [
+        -0.25,
+        0.2,
+        0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3759671762703377,
+      "warning": null,
+      "chapter_sentence_start": 77,
+      "chapter_sentence_end": 77,
+      "timeline_start_index": 8952,
+      "timeline_end_index": 8952,
+      "highlights": [
+        {
+          "chapter_sentence": 77,
+          "start": 51,
+          "end": 80
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_22_0006",
+      "source_section": "chapter_03_22",
+      "source_sentence": 90,
+      "character_position": 808,
+      "text": "вам жалко его",
+      "vad": [
+        -0.2,
+        0.1,
+        -0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.1657167591895577,
+      "warning": null,
+      "chapter_sentence_start": 90,
+      "chapter_sentence_end": 90,
+      "timeline_start_index": 8965,
+      "timeline_end_index": 8965,
+      "highlights": [
+        {
+          "chapter_sentence": 90,
+          "start": 2,
+          "end": 15
+        }
+      ]
+    }
+  ]
+}

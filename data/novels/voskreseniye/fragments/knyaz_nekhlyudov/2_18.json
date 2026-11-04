@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "2_18",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_18_0001",
+      "source_section": "chapter_02_18",
+      "source_sentence": 24,
+      "character_position": 555,
+      "text": "Ведь это ужасно!",
+      "vad": [
+        -0.9,
+        0.8,
+        -0.5
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.378596261588393,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 5526,
+      "timeline_end_index": 5526,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 2,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_18_0002",
+      "source_section": "chapter_02_18",
+      "source_sentence": 28,
+      "character_position": 556,
+      "text": "этот успех огорчает меня.",
+      "vad": [
+        -0.65,
+        -0.2,
+        -0.05
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4496616597955962,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 5530,
+      "timeline_end_index": 5530,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 9,
+          "end": 34
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_18_0003",
+      "source_section": "chapter_02_18",
+      "source_sentence": 54,
+      "character_position": 557,
+      "text": "надеялся, что на это дело обратят особое внимание.",
+      "vad": [
+        0.35,
+        0.1,
+        -0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.5396070865204876,
+      "warning": null,
+      "chapter_sentence_start": 54,
+      "chapter_sentence_end": 54,
+      "timeline_start_index": 5556,
+      "timeline_end_index": 5556,
+      "highlights": [
+        {
+          "chapter_sentence": 54,
+          "start": 26,
+          "end": 76
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_18_0004",
+      "source_section": "chapter_02_18",
+      "source_sentence": 80,
+      "character_position": 558,
+      "text": "как ужасно их много",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.25
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.1527732339474463,
+      "warning": null,
+      "chapter_sentence_start": 80,
+      "chapter_sentence_end": 80,
+      "timeline_start_index": 5582,
+      "timeline_end_index": 5582,
+      "highlights": [
+        {
+          "chapter_sentence": 80,
+          "start": 15,
+          "end": 34
+        }
+      ]
+    }
+  ]
+}

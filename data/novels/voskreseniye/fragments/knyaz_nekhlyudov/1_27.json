@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "1_27",
+  "count": 10,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_27_0001",
+      "source_section": "chapter_01_27",
+      "source_sentence": 5,
+      "character_position": 228,
+      "text": "ему стало ужасно противно",
+      "vad": [
+        -0.9,
+        0.75,
+        -0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3617447974373605,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 1698,
+      "timeline_end_index": 1698,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 152,
+          "end": 177
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_27_0002",
+      "source_section": "chapter_01_27",
+      "source_sentence": 11,
+      "character_position": 229,
+      "text": "в очень мрачном настроении",
+      "vad": [
+        -0.8,
+        -0.2,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.5631551342001099,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 1704,
+      "timeline_end_index": 1704,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 39,
+          "end": 65
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_27_0003",
+      "source_section": "chapter_01_27",
+      "source_sentence": 18,
+      "character_position": 230,
+      "text": "Он никак не мог настроить себя, чтобы быть любезным",
+      "vad": [
+        -0.45,
+        0.15,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3629274990074537,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 1711,
+      "timeline_end_index": 1711,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 0,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_27_0004",
+      "source_section": "chapter_01_27",
+      "source_sentence": 25,
+      "character_position": 231,
+      "text": "смотрел и слушал и видел и слышал совсем не то, что было перед ним",
+      "vad": [
+        -0.45,
+        0.2,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3705907133243374,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 1718,
+      "timeline_end_index": 1718,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 9,
+          "end": 75
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_27_0005",
+      "source_section": "chapter_01_27",
+      "source_sentence": 46,
+      "character_position": 232,
+      "text": "весь поглощенный в эту минуту теми странными образами",
+      "vad": [
+        -0.1,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3303245274139326,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 1739,
+      "timeline_end_index": 1739,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 29,
+          "end": 82
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_27_0006",
+      "source_section": "chapter_01_27",
+      "source_sentence": 57,
+      "character_position": 233,
+      "text": "я нынче не в духе",
+      "vad": [
+        -0.45,
+        -0.25,
+        -0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3971243117926354,
+      "warning": null,
+      "chapter_sentence_start": 57,
+      "chapter_sentence_end": 57,
+      "timeline_start_index": 1750,
+      "timeline_end_index": 1750,
+      "highlights": [
+        {
+          "chapter_sentence": 57,
+          "start": 21,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_27_0007",
+      "source_section": "chapter_01_27",
+      "source_sentence": 71,
+      "character_position": 234,
+      "text": "вашу mauvaise humeur",
+      "vad": [
+        -0.45,
+        -0.2,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3386929425426413,
+      "warning": null,
+      "chapter_sentence_start": 71,
+      "chapter_sentence_end": 71,
+      "timeline_start_index": 1764,
+      "timeline_end_index": 1764,
+      "highlights": [
+        {
+          "chapter_sentence": 71,
+          "start": 25,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_27_0008",
+      "source_section": "chapter_01_27",
+      "source_sentence": 72,
+      "character_position": 235,
+      "text": "Нехлюдов испытал чувство, подобное тому, которое должна испытывать лошадь, когда ее оглаживают, чтобы надеть узду и вести запрягать",
+      "vad": [
+        -0.6,
+        0.25,
+        -0.7
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.4197842482624981,
+      "warning": null,
+      "chapter_sentence_start": 72,
+      "chapter_sentence_end": 72,
+      "timeline_start_index": 1765,
+      "timeline_end_index": 1765,
+      "highlights": [
+        {
+          "chapter_sentence": 72,
+          "start": 0,
+          "end": 131
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_27_0009",
+      "source_section": "chapter_01_27",
+      "source_sentence": 73,
+      "character_position": 236,
+      "text": "ему нынче больше, чем когда-нибудь, было неприятно возить",
+      "vad": [
+        -0.72,
+        0.18,
+        -0.34
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3092273178788436,
+      "warning": null,
+      "chapter_sentence_start": 73,
+      "chapter_sentence_end": 73,
+      "timeline_start_index": 1766,
+      "timeline_end_index": 1766,
+      "highlights": [
+        {
+          "chapter_sentence": 73,
+          "start": 2,
+          "end": 59
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_27_0010",
+      "source_section": "chapter_01_27",
+      "source_sentence": 78,
+      "character_position": 237,
+      "text": "чувствуя стыд, он сам не знал, за себя или за нее, он покраснел",
+      "vad": [
+        -0.75,
+        0.55,
+        -0.45
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.0992331289482085,
+      "warning": null,
+      "chapter_sentence_start": 78,
+      "chapter_sentence_end": 78,
+      "timeline_start_index": 1771,
+      "timeline_end_index": 1771,
+      "highlights": [
+        {
+          "chapter_sentence": 78,
+          "start": 33,
+          "end": 96
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "1_34",
+  "count": 10,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_34_0001",
+      "source_section": "chapter_01_34",
+      "source_sentence": 11,
+      "character_position": 308,
+      "text": "никакого неприятного чувства",
+      "vad": [
+        0.2,
+        0.0,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.5448835013517578,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 2295,
+      "timeline_end_index": 2295,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 48,
+          "end": 76
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_34_0002",
+      "source_section": "chapter_01_34",
+      "source_sentence": 12,
+      "character_position": 309,
+      "text": "Нехлюдову хотелось и всем присяжным сказать про свое отношение к вчерашней подсудимой.",
+      "vad": [
+        -0.35,
+        0.35,
+        0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3106056746209565,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 2296,
+      "timeline_end_index": 2296,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 0,
+          "end": 86
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_34_0003",
+      "source_section": "chapter_01_34",
+      "source_sentence": 13,
+      "character_position": 310,
+      "text": "надо было встать и публично объявить свою вину",
+      "vad": [
+        -0.65,
+        0.25,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2503256356241608,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 2297,
+      "timeline_end_index": 2297,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 50,
+          "end": 96
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_34_0004",
+      "source_section": "chapter_01_34",
+      "source_sentence": 14,
+      "character_position": 311,
+      "text": "он почувствовал, что хотя и нужно было сделать это, он и вчера не мог бы разорвать эту торжественность",
+      "vad": [
+        -0.45,
+        0.25,
+        -0.65
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.4547215468613129,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 2298,
+      "timeline_end_index": 2298,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 245,
+          "end": 347
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_34_0005",
+      "source_section": "chapter_01_34",
+      "source_sentence": 46,
+      "character_position": 312,
+      "text": "Я – распутник, блудник, обманщик",
+      "vad": [
+        -0.85,
+        0.25,
+        -0.45
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2770879417730366,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 2330,
+      "timeline_end_index": 2330,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 0,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_34_0006",
+      "source_section": "chapter_01_34",
+      "source_sentence": 55,
+      "character_position": 313,
+      "text": "с необыкновенной живостью и ясностью думал Нехлюдов",
+      "vad": [
+        0.1,
+        0.45,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.5577327769682033,
+      "warning": null,
+      "chapter_sentence_start": 55,
+      "chapter_sentence_end": 55,
+      "timeline_start_index": 2339,
+      "timeline_end_index": 2339,
+      "highlights": [
+        {
+          "chapter_sentence": 55,
+          "start": 224,
+          "end": 275
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_34_0007",
+      "source_section": "chapter_01_34",
+      "source_sentence": 61,
+      "character_position": 314,
+      "text": "Ужасно!",
+      "vad": [
+        -0.95,
+        0.85,
+        -0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.4334988258435542,
+      "warning": null,
+      "chapter_sentence_start": 61,
+      "chapter_sentence_end": 61,
+      "timeline_start_index": 2345,
+      "timeline_end_index": 2345,
+      "highlights": [
+        {
+          "chapter_sentence": 61,
+          "start": 0,
+          "end": 7
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_34_0008",
+      "source_section": "chapter_01_34",
+      "source_sentence": 62,
+      "character_position": 315,
+      "text": "Не знаешь, чего тут больше – жестокости или нелепости.",
+      "vad": [
+        -0.82,
+        0.58,
+        -0.18
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2374380364044631,
+      "warning": null,
+      "chapter_sentence_start": 62,
+      "chapter_sentence_end": 62,
+      "timeline_start_index": 2346,
+      "timeline_end_index": 2346,
+      "highlights": [
+        {
+          "chapter_sentence": 62,
+          "start": 0,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_34_0009",
+      "source_section": "chapter_01_34",
+      "source_sentence": 65,
+      "character_position": 316,
+      "text": "сам ужасался на то, что ему открывалось",
+      "vad": [
+        -0.9,
+        0.8,
+        -0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3663650458372982,
+      "warning": null,
+      "chapter_sentence_start": 65,
+      "chapter_sentence_end": 65,
+      "timeline_start_index": 2349,
+      "timeline_end_index": 2349,
+      "highlights": [
+        {
+          "chapter_sentence": 65,
+          "start": 2,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_34_0010",
+      "source_section": "chapter_01_34",
+      "source_sentence": 66,
+      "character_position": 317,
+      "text": "Он удивлялся",
+      "vad": [
+        0.0,
+        0.45,
+        -0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4807650722098192,
+      "warning": null,
+      "chapter_sentence_start": 66,
+      "chapter_sentence_end": 66,
+      "timeline_start_index": 2350,
+      "timeline_end_index": 2350,
+      "highlights": [
+        {
+          "chapter_sentence": 66,
+          "start": 0,
+          "end": 12
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "3_11",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_11_0002",
+      "source_section": "chapter_03_11",
+      "source_sentence": 45,
+      "character_position": 770,
+      "text": "один этот человек был неприятен ему",
+      "vad": [
+        -0.65,
+        0.05,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3217035687473824,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 8217,
+      "timeline_end_index": 8217,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 81,
+          "end": 116
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_11_0003",
+      "source_section": "chapter_03_11",
+      "source_sentence": 50,
+      "character_position": 771,
+      "text": "в душе он далеко не был равнодушен к Новодворову",
+      "vad": [
+        -0.35,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.2108807596612855,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 50,
+      "timeline_start_index": 8222,
+      "timeline_end_index": 8222,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 40,
+          "end": 88
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_11_0004",
+      "source_section": "chapter_03_11",
+      "source_sentence": 51,
+      "character_position": 772,
+      "text": "то благодушное настроение, в котором находился Нехлюдов",
+      "vad": [
+        0.7,
+        -0.3,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.5862183878891213,
+      "warning": null,
+      "chapter_sentence_start": 51,
+      "chapter_sentence_end": 51,
+      "timeline_start_index": 8223,
+      "timeline_end_index": 8223,
+      "highlights": [
+        {
+          "chapter_sentence": 51,
+          "start": 83,
+          "end": 138
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_11_0005",
+      "source_section": "chapter_03_11",
+      "source_sentence": 52,
+      "character_position": 773,
+      "text": "ему стало уныло и грустно",
+      "vad": [
+        -0.72,
+        -0.2,
+        -0.18
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.5283771943424538,
+      "warning": null,
+      "chapter_sentence_start": 52,
+      "chapter_sentence_end": 52,
+      "timeline_start_index": 8224,
+      "timeline_end_index": 8224,
+      "highlights": [
+        {
+          "chapter_sentence": 52,
+          "start": 2,
+          "end": 27
+        }
+      ]
+    }
+  ]
+}

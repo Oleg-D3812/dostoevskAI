@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "1_25",
+  "count": 8,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_25_0001",
+      "source_section": "chapter_01_25",
+      "source_sentence": 1,
+      "character_position": 203,
+      "text": "несколько успокоили Нехлюдова",
+      "vad": [
+        0.3,
+        -0.25,
+        0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.6003018538698984,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 1555,
+      "timeline_end_index": 1555,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 41,
+          "end": 70
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_25_0002",
+      "source_section": "chapter_01_25",
+      "source_sentence": 2,
+      "character_position": 204,
+      "text": "испытываемое им чувство было им преувеличено",
+      "vad": [
+        -0.1,
+        -0.3,
+        0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.5232667245655275,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 1556,
+      "timeline_end_index": 1556,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 23,
+          "end": 67
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_25_0003",
+      "source_section": "chapter_01_25",
+      "source_sentence": 20,
+      "character_position": 205,
+      "text": "Меня это мучает",
+      "vad": [
+        -0.85,
+        0.65,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2066085502464271,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 1574,
+      "timeline_end_index": 1574,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 0,
+          "end": 15
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_25_0004",
+      "source_section": "chapter_01_25",
+      "source_sentence": 27,
+      "character_position": 206,
+      "text": "Нехлюдов хотел кончить поскорее самое трудное",
+      "vad": [
+        -0.35,
+        0.2,
+        0.25
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.2698232844472896,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 1581,
+      "timeline_end_index": 1581,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 0,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_25_0005",
+      "source_section": "chapter_01_25",
+      "source_sentence": 36,
+      "character_position": 207,
+      "text": "еще более успокоили его",
+      "vad": [
+        0.65,
+        -0.45,
+        0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.7203319989945682,
+      "warning": null,
+      "chapter_sentence_start": 36,
+      "chapter_sentence_end": 36,
+      "timeline_start_index": 1590,
+      "timeline_end_index": 1590,
+      "highlights": [
+        {
+          "chapter_sentence": 36,
+          "start": 69,
+          "end": 92
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_25_0006",
+      "source_section": "chapter_01_25",
+      "source_sentence": 38,
+      "character_position": 208,
+      "text": "радостно вдохнул весенний воздух",
+      "vad": [
+        0.8,
+        0.4,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.2746592663374647,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 1592,
+      "timeline_end_index": 1592,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 27,
+          "end": 59
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_25_0007",
+      "source_section": "chapter_01_25",
+      "source_sentence": 40,
+      "character_position": 209,
+      "text": "ему стало уныло и все показалось мрачно",
+      "vad": [
+        -0.78,
+        -0.28,
+        -0.22
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.6338276396641609,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 1594,
+      "timeline_end_index": 1594,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 2,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_25_0008",
+      "source_section": "chapter_01_25",
+      "source_sentence": 41,
+      "character_position": 210,
+      "text": "надо развлечься от тяжелых впечатлений",
+      "vad": [
+        -0.45,
+        0.2,
+        0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3834397711728925,
+      "warning": null,
+      "chapter_sentence_start": 41,
+      "chapter_sentence_end": 41,
+      "timeline_start_index": 1595,
+      "timeline_end_index": 1595,
+      "highlights": [
+        {
+          "chapter_sentence": 41,
+          "start": 67,
+          "end": 105
+        }
+      ]
+    }
+  ]
+}

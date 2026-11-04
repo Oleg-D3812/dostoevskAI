@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "3_19",
+  "count": 13,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_19_0001",
+      "source_section": "chapter_03_19",
+      "source_sentence": 7,
+      "character_position": 788,
+      "text": "самым ужасным ему показался мальчик",
+      "vad": [
+        -0.85,
+        0.55,
+        -0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3101306994459883,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 8681,
+      "timeline_end_index": 8681,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 41,
+          "end": 76
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_19_0002",
+      "source_section": "chapter_03_19",
+      "source_sentence": 8,
+      "character_position": 789,
+      "text": "отношение его к этому было слишком сложно и вместе с тем неопределенно",
+      "vad": [
+        -0.2,
+        0.2,
+        -0.5
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.5178493281150716,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 8682,
+      "timeline_end_index": 8682,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 123,
+          "end": 193
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_19_0003",
+      "source_section": "chapter_03_19",
+      "source_sentence": 9,
+      "character_position": 790,
+      "text": "который не выходил у него из головы",
+      "vad": [
+        -0.45,
+        0.2,
+        -0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3248530719028721,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 8683,
+      "timeline_end_index": 8683,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 217,
+          "end": 252
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_19_0004",
+      "source_section": "chapter_03_19",
+      "source_sentence": 12,
+      "character_position": 791,
+      "text": "Я ли сумасшедший",
+      "vad": [
+        -0.55,
+        0.35,
+        -0.45
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2346394534074634,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 8686,
+      "timeline_end_index": 8686,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 59,
+          "end": 75
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_19_0005",
+      "source_section": "chapter_03_19",
+      "source_sentence": 13,
+      "character_position": 792,
+      "text": "его так удивляло и ужасало",
+      "vad": [
+        -0.9,
+        0.85,
+        -0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.4099164596732649,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 8687,
+      "timeline_end_index": 8687,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 50,
+          "end": 76
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_19_0006",
+      "source_section": "chapter_03_19",
+      "source_sentence": 13,
+      "character_position": 793,
+      "text": "себя же сумасшедшим он не мог признать",
+      "vad": [
+        0.1,
+        0.0,
+        0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.5757048659853385,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 8687,
+      "timeline_end_index": 8687,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 258,
+          "end": 296
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_19_0007",
+      "source_section": "chapter_03_19",
+      "source_sentence": 14,
+      "character_position": 794,
+      "text": "постоянно находился в недоумении",
+      "vad": [
+        -0.45,
+        0.2,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3705907133243374,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 8688,
+      "timeline_end_index": 8688,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 9,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_19_0008",
+      "source_section": "chapter_03_19",
+      "source_sentence": 27,
+      "character_position": 795,
+      "text": "поразил Нехлюдова безнравственностью своих суждений",
+      "vad": [
+        -0.65,
+        0.55,
+        -0.15
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2477904033078891,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 8701,
+      "timeline_end_index": 8701,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 132,
+          "end": 183
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_19_0009",
+      "source_section": "chapter_03_19",
+      "source_sentence": 40,
+      "character_position": 796,
+      "text": "что более всего удивляло его",
+      "vad": [
+        0.0,
+        0.45,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4717193420900773,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 8714,
+      "timeline_end_index": 8714,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 2,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_19_0010",
+      "source_section": "chapter_03_19",
+      "source_sentence": 41,
+      "character_position": 797,
+      "text": "не удовлетворяло Нехлюдова",
+      "vad": [
+        -0.55,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.22917054283196,
+      "warning": null,
+      "chapter_sentence_start": 41,
+      "chapter_sentence_end": 41,
+      "timeline_start_index": 8715,
+      "timeline_end_index": 8715,
+      "highlights": [
+        {
+          "chapter_sentence": 41,
+          "start": 203,
+          "end": 229
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_19_0012",
+      "source_section": "chapter_03_19",
+      "source_sentence": 41,
+      "character_position": 798,
+      "text": "что возмущало его",
+      "vad": [
+        -0.8,
+        0.6,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.4006789094814056,
+      "warning": null,
+      "chapter_sentence_start": 41,
+      "chapter_sentence_end": 41,
+      "timeline_start_index": 8715,
+      "timeline_end_index": 8715,
+      "highlights": [
+        {
+          "chapter_sentence": 41,
+          "start": 27,
+          "end": 44
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_19_0013",
+      "source_section": "chapter_03_19",
+      "source_sentence": 42,
+      "character_position": 799,
+      "text": "еще более возмущали его",
+      "vad": [
+        -0.82,
+        0.78,
+        -0.18
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.365526263803846,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 8716,
+      "timeline_end_index": 8716,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 145,
+          "end": 168
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_19_0014",
+      "source_section": "chapter_03_19",
+      "source_sentence": 43,
+      "character_position": 800,
+      "text": "Возмущало Нехлюдова",
+      "vad": [
+        -0.75,
+        0.65,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.4116576459951031,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 8717,
+      "timeline_end_index": 8717,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 0,
+          "end": 19
+        }
+      ]
+    }
+  ]
+}

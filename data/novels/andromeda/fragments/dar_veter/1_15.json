@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "novel_id": "andromeda",
+  "character_id": "dar_veter",
+  "chapter_id": "1_15",
+  "count": 7,
+  "fragments": [
+    {
+      "id": "dar_veter::chapter_01_15_0001",
+      "source_section": "chapter_01_15",
+      "source_sentence": 14,
+      "character_position": 84,
+      "text": "Дар Ветер наслаждался не только прекрасным очарованием Земли — голубым небом в невестином платье из легких белых облаков, — но и пыльной почвой, редкой и жесткой травой.",
+      "vad": [
+        0.85,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "dar_veter-2",
+      "distance_to_centroid": 0.2795345252044011,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 6748,
+      "timeline_end_index": 6748,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 0,
+          "end": 169
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_15_0002",
+      "source_section": "chapter_01_15",
+      "source_sentence": 34,
+      "character_position": 85,
+      "text": "Как и в прошлые дни сомнений, Дар Ветер восхитился смелой мыслью Рен Боза и Мвена Maca.",
+      "vad": [
+        0.8,
+        0.45,
+        0.1
+      ],
+      "cluster_id": "dar_veter-2",
+      "distance_to_centroid": 0.1931212074870339,
+      "warning": "non_verbatim_evidence;empty_evidence",
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 6768,
+      "timeline_end_index": 6768,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 0,
+          "end": 87
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_15_0004",
+      "source_section": "chapter_01_15",
+      "source_sentence": 84,
+      "character_position": 86,
+      "text": "радостно улыбнулся",
+      "vad": [
+        0.8,
+        0.3,
+        0.0
+      ],
+      "cluster_id": "dar_veter-2",
+      "distance_to_centroid": 0.2552857238101065,
+      "warning": null,
+      "chapter_sentence_start": 84,
+      "chapter_sentence_end": 84,
+      "timeline_start_index": 6818,
+      "timeline_end_index": 6818,
+      "highlights": [
+        {
+          "chapter_sentence": 84,
+          "start": 164,
+          "end": 182
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_15_0005",
+      "source_section": "chapter_01_15",
+      "source_sentence": 131,
+      "character_position": 87,
+      "text": "Ты начал волноваться?",
+      "vad": [
+        -0.1,
+        0.25,
+        0.0
+      ],
+      "cluster_id": "dar_veter-3",
+      "distance_to_centroid": 0.4242972617771729,
+      "warning": null,
+      "chapter_sentence_start": 131,
+      "chapter_sentence_end": 131,
+      "timeline_start_index": 6865,
+      "timeline_end_index": 6865,
+      "highlights": [
+        {
+          "chapter_sentence": 131,
+          "start": 2,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_15_0006",
+      "source_section": "chapter_01_15",
+      "source_sentence": 134,
+      "character_position": 88,
+      "text": "Для меня мучительно подумать, что они уходят навсегда и этот корабль я больше не увижу.",
+      "vad": [
+        -0.85,
+        0.55,
+        -0.65
+      ],
+      "cluster_id": "dar_veter-1",
+      "distance_to_centroid": 0.5365870224418974,
+      "warning": null,
+      "chapter_sentence_start": 134,
+      "chapter_sentence_end": 134,
+      "timeline_start_index": 6868,
+      "timeline_end_index": 6868,
+      "highlights": [
+        {
+          "chapter_sentence": 134,
+          "start": 0,
+          "end": 87
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_15_0007",
+      "source_section": "chapter_01_15",
+      "source_sentence": 135,
+      "character_position": 89,
+      "text": "Что-то внутри меня протестует против этой обязательной обреченности.",
+      "vad": [
+        -0.65,
+        0.55,
+        -0.2
+      ],
+      "cluster_id": "dar_veter-1",
+      "distance_to_centroid": 0.2094139538847225,
+      "warning": null,
+      "chapter_sentence_start": 135,
+      "chapter_sentence_end": 135,
+      "timeline_start_index": 6869,
+      "timeline_end_index": 6869,
+      "highlights": [
+        {
+          "chapter_sentence": 135,
+          "start": 0,
+          "end": 68
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_15_0008",
+      "source_section": "chapter_01_15",
+      "source_sentence": 138,
+      "character_position": 90,
+      "text": "Это неизбывный протест человека против неумолимого времени.",
+      "vad": [
+        -0.65,
+        0.5,
+        -0.35
+      ],
+      "cluster_id": "dar_veter-1",
+      "distance_to_centroid": 0.1949283489502997,
+      "warning": null,
+      "chapter_sentence_start": 138,
+      "chapter_sentence_end": 138,
+      "timeline_start_index": 6872,
+      "timeline_end_index": 6872,
+      "highlights": [
+        {
+          "chapter_sentence": 138,
+          "start": 2,
+          "end": 61
+        }
+      ]
+    }
+  ]
+}

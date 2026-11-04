@@ -1,0 +1,399 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "1_43",
+  "count": 15,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_01_43_0001",
+      "source_section": "chapter_01_43",
+      "source_sentence": 1,
+      "character_position": 132,
+      "text": "с своим, знакомым Нехлюдову, выражением готовности",
+      "vad": [
+        0.2,
+        0.3,
+        0.4
+      ],
+      "cluster_id": "ekaterina_maslova-4",
+      "distance_to_centroid": 0.3880704667824816,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 2772,
+      "timeline_end_index": 2772,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 61,
+          "end": 111
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_43_0002",
+      "source_section": "chapter_01_43",
+      "source_sentence": 1,
+      "character_position": 133,
+      "text": "удивленно-вопросительно уставилась",
+      "vad": [
+        -0.1,
+        0.45,
+        -0.1
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.405927709539543,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 2772,
+      "timeline_end_index": 2772,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 174,
+          "end": 208
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_43_0003",
+      "source_section": "chapter_01_43",
+      "source_sentence": 14,
+      "character_position": 134,
+      "text": "Но она не поверила себе",
+      "vad": [
+        -0.35,
+        0.15,
+        -0.45
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.2275090244791998,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 2785,
+      "timeline_end_index": 2785,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 0,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_43_0004",
+      "source_section": "chapter_01_43",
+      "source_sentence": 15,
+      "character_position": 135,
+      "text": "лоб стал страдальчески морщиться",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.25
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.246599277527539,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 2786,
+      "timeline_end_index": 2786,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 37,
+          "end": 69
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_43_0005",
+      "source_section": "chapter_01_43",
+      "source_sentence": 24,
+      "character_position": 136,
+      "text": "лицо ее стало еще мрачнее",
+      "vad": [
+        -0.75,
+        0.25,
+        0.0
+      ],
+      "cluster_id": "ekaterina_maslova-6",
+      "distance_to_centroid": 0.2785061370438249,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 2795,
+      "timeline_end_index": 2795,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 81,
+          "end": 106
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_43_0006",
+      "source_section": "chapter_01_43",
+      "source_sentence": 41,
+      "character_position": 137,
+      "text": "лицо, нездоровое, пухлое и белое, было миловидно и совершенно спокойно",
+      "vad": [
+        0.15,
+        -0.4,
+        0.1
+      ],
+      "cluster_id": "ekaterina_maslova-4",
+      "distance_to_centroid": 0.4192353296859156,
+      "warning": null,
+      "chapter_sentence_start": 41,
+      "chapter_sentence_end": 41,
+      "timeline_start_index": 2812,
+      "timeline_end_index": 2812,
+      "highlights": [
+        {
+          "chapter_sentence": 41,
+          "start": 74,
+          "end": 144
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_43_0007",
+      "source_section": "chapter_01_43",
+      "source_sentence": 44,
+      "character_position": 138,
+      "text": "как бы с удивлением пожав плечами",
+      "vad": [
+        0.0,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "ekaterina_maslova-4",
+      "distance_to_centroid": 0.2676985561709424,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 2815,
+      "timeline_end_index": 2815,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 65,
+          "end": 98
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_43_0008",
+      "source_section": "chapter_01_43",
+      "source_sentence": 60,
+      "character_position": 139,
+      "text": "коротко и злобно ответила она",
+      "vad": [
+        -0.65,
+        0.55,
+        0.25
+      ],
+      "cluster_id": "ekaterina_maslova-6",
+      "distance_to_centroid": 0.1798970974428745,
+      "warning": null,
+      "chapter_sentence_start": 60,
+      "chapter_sentence_end": 60,
+      "timeline_start_index": 2831,
+      "timeline_end_index": 2831,
+      "highlights": [
+        {
+          "chapter_sentence": 60,
+          "start": 33,
+          "end": 62
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_43_0010",
+      "source_section": "chapter_01_43",
+      "source_sentence": 72,
+      "character_position": 140,
+      "text": "появление его поразило ее",
+      "vad": [
+        -0.35,
+        0.7,
+        -0.45
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.3988194659102896,
+      "warning": null,
+      "chapter_sentence_start": 72,
+      "chapter_sentence_end": 72,
+      "timeline_start_index": 2843,
+      "timeline_end_index": 2843,
+      "highlights": [
+        {
+          "chapter_sentence": 72,
+          "start": 88,
+          "end": 113
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_43_0011",
+      "source_section": "chapter_01_43",
+      "source_sentence": 73,
+      "character_position": 141,
+      "text": "любившим ее и любимым ею",
+      "vad": [
+        0.85,
+        0.3,
+        0.0
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.1806855301413733,
+      "warning": null,
+      "chapter_sentence_start": 73,
+      "chapter_sentence_end": 73,
+      "timeline_start_index": 2844,
+      "timeline_end_index": 2844,
+      "highlights": [
+        {
+          "chapter_sentence": 73,
+          "start": 120,
+          "end": 144
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_43_0013",
+      "source_section": "chapter_01_43",
+      "source_sentence": 73,
+      "character_position": 142,
+      "text": "волшебным счастьем",
+      "vad": [
+        0.9,
+        0.5,
+        0.1
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.2031557550316236,
+      "warning": null,
+      "chapter_sentence_start": 73,
+      "chapter_sentence_end": 73,
+      "timeline_start_index": 2844,
+      "timeline_end_index": 2844,
+      "highlights": [
+        {
+          "chapter_sentence": 73,
+          "start": 245,
+          "end": 263
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_43_0014",
+      "source_section": "chapter_01_43",
+      "source_sentence": 74,
+      "character_position": 143,
+      "text": "ей сделалось больно",
+      "vad": [
+        -0.8,
+        0.3,
+        -0.4
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.3926951855598054,
+      "warning": null,
+      "chapter_sentence_start": 74,
+      "chapter_sentence_end": 74,
+      "timeline_start_index": 2845,
+      "timeline_end_index": 2845,
+      "highlights": [
+        {
+          "chapter_sentence": 74,
+          "start": 2,
+          "end": 21
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_43_0015",
+      "source_section": "chapter_01_43",
+      "source_sentence": 76,
+      "character_position": 144,
+      "text": "это слишком больно",
+      "vad": [
+        -0.9,
+        0.65,
+        -0.45
+      ],
+      "cluster_id": "ekaterina_maslova-5",
+      "distance_to_centroid": 0.147344602350515,
+      "warning": null,
+      "chapter_sentence_start": 76,
+      "chapter_sentence_end": 76,
+      "timeline_start_index": 2847,
+      "timeline_end_index": 2847,
+      "highlights": [
+        {
+          "chapter_sentence": 76,
+          "start": 131,
+          "end": 149
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_43_0016",
+      "source_section": "chapter_01_43",
+      "source_sentence": 115,
+      "character_position": 145,
+      "text": "презрительно, как ему показалось, улыбаясь",
+      "vad": [
+        -0.55,
+        0.15,
+        0.55
+      ],
+      "cluster_id": "ekaterina_maslova-6",
+      "distance_to_centroid": 0.4171793874870219,
+      "warning": null,
+      "chapter_sentence_start": 115,
+      "chapter_sentence_end": 115,
+      "timeline_start_index": 2886,
+      "timeline_end_index": 2886,
+      "highlights": [
+        {
+          "chapter_sentence": 115,
+          "start": 39,
+          "end": 81
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_43_0019",
+      "source_section": "chapter_01_43",
+      "source_sentence": 127,
+      "character_position": 146,
+      "text": "покорно ожидая",
+      "vad": [
+        -0.3,
+        -0.45,
+        -0.7
+      ],
+      "cluster_id": "ekaterina_maslova-3",
+      "distance_to_centroid": 0.4235498134156646,
+      "warning": null,
+      "chapter_sentence_start": 127,
+      "chapter_sentence_end": 127,
+      "timeline_start_index": 2898,
+      "timeline_end_index": 2898,
+      "highlights": [
+        {
+          "chapter_sentence": 127,
+          "start": 16,
+          "end": 30
+        }
+      ]
+    }
+  ]
+}

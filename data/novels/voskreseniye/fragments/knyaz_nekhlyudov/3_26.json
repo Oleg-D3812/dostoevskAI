@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "3_26",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_26_0001",
+      "source_section": "chapter_03_26",
+      "source_sentence": 75,
+      "character_position": 845,
+      "text": "испытывая все ту же усталость и безнадежность",
+      "vad": [
+        -0.85,
+        -0.7,
+        -0.75
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 1.2194140784800382,
+      "warning": null,
+      "chapter_sentence_start": 75,
+      "chapter_sentence_end": 75,
+      "timeline_start_index": 9278,
+      "timeline_end_index": 9278,
+      "highlights": [
+        {
+          "chapter_sentence": 75,
+          "start": 58,
+          "end": 103
+        }
+      ]
+    }
+  ]
+}

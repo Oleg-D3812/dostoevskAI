@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "3_16",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_03_16_0001",
+      "source_section": "chapter_03_16",
+      "source_sentence": 38,
+      "character_position": 281,
+      "text": "Катюша покраснела и как бы недоумевающе покачала головой",
+      "vad": [
+        -0.25,
+        0.35,
+        -0.2
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.2080727145124077,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 8478,
+      "timeline_end_index": 8478,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 65,
+          "end": 121
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_03_16_0002",
+      "source_section": "chapter_03_16",
+      "source_sentence": 68,
+      "character_position": 282,
+      "text": "она не хочет вашей жертвы",
+      "vad": [
+        -0.4,
+        0.1,
+        0.1
+      ],
+      "cluster_id": "ekaterina_maslova-6",
+      "distance_to_centroid": 0.3683392138765324,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 8508,
+      "timeline_end_index": 8508,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 9,
+          "end": 34
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_03_16_0003",
+      "source_section": "chapter_03_16",
+      "source_sentence": 94,
+      "character_position": 283,
+      "text": "эта пострадавшая душа",
+      "vad": [
+        -0.75,
+        -0.2,
+        -0.6
+      ],
+      "cluster_id": "ekaterina_maslova-3",
+      "distance_to_centroid": 0.4068920140665224,
+      "warning": null,
+      "chapter_sentence_start": 94,
+      "chapter_sentence_end": 94,
+      "timeline_start_index": 8534,
+      "timeline_end_index": 8534,
+      "highlights": [
+        {
+          "chapter_sentence": 94,
+          "start": 47,
+          "end": 68
+        }
+      ]
+    }
+  ]
+}

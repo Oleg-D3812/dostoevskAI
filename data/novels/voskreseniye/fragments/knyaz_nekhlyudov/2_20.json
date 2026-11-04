@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "2_20",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_20_0002",
+      "source_section": "chapter_02_20",
+      "source_sentence": 39,
+      "character_position": 562,
+      "text": "Удивившая Нехлюдова горячность",
+      "vad": [
+        0.0,
+        0.65,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.6374854114508206,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 5744,
+      "timeline_end_index": 5744,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 0,
+          "end": 30
+        }
+      ]
+    }
+  ]
+}

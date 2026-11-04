@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "3_8",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_03_08_0001",
+      "source_section": "chapter_03_08",
+      "source_sentence": 75,
+      "character_position": 279,
+      "text": "Это несчастная женщина",
+      "vad": [
+        -0.65,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "ekaterina_maslova-6",
+      "distance_to_centroid": 0.3489919742641706,
+      "warning": null,
+      "chapter_sentence_start": 75,
+      "chapter_sentence_end": 75,
+      "timeline_start_index": 8060,
+      "timeline_end_index": 8060,
+      "highlights": [
+        {
+          "chapter_sentence": 75,
+          "start": 2,
+          "end": 24
+        }
+      ]
+    }
+  ]
+}

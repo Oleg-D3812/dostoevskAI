@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "2_42",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_42_0001",
+      "source_section": "chapter_02_42",
+      "source_sentence": 8,
+      "character_position": 734,
+      "text": "не желая встречаться",
+      "vad": [
+        -0.35,
+        -0.1,
+        0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3014729170403467,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 7562,
+      "timeline_end_index": 7562,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 10,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_42_0002",
+      "source_section": "chapter_02_42",
+      "source_sentence": 10,
+      "character_position": 735,
+      "text": "запала, как это часто бывает, почему-то в память Нехлюдову",
+      "vad": [
+        0.0,
+        0.1,
+        -0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3489803773736581,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 7564,
+      "timeline_end_index": 7564,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 41,
+          "end": 99
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_42_0004",
+      "source_section": "chapter_02_42",
+      "source_sentence": 51,
+      "character_position": 736,
+      "text": "«Да, совсем новый, другой, новый мир», – думал Нехлюдов",
+      "vad": [
+        0.65,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.1731512731073175,
+      "warning": null,
+      "chapter_sentence_start": 51,
+      "chapter_sentence_end": 51,
+      "timeline_start_index": 7605,
+      "timeline_end_index": 7605,
+      "highlights": [
+        {
+          "chapter_sentence": 51,
+          "start": 0,
+          "end": 55
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_42_0005",
+      "source_section": "chapter_02_42",
+      "source_sentence": 51,
+      "character_position": 737,
+      "text": "чувствуя себя со всех сторон окруженным совсем новыми людьми",
+      "vad": [
+        0.2,
+        0.3,
+        -0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.5373963671650341,
+      "warning": null,
+      "chapter_sentence_start": 51,
+      "chapter_sentence_end": 51,
+      "timeline_start_index": 7605,
+      "timeline_end_index": 7605,
+      "highlights": [
+        {
+          "chapter_sentence": 51,
+          "start": 164,
+          "end": 224
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_42_0006",
+      "source_section": "chapter_02_42",
+      "source_sentence": 52,
+      "character_position": 738,
+      "text": "«Вот он, le vrai grand monde», – думал Нехлюдов",
+      "vad": [
+        0.75,
+        0.25,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.1999732479273706,
+      "warning": null,
+      "chapter_sentence_start": 52,
+      "chapter_sentence_end": 52,
+      "timeline_start_index": 7606,
+      "timeline_end_index": 7606,
+      "highlights": [
+        {
+          "chapter_sentence": 52,
+          "start": 2,
+          "end": 49
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_42_0008",
+      "source_section": "chapter_02_42",
+      "source_sentence": 53,
+      "character_position": 739,
+      "text": "испытывал чувство радости путешественника, открывшего новый, неизвестный и прекрасный мир",
+      "vad": [
+        0.9,
+        0.6,
+        0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.4470818236402357,
+      "warning": null,
+      "chapter_sentence_start": 53,
+      "chapter_sentence_end": 53,
+      "timeline_start_index": 7607,
+      "timeline_end_index": 7607,
+      "highlights": [
+        {
+          "chapter_sentence": 53,
+          "start": 5,
+          "end": 94
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "2_36",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_36_0001",
+      "source_section": "chapter_02_36",
+      "source_sentence": 3,
+      "character_position": 694,
+      "text": "эти мысли уже не волновали его, как утром",
+      "vad": [
+        -0.2,
+        -0.3,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4403149658934894,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 6888,
+      "timeline_end_index": 6888,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 75,
+          "end": 116
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_36_0002",
+      "source_section": "chapter_02_36",
+      "source_sentence": 9,
+      "character_position": 695,
+      "text": "почувствовав непреодолимое желание освежиться",
+      "vad": [
+        0.2,
+        0.45,
+        -0.25
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.6696815861816328,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 6894,
+      "timeline_end_index": 6894,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 37,
+          "end": 82
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_36_0004",
+      "source_section": "chapter_02_36",
+      "source_sentence": 19,
+      "character_position": 696,
+      "text": "мысли его разбегались, и он никак не мог составить письма",
+      "vad": [
+        -0.45,
+        0.35,
+        -0.4
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3090279457956261,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 6904,
+      "timeline_end_index": 6904,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 3,
+          "end": 60
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_36_0005",
+      "source_section": "chapter_02_36",
+      "source_sentence": 20,
+      "character_position": 697,
+      "text": "под тяжелым впечатлением вчерашнего разговора с Игнатьем Никифоровичем",
+      "vad": [
+        -0.65,
+        0.3,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2036444964891957,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 6905,
+      "timeline_end_index": 6905,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 30,
+          "end": 100
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_36_0006",
+      "source_section": "chapter_02_36",
+      "source_sentence": 27,
+      "character_position": 698,
+      "text": "почувствовав поднявшуюся опять в нем ненависть к этому чуждому, самоуверенному, не понимающему его человеку",
+      "vad": [
+        -0.85,
+        0.7,
+        0.25
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.6739138689050733,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 6912,
+      "timeline_end_index": 6912,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 20,
+          "end": 127
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_36_0007",
+      "source_section": "chapter_02_36",
+      "source_sentence": 31,
+      "character_position": 699,
+      "text": "равнодушно глядя перед собою",
+      "vad": [
+        -0.3,
+        -0.45,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.5699572945692434,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 6916,
+      "timeline_end_index": 6916,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 177,
+          "end": 205
+        }
+      ]
+    }
+  ]
+}

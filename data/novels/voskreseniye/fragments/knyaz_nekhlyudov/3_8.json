@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "3_8",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_08_0001",
+      "source_section": "chapter_03_08",
+      "source_sentence": 58,
+      "character_position": 762,
+      "text": "были очень противны Нехлюдову",
+      "vad": [
+        -0.8,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.5019431359885781,
+      "warning": null,
+      "chapter_sentence_start": 58,
+      "chapter_sentence_end": 58,
+      "timeline_start_index": 8043,
+      "timeline_end_index": 8043,
+      "highlights": [
+        {
+          "chapter_sentence": 58,
+          "start": 79,
+          "end": 108
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_08_0002",
+      "source_section": "chapter_03_08",
+      "source_sentence": 58,
+      "character_position": 763,
+      "text": "находился в том серьезном и внимательном расположении духа",
+      "vad": [
+        0.1,
+        0.25,
+        0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.5224154202501988,
+      "warning": null,
+      "chapter_sentence_start": 58,
+      "chapter_sentence_end": 58,
+      "timeline_start_index": 8043,
+      "timeline_end_index": 8043,
+      "highlights": [
+        {
+          "chapter_sentence": 58,
+          "start": 164,
+          "end": 222
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_08_0003",
+      "source_section": "chapter_03_08",
+      "source_sentence": 89,
+      "character_position": 764,
+      "text": "теперь ненавижу такое отношение к женщинам",
+      "vad": [
+        -0.8,
+        0.5,
+        0.6
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.8538991188518369,
+      "warning": null,
+      "chapter_sentence_start": 89,
+      "chapter_sentence_end": 89,
+      "timeline_start_index": 8074,
+      "timeline_end_index": 8074,
+      "highlights": [
+        {
+          "chapter_sentence": 89,
+          "start": 104,
+          "end": 146
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "3_11",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_03_11_0001",
+      "source_section": "chapter_03_11",
+      "source_sentence": 13,
+      "character_position": 280,
+      "text": "вся красная и оживленная",
+      "vad": [
+        0.35,
+        0.7,
+        0.05
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.5014368628941591,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 8185,
+      "timeline_end_index": 8185,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 37,
+          "end": 61
+        }
+      ]
+    }
+  ]
+}

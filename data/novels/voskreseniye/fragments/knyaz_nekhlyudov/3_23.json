@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "3_23",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_23_0001",
+      "source_section": "chapter_03_23",
+      "source_sentence": 13,
+      "character_position": 809,
+      "text": "чувствуя себя в особенно возбужденно-деятельном духе",
+      "vad": [
+        0.6,
+        0.8,
+        0.7
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.7060349365524716,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 8985,
+      "timeline_end_index": 8985,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 33,
+          "end": 85
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_23_0002",
+      "source_section": "chapter_03_23",
+      "source_sentence": 20,
+      "character_position": 810,
+      "text": "почувствовал, что кровь бросилась ему в лицо и сердце сжалось",
+      "vad": [
+        -0.55,
+        0.78,
+        -0.25
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3648205609274428,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 8992,
+      "timeline_end_index": 8992,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 87,
+          "end": 148
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_23_0003",
+      "source_section": "chapter_03_23",
+      "source_sentence": 24,
+      "character_position": 811,
+      "text": "радостно вздохнул",
+      "vad": [
+        0.85,
+        0.35,
+        0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.2582857373314367,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 8996,
+      "timeline_end_index": 8996,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 95,
+          "end": 112
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_23_0006",
+      "source_section": "chapter_03_23",
+      "source_sentence": 49,
+      "character_position": 812,
+      "text": "никак не мог разобраться в этих мыслях",
+      "vad": [
+        -0.55,
+        0.35,
+        -0.65
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3523740279485628,
+      "warning": null,
+      "chapter_sentence_start": 49,
+      "chapter_sentence_end": 49,
+      "timeline_start_index": 9021,
+      "timeline_end_index": 9021,
+      "highlights": [
+        {
+          "chapter_sentence": 49,
+          "start": 3,
+          "end": 41
+        }
+      ]
+    }
+  ]
+}

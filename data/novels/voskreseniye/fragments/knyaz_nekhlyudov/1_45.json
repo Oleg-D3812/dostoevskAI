@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "1_45",
+  "count": 8,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_45_0001",
+      "source_section": "chapter_01_45",
+      "source_sentence": 1,
+      "character_position": 359,
+      "text": "Нехлюдову хотелось изменить свою внешнюю жизнь",
+      "vad": [
+        0.1,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4560266594975383,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 2940,
+      "timeline_end_index": 2940,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 0,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_45_0002",
+      "source_section": "chapter_01_45",
+      "source_sentence": 3,
+      "character_position": 360,
+      "text": "ему хотелось устроиться просто, по-студенчески",
+      "vad": [
+        0.25,
+        -0.2,
+        0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.5876719727072821,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 2942,
+      "timeline_end_index": 2942,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 58,
+          "end": 104
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_45_0003",
+      "source_section": "chapter_01_45",
+      "source_sentence": 6,
+      "character_position": 361,
+      "text": "Нехлюдов удивлялся",
+      "vad": [
+        -0.2,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.2682380727142446,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 2945,
+      "timeline_end_index": 2945,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 34,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_45_0004",
+      "source_section": "chapter_01_45",
+      "source_sentence": 30,
+      "character_position": 362,
+      "text": "чувствуя непреодолимое отвращение к этому развязному человеку",
+      "vad": [
+        -0.9,
+        0.6,
+        -0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3462353764929756,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 2969,
+      "timeline_end_index": 2969,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 94,
+          "end": 155
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_45_0005",
+      "source_section": "chapter_01_45",
+      "source_sentence": 50,
+      "character_position": 363,
+      "text": "с удивлением сказал Нехлюдов",
+      "vad": [
+        0.0,
+        0.45,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4717193420900773,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 50,
+      "timeline_start_index": 2989,
+      "timeline_end_index": 2989,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 44,
+          "end": 72
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_45_0006",
+      "source_section": "chapter_01_45",
+      "source_sentence": 55,
+      "character_position": 364,
+      "text": "еще более удивляясь, сказал Нехлюдов",
+      "vad": [
+        -0.1,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3303245274139326,
+      "warning": null,
+      "chapter_sentence_start": 55,
+      "chapter_sentence_end": 55,
+      "timeline_start_index": 2994,
+      "timeline_end_index": 2994,
+      "highlights": [
+        {
+          "chapter_sentence": 55,
+          "start": 71,
+          "end": 107
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_45_0007",
+      "source_section": "chapter_01_45",
+      "source_sentence": 101,
+      "character_position": 365,
+      "text": "С грустным и строгим лицом",
+      "vad": [
+        -0.55,
+        0.2,
+        0.25
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3442082876898114,
+      "warning": null,
+      "chapter_sentence_start": 101,
+      "chapter_sentence_end": 101,
+      "timeline_start_index": 3040,
+      "timeline_end_index": 3040,
+      "highlights": [
+        {
+          "chapter_sentence": 101,
+          "start": 0,
+          "end": 26
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_45_0008",
+      "source_section": "chapter_01_45",
+      "source_sentence": 108,
+      "character_position": 366,
+      "text": "радуясь случаю увидать ее раньше назначенного дня",
+      "vad": [
+        0.8,
+        0.4,
+        0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.238133479071876,
+      "warning": null,
+      "chapter_sentence_start": 108,
+      "chapter_sentence_end": 108,
+      "timeline_start_index": 3047,
+      "timeline_end_index": 3047,
+      "highlights": [
+        {
+          "chapter_sentence": 108,
+          "start": 56,
+          "end": 105
+        }
+      ]
+    }
+  ]
+}

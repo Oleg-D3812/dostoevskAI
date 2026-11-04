@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "1_24",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_24_0001",
+      "source_section": "chapter_01_24",
+      "source_sentence": 18,
+      "character_position": 200,
+      "text": "свое дурное чувство",
+      "vad": [
+        -0.6,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.2649445381398351,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 1519,
+      "timeline_end_index": 1519,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 88,
+          "end": 107
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_24_0002",
+      "source_section": "chapter_01_24",
+      "source_sentence": 18,
+      "character_position": 201,
+      "text": "сам не зная зачем",
+      "vad": [
+        -0.1,
+        0.1,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4167306881207797,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 1519,
+      "timeline_end_index": 1519,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 112,
+          "end": 129
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_24_0004",
+      "source_section": "chapter_01_24",
+      "source_sentence": 31,
+      "character_position": 202,
+      "text": "с сосредоточенно мрачным видом",
+      "vad": [
+        -0.55,
+        0.25,
+        0.15
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.2961694946070666,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 1532,
+      "timeline_end_index": 1532,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 66,
+          "end": 96
+        }
+      ]
+    }
+  ]
+}

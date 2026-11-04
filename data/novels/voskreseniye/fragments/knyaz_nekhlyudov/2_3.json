@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "2_3",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_03_0001",
+      "source_section": "chapter_02_03",
+      "source_sentence": 2,
+      "character_position": 462,
+      "text": "Он хотел и в этом имении устроить дело с землею так же, как он устроил его в Кузминском; кроме того, узнать все, что можно еще узнать про Катюшу и ее и своего ребенка",
+      "vad": [
+        0.2,
+        0.35,
+        0.55
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.5204900909789305,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 4189,
+      "timeline_end_index": 4189,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 0,
+          "end": 166
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_03_0002",
+      "source_section": "chapter_02_03",
+      "source_sentence": 18,
+      "character_position": 463,
+      "text": "почувствовал себя таким же, с той же свежестью, чистотой и исполненным самых великих возможностей будущим",
+      "vad": [
+        0.85,
+        0.4,
+        0.5
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.3766724797877842,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 4205,
+      "timeline_end_index": 4205,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 428,
+          "end": 533
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_03_0003",
+      "source_section": "chapter_02_03",
+      "source_sentence": 18,
+      "character_position": 464,
+      "text": "ему стало ужасно грустно",
+      "vad": [
+        -0.85,
+        0.25,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.4623594023073389,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 4205,
+      "timeline_end_index": 4205,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 604,
+          "end": 628
+        }
+      ]
+    }
+  ]
+}

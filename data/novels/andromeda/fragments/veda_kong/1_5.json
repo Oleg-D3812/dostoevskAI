@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "andromeda",
+  "character_id": "veda_kong",
+  "chapter_id": "1_5",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "veda_kong::chapter_01_05_0002",
+      "source_section": "chapter_01_05",
+      "source_sentence": 60,
+      "character_position": 36,
+      "text": "чье бесстрашие было скорее великолепной доверчивостью, чем действительным упорством",
+      "vad": [
+        0.35,
+        0.2,
+        0.15
+      ],
+      "cluster_id": "veda_kong-3",
+      "distance_to_centroid": 0.3268165724411181,
+      "warning": null,
+      "chapter_sentence_start": 60,
+      "chapter_sentence_end": 60,
+      "timeline_start_index": 2463,
+      "timeline_end_index": 2463,
+      "highlights": [
+        {
+          "chapter_sentence": 60,
+          "start": 153,
+          "end": 236
+        }
+      ]
+    }
+  ]
+}

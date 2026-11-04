@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "3_9",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_09_0001",
+      "source_section": "chapter_03_09",
+      "source_sentence": 12,
+      "character_position": 765,
+      "text": "одно мучительное чувство какой-то нравственной тошноты, переходящей в тошноту физическую",
+      "vad": [
+        -0.9,
+        0.7,
+        -0.5
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3011956425470179,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 8092,
+      "timeline_end_index": 8092,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 105,
+          "end": 193
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_09_0002",
+      "source_section": "chapter_03_09",
+      "source_sentence": 44,
+      "character_position": 766,
+      "text": "испытывал мучительное чувство стыда и сознания своей виноватости перед ними",
+      "vad": [
+        -0.9,
+        0.7,
+        -0.55
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3248026488633465,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 8124,
+      "timeline_end_index": 8124,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 473,
+          "end": 548
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_09_0003",
+      "source_section": "chapter_03_09",
+      "source_sentence": 45,
+      "character_position": 767,
+      "text": "к этому чувству стыда и виноватости примешивалось еще непреодолимое чувство отвращения и ужаса",
+      "vad": [
+        -0.9,
+        0.8,
+        -0.7
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.4821274849726452,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 8125,
+      "timeline_end_index": 8125,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 36,
+          "end": 130
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_09_0004",
+      "source_section": "chapter_03_09",
+      "source_sentence": 46,
+      "character_position": 768,
+      "text": "не мог подавить своего отвращения к ним",
+      "vad": [
+        -0.85,
+        0.55,
+        -0.7
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3514489979653973,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 8126,
+      "timeline_end_index": 8126,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 109,
+          "end": 148
+        }
+      ]
+    }
+  ]
+}

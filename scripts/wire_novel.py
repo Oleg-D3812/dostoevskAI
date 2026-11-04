@@ -111,6 +111,54 @@ def patch_counts_block(manifest_text, counts):
     return manifest_text[:start] + new_block + manifest_text[end:]
 
 
+def patch_features_block(manifest_text, root, warnings):
+    """Append any of character-network/emotion-vad/playground/timeline missing (by id)
+    from the existing "features" array to what a fresh wire would compute
+    for this novel right now - e.g. so a novel picks up the "emotion-vad"
+    entry once its emo pipeline output (emo-characters.json + profiles/ +
+    fragments/) shows up after manifest.json already existed without it.
+
+    Existing entries - their order, formatting, and any hand edits to
+    status/label/help/... - are left completely untouched; only ids absent
+    from the array are appended at the end, each dumped the same way a
+    fresh manifest.json would dump it.
+    """
+    start = manifest_text.index('"features"')
+    bracket_start = manifest_text.index("[", start)
+    depth = 0
+    end = bracket_start
+    for i, ch in enumerate(manifest_text[bracket_start:], start=bracket_start):
+        if ch == "[":
+            depth += 1
+        elif ch == "]":
+            depth -= 1
+            if depth == 0:
+                end = i + 1
+                break
+
+    existing = json.loads(manifest_text[bracket_start:end])
+    existing_ids = {item.get("id") for item in existing if isinstance(item, dict)}
+    missing = [feature for feature in build_features(root, warnings) if feature.get("id") not in existing_ids]
+    if not missing:
+        return manifest_text
+
+    indent = manifest_text[manifest_text.rindex("\n", 0, start) + 1:start]
+    item_indent = indent + "  "
+    closing_bracket = manifest_text.rindex("]", bracket_start, end)
+    prefix = manifest_text[:closing_bracket]
+    content_end = len(prefix.rstrip())
+    trailing_ws = prefix[content_end:]
+
+    pieces = []
+    for feature in missing:
+        dumped = json.dumps(feature, ensure_ascii=False, indent=2)
+        pieces.append("\n".join(item_indent + line for line in dumped.splitlines()))
+        warnings.append(f"features: added missing {feature['id']!r} entry to manifest.json")
+
+    separator = ",\n" if existing else "\n"
+    return prefix[:content_end] + separator + ",\n".join(pieces) + trailing_ws + manifest_text[closing_bracket:]
+
+
 def compute_counts(root, warnings):
     """Total up numbers already present in delivered files. Nothing here
     is derived/recomputed from raw fragments -- it only sums fields that
@@ -193,6 +241,13 @@ def build_features(root, warnings):
     else:
         warnings.append("no emo-characters.json + profiles/ + fragments/ found - emotion-vad feature omitted")
 
+    if (root / "chapters.json").exists() or has_network:
+        features.append({
+            "id": "playground", "renderer": "playground",
+            "label": {"ru": "Конструктор", "en": "Playground"},
+            "status": "ready", "entry": "manifest.json",
+        })
+
     features.append({"id": "timeline", "renderer": "timeline", "label": {"ru": "Хронология", "en": "Timeline"}, "status": "planned"})
     return features
 
@@ -203,7 +258,9 @@ def wire_manifest(root, novel_id, catalog_meta, warnings):
 
     if manifest_path.exists():
         manifest_text = manifest_path.read_text(encoding="utf-8")
-        return manifest_path, patch_counts_block(manifest_text, counts), True
+        manifest_text = patch_counts_block(manifest_text, counts)
+        manifest_text = patch_features_block(manifest_text, root, warnings)
+        return manifest_path, manifest_text, True
 
     title_ru = (catalog_meta or {}).get("title", {}).get("ru")
     if not title_ru:

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "1_38",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_01_38_0001",
+      "source_section": "chapter_01_38",
+      "source_sentence": 2,
+      "character_position": 127,
+      "text": "с ужасом подумала Маслова",
+      "vad": [
+        -0.85,
+        0.8,
+        -0.55
+      ],
+      "cluster_id": "ekaterina_maslova-5",
+      "distance_to_centroid": 0.1467413114531581,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 2557,
+      "timeline_end_index": 2557,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 15,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_38_0002",
+      "source_section": "chapter_01_38",
+      "source_sentence": 2,
+      "character_position": 128,
+      "text": "привычка страха пересилила сон",
+      "vad": [
+        -0.75,
+        0.45,
+        -0.4
+      ],
+      "cluster_id": "ekaterina_maslova-5",
+      "distance_to_centroid": 0.288769546865091,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 2557,
+      "timeline_end_index": 2557,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 173,
+          "end": 203
+        }
+      ]
+    }
+  ]
+}

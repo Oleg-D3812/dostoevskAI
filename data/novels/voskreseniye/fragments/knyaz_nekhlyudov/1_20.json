@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "1_20",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_20_0001",
+      "source_section": "chapter_01_20",
+      "source_sentence": 10,
+      "character_position": 172,
+      "text": "Чувство неопределенной гадливости, которое испытывал Нехлюдов, еще усилилось",
+      "vad": [
+        -0.75,
+        0.55,
+        -0.15
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2370222355915997,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 1236,
+      "timeline_end_index": 1236,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 0,
+          "end": 76
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_20_0002",
+      "source_section": "chapter_01_20",
+      "source_sentence": 11,
+      "character_position": 173,
+      "text": "он со всех сторон был окружен и поглощен этими предметами",
+      "vad": [
+        -0.85,
+        0.65,
+        -0.8
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.4697750563928958,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 1237,
+      "timeline_end_index": 1237,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 164,
+          "end": 221
+        }
+      ]
+    }
+  ]
+}

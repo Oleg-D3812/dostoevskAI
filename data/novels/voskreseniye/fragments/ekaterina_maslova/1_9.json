@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "1_9",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_01_09_0001",
+      "source_section": "chapter_01_09",
+      "source_sentence": 43,
+      "character_position": 22,
+      "text": "с выражением готовности",
+      "vad": [
+        0.1,
+        0.35,
+        0.2
+      ],
+      "cluster_id": "ekaterina_maslova-4",
+      "distance_to_centroid": 0.3413252737608542,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 500,
+      "timeline_end_index": 500,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 35,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_09_0002",
+      "source_section": "chapter_01_09",
+      "source_sentence": 43,
+      "character_position": 23,
+      "text": "улыбающимися",
+      "vad": [
+        0.55,
+        0.15,
+        0.05
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.303305923161239,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 500,
+      "timeline_end_index": 500,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 143,
+          "end": 155
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_09_0003",
+      "source_section": "chapter_01_09",
+      "source_sentence": 85,
+      "character_position": 24,
+      "text": "Что-то было такое необыкновенное в выражении лица и страшное, и жалкое в значении сказанных ею слов, в этой улыбке и в том быстром взгляде",
+      "vad": [
+        -0.82,
+        0.68,
+        -0.58
+      ],
+      "cluster_id": "ekaterina_maslova-5",
+      "distance_to_centroid": 0.0269547931561252,
+      "warning": null,
+      "chapter_sentence_start": 85,
+      "chapter_sentence_end": 85,
+      "timeline_start_index": 542,
+      "timeline_end_index": 542,
+      "highlights": [
+        {
+          "chapter_sentence": 85,
+          "start": 0,
+          "end": 138
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_09_0004",
+      "source_section": "chapter_01_09",
+      "source_sentence": 101,
+      "character_position": 25,
+      "text": "как бы хотела возражать",
+      "vad": [
+        -0.2,
+        0.35,
+        -0.3
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.2182309854240186,
+      "warning": null,
+      "chapter_sentence_start": 101,
+      "chapter_sentence_end": 101,
+      "timeline_start_index": 558,
+      "timeline_end_index": 558,
+      "highlights": [
+        {
+          "chapter_sentence": 101,
+          "start": 78,
+          "end": 101
+        }
+      ]
+    }
+  ]
+}

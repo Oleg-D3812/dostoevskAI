@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "1_41",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_41_0001",
+      "source_section": "chapter_01_41",
+      "source_sentence": 50,
+      "character_position": 328,
+      "text": "это прикосновение руки надзирателя в первую минуту оскорбило Нехлюдова",
+      "vad": [
+        -0.7,
+        0.35,
+        -0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.1593456009037507,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 50,
+      "timeline_start_index": 2694,
+      "timeline_end_index": 2694,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 82,
+          "end": 152
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_41_0002",
+      "source_section": "chapter_01_41",
+      "source_sentence": 50,
+      "character_position": 329,
+      "text": "ему совестно стало этого чувства неудовольствия и оскорбления",
+      "vad": [
+        -0.65,
+        0.3,
+        -0.25
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2385690460048566,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 50,
+      "timeline_start_index": 2694,
+      "timeline_end_index": 2694,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 204,
+          "end": 265
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_41_0003",
+      "source_section": "chapter_01_41",
+      "source_sentence": 55,
+      "character_position": 330,
+      "text": "испытывая смешанные чувства ужаса перед теми злодеями, которые заперты здесь, состраданья к тем невинным, которые, как вчерашний мальчик и Катюша, должны быть здесь, и робости и умиления перед тем свиданием, которое ему предстояло",
+      "vad": [
+        -0.45,
+        0.72,
+        -0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3694898409723309,
+      "warning": null,
+      "chapter_sentence_start": 55,
+      "chapter_sentence_end": 55,
+      "timeline_start_index": 2699,
+      "timeline_end_index": 2699,
+      "highlights": [
+        {
+          "chapter_sentence": 55,
+          "start": 75,
+          "end": 305
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_41_0004",
+      "source_section": "chapter_01_41",
+      "source_sentence": 57,
+      "character_position": 331,
+      "text": "поглощенный своими мыслями",
+      "vad": [
+        -0.1,
+        -0.2,
+        -0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4073058192997732,
+      "warning": null,
+      "chapter_sentence_start": 57,
+      "chapter_sentence_end": 57,
+      "timeline_start_index": 2701,
+      "timeline_end_index": 2701,
+      "highlights": [
+        {
+          "chapter_sentence": 57,
+          "start": 13,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_41_0007",
+      "source_section": "chapter_01_41",
+      "source_sentence": 77,
+      "character_position": 332,
+      "text": "в нем поднялось чувство возмущения против тех людей, которые могли это устроить и соблюдать",
+      "vad": [
+        -0.7,
+        0.7,
+        -0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2783742606395069,
+      "warning": null,
+      "chapter_sentence_start": 77,
+      "chapter_sentence_end": 77,
+      "timeline_start_index": 2721,
+      "timeline_end_index": 2721,
+      "highlights": [
+        {
+          "chapter_sentence": 77,
+          "start": 68,
+          "end": 159
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_41_0009",
+      "source_section": "chapter_01_41",
+      "source_sentence": 80,
+      "character_position": 333,
+      "text": "испытывая какое-то странное чувство тоски, сознанья своего бессилья и разлада со всем миром; нравственное чувство тошноты, похожее на качку на корабле, овладело им",
+      "vad": [
+        -0.95,
+        0.72,
+        -0.82
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.5481885241316284,
+      "warning": null,
+      "chapter_sentence_start": 80,
+      "chapter_sentence_end": 80,
+      "timeline_start_index": 2724,
+      "timeline_end_index": 2724,
+      "highlights": [
+        {
+          "chapter_sentence": 80,
+          "start": 43,
+          "end": 206
+        }
+      ]
+    }
+  ]
+}

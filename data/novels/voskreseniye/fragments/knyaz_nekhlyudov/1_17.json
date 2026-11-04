@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "1_17",
+  "count": 7,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_17_0001",
+      "source_section": "chapter_01_17",
+      "source_sentence": 12,
+      "character_position": 144,
+      "text": "желая узнать, что она будет делать",
+      "vad": [
+        0.1,
+        0.25,
+        0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.5224154202501988,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 1077,
+      "timeline_end_index": 1077,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 45,
+          "end": 79
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_17_0002",
+      "source_section": "chapter_01_17",
+      "source_sentence": 16,
+      "character_position": 145,
+      "text": "ему было жалко ее",
+      "vad": [
+        -0.45,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.1402917227055136,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 1081,
+      "timeline_end_index": 1081,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 73,
+          "end": 90
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_17_0003",
+      "source_section": "chapter_01_17",
+      "source_sentence": 16,
+      "character_position": 146,
+      "text": "эта жалость только усиливала вожделение к ней",
+      "vad": [
+        0.25,
+        0.78,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.8671516581886464,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 1081,
+      "timeline_end_index": 1081,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 111,
+          "end": 156
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_17_0004",
+      "source_section": "chapter_01_17",
+      "source_sentence": 17,
+      "character_position": 147,
+      "text": "Вожделение обладало им всем",
+      "vad": [
+        -0.2,
+        0.85,
+        -0.75
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.7399843384367045,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 1082,
+      "timeline_end_index": 1082,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 0,
+          "end": 27
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_17_0006",
+      "source_section": "chapter_01_17",
+      "source_sentence": 40,
+      "character_position": 148,
+      "text": "он весь был полон мучительным, неудовлетворенным желанием",
+      "vad": [
+        -0.85,
+        0.8,
+        -0.65
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.4333350182595865,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 1105,
+      "timeline_end_index": 1105,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 53,
+          "end": 110
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_17_0007",
+      "source_section": "chapter_01_17",
+      "source_sentence": 61,
+      "character_position": 149,
+      "text": "Умоляю тебя",
+      "vad": [
+        0.2,
+        0.65,
+        -0.8
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 1.0310210054013142,
+      "warning": null,
+      "chapter_sentence_start": 61,
+      "chapter_sentence_end": 61,
+      "timeline_start_index": 1126,
+      "timeline_end_index": 1126,
+      "highlights": [
+        {
+          "chapter_sentence": 61,
+          "start": 0,
+          "end": 11
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_17_0008",
+      "source_section": "chapter_01_17",
+      "source_sentence": 73,
+      "character_position": 150,
+      "text": "большое счастье или большое несчастье случилось со мной?",
+      "vad": [
+        0.0,
+        0.25,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4976850590270035,
+      "warning": null,
+      "chapter_sentence_start": 73,
+      "chapter_sentence_end": 73,
+      "timeline_start_index": 1138,
+      "timeline_end_index": 1138,
+      "highlights": [
+        {
+          "chapter_sentence": 73,
+          "start": 13,
+          "end": 69
+        }
+      ]
+    }
+  ]
+}

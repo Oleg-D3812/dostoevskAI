@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "1_59",
+  "count": 7,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_59_0001",
+      "source_section": "chapter_01_59",
+      "source_sentence": 13,
+      "character_position": 426,
+      "text": "чувство торжественности и радости обновления",
+      "vad": [
+        0.85,
+        0.45,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.3363984290409586,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 3935,
+      "timeline_end_index": 3935,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 3,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_59_0002",
+      "source_section": "chapter_01_59",
+      "source_sentence": 13,
+      "character_position": 427,
+      "text": "страхом, даже отвращением к ней",
+      "vad": [
+        -0.9,
+        0.75,
+        -0.55
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3595899300708299,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 3935,
+      "timeline_end_index": 3935,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 174,
+          "end": 205
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_59_0003",
+      "source_section": "chapter_01_59",
+      "source_sentence": 14,
+      "character_position": 428,
+      "text": "это было ему тяжело и мучительно",
+      "vad": [
+        -0.9,
+        0.55,
+        -0.4
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.1863825435805259,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 3936,
+      "timeline_end_index": 3936,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 106,
+          "end": 138
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_59_0004",
+      "source_section": "chapter_01_59",
+      "source_sentence": 40,
+      "character_position": 429,
+      "text": "в душе Нехлюдова все его сомнения",
+      "vad": [
+        -0.45,
+        0.2,
+        -0.45
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.4047860491703067,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 3962,
+      "timeline_end_index": 3962,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 91,
+          "end": 124
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_59_0005",
+      "source_section": "chapter_01_59",
+      "source_sentence": 40,
+      "character_position": 430,
+      "text": "вернуло его к прежнему серьезному, торжественному и умиленному состоянию",
+      "vad": [
+        0.8,
+        0.4,
+        0.7
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.5128905928208097,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 3962,
+      "timeline_end_index": 3962,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 127,
+          "end": 199
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_59_0006",
+      "source_section": "chapter_01_59",
+      "source_sentence": 45,
+      "character_position": 431,
+      "text": "чувствуя себя не в силах говорить",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.7
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3587824652702292,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 3967,
+      "timeline_end_index": 3967,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 16,
+          "end": 49
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_59_0008",
+      "source_section": "chapter_01_59",
+      "source_sentence": 62,
+      "character_position": 432,
+      "text": "испытывая после прежних сомнений совершенно новое, никогда не испытанное им чувство уверенности в непобедимости любви",
+      "vad": [
+        0.85,
+        0.35,
+        0.72
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.5401061902181999,
+      "warning": null,
+      "chapter_sentence_start": 62,
+      "chapter_sentence_end": 62,
+      "timeline_start_index": 3984,
+      "timeline_end_index": 3984,
+      "highlights": [
+        {
+          "chapter_sentence": 62,
+          "start": 55,
+          "end": 172
+        }
+      ]
+    }
+  ]
+}

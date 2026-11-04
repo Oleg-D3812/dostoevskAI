@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "2_25",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_25_0001",
+      "source_section": "chapter_02_25",
+      "source_sentence": 1,
+      "character_position": 586,
+      "text": "Первое чувство Нехлюдова, когда он проснулся на другое утро, было то, что он накануне сделал какую-то гадость.",
+      "vad": [
+        -0.7,
+        0.25,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2399013379439908,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 6051,
+      "timeline_end_index": 6051,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 0,
+          "end": 110
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_25_0002",
+      "source_section": "chapter_02_25",
+      "source_sentence": 2,
+      "character_position": 587,
+      "text": "но были мысли, дурные мысли о том, что все его теперешние намерения – женитьбы на Катюше и отдачи земли крестьянам, – что все это неосуществимые мечты, что всего этого он не выдержит, что все это искусственно, неестественно, а надо жить, как жил.",
+      "vad": [
+        -0.72,
+        0.38,
+        -0.48
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.148433184482022,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 6052,
+      "timeline_end_index": 6052,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 63,
+          "end": 309
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_25_0003",
+      "source_section": "chapter_02_25",
+      "source_sentence": 3,
+      "character_position": 588,
+      "text": "Поступка дурного не было, но было то, что много хуже дурного поступка: были те мысли, от которых происходят все дурные поступки.",
+      "vad": [
+        -0.72,
+        0.42,
+        -0.34
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.0768159371556021,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 6053,
+      "timeline_end_index": 6053,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 0,
+          "end": 128
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_25_0004",
+      "source_section": "chapter_02_25",
+      "source_sentence": 6,
+      "character_position": 589,
+      "text": "Нехлюдов удивился тому, как мог он хоть на минуту поверить им.",
+      "vad": [
+        -0.35,
+        0.35,
+        0.45
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.5122851673816023,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 6056,
+      "timeline_end_index": 6056,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 52,
+          "end": 114
+        }
+      ]
+    }
+  ]
+}

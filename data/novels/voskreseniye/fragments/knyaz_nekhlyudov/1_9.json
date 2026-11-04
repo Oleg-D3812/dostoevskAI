@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "1_9",
+  "count": 7,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_09_0002",
+      "source_section": "chapter_01_09",
+      "source_sentence": 58,
+      "character_position": 41,
+      "text": "Да не может быть",
+      "vad": [
+        -0.65,
+        0.78,
+        -0.45
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3114245981712247,
+      "warning": null,
+      "chapter_sentence_start": 58,
+      "chapter_sentence_end": 58,
+      "timeline_start_index": 515,
+      "timeline_end_index": 515,
+      "highlights": [
+        {
+          "chapter_sentence": 58,
+          "start": 1,
+          "end": 17
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_09_0003",
+      "source_section": "chapter_01_09",
+      "source_sentence": 58,
+      "character_position": 42,
+      "text": "без всякого сомнения знал",
+      "vad": [
+        0.0,
+        0.1,
+        0.5
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.6083517091796136,
+      "warning": null,
+      "chapter_sentence_start": 58,
+      "chapter_sentence_end": 58,
+      "timeline_start_index": 515,
+      "timeline_end_index": 515,
+      "highlights": [
+        {
+          "chapter_sentence": 58,
+          "start": 75,
+          "end": 100
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_09_0004",
+      "source_section": "chapter_01_09",
+      "source_sentence": 58,
+      "character_position": 43,
+      "text": "был влюблен, именно влюблен",
+      "vad": [
+        0.8,
+        0.6,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.4133789508785839,
+      "warning": null,
+      "chapter_sentence_start": 58,
+      "chapter_sentence_end": 58,
+      "timeline_start_index": 515,
+      "timeline_end_index": 515,
+      "highlights": [
+        {
+          "chapter_sentence": 58,
+          "start": 186,
+          "end": 213
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_09_0005",
+      "source_section": "chapter_01_09",
+      "source_sentence": 58,
+      "character_position": 44,
+      "text": "в каком-то безумном чаду",
+      "vad": [
+        -0.6,
+        0.85,
+        -0.45
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3911866206671812,
+      "warning": null,
+      "chapter_sentence_start": 58,
+      "chapter_sentence_end": 58,
+      "timeline_start_index": 515,
+      "timeline_end_index": 515,
+      "highlights": [
+        {
+          "chapter_sentence": 58,
+          "start": 223,
+          "end": 247
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_09_0006",
+      "source_section": "chapter_01_09",
+      "source_sentence": 58,
+      "character_position": 45,
+      "text": "воспоминание это было слишком мучительно",
+      "vad": [
+        -0.85,
+        0.35,
+        -0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2001504554514117,
+      "warning": null,
+      "chapter_sentence_start": 58,
+      "chapter_sentence_end": 58,
+      "timeline_start_index": 515,
+      "timeline_end_index": 515,
+      "highlights": [
+        {
+          "chapter_sentence": 58,
+          "start": 318,
+          "end": 358
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_09_0007",
+      "source_section": "chapter_01_09",
+      "source_sentence": 58,
+      "character_position": 46,
+      "text": "столь гордый своей порядочностью",
+      "vad": [
+        0.45,
+        0.2,
+        0.7
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.4879106067755456,
+      "warning": null,
+      "chapter_sentence_start": 58,
+      "chapter_sentence_end": 58,
+      "timeline_start_index": 515,
+      "timeline_end_index": 515,
+      "highlights": [
+        {
+          "chapter_sentence": 58,
+          "start": 408,
+          "end": 440
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_09_0008",
+      "source_section": "chapter_01_09",
+      "source_sentence": 102,
+      "character_position": 47,
+      "text": "в душе его шла сложная и мучительная работа",
+      "vad": [
+        -0.8,
+        0.7,
+        -0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2383853527770032,
+      "warning": null,
+      "chapter_sentence_start": 102,
+      "chapter_sentence_end": 102,
+      "timeline_start_index": 559,
+      "timeline_end_index": 559,
+      "highlights": [
+        {
+          "chapter_sentence": 102,
+          "start": 112,
+          "end": 155
+        }
+      ]
+    }
+  ]
+}

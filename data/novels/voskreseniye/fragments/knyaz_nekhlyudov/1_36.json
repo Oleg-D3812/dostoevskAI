@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "1_36",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_36_0001",
+      "source_section": "chapter_01_36",
+      "source_sentence": 47,
+      "character_position": 324,
+      "text": "Взволнованный мыслью увидать ее",
+      "vad": [
+        0.35,
+        0.75,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.6053180443430177,
+      "warning": null,
+      "chapter_sentence_start": 47,
+      "chapter_sentence_end": 47,
+      "timeline_start_index": 2471,
+      "timeline_end_index": 2471,
+      "highlights": [
+        {
+          "chapter_sentence": 47,
+          "start": 0,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_36_0002",
+      "source_section": "chapter_01_36",
+      "source_sentence": 48,
+      "character_position": 325,
+      "text": "так взволновало его, что он долго не мог успокоиться",
+      "vad": [
+        -0.55,
+        0.82,
+        -0.48
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3905369600999562,
+      "warning": null,
+      "chapter_sentence_start": 48,
+      "chapter_sentence_end": 48,
+      "timeline_start_index": 2472,
+      "timeline_end_index": 2472,
+      "highlights": [
+        {
+          "chapter_sentence": 48,
+          "start": 113,
+          "end": 165
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_36_0006",
+      "source_section": "chapter_01_36",
+      "source_sentence": 58,
+      "character_position": 326,
+      "text": "Мне очень хорошо, радостно на душе",
+      "vad": [
+        0.9,
+        0.5,
+        0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.3770410253636289,
+      "warning": null,
+      "chapter_sentence_start": 58,
+      "chapter_sentence_end": 58,
+      "timeline_start_index": 2482,
+      "timeline_end_index": 2482,
+      "highlights": [
+        {
+          "chapter_sentence": 58,
+          "start": 0,
+          "end": 34
+        }
+      ]
+    }
+  ]
+}

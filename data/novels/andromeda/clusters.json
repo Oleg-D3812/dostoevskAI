@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "novel_id": "andromeda",
+  "vad_dimensions": [
+    "V",
+    "A",
+    "D"
+  ],
+  "clusters": [
+    {
+      "id": "veda_kong-1",
+      "character_id": "veda_kong",
+      "local_index": 0,
+      "display_id": "В. Конг-1",
+      "name": "Радостное воодушевление",
+      "centroid": [
+        0.6329166666666667,
+        0.4524999999999999,
+        0.1316666666666666
+      ],
+      "size": 24,
+      "within_cluster_spread": 0.3956260422138282,
+      "sphere_radius": 0.16097560975609757,
+      "color": "#636EFA"
+    },
+    {
+      "id": "veda_kong-2",
+      "character_id": "veda_kong",
+      "local_index": 1,
+      "display_id": "В. Конг-2",
+      "name": "Тревожное переживание",
+      "centroid": [
+        -0.5933333333333333,
+        0.4418518518518519,
+        -0.2862962962962963
+      ],
+      "size": 27,
+      "within_cluster_spread": 0.4225512038679581,
+      "sphere_radius": 0.18109756097560978,
+      "color": "#636EFA"
+    },
+    {
+      "id": "veda_kong-3",
+      "character_id": "veda_kong",
+      "local_index": 2,
+      "display_id": "В. Конг-3",
+      "name": "Осознание",
+      "centroid": [
+        0.0355263157894737,
+        0.1113157894736842,
+        0.1428947368421053
+      ],
+      "size": 38,
+      "within_cluster_spread": 0.4348488927855132,
+      "sphere_radius": 0.2548780487804878,
+      "color": "#636EFA"
+    },
+    {
+      "id": "dar_veter-1",
+      "character_id": "dar_veter",
+      "local_index": 0,
+      "display_id": "Д. Ветер-1",
+      "name": "Тревожное бессилие",
+      "centroid": [
+        -0.5477142857142856,
+        0.3725714285714285,
+        -0.2437142857142857
+      ],
+      "size": 35,
+      "within_cluster_spread": 0.3738564605048634,
+      "sphere_radius": 0.2347560975609756,
+      "color": "#EF553B"
+    },
+    {
+      "id": "dar_veter-2",
+      "character_id": "dar_veter",
+      "local_index": 1,
+      "display_id": "Д. Ветер-2",
+      "name": "Светлое воодушевление",
+      "centroid": [
+        0.6428125,
+        0.3774999999999998,
+        0.1856249999999999
+      ],
+      "size": 32,
+      "within_cluster_spread": 0.4079075559716318,
+      "sphere_radius": 0.21463414634146344,
+      "color": "#EF553B"
+    },
+    {
+      "id": "dar_veter-3",
+      "character_id": "dar_veter",
+      "local_index": 2,
+      "display_id": "Д. Ветер-3",
+      "name": "Меланхолическая задумчивость",
+      "centroid": [
+        -0.2413043478260869,
+        -0.15,
+        -0.0078260869565217
+      ],
+      "size": 23,
+      "within_cluster_spread": 0.4987049390742876,
+      "sphere_radius": 0.15426829268292683,
+      "color": "#EF553B"
+    },
+    {
+      "id": "mven_mas-1",
+      "character_id": "mven_mas",
+      "local_index": 0,
+      "display_id": "М. Мас-1",
+      "name": "Восторженная увлечённость",
+      "centroid": [
+        0.6369444444444444,
+        0.4549999999999999,
+        0.2324999999999999
+      ],
+      "size": 36,
+      "within_cluster_spread": 0.43861964315113,
+      "sphere_radius": 0.24146341463414636,
+      "color": "#00CC96"
+    },
+    {
+      "id": "mven_mas-2",
+      "character_id": "mven_mas",
+      "local_index": 1,
+      "display_id": "М. Мас-2",
+      "name": "Тревожная беспомощность",
+      "centroid": [
+        -0.6187804878048782,
+        0.4663414634146341,
+        -0.4429268292682926
+      ],
+      "size": 41,
+      "within_cluster_spread": 0.4149122453321802,
+      "sphere_radius": 0.275,
+      "color": "#00CC96"
+    },
+    {
+      "id": "mven_mas-3",
+      "character_id": "mven_mas",
+      "local_index": 2,
+      "display_id": "М. Мас-3",
+      "name": "Ожесточённое негодование",
+      "centroid": [
+        -0.516,
+        0.536,
+        0.3126666666666667
+      ],
+      "size": 15,
+      "within_cluster_spread": 0.4136514904548943,
+      "sphere_radius": 0.10060975609756098,
+      "color": "#00CC96"
+    },
+    {
+      "id": "mven_mas-4",
+      "character_id": "mven_mas",
+      "local_index": 3,
+      "display_id": "М. Мас-4",
+      "name": "Отрешённая задумчивость",
+      "centroid": [
+        -0.109375,
+        -0.234375,
+        0.0656249999999999
+      ],
+      "size": 16,
+      "within_cluster_spread": 0.51619286911483,
+      "sphere_radius": 0.10731707317073172,
+      "color": "#00CC96"
+    }
+  ]
+}

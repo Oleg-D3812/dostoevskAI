@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "1_48",
+  "count": 7,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_48_0001",
+      "source_section": "chapter_01_48",
+      "source_sentence": 3,
+      "character_position": 369,
+      "text": "не переставая упрекал себя",
+      "vad": [
+        -0.72,
+        0.38,
+        -0.46
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.1353559455943472,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 3174,
+      "timeline_end_index": 3174,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 3,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_48_0002",
+      "source_section": "chapter_01_48",
+      "source_sentence": 3,
+      "character_position": 370,
+      "text": "теперь твердо решился сказать ей это",
+      "vad": [
+        0.62,
+        0.48,
+        0.84
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.6352149479076756,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 3174,
+      "timeline_end_index": 3174,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 126,
+          "end": 162
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_48_0003",
+      "source_section": "chapter_01_48",
+      "source_sentence": 6,
+      "character_position": 371,
+      "text": "ему стало еще более, чем прежде, жалко ее",
+      "vad": [
+        -0.65,
+        0.25,
+        -0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3054980965450262,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 3177,
+      "timeline_end_index": 3177,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 2,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_48_0004",
+      "source_section": "chapter_01_48",
+      "source_sentence": 25,
+      "character_position": 372,
+      "text": "все более и более удивляясь ее развязности",
+      "vad": [
+        -0.35,
+        0.4,
+        -0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.2965547896059469,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 3196,
+      "timeline_end_index": 3196,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 46,
+          "end": 88
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_48_0007",
+      "source_section": "chapter_01_48",
+      "source_sentence": 40,
+      "character_position": 373,
+      "text": "Я чувствую, что я перед Богом должен сделать это",
+      "vad": [
+        -0.25,
+        0.2,
+        0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3759671762703377,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 3211,
+      "timeline_end_index": 3211,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 2,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_48_0008",
+      "source_section": "chapter_01_48",
+      "source_sentence": 52,
+      "character_position": 374,
+      "text": "весь дрожа, тихо сказал Нехлюдов, – не можешь себе представить, до какой степени я чувствую свою вину перед тобою!..",
+      "vad": [
+        -0.85,
+        0.4,
+        -0.65
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3119518893234224,
+      "warning": null,
+      "chapter_sentence_start": 52,
+      "chapter_sentence_end": 52,
+      "timeline_start_index": 3223,
+      "timeline_end_index": 3223,
+      "highlights": [
+        {
+          "chapter_sentence": 52,
+          "start": 78,
+          "end": 194
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_48_0009",
+      "source_section": "chapter_01_48",
+      "source_sentence": 79,
+      "character_position": 375,
+      "text": "не зная, что делать",
+      "vad": [
+        -0.45,
+        0.05,
+        -0.55
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.5449616184122354,
+      "warning": null,
+      "chapter_sentence_start": 79,
+      "chapter_sentence_end": 79,
+      "timeline_start_index": 3250,
+      "timeline_end_index": 3250,
+      "highlights": [
+        {
+          "chapter_sentence": 79,
+          "start": 24,
+          "end": 43
+        }
+      ]
+    }
+  ]
+}

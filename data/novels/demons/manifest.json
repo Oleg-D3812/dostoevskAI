@@ -62,6 +62,16 @@
       ]
     },
     {
+      "id": "playground",
+      "renderer": "playground",
+      "label": {
+        "ru": "Конструктор",
+        "en": "Playground"
+      },
+      "status": "ready",
+      "entry": "manifest.json"
+    },
+    {
       "id": "timeline",
       "renderer": "timeline",
       "label": {

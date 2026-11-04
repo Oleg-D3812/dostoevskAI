@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "1_44",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_44_0001",
+      "source_section": "chapter_01_44",
+      "source_sentence": 1,
+      "character_position": 355,
+      "text": "Нехлюдов ожидал",
+      "vad": [
+        0.1,
+        0.25,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.455189343453839,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 2907,
+      "timeline_end_index": 2907,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 20,
+          "end": 35
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_44_0002",
+      "source_section": "chapter_01_44",
+      "source_sentence": 1,
+      "character_position": 356,
+      "text": "к ужасу своему",
+      "vad": [
+        -0.9,
+        0.85,
+        -0.55
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.4380881555209409,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 2907,
+      "timeline_end_index": 2907,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 159,
+          "end": 173
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_44_0003",
+      "source_section": "chapter_01_44",
+      "source_sentence": 2,
+      "character_position": 357,
+      "text": "Это удивило и ужаснуло его",
+      "vad": [
+        -0.8,
+        0.8,
+        -0.25
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3459276586205226,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 2908,
+      "timeline_end_index": 2908,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 0,
+          "end": 26
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_44_0007",
+      "source_section": "chapter_01_44",
+      "source_sentence": 33,
+      "character_position": 358,
+      "text": "не только не оскорбляло его, но он даже и не замечал этого",
+      "vad": [
+        0.55,
+        0.05,
+        0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.2243978147213129,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 2939,
+      "timeline_end_index": 2939,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 37,
+          "end": 95
+        }
+      ]
+    }
+  ]
+}

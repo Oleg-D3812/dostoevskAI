@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "novel_id": "andromeda",
+  "character_id": "veda_kong",
+  "chapter_id": "1_8",
+  "count": 5,
+  "fragments": [
+    {
+      "id": "veda_kong::chapter_01_08_0001",
+      "source_section": "chapter_01_08",
+      "source_sentence": 118,
+      "character_position": 40,
+      "text": "алая, как обычно, от волнения",
+      "vad": [
+        -0.35,
+        0.72,
+        -0.28
+      ],
+      "cluster_id": "veda_kong-2",
+      "distance_to_centroid": 0.3696175682734872,
+      "warning": null,
+      "chapter_sentence_start": 118,
+      "chapter_sentence_end": 118,
+      "timeline_start_index": 4028,
+      "timeline_end_index": 4028,
+      "highlights": [
+        {
+          "chapter_sentence": 118,
+          "start": 127,
+          "end": 156
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_08_0002",
+      "source_section": "chapter_01_08",
+      "source_sentence": 233,
+      "character_position": 41,
+      "text": "спокойно продолжала",
+      "vad": [
+        0.1,
+        -0.2,
+        0.2
+      ],
+      "cluster_id": "veda_kong-3",
+      "distance_to_centroid": 0.3230098881019502,
+      "warning": null,
+      "chapter_sentence_start": 233,
+      "chapter_sentence_end": 233,
+      "timeline_start_index": 4143,
+      "timeline_end_index": 4143,
+      "highlights": [
+        {
+          "chapter_sentence": 233,
+          "start": 51,
+          "end": 70
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_08_0003",
+      "source_section": "chapter_01_08",
+      "source_sentence": 234,
+      "character_position": 42,
+      "text": "не могла подчиниться новому чувству",
+      "vad": [
+        -0.35,
+        0.2,
+        -0.65
+      ],
+      "cluster_id": "veda_kong-2",
+      "distance_to_centroid": 0.4999838131810595,
+      "warning": null,
+      "chapter_sentence_start": 234,
+      "chapter_sentence_end": 234,
+      "timeline_start_index": 4144,
+      "timeline_end_index": 4144,
+      "highlights": [
+        {
+          "chapter_sentence": 234,
+          "start": 9,
+          "end": 44
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_08_0004",
+      "source_section": "chapter_01_08",
+      "source_sentence": 234,
+      "character_position": 43,
+      "text": "силу надежды, веры в его возвращение",
+      "vad": [
+        0.65,
+        0.2,
+        -0.15
+      ],
+      "cluster_id": "veda_kong-1",
+      "distance_to_centroid": 0.378661063999045,
+      "warning": null,
+      "chapter_sentence_start": 234,
+      "chapter_sentence_end": 234,
+      "timeline_start_index": 4144,
+      "timeline_end_index": 4144,
+      "highlights": [
+        {
+          "chapter_sentence": 234,
+          "start": 100,
+          "end": 136
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_08_0005",
+      "source_section": "chapter_01_08",
+      "source_sentence": 235,
+      "character_position": 44,
+      "text": "точный расчет и уверенность",
+      "vad": [
+        0.55,
+        0.15,
+        0.85
+      ],
+      "cluster_id": "veda_kong-1",
+      "distance_to_centroid": 0.7838266398821163,
+      "warning": null,
+      "chapter_sentence_start": 235,
+      "chapter_sentence_end": 235,
+      "timeline_start_index": 4145,
+      "timeline_end_index": 4145,
+      "highlights": [
+        {
+          "chapter_sentence": 235,
+          "start": 17,
+          "end": 44
+        }
+      ]
+    }
+  ]
+}

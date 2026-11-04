@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "3_21",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_03_21_0001",
+      "source_section": "chapter_03_21",
+      "source_sentence": 2,
+      "character_position": 290,
+      "text": "бодрой Катюши",
+      "vad": [
+        0.45,
+        0.3,
+        0.15
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.2985986431505644,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 8791,
+      "timeline_end_index": 8791,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 24,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_03_21_0002",
+      "source_section": "chapter_03_21",
+      "source_sentence": 4,
+      "character_position": 291,
+      "text": "нашедшей любовь такого человека, как Симонсон",
+      "vad": [
+        0.7,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.1867709075674804,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 8791,
+      "timeline_end_index": 8791,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 39,
+          "end": 84
+        }
+      ]
+    }
+  ]
+}

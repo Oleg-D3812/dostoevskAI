@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "1_15",
+  "count": 7,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_01_15_0001",
+      "source_section": "chapter_01_15",
+      "source_sentence": 16,
+      "character_position": 50,
+      "text": "с сияющими восторгом глазами",
+      "vad": [
+        0.95,
+        0.7,
+        0.0
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.3989674655661119,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 942,
+      "timeline_end_index": 942,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 117,
+          "end": 145
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_15_0002",
+      "source_section": "chapter_01_15",
+      "source_sentence": 20,
+      "character_position": 51,
+      "text": "смеясь и радуясь",
+      "vad": [
+        0.9,
+        0.65,
+        0.2
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.3265476564202844,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 946,
+      "timeline_end_index": 946,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 86,
+          "end": 102
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_15_0003",
+      "source_section": "chapter_01_15",
+      "source_sentence": 27,
+      "character_position": 52,
+      "text": "Катюша, ему казалось, понимала, что все это для нее",
+      "vad": [
+        0.55,
+        0.1,
+        0.05
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.3432605662729478,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 953,
+      "timeline_end_index": 953,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 2,
+          "end": 53
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_15_0004",
+      "source_section": "chapter_01_15",
+      "source_sentence": 28,
+      "character_position": 53,
+      "text": "сосредоточенно радостное лицо",
+      "vad": [
+        0.85,
+        0.35,
+        0.15
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.1269078174731662,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 954,
+      "timeline_end_index": 954,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 100,
+          "end": 129
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_15_0005",
+      "source_section": "chapter_01_15",
+      "source_sentence": 45,
+      "character_position": 54,
+      "text": "не выражая ни малейшего отвращения, напротив, так же радостно сияя глазами",
+      "vad": [
+        0.85,
+        0.45,
+        0.15
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.1394235542121049,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 971,
+      "timeline_end_index": 971,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 72,
+          "end": 146
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_15_0006",
+      "source_section": "chapter_01_15",
+      "source_sentence": 61,
+      "character_position": 55,
+      "text": "своими покорными, девственными, любящими, чуть-чуть косящими глазами",
+      "vad": [
+        0.85,
+        0.3,
+        -0.55
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.6759520320935193,
+      "warning": null,
+      "chapter_sentence_start": 61,
+      "chapter_sentence_end": 61,
+      "timeline_start_index": 987,
+      "timeline_end_index": 987,
+      "highlights": [
+        {
+          "chapter_sentence": 61,
+          "start": 150,
+          "end": 218
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_01_15_0007",
+      "source_section": "chapter_01_15",
+      "source_sentence": 65,
+      "character_position": 56,
+      "text": "чистота девственности любви не только к нему, – он знал это, – но любви ко всем и ко всему",
+      "vad": [
+        0.9,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.2709449200323897,
+      "warning": null,
+      "chapter_sentence_start": 65,
+      "chapter_sentence_end": 65,
+      "timeline_start_index": 991,
+      "timeline_end_index": 991,
+      "highlights": [
+        {
+          "chapter_sentence": 65,
+          "start": 255,
+          "end": 345
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,399 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "1_13",
+  "count": 15,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_13_0001",
+      "source_section": "chapter_01_13",
+      "source_sentence": 3,
+      "character_position": 76,
+      "text": "честный, самоотверженный юноша, готовый отдать себя на всякое доброе дело",
+      "vad": [
+        0.85,
+        0.35,
+        0.65
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.4795057954009831,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 827,
+      "timeline_end_index": 827,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 13,
+          "end": 86
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_13_0002",
+      "source_section": "chapter_01_13",
+      "source_sentence": 3,
+      "character_position": 77,
+      "text": "развращенный, утонченный эгоист, любящий только свое наслаждение",
+      "vad": [
+        -0.85,
+        0.35,
+        0.45
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.725687910833761,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 827,
+      "timeline_end_index": 827,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 104,
+          "end": 168
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_13_0003",
+      "source_section": "chapter_01_13",
+      "source_sentence": 4,
+      "character_position": 78,
+      "text": "радостно и восторженно старался разгадывать",
+      "vad": [
+        0.85,
+        0.7,
+        0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.5105331152740078,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 828,
+      "timeline_end_index": 828,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 53,
+          "end": 96
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_13_0005",
+      "source_section": "chapter_01_13",
+      "source_sentence": 9,
+      "character_position": 79,
+      "text": "перестал верить себе, а стал верить другим",
+      "vad": [
+        -0.65,
+        0.05,
+        -0.8
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.6127249024038981,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 833,
+      "timeline_end_index": 833,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 68,
+          "end": 110
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_13_0006",
+      "source_section": "chapter_01_13",
+      "source_sentence": 20,
+      "character_position": 80,
+      "text": "Нехлюдов сдался, перестал верить себе и поверил другим",
+      "vad": [
+        -0.7,
+        -0.2,
+        -0.8
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.8070196705310556,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 844,
+      "timeline_end_index": 844,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 21,
+          "end": 75
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_13_0007",
+      "source_section": "chapter_01_13",
+      "source_sentence": 21,
+      "character_position": 81,
+      "text": "это отречение от себя было неприятно",
+      "vad": [
+        -0.65,
+        0.1,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3952701007558583,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 845,
+      "timeline_end_index": 845,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 17,
+          "end": 53
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_13_0008",
+      "source_section": "chapter_01_13",
+      "source_sentence": 21,
+      "character_position": 82,
+      "text": "это неприятное чувство",
+      "vad": [
+        -0.6,
+        0.2,
+        -0.4
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3142339642266584,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 845,
+      "timeline_end_index": 845,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 71,
+          "end": 93
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_13_0009",
+      "source_section": "chapter_01_13",
+      "source_sentence": 21,
+      "character_position": 83,
+      "text": "перестал испытывать это неприятное чувство и даже почувствовал большое облегчение",
+      "vad": [
+        0.75,
+        -0.2,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.5027318369534814,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 845,
+      "timeline_end_index": 845,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 174,
+          "end": 255
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_13_0010",
+      "source_section": "chapter_01_13",
+      "source_sentence": 22,
+      "character_position": 84,
+      "text": "с страстностью своей натуры",
+      "vad": [
+        0.1,
+        0.7,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.6888347175778733,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 846,
+      "timeline_end_index": 846,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 12,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_13_0011",
+      "source_section": "chapter_01_13",
+      "source_sentence": 26,
+      "character_position": 85,
+      "text": "в таком сумасшествии эгоизма находился Нехлюдов",
+      "vad": [
+        -0.78,
+        0.62,
+        0.72
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.9883965743672558,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 850,
+      "timeline_end_index": 850,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 2,
+          "end": 49
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_13_0012",
+      "source_section": "chapter_01_13",
+      "source_sentence": 31,
+      "character_position": 86,
+      "text": "хвалятся, гордятся такою жизнью",
+      "vad": [
+        0.7,
+        0.4,
+        0.6
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.392500649940967,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 855,
+      "timeline_end_index": 855,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 50,
+          "end": 81
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_13_0013",
+      "source_section": "chapter_01_13",
+      "source_sentence": 34,
+      "character_position": 87,
+      "text": "Так смутно думал Нехлюдов",
+      "vad": [
+        0.0,
+        -0.2,
+        -0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4722929813084723,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 858,
+      "timeline_end_index": 858,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 0,
+          "end": 25
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_13_0014",
+      "source_section": "chapter_01_13",
+      "source_sentence": 34,
+      "character_position": 88,
+      "text": "восторг освобождения от всех нравственных преград, которые он ставил себе прежде",
+      "vad": [
+        0.8,
+        0.8,
+        0.7
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.7307158470246629,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 858,
+      "timeline_end_index": 858,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 87,
+          "end": 167
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_13_0015",
+      "source_section": "chapter_01_13",
+      "source_sentence": 34,
+      "character_position": 89,
+      "text": "находился в хроническом состоянии сумасшествия эгоизма",
+      "vad": [
+        -0.8,
+        0.35,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.1579506959151056,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 858,
+      "timeline_end_index": 858,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 185,
+          "end": 239
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_13_0016",
+      "source_section": "chapter_01_13",
+      "source_sentence": 35,
+      "character_position": 90,
+      "text": "В таком состоянии и находился он",
+      "vad": [
+        0.45,
+        0.7,
+        0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.4707318835981126,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 859,
+      "timeline_end_index": 859,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 0,
+          "end": 32
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "1_49",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_01_49_0001",
+      "source_section": "chapter_01_49",
+      "source_sentence": 3,
+      "character_position": 184,
+      "text": "она бы не чувствовала всего зла, сделанного ей",
+      "vad": [
+        -0.35,
+        -0.25,
+        -0.15
+      ],
+      "cluster_id": "ekaterina_maslova-3",
+      "distance_to_centroid": 0.3197307895367253,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 3284,
+      "timeline_end_index": 3284,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 125,
+          "end": 171
+        }
+      ]
+    }
+  ]
+}

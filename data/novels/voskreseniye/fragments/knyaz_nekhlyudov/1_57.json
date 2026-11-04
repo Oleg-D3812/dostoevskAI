@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "1_57",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_57_0001",
+      "source_section": "chapter_01_57",
+      "source_sentence": 15,
+      "character_position": 420,
+      "text": "тяжело ему было просить человека, которого он не уважал",
+      "vad": [
+        -0.65,
+        0.3,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2036444964891957,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 3777,
+      "timeline_end_index": 3777,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 7,
+          "end": 62
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_57_0002",
+      "source_section": "chapter_01_57",
+      "source_sentence": 36,
+      "character_position": 421,
+      "text": "серьезного выражения лица Нехлюдова",
+      "vad": [
+        -0.2,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.1583929981222165,
+      "warning": null,
+      "chapter_sentence_start": 36,
+      "chapter_sentence_end": 36,
+      "timeline_start_index": 3798,
+      "timeline_end_index": 3798,
+      "highlights": [
+        {
+          "chapter_sentence": 36,
+          "start": 14,
+          "end": 49
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_57_0003",
+      "source_section": "chapter_01_57",
+      "source_sentence": 74,
+      "character_position": 422,
+      "text": "мрачно отвечал Нехлюдов",
+      "vad": [
+        -0.65,
+        0.1,
+        0.05
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3198536148517461,
+      "warning": null,
+      "chapter_sentence_start": 74,
+      "chapter_sentence_end": 74,
+      "timeline_start_index": 3836,
+      "timeline_end_index": 3836,
+      "highlights": [
+        {
+          "chapter_sentence": 74,
+          "start": 19,
+          "end": 42
+        }
+      ]
+    }
+  ]
+}

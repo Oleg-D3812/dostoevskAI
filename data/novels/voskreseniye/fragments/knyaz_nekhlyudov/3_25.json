@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "3_25",
+  "count": 9,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_25_0001",
+      "source_section": "chapter_03_25",
+      "source_sentence": 11,
+      "character_position": 836,
+      "text": "совершенно неожиданно для себя смущенный предстоящим свиданием",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.0888569200987285,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 9136,
+      "timeline_end_index": 9136,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 73,
+          "end": 135
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_25_0002",
+      "source_section": "chapter_03_25",
+      "source_sentence": 12,
+      "character_position": 837,
+      "text": "увидав ее, испытал тяжелое чувство",
+      "vad": [
+        -0.75,
+        0.3,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.1903957382498135,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 9137,
+      "timeline_end_index": 9137,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 214,
+          "end": 248
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_25_0003",
+      "source_section": "chapter_03_25",
+      "source_sentence": 13,
+      "character_position": 838,
+      "text": "Я жить хочу, хочу семью, детей, хочу человеческой жизни",
+      "vad": [
+        0.8,
+        0.6,
+        0.25
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.3876685684115241,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 9138,
+      "timeline_end_index": 9138,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 1,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_25_0004",
+      "source_section": "chapter_03_25",
+      "source_sentence": 31,
+      "character_position": 839,
+      "text": "ему стало стыдно",
+      "vad": [
+        -0.7,
+        0.35,
+        -0.25
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.1887142678973745,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 9156,
+      "timeline_end_index": 9156,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 274,
+          "end": 290
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_25_0005",
+      "source_section": "chapter_03_25",
+      "source_sentence": 44,
+      "character_position": 840,
+      "text": "Ему не только было стыдно, но было жалко всего того, что он терял с нею",
+      "vad": [
+        -0.65,
+        0.3,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2036444964891957,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 9169,
+      "timeline_end_index": 9169,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 0,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_25_0006",
+      "source_section": "chapter_03_25",
+      "source_sentence": 47,
+      "character_position": 841,
+      "text": "Я не мучался, а мне хорошо было, и я желал бы еще служить вам, если бы мог",
+      "vad": [
+        0.65,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.1609286489266334,
+      "warning": null,
+      "chapter_sentence_start": 47,
+      "chapter_sentence_end": 47,
+      "timeline_start_index": 9172,
+      "timeline_end_index": 9172,
+      "highlights": [
+        {
+          "chapter_sentence": 47,
+          "start": 62,
+          "end": 136
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_25_0007",
+      "source_section": "chapter_03_25",
+      "source_sentence": 71,
+      "character_position": 842,
+      "text": "вдруг почувствовал страшную усталость",
+      "vad": [
+        -0.8,
+        -0.7,
+        -0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.9857892185333718,
+      "warning": null,
+      "chapter_sentence_start": 71,
+      "chapter_sentence_end": 71,
+      "timeline_start_index": 9196,
+      "timeline_end_index": 9196,
+      "highlights": [
+        {
+          "chapter_sentence": 71,
+          "start": 74,
+          "end": 111
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_25_0008",
+      "source_section": "chapter_03_25",
+      "source_sentence": 72,
+      "character_position": 843,
+      "text": "чувствовал, что страшно устал от всей жизни",
+      "vad": [
+        -0.9,
+        -0.7,
+        -0.6
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 1.1577847401325958,
+      "warning": null,
+      "chapter_sentence_start": 72,
+      "chapter_sentence_end": 72,
+      "timeline_start_index": 9197,
+      "timeline_end_index": 9197,
+      "highlights": [
+        {
+          "chapter_sentence": 72,
+          "start": 71,
+          "end": 114
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_25_0009",
+      "source_section": "chapter_03_25",
+      "source_sentence": 78,
+      "character_position": 844,
+      "text": "усталый и безучастный",
+      "vad": [
+        -0.72,
+        -0.78,
+        -0.18
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.9926618836293384,
+      "warning": null,
+      "chapter_sentence_start": 78,
+      "chapter_sentence_end": 78,
+      "timeline_start_index": 9203,
+      "timeline_end_index": 9203,
+      "highlights": [
+        {
+          "chapter_sentence": 78,
+          "start": 10,
+          "end": 31
+        }
+      ]
+    }
+  ]
+}

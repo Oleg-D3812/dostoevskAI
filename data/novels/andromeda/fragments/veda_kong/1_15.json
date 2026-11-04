@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "andromeda",
+  "character_id": "veda_kong",
+  "chapter_id": "1_15",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "veda_kong::chapter_01_15_0001",
+      "source_section": "chapter_01_15",
+      "source_sentence": 144,
+      "character_position": 87,
+      "text": "восхитилась Веда",
+      "vad": [
+        0.8,
+        0.4,
+        0.0
+      ],
+      "cluster_id": "veda_kong-1",
+      "distance_to_centroid": 0.219110021196861,
+      "warning": null,
+      "chapter_sentence_start": 144,
+      "chapter_sentence_end": 144,
+      "timeline_start_index": 6878,
+      "timeline_end_index": 6878,
+      "highlights": [
+        {
+          "chapter_sentence": 144,
+          "start": 2,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_15_0003",
+      "source_section": "chapter_01_15",
+      "source_sentence": 313,
+      "character_position": 88,
+      "text": "Это страшно!",
+      "vad": [
+        -0.85,
+        0.8,
+        -0.55
+      ],
+      "cluster_id": "veda_kong-2",
+      "distance_to_centroid": 0.5135051286470044,
+      "warning": null,
+      "chapter_sentence_start": 313,
+      "chapter_sentence_end": 313,
+      "timeline_start_index": 7047,
+      "timeline_end_index": 7047,
+      "highlights": [
+        {
+          "chapter_sentence": 313,
+          "start": 2,
+          "end": 14
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_15_0004",
+      "source_section": "chapter_01_15",
+      "source_sentence": 353,
+      "character_position": 89,
+      "text": "Как горько!",
+      "vad": [
+        -0.8,
+        0.35,
+        -0.25
+      ],
+      "cluster_id": "veda_kong-2",
+      "distance_to_centroid": 0.2290530395444562,
+      "warning": null,
+      "chapter_sentence_start": 353,
+      "chapter_sentence_end": 353,
+      "timeline_start_index": 7087,
+      "timeline_end_index": 7087,
+      "highlights": [
+        {
+          "chapter_sentence": 353,
+          "start": 2,
+          "end": 13
+        }
+      ]
+    }
+  ]
+}

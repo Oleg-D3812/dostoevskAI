@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "1_10",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_01_10_0001",
+      "source_section": "chapter_01_10",
+      "source_sentence": 11,
+      "character_position": 26,
+      "text": "она заплакала и хотела от него уехать",
+      "vad": [
+        -0.8,
+        0.55,
+        -0.65
+      ],
+      "cluster_id": "ekaterina_maslova-5",
+      "distance_to_centroid": 0.1319852615301657,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 570,
+      "timeline_end_index": 570,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 61,
+          "end": 98
+        }
+      ]
+    }
+  ]
+}

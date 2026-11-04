@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "novel_id": "andromeda",
+  "character_id": "veda_kong",
+  "chapter_id": "1_9",
+  "count": 8,
+  "fragments": [
+    {
+      "id": "veda_kong::chapter_01_09_0001",
+      "source_section": "chapter_01_09",
+      "source_sentence": 5,
+      "character_position": 45,
+      "text": "почувствовавшая себя девчонкой-школьницей",
+      "vad": [
+        0.2,
+        0.3,
+        -0.25
+      ],
+      "cluster_id": "veda_kong-3",
+      "distance_to_centroid": 0.4658536232959341,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 4246,
+      "timeline_end_index": 4246,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 11,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_09_0002",
+      "source_section": "chapter_01_09",
+      "source_sentence": 11,
+      "character_position": 46,
+      "text": "с шутливым ужасом",
+      "vad": [
+        -0.35,
+        0.65,
+        0.1
+      ],
+      "cluster_id": "veda_kong-2",
+      "distance_to_centroid": 0.5017584989024606,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 4252,
+      "timeline_end_index": 4252,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 2,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_09_0003",
+      "source_section": "chapter_01_09",
+      "source_sentence": 45,
+      "character_position": 47,
+      "text": "с любопытством сравнивала ее с матерью",
+      "vad": [
+        0.35,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "veda_kong-1",
+      "distance_to_centroid": 0.3229564491623531,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 4286,
+      "timeline_end_index": 4286,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 10,
+          "end": 48
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_09_0004",
+      "source_section": "chapter_01_09",
+      "source_sentence": 140,
+      "character_position": 48,
+      "text": "трепещущим от желания пожертвовать собой",
+      "vad": [
+        0.45,
+        0.86,
+        0.18
+      ],
+      "cluster_id": "veda_kong-1",
+      "distance_to_centroid": 0.449278163341549,
+      "warning": null,
+      "chapter_sentence_start": 140,
+      "chapter_sentence_end": 140,
+      "timeline_start_index": 4381,
+      "timeline_end_index": 4381,
+      "highlights": [
+        {
+          "chapter_sentence": 140,
+          "start": 130,
+          "end": 170
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_09_0005",
+      "source_section": "chapter_01_09",
+      "source_sentence": 140,
+      "character_position": 49,
+      "text": "с эгоцентризмом здоровой молодости",
+      "vad": [
+        -0.2,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "veda_kong-3",
+      "distance_to_centroid": 0.2426143103798868,
+      "warning": null,
+      "chapter_sentence_start": 140,
+      "chapter_sentence_end": 140,
+      "timeline_start_index": 4381,
+      "timeline_end_index": 4381,
+      "highlights": [
+        {
+          "chapter_sentence": 140,
+          "start": 223,
+          "end": 257
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_09_0006",
+      "source_section": "chapter_01_09",
+      "source_sentence": 194,
+      "character_position": 50,
+      "text": "Веда восхитилась",
+      "vad": [
+        0.8,
+        0.5,
+        0.0
+      ],
+      "cluster_id": "veda_kong-1",
+      "distance_to_centroid": 0.2179660555886831,
+      "warning": null,
+      "chapter_sentence_start": 194,
+      "chapter_sentence_end": 194,
+      "timeline_start_index": 4435,
+      "timeline_end_index": 4435,
+      "highlights": [
+        {
+          "chapter_sentence": 194,
+          "start": 23,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_09_0007",
+      "source_section": "chapter_01_09",
+      "source_sentence": 202,
+      "character_position": 51,
+      "text": "внезапное стремление отдать ее",
+      "vad": [
+        0.1,
+        0.45,
+        0.35
+      ],
+      "cluster_id": "veda_kong-3",
+      "distance_to_centroid": 0.4021895578495459,
+      "warning": null,
+      "chapter_sentence_start": 202,
+      "chapter_sentence_end": 202,
+      "timeline_start_index": 4443,
+      "timeline_end_index": 4443,
+      "highlights": [
+        {
+          "chapter_sentence": 202,
+          "start": 37,
+          "end": 67
+        }
+      ]
+    },
+    {
+      "id": "veda_kong::chapter_01_09_0008",
+      "source_section": "chapter_01_09",
+      "source_sentence": 202,
+      "character_position": 52,
+      "text": "странное желание скорее сбросить с себя прежнее, ушедшее или уходящее",
+      "vad": [
+        -0.1,
+        0.3,
+        0.5
+      ],
+      "cluster_id": "veda_kong-3",
+      "distance_to_centroid": 0.4260202841983893,
+      "warning": null,
+      "chapter_sentence_start": 202,
+      "chapter_sentence_end": 202,
+      "timeline_start_index": 4443,
+      "timeline_end_index": 4443,
+      "highlights": [
+        {
+          "chapter_sentence": 202,
+          "start": 99,
+          "end": 168
+        }
+      ]
+    }
+  ]
+}

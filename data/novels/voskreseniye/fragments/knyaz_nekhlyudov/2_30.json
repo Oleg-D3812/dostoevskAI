@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "2_30",
+  "count": 12,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_30_0001",
+      "source_section": "chapter_02_30",
+      "source_sentence": 2,
+      "character_position": 642,
+      "text": "он чувствовал, что сколько бы времени свободного у него ни было, он никогда не окончит их",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.55
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.1923729053863177,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 6462,
+      "timeline_end_index": 6462,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 32,
+          "end": 121
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_30_0002",
+      "source_section": "chapter_02_30",
+      "source_sentence": 6,
+      "character_position": 643,
+      "text": "занятия делами Дмитрия Ивановича всегда вызывали досаду, раздражение",
+      "vad": [
+        -0.75,
+        0.45,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3797754456352306,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 6466,
+      "timeline_end_index": 6466,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 18,
+          "end": 86
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_30_0003",
+      "source_section": "chapter_02_30",
+      "source_sentence": 6,
+      "character_position": 644,
+      "text": "эти же чужие дела большей частью вызывали радостное настроение",
+      "vad": [
+        0.8,
+        0.35,
+        0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.2129470421108602,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 6466,
+      "timeline_end_index": 6466,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 88,
+          "end": 150
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_30_0004",
+      "source_section": "chapter_02_30",
+      "source_sentence": 16,
+      "character_position": 645,
+      "text": "он почувствовал невозможность помочь каждому из них",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.7
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3587824652702292,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 6476,
+      "timeline_end_index": 6476,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 197,
+          "end": 248
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_30_0005",
+      "source_section": "chapter_02_30",
+      "source_sentence": 20,
+      "character_position": 646,
+      "text": "положение этих людей вызывало особенный интерес",
+      "vad": [
+        0.35,
+        0.25,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.3574896134101588,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 6480,
+      "timeline_end_index": 6480,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 94,
+          "end": 141
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_30_0006",
+      "source_section": "chapter_02_30",
+      "source_sentence": 34,
+      "character_position": 647,
+      "text": "особенно в этом отношении поразил его рецидивист-вор Охотин",
+      "vad": [
+        -0.1,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3303245274139326,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 6494,
+      "timeline_end_index": 6494,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 14,
+          "end": 73
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_30_0007",
+      "source_section": "chapter_02_30",
+      "source_sentence": 39,
+      "character_position": 648,
+      "text": "Нехлюдову было ясно, что оба были богатые натуры и были только запущены и изуродованы",
+      "vad": [
+        0.35,
+        0.05,
+        0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.3389602658002599,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 6499,
+      "timeline_end_index": 6499,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 0,
+          "end": 85
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_30_0008",
+      "source_section": "chapter_02_30",
+      "source_sentence": 40,
+      "character_position": 649,
+      "text": "видел только себе лично противных людей",
+      "vad": [
+        -0.55,
+        -0.05,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.2727885653206808,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 6500,
+      "timeline_end_index": 6500,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 190,
+          "end": 229
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_30_0010",
+      "source_section": "chapter_02_30",
+      "source_sentence": 42,
+      "character_position": 650,
+      "text": "Нехлюдов надеялся найти в книгах",
+      "vad": [
+        0.35,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.3044791517573492,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 6502,
+      "timeline_end_index": 6502,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 29,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_30_0011",
+      "source_section": "chapter_02_30",
+      "source_sentence": 44,
+      "character_position": 651,
+      "text": "он все больше и больше разочаровывался",
+      "vad": [
+        -0.7,
+        0.2,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2893864109588059,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 6504,
+      "timeline_end_index": 6504,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 33,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_30_0013",
+      "source_section": "chapter_02_30",
+      "source_sentence": 67,
+      "character_position": 652,
+      "text": "не позволял себе еще верить в справедливость того ответа",
+      "vad": [
+        -0.2,
+        0.1,
+        0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3361523113950291,
+      "warning": null,
+      "chapter_sentence_start": 67,
+      "chapter_sentence_end": 67,
+      "timeline_start_index": 6527,
+      "timeline_end_index": 6527,
+      "highlights": [
+        {
+          "chapter_sentence": 67,
+          "start": 146,
+          "end": 202
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_30_0014",
+      "source_section": "chapter_02_30",
+      "source_sentence": 67,
+      "character_position": 653,
+      "text": "который в последнее время все чаще и чаще представлялся ему",
+      "vad": [
+        0.0,
+        0.2,
+        -0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3578121271348036,
+      "warning": null,
+      "chapter_sentence_start": 67,
+      "chapter_sentence_end": 67,
+      "timeline_start_index": 6527,
+      "timeline_end_index": 6527,
+      "highlights": [
+        {
+          "chapter_sentence": 67,
+          "start": 204,
+          "end": 263
+        }
+      ]
+    }
+  ]
+}

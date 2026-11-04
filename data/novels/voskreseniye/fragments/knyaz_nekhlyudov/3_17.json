@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "3_17",
+  "count": 7,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_17_0001",
+      "source_section": "chapter_03_17",
+      "source_sentence": 35,
+      "character_position": 781,
+      "text": "Странное чувство охватило Нехлюдова",
+      "vad": [
+        -0.45,
+        0.55,
+        -0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2935558012419196,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 8571,
+      "timeline_end_index": 8571,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 0,
+          "end": 35
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_17_0002",
+      "source_section": "chapter_03_17",
+      "source_sentence": 36,
+      "character_position": 782,
+      "text": "давало ему освобождение от взятого на себя обязательства",
+      "vad": [
+        0.45,
+        -0.1,
+        0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.3997633405629508,
+      "warning": null,
+      "chapter_sentence_start": 36,
+      "chapter_sentence_end": 36,
+      "timeline_start_index": 8572,
+      "timeline_end_index": 8572,
+      "highlights": [
+        {
+          "chapter_sentence": 36,
+          "start": 29,
+          "end": 85
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_17_0003",
+      "source_section": "chapter_03_17",
+      "source_sentence": 36,
+      "character_position": 783,
+      "text": "в минуты слабости казалось ему тяжелым и странным",
+      "vad": [
+        -0.5,
+        -0.3,
+        -0.25
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.5113014495422162,
+      "warning": null,
+      "chapter_sentence_start": 36,
+      "chapter_sentence_end": 36,
+      "timeline_start_index": 8572,
+      "timeline_end_index": 8572,
+      "highlights": [
+        {
+          "chapter_sentence": 36,
+          "start": 95,
+          "end": 144
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_17_0004",
+      "source_section": "chapter_03_17",
+      "source_sentence": 36,
+      "character_position": 784,
+      "text": "ему было что-то не только неприятно, но и больно",
+      "vad": [
+        -0.8,
+        0.4,
+        -0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2107670339065341,
+      "warning": null,
+      "chapter_sentence_start": 36,
+      "chapter_sentence_end": 36,
+      "timeline_start_index": 8572,
+      "timeline_end_index": 8572,
+      "highlights": [
+        {
+          "chapter_sentence": 36,
+          "start": 158,
+          "end": 206
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_17_0005",
+      "source_section": "chapter_03_17",
+      "source_sentence": 37,
+      "character_position": 785,
+      "text": "В чувстве этом было и то, что предложение Симонсона разрушило исключительность его поступка, уменьшало в глазах своих и чужих людей цену жертвы, которую он приносил",
+      "vad": [
+        -0.68,
+        0.38,
+        -0.36
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.117701139721448,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 8573,
+      "timeline_end_index": 8573,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 0,
+          "end": 164
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_17_0006",
+      "source_section": "chapter_03_17",
+      "source_sentence": 38,
+      "character_position": 786,
+      "text": "Было тоже, может быть, простое чувство ревности: он так привык к ее любви к себе, что не мог допустить, чтобы она могла полюбить другого",
+      "vad": [
+        -0.6,
+        0.45,
+        -0.25
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.1828932281799532,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 8574,
+      "timeline_end_index": 8574,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 0,
+          "end": 136
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_17_0007",
+      "source_section": "chapter_03_17",
+      "source_sentence": 41,
+      "character_position": 787,
+      "text": "не успел разобраться в своих чувствах",
+      "vad": [
+        -0.25,
+        0.1,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3541475988693702,
+      "warning": null,
+      "chapter_sentence_start": 41,
+      "chapter_sentence_end": 41,
+      "timeline_start_index": 8577,
+      "timeline_end_index": 8577,
+      "highlights": [
+        {
+          "chapter_sentence": 41,
+          "start": 3,
+          "end": 40
+        }
+      ]
+    }
+  ]
+}

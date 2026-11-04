@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "3_10",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_10_0001",
+      "source_section": "chapter_03_10",
+      "source_sentence": 10,
+      "character_position": 769,
+      "text": "был удивлен его поступком",
+      "vad": [
+        -0.1,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3303245274139326,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 8138,
+      "timeline_end_index": 8138,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 134,
+          "end": 159
+        }
+      ]
+    }
+  ]
+}

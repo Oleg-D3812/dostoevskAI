@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "3_4",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_03_04_0001",
+      "source_section": "chapter_03_04",
+      "source_sentence": 2,
+      "character_position": 267,
+      "text": "Маслова полюбила Марью Павловну",
+      "vad": [
+        0.8,
+        0.5,
+        0.1
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.1344537703377062,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 7741,
+      "timeline_end_index": 7741,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 28,
+          "end": 59
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_03_04_0002",
+      "source_section": "chapter_03_04",
+      "source_sentence": 31,
+      "character_position": 268,
+      "text": "Маслова женским чутьем очень скоро догадалась об этом",
+      "vad": [
+        0.1,
+        0.2,
+        0.3
+      ],
+      "cluster_id": "ekaterina_maslova-4",
+      "distance_to_centroid": 0.2332991093485265,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 7770,
+      "timeline_end_index": 7770,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 0,
+          "end": 53
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_03_04_0003",
+      "source_section": "chapter_03_04",
+      "source_sentence": 31,
+      "character_position": 269,
+      "text": "сознание того, что она могла возбудить любовь в таком необыкновенном человеке, подняло ее в своем собственном мнении",
+      "vad": [
+        0.78,
+        0.34,
+        0.46
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.3549726667446418,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 7770,
+      "timeline_end_index": 7770,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 57,
+          "end": 173
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_03_04_0004",
+      "source_section": "chapter_03_04",
+      "source_sentence": 33,
+      "character_position": 270,
+      "text": "она чувствовала, что Симонсон считает ее необыкновенной, отличающейся от всех женщиной, имеющей особенные высокие нравственные свойства",
+      "vad": [
+        0.82,
+        0.28,
+        0.58
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.4881769200268624,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 7772,
+      "timeline_end_index": 7772,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 12,
+          "end": 147
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_03_04_0005",
+      "source_section": "chapter_03_04",
+      "source_sentence": 39,
+      "character_position": 271,
+      "text": "во взгляде, которым они обменялись, было признание того, что они помнят и важны друг для друга",
+      "vad": [
+        0.75,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.1843382600975786,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 7778,
+      "timeline_end_index": 7778,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 66,
+          "end": 160
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_03_04_0006",
+      "source_section": "chapter_03_04",
+      "source_sentence": 40,
+      "character_position": 272,
+      "text": "Маслова чувствовала, что, когда он говорил при ней, его речь была обращена к ней и что он говорил для нее",
+      "vad": [
+        0.6,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.2273519902467007,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 7779,
+      "timeline_end_index": 7779,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 55,
+          "end": 160
+        }
+      ]
+    }
+  ]
+}

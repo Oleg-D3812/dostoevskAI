@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "ekaterina_maslova",
+  "chapter_id": "3_5",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "ekaterina_maslova::chapter_03_05_0002",
+      "source_section": "chapter_03_05",
+      "source_sentence": 3,
+      "character_position": 273,
+      "text": "смущенно",
+      "vad": [
+        -0.35,
+        0.35,
+        -0.3
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.0734571265420596,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 7783,
+      "timeline_end_index": 7783,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 76,
+          "end": 84
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_03_05_0003",
+      "source_section": "chapter_03_05",
+      "source_sentence": 3,
+      "character_position": 274,
+      "text": "враждебным чувством упрека",
+      "vad": [
+        -0.75,
+        0.2,
+        -0.2
+      ],
+      "cluster_id": "ekaterina_maslova-2",
+      "distance_to_centroid": 0.3785086931574336,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 7783,
+      "timeline_end_index": 7783,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 112,
+          "end": 138
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_03_05_0004",
+      "source_section": "chapter_03_05",
+      "source_sentence": 4,
+      "character_position": 275,
+      "text": "мрачное настроение",
+      "vad": [
+        -0.7,
+        -0.2,
+        0.0
+      ],
+      "cluster_id": "ekaterina_maslova-3",
+      "distance_to_centroid": 0.4472819145808503,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 7784,
+      "timeline_end_index": 7784,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 9,
+          "end": 27
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_03_05_0005",
+      "source_section": "chapter_03_05",
+      "source_sentence": 5,
+      "character_position": 276,
+      "text": "в то прежнее состояние разлада самой с собой и отчаянности в жизни, в котором она раздражалась против него и усиленно курила и пила вино, чтобы забыться",
+      "vad": [
+        -0.93,
+        0.7,
+        -0.78
+      ],
+      "cluster_id": "ekaterina_maslova-5",
+      "distance_to_centroid": 0.2237959458752964,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 7785,
+      "timeline_end_index": 7785,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 132,
+          "end": 284
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_03_05_0006",
+      "source_section": "chapter_03_05",
+      "source_sentence": 9,
+      "character_position": 277,
+      "text": "не насупилась и не смутилась",
+      "vad": [
+        0.3,
+        -0.2,
+        0.4
+      ],
+      "cluster_id": "ekaterina_maslova-4",
+      "distance_to_centroid": 0.3772278023268535,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 7789,
+      "timeline_end_index": 7789,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 4,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "ekaterina_maslova::chapter_03_05_0007",
+      "source_section": "chapter_03_05",
+      "source_sentence": 9,
+      "character_position": 278,
+      "text": "радостно и просто встретила его",
+      "vad": [
+        0.82,
+        0.3,
+        0.18
+      ],
+      "cluster_id": "ekaterina_maslova-1",
+      "distance_to_centroid": 0.1383435125661331,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 7789,
+      "timeline_end_index": 7789,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 59,
+          "end": 90
+        }
+      ]
+    }
+  ]
+}

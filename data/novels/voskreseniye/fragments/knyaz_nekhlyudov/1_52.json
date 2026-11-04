@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "1_52",
+  "count": 5,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_52_0001",
+      "source_section": "chapter_01_52",
+      "source_sentence": 12,
+      "character_position": 405,
+      "text": "Нехлюдову стало страшно",
+      "vad": [
+        -0.82,
+        0.78,
+        -0.32
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3130298664098009,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 3524,
+      "timeline_end_index": 3524,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 0,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_52_0003",
+      "source_section": "chapter_01_52",
+      "source_sentence": 20,
+      "character_position": 406,
+      "text": "Нехлюдову было особенно странно слышать этот рассказ",
+      "vad": [
+        -0.45,
+        0.25,
+        0.05
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.1830161638998262,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 3532,
+      "timeline_end_index": 3532,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 89,
+          "end": 141
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_52_0004",
+      "source_section": "chapter_01_52",
+      "source_sentence": 21,
+      "character_position": 407,
+      "text": "ему все становилось грустнее и грустнее",
+      "vad": [
+        -0.8,
+        -0.15,
+        -0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.5444086051830894,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 3533,
+      "timeline_end_index": 3533,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 233,
+          "end": 272
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_52_0005",
+      "source_section": "chapter_01_52",
+      "source_sentence": 21,
+      "character_position": 408,
+      "text": "не хотелось верить",
+      "vad": [
+        -0.45,
+        0.08,
+        -0.18
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.2109496635201524,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 3533,
+      "timeline_end_index": 3533,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 274,
+          "end": 292
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_52_0006",
+      "source_section": "chapter_01_52",
+      "source_sentence": 21,
+      "character_position": 409,
+      "text": "так было ужасно думать",
+      "vad": [
+        -0.9,
+        0.65,
+        -0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2399517058318343,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 3533,
+      "timeline_end_index": 3533,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 360,
+          "end": 382
+        }
+      ]
+    }
+  ]
+}

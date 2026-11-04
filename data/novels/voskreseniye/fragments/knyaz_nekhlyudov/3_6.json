@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "3_6",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_06_0001",
+      "source_section": "chapter_03_06",
+      "source_sentence": 1,
+      "character_position": 759,
+      "text": "В особенности полюбил Нехлюдов",
+      "vad": [
+        0.8,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.3142028435115583,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 7821,
+      "timeline_end_index": 7821,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 0,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_03_06_0002",
+      "source_section": "chapter_03_06",
+      "source_sentence": 120,
+      "character_position": 760,
+      "text": "он не понимал прежде",
+      "vad": [
+        0.0,
+        0.0,
+        -0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4051678741139359,
+      "warning": null,
+      "chapter_sentence_start": 120,
+      "chapter_sentence_end": 120,
+      "timeline_start_index": 7940,
+      "timeline_end_index": 7940,
+      "highlights": [
+        {
+          "chapter_sentence": 120,
+          "start": 82,
+          "end": 102
+        }
+      ]
+    }
+  ]
+}

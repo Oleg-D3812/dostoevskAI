@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "andromeda",
+  "character_id": "dar_veter",
+  "chapter_id": "1_12",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "dar_veter::chapter_01_12_0001",
+      "source_section": "chapter_01_12",
+      "source_sentence": 324,
+      "character_position": 73,
+      "text": "веселый, звучащий металлом переносного передатчика голос",
+      "vad": [
+        0.65,
+        0.45,
+        0.1
+      ],
+      "cluster_id": "dar_veter-2",
+      "distance_to_centroid": 0.1124257567519562,
+      "warning": null,
+      "chapter_sentence_start": 324,
+      "chapter_sentence_end": 324,
+      "timeline_start_index": 5777,
+      "timeline_end_index": 5777,
+      "highlights": [
+        {
+          "chapter_sentence": 324,
+          "start": 60,
+          "end": 116
+        }
+      ]
+    },
+    {
+      "id": "dar_veter::chapter_01_12_0002",
+      "source_section": "chapter_01_12",
+      "source_sentence": 347,
+      "character_position": 74,
+      "text": "радостно воскликнул Дар Ветер",
+      "vad": [
+        0.9,
+        0.8,
+        0.1
+      ],
+      "cluster_id": "dar_veter-2",
+      "distance_to_centroid": 0.5019793828248827,
+      "warning": null,
+      "chapter_sentence_start": 347,
+      "chapter_sentence_end": 347,
+      "timeline_start_index": 5800,
+      "timeline_end_index": 5800,
+      "highlights": [
+        {
+          "chapter_sentence": 347,
+          "start": 2,
+          "end": 31
+        }
+      ]
+    }
+  ]
+}

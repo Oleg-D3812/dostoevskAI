@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "1_23",
+  "count": 9,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_23_0002",
+      "source_section": "chapter_01_23",
+      "source_sentence": 56,
+      "character_position": 191,
+      "text": "сначала был уверен, что все признают это",
+      "vad": [
+        0.35,
+        0.0,
+        0.45
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.4233291318287401,
+      "warning": null,
+      "chapter_sentence_start": 56,
+      "chapter_sentence_end": 56,
+      "timeline_start_index": 1410,
+      "timeline_end_index": 1410,
+      "highlights": [
+        {
+          "chapter_sentence": 56,
+          "start": 162,
+          "end": 202
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_23_0003",
+      "source_section": "chapter_01_23",
+      "source_sentence": 56,
+      "character_position": 192,
+      "text": "ему страшно было говорить за Маслову",
+      "vad": [
+        -0.75,
+        0.7,
+        -0.55
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2753680744360468,
+      "warning": null,
+      "chapter_sentence_start": 56,
+      "chapter_sentence_end": 56,
+      "timeline_start_index": 1410,
+      "timeline_end_index": 1410,
+      "highlights": [
+        {
+          "chapter_sentence": 56,
+          "start": 502,
+          "end": 538
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_23_0004",
+      "source_section": "chapter_01_23",
+      "source_sentence": 56,
+      "character_position": 193,
+      "text": "ему казалось, что все сейчас узнают его отношения к ней",
+      "vad": [
+        -0.7,
+        0.6,
+        -0.6
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.2511960981820357,
+      "warning": null,
+      "chapter_sentence_start": 56,
+      "chapter_sentence_end": 56,
+      "timeline_start_index": 1410,
+      "timeline_end_index": 1410,
+      "highlights": [
+        {
+          "chapter_sentence": 56,
+          "start": 542,
+          "end": 597
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_23_0005",
+      "source_section": "chapter_01_23",
+      "source_sentence": 57,
+      "character_position": 194,
+      "text": "он чувствовал, что не может оставить дело так и должен возражать",
+      "vad": [
+        -0.35,
+        0.45,
+        0.35
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.487128549981507,
+      "warning": null,
+      "chapter_sentence_start": 57,
+      "chapter_sentence_end": 57,
+      "timeline_start_index": 1411,
+      "timeline_end_index": 1411,
+      "highlights": [
+        {
+          "chapter_sentence": 57,
+          "start": 12,
+          "end": 76
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_23_0006",
+      "source_section": "chapter_01_23",
+      "source_sentence": 86,
+      "character_position": 195,
+      "text": "Нехлюдов был так взволнован, что и он не заметил этого",
+      "vad": [
+        -0.45,
+        0.78,
+        -0.25
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.4222731171671488,
+      "warning": null,
+      "chapter_sentence_start": 86,
+      "chapter_sentence_end": 86,
+      "timeline_start_index": 1440,
+      "timeline_end_index": 1440,
+      "highlights": [
+        {
+          "chapter_sentence": 86,
+          "start": 0,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_23_0007",
+      "source_section": "chapter_01_23",
+      "source_sentence": 91,
+      "character_position": 196,
+      "text": "Нехлюдов был так взволнован, что не заметил упущения оговорки об отсутствии намерения лишить жизни",
+      "vad": [
+        -0.65,
+        0.82,
+        -0.38
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3416762826986936,
+      "warning": null,
+      "chapter_sentence_start": 91,
+      "chapter_sentence_end": 91,
+      "timeline_start_index": 1445,
+      "timeline_end_index": 1445,
+      "highlights": [
+        {
+          "chapter_sentence": 91,
+          "start": 425,
+          "end": 523
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_23_0008",
+      "source_section": "chapter_01_23",
+      "source_sentence": 138,
+      "character_position": 197,
+      "text": "Я никак не думал",
+      "vad": [
+        -0.25,
+        -0.15,
+        -0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4068255485773377,
+      "warning": null,
+      "chapter_sentence_start": 138,
+      "chapter_sentence_end": 138,
+      "timeline_start_index": 1492,
+      "timeline_end_index": 1492,
+      "highlights": [
+        {
+          "chapter_sentence": 138,
+          "start": 2,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_23_0009",
+      "source_section": "chapter_01_23",
+      "source_sentence": 145,
+      "character_position": 198,
+      "text": "в душе Нехлюдова шевельнулось дурное чувство",
+      "vad": [
+        -0.65,
+        0.25,
+        -0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3054980965450262,
+      "warning": null,
+      "chapter_sentence_start": 145,
+      "chapter_sentence_end": 145,
+      "timeline_start_index": 1499,
+      "timeline_end_index": 1499,
+      "highlights": [
+        {
+          "chapter_sentence": 145,
+          "start": 2,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_01_23_0010",
+      "source_section": "chapter_01_23",
+      "source_sentence": 146,
+      "character_position": 199,
+      "text": "он был в нерешительности, как отнестись к ней",
+      "vad": [
+        -0.35,
+        0.2,
+        -0.45
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.4506839508070418,
+      "warning": null,
+      "chapter_sentence_start": 146,
+      "chapter_sentence_end": 146,
+      "timeline_start_index": 1500,
+      "timeline_end_index": 1500,
+      "highlights": [
+        {
+          "chapter_sentence": 146,
+          "start": 58,
+          "end": 103
+        }
+      ]
+    }
+  ]
+}

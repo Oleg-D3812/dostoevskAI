@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "andromeda",
+  "character_id": "mven_mas",
+  "chapter_id": "1_7",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "mven_mas::chapter_01_07_0001",
+      "source_section": "chapter_01_07",
+      "source_sentence": 212,
+      "character_position": 30,
+      "text": "выразил желание немедленно повидать Веду Конг",
+      "vad": [
+        0.45,
+        0.6,
+        0.25
+      ],
+      "cluster_id": "mven_mas-1",
+      "distance_to_centroid": 0.2372329557811097,
+      "warning": null,
+      "chapter_sentence_start": 212,
+      "chapter_sentence_end": 212,
+      "timeline_start_index": 3589,
+      "timeline_end_index": 3589,
+      "highlights": [
+        {
+          "chapter_sentence": 212,
+          "start": 64,
+          "end": 109
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_07_0002",
+      "source_section": "chapter_01_07",
+      "source_sentence": 214,
+      "character_position": 31,
+      "text": "на лице африканца отразилось понимание",
+      "vad": [
+        0.25,
+        -0.15,
+        0.1
+      ],
+      "cluster_id": "mven_mas-4",
+      "distance_to_centroid": 0.370744078678271,
+      "warning": null,
+      "chapter_sentence_start": 214,
+      "chapter_sentence_end": 214,
+      "timeline_start_index": 3591,
+      "timeline_end_index": 3591,
+      "highlights": [
+        {
+          "chapter_sentence": 214,
+          "start": 36,
+          "end": 74
+        }
+      ]
+    },
+    {
+      "id": "mven_mas::chapter_01_07_0003",
+      "source_section": "chapter_01_07",
+      "source_sentence": 215,
+      "character_position": 32,
+      "text": "Какой-то полудетский порыв заставил его прошептать давно забытые слова прощания",
+      "vad": [
+        -0.25,
+        0.15,
+        -0.1
+      ],
+      "cluster_id": "mven_mas-4",
+      "distance_to_centroid": 0.4415327528904283,
+      "warning": null,
+      "chapter_sentence_start": 215,
+      "chapter_sentence_end": 215,
+      "timeline_start_index": 3592,
+      "timeline_end_index": 3592,
+      "highlights": [
+        {
+          "chapter_sentence": 215,
+          "start": 0,
+          "end": 79
+        }
+      ]
+    }
+  ]
+}

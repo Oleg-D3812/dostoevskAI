@@ -1,0 +1,477 @@
+{
+  "schema_version": 1,
+  "novel_id": "voskreseniye",
+  "character_id": "knyaz_nekhlyudov",
+  "chapter_id": "2_14",
+  "count": 18,
+  "fragments": [
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_14_0001",
+      "source_section": "chapter_02_14",
+      "source_sentence": 5,
+      "character_position": 527,
+      "text": "всем существом почувствовал отвращение к той своей среде",
+      "vad": [
+        -0.85,
+        0.7,
+        -0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3709521829534794,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 5154,
+      "timeline_end_index": 5154,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 127,
+          "end": 183
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_14_0002",
+      "source_section": "chapter_02_14",
+      "source_sentence": 6,
+      "character_position": 528,
+      "text": "не мог без неловкости и упрека самому себе общаться с людьми этой среды",
+      "vad": [
+        -0.68,
+        0.34,
+        -0.28
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.1821052432551928,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 5155,
+      "timeline_end_index": 5155,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 20,
+          "end": 91
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_14_0003",
+      "source_section": "chapter_02_14",
+      "source_sentence": 7,
+      "character_position": 529,
+      "text": "то, что теперь одно занимало его",
+      "vad": [
+        0.0,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3455627314536617,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 5156,
+      "timeline_end_index": 5156,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 151,
+          "end": 183
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_14_0004",
+      "source_section": "chapter_02_14",
+      "source_sentence": 7,
+      "character_position": 530,
+      "text": "вызывающих в нем негодование и презрение",
+      "vad": [
+        -0.9,
+        0.7,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.5508025668579324,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 5156,
+      "timeline_end_index": 5156,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 343,
+          "end": 383
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_14_0005",
+      "source_section": "chapter_02_14",
+      "source_sentence": 9,
+      "character_position": 531,
+      "text": "Ему неприятно было это",
+      "vad": [
+        -0.65,
+        0.15,
+        -0.15
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3466399805420599,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 5158,
+      "timeline_end_index": 5158,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 0,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_14_0006",
+      "source_section": "chapter_02_14",
+      "source_sentence": 26,
+      "character_position": 532,
+      "text": "Нехлюдов любил ее",
+      "vad": [
+        0.8,
+        0.3,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.3105569981387812,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 5175,
+      "timeline_end_index": 5175,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 0,
+          "end": 17
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_14_0007",
+      "source_section": "chapter_02_14",
+      "source_sentence": 26,
+      "character_position": 533,
+      "text": "заражаться ее энергией и веселостью",
+      "vad": [
+        0.8,
+        0.7,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.4986024260387235,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 5175,
+      "timeline_end_index": 5175,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 41,
+          "end": 76
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_14_0008",
+      "source_section": "chapter_02_14",
+      "source_sentence": 28,
+      "character_position": 534,
+      "text": "Мне только хотелось помочь ей",
+      "vad": [
+        0.35,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.3102501779249996,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 5177,
+      "timeline_end_index": 5177,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 0,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_14_0009",
+      "source_section": "chapter_02_14",
+      "source_sentence": 28,
+      "character_position": 535,
+      "text": "я в этом виноват, виноват и во всей ее судьбе",
+      "vad": [
+        -0.85,
+        0.45,
+        -0.65
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3018644370444301,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 5177,
+      "timeline_end_index": 5177,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 78,
+          "end": 123
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_14_0010",
+      "source_section": "chapter_02_14",
+      "source_sentence": 29,
+      "character_position": 536,
+      "text": "Я чувствую себя обязанным сделать для нее, что могу",
+      "vad": [
+        -0.2,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.2482222661471729,
+      "warning": null,
+      "chapter_sentence_start": 29,
+      "chapter_sentence_end": 29,
+      "timeline_start_index": 5178,
+      "timeline_end_index": 5178,
+      "highlights": [
+        {
+          "chapter_sentence": 29,
+          "start": 0,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_14_0012",
+      "source_section": "chapter_02_14",
+      "source_sentence": 35,
+      "character_position": 537,
+      "text": "какой ты дурак",
+      "vad": [
+        0.35,
+        0.25,
+        0.55
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.4028435809098508,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 5184,
+      "timeline_end_index": 5184,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 4,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_14_0013",
+      "source_section": "chapter_02_14",
+      "source_sentence": 40,
+      "character_position": 538,
+      "text": "Ведь я всему виною",
+      "vad": [
+        -0.7,
+        0.2,
+        -0.25
+      ],
+      "cluster_id": "knyaz_nekhlyudov-1",
+      "distance_to_centroid": 0.3149422226519465,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 5189,
+      "timeline_end_index": 5189,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 0,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_14_0014",
+      "source_section": "chapter_02_14",
+      "source_sentence": 41,
+      "character_position": 539,
+      "text": "ты просто оболтус",
+      "vad": [
+        -0.2,
+        0.1,
+        0.5
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.5251347851230064,
+      "warning": null,
+      "chapter_sentence_start": 41,
+      "chapter_sentence_end": 41,
+      "timeline_start_index": 5190,
+      "timeline_end_index": 5190,
+      "highlights": [
+        {
+          "chapter_sentence": 41,
+          "start": 7,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_14_0015",
+      "source_section": "chapter_02_14",
+      "source_sentence": 42,
+      "character_position": 540,
+      "text": "что ты такой ужасный оболтус",
+      "vad": [
+        0.2,
+        0.1,
+        0.1
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.4646397459725269,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 5191,
+      "timeline_end_index": 5191,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 50,
+          "end": 78
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_14_0016",
+      "source_section": "chapter_02_14",
+      "source_sentence": 42,
+      "character_position": 541,
+      "text": "умственное и нравственное состояние ее племянника",
+      "vad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.3562712061112596,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 5191,
+      "timeline_end_index": 5191,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 163,
+          "end": 212
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_14_0017",
+      "source_section": "chapter_02_14",
+      "source_sentence": 120,
+      "character_position": 542,
+      "text": "в желание высказать ей все, что он думал",
+      "vad": [
+        0.2,
+        0.35,
+        0.3
+      ],
+      "cluster_id": "knyaz_nekhlyudov-2",
+      "distance_to_centroid": 0.4245413191111699,
+      "warning": null,
+      "chapter_sentence_start": 120,
+      "chapter_sentence_end": 120,
+      "timeline_start_index": 5269,
+      "timeline_end_index": 5269,
+      "highlights": [
+        {
+          "chapter_sentence": 120,
+          "start": 168,
+          "end": 208
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_14_0018",
+      "source_section": "chapter_02_14",
+      "source_sentence": 133,
+      "character_position": 543,
+      "text": "Он ужасный дурак",
+      "vad": [
+        -0.75,
+        0.35,
+        0.2
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.5175184693086784,
+      "warning": null,
+      "chapter_sentence_start": 133,
+      "chapter_sentence_end": 133,
+      "timeline_start_index": 5282,
+      "timeline_end_index": 5282,
+      "highlights": [
+        {
+          "chapter_sentence": 133,
+          "start": 0,
+          "end": 16
+        }
+      ]
+    },
+    {
+      "id": "knyaz_nekhlyudov::chapter_02_14_0019",
+      "source_section": "chapter_02_14",
+      "source_sentence": 134,
+      "character_position": 544,
+      "text": "Ужасный оболтус",
+      "vad": [
+        -0.7,
+        0.3,
+        0.4
+      ],
+      "cluster_id": "knyaz_nekhlyudov-3",
+      "distance_to_centroid": 0.5753726964133941,
+      "warning": null,
+      "chapter_sentence_start": 134,
+      "chapter_sentence_end": 134,
+      "timeline_start_index": 5283,
+      "timeline_end_index": 5283,
+      "highlights": [
+        {
+          "chapter_sentence": 134,
+          "start": 0,
+          "end": 15
+        }
+      ]
+    }
+  ]
+}
