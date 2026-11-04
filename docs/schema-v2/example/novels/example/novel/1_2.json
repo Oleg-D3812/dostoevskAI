@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "novel_id": "example",
+  "chapter_id": "1_2",
+  "part": 1,
+  "chapter": 2,
+  "sentence_count": 2,
+  "timeline_start_index": 3,
+  "source_sections": [
+    {
+      "id": "chapter_01_02",
+      "source_file": "x.txt",
+      "sentence_start": 1,
+      "sentence_count": 2
+    }
+  ],
+  "sentences": [
+    {
+      "number": 1,
+      "timeline_index": 3,
+      "source_section": "chapter_01_02",
+      "source_sentence": 1,
+      "text": "— Что говорят в деревне? — спросил Иван."
+    },
+    {
+      "number": 2,
+      "timeline_index": 4,
+      "source_section": "chapter_01_02",
+      "source_sentence": 2,
+      "text": "Жители деревни молчали."
+    }
+  ]
+}

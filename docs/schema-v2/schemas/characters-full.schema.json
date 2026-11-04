@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "characters-full.schema.json",
+  "title": "characters_full.json - SLIM master list of every character (v1 file, trimmed)",
+  "description": "Removed vs v1: top-level 'novel' (title copy); aliases, desc, intro_desc, note, ambiguous -> characters_detail.json.",
+  "type": "object",
+  "properties": {
+    "note": {
+      "type": "string"
+    },
+    "characters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "short_label": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "kind": {
+            "type": "string"
+          },
+          "intro_chapter": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "short_label",
+          "kind"
+        ],
+        "additionalProperties": false,
+        "description": "short_label: THE one short name (v1: short_label in network/glossary, label in emo-characters). Always present, null when unknown. intro_chapter in the novel's own format, as v1."
+      }
+    }
+  },
+  "required": [
+    "characters"
+  ],
+  "additionalProperties": false
+}

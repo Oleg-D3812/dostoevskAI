@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "profile.schema.json",
+  "title": "profiles/<character_id>.json (unchanged from v1)",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "integer"
+    },
+    "character_id": {
+      "type": "string"
+    },
+    "components8": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "components16": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "chapters": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "count": {
+            "type": "integer"
+          },
+          "sum8": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          },
+          "mean8": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          },
+          "sum16": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          },
+          "mean16": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          }
+        },
+        "required": [
+          "count",
+          "mean8",
+          "mean16"
+        ],
+        "additionalProperties": true
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "character_id",
+    "chapters"
+  ],
+  "additionalProperties": false
+}

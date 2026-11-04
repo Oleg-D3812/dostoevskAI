@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Data usage map</title>
+<style>
+  :root { --bg:#f6f7f9; --surface:#fff; --text:#1c2230; --muted:#6a7386; --line:#d9dde5; --accent:#3b6fd4; --warn:#c2410c; --warnbg:#fff1e6; --hi:#e8f0ff;
+          --c-catalog:#7c3aed; --c-manifest:#0d9488; --c-net:#2563eb; --c-chap:#ca8a04; --c-emo:#db2777; --c-clu:#ea580c; --c-frag:#16a34a; --c-prof:#0891b2; --c-nov:#64748b; --c-model:#9333ea; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#12151c; --surface:#1b2030; --text:#e6e9f0; --muted:#8e98ad; --line:#2d3448; --accent:#7aa2ff; --warn:#fb923c; --warnbg:#3a2415; --hi:#22305a; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:14px/1.5 system-ui,Segoe UI,sans-serif; }
+  .wrap { max-width:1280px; margin:0 auto; padding:24px 16px 64px; }
+  h1 { font-size:24px; margin:0 0 4px; } h2 { font-size:18px; margin:36px 0 8px; } h3 { font-size:14px; margin:0; }
+  p.sub { color:var(--muted); margin:0 0 16px; }
+  code, .mono { font-family:ui-monospace,Consolas,monospace; font-size:12.5px; }
+  .card { background:var(--surface); border:1px solid var(--line); border-radius:10px; padding:14px 16px; }
+  .scroll { overflow-x:auto; }
+  table.matrix { border-collapse:collapse; background:var(--surface); border:1px solid var(--line); border-radius:10px; font-size:12.5px; }
+  .matrix th, .matrix td { border:1px solid var(--line); padding:6px 8px; text-align:center; }
+  .matrix th.rowh { text-align:left; position:sticky; left:0; background:var(--surface); white-space:nowrap; z-index:1; }
+  .matrix th.colh { font-weight:600; vertical-align:bottom; min-width:84px; }
+  .matrix th.colh small { display:block; color:var(--muted); font-weight:400; }
+  .matrix td.on { cursor:pointer; font-weight:700; color:var(--accent); }
+  .matrix td.on:hover, .matrix td.sel { background:var(--hi); }
+  .dot { display:inline-block; width:9px; height:9px; border-radius:50%; margin-right:6px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(380px,1fr)); gap:14px; }
+  .file { border-left:4px solid var(--k); }
+  .file .path { color:var(--muted); margin:2px 0 8px; word-break:break-all; }
+  .fields { width:100%; border-collapse:collapse; }
+  .fields td { padding:2px 6px 2px 0; vertical-align:top; border-top:1px dashed var(--line); }
+  .fields td:first-child { white-space:nowrap; color:var(--text); }
+  .fields td:nth-child(2) { color:var(--muted); }
+  .tag { display:inline-block; padding:0 6px; border-radius:9px; font-size:11px; margin:1px 2px 1px 0; background:var(--hi); color:var(--accent); }
+  .tag.id { background:var(--warnbg); color:var(--warn); }
+  .readers { margin-top:8px; font-size:12px; color:var(--muted); }
+  .readers b { color:var(--text); }
+  .callout { background:var(--warnbg); border:1px solid var(--warn); color:var(--text); border-radius:10px; padding:12px 16px; }
+  .callout li { margin:3px 0; }
+  table.ident { border-collapse:collapse; width:100%; background:var(--surface); border:1px solid var(--line); }
+  .ident th, .ident td { border:1px solid var(--line); padding:6px 8px; text-align:left; vertical-align:top; }
+  .ident th { background:var(--bg); }
+  .ident td.y { color:var(--warn); font-weight:600; } .ident td.n { color:var(--muted); }
+  .flow { display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin:8px 0; }
+  .node { padding:4px 10px; border-radius:8px; border:1px solid var(--line); background:var(--surface); font-size:12.5px; }
+  .arrow { color:var(--muted); }
+  #detail { position:sticky; bottom:0; margin-top:12px; background:var(--surface); border:1px solid var(--accent); border-radius:10px; padding:10px 14px; display:none; }
+  @media (max-width:520px){ .grid { grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Data usage map</h1>
+  <p class="sub">Which part of the site reads which data file, and which fields. Generated from the code in <code>js/</code>, <code>explorers/</code>, <code>index.html</code>, <code>novel.html</code> and the sample novel <code>data/novels/demons/</code> (snapshot 2026-11-03, branch feature/data-playground). Click a ● to see the fields read by that consumer.</p>
+
+  <h2>1 · Load chain</h2>
+  <div class="card">
+    <div class="flow">
+      <span class="node">index.html</span><span class="arrow">→ fetch</span><span class="node">data/catalog.json</span>
+      <span class="arrow">→ novel.manifest →</span><span class="node">novels/&lt;id&gt;/manifest.json</span>
+      <span class="arrow">→ <code>files.*</code> / <code>features[].entry</code> →</span><span class="node">all other files</span>
+    </div>
+    <p class="sub" style="margin:6px 0 0">Resolved by <code>AtlasData.loadNovelContext()</code> in <code>js/data-client.js</code>. Files <b>not</b> listed in <code>manifest.files</code> and therefore hard-coded by name: <code>characters_full.json</code>, <code>scenes.json</code>, <code>character-network.json</code> (via the feature's <code>entry</code>), and the model path in <code>js/centroid-spheres-overlay.js</code>.</p>
+  </div>
+
+  <h2>2 · Who reads what</h2>
+  <div class="scroll"><table class="matrix" id="matrix"></table></div>
+  <div id="detail"></div>
+
+  <h2>3 · Where a character's name / label / color lives</h2>
+  <p class="sub">The same entity (e.g. <code>nikolai_stavrogin</code>) is described in several files with overlapping but not identical fields.</p>
+  <div class="scroll"><table class="ident" id="ident"></table></div>
+
+  <h2>4 · Inconsistencies found</h2>
+  <div class="callout"><ul id="issues"></ul></div>
+
+  <h2>5 · Data files and fields</h2>
+  <div class="grid" id="files"></div>
+</div>
+
+<script>
+// ---- consumers ----------------------------------------------------------
+var C = [
+  {id:"index",   name:"index.html",            sub:"catalog page"},
+  {id:"novel",   name:"novel.js + graph.js",   sub:"novel.html: tabs, graph, reader"},
+  {id:"play",    name:"playground-*.js",       sub:"Playground tab"},
+  {id:"table",   name:"chapter-plutchik-table",sub:"explorer"},
+  {id:"clouds",  name:"chapter-vad-clouds",    sub:"explorer"},
+  {id:"radar",   name:"chapter-vad-radar",     sub:"explorer (+clouds)"},
+  {id:"kmeans",  name:"separate-kmeans",       sub:"explorer"},
+  {id:"cent",    name:"separate-kmeans-centroids", sub:"explorer (+overlay)"},
+  {id:"anim",    name:"vad-sentence-window-animation", sub:"explorer"},
+  {id:"help",    name:"explained / pipeline pages", sub:"explorers/*_explained, *_pipeline_diagram"},
+  {id:"py",      name:"scripts/wire_novel.py", sub:"build time"}
+];
+// ---- data files ---------------------------------------------------------
+// f: [field, type/notes, isIdentity]
+var F = [
+ {id:"catalog", k:"--c-catalog", path:"data/catalog.json", desc:"List of novels",
+  fields:[["novels[].id","str, = folder name",1],["novels[].title","{ru,en}",1],["novels[].author","{ru,en}"],["novels[].year","int"],["novels[].description","{ru,en}"],["novels[].manifest","relative path"]],
+  use:{index:"novels[].id, title, author, year, description (renders cards)",novel:"novels[].id, manifest; title/author/year for header (via loadNovelContext)",help:"via loadNovelContext (novel title)",py:"writes the novel record (from catalog-meta.json)"}},
+ {id:"meta", k:"--c-catalog", path:"data/novels/<id>/catalog-meta.json", desc:"Source for the catalog entry (not read by the site)",
+  fields:[["title","{ru,en}",1],["author","{ru,en}"],["year","int"],["description","{ru,en}"]],
+  use:{py:"read → copied into catalog.json and manifest.title"}},
+ {id:"manifest", k:"--c-manifest", path:"data/novels/<id>/manifest.json", desc:"Per-novel wiring: features, file names, counts",
+  fields:[["features[].id / renderer / status / entry / help","tabs and which renderer"],["features[].label","{ru,en} tab title",1],["features[].explorers[]","name, description, entry (explorer cards)"],["novel_id, title","title = bare id (!)",1],["language, vad_dimensions","meta"],["files.characters","→ emo-characters.json"],["files.chapters / clusters","paths"],["files.novel_chapter_template / fragment_template / profile_template","path templates"],["emotion_model.path / id / sha256","→ data/models/…"],["counts.*","characters, chapters, sentences, fragments…"]],
+  use:{novel:"features[], files.chapters, files.novel_chapter_template, explorers[]",play:"files.*, features",table:"files.characters/chapters/novel_chapter_template",clouds:"files.characters/chapters/clusters",radar:"files.characters/chapters/clusters/novel_chapter_template",kmeans:"files.characters/chapters/clusters/novel_chapter_template",cent:"files.characters/clusters, emotion_model.path",anim:"files.characters/chapters/clusters/novel_chapter_template",help:"via loadNovelContext (links, novel id)",py:"generates / merges (features, files, counts)"}},
+ {id:"net", k:"--c-net", path:"data/novels/<id>/character-network.json", desc:"Graph of ALL characters (≈77 nodes in demons)",
+  fields:[["nodes[].id","str",1],["nodes[].label","full name",1],["nodes[].short_label","optional, only andromeda & voskreseniye",1],["nodes[].desc","str"],["nodes[].intro_chapter","chapter_01_02_01 style"],["nodes[].degree / core","int"],["nodes[].importance","F, D, W, B, score, tier"],["categories[]","id, color"],["interaction_types[]","id, label"],["edges[]","a, b, interactions, scenes[], relation{…}, types{…}"]],
+  use:{novel:"nodes (id,label,short_label,desc,intro_chapter,importance.tier), categories, interaction_types, edges",play:"nodes → character, short_label, intro_chapter; categories colors; edges",help:"character_network_explained: via manifest"}},
+ {id:"full", k:"--c-net", path:"data/novels/<id>/characters_full.json", desc:"Glossary of all named entities (≈222 in demons)",
+  fields:[["characters[].id","str",1],["characters[].name","full name",1],["characters[].aliases[]","used to highlight in text",1],["characters[].kind","person / …"],["characters[].intro_chapter / intro_desc / desc / note","text"],["ambiguous{}","alias → default_id"],["short_label","optional (andromeda, voskreseniye)",1]],
+  use:{novel:"aliases (fallback [name]) for highlighting characters in chapter text"}},
+ {id:"emo", k:"--c-emo", path:"data/novels/<id>/emo-characters.json", desc:"Only characters analysed for emotions (4 in demons)",
+  fields:[["characters[].id","str",1],["characters[].name","full name",1],["characters[].label","short, e.g. «Н.В. Ставрогин»",1],["characters[].color","hex",1],["characters[].fragment_count / chapter_count","int"],["characters[].clusters_path / fragments_path_template / profile_path","paths"]],
+  use:{play:"id, name, label, color",table:"id, label/name, color, profile_path, fragments_path_template",clouds:"id, label/name, fragments_path_template",radar:"id, label/name, color, profile_path, fragments_path_template",kmeans:"id, label, name, color",cent:"id, label/name",anim:"id, label/name, color"}},
+ {id:"chap", k:"--c-chap", path:"data/novels/<id>/chapters.json", desc:"Logical chapters (108 in demons)",
+  fields:[["chapters[].id","'2_1_2'"],["chapters[].label","display name"],["chapters[].description","short text"],["chapters[].part / chapter / section","int"],["chapters[].sentence_count / timeline_start_index","int"],["chapters[].source_sections[]","ids"],["chapters[].novel_path","path"],["chapters[].character_counts","{character_id: n}",1]],
+  use:{novel:"id, label, description (reader, node details, scene headings)",play:"id, label, part, character_counts, novel_path",table:"id, label",clouds:"id, label, novel_path, character_counts",radar:"id, label",kmeans:"id, label, character_counts",anim:"id, label, timeline_start_index"}},
+ {id:"scenes", k:"--c-chap", path:"data/novels/<id>/scenes.json", desc:"Scenes (378 in demons), referenced by graph edges",
+  fields:[["[].id","chapter_01_01_02_S1"],["[].chapter","chapter id (long style)"],["[].scene_id, title","str"],["[].summary","text"]],
+  use:{novel:"id, chapter, title, summary (edge details)",play:"id, chapter, summary (edge scenes dataset)"}},
+ {id:"clu", k:"--c-clu", path:"data/novels/<id>/clusters.json", desc:"K-Means clusters per emotion character (14 in demons)",
+  fields:[["clusters[].id, display_id","str"],["clusters[].character_id","→ emo-characters.id",1],["clusters[].name","emotion name, e.g. «Унылая задумчивость»"],["clusters[].centroid","[V,A,D]"],["clusters[].size / within_cluster_spread / sphere_radius","float"],["clusters[].color","hex"]],
+  use:{play:"id, name, display_id, centroid, size, color",clouds:"id, color, name",radar:"id, name, color",kmeans:"character_id, display_id, name, color, centroid, size",cent:"all fields",anim:"id, color, name"}},
+ {id:"frag", k:"--c-frag", path:"data/novels/<id>/fragments/<character_id>/<chapter_id>.json", desc:"Quoted fragments with VAD scores (lazy-loaded per character×chapter)",
+  fields:[["character_id","→ emo-characters.id",1],["chapter_id","str"],["fragments[].id, text","str"],["fragments[].vad","[V,A,D]"],["fragments[].cluster_id, distance_to_centroid","→ clusters.id"],["fragments[].chapter_sentence_start/end, timeline_*","int"],["fragments[].highlights[]","text spans"]],
+  use:{play:"vad, cluster_id, text, chapter",table:"fragments, highlights (text highlight)",clouds:"vad, cluster_id, text",radar:"vad, cluster_id",kmeans:"vad, cluster_id, chapter_id, text",anim:"timeline_*, vad, cluster_id, character_id"}},
+ {id:"prof", k:"--c-prof", path:"data/novels/<id>/profiles/<character_id>.json", desc:"Plutchik profiles by chapter",
+  fields:[["character_id","str",1],["components8[], components16[]","emotion names"],["chapters{chapter_id}.count / sum8 / mean8 / sum16 / mean16","numbers"]],
+  use:{play:"chapters.*.mean8/mean16/count",table:"chapters.*.mean8, mean16, count",radar:"chapters.*.mean8, mean16"}},
+ {id:"nov", k:"--c-nov", path:"data/novels/<id>/novel/<chapter_id>.json", desc:"Novel text split in sentences (lazy-loaded)",
+  fields:[["chapter_id, part, chapter","str/int"],["sentences[].number, timeline_index, source_sentence, text","text"],["source_sections[]","provenance"]],
+  use:{novel:"sentences[].text (reader modal)",table:"sentences (highlight)",radar:"sentences",kmeans:"sentences (quote modal)",anim:"sentences (animated text)"}},
+ {id:"model", k:"--c-model", path:"data/models/plutchik-vad-gaussian-v1.json", desc:"Shared Plutchik emotion model (not per-novel)",
+  fields:[["emotions[].id","joy, trust…"],["emotions[].centroid / covariance / sample_size","VAD anchors"],["dyads[], component_order_16, opposite_pairs","structure"],["provenance","source info"]],
+  use:{cent:"emotions[], opposite_pairs (via manifest.emotion_model.path)",help:"vad_to_plutchik_* pages"}}
+];
+
+// ---- matrix --------------------------------------------------------------
+var m = document.getElementById("matrix"), detail = document.getElementById("detail");
+var head = "<tr><th class='rowh'>Data file</th>" + C.map(function(c){ return "<th class='colh'>"+c.name+"<small>"+c.sub+"</small></th>"; }).join("") + "</tr>";
+var rows = F.map(function(f){
+  return "<tr><th class='rowh'><span class='dot' style='background:var("+f.k+")'></span><code>"+f.path.replace("data/novels/<id>/","…/")+"</code></th>" +
+    C.map(function(c){ return f.use[c.id] ? "<td class='on' data-f='"+f.id+"' data-c='"+c.id+"'>●</td>" : "<td></td>"; }).join("") + "</tr>";
+}).join("");
+m.innerHTML = head + rows;
+m.addEventListener("click", function(e){
+  var td = e.target.closest("td.on"); if(!td) return;
+  [].forEach.call(m.querySelectorAll(".sel"), function(x){ x.classList.remove("sel"); }); td.classList.add("sel");
+  var f = F.find(function(x){return x.id===td.dataset.f;}), c = C.find(function(x){return x.id===td.dataset.c;});
+  detail.style.display = "block";
+  detail.innerHTML = "<b>"+c.name+"</b> reads <code>"+f.path+"</code>: " + f.use[c.id];
+});
+
+// ---- file cards ----------------------------------------------------------
+document.getElementById("files").innerHTML = F.map(function(f){
+  var readers = C.filter(function(c){ return f.use[c.id]; }).map(function(c){ return c.name; });
+  return "<div class='card file' style='--k:var("+f.k+")'><h3>"+f.id.toUpperCase()+" — "+f.desc+"</h3><div class='path mono'>"+f.path+"</div>" +
+    "<table class='fields'>" + f.fields.map(function(x){ return "<tr><td><code>"+x[0]+"</code>"+(x[2]?" <span class='tag id'>identity</span>":"")+"</td><td>"+(x[1]||"")+"</td></tr>"; }).join("") + "</table>" +
+    "<div class='readers'><b>Read by:</b> "+(readers.join(", ")||"nobody (build input)")+"</div></div>";
+}).join("");
+
+// ---- identity table ------------------------------------------------------
+var I = [
+ ["character-network.json","nodes[].id","nodes[].label","nodes[].short_label (some novels)","— (categories[].color is per relation type, not per person)","77 nodes"],
+ ["characters_full.json","characters[].id","characters[].name","short_label (some novels)","— ; aliases[] too","222 entities (superset of the network)"],
+ ["emo-characters.json","characters[].id","characters[].name","characters[].label (always short, «Н.В. Ставрогин»)","characters[].color","4 characters"],
+ ["clusters.json","clusters[].character_id","—","—","clusters[].color (per cluster)","14 clusters"],
+ ["chapters.json","character_counts{id: n} keys","—","—","—","per chapter"],
+ ["fragments/…, profiles/…","character_id (also in path)","—","—","—","per character"]
+];
+document.getElementById("ident").innerHTML = "<tr><th>File</th><th>id</th><th>full name</th><th>short name / label</th><th>color</th><th>scope</th></tr>" +
+  I.map(function(r){ return "<tr>"+r.map(function(x,i){ return i===0?"<td><code>"+x+"</code></td>":"<td class='"+(x.indexOf("—")===0?"n":"")+"'>"+x+"</td>"; }).join("")+"</tr>"; }).join("");
+
+// ---- issues --------------------------------------------------------------
+document.getElementById("issues").innerHTML = [
+ "<b>Name stored 3×:</b> full name in <code>character-network.json</code> (label), <code>characters_full.json</code> (name) and <code>emo-characters.json</code> (name) — values currently identical for the 4 emotion characters in demons, but nothing enforces it.",
+ "<b>Short name stored 3×, different keys:</b> <code>short_label</code> (network, full) vs <code>label</code> (emo-characters). The Playground and graph pick <code>label || name</code> vs <code>short_label || label</code> — same field name means opposite things in different files.",
+ "<b>The graph's short_label is absent in Demons and Crime and Punishment</b> → graph shows full names there; Voskreseniye/Andromeda use short names.",
+ "<b>Color belongs only to emo-characters</b>; graph nodes have no person color. Cluster colors are a separate palette.",
+ "<b>Aliases only in characters_full.json</b> and only used for text highlighting; the 222 vs 77 vs 4 character sets are three different populations with no declared relationship (no master list).",
+ "<b>Chapter id formats:</b> short <code>2_1_2</code> (chapters, fragments, novel/), long <code>chapter_02_01_02</code> (<code>intro_chapter</code>, scenes) and scene ids <code>chapter_01_01_02_S1</code>; <code>normalizeChapterId()</code> bridges them at runtime.",
+ "<b>Inconsistent wiring:</b> <code>manifest.files</code> lists characters (= emo-characters), chapters, clusters but not characters_full, scenes or the network; <code>manifest.title</code> is the bare id (“demons”) while the real title is in catalog.json.",
+ "<b>Duplicated per-file paths:</b> emo-characters repeats <code>clusters_path / fragments_path_template / profile_path</code> that the manifest already has as <code>files.*</code>.",
+ "<b>Each explorer re-implements</b> fetchJson / base-URL / label lookup (<code>character.label || character.name</code> in 6 places; <code>character.name || character.label</code> in separate-kmeans).",
+ "<b>chapters.json duplicates</b> per-character counts (<code>character_counts</code>) that also exist in profiles/*.json (<code>chapters.*.count</code>) and emo-characters (<code>fragment_count</code>)."
+].map(function(t){ return "<li>"+t+"</li>"; }).join("");
+</script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "manifest.schema.json",
+  "title": "manifest.json - v1 minus: duplicated schema_version/novel_id, title, and nothing else",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "integer"
+    },
+    "novelId": {
+      "type": "string"
+    },
+    "features": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "renderer": {
+            "type": "string"
+          },
+          "label": {
+            "type": "object",
+            "properties": {
+              "ru": {
+                "type": "string"
+              },
+              "en": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "ru"
+            ],
+            "additionalProperties": false
+          },
+          "status": {
+            "enum": [
+              "ready",
+              "planned"
+            ]
+          },
+          "entry": {
+            "type": "string"
+          },
+          "help": {
+            "type": "string"
+          },
+          "explorers": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "entry": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "entry"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "id",
+          "renderer",
+          "status"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "language": {
+      "type": "string"
+    },
+    "vad_dimensions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sentence_numbering": {
+      "type": "string"
+    },
+    "timeline_indexing": {
+      "type": "string"
+    },
+    "files": {
+      "type": "object",
+      "properties": {
+        "characters": {
+          "type": "string"
+        },
+        "chapters": {
+          "type": "string"
+        },
+        "clusters": {
+          "type": "string"
+        },
+        "novel_chapter_template": {
+          "type": "string"
+        },
+        "fragment_template": {
+          "type": "string"
+        },
+        "profile_template": {
+          "type": "string"
+        },
+        "character_index": {
+          "type": "string"
+        },
+        "character_details": {
+          "type": "string"
+        },
+        "scenes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "characters",
+        "chapters",
+        "clusters",
+        "novel_chapter_template",
+        "fragment_template",
+        "profile_template",
+        "character_index",
+        "scenes"
+      ],
+      "additionalProperties": false,
+      "description": "characters = emo-characters.json (v1 meaning kept). NEW keys: character_index (characters_full.json), character_details (characters_detail.json, optional), scenes - previously hard-coded in JS."
+    },
+    "emotion_model": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "path"
+      ],
+      "additionalProperties": false
+    },
+    "counts": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer"
+      }
+    },
+    "data_version": {
+      "type": "string"
+    },
+    "generated_at": {
+      "type": "string"
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "provenance": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "novelId",
+    "features",
+    "files"
+  ],
+  "additionalProperties": false
+}

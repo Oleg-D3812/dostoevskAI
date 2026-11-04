@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-04T00:00:00Z",
+  "categories": [
+    {
+      "id": "знакомство",
+      "color": "#8888cc"
+    },
+    {
+      "id": "прочее",
+      "color": "#999999"
+    }
+  ],
+  "interaction_types": [
+    {
+      "id": "direct",
+      "label": "Прямое"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ivan",
+      "degree": 2,
+      "importance": {
+        "F": 10,
+        "D": 2,
+        "W": 20,
+        "B": 1.5,
+        "score": 0.9,
+        "tier": "main"
+      },
+      "core": 1
+    },
+    {
+      "id": "maria",
+      "degree": 1,
+      "importance": {
+        "F": 6,
+        "D": 1,
+        "W": 9,
+        "B": 0.0,
+        "score": 0.5,
+        "tier": "secondary"
+      },
+      "core": 1
+    },
+    {
+      "id": "villagers",
+      "degree": 1,
+      "importance": {
+        "F": 1,
+        "D": 1,
+        "W": 1,
+        "B": 0.0,
+        "score": 0.1,
+        "tier": "secondary"
+      },
+      "core": null
+    }
+  ],
+  "edges": [
+    {
+      "a": "ivan",
+      "b": "maria",
+      "interactions": 2,
+      "scenes": [
+        "chapter_01_01_S1",
+        "chapter_01_02_S1"
+      ],
+      "relation": {
+        "category": "знакомство",
+        "roles": [
+          "знакомый",
+          "знакомая"
+        ],
+        "evolves": false,
+        "note": "Случайная встреча.",
+        "weight": 3,
+        "chapters": [
+          "chapter_01_01",
+          "chapter_01_02"
+        ]
+      },
+      "types": {
+        "direct": {
+          "count": 2,
+          "raw_weight": 4.0,
+          "weight": 3.0
+        }
+      }
+    },
+    {
+      "a": "ivan",
+      "b": "villagers",
+      "interactions": 1,
+      "scenes": [
+        "chapter_01_02_S1"
+      ],
+      "relation": {
+        "category": "прочее",
+        "weight": 1,
+        "chapters": [
+          "chapter_01_02"
+        ]
+      },
+      "types": {
+        "direct": {
+          "count": 1,
+          "raw_weight": 1.0,
+          "weight": 1.0
+        }
+      }
+    }
+  ]
+}

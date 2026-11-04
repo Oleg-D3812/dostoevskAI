@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "novelId": "example",
+  "language": "ru",
+  "vad_dimensions": [
+    "V",
+    "A",
+    "D"
+  ],
+  "sentence_numbering": "one-based within logical chapter",
+  "timeline_indexing": "zero-based across the complete novel",
+  "features": [
+    {
+      "id": "character-network",
+      "renderer": "graph",
+      "label": {
+        "ru": "Граф связей",
+        "en": "Character network"
+      },
+      "status": "ready",
+      "entry": "character-network.json",
+      "help": "../../../explorers/character_network_explained.html"
+    },
+    {
+      "id": "playground",
+      "renderer": "playground",
+      "label": {
+        "ru": "Конструктор",
+        "en": "Playground"
+      },
+      "status": "ready",
+      "entry": "manifest.json"
+    }
+  ],
+  "files": {
+    "characters": "emo-characters.json",
+    "chapters": "chapters.json",
+    "clusters": "clusters.json",
+    "novel_chapter_template": "novel/{chapter_id}.json",
+    "fragment_template": "fragments/{character_id}/{chapter_id}.json",
+    "profile_template": "profiles/{character_id}.json",
+    "character_index": "characters_full.json",
+    "character_details": "characters_detail.json",
+    "scenes": "scenes.json"
+  },
+  "emotion_model": {
+    "id": "plutchik-vad-gaussian-v1",
+    "path": "../../models/plutchik-vad-gaussian-v1.json"
+  },
+  "counts": {
+    "characters": 1,
+    "logical_chapters": 2
+  }
+}

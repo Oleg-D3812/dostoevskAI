@@ -1,0 +1,25 @@
+{
+  "note": "DRAFT example",
+  "characters": [
+    {
+      "id": "ivan",
+      "name": "Иван Петрович Иванов",
+      "short_label": "И.П. Иванов",
+      "kind": "person",
+      "intro_chapter": "chapter_01_01"
+    },
+    {
+      "id": "maria",
+      "name": "Мария Сергеевна",
+      "short_label": null,
+      "kind": "person",
+      "intro_chapter": "chapter_01_01"
+    },
+    {
+      "id": "villagers",
+      "name": "Жители деревни",
+      "short_label": null,
+      "kind": "group"
+    }
+  ]
+}

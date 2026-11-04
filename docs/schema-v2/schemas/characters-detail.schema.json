@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "characters-detail.schema.json",
+  "title": "characters_detail.json - NEW, lazy: long text for a character (side panel, text highlighting)",
+  "description": "Keys of 'characters' are ids from characters_full.json. Values moved unchanged from v1 characters_full.json (aliases, desc, intro_desc, note) and character-network.json (desc was identical).",
+  "type": "object",
+  "properties": {
+    "characters": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "desc": {
+            "type": "string"
+          },
+          "intro_desc": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    "ambiguous": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "default_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "default_id"
+        ],
+        "additionalProperties": true
+      }
+    }
+  },
+  "required": [
+    "characters"
+  ],
+  "additionalProperties": false
+}

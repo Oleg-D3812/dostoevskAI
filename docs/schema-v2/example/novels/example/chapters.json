@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "novel_id": "example",
+  "chapter_count": 2,
+  "sentence_count": 5,
+  "chapters": [
+    {
+      "id": "1_1",
+      "part": 1,
+      "chapter": 1,
+      "label": "Часть 1 · Глава 1",
+      "description": "Знакомство.",
+      "sentence_count": 3,
+      "timeline_start_index": 0,
+      "source_sections": [
+        "chapter_01_01"
+      ],
+      "novel_path": "novel/1_1.json",
+      "character_counts": {
+        "ivan": 2
+      }
+    },
+    {
+      "id": "1_2",
+      "part": 1,
+      "chapter": 2,
+      "label": "Часть 1 · Глава 2",
+      "description": "Разговор.",
+      "sentence_count": 2,
+      "timeline_start_index": 3,
+      "source_sections": [
+        "chapter_01_02"
+      ],
+      "novel_path": "novel/1_2.json",
+      "character_counts": {
+        "ivan": 0
+      }
+    }
+  ]
+}

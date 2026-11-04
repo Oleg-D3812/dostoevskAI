@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "novel-chapter.schema.json",
+  "title": "novel/<chapter_id>.json (unchanged from v1)",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "integer"
+    },
+    "novel_id": {
+      "type": "string"
+    },
+    "chapter_id": {
+      "type": "string"
+    },
+    "part": {
+      "type": "integer"
+    },
+    "chapter": {
+      "type": "integer"
+    },
+    "sentence_count": {
+      "type": "integer"
+    },
+    "timeline_start_index": {
+      "type": "integer"
+    },
+    "source_sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "source_file": {
+            "type": "string"
+          },
+          "sentence_start": {
+            "type": "integer"
+          },
+          "sentence_count": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "id"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "sentences": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "number": {
+            "type": "integer"
+          },
+          "timeline_index": {
+            "type": "integer"
+          },
+          "source_section": {
+            "type": "string"
+          },
+          "source_sentence": {
+            "type": "integer"
+          },
+          "text": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "number",
+          "timeline_index",
+          "text"
+        ],
+        "additionalProperties": true
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "chapter_id",
+    "sentences"
+  ],
+  "additionalProperties": true
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "example",
+  "character_id": "ivan",
+  "chapter_id": "1_1",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "ivan::chapter_01_01_0001",
+      "source_section": "chapter_01_01",
+      "source_sentence": 1,
+      "character_position": 1,
+      "text": "Иван Петрович вышел из дома",
+      "vad": [
+        0.1,
+        -0.1,
+        0.1
+      ],
+      "cluster_id": "ivan-1",
+      "distance_to_centroid": 0.12034567,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 0,
+      "timeline_end_index": 0,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 0,
+          "end": 27
+        }
+      ]
+    },
+    {
+      "id": "ivan::chapter_01_01_0002",
+      "source_section": "chapter_01_01",
+      "source_sentence": 2,
+      "character_position": 2,
+      "text": "он увидел Марию Сергеевну",
+      "vad": [
+        0.1,
+        -0.1,
+        0.1
+      ],
+      "cluster_id": "ivan-1",
+      "distance_to_centroid": 0.12034567,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 1,
+      "timeline_end_index": 1,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 10,
+          "end": 35
+        }
+      ]
+    }
+  ]
+}

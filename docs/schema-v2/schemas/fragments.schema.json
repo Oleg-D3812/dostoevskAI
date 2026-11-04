@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "fragments.schema.json",
+  "title": "fragments/<character_id>/<chapter_id>.json (unchanged from v1)",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "integer"
+    },
+    "novel_id": {
+      "type": "string"
+    },
+    "character_id": {
+      "type": "string"
+    },
+    "chapter_id": {
+      "type": "string"
+    },
+    "count": {
+      "type": "integer"
+    },
+    "fragments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "source_section": {
+            "type": "string"
+          },
+          "source_sentence": {
+            "type": "integer"
+          },
+          "character_position": {
+            "type": "integer"
+          },
+          "text": {
+            "type": "string"
+          },
+          "vad": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 3,
+            "maxItems": 3
+          },
+          "cluster_id": {
+            "type": "string"
+          },
+          "distance_to_centroid": {
+            "type": "number"
+          },
+          "warning": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "chapter_sentence_start": {
+            "type": "integer"
+          },
+          "chapter_sentence_end": {
+            "type": "integer"
+          },
+          "timeline_start_index": {
+            "type": "integer"
+          },
+          "timeline_end_index": {
+            "type": "integer"
+          },
+          "highlights": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "chapter_sentence": {
+                  "type": "integer"
+                },
+                "start": {
+                  "type": "integer"
+                },
+                "end": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "chapter_sentence",
+                "start",
+                "end"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "id",
+          "text",
+          "vad",
+          "cluster_id"
+        ],
+        "additionalProperties": true
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "character_id",
+    "chapter_id",
+    "fragments"
+  ],
+  "additionalProperties": false
+}

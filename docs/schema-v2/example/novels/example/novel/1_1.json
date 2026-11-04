@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "novel_id": "example",
+  "chapter_id": "1_1",
+  "part": 1,
+  "chapter": 1,
+  "sentence_count": 3,
+  "timeline_start_index": 0,
+  "source_sections": [
+    {
+      "id": "chapter_01_01",
+      "source_file": "x.txt",
+      "sentence_start": 1,
+      "sentence_count": 3
+    }
+  ],
+  "sentences": [
+    {
+      "number": 1,
+      "timeline_index": 0,
+      "source_section": "chapter_01_01",
+      "source_sentence": 1,
+      "text": "Иван Петрович вышел из дома."
+    },
+    {
+      "number": 2,
+      "timeline_index": 1,
+      "source_section": "chapter_01_01",
+      "source_sentence": 2,
+      "text": "У калитки он увидел Марию Сергеевну."
+    },
+    {
+      "number": 3,
+      "timeline_index": 2,
+      "source_section": "chapter_01_01",
+      "source_sentence": 3,
+      "text": "Но вряд ли она обрадовалась."
+    }
+  ]
+}

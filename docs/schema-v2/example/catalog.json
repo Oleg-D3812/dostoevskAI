@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "novels": [
+    {
+      "id": "example",
+      "title": {
+        "ru": "Пример",
+        "en": "Example"
+      },
+      "author": {
+        "ru": "Автор",
+        "en": "Author"
+      },
+      "year": 1900,
+      "description": {
+        "ru": "Минимальный пример.",
+        "en": "Minimal example."
+      },
+      "manifest": "novels/example/manifest.json"
+    }
+  ]
+}

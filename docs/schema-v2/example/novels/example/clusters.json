@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "novel_id": "example",
+  "vad_dimensions": [
+    "V",
+    "A",
+    "D"
+  ],
+  "clusters": [
+    {
+      "id": "ivan-1",
+      "character_id": "ivan",
+      "local_index": 1,
+      "display_id": "И.П. Иванов-1",
+      "name": "Спокойная задумчивость",
+      "centroid": [
+        0.1,
+        -0.2,
+        0.0
+      ],
+      "size": 2,
+      "within_cluster_spread": 0.21,
+      "sphere_radius": 0.3,
+      "color": "#e07a95"
+    }
+  ]
+}

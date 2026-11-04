@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "chapters.schema.json",
+  "title": "chapters.json (unchanged from v1)",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "integer"
+    },
+    "novel_id": {
+      "type": "string"
+    },
+    "chapter_count": {
+      "type": "integer"
+    },
+    "sentence_count": {
+      "type": "integer"
+    },
+    "chapters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "part": {
+            "type": "integer"
+          },
+          "chapter": {
+            "type": "integer"
+          },
+          "section": {
+            "type": "integer"
+          },
+          "label": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "sentence_count": {
+            "type": "integer"
+          },
+          "timeline_start_index": {
+            "type": "integer"
+          },
+          "source_sections": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "novel_path": {
+            "type": "string"
+          },
+          "character_counts": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "integer"
+            }
+          }
+        },
+        "required": [
+          "id",
+          "label",
+          "sentence_count",
+          "timeline_start_index",
+          "novel_path"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "novel_id",
+    "chapters"
+  ],
+  "additionalProperties": false
+}

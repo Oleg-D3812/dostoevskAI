@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Schema v2 migration map</title>
+<style>
+  :root { --bg:#f6f7f9; --surface:#fff; --text:#1c2230; --muted:#6a7386; --line:#d9dde5; --accent:#3b6fd4; --hi:#e8f0ff;
+          --t-keep:#16a34a; --t-merge:#9333ea; --t-new:#db2777; --t-drop:#dc2626; --t-move:#0891b2; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#12151c; --surface:#1b2030; --text:#e6e9f0; --muted:#8e98ad; --line:#2d3448; --accent:#7aa2ff; --hi:#22305a; } }
+  * { box-sizing:border-box; } body { margin:0; background:var(--bg); color:var(--text); font:14px/1.5 system-ui,Segoe UI,sans-serif; }
+  .wrap { max-width:1280px; margin:0 auto; padding:24px 16px 64px; }
+  h1 { font-size:24px; margin:0 0 4px; } h2 { font-size:18px; margin:34px 0 8px; } p.sub { color:var(--muted); margin:0 0 14px; }
+  code { font:12.5px ui-monospace,Consolas,monospace; }
+  .legend { display:flex; flex-wrap:wrap; gap:8px; margin:10px 0 6px; }
+  .chip { display:inline-block; padding:1px 8px; border-radius:10px; font-size:11.5px; font-weight:600; color:#fff; white-space:nowrap; }
+  .keep{background:var(--t-keep)} .merge{background:var(--t-merge)} .new{background:var(--t-new)} .drop{background:var(--t-drop)} .move{background:var(--t-move)}
+  .card { background:var(--surface); border:1px solid var(--line); border-radius:10px; padding:14px 16px; margin-bottom:14px; }
+  .card h3 { margin:0; font-size:15px; } .card .desc { color:var(--muted); margin:2px 0 8px; }
+  .path { font:12.5px ui-monospace,Consolas,monospace; color:var(--accent); }
+  table { border-collapse:collapse; width:100%; } td, th { border-top:1px solid var(--line); padding:5px 8px; vertical-align:top; text-align:left; }
+  th { color:var(--muted); font-weight:600; font-size:12px; border-top:none; } td:first-child { white-space:nowrap; } .scroll { overflow-x:auto; }
+  .same { color:var(--muted); }
+  .grid2 td, .grid2 th { border:1px solid var(--line); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Schema v2 — where every field comes from</h1>
+  <p class="sub">v2 = the v1 files exactly as the pipeline writes them (same field names, ids, numbers, derived values), minus facts that were stored in more than one place. Spec: <code>README.md</code>. Schemas: <code>schemas/</code>. Nothing is migrated yet.</p>
+  <div class="legend" id="legend"></div>
+
+  <h2>1 · File status</h2>
+  <div class="card scroll"><table id="status"></table></div>
+
+  <h2>2 · Changed files: field sources</h2>
+  <div id="cards"></div>
+
+  <h2>3 · Same fact, stored in several places in v1 → one place in v2</h2>
+  <div class="card scroll"><table id="dups"></table></div>
+
+  <h2>4 · Left as is (decided, or not part of this step)</h2>
+  <div class="card"><ul id="left"></ul></div>
+
+  <h2>5 · Code that reads a removed field (will need changing at migration time)</h2>
+  <div class="card scroll"><table id="code"></table></div>
+</div>
+<script>
+var T = { keep:"unchanged value", merge:"merged from several", new:"new", drop:"removed", move:"moved" };
+document.getElementById("legend").innerHTML = Object.keys(T).map(function(k){ return "<span class='chip "+k+"'>"+T[k]+"</span>"; }).join("");
+function chip(k){ return "<span class='chip "+k+"'>"+T[k]+"</span>"; }
+
+var STATUS = [
+ ["data/catalog.json","same","Identical (schemaVersion stays camelCase). Only place for title/author/year."],
+ ["manifest.json","changed","Duplicate snake_case keys and title removed; 3 file entries added."],
+ ["characters_full.json","changed","Becomes the SLIM master list (identity only)."],
+ ["characters_detail.json","new","LAZY long text: aliases, desc, intro_desc, note, ambiguous."],
+ ["character-network.json","changed","Identity fields removed from nodes; title removed."],
+ ["emo-characters.json","changed","Names and paths removed; keeps color and counts."],
+ ["chapters.json, scenes.json, clusters.json","same","Identical to v1."],
+ ["novel/*.json, fragments/*/*.json, profiles/*.json","same","Identical to v1."],
+ ["data/models/*.json","same","Identical."]
+];
+document.getElementById("status").innerHTML = "<tr><th>File</th><th>Status</th><th>What</th></tr>" + STATUS.map(function(r){
+  var k = r[1]==="same" ? "<span class='same'>unchanged</span>" : r[1]==="new" ? chip("new") : "<span class='chip merge'>changed</span>";
+  return "<tr><td><code>"+r[0]+"</code></td><td>"+k+"</td><td>"+r[2]+"</td></tr>"; }).join("");
+
+// [new field, kind, v1 source, note]
+var F = [
+ {path:"novels/<id>/manifest.json", desc:"Wiring", rows:[
+  ["schemaVersion, novelId","keep","manifest.json › schemaVersion, novelId","camelCase kept (your choice)"],
+  ["(schema_version, novel_id)","drop","manifest.json › schema_version, novel_id","same two facts as the camelCase pair"],
+  ["(title)","drop","manifest.json › title","title lives in catalog.json (was the bare id in Demons)"],
+  ["features[], language, vad_dimensions, sentence_numbering, timeline_indexing, emotion_model, counts, data_version, generated_at, assets, provenance","keep","manifest.json","as v1 (help / explorer entry paths too)"],
+  ["files.characters, chapters, clusters, novel_chapter_template, fragment_template, profile_template","keep","manifest.json › files","files.characters still means emo-characters.json"],
+  ["files.character_index","new","hard-coded 'characters_full.json' in js/novel.js:475","→ characters_full.json"],
+  ["files.character_details","new","—","→ characters_detail.json (optional)"],
+  ["files.scenes","new","hard-coded 'scenes.json' in js/novel.js:490","→ scenes.json"]]},
+ {path:"novels/<id>/characters_full.json", desc:"SLIM master list of every character", rows:[
+  ["characters[].id","merge","characters_full.json › id (ids in network nodes and emo-characters must be a subset)","—"],
+  ["characters[].name","merge","characters_full.json › name = character-network.json › nodes[].label = emo-characters.json › name","3 copies → 1"],
+  ["characters[].short_label","merge","characters_full.json › short_label | character-network.json › nodes[].short_label | emo-characters.json › label","one field, always present, null if none; today only Andromeda/Voskreseniye have it plus the emo characters' labels"],
+  ["characters[].kind","keep","characters_full.json › kind",""],
+  ["characters[].intro_chapter","merge","characters_full.json › intro_chapter = character-network.json › nodes[].intro_chapter","kept in the novel's own id format; omitted when v1 had none"],
+  ["note","keep","characters_full.json › note","DRAFT text as v1"],
+  ["(novel)","drop","characters_full.json › novel","copy of the title"],
+  ["(aliases, desc, intro_desc, note, ambiguous)","move","characters_full.json","→ characters_detail.json"]]},
+ {path:"novels/<id>/characters_detail.json", desc:"NEW — lazy, keyed by character id", rows:[
+  ["characters{id}.aliases / intro_desc / note","move","characters_full.json › characters[].aliases, intro_desc, note","values unchanged"],
+  ["characters{id}.desc","merge","characters_full.json › desc = character-network.json › nodes[].desc","2 copies → 1"],
+  ["ambiguous","move","characters_full.json › ambiguous","unchanged"]]},
+ {path:"novels/<id>/character-network.json", desc:"Graph — v1 minus identity fields", rows:[
+  ["schema_version, generated_at, categories, interaction_types","keep","character-network.json",""],
+  ["nodes[].id, degree, core, importance","keep","character-network.json › nodes[]","degree stays (pipeline value)"],
+  ["(nodes[].label)","drop","character-network.json › nodes[].label","→ characters_full.json › name"],
+  ["(nodes[].short_label)","drop","character-network.json › nodes[].short_label","→ characters_full.json › short_label"],
+  ["(nodes[].desc)","drop","character-network.json › nodes[].desc","→ characters_detail.json › desc"],
+  ["(nodes[].intro_chapter)","drop","character-network.json › nodes[].intro_chapter","→ characters_full.json › intro_chapter"],
+  ["edges[] (a, b, interactions, scenes, relation, types)","keep","character-network.json › edges[]","untouched"],
+  ["(title)","drop","character-network.json › title","copy of the novel title"]]},
+ {path:"novels/<id>/emo-characters.json", desc:"Emotion-feature properties of a character", rows:[
+  ["schema_version, novel_id","keep","emo-characters.json",""],
+  ["characters[].id, color, fragment_count, chapter_count","keep","emo-characters.json › characters[]","color stays here (feature property)"],
+  ["(name)","drop","emo-characters.json › name","→ characters_full.json › name"],
+  ["(label)","drop","emo-characters.json › label","→ characters_full.json › short_label"],
+  ["(clusters_path, fragments_path_template, profile_path)","drop","emo-characters.json","already in manifest.files.*"]]}
+];
+document.getElementById("cards").innerHTML = F.map(function(f){
+  return "<div class='card'><h3>"+f.desc+"</h3><div class='path'>"+f.path+"</div><div class='scroll'><table><tr><th>v2 field</th><th></th><th>Source in v1</th><th>Note</th></tr>" +
+    f.rows.map(function(r){ return "<tr><td><code>"+r[0]+"</code></td><td>"+chip(r[1])+"</td><td><code>"+r[2]+"</code></td><td>"+r[3]+"</td></tr>"; }).join("") + "</table></div></div>";
+}).join("");
+
+var D = [
+ ["Character full name","character-network.json nodes[].label · characters_full.json name · emo-characters.json name","characters_full.json › name"],
+ ["Character short name","network nodes[].short_label · characters_full short_label · emo-characters.json label","characters_full.json › short_label"],
+ ["Character description","network nodes[].desc · characters_full desc","characters_detail.json › desc"],
+ ["First appearance","network nodes[].intro_chapter · characters_full intro_chapter","characters_full.json › intro_chapter"],
+ ["File paths (clusters, fragments, profile)","emo-characters.json clusters_path / fragments_path_template / profile_path · manifest.files","manifest.json › files"],
+ ["Novel title","catalog.json · manifest.title · network title · characters_full novel","catalog.json"],
+ ["Schema version / novel id","manifest schemaVersion+schema_version · novelId+novel_id","camelCase pair"],
+ ["Names of data files","hard-coded in js/novel.js (characters_full, scenes)","manifest.files.*"]
+];
+document.getElementById("dups").innerHTML = "<tr><th>Fact</th><th>Stored in v1</th><th>v2 home</th></tr>" + D.map(function(r){ return "<tr><td>"+r[0]+"</td><td>"+r[1]+"</td><td><code>"+r[2]+"</code></td></tr>"; }).join("");
+
+document.getElementById("left").innerHTML = [
+ "Chapter ids, scene ids and every other id format — exactly as each novel's pipeline writes them.",
+ "All derived values (degree, interactions, counts, timeline indexes, fragment/cluster ids, display_id, distance_to_centroid, profile sums) — pipeline output, not recomputed.",
+ "The same fragment count stored in chapters.json character_counts, profiles count, fragments count and emo fragment_count.",
+ "<code>clusters.json display_id</code> contains a copy of the short name (e.g. «В.П. Ставрогина-1»); not touched.",
+ "<code>emotion_model</code> (id, path, sha256) in the manifest.",
+ "Folder and file names (novel/, fragments/, profiles/, character-network.json, emo-characters.json, scenes.json, chapters.json).",
+ "<b>Known data problem, fix later:</b> Crime and Punishment emotion character <code>marmeladova</code> is missing from characters_full.json and the network (validate.py reports it).",
+ "<b>short_label is null</b> for every character without one (all of Demons and Crime and Punishment except the emo characters)."
+].map(function(t){ return "<li>"+t+"</li>"; }).join("");
+
+var C = [
+ ["js/novel.js","network nodes[].label / short_label / desc / intro_chapter; hard-coded characters_full.json & scenes.json; aliases from characters_full"],
+ ["js/playground-datasets.js","emoChars c.label || c.name; network node label / short_label / intro_chapter; profile_path; fragments_path_template"],
+ ["js/chapter-plutchik-table.js","emo character.label || name; profile_path; fragments_path_template"],
+ ["js/chapter-vad-clouds.js","emo character label || name; fragments_path_template"],
+ ["js/chapter-vad-radar.js","emo character label || name; profile_path; fragments_path_template"],
+ ["js/separate-kmeans.js","emo character.label, .name; fragments_path_template"],
+ ["js/separate-kmeans-centroids.js","emo character.label || .name"],
+ ["js/vad-sentence-window-animation.js","emo character label/name; fragments_path_template"],
+ ["scripts/wire_novel.py","writes manifest title/schema_version; would need the new files.* keys"]
+];
+document.getElementById("code").innerHTML = "<tr><th>File</th><th>Reads</th></tr>" + C.map(function(r){ return "<tr><td><code>"+r[0]+"</code></td><td>"+r[1]+"</td></tr>"; }).join("");
+</script>
+</body>
+</html>

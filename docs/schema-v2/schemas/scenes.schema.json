@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "scenes.schema.json",
+  "title": "scenes.json (unchanged from v1) - a bare array",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "chapter": {
+        "type": "string"
+      },
+      "scene_id": {
+        "type": "string"
+      },
+      "title": {
+        "type": "string"
+      },
+      "summary": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "id",
+      "chapter",
+      "scene_id",
+      "title",
+      "summary"
+    ],
+    "additionalProperties": false
+  }
+}
