@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>UI snapshot (dev tool for the v2 migration)</title>
+<style>body{font:13px/1.4 system-ui;margin:12px} pre{white-space:pre-wrap} iframe{width:1400px;height:900px;border:1px solid #ccc}</style>
+</head>
+<body>
+<!--
+  Dev tool, not part of the site. Records what the site actually renders / builds for one novel and compares two recordings.
+
+    /docs/schema-v2/snapshot.html?label=v1&novel=demons                 record (data/)
+    /docs/schema-v2/snapshot.html?label=v2&novel=demons&data=v2         record (data-v2/)
+    /docs/schema-v2/snapshot.html?compare=v1,v2&novel=demons            diff two recordings
+
+  Recordings live in this origin's localStorage (snap:<label>:<novel>).
+-->
+<pre id="out">starting…</pre>
+<div id="frames"></div>
+<script src="../../js/modal.js"></script>
+<script src="../../js/data-client.js"></script>
+<script src="../../js/playground-engine.js"></script>
+<script src="../../js/playground-datasets.js"></script>
+<script>
+var P = new URLSearchParams(location.search), novelId = P.get("novel"), out = document.getElementById("out");
+function log(m) { out.textContent += "\n" + m; }
+function sleep(ms) { return new Promise(function(r) { setTimeout(r, ms); }); }
+function hash(s) { var h1 = 0xdeadbeef, h2 = 0x41c6ce57; for (var i = 0; i < s.length; i++) { var c = s.charCodeAt(i); h1 = Math.imul(h1 ^ c, 2654435761); h2 = Math.imul(h2 ^ c, 1597334677); }
+  h1 = Math.imul(h1 ^ (h1 >>> 16), 2246822507) ^ Math.imul(h2 ^ (h2 >>> 13), 3266489909); h2 = Math.imul(h2 ^ (h2 >>> 16), 2246822507) ^ Math.imul(h1 ^ (h1 >>> 13), 3266489909);
+  return (4294967296 * (2097151 & h2) + (h1 >>> 0)).toString(16); }
+async function waitFor(fn, ms) { var t = Date.now(); while (Date.now() - t < ms) { var v = fn(); if (v) return v; await sleep(50); } return null; }
+async function stableText(w, sel, maxMs) {
+  var last = -1, same = 0, t = Date.now();
+  while (Date.now() - t < maxMs) { var el = sel ? w.document.querySelector(sel) : w.document.body; var len = el ? el.innerText.length : 0; var cur = el ? el.innerText : ""; if (len === last && len > 0 && !/Загрузка данных|Загрузка графа|Loading/.test(cur)) { if (++same >= 4) break; } else same = 0; last = len; await sleep(500); }
+  var el2 = sel ? w.document.querySelector(sel) : w.document.body; return el2 ? el2.innerText : "";
+}
+
+// ---------------------------------------------------------------- compare mode
+if (P.get("compare")) {
+  var ab = P.get("compare").split(",");
+  var A = JSON.parse(localStorage.getItem("snap:" + ab[0] + ":" + novelId) || "null"), Bv = JSON.parse(localStorage.getItem("snap:" + ab[1] + ":" + novelId) || "null");
+  out.textContent = "";
+  if (!A || !Bv) log("missing recording(s)"); else {
+    var diffs = [];
+    (function walk(a, b, path) {
+      if (JSON.stringify(a) === JSON.stringify(b)) return;
+      if (a && b && typeof a === "object" && typeof b === "object") { Object.keys(Object.assign({}, a, b)).forEach(function(k) { walk(a[k], b[k], path + "/" + k); }); return; }
+      if (typeof a === "string" && typeof b === "string") { var la = a.split("\n"), lb = b.split("\n"); var sb = new Set(lb), sa = new Set(la);
+        diffs.push(path + "\n   only in " + ab[0] + ": " + la.filter(function(x) { return !sb.has(x); }).slice(0, 6).join(" | ").slice(0, 400) + "\n   only in " + ab[1] + ": " + lb.filter(function(x) { return !sa.has(x); }).slice(0, 6).join(" | ").slice(0, 400)); return; }
+      diffs.push(path + ": " + JSON.stringify(a).slice(0, 200) + "  ->  " + JSON.stringify(b).slice(0, 200));
+    })(A, Bv, "");
+    log(diffs.length ? diffs.length + " difference(s):\n" + diffs.join("\n") : "IDENTICAL");
+  }
+  window.__done = true;
+} else run();
+
+// ---------------------------------------------------------------- record mode
+async function run() {
+  var label = P.get("label") || "run", v2 = P.get("data") === "v2";
+  try { if (v2) localStorage.setItem("atlasDataRoot", "data-v2/"); else localStorage.removeItem("atlasDataRoot"); } catch (e) {}
+  var ROOT = v2 ? "/data-v2/" : "/data/", rec = { datasets: {}, pages: {}, explorers: {} };
+  var ctx = await AtlasData.loadNovelContext(novelId, { catalogUrl: ROOT + "catalog.json" });
+  log("novel " + novelId + " using " + ROOT);
+
+  // 1) Playground datasets: what the Playground would chart
+  var src = await AtlasPlaygroundDatasets.loadSources(ctx);
+  for (var d of AtlasPlaygroundDatasets.list) {
+    if (d.available && !d.available(src)) { rec.datasets[d.id] = "n/a"; continue; }
+    var r = await d.load(src), rows = r.rows || [];
+    rec.datasets[d.id] = { fields: r.fields.map(function(f) { return f.name + ":" + f.type; }).join(","), n: rows.length,
+      hash: hash(JSON.stringify(rows, function(k, v) { return k[0] === "_" ? undefined : v; })), first: rows[0] ? JSON.parse(JSON.stringify(rows[0], function(k, v) { return k[0] === "_" ? undefined : v; })) : null };
+  }
+  log("datasets: " + Object.keys(rec.datasets).length);
+
+  // 2) novel.html: graph args, every tab's text, sampled node side panels
+  var f = document.createElement("iframe"); document.getElementById("frames").appendChild(f);
+  var graph = null;
+  f.src = "/novel.html?id=" + encodeURIComponent(novelId);
+  var w = f.contentWindow, timer = setInterval(function() {
+    if (w.initGraph && !w.initGraph.__h) { var orig = w.initGraph; w.initGraph = function(c, nodes, edges, onNode) { graph = { nodes: nodes, edges: edges, onNode: onNode }; return orig.apply(this, arguments); }; w.initGraph.__h = 1; clearInterval(timer); }
+  }, 2);
+  await waitFor(function() { return graph; }, 20000);
+  await stableText(w, "#featurePanels", 8000);
+  var tabs = [].slice.call(w.document.querySelectorAll(".tab-bar button")).map(function(b) { return b.textContent.trim() + (b.disabled ? " (disabled)" : ""); });
+  rec.pages.tabs = tabs;
+  if (graph) {
+    rec.pages.graph = { nodes: graph.nodes.map(function(n) { return { id: n.id, label: n.label, graphLabel: n.graphLabel, intro_chapter: n.intro_chapter }; }), edges: graph.edges.length,
+      firstEdge: JSON.parse(JSON.stringify(graph.edges[0] || null)) };
+    rec.pages.graphPanel = await stableText(w, "#featurePanels", 3000);
+    var step = Math.max(1, Math.floor(graph.nodes.length / 10)), samples = {};
+    for (var i = 0; i < graph.nodes.length; i += step) {
+      graph.onNode(graph.nodes[i]); await sleep(700);
+      var side = w.document.querySelector(".graph-side"); samples[graph.nodes[i].id] = side ? side.innerText : "(no side panel)";
+    }
+    rec.pages.nodeSidePanels = samples;
+  }
+  var buttons = [].slice.call(w.document.querySelectorAll(".tab-bar button"));
+  for (var b of buttons) {
+    if (b.disabled) continue; b.click(); await sleep(300);
+    rec.pages["tab:" + b.textContent.trim()] = await stableText(w, "#featurePanels", 12000);
+  }
+  log("page tabs: " + tabs.join(", "));
+
+  // 3) explorers listed in the manifest
+  var seen = {};
+  for (var ft of ctx.novelManifest.features) for (var ex of (ft.explorers || [])) {
+    if (!ex.entry || seen[ex.entry]) continue; seen[ex.entry] = 1;
+    var u = new URL(AtlasData.resolveRelative(ctx.manifestUrl, ex.entry)); u.searchParams.set("novel", novelId);
+    var ef = document.createElement("iframe"); document.getElementById("frames").appendChild(ef); ef.src = u.toString();
+    await sleep(500);
+    var txt = await stableText(ef.contentWindow, null, 60000);
+    rec.explorers[ex.entry] = txt; log("explorer " + ex.entry + " (" + txt.length + " chars)");
+    ef.remove();
+  }
+  localStorage.setItem("snap:" + label + ":" + novelId, JSON.stringify(rec));
+  var bad = JSON.stringify(rec).match(/Не удалось[^"\\]{0,80}|HTTP \d{3}[^"\\]{0,60}|undefined|NaN/g);
+  log("saved snap:" + label + ":" + novelId + (bad ? "\nSUSPICIOUS TEXT: " + bad.slice(0, 8).join(" || ") : "\nno error text found"));
+  window.__done = true;
+}
+</script>
+</body>
+</html>
