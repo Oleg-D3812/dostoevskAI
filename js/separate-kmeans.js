@@ -44,7 +44,7 @@
     var backLink = document.getElementById("back-link");
     if (backLink) backLink.href = "../novel.html?id=" + encodeURIComponent(context.novel.id) + "&feature=emotion-vad";
     return Promise.all([
-      fetchJson(state.base + state.manifest.files.characters),
+      AtlasData.loadEmoCharactersDoc(context),
       fetchJson(state.base + state.manifest.files.chapters),
       fetchJson(state.base + state.manifest.files.clusters)
     ]);

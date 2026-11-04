@@ -81,9 +81,6 @@
       ]
     }
   ],
-  "schema_version": 1,
-  "novel_id": "voskreseniye",
-  "title": "Воскресение",
   "language": "ru",
   "vad_dimensions": [
     "V",
@@ -98,7 +95,10 @@
     "clusters": "clusters.json",
     "novel_chapter_template": "novel/{chapter_id}.json",
     "fragment_template": "fragments/{character_id}/{chapter_id}.json",
-    "profile_template": "profiles/{character_id}.json"
+    "profile_template": "profiles/{character_id}.json",
+    "character_index": "characters_full.json",
+    "character_details": "characters_detail.json",
+    "scenes": "scenes.json"
   },
   "emotion_model": {
     "id": "plutchik-vad-gaussian-v1",

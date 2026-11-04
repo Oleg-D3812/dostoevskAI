@@ -4,7 +4,8 @@
 Assumption: everything under data/novels/<novel-id>/ except manifest.json
 is delivered complete and correct by the external pipeline -- chapters.json,
 scenes.json, novel/*.json, characters_full.json, character-network.json,
-emo-characters.json, clusters.json, profiles/, fragments/. This script never
+emo-characters.json, clusters.json, profiles/, fragments/ (schema v2, see
+docs/schema-v2/README.md; characters_detail.json is new). This script never
 recomputes or rewrites any of that; it only *reads* it to total up numbers.
 It writes exactly two things:
 
@@ -185,9 +186,9 @@ def compute_counts(root, warnings):
         character_counts["fragments"] = sum(c.get("fragment_count", 0) for c in chars)
         character_counts["fragment_files"] = sum(c.get("chapter_count", 0) for c in chars)
         for c in chars:
-            profile_path = root / c.get("profile_path", "")
+            profile_path = root / "profiles" / f"{c['id']}.json"
             if not profile_path.exists():
-                warnings.append(f"{c['id']}: profile_path {c.get('profile_path')} listed in emo-characters.json but not found")
+                warnings.append(f"{c['id']}: profiles/{c['id']}.json listed in emo-characters.json but not found")
     else:
         has_emo = False
 
@@ -262,19 +263,13 @@ def wire_manifest(root, novel_id, catalog_meta, warnings):
         manifest_text = patch_features_block(manifest_text, root, warnings)
         return manifest_path, manifest_text, True
 
-    title_ru = (catalog_meta or {}).get("title", {}).get("ru")
-    if not title_ru:
-        warnings.append("no catalog-meta.json title.ru found - manifest.json 'title' defaulted to the novel id; fix by hand or add catalog-meta.json and rerun")
-        title_ru = novel_id
     language = (catalog_meta or {}).get("language", "ru")
 
+    # Schema v2: schemaVersion/novelId only (no snake_case duplicates), no title (it lives in catalog.json).
     manifest = {
         "schemaVersion": 1,
         "novelId": novel_id,
         "features": build_features(root, warnings),
-        "schema_version": 1,
-        "novel_id": novel_id,
-        "title": title_ru,
         "language": language,
         "vad_dimensions": ["V", "A", "D"],
         "sentence_numbering": "one-based within logical chapter",
@@ -286,6 +281,9 @@ def wire_manifest(root, novel_id, catalog_meta, warnings):
             "novel_chapter_template": "novel/{chapter_id}.json",
             "fragment_template": "fragments/{character_id}/{chapter_id}.json",
             "profile_template": "profiles/{character_id}.json",
+            "character_index": "characters_full.json",
+            "character_details": "characters_detail.json",
+            "scenes": "scenes.json",
         },
         "emotion_model": MODEL_REF,
         "counts": counts,

@@ -45,9 +45,11 @@
 
     return Promise.all([
       optional(files.chapters || "chapters.json"),
-      optional(files.characters),
+      files.characters ? AtlasData.loadEmoCharactersDoc(context).catch(function() { return null; }) : Promise.resolve(null),
       optional(files.clusters),
-      optional(networkFeature && networkFeature.status === "ready" ? networkFeature.entry : null)
+      optional(networkFeature && networkFeature.status === "ready" ? networkFeature.entry : null).then(function(net) {
+        return net && files.character_index ? AtlasData.loadCharacterIndex(context).then(function(index) { return AtlasData.joinNetwork(net, index); }) : net;
+      })
     ]).then(function(docs) {
       var chaptersDoc = docs[0], emoDoc = docs[1], clustersDoc = docs[2], network = docs[3];
       var chapters = (chaptersDoc && chaptersDoc.chapters) || [];

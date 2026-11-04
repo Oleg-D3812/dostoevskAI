@@ -62,7 +62,7 @@ def convert(nid):
         if fs(rel.as_posix()) != rel.as_posix() or fs(src.read_text(encoding="utf8")) != src.read_text(encoding="utf8"):
             dump(dst, walk(load(src)))
         else: shutil.copy2(src, dst)
-    for f in UNCHANGED_FILES: put(s / f, pathlib.Path(f))
+    for f in UNCHANGED_FILES + (["catalog-meta.json"] if (s / "catalog-meta.json").exists() else []): put(s / f, pathlib.Path(f))
     for d in UNCHANGED_DIRS:
         for p in sorted((s / d).rglob("*.json")) if (s / d).is_dir() else []: put(p, p.relative_to(s))
     man, net, full, emo = (walk(load(s / f)) for f in ("manifest.json", "character-network.json", "characters_full.json", "emo-characters.json"))
@@ -157,6 +157,8 @@ def verify(nid):
 
 
 def main():
+    if (SRC / "novels" / "demons" / "characters_detail.json").exists() and not OUT.exists():
+        sys.exit("data/ is already schema v2 (characters_detail.json exists); nothing to migrate. This script was a one-time v1 -> v2 conversion.")
     check_only = "--check" in sys.argv
     cat = load(SRC / "catalog.json")
     if not check_only:

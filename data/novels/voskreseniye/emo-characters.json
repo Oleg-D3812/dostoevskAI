@@ -4,25 +4,15 @@
   "characters": [
     {
       "id": "ekaterina_maslova",
-      "name": "Екатерина Михайлова Маслова",
-      "label": "Е.М. Маслова",
       "color": "#636EFA",
       "fragment_count": 301,
-      "chapter_count": 52,
-      "clusters_path": "clusters.json",
-      "fragments_path_template": "fragments/ekaterina_maslova/{chapter_id}.json",
-      "profile_path": "profiles/ekaterina_maslova.json"
+      "chapter_count": 52
     },
     {
       "id": "knyaz_nekhlyudov",
-      "name": "князь Дмитрий Иванович Нехлюдов",
-      "label": "князь Д.И. Нехлюдов",
       "color": "#EF553B",
       "fragment_count": 872,
-      "chapter_count": 109,
-      "clusters_path": "clusters.json",
-      "fragments_path_template": "fragments/knyaz_nekhlyudov/{chapter_id}.json",
-      "profile_path": "profiles/knyaz_nekhlyudov.json"
+      "chapter_count": 109
     }
   ]
 }

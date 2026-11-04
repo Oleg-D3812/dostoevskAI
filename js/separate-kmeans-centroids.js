@@ -24,7 +24,7 @@
       backLink.href = "../novel.html?id=" + encodeURIComponent(context.novel.id) + "&feature=emotion-vad";
       backLink.textContent = "← " + title;
       return Promise.all([
-        fetchJson(state.base + manifest.files.characters),
+        AtlasData.loadEmoCharactersDoc(context),
         fetchJson(state.base + manifest.files.clusters),
         fetchJson(state.base + manifest.emotion_model.path)
       ]);

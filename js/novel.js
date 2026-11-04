@@ -114,7 +114,8 @@
     var container = document.createElement("div"); container.id = "graph-container";
     container.innerHTML = '<div class="loading-state">Загрузка графа…</div>';
     var entryUrl = AtlasData.resolveRelative(context.manifestUrl, context.feature.entry);
-    return AtlasData.fetchJson(entryUrl, context.signal).then(function(data) {
+    return Promise.all([AtlasData.fetchJson(entryUrl, context.signal), AtlasData.loadCharacterIndex(context)]).then(function(loaded) {
+      var data = AtlasData.joinNetwork(loaded[0], loaded[1]);
       if (data && Array.isArray(data.interaction_types)) {
         return setupNetworkGraph(context, container, data);
       }
@@ -382,7 +383,7 @@
     }
 
     function renderNodeDetails(node) {
-      renderSeq++;
+      var mySeq = ++renderSeq;
       var html = "<h3>" + escapeHtml(node.label) + '</h3><span class="pill pill-hero">герой</span>' +
         '<p class="side-desc">' + escapeHtml(node.desc || "") + "</p>";
       var ch = resolveChapter(chapterById, node.intro_chapter);
@@ -395,6 +396,12 @@
         }
       }
       side.innerHTML = html;
+      // The description lives in characters_detail.json (lazy): fill it in when it arrives.
+      var descEl = side.querySelector(".side-desc");
+      AtlasData.loadCharacterDetails(context).then(function(details) {
+        var d = details[node.id];
+        if (mySeq === renderSeq && d && d.desc) descEl.textContent = d.desc;
+      }).catch(function() {});
       var link = side.querySelector(".side-chapter-link");
       if (link) link.addEventListener("click", function() {
         showChapterReader(ch.id, ch.label, [{ id: node.id, label: node.label, className: "mark-solo" }],
@@ -472,11 +479,11 @@
     var aliasesByIdPromise = null;
     function loadAliases() {
       if (!aliasesByIdPromise) {
-        var url = AtlasData.resolveRelative(context.manifestUrl, "characters_full.json");
-        aliasesByIdPromise = AtlasData.fetchJson(url, context.signal).then(function(doc) {
+        aliasesByIdPromise = Promise.all([AtlasData.loadCharacterIndex(context), AtlasData.loadCharacterDetails(context)]).then(function(res) {
           var map = {};
-          (doc.characters || []).forEach(function(c) {
-            map[c.id] = (c.aliases && c.aliases.length ? c.aliases : [c.name]).filter(Boolean);
+          res[0].list.forEach(function(c) {
+            var aliases = (res[1][c.id] || {}).aliases;
+            map[c.id] = (aliases && aliases.length ? aliases : [c.name]).filter(Boolean);
           });
           return map;
         }).catch(function() { return {}; });
@@ -487,7 +494,7 @@
     var scenesByIdPromise = null;
     function loadScenes() {
       if (!scenesByIdPromise) {
-        var url = AtlasData.resolveRelative(context.manifestUrl, "scenes.json");
+        var url = AtlasData.resolveRelative(context.manifestUrl, (files && files.scenes) || "scenes.json");
         scenesByIdPromise = AtlasData.fetchJson(url, context.signal).then(function(list) {
           var map = {};
           (Array.isArray(list) ? list : []).forEach(function(s) { if (s && s.id) map[s.id] = s; });

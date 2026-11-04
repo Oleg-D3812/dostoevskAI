@@ -121,3 +121,15 @@ The external pipeline must now:
 - preserve the existing generated fields (`files`, model metadata, hashes, counts, assets, and sources) needed by explorers.
 
 Serve and test through HTTP, not `file://`. The site uses Plotly for VAD explorers and vis-network for relationship graphs.
+
+## Character data (schema v2)
+
+Every fact is stored once. See `docs/schema-v2/README.md`, JSON Schemas in `docs/schema-v2/schemas/`, and check any data root with `python docs/schema-v2/validate.py data`.
+
+- `characters_full.json` is the master list: `id`, `name`, `short_label` (null when none), `kind`, `intro_chapter`. Every graph node and emotion character must be listed here.
+- `characters_detail.json` (lazy, keyed by id) holds `aliases`, `desc`, `intro_desc`, `note`, plus `ambiguous`.
+- `character-network.json` nodes carry graph data only (`id`, `degree`, `core`, `importance`); names, descriptions and first appearance come from the two files above.
+- `emo-characters.json` carries emotion data only (`id`, `color`, `fragment_count`, `chapter_count`); its file paths are `manifest.files.*` templates.
+- Manifests keep `schemaVersion` and `novelId` only (no snake_case duplicates, no `title`; the title lives in `catalog.json`) and list `character_index`, `character_details` and `scenes` in `files`.
+- The browser joins these files through `AtlasData.loadCharacterIndex`, `loadCharacterDetails`, `loadEmoCharactersDoc` and `joinNetwork` in `js/data-client.js`; explorers never read names from `emo-characters.json` directly.
+- `scripts/migrate_v2.py` was the one-time v1 → v2 conversion (it also renamed the Crime and Punishment emotion id `marmeladova` to `sonya`).

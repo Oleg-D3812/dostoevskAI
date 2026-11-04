@@ -5,27 +5,82 @@
     {
       "id": "emotion-vad",
       "renderer": "explorer-index",
-      "label": { "ru": "Эмоциональный анализ", "en": "Emotion analysis" },
+      "label": {
+        "ru": "Эмоциональный анализ",
+        "en": "Emotion analysis"
+      },
       "status": "ready",
       "entry": "manifest.json",
       "help": "../../../explorers/vad_to_plutchik_explained.html",
       "explorers": [
-        { "name": "VAD → Plutchik pipeline", "description": "Interactive diagram of the methodology: from quote extraction and VAD scoring to the 8- and 16-component Plutchik profiles.", "entry": "../../../explorers/vad_to_plutchik_pipeline_diagram.html" },
-        { "name": "Multi-character cluster space", "description": "Explore 1691 fragments in 3D and linked projections; select Raskolnikov, Marmeladova, Svidrigailov, or any combination.", "entry": "../../../explorers/separate_kmeans_interactive.html" },
-        { "name": "Chapter VAD and Plutchik profiles", "description": "Select a character and chapter to compare the 3D VAD cloud with 8- and 16-component Plutchik profiles.", "entry": "../../../explorers/chapter_vad_clouds_with_radar.html" },
-        { "name": "Chapter VAD clouds", "description": "Select characters and chapters to explore fragment-level VAD points in 3D.", "entry": "../../../explorers/chapter_vad_clouds.html" },
-        { "name": "K-Means centroids and spheres", "description": "Inspect cluster centroids, VAD fragments, spheres and Plutchik anchors.", "entry": "../../../explorers/separate_kmeans_centroid_spheres.html" },
-        { "name": "Sentence-window VAD animation", "description": "Move a configurable sentence window through the novel and watch active character states appear in VAD space alongside the highlighted text.", "entry": "../../../explorers/vad_sentence_window_animation.html" },
-        { "name": "Plutchik profiles by chapter", "description": "Scroll a table of every chapter's 8- and 16-component Plutchik profile for one character at a time; click any chart to zoom in.", "entry": "../../../explorers/chapter_plutchik_table.html" }
+        {
+          "name": "VAD → Plutchik pipeline",
+          "description": "Interactive diagram of the methodology: from quote extraction and VAD scoring to the 8- and 16-component Plutchik profiles.",
+          "entry": "../../../explorers/vad_to_plutchik_pipeline_diagram.html"
+        },
+        {
+          "name": "Multi-character cluster space",
+          "description": "Explore 1691 fragments in 3D and linked projections; select Raskolnikov, Marmeladova, Svidrigailov, or any combination.",
+          "entry": "../../../explorers/separate_kmeans_interactive.html"
+        },
+        {
+          "name": "Chapter VAD and Plutchik profiles",
+          "description": "Select a character and chapter to compare the 3D VAD cloud with 8- and 16-component Plutchik profiles.",
+          "entry": "../../../explorers/chapter_vad_clouds_with_radar.html"
+        },
+        {
+          "name": "Chapter VAD clouds",
+          "description": "Select characters and chapters to explore fragment-level VAD points in 3D.",
+          "entry": "../../../explorers/chapter_vad_clouds.html"
+        },
+        {
+          "name": "K-Means centroids and spheres",
+          "description": "Inspect cluster centroids, VAD fragments, spheres and Plutchik anchors.",
+          "entry": "../../../explorers/separate_kmeans_centroid_spheres.html"
+        },
+        {
+          "name": "Sentence-window VAD animation",
+          "description": "Move a configurable sentence window through the novel and watch active character states appear in VAD space alongside the highlighted text.",
+          "entry": "../../../explorers/vad_sentence_window_animation.html"
+        },
+        {
+          "name": "Plutchik profiles by chapter",
+          "description": "Scroll a table of every chapter's 8- and 16-component Plutchik profile for one character at a time; click any chart to zoom in.",
+          "entry": "../../../explorers/chapter_plutchik_table.html"
+        }
       ]
     },
-    { "id": "character-network", "renderer": "graph", "label": { "ru": "Граф связей", "en": "Character network" }, "status": "ready", "entry": "character-network.json", "help": "../../../explorers/character_network_explained.html" },
-    { "id": "playground", "renderer": "playground", "label": { "ru": "Конструктор", "en": "Playground" }, "status": "ready", "entry": "manifest.json" },
-    { "id": "timeline", "renderer": "timeline", "label": { "ru": "Хронология", "en": "Timeline" }, "status": "planned" }
+    {
+      "id": "character-network",
+      "renderer": "graph",
+      "label": {
+        "ru": "Граф связей",
+        "en": "Character network"
+      },
+      "status": "ready",
+      "entry": "character-network.json",
+      "help": "../../../explorers/character_network_explained.html"
+    },
+    {
+      "id": "playground",
+      "renderer": "playground",
+      "label": {
+        "ru": "Конструктор",
+        "en": "Playground"
+      },
+      "status": "ready",
+      "entry": "manifest.json"
+    },
+    {
+      "id": "timeline",
+      "renderer": "timeline",
+      "label": {
+        "ru": "Хронология",
+        "en": "Timeline"
+      },
+      "status": "planned"
+    }
   ],
-  "schema_version": 1,
-  "novel_id": "crime-and-punishment",
-  "title": "Преступление и наказание",
   "language": "ru",
   "data_version": "444a08974efe3645",
   "generated_at": "2026-09-03T00:38:13.609339+00:00",
@@ -42,7 +97,10 @@
     "clusters": "clusters.json",
     "novel_chapter_template": "novel/{chapter_id}.json",
     "fragment_template": "fragments/{character_id}/{chapter_id}.json",
-    "profile_template": "profiles/{character_id}.json"
+    "profile_template": "profiles/{character_id}.json",
+    "character_index": "characters_full.json",
+    "character_details": "characters_detail.json",
+    "scenes": "scenes.json"
   },
   "emotion_model": {
     "id": "plutchik-vad-gaussian-v1",
@@ -75,67 +133,67 @@
       "sha256": "3ff98fcbd17d789ae400ed7f789ca40e1695778a29e411e82a8718ca1731bcd9"
     },
     {
-      "path": "fragments/marmeladova/1_2.json",
+      "path": "fragments/sonya/1_2.json",
       "bytes": 4068,
       "sha256": "ba89314ae587f66d7ff49e2000daea365baa01c848af915763d9b32aa5c86911"
     },
     {
-      "path": "fragments/marmeladova/2_7.json",
+      "path": "fragments/sonya/2_7.json",
       "bytes": 863,
       "sha256": "845a66b77cb2bb423c7905a2401dfba80a154ce399adc82c55ca90b1bcbdbd92"
     },
     {
-      "path": "fragments/marmeladova/3_4.json",
+      "path": "fragments/sonya/3_4.json",
       "bytes": 14484,
       "sha256": "cf22be77fa1abc5c7ba4d9e69a78e4ef97760f429939c549aad441f2867abff3"
     },
     {
-      "path": "fragments/marmeladova/4_4.json",
+      "path": "fragments/sonya/4_4.json",
       "bytes": 70522,
       "sha256": "8d7ff2a475e3ccdb5d2e6435b3757e45595076a423d7c7e9c042dcac1d5b11d8"
     },
     {
-      "path": "fragments/marmeladova/5_1.json",
+      "path": "fragments/sonya/5_1.json",
       "bytes": 7048,
       "sha256": "1686179b8b65f582358ad52197ba3b9c165ca94cc979f5f6f474f25c125f7bbf"
     },
     {
-      "path": "fragments/marmeladova/5_2.json",
+      "path": "fragments/sonya/5_2.json",
       "bytes": 3971,
       "sha256": "caee2870d39b64ef48dc96465b24b0b05c7672aa076b5286adebdd6fcd852b85"
     },
     {
-      "path": "fragments/marmeladova/5_3.json",
+      "path": "fragments/sonya/5_3.json",
       "bytes": 13360,
       "sha256": "5c62386ef262e5430c9e9f48b685596d36f667649588f683a8d3dd697f56b805"
     },
     {
-      "path": "fragments/marmeladova/5_4.json",
+      "path": "fragments/sonya/5_4.json",
       "bytes": 59320,
       "sha256": "26ddb607ba3baf449637c237d6a4a48aa29c4b58a9674e2b4ab83f30d6f030ae"
     },
     {
-      "path": "fragments/marmeladova/5_5.json",
+      "path": "fragments/sonya/5_5.json",
       "bytes": 6174,
       "sha256": "17a7c92a4016142afba1ae210ee1c08bf3e439b86a24d06d79e79301d6e53c77"
     },
     {
-      "path": "fragments/marmeladova/6_1.json",
+      "path": "fragments/sonya/6_1.json",
       "bytes": 927,
       "sha256": "9122ae05c43279debd4e83082cf8c931de6094097239d02f68a66b5edd2ab30b"
     },
     {
-      "path": "fragments/marmeladova/6_6.json",
+      "path": "fragments/sonya/6_6.json",
       "bytes": 4855,
       "sha256": "2fbf8dbf28b7949d6c4f1c01043567ed20d8d8e246ca45a38816de4ff2e56077"
     },
     {
-      "path": "fragments/marmeladova/6_8.json",
+      "path": "fragments/sonya/6_8.json",
       "bytes": 16557,
       "sha256": "df0d4aa0d189d2660d9c99dda3fd2236dd01752aceebf498e7caa492c2474a36"
     },
     {
-      "path": "fragments/marmeladova/7_2.json",
+      "path": "fragments/sonya/7_2.json",
       "bytes": 9799,
       "sha256": "3127e0b622157ab1b6f0f207fec120abce2d0dd82f437f2d43819d5f85813bf4"
     },
@@ -590,7 +648,7 @@
       "sha256": "25bcdbc0d9f89db311b24541cd11b1c4d0833cab7de275a3491ef8c9fd46dd9b"
     },
     {
-      "path": "profiles/marmeladova.json",
+      "path": "profiles/sonya.json",
       "bytes": 17900,
       "sha256": "3dc143dab976296fb6d8851cec21c01cc17d1b3f12e2a5cdffa84131d3ac1cc3"
     },
@@ -655,31 +713,31 @@
       "sha256": "1e1fd4837469681085bca567927be3af607fbabfd5d2b4d61e8d762559dec2ca"
     },
     {
-      "role": "marmeladova/step4/best_assignments.csv",
+      "role": "sonya/step4/best_assignments.csv",
       "file": "best_assignments.csv",
       "bytes": 546648,
       "sha256": "6c696b57109a95d727077db5410f17a05ab1293871b0a179a42ac465a99b1ec9"
     },
     {
-      "role": "marmeladova/step4/best_centroids.csv",
+      "role": "sonya/step4/best_centroids.csv",
       "file": "best_centroids.csv",
       "bytes": 381,
       "sha256": "e428bd134855353699f5959219acfb67e557c7358c1fd6764d0eb739d7575464"
     },
     {
-      "role": "marmeladova/step4/step4_summary.json",
+      "role": "sonya/step4/step4_summary.json",
       "file": "step4_summary.json",
       "bytes": 1412,
       "sha256": "3d8c1559d9b510b3bc0ae5b3ea2c30508adebc2db9e13816cf7a29318110c491"
     },
     {
-      "role": "marmeladova/step5/cluster_names.csv",
+      "role": "sonya/step5/cluster_names.csv",
       "file": "cluster_names.csv",
       "bytes": 5501,
       "sha256": "e584c363e6f87d0ebd9b89f5402b727ee8298ca926eda50b9372451ac6bd49dd"
     },
     {
-      "role": "marmeladova/step5/step5_summary.json",
+      "role": "sonya/step5/step5_summary.json",
       "file": "step5_summary.json",
       "bytes": 858,
       "sha256": "5919137694581556b2016ba4e58585267a8512a177ad1ca08c9b7ac27f4042f9"

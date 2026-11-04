@@ -61,7 +61,87 @@
     });
   }
 
+  // ---- Schema v2 characters --------------------------------------------------------------
+  // characters_full.json is the one master list (id, name, short_label, kind, intro_chapter);
+  // characters_detail.json (aliases, desc, ...) is lazy; emo-characters.json only keeps colour/counts.
+  // Each file is fetched at most once per page (cached on the context).
+  function cached(context, key, make) {
+    context.dataCache = context.dataCache || {};
+    if (!context.dataCache[key]) context.dataCache[key] = make();
+    return context.dataCache[key];
+  }
+  function manifestFile(context, key, fallback) {
+    var files = (context.novelManifest && context.novelManifest.files) || {};
+    var rel = files[key] || fallback;
+    return rel ? resolveRelative(context.manifestUrl, rel) : null;
+  }
+
+  // -> { list: [character], byId: { id: character } }
+  function loadCharacterIndex(context) {
+    return cached(context, "characterIndex", function() {
+      return fetchJson(manifestFile(context, "character_index"), context.signal).then(function(doc) {
+        var list = doc.characters || [], byId = {};
+        list.forEach(function(c) { byId[c.id] = c; });
+        return { list: list, byId: byId };
+      });
+    });
+  }
+
+  // -> { id: { aliases, desc, intro_desc, note } }  ({} when the novel has no details file)
+  function loadCharacterDetails(context) {
+    return cached(context, "characterDetails", function() {
+      var url = manifestFile(context, "character_details");
+      if (!url) return Promise.resolve({});
+      return fetchJson(url, context.signal).then(function(doc) { return doc.characters || {}; }).catch(function(error) {
+        if (error && error.name === "AbortError") throw error;
+        return {};
+      });
+    });
+  }
+
+  // Emotion characters in the shape every explorer already uses:
+  // { characters: [{ id, name, label, color, fragment_count, chapter_count, clusters_path, fragments_path_template, profile_path }] }
+  function loadEmoCharactersDoc(context) {
+    return cached(context, "emoDoc", function() {
+      var files = context.novelManifest.files;
+      return Promise.all([fetchJson(manifestFile(context, "characters"), context.signal), loadCharacterIndex(context)]).then(function(r) {
+        var doc = r[0], index = r[1].byId, out = {};
+        Object.keys(doc).forEach(function(k) { out[k] = doc[k]; });
+        out.characters = (doc.characters || []).map(function(c) {
+          var ch = index[c.id] || {}, merged = {};
+          Object.keys(c).forEach(function(k) { merged[k] = c[k]; });
+          merged.name = ch.name || c.id;
+          merged.label = ch.short_label || ch.name || c.id;
+          merged.clusters_path = files.clusters;
+          merged.fragments_path_template = files.fragment_template.replace("{character_id}", c.id);
+          merged.profile_path = files.profile_template.replace("{character_id}", c.id);
+          return merged;
+        });
+        return out;
+      });
+    });
+  }
+
+  // character-network.json nodes only keep graph data; add name / short_label / intro_chapter from the master list.
+  function joinNetwork(network, index) {
+    var out = {};
+    Object.keys(network).forEach(function(k) { out[k] = network[k]; });
+    out.nodes = (network.nodes || []).map(function(n) {
+      var ch = index.byId[n.id], node = {};
+      Object.keys(n).forEach(function(k) { node[k] = n[k]; });
+      if (ch) {
+        node.label = ch.name;
+        if (ch.short_label) node.short_label = ch.short_label;
+        if (ch.intro_chapter) node.intro_chapter = ch.intro_chapter;
+      }
+      return node;
+    });
+    return out;
+  }
+
   global.AtlasData = {
+    manifestFile: manifestFile, loadCharacterIndex: loadCharacterIndex, loadCharacterDetails: loadCharacterDetails,
+    loadEmoCharactersDoc: loadEmoCharactersDoc, joinNetwork: joinNetwork,
     fetchJson: fetchJson, resolveRelative: resolveRelative, localized: localized, loadNovelContext: loadNovelContext,
     normalizeChapterId: normalizeChapterId, resolveChapter: resolveChapter
   };

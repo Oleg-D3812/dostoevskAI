@@ -57,7 +57,7 @@
         document.getElementById("back-link").href = "../novel.html?id=" + encodeURIComponent(context.novel.id) + "&feature=emotion-vad";
         setLoading("Загрузка структуры и персонажей…");
         return Promise.all([
-          fetchJson(state.base + manifest.files.characters),
+          AtlasData.loadEmoCharactersDoc(context),
           fetchJson(state.base + manifest.files.chapters),
           fetchJson(state.base + manifest.files.clusters)
         ]);

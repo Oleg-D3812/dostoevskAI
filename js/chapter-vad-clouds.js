@@ -15,7 +15,7 @@
       state.base = context.dataBaseUrl;
       document.title = AtlasData.localized(context.novel.title) + " — VAD облака глав";
       document.getElementById("back-link").href = "../novel.html?id=" + encodeURIComponent(context.novel.id) + "&feature=emotion-vad";
-      return Promise.all([fetchJson(state.base + manifest.files.characters), fetchJson(state.base + manifest.files.chapters), fetchJson(state.base + manifest.files.clusters)]);
+      return Promise.all([AtlasData.loadEmoCharactersDoc(context), fetchJson(state.base + manifest.files.chapters), fetchJson(state.base + manifest.files.clusters)]);
   }).then(function (r) {
     state.characters = r[0].characters || [];
     state.chapters = r[1].chapters || [];
