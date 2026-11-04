@@ -14,25 +14,6 @@
       "help": "../../../explorers/character_network_explained.html"
     },
     {
-      "id": "playground",
-      "renderer": "playground",
-      "label": {
-        "ru": "Конструктор",
-        "en": "Playground"
-      },
-      "status": "ready",
-      "entry": "manifest.json"
-    },
-    {
-      "id": "timeline",
-      "renderer": "timeline",
-      "label": {
-        "ru": "Хронология",
-        "en": "Timeline"
-      },
-      "status": "planned"
-    },
-    {
       "id": "emotion-vad",
       "renderer": "explorer-index",
       "label": {
@@ -79,6 +60,25 @@
           "entry": "../../../explorers/chapter_plutchik_table.html"
         }
       ]
+    },
+    {
+      "id": "playground",
+      "renderer": "playground",
+      "label": {
+        "ru": "Конструктор",
+        "en": "Playground"
+      },
+      "status": "ready",
+      "entry": "manifest.json"
+    },
+    {
+      "id": "timeline",
+      "renderer": "timeline",
+      "label": {
+        "ru": "Хронология",
+        "en": "Timeline"
+      },
+      "status": "planned"
     }
   ],
   "language": "ru",

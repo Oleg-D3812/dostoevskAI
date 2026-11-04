@@ -132,4 +132,5 @@ Every fact is stored once. See `docs/schema-v2/README.md`, JSON Schemas in `docs
 - `emo-characters.json` carries emotion data only (`id`, `color`, `fragment_count`, `chapter_count`); its file paths are `manifest.files.*` templates.
 - Manifests keep `schemaVersion` and `novelId` only (no snake_case duplicates, no `title`; the title lives in `catalog.json`) and list `character_index`, `character_details` and `scenes` in `files`.
 - The browser joins these files through `AtlasData.loadCharacterIndex`, `loadCharacterDetails`, `loadEmoCharactersDoc` and `joinNetwork` in `js/data-client.js`; explorers never read names from `emo-characters.json` directly.
+- Every chapter reference (`intro_chapter`, `scenes[].chapter`, `relation.chapters[]`) is a `chapters.json` id (for example `2_16`), never a `chapter_02_16` form or a source section; scene ids stay `chapter_01_01_02_S1`.
 - `scripts/migrate_v2.py` was the one-time v1 → v2 conversion (it also renamed the Crime and Punishment emotion id `marmeladova` to `sonya`).

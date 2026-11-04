@@ -3,6 +3,17 @@
   "novelId": "crime-and-punishment",
   "features": [
     {
+      "id": "character-network",
+      "renderer": "graph",
+      "label": {
+        "ru": "Граф связей",
+        "en": "Character network"
+      },
+      "status": "ready",
+      "entry": "character-network.json",
+      "help": "../../../explorers/character_network_explained.html"
+    },
+    {
       "id": "emotion-vad",
       "renderer": "explorer-index",
       "label": {
@@ -49,17 +60,6 @@
           "entry": "../../../explorers/chapter_plutchik_table.html"
         }
       ]
-    },
-    {
-      "id": "character-network",
-      "renderer": "graph",
-      "label": {
-        "ru": "Граф связей",
-        "en": "Character network"
-      },
-      "status": "ready",
-      "entry": "character-network.json",
-      "help": "../../../explorers/character_network_explained.html"
     },
     {
       "id": "playground",

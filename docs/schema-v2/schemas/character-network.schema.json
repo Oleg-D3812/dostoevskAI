@@ -160,7 +160,8 @@
               "chapters": {
                 "type": "array",
                 "items": {
-                  "type": "string"
+                  "type": "string",
+                  "description": "A chapters.json id (e.g. 2_16) - never a source section or the chapter_02_16 form."
                 }
               }
             },

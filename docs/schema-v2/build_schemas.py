@@ -15,6 +15,7 @@ B = {"type": "boolean"}
 NS = {"type": ["string", "null"]}
 I18N = {"type": "object", "properties": {"ru": S, "en": S}, "required": ["ru"], "additionalProperties": False}
 VAD = {"type": "array", "items": N, "minItems": 3, "maxItems": 3}
+CH = {"type": "string", "description": "A chapters.json id (e.g. 2_16) - never a source section or the chapter_02_16 form."}
 HEX = {"type": "string", "pattern": "^#[0-9a-fA-F]{6}$"}
 
 
@@ -52,7 +53,7 @@ write("chapters", "chapters.json (unchanged from v1)",
           ["schema_version", "novel_id", "chapters"]))
 
 write("scenes", "scenes.json (unchanged from v1) - a bare array",
-      arr(obj({"id": S, "chapter": S, "scene_id": S, "title": S, "summary": S}, ["id", "chapter", "scene_id", "title", "summary"])))
+      arr(obj({"id": S, "chapter": CH, "scene_id": S, "title": S, "summary": S}, ["id", "chapter", "scene_id", "title", "summary"])))
 
 write("novel-chapter", "novel/<chapter_id>.json (unchanged from v1)",
       obj({"schema_version": I, "novel_id": S, "chapter_id": S, "part": I, "chapter": I, "sentence_count": I, "timeline_start_index": I,
@@ -104,9 +105,9 @@ write("manifest", "manifest.json - v1 minus: duplicated schema_version/novel_id,
 
 write("characters-full", "characters_full.json - SLIM master list of every character (v1 file, trimmed)",
       obj({"note": S,
-           "characters": arr(obj({"id": S, "name": S, "short_label": NS, "kind": S, "intro_chapter": S},
+           "characters": arr(obj({"id": S, "name": S, "short_label": NS, "kind": S, "intro_chapter": CH},
                                  ["id", "name", "short_label", "kind"],
-                                 desc="short_label: THE one short name (v1: short_label in network/glossary, label in emo-characters). Always present, null when unknown. intro_chapter in the novel's own format, as v1."))},
+                                 desc="short_label: THE one short name (v1: short_label in network/glossary, label in emo-characters). Always present, null when unknown. intro_chapter: a chapters.json id."))},
           ["characters"]),
       desc="Removed vs v1: top-level 'novel' (title copy); aliases, desc, intro_desc, note, ambiguous -> characters_detail.json.")
 
@@ -119,7 +120,7 @@ write("characters-detail", "characters_detail.json - NEW, lazy: long text for a 
 
 node = obj({"id": S, "degree": I, "core": {"type": ["integer", "null"]},
             "importance": obj({"F": N, "D": N, "W": N, "B": N, "score": N, "tier": S}, [], True)}, ["id"])
-rel = obj({"category": S, "weight": N, "roles": arr(S), "evolves": B, "note": S, "chapters": arr(S)}, [], True)
+rel = obj({"category": S, "weight": N, "roles": arr(S), "evolves": B, "note": S, "chapters": arr(CH)}, [], True)
 edge = obj({"a": S, "b": S, "interactions": I, "scenes": arr(S), "relation": rel,
             "types": {"type": "object", "additionalProperties": obj({"count": I, "raw_weight": N, "weight": N}, [], True)}}, ["a", "b"])
 write("character-network", "character-network.json - v1 minus identity fields (label, short_label, desc, intro_chapter) and title",

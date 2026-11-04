@@ -29,7 +29,8 @@
             "type": "string"
           },
           "intro_chapter": {
-            "type": "string"
+            "type": "string",
+            "description": "A chapters.json id (e.g. 2_16) - never a source section or the chapter_02_16 form."
           }
         },
         "required": [
@@ -39,7 +40,7 @@
           "kind"
         ],
         "additionalProperties": false,
-        "description": "short_label: THE one short name (v1: short_label in network/glossary, label in emo-characters). Always present, null when unknown. intro_chapter in the novel's own format, as v1."
+        "description": "short_label: THE one short name (v1: short_label in network/glossary, label in emo-characters). Always present, null when unknown. intro_chapter: a chapters.json id."
       }
     }
   },

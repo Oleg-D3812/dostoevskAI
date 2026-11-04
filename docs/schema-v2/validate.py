@@ -48,6 +48,11 @@ def novel(root, nid, manifest_rel):
 
     chap = get("chapters", "chapters"); chap_ids = {c["id"] for c in chap["chapters"]}
     scenes = get("scenes", "scenes")
+    # chapter references must be chapters.json ids (not source sections, not the long chapter_01_02 form)
+    for c in full["characters"]:
+        if c.get("intro_chapter") and c["intro_chapter"] not in chap_ids: err(f"{nid}: {c['id']}.intro_chapter '{c['intro_chapter']}' is not a chapters.json id")
+    for s in (scenes or []):
+        if s["chapter"] not in chap_ids: err(f"{nid}: scene {s['id']}.chapter '{s['chapter']}' is not a chapters.json id")
     for c in chap["chapters"]:
         p = base / F["novel_chapter_template"].format(chapter_id=c["id"])
         if not p.exists(): err(f"{nid}: missing novel file for chapter {c['id']}")
@@ -86,6 +91,8 @@ def novel(root, nid, manifest_rel):
                     if end not in nodes: err(f"{nid}: edge endpoint '{end}' is not a node")
                 cat = e.get("relation", {}).get("category")
                 if cat and cats and cat not in cats: err(f"{nid}: edge category '{cat}' unknown")
+                for ch in e.get("relation", {}).get("chapters", []):
+                    if ch not in chap_ids: err(f"{nid}: edge {e['a']}|{e['b']}: relation.chapters '{ch}' is not a chapters.json id")
                 for s in e.get("scenes", []):
                     if s not in sc: err(f"{nid}: edge {e['a']}|{e['b']}: unknown scene {s}")
 

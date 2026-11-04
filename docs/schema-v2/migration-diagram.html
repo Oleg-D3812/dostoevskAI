@@ -57,7 +57,8 @@ var STATUS = [
  ["characters_detail.json","new","LAZY long text: aliases, desc, intro_desc, note, ambiguous."],
  ["character-network.json","changed","Identity fields removed from nodes; title removed."],
  ["emo-characters.json","changed","Names and paths removed; keeps color and counts."],
- ["chapters.json, scenes.json, clusters.json","same","Identical to v1."],
+ ["scenes.json","changed","Each scene's chapter is now a chapters.json id (scene ids unchanged)."],
+ ["chapters.json, clusters.json","same","Identical to v1."],
  ["novel/*.json, fragments/*/*.json, profiles/*.json","same","Identical to v1."],
  ["data/models/*.json","same","Identical."]
 ];
@@ -81,7 +82,7 @@ var F = [
   ["characters[].name","merge","characters_full.json › name = character-network.json › nodes[].label = emo-characters.json › name","3 copies → 1"],
   ["characters[].short_label","merge","characters_full.json › short_label | character-network.json › nodes[].short_label | emo-characters.json › label","one field, always present, null if none; today only Andromeda/Voskreseniye have it plus the emo characters' labels"],
   ["characters[].kind","keep","characters_full.json › kind",""],
-  ["characters[].intro_chapter","merge","characters_full.json › intro_chapter = character-network.json › nodes[].intro_chapter","kept in the novel's own id format; omitted when v1 had none"],
+  ["characters[].intro_chapter","merge","characters_full.json › intro_chapter = character-network.json › nodes[].intro_chapter","now a chapters.json id (e.g. chapter_02_16 -> 2_16); omitted when v1 had none"],
   ["note","keep","characters_full.json › note","DRAFT text as v1"],
   ["(novel)","drop","characters_full.json › novel","copy of the title"],
   ["(aliases, desc, intro_desc, note, ambiguous)","move","characters_full.json","→ characters_detail.json"]]},
@@ -89,6 +90,9 @@ var F = [
   ["characters{id}.aliases / intro_desc / note","move","characters_full.json › characters[].aliases, intro_desc, note","values unchanged"],
   ["characters{id}.desc","merge","characters_full.json › desc = character-network.json › nodes[].desc","2 copies → 1"],
   ["ambiguous","move","characters_full.json › ambiguous","unchanged"]]},
+ {path:"novels/<id>/scenes.json", desc:"Scenes — chapter reference converted", rows:[
+  ["[].chapter","merge","scenes.json › chapter (chapter_01_01_02, or source section chapter_2_1_2)","now a chapters.json id; sub-sections map to the parent chapter"],
+  ["[].id, scene_id, title, summary","keep","scenes.json","unchanged (id keeps the chapter_..._S1 form)"]]},
  {path:"novels/<id>/character-network.json", desc:"Graph — v1 minus identity fields", rows:[
   ["schema_version, generated_at, categories, interaction_types","keep","character-network.json",""],
   ["nodes[].id, degree, core, importance","keep","character-network.json › nodes[]","degree stays (pipeline value)"],
@@ -96,7 +100,8 @@ var F = [
   ["(nodes[].short_label)","drop","character-network.json › nodes[].short_label","→ characters_full.json › short_label"],
   ["(nodes[].desc)","drop","character-network.json › nodes[].desc","→ characters_detail.json › desc"],
   ["(nodes[].intro_chapter)","drop","character-network.json › nodes[].intro_chapter","→ characters_full.json › intro_chapter"],
-  ["edges[] (a, b, interactions, scenes, relation, types)","keep","character-network.json › edges[]","untouched"],
+  ["edges[] (a, b, interactions, scenes, relation, types)","keep","character-network.json › edges[]","untouched, except relation.chapters[] (next row)"],
+  ["edges[].relation.chapters[]","merge","character-network.json › edges[].relation.chapters (chapter_01_02 or source section chapter_2_1_2)","now chapters.json ids; sub-sections map to the parent chapter; duplicates dropped"],
   ["(title)","drop","character-network.json › title","copy of the novel title"]]},
  {path:"novels/<id>/emo-characters.json", desc:"Emotion-feature properties of a character", rows:[
   ["schema_version, novel_id","keep","emo-characters.json",""],
@@ -106,7 +111,7 @@ var F = [
   ["(clusters_path, fragments_path_template, profile_path)","drop","emo-characters.json","already in manifest.files.*"]]}
 ];
 document.getElementById("cards").innerHTML = F.map(function(f){
-  return "<div class='card'><h3>"+f.desc+"</h3><div class='path'>"+f.path+"</div><div class='scroll'><table><tr><th>v2 field</th><th></th><th>Source in v1</th><th>Note</th></tr>" +
+  return "<div class='card'><h3>"+f.desc+"</h3><div class='path'>"+f.path.replace(/</g,'&lt;')+"</div><div class='scroll'><table><tr><th>v2 field</th><th></th><th>Source in v1</th><th>Note</th></tr>" +
     f.rows.map(function(r){ return "<tr><td><code>"+r[0]+"</code></td><td>"+chip(r[1])+"</td><td><code>"+r[2]+"</code></td><td>"+r[3]+"</td></tr>"; }).join("") + "</table></div></div>";
 }).join("");
 
@@ -123,7 +128,7 @@ var D = [
 document.getElementById("dups").innerHTML = "<tr><th>Fact</th><th>Stored in v1</th><th>v2 home</th></tr>" + D.map(function(r){ return "<tr><td>"+r[0]+"</td><td>"+r[1]+"</td><td><code>"+r[2]+"</code></td></tr>"; }).join("");
 
 document.getElementById("left").innerHTML = [
- "Chapter ids, scene ids and every other id format — exactly as each novel's pipeline writes them.",
+ "Scene ids (chapter_01_01_02_S1) and the chapter ids in chapters.json — exactly as each novel's pipeline writes them. (Chapter REFERENCES now use chapters.json ids.)",
  "All derived values (degree, interactions, counts, timeline indexes, fragment/cluster ids, display_id, distance_to_centroid, profile sums) — pipeline output, not recomputed.",
  "The same fragment count stored in chapters.json character_counts, profiles count, fragments count and emo fragment_count.",
  "<code>clusters.json display_id</code> contains a copy of the short name (e.g. «В.П. Ставрогина-1»); not touched.",
