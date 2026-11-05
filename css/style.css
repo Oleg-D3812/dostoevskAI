@@ -321,7 +321,7 @@ a:hover { color: var(--hover-color); }
 .graph-tiers {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 0;
   padding: 10px 16px;
   border-bottom: 1px solid var(--border-color);
   background: var(--sidebar-bg);
@@ -334,28 +334,123 @@ a:hover { color: var(--hover-color); }
   align-items: center;
   gap: 8px;
 }
-.graph-tiers-picker-btn {
-  padding: 4px 11px;
+/* Picker = folder tabs sitting on a baseline; the active tab opens into the
+   pill row below it (that row is the tab's "page"). */
+.graph-tiers-picker {
+  gap: 4px;
+  border-bottom: 1px solid var(--border-color);
+}
+.graph-tiers-picker + .graph-tiers-values {
+  padding-top: 10px;
+  padding-left: 112px; /* line the pills up under the tabs, past the row label */
+}
+/* Chart column: the canvas above, the character-search panel below it. */
+.graph-main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+}
+.graph-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-top: 1px solid var(--border-color);
+  background: var(--sidebar-bg);
+  flex-shrink: 0;
+}
+.graph-search-box {
+  position: relative;
+  flex: 0 1 340px;
+  min-width: 0;
+}
+.graph-search-input {
+  width: 100%;
+  padding: 7px 12px;
   border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background: var(--surface-solid);
+  color: var(--text-color);
+  font: inherit;
+  font-size: 13px;
+}
+.graph-search-input::placeholder { color: var(--text-muted); }
+.graph-search-input:focus {
+  outline: none;
+  border-color: color-mix(in srgb, var(--accent-color) 55%, var(--border-color));
+}
+.graph-search-list {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: calc(100% + 6px); /* opens upward: the panel sits at the page bottom */
+  z-index: 5;
+  max-height: 280px;
+  margin: 0;
+  padding: 4px;
+  overflow-y: auto;
+  list-style: none;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  background: var(--surface-solid);
+  box-shadow: var(--shadow-soft);
+}
+.graph-search-list[hidden] { display: none; }
+.graph-search-list li {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 7px 10px;
   border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.graph-search-list li.active { background: var(--accent-soft); color: var(--accent-color); }
+.graph-search-short { color: var(--text-muted); font-size: 11px; white-space: nowrap; }
+.graph-search-note { color: var(--text-muted); font-size: 12px; }
+/* Left-hand caption for a control row ("Типы связей", "Фильтр"). */
+.graph-row-label {
+  flex: 0 0 104px;
+  margin-right: 4px;
+  color: var(--text-muted);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+@media (max-width: 768px) {
+  .graph-row-label { display: none; }
+  .graph-tiers-picker + .graph-tiers-values { padding-left: 0; }
+}
+.graph-tiers-picker-btn {
+  position: relative;
+  top: 1px;
+  padding: 7px 16px;
+  border: 1px solid transparent;
+  border-bottom: none;
+  border-radius: 8px 8px 0 0;
   background: transparent;
   color: var(--text-muted);
   font: inherit;
   font-size: 11px;
   font-weight: 700;
-  letter-spacing: .04em;
+  letter-spacing: .06em;
   text-transform: uppercase;
   cursor: pointer;
-  transition: color .15s, background .15s, border-color .15s;
+  transition: color .15s, background .15s;
 }
 .graph-tiers-picker-btn:hover {
   color: var(--text-color);
-  background: var(--surface-solid);
+  background: color-mix(in srgb, var(--surface-solid) 70%, transparent);
 }
 .graph-tiers-picker-btn.active {
-  border-color: color-mix(in srgb, var(--teal-color) 45%, var(--border-color));
+  border-color: var(--border-color);
+  border-bottom-color: var(--sidebar-bg);
   color: var(--teal-color);
-  background: var(--teal-soft);
+  background: var(--sidebar-bg);
 }
 .graph-tiers-label {
   color: var(--text-muted);

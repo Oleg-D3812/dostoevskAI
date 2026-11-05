@@ -25,7 +25,10 @@
  * @param {Array} [layoutEdges] - superset edge set used only for the one-time layout (defaults to edgesData)
  * @param {Function} [onBlankClick] - callback() when clicking empty canvas (deselect)
  * @param {Function} [onFilterChange] - callback(hasFilter) whenever the node selection changes
- * @returns {{network, applyEdges: function(Array), clearFilter: function(), setHiddenByFilter: function(Array)}}
+ * `focusNode(id)` selects a character, centres the view on them and opens their
+ * details through onNodeClick.
+ *
+ * @returns {{network, applyEdges: function(Array), clearFilter: function(), setHiddenByFilter: function(Array), focusNode: function(string): boolean}}
  */
 function initGraph(container, nodesData, edgesData, onNodeClick, onEdgeClick, layoutEdges, onBlankClick, onFilterChange) {
   var MIN_WIDTH = 0.5;
@@ -168,6 +171,22 @@ function initGraph(container, nodesData, edgesData, onNodeClick, onEdgeClick, la
     applyFilter();
   }
 
+  // Public: select one character, centre the view on them and report them via
+  // onNodeClick (so the side panel opens exactly as after a click). If the
+  // click-driven neighbour filter is hiding them, that filter is dropped first.
+  // Returns false until the layout has been frozen or for an unknown id. The
+  // caller must un-hide the node from any setHiddenByFilter filter beforehand.
+  function focusNode(id) {
+    if (!frozen || !nodeById[id]) return false;
+    var visible = filterVisibleSet();
+    if (visible && !visible[id]) clearFilter();
+    network.selectNodes([id]);
+    userMoved = true;
+    network.focus(id, { scale: Math.max(network.getScale(), 1), animation: { duration: 450, easingFunction: "easeInOutQuad" } });
+    if (onNodeClick) onNodeClick(nodeById[id]);
+    return true;
+  }
+
   // Public: swap the visible edge set. A pure filter once the layout is frozen;
   // the current node selection (if any) is re-applied against the new edges.
   function applyEdges(list) {
@@ -287,5 +306,5 @@ function initGraph(container, nodesData, edgesData, onNodeClick, onEdgeClick, la
   network.setOptions({ physics: { enabled: true } });
   network.stabilize(300);
 
-  return { network: network, applyEdges: applyEdges, clearFilter: clearFilter, setHiddenByFilter: setHiddenByFilter };
+  return { network: network, applyEdges: applyEdges, clearFilter: clearFilter, setHiddenByFilter: setHiddenByFilter, focusNode: focusNode };
 }

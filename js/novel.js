@@ -219,11 +219,11 @@
     }
 
     var importanceDimensions = [
-      buildImportanceDimension("tier", "Уровень",
+      buildImportanceDimension("tier", "Иерархия персонажей",
         function(n) { return n.importance && n.importance.tier; },
         function(v) { return TIER_LABELS[v] || (v.charAt(0).toUpperCase() + v.slice(1)); },
         TIER_ORDER),
-      buildImportanceDimension("core", "Ядро",
+      buildImportanceDimension("core", "Вовлечённость",
         function(n) { return n.core !== null && n.core !== undefined ? String(n.core) : null; },
         function(v) { return "Уровень-" + v; },
         null, true)
@@ -265,6 +265,13 @@
     var legend = document.createElement("div"); legend.className = "graph-legend";
     var body = document.createElement("div"); body.className = "graph-body";
     var side = document.createElement("div"); side.className = "graph-side";
+    function rowLabel(text) {
+      var span = document.createElement("span");
+      span.className = "graph-row-label";
+      span.textContent = text;
+      return span;
+    }
+    bar.appendChild(rowLabel("Типы связей"));
     modes.forEach(function(mode, index) {
       var button = document.createElement("button");
       button.className = "graph-mode-btn" + (index === 0 ? " active" : "");
@@ -293,6 +300,10 @@
     // you left it.
     var importanceBar = null;
     var showImportanceDimension = null;
+    // Re-enables whichever importance pill is hiding a character (search uses
+    // it so a found character is never left invisible). No-op without filters.
+    var revealHidden = function() {};
+    var currentDimension = null;
     if (importanceDimensions.length) {
       importanceBar = document.createElement("div"); importanceBar.className = "graph-tiers";
 
@@ -327,10 +338,12 @@
 
       var valuesRow = document.createElement("div"); valuesRow.className = "graph-tiers-values";
       var valuesCaption = document.createElement("span"); valuesCaption.className = "graph-tiers-label";
-      valuesRow.appendChild(valuesCaption);
+      // With tabs above, the active tab already names the dimension.
+      if (!pickerRow) valuesRow.appendChild(valuesCaption);
 
       showImportanceDimension = function(dimId) {
         var dim = importanceDimensions.filter(function(d) { return d.id === dimId; })[0];
+        currentDimension = dim;
         valuesCaption.textContent = dim.label + ":";
         valuesRow.querySelectorAll(".graph-mode-btn").forEach(function(x) { x.remove(); });
         dim.values.forEach(function(v) {
@@ -348,6 +361,16 @@
         applyImportanceFilter(dim);
       };
 
+      revealHidden = function(nodeId) {
+        if (!currentDimension) return;
+        var value = currentDimension.byNodeId[nodeId];
+        if (value === undefined || activeByDim[currentDimension.id][value]) return;
+        activeByDim[currentDimension.id][value] = true;
+        showImportanceDimension(currentDimension.id); // rebuilds the pills and re-applies the filter
+      };
+
+      // The "Фильтр" label leads whichever row comes first.
+      (pickerRow || valuesRow).insertBefore(rowLabel("Фильтр"), (pickerRow || valuesRow).firstChild);
       if (pickerRow) importanceBar.appendChild(pickerRow);
       importanceBar.appendChild(valuesRow);
     }
@@ -356,7 +379,10 @@
     if (importanceBar) context.panel.appendChild(importanceBar);
     context.panel.appendChild(legend);
     context.panel.appendChild(body);
-    body.appendChild(container);
+    var main = document.createElement("div"); main.className = "graph-main";
+    main.appendChild(container);
+    main.appendChild(buildSearchPanel());
+    body.appendChild(main);
     body.appendChild(side);
     container.innerHTML = "";
 
@@ -367,13 +393,111 @@
     renderEmptyDetails();
     if (importanceDimensions.length) showImportanceDimension(importanceDimensions[0].id);
 
+    // Character search under the chart: type part of a name (е/ё-insensitive,
+    // full or abbreviated form), pick a match, and the graph centres on them.
+    function buildSearchPanel() {
+      var panel = document.createElement("div"); panel.className = "graph-search";
+      panel.innerHTML = '<label class="graph-row-label" for="graphSearchInput">Поиск героя</label>' +
+        '<div class="graph-search-box">' +
+        '<input id="graphSearchInput" class="graph-search-input" type="search" autocomplete="off" spellcheck="false" ' +
+        'placeholder="Начните вводить имя…" role="combobox" aria-expanded="false" aria-controls="graphSearchList" aria-autocomplete="list">' +
+        '<ul id="graphSearchList" class="graph-search-list" role="listbox" hidden></ul></div>' +
+        '<span class="graph-search-note" aria-live="polite"></span>';
+      var input = panel.querySelector("input");
+      var list = panel.querySelector("ul");
+      var note = panel.querySelector(".graph-search-note");
+
+      function norm(s) { return normalizeYo(String(s || "").toLowerCase()); }
+      var index = nodesData.map(function(n) { return { node: n, hay: norm(n.label + " " + n.graphLabel) }; });
+      var results = [];
+      var active = -1;
+
+      function find(query) {
+        var tokens = norm(query).split(/\s+/).filter(Boolean);
+        if (!tokens.length) return [];
+        var found = index.filter(function(e) {
+          return tokens.every(function(t) { return e.hay.indexOf(t) >= 0; });
+        }).map(function(e) {
+          var wordStart = tokens.every(function(t) { return (" " + e.hay).indexOf(" " + t) >= 0; });
+          return { node: e.node, rank: wordStart ? 0 : 1 };
+        });
+        found.sort(function(a, b) { return a.rank - b.rank || a.node.label.localeCompare(b.node.label, "ru"); });
+        return found.slice(0, 8).map(function(f) { return f.node; });
+      }
+
+      function setActive(i) {
+        active = i;
+        [].forEach.call(list.children, function(li, k) {
+          li.classList.toggle("active", k === i);
+          if (k === i) { input.setAttribute("aria-activedescendant", li.id); li.scrollIntoView({ block: "nearest" }); }
+        });
+        if (i < 0) input.removeAttribute("aria-activedescendant");
+      }
+
+      function close() {
+        list.hidden = true;
+        input.setAttribute("aria-expanded", "false");
+        setActive(-1);
+      }
+
+      function render() {
+        note.textContent = "";
+        results = find(input.value);
+        if (!results.length) {
+          close();
+          if (input.value.trim()) note.textContent = "Никого не найдено";
+          return;
+        }
+        list.innerHTML = results.map(function(n, i) {
+          var short = n.graphLabel && n.graphLabel !== n.label ? '<span class="graph-search-short">' + escapeHtml(n.graphLabel) + "</span>" : "";
+          return '<li role="option" id="graphSearchOpt' + i + '" data-index="' + i + '"><span>' + escapeHtml(n.label) + "</span>" + short + "</li>";
+        }).join("");
+        list.hidden = false;
+        input.setAttribute("aria-expanded", "true");
+        setActive(0);
+      }
+
+      function choose(node) {
+        revealHidden(node.id);
+        var ok = graph && graph.focusNode(node.id);
+        input.value = node.label;
+        close();
+        note.textContent = ok ? "" : "График ещё строится — повторите через секунду";
+      }
+
+      input.addEventListener("input", render);
+      input.addEventListener("focus", function() { if (input.value.trim()) render(); });
+      input.addEventListener("blur", close);
+      input.addEventListener("keydown", function(e) {
+        if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+          if (list.hidden) render();
+          if (!results.length) return;
+          e.preventDefault();
+          var step = e.key === "ArrowDown" ? 1 : -1;
+          setActive((active + step + results.length) % results.length);
+        } else if (e.key === "Enter") {
+          if (results[active]) { e.preventDefault(); choose(results[active]); }
+        } else if (e.key === "Escape") {
+          if (!list.hidden) close(); else { input.value = ""; note.textContent = ""; }
+        }
+      });
+      // mousedown (not click) so the input keeps focus until the choice is made
+      list.addEventListener("mousedown", function(e) {
+        var li = e.target.closest("li");
+        if (!li) return;
+        e.preventDefault();
+        choose(results[Number(li.getAttribute("data-index"))]);
+      });
+      return panel;
+    }
+
     function renderLegend(mode) {
       if (mode.kind === "relations") {
         legend.innerHTML = (data.categories || []).map(function(c) {
           return '<span class="graph-legend-item"><i style="background:' + c.color + '"></i>' + escapeHtml(c.id) + "</span>";
         }).join("");
       } else {
-        legend.innerHTML = '<span class="graph-legend-note">Толщина линии — сила взаимодействия, число на ней — количество реплик. Персонажи без связей этого типа приглушены.</span>';
+        legend.innerHTML = '<span class="graph-legend-note">Толщина линии — сила взаимодействия, число на ней — количество взаимодействий этого типа. Персонажи без связей этого типа приглушены.</span>';
       }
     }
 
@@ -531,9 +655,9 @@
     var types = e.types || {};
     var here = types[typeId] || {};
     var order = Object.keys(types).sort(function(x, y) { return (types[y].count || 0) - (types[x].count || 0); });
-    var lines = [typeLabel[typeId] || typeId, "Реплик: " + here.count + " · сила: " + here.raw_weight, "", "Все типы для этой пары:"];
+    var lines = [typeLabel[typeId] || typeId, "Количество взаимодействий: " + here.count + " · сила: " + here.raw_weight, "", "Все типы для этой пары:"];
     order.forEach(function(k) {
-      lines.push("· " + (typeLabel[k] || k) + " — " + types[k].count + " реплик (сила " + types[k].raw_weight + ")");
+      lines.push("· " + (typeLabel[k] || k) + " — " + types[k].count + " (сила " + types[k].raw_weight + ")");
     });
     lines.push("\nВсего взаимодействий: " + (e.interactions || 0));
     return lines.join("\n");
