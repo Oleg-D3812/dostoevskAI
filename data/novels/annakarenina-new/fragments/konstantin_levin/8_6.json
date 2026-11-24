@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "8_6",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_08_06_0003",
+      "source_section": "chapter_08_06",
+      "source_sentence": 11,
+      "character_position": 1266,
+      "text": "Костя будет очень рад.",
+      "vad": [
+        0.7,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.1438806009164361,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 20076,
+      "timeline_end_index": 20076,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 2,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_06_0004",
+      "source_section": "chapter_08_06",
+      "source_sentence": 27,
+      "character_position": 1267,
+      "text": "Костя его очень любит",
+      "vad": [
+        0.8,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2360024216298259,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 20092,
+      "timeline_end_index": 20092,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 31,
+          "end": 52
+        }
+      ]
+    }
+  ]
+}

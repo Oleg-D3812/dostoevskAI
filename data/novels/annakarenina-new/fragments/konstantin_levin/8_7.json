@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "8_7",
+  "count": 10,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_08_07_0001",
+      "source_section": "chapter_08_07",
+      "source_sentence": 15,
+      "character_position": 1268,
+      "text": "стал все веселее",
+      "vad": [
+        0.8,
+        0.3,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.1266587324070581,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 20150,
+      "timeline_end_index": 20150,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 10,
+          "end": 26
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_07_0002",
+      "source_section": "chapter_08_07",
+      "source_sentence": 16,
+      "character_position": 1269,
+      "text": "так был мрачен и так мучался",
+      "vad": [
+        -0.85,
+        0.75,
+        -0.7
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4697190496036099,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 20151,
+      "timeline_end_index": 20151,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 8,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_07_0003",
+      "source_section": "chapter_08_07",
+      "source_sentence": 19,
+      "character_position": 1270,
+      "text": "мучало ее мужа",
+      "vad": [
+        -0.85,
+        0.45,
+        -0.65
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3028057940038758,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 20154,
+      "timeline_end_index": 20154,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 15,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_07_0004",
+      "source_section": "chapter_08_07",
+      "source_sentence": 20,
+      "character_position": 1271,
+      "text": "его неверие",
+      "vad": [
+        -0.3,
+        0.1,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.25331135538673,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 20155,
+      "timeline_end_index": 20155,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 9,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_07_0005",
+      "source_section": "chapter_08_07",
+      "source_sentence": 21,
+      "character_position": 1272,
+      "text": "его неверие",
+      "vad": [
+        -0.2,
+        0.0,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.0980689776634433,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 20155,
+      "timeline_end_index": 20155,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 9,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_07_0008",
+      "source_section": "chapter_08_07",
+      "source_sentence": 32,
+      "character_position": 1273,
+      "text": "Он любит рассуждать с ним",
+      "vad": [
+        0.35,
+        0.05,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.4400008300663624,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 20168,
+      "timeline_end_index": 20168,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 0,
+          "end": 25
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_07_0009",
+      "source_section": "chapter_08_07",
+      "source_sentence": 38,
+      "character_position": 1274,
+      "text": "Костя неверующий",
+      "vad": [
+        0.1,
+        -0.1,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3925571953027778,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 20173,
+      "timeline_end_index": 20173,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 5,
+          "end": 21
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_07_0010",
+      "source_section": "chapter_08_07",
+      "source_sentence": 39,
+      "character_position": 1275,
+      "text": "неверующий",
+      "vad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.2645568376544562,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 20174,
+      "timeline_end_index": 20174,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 5,
+          "end": 15
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_07_0011",
+      "source_section": "chapter_08_07",
+      "source_sentence": 46,
+      "character_position": 1276,
+      "text": "сконфуженность своего мужа",
+      "vad": [
+        -0.35,
+        0.25,
+        -0.35
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3673989743069005,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 20181,
+      "timeline_end_index": 20181,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 56,
+          "end": 82
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_07_0013",
+      "source_section": "chapter_08_07",
+      "source_sentence": 48,
+      "character_position": 1277,
+      "text": "страхом огорчить кого-нибудь, даже ребенка",
+      "vad": [
+        -0.65,
+        0.55,
+        -0.6
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2246627601600506,
+      "warning": null,
+      "chapter_sentence_start": 48,
+      "chapter_sentence_end": 48,
+      "timeline_start_index": 20183,
+      "timeline_end_index": 20183,
+      "highlights": [
+        {
+          "chapter_sentence": 48,
+          "start": 22,
+          "end": 64
+        }
+      ]
+    }
+  ]
+}

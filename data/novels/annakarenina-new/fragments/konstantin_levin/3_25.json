@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "3_25",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_03_25_0001",
+      "source_section": "chapter_03_25",
+      "source_sentence": 51,
+      "character_position": 467,
+      "text": "особенно поразила Левина",
+      "vad": [
+        0.3,
+        0.5,
+        -0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.4933434158624023,
+      "warning": null,
+      "chapter_sentence_start": 51,
+      "chapter_sentence_end": 51,
+      "timeline_start_index": 8293,
+      "timeline_end_index": 8293,
+      "highlights": [
+        {
+          "chapter_sentence": 51,
+          "start": 92,
+          "end": 116
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_25_0002",
+      "source_section": "chapter_03_25",
+      "source_sentence": 52,
+      "character_position": 468,
+      "text": "хотел собирать его",
+      "vad": [
+        0.2,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.472423829849507,
+      "warning": null,
+      "chapter_sentence_start": 52,
+      "chapter_sentence_end": 52,
+      "timeline_start_index": 8294,
+      "timeline_end_index": 8294,
+      "highlights": [
+        {
+          "chapter_sentence": 52,
+          "start": 58,
+          "end": 76
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_25_0003",
+      "source_section": "chapter_03_25",
+      "source_sentence": 74,
+      "character_position": 469,
+      "text": "впечатление это было так сильно, что Левин никак не мог отделаться от него",
+      "vad": [
+        0.55,
+        0.55,
+        -0.3
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.5262608728034431,
+      "warning": null,
+      "chapter_sentence_start": 74,
+      "chapter_sentence_end": 74,
+      "timeline_start_index": 8316,
+      "timeline_end_index": 8316,
+      "highlights": [
+        {
+          "chapter_sentence": 74,
+          "start": 162,
+          "end": 236
+        }
+      ]
+    }
+  ]
+}

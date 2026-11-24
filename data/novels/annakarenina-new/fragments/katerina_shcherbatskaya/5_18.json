@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "5_18",
+  "count": 7,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_18_0001",
+      "source_section": "chapter_05_18",
+      "source_sentence": 11,
+      "character_position": 395,
+      "text": "Кити думала, чувствовала и действовала совсем не так",
+      "vad": [
+        0.0,
+        0.0,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.2690254579443378,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 12458,
+      "timeline_end_index": 12458,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 3,
+          "end": 55
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_18_0002",
+      "source_section": "chapter_05_18",
+      "source_sentence": 12,
+      "character_position": 396,
+      "text": "ей стало жалко его",
+      "vad": [
+        -0.25,
+        0.2,
+        0.05
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.1020820731261842,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 12459,
+      "timeline_end_index": 12459,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 18,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_18_0003",
+      "source_section": "chapter_05_18",
+      "source_sentence": 13,
+      "character_position": 397,
+      "text": "жалость в ее женской душе",
+      "vad": [
+        -0.3,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.1237291701599766,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 12460,
+      "timeline_end_index": 12460,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 2,
+          "end": 27
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_18_0004",
+      "source_section": "chapter_05_18",
+      "source_sentence": 13,
+      "character_position": 398,
+      "text": "а потребность действовать, узнать все подробности его состояния и помочь им",
+      "vad": [
+        0.65,
+        0.55,
+        0.65
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.5821658929248058,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 12460,
+      "timeline_end_index": 12460,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 112,
+          "end": 187
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_18_0005",
+      "source_section": "chapter_05_18",
+      "source_sentence": 14,
+      "character_position": 399,
+      "text": "в ней не было ни малейшего сомнения",
+      "vad": [
+        0.3,
+        0.1,
+        0.85
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.8225522672573264,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 12461,
+      "timeline_end_index": 12461,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 10,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_18_0006",
+      "source_section": "chapter_05_18",
+      "source_sentence": 14,
+      "character_position": 400,
+      "text": "она не сомневалась и в том, что это можно",
+      "vad": [
+        0.3,
+        0.05,
+        0.7
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.710319827744252,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 12461,
+      "timeline_end_index": 12461,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 74,
+          "end": 115
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_18_0009",
+      "source_section": "chapter_05_18",
+      "source_sentence": 53,
+      "character_position": 401,
+      "text": "Она понимала, потому что не переставая следила мыслью за тем, что ему нужно было",
+      "vad": [
+        0.2,
+        0.1,
+        0.15
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.4564375349792676,
+      "warning": null,
+      "chapter_sentence_start": 53,
+      "chapter_sentence_end": 53,
+      "timeline_start_index": 12500,
+      "timeline_end_index": 12500,
+      "highlights": [
+        {
+          "chapter_sentence": 53,
+          "start": 0,
+          "end": 80
+        }
+      ]
+    }
+  ]
+}

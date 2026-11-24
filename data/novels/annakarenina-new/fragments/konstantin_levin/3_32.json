@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "3_32",
+  "count": 11,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_03_32_0001",
+      "source_section": "chapter_03_32",
+      "source_sentence": 2,
+      "character_position": 556,
+      "text": "Он чувствовал, что это случится и с братом.",
+      "vad": [
+        -0.2,
+        0.1,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.0797691439060212,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 8828,
+      "timeline_end_index": 8828,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 0,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_32_0002",
+      "source_section": "chapter_03_32",
+      "source_sentence": 5,
+      "character_position": 557,
+      "text": "Левин чувствовал себя виноватым",
+      "vad": [
+        -0.7,
+        0.2,
+        -0.3
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.257048053529867,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 8831,
+      "timeline_end_index": 8831,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 0,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_32_0003",
+      "source_section": "chapter_03_32",
+      "source_sentence": 6,
+      "character_position": 558,
+      "text": "Он чувствовал, что если б они оба не притворялись",
+      "vad": [
+        -0.15,
+        0.12,
+        -0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.1850172378029546,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 8832,
+      "timeline_end_index": 8832,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 0,
+          "end": 49
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_32_0004",
+      "source_section": "chapter_03_32",
+      "source_sentence": 9,
+      "character_position": 559,
+      "text": "постоянно чувствовал, что это выходило фальшиво, что брат его ловит на этом и раздражается этим",
+      "vad": [
+        -0.68,
+        0.38,
+        -0.52
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1202376514530861,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 8835,
+      "timeline_end_index": 8835,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 233,
+          "end": 328
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_32_0005",
+      "source_section": "chapter_03_32",
+      "source_sentence": 13,
+      "character_position": 560,
+      "text": "Левину было противно самому",
+      "vad": [
+        -0.8,
+        0.25,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4684484433083605,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 8839,
+      "timeline_end_index": 8839,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 112,
+          "end": 139
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_32_0006",
+      "source_section": "chapter_03_32",
+      "source_sentence": 26,
+      "character_position": 561,
+      "text": "Левин вдруг разгорячился",
+      "vad": [
+        -0.45,
+        0.78,
+        -0.12
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.5041715251152009,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 8852,
+      "timeline_end_index": 8852,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 0,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_32_0007",
+      "source_section": "chapter_03_32",
+      "source_sentence": 26,
+      "character_position": 562,
+      "text": "в глубине души он боялся",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.0464966355515229,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 8852,
+      "timeline_end_index": 8852,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 53,
+          "end": 77
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_32_0008",
+      "source_section": "chapter_03_32",
+      "source_sentence": 51,
+      "character_position": 563,
+      "text": "Левин очень удивил его своею мрачностью",
+      "vad": [
+        -0.78,
+        -0.25,
+        -0.4
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.688824031312897,
+      "warning": null,
+      "chapter_sentence_start": 51,
+      "chapter_sentence_end": 51,
+      "timeline_start_index": 8877,
+      "timeline_end_index": 8877,
+      "highlights": [
+        {
+          "chapter_sentence": 51,
+          "start": 69,
+          "end": 108
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_32_0009",
+      "source_section": "chapter_03_32",
+      "source_sentence": 54,
+      "character_position": 564,
+      "text": "Да ничего, так, веселого на свете мало.",
+      "vad": [
+        -0.45,
+        -0.1,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.2656613684130731,
+      "warning": null,
+      "chapter_sentence_start": 54,
+      "chapter_sentence_end": 54,
+      "timeline_start_index": 8880,
+      "timeline_end_index": 8880,
+      "highlights": [
+        {
+          "chapter_sentence": 54,
+          "start": 2,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_32_0010",
+      "source_section": "chapter_03_32",
+      "source_sentence": 64,
+      "character_position": 565,
+      "text": "Он во всем видел только смерть или приближение к ней.",
+      "vad": [
+        -0.92,
+        0.48,
+        -0.72
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4037124427430625,
+      "warning": null,
+      "chapter_sentence_start": 64,
+      "chapter_sentence_end": 64,
+      "timeline_start_index": 8890,
+      "timeline_end_index": 8890,
+      "highlights": [
+        {
+          "chapter_sentence": 64,
+          "start": 0,
+          "end": 53
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_32_0011",
+      "source_section": "chapter_03_32",
+      "source_sentence": 67,
+      "character_position": 566,
+      "text": "он чувствовал, что единственною руководительною нитью в этой темноте было его дело",
+      "vad": [
+        -0.25,
+        0.2,
+        0.35
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3301825965280091,
+      "warning": null,
+      "chapter_sentence_start": 67,
+      "chapter_sentence_end": 67,
+      "timeline_start_index": 8893,
+      "timeline_end_index": 8893,
+      "highlights": [
+        {
+          "chapter_sentence": 67,
+          "start": 66,
+          "end": 148
+        }
+      ]
+    }
+  ]
+}

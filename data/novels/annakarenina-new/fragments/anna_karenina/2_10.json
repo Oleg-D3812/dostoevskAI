@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "2_10",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_02_10_0001",
+      "source_section": "chapter_02_10",
+      "source_sentence": 5,
+      "character_position": 185,
+      "text": "непроницаемую стену какого-то веселого недоумения",
+      "vad": [
+        -0.45,
+        0.2,
+        -0.7
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.487215977488139,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 3886,
+      "timeline_end_index": 3886,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 70,
+          "end": 119
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_10_0002",
+      "source_section": "chapter_02_10",
+      "source_sentence": 10,
+      "character_position": 186,
+      "text": "дух зла и обмана, который владел ею",
+      "vad": [
+        -0.85,
+        0.45,
+        -0.7
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.2097996170348239,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 3891,
+      "timeline_end_index": 3891,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 69,
+          "end": 104
+        }
+      ]
+    }
+  ]
+}

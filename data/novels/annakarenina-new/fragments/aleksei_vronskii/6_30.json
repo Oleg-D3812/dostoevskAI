@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "6_30",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_06_30_0001",
+      "source_section": "chapter_06_30",
+      "source_sentence": 4,
+      "character_position": 529,
+      "text": "Очень рад.",
+      "vad": [
+        0.65,
+        0.2,
+        0.35
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.1765882922817134,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 16762,
+      "timeline_end_index": 16762,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 2,
+          "end": 12
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_30_0002",
+      "source_section": "chapter_06_30",
+      "source_sentence": 7,
+      "character_position": 530,
+      "text": "очевидно не имея никакого желания вступать в разговор с Левиным",
+      "vad": [
+        -0.35,
+        -0.25,
+        0.45
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.4396363135745415,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 16765,
+      "timeline_end_index": 16765,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 62,
+          "end": 125
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_30_0003",
+      "source_section": "chapter_06_30",
+      "source_sentence": 32,
+      "character_position": 531,
+      "text": "Да, это забирает за живое",
+      "vad": [
+        0.45,
+        0.6,
+        0.05
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.4006419891665984,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 16790,
+      "timeline_end_index": 16790,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 2,
+          "end": 27
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_30_0004",
+      "source_section": "chapter_06_30",
+      "source_sentence": 33,
+      "character_position": 532,
+      "text": "хочется его сделать",
+      "vad": [
+        0.5,
+        0.35,
+        0.25
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.180911247622768,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 16791,
+      "timeline_end_index": 16791,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 27,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_30_0005",
+      "source_section": "chapter_06_30",
+      "source_sentence": 38,
+      "character_position": 533,
+      "text": "рассеянно",
+      "vad": [
+        -0.05,
+        -0.2,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.4110166996469492,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 16796,
+      "timeline_end_index": 16796,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 10,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_30_0006",
+      "source_section": "chapter_06_30",
+      "source_sentence": 42,
+      "character_position": 534,
+      "text": "со спокойным удивлением",
+      "vad": [
+        0.1,
+        -0.2,
+        0.2
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.4894418086858756,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 16800,
+      "timeline_end_index": 16800,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 34,
+          "end": 57
+        }
+      ]
+    }
+  ]
+}

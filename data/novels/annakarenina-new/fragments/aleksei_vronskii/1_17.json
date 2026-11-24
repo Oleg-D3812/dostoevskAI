@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "1_17",
+  "count": 7,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_01_17_0001",
+      "source_section": "chapter_01_17",
+      "source_sentence": 25,
+      "character_position": 41,
+      "text": "рассеянно отвечал Вронский, смутно представляя себе",
+      "vad": [
+        -0.1,
+        -0.35,
+        -0.1
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.5448556846352913,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 1487,
+      "timeline_end_index": 1487,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 19,
+          "end": 70
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_17_0002",
+      "source_section": "chapter_01_17",
+      "source_sentence": 34,
+      "character_position": 42,
+      "text": "чувствовал себя привязанным к нему",
+      "vad": [
+        0.6,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.307975184434023,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 1496,
+      "timeline_end_index": 1496,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 83,
+          "end": 117
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_17_0003",
+      "source_section": "chapter_01_17",
+      "source_sentence": 77,
+      "character_position": 43,
+      "text": "совершенно забыл о матери",
+      "vad": [
+        0.0,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.342333841954653,
+      "warning": null,
+      "chapter_sentence_start": 77,
+      "chapter_sentence_end": 77,
+      "timeline_start_index": 1539,
+      "timeline_end_index": 1539,
+      "highlights": [
+        {
+          "chapter_sentence": 77,
+          "start": 66,
+          "end": 91
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_17_0004",
+      "source_section": "chapter_01_17",
+      "source_sentence": 78,
+      "character_position": 44,
+      "text": "возбуждало и радовало его",
+      "vad": [
+        0.8,
+        0.7,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.4627325809794438,
+      "warning": null,
+      "chapter_sentence_start": 78,
+      "chapter_sentence_end": 78,
+      "timeline_start_index": 1540,
+      "timeline_end_index": 1540,
+      "highlights": [
+        {
+          "chapter_sentence": 78,
+          "start": 34,
+          "end": 59
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_17_0005",
+      "source_section": "chapter_01_17",
+      "source_sentence": 80,
+      "character_position": 45,
+      "text": "чувствовал себя победителем",
+      "vad": [
+        0.8,
+        0.45,
+        0.9
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.7121623133163967,
+      "warning": null,
+      "chapter_sentence_start": 80,
+      "chapter_sentence_end": 80,
+      "timeline_start_index": 1542,
+      "timeline_end_index": 1542,
+      "highlights": [
+        {
+          "chapter_sentence": 80,
+          "start": 3,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_17_0006",
+      "source_section": "chapter_01_17",
+      "source_sentence": 83,
+      "character_position": 46,
+      "text": "в душе своей не уважал матери",
+      "vad": [
+        -0.55,
+        -0.1,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.3171826453030713,
+      "warning": null,
+      "chapter_sentence_start": 83,
+      "chapter_sentence_end": 83,
+      "timeline_start_index": 1545,
+      "timeline_end_index": 1545,
+      "highlights": [
+        {
+          "chapter_sentence": 83,
+          "start": 3,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_17_0007",
+      "source_section": "chapter_01_17",
+      "source_sentence": 83,
+      "character_position": 47,
+      "text": "не любил ее",
+      "vad": [
+        -0.75,
+        -0.25,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.584315341327198,
+      "warning": null,
+      "chapter_sentence_start": 83,
+      "chapter_sentence_end": 83,
+      "timeline_start_index": 1545,
+      "timeline_end_index": 1545,
+      "highlights": [
+        {
+          "chapter_sentence": 83,
+          "start": 66,
+          "end": 77
+        }
+      ]
+    }
+  ]
+}

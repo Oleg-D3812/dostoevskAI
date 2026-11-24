@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "6_14",
+  "count": 14,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_06_14_0001",
+      "source_section": "chapter_06_14",
+      "source_sentence": 24,
+      "character_position": 991,
+      "text": "Для Левина как при свадьбе были неприятны всякие приготовления, оскорбляющие своим ничтожеством величие совершающегося, так еще более оскорбительны казались приготовления для будущих родов",
+      "vad": [
+        -0.7,
+        0.35,
+        -0.1
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3230547310641644,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 15139,
+      "timeline_end_index": 15139,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 0,
+          "end": 188
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_14_0002",
+      "source_section": "chapter_06_14",
+      "source_sentence": 26,
+      "character_position": 992,
+      "text": "Событие рождения сына (он был уверен, что сын), которое ему обещали, но в которое он не мог верить, — так оно казалось необыкновенно, — представлялось ему, с одной стороны, столь огромным и потому невозможным счастьем, с другой стороны — столь таинственным событием, что это воображаемое знание того, что будет, и вследствие того приготовление как к чему-то обыкновенному, людьми же производимому, казалось ему возмутительно и унизительно",
+      "vad": [
+        -0.2,
+        0.65,
+        -0.35
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.5183794946170319,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 15141,
+      "timeline_end_index": 15141,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 0,
+          "end": 438
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_14_0003",
+      "source_section": "chapter_06_14",
+      "source_sentence": 27,
+      "character_position": 993,
+      "text": "его неохоту думать и говорить про это легкомыслием и равнодушием",
+      "vad": [
+        -0.4,
+        -0.35,
+        0.05
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.44532601246439,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 15142,
+      "timeline_end_index": 15142,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 46,
+          "end": 110
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_14_0004",
+      "source_section": "chapter_06_14",
+      "source_sentence": 39,
+      "character_position": 994,
+      "text": "сказал он мрачно",
+      "vad": [
+        -0.6,
+        -0.1,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3908917569990144,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 15154,
+      "timeline_end_index": 15154,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 34,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_14_0005",
+      "source_section": "chapter_06_14",
+      "source_sentence": 41,
+      "character_position": 995,
+      "text": "разговор с княгиней и расстраивал его, он сделался мрачен",
+      "vad": [
+        -0.65,
+        0.2,
+        -0.25
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2805197834062987,
+      "warning": null,
+      "chapter_sentence_start": 41,
+      "chapter_sentence_end": 41,
+      "timeline_start_index": 15156,
+      "timeline_end_index": 15156,
+      "highlights": [
+        {
+          "chapter_sentence": 41,
+          "start": 5,
+          "end": 62
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_14_0006",
+      "source_section": "chapter_06_14",
+      "source_sentence": 45,
+      "character_position": 996,
+      "text": "И опять свет померк в его глазах",
+      "vad": [
+        -0.82,
+        0.68,
+        -0.63
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3672524933407758,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 15160,
+      "timeline_end_index": 15160,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 0,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_14_0007",
+      "source_section": "chapter_06_14",
+      "source_sentence": 46,
+      "character_position": 997,
+      "text": "Опять, как вчера, вдруг, без малейшего перехода, он почувствовал себя сброшенным с высоты счастья, спокойствия, достоинства в бездну отчаяния, злобы и унижения",
+      "vad": [
+        -0.95,
+        0.9,
+        -0.85
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.703960127417061,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 15161,
+      "timeline_end_index": 15161,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 0,
+          "end": 159
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_14_0008",
+      "source_section": "chapter_06_14",
+      "source_sentence": 47,
+      "character_position": 998,
+      "text": "Опять все и всё стали противны ему",
+      "vad": [
+        -0.85,
+        0.45,
+        -0.25
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2463772097925347,
+      "warning": null,
+      "chapter_sentence_start": 47,
+      "chapter_sentence_end": 47,
+      "timeline_start_index": 15162,
+      "timeline_end_index": 15162,
+      "highlights": [
+        {
+          "chapter_sentence": 47,
+          "start": 0,
+          "end": 34
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_14_0009",
+      "source_section": "chapter_06_14",
+      "source_sentence": 50,
+      "character_position": 999,
+      "text": "причину волнения Левина, которое он заметил",
+      "vad": [
+        -0.2,
+        0.6,
+        -0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5526308891971334,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 50,
+      "timeline_start_index": 15165,
+      "timeline_end_index": 15165,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 91,
+          "end": 134
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_14_0010",
+      "source_section": "chapter_06_14",
+      "source_sentence": 61,
+      "character_position": 1000,
+      "text": "этот вопрос показался Левину ненатуральною, отвратительною хитростью",
+      "vad": [
+        -0.85,
+        0.35,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.6435433911455863,
+      "warning": null,
+      "chapter_sentence_start": 61,
+      "chapter_sentence_end": 61,
+      "timeline_start_index": 15176,
+      "timeline_end_index": 15176,
+      "highlights": [
+        {
+          "chapter_sentence": 61,
+          "start": 164,
+          "end": 232
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_14_0011",
+      "source_section": "chapter_06_14",
+      "source_sentence": 68,
+      "character_position": 1001,
+      "text": "подтвердило все его сомнения",
+      "vad": [
+        -0.45,
+        0.15,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.2638274624096487,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 15183,
+      "timeline_end_index": 15183,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 24,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_14_0012",
+      "source_section": "chapter_06_14",
+      "source_sentence": 72,
+      "character_position": 1002,
+      "text": "сказал он ей сухо",
+      "vad": [
+        -0.35,
+        0.1,
+        0.45
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4164476047516405,
+      "warning": null,
+      "chapter_sentence_start": 72,
+      "chapter_sentence_end": 72,
+      "timeline_start_index": 15187,
+      "timeline_end_index": 15187,
+      "highlights": [
+        {
+          "chapter_sentence": 72,
+          "start": 2,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_14_0013",
+      "source_section": "chapter_06_14",
+      "source_sentence": 85,
+      "character_position": 1003,
+      "text": "сказал он сердито",
+      "vad": [
+        -0.65,
+        0.65,
+        0.45
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.8116557340875392,
+      "warning": null,
+      "chapter_sentence_start": 85,
+      "chapter_sentence_end": 85,
+      "timeline_start_index": 15200,
+      "timeline_end_index": 15200,
+      "highlights": [
+        {
+          "chapter_sentence": 85,
+          "start": 23,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_14_0014",
+      "source_section": "chapter_06_14",
+      "source_sentence": 92,
+      "character_position": 1004,
+      "text": "ее заплаканное, его взволнованное лицо",
+      "vad": [
+        -0.8,
+        0.75,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3503695519458852,
+      "warning": null,
+      "chapter_sentence_start": 92,
+      "chapter_sentence_end": 92,
+      "timeline_start_index": 15207,
+      "timeline_end_index": 15207,
+      "highlights": [
+        {
+          "chapter_sentence": 92,
+          "start": 38,
+          "end": 76
+        }
+      ]
+    }
+  ]
+}

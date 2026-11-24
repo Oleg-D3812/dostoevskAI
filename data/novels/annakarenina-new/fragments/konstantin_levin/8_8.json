@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "8_8",
+  "count": 10,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_08_08_0002",
+      "source_section": "chapter_08_08",
+      "source_sentence": 3,
+      "character_position": 1278,
+      "text": "Левин вдруг почувствовал себя в положении человека, который променял бы теплую шубу на кисейную одежду и который в первый раз на морозе, несомненно, не рассуждениями, а всем существом своим убедился бы, что он все равно что голый и что он неминуемо должен мучительно погибнуть.",
+      "vad": [
+        -0.95,
+        0.84,
+        -0.86
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.6719526877885547,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 20192,
+      "timeline_end_index": 20192,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 114,
+          "end": 391
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_08_0003",
+      "source_section": "chapter_08_08",
+      "source_sentence": 4,
+      "character_position": 1279,
+      "text": "Левин не переставал чувствовать этот страх за свое незнание.",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.35
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.0664419466400586,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 20193,
+      "timeline_end_index": 20193,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 80,
+          "end": 140
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_08_0004",
+      "source_section": "chapter_08_08",
+      "source_sentence": 5,
+      "character_position": 1280,
+      "text": "он смутно чувствовал, что то, что он называл своими убеждениями, было не только незнание",
+      "vad": [
+        -0.45,
+        0.2,
+        -0.5
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3263820750545571,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 20194,
+      "timeline_end_index": 20194,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 12,
+          "end": 100
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_08_0005",
+      "source_section": "chapter_08_08",
+      "source_sentence": 11,
+      "character_position": 1281,
+      "text": "его при этом изумляло и расстраивало то, что большинство людей его круга и возраста",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.25
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1633007269703036,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 20200,
+      "timeline_end_index": 20200,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 12,
+          "end": 95
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_08_0006",
+      "source_section": "chapter_08_08",
+      "source_sentence": 12,
+      "character_position": 1282,
+      "text": "Левина мучали еще другие вопросы",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.35
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.0664419466400586,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 20201,
+      "timeline_end_index": 20201,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 33,
+          "end": 65
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_08_0007",
+      "source_section": "chapter_08_08",
+      "source_sentence": 17,
+      "character_position": 1283,
+      "text": "без ответа на которые он чувствовал, что не мог жить",
+      "vad": [
+        -0.7,
+        0.3,
+        -0.6
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2313141322423919,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 20206,
+      "timeline_end_index": 20206,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 201,
+          "end": 253
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_08_0008",
+      "source_section": "chapter_08_08",
+      "source_sentence": 19,
+      "character_position": 1284,
+      "text": "Он, неверующий, стал молиться и в ту минуту, как молился, верил.",
+      "vad": [
+        0.25,
+        0.65,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.6477036459448866,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 20208,
+      "timeline_end_index": 20208,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 0,
+          "end": 64
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_08_0009",
+      "source_section": "chapter_08_08",
+      "source_sentence": 20,
+      "character_position": 1285,
+      "text": "он не мог дать этому тогдашнему настроению никакого места в своей жизни",
+      "vad": [
+        -0.55,
+        0.2,
+        -0.6
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3182608439617916,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 20209,
+      "timeline_end_index": 20209,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 24,
+          "end": 95
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_08_0010",
+      "source_section": "chapter_08_08",
+      "source_sentence": 21,
+      "character_position": 1286,
+      "text": "потому что дорожил тогдашним душевным настроением",
+      "vad": [
+        0.35,
+        0.15,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.3841242027064006,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 20210,
+      "timeline_end_index": 20210,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 199,
+          "end": 248
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_08_0011",
+      "source_section": "chapter_08_08",
+      "source_sentence": 22,
+      "character_position": 1287,
+      "text": "Он был в мучительном разладе с самим собою и напрягал все душевные силы, чтобы выйти из него.",
+      "vad": [
+        -0.9,
+        0.8,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.7526706771160118,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 20211,
+      "timeline_end_index": 20211,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 0,
+          "end": 93
+        }
+      ]
+    }
+  ]
+}

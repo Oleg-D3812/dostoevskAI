@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "1_13",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_01_13_0001",
+      "source_section": "chapter_01_13",
+      "source_sentence": 9,
+      "character_position": 6,
+      "text": "спокойный человек",
+      "vad": [
+        0.2,
+        -0.5,
+        0.3
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.7779212887640894,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 1168,
+      "timeline_end_index": 1168,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 109,
+          "end": 126
+        }
+      ]
+    }
+  ]
+}

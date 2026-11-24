@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "6_8",
+  "count": 8,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_06_08_0001",
+      "source_section": "chapter_06_08",
+      "source_sentence": 21,
+      "character_position": 917,
+      "text": "какое-то непонятное для нее сияние охотничьего возбуждения",
+      "vad": [
+        0.7,
+        0.85,
+        0.55
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.6505911864558771,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 14534,
+      "timeline_end_index": 14534,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 173,
+          "end": 231
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_08_0002",
+      "source_section": "chapter_06_08",
+      "source_sentence": 21,
+      "character_position": 918,
+      "text": "из-за его радости",
+      "vad": [
+        0.8,
+        0.5,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2599022142121186,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 14534,
+      "timeline_end_index": 14534,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 237,
+          "end": 254
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_08_0003",
+      "source_section": "chapter_06_08",
+      "source_sentence": 63,
+      "character_position": 919,
+      "text": "такое сильное чувство радости жизнью и ожиданья",
+      "vad": [
+        0.9,
+        0.7,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.4322506689098235,
+      "warning": null,
+      "chapter_sentence_start": 63,
+      "chapter_sentence_end": 63,
+      "timeline_start_index": 14576,
+      "timeline_end_index": 14576,
+      "highlights": [
+        {
+          "chapter_sentence": 63,
+          "start": 81,
+          "end": 128
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_08_0004",
+      "source_section": "chapter_06_08",
+      "source_sentence": 63,
+      "character_position": 920,
+      "text": "ему не хотелось говорить",
+      "vad": [
+        -0.1,
+        -0.2,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3124944621326596,
+      "warning": null,
+      "chapter_sentence_start": 63,
+      "chapter_sentence_end": 63,
+      "timeline_start_index": 14576,
+      "timeline_end_index": 14576,
+      "highlights": [
+        {
+          "chapter_sentence": 63,
+          "start": 134,
+          "end": 158
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_08_0005",
+      "source_section": "chapter_06_08",
+      "source_sentence": 64,
+      "character_position": 921,
+      "text": "то чувство сосредоточенного волнения",
+      "vad": [
+        0.55,
+        0.7,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.3954276954104925,
+      "warning": null,
+      "chapter_sentence_start": 64,
+      "chapter_sentence_end": 64,
+      "timeline_start_index": 14577,
+      "timeline_end_index": 14577,
+      "highlights": [
+        {
+          "chapter_sentence": 64,
+          "start": 25,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_08_0006",
+      "source_section": "chapter_06_08",
+      "source_sentence": 71,
+      "character_position": 922,
+      "text": "Левину совестно было вспоминать",
+      "vad": [
+        -0.55,
+        0.2,
+        -0.3
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2793702744860297,
+      "warning": null,
+      "chapter_sentence_start": 71,
+      "chapter_sentence_end": 71,
+      "timeline_start_index": 14584,
+      "timeline_end_index": 14584,
+      "highlights": [
+        {
+          "chapter_sentence": 71,
+          "start": 20,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_08_0007",
+      "source_section": "chapter_06_08",
+      "source_sentence": 74,
+      "character_position": 923,
+      "text": "Было немножко неприятно Левину",
+      "vad": [
+        -0.2,
+        0.05,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.0718004718317908,
+      "warning": null,
+      "chapter_sentence_start": 74,
+      "chapter_sentence_end": 74,
+      "timeline_start_index": 14587,
+      "timeline_end_index": 14587,
+      "highlights": [
+        {
+          "chapter_sentence": 74,
+          "start": 0,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_08_0008",
+      "source_section": "chapter_06_08",
+      "source_sentence": 84,
+      "character_position": 924,
+      "text": "Левину было приятно с ним",
+      "vad": [
+        0.6,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2921657408821007,
+      "warning": null,
+      "chapter_sentence_start": 84,
+      "chapter_sentence_end": 84,
+      "timeline_start_index": 14597,
+      "timeline_end_index": 14597,
+      "highlights": [
+        {
+          "chapter_sentence": 84,
+          "start": 136,
+          "end": 161
+        }
+      ]
+    }
+  ]
+}

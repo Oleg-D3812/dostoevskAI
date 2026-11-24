@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "1_12",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_01_12_0001",
+      "source_section": "chapter_01_12",
+      "source_sentence": 4,
+      "character_position": 2,
+      "text": "были влюблены в Кити",
+      "vad": [
+        0.7,
+        0.2,
+        0.3
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.1424024799407859,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 1092,
+      "timeline_end_index": 1092,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 63,
+          "end": 83
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_12_0002",
+      "source_section": "chapter_01_12",
+      "source_sentence": 46,
+      "character_position": 3,
+      "text": "так привыкли во всем подчиняться своей матери, что никогда не решатся предпринять что-нибудь важное, не посоветовавшись с нею",
+      "vad": [
+        -0.2,
+        -0.35,
+        -0.7
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.9581379550545982,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 1134,
+      "timeline_end_index": 1134,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 42,
+          "end": 167
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_12_0003",
+      "source_section": "chapter_01_12",
+      "source_sentence": 47,
+      "character_position": 4,
+      "text": "я жду, как особенного счастья, приезда матушки из Петербурга",
+      "vad": [
+        0.8,
+        0.45,
+        -0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.3663331187547639,
+      "warning": null,
+      "chapter_sentence_start": 47,
+      "chapter_sentence_end": 47,
+      "timeline_start_index": 1135,
+      "timeline_end_index": 1135,
+      "highlights": [
+        {
+          "chapter_sentence": 47,
+          "start": 10,
+          "end": 70
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_12_0004",
+      "source_section": "chapter_01_12",
+      "source_sentence": 50,
+      "character_position": 5,
+      "text": "боясь оскорбить мать",
+      "vad": [
+        -0.55,
+        0.35,
+        -0.4
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.1842989667810185,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 50,
+      "timeline_start_index": 1138,
+      "timeline_end_index": 1138,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 114,
+          "end": 134
+        }
+      ]
+    }
+  ]
+}

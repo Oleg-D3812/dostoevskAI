@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "1_32",
+  "count": 8,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_01_32_0001",
+      "source_section": "chapter_01_32",
+      "source_sentence": 7,
+      "character_position": 120,
+      "text": "произвел в Анне чувство, похожее на разочарованье",
+      "vad": [
+        -0.55,
+        -0.1,
+        -0.15
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.3427880977087681,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 2817,
+      "timeline_end_index": 2817,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 25,
+          "end": 74
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_32_0002",
+      "source_section": "chapter_01_32",
+      "source_sentence": 8,
+      "character_position": 121,
+      "text": "Она воображала его лучше, чем он был в действительности",
+      "vad": [
+        -0.55,
+        -0.1,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.312674662607443,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 2818,
+      "timeline_end_index": 2818,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 0,
+          "end": 55
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_32_0004",
+      "source_section": "chapter_01_32",
+      "source_sentence": 11,
+      "character_position": 122,
+      "text": "Анна испытывала почти физическое наслаждение в ощущении его близости и ласки",
+      "vad": [
+        0.85,
+        0.65,
+        0.05
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.4442428306881139,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 2821,
+      "timeline_end_index": 2821,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 0,
+          "end": 76
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_32_0005",
+      "source_section": "chapter_01_32",
+      "source_sentence": 11,
+      "character_position": 123,
+      "text": "нравственное успокоение, когда встречала его простодушный, доверчивый и любящий взгляд и слышала его наивные вопросы",
+      "vad": [
+        0.7,
+        -0.25,
+        0.15
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.5519353630623247,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 2821,
+      "timeline_end_index": 2821,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 79,
+          "end": 195
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_32_0006",
+      "source_section": "chapter_01_32",
+      "source_sentence": 19,
+      "character_position": 124,
+      "text": "Анна любила ее",
+      "vad": [
+        0.75,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.292985633618232,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 2829,
+      "timeline_end_index": 2829,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 0,
+          "end": 14
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_32_0007",
+      "source_section": "chapter_01_32",
+      "source_sentence": 42,
+      "character_position": 125,
+      "text": "Чувство беспричинного стыда, которое она испытывала дорогой, и волнение совершенно исчезли",
+      "vad": [
+        0.65,
+        -0.55,
+        0.35
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.864252651137814,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 2852,
+      "timeline_end_index": 2852,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 0,
+          "end": 90
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_32_0008",
+      "source_section": "chapter_01_32",
+      "source_sentence": 43,
+      "character_position": 126,
+      "text": "В привычных условиях жизни она чувствовала себя опять твердою и безупречною",
+      "vad": [
+        0.7,
+        0.1,
+        0.8
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.6648004430847834,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 2853,
+      "timeline_end_index": 2853,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 0,
+          "end": 75
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_32_0009",
+      "source_section": "chapter_01_32",
+      "source_sentence": 52,
+      "character_position": 127,
+      "text": "слава богу",
+      "vad": [
+        0.65,
+        -0.25,
+        0.4
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.5921745859430606,
+      "warning": null,
+      "chapter_sentence_start": 52,
+      "chapter_sentence_end": 52,
+      "timeline_start_index": 2862,
+      "timeline_end_index": 2862,
+      "highlights": [
+        {
+          "chapter_sentence": 52,
+          "start": 4,
+          "end": 14
+        }
+      ]
+    }
+  ]
+}

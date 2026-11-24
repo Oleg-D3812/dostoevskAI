@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "7_28",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_07_28_0002",
+      "source_section": "chapter_07_28",
+      "source_sentence": 64,
+      "character_position": 622,
+      "text": "в которую был влюблен Вронский",
+      "vad": [
+        -0.15,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.2237835053921036,
+      "warning": null,
+      "chapter_sentence_start": 64,
+      "chapter_sentence_end": 64,
+      "timeline_start_index": 19399,
+      "timeline_end_index": 19399,
+      "highlights": [
+        {
+          "chapter_sentence": 64,
+          "start": 22,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_28_0003",
+      "source_section": "chapter_07_28",
+      "source_sentence": 64,
+      "character_position": 623,
+      "text": "про которую он вспоминал с любовью",
+      "vad": [
+        -0.45,
+        0.3,
+        -0.2
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.3906778715070849,
+      "warning": null,
+      "chapter_sentence_start": 64,
+      "chapter_sentence_end": 64,
+      "timeline_start_index": 19399,
+      "timeline_end_index": 19399,
+      "highlights": [
+        {
+          "chapter_sentence": 64,
+          "start": 83,
+          "end": 117
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_28_0004",
+      "source_section": "chapter_07_28",
+      "source_sentence": 65,
+      "character_position": 624,
+      "text": "Он жалеет, что не женился на ней",
+      "vad": [
+        -0.8,
+        0.55,
+        -0.45
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.1548099129789534,
+      "warning": null,
+      "chapter_sentence_start": 65,
+      "chapter_sentence_end": 65,
+      "timeline_start_index": 19400,
+      "timeline_end_index": 19400,
+      "highlights": [
+        {
+          "chapter_sentence": 65,
+          "start": 0,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_28_0005",
+      "source_section": "chapter_07_28",
+      "source_sentence": 66,
+      "character_position": 625,
+      "text": "А обо мне он вспоминает с ненавистью и жалеет, что сошелся со мной",
+      "vad": [
+        -0.9,
+        0.45,
+        -0.65
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.2715881083053161,
+      "warning": null,
+      "chapter_sentence_start": 66,
+      "chapter_sentence_end": 66,
+      "timeline_start_index": 19401,
+      "timeline_end_index": 19401,
+      "highlights": [
+        {
+          "chapter_sentence": 66,
+          "start": 0,
+          "end": 66
+        }
+      ]
+    }
+  ]
+}

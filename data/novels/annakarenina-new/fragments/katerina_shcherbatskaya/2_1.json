@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "2_1",
+  "count": 8,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_01_0001",
+      "source_section": "chapter_02_01",
+      "source_sentence": 8,
+      "character_position": 110,
+      "text": "растерянной и ошеломленной от стыда",
+      "vad": [
+        -0.82,
+        0.68,
+        -0.72
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.3539021656270281,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 3045,
+      "timeline_end_index": 3045,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 43,
+          "end": 78
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_01_0002",
+      "source_section": "chapter_02_01",
+      "source_sentence": 66,
+      "character_position": 111,
+      "text": "перенесенного стыда",
+      "vad": [
+        -0.8,
+        0.3,
+        -0.6
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.2679292232627809,
+      "warning": null,
+      "chapter_sentence_start": 66,
+      "chapter_sentence_end": 66,
+      "timeline_start_index": 3103,
+      "timeline_end_index": 3103,
+      "highlights": [
+        {
+          "chapter_sentence": 66,
+          "start": 62,
+          "end": 81
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_01_0003",
+      "source_section": "chapter_02_01",
+      "source_sentence": 68,
+      "character_position": 112,
+      "text": "Вся ее болезнь и леченье представлялись ей такою глупою, даже смешною вещью!",
+      "vad": [
+        -0.25,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.145320742066617,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 3105,
+      "timeline_end_index": 3105,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 0,
+          "end": 76
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_01_0004",
+      "source_section": "chapter_02_01",
+      "source_sentence": 69,
+      "character_position": 113,
+      "text": "Лечение ее представлялось ей столь же смешным",
+      "vad": [
+        -0.5,
+        -0.15,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.3576601035253157,
+      "warning": null,
+      "chapter_sentence_start": 69,
+      "chapter_sentence_end": 69,
+      "timeline_start_index": 3106,
+      "timeline_end_index": 3106,
+      "highlights": [
+        {
+          "chapter_sentence": 69,
+          "start": 0,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_01_0005",
+      "source_section": "chapter_02_01",
+      "source_sentence": 70,
+      "character_position": 114,
+      "text": "Сердце ее было разбито.",
+      "vad": [
+        -0.95,
+        0.45,
+        -0.8
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.4372020348077016,
+      "warning": null,
+      "chapter_sentence_start": 70,
+      "chapter_sentence_end": 70,
+      "timeline_start_index": 3107,
+      "timeline_end_index": 3107,
+      "highlights": [
+        {
+          "chapter_sentence": 70,
+          "start": 0,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_01_0006",
+      "source_section": "chapter_02_01",
+      "source_sentence": 75,
+      "character_position": 115,
+      "text": "рассердившись",
+      "vad": [
+        -0.7,
+        0.7,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.5823235143970835,
+      "warning": null,
+      "chapter_sentence_start": 75,
+      "chapter_sentence_end": 75,
+      "timeline_start_index": 3112,
+      "timeline_end_index": 3112,
+      "highlights": [
+        {
+          "chapter_sentence": 75,
+          "start": 26,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_01_0007",
+      "source_section": "chapter_02_01",
+      "source_sentence": 78,
+      "character_position": 116,
+      "text": "Болезненное раздражение",
+      "vad": [
+        -0.7,
+        0.55,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.5474143523626134,
+      "warning": null,
+      "chapter_sentence_start": 78,
+      "chapter_sentence_end": 78,
+      "timeline_start_index": 3115,
+      "timeline_end_index": 3115,
+      "highlights": [
+        {
+          "chapter_sentence": 78,
+          "start": 2,
+          "end": 25
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_01_0008",
+      "source_section": "chapter_02_01",
+      "source_sentence": 84,
+      "character_position": 117,
+      "text": "Кити притворилась, что она повеселела.",
+      "vad": [
+        -0.45,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.2501309387018025,
+      "warning": null,
+      "chapter_sentence_start": 84,
+      "chapter_sentence_end": 84,
+      "timeline_start_index": 3121,
+      "timeline_end_index": 3121,
+      "highlights": [
+        {
+          "chapter_sentence": 84,
+          "start": 40,
+          "end": 78
+        }
+      ]
+    }
+  ]
+}

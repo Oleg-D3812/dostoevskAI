@@ -62,7 +62,7 @@
   function draw() {
     var traces = referenceFrame(); state.sphereIndices = [];
     var colors = {}; state.clusters.forEach(function (c) { colors[c.id] = c.color; });
-    state.characters.forEach(function (ch) { if (!Array.from(state.selected).some(function (k) { return k.indexOf(ch.id + "::") === 0; })) return; state.clusters.filter(function (c) { return c.character_id === ch.id; }).forEach(function (c) { traces.push({ type: "scatter3d", mode: "markers", name: c.display_id + " — " + c.name, legendgroup: c.id, x: [c.centroid[0]], y: [c.centroid[1]], z: [c.centroid[2]], marker: { size: 4, color: c.color, symbol: "diamond" }, hovertemplate: escapeHtml(c.display_id + " — " + c.name) + "<br>n=" + c.size + "<extra></extra>" }); traces.push(sphere(c, spheresCheck.checked)); state.sphereIndices.push(traces.length - 1); }); });
+    state.characters.forEach(function (ch) { if (!Array.from(state.selected).some(function (k) { return k.indexOf(ch.id + "::") === 0; })) return; state.clusters.filter(function (c) { return c.character_id === ch.id; }).forEach(function (c) { traces.push({ type: "scatter3d", mode: "markers", name: c.name, legendgroup: c.id, x: [c.centroid[0]], y: [c.centroid[1]], z: [c.centroid[2]], marker: { size: 4, color: c.color, symbol: "diamond" }, hovertemplate: escapeHtml(c.name) + "<br>n=" + c.size + "<extra></extra>" }); traces.push(sphere(c, spheresCheck.checked)); state.sphereIndices.push(traces.length - 1); }); });
     state.characters.forEach(function (ch) { var pts = Array.from(state.selected).filter(function (k) { return k.indexOf(ch.id + "::") === 0; }).reduce(function (a, k) { var chapterId = k.split("::")[1]; return a.concat((state.fragments[k] || []).map(function (p) { p.chapter_id = p.chapter_id || chapterId; return p; })); }, []); if (!pts.length) return; traces.push({ type: "scatter3d", mode: "markers", name: ch.label || ch.name, legendgroup: ch.id, x: pts.map(function (p) { return p.vad[0]; }), y: pts.map(function (p) { return p.vad[1]; }), z: pts.map(function (p) { return p.vad[2]; }), marker: { size: 3.5, color: ch.color, opacity: .8 }, text: pts.map(function (p) { return fragmentHover(p, ch); }), customdata: pts.map(function (p) { return [ch.id, p.chapter_id, p.id]; }), hovertemplate: "%{text}<extra></extra>" }); });
     Plotly.react(plot, traces, { margin: { l: 0, r: 0, t: 32, b: 0 }, paper_bgcolor: "rgba(0,0,0,0)", plot_bgcolor: "rgba(0,0,0,0)", font: { family: "Inter, system-ui, sans-serif", color: getCss("--text-color") }, legend: { orientation: "h", y: 1.02, x: .5, xanchor: "center" }, scene: { xaxis: axis("Valence (V)"), yaxis: axis("Arousal (A)"), zaxis: axis("Dominance (D)"), aspectmode: "cube", camera: { eye: { x: 1.45, y: 1.45, z: 1.15 } } } }, { responsive: true, displaylogo: false }).then(function () { if (!state.clickBound) { plot.on("plotly_click", handlePointClick); state.clickBound = true; } });
   }
@@ -185,8 +185,8 @@
     var cluster = state.clusters.find(function (c) { return c.id === fragment.cluster_id; });
     return escapeHtml(character.name || character.label) + "<br>" +
       escapeHtml(chapter ? chapter.label : fragment.chapter_id) + "<br>" +
-      escapeHtml(fragment.text) + "<br>" +
-      escapeHtml(cluster ? cluster.name : fragment.cluster_id) + "<br>" +
+      "Фрагмент: " + escapeHtml(fragment.text) + "<br>" +
+      "Кластер: " + escapeHtml(cluster ? cluster.name : fragment.cluster_id) + "<br>" +
       "position " + fragment.character_position + " · distance " + Number(fragment.distance_to_centroid).toFixed(3) + "<br>" +
       "V " + fragment.vad[0].toFixed(3) + " · A " + fragment.vad[1].toFixed(3) + " · D " + fragment.vad[2].toFixed(3);
   }

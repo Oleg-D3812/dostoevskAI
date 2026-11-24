@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "1_31",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_01_31_0001",
+      "source_section": "chapter_01_31",
+      "source_sentence": 28,
+      "character_position": 118,
+      "text": "легкого стеснения",
+      "vad": [
+        -0.25,
+        0.15,
+        -0.2
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.2301869520020026,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 2773,
+      "timeline_end_index": 2773,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 87,
+          "end": 104
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_31_0002",
+      "source_section": "chapter_01_31",
+      "source_sentence": 34,
+      "character_position": 119,
+      "text": "не было на нем той игры просившегося то в улыбку, то в глаза оживления",
+      "vad": [
+        -0.25,
+        -0.45,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.6245357126709281,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 2779,
+      "timeline_end_index": 2779,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 29,
+          "end": 99
+        }
+      ]
+    }
+  ]
+}

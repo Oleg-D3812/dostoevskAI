@@ -157,14 +157,14 @@
     var traces = coordinateFrame();
     state.clusters.forEach(function (cluster) {
       var character = state.characterById[cluster.character_id] || {};
-      var label = cluster.display_id + " — " + cluster.name + " · n=" + Number(cluster.size || 0).toLocaleString("ru-RU");
+      var label = cluster.name + " · n=" + Number(cluster.size || 0).toLocaleString("ru-RU");
       state.centroidIndices.push(traces.length);
       traces.push({
         type: "scatter3d", mode: "markers", name: label, legendgroup: "cluster-" + cluster.id,
         meta: "centroid:" + cluster.character_id + ":" + cluster.id,
         x: [cluster.centroid[0]], y: [cluster.centroid[1]], z: [cluster.centroid[2]],
         marker: { size: 4, color: cluster.color || character.color, symbol: "circle", line: { color: "#fff", width: 1 } },
-        hovertemplate: escapeHtml(label) + "<br>V %{x:.3f} · A %{y:.3f} · D %{z:.3f}<extra></extra>"
+        hovertemplate: "Кластер: " + escapeHtml(label) + "<br>V %{x:.3f} · A %{y:.3f} · D %{z:.3f}<extra></extra>"
       });
       state.sphereIndices.push(traces.length);
       traces.push(sphereTrace(cluster));
@@ -408,7 +408,7 @@
   function line(x,y,z,color,width){ return {type:"scatter3d",mode:"lines",x:x,y:y,z:z,line:{color:color,width:width},showlegend:false,hoverinfo:"skip"}; }
   function gridTrace(fixed,color){ var values=[-1,-.75,-.5,-.25,.25,.5,.75,1],x=[],y=[],z=[]; values.forEach(function(t){ if(fixed==="z"){x.push(-1,1,null,t,t,null);y.push(t,t,null,-1,1,null);z.push(0,0,null,0,0,null);}else if(fixed==="y"){x.push(-1,1,null,t,t,null);y.push(0,0,null,0,0,null);z.push(t,t,null,-1,1,null);}else{x.push(0,0,null,0,0,null);y.push(-1,1,null,t,t,null);z.push(t,t,null,-1,1,null);} }); return line(x,y,z,color,1); }
   function planeTrace(x,y,z,color){return {type:"surface",x:x,y:y,z:z,surfacecolor:[[0,0],[0,0]],colorscale:[[0,color],[1,color]],showscale:false,opacity:.18,showlegend:false,hoverinfo:"skip",lighting:{ambient:1,diffuse:0,specular:0}};}
-  function sphereTrace(cluster){ var center=cluster.centroid,r=Number(cluster.sphere_radius||0),lon=12,lat=8,vertices=[[center[0],center[1],center[2]+r]],i=[],j=[],k=[]; for(var a=1;a<lat;a++)for(var b=0;b<lon;b++){var ph=Math.PI*a/lat,th=2*Math.PI*b/lon;vertices.push([center[0]+r*Math.sin(ph)*Math.cos(th),center[1]+r*Math.sin(ph)*Math.sin(th),center[2]+r*Math.cos(ph)]);}var bottom=vertices.length;vertices.push([center[0],center[1],center[2]-r]);for(var q=0;q<lon;q++){i.push(0);j.push(1+q);k.push(1+(q+1)%lon);}for(var ring=0;ring<lat-2;ring++)for(var n=0;n<lon;n++){var c=1+ring*lon+n,d=1+ring*lon+(n+1)%lon,e=c+lon,f=d+lon;i.push(c,c);j.push(e,f);k.push(f,d);}var last=1+(lat-2)*lon;for(var q2=0;q2<lon;q2++){i.push(last+q2);j.push(bottom);k.push(last+(q2+1)%lon);}return {type:"mesh3d",name:cluster.display_id+" sphere",legendgroup:"cluster-"+cluster.id,meta:"sphere:"+cluster.character_id+":"+cluster.id,x:vertices.map(prop(0)),y:vertices.map(prop(1)),z:vertices.map(prop(2)),i:i,j:j,k:k,color:cluster.color,opacity:.22,flatshading:false,showlegend:false,visible:false,hoverinfo:"skip",lighting:{ambient:.72,diffuse:.58,specular:.12,roughness:.8,fresnel:.08}}; }
+  function sphereTrace(cluster){ var center=cluster.centroid,r=Number(cluster.sphere_radius||0),lon=12,lat=8,vertices=[[center[0],center[1],center[2]+r]],i=[],j=[],k=[]; for(var a=1;a<lat;a++)for(var b=0;b<lon;b++){var ph=Math.PI*a/lat,th=2*Math.PI*b/lon;vertices.push([center[0]+r*Math.sin(ph)*Math.cos(th),center[1]+r*Math.sin(ph)*Math.sin(th),center[2]+r*Math.cos(ph)]);}var bottom=vertices.length;vertices.push([center[0],center[1],center[2]-r]);for(var q=0;q<lon;q++){i.push(0);j.push(1+q);k.push(1+(q+1)%lon);}for(var ring=0;ring<lat-2;ring++)for(var n=0;n<lon;n++){var c=1+ring*lon+n,d=1+ring*lon+(n+1)%lon,e=c+lon,f=d+lon;i.push(c,c);j.push(e,f);k.push(f,d);}var last=1+(lat-2)*lon;for(var q2=0;q2<lon;q2++){i.push(last+q2);j.push(bottom);k.push(last+(q2+1)%lon);}return {type:"mesh3d",name:cluster.name+" sphere",legendgroup:"cluster-"+cluster.id,meta:"sphere:"+cluster.character_id+":"+cluster.id,x:vertices.map(prop(0)),y:vertices.map(prop(1)),z:vertices.map(prop(2)),i:i,j:j,k:k,color:cluster.color,opacity:.22,flatshading:false,showlegend:false,visible:false,hoverinfo:"skip",lighting:{ambient:.72,diffuse:.58,specular:.12,roughness:.8,fresnel:.08}}; }
   function axis(title){return {title:{text:title},range:[-1.08,1.08],showgrid:false,zeroline:false,showspikes:false,backgroundcolor:"rgba(0,0,0,0)",color:css("--text-muted")};}
 
   function markerPayload(events) {
@@ -446,7 +446,7 @@
   function enabled(id){var box=controls.querySelector('[data-character="'+cssEscape(id)+'"]');return box ? box.checked : true;}
   function clusterId(trace){var group=String(trace.legendgroup||"");return group.indexOf("cluster-")===0?group.slice(8):null;}
   function locationLabel(item){return "Часть "+item.part+", глава "+item.chapter+", предложение "+item.sentence;}
-  function eventHover(event){return escapeHtml(event.character_label)+"<br>"+escapeHtml(event.chapter_label||("Часть "+event.part+", глава "+event.chapter))+"<br>"+escapeHtml(event.text)+"<br>"+escapeHtml(event.cluster_name)+"<br>position "+event.character_position+" · distance "+Number(event.distance_to_centroid).toFixed(3)+"<br>V "+Number(event.vad[0]).toFixed(3)+" · A "+Number(event.vad[1]).toFixed(3)+" · D "+Number(event.vad[2]).toFixed(3)+(event.warning?"<br>warning: "+escapeHtml(event.warning):"");}
+  function eventHover(event){return escapeHtml(event.character_label)+"<br>"+escapeHtml(event.chapter_label||("Часть "+event.part+", глава "+event.chapter))+"<br>Фрагмент: "+escapeHtml(event.text)+"<br>Кластер: "+escapeHtml(event.cluster_name)+"<br>position "+event.character_position+" · distance "+Number(event.distance_to_centroid).toFixed(3)+"<br>V "+Number(event.vad[0]).toFixed(3)+" · A "+Number(event.vad[1]).toFixed(3)+" · D "+Number(event.vad[2]).toFixed(3)+(event.warning?"<br>warning: "+escapeHtml(event.warning):"");}
   function resizePlot(){cancelAnimationFrame(state.resizeFrame);state.resizeFrame=requestAnimationFrame(function(){if(plot.data)Plotly.Plots.resize(plot);});}
   function resizePanels(clientX){var rect=workspace.getBoundingClientRect(),available=rect.width-splitter.offsetWidth,requested=rect.right-clientX,width=Math.max(300,Math.min(Math.max(300,available-360),requested));workspace.style.setProperty("--text-width",width+"px");resizePlot();}
   function setLoading(message){plot.innerHTML='<div class="loading-state">'+escapeHtml(message)+'</div>';}

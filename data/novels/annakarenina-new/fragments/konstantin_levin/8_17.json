@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "8_17",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_08_17_0001",
+      "source_section": "chapter_08_17",
+      "source_sentence": 22,
+      "character_position": 1389,
+      "text": "с ужасом увидал",
+      "vad": [
+        -0.9,
+        0.85,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.48370077050539,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 20715,
+      "timeline_end_index": 20715,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 92,
+          "end": 107
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_17_0002",
+      "source_section": "chapter_08_17",
+      "source_sentence": 25,
+      "character_position": 1390,
+      "text": "для Левина в одно впечатление ужаса",
+      "vad": [
+        -0.9,
+        0.9,
+        -0.7
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.6003583123498646,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 20718,
+      "timeline_end_index": 20718,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 76,
+          "end": 111
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_17_0003",
+      "source_section": "chapter_08_17",
+      "source_sentence": 45,
+      "character_position": 1391,
+      "text": "с досадой напал он на жену",
+      "vad": [
+        -0.75,
+        0.65,
+        0.55
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.9161160722753487,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 20738,
+      "timeline_end_index": 20738,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 2,
+          "end": 28
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_17_0004",
+      "source_section": "chapter_08_17",
+      "source_sentence": 55,
+      "character_position": 1392,
+      "text": "виновато за свою досаду",
+      "vad": [
+        -0.55,
+        0.2,
+        -0.25
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.302777224777978,
+      "warning": null,
+      "chapter_sentence_start": 55,
+      "chapter_sentence_end": 55,
+      "timeline_start_index": 20748,
+      "timeline_end_index": 20748,
+      "highlights": [
+        {
+          "chapter_sentence": 55,
+          "start": 22,
+          "end": 45
+        }
+      ]
+    }
+  ]
+}

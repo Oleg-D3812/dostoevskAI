@@ -1,0 +1,633 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "2_35",
+  "count": 24,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_35_0001",
+      "source_section": "chapter_02_35",
+      "source_sentence": 11,
+      "character_position": 240,
+      "text": "это веселило Кити",
+      "vad": [
+        0.55,
+        0.25,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.1715019168279285,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 6032,
+      "timeline_end_index": 6032,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 4,
+          "end": 21
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_35_0002",
+      "source_section": "chapter_02_35",
+      "source_sentence": 11,
+      "character_position": 241,
+      "text": "она не могла не быть озабоченною",
+      "vad": [
+        -0.45,
+        0.35,
+        -0.3
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.3218967681607796,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 6032,
+      "timeline_end_index": 6032,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 26,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_35_0003",
+      "source_section": "chapter_02_35",
+      "source_sentence": 12,
+      "character_position": 242,
+      "text": "жизнь, которую она так полюбила",
+      "vad": [
+        0.8,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.1718337322131105,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 6033,
+      "timeline_end_index": 6033,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 106,
+          "end": 137
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_35_0004",
+      "source_section": "chapter_02_35",
+      "source_sentence": 14,
+      "character_position": 243,
+      "text": "Кити не могла быть веселою",
+      "vad": [
+        -0.55,
+        -0.15,
+        -0.25
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.4965867308262344,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 6035,
+      "timeline_end_index": 6035,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 21,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_35_0005",
+      "source_section": "chapter_02_35",
+      "source_sentence": 14,
+      "character_position": 244,
+      "text": "это еще более мучало ее",
+      "vad": [
+        -0.85,
+        0.55,
+        -0.65
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.2610363983479444,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 6035,
+      "timeline_end_index": 6035,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 51,
+          "end": 74
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_35_0006",
+      "source_section": "chapter_02_35",
+      "source_sentence": 15,
+      "character_position": 245,
+      "text": "Она испытывала чувство вроде того, какое испытывала в детстве",
+      "vad": [
+        -0.62,
+        0.28,
+        -0.48
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.2305284625571943,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 6036,
+      "timeline_end_index": 6036,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 0,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_35_0008",
+      "source_section": "chapter_02_35",
+      "source_sentence": 46,
+      "character_position": 246,
+      "text": "представлялась ей теперь другою",
+      "vad": [
+        -0.1,
+        0.05,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.1635131160715366,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 6067,
+      "timeline_end_index": 6067,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 14,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_35_0010",
+      "source_section": "chapter_02_35",
+      "source_sentence": 77,
+      "character_position": 247,
+      "text": "мрачно глядя на Вареньку",
+      "vad": [
+        -0.65,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.4779269512241083,
+      "warning": null,
+      "chapter_sentence_start": 77,
+      "chapter_sentence_end": 77,
+      "timeline_start_index": 6098,
+      "timeline_end_index": 6098,
+      "highlights": [
+        {
+          "chapter_sentence": 77,
+          "start": 17,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_35_0011",
+      "source_section": "chapter_02_35",
+      "source_sentence": 84,
+      "character_position": 248,
+      "text": "И поделом мне, и поделом мне!",
+      "vad": [
+        -0.8,
+        0.45,
+        -0.35
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.1448152683132,
+      "warning": null,
+      "chapter_sentence_start": 84,
+      "chapter_sentence_end": 84,
+      "timeline_start_index": 6105,
+      "timeline_end_index": 6105,
+      "highlights": [
+        {
+          "chapter_sentence": 84,
+          "start": 2,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_35_0012",
+      "source_section": "chapter_02_35",
+      "source_sentence": 95,
+      "character_position": 249,
+      "text": "как глупо, гадко!",
+      "vad": [
+        -0.88,
+        0.68,
+        -0.22
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.3432619485282495,
+      "warning": null,
+      "chapter_sentence_start": 95,
+      "chapter_sentence_end": 95,
+      "timeline_start_index": 6116,
+      "timeline_end_index": 6116,
+      "highlights": [
+        {
+          "chapter_sentence": 95,
+          "start": 6,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_35_0013",
+      "source_section": "chapter_02_35",
+      "source_sentence": 106,
+      "character_position": 250,
+      "text": "в своем припадке вспыльчивости",
+      "vad": [
+        -0.7,
+        0.85,
+        -0.35
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.3687735536162219,
+      "warning": null,
+      "chapter_sentence_start": 106,
+      "chapter_sentence_end": 106,
+      "timeline_start_index": 6127,
+      "timeline_end_index": 6127,
+      "highlights": [
+        {
+          "chapter_sentence": 106,
+          "start": 13,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_35_0014",
+      "source_section": "chapter_02_35",
+      "source_sentence": 110,
+      "character_position": 251,
+      "text": "я дурная",
+      "vad": [
+        -0.7,
+        0.1,
+        -0.35
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.4047257375195968,
+      "warning": null,
+      "chapter_sentence_start": 110,
+      "chapter_sentence_end": 110,
+      "timeline_start_index": 6131,
+      "timeline_end_index": 6131,
+      "highlights": [
+        {
+          "chapter_sentence": 110,
+          "start": 63,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_35_0015",
+      "source_section": "chapter_02_35",
+      "source_sentence": 111,
+      "character_position": 252,
+      "text": "если б я не была дурная",
+      "vad": [
+        -0.65,
+        0.25,
+        -0.35
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.2658347064438866,
+      "warning": null,
+      "chapter_sentence_start": 111,
+      "chapter_sentence_end": 111,
+      "timeline_start_index": 6132,
+      "timeline_end_index": 6132,
+      "highlights": [
+        {
+          "chapter_sentence": 111,
+          "start": 18,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_35_0016",
+      "source_section": "chapter_02_35",
+      "source_sentence": 121,
+      "character_position": 253,
+      "text": "Я вас полюбила просто",
+      "vad": [
+        0.8,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.1496248342353562,
+      "warning": null,
+      "chapter_sentence_start": 121,
+      "chapter_sentence_end": 121,
+      "timeline_start_index": 6142,
+      "timeline_end_index": 6142,
+      "highlights": [
+        {
+          "chapter_sentence": 121,
+          "start": 0,
+          "end": 21
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_35_0017",
+      "source_section": "chapter_02_35",
+      "source_sentence": 126,
+      "character_position": 254,
+      "text": "с гордым видом",
+      "vad": [
+        0.55,
+        0.2,
+        0.6
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.4877631674036629,
+      "warning": null,
+      "chapter_sentence_start": 126,
+      "chapter_sentence_end": 126,
+      "timeline_start_index": 6147,
+      "timeline_end_index": 6147,
+      "highlights": [
+        {
+          "chapter_sentence": 126,
+          "start": 5,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_35_0018",
+      "source_section": "chapter_02_35",
+      "source_sentence": 147,
+      "character_position": 255,
+      "text": "она себя обманывала",
+      "vad": [
+        -0.55,
+        0.18,
+        -0.42
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.3481211224117383,
+      "warning": null,
+      "chapter_sentence_start": 147,
+      "chapter_sentence_end": 147,
+      "timeline_start_index": 6168,
+      "timeline_end_index": 6168,
+      "highlights": [
+        {
+          "chapter_sentence": 147,
+          "start": 59,
+          "end": 78
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_35_0019",
+      "source_section": "chapter_02_35",
+      "source_sentence": 148,
+      "character_position": 256,
+      "text": "как будто очнулась",
+      "vad": [
+        0.1,
+        0.35,
+        0.25
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.4707074319530602,
+      "warning": null,
+      "chapter_sentence_start": 148,
+      "chapter_sentence_end": 148,
+      "timeline_start_index": 6169,
+      "timeline_end_index": 6169,
+      "highlights": [
+        {
+          "chapter_sentence": 148,
+          "start": 4,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_35_0020",
+      "source_section": "chapter_02_35",
+      "source_sentence": 148,
+      "character_position": 257,
+      "text": "почувствовала всю трудность без притворства и хвастовства удержаться на той высоте, на которую она хотела подняться",
+      "vad": [
+        -0.55,
+        0.35,
+        -0.25
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.2841003959348387,
+      "warning": null,
+      "chapter_sentence_start": 148,
+      "chapter_sentence_end": 148,
+      "timeline_start_index": 6169,
+      "timeline_end_index": 6169,
+      "highlights": [
+        {
+          "chapter_sentence": 148,
+          "start": 24,
+          "end": 139
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_35_0021",
+      "source_section": "chapter_02_35",
+      "source_sentence": 148,
+      "character_position": 258,
+      "text": "она почувствовала всю тяжесть этого мира горя, болезней, умирающих, в котором она жила",
+      "vad": [
+        -0.92,
+        0.68,
+        -0.48
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.2911187277074721,
+      "warning": null,
+      "chapter_sentence_start": 148,
+      "chapter_sentence_end": 148,
+      "timeline_start_index": 6169,
+      "timeline_end_index": 6169,
+      "highlights": [
+        {
+          "chapter_sentence": 148,
+          "start": 153,
+          "end": 239
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_35_0022",
+      "source_section": "chapter_02_35",
+      "source_sentence": 148,
+      "character_position": 259,
+      "text": "ей мучительны показались те усилия, которые она употребляла над собой, чтобы любить это",
+      "vad": [
+        -0.8,
+        0.45,
+        -0.35
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.1448152683132,
+      "warning": null,
+      "chapter_sentence_start": 148,
+      "chapter_sentence_end": 148,
+      "timeline_start_index": 6169,
+      "timeline_end_index": 6169,
+      "highlights": [
+        {
+          "chapter_sentence": 148,
+          "start": 241,
+          "end": 328
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_35_0023",
+      "source_section": "chapter_02_35",
+      "source_sentence": 148,
+      "character_position": 260,
+      "text": "поскорее захотелось на свежий воздух, в Россию, в Ергушово",
+      "vad": [
+        0.35,
+        0.4,
+        0.05
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.3351544707892159,
+      "warning": null,
+      "chapter_sentence_start": 148,
+      "chapter_sentence_end": 148,
+      "timeline_start_index": 6169,
+      "timeline_end_index": 6169,
+      "highlights": [
+        {
+          "chapter_sentence": 148,
+          "start": 332,
+          "end": 390
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_35_0024",
+      "source_section": "chapter_02_35",
+      "source_sentence": 149,
+      "character_position": 261,
+      "text": "любовь ее к Вареньке не ослабела",
+      "vad": [
+        0.7,
+        -0.1,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.4099802355621591,
+      "warning": null,
+      "chapter_sentence_start": 149,
+      "chapter_sentence_end": 149,
+      "timeline_start_index": 6170,
+      "timeline_end_index": 6170,
+      "highlights": [
+        {
+          "chapter_sentence": 149,
+          "start": 3,
+          "end": 35
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_35_0026",
+      "source_section": "chapter_02_35",
+      "source_sentence": 159,
+      "character_position": 262,
+      "text": "не была так беззаботна и весела, как прежде",
+      "vad": [
+        -0.35,
+        -0.2,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.3202995508665576,
+      "warning": null,
+      "chapter_sentence_start": 159,
+      "chapter_sentence_end": 159,
+      "timeline_start_index": 6180,
+      "timeline_end_index": 6180,
+      "highlights": [
+        {
+          "chapter_sentence": 159,
+          "start": 4,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_35_0027",
+      "source_section": "chapter_02_35",
+      "source_sentence": 159,
+      "character_position": 263,
+      "text": "она была спокойна",
+      "vad": [
+        0.3,
+        -0.6,
+        0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.8983133096449805,
+      "warning": null,
+      "chapter_sentence_start": 159,
+      "chapter_sentence_end": 159,
+      "timeline_start_index": 6180,
+      "timeline_end_index": 6180,
+      "highlights": [
+        {
+          "chapter_sentence": 159,
+          "start": 52,
+          "end": 69
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "4_14",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_04_14_0001",
+      "source_section": "chapter_04_14",
+      "source_sentence": 7,
+      "character_position": 160,
+      "text": "с умилением пожимая руку Левина",
+      "vad": [
+        0.75,
+        0.25,
+        0.1
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.1381511490052832,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 10091,
+      "timeline_end_index": 10091,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 26,
+          "end": 57
+        }
+      ]
+    }
+  ]
+}

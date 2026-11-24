@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "4_18",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_04_18_0002",
+      "source_section": "chapter_04_18",
+      "source_sentence": 29,
+      "character_position": 470,
+      "text": "с горячечным румянцем и блестящими глазами лицо Анны, с нежностью и любовью смотрящее не на него, а на Алексея Александровича",
+      "vad": [
+        -0.85,
+        0.8,
+        -0.7
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.3426617220795855,
+      "warning": null,
+      "chapter_sentence_start": 29,
+      "chapter_sentence_end": 29,
+      "timeline_start_index": 10617,
+      "timeline_end_index": 10617,
+      "highlights": [
+        {
+          "chapter_sentence": 29,
+          "start": 104,
+          "end": 229
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_18_0003",
+      "source_section": "chapter_04_18",
+      "source_sentence": 34,
+      "character_position": 471,
+      "text": "она желает стереть это из своего воспоминания",
+      "vad": [
+        -0.65,
+        0.2,
+        0.15
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.3173013559993578,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 10622,
+      "timeline_end_index": 10622,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 26,
+          "end": 71
+        }
+      ]
+    }
+  ]
+}

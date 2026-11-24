@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "5_5",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_05_05_0001",
+      "source_section": "chapter_05_05",
+      "source_sentence": 44,
+      "character_position": 185,
+      "text": "сияющего Степана Аркадьича",
+      "vad": [
+        0.8,
+        0.4,
+        0.0
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.278704666542529,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 11627,
+      "timeline_end_index": 11627,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 88,
+          "end": 114
+        }
+      ]
+    }
+  ]
+}

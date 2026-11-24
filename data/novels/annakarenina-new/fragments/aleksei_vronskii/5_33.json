@@ -1,0 +1,477 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "5_33",
+  "count": 18,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_05_33_0001",
+      "source_section": "chapter_05_33",
+      "source_sentence": 1,
+      "character_position": 464,
+      "text": "испытывал против Анны чувство досады, почти злобы",
+      "vad": [
+        -0.78,
+        0.58,
+        0.12
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.6132958294270414,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 13663,
+      "timeline_end_index": 13663,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 22,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_33_0002",
+      "source_section": "chapter_05_33",
+      "source_sentence": 2,
+      "character_position": 465,
+      "text": "Чувство это усиливалось",
+      "vad": [
+        -0.65,
+        0.55,
+        -0.25
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.2522823154073244,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 13664,
+      "timeline_end_index": 13664,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 0,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_33_0003",
+      "source_section": "chapter_05_33",
+      "source_sentence": 7,
+      "character_position": 466,
+      "text": "уважение его к ней уменьшалось",
+      "vad": [
+        -0.45,
+        0.05,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.2270194268607328,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 13669,
+      "timeline_end_index": 13669,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 40,
+          "end": 70
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_33_0004",
+      "source_section": "chapter_05_33",
+      "source_sentence": 8,
+      "character_position": 467,
+      "text": "Нахмуренный вернулся он",
+      "vad": [
+        -0.55,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.3236338225526045,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 13670,
+      "timeline_end_index": 13670,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 0,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_33_0005",
+      "source_section": "chapter_05_33",
+      "source_sentence": 10,
+      "character_position": 468,
+      "text": "мрачное лицо товарища",
+      "vad": [
+        -0.65,
+        0.15,
+        -0.1
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.4460152158273249,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 13672,
+      "timeline_end_index": 13672,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 69,
+          "end": 90
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_33_0006",
+      "source_section": "chapter_05_33",
+      "source_sentence": 16,
+      "character_position": 469,
+      "text": "причину мрачности Вронского",
+      "vad": [
+        -0.7,
+        -0.3,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.5783434266430696,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 13678,
+      "timeline_end_index": 13678,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 93,
+          "end": 120
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_33_0007",
+      "source_section": "chapter_05_33",
+      "source_sentence": 17,
+      "character_position": 470,
+      "text": "мрачно отвечал Вронский",
+      "vad": [
+        -0.65,
+        0.1,
+        -0.1
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.4411520596798847,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 13679,
+      "timeline_end_index": 13679,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 16,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_33_0008",
+      "source_section": "chapter_05_33",
+      "source_sentence": 32,
+      "character_position": 471,
+      "text": "я боюсь",
+      "vad": [
+        -0.85,
+        0.75,
+        -0.7
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.4176991105147237,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 13694,
+      "timeline_end_index": 13694,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 4,
+          "end": 11
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_33_0009",
+      "source_section": "chapter_05_33",
+      "source_sentence": 37,
+      "character_position": 472,
+      "text": "с досады толкнул ногой стол",
+      "vad": [
+        -0.65,
+        0.45,
+        0.3
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.5261430223484771,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 13699,
+      "timeline_end_index": 13699,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 30,
+          "end": 57
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_33_0010",
+      "source_section": "chapter_05_33",
+      "source_sentence": 76,
+      "character_position": 473,
+      "text": "красота ее, хотя и сильнее, чем прежде, привлекала его",
+      "vad": [
+        0.7,
+        0.5,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.2872884693829418,
+      "warning": null,
+      "chapter_sentence_start": 76,
+      "chapter_sentence_end": 76,
+      "timeline_start_index": 13738,
+      "timeline_end_index": 13738,
+      "highlights": [
+        {
+          "chapter_sentence": 76,
+          "start": 66,
+          "end": 120
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_33_0011",
+      "source_section": "chapter_05_33",
+      "source_sentence": 76,
+      "character_position": 474,
+      "text": "теперь оскорбляла его",
+      "vad": [
+        -0.8,
+        0.35,
+        -0.3
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.2172655209218523,
+      "warning": null,
+      "chapter_sentence_start": 76,
+      "chapter_sentence_end": 76,
+      "timeline_start_index": 13738,
+      "timeline_end_index": 13738,
+      "highlights": [
+        {
+          "chapter_sentence": 76,
+          "start": 135,
+          "end": 156
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_33_0012",
+      "source_section": "chapter_05_33",
+      "source_sentence": 93,
+      "character_position": 475,
+      "text": "испытывал мучительную тревогу",
+      "vad": [
+        -0.9,
+        0.85,
+        -0.45
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.4612080769809121,
+      "warning": null,
+      "chapter_sentence_start": 93,
+      "chapter_sentence_end": 93,
+      "timeline_start_index": 13755,
+      "timeline_end_index": 13755,
+      "highlights": [
+        {
+          "chapter_sentence": 93,
+          "start": 61,
+          "end": 90
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_33_0013",
+      "source_section": "chapter_05_33",
+      "source_sentence": 100,
+      "character_position": 476,
+      "text": "очень жалко",
+      "vad": [
+        -0.55,
+        0.2,
+        -0.15
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.4208443716157188,
+      "warning": null,
+      "chapter_sentence_start": 100,
+      "chapter_sentence_end": 100,
+      "timeline_start_index": 13762,
+      "timeline_end_index": 13762,
+      "highlights": [
+        {
+          "chapter_sentence": 100,
+          "start": 12,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_33_0014",
+      "source_section": "chapter_05_33",
+      "source_sentence": 122,
+      "character_position": 477,
+      "text": "сказал он холодно",
+      "vad": [
+        -0.3,
+        -0.2,
+        0.3
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.3119884440878227,
+      "warning": null,
+      "chapter_sentence_start": 122,
+      "chapter_sentence_end": 122,
+      "timeline_start_index": 13784,
+      "timeline_end_index": 13784,
+      "highlights": [
+        {
+          "chapter_sentence": 122,
+          "start": 15,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_33_0015",
+      "source_section": "chapter_05_33",
+      "source_sentence": 138,
+      "character_position": 478,
+      "text": "Досада на нее за то, что она ставила себя и его в такое фальшивое положение, вместе с жалостью к ней за ее страдания волновали его",
+      "vad": [
+        -0.45,
+        0.65,
+        -0.2
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.423748363631243,
+      "warning": null,
+      "chapter_sentence_start": 138,
+      "chapter_sentence_end": 138,
+      "timeline_start_index": 13800,
+      "timeline_end_index": 13800,
+      "highlights": [
+        {
+          "chapter_sentence": 138,
+          "start": 0,
+          "end": 130
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_33_0016",
+      "source_section": "chapter_05_33",
+      "source_sentence": 169,
+      "character_position": 479,
+      "text": "Ему жалко было ее и все-таки досадно",
+      "vad": [
+        -0.45,
+        0.3,
+        0.05
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.2898038539778638,
+      "warning": null,
+      "chapter_sentence_start": 169,
+      "chapter_sentence_end": 169,
+      "timeline_start_index": 13831,
+      "timeline_end_index": 13831,
+      "highlights": [
+        {
+          "chapter_sentence": 169,
+          "start": 0,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_33_0017",
+      "source_section": "chapter_05_33",
+      "source_sentence": 170,
+      "character_position": 480,
+      "text": "в душе своей он упрекал ее",
+      "vad": [
+        -0.45,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.1560685996638707,
+      "warning": null,
+      "chapter_sentence_start": 170,
+      "chapter_sentence_end": 170,
+      "timeline_start_index": 13832,
+      "timeline_end_index": 13832,
+      "highlights": [
+        {
+          "chapter_sentence": 170,
+          "start": 121,
+          "end": 147
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_33_0018",
+      "source_section": "chapter_05_33",
+      "source_sentence": 170,
+      "character_position": 481,
+      "text": "ему совестно было выговаривать их",
+      "vad": [
+        -0.55,
+        0.2,
+        -0.2
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.3880655415279201,
+      "warning": null,
+      "chapter_sentence_start": 171,
+      "chapter_sentence_end": 171,
+      "timeline_start_index": 13833,
+      "timeline_end_index": 13833,
+      "highlights": [
+        {
+          "chapter_sentence": 171,
+          "start": 59,
+          "end": 92
+        }
+      ]
+    }
+  ]
+}

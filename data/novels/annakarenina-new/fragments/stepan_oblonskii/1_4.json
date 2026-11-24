@@ -1,0 +1,425 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "1_4",
+  "count": 16,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_01_04_0002",
+      "source_section": "chapter_01_04",
+      "source_sentence": 30,
+      "character_position": 43,
+      "text": "мог надеяться",
+      "vad": [
+        0.3,
+        -0.1,
+        0.3
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.5237425058293674,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 233,
+      "timeline_end_index": 233,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 57,
+          "end": 70
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_04_0003",
+      "source_section": "chapter_01_04",
+      "source_sentence": 30,
+      "character_position": 44,
+      "text": "мог спокойно читать газету и пить кофе",
+      "vad": [
+        0.15,
+        -0.55,
+        0.4
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.8368991829260389,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 233,
+      "timeline_end_index": 233,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 115,
+          "end": 153
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_04_0004",
+      "source_section": "chapter_01_04",
+      "source_sentence": 30,
+      "character_position": 45,
+      "text": "покорный и отчаянный",
+      "vad": [
+        -0.85,
+        0.78,
+        -0.82
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.5460378708490684,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 233,
+      "timeline_end_index": 233,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 236,
+          "end": 256
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_04_0005",
+      "source_section": "chapter_01_04",
+      "source_sentence": 50,
+      "character_position": 46,
+      "text": "Я виноват, и накажи меня, вели мне искупить свою вину.",
+      "vad": [
+        -0.8,
+        0.45,
+        -0.7
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.2985292436974318,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 50,
+      "timeline_start_index": 253,
+      "timeline_end_index": 253,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 0,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_04_0006",
+      "source_section": "chapter_01_04",
+      "source_sentence": 52,
+      "character_position": 47,
+      "text": "Я виноват, нет слов сказать, как я виноват!",
+      "vad": [
+        -0.85,
+        0.7,
+        -0.45
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.3105152320620687,
+      "warning": null,
+      "chapter_sentence_start": 52,
+      "chapter_sentence_end": 52,
+      "timeline_start_index": 255,
+      "timeline_end_index": 255,
+      "highlights": [
+        {
+          "chapter_sentence": 52,
+          "start": 0,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_04_0007",
+      "source_section": "chapter_01_04",
+      "source_sentence": 55,
+      "character_position": 48,
+      "text": "ему было невыразимо жалко ее",
+      "vad": [
+        -0.8,
+        0.35,
+        -0.35
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.1695903470517969,
+      "warning": null,
+      "chapter_sentence_start": 55,
+      "chapter_sentence_end": 55,
+      "timeline_start_index": 258,
+      "timeline_end_index": 258,
+      "highlights": [
+        {
+          "chapter_sentence": 55,
+          "start": 41,
+          "end": 69
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_04_0008",
+      "source_section": "chapter_01_04",
+      "source_sentence": 59,
+      "character_position": 49,
+      "text": "с благодарностью взглянул на нее",
+      "vad": [
+        0.5,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.3066312897365429,
+      "warning": null,
+      "chapter_sentence_start": 59,
+      "chapter_sentence_end": 59,
+      "timeline_start_index": 262,
+      "timeline_end_index": 262,
+      "highlights": [
+        {
+          "chapter_sentence": 59,
+          "start": 27,
+          "end": 59
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_04_0009",
+      "source_section": "chapter_01_04",
+      "source_sentence": 68,
+      "character_position": 50,
+      "text": "жалким голосом",
+      "vad": [
+        -0.7,
+        0.2,
+        -0.8
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.4448221758928957,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 271,
+      "timeline_end_index": 271,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 13,
+          "end": 27
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_04_0010",
+      "source_section": "chapter_01_04",
+      "source_sentence": 68,
+      "character_position": 51,
+      "text": "сам не зная, что он говорит",
+      "vad": [
+        -0.35,
+        0.2,
+        -0.7
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.4914345781858235,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 271,
+      "timeline_end_index": 271,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 29,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_04_0011",
+      "source_section": "chapter_01_04",
+      "source_sentence": 75,
+      "character_position": 52,
+      "text": "испугала и удивила его",
+      "vad": [
+        -0.7,
+        0.65,
+        -0.4
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.211303386407474,
+      "warning": null,
+      "chapter_sentence_start": 75,
+      "chapter_sentence_end": 75,
+      "timeline_start_index": 278,
+      "timeline_end_index": 278,
+      "highlights": [
+        {
+          "chapter_sentence": 75,
+          "start": 53,
+          "end": 75
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_04_0012",
+      "source_section": "chapter_01_04",
+      "source_sentence": 76,
+      "character_position": 53,
+      "text": "не понимал того",
+      "vad": [
+        -0.1,
+        0.0,
+        -0.3
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.3780214840221008,
+      "warning": null,
+      "chapter_sentence_start": 76,
+      "chapter_sentence_end": 76,
+      "timeline_start_index": 279,
+      "timeline_end_index": 279,
+      "highlights": [
+        {
+          "chapter_sentence": 76,
+          "start": 3,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_04_0013",
+      "source_section": "chapter_01_04",
+      "source_sentence": 80,
+      "character_position": 54,
+      "text": "Это ужасно!",
+      "vad": [
+        -0.9,
+        0.85,
+        -0.35
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.4705525574710654,
+      "warning": null,
+      "chapter_sentence_start": 80,
+      "chapter_sentence_end": 80,
+      "timeline_start_index": 283,
+      "timeline_end_index": 283,
+      "highlights": [
+        {
+          "chapter_sentence": 80,
+          "start": 2,
+          "end": 13
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_04_0014",
+      "source_section": "chapter_01_04",
+      "source_sentence": 81,
+      "character_position": 55,
+      "text": "Ужасно!",
+      "vad": [
+        -0.85,
+        0.8,
+        -0.45
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.3976648795171431,
+      "warning": null,
+      "chapter_sentence_start": 81,
+      "chapter_sentence_end": 81,
+      "timeline_start_index": 284,
+      "timeline_end_index": 284,
+      "highlights": [
+        {
+          "chapter_sentence": 81,
+          "start": 0,
+          "end": 7
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_04_0015",
+      "source_section": "chapter_01_04",
+      "source_sentence": 93,
+      "character_position": 56,
+      "text": "Я не вижу даже возможности.",
+      "vad": [
+        -0.75,
+        -0.2,
+        -0.7
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.7006566272737034,
+      "warning": null,
+      "chapter_sentence_start": 93,
+      "chapter_sentence_end": 93,
+      "timeline_start_index": 296,
+      "timeline_end_index": 296,
+      "highlights": [
+        {
+          "chapter_sentence": 93,
+          "start": 0,
+          "end": 27
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_04_0016",
+      "source_section": "chapter_01_04",
+      "source_sentence": 94,
+      "character_position": 57,
+      "text": "какой ужас!",
+      "vad": [
+        -0.85,
+        0.65,
+        -0.45
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.2702977724901719,
+      "warning": null,
+      "chapter_sentence_start": 94,
+      "chapter_sentence_end": 94,
+      "timeline_start_index": 297,
+      "timeline_end_index": 297,
+      "highlights": [
+        {
+          "chapter_sentence": 94,
+          "start": 8,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_04_0017",
+      "source_section": "chapter_01_04",
+      "source_sentence": 97,
+      "character_position": 58,
+      "text": "Ужасно тривиально, ужасно",
+      "vad": [
+        -0.75,
+        0.35,
+        -0.2
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.2545740454890841,
+      "warning": null,
+      "chapter_sentence_start": 97,
+      "chapter_sentence_end": 97,
+      "timeline_start_index": 300,
+      "timeline_end_index": 300,
+      "highlights": [
+        {
+          "chapter_sentence": 97,
+          "start": 0,
+          "end": 25
+        }
+      ]
+    }
+  ]
+}

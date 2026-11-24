@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "1_34",
+  "count": 5,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_01_34_0001",
+      "source_section": "chapter_01_34",
+      "source_sentence": 17,
+      "character_position": 74,
+      "text": "весело улыбаясь",
+      "vad": [
+        0.7,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.1171879334566127,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 2948,
+      "timeline_end_index": 2948,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 19,
+          "end": 34
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_34_0002",
+      "source_section": "chapter_01_34",
+      "source_sentence": 22,
+      "character_position": 75,
+      "text": "холодно пожимая руку Камеровского",
+      "vad": [
+        -0.35,
+        -0.1,
+        0.35
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.2635731584643952,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 2953,
+      "timeline_end_index": 2953,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 42,
+          "end": 75
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_34_0003",
+      "source_section": "chapter_01_34",
+      "source_sentence": 48,
+      "character_position": 76,
+      "text": "слушал с удовольствием",
+      "vad": [
+        0.7,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.1602604909856824,
+      "warning": null,
+      "chapter_sentence_start": 48,
+      "chapter_sentence_end": 48,
+      "timeline_start_index": 2979,
+      "timeline_end_index": 2979,
+      "highlights": [
+        {
+          "chapter_sentence": 48,
+          "start": 9,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_34_0004",
+      "source_section": "chapter_01_34",
+      "source_sentence": 53,
+      "character_position": 77,
+      "text": "был ошеломлен",
+      "vad": [
+        -0.45,
+        0.75,
+        -0.5
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.4000005549002394,
+      "warning": null,
+      "chapter_sentence_start": 53,
+      "chapter_sentence_end": 53,
+      "timeline_start_index": 2984,
+      "timeline_end_index": 2984,
+      "highlights": [
+        {
+          "chapter_sentence": 53,
+          "start": 32,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_34_0005",
+      "source_section": "chapter_01_34",
+      "source_sentence": 71,
+      "character_position": 78,
+      "text": "испытывал приятное чувство возвращения к привычной и беззаботной петербургской жизни",
+      "vad": [
+        0.82,
+        0.18,
+        0.7
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.5246367844037282,
+      "warning": null,
+      "chapter_sentence_start": 71,
+      "chapter_sentence_end": 71,
+      "timeline_start_index": 3002,
+      "timeline_end_index": 3002,
+      "highlights": [
+        {
+          "chapter_sentence": 71,
+          "start": 106,
+          "end": 190
+        }
+      ]
+    }
+  ]
+}

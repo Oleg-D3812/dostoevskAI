@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "8_8",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_08_08_0001",
+      "source_section": "chapter_08_08",
+      "source_sentence": 16,
+      "character_position": 559,
+      "text": "жена его верила так, как он верил в первом детстве",
+      "vad": [
+        0.35,
+        -0.15,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.5324129416036447,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 20205,
+      "timeline_end_index": 20205,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 88,
+          "end": 138
+        }
+      ]
+    }
+  ]
+}

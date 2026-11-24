@@ -1,0 +1,633 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "1_28",
+  "count": 24,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_01_28_0001",
+      "source_section": "chapter_01_28",
+      "source_sentence": 9,
+      "character_position": 58,
+      "text": "не в спокойном духе, а в том духе заботы",
+      "vad": [
+        -0.35,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.191182475018829,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 2554,
+      "timeline_end_index": 2554,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 31,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_28_0002",
+      "source_section": "chapter_01_28",
+      "source_sentence": 11,
+      "character_position": 59,
+      "text": "Какая ты нынче странная!",
+      "vad": [
+        -0.3,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.1932253422094841,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 2556,
+      "timeline_end_index": 2556,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 2,
+          "end": 26
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_28_0003",
+      "source_section": "chapter_01_28",
+      "source_sentence": 14,
+      "character_position": 60,
+      "text": "я дурная",
+      "vad": [
+        -0.7,
+        0.1,
+        -0.45
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.4314905730164634,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 2559,
+      "timeline_end_index": 2559,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 18,
+          "end": 26
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_28_0004",
+      "source_section": "chapter_01_28",
+      "source_sentence": 16,
+      "character_position": 61,
+      "text": "Мне все хочется плакать",
+      "vad": [
+        -0.75,
+        0.45,
+        -0.2
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.3275030263205739,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 2561,
+      "timeline_end_index": 2561,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 0,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_28_0005",
+      "source_section": "chapter_01_28",
+      "source_sentence": 17,
+      "character_position": 62,
+      "text": "Это очень глупо",
+      "vad": [
+        -0.45,
+        0.1,
+        -0.1
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.1308597270595121,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 2562,
+      "timeline_end_index": 2562,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 0,
+          "end": 15
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_28_0006",
+      "source_section": "chapter_01_28",
+      "source_sentence": 19,
+      "character_position": 63,
+      "text": "не хочется",
+      "vad": [
+        -0.55,
+        0.2,
+        -0.25
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.2982855480342452,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 2564,
+      "timeline_end_index": 2564,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 61,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_28_0007",
+      "source_section": "chapter_01_28",
+      "source_sentence": 24,
+      "character_position": 64,
+      "text": "Я часто удивляюсь",
+      "vad": [
+        0.0,
+        0.25,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.388697868365614,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 2569,
+      "timeline_end_index": 2569,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 0,
+          "end": 17
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_28_0008",
+      "source_section": "chapter_01_28",
+      "source_sentence": 30,
+      "character_position": 65,
+      "text": "У тебя все в душе ясно и хорошо",
+      "vad": [
+        0.75,
+        -0.1,
+        0.35
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.4548513909574017,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 2575,
+      "timeline_end_index": 2575,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 2,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_28_0009",
+      "source_section": "chapter_01_28",
+      "source_sentence": 31,
+      "character_position": 66,
+      "text": "У каждого есть в душе свои skeletons",
+      "vad": [
+        -0.35,
+        0.05,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.1150607406913536,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 2576,
+      "timeline_end_index": 2576,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 2,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_28_0010",
+      "source_section": "chapter_01_28",
+      "source_sentence": 37,
+      "character_position": 67,
+      "text": "мрачные",
+      "vad": [
+        -0.65,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.274624080905424,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 2582,
+      "timeline_end_index": 2582,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 7,
+          "end": 14
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_28_0011",
+      "source_section": "chapter_01_28",
+      "source_sentence": 39,
+      "character_position": 68,
+      "text": "Это признание, которое меня давило",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.45
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.2192889509616034,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 2584,
+      "timeline_end_index": 2584,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 0,
+          "end": 34
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_28_0012",
+      "source_section": "chapter_01_28",
+      "source_sentence": 48,
+      "character_position": 69,
+      "text": "Анна оскорбилась",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.15
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.3945071346730726,
+      "warning": null,
+      "chapter_sentence_start": 48,
+      "chapter_sentence_end": 48,
+      "timeline_start_index": 2593,
+      "timeline_end_index": 2593,
+      "highlights": [
+        {
+          "chapter_sentence": 48,
+          "start": 0,
+          "end": 16
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_28_0013",
+      "source_section": "chapter_01_28",
+      "source_sentence": 51,
+      "character_position": 70,
+      "text": "не позволяю себе сомневаться в себе",
+      "vad": [
+        0.2,
+        0.1,
+        0.75
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.737416733366916,
+      "warning": null,
+      "chapter_sentence_start": 51,
+      "chapter_sentence_end": 51,
+      "timeline_start_index": 2596,
+      "timeline_end_index": 2596,
+      "highlights": [
+        {
+          "chapter_sentence": 51,
+          "start": 48,
+          "end": 83
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_28_0014",
+      "source_section": "chapter_01_28",
+      "source_sentence": 52,
+      "character_position": 71,
+      "text": "она чувствовала, что они несправедливы",
+      "vad": [
+        -0.45,
+        0.2,
+        -0.25
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.254230390975394,
+      "warning": null,
+      "chapter_sentence_start": 52,
+      "chapter_sentence_end": 52,
+      "timeline_start_index": 2597,
+      "timeline_end_index": 2597,
+      "highlights": [
+        {
+          "chapter_sentence": 52,
+          "start": 50,
+          "end": 88
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_28_0015",
+      "source_section": "chapter_01_28",
+      "source_sentence": 52,
+      "character_position": 72,
+      "text": "она не только сомневалась в себе",
+      "vad": [
+        -0.45,
+        0.2,
+        -0.5
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.4528764244013438,
+      "warning": null,
+      "chapter_sentence_start": 52,
+      "chapter_sentence_end": 52,
+      "timeline_start_index": 2597,
+      "timeline_end_index": 2597,
+      "highlights": [
+        {
+          "chapter_sentence": 52,
+          "start": 90,
+          "end": 122
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_28_0016",
+      "source_section": "chapter_01_28",
+      "source_sentence": 52,
+      "character_position": 73,
+      "text": "она чувствовала волнение при мысли о Вронском",
+      "vad": [
+        0.4,
+        0.7,
+        -0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.5315723402654131,
+      "warning": null,
+      "chapter_sentence_start": 52,
+      "chapter_sentence_end": 52,
+      "timeline_start_index": 2597,
+      "timeline_end_index": 2597,
+      "highlights": [
+        {
+          "chapter_sentence": 52,
+          "start": 124,
+          "end": 169
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_28_0017",
+      "source_section": "chapter_01_28",
+      "source_sentence": 60,
+      "character_position": 74,
+      "text": "я бы была в отчаянии",
+      "vad": [
+        -0.9,
+        0.7,
+        -0.6
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.2362837213077058,
+      "warning": null,
+      "chapter_sentence_start": 60,
+      "chapter_sentence_end": 60,
+      "timeline_start_index": 2605,
+      "timeline_end_index": 2605,
+      "highlights": [
+        {
+          "chapter_sentence": 60,
+          "start": 5,
+          "end": 25
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_28_0018",
+      "source_section": "chapter_01_28",
+      "source_sentence": 65,
+      "character_position": 75,
+      "text": "густая краска удовольствия выступила на ее лицо",
+      "vad": [
+        0.8,
+        0.5,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.2870610972775118,
+      "warning": null,
+      "chapter_sentence_start": 65,
+      "chapter_sentence_end": 65,
+      "timeline_start_index": 2610,
+      "timeline_end_index": 2610,
+      "highlights": [
+        {
+          "chapter_sentence": 65,
+          "start": 24,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_28_0019",
+      "source_section": "chapter_01_28",
+      "source_sentence": 66,
+      "character_position": 76,
+      "text": "которую я так полюбила",
+      "vad": [
+        0.85,
+        0.25,
+        0.05
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.2701544718296074,
+      "warning": null,
+      "chapter_sentence_start": 66,
+      "chapter_sentence_end": 66,
+      "timeline_start_index": 2611,
+      "timeline_end_index": 2611,
+      "highlights": [
+        {
+          "chapter_sentence": 66,
+          "start": 49,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_28_0020",
+      "source_section": "chapter_01_28",
+      "source_sentence": 67,
+      "character_position": 77,
+      "text": "Ах, какая она милая!",
+      "vad": [
+        0.85,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.2976803610917135,
+      "warning": null,
+      "chapter_sentence_start": 67,
+      "chapter_sentence_end": 67,
+      "timeline_start_index": 2612,
+      "timeline_end_index": 2612,
+      "highlights": [
+        {
+          "chapter_sentence": 67,
+          "start": 0,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_28_0022",
+      "source_section": "chapter_01_28",
+      "source_sentence": 74,
+      "character_position": 78,
+      "text": "я еще больше полюбила вас",
+      "vad": [
+        0.85,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.2976803610917135,
+      "warning": null,
+      "chapter_sentence_start": 74,
+      "chapter_sentence_end": 74,
+      "timeline_start_index": 2619,
+      "timeline_end_index": 2619,
+      "highlights": [
+        {
+          "chapter_sentence": 74,
+          "start": 67,
+          "end": 92
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_28_0023",
+      "source_section": "chapter_01_28",
+      "source_sentence": 74,
+      "character_position": 79,
+      "text": "как я вас люблю",
+      "vad": [
+        0.9,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.3389469367778998,
+      "warning": null,
+      "chapter_sentence_start": 74,
+      "chapter_sentence_end": 74,
+      "timeline_start_index": 2619,
+      "timeline_end_index": 2619,
+      "highlights": [
+        {
+          "chapter_sentence": 74,
+          "start": 41,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_28_0024",
+      "source_section": "chapter_01_28",
+      "source_sentence": 75,
+      "character_position": 80,
+      "text": "я нынче глупа",
+      "vad": [
+        -0.35,
+        0.15,
+        -0.3
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.2923799460838111,
+      "warning": null,
+      "chapter_sentence_start": 75,
+      "chapter_sentence_end": 75,
+      "timeline_start_index": 2620,
+      "timeline_end_index": 2620,
+      "highlights": [
+        {
+          "chapter_sentence": 75,
+          "start": 10,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_28_0025",
+      "source_section": "chapter_01_28",
+      "source_sentence": 78,
+      "character_position": 81,
+      "text": "Чувствительность Анны",
+      "vad": [
+        0.1,
+        0.35,
+        -0.1
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.5221822173974232,
+      "warning": null,
+      "chapter_sentence_start": 78,
+      "chapter_sentence_end": 78,
+      "timeline_start_index": 2623,
+      "timeline_end_index": 2623,
+      "highlights": [
+        {
+          "chapter_sentence": 78,
+          "start": 0,
+          "end": 21
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "6_27",
+  "count": 7,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_06_27_0001",
+      "source_section": "chapter_06_27",
+      "source_sentence": 14,
+      "character_position": 1036,
+      "text": "тщетно напрягая свои умственные силы, чтобы понять, что говорилось",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.55
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1411004676175876,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 16510,
+      "timeline_end_index": 16510,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 113,
+          "end": 179
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_27_0002",
+      "source_section": "chapter_06_27",
+      "source_sentence": 18,
+      "character_position": 1037,
+      "text": "не понимал, зачем было враждебной партии просить баллотироваться того предводителя, которого они хотели забаллотировать",
+      "vad": [
+        -0.2,
+        -0.15,
+        -0.35
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4562445463704737,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 16514,
+      "timeline_end_index": 16514,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 6,
+          "end": 125
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_27_0003",
+      "source_section": "chapter_06_27",
+      "source_sentence": 23,
+      "character_position": 1038,
+      "text": "ты вошел, кажется, во вкус",
+      "vad": [
+        0.35,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.3633548395545295,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 16519,
+      "timeline_end_index": 16519,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 16,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_27_0004",
+      "source_section": "chapter_06_27",
+      "source_sentence": 25,
+      "character_position": 1039,
+      "text": "рад был бы войти во вкус",
+      "vad": [
+        0.4,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.3987169044835839,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 16521,
+      "timeline_end_index": 16521,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 8,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_27_0005",
+      "source_section": "chapter_06_27",
+      "source_sentence": 25,
+      "character_position": 1040,
+      "text": "не мог понять, в чем дело",
+      "vad": [
+        -0.35,
+        0.1,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4571038657001552,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 16521,
+      "timeline_end_index": 16521,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 37,
+          "end": 62
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_27_0006",
+      "source_section": "chapter_06_27",
+      "source_sentence": 25,
+      "character_position": 1041,
+      "text": "выразил Степану Аркадьичу свое недоумение",
+      "vad": [
+        -0.25,
+        0.1,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.2485152747021912,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 16521,
+      "timeline_end_index": 16521,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 105,
+          "end": 146
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_27_0008",
+      "source_section": "chapter_06_27",
+      "source_sentence": 34,
+      "character_position": 1042,
+      "text": "понял, но не совсем",
+      "vad": [
+        -0.1,
+        0.0,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.297428767921003,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 16530,
+      "timeline_end_index": 16530,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 6,
+          "end": 25
+        }
+      ]
+    }
+  ]
+}

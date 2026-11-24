@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "1_33",
+  "count": 10,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_01_33_0001",
+      "source_section": "chapter_01_33",
+      "source_sentence": 16,
+      "character_position": 128,
+      "text": "Анна была очень раздосадована",
+      "vad": [
+        -0.72,
+        0.48,
+        -0.18
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.3452622147803272,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 2878,
+      "timeline_end_index": 2878,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 55,
+          "end": 84
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_33_0002",
+      "source_section": "chapter_01_33",
+      "source_sentence": 20,
+      "character_position": 129,
+      "text": "Анна разгорячилась",
+      "vad": [
+        -0.6,
+        0.8,
+        -0.2
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.4572545917329852,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 2882,
+      "timeline_end_index": 2882,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 65,
+          "end": 83
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_33_0003",
+      "source_section": "chapter_01_33",
+      "source_sentence": 20,
+      "character_position": 130,
+      "text": "ей потом совестно было вспоминать",
+      "vad": [
+        -0.7,
+        -0.2,
+        -0.3
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.564343062060217,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 2882,
+      "timeline_end_index": 2882,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 93,
+          "end": 126
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_33_0004",
+      "source_section": "chapter_01_33",
+      "source_sentence": 21,
+      "character_position": 131,
+      "text": "Чтобы совершенно успокоиться",
+      "vad": [
+        0.1,
+        0.3,
+        0.3
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.5284577236011035,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 2883,
+      "timeline_end_index": 2883,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 0,
+          "end": 28
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_33_0005",
+      "source_section": "chapter_01_33",
+      "source_sentence": 22,
+      "character_position": 132,
+      "text": "Она рада была",
+      "vad": [
+        0.75,
+        0.15,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.2116847249484906,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 2884,
+      "timeline_end_index": 2884,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 0,
+          "end": 13
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_33_0006",
+      "source_section": "chapter_01_33",
+      "source_sentence": 23,
+      "character_position": 133,
+      "text": "Ей так легко и спокойно было",
+      "vad": [
+        0.8,
+        -0.7,
+        0.35
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 1.0279147997158766,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 2885,
+      "timeline_end_index": 2885,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 0,
+          "end": 28
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_33_0008",
+      "source_section": "chapter_01_33",
+      "source_sentence": 23,
+      "character_position": 134,
+      "text": "ей ни пред кем, ни пред собой стыдиться нечего",
+      "vad": [
+        0.7,
+        -0.2,
+        0.5
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.6007595276631951,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 2885,
+      "timeline_end_index": 2885,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 187,
+          "end": 233
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_33_0009",
+      "source_section": "chapter_01_33",
+      "source_sentence": 31,
+      "character_position": 135,
+      "text": "свое впечатление жалости к брату сначала, потом к Долли",
+      "vad": [
+        -0.25,
+        0.1,
+        -0.05
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.1478597425271922,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 2893,
+      "timeline_end_index": 2893,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 17,
+          "end": 72
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_33_0010",
+      "source_section": "chapter_01_33",
+      "source_sentence": 38,
+      "character_position": 136,
+      "text": "ей стало совестно",
+      "vad": [
+        -0.55,
+        0.2,
+        -0.3
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.3399318754262329,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 2900,
+      "timeline_end_index": 2900,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 44,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_33_0011",
+      "source_section": "chapter_01_33",
+      "source_sentence": 69,
+      "character_position": 137,
+      "text": "на лице ее не только не было того оживления, которое в бытность ее в Москве так и брызгало из ее глаз и улыбки: напротив, теперь огонь казался потушенным в ней или где-то далеко припрятанным",
+      "vad": [
+        -0.7,
+        -0.6,
+        -0.2
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.8480813140406488,
+      "warning": null,
+      "chapter_sentence_start": 69,
+      "chapter_sentence_end": 69,
+      "timeline_start_index": 2931,
+      "timeline_end_index": 2931,
+      "highlights": [
+        {
+          "chapter_sentence": 69,
+          "start": 36,
+          "end": 226
+        }
+      ]
+    }
+  ]
+}

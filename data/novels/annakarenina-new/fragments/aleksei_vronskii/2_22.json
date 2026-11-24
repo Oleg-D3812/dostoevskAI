@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "2_22",
+  "count": 13,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_02_22_0001",
+      "source_section": "chapter_02_22",
+      "source_sentence": 2,
+      "character_position": 158,
+      "text": "радовался тому, что благодаря этому дождю наверное застанет ее дома и одну",
+      "vad": [
+        0.65,
+        0.35,
+        0.2
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.0480783126214476,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 4872,
+      "timeline_end_index": 4872,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 69,
+          "end": 143
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_22_0002",
+      "source_section": "chapter_02_22",
+      "source_sentence": 14,
+      "character_position": 159,
+      "text": "самую мучительную сторону его отношения к ней",
+      "vad": [
+        -0.85,
+        0.45,
+        -0.35
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.1954152992973416,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 4884,
+      "timeline_end_index": 4884,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 150,
+          "end": 195
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_22_0003",
+      "source_section": "chapter_02_22",
+      "source_sentence": 20,
+      "character_position": 160,
+      "text": "которые так стесняли Вронского",
+      "vad": [
+        -0.55,
+        0.3,
+        -0.4
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.2124110865081492,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 4897,
+      "timeline_end_index": 4897,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 195,
+          "end": 225
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_22_0004",
+      "source_section": "chapter_02_22",
+      "source_sentence": 28,
+      "character_position": 161,
+      "text": "вызывало во Вронском то странное чувство беспричинного омерзения",
+      "vad": [
+        -0.85,
+        0.45,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.494962188842763,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 4898,
+      "timeline_end_index": 4898,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 45,
+          "end": 109
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_22_0005",
+      "source_section": "chapter_02_22",
+      "source_sentence": 29,
+      "character_position": 162,
+      "text": "вызывало во Вронском и в Анне чувство, подобное чувству мореплавателя, видящего по компасу, что направление, по которому он быстро движется, далеко расходится с надлежащим",
+      "vad": [
+        -0.72,
+        0.58,
+        -0.38
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.1711900210866311,
+      "warning": null,
+      "chapter_sentence_start": 29,
+      "chapter_sentence_end": 29,
+      "timeline_start_index": 4899,
+      "timeline_end_index": 4899,
+      "highlights": [
+        {
+          "chapter_sentence": 29,
+          "start": 26,
+          "end": 197
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_22_0006",
+      "source_section": "chapter_02_22",
+      "source_sentence": 35,
+      "character_position": 163,
+      "text": "как неожиданностью, поражала Вронского",
+      "vad": [
+        0.7,
+        0.45,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.2569238627530805,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 4905,
+      "timeline_end_index": 4905,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 53,
+          "end": 91
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_22_0007",
+      "source_section": "chapter_02_22",
+      "source_sentence": 36,
+      "character_position": 164,
+      "text": "с восхищением глядя на нее",
+      "vad": [
+        0.8,
+        0.25,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.2557309152293283,
+      "warning": null,
+      "chapter_sentence_start": 36,
+      "chapter_sentence_end": 36,
+      "timeline_start_index": 4906,
+      "timeline_end_index": 4906,
+      "highlights": [
+        {
+          "chapter_sentence": 36,
+          "start": 16,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_22_0008",
+      "source_section": "chapter_02_22",
+      "source_sentence": 41,
+      "character_position": 165,
+      "text": "чувствуя, что должен бояться и оглядываться",
+      "vad": [
+        -0.55,
+        0.5,
+        -0.35
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.2001298230310072,
+      "warning": null,
+      "chapter_sentence_start": 41,
+      "chapter_sentence_end": 41,
+      "timeline_start_index": 4911,
+      "timeline_end_index": 4911,
+      "highlights": [
+        {
+          "chapter_sentence": 41,
+          "start": 137,
+          "end": 180
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_22_0009",
+      "source_section": "chapter_02_22",
+      "source_sentence": 67,
+      "character_position": 166,
+      "text": "лицо его выразило ту покорность, рабскую преданность",
+      "vad": [
+        -0.2,
+        0.2,
+        -0.8
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.641300661422628,
+      "warning": null,
+      "chapter_sentence_start": 67,
+      "chapter_sentence_end": 67,
+      "timeline_start_index": 4937,
+      "timeline_end_index": 4937,
+      "highlights": [
+        {
+          "chapter_sentence": 67,
+          "start": 16,
+          "end": 68
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_22_0010",
+      "source_section": "chapter_02_22",
+      "source_sentence": 69,
+      "character_position": 167,
+      "text": "Разве я могу быть минуту спокоен, зная, что у вас есть горе, которого я не разделяю?",
+      "vad": [
+        -0.65,
+        0.7,
+        -0.35
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.2934338907017133,
+      "warning": null,
+      "chapter_sentence_start": 69,
+      "chapter_sentence_end": 69,
+      "timeline_start_index": 4939,
+      "timeline_end_index": 4939,
+      "highlights": [
+        {
+          "chapter_sentence": 69,
+          "start": 0,
+          "end": 84
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_22_0011",
+      "source_section": "chapter_02_22",
+      "source_sentence": 84,
+      "character_position": 168,
+      "text": "с удесятеренною силой почувствовал припадок этого странного, находившего на него чувства омерзения к кому-то",
+      "vad": [
+        -0.9,
+        0.85,
+        -0.45
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.4612080769809121,
+      "warning": null,
+      "chapter_sentence_start": 84,
+      "chapter_sentence_end": 84,
+      "timeline_start_index": 4954,
+      "timeline_end_index": 4954,
+      "highlights": [
+        {
+          "chapter_sentence": 84,
+          "start": 21,
+          "end": 129
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_22_0012",
+      "source_section": "chapter_02_22",
+      "source_sentence": 84,
+      "character_position": 169,
+      "text": "тот кризис, которого он желал",
+      "vad": [
+        -0.15,
+        0.45,
+        0.35
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.4375089814300609,
+      "warning": null,
+      "chapter_sentence_start": 84,
+      "chapter_sentence_end": 84,
+      "timeline_start_index": 4954,
+      "timeline_end_index": 4954,
+      "highlights": [
+        {
+          "chapter_sentence": 84,
+          "start": 161,
+          "end": 190
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_22_0013",
+      "source_section": "chapter_02_22",
+      "source_sentence": 86,
+      "character_position": 170,
+      "text": "умиленным, покорным взглядом",
+      "vad": [
+        0.7,
+        0.15,
+        -0.55
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.7805285051072908,
+      "warning": null,
+      "chapter_sentence_start": 86,
+      "chapter_sentence_end": 86,
+      "timeline_start_index": 4956,
+      "timeline_end_index": 4956,
+      "highlights": [
+        {
+          "chapter_sentence": 86,
+          "start": 19,
+          "end": 47
+        }
+      ]
+    }
+  ]
+}

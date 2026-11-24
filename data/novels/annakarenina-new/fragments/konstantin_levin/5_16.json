@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "5_16",
+  "count": 8,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_05_16_0001",
+      "source_section": "chapter_05_16",
+      "source_sentence": 44,
+      "character_position": 788,
+      "text": "эта отговорка в деле таком важном рассердила его",
+      "vad": [
+        -0.75,
+        0.65,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.6555163838571497,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 12307,
+      "timeline_end_index": 12307,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 2,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_16_0002",
+      "source_section": "chapter_05_16",
+      "source_sentence": 53,
+      "character_position": 789,
+      "text": "стараясь быть хладнокровным",
+      "vad": [
+        -0.1,
+        0.2,
+        0.4
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4057525805484994,
+      "warning": null,
+      "chapter_sentence_start": 53,
+      "chapter_sentence_end": 53,
+      "timeline_start_index": 12316,
+      "timeline_end_index": 12316,
+      "highlights": [
+        {
+          "chapter_sentence": 53,
+          "start": 42,
+          "end": 69
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_16_0003",
+      "source_section": "chapter_05_16",
+      "source_sentence": 69,
+      "character_position": 790,
+      "text": "не в силах более удерживать своей досады",
+      "vad": [
+        -0.65,
+        0.55,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1278759106958629,
+      "warning": null,
+      "chapter_sentence_start": 69,
+      "chapter_sentence_end": 69,
+      "timeline_start_index": 12332,
+      "timeline_end_index": 12332,
+      "highlights": [
+        {
+          "chapter_sentence": 69,
+          "start": 29,
+          "end": 69
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_16_0004",
+      "source_section": "chapter_05_16",
+      "source_sentence": 83,
+      "character_position": 791,
+      "text": "он ехал недовольный ею и собой",
+      "vad": [
+        -0.65,
+        0.2,
+        -0.25
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2805197834062987,
+      "warning": null,
+      "chapter_sentence_start": 83,
+      "chapter_sentence_end": 83,
+      "timeline_start_index": 12346,
+      "timeline_end_index": 12346,
+      "highlights": [
+        {
+          "chapter_sentence": 83,
+          "start": 193,
+          "end": 223
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_16_0005",
+      "source_section": "chapter_05_16",
+      "source_sentence": 84,
+      "character_position": 792,
+      "text": "Он был недоволен ею",
+      "vad": [
+        -0.7,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4706449756936707,
+      "warning": null,
+      "chapter_sentence_start": 84,
+      "chapter_sentence_end": 84,
+      "timeline_start_index": 12347,
+      "timeline_end_index": 12347,
+      "highlights": [
+        {
+          "chapter_sentence": 84,
+          "start": 0,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_16_0006",
+      "source_section": "chapter_05_16",
+      "source_sentence": 84,
+      "character_position": 793,
+      "text": "чувствовал себя несчастным",
+      "vad": [
+        -0.85,
+        0.2,
+        -0.25
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3357468554706682,
+      "warning": null,
+      "chapter_sentence_start": 84,
+      "chapter_sentence_end": 84,
+      "timeline_start_index": 12347,
+      "timeline_end_index": 12347,
+      "highlights": [
+        {
+          "chapter_sentence": 84,
+          "start": 217,
+          "end": 243
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_16_0007",
+      "source_section": "chapter_05_16",
+      "source_sentence": 85,
+      "character_position": 794,
+      "text": "с ужасом думал о всех могущих встретиться столкновениях",
+      "vad": [
+        -0.85,
+        0.8,
+        -0.55
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4371613363546975,
+      "warning": null,
+      "chapter_sentence_start": 85,
+      "chapter_sentence_end": 85,
+      "timeline_start_index": 12348,
+      "timeline_end_index": 12348,
+      "highlights": [
+        {
+          "chapter_sentence": 85,
+          "start": 107,
+          "end": 162
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_16_0008",
+      "source_section": "chapter_05_16",
+      "source_sentence": 86,
+      "character_position": 795,
+      "text": "заставляло его вздрагивать от отвращения и ужаса",
+      "vad": [
+        -0.95,
+        0.84,
+        -0.62
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.541965536727166,
+      "warning": null,
+      "chapter_sentence_start": 86,
+      "chapter_sentence_end": 86,
+      "timeline_start_index": 12349,
+      "timeline_end_index": 12349,
+      "highlights": [
+        {
+          "chapter_sentence": 86,
+          "start": 65,
+          "end": 113
+        }
+      ]
+    }
+  ]
+}

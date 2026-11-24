@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "6_13",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_13_0001",
+      "source_section": "chapter_06_13",
+      "source_sentence": 7,
+      "character_position": 460,
+      "text": "Я совсем здорова и весела.",
+      "vad": [
+        0.85,
+        0.35,
+        0.3
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2661878010922693,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 15082,
+      "timeline_end_index": 15082,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 1,
+          "end": 27
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_13_0002",
+      "source_section": "chapter_06_13",
+      "source_sentence": 12,
+      "character_position": 461,
+      "text": "Все веселы, здоровы",
+      "vad": [
+        0.8,
+        0.25,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.1531574721426362,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 15087,
+      "timeline_end_index": 15087,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 0,
+          "end": 19
+        }
+      ]
+    }
+  ]
+}

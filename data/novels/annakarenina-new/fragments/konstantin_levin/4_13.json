@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "4_13",
+  "count": 12,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_04_13_0001",
+      "source_section": "chapter_04_13",
+      "source_sentence": 1,
+      "character_position": 594,
+      "text": "Левину хотелось идти за Кити в гостиную",
+      "vad": [
+        0.55,
+        0.3,
+        0.05
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.1753978551440496,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 9999,
+      "timeline_end_index": 9999,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 26,
+          "end": 65
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_13_0002",
+      "source_section": "chapter_04_13",
+      "source_sentence": 1,
+      "character_position": 595,
+      "text": "он боялся, не будет ли ей это неприятно",
+      "vad": [
+        -0.55,
+        0.45,
+        -0.35
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1318985641895236,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 9999,
+      "timeline_end_index": 9999,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 70,
+          "end": 109
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_13_0003",
+      "source_section": "chapter_04_13",
+      "source_sentence": 3,
+      "character_position": 596,
+      "text": "всегда всех любить",
+      "vad": [
+        0.85,
+        0.15,
+        0.65
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.5487264623280785,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 10001,
+      "timeline_end_index": 10001,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 118,
+          "end": 136
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_13_0004",
+      "source_section": "chapter_04_13",
+      "source_sentence": 7,
+      "character_position": 597,
+      "text": "не интересовался тем, что он сам говорил",
+      "vad": [
+        -0.1,
+        -0.35,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4483742172980463,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 10005,
+      "timeline_end_index": 10005,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 13,
+          "end": 53
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_13_0005",
+      "source_section": "chapter_04_13",
+      "source_sentence": 7,
+      "character_position": 598,
+      "text": "желал одного — чтоб им и всем было хорошо и приятно",
+      "vad": [
+        0.7,
+        0.1,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2382245887273914,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 10005,
+      "timeline_end_index": 10005,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 98,
+          "end": 149
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_13_0006",
+      "source_section": "chapter_04_13",
+      "source_sentence": 25,
+      "character_position": 599,
+      "text": "радостно улыбнулся",
+      "vad": [
+        0.8,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.1316072239688703,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 10023,
+      "timeline_end_index": 10023,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 6,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_13_0007",
+      "source_section": "chapter_04_13",
+      "source_sentence": 34,
+      "character_position": 600,
+      "text": "любя ее, он почувствовал этот страх и униженье",
+      "vad": [
+        -0.65,
+        0.4,
+        -0.25
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1645356244698608,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 10032,
+      "timeline_end_index": 10032,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 130,
+          "end": 176
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_13_0008",
+      "source_section": "chapter_04_13",
+      "source_sentence": 38,
+      "character_position": 601,
+      "text": "чувствовал во всем существе своем все усиливающееся напряжение счастия",
+      "vad": [
+        0.9,
+        0.8,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.518641131068266,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 10036,
+      "timeline_end_index": 10036,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 29,
+          "end": 99
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_13_0009",
+      "source_section": "chapter_04_13",
+      "source_sentence": 42,
+      "character_position": 602,
+      "text": "с ужасом подумал он",
+      "vad": [
+        -0.85,
+        0.8,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4163683815554854,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 10040,
+      "timeline_end_index": 10040,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 2,
+          "end": 21
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_13_0010",
+      "source_section": "chapter_04_13",
+      "source_sentence": 59,
+      "character_position": 603,
+      "text": "вдруг просиял",
+      "vad": [
+        0.88,
+        0.62,
+        0.18
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.3504274320991561,
+      "warning": null,
+      "chapter_sentence_start": 59,
+      "chapter_sentence_end": 59,
+      "timeline_start_index": 10057,
+      "timeline_end_index": 10057,
+      "highlights": [
+        {
+          "chapter_sentence": 59,
+          "start": 3,
+          "end": 16
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_13_0011",
+      "source_section": "chapter_04_13",
+      "source_sentence": 61,
+      "character_position": 604,
+      "text": "взглянул на нее вопросительно, робко",
+      "vad": [
+        0.2,
+        0.35,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.7270574162998253,
+      "warning": null,
+      "chapter_sentence_start": 61,
+      "chapter_sentence_end": 61,
+      "timeline_start_index": 10059,
+      "timeline_end_index": 10059,
+      "highlights": [
+        {
+          "chapter_sentence": 61,
+          "start": 3,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_13_0012",
+      "source_section": "chapter_04_13",
+      "source_sentence": 78,
+      "character_position": 605,
+      "text": "На него нашло затмение от счастия",
+      "vad": [
+        0.98,
+        0.86,
+        -0.32
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.7731023719691271,
+      "warning": null,
+      "chapter_sentence_start": 78,
+      "chapter_sentence_end": 78,
+      "timeline_start_index": 10076,
+      "timeline_end_index": 10076,
+      "highlights": [
+        {
+          "chapter_sentence": 78,
+          "start": 0,
+          "end": 33
+        }
+      ]
+    }
+  ]
+}

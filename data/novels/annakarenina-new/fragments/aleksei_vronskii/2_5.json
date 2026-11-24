@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "2_5",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_02_05_0001",
+      "source_section": "chapter_02_05",
+      "source_sentence": 1,
+      "character_position": 85,
+      "text": "смеющимися глазами",
+      "vad": [
+        0.8,
+        0.5,
+        0.3
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.2447750598603736,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 3379,
+      "timeline_end_index": 3379,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 102,
+          "end": 120
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_05_0002",
+      "source_section": "chapter_02_05",
+      "source_sentence": 16,
+      "character_position": 86,
+      "text": "с таким чувством это рассказываете",
+      "vad": [
+        0.3,
+        0.45,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.4517294079743131,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 3394,
+      "timeline_end_index": 3394,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 5,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_05_0003",
+      "source_section": "chapter_02_05",
+      "source_sentence": 52,
+      "character_position": 87,
+      "text": "занимало и забавляло его уже третий день",
+      "vad": [
+        0.6,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.1350755656736125,
+      "warning": null,
+      "chapter_sentence_start": 52,
+      "chapter_sentence_end": 52,
+      "timeline_start_index": 3430,
+      "timeline_end_index": 3430,
+      "highlights": [
+        {
+          "chapter_sentence": 52,
+          "start": 224,
+          "end": 264
+        }
+      ]
+    }
+  ]
+}

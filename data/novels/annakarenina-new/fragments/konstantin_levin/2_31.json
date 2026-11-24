@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "2_31",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_02_31_0001",
+      "source_section": "chapter_02_31",
+      "source_sentence": 17,
+      "character_position": 301,
+      "text": "с которым он что-то громко и сердито говорил",
+      "vad": [
+        -0.7,
+        0.8,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.7158760689631625,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 5632,
+      "timeline_end_index": 5632,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 177,
+          "end": 221
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_02_31_0002",
+      "source_section": "chapter_02_31",
+      "source_sentence": 54,
+      "character_position": 302,
+      "text": "недоволен был доктором",
+      "vad": [
+        -0.45,
+        0.1,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3184133253972456,
+      "warning": null,
+      "chapter_sentence_start": 54,
+      "chapter_sentence_end": 54,
+      "timeline_start_index": 5669,
+      "timeline_end_index": 5669,
+      "highlights": [
+        {
+          "chapter_sentence": 54,
+          "start": 80,
+          "end": 102
+        }
+      ]
+    }
+  ]
+}

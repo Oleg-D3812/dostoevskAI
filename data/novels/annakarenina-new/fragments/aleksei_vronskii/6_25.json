@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "6_25",
+  "count": 11,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_06_25_0002",
+      "source_section": "chapter_06_25",
+      "source_sentence": 13,
+      "character_position": 518,
+      "text": "Вронский был бы вполне доволен своею жизнью",
+      "vad": [
+        0.75,
+        -0.2,
+        0.2
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.5157774715684892,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 16408,
+      "timeline_end_index": 16408,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 135,
+          "end": 178
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_25_0003",
+      "source_section": "chapter_06_25",
+      "source_sentence": 14,
+      "character_position": 519,
+      "text": "доставляла ему все возрастающее удовольствие",
+      "vad": [
+        0.8,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.1753436866329847,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 16409,
+      "timeline_end_index": 16409,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 196,
+          "end": 240
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_25_0005",
+      "source_section": "chapter_06_25",
+      "source_sentence": 11,
+      "character_position": 520,
+      "text": "тяготился теми любовными сетями, которыми она старалась опутать его",
+      "vad": [
+        -0.65,
+        0.25,
+        -0.45
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.1933619816242761,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 16406,
+      "timeline_end_index": 16406,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 124,
+          "end": 191
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_25_0006",
+      "source_section": "chapter_06_25",
+      "source_sentence": 12,
+      "character_position": 521,
+      "text": "ему хотелось не то что выйти из них, но попробовать, не мешают ли они его свободе",
+      "vad": [
+        -0.35,
+        0.25,
+        0.55
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.4221101697778762,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 16407,
+      "timeline_end_index": 16407,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 88,
+          "end": 169
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_25_0007",
+      "source_section": "chapter_06_25",
+      "source_sentence": 13,
+      "character_position": 522,
+      "text": "все усиливающееся желание быть свободным",
+      "vad": [
+        -0.35,
+        0.45,
+        0.2
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.3732300989605657,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 16408,
+      "timeline_end_index": 16408,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 15,
+          "end": 55
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_25_0008",
+      "source_section": "chapter_06_25",
+      "source_sentence": 30,
+      "character_position": 523,
+      "text": "со строгим и холодным выражением",
+      "vad": [
+        -0.45,
+        0.15,
+        0.55
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.4180979088793544,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 16425,
+      "timeline_end_index": 16425,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 91,
+          "end": 123
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_25_0009",
+      "source_section": "chapter_06_25",
+      "source_sentence": 31,
+      "character_position": 524,
+      "text": "к его удивлению",
+      "vad": [
+        -0.1,
+        0.35,
+        -0.15
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.4597754781143384,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 16426,
+      "timeline_end_index": 16426,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 4,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_25_0010",
+      "source_section": "chapter_06_25",
+      "source_sentence": 32,
+      "character_position": 525,
+      "text": "не понимая этого спокойствия",
+      "vad": [
+        -0.25,
+        0.15,
+        -0.35
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.5229887203520499,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 16427,
+      "timeline_end_index": 16427,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 33,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_25_0011",
+      "source_section": "chapter_06_25",
+      "source_sentence": 35,
+      "character_position": 526,
+      "text": "Он боялся этого",
+      "vad": [
+        -0.85,
+        0.7,
+        -0.55
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.3150454932301361,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 16430,
+      "timeline_end_index": 16430,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 0,
+          "end": 15
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_25_0012",
+      "source_section": "chapter_06_25",
+      "source_sentence": 35,
+      "character_position": 527,
+      "text": "ему так хотелось избежать сцены",
+      "vad": [
+        -0.65,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.446869622314421,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 16430,
+      "timeline_end_index": 16430,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 20,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_25_0013",
+      "source_section": "chapter_06_25",
+      "source_sentence": 43,
+      "character_position": 528,
+      "text": "это беспокоило его",
+      "vad": [
+        -0.55,
+        0.4,
+        -0.15
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.3542997896079077,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 16438,
+      "timeline_end_index": 16438,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 17,
+          "end": 35
+        }
+      ]
+    }
+  ]
+}

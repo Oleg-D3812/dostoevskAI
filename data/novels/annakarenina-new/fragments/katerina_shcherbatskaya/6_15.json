@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "6_15",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_15_0001",
+      "source_section": "chapter_06_15",
+      "source_sentence": 21,
+      "character_position": 476,
+      "text": "Мы поссорились второй раз с тех пор, как…",
+      "vad": [
+        -0.55,
+        0.3,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.3687100018215037,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 15241,
+      "timeline_end_index": 15241,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 0,
+          "end": 41
+        }
+      ]
+    }
+  ]
+}

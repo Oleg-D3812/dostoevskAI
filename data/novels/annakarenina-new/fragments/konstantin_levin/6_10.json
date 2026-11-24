@@ -1,0 +1,529 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "6_10",
+  "count": 20,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_06_10_0001",
+      "source_section": "chapter_06_10",
+      "source_sentence": 2,
+      "character_position": 937,
+      "text": "невольно подумывал о том, как бы ему избавиться от Васеньки и ходить без помехи",
+      "vad": [
+        -0.28,
+        0.12,
+        0.42
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3778533999929736,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 14702,
+      "timeline_end_index": 14702,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 58,
+          "end": 137
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_10_0002",
+      "source_section": "chapter_06_10",
+      "source_sentence": 7,
+      "character_position": 938,
+      "text": "с несколько мрачным выражением",
+      "vad": [
+        -0.45,
+        0.05,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.2054003719399045,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 14707,
+      "timeline_end_index": 14707,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 45,
+          "end": 75
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_10_0003",
+      "source_section": "chapter_06_10",
+      "source_sentence": 24,
+      "character_position": 939,
+      "text": "и ждал табунка бекасов",
+      "vad": [
+        0.3,
+        0.35,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.3867216638065345,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 14724,
+      "timeline_end_index": 14724,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 74,
+          "end": 96
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_10_0004",
+      "source_section": "chapter_06_10",
+      "source_sentence": 26,
+      "character_position": 940,
+      "text": "невольно интересовало Левина",
+      "vad": [
+        -0.1,
+        0.25,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.2397766444869346,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 14726,
+      "timeline_end_index": 14726,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 147,
+          "end": 175
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_10_0005",
+      "source_section": "chapter_06_10",
+      "source_sentence": 29,
+      "character_position": 941,
+      "text": "ожидание бекаса было так сильно",
+      "vad": [
+        0.3,
+        0.8,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.6096182106417786,
+      "warning": null,
+      "chapter_sentence_start": 29,
+      "chapter_sentence_end": 29,
+      "timeline_start_index": 14729,
+      "timeline_end_index": 14729,
+      "highlights": [
+        {
+          "chapter_sentence": 29,
+          "start": 74,
+          "end": 105
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_10_0006",
+      "source_section": "chapter_06_10",
+      "source_sentence": 37,
+      "character_position": 942,
+      "text": "не был так счастлив",
+      "vad": [
+        -0.45,
+        -0.1,
+        -0.05
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.2788206414034803,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 14737,
+      "timeline_end_index": 14737,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 6,
+          "end": 25
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_10_0007",
+      "source_section": "chapter_06_10",
+      "source_sentence": 42,
+      "character_position": 943,
+      "text": "он горячился, досадовал",
+      "vad": [
+        -0.65,
+        0.72,
+        -0.25
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3329879401111691,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 14742,
+      "timeline_end_index": 14742,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 71,
+          "end": 94
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_10_0008",
+      "source_section": "chapter_06_10",
+      "source_sentence": 45,
+      "character_position": 944,
+      "text": "тем больше срамился пред Весловским",
+      "vad": [
+        -0.75,
+        0.45,
+        -0.55
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1640933971857625,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 14745,
+      "timeline_end_index": 14745,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 120,
+          "end": 155
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_10_0009",
+      "source_section": "chapter_06_10",
+      "source_sentence": 46,
+      "character_position": 945,
+      "text": "Левин торопился, не выдерживал, горячился все больше и больше",
+      "vad": [
+        -0.65,
+        0.82,
+        -0.38
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3924830008748693,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 14746,
+      "timeline_end_index": 14746,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 0,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_10_0010",
+      "source_section": "chapter_06_10",
+      "source_sentence": 46,
+      "character_position": 946,
+      "text": "почти не надеялся, что убьет",
+      "vad": [
+        -0.65,
+        0.15,
+        -0.55
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3119910378614207,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 14746,
+      "timeline_end_index": 14746,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 97,
+          "end": 125
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_10_0011",
+      "source_section": "chapter_06_10",
+      "source_sentence": 53,
+      "character_position": 947,
+      "text": "еще более волновало Левина",
+      "vad": [
+        -0.4,
+        0.6,
+        -0.3
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3343397140395476,
+      "warning": null,
+      "chapter_sentence_start": 53,
+      "chapter_sentence_end": 53,
+      "timeline_start_index": 14753,
+      "timeline_end_index": 14753,
+      "highlights": [
+        {
+          "chapter_sentence": 53,
+          "start": 4,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_10_0012",
+      "source_section": "chapter_06_10",
+      "source_sentence": 70,
+      "character_position": 948,
+      "text": "надеясь, что Весловский соблазнится водкой и уйдет к ним",
+      "vad": [
+        0.3,
+        0.1,
+        0.45
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.5340133305316874,
+      "warning": null,
+      "chapter_sentence_start": 70,
+      "chapter_sentence_end": 70,
+      "timeline_start_index": 14770,
+      "timeline_end_index": 14770,
+      "highlights": [
+        {
+          "chapter_sentence": 70,
+          "start": 44,
+          "end": 100
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_10_0013",
+      "source_section": "chapter_06_10",
+      "source_sentence": 77,
+      "character_position": 949,
+      "text": "с удовольствием увидел",
+      "vad": [
+        0.65,
+        0.2,
+        0.45
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.3206178375007574,
+      "warning": null,
+      "chapter_sentence_start": 77,
+      "chapter_sentence_end": 77,
+      "timeline_start_index": 14777,
+      "timeline_end_index": 14777,
+      "highlights": [
+        {
+          "chapter_sentence": 77,
+          "start": 32,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_10_0014",
+      "source_section": "chapter_06_10",
+      "source_sentence": 83,
+      "character_position": 950,
+      "text": "Левину сильно хотелось выпить водки и съесть кусок хлеба",
+      "vad": [
+        0.1,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4515984964122632,
+      "warning": null,
+      "chapter_sentence_start": 83,
+      "chapter_sentence_end": 83,
+      "timeline_start_index": 14783,
+      "timeline_end_index": 14783,
+      "highlights": [
+        {
+          "chapter_sentence": 83,
+          "start": 0,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_10_0015",
+      "source_section": "chapter_06_10",
+      "source_sentence": 84,
+      "character_position": 951,
+      "text": "был в сомненье",
+      "vad": [
+        -0.2,
+        0.1,
+        -0.35
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4010586029115615,
+      "warning": null,
+      "chapter_sentence_start": 84,
+      "chapter_sentence_end": 84,
+      "timeline_start_index": 14784,
+      "timeline_end_index": 14784,
+      "highlights": [
+        {
+          "chapter_sentence": 84,
+          "start": 91,
+          "end": 105
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_10_0016",
+      "source_section": "chapter_06_10",
+      "source_sentence": 93,
+      "character_position": 952,
+      "text": "Левин упрекал в своей неудаче",
+      "vad": [
+        -0.45,
+        0.3,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3409080228558124,
+      "warning": null,
+      "chapter_sentence_start": 93,
+      "chapter_sentence_end": 93,
+      "timeline_start_index": 14793,
+      "timeline_end_index": 14793,
+      "highlights": [
+        {
+          "chapter_sentence": 93,
+          "start": 25,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_10_0017",
+      "source_section": "chapter_06_10",
+      "source_sentence": 95,
+      "character_position": 953,
+      "text": "руки тряслись от волнения",
+      "vad": [
+        -0.4,
+        0.8,
+        -0.3
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4692160133897998,
+      "warning": null,
+      "chapter_sentence_start": 95,
+      "chapter_sentence_end": 95,
+      "timeline_start_index": 14795,
+      "timeline_end_index": 14795,
+      "highlights": [
+        {
+          "chapter_sentence": 95,
+          "start": 374,
+          "end": 399
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_10_0018",
+      "source_section": "chapter_06_10",
+      "source_sentence": 97,
+      "character_position": 954,
+      "text": "Нет, надо опомниться!",
+      "vad": [
+        -0.45,
+        0.48,
+        0.38
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5649427807651346,
+      "warning": null,
+      "chapter_sentence_start": 97,
+      "chapter_sentence_end": 97,
+      "timeline_start_index": 14797,
+      "timeline_end_index": 14797,
+      "highlights": [
+        {
+          "chapter_sentence": 97,
+          "start": 1,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_10_0019",
+      "source_section": "chapter_06_10",
+      "source_sentence": 101,
+      "character_position": 955,
+      "text": "с твердым намерением не горячиться",
+      "vad": [
+        0.1,
+        -0.3,
+        0.7
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.8286375530985437,
+      "warning": null,
+      "chapter_sentence_start": 101,
+      "chapter_sentence_end": 101,
+      "timeline_start_index": 14801,
+      "timeline_end_index": 14801,
+      "highlights": [
+        {
+          "chapter_sentence": 101,
+          "start": 65,
+          "end": 99
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_10_0020",
+      "source_section": "chapter_06_10",
+      "source_sentence": 102,
+      "character_position": 956,
+      "text": "Он хотел быть спокойным",
+      "vad": [
+        0.1,
+        -0.2,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4683648526642315,
+      "warning": null,
+      "chapter_sentence_start": 102,
+      "chapter_sentence_end": 102,
+      "timeline_start_index": 14802,
+      "timeline_end_index": 14802,
+      "highlights": [
+        {
+          "chapter_sentence": 102,
+          "start": 0,
+          "end": 23
+        }
+      ]
+    }
+  ]
+}

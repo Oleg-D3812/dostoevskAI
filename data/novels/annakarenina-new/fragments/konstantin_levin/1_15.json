@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "1_15",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_01_15_0001",
+      "source_section": "chapter_01_15",
+      "source_sentence": 5,
+      "character_position": 142,
+      "text": "лицо Левина с насупленными бровями и мрачно-уныло смотрящими из-под них добрыми глазами",
+      "vad": [
+        -0.55,
+        -0.25,
+        -0.35
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5907039244791474,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 1373,
+      "timeline_end_index": 1373,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 9,
+          "end": 96
+        }
+      ]
+    }
+  ]
+}

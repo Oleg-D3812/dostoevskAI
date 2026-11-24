@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "5_25",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_05_25_0001",
+      "source_section": "chapter_05_25",
+      "source_sentence": 45,
+      "character_position": 578,
+      "text": "Оно до глубины души оскорбило Анну.",
+      "vad": [
+        -0.88,
+        0.56,
+        -0.48
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.1236517758097303,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 13050,
+      "timeline_end_index": 13050,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 0,
+          "end": 35
+        }
+      ]
+    }
+  ]
+}

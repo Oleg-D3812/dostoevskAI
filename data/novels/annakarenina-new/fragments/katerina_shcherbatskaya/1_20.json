@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "1_20",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_20_0001",
+      "source_section": "chapter_01_20",
+      "source_sentence": 8,
+      "character_position": 70,
+      "text": "ехала теперь к сестре не без страху пред тем, как ее примет эта петербургская светская дама",
+      "vad": [
+        -0.55,
+        0.45,
+        -0.3
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.212263354349133,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 1874,
+      "timeline_end_index": 1874,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 44,
+          "end": 135
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_20_0002",
+      "source_section": "chapter_01_20",
+      "source_sentence": 10,
+      "character_position": 71,
+      "text": "чувствовала себя не только под ее влиянием, но чувствовала себя влюбленною в нее",
+      "vad": [
+        0.86,
+        0.67,
+        -0.48
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.7507750118684813,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 1876,
+      "timeline_end_index": 1876,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 94,
+          "end": 174
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_20_0003",
+      "source_section": "chapter_01_20",
+      "source_sentence": 12,
+      "character_position": 72,
+      "text": "Кити чувствовала, что Анна была совершенно проста и ничего не скрывала, но что в ней был другой какой-то высший мир недоступных для нее интересов, сложных и поэтических",
+      "vad": [
+        0.35,
+        0.18,
+        -0.3
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.5383776186082307,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 1878,
+      "timeline_end_index": 1878,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 0,
+          "end": 168
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_20_0004",
+      "source_section": "chapter_01_20",
+      "source_sentence": 63,
+      "character_position": 73,
+      "text": "Как бы я желала знать весь ее роман",
+      "vad": [
+        0.2,
+        0.25,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.4568621608953095,
+      "warning": null,
+      "chapter_sentence_start": 63,
+      "chapter_sentence_end": 63,
+      "timeline_start_index": 1929,
+      "timeline_end_index": 1929,
+      "highlights": [
+        {
+          "chapter_sentence": 63,
+          "start": 0,
+          "end": 35
+        }
+      ]
+    }
+  ]
+}

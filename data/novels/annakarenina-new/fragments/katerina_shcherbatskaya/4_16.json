@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "4_16",
+  "count": 13,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_04_16_0001",
+      "source_section": "chapter_04_16",
+      "source_sentence": 26,
+      "character_position": 307,
+      "text": "ее нисколько, нисколько не оскорбила мысль о приданом",
+      "vad": [
+        0.15,
+        -0.1,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.4464918366331633,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 10305,
+      "timeline_end_index": 10305,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 35,
+          "end": 88
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_04_16_0002",
+      "source_section": "chapter_04_16",
+      "source_sentence": 44,
+      "character_position": 308,
+      "text": "Я любила всегда вас одного, но я была увлечена",
+      "vad": [
+        0.35,
+        0.3,
+        0.05
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.3153850976129477,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 10323,
+      "timeline_end_index": 10323,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 0,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_04_16_0003",
+      "source_section": "chapter_04_16",
+      "source_sentence": 56,
+      "character_position": 309,
+      "text": "Я не боюсь ничего",
+      "vad": [
+        0.7,
+        0.2,
+        0.85
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.7252188933974575,
+      "warning": null,
+      "chapter_sentence_start": 56,
+      "chapter_sentence_end": 56,
+      "timeline_start_index": 10335,
+      "timeline_end_index": 10335,
+      "highlights": [
+        {
+          "chapter_sentence": 56,
+          "start": 0,
+          "end": 17
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_04_16_0004",
+      "source_section": "chapter_04_16",
+      "source_sentence": 78,
+      "character_position": 310,
+      "text": "То же самое чувствовала и Кити",
+      "vad": [
+        0.85,
+        0.35,
+        0.3
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2661878010922693,
+      "warning": null,
+      "chapter_sentence_start": 78,
+      "chapter_sentence_end": 78,
+      "timeline_start_index": 10357,
+      "timeline_end_index": 10357,
+      "highlights": [
+        {
+          "chapter_sentence": 78,
+          "start": 0,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_04_16_0005",
+      "source_section": "chapter_04_16",
+      "source_sentence": 79,
+      "character_position": 311,
+      "text": "Кити так разгорячилась и так убедительно доказала, что лучше Левина ничего не может быть на свете",
+      "vad": [
+        0.85,
+        0.78,
+        0.72
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.7931951065758707,
+      "warning": null,
+      "chapter_sentence_start": 79,
+      "chapter_sentence_end": 79,
+      "timeline_start_index": 10358,
+      "timeline_end_index": 10358,
+      "highlights": [
+        {
+          "chapter_sentence": 79,
+          "start": 90,
+          "end": 187
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_04_16_0006",
+      "source_section": "chapter_04_16",
+      "source_sentence": 85,
+      "character_position": 312,
+      "text": "Она была религиозна, никогда не сомневалась в истинах религии, но его внешнее неверие даже нисколько не затронуло ее",
+      "vad": [
+        0.15,
+        -0.45,
+        0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.6918270716170051,
+      "warning": null,
+      "chapter_sentence_start": 85,
+      "chapter_sentence_end": 85,
+      "timeline_start_index": 10364,
+      "timeline_end_index": 10364,
+      "highlights": [
+        {
+          "chapter_sentence": 85,
+          "start": 0,
+          "end": 116
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_04_16_0007",
+      "source_section": "chapter_04_16",
+      "source_sentence": 86,
+      "character_position": 313,
+      "text": "Она знала любовью всю его душу",
+      "vad": [
+        0.8,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2700512458925964,
+      "warning": null,
+      "chapter_sentence_start": 86,
+      "chapter_sentence_end": 86,
+      "timeline_start_index": 10365,
+      "timeline_end_index": 10365,
+      "highlights": [
+        {
+          "chapter_sentence": 86,
+          "start": 0,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_04_16_0008",
+      "source_section": "chapter_04_16",
+      "source_sentence": 86,
+      "character_position": 314,
+      "text": "в душе его она видела то, чего она хотела",
+      "vad": [
+        0.65,
+        0.05,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2698402330222654,
+      "warning": null,
+      "chapter_sentence_start": 86,
+      "chapter_sentence_end": 86,
+      "timeline_start_index": 10365,
+      "timeline_end_index": 10365,
+      "highlights": [
+        {
+          "chapter_sentence": 86,
+          "start": 34,
+          "end": 75
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_04_16_0009",
+      "source_section": "chapter_04_16",
+      "source_sentence": 86,
+      "character_position": 315,
+      "text": "это ей было все равно",
+      "vad": [
+        -0.1,
+        -0.6,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.7153714251838196,
+      "warning": null,
+      "chapter_sentence_start": 86,
+      "chapter_sentence_end": 86,
+      "timeline_start_index": 10365,
+      "timeline_end_index": 10365,
+      "highlights": [
+        {
+          "chapter_sentence": 86,
+          "start": 132,
+          "end": 153
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_04_16_0010",
+      "source_section": "chapter_04_16",
+      "source_sentence": 87,
+      "character_position": 316,
+      "text": "заставило ее горько плакать",
+      "vad": [
+        -0.9,
+        0.65,
+        -0.7
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.3606324050879861,
+      "warning": null,
+      "chapter_sentence_start": 87,
+      "chapter_sentence_end": 87,
+      "timeline_start_index": 10366,
+      "timeline_end_index": 10366,
+      "highlights": [
+        {
+          "chapter_sentence": 87,
+          "start": 20,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_04_16_0011",
+      "source_section": "chapter_04_16",
+      "source_sentence": 90,
+      "character_position": 317,
+      "text": "заплаканное, несчастное от непоправимого, им произведенного горя",
+      "vad": [
+        -0.95,
+        0.65,
+        -0.85
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.50177729193405,
+      "warning": null,
+      "chapter_sentence_start": 90,
+      "chapter_sentence_end": 90,
+      "timeline_start_index": 10369,
+      "timeline_end_index": 10369,
+      "highlights": [
+        {
+          "chapter_sentence": 90,
+          "start": 85,
+          "end": 149
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_04_16_0012",
+      "source_section": "chapter_04_16",
+      "source_sentence": 94,
+      "character_position": 318,
+      "text": "сжалившись над его отчаянным лицом",
+      "vad": [
+        -0.9,
+        0.8,
+        -0.8
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.5104851197069724,
+      "warning": null,
+      "chapter_sentence_start": 94,
+      "chapter_sentence_end": 94,
+      "timeline_start_index": 10373,
+      "timeline_end_index": 10373,
+      "highlights": [
+        {
+          "chapter_sentence": 94,
+          "start": 38,
+          "end": 72
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_04_16_0013",
+      "source_section": "chapter_04_16",
+      "source_sentence": 99,
+      "character_position": 319,
+      "text": "я простила",
+      "vad": [
+        0.7,
+        0.1,
+        0.5
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.4153279374919388,
+      "warning": null,
+      "chapter_sentence_start": 99,
+      "chapter_sentence_end": 99,
+      "timeline_start_index": 10378,
+      "timeline_end_index": 10378,
+      "highlights": [
+        {
+          "chapter_sentence": 99,
+          "start": 7,
+          "end": 17
+        }
+      ]
+    }
+  ]
+}

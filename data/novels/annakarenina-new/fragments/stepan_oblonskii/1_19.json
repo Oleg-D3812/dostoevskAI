@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "1_19",
+  "count": 10,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_01_19_0001",
+      "source_section": "chapter_01_19",
+      "source_sentence": 92,
+      "character_position": 98,
+      "text": "Он счастлив и доволен",
+      "vad": [
+        0.85,
+        -0.2,
+        0.2
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.5072730009095645,
+      "warning": null,
+      "chapter_sentence_start": 92,
+      "chapter_sentence_end": 92,
+      "timeline_start_index": 1789,
+      "timeline_end_index": 1789,
+      "highlights": [
+        {
+          "chapter_sentence": 92,
+          "start": 0,
+          "end": 21
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_19_0002",
+      "source_section": "chapter_01_19",
+      "source_sentence": 95,
+      "character_position": 99,
+      "text": "Он жалок, он убит раскаяньем",
+      "vad": [
+        -0.9,
+        0.7,
+        -0.8
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.5045752470452706,
+      "warning": null,
+      "chapter_sentence_start": 95,
+      "chapter_sentence_end": 95,
+      "timeline_start_index": 1792,
+      "timeline_end_index": 1792,
+      "highlights": [
+        {
+          "chapter_sentence": 95,
+          "start": 2,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_19_0003",
+      "source_section": "chapter_01_19",
+      "source_sentence": 101,
+      "character_position": 100,
+      "text": "он горд, а теперь так унижен",
+      "vad": [
+        -0.85,
+        0.55,
+        -0.75
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.3810230083236082,
+      "warning": null,
+      "chapter_sentence_start": 101,
+      "chapter_sentence_end": 101,
+      "timeline_start_index": 1798,
+      "timeline_end_index": 1798,
+      "highlights": [
+        {
+          "chapter_sentence": 101,
+          "start": 12,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_19_0004",
+      "source_section": "chapter_01_19",
+      "source_sentence": 102,
+      "character_position": 101,
+      "text": "его мучают две вещи: то, что ему стыдно детей",
+      "vad": [
+        -0.85,
+        0.7,
+        -0.55
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.3332138563271983,
+      "warning": null,
+      "chapter_sentence_start": 102,
+      "chapter_sentence_end": 102,
+      "timeline_start_index": 1799,
+      "timeline_end_index": 1799,
+      "highlights": [
+        {
+          "chapter_sentence": 102,
+          "start": 82,
+          "end": 127
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_19_0005",
+      "source_section": "chapter_01_19",
+      "source_sentence": 102,
+      "character_position": 102,
+      "text": "он, любя тебя… да, да, любя больше всего на свете",
+      "vad": [
+        0.8,
+        0.5,
+        0.0
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.3373225865148295,
+      "warning": null,
+      "chapter_sentence_start": 102,
+      "chapter_sentence_end": 102,
+      "timeline_start_index": 1799,
+      "timeline_end_index": 1799,
+      "highlights": [
+        {
+          "chapter_sentence": 102,
+          "start": 139,
+          "end": 188
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_19_0008",
+      "source_section": "chapter_01_19",
+      "source_sentence": 131,
+      "character_position": 103,
+      "text": "полного раскаяния",
+      "vad": [
+        -0.7,
+        0.5,
+        -0.4
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.0676213761988847,
+      "warning": null,
+      "chapter_sentence_start": 131,
+      "chapter_sentence_end": 131,
+      "timeline_start_index": 1828,
+      "timeline_end_index": 1828,
+      "highlights": [
+        {
+          "chapter_sentence": 131,
+          "start": 175,
+          "end": 192
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_19_0009",
+      "source_section": "chapter_01_19",
+      "source_sentence": 132,
+      "character_position": 104,
+      "text": "Он не верит, не понимает теперь, как он мог сделать то, что сделал",
+      "vad": [
+        -0.6,
+        0.35,
+        -0.45
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.1234158581724526,
+      "warning": null,
+      "chapter_sentence_start": 132,
+      "chapter_sentence_end": 132,
+      "timeline_start_index": 1829,
+      "timeline_end_index": 1829,
+      "highlights": [
+        {
+          "chapter_sentence": 132,
+          "start": 0,
+          "end": 66
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_19_0011",
+      "source_section": "chapter_01_19",
+      "source_sentence": 154,
+      "character_position": 105,
+      "text": "он приезжал ко мне и плакал, говоря о тебе",
+      "vad": [
+        -0.65,
+        0.65,
+        -0.55
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.2439907253328346,
+      "warning": null,
+      "chapter_sentence_start": 154,
+      "chapter_sentence_end": 154,
+      "timeline_start_index": 1851,
+      "timeline_end_index": 1851,
+      "highlights": [
+        {
+          "chapter_sentence": 154,
+          "start": 25,
+          "end": 67
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_19_0012",
+      "source_section": "chapter_01_19",
+      "source_sentence": 156,
+      "character_position": 106,
+      "text": "Ты для него божество всегда была и осталась",
+      "vad": [
+        0.85,
+        0.2,
+        0.3
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.2270729352526096,
+      "warning": null,
+      "chapter_sentence_start": 156,
+      "chapter_sentence_end": 156,
+      "timeline_start_index": 1853,
+      "timeline_end_index": 1853,
+      "highlights": [
+        {
+          "chapter_sentence": 156,
+          "start": 0,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_19_0013",
+      "source_section": "chapter_01_19",
+      "source_sentence": 156,
+      "character_position": 107,
+      "text": "это увлечение не души его",
+      "vad": [
+        -0.2,
+        -0.2,
+        0.4
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.4658667420299928,
+      "warning": null,
+      "chapter_sentence_start": 156,
+      "chapter_sentence_end": 156,
+      "timeline_start_index": 1853,
+      "timeline_end_index": 1853,
+      "highlights": [
+        {
+          "chapter_sentence": 156,
+          "start": 47,
+          "end": 72
+        }
+      ]
+    }
+  ]
+}

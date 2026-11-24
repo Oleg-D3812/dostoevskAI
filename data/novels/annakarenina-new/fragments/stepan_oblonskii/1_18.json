@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "1_18",
+  "count": 5,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_01_18_0001",
+      "source_section": "chapter_01_18",
+      "source_sentence": 88,
+      "character_position": 93,
+      "text": "Степан Аркадьич с сестрой под руку, тоже с испуганными лицами",
+      "vad": [
+        -0.65,
+        0.7,
+        -0.3
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.2895874407034057,
+      "warning": null,
+      "chapter_sentence_start": 88,
+      "chapter_sentence_end": 88,
+      "timeline_start_index": 1633,
+      "timeline_end_index": 1633,
+      "highlights": [
+        {
+          "chapter_sentence": 88,
+          "start": 0,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_18_0002",
+      "source_section": "chapter_01_18",
+      "source_sentence": 93,
+      "character_position": 94,
+      "text": "Облонский, видимо, страдал",
+      "vad": [
+        -0.7,
+        0.4,
+        -0.2
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.2315847016718567,
+      "warning": null,
+      "chapter_sentence_start": 93,
+      "chapter_sentence_end": 93,
+      "timeline_start_index": 1638,
+      "timeline_end_index": 1638,
+      "highlights": [
+        {
+          "chapter_sentence": 93,
+          "start": 0,
+          "end": 26
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_18_0003",
+      "source_section": "chapter_01_18",
+      "source_sentence": 94,
+      "character_position": 95,
+      "text": "казалось, готов был плакать",
+      "vad": [
+        -0.85,
+        0.72,
+        -0.2
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.3976604418214354,
+      "warning": null,
+      "chapter_sentence_start": 94,
+      "chapter_sentence_end": 94,
+      "timeline_start_index": 1639,
+      "timeline_end_index": 1639,
+      "highlights": [
+        {
+          "chapter_sentence": 94,
+          "start": 15,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_18_0004",
+      "source_section": "chapter_01_18",
+      "source_sentence": 139,
+      "character_position": 96,
+      "text": "как я надеюсь на тебя",
+      "vad": [
+        0.65,
+        0.15,
+        -0.3
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.5151246999580908,
+      "warning": null,
+      "chapter_sentence_start": 139,
+      "chapter_sentence_end": 139,
+      "timeline_start_index": 1684,
+      "timeline_end_index": 1684,
+      "highlights": [
+        {
+          "chapter_sentence": 139,
+          "start": 31,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_18_0005",
+      "source_section": "chapter_01_18",
+      "source_sentence": 149,
+      "character_position": 97,
+      "text": "вся надежда на тебя",
+      "vad": [
+        0.4,
+        0.2,
+        -0.7
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.9397473650137148,
+      "warning": null,
+      "chapter_sentence_start": 149,
+      "chapter_sentence_end": 149,
+      "timeline_start_index": 1694,
+      "timeline_end_index": 1694,
+      "highlights": [
+        {
+          "chapter_sentence": 149,
+          "start": 6,
+          "end": 25
+        }
+      ]
+    }
+  ]
+}

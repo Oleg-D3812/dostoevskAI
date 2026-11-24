@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "8_17",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_08_17_0001",
+      "source_section": "chapter_08_17",
+      "source_sentence": 42,
+      "character_position": 562,
+      "text": "робко улыбалось",
+      "vad": [
+        0.45,
+        0.2,
+        -0.35
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.5298827952235908,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 20735,
+      "timeline_end_index": 20735,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 50,
+          "end": 65
+        }
+      ]
+    }
+  ]
+}

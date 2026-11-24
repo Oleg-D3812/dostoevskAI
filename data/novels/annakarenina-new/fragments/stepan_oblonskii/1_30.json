@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "1_30",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_01_30_0001",
+      "source_section": "chapter_01_30",
+      "source_sentence": 52,
+      "character_position": 113,
+      "text": "сгорал желанием увидеть тебя",
+      "vad": [
+        0.8,
+        0.85,
+        0.15
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.5998877124350314,
+      "warning": null,
+      "chapter_sentence_start": 52,
+      "chapter_sentence_end": 52,
+      "timeline_start_index": 2741,
+      "timeline_end_index": 2741,
+      "highlights": [
+        {
+          "chapter_sentence": 52,
+          "start": 66,
+          "end": 94
+        }
+      ]
+    }
+  ]
+}

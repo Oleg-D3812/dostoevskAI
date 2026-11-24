@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "7_24",
+  "count": 10,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_07_24_0001",
+      "source_section": "chapter_07_24",
+      "source_sentence": 4,
+      "character_position": 593,
+      "text": "сам был в самом хорошем расположении духа",
+      "vad": [
+        0.85,
+        0.25,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.2189511893506847,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 18883,
+      "timeline_end_index": 18883,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 72,
+          "end": 113
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_24_0003",
+      "source_section": "chapter_07_24",
+      "source_sentence": 47,
+      "character_position": 594,
+      "text": "смутившись",
+      "vad": [
+        -0.45,
+        0.35,
+        -0.3
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.3120753144040932,
+      "warning": null,
+      "chapter_sentence_start": 47,
+      "chapter_sentence_end": 47,
+      "timeline_start_index": 18926,
+      "timeline_end_index": 18926,
+      "highlights": [
+        {
+          "chapter_sentence": 47,
+          "start": 67,
+          "end": 77
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_24_0004",
+      "source_section": "chapter_07_24",
+      "source_sentence": 48,
+      "character_position": 595,
+      "text": "Смущение его",
+      "vad": [
+        -0.55,
+        0.45,
+        -0.35
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.1902742930125972,
+      "warning": null,
+      "chapter_sentence_start": 48,
+      "chapter_sentence_end": 48,
+      "timeline_start_index": 18927,
+      "timeline_end_index": 18927,
+      "highlights": [
+        {
+          "chapter_sentence": 48,
+          "start": 0,
+          "end": 12
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_24_0005",
+      "source_section": "chapter_07_24",
+      "source_sentence": 71,
+      "character_position": 596,
+      "text": "поднимавшийся в нем гнев",
+      "vad": [
+        -0.8,
+        0.8,
+        0.2
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.7695857629241898,
+      "warning": null,
+      "chapter_sentence_start": 71,
+      "chapter_sentence_end": 71,
+      "timeline_start_index": 18950,
+      "timeline_end_index": 18950,
+      "highlights": [
+        {
+          "chapter_sentence": 71,
+          "start": 83,
+          "end": 107
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_24_0006",
+      "source_section": "chapter_07_24",
+      "source_sentence": 75,
+      "character_position": 597,
+      "text": "это становится невыносимо!",
+      "vad": [
+        -0.9,
+        0.8,
+        -0.35
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.4335332601973276,
+      "warning": null,
+      "chapter_sentence_start": 75,
+      "chapter_sentence_end": 75,
+      "timeline_start_index": 18954,
+      "timeline_end_index": 18954,
+      "highlights": [
+        {
+          "chapter_sentence": 75,
+          "start": 7,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_24_0007",
+      "source_section": "chapter_07_24",
+      "source_sentence": 81,
+      "character_position": 598,
+      "text": "явное выражение ненависти, которое было во всем лице и в особенности в жестоких, грозных глазах",
+      "vad": [
+        -0.9,
+        0.8,
+        0.75
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 1.1036568482680098,
+      "warning": null,
+      "chapter_sentence_start": 81,
+      "chapter_sentence_end": 81,
+      "timeline_start_index": 18960,
+      "timeline_end_index": 18960,
+      "highlights": [
+        {
+          "chapter_sentence": 81,
+          "start": 41,
+          "end": 136
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_24_0008",
+      "source_section": "chapter_07_24",
+      "source_sentence": 93,
+      "character_position": 599,
+      "text": "мрачной складки бровей",
+      "vad": [
+        -0.65,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.446869622314421,
+      "warning": null,
+      "chapter_sentence_start": 93,
+      "chapter_sentence_end": 93,
+      "timeline_start_index": 18972,
+      "timeline_end_index": 18972,
+      "highlights": [
+        {
+          "chapter_sentence": 93,
+          "start": 32,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_24_0009",
+      "source_section": "chapter_07_24",
+      "source_sentence": 97,
+      "character_position": 600,
+      "text": "есть границы терпению!",
+      "vad": [
+        -0.75,
+        0.85,
+        0.6
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.9908871821761756,
+      "warning": null,
+      "chapter_sentence_start": 97,
+      "chapter_sentence_end": 97,
+      "timeline_start_index": 18976,
+      "timeline_end_index": 18976,
+      "highlights": [
+        {
+          "chapter_sentence": 97,
+          "start": 7,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_24_0010",
+      "source_section": "chapter_07_24",
+      "source_sentence": 133,
+      "character_position": 601,
+      "text": "что он никогда не переставал и не перестанет любить ее, что он любит больше, чем прежде",
+      "vad": [
+        0.9,
+        0.35,
+        0.45
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.3305666862554071,
+      "warning": null,
+      "chapter_sentence_start": 133,
+      "chapter_sentence_end": 133,
+      "timeline_start_index": 19012,
+      "timeline_end_index": 19012,
+      "highlights": [
+        {
+          "chapter_sentence": 133,
+          "start": 81,
+          "end": 168
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_24_0011",
+      "source_section": "chapter_07_24",
+      "source_sentence": 136,
+      "character_position": 602,
+      "text": "В лице его теперь выражалась нежность, и ей казалось, что она слышала ухом звук слез в его голосе и на руке своей чувствовала их влагу",
+      "vad": [
+        0.55,
+        0.65,
+        -0.2
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.5493474297060934,
+      "warning": null,
+      "chapter_sentence_start": 136,
+      "chapter_sentence_end": 136,
+      "timeline_start_index": 19015,
+      "timeline_end_index": 19015,
+      "highlights": [
+        {
+          "chapter_sentence": 136,
+          "start": 0,
+          "end": 134
+        }
+      ]
+    }
+  ]
+}

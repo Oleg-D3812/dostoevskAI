@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "1_28",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_01_28_0001",
+      "source_section": "chapter_01_28",
+      "source_sentence": 77,
+      "character_position": 112,
+      "text": "с красным, веселым лицом",
+      "vad": [
+        0.7,
+        0.45,
+        0.1
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.2111533565243041,
+      "warning": null,
+      "chapter_sentence_start": 77,
+      "chapter_sentence_end": 77,
+      "timeline_start_index": 2622,
+      "timeline_end_index": 2622,
+      "highlights": [
+        {
+          "chapter_sentence": 77,
+          "start": 60,
+          "end": 84
+        }
+      ]
+    }
+  ]
+}

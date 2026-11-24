@@ -1,0 +1,529 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "3_20",
+  "count": 20,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_03_20_0001",
+      "source_section": "chapter_03_20",
+      "source_sentence": 1,
+      "character_position": 227,
+      "text": "Жизнь Вронского тем была особенно счастлива",
+      "vad": [
+        0.8,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.2029064520333376,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 7770,
+      "timeline_end_index": 7770,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 0,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_20_0002",
+      "source_section": "chapter_03_20",
+      "source_sentence": 4,
+      "character_position": 228,
+      "text": "Вронский чувствовал, что он спокоен",
+      "vad": [
+        0.35,
+        -0.65,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.9802175676685202,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 7773,
+      "timeline_end_index": 7773,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 87,
+          "end": 122
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_20_0003",
+      "source_section": "chapter_03_20",
+      "source_sentence": 5,
+      "character_position": 229,
+      "text": "сомнения",
+      "vad": [
+        -0.45,
+        0.2,
+        -0.4
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.3489444748030934,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 7774,
+      "timeline_end_index": 7774,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 188,
+          "end": 196
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_20_0004",
+      "source_section": "chapter_03_20",
+      "source_sentence": 8,
+      "character_position": 230,
+      "text": "он любил ее",
+      "vad": [
+        0.85,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.2144509503241682,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 7777,
+      "timeline_end_index": 7777,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 59,
+          "end": 70
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_20_0005",
+      "source_section": "chapter_03_20",
+      "source_sentence": 12,
+      "character_position": 231,
+      "text": "которую он любил",
+      "vad": [
+        0.8,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.1709403845017806,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 7781,
+      "timeline_end_index": 7781,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 101,
+          "end": 117
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_20_0006",
+      "source_section": "chapter_03_20",
+      "source_sentence": 18,
+      "character_position": 232,
+      "text": "пугавшие Вронского своею неопределенностью",
+      "vad": [
+        -0.75,
+        0.65,
+        -0.45
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.2209771843958192,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 7787,
+      "timeline_end_index": 7787,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 74,
+          "end": 116
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_20_0007",
+      "source_section": "chapter_03_20",
+      "source_sentence": 20,
+      "character_position": 233,
+      "text": "он почувствовал",
+      "vad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.3515161352883419,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 7789,
+      "timeline_end_index": 7789,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 2,
+          "end": 17
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_20_0008",
+      "source_section": "chapter_03_20",
+      "source_sentence": 21,
+      "character_position": 234,
+      "text": "он был взят врасплох",
+      "vad": [
+        -0.35,
+        0.55,
+        -0.65
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.4065958514419076,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 7790,
+      "timeline_end_index": 7790,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 17,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_20_0009",
+      "source_section": "chapter_03_20",
+      "source_sentence": 21,
+      "character_position": 235,
+      "text": "сердце его подсказало ему требование оставить мужа",
+      "vad": [
+        -0.1,
+        0.35,
+        -0.2
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.4954969239213041,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 7790,
+      "timeline_end_index": 7790,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 96,
+          "end": 146
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_20_0010",
+      "source_section": "chapter_03_20",
+      "source_sentence": 22,
+      "character_position": 236,
+      "text": "боялся — не дурно ли это?",
+      "vad": [
+        -0.65,
+        0.55,
+        -0.35
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.1719317590133057,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 7791,
+      "timeline_end_index": 7791,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 123,
+          "end": 148
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_20_0011",
+      "source_section": "chapter_03_20",
+      "source_sentence": 29,
+      "character_position": 237,
+      "text": "И он задумался",
+      "vad": [
+        0.0,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.342333841954653,
+      "warning": null,
+      "chapter_sentence_start": 29,
+      "chapter_sentence_end": 29,
+      "timeline_start_index": 7798,
+      "timeline_end_index": 7798,
+      "highlights": [
+        {
+          "chapter_sentence": 29,
+          "start": 0,
+          "end": 14
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_20_0013",
+      "source_section": "chapter_03_20",
+      "source_sentence": 31,
+      "character_position": 238,
+      "text": "Честолюбие была старинная мечта его детства и юности",
+      "vad": [
+        0.35,
+        0.3,
+        0.25
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.3247655787938727,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 7800,
+      "timeline_end_index": 7800,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 0,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_20_0014",
+      "source_section": "chapter_03_20",
+      "source_sentence": 31,
+      "character_position": 239,
+      "text": "эта страсть боролась с его любовью",
+      "vad": [
+        -0.45,
+        0.55,
+        -0.35
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.2970498970634264,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 7800,
+      "timeline_end_index": 7800,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 138,
+          "end": 172
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_20_0015",
+      "source_section": "chapter_03_20",
+      "source_sentence": 33,
+      "character_position": 240,
+      "text": "ни на кого не сердился",
+      "vad": [
+        0.1,
+        -0.4,
+        0.2
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.6263350158908079,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 7802,
+      "timeline_end_index": 7802,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 326,
+          "end": 348
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_20_0017",
+      "source_section": "chapter_03_20",
+      "source_sentence": 33,
+      "character_position": 241,
+      "text": "ему весело",
+      "vad": [
+        0.7,
+        0.3,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.2154889581548775,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 7802,
+      "timeline_end_index": 7802,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 441,
+          "end": 451
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_20_0018",
+      "source_section": "chapter_03_20",
+      "source_sentence": 34,
+      "character_position": 242,
+      "text": "ему еще с прошлого года, когда он уехал в Москву, перестало быть весело",
+      "vad": [
+        -0.65,
+        -0.3,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.5448414936124691,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 7803,
+      "timeline_end_index": 7803,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 15,
+          "end": 86
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_20_0019",
+      "source_section": "chapter_03_20",
+      "source_sentence": 36,
+      "character_position": 243,
+      "text": "успокоила на время точившего его червя честолюбия",
+      "vad": [
+        0.25,
+        -0.35,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.701406308684843,
+      "warning": null,
+      "chapter_sentence_start": 36,
+      "chapter_sentence_end": 36,
+      "timeline_start_index": 7805,
+      "timeline_end_index": 7805,
+      "highlights": [
+        {
+          "chapter_sentence": 36,
+          "start": 99,
+          "end": 148
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_20_0021",
+      "source_section": "chapter_03_20",
+      "source_sentence": 40,
+      "character_position": 244,
+      "text": "не завидую и не могу завидовать Серпуховскому",
+      "vad": [
+        0.2,
+        -0.1,
+        0.45
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.6019184840236167,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 7809,
+      "timeline_end_index": 7809,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 15,
+          "end": 60
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_20_0022",
+      "source_section": "chapter_03_20",
+      "source_sentence": 45,
+      "character_position": 245,
+      "text": "не могу завидовать Серпуховскому",
+      "vad": [
+        0.25,
+        -0.15,
+        0.2
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.596641533201677,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 7814,
+      "timeline_end_index": 7814,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 19,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_20_0023",
+      "source_section": "chapter_03_20",
+      "source_sentence": 47,
+      "character_position": 246,
+      "text": "он чувствовал то твердое, спокойное и радостное состояние духа",
+      "vad": [
+        0.82,
+        -0.25,
+        0.78
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.8099188533043998,
+      "warning": null,
+      "chapter_sentence_start": 47,
+      "chapter_sentence_end": 47,
+      "timeline_start_index": 7816,
+      "timeline_end_index": 7816,
+      "highlights": [
+        {
+          "chapter_sentence": 47,
+          "start": 36,
+          "end": 98
+        }
+      ]
+    }
+  ]
+}

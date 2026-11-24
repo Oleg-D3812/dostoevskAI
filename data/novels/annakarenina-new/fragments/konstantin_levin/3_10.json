@@ -1,0 +1,503 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "3_10",
+  "count": 19,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_03_10_0001",
+      "source_section": "chapter_03_10",
+      "source_sentence": 3,
+      "character_position": 410,
+      "text": "с волнением спросил Левин",
+      "vad": [
+        0.2,
+        0.65,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.58310850505319,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 6912,
+      "timeline_end_index": 6912,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 2,
+          "end": 27
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_10_0002",
+      "source_section": "chapter_03_10",
+      "source_sentence": 6,
+      "character_position": 411,
+      "text": "Ах, я очень рад!",
+      "vad": [
+        0.9,
+        0.65,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.3903399857177329,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 6915,
+      "timeline_end_index": 6915,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 2,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_10_0003",
+      "source_section": "chapter_03_10",
+      "source_sentence": 7,
+      "character_position": 412,
+      "text": "что-то трогательное, беспомощное показалось Долли в его лице",
+      "vad": [
+        0.45,
+        0.2,
+        -0.55
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.7579162574645325,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 6916,
+      "timeline_end_index": 6916,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 18,
+          "end": 78
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_10_0004",
+      "source_section": "chapter_03_10",
+      "source_sentence": 8,
+      "character_position": 413,
+      "text": "за что вы сердитесь на Кити?",
+      "vad": [
+        0.1,
+        0.25,
+        0.45
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5642523801999537,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 6917,
+      "timeline_end_index": 6917,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 122,
+          "end": 150
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_10_0005",
+      "source_section": "chapter_03_10",
+      "source_sentence": 11,
+      "character_position": 414,
+      "text": "вы сердитесь",
+      "vad": [
+        -0.5,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.343445855799861,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 6920,
+      "timeline_end_index": 6920,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 7,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_10_0006",
+      "source_section": "chapter_03_10",
+      "source_sentence": 13,
+      "character_position": 415,
+      "text": "я удивляюсь даже",
+      "vad": [
+        -0.1,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.2805363573686049,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 6922,
+      "timeline_end_index": 6922,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 63,
+          "end": 79
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_10_0007",
+      "source_section": "chapter_03_10",
+      "source_sentence": 16,
+      "character_position": 416,
+      "text": "вся та нежность, которую минуту тому назад он чувствовал к Кити",
+      "vad": [
+        0.8,
+        0.25,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2125381832471806,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 6925,
+      "timeline_end_index": 6925,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 76,
+          "end": 139
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_10_0008",
+      "source_section": "chapter_03_10",
+      "source_sentence": 16,
+      "character_position": 417,
+      "text": "чувством злобы за оскорбление",
+      "vad": [
+        -0.8,
+        0.7,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.6821330777300921,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 6925,
+      "timeline_end_index": 6925,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 163,
+          "end": 192
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_10_0009",
+      "source_section": "chapter_03_10",
+      "source_sentence": 30,
+      "character_position": 418,
+      "text": "Вы страдаете только от гордости",
+      "vad": [
+        -0.65,
+        0.2,
+        -0.3
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2550785198805695,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 6939,
+      "timeline_end_index": 6939,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 0,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_10_0010",
+      "source_section": "chapter_03_10",
+      "source_sentence": 39,
+      "character_position": 419,
+      "text": "чувствуя, что в сердце его поднимается и шевелится казавшаяся ему похороненною надежда",
+      "vad": [
+        0.8,
+        0.6,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.4637943668955255,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 6948,
+      "timeline_end_index": 6948,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 88,
+          "end": 174
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_10_0011",
+      "source_section": "chapter_03_10",
+      "source_sentence": 41,
+      "character_position": 420,
+      "text": "Казавшееся мертвым чувство оживало все более и более, поднималось и завладевало сердцем Левина",
+      "vad": [
+        0.88,
+        0.78,
+        -0.48
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.8056166701653625,
+      "warning": null,
+      "chapter_sentence_start": 41,
+      "chapter_sentence_end": 41,
+      "timeline_start_index": 6950,
+      "timeline_end_index": 6950,
+      "highlights": [
+        {
+          "chapter_sentence": 41,
+          "start": 0,
+          "end": 94
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_10_0012",
+      "source_section": "chapter_03_10",
+      "source_sentence": 55,
+      "character_position": 421,
+      "text": "гордость и гордость!",
+      "vad": [
+        -0.7,
+        0.65,
+        0.3
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.7456176460772855,
+      "warning": null,
+      "chapter_sentence_start": 55,
+      "chapter_sentence_end": 55,
+      "timeline_start_index": 6964,
+      "timeline_end_index": 6964,
+      "highlights": [
+        {
+          "chapter_sentence": 55,
+          "start": 6,
+          "end": 26
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_10_0013",
+      "source_section": "chapter_03_10",
+      "source_sentence": 51,
+      "character_position": 422,
+      "text": "оживавший в душе его мертвец опять умер и только мучительно давил его сердце",
+      "vad": [
+        -0.9,
+        0.65,
+        -0.8
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.5051749494038232,
+      "warning": null,
+      "chapter_sentence_start": 51,
+      "chapter_sentence_end": 51,
+      "timeline_start_index": 6960,
+      "timeline_end_index": 6960,
+      "highlights": [
+        {
+          "chapter_sentence": 51,
+          "start": 54,
+          "end": 130
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_10_0014",
+      "source_section": "chapter_03_10",
+      "source_sentence": 66,
+      "character_position": 423,
+      "text": "эта гордость, которую вы так презираете, делает то, что для меня всякая мысль о Катерине Александровне невозможна",
+      "vad": [
+        -0.65,
+        0.3,
+        0.55
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.6824152491254096,
+      "warning": null,
+      "chapter_sentence_start": 66,
+      "chapter_sentence_end": 66,
+      "timeline_start_index": 6975,
+      "timeline_end_index": 6975,
+      "highlights": [
+        {
+          "chapter_sentence": 66,
+          "start": 24,
+          "end": 137
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_10_0015",
+      "source_section": "chapter_03_10",
+      "source_sentence": 71,
+      "character_position": 424,
+      "text": "Если бы вы знали, как вы больно мне делаете!",
+      "vad": [
+        -0.9,
+        0.7,
+        -0.6
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4053419242145036,
+      "warning": null,
+      "chapter_sentence_start": 71,
+      "chapter_sentence_end": 71,
+      "timeline_start_index": 6980,
+      "timeline_end_index": 6980,
+      "highlights": [
+        {
+          "chapter_sentence": 71,
+          "start": 2,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_10_0016",
+      "source_section": "chapter_03_10",
+      "source_sentence": 74,
+      "character_position": 425,
+      "text": "несмотря на волненье Левина",
+      "vad": [
+        -0.4,
+        0.65,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4045130347085224,
+      "warning": null,
+      "chapter_sentence_start": 74,
+      "chapter_sentence_end": 74,
+      "timeline_start_index": 6983,
+      "timeline_end_index": 6983,
+      "highlights": [
+        {
+          "chapter_sentence": 74,
+          "start": 68,
+          "end": 95
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_10_0017",
+      "source_section": "chapter_03_10",
+      "source_sentence": 86,
+      "character_position": 426,
+      "text": "показалось Левину неприятным",
+      "vad": [
+        -0.55,
+        0.05,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3033198226429728,
+      "warning": null,
+      "chapter_sentence_start": 86,
+      "chapter_sentence_end": 86,
+      "timeline_start_index": 6995,
+      "timeline_end_index": 6995,
+      "highlights": [
+        {
+          "chapter_sentence": 86,
+          "start": 6,
+          "end": 34
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_10_0018",
+      "source_section": "chapter_03_10",
+      "source_sentence": 87,
+      "character_position": 427,
+      "text": "Все теперь казалось ему в доме Дарьи Александровны и в ее детях совсем уже не так мило, как прежде",
+      "vad": [
+        -0.55,
+        0.05,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3033198226429728,
+      "warning": null,
+      "chapter_sentence_start": 87,
+      "chapter_sentence_end": 87,
+      "timeline_start_index": 6996,
+      "timeline_end_index": 6996,
+      "highlights": [
+        {
+          "chapter_sentence": 87,
+          "start": 0,
+          "end": 98
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_10_0019",
+      "source_section": "chapter_03_10",
+      "source_sentence": 95,
+      "character_position": 428,
+      "text": "веселье его все исчезло, и ему было неловко",
+      "vad": [
+        -0.65,
+        -0.15,
+        -0.25
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5435902136257846,
+      "warning": null,
+      "chapter_sentence_start": 95,
+      "chapter_sentence_end": 95,
+      "timeline_start_index": 7004,
+      "timeline_end_index": 7004,
+      "highlights": [
+        {
+          "chapter_sentence": 95,
+          "start": 25,
+          "end": 68
+        }
+      ]
+    }
+  ]
+}

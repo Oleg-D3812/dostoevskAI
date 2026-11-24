@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "8_6",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_08_06_0001",
+      "source_section": "chapter_08_06",
+      "source_sentence": 19,
+      "character_position": 546,
+      "text": "несколько сконфуженно",
+      "vad": [
+        -0.35,
+        0.2,
+        -0.3
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.3833539139463038,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 20084,
+      "timeline_end_index": 20084,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 32,
+          "end": 53
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_08_06_0002",
+      "source_section": "chapter_08_06",
+      "source_sentence": 56,
+      "character_position": 547,
+      "text": "Ее нетерпение",
+      "vad": [
+        -0.45,
+        0.65,
+        -0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.3826131339241128,
+      "warning": null,
+      "chapter_sentence_start": 56,
+      "chapter_sentence_end": 56,
+      "timeline_start_index": 20121,
+      "timeline_end_index": 20121,
+      "highlights": [
+        {
+          "chapter_sentence": 56,
+          "start": 0,
+          "end": 13
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_08_06_0004",
+      "source_section": "chapter_08_06",
+      "source_sentence": 59,
+      "character_position": 548,
+      "text": "мать и ребенок одновременно почувствовали себя успокоенными",
+      "vad": [
+        0.65,
+        -0.45,
+        0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.7389091602748619,
+      "warning": null,
+      "chapter_sentence_start": 59,
+      "chapter_sentence_end": 59,
+      "timeline_start_index": 20124,
+      "timeline_end_index": 20124,
+      "highlights": [
+        {
+          "chapter_sentence": 59,
+          "start": 87,
+          "end": 146
+        }
+      ]
+    }
+  ]
+}

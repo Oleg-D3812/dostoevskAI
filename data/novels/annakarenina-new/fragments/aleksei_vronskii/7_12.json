@@ -1,0 +1,425 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "7_12",
+  "count": 16,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_07_12_0001",
+      "source_section": "chapter_07_12",
+      "source_sentence": 4,
+      "character_position": 569,
+      "text": "он любит меня",
+      "vad": [
+        0.75,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.2239981261264523,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 17894,
+      "timeline_end_index": 17894,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 127,
+          "end": 140
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_12_0002",
+      "source_section": "chapter_07_12",
+      "source_sentence": 12,
+      "character_position": 570,
+      "text": "Он рад случаю показать мне, что у него есть другие обязанности.",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.25
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.2413624012296996,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 17902,
+      "timeline_end_index": 17902,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 0,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_12_0003",
+      "source_section": "chapter_07_12",
+      "source_sentence": 15,
+      "character_position": 571,
+      "text": "Он хочет доказать мне, что его любовь ко мне не должна мешать его свободе.",
+      "vad": [
+        -0.58,
+        0.28,
+        0.12
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.3471632991182245,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 17905,
+      "timeline_end_index": 17905,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 0,
+          "end": 74
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_12_0004",
+      "source_section": "chapter_07_12",
+      "source_sentence": 30,
+      "character_position": 572,
+      "text": "оживленно и весело",
+      "vad": [
+        0.8,
+        0.7,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.425933048918553,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 17920,
+      "timeline_end_index": 17920,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 13,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_12_0005",
+      "source_section": "chapter_07_12",
+      "source_sentence": 49,
+      "character_position": 573,
+      "text": "холодной готовности к борьбе",
+      "vad": [
+        -0.35,
+        0.65,
+        0.75
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.8162092954546698,
+      "warning": null,
+      "chapter_sentence_start": 49,
+      "chapter_sentence_end": 49,
+      "timeline_start_index": 17939,
+      "timeline_end_index": 17939,
+      "highlights": [
+        {
+          "chapter_sentence": 49,
+          "start": 16,
+          "end": 44
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_12_0006",
+      "source_section": "chapter_07_12",
+      "source_sentence": 51,
+      "character_position": 574,
+      "text": "я хотел остаться и остался",
+      "vad": [
+        0.1,
+        0.2,
+        0.8
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.7580133322869412,
+      "warning": null,
+      "chapter_sentence_start": 51,
+      "chapter_sentence_end": 51,
+      "timeline_start_index": 17941,
+      "timeline_end_index": 17941,
+      "highlights": [
+        {
+          "chapter_sentence": 51,
+          "start": 11,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_12_0008",
+      "source_section": "chapter_07_12",
+      "source_sentence": 64,
+      "character_position": 575,
+      "text": "Для тебя это дело упрямства",
+      "vad": [
+        -0.55,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.3734095973440833,
+      "warning": null,
+      "chapter_sentence_start": 64,
+      "chapter_sentence_end": 64,
+      "timeline_start_index": 17954,
+      "timeline_end_index": 17954,
+      "highlights": [
+        {
+          "chapter_sentence": 64,
+          "start": 2,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_12_0010",
+      "source_section": "chapter_07_12",
+      "source_sentence": 63,
+      "character_position": 576,
+      "text": "лицо его приняло еще более, чем прежде, упорное выражение",
+      "vad": [
+        -0.45,
+        0.35,
+        0.7
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.6161919013971485,
+      "warning": null,
+      "chapter_sentence_start": 63,
+      "chapter_sentence_end": 63,
+      "timeline_start_index": 17953,
+      "timeline_end_index": 17953,
+      "highlights": [
+        {
+          "chapter_sentence": 63,
+          "start": 37,
+          "end": 94
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_12_0011",
+      "source_section": "chapter_07_12",
+      "source_sentence": 68,
+      "character_position": 577,
+      "text": "ты враждебно, именно враждебно относишься ко мне",
+      "vad": [
+        -0.82,
+        0.58,
+        -0.62
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.2411658328660152,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 17958,
+      "timeline_end_index": 17958,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 34,
+          "end": 82
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_12_0013",
+      "source_section": "chapter_07_12",
+      "source_sentence": 72,
+      "character_position": 578,
+      "text": "ужаснувшись пред выражением ее отчаянья",
+      "vad": [
+        -0.75,
+        0.8,
+        -0.35
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.3866001440614202,
+      "warning": null,
+      "chapter_sentence_start": 72,
+      "chapter_sentence_end": 72,
+      "timeline_start_index": 17962,
+      "timeline_end_index": 17962,
+      "highlights": [
+        {
+          "chapter_sentence": 72,
+          "start": 13,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_12_0014",
+      "source_section": "chapter_07_12",
+      "source_sentence": 79,
+      "character_position": 579,
+      "text": "тронутый ее отчаянием",
+      "vad": [
+        -0.25,
+        0.35,
+        0.05
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.296285745274031,
+      "warning": null,
+      "chapter_sentence_start": 79,
+      "chapter_sentence_end": 79,
+      "timeline_start_index": 17969,
+      "timeline_end_index": 17969,
+      "highlights": [
+        {
+          "chapter_sentence": 79,
+          "start": 69,
+          "end": 90
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_12_0015",
+      "source_section": "chapter_07_12",
+      "source_sentence": 86,
+      "character_position": 580,
+      "text": "в тоне, во взглядах его, все более и более делавшихся холодными",
+      "vad": [
+        -0.45,
+        -0.2,
+        0.35
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.3689168955771457,
+      "warning": null,
+      "chapter_sentence_start": 86,
+      "chapter_sentence_end": 86,
+      "timeline_start_index": 17976,
+      "timeline_end_index": 17976,
+      "highlights": [
+        {
+          "chapter_sentence": 86,
+          "start": 64,
+          "end": 127
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_12_0016",
+      "source_section": "chapter_07_12",
+      "source_sentence": 86,
+      "character_position": 581,
+      "text": "что он не простил ей ее победу",
+      "vad": [
+        -0.65,
+        0.25,
+        0.35
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.4306332972112362,
+      "warning": null,
+      "chapter_sentence_start": 86,
+      "chapter_sentence_end": 86,
+      "timeline_start_index": 17976,
+      "timeline_end_index": 17976,
+      "highlights": [
+        {
+          "chapter_sentence": 86,
+          "start": 141,
+          "end": 171
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_12_0017",
+      "source_section": "chapter_07_12",
+      "source_sentence": 86,
+      "character_position": 582,
+      "text": "то чувство упрямства, с которым она боролась, опять устанавливалось в нем",
+      "vad": [
+        -0.35,
+        0.2,
+        0.55
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.4047994101282965,
+      "warning": null,
+      "chapter_sentence_start": 86,
+      "chapter_sentence_end": 86,
+      "timeline_start_index": 17976,
+      "timeline_end_index": 17976,
+      "highlights": [
+        {
+          "chapter_sentence": 86,
+          "start": 177,
+          "end": 250
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_12_0018",
+      "source_section": "chapter_07_12",
+      "source_sentence": 87,
+      "character_position": 583,
+      "text": "Он был к ней холоднее, чем прежде",
+      "vad": [
+        -0.55,
+        -0.2,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.3833744442474908,
+      "warning": null,
+      "chapter_sentence_start": 87,
+      "chapter_sentence_end": 87,
+      "timeline_start_index": 17977,
+      "timeline_end_index": 17977,
+      "highlights": [
+        {
+          "chapter_sentence": 87,
+          "start": 0,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_12_0019",
+      "source_section": "chapter_07_12",
+      "source_sentence": 87,
+      "character_position": 584,
+      "text": "он раскаивался в том, что покорился",
+      "vad": [
+        -0.65,
+        0.3,
+        -0.45
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.1457274696913572,
+      "warning": null,
+      "chapter_sentence_start": 87,
+      "chapter_sentence_end": 87,
+      "timeline_start_index": 17977,
+      "timeline_end_index": 17977,
+      "highlights": [
+        {
+          "chapter_sentence": 87,
+          "start": 45,
+          "end": 80
+        }
+      ]
+    }
+  ]
+}

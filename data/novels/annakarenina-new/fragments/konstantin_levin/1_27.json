@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "1_27",
+  "count": 11,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_01_27_0001",
+      "source_section": "chapter_01_27",
+      "source_sentence": 4,
+      "character_position": 181,
+      "text": "для Левина казалась идеалом всякого совершенства и которую он мечтал возобновить с своею женой, с своею семьей",
+      "vad": [
+        0.85,
+        0.3,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.1736054349696938,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 2492,
+      "timeline_end_index": 2492,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 29,
+          "end": 139
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_27_0002",
+      "source_section": "chapter_01_27",
+      "source_sentence": 6,
+      "character_position": 182,
+      "text": "Понятие о ней было для него священным воспоминанием",
+      "vad": [
+        0.8,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.3028967982158316,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 2494,
+      "timeline_end_index": 2494,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 0,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_27_0003",
+      "source_section": "chapter_01_27",
+      "source_sentence": 8,
+      "character_position": 183,
+      "text": "для Левина это было главным делом жизни, от которого зависело все ее счастье",
+      "vad": [
+        0.85,
+        0.55,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.278416107050879,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 2496,
+      "timeline_end_index": 2496,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 144,
+          "end": 220
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_27_0004",
+      "source_section": "chapter_01_27",
+      "source_sentence": 10,
+      "character_position": 184,
+      "text": "он почувствовал, что, как ни странно это было, он не расстался с своими мечтами и что он без них жить не может",
+      "vad": [
+        0.45,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2742618539640639,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 2498,
+      "timeline_end_index": 2498,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 192,
+          "end": 302
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_27_0005",
+      "source_section": "chapter_01_27",
+      "source_sentence": 12,
+      "character_position": 185,
+      "text": "разные картины хозяйства и будущей семейной жизни без связи представлялись его воображению",
+      "vad": [
+        0.3,
+        0.15,
+        -0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.4970516791186741,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 2500,
+      "timeline_end_index": 2500,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 132,
+          "end": 222
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_27_0006",
+      "source_section": "chapter_01_27",
+      "source_sentence": 13,
+      "character_position": 186,
+      "text": "Он чувствовал, что в глубине его души что-то устанавливалось, умерялось и укладывалось",
+      "vad": [
+        0.45,
+        -0.25,
+        0.4
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.6704725690772865,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 2501,
+      "timeline_end_index": 2501,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 0,
+          "end": 86
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_27_0007",
+      "source_section": "chapter_01_27",
+      "source_sentence": 14,
+      "character_position": 187,
+      "text": "мыслей, возбужденных чтением",
+      "vad": [
+        0.1,
+        0.45,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5202756902848369,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 2502,
+      "timeline_end_index": 2502,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 218,
+          "end": 246
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_27_0008",
+      "source_section": "chapter_01_27",
+      "source_sentence": 17,
+      "character_position": 188,
+      "text": "всплывала радостная мысль",
+      "vad": [
+        0.8,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.1316072239688703,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 2505,
+      "timeline_end_index": 2505,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 8,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_27_0010",
+      "source_section": "chapter_01_27",
+      "source_sentence": 36,
+      "character_position": 189,
+      "text": "Он приподнял голову и задумался",
+      "vad": [
+        0.0,
+        -0.2,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3721682576972192,
+      "warning": null,
+      "chapter_sentence_start": 36,
+      "chapter_sentence_end": 36,
+      "timeline_start_index": 2524,
+      "timeline_end_index": 2524,
+      "highlights": [
+        {
+          "chapter_sentence": 36,
+          "start": 0,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_27_0011",
+      "source_section": "chapter_01_27",
+      "source_sentence": 47,
+      "character_position": 190,
+      "text": "Левин пристально смотрел на нее, удивляясь тому, как она поняла его мысли",
+      "vad": [
+        0.2,
+        0.35,
+        0.05
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.4965529740315992,
+      "warning": null,
+      "chapter_sentence_start": 47,
+      "chapter_sentence_end": 47,
+      "timeline_start_index": 2535,
+      "timeline_end_index": 2535,
+      "highlights": [
+        {
+          "chapter_sentence": 47,
+          "start": 0,
+          "end": 73
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_27_0013",
+      "source_section": "chapter_01_27",
+      "source_sentence": 57,
+      "character_position": 191,
+      "text": "Все хорошо",
+      "vad": [
+        0.8,
+        -0.5,
+        0.3
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.8500790332351947,
+      "warning": null,
+      "chapter_sentence_start": 57,
+      "chapter_sentence_end": 57,
+      "timeline_start_index": 2545,
+      "timeline_end_index": 2545,
+      "highlights": [
+        {
+          "chapter_sentence": 57,
+          "start": 0,
+          "end": 10
+        }
+      ]
+    }
+  ]
+}

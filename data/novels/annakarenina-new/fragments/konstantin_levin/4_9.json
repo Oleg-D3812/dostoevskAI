@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "4_9",
+  "count": 12,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_04_09_0001",
+      "source_section": "chapter_04_09",
+      "source_sentence": 36,
+      "character_position": 579,
+      "text": "не в состоянии был чувствовать всего удовольствия этого знакомства",
+      "vad": [
+        -0.45,
+        0.2,
+        -0.25
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3530676235598383,
+      "warning": null,
+      "chapter_sentence_start": 36,
+      "chapter_sentence_end": 36,
+      "timeline_start_index": 9664,
+      "timeline_end_index": 9664,
+      "highlights": [
+        {
+          "chapter_sentence": 36,
+          "start": 33,
+          "end": 99
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_09_0002",
+      "source_section": "chapter_04_09",
+      "source_sentence": 40,
+      "character_position": 580,
+      "text": "почувствовал такую радость и вместе такой страх, что ему захватило дыхание, и он не мог выговорить того, что хотел сказать",
+      "vad": [
+        0.2,
+        0.86,
+        -0.58
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.9809519771162434,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 9668,
+      "timeline_end_index": 9668,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 51,
+          "end": 173
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_09_0003",
+      "source_section": "chapter_04_09",
+      "source_sentence": 46,
+      "character_position": 581,
+      "text": "отчаянно-решительным шагом",
+      "vad": [
+        -0.35,
+        0.78,
+        0.55
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.8762491007679137,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 9674,
+      "timeline_end_index": 9674,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 72,
+          "end": 98
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_09_0004",
+      "source_section": "chapter_04_09",
+      "source_sentence": 56,
+      "character_position": 582,
+      "text": "сияя улыбкой счастья",
+      "vad": [
+        0.95,
+        0.65,
+        0.25
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.4257436800843134,
+      "warning": null,
+      "chapter_sentence_start": 56,
+      "chapter_sentence_end": 56,
+      "timeline_start_index": 9684,
+      "timeline_end_index": 9684,
+      "highlights": [
+        {
+          "chapter_sentence": 56,
+          "start": 52,
+          "end": 72
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_09_0005",
+      "source_section": "chapter_04_09",
+      "source_sentence": 60,
+      "character_position": 583,
+      "text": "чувствуя, что он захлебывается от счастия, которое заливает его душу",
+      "vad": [
+        0.98,
+        0.9,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.7355979322313481,
+      "warning": null,
+      "chapter_sentence_start": 60,
+      "chapter_sentence_end": 60,
+      "timeline_start_index": 9688,
+      "timeline_end_index": 9688,
+      "highlights": [
+        {
+          "chapter_sentence": 60,
+          "start": 40,
+          "end": 108
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_09_0006",
+      "source_section": "chapter_04_09",
+      "source_sentence": 69,
+      "character_position": 584,
+      "text": "заинтригованные, я по крайней мере",
+      "vad": [
+        0.35,
+        0.45,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.3597268700584483,
+      "warning": null,
+      "chapter_sentence_start": 69,
+      "chapter_sentence_end": 69,
+      "timeline_start_index": 9697,
+      "timeline_end_index": 9697,
+      "highlights": [
+        {
+          "chapter_sentence": 69,
+          "start": 95,
+          "end": 129
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_09_0007",
+      "source_section": "chapter_04_09",
+      "source_sentence": 103,
+      "character_position": 585,
+      "text": "которая душила его счастьем",
+      "vad": [
+        0.95,
+        0.85,
+        -0.25
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.7128621741529091,
+      "warning": null,
+      "chapter_sentence_start": 103,
+      "chapter_sentence_end": 103,
+      "timeline_start_index": 9731,
+      "timeline_end_index": 9731,
+      "highlights": [
+        {
+          "chapter_sentence": 103,
+          "start": 152,
+          "end": 179
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_09_0010",
+      "source_section": "chapter_04_09",
+      "source_sentence": 110,
+      "character_position": 586,
+      "text": "добродушно улыбаясь",
+      "vad": [
+        0.7,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2344104607123477,
+      "warning": null,
+      "chapter_sentence_start": 110,
+      "chapter_sentence_end": 110,
+      "timeline_start_index": 9738,
+      "timeline_end_index": 9738,
+      "highlights": [
+        {
+          "chapter_sentence": 110,
+          "start": 56,
+          "end": 75
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_09_0012",
+      "source_section": "chapter_04_09",
+      "source_sentence": 114,
+      "character_position": 587,
+      "text": "Левин чувствовал, что у него выросли крылья",
+      "vad": [
+        0.9,
+        0.7,
+        0.7
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.6899452857112887,
+      "warning": null,
+      "chapter_sentence_start": 114,
+      "chapter_sentence_end": 114,
+      "timeline_start_index": 9742,
+      "timeline_end_index": 9742,
+      "highlights": [
+        {
+          "chapter_sentence": 114,
+          "start": 16,
+          "end": 59
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_09_0013",
+      "source_section": "chapter_04_09",
+      "source_sentence": 116,
+      "character_position": 588,
+      "text": "это одно только занимало его",
+      "vad": [
+        0.45,
+        0.3,
+        0.05
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2599453451728369,
+      "warning": null,
+      "chapter_sentence_start": 116,
+      "chapter_sentence_end": 116,
+      "timeline_start_index": 9744,
+      "timeline_end_index": 9744,
+      "highlights": [
+        {
+          "chapter_sentence": 116,
+          "start": 2,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_09_0014",
+      "source_section": "chapter_04_09",
+      "source_sentence": 117,
+      "character_position": 589,
+      "text": "для него существовали только он, получивший для себя огромное значение и важность, и она",
+      "vad": [
+        0.9,
+        0.8,
+        0.5
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.6193388015350655,
+      "warning": null,
+      "chapter_sentence_start": 117,
+      "chapter_sentence_end": 117,
+      "timeline_start_index": 9745,
+      "timeline_end_index": 9745,
+      "highlights": [
+        {
+          "chapter_sentence": 117,
+          "start": 41,
+          "end": 129
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_09_0015",
+      "source_section": "chapter_04_09",
+      "source_sentence": 118,
+      "character_position": 590,
+      "text": "Он чувствовал себя на высоте, от которой кружилась голова",
+      "vad": [
+        0.85,
+        0.75,
+        0.65
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.6669368533328534,
+      "warning": null,
+      "chapter_sentence_start": 118,
+      "chapter_sentence_end": 118,
+      "timeline_start_index": 9746,
+      "timeline_end_index": 9746,
+      "highlights": [
+        {
+          "chapter_sentence": 118,
+          "start": 0,
+          "end": 57
+        }
+      ]
+    }
+  ]
+}

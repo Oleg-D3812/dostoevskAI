@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "6_16",
+  "count": 5,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_06_16_0001",
+      "source_section": "chapter_06_16",
+      "source_sentence": 75,
+      "character_position": 685,
+      "text": "Анна не любила своего?",
+      "vad": [
+        -0.2,
+        0.15,
+        -0.1
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.2003911702327884,
+      "warning": null,
+      "chapter_sentence_start": 75,
+      "chapter_sentence_end": 75,
+      "timeline_start_index": 15412,
+      "timeline_end_index": 15412,
+      "highlights": [
+        {
+          "chapter_sentence": 75,
+          "start": 50,
+          "end": 72
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_16_0002",
+      "source_section": "chapter_06_16",
+      "source_sentence": 77,
+      "character_position": 686,
+      "text": "Она хочет жить.",
+      "vad": [
+        0.35,
+        0.2,
+        -0.05
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.3553861444477073,
+      "warning": null,
+      "chapter_sentence_start": 77,
+      "chapter_sentence_end": 77,
+      "timeline_start_index": 15414,
+      "timeline_end_index": 15414,
+      "highlights": [
+        {
+          "chapter_sentence": 77,
+          "start": 0,
+          "end": 15
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_16_0003",
+      "source_section": "chapter_06_16",
+      "source_sentence": 93,
+      "character_position": 687,
+      "text": "Она счастлива",
+      "vad": [
+        0.85,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.2653286860959575,
+      "warning": null,
+      "chapter_sentence_start": 93,
+      "chapter_sentence_end": 93,
+      "timeline_start_index": 15430,
+      "timeline_end_index": 15430,
+      "highlights": [
+        {
+          "chapter_sentence": 93,
+          "start": 0,
+          "end": 13
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_16_0004",
+      "source_section": "chapter_06_16",
+      "source_sentence": 93,
+      "character_position": 688,
+      "text": "не забита, как я",
+      "vad": [
+        -0.55,
+        -0.1,
+        -0.65
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.6707796143836395,
+      "warning": null,
+      "chapter_sentence_start": 93,
+      "chapter_sentence_end": 93,
+      "timeline_start_index": 15430,
+      "timeline_end_index": 15430,
+      "highlights": [
+        {
+          "chapter_sentence": 93,
+          "start": 41,
+          "end": 57
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_16_0005",
+      "source_section": "chapter_06_16",
+      "source_sentence": 93,
+      "character_position": 689,
+      "text": "открыта ко всему",
+      "vad": [
+        0.6,
+        0.2,
+        0.3
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.1609030386782146,
+      "warning": null,
+      "chapter_sentence_start": 93,
+      "chapter_sentence_end": 93,
+      "timeline_start_index": 15430,
+      "timeline_end_index": 15430,
+      "highlights": [
+        {
+          "chapter_sentence": 93,
+          "start": 101,
+          "end": 117
+        }
+      ]
+    }
+  ]
+}

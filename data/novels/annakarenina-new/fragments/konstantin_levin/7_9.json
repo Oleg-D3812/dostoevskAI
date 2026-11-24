@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "7_9",
+  "count": 7,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_07_09_0001",
+      "source_section": "chapter_07_09",
+      "source_sentence": 4,
+      "character_position": 1153,
+      "text": "Левин продолжал испытывать впечатление клубного покоя, удовольствия и несомненной приличности окружающего",
+      "vad": [
+        0.75,
+        -0.45,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.7841020195713433,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 17641,
+      "timeline_end_index": 17641,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 58,
+          "end": 163
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_09_0002",
+      "source_section": "chapter_07_09",
+      "source_sentence": 4,
+      "character_position": 1154,
+      "text": "впечатление это разрушилось",
+      "vad": [
+        -0.55,
+        0.15,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3683818531262992,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 17641,
+      "timeline_end_index": 17641,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 362,
+          "end": 389
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_09_0003",
+      "source_section": "chapter_07_09",
+      "source_sentence": 6,
+      "character_position": 1155,
+      "text": "его сомнения",
+      "vad": [
+        -0.45,
+        0.15,
+        -0.35
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3575038404564906,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 17643,
+      "timeline_end_index": 17643,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 60,
+          "end": 72
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_09_0004",
+      "source_section": "chapter_07_09",
+      "source_sentence": 53,
+      "character_position": 1156,
+      "text": "все более и более сомневаясь в том, хорошо или дурно он делает",
+      "vad": [
+        -0.45,
+        0.28,
+        -0.4
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2617825494710752,
+      "warning": null,
+      "chapter_sentence_start": 53,
+      "chapter_sentence_end": 53,
+      "timeline_start_index": 17690,
+      "timeline_end_index": 17690,
+      "highlights": [
+        {
+          "chapter_sentence": 53,
+          "start": 18,
+          "end": 80
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_09_0005",
+      "source_section": "chapter_07_09",
+      "source_sentence": 54,
+      "character_position": 1157,
+      "text": "он был уверен, что не пьян",
+      "vad": [
+        0.1,
+        0.0,
+        0.45
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5391584476614819,
+      "warning": null,
+      "chapter_sentence_start": 54,
+      "chapter_sentence_end": 54,
+      "timeline_start_index": 17691,
+      "timeline_end_index": 17691,
+      "highlights": [
+        {
+          "chapter_sentence": 54,
+          "start": 58,
+          "end": 84
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_09_0006",
+      "source_section": "chapter_07_09",
+      "source_sentence": 62,
+      "character_position": 1158,
+      "text": "Он даже забыл, где был",
+      "vad": [
+        0.6,
+        0.4,
+        -0.4
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.5695819523249005,
+      "warning": null,
+      "chapter_sentence_start": 62,
+      "chapter_sentence_end": 62,
+      "timeline_start_index": 17699,
+      "timeline_end_index": 17699,
+      "highlights": [
+        {
+          "chapter_sentence": 62,
+          "start": 0,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_09_0007",
+      "source_section": "chapter_07_09",
+      "source_sentence": 63,
+      "character_position": 1159,
+      "text": "смущавшими его глазами",
+      "vad": [
+        -0.35,
+        0.45,
+        -0.4
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3158105944728236,
+      "warning": null,
+      "chapter_sentence_start": 63,
+      "chapter_sentence_end": 63,
+      "timeline_start_index": 17700,
+      "timeline_end_index": 17700,
+      "highlights": [
+        {
+          "chapter_sentence": 63,
+          "start": 205,
+          "end": 227
+        }
+      ]
+    }
+  ]
+}

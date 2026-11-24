@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "1_11",
+  "count": 10,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_01_11_0001",
+      "source_section": "chapter_01_11",
+      "source_sentence": 11,
+      "character_position": 109,
+      "text": "лицо его из того детски-восторженного выражения, которым только что любовался Облонский, вдруг перешло в злое и неприятное",
+      "vad": [
+        -0.72,
+        0.46,
+        0.08
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4953098356699395,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 989,
+      "timeline_end_index": 989,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 18,
+          "end": 140
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_11_0002",
+      "source_section": "chapter_01_11",
+      "source_sentence": 19,
+      "character_position": 110,
+      "text": "я не понимаю ничего",
+      "vad": [
+        -0.35,
+        0.3,
+        -0.25
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3766029171246744,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 997,
+      "timeline_end_index": 997,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 18,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_11_0003",
+      "source_section": "chapter_01_11",
+      "source_sentence": 19,
+      "character_position": 111,
+      "text": "мрачно насупливаясь",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.15
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2733668069939248,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 997,
+      "timeline_end_index": 997,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 55,
+          "end": 74
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_11_0004",
+      "source_section": "chapter_01_11",
+      "source_sentence": 26,
+      "character_position": 112,
+      "text": "Я буду пьян…",
+      "vad": [
+        -0.3,
+        0.1,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.25331135538673,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 1004,
+      "timeline_end_index": 1004,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 2,
+          "end": 14
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_11_0005",
+      "source_section": "chapter_01_11",
+      "source_sentence": 34,
+      "character_position": 113,
+      "text": "Теперь он всею душой раскаивался, что начал этот разговор со Степаном Аркадьичем",
+      "vad": [
+        -0.8,
+        0.45,
+        -0.35
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1498014814026022,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 1012,
+      "timeline_end_index": 1012,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 0,
+          "end": 80
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_11_0006",
+      "source_section": "chapter_01_11",
+      "source_sentence": 35,
+      "character_position": 114,
+      "text": "Его особенное чувство было осквернено разговором о конкуренции какого-то петербургского офицера, предположениями и советами Степана Аркадьича",
+      "vad": [
+        -0.7,
+        0.45,
+        -0.35
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.0736422622707345,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 1013,
+      "timeline_end_index": 1013,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 0,
+          "end": 141
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_11_0007",
+      "source_section": "chapter_01_11",
+      "source_sentence": 92,
+      "character_position": 115,
+      "text": "внутренней борьбе, которую он пережил",
+      "vad": [
+        -0.65,
+        0.55,
+        -0.35
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1363995736503804,
+      "warning": null,
+      "chapter_sentence_start": 92,
+      "chapter_sentence_end": 92,
+      "timeline_start_index": 1070,
+      "timeline_end_index": 1070,
+      "highlights": [
+        {
+          "chapter_sentence": 92,
+          "start": 47,
+          "end": 84
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_11_0008",
+      "source_section": "chapter_01_11",
+      "source_sentence": 95,
+      "character_position": 116,
+      "text": "я не знаю, решительно не знаю",
+      "vad": [
+        -0.25,
+        0.2,
+        -0.55
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4938262439997888,
+      "warning": null,
+      "chapter_sentence_start": 95,
+      "chapter_sentence_end": 95,
+      "timeline_start_index": 1073,
+      "timeline_end_index": 1073,
+      "highlights": [
+        {
+          "chapter_sentence": 95,
+          "start": 3,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_11_0009",
+      "source_section": "chapter_01_11",
+      "source_sentence": 105,
+      "character_position": 117,
+      "text": "каждый думает только о своем и одному до другого нет дела",
+      "vad": [
+        -0.75,
+        -0.15,
+        -0.4
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.5853748091790569,
+      "warning": null,
+      "chapter_sentence_start": 105,
+      "chapter_sentence_end": 105,
+      "timeline_start_index": 1083,
+      "timeline_end_index": 1083,
+      "highlights": [
+        {
+          "chapter_sentence": 105,
+          "start": 144,
+          "end": 201
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_11_0010",
+      "source_section": "chapter_01_11",
+      "source_sentence": 110,
+      "character_position": 118,
+      "text": "привел бы в ужас счет на его долю в четырнадцать рублей",
+      "vad": [
+        -0.85,
+        0.75,
+        -0.65
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4407519519393795,
+      "warning": null,
+      "chapter_sentence_start": 110,
+      "chapter_sentence_end": 110,
+      "timeline_start_index": 1088,
+      "timeline_end_index": 1088,
+      "highlights": [
+        {
+          "chapter_sentence": 110,
+          "start": 150,
+          "end": 205
+        }
+      ]
+    }
+  ]
+}

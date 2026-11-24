@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "7_5",
+  "count": 8,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_07_05_0001",
+      "source_section": "chapter_07_05",
+      "source_sentence": 3,
+      "character_position": 1128,
+      "text": "Левину хотелось составить о них свое мнение",
+      "vad": [
+        0.2,
+        0.25,
+        0.35
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.5265036672474439,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 17374,
+      "timeline_end_index": 17374,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 38,
+          "end": 81
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_05_0003",
+      "source_section": "chapter_07_05",
+      "source_sentence": 12,
+      "character_position": 1129,
+      "text": "Левин во все время исполнения испытывал чувство глухого, смотрящего на танцующих",
+      "vad": [
+        -0.6,
+        -0.1,
+        -0.55
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.5507757970718233,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 17383,
+      "timeline_end_index": 17383,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 0,
+          "end": 80
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_05_0004",
+      "source_section": "chapter_07_05",
+      "source_sentence": 13,
+      "character_position": 1130,
+      "text": "Он был в совершенном недоумении",
+      "vad": [
+        -0.45,
+        0.15,
+        -0.5
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.363221837459666,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 17384,
+      "timeline_end_index": 17384,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 0,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_05_0005",
+      "source_section": "chapter_07_05",
+      "source_sentence": 13,
+      "character_position": 1131,
+      "text": "чувствовал большую усталость от напряженного и ничем не вознагражденного внимания",
+      "vad": [
+        -0.75,
+        0.35,
+        -0.25
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1987312684214716,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 17384,
+      "timeline_end_index": 17384,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 58,
+          "end": 139
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_05_0007",
+      "source_section": "chapter_07_05",
+      "source_sentence": 16,
+      "character_position": 1132,
+      "text": "рад был",
+      "vad": [
+        0.65,
+        0.1,
+        0.05
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2570133992805838,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 17387,
+      "timeline_end_index": 17387,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 98,
+          "end": 105
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_05_0008",
+      "source_section": "chapter_07_05",
+      "source_sentence": 23,
+      "character_position": 1133,
+      "text": "робко спросил Левин",
+      "vad": [
+        -0.3,
+        0.2,
+        -0.4
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4309894459444849,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 17394,
+      "timeline_end_index": 17394,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 2,
+          "end": 21
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_05_0009",
+      "source_section": "chapter_07_05",
+      "source_sentence": 31,
+      "character_position": 1134,
+      "text": "Фраза эта понравилась ему",
+      "vad": [
+        0.45,
+        0.05,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.3698561282055437,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 17402,
+      "timeline_end_index": 17402,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 0,
+          "end": 25
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_05_0010",
+      "source_section": "chapter_07_05",
+      "source_sentence": 31,
+      "character_position": 1135,
+      "text": "он смутился",
+      "vad": [
+        -0.55,
+        0.35,
+        -0.3
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1784186576410307,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 17402,
+      "timeline_end_index": 17402,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 120,
+          "end": 131
+        }
+      ]
+    }
+  ]
+}

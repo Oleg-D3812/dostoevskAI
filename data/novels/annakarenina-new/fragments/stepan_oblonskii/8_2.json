@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "8_2",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_08_02_0001",
+      "source_section": "chapter_08_02",
+      "source_sentence": 45,
+      "character_position": 282,
+      "text": "сияя радостной улыбкой",
+      "vad": [
+        0.85,
+        0.45,
+        0.05
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.3038906373994416,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 19843,
+      "timeline_end_index": 19843,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 2,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_08_02_0003",
+      "source_section": "chapter_08_02",
+      "source_sentence": 62,
+      "character_position": 283,
+      "text": "А жаль, что вы уезжаете",
+      "vad": [
+        -0.35,
+        0.05,
+        0.0
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.0429838435150243,
+      "warning": null,
+      "chapter_sentence_start": 62,
+      "chapter_sentence_end": 62,
+      "timeline_start_index": 19860,
+      "timeline_end_index": 19860,
+      "highlights": [
+        {
+          "chapter_sentence": 62,
+          "start": 2,
+          "end": 25
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_08_02_0004",
+      "source_section": "chapter_08_02",
+      "source_sentence": 73,
+      "character_position": 284,
+      "text": "Не могу видеть этих кружек спокойно",
+      "vad": [
+        -0.35,
+        0.45,
+        -0.15
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.4306243797108843,
+      "warning": null,
+      "chapter_sentence_start": 73,
+      "chapter_sentence_end": 73,
+      "timeline_start_index": 19871,
+      "timeline_end_index": 19871,
+      "highlights": [
+        {
+          "chapter_sentence": 73,
+          "start": 2,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_08_02_0005",
+      "source_section": "chapter_08_02",
+      "source_sentence": 70,
+      "character_position": 285,
+      "text": "нисколько не смущало Степана Аркадьича",
+      "vad": [
+        0.35,
+        -0.25,
+        0.6
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.7237037773110728,
+      "warning": null,
+      "chapter_sentence_start": 70,
+      "chapter_sentence_end": 70,
+      "timeline_start_index": 19868,
+      "timeline_end_index": 19868,
+      "highlights": [
+        {
+          "chapter_sentence": 70,
+          "start": 71,
+          "end": 109
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_08_02_0006",
+      "source_section": "chapter_08_02",
+      "source_sentence": 78,
+      "character_position": 286,
+      "text": "лицо Степана Аркадьича выразило грусть",
+      "vad": [
+        -0.65,
+        -0.2,
+        -0.1
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.4143704549810699,
+      "warning": null,
+      "chapter_sentence_start": 78,
+      "chapter_sentence_end": 78,
+      "timeline_start_index": 19876,
+      "timeline_end_index": 19876,
+      "highlights": [
+        {
+          "chapter_sentence": 78,
+          "start": 13,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_08_02_0007",
+      "source_section": "chapter_08_02",
+      "source_sentence": 78,
+      "character_position": 287,
+      "text": "свои отчаянные рыдания над трупом сестры",
+      "vad": [
+        -0.98,
+        0.92,
+        -0.82
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.6882977749416449,
+      "warning": null,
+      "chapter_sentence_start": 78,
+      "chapter_sentence_end": 78,
+      "timeline_start_index": 19876,
+      "timeline_end_index": 19876,
+      "highlights": [
+        {
+          "chapter_sentence": 78,
+          "start": 206,
+          "end": 246
+        }
+      ]
+    }
+  ]
+}

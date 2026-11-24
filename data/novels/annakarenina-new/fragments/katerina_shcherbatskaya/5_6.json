@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "5_6",
+  "count": 9,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_06_0001",
+      "source_section": "chapter_05_06",
+      "source_sentence": 5,
+      "character_position": 347,
+      "text": "желая понять их смысл, но не могла",
+      "vad": [
+        -0.25,
+        0.1,
+        -0.45
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.5047534178305625,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 11657,
+      "timeline_end_index": 11657,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 28,
+          "end": 62
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_06_0002",
+      "source_section": "chapter_05_06",
+      "source_sentence": 6,
+      "character_position": 348,
+      "text": "Чувство торжества и светлой радости по мере совершения обряда все больше и больше переполняло ее душу и лишало ее возможности внимания",
+      "vad": [
+        0.95,
+        0.75,
+        -0.3
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.6992788903916548,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 11658,
+      "timeline_end_index": 11658,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 0,
+          "end": 134
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_06_0003",
+      "source_section": "chapter_05_06",
+      "source_sentence": 9,
+      "character_position": 349,
+      "text": "Все это было прекрасно",
+      "vad": [
+        0.9,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2620099127809583,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 11661,
+      "timeline_end_index": 11661,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 1,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_06_0005",
+      "source_section": "chapter_05_06",
+      "source_sentence": 9,
+      "character_position": 350,
+      "text": "улыбка радости, сообщавшаяся невольно всем смотревшим на нее, сияла на ее просветлевшем лице",
+      "vad": [
+        0.95,
+        0.55,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.3977725908831986,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 11661,
+      "timeline_end_index": 11661,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 96,
+          "end": 188
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_06_0006",
+      "source_section": "chapter_05_06",
+      "source_sentence": 14,
+      "character_position": 351,
+      "text": "тем радостным сиянием, которое было на ее лице",
+      "vad": [
+        0.9,
+        0.45,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.3233615569377256,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 11666,
+      "timeline_end_index": 11666,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 37,
+          "end": 83
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_06_0008",
+      "source_section": "chapter_05_06",
+      "source_sentence": 16,
+      "character_position": 352,
+      "text": "Им весело было слушать чтение послания апостольского и раскат голоса протодьякона при последнем стихе",
+      "vad": [
+        0.75,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.1746951421984064,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 11668,
+      "timeline_end_index": 11668,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 0,
+          "end": 101
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_06_0009",
+      "source_section": "chapter_05_06",
+      "source_sentence": 17,
+      "character_position": 353,
+      "text": "стало еще веселее",
+      "vad": [
+        0.85,
+        0.45,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2573711555226484,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 11669,
+      "timeline_end_index": 11669,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 64,
+          "end": 81
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_06_0010",
+      "source_section": "chapter_05_06",
+      "source_sentence": 19,
+      "character_position": 354,
+      "text": "Искра радости, зажегшаяся в Кити",
+      "vad": [
+        0.9,
+        0.5,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.351415816735709,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 11671,
+      "timeline_end_index": 11671,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 0,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_06_0011",
+      "source_section": "chapter_05_06",
+      "source_sentence": 23,
+      "character_position": 355,
+      "text": "новым сиянием счастия, которое было на ее лице",
+      "vad": [
+        0.95,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.3041406172654202,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 11675,
+      "timeline_end_index": 11675,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 23,
+          "end": 69
+        }
+      ]
+    }
+  ]
+}

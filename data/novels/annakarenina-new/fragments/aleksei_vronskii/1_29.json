@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "1_29",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_01_29_0001",
+      "source_section": "chapter_01_29",
+      "source_sentence": 25,
+      "character_position": 60,
+      "text": "Вронского и его влюбленное покорное лицо",
+      "vad": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.1733647190100058,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 2652,
+      "timeline_end_index": 2652,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 25,
+          "end": 65
+        }
+      ]
+    }
+  ]
+}

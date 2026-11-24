@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "4_10",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_04_10_0001",
+      "source_section": "chapter_04_10",
+      "source_sentence": 74,
+      "character_position": 158,
+      "text": "сочувствуя Песцову",
+      "vad": [
+        0.35,
+        0.15,
+        0.05
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.3630620972067628,
+      "warning": null,
+      "chapter_sentence_start": 74,
+      "chapter_sentence_end": 74,
+      "timeline_start_index": 9827,
+      "timeline_end_index": 9827,
+      "highlights": [
+        {
+          "chapter_sentence": 74,
+          "start": 86,
+          "end": 104
+        }
+      ]
+    }
+  ]
+}

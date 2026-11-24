@@ -110,11 +110,11 @@
     state.sphereIndices = [];
     visibleClusters.forEach(function(cluster) {
       traces.push({
-        type: "scatter3d", mode: "markers", name: cluster.display_id + " — " + cluster.name,
+        type: "scatter3d", mode: "markers", name: cluster.name,
         legendgroup: cluster.id, meta: "centroid:" + cluster.id,
         x: [cluster.centroid[0]], y: [cluster.centroid[1]], z: [cluster.centroid[2]],
         marker: { size: 4, color: cluster.color, symbol: "diamond" },
-        hovertemplate: escapeHtml(cluster.display_id + " — " + cluster.name) + "<br>n=" + cluster.size +
+        hovertemplate: escapeHtml(cluster.name) + "<br>n=" + cluster.size +
           "<br>centroid (%{x:.3f}, %{y:.3f}, %{z:.3f})<extra></extra>"
       });
       state.traceIndices.push(traces.length - 1);
@@ -248,8 +248,8 @@
     var warning = fragment.warning ? "<br>⚠ " + escapeHtml(fragment.warning) : "";
     return escapeHtml(character ? (character.name || character.label) : characterId) + "<br>" +
       escapeHtml(chapter ? chapter.label : chapterId) + "<br>" +
-      escapeHtml(fragment.text) + "<br>" +
-      escapeHtml(cluster ? cluster.name : fragment.cluster_id) + "<br>" +
+      "Фрагмент: " + escapeHtml(fragment.text) + "<br>" +
+      "Кластер: " + escapeHtml(cluster ? cluster.name : fragment.cluster_id) + "<br>" +
       "position " + fragment.character_position + " · distance " + Number(fragment.distance_to_centroid).toFixed(3) +
       warning;
   }

@@ -1,0 +1,503 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "1_6",
+  "count": 19,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_01_06_0001",
+      "source_section": "chapter_01_06",
+      "source_sentence": 1,
+      "character_position": 21,
+      "text": "Левин покраснел и рассердился на себя за то, что покраснел",
+      "vad": [
+        -0.65,
+        0.55,
+        -0.35
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1363995736503804,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 513,
+      "timeline_end_index": 513,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 65,
+          "end": 123
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_06_0002",
+      "source_section": "chapter_01_06",
+      "source_sentence": 5,
+      "character_position": 22,
+      "text": "влюбился в дом Щербацких",
+      "vad": [
+        0.85,
+        0.45,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.4132500675758749,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 517,
+      "timeline_end_index": 517,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 49,
+          "end": 73
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_06_0003",
+      "source_section": "chapter_01_06",
+      "source_sentence": 6,
+      "character_position": 23,
+      "text": "Константин Левин был влюблен именно в дом, в семью, в особенности в женскую половину семьи Щербацких",
+      "vad": [
+        0.8,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.1316072239688703,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 518,
+      "timeline_end_index": 518,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 40,
+          "end": 140
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_06_0004",
+      "source_section": "chapter_01_06",
+      "source_sentence": 9,
+      "character_position": 24,
+      "text": "был влюблен именно в эту таинственность совершавшегося",
+      "vad": [
+        0.88,
+        0.62,
+        -0.18
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.4871232608552618,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 521,
+      "timeline_end_index": 521,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 821,
+          "end": 875
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_06_0005",
+      "source_section": "chapter_01_06",
+      "source_sentence": 10,
+      "character_position": 25,
+      "text": "чуть было не влюбился в старшую, Долли",
+      "vad": [
+        0.55,
+        0.35,
+        -0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2923076799990765,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 522,
+      "timeline_end_index": 522,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 32,
+          "end": 70
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_06_0006",
+      "source_section": "chapter_01_06",
+      "source_sentence": 11,
+      "character_position": 26,
+      "text": "начал было влюбляться во вторую",
+      "vad": [
+        0.8,
+        0.4,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.1476339992131297,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 523,
+      "timeline_end_index": 523,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 9,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_06_0007",
+      "source_section": "chapter_01_06",
+      "source_sentence": 12,
+      "character_position": 27,
+      "text": "ему надо влюбиться в одну из сестер",
+      "vad": [
+        -0.15,
+        0.1,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.2682279622731236,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 524,
+      "timeline_end_index": 524,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 29,
+          "end": 64
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_06_0008",
+      "source_section": "chapter_01_06",
+      "source_sentence": 18,
+      "character_position": 28,
+      "text": "Левин был влюблен",
+      "vad": [
+        0.85,
+        0.55,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2816349041726294,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 530,
+      "timeline_end_index": 530,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 3,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_06_0009",
+      "source_section": "chapter_01_06",
+      "source_sentence": 18,
+      "character_position": 29,
+      "text": "ему казалось, что Кити была такое совершенство во всех отношениях, такое существо превыше всего земного, а он такое земное низменное существо",
+      "vad": [
+        -0.7,
+        0.35,
+        -0.75
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3496033334378113,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 530,
+      "timeline_end_index": 530,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 32,
+          "end": 173
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_06_0010",
+      "source_section": "chapter_01_06",
+      "source_sentence": 19,
+      "character_position": 30,
+      "text": "как в чаду",
+      "vad": [
+        -0.45,
+        0.35,
+        -0.55
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2677394787234257,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 531,
+      "timeline_end_index": 531,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 17,
+          "end": 27
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_06_0011",
+      "source_section": "chapter_01_06",
+      "source_sentence": 20,
+      "character_position": 31,
+      "text": "Убеждение Левина в том, что этого не может быть",
+      "vad": [
+        -0.65,
+        0.2,
+        -0.55
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2682043314623927,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 532,
+      "timeline_end_index": 532,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 0,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_06_0012",
+      "source_section": "chapter_01_06",
+      "source_sentence": 22,
+      "character_position": 32,
+      "text": "такого некрасивого, каким он считал себя, человека",
+      "vad": [
+        -0.75,
+        0.3,
+        -0.55
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2077045398443103,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 534,
+      "timeline_end_index": 534,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 53,
+          "end": 103
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_06_0014",
+      "source_section": "chapter_01_06",
+      "source_sentence": 24,
+      "character_position": 33,
+      "text": "какой он любил Кити",
+      "vad": [
+        0.85,
+        0.65,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.3937912930436956,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 536,
+      "timeline_end_index": 536,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 128,
+          "end": 147
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_06_0015",
+      "source_section": "chapter_01_06",
+      "source_sentence": 25,
+      "character_position": 34,
+      "text": "сам он мог любить только красивых, таинственных и особенных женщин",
+      "vad": [
+        0.45,
+        0.2,
+        0.3
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.3026783496946655,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 537,
+      "timeline_end_index": 537,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 115,
+          "end": 181
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_06_0017",
+      "source_section": "chapter_01_06",
+      "source_sentence": 26,
+      "character_position": 35,
+      "text": "что чувство это не давало ему минуты покоя",
+      "vad": [
+        -0.8,
+        0.82,
+        -0.58
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4467254942595262,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 538,
+      "timeline_end_index": 538,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 131,
+          "end": 173
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_06_0018",
+      "source_section": "chapter_01_06",
+      "source_sentence": 26,
+      "character_position": 36,
+      "text": "что он не мог жить, не решив вопроса: будет или не будет она его женой",
+      "vad": [
+        -0.85,
+        0.8,
+        -0.55
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4371613363546975,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 538,
+      "timeline_end_index": 538,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 175,
+          "end": 245
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_06_0019",
+      "source_section": "chapter_01_06",
+      "source_sentence": 26,
+      "character_position": 37,
+      "text": "его отчаяние",
+      "vad": [
+        -0.95,
+        0.85,
+        -0.8
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.6399929709469917,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 538,
+      "timeline_end_index": 538,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 253,
+          "end": 265
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_06_0020",
+      "source_section": "chapter_01_06",
+      "source_sentence": 27,
+      "character_position": 38,
+      "text": "с твердым решением сделать предложение и жениться",
+      "vad": [
+        0.55,
+        0.25,
+        0.8
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.6597491128406809,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 539,
+      "timeline_end_index": 539,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 29,
+          "end": 78
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_06_0021",
+      "source_section": "chapter_01_06",
+      "source_sentence": 28,
+      "character_position": 39,
+      "text": "он не мог думать о том, что с ним будет, если ему откажут",
+      "vad": [
+        -0.6,
+        0.45,
+        -0.55
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1545984846072905,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 540,
+      "timeline_end_index": 540,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 5,
+          "end": 62
+        }
+      ]
+    }
+  ]
+}

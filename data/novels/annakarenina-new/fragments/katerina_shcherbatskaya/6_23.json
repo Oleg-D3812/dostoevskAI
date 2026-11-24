@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "6_23",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_23_0001",
+      "source_section": "chapter_06_23",
+      "source_sentence": 10,
+      "character_position": 477,
+      "text": "не сердится она на меня?",
+      "vad": [
+        -0.45,
+        0.28,
+        -0.35
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.3415605316310492,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 16157,
+      "timeline_end_index": 16157,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 27,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_23_0002",
+      "source_section": "chapter_06_23",
+      "source_sentence": 13,
+      "character_position": 478,
+      "text": "Но ненавидит, презирает?",
+      "vad": [
+        -0.8,
+        0.65,
+        -0.45
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.1861635173578622,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 16160,
+      "timeline_end_index": 16160,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 2,
+          "end": 26
+        }
+      ]
+    }
+  ]
+}

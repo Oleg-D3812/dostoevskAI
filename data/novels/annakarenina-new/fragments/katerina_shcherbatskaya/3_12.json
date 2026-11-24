@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "3_12",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_03_12_0001",
+      "source_section": "chapter_03_12",
+      "source_sentence": 67,
+      "character_position": 268,
+      "text": "Светлая и задумчивая",
+      "vad": [
+        0.6,
+        -0.2,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.5060639003018632,
+      "warning": null,
+      "chapter_sentence_start": 67,
+      "chapter_sentence_end": 67,
+      "timeline_start_index": 7140,
+      "timeline_end_index": 7140,
+      "highlights": [
+        {
+          "chapter_sentence": 67,
+          "start": 0,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_03_12_0002",
+      "source_section": "chapter_03_12",
+      "source_sentence": 69,
+      "character_position": 269,
+      "text": "удивленная радость осветила ее лицо",
+      "vad": [
+        0.85,
+        0.55,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.354065353521439,
+      "warning": null,
+      "chapter_sentence_start": 69,
+      "chapter_sentence_end": 69,
+      "timeline_start_index": 7142,
+      "timeline_end_index": 7142,
+      "highlights": [
+        {
+          "chapter_sentence": 69,
+          "start": 18,
+          "end": 53
+        }
+      ]
+    }
+  ]
+}

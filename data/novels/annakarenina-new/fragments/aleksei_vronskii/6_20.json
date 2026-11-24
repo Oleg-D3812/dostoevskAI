@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "6_20",
+  "count": 5,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_06_20_0001",
+      "source_section": "chapter_06_20",
+      "source_sentence": 49,
+      "character_position": 489,
+      "text": "лицо его просияло от удовольствия",
+      "vad": [
+        0.9,
+        0.7,
+        0.3
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.459893038422146,
+      "warning": null,
+      "chapter_sentence_start": 49,
+      "chapter_sentence_end": 49,
+      "timeline_start_index": 15821,
+      "timeline_end_index": 15821,
+      "highlights": [
+        {
+          "chapter_sentence": 49,
+          "start": 15,
+          "end": 48
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_20_0002",
+      "source_section": "chapter_06_20",
+      "source_sentence": 51,
+      "character_position": 490,
+      "text": "более и более увлекаясь",
+      "vad": [
+        0.55,
+        0.5,
+        0.2
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.2267119339691445,
+      "warning": null,
+      "chapter_sentence_start": 51,
+      "chapter_sentence_end": 51,
+      "timeline_start_index": 15823,
+      "timeline_end_index": 15823,
+      "highlights": [
+        {
+          "chapter_sentence": 51,
+          "start": 38,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_20_0003",
+      "source_section": "chapter_06_20",
+      "source_sentence": 52,
+      "character_position": 491,
+      "text": "от души радовался похвалам Дарьи Александровны",
+      "vad": [
+        0.85,
+        0.55,
+        0.2
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.2989747553052177,
+      "warning": null,
+      "chapter_sentence_start": 52,
+      "chapter_sentence_end": 52,
+      "timeline_start_index": 15824,
+      "timeline_end_index": 15824,
+      "highlights": [
+        {
+          "chapter_sentence": 52,
+          "start": 147,
+          "end": 193
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_20_0004",
+      "source_section": "chapter_06_20",
+      "source_sentence": 68,
+      "character_position": 492,
+      "text": "так, я увлекся",
+      "vad": [
+        0.3,
+        0.45,
+        0.2
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.3983145733602241,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 15840,
+      "timeline_end_index": 15840,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 32,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_20_0005",
+      "source_section": "chapter_06_20",
+      "source_sentence": 102,
+      "character_position": 493,
+      "text": "доставляло очевидное удовольствие Вронскому",
+      "vad": [
+        0.85,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.2375180623229519,
+      "warning": null,
+      "chapter_sentence_start": 102,
+      "chapter_sentence_end": 102,
+      "timeline_start_index": 15874,
+      "timeline_end_index": 15874,
+      "highlights": [
+        {
+          "chapter_sentence": 102,
+          "start": 106,
+          "end": 149
+        }
+      ]
+    }
+  ]
+}

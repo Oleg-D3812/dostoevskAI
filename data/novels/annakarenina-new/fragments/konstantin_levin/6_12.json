@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "6_12",
+  "count": 5,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_06_12_0001",
+      "source_section": "chapter_06_12",
+      "source_sentence": 18,
+      "character_position": 968,
+      "text": "Ему хотелось, чтобы солнце не встало прежде, чем он дойдет до болота.",
+      "vad": [
+        -0.15,
+        0.38,
+        0.12
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3345174244362906,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 15000,
+      "timeline_end_index": 15000,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 0,
+          "end": 69
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_12_0002",
+      "source_section": "chapter_06_12",
+      "source_sentence": 60,
+      "character_position": 969,
+      "text": "в душе помолившись богу, чтобы был успех, особенно на первую птицу",
+      "vad": [
+        0.45,
+        0.2,
+        -0.25
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.4889059025826589,
+      "warning": null,
+      "chapter_sentence_start": 60,
+      "chapter_sentence_end": 60,
+      "timeline_start_index": 15042,
+      "timeline_end_index": 15042,
+      "highlights": [
+        {
+          "chapter_sentence": 60,
+          "start": 189,
+          "end": 255
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_12_0003",
+      "source_section": "chapter_06_12",
+      "source_sentence": 49,
+      "character_position": 970,
+      "text": "повторил приказание сердитым голосом",
+      "vad": [
+        -0.6,
+        0.65,
+        0.6
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.8745760501254312,
+      "warning": null,
+      "chapter_sentence_start": 49,
+      "chapter_sentence_end": 49,
+      "timeline_start_index": 15031,
+      "timeline_end_index": 15031,
+      "highlights": [
+        {
+          "chapter_sentence": 49,
+          "start": 71,
+          "end": 107
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_12_0004",
+      "source_section": "chapter_06_12",
+      "source_sentence": 69,
+      "character_position": 971,
+      "text": "взволнованным шепотом проговорил",
+      "vad": [
+        0.1,
+        0.75,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.7203962004453096,
+      "warning": null,
+      "chapter_sentence_start": 69,
+      "chapter_sentence_end": 69,
+      "timeline_start_index": 15051,
+      "timeline_end_index": 15051,
+      "highlights": [
+        {
+          "chapter_sentence": 69,
+          "start": 31,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_12_0005",
+      "source_section": "chapter_06_12",
+      "source_sentence": 93,
+      "character_position": 972,
+      "text": "было вдвойне приятно убить еще тут же раз за разом трех бекасов",
+      "vad": [
+        0.7,
+        0.4,
+        0.6
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.4467544288496268,
+      "warning": null,
+      "chapter_sentence_start": 93,
+      "chapter_sentence_end": 93,
+      "timeline_start_index": 15075,
+      "timeline_end_index": 15075,
+      "highlights": [
+        {
+          "chapter_sentence": 93,
+          "start": 61,
+          "end": 124
+        }
+      ]
+    }
+  ]
+}

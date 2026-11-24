@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "5_8",
+  "count": 14,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_05_08_0001",
+      "source_section": "chapter_05_08",
+      "source_sentence": 29,
+      "character_position": 403,
+      "text": "пожертвовал честолюбием для нее",
+      "vad": [
+        0.6,
+        0.2,
+        0.7
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.5039652226415318,
+      "warning": null,
+      "chapter_sentence_start": 29,
+      "chapter_sentence_end": 29,
+      "timeline_start_index": 11816,
+      "timeline_end_index": 11816,
+      "highlights": [
+        {
+          "chapter_sentence": 29,
+          "start": 133,
+          "end": 164
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_08_0002",
+      "source_section": "chapter_05_08",
+      "source_sentence": 30,
+      "character_position": 404,
+      "text": "Он был, более чем прежде, любовно-почтителен к ней",
+      "vad": [
+        0.75,
+        0.35,
+        -0.15
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.373841952081707,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 11817,
+      "timeline_end_index": 11817,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 0,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_08_0003",
+      "source_section": "chapter_05_08",
+      "source_sentence": 30,
+      "character_position": 405,
+      "text": "мысль о том, чтоб она никогда не почувствовала неловкости своего положения, ни на минуту не покидала его",
+      "vad": [
+        0.45,
+        0.3,
+        0.55
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.4035503022654984,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 11817,
+      "timeline_end_index": 11817,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 54,
+          "end": 158
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_08_0004",
+      "source_section": "chapter_05_08",
+      "source_sentence": 31,
+      "character_position": 406,
+      "text": "не имел своей воли",
+      "vad": [
+        -0.25,
+        -0.15,
+        -0.8
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.807566427019632,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 11818,
+      "timeline_end_index": 11818,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 85,
+          "end": 103
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_08_0005",
+      "source_section": "chapter_05_08",
+      "source_sentence": 31,
+      "character_position": 407,
+      "text": "был, казалось, только занят тем, как предупредить ее желания",
+      "vad": [
+        0.55,
+        0.2,
+        0.45
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.2880856510247321,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 11818,
+      "timeline_end_index": 11818,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 106,
+          "end": 166
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_08_0006",
+      "source_section": "chapter_05_08",
+      "source_sentence": 33,
+      "character_position": 408,
+      "text": "чего он желал так долго",
+      "vad": [
+        0.35,
+        0.25,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.3471334135302362,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 11820,
+      "timeline_end_index": 11820,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 59,
+          "end": 82
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_08_0007",
+      "source_section": "chapter_05_08",
+      "source_sentence": 33,
+      "character_position": 409,
+      "text": "не был вполне счастлив",
+      "vad": [
+        -0.45,
+        0.05,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.2270194268607328,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 11820,
+      "timeline_end_index": 11820,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 84,
+          "end": 106
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_08_0008",
+      "source_section": "chapter_05_08",
+      "source_sentence": 34,
+      "character_position": 410,
+      "text": "осуществление его желания доставило ему только песчинку из той горы счастия, которой он ожидал",
+      "vad": [
+        -0.72,
+        0.12,
+        -0.28
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.370126433759749,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 11821,
+      "timeline_end_index": 11821,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 27,
+          "end": 121
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_08_0009",
+      "source_section": "chapter_05_08",
+      "source_sentence": 36,
+      "character_position": 411,
+      "text": "почувствовал всю прелесть свободы вообще, которой он не знал прежде, и свободы любви, и был доволен, но недолго",
+      "vad": [
+        0.55,
+        0.2,
+        0.5
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.3303666185572056,
+      "warning": null,
+      "chapter_sentence_start": 36,
+      "chapter_sentence_end": 36,
+      "timeline_start_index": 11823,
+      "timeline_end_index": 11823,
+      "highlights": [
+        {
+          "chapter_sentence": 36,
+          "start": 77,
+          "end": 188
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_08_0010",
+      "source_section": "chapter_05_08",
+      "source_sentence": 37,
+      "character_position": 412,
+      "text": "в душе его поднялись желания желаний, таска",
+      "vad": [
+        -0.1,
+        0.4,
+        -0.2
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.5242438694016034,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 11824,
+      "timeline_end_index": 11824,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 27,
+          "end": 70
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_08_0011",
+      "source_section": "chapter_05_08",
+      "source_sentence": 38,
+      "character_position": 413,
+      "text": "стал хвататься за каждый мимолетный каприз, принимая его за желание и цель",
+      "vad": [
+        -0.55,
+        0.35,
+        -0.45
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.1715318941235575,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 11825,
+      "timeline_end_index": 11825,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 29,
+          "end": 103
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_08_0012",
+      "source_section": "chapter_05_08",
+      "source_sentence": 43,
+      "character_position": 414,
+      "text": "совершенно бессознательно хватался",
+      "vad": [
+        -0.2,
+        0.2,
+        -0.5
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.5509301671452689,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 11830,
+      "timeline_end_index": 11830,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 102,
+          "end": 136
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_08_0013",
+      "source_section": "chapter_05_08",
+      "source_sentence": 44,
+      "character_position": 415,
+      "text": "тот незанятый запас желаний, который требовал удовлетворения",
+      "vad": [
+        -0.25,
+        0.55,
+        -0.2
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.5343645836862524,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 11831,
+      "timeline_end_index": 11831,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 187,
+          "end": 247
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_08_0014",
+      "source_section": "chapter_05_08",
+      "source_sentence": 47,
+      "character_position": 416,
+      "text": "он вдохновлялся очень быстро и легко",
+      "vad": [
+        0.7,
+        0.4,
+        0.6
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.3978318763378266,
+      "warning": null,
+      "chapter_sentence_start": 47,
+      "chapter_sentence_end": 47,
+      "timeline_start_index": 11834,
+      "timeline_end_index": 11834,
+      "highlights": [
+        {
+          "chapter_sentence": 47,
+          "start": 123,
+          "end": 159
+        }
+      ]
+    }
+  ]
+}

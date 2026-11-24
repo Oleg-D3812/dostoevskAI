@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "6_25",
+  "count": 8,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_06_25_0002",
+      "source_section": "chapter_06_25",
+      "source_sentence": 10,
+      "character_position": 786,
+      "text": "главная забота ее все-таки была она сама",
+      "vad": [
+        -0.2,
+        0.2,
+        -0.1
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.2038183387845986,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 16405,
+      "timeline_end_index": 16405,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 3,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_25_0003",
+      "source_section": "chapter_06_25",
+      "source_sentence": 11,
+      "character_position": 787,
+      "text": "желание не только нравиться, но служить ему",
+      "vad": [
+        0.55,
+        0.2,
+        -0.35
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.5325538445825855,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 16406,
+      "timeline_end_index": 16406,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 61,
+          "end": 104
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_25_0004",
+      "source_section": "chapter_06_25",
+      "source_sentence": 31,
+      "character_position": 788,
+      "text": "Анна приняла это известие очень спокойно",
+      "vad": [
+        0.05,
+        -0.55,
+        0.35
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.9045412408516176,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 16426,
+      "timeline_end_index": 16426,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 21,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_25_0005",
+      "source_section": "chapter_06_25",
+      "source_sentence": 34,
+      "character_position": 789,
+      "text": "эту способность ее уходить в себя",
+      "vad": [
+        -0.2,
+        -0.35,
+        0.25
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.6002064624592564,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 16429,
+      "timeline_end_index": 16429,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 8,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_25_0006",
+      "source_section": "chapter_06_25",
+      "source_sentence": 34,
+      "character_position": 790,
+      "text": "на что-нибудь решилась про себя",
+      "vad": [
+        -0.1,
+        0.1,
+        0.6
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.6725461960439214,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 16429,
+      "timeline_end_index": 16429,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 89,
+          "end": 120
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_25_0007",
+      "source_section": "chapter_06_25",
+      "source_sentence": 37,
+      "character_position": 791,
+      "text": "Надеюсь",
+      "vad": [
+        0.2,
+        0.1,
+        -0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.5300292989044592,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 16432,
+      "timeline_end_index": 16432,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 2,
+          "end": 9
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_25_0008",
+      "source_section": "chapter_06_25",
+      "source_sentence": 39,
+      "character_position": 792,
+      "text": "я не буду скучать",
+      "vad": [
+        0.2,
+        -0.2,
+        0.2
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.6445357211143463,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 16434,
+      "timeline_end_index": 16434,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 5,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_25_0009",
+      "source_section": "chapter_06_25",
+      "source_sentence": 40,
+      "character_position": 793,
+      "text": "Она хочет взять этот тон",
+      "vad": [
+        0.05,
+        0.1,
+        0.35
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.5623199088870993,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 16435,
+      "timeline_end_index": 16435,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 1,
+          "end": 25
+        }
+      ]
+    }
+  ]
+}

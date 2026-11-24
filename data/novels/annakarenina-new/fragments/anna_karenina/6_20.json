@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "6_20",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_06_20_0001",
+      "source_section": "chapter_06_20",
+      "source_sentence": 62,
+      "character_position": 726,
+      "text": "с тою же хитрою, знающею улыбкой",
+      "vad": [
+        0.35,
+        0.15,
+        0.45
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.4097222565817268,
+      "warning": null,
+      "chapter_sentence_start": 62,
+      "chapter_sentence_end": 62,
+      "timeline_start_index": 15834,
+      "timeline_end_index": 15834,
+      "highlights": [
+        {
+          "chapter_sentence": 62,
+          "start": 78,
+          "end": 110
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_20_0002",
+      "source_section": "chapter_06_20",
+      "source_sentence": 85,
+      "character_position": 727,
+      "text": "я очень интересуюсь этим",
+      "vad": [
+        0.45,
+        0.35,
+        0.05
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.2095329892168979,
+      "warning": null,
+      "chapter_sentence_start": 85,
+      "chapter_sentence_end": 85,
+      "timeline_start_index": 15857,
+      "timeline_end_index": 15857,
+      "highlights": [
+        {
+          "chapter_sentence": 85,
+          "start": 6,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_20_0003",
+      "source_section": "chapter_06_20",
+      "source_sentence": 117,
+      "character_position": 728,
+      "text": "как Анна могла влюбиться в него",
+      "vad": [
+        0.45,
+        0.05,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.3393611326184443,
+      "warning": null,
+      "chapter_sentence_start": 117,
+      "chapter_sentence_end": 117,
+      "timeline_start_index": 15889,
+      "timeline_end_index": 15889,
+      "highlights": [
+        {
+          "chapter_sentence": 117,
+          "start": 63,
+          "end": 94
+        }
+      ]
+    }
+  ]
+}

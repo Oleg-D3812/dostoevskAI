@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "2_16",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_16_0001",
+      "source_section": "chapter_02_16",
+      "source_sentence": 2,
+      "character_position": 165,
+      "text": "больно было ей",
+      "vad": [
+        0.45,
+        0.15,
+        0.05
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2584549930355781,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 4337,
+      "timeline_end_index": 4337,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 73,
+          "end": 87
+        }
+      ]
+    }
+  ]
+}

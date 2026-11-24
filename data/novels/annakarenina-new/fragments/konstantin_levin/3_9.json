@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "3_9",
+  "count": 7,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_03_09_0001",
+      "source_section": "chapter_03_09",
+      "source_sentence": 14,
+      "character_position": 403,
+      "text": "вдруг смутился",
+      "vad": [
+        -0.45,
+        0.35,
+        -0.3
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2545897019841235,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 6864,
+      "timeline_end_index": 6864,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 118,
+          "end": 132
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_09_0002",
+      "source_section": "chapter_03_09",
+      "source_sentence": 15,
+      "character_position": 404,
+      "text": "Он смутился",
+      "vad": [
+        -0.45,
+        0.35,
+        -0.25
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2800753718808911,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 6865,
+      "timeline_end_index": 6865,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 0,
+          "end": 11
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_09_0003",
+      "source_section": "chapter_03_09",
+      "source_sentence": 19,
+      "character_position": 405,
+      "text": "очень рад",
+      "vad": [
+        0.9,
+        0.5,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2777347743775532,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 6869,
+      "timeline_end_index": 6869,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 96,
+          "end": 105
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_09_0004",
+      "source_section": "chapter_03_09",
+      "source_sentence": 36,
+      "character_position": 406,
+      "text": "детски-веселое расположение духа",
+      "vad": [
+        0.85,
+        0.55,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.278416107050879,
+      "warning": null,
+      "chapter_sentence_start": 36,
+      "chapter_sentence_end": 36,
+      "timeline_start_index": 6886,
+      "timeline_end_index": 6886,
+      "highlights": [
+        {
+          "chapter_sentence": 36,
+          "start": 114,
+          "end": 146
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_09_0006",
+      "source_section": "chapter_03_09",
+      "source_sentence": 49,
+      "character_position": 407,
+      "text": "страстно желал услыхать подробности о Кити и вместе боялся этого",
+      "vad": [
+        -0.15,
+        0.78,
+        -0.38
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.6239232935369188,
+      "warning": null,
+      "chapter_sentence_start": 49,
+      "chapter_sentence_end": 49,
+      "timeline_start_index": 6899,
+      "timeline_end_index": 6899,
+      "highlights": [
+        {
+          "chapter_sentence": 49,
+          "start": 17,
+          "end": 81
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_09_0007",
+      "source_section": "chapter_03_09",
+      "source_sentence": 50,
+      "character_position": 408,
+      "text": "Ему страшно было",
+      "vad": [
+        -0.8,
+        0.7,
+        -0.5
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3154954352182661,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 50,
+      "timeline_start_index": 6900,
+      "timeline_end_index": 6900,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 0,
+          "end": 16
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_09_0008",
+      "source_section": "chapter_03_09",
+      "source_sentence": 50,
+      "character_position": 409,
+      "text": "приобретенное им с таким трудом спокойствие",
+      "vad": [
+        -0.45,
+        0.35,
+        0.3
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4271136717686415,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 50,
+      "timeline_start_index": 6900,
+      "timeline_end_index": 6900,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 34,
+          "end": 77
+        }
+      ]
+    }
+  ]
+}

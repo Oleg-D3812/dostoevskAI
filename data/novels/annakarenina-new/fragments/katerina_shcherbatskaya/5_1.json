@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "5_1",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_01_0002",
+      "source_section": "chapter_05_01",
+      "source_sentence": 16,
+      "character_position": 320,
+      "text": "не только не понимала этого дела, но и не хотела понимать",
+      "vad": [
+        -0.35,
+        0.1,
+        0.3
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.2662600868779733,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 11145,
+      "timeline_end_index": 11145,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 19,
+          "end": 76
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_01_0003",
+      "source_section": "chapter_05_01",
+      "source_sentence": 17,
+      "character_position": 321,
+      "text": "считать это дело очень важным",
+      "vad": [
+        0.45,
+        0.05,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.3384804656388809,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 11146,
+      "timeline_end_index": 11146,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 26,
+          "end": 55
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_01_0004",
+      "source_section": "chapter_05_01",
+      "source_sentence": 18,
+      "character_position": 322,
+      "text": "желала ехать не за границу, где она не будет жить, а туда, где будет их дом",
+      "vad": [
+        0.65,
+        0.2,
+        0.4
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2820611229785257,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 11147,
+      "timeline_end_index": 11147,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 50,
+          "end": 125
+        }
+      ]
+    }
+  ]
+}

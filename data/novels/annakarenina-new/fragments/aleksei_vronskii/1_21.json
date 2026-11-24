@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "1_21",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_01_21_0001",
+      "source_section": "chapter_01_21",
+      "source_sentence": 38,
+      "character_position": 53,
+      "text": "в выражении его лица сделалось что-то пристыженное и испуганное",
+      "vad": [
+        -0.78,
+        0.68,
+        -0.7
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.3448524187266423,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 1989,
+      "timeline_end_index": 1989,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 84,
+          "end": 147
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_21_0002",
+      "source_section": "chapter_01_21",
+      "source_sentence": 39,
+      "character_position": 54,
+      "text": "спокойный голос отказывавшегося Вронского",
+      "vad": [
+        0.1,
+        -0.6,
+        0.3
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.8011182169266676,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 1990,
+      "timeline_end_index": 1990,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 138,
+          "end": 179
+        }
+      ]
+    }
+  ]
+}

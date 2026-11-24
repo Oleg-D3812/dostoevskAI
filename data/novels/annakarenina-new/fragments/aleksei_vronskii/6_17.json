@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "6_17",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_06_17_0001",
+      "source_section": "chapter_06_17",
+      "source_sentence": 73,
+      "character_position": 482,
+      "text": "как мы рады вашему приезду",
+      "vad": [
+        0.85,
+        0.45,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.2530588802468673,
+      "warning": null,
+      "chapter_sentence_start": 73,
+      "chapter_sentence_end": 73,
+      "timeline_start_index": 15506,
+      "timeline_end_index": 15506,
+      "highlights": [
+        {
+          "chapter_sentence": 73,
+          "start": 18,
+          "end": 44
+        }
+      ]
+    }
+  ]
+}

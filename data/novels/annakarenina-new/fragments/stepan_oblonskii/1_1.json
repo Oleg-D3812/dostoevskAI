@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "1_1",
+  "count": 10,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_01_01_0001",
+      "source_section": "chapter_01_01",
+      "source_sentence": 17,
+      "character_position": 1,
+      "text": "Глаза Степана Аркадьича весело заблестели, и он задумался, улыбаясь.",
+      "vad": [
+        0.7,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.1136678742687276,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 16,
+      "timeline_end_index": 16,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 0,
+          "end": 68
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_01_0002",
+      "source_section": "chapter_01_01",
+      "source_sentence": 18,
+      "character_position": 2,
+      "text": "хорошо было, очень хорошо",
+      "vad": [
+        0.85,
+        0.3,
+        0.0
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.2797972969366479,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 17,
+      "timeline_end_index": 17,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 5,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_01_0003",
+      "source_section": "chapter_01_01",
+      "source_sentence": 20,
+      "character_position": 3,
+      "text": "весело скинул ноги с дивана",
+      "vad": [
+        0.65,
+        0.4,
+        0.25
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.1396533666122144,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 19,
+      "timeline_end_index": 19,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 70,
+          "end": 97
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_01_0004",
+      "source_section": "chapter_01_01",
+      "source_sentence": 25,
+      "character_position": 4,
+      "text": "вся безвыходность его положения и мучительнее всего собственная вина его",
+      "vad": [
+        -0.95,
+        0.68,
+        -0.88
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.5790313950049549,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 24,
+      "timeline_end_index": 24,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 69,
+          "end": 141
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_01_0005",
+      "source_section": "chapter_01_01",
+      "source_sentence": 27,
+      "character_position": 5,
+      "text": "виной всему я, виной я, а не виноват",
+      "vad": [
+        -0.85,
+        0.65,
+        -0.7
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.3835235293666539,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 26,
+      "timeline_end_index": 26,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 24,
+          "end": 60
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_01_0006",
+      "source_section": "chapter_01_01",
+      "source_sentence": 30,
+      "character_position": 6,
+      "text": "с отчаянием",
+      "vad": [
+        -0.95,
+        0.8,
+        -0.75
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.5532117485685976,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 29,
+      "timeline_end_index": 29,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 18,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_01_0007",
+      "source_section": "chapter_01_01",
+      "source_sentence": 35,
+      "character_position": 7,
+      "text": "мучало Степана Аркадьича",
+      "vad": [
+        -0.85,
+        0.55,
+        -0.5
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.2148234649829167,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 34,
+      "timeline_end_index": 34,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 47,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_01_0008",
+      "source_section": "chapter_01_01",
+      "source_sentence": 40,
+      "character_position": 8,
+      "text": "не мог простить себе",
+      "vad": [
+        -0.75,
+        0.2,
+        -0.55
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.2799511573811249,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 39,
+      "timeline_end_index": 39,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 21,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_01_0009",
+      "source_section": "chapter_01_01",
+      "source_sentence": 43,
+      "character_position": 9,
+      "text": "Всему виной эта глупая улыбка",
+      "vad": [
+        -0.55,
+        0.2,
+        -0.25
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.3261842729666713,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 42,
+      "timeline_end_index": 42,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 1,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_01_0010",
+      "source_section": "chapter_01_01",
+      "source_sentence": 45,
+      "character_position": 10,
+      "text": "с отчаянием говорил он себе",
+      "vad": [
+        -0.85,
+        0.7,
+        -0.7
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.4128548426593375,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 44,
+      "timeline_end_index": 44,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 2,
+          "end": 29
+        }
+      ]
+    }
+  ]
+}

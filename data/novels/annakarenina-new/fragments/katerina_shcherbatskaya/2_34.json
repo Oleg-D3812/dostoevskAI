@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "2_34",
+  "count": 8,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_34_0001",
+      "source_section": "chapter_02_34",
+      "source_sentence": 11,
+      "character_position": 232,
+      "text": "Кити уже не поражала эта противоположность.",
+      "vad": [
+        -0.05,
+        -0.25,
+        0.05
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.3996952288550979,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 5891,
+      "timeline_end_index": 5891,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 0,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_34_0002",
+      "source_section": "chapter_02_34",
+      "source_sentence": 30,
+      "character_position": 233,
+      "text": "с радостью узнала",
+      "vad": [
+        0.75,
+        0.3,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.1630583115357387,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 5910,
+      "timeline_end_index": 5910,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 83,
+          "end": 100
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_34_0003",
+      "source_section": "chapter_02_34",
+      "source_sentence": 40,
+      "character_position": 234,
+      "text": "Кити со страхом",
+      "vad": [
+        -0.7,
+        0.65,
+        -0.45
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.1565592149294342,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 5920,
+      "timeline_end_index": 5920,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 11,
+          "end": 26
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_34_0004",
+      "source_section": "chapter_02_34",
+      "source_sentence": 43,
+      "character_position": 235,
+      "text": "уже испуганная",
+      "vad": [
+        -0.65,
+        0.55,
+        -0.45
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.0751373358590453,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 5923,
+      "timeline_end_index": 5923,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 17,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_34_0005",
+      "source_section": "chapter_02_34",
+      "source_sentence": 89,
+      "character_position": 236,
+      "text": "поднявшееся волнение в ней",
+      "vad": [
+        -0.45,
+        0.65,
+        -0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.3826131339241128,
+      "warning": null,
+      "chapter_sentence_start": 89,
+      "chapter_sentence_end": 89,
+      "timeline_start_index": 5969,
+      "timeline_end_index": 5969,
+      "highlights": [
+        {
+          "chapter_sentence": 89,
+          "start": 81,
+          "end": 107
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_34_0007",
+      "source_section": "chapter_02_34",
+      "source_sentence": 131,
+      "character_position": 237,
+      "text": "горячо возразила",
+      "vad": [
+        -0.1,
+        0.75,
+        0.4
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.7520758725519603,
+      "warning": null,
+      "chapter_sentence_start": 131,
+      "chapter_sentence_end": 131,
+      "timeline_start_index": 6011,
+      "timeline_end_index": 6011,
+      "highlights": [
+        {
+          "chapter_sentence": 131,
+          "start": 2,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_34_0008",
+      "source_section": "chapter_02_34",
+      "source_sentence": 138,
+      "character_position": 238,
+      "text": "она и отцу не хотела открыть свои тайные мысли",
+      "vad": [
+        -0.25,
+        0.15,
+        0.55
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.4979890742524301,
+      "warning": null,
+      "chapter_sentence_start": 138,
+      "chapter_sentence_end": 138,
+      "timeline_start_index": 6018,
+      "timeline_end_index": 6018,
+      "highlights": [
+        {
+          "chapter_sentence": 138,
+          "start": 58,
+          "end": 104
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_34_0009",
+      "source_section": "chapter_02_34",
+      "source_sentence": 139,
+      "character_position": 239,
+      "text": "так готовилась не подчиниться взгляду отца, не дать ему доступа в свою святыню",
+      "vad": [
+        -0.25,
+        0.35,
+        0.55
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.5556584166279938,
+      "warning": null,
+      "chapter_sentence_start": 139,
+      "chapter_sentence_end": 139,
+      "timeline_start_index": 6019,
+      "timeline_end_index": 6019,
+      "highlights": [
+        {
+          "chapter_sentence": 139,
+          "start": 47,
+          "end": 125
+        }
+      ]
+    }
+  ]
+}

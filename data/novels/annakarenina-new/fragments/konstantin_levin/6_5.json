@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "6_5",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_06_05_0001",
+      "source_section": "chapter_06_05",
+      "source_sentence": 51,
+      "character_position": 882,
+      "text": "даже сердито закричал Левин",
+      "vad": [
+        -0.55,
+        0.72,
+        0.38
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.7896551828204939,
+      "warning": null,
+      "chapter_sentence_start": 51,
+      "chapter_sentence_end": 51,
+      "timeline_start_index": 14246,
+      "timeline_end_index": 14246,
+      "highlights": [
+        {
+          "chapter_sentence": 51,
+          "start": 2,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_05_0002",
+      "source_section": "chapter_06_05",
+      "source_sentence": 56,
+      "character_position": 883,
+      "text": "с удовольствием замечал в ней Левин",
+      "vad": [
+        0.7,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.1438806009164361,
+      "warning": null,
+      "chapter_sentence_start": 56,
+      "chapter_sentence_end": 56,
+      "timeline_start_index": 14251,
+      "timeline_end_index": 14251,
+      "highlights": [
+        {
+          "chapter_sentence": 56,
+          "start": 81,
+          "end": 116
+        }
+      ]
+    }
+  ]
+}

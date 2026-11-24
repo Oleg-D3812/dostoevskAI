@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "7_18",
+  "count": 7,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_07_18_0001",
+      "source_section": "chapter_07_18",
+      "source_sentence": 2,
+      "character_position": 224,
+      "text": "стряхнув с себя это неприятное впечатление",
+      "vad": [
+        -0.45,
+        0.25,
+        0.35
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.4312530460770017,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 18387,
+      "timeline_end_index": 18387,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 38,
+          "end": 80
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_18_0002",
+      "source_section": "chapter_07_18",
+      "source_sentence": 7,
+      "character_position": 225,
+      "text": "побоявшись испортить этим дело",
+      "vad": [
+        -0.55,
+        0.45,
+        -0.35
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.1510035174548491,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 18392,
+      "timeline_end_index": 18392,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 95,
+          "end": 125
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_18_0003",
+      "source_section": "chapter_07_18",
+      "source_sentence": 34,
+      "character_position": 226,
+      "text": "мы все родные, все любящие ее",
+      "vad": [
+        0.7,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.2662792474250956,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 18419,
+      "timeline_end_index": 18419,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 6,
+          "end": 35
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_18_0004",
+      "source_section": "chapter_07_18",
+      "source_sentence": 38,
+      "character_position": 227,
+      "text": "как будто он был уверен, что это прикосновение смягчает зятя",
+      "vad": [
+        0.3,
+        0.2,
+        0.5
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.471410089258752,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 18423,
+      "timeline_end_index": 18423,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 102,
+          "end": 162
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_18_0005",
+      "source_section": "chapter_07_18",
+      "source_sentence": 63,
+      "character_position": 228,
+      "text": "я не хочу верить этому!",
+      "vad": [
+        -0.8,
+        0.75,
+        -0.45
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.3320289727634097,
+      "warning": null,
+      "chapter_sentence_start": 63,
+      "chapter_sentence_end": 63,
+      "timeline_start_index": 18448,
+      "timeline_end_index": 18448,
+      "highlights": [
+        {
+          "chapter_sentence": 63,
+          "start": 36,
+          "end": 59
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_18_0006",
+      "source_section": "chapter_07_18",
+      "source_sentence": 71,
+      "character_position": 229,
+      "text": "я не узнаю тебя",
+      "vad": [
+        -0.45,
+        0.25,
+        -0.2
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.3353399379155707,
+      "warning": null,
+      "chapter_sentence_start": 71,
+      "chapter_sentence_end": 71,
+      "timeline_start_index": 18456,
+      "timeline_end_index": 18456,
+      "highlights": [
+        {
+          "chapter_sentence": 71,
+          "start": 25,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_18_0007",
+      "source_section": "chapter_07_18",
+      "source_sentence": 76,
+      "character_position": 230,
+      "text": "сконфуженно улыбаясь",
+      "vad": [
+        -0.3,
+        0.2,
+        -0.2
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.2739674015628749,
+      "warning": null,
+      "chapter_sentence_start": 76,
+      "chapter_sentence_end": 76,
+      "timeline_start_index": 18461,
+      "timeline_end_index": 18461,
+      "highlights": [
+        {
+          "chapter_sentence": 76,
+          "start": 48,
+          "end": 68
+        }
+      ]
+    }
+  ]
+}

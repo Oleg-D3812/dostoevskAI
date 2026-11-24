@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "2_4",
+  "count": 5,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_02_04_0002",
+      "source_section": "chapter_02_04",
+      "source_sentence": 38,
+      "character_position": 80,
+      "text": "с своею спокойною добродушною улыбкой",
+      "vad": [
+        0.5,
+        -0.35,
+        0.4
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.7069851858915754,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 3349,
+      "timeline_end_index": 3349,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 66,
+          "end": 103
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_04_0003",
+      "source_section": "chapter_02_04",
+      "source_sentence": 38,
+      "character_position": 81,
+      "text": "Я только того и желаю, чтобы быть пойманным",
+      "vad": [
+        0.55,
+        0.25,
+        -0.2
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.4354127368569427,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 3349,
+      "timeline_end_index": 3349,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 2,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_04_0004",
+      "source_section": "chapter_02_04",
+      "source_sentence": 40,
+      "character_position": 82,
+      "text": "Я начинаю терять надежду",
+      "vad": [
+        -0.65,
+        0.2,
+        -0.55
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.2538806403466343,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 3351,
+      "timeline_end_index": 3351,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 0,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_04_0005",
+      "source_section": "chapter_02_04",
+      "source_sentence": 46,
+      "character_position": 83,
+      "text": "Я боюсь, что становлюсь смешон",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.35
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.1298662804097058,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 3357,
+      "timeline_end_index": 3357,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 2,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_04_0006",
+      "source_section": "chapter_02_04",
+      "source_sentence": 48,
+      "character_position": 84,
+      "text": "с гордою и веселою, игравшею под его усами улыбкой",
+      "vad": [
+        0.78,
+        0.42,
+        0.76
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.5677554358069388,
+      "warning": null,
+      "chapter_sentence_start": 48,
+      "chapter_sentence_end": 48,
+      "timeline_start_index": 3359,
+      "timeline_end_index": 3359,
+      "highlights": [
+        {
+          "chapter_sentence": 48,
+          "start": 358,
+          "end": 408
+        }
+      ]
+    }
+  ]
+}

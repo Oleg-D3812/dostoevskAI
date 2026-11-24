@@ -1,0 +1,529 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "3_3",
+  "count": 20,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_03_03_0001",
+      "source_section": "chapter_03_03",
+      "source_sentence": 6,
+      "character_position": 328,
+      "text": "неохотно",
+      "vad": [
+        -0.35,
+        -0.25,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4157029710601247,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 6284,
+      "timeline_end_index": 6284,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 28,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_03_0002",
+      "source_section": "chapter_03_03",
+      "source_sentence": 17,
+      "character_position": 329,
+      "text": "задетый за живое словами брата",
+      "vad": [
+        -0.7,
+        0.45,
+        -0.25
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1663603857535227,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 6295,
+      "timeline_end_index": 6295,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 29,
+          "end": 59
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_03_0003",
+      "source_section": "chapter_03_03",
+      "source_sentence": 34,
+      "character_position": 330,
+      "text": "ему остается только покориться или признаться в недостатке любви к общему делу",
+      "vad": [
+        -0.55,
+        0.28,
+        -0.68
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.328085564768785,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 6312,
+      "timeline_end_index": 6312,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 33,
+          "end": 111
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_03_0004",
+      "source_section": "chapter_03_03",
+      "source_sentence": 35,
+      "character_position": 331,
+      "text": "И это его оскорбило и огорчило",
+      "vad": [
+        -0.85,
+        0.35,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2917836795715691,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 6313,
+      "timeline_end_index": 6313,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 0,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_03_0005",
+      "source_section": "chapter_03_03",
+      "source_sentence": 22,
+      "character_position": 332,
+      "text": "Мне не кажется важным, не забирает меня",
+      "vad": [
+        -0.1,
+        -0.3,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4027992642767206,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 6300,
+      "timeline_end_index": 6300,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 2,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_03_0006",
+      "source_section": "chapter_03_03",
+      "source_sentence": 50,
+      "character_position": 333,
+      "text": "чувствовал себя нравственно припертым к стене и потому разгорячился",
+      "vad": [
+        -0.72,
+        0.7,
+        -0.68
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3855760074652422,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 50,
+      "timeline_start_index": 6328,
+      "timeline_end_index": 6328,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 17,
+          "end": 84
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_03_0007",
+      "source_section": "chapter_03_03",
+      "source_sentence": 80,
+      "character_position": 334,
+      "text": "это раздражило Левина",
+      "vad": [
+        -0.72,
+        0.48,
+        0.08
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.496960657995298,
+      "warning": null,
+      "chapter_sentence_start": 80,
+      "chapter_sentence_end": 80,
+      "timeline_start_index": 6358,
+      "timeline_end_index": 6358,
+      "highlights": [
+        {
+          "chapter_sentence": 80,
+          "start": 2,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_03_0008",
+      "source_section": "chapter_03_03",
+      "source_sentence": 82,
+      "character_position": 335,
+      "text": "горячась",
+      "vad": [
+        -0.3,
+        0.7,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.6506152042700107,
+      "warning": null,
+      "chapter_sentence_start": 82,
+      "chapter_sentence_end": 82,
+      "timeline_start_index": 6360,
+      "timeline_end_index": 6360,
+      "highlights": [
+        {
+          "chapter_sentence": 82,
+          "start": 2,
+          "end": 10
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_03_0009",
+      "source_section": "chapter_03_03",
+      "source_sentence": 89,
+      "character_position": 336,
+      "text": "личный интерес меня не побуждает",
+      "vad": [
+        -0.1,
+        -0.2,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3449533870560108,
+      "warning": null,
+      "chapter_sentence_start": 89,
+      "chapter_sentence_end": 89,
+      "timeline_start_index": 6367,
+      "timeline_end_index": 6367,
+      "highlights": [
+        {
+          "chapter_sentence": 89,
+          "start": 157,
+          "end": 189
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_03_0010",
+      "source_section": "chapter_03_03",
+      "source_sentence": 95,
+      "character_position": 337,
+      "text": "Хотелось сбросить с себя это ярмо, которое давило нас, всех хороших людей",
+      "vad": [
+        -0.75,
+        0.6,
+        -0.35
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.200542515291423,
+      "warning": null,
+      "chapter_sentence_start": 95,
+      "chapter_sentence_end": 95,
+      "timeline_start_index": 6373,
+      "timeline_end_index": 6373,
+      "highlights": [
+        {
+          "chapter_sentence": 95,
+          "start": 0,
+          "end": 73
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_03_0011",
+      "source_section": "chapter_03_03",
+      "source_sentence": 98,
+      "character_position": 338,
+      "text": "ему казалось, что это все идет к делу",
+      "vad": [
+        0.2,
+        0.1,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.455091977801242,
+      "warning": null,
+      "chapter_sentence_start": 98,
+      "chapter_sentence_end": 98,
+      "timeline_start_index": 6376,
+      "timeline_end_index": 6376,
+      "highlights": [
+        {
+          "chapter_sentence": 98,
+          "start": 80,
+          "end": 117
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_03_0012",
+      "source_section": "chapter_03_03",
+      "source_sentence": 101,
+      "character_position": 339,
+      "text": "я готов всеми силами защищать эти права, защищать мои права образования, свободы",
+      "vad": [
+        0.65,
+        0.75,
+        0.8
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.766951810894839,
+      "warning": null,
+      "chapter_sentence_start": 101,
+      "chapter_sentence_end": 101,
+      "timeline_start_index": 6379,
+      "timeline_end_index": 6379,
+      "highlights": [
+        {
+          "chapter_sentence": 101,
+          "start": 189,
+          "end": 269
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_03_0013",
+      "source_section": "chapter_03_03",
+      "source_sentence": 102,
+      "character_position": 340,
+      "text": "я готов обсуждать то, что меня касается",
+      "vad": [
+        0.2,
+        0.25,
+        0.5
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.59749650689403,
+      "warning": null,
+      "chapter_sentence_start": 102,
+      "chapter_sentence_end": 102,
+      "timeline_start_index": 6380,
+      "timeline_end_index": 6380,
+      "highlights": [
+        {
+          "chapter_sentence": 102,
+          "start": 92,
+          "end": 131
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_03_0014",
+      "source_section": "chapter_03_03",
+      "source_sentence": 92,
+      "character_position": 341,
+      "text": "все более горячась",
+      "vad": [
+        -0.35,
+        0.78,
+        0.18
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.7295432772615926,
+      "warning": null,
+      "chapter_sentence_start": 92,
+      "chapter_sentence_end": 92,
+      "timeline_start_index": 6370,
+      "timeline_end_index": 6370,
+      "highlights": [
+        {
+          "chapter_sentence": 92,
+          "start": 2,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_03_0015",
+      "source_section": "chapter_03_03",
+      "source_sentence": 109,
+      "character_position": 342,
+      "text": "не могу я от души поливать и верить в эти березки",
+      "vad": [
+        -0.55,
+        0.25,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2162498861090528,
+      "warning": null,
+      "chapter_sentence_start": 109,
+      "chapter_sentence_end": 109,
+      "timeline_start_index": 6387,
+      "timeline_end_index": 6387,
+      "highlights": [
+        {
+          "chapter_sentence": 109,
+          "start": 221,
+          "end": 270
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_03_0016",
+      "source_section": "chapter_03_03",
+      "source_sentence": 112,
+      "character_position": 343,
+      "text": "хотелось оправдаться в том недостатке, который он знал за собой, в равнодушии к общему благу",
+      "vad": [
+        -0.45,
+        0.15,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.2638274624096487,
+      "warning": null,
+      "chapter_sentence_start": 112,
+      "chapter_sentence_end": 112,
+      "timeline_start_index": 6390,
+      "timeline_end_index": 6390,
+      "highlights": [
+        {
+          "chapter_sentence": 112,
+          "start": 22,
+          "end": 114
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_03_0017",
+      "source_section": "chapter_03_03",
+      "source_sentence": 123,
+      "character_position": 344,
+      "text": "у тебя это временное заблуждение",
+      "vad": [
+        -0.3,
+        -0.1,
+        0.7
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.676790762323818,
+      "warning": null,
+      "chapter_sentence_start": 123,
+      "chapter_sentence_end": 123,
+      "timeline_start_index": 6401,
+      "timeline_end_index": 6401,
+      "highlights": [
+        {
+          "chapter_sentence": 123,
+          "start": 121,
+          "end": 153
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_03_0018",
+      "source_section": "chapter_03_03",
+      "source_sentence": 125,
+      "character_position": 345,
+      "text": "Он чувствовал, что он разбит со всех сторон",
+      "vad": [
+        -0.82,
+        0.18,
+        -0.78
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4712153902813733,
+      "warning": null,
+      "chapter_sentence_start": 125,
+      "chapter_sentence_end": 125,
+      "timeline_start_index": 6403,
+      "timeline_end_index": 6403,
+      "highlights": [
+        {
+          "chapter_sentence": 125,
+          "start": 0,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_03_0019",
+      "source_section": "chapter_03_03",
+      "source_sentence": 125,
+      "character_position": 346,
+      "text": "он чувствовал вместе с тем, что то, что он хотел сказать, было не понято его братом",
+      "vad": [
+        -0.55,
+        0.05,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3979741077065291,
+      "warning": null,
+      "chapter_sentence_start": 125,
+      "chapter_sentence_end": 125,
+      "timeline_start_index": 6403,
+      "timeline_end_index": 6403,
+      "highlights": [
+        {
+          "chapter_sentence": 125,
+          "start": 48,
+          "end": 131
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_03_0020",
+      "source_section": "chapter_03_03",
+      "source_sentence": 127,
+      "character_position": 347,
+      "text": "задумался о совершенно другом, личном своем деле",
+      "vad": [
+        0.1,
+        -0.2,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4457528575592874,
+      "warning": null,
+      "chapter_sentence_start": 127,
+      "chapter_sentence_end": 127,
+      "timeline_start_index": 6405,
+      "timeline_end_index": 6405,
+      "highlights": [
+        {
+          "chapter_sentence": 127,
+          "start": 60,
+          "end": 108
+        }
+      ]
+    }
+  ]
+}

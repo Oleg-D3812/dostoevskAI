@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "1_16",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_16_0001",
+      "source_section": "chapter_01_16",
+      "source_sentence": 6,
+      "character_position": 67,
+      "text": "которая полюбила его",
+      "vad": [
+        0.5,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.1793313773958468,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 1432,
+      "timeline_end_index": 1432,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 139,
+          "end": 159
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_16_0003",
+      "source_section": "chapter_01_16",
+      "source_sentence": 13,
+      "character_position": 68,
+      "text": "Кити будет несчастна",
+      "vad": [
+        -0.45,
+        0.0,
+        -0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.2739087673142908,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 1439,
+      "timeline_end_index": 1439,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 124,
+          "end": 144
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_16_0005",
+      "source_section": "chapter_01_16",
+      "source_sentence": 20,
+      "character_position": 69,
+      "text": "она сказала мне, что любит",
+      "vad": [
+        0.8,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.1622281441883412,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 1446,
+      "timeline_end_index": 1446,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 409,
+          "end": 435
+        }
+      ]
+    }
+  ]
+}

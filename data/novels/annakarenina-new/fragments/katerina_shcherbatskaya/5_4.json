@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "5_4",
+  "count": 13,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_04_0001",
+      "source_section": "chapter_05_04",
+      "source_sentence": 5,
+      "character_position": 333,
+      "text": "А она-то, матушка, ни жива ни мертва!",
+      "vad": [
+        -0.85,
+        0.85,
+        -0.7
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.4637531321237642,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 11482,
+      "timeline_end_index": 11482,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 2,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_04_0002",
+      "source_section": "chapter_05_04",
+      "source_sentence": 40,
+      "character_position": 334,
+      "text": "улыбкой счастья, которая теперь была ей так естественна",
+      "vad": [
+        0.9,
+        0.25,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2501590976605105,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 11517,
+      "timeline_end_index": 11517,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 55,
+          "end": 110
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_04_0003",
+      "source_section": "chapter_05_04",
+      "source_sentence": 85,
+      "character_position": 335,
+      "text": "не могла слушать и понимать их: так сильно было одно то чувство, которое наполняло ее душу и все более и более усиливалось",
+      "vad": [
+        0.8,
+        0.85,
+        -0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.6703779369592423,
+      "warning": null,
+      "chapter_sentence_start": 85,
+      "chapter_sentence_end": 85,
+      "timeline_start_index": 11562,
+      "timeline_end_index": 11562,
+      "highlights": [
+        {
+          "chapter_sentence": 85,
+          "start": 4,
+          "end": 126
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_04_0004",
+      "source_section": "chapter_05_04",
+      "source_sentence": 86,
+      "character_position": 336,
+      "text": "Чувство это была радость полного совершения того, что уже полтора месяца совершилось в ее душе и что в продолжение всех этих шести недель радовало и мучало ее",
+      "vad": [
+        0.55,
+        0.7,
+        0.25
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.4434324263722194,
+      "warning": "non_verbatim_evidence",
+      "chapter_sentence_start": 86,
+      "chapter_sentence_end": 86,
+      "timeline_start_index": 11563,
+      "timeline_end_index": 11563,
+      "highlights": [
+        {
+          "chapter_sentence": 86,
+          "start": 0,
+          "end": 158
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_04_0005",
+      "source_section": "chapter_05_04",
+      "source_sentence": 87,
+      "character_position": 337,
+      "text": "в душе ее в этот день и час совершился полный разрыв со всею прежнею жизнью",
+      "vad": [
+        -0.2,
+        0.55,
+        0.35
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.5418046959939606,
+      "warning": null,
+      "chapter_sentence_start": 87,
+      "chapter_sentence_end": 87,
+      "timeline_start_index": 11564,
+      "timeline_end_index": 11564,
+      "highlights": [
+        {
+          "chapter_sentence": 87,
+          "start": 118,
+          "end": 193
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_04_0006",
+      "source_section": "chapter_05_04",
+      "source_sentence": 88,
+      "character_position": 338,
+      "text": "самое блаженное и самое мучительное для нее время",
+      "vad": [
+        -0.05,
+        0.85,
+        -0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.7799953911730705,
+      "warning": null,
+      "chapter_sentence_start": 88,
+      "chapter_sentence_end": 88,
+      "timeline_start_index": 11565,
+      "timeline_end_index": 11565,
+      "highlights": [
+        {
+          "chapter_sentence": 88,
+          "start": 22,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_04_0007",
+      "source_section": "chapter_05_04",
+      "source_sentence": 89,
+      "character_position": 339,
+      "text": "все желания, надежды были сосредоточены на одном этом непонятном еще для нее человеке, с которым связывало ее какое-то еще более непонятное, чем сам человек, то сближающее, то отталкивающее чувство",
+      "vad": [
+        0.15,
+        0.65,
+        -0.3
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.7570675690452773,
+      "warning": null,
+      "chapter_sentence_start": 89,
+      "chapter_sentence_end": 89,
+      "timeline_start_index": 11566,
+      "timeline_end_index": 11566,
+      "highlights": [
+        {
+          "chapter_sentence": 89,
+          "start": 14,
+          "end": 211
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_04_0008",
+      "source_section": "chapter_05_04",
+      "source_sentence": 90,
+      "character_position": 340,
+      "text": "она ужасалась на себя, на свое полное непреодолимое равнодушие ко всему своему прошедшему",
+      "vad": [
+        -0.85,
+        0.72,
+        -0.78
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.4319352858358612,
+      "warning": null,
+      "chapter_sentence_start": 90,
+      "chapter_sentence_end": 90,
+      "timeline_start_index": 11567,
+      "timeline_end_index": 11567,
+      "highlights": [
+        {
+          "chapter_sentence": 90,
+          "start": 20,
+          "end": 109
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_04_0009",
+      "source_section": "chapter_05_04",
+      "source_sentence": 91,
+      "character_position": 341,
+      "text": "То она ужасалась на это равнодушие, то радовалась тому, что привело ее к этому равнодушию.",
+      "vad": [
+        0.0,
+        0.65,
+        -0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.6558940962100615,
+      "warning": null,
+      "chapter_sentence_start": 91,
+      "chapter_sentence_end": 91,
+      "timeline_start_index": 11568,
+      "timeline_end_index": 11568,
+      "highlights": [
+        {
+          "chapter_sentence": 91,
+          "start": 0,
+          "end": 90
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_04_0010",
+      "source_section": "chapter_05_04",
+      "source_sentence": 92,
+      "character_position": 342,
+      "text": "Ни думать, ни желать она ничего не могла вне жизни с этим человеком; но этой новой жизни еще не было, и она не могла себе даже представить ее ясно.",
+      "vad": [
+        -0.15,
+        0.3,
+        -0.4
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.5067956218095403,
+      "warning": null,
+      "chapter_sentence_start": 92,
+      "chapter_sentence_end": 92,
+      "timeline_start_index": 11569,
+      "timeline_end_index": 11569,
+      "highlights": [
+        {
+          "chapter_sentence": 92,
+          "start": 0,
+          "end": 147
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_04_0011",
+      "source_section": "chapter_05_04",
+      "source_sentence": 93,
+      "character_position": 343,
+      "text": "Было одно ожидание — страх и радость нового и неизвестного.",
+      "vad": [
+        0.1,
+        0.7,
+        -0.3
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.7798150672610936,
+      "warning": null,
+      "chapter_sentence_start": 93,
+      "chapter_sentence_end": 93,
+      "timeline_start_index": 11570,
+      "timeline_end_index": 11570,
+      "highlights": [
+        {
+          "chapter_sentence": 93,
+          "start": 0,
+          "end": 59
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_04_0012",
+      "source_section": "chapter_05_04",
+      "source_sentence": 94,
+      "character_position": 344,
+      "text": "ожидание, и неизвестность, и раскаяние в отречении от прежней жизни",
+      "vad": [
+        -0.55,
+        0.4,
+        -0.35
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.1999005402233022,
+      "warning": null,
+      "chapter_sentence_start": 94,
+      "chapter_sentence_end": 94,
+      "timeline_start_index": 11571,
+      "timeline_end_index": 11571,
+      "highlights": [
+        {
+          "chapter_sentence": 94,
+          "start": 17,
+          "end": 84
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_04_0013",
+      "source_section": "chapter_05_04",
+      "source_sentence": 95,
+      "character_position": 345,
+      "text": "Это новое не могло быть не страшно по своей неизвестности",
+      "vad": [
+        -0.45,
+        0.45,
+        -0.35
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.2701115065700981,
+      "warning": null,
+      "chapter_sentence_start": 95,
+      "chapter_sentence_end": 95,
+      "timeline_start_index": 11572,
+      "timeline_end_index": 11572,
+      "highlights": [
+        {
+          "chapter_sentence": 95,
+          "start": 0,
+          "end": 57
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,451 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "1_16",
+  "count": 17,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_01_16_0001",
+      "source_section": "chapter_01_16",
+      "source_sentence": 6,
+      "character_position": 24,
+      "text": "он испытал, после роскошной и грубой петербургской жизни, прелесть сближения со светскою, милою и невинною девушкой",
+      "vad": [
+        0.8,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.1709403845017806,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 1432,
+      "timeline_end_index": 1432,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 22,
+          "end": 137
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_16_0002",
+      "source_section": "chapter_01_16",
+      "source_sentence": 10,
+      "character_position": 25,
+      "text": "он чувствовал, что она все более и более становилась в зависимость от него",
+      "vad": [
+        0.1,
+        0.2,
+        0.6
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.6008985415904897,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 1436,
+      "timeline_end_index": 1436,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 84,
+          "end": 158
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_16_0003",
+      "source_section": "chapter_01_16",
+      "source_sentence": 10,
+      "character_position": 26,
+      "text": "ему было приятнее",
+      "vad": [
+        0.7,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.2416317535213761,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 1436,
+      "timeline_end_index": 1436,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 196,
+          "end": 213
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_16_0004",
+      "source_section": "chapter_01_16",
+      "source_sentence": 10,
+      "character_position": 27,
+      "text": "его чувство к ней становилось нежнее",
+      "vad": [
+        0.7,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.2416317535213761,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 1436,
+      "timeline_end_index": 1436,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 216,
+          "end": 252
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_16_0005",
+      "source_section": "chapter_01_16",
+      "source_sentence": 12,
+      "character_position": 28,
+      "text": "наслаждался своим открытием",
+      "vad": [
+        0.85,
+        0.35,
+        0.25
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.1855680228020827,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 1438,
+      "timeline_end_index": 1438,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 55,
+          "end": 82
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_16_0006",
+      "source_section": "chapter_01_16",
+      "source_sentence": 13,
+      "character_position": 29,
+      "text": "он бы очень удивился и не поверил бы этому",
+      "vad": [
+        -0.1,
+        0.7,
+        -0.1
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.70176264496117,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 1439,
+      "timeline_end_index": 1439,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 173,
+          "end": 215
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_16_0007",
+      "source_section": "chapter_01_16",
+      "source_sentence": 14,
+      "character_position": 30,
+      "text": "не мог поверить тому",
+      "vad": [
+        -0.1,
+        0.2,
+        -0.15
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.391727189899037,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 1440,
+      "timeline_end_index": 1440,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 3,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_16_0009",
+      "source_section": "chapter_01_16",
+      "source_sentence": 17,
+      "character_position": 31,
+      "text": "не любил семейной жизни",
+      "vad": [
+        -0.65,
+        -0.2,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.4552292790021698,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 1443,
+      "timeline_end_index": 1443,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 13,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_16_0010",
+      "source_section": "chapter_01_16",
+      "source_sentence": 17,
+      "character_position": 32,
+      "text": "он представлял себе нечто чуждое, враждебное, а всего более — смешное",
+      "vad": [
+        -0.75,
+        0.2,
+        0.15
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.466779585025864,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 1443,
+      "timeline_end_index": 1443,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 131,
+          "end": 200
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_16_0011",
+      "source_section": "chapter_01_16",
+      "source_sentence": 18,
+      "character_position": 33,
+      "text": "он, выйдя в этот вечер от Щербацких, почувствовал, что та духовная тайная связь, которая существовала между ним и Кити, утвердилась нынешний вечер так сильно",
+      "vad": [
+        0.75,
+        0.4,
+        0.2
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.1196825836901112,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 1444,
+      "timeline_end_index": 1444,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 62,
+          "end": 219
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_16_0012",
+      "source_section": "chapter_01_16",
+      "source_sentence": 19,
+      "character_position": 34,
+      "text": "он не мог придумать",
+      "vad": [
+        -0.25,
+        -0.1,
+        -0.65
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.7208605474702026,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 1445,
+      "timeline_end_index": 1445,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 44,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_16_0013",
+      "source_section": "chapter_01_16",
+      "source_sentence": 20,
+      "character_position": 35,
+      "text": "приятное чувство чистоты и свежести",
+      "vad": [
+        0.8,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.3253058881095463,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 1446,
+      "timeline_end_index": 1446,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 85,
+          "end": 120
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_16_0014",
+      "source_section": "chapter_01_16",
+      "source_sentence": 20,
+      "character_position": 36,
+      "text": "новое чувство умиления пред ее к себе любовью",
+      "vad": [
+        0.8,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.1709403845017806,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 1446,
+      "timeline_end_index": 1446,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 192,
+          "end": 237
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_16_0017",
+      "source_section": "chapter_01_16",
+      "source_sentence": 22,
+      "character_position": 37,
+      "text": "Я сам себя чувствую лучше, чище",
+      "vad": [
+        0.75,
+        0.2,
+        0.35
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.1914968100955129,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 1448,
+      "timeline_end_index": 1448,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 0,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_16_0018",
+      "source_section": "chapter_01_16",
+      "source_sentence": 23,
+      "character_position": 38,
+      "text": "Я чувствую, что у меня есть сердце и что есть во мне много хорошего",
+      "vad": [
+        0.75,
+        0.1,
+        0.35
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.261956945889773,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 1449,
+      "timeline_end_index": 1449,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 0,
+          "end": 67
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_16_0019",
+      "source_section": "chapter_01_16",
+      "source_sentence": 24,
+      "character_position": 39,
+      "text": "Эти милые влюбленные глаза!",
+      "vad": [
+        0.8,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.1709403845017806,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 1450,
+      "timeline_end_index": 1450,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 0,
+          "end": 27
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_16_0020",
+      "source_section": "chapter_01_16",
+      "source_sentence": 28,
+      "character_position": 40,
+      "text": "Мне хорошо",
+      "vad": [
+        0.8,
+        0.2,
+        0.2
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.1687262544416667,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 1454,
+      "timeline_end_index": 1454,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 0,
+          "end": 10
+        }
+      ]
+    }
+  ]
+}

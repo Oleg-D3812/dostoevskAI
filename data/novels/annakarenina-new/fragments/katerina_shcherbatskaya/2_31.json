@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "2_31",
+  "count": 7,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_31_0001",
+      "source_section": "chapter_02_31",
+      "source_sentence": 35,
+      "character_position": 181,
+      "text": "радостно спросила Кити",
+      "vad": [
+        0.8,
+        0.45,
+        0.05
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2341143565615484,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 5650,
+      "timeline_end_index": 5650,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 2,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_31_0002",
+      "source_section": "chapter_02_31",
+      "source_sentence": 38,
+      "character_position": 182,
+      "text": "я восхищаюсь ею",
+      "vad": [
+        0.8,
+        0.3,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.1965939836197569,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 5653,
+      "timeline_end_index": 5653,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 58,
+          "end": 73
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_31_0003",
+      "source_section": "chapter_02_31",
+      "source_sentence": 45,
+      "character_position": 183,
+      "text": "Моя дочь влюблена в вас",
+      "vad": [
+        0.6,
+        0.15,
+        0.65
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.5388997193130219,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 5660,
+      "timeline_end_index": 5660,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 2,
+          "end": 25
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_31_0004",
+      "source_section": "chapter_02_31",
+      "source_sentence": 60,
+      "character_position": 184,
+      "text": "ее Кити полюбила эту Вареньку",
+      "vad": [
+        0.55,
+        0.1,
+        0.15
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2138442497984369,
+      "warning": null,
+      "chapter_sentence_start": 60,
+      "chapter_sentence_end": 60,
+      "timeline_start_index": 5675,
+      "timeline_end_index": 5675,
+      "highlights": [
+        {
+          "chapter_sentence": 60,
+          "start": 110,
+          "end": 139
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_31_0005",
+      "source_section": "chapter_02_31",
+      "source_sentence": 64,
+      "character_position": 185,
+      "text": "сияя радостью о том, что мать ее познакомилась с ее неизвестным другом",
+      "vad": [
+        0.9,
+        0.7,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.4826520401529859,
+      "warning": null,
+      "chapter_sentence_start": 64,
+      "chapter_sentence_end": 64,
+      "timeline_start_index": 5679,
+      "timeline_end_index": 5679,
+      "highlights": [
+        {
+          "chapter_sentence": 64,
+          "start": 13,
+          "end": 83
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_31_0006",
+      "source_section": "chapter_02_31",
+      "source_sentence": 65,
+      "character_position": 186,
+      "text": "твое сильное желание познакомиться с mademoiselle…",
+      "vad": [
+        0.65,
+        0.35,
+        0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.0941956638464219,
+      "warning": null,
+      "chapter_sentence_start": 65,
+      "chapter_sentence_end": 65,
+      "timeline_start_index": 5680,
+      "timeline_end_index": 5680,
+      "highlights": [
+        {
+          "chapter_sentence": 65,
+          "start": 16,
+          "end": 66
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_31_0007",
+      "source_section": "chapter_02_31",
+      "source_sentence": 67,
+      "character_position": 187,
+      "text": "Кити покраснела от радости",
+      "vad": [
+        0.8,
+        0.45,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2558130833948716,
+      "warning": null,
+      "chapter_sentence_start": 67,
+      "chapter_sentence_end": 67,
+      "timeline_start_index": 5682,
+      "timeline_end_index": 5682,
+      "highlights": [
+        {
+          "chapter_sentence": 67,
+          "start": 0,
+          "end": 26
+        }
+      ]
+    }
+  ]
+}

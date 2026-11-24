@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "1_10",
+  "count": 8,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_01_10_0002",
+      "source_section": "chapter_01_10",
+      "source_sentence": 13,
+      "character_position": 77,
+      "text": "Степан Аркадьич задумался",
+      "vad": [
+        0.0,
+        0.1,
+        0.1
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.3396673764034423,
+      "warning": "non_verbatim_evidence;empty_evidence",
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 790,
+      "timeline_end_index": 790,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 0,
+          "end": 25
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_10_0003",
+      "source_section": "chapter_01_10",
+      "source_sentence": 16,
+      "character_position": 78,
+      "text": "И лицо его выражало серьезное недоумение",
+      "vad": [
+        -0.35,
+        0.2,
+        -0.3
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.3569501369617446,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 793,
+      "timeline_end_index": 793,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 0,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_10_0004",
+      "source_section": "chapter_01_10",
+      "source_sentence": 30,
+      "character_position": 79,
+      "text": "заметив на лице Облонского недовольное выражение",
+      "vad": [
+        -0.15,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.1848690297798556,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 807,
+      "timeline_end_index": 807,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 27,
+          "end": 75
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_10_0005",
+      "source_section": "chapter_01_10",
+      "source_sentence": 36,
+      "character_position": 80,
+      "text": "Степан Аркадьич, видно, не хотел ему доставлять удовольствие",
+      "vad": [
+        -0.25,
+        0.05,
+        0.2
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.2052731947613585,
+      "warning": null,
+      "chapter_sentence_start": 36,
+      "chapter_sentence_end": 36,
+      "timeline_start_index": 813,
+      "timeline_end_index": 813,
+      "highlights": [
+        {
+          "chapter_sentence": 36,
+          "start": 3,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_10_0006",
+      "source_section": "chapter_01_10",
+      "source_sentence": 68,
+      "character_position": 81,
+      "text": "Ему хотелось, чтобы Левин был весел",
+      "vad": [
+        0.35,
+        0.1,
+        0.05
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.3824381888853893,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 845,
+      "timeline_end_index": 845,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 0,
+          "end": 35
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_10_0007",
+      "source_section": "chapter_01_10",
+      "source_sentence": 80,
+      "character_position": 82,
+      "text": "Степан Аркадьич весело улыбался",
+      "vad": [
+        0.7,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.1296539602954683,
+      "warning": null,
+      "chapter_sentence_start": 80,
+      "chapter_sentence_end": 80,
+      "timeline_start_index": 857,
+      "timeline_end_index": 857,
+      "highlights": [
+        {
+          "chapter_sentence": 80,
+          "start": 0,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_10_0009",
+      "source_section": "chapter_01_10",
+      "source_sentence": 119,
+      "character_position": 83,
+      "text": "я о себе не хочу говорить",
+      "vad": [
+        -0.35,
+        -0.1,
+        0.3
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.3182480500013157,
+      "warning": null,
+      "chapter_sentence_start": 119,
+      "chapter_sentence_end": 119,
+      "timeline_start_index": 896,
+      "timeline_end_index": 896,
+      "highlights": [
+        {
+          "chapter_sentence": 119,
+          "start": 7,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_10_0010",
+      "source_section": "chapter_01_10",
+      "source_sentence": 132,
+      "character_position": 84,
+      "text": "я ничего так не желал бы, как этого, ничего",
+      "vad": [
+        0.8,
+        0.55,
+        -0.1
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.4353692339758744,
+      "warning": null,
+      "chapter_sentence_start": 132,
+      "chapter_sentence_end": 132,
+      "timeline_start_index": 909,
+      "timeline_end_index": 909,
+      "highlights": [
+        {
+          "chapter_sentence": 132,
+          "start": 28,
+          "end": 71
+        }
+      ]
+    }
+  ]
+}

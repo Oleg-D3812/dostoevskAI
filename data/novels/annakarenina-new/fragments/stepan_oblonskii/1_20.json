@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "1_20",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_01_20_0001",
+      "source_section": "chapter_01_20",
+      "source_sentence": 6,
+      "character_position": 108,
+      "text": "В отношениях мужа с женой оставалась та же отчужденность",
+      "vad": [
+        -0.6,
+        -0.2,
+        -0.25
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.4426359205619729,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 1872,
+      "timeline_end_index": 1872,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 0,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_20_0002",
+      "source_section": "chapter_01_20",
+      "source_sentence": 6,
+      "character_position": 109,
+      "text": "Степан Аркадьич видел возможность объяснения и примирения",
+      "vad": [
+        0.7,
+        0.25,
+        0.35
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.1560559403128025,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 1872,
+      "timeline_end_index": 1872,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 91,
+          "end": 148
+        }
+      ]
+    }
+  ]
+}

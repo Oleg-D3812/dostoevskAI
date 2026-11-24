@@ -168,12 +168,12 @@
   function clusterSphere(cluster) {
     var mesh = sphereMesh(cluster.centroid, Number(cluster.sphere_radius || 0), 12, 8);
     return {
-      type: "mesh3d", name: cluster.display_id + " — " + cluster.name + " sphere",
+      type: "mesh3d", name: cluster.name + " sphere",
       meta: "sphere:" + cluster.id, legendgroup: cluster.id, showlegend: false, visible: true,
       x: mesh.x, y: mesh.y, z: mesh.z, i: mesh.i, j: mesh.j, k: mesh.k,
       color: cluster.color, opacity: .32, flatshading: false,
       lighting: { ambient: .72, diffuse: .65, roughness: .75, specular: .25 },
-      hovertemplate: "cluster " + escapeHtml(cluster.display_id + " — " + cluster.name) +
+      hovertemplate: "Кластер: " + escapeHtml(cluster.name) +
         "<br>size: " + cluster.size + "<br>centroid: (" + cluster.centroid.map(format).join(", ") +
         ")<br>diameter: " + format(Number(cluster.sphere_radius || 0) * 2) +
         "<br>within-cluster spread: " + format(cluster.within_cluster_spread) + "<extra></extra>"
@@ -217,11 +217,11 @@
 
   function clusterCentroid(cluster) {
     return {
-      type: "scatter3d", mode: "markers", name: cluster.display_id + " — " + cluster.name + " · n=" + cluster.size,
+      type: "scatter3d", mode: "markers", name: cluster.name + " · n=" + cluster.size,
       meta: "centroid:" + cluster.id, legendgroup: cluster.id, showlegend: true,
       x: [cluster.centroid[0]], y: [cluster.centroid[1]], z: [cluster.centroid[2]],
       marker: { color: cluster.color, size: 4, symbol: "circle", line: { color: css("--surface-solid"), width: 1 } },
-      hovertemplate: "cluster " + escapeHtml(cluster.display_id + " — " + cluster.name) +
+      hovertemplate: "Кластер: " + escapeHtml(cluster.name) +
         "<br>size: " + cluster.size + "<br>centroid: (%{x:.3f}, %{y:.3f}, %{z:.3f})" +
         "<br>diameter: " + format(Number(cluster.sphere_radius || 0) * 2) +
         "<br>within-cluster spread: " + format(cluster.within_cluster_spread) + "<extra></extra>"

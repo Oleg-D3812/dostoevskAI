@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "2_28",
+  "count": 10,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_02_28_0001",
+      "source_section": "chapter_02_28",
+      "source_sentence": 3,
+      "character_position": 241,
+      "text": "без помощи внешних чувств она чувствовала их близость",
+      "vad": [
+        -0.1,
+        0.55,
+        0.05
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.4818293912618208,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 5393,
+      "timeline_end_index": 5393,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 67,
+          "end": 120
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_28_0002",
+      "source_section": "chapter_02_28",
+      "source_sentence": 6,
+      "character_position": 242,
+      "text": "все они ей были отвратительны",
+      "vad": [
+        -0.88,
+        0.18,
+        -0.12
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.5141396330606475,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 5396,
+      "timeline_end_index": 5396,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 28,
+          "end": 57
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_28_0003",
+      "source_section": "chapter_02_28",
+      "source_sentence": 19,
+      "character_position": 243,
+      "text": "каждое слово его казалось ей фальшиво и болью резало ее ухо",
+      "vad": [
+        -0.9,
+        0.72,
+        -0.35
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.292525911193732,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 5409,
+      "timeline_end_index": 5409,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 71,
+          "end": 130
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_28_0004",
+      "source_section": "chapter_02_28",
+      "source_sentence": 21,
+      "character_position": 244,
+      "text": "Она мучалась страхом за Вронского, но еще более мучалась неумолкавшим, ей казалось, звуком тонкого голоса мужа с знакомыми интонациями",
+      "vad": [
+        -0.9,
+        0.82,
+        -0.65
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.3520890552649579,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 5411,
+      "timeline_end_index": 5411,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 0,
+          "end": 134
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_28_0005",
+      "source_section": "chapter_02_28",
+      "source_sentence": 22,
+      "character_position": 245,
+      "text": "Я дурная женщина, я погибшая женщина",
+      "vad": [
+        -0.9,
+        0.7,
+        -0.75
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.3202214259866134,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 5412,
+      "timeline_end_index": 5412,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 1,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_28_0006",
+      "source_section": "chapter_02_28",
+      "source_sentence": 22,
+      "character_position": 246,
+      "text": "я не люблю лгать, я не переношу лжи",
+      "vad": [
+        -0.35,
+        0.3,
+        0.35
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.3861470733849176,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 5412,
+      "timeline_end_index": 5412,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 58,
+          "end": 93
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_28_0007",
+      "source_section": "chapter_02_28",
+      "source_sentence": 26,
+      "character_position": 247,
+      "text": "так раздражавшая ее",
+      "vad": [
+        -0.65,
+        0.45,
+        0.05
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.4009556641783206,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 5416,
+      "timeline_end_index": 5416,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 92,
+          "end": 111
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_28_0008",
+      "source_section": "chapter_02_28",
+      "source_sentence": 74,
+      "character_position": 248,
+      "text": "на бледном торжествующем лице Анны",
+      "vad": [
+        0.7,
+        0.55,
+        0.65
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.5504436397618705,
+      "warning": null,
+      "chapter_sentence_start": 74,
+      "chapter_sentence_end": 74,
+      "timeline_start_index": 5464,
+      "timeline_end_index": 5464,
+      "highlights": [
+        {
+          "chapter_sentence": 74,
+          "start": 87,
+          "end": 121
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_28_0009",
+      "source_section": "chapter_02_28",
+      "source_sentence": 77,
+      "character_position": 249,
+      "text": "вся поглощенная зрелищем скакавшего Вронского",
+      "vad": [
+        0.35,
+        0.5,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.3742157224162314,
+      "warning": null,
+      "chapter_sentence_start": 77,
+      "chapter_sentence_end": 77,
+      "timeline_start_index": 5467,
+      "timeline_end_index": 5467,
+      "highlights": [
+        {
+          "chapter_sentence": 77,
+          "start": 6,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_28_0010",
+      "source_section": "chapter_02_28",
+      "source_sentence": 79,
+      "character_position": 250,
+      "text": "Ах, мне все равно",
+      "vad": [
+        -0.1,
+        -0.2,
+        0.4
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.6126371423331187,
+      "warning": null,
+      "chapter_sentence_start": 79,
+      "chapter_sentence_end": 79,
+      "timeline_start_index": 5469,
+      "timeline_end_index": 5469,
+      "highlights": [
+        {
+          "chapter_sentence": 79,
+          "start": 1,
+          "end": 18
+        }
+      ]
+    }
+  ]
+}

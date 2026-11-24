@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "6_8",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_08_0001",
+      "source_section": "chapter_06_08",
+      "source_sentence": 21,
+      "character_position": 457,
+      "text": "больно было на два дня расставаться с мужем",
+      "vad": [
+        -0.72,
+        0.34,
+        -0.28
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.2259700714089793,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 14534,
+      "timeline_end_index": 14534,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 18,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_08_0002",
+      "source_section": "chapter_06_08",
+      "source_sentence": 21,
+      "character_position": 458,
+      "text": "свое огорчение",
+      "vad": [
+        -0.55,
+        0.2,
+        -0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.3556864559087083,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 14534,
+      "timeline_end_index": 14534,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 262,
+          "end": 276
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_08_0003",
+      "source_section": "chapter_06_08",
+      "source_sentence": 21,
+      "character_position": 459,
+      "text": "весело простилась с ним",
+      "vad": [
+        0.75,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.101618943043896,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 14534,
+      "timeline_end_index": 14534,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 279,
+          "end": 302
+        }
+      ]
+    }
+  ]
+}

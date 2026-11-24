@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "6_11",
+  "count": 11,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_06_11_0001",
+      "source_section": "chapter_06_11",
+      "source_sentence": 38,
+      "character_position": 957,
+      "text": "чувствуя, что он не умеет ясно определить черту между честным и бесчестным",
+      "vad": [
+        -0.45,
+        0.18,
+        -0.58
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3697095082745562,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 14858,
+      "timeline_end_index": 14858,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 59,
+          "end": 133
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_11_0002",
+      "source_section": "chapter_06_11",
+      "source_sentence": 52,
+      "character_position": 958,
+      "text": "я чувствую это",
+      "vad": [
+        -0.45,
+        0.1,
+        -0.15
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.2814641333900123,
+      "warning": null,
+      "chapter_sentence_start": 52,
+      "chapter_sentence_end": 52,
+      "timeline_start_index": 14872,
+      "timeline_end_index": 14872,
+      "highlights": [
+        {
+          "chapter_sentence": 52,
+          "start": 21,
+          "end": 35
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_11_0003",
+      "source_section": "chapter_06_11",
+      "source_sentence": 63,
+      "character_position": 959,
+      "text": "Я вовсе не убежден.",
+      "vad": [
+        0.0,
+        -0.1,
+        0.25
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3648147702209832,
+      "warning": null,
+      "chapter_sentence_start": 63,
+      "chapter_sentence_end": 63,
+      "timeline_start_index": 14883,
+      "timeline_end_index": 14883,
+      "highlights": [
+        {
+          "chapter_sentence": 63,
+          "start": 2,
+          "end": 21
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_11_0004",
+      "source_section": "chapter_06_11",
+      "source_sentence": 64,
+      "character_position": 960,
+      "text": "Я, напротив, чувствую, что не имею права отдать",
+      "vad": [
+        -0.3,
+        0.1,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.25331135538673,
+      "warning": null,
+      "chapter_sentence_start": 64,
+      "chapter_sentence_end": 64,
+      "timeline_start_index": 14884,
+      "timeline_end_index": 14884,
+      "highlights": [
+        {
+          "chapter_sentence": 64,
+          "start": 0,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_11_0005",
+      "source_section": "chapter_06_11",
+      "source_sentence": 95,
+      "character_position": 961,
+      "text": "Ему казалось, что он, насколько умел, ясно высказал свои мысли и чувства",
+      "vad": [
+        0.2,
+        0.1,
+        0.35
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5443195488234263,
+      "warning": null,
+      "chapter_sentence_start": 95,
+      "chapter_sentence_end": 95,
+      "timeline_start_index": 14915,
+      "timeline_end_index": 14915,
+      "highlights": [
+        {
+          "chapter_sentence": 95,
+          "start": 0,
+          "end": 72
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_11_0006",
+      "source_section": "chapter_06_11",
+      "source_sentence": 96,
+      "character_position": 962,
+      "text": "Это смущало его.",
+      "vad": [
+        -0.45,
+        0.25,
+        -0.3
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3010408692149285,
+      "warning": null,
+      "chapter_sentence_start": 96,
+      "chapter_sentence_end": 96,
+      "timeline_start_index": 14916,
+      "timeline_end_index": 14916,
+      "highlights": [
+        {
+          "chapter_sentence": 96,
+          "start": 0,
+          "end": 16
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_11_0007",
+      "source_section": "chapter_06_11",
+      "source_sentence": 100,
+      "character_position": 963,
+      "text": "Мне, главное, надо чувствовать, что я не виноват.",
+      "vad": [
+        -0.3,
+        0.25,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3094834291101977,
+      "warning": null,
+      "chapter_sentence_start": 100,
+      "chapter_sentence_end": 100,
+      "timeline_start_index": 14920,
+      "timeline_end_index": 14920,
+      "highlights": [
+        {
+          "chapter_sentence": 100,
+          "start": 0,
+          "end": 49
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_11_0008",
+      "source_section": "chapter_06_11",
+      "source_sentence": 106,
+      "character_position": 964,
+      "text": "занимало его",
+      "vad": [
+        -0.2,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.1475420546190554,
+      "warning": null,
+      "chapter_sentence_start": 106,
+      "chapter_sentence_end": 106,
+      "timeline_start_index": 14926,
+      "timeline_end_index": 14926,
+      "highlights": [
+        {
+          "chapter_sentence": 106,
+          "start": 99,
+          "end": 111
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_11_0009",
+      "source_section": "chapter_06_11",
+      "source_sentence": 149,
+      "character_position": 965,
+      "text": "Я не виноват",
+      "vad": [
+        0.1,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.384177479120102,
+      "warning": null,
+      "chapter_sentence_start": 149,
+      "chapter_sentence_end": 149,
+      "timeline_start_index": 14969,
+      "timeline_end_index": 14969,
+      "highlights": [
+        {
+          "chapter_sentence": 149,
+          "start": 0,
+          "end": 12
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_11_0010",
+      "source_section": "chapter_06_11",
+      "source_sentence": 151,
+      "character_position": 966,
+      "text": "не горячиться",
+      "vad": [
+        0.2,
+        -0.4,
+        0.5
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.7933542558413392,
+      "warning": null,
+      "chapter_sentence_start": 151,
+      "chapter_sentence_end": 151,
+      "timeline_start_index": 14971,
+      "timeline_end_index": 14971,
+      "highlights": [
+        {
+          "chapter_sentence": 151,
+          "start": 42,
+          "end": 55
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_11_0011",
+      "source_section": "chapter_06_11",
+      "source_sentence": 155,
+      "character_position": 967,
+      "text": "я не мужествен с нею, я обабился",
+      "vad": [
+        -0.7,
+        0.25,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1865206819612026,
+      "warning": null,
+      "chapter_sentence_start": 155,
+      "chapter_sentence_end": 155,
+      "timeline_start_index": 14975,
+      "timeline_end_index": 14975,
+      "highlights": [
+        {
+          "chapter_sentence": 155,
+          "start": 28,
+          "end": 60
+        }
+      ]
+    }
+  ]
+}

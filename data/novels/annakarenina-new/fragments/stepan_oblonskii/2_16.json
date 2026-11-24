@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "2_16",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_02_16_0001",
+      "source_section": "chapter_02_16",
+      "source_sentence": 14,
+      "character_position": 122,
+      "text": "с добродушною улыбкой сказал Степан Аркадьич",
+      "vad": [
+        0.5,
+        -0.2,
+        0.1
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.5054575301394072,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 4349,
+      "timeline_end_index": 4349,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 2,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_02_16_0002",
+      "source_section": "chapter_02_16",
+      "source_sentence": 39,
+      "character_position": 123,
+      "text": "жалостно сказал Степан Аркадьич",
+      "vad": [
+        -0.35,
+        0.15,
+        0.0
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.1315103768695715,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 4374,
+      "timeline_end_index": 4374,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 26,
+          "end": 57
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_02_16_0003",
+      "source_section": "chapter_02_16",
+      "source_sentence": 102,
+      "character_position": 124,
+      "text": "с удивлением сказал Облонский",
+      "vad": [
+        0.0,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.4562060133238028,
+      "warning": null,
+      "chapter_sentence_start": 102,
+      "chapter_sentence_end": 102,
+      "timeline_start_index": 4437,
+      "timeline_end_index": 4437,
+      "highlights": [
+        {
+          "chapter_sentence": 102,
+          "start": 13,
+          "end": 42
+        }
+      ]
+    }
+  ]
+}

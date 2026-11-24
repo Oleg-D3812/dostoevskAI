@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "7_12",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_07_12_0001",
+      "source_section": "chapter_07_12",
+      "source_sentence": 2,
+      "character_position": 514,
+      "text": "за что и Кити полюбила и Вронского и Левина",
+      "vad": [
+        0.4,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.3412304557499957,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 17892,
+      "timeline_end_index": 17892,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 474,
+          "end": 517
+        }
+      ]
+    }
+  ]
+}

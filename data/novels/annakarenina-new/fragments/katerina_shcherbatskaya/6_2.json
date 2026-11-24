@@ -1,0 +1,477 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "6_2",
+  "count": 18,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_02_0001",
+      "source_section": "chapter_06_02",
+      "source_sentence": 35,
+      "character_position": 419,
+      "text": "почему-то жду решения",
+      "vad": [
+        -0.15,
+        0.35,
+        -0.4
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.5287084184680653,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 13923,
+      "timeline_end_index": 13923,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 32,
+          "end": 53
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_02_0002",
+      "source_section": "chapter_06_02",
+      "source_sentence": 37,
+      "character_position": 420,
+      "text": "Как бы хорошо было!",
+      "vad": [
+        0.78,
+        0.42,
+        -0.18
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.3615639905881115,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 13925,
+      "timeline_end_index": 13925,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 0,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_02_0003",
+      "source_section": "chapter_06_02",
+      "source_sentence": 54,
+      "character_position": 421,
+      "text": "То есть это так бы хорошо было!..",
+      "vad": [
+        0.82,
+        0.58,
+        -0.12
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.4209485925884967,
+      "warning": null,
+      "chapter_sentence_start": 54,
+      "chapter_sentence_end": 54,
+      "timeline_start_index": 13942,
+      "timeline_end_index": 13942,
+      "highlights": [
+        {
+          "chapter_sentence": 54,
+          "start": 0,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_02_0004",
+      "source_section": "chapter_06_02",
+      "source_sentence": 55,
+      "character_position": 422,
+      "text": "Жду, что вот они явятся из леса, и все решится.",
+      "vad": [
+        0.45,
+        0.4,
+        -0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.4057152826774171,
+      "warning": null,
+      "chapter_sentence_start": 55,
+      "chapter_sentence_end": 55,
+      "timeline_start_index": 13943,
+      "timeline_end_index": 13943,
+      "highlights": [
+        {
+          "chapter_sentence": 55,
+          "start": 0,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_02_0005",
+      "source_section": "chapter_06_02",
+      "source_sentence": 57,
+      "character_position": 423,
+      "text": "Я бы так рада была!",
+      "vad": [
+        0.9,
+        0.65,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.4404799792465081,
+      "warning": null,
+      "chapter_sentence_start": 57,
+      "chapter_sentence_end": 57,
+      "timeline_start_index": 13945,
+      "timeline_end_index": 13945,
+      "highlights": [
+        {
+          "chapter_sentence": 57,
+          "start": 0,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_02_0007",
+      "source_section": "chapter_06_02",
+      "source_sentence": 60,
+      "character_position": 424,
+      "text": "Тебе совсем не нужно волноваться",
+      "vad": [
+        0.4,
+        -0.35,
+        0.35
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.71878313446789,
+      "warning": null,
+      "chapter_sentence_start": 60,
+      "chapter_sentence_end": 60,
+      "timeline_start_index": 13948,
+      "timeline_end_index": 13948,
+      "highlights": [
+        {
+          "chapter_sentence": 60,
+          "start": 0,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_02_0008",
+      "source_section": "chapter_06_02",
+      "source_sentence": 61,
+      "character_position": 425,
+      "text": "Да я не волнуюсь, мама.",
+      "vad": [
+        0.1,
+        -0.3,
+        0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.5473197489114352,
+      "warning": null,
+      "chapter_sentence_start": 61,
+      "chapter_sentence_end": 61,
+      "timeline_start_index": 13949,
+      "timeline_end_index": 13949,
+      "highlights": [
+        {
+          "chapter_sentence": 61,
+          "start": 2,
+          "end": 25
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_02_0009",
+      "source_section": "chapter_06_02",
+      "source_sentence": 70,
+      "character_position": 426,
+      "text": "Кити испытывала особенную прелесть в том, что она с матерью теперь могла говорить, как с равною, об этих самых главных вопросах в жизни женщины.",
+      "vad": [
+        0.78,
+        0.36,
+        0.32
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2385456910450496,
+      "warning": null,
+      "chapter_sentence_start": 70,
+      "chapter_sentence_end": 70,
+      "timeline_start_index": 13958,
+      "timeline_end_index": 13958,
+      "highlights": [
+        {
+          "chapter_sentence": 70,
+          "start": 0,
+          "end": 144
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_02_0011",
+      "source_section": "chapter_06_02",
+      "source_sentence": 95,
+      "character_position": 427,
+      "text": "задумчиво улыбаясь глазами",
+      "vad": [
+        0.35,
+        -0.25,
+        0.05
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.6214769364836792,
+      "warning": null,
+      "chapter_sentence_start": 95,
+      "chapter_sentence_end": 95,
+      "timeline_start_index": 13983,
+      "timeline_end_index": 13983,
+      "highlights": [
+        {
+          "chapter_sentence": 95,
+          "start": 12,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_02_0012",
+      "source_section": "chapter_06_02",
+      "source_sentence": 103,
+      "character_position": 428,
+      "text": "с выражением страдания",
+      "vad": [
+        -0.8,
+        0.5,
+        -0.4
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.1103090710236799,
+      "warning": null,
+      "chapter_sentence_start": 103,
+      "chapter_sentence_end": 103,
+      "timeline_start_index": 13991,
+      "timeline_end_index": 13991,
+      "highlights": [
+        {
+          "chapter_sentence": 103,
+          "start": 2,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_02_0013",
+      "source_section": "chapter_06_02",
+      "source_sentence": 106,
+      "character_position": 429,
+      "text": "тебе, моя душа, не годится волноваться",
+      "vad": [
+        -0.15,
+        -0.25,
+        0.45
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.5354348573784162,
+      "warning": null,
+      "chapter_sentence_start": 106,
+      "chapter_sentence_end": 106,
+      "timeline_start_index": 13994,
+      "timeline_end_index": 13994,
+      "highlights": [
+        {
+          "chapter_sentence": 106,
+          "start": 9,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_02_0014",
+      "source_section": "chapter_06_02",
+      "source_sentence": 107,
+      "character_position": 430,
+      "text": "успокойся",
+      "vad": [
+        0.0,
+        -0.4,
+        0.5
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.7120806889310203,
+      "warning": null,
+      "chapter_sentence_start": 107,
+      "chapter_sentence_end": 107,
+      "timeline_start_index": 13995,
+      "timeline_end_index": 13995,
+      "highlights": [
+        {
+          "chapter_sentence": 107,
+          "start": 24,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_02_0015",
+      "source_section": "chapter_06_02",
+      "source_sentence": 108,
+      "character_position": 431,
+      "text": "Я совершенно спокойна, maman.",
+      "vad": [
+        0.1,
+        -0.35,
+        0.45
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.6906516466513062,
+      "warning": null,
+      "chapter_sentence_start": 108,
+      "chapter_sentence_end": 108,
+      "timeline_start_index": 13996,
+      "timeline_end_index": 13996,
+      "highlights": [
+        {
+          "chapter_sentence": 108,
+          "start": 2,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_02_0017",
+      "source_section": "chapter_06_02",
+      "source_sentence": 111,
+      "character_position": 432,
+      "text": "Кити себя считала несчастливой",
+      "vad": [
+        -0.85,
+        -0.1,
+        -0.35
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.619627108890061,
+      "warning": null,
+      "chapter_sentence_start": 111,
+      "chapter_sentence_end": 111,
+      "timeline_start_index": 13999,
+      "timeline_end_index": 13999,
+      "highlights": [
+        {
+          "chapter_sentence": 111,
+          "start": 35,
+          "end": 65
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_02_0018",
+      "source_section": "chapter_06_02",
+      "source_sentence": 116,
+      "character_position": 433,
+      "text": "с досадой сказала Кити",
+      "vad": [
+        -0.45,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.3270577965517999,
+      "warning": null,
+      "chapter_sentence_start": 116,
+      "chapter_sentence_end": 116,
+      "timeline_start_index": 14004,
+      "timeline_end_index": 14004,
+      "highlights": [
+        {
+          "chapter_sentence": 116,
+          "start": 35,
+          "end": 57
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_02_0019",
+      "source_section": "chapter_06_02",
+      "source_sentence": 116,
+      "character_position": 434,
+      "text": "я об этом не думаю и не хочу думать…",
+      "vad": [
+        -0.35,
+        0.15,
+        0.35
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.317193220494108,
+      "warning": null,
+      "chapter_sentence_start": 116,
+      "chapter_sentence_end": 116,
+      "timeline_start_index": 14004,
+      "timeline_end_index": 14004,
+      "highlights": [
+        {
+          "chapter_sentence": 116,
+          "start": 61,
+          "end": 97
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_02_0020",
+      "source_section": "chapter_06_02",
+      "source_sentence": 117,
+      "character_position": 435,
+      "text": "И не хочу думать",
+      "vad": [
+        -0.35,
+        0.2,
+        0.55
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.5161468703373129,
+      "warning": null,
+      "chapter_sentence_start": 117,
+      "chapter_sentence_end": 117,
+      "timeline_start_index": 14005,
+      "timeline_end_index": 14005,
+      "highlights": [
+        {
+          "chapter_sentence": 117,
+          "start": 0,
+          "end": 16
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_02_0021",
+      "source_section": "chapter_06_02",
+      "source_sentence": 150,
+      "character_position": 436,
+      "text": "это грубое выражение с ним, а не с ними тронуло Кити",
+      "vad": [
+        0.35,
+        0.25,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.3334189282828089,
+      "warning": null,
+      "chapter_sentence_start": 150,
+      "chapter_sentence_end": 150,
+      "timeline_start_index": 14038,
+      "timeline_end_index": 14038,
+      "highlights": [
+        {
+          "chapter_sentence": 150,
+          "start": 60,
+          "end": 112
+        }
+      ]
+    }
+  ]
+}

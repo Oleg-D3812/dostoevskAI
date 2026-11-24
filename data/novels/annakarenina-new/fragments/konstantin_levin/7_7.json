@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "7_7",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_07_07_0001",
+      "source_section": "chapter_07_07",
+      "source_sentence": 5,
+      "character_position": 1142,
+      "text": "Левина охватило давнишнее впечатление клуба, впечатление отдыха, довольства и приличия",
+      "vad": [
+        0.82,
+        -0.35,
+        0.28
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.7041729012491938,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 17461,
+      "timeline_end_index": 17461,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 573,
+          "end": 659
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_07_0002",
+      "source_section": "chapter_07_07",
+      "source_sentence": 29,
+      "character_position": 1143,
+      "text": "Левин с радостью подошел к ним",
+      "vad": [
+        0.8,
+        0.45,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.1716637511636417,
+      "warning": null,
+      "chapter_sentence_start": 29,
+      "chapter_sentence_end": 29,
+      "timeline_start_index": 17485,
+      "timeline_end_index": 17485,
+      "highlights": [
+        {
+          "chapter_sentence": 29,
+          "start": 0,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_07_0003",
+      "source_section": "chapter_07_07",
+      "source_sentence": 30,
+      "character_position": 1144,
+      "text": "добродушный вид Туровцына был ему особенно приятен",
+      "vad": [
+        0.78,
+        0.12,
+        0.05
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2555321791568506,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 17486,
+      "timeline_end_index": 17486,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 153,
+          "end": 203
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_07_0004",
+      "source_section": "chapter_07_07",
+      "source_sentence": 47,
+      "character_position": 1145,
+      "text": "с большим удовольствием",
+      "vad": [
+        0.8,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.1316072239688703,
+      "warning": null,
+      "chapter_sentence_start": 47,
+      "chapter_sentence_end": 47,
+      "timeline_start_index": 17503,
+      "timeline_end_index": 17503,
+      "highlights": [
+        {
+          "chapter_sentence": 47,
+          "start": 27,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_07_0006",
+      "source_section": "chapter_07_07",
+      "source_sentence": 86,
+      "character_position": 1146,
+      "text": "был очень рад, что не чувствует никакой враждебности к этому человеку",
+      "vad": [
+        0.7,
+        0.2,
+        0.15
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.1315305364871402,
+      "warning": null,
+      "chapter_sentence_start": 86,
+      "chapter_sentence_end": 86,
+      "timeline_start_index": 17542,
+      "timeline_end_index": 17542,
+      "highlights": [
+        {
+          "chapter_sentence": 86,
+          "start": 110,
+          "end": 179
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_07_0007",
+      "source_section": "chapter_07_07",
+      "source_sentence": 90,
+      "character_position": 1147,
+      "text": "Левин почувствовал себя совсем примиренным с ним",
+      "vad": [
+        0.75,
+        -0.25,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.5869582719157289,
+      "warning": null,
+      "chapter_sentence_start": 90,
+      "chapter_sentence_end": 90,
+      "timeline_start_index": 17546,
+      "timeline_end_index": 17546,
+      "highlights": [
+        {
+          "chapter_sentence": 90,
+          "start": 56,
+          "end": 104
+        }
+      ]
+    }
+  ]
+}

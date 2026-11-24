@@ -1,0 +1,399 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "2_7",
+  "count": 15,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_02_07_0001",
+      "source_section": "chapter_02_07",
+      "source_sentence": 2,
+      "character_position": 91,
+      "text": "лицо его имело странное новое выражение",
+      "vad": [
+        0.05,
+        0.28,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.4341607445761748,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 3580,
+      "timeline_end_index": 3580,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 23,
+          "end": 62
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_07_0002",
+      "source_section": "chapter_02_07",
+      "source_sentence": 3,
+      "character_position": 92,
+      "text": "Он радостно, пристально и вместе робко смотрел",
+      "vad": [
+        0.75,
+        0.55,
+        -0.2
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.4844669424835939,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 3581,
+      "timeline_end_index": 3581,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 0,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_07_0003",
+      "source_section": "chapter_02_07",
+      "source_sentence": 45,
+      "character_position": 93,
+      "text": "с замиранием сердца ждал",
+      "vad": [
+        -0.2,
+        0.7,
+        -0.3
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.587513504304575,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 3623,
+      "timeline_end_index": 3623,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 27,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_07_0004",
+      "source_section": "chapter_02_07",
+      "source_sentence": 71,
+      "character_position": 94,
+      "text": "смело и радостно, встречая ее взгляд",
+      "vad": [
+        0.8,
+        0.6,
+        0.85
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.7110561021064878,
+      "warning": null,
+      "chapter_sentence_start": 71,
+      "chapter_sentence_end": 71,
+      "timeline_start_index": 3649,
+      "timeline_end_index": 3649,
+      "highlights": [
+        {
+          "chapter_sentence": 71,
+          "start": 32,
+          "end": 68
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_07_0005",
+      "source_section": "chapter_02_07",
+      "source_sentence": 87,
+      "character_position": 95,
+      "text": "Лицо его просияло",
+      "vad": [
+        0.8,
+        0.5,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.2555773632529601,
+      "warning": null,
+      "chapter_sentence_start": 87,
+      "chapter_sentence_end": 87,
+      "timeline_start_index": 3665,
+      "timeline_end_index": 3665,
+      "highlights": [
+        {
+          "chapter_sentence": 87,
+          "start": 0,
+          "end": 17
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_07_0006",
+      "source_section": "chapter_02_07",
+      "source_sentence": 88,
+      "character_position": 96,
+      "text": "для меня вся жизнь",
+      "vad": [
+        0.9,
+        0.7,
+        -0.2
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.6123838693853462,
+      "warning": null,
+      "chapter_sentence_start": 88,
+      "chapter_sentence_end": 88,
+      "timeline_start_index": 3666,
+      "timeline_end_index": 3666,
+      "highlights": [
+        {
+          "chapter_sentence": 88,
+          "start": 29,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_07_0007",
+      "source_section": "chapter_02_07",
+      "source_sentence": 88,
+      "character_position": 97,
+      "text": "спокойствия я не знаю и не могу вам дать",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.55
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.126484378473204,
+      "warning": null,
+      "chapter_sentence_start": 88,
+      "chapter_sentence_end": 88,
+      "timeline_start_index": 3666,
+      "timeline_end_index": 3666,
+      "highlights": [
+        {
+          "chapter_sentence": 88,
+          "start": 52,
+          "end": 92
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_07_0008",
+      "source_section": "chapter_02_07",
+      "source_sentence": 89,
+      "character_position": 98,
+      "text": "Всего себя, любовь… да",
+      "vad": [
+        0.85,
+        0.55,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.3195127284611019,
+      "warning": null,
+      "chapter_sentence_start": 89,
+      "chapter_sentence_end": 89,
+      "timeline_start_index": 3667,
+      "timeline_end_index": 3667,
+      "highlights": [
+        {
+          "chapter_sentence": 89,
+          "start": 0,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_07_0009",
+      "source_section": "chapter_02_07",
+      "source_sentence": 92,
+      "character_position": 99,
+      "text": "возможности спокойствия ни для себя, ни для вас",
+      "vad": [
+        -0.7,
+        0.45,
+        -0.55
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.0807715857880364,
+      "warning": null,
+      "chapter_sentence_start": 92,
+      "chapter_sentence_end": 92,
+      "timeline_start_index": 3670,
+      "timeline_end_index": 3670,
+      "highlights": [
+        {
+          "chapter_sentence": 92,
+          "start": 20,
+          "end": 67
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_07_0010",
+      "source_section": "chapter_02_07",
+      "source_sentence": 93,
+      "character_position": 100,
+      "text": "возможность отчаяния, несчастия… или я вижу возможность счастья, какого счастья!..",
+      "vad": [
+        0.25,
+        0.82,
+        -0.2
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.7809635626122367,
+      "warning": null,
+      "chapter_sentence_start": 93,
+      "chapter_sentence_end": 93,
+      "timeline_start_index": 3671,
+      "timeline_end_index": 3671,
+      "highlights": [
+        {
+          "chapter_sentence": 93,
+          "start": 7,
+          "end": 89
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_07_0011",
+      "source_section": "chapter_02_07",
+      "source_sentence": 98,
+      "character_position": 101,
+      "text": "с восторгом думал он",
+      "vad": [
+        0.9,
+        0.8,
+        0.4
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.5717068429074205,
+      "warning": null,
+      "chapter_sentence_start": 98,
+      "chapter_sentence_end": 98,
+      "timeline_start_index": 3676,
+      "timeline_end_index": 3676,
+      "highlights": [
+        {
+          "chapter_sentence": 98,
+          "start": 2,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_07_0012",
+      "source_section": "chapter_02_07",
+      "source_sentence": 99,
+      "character_position": 102,
+      "text": "когда я уже отчаивался",
+      "vad": [
+        -0.9,
+        0.55,
+        -0.7
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.3269747101656052,
+      "warning": null,
+      "chapter_sentence_start": 99,
+      "chapter_sentence_end": 99,
+      "timeline_start_index": 3677,
+      "timeline_end_index": 3677,
+      "highlights": [
+        {
+          "chapter_sentence": 99,
+          "start": 9,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_07_0013",
+      "source_section": "chapter_02_07",
+      "source_sentence": 104,
+      "character_position": 103,
+      "text": "счастливейшими или несчастнейшими из людей",
+      "vad": [
+        0.0,
+        0.55,
+        -0.35
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.7160756890289974,
+      "warning": null,
+      "chapter_sentence_start": 104,
+      "chapter_sentence_end": 104,
+      "timeline_start_index": 3682,
+      "timeline_end_index": 3682,
+      "highlights": [
+        {
+          "chapter_sentence": 104,
+          "start": 14,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_07_0015",
+      "source_section": "chapter_02_07",
+      "source_sentence": 135,
+      "character_position": 104,
+      "text": "мне возможно одно счастье в жизни, это слово, которого вы так не любите… да, любовь…",
+      "vad": [
+        0.88,
+        0.76,
+        -0.12
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.5974815908605494,
+      "warning": null,
+      "chapter_sentence_start": 135,
+      "chapter_sentence_end": 135,
+      "timeline_start_index": 3713,
+      "timeline_end_index": 3713,
+      "highlights": [
+        {
+          "chapter_sentence": 135,
+          "start": 106,
+          "end": 190
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_07_0017",
+      "source_section": "chapter_02_07",
+      "source_sentence": 141,
+      "character_position": 105,
+      "text": "счастливый сознанием того, что в нынешний вечер он приблизился к достижению своей цели более, чем в два последние месяца",
+      "vad": [
+        0.85,
+        0.35,
+        0.65
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.4728906572679377,
+      "warning": null,
+      "chapter_sentence_start": 141,
+      "chapter_sentence_end": 141,
+      "timeline_start_index": 3719,
+      "timeline_end_index": 3719,
+      "highlights": [
+        {
+          "chapter_sentence": 141,
+          "start": 75,
+          "end": 195
+        }
+      ]
+    }
+  ]
+}

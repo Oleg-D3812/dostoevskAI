@@ -90,18 +90,59 @@
   }
 
   function renderControls() {
-    clusterFilter.innerHTML = state.clusters.map(function(cluster) {
-      var color = clusterColor(cluster);
-      return '<label><input type="checkbox" class="cluster-toggle" data-cluster="' +
-        escapeHtml(cluster.id) + '" checked> <span style="--swatch:' +
-        escapeHtml(color) + '">' + escapeHtml(cluster.display_id + " — " + cluster.name) + '</span></label>';
+    // One line per character: name + an on/off-all button, then its clusters.
+    // Characters come in state.characters order; any cluster whose character
+    // isn't listed there still gets a line (labelled by its id).
+    var order = state.characters.map(function(character) { return character.id; });
+    state.clusters.forEach(function(cluster) {
+      if (order.indexOf(cluster.character_id) < 0) order.push(cluster.character_id);
+    });
+    var charactersById = indexBy(state.characters, "id");
+
+    clusterFilter.classList.add("filter-groups");
+    clusterFilter.innerHTML = order.map(function(characterId) {
+      var clusters = state.clusters.filter(function(cluster) { return cluster.character_id === characterId; });
+      if (!clusters.length) return "";
+      var character = charactersById[characterId] || {};
+      return '<div class="filter-group" data-character="' + escapeHtml(characterId) + '">' +
+        '<div class="filter-group-head"><button type="button" class="filter-group-toggle" aria-pressed="true" ' +
+          'title="Включить / выключить все кластеры героя">' +
+          escapeHtml(character.name || character.label || characterId) + '</button></div>' +
+        '<div class="filter-group-clusters">' + clusters.map(function(cluster) {
+          return '<label><input type="checkbox" class="cluster-toggle" data-cluster="' +
+            escapeHtml(cluster.id) + '" checked> <span style="--swatch:' +
+            escapeHtml(clusterColor(cluster)) + '">' + escapeHtml(cluster.name) + '</span></label>';
+        }).join("") + '</div></div>';
     }).join("");
 
     document.querySelectorAll(".cluster-toggle").forEach(function(toggle) {
-      toggle.addEventListener("change", applyVisibility);
+      toggle.addEventListener("change", function() { applyVisibility(); syncGroupButtons(); });
+    });
+    document.querySelectorAll(".filter-group").forEach(function(group) {
+      group.querySelector(".filter-group-toggle").addEventListener("click", function() {
+        var boxes = group.querySelectorAll(".cluster-toggle");
+        var allOn = Array.prototype.every.call(boxes, function(box) { return box.checked; });
+        boxes.forEach(function(box) { box.checked = !allOn; });
+        applyVisibility();
+        syncGroupButtons();
+      });
     });
     allButton.addEventListener("click", function() { setClusters(true); });
     noneButton.addEventListener("click", function() { setClusters(false); });
+  }
+
+  // The character button shows its state: lit when all its clusters are on,
+  // half-lit when some are, dimmed when none are. Clicking turns all off when
+  // all are on, otherwise all on.
+  function syncGroupButtons() {
+    document.querySelectorAll(".filter-group").forEach(function(group) {
+      var boxes = Array.prototype.slice.call(group.querySelectorAll(".cluster-toggle"));
+      var on = boxes.filter(function(box) { return box.checked; }).length;
+      var button = group.querySelector(".filter-group-toggle");
+      button.setAttribute("aria-pressed", on === boxes.length ? "true" : on ? "mixed" : "false");
+      button.classList.toggle("is-off", on === 0);
+      button.classList.toggle("is-mixed", on > 0 && on < boxes.length);
+    });
   }
 
   function renderTable() {
@@ -111,7 +152,7 @@
       var color = clusterColor(cluster);
       return '<tr>' +
         '<td><span class="table-swatch" style="--swatch:' + escapeHtml(color) + '"></span>' +
-          escapeHtml(cluster.display_id + " — " + cluster.name) + '</td>' +
+          escapeHtml(cluster.name) + '</td>' +
         '<td>' + escapeHtml(character.label || cluster.character_id) + '</td>' +
         '<td>' + formatNumber(cluster.centroid[0]) + '</td>' +
         '<td>' + formatNumber(cluster.centroid[1]) + '</td>' +
@@ -128,18 +169,23 @@
     var traces = [];
     var layout = {
       title: { text: "" },
-      margin: { l: 24, r: 24, t: 28, b: 24 },
+      // The three stacked 2D projections leave a ~9% gap between them (and the
+      // bottom margin) so each plot's x tick labels and axis title sit clear
+      // of the plot below instead of being painted over by it.
+      margin: { l: 24, r: 24, t: 28, b: 64 },
       paper_bgcolor: "rgba(0,0,0,0)",
       plot_bgcolor: "rgba(0,0,0,0)",
       font: { family: "Inter, system-ui, sans-serif", color: getCss("--text-color") },
       showlegend: false,
       scene: sceneLayout(),
-      xaxis: axisLayout("Valence (V)", [0.72, 1]),
-      yaxis: axisLayout("Arousal (A)", [0.69, 1]),
-      xaxis2: axisLayout("Valence (V)", [0.72, 1]),
-      yaxis2: axisLayout("Dominance (D)", [0.345, 0.655]),
-      xaxis3: axisLayout("Arousal (A)", [0.72, 1]),
-      yaxis3: axisLayout("Dominance (D)", [0, 0.31])
+      // Each x axis is anchored to its own y axis; without this Plotly hangs
+      // all three x axes (ticks and titles) off the first plot.
+      xaxis: axisLayout("Valence (V)", [0.72, 1], "y"),
+      yaxis: axisLayout("Arousal (A)", [0.73, 1], "x"),
+      xaxis2: axisLayout("Valence (V)", [0.72, 1], "y2"),
+      yaxis2: axisLayout("Dominance (D)", [0.365, 0.635], "x2"),
+      xaxis3: axisLayout("Arousal (A)", [0.72, 1], "y3"),
+      yaxis3: axisLayout("Dominance (D)", [0, 0.27], "x3")
     };
 
     addCoordinateFrame(traces);
@@ -366,13 +412,13 @@
 
   function addClusterTraces(traces, cluster, fragments) {
     var character = state.characters.find(function(item) { return item.id === cluster.character_id; }) || {};
-    var label = cluster.display_id + " — " + cluster.name;
+    var label = cluster.name;
     var hover = fragments.map(function(fragment) {
       var chapter = state.chapters.find(function(item) { return item.id === fragment.chapter_id; });
       return escapeHtml(character.name || character.label || cluster.character_id) + "<br>" +
         escapeHtml(chapter ? chapter.label : fragment.chapter_id) + "<br>" +
-        escapeHtml(fragment.text) + "<br>" +
-        escapeHtml(cluster.name) + "<br>" +
+        "Фрагмент: " + escapeHtml(fragment.text) + "<br>" +
+        "Кластер: " + escapeHtml(cluster.name) + "<br>" +
         "position " + fragment.character_position + " · distance " + formatNumber(fragment.distance_to_centroid);
     });
     var x = fragments.map(function(fragment) { return fragment.vad[0]; });
@@ -493,6 +539,7 @@
       toggle.checked = value;
     });
     applyVisibility();
+    syncGroupButtons();
   }
 
   function clusterEnabled(clusterId) {
@@ -523,10 +570,11 @@
     };
   }
 
-  function axisLayout(title, domain) {
+  function axisLayout(title, domain, anchor) {
     return {
       title: { text: title },
       domain: domain,
+      anchor: anchor,
       range: [-1.05, 1.05],
       zeroline: true,
       zerolinewidth: 1,

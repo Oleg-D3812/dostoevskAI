@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "2_3",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_02_03_0001",
+      "source_section": "chapter_02_03",
+      "source_sentence": 22,
+      "character_position": 79,
+      "text": "он был влюблен в тебя и остался влюблен",
+      "vad": [
+        0.75,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.1377563552099287,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 3244,
+      "timeline_end_index": 3244,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 15,
+          "end": 54
+        }
+      ]
+    }
+  ]
+}

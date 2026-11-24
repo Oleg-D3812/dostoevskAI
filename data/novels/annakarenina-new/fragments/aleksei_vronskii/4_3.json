@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "4_3",
+  "count": 14,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_04_03_0001",
+      "source_section": "chapter_04_03",
+      "source_sentence": 12,
+      "character_position": 311,
+      "text": "ему совестно стало",
+      "vad": [
+        -0.6,
+        0.25,
+        -0.2
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.3424514215320776,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 9003,
+      "timeline_end_index": 9003,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 98,
+          "end": 116
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_04_03_0002",
+      "source_section": "chapter_04_03",
+      "source_sentence": 20,
+      "character_position": 312,
+      "text": "удивляясь перемене выражения ее лица",
+      "vad": [
+        0.0,
+        0.35,
+        -0.15
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.511014440418767,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 9011,
+      "timeline_end_index": 9011,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 46,
+          "end": 82
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_04_03_0003",
+      "source_section": "chapter_04_03",
+      "source_sentence": 21,
+      "character_position": 313,
+      "text": "мне неприятно было",
+      "vad": [
+        -0.6,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.3445850418982383,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 9012,
+      "timeline_end_index": 9012,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 135,
+          "end": 153
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_04_03_0004",
+      "source_section": "chapter_04_03",
+      "source_sentence": 42,
+      "character_position": 314,
+      "text": "не мог сразу вспомнить того, что он хотел сказать",
+      "vad": [
+        -0.2,
+        -0.1,
+        -0.35
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.5561620003988402,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 9033,
+      "timeline_end_index": 9033,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 6,
+          "end": 55
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_04_03_0005",
+      "source_section": "chapter_04_03",
+      "source_sentence": 43,
+      "character_position": 315,
+      "text": "ужасали его и, как он ни старался скрывать это, охлаждали его к ней",
+      "vad": [
+        -0.85,
+        0.6,
+        -0.45
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.2250427087122219,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 9034,
+      "timeline_end_index": 9034,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 76,
+          "end": 143
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_04_03_0006",
+      "source_section": "chapter_04_03",
+      "source_sentence": 44,
+      "character_position": 316,
+      "text": "он был гораздо дальше от счастья",
+      "vad": [
+        -0.85,
+        -0.2,
+        -0.35
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.6657085142123004,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 9035,
+      "timeline_end_index": 9035,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 158,
+          "end": 190
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_04_03_0007",
+      "source_section": "chapter_04_03",
+      "source_sentence": 45,
+      "character_position": 317,
+      "text": "считал себя несчастливым",
+      "vad": [
+        -0.85,
+        -0.1,
+        -0.35
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.5708442036709365,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 9036,
+      "timeline_end_index": 9036,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 9,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_04_03_0008",
+      "source_section": "chapter_04_03",
+      "source_sentence": 45,
+      "character_position": 318,
+      "text": "он чувствовал, что лучшее счастье было уже назади",
+      "vad": [
+        -0.78,
+        0.18,
+        -0.58
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.2911181893040617,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 9036,
+      "timeline_end_index": 9036,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 67,
+          "end": 116
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_04_03_0009",
+      "source_section": "chapter_04_03",
+      "source_sentence": 50,
+      "character_position": 319,
+      "text": "ему казалось, что он не чувствовал любви к ней",
+      "vad": [
+        -0.45,
+        -0.15,
+        -0.2
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.4591023127520025,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 50,
+      "timeline_start_index": 9041,
+      "timeline_end_index": 9041,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 187,
+          "end": 233
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_04_03_0010",
+      "source_section": "chapter_04_03",
+      "source_sentence": 59,
+      "character_position": 320,
+      "text": "говорил он с досадой",
+      "vad": [
+        -0.55,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.3734095973440833,
+      "warning": null,
+      "chapter_sentence_start": 59,
+      "chapter_sentence_end": 59,
+      "timeline_start_index": 9050,
+      "timeline_end_index": 9050,
+      "highlights": [
+        {
+          "chapter_sentence": 59,
+          "start": 123,
+          "end": 143
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_04_03_0011",
+      "source_section": "chapter_04_03",
+      "source_sentence": 84,
+      "character_position": 321,
+      "text": "этого я не понимаю",
+      "vad": [
+        -0.2,
+        0.1,
+        -0.25
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.4281664162051831,
+      "warning": null,
+      "chapter_sentence_start": 84,
+      "chapter_sentence_end": 84,
+      "timeline_start_index": 9075,
+      "timeline_end_index": 9075,
+      "highlights": [
+        {
+          "chapter_sentence": 84,
+          "start": 98,
+          "end": 116
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_04_03_0012",
+      "source_section": "chapter_04_03",
+      "source_sentence": 125,
+      "character_position": 322,
+      "text": "Я не понимаю",
+      "vad": [
+        -0.35,
+        0.2,
+        -0.45
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.4201885098793903,
+      "warning": null,
+      "chapter_sentence_start": 125,
+      "chapter_sentence_end": 125,
+      "timeline_start_index": 9116,
+      "timeline_end_index": 9116,
+      "highlights": [
+        {
+          "chapter_sentence": 125,
+          "start": 2,
+          "end": 14
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_04_03_0013",
+      "source_section": "chapter_04_03",
+      "source_sentence": 133,
+      "character_position": 323,
+      "text": "свое волнение, которое, он знал, не имело никакого основания, но он не мог преодолеть его",
+      "vad": [
+        -0.55,
+        0.68,
+        -0.48
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.2844149437521038,
+      "warning": null,
+      "chapter_sentence_start": 133,
+      "chapter_sentence_end": 133,
+      "timeline_start_index": 9124,
+      "timeline_end_index": 9124,
+      "highlights": [
+        {
+          "chapter_sentence": 133,
+          "start": 84,
+          "end": 173
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_04_03_0014",
+      "source_section": "chapter_04_03",
+      "source_sentence": 155,
+      "character_position": 324,
+      "text": "чувствовал такой же ужас, наполнявший его душу",
+      "vad": [
+        -0.95,
+        0.9,
+        -0.75
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.5976064684479244,
+      "warning": null,
+      "chapter_sentence_start": 155,
+      "chapter_sentence_end": 155,
+      "timeline_start_index": 9146,
+      "timeline_end_index": 9146,
+      "highlights": [
+        {
+          "chapter_sentence": 155,
+          "start": 32,
+          "end": 78
+        }
+      ]
+    }
+  ]
+}

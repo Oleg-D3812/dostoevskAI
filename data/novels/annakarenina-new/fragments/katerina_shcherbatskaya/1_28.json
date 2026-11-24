@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "1_28",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_28_0001",
+      "source_section": "chapter_01_28",
+      "source_sentence": 43,
+      "character_position": 108,
+      "text": "Она ревнует ко мне.",
+      "vad": [
+        0.1,
+        0.2,
+        0.5
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.5732579672557204,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 2588,
+      "timeline_end_index": 2588,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 0,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_28_0002",
+      "source_section": "chapter_01_28",
+      "source_sentence": 44,
+      "character_position": 109,
+      "text": "бал этот был для нее мученьем, а не радостью.",
+      "vad": [
+        -0.85,
+        0.35,
+        -0.6
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.2598175702330244,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 2589,
+      "timeline_end_index": 2589,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 39,
+          "end": 84
+        }
+      ]
+    }
+  ]
+}

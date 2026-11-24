@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "8_9",
+  "count": 11,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_08_09_0001",
+      "source_section": "chapter_08_09",
+      "source_sentence": 1,
+      "character_position": 1288,
+      "text": "Мысли эти томили и мучали его то слабее, то сильнее, но никогда не покидали его.",
+      "vad": [
+        -0.82,
+        0.62,
+        -0.58
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2983060585902675,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 20212,
+      "timeline_end_index": 20212,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 0,
+          "end": 80
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_09_0002",
+      "source_section": "chapter_08_09",
+      "source_sentence": 2,
+      "character_position": 1289,
+      "text": "чем больше он читал и думал, тем дальше чувствовал себя от преследуемой им цели",
+      "vad": [
+        -0.65,
+        0.2,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2327792056239093,
+      "warning": "non_verbatim_evidence;empty_evidence",
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 20213,
+      "timeline_end_index": 20213,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 20,
+          "end": 99
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_09_0004",
+      "source_section": "chapter_08_09",
+      "source_sentence": 7,
+      "character_position": 1290,
+      "text": "эта новая философия дня на два, пока он не отстранился от нее, утешала его",
+      "vad": [
+        0.4,
+        -0.2,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.6221922146601897,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 20218,
+      "timeline_end_index": 20218,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 79,
+          "end": 153
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_09_0006",
+      "source_section": "chapter_08_09",
+      "source_sentence": 9,
+      "character_position": 1291,
+      "text": "был поражен в них учением о церкви",
+      "vad": [
+        0.35,
+        0.45,
+        -0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.4393276706604845,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 20220,
+      "timeline_end_index": 20220,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 126,
+          "end": 160
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_09_0007",
+      "source_section": "chapter_08_09",
+      "source_sentence": 10,
+      "character_position": 1292,
+      "text": "Его поразила сначала мысль о том",
+      "vad": [
+        0.2,
+        0.45,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.5233706850377139,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 20221,
+      "timeline_end_index": 20221,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 0,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_09_0008",
+      "source_section": "chapter_08_09",
+      "source_sentence": 11,
+      "character_position": 1293,
+      "text": "Его обрадовала мысль о том",
+      "vad": [
+        0.7,
+        0.3,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.1626499017791723,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 20222,
+      "timeline_end_index": 20222,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 0,
+          "end": 26
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_09_0009",
+      "source_section": "chapter_08_09",
+      "source_sentence": 12,
+      "character_position": 1294,
+      "text": "он разочаровался",
+      "vad": [
+        -0.65,
+        0.1,
+        -0.3
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3476704472424669,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 20223,
+      "timeline_end_index": 20223,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 175,
+          "end": 191
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_09_0010",
+      "source_section": "chapter_08_09",
+      "source_sentence": 13,
+      "character_position": 1295,
+      "text": "он был не свой человек и пережил ужасные минуты",
+      "vad": [
+        -0.9,
+        0.8,
+        -0.5
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4480457366165991,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 20224,
+      "timeline_end_index": 20224,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 14,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_09_0011",
+      "source_section": "chapter_08_09",
+      "source_sentence": 14,
+      "character_position": 1296,
+      "text": "Без знания того, что я такое и зачем я здесь, нельзя жить.",
+      "vad": [
+        -0.65,
+        0.15,
+        -0.55
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3119910378614207,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 20225,
+      "timeline_end_index": 20225,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 1,
+          "end": 59
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_09_0012",
+      "source_section": "chapter_08_09",
+      "source_sentence": 15,
+      "character_position": 1297,
+      "text": "А знать я этого не могу, следовательно, нельзя жить",
+      "vad": [
+        -0.9,
+        0.5,
+        -0.8
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4598002418193445,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 20226,
+      "timeline_end_index": 20226,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 0,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_09_0014",
+      "source_section": "chapter_08_09",
+      "source_sentence": 25,
+      "character_position": 1298,
+      "text": "Левин был несколько раз так близок к самоубийству, что спрятал шнурок, чтобы не повеситься на нем, и боялся ходить с ружьем, чтобы не застрелиться.",
+      "vad": [
+        -0.98,
+        0.88,
+        -0.78
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.662271700761646,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 20236,
+      "timeline_end_index": 20236,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 42,
+          "end": 189
+        }
+      ]
+    }
+  ]
+}

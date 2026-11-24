@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "5_4",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_05_04_0001",
+      "source_section": "chapter_05_04",
+      "source_sentence": 17,
+      "character_position": 184,
+      "text": "с притворно-испуганным видом",
+      "vad": [
+        0.1,
+        0.3,
+        0.6
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.6864773079295401,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 11494,
+      "timeline_end_index": 11494,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 58,
+          "end": 86
+        }
+      ]
+    }
+  ]
+}

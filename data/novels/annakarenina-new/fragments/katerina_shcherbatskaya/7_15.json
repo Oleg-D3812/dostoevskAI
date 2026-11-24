@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "7_15",
+  "count": 5,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_07_15_0001",
+      "source_section": "chapter_07_15",
+      "source_sentence": 18,
+      "character_position": 527,
+      "text": "измученное лицо Кити",
+      "vad": [
+        -0.85,
+        0.35,
+        -0.6
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.2598175702330244,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 18197,
+      "timeline_end_index": 18197,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 13,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_07_15_0002",
+      "source_section": "chapter_07_15",
+      "source_sentence": 22,
+      "character_position": 528,
+      "text": "Я не боюсь",
+      "vad": [
+        0.1,
+        0.7,
+        0.3
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.7123558676386383,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 18201,
+      "timeline_end_index": 18201,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 0,
+          "end": 10
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_07_15_0003",
+      "source_section": "chapter_07_15",
+      "source_sentence": 30,
+      "character_position": 529,
+      "text": "это ужасно",
+      "vad": [
+        -0.95,
+        0.96,
+        -0.72
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.5969544438263606,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 18209,
+      "timeline_end_index": 18209,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 7,
+          "end": 17
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_07_15_0004",
+      "source_section": "chapter_07_15",
+      "source_sentence": 56,
+      "character_position": 530,
+      "text": "счастливый голос",
+      "vad": [
+        0.85,
+        0.45,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2573711555226484,
+      "warning": null,
+      "chapter_sentence_start": 56,
+      "chapter_sentence_end": 56,
+      "timeline_start_index": 18235,
+      "timeline_end_index": 18235,
+      "highlights": [
+        {
+          "chapter_sentence": 56,
+          "start": 160,
+          "end": 176
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_07_15_0006",
+      "source_section": "chapter_07_15",
+      "source_sentence": 75,
+      "character_position": 531,
+      "text": "страдания кончились",
+      "vad": [
+        0.8,
+        -0.2,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.5237799126800597,
+      "warning": null,
+      "chapter_sentence_start": 75,
+      "chapter_sentence_end": 75,
+      "timeline_start_index": 18254,
+      "timeline_end_index": 18254,
+      "highlights": [
+        {
+          "chapter_sentence": 75,
+          "start": 16,
+          "end": 35
+        }
+      ]
+    }
+  ]
+}

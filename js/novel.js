@@ -508,7 +508,7 @@
 
     function renderNodeDetails(node) {
       var mySeq = ++renderSeq;
-      var html = "<h3>" + escapeHtml(node.label) + '</h3><span class="pill pill-hero">герой</span>' +
+      var html = "<h3>" + escapeHtml(node.label) + '</h3><p class="side-aliases" hidden></p><span class="pill pill-hero">герой</span>' +
         '<p class="side-desc">' + escapeHtml(node.desc || "") + "</p>";
       var ch = resolveChapter(chapterById, node.intro_chapter);
       if (ch) {
@@ -522,9 +522,15 @@
       side.innerHTML = html;
       // The description lives in characters_detail.json (lazy): fill it in when it arrives.
       var descEl = side.querySelector(".side-desc");
+      var aliasEl = side.querySelector(".side-aliases");
       AtlasData.loadCharacterDetails(context).then(function(details) {
         var d = details[node.id];
-        if (mySeq === renderSeq && d && d.desc) descEl.textContent = d.desc;
+        if (mySeq !== renderSeq || !d) return;
+        if (d.desc) descEl.textContent = d.desc;
+        // Other names the text uses for this character, minus the heading itself.
+        var shown = normalizeYo(node.label.toLowerCase());
+        var aliases = (d.aliases || []).filter(function(a) { return a && normalizeYo(String(a).toLowerCase()) !== shown; });
+        if (aliases.length) { aliasEl.textContent = "(" + aliases.join(", ") + ")"; aliasEl.hidden = false; }
       }).catch(function() {});
       var link = side.querySelector(".side-chapter-link");
       if (link) link.addEventListener("click", function() {
@@ -667,7 +673,7 @@
     var explorers = context.feature.explorers || [];
     if (!explorers.length) { renderPanelError(context.panel, "Для этого раздела пока нет доступных исследовательских интерфейсов."); return; }
     context.panel.insertAdjacentHTML("beforeend", '<div class="emotion-landing"><section class="emotion-hero"><div>' +
-      '<p class="landing-eyebrow">' + escapeHtml(AtlasData.localized(context.novel.title)) + ' · VAD Atlas</p><h2>' + escapeHtml(AtlasData.localized(context.feature.label)) + '</h2>' +
+      '<p class="landing-eyebrow">' + escapeHtml(AtlasData.localized(context.novel.title)) + ' · EMO Atlas</p><h2>' + escapeHtml(AtlasData.localized(context.feature.label)) + '</h2>' +
       '<p class="landing-lede">Интерактивные исследовательские шаги для просмотра эмоциональных состояний, кластеров и VAD-пространства романа.</p></div>' +
       '<div class="vad-orbit" aria-label="Valence, Arousal and Dominance axes"><span class="axis-letter axis-v">V</span><span class="axis-letter axis-a">A</span><span class="axis-letter axis-d">D</span><span class="orbit-center"></span></div></section>' +
       '<section class="explorer-section"><div class="landing-section-head"><div><p class="landing-kicker">Current pipeline</p><h3>Explore the data</h3></div></div><div class="explorer-grid">' +

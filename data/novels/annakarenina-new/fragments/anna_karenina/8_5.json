@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "8_5",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_08_05_0001",
+      "source_section": "chapter_08_05",
+      "source_sentence": 41,
+      "character_position": 1078,
+      "text": "застывшее странное, жалкое в губах и ужасное в остановившихся незакрытых глазах, выражение",
+      "vad": [
+        -0.95,
+        0.7,
+        -0.9
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.4580168214375144,
+      "warning": null,
+      "chapter_sentence_start": 41,
+      "chapter_sentence_end": 41,
+      "timeline_start_index": 20058,
+      "timeline_end_index": 20058,
+      "highlights": [
+        {
+          "chapter_sentence": 41,
+          "start": 495,
+          "end": 585
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_08_05_0002",
+      "source_section": "chapter_08_05",
+      "source_sentence": 42,
+      "character_position": 1079,
+      "text": "любящею, ищущею и дающею счастье",
+      "vad": [
+        0.9,
+        0.25,
+        0.05
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.3150474047202465,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 20059,
+      "timeline_end_index": 20059,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 133,
+          "end": 165
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_08_05_0004",
+      "source_section": "chapter_08_05",
+      "source_sentence": 44,
+      "character_position": 1080,
+      "text": "торжествующую",
+      "vad": [
+        0.7,
+        0.6,
+        0.8
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.7052800483396945,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 20061,
+      "timeline_end_index": 20061,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 20,
+          "end": 33
+        }
+      ]
+    }
+  ]
+}

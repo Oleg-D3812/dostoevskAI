@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "5_2",
+  "count": 9,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_02_0001",
+      "source_section": "chapter_05_02",
+      "source_sentence": 88,
+      "character_position": 323,
+      "text": "вся просияв от радости",
+      "vad": [
+        0.95,
+        0.7,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.5256194218956965,
+      "warning": null,
+      "chapter_sentence_start": 88,
+      "chapter_sentence_end": 88,
+      "timeline_start_index": 11355,
+      "timeline_end_index": 11355,
+      "highlights": [
+        {
+          "chapter_sentence": 88,
+          "start": 31,
+          "end": 53
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_02_0003",
+      "source_section": "chapter_05_02",
+      "source_sentence": 97,
+      "character_position": 324,
+      "text": "на нее нашел страх",
+      "vad": [
+        -0.85,
+        0.75,
+        -0.65
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.3615581155573583,
+      "warning": null,
+      "chapter_sentence_start": 97,
+      "chapter_sentence_end": 97,
+      "timeline_start_index": 11364,
+      "timeline_end_index": 11364,
+      "highlights": [
+        {
+          "chapter_sentence": 97,
+          "start": 59,
+          "end": 77
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_02_0005",
+      "source_section": "chapter_05_02",
+      "source_sentence": 100,
+      "character_position": 325,
+      "text": "любящему правдивому лицу",
+      "vad": [
+        0.85,
+        0.1,
+        0.15
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2703635548284044,
+      "warning": null,
+      "chapter_sentence_start": 100,
+      "chapter_sentence_end": 100,
+      "timeline_start_index": 11367,
+      "timeline_end_index": 11367,
+      "highlights": [
+        {
+          "chapter_sentence": 100,
+          "start": 19,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_02_0006",
+      "source_section": "chapter_05_02",
+      "source_sentence": 116,
+      "character_position": 326,
+      "text": "испуганно отвечала она",
+      "vad": [
+        -0.6,
+        0.65,
+        -0.35
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.2079990306902532,
+      "warning": null,
+      "chapter_sentence_start": 116,
+      "chapter_sentence_end": 116,
+      "timeline_start_index": 11383,
+      "timeline_end_index": 11383,
+      "highlights": [
+        {
+          "chapter_sentence": 116,
+          "start": 18,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_02_0007",
+      "source_section": "chapter_05_02",
+      "source_sentence": 119,
+      "character_position": 327,
+      "text": "покраснев от досады",
+      "vad": [
+        -0.55,
+        0.45,
+        -0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.3779596333056407,
+      "warning": null,
+      "chapter_sentence_start": 119,
+      "chapter_sentence_end": 119,
+      "timeline_start_index": 11386,
+      "timeline_end_index": 11386,
+      "highlights": [
+        {
+          "chapter_sentence": 119,
+          "start": 18,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_02_0008",
+      "source_section": "chapter_05_02",
+      "source_sentence": 120,
+      "character_position": 328,
+      "text": "удержала свою досаду",
+      "vad": [
+        -0.35,
+        0.2,
+        0.45
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.4211353228833404,
+      "warning": null,
+      "chapter_sentence_start": 120,
+      "chapter_sentence_end": 120,
+      "timeline_start_index": 11387,
+      "timeline_end_index": 11387,
+      "highlights": [
+        {
+          "chapter_sentence": 120,
+          "start": 36,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_02_0009",
+      "source_section": "chapter_05_02",
+      "source_sentence": 129,
+      "character_position": 329,
+      "text": "она его любит",
+      "vad": [
+        0.9,
+        0.3,
+        0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2554375667626608,
+      "warning": null,
+      "chapter_sentence_start": 129,
+      "chapter_sentence_end": 129,
+      "timeline_start_index": 11396,
+      "timeline_end_index": 11396,
+      "highlights": [
+        {
+          "chapter_sentence": 129,
+          "start": 32,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_02_0010",
+      "source_section": "chapter_05_02",
+      "source_sentence": 130,
+      "character_position": 330,
+      "text": "она любит его",
+      "vad": [
+        0.85,
+        0.25,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2012918098376623,
+      "warning": null,
+      "chapter_sentence_start": 130,
+      "chapter_sentence_end": 130,
+      "timeline_start_index": 11397,
+      "timeline_end_index": 11397,
+      "highlights": [
+        {
+          "chapter_sentence": 130,
+          "start": 21,
+          "end": 34
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_02_0011",
+      "source_section": "chapter_05_02",
+      "source_sentence": 137,
+      "character_position": 331,
+      "text": "ты еще ее расстраиваешь",
+      "vad": [
+        -0.45,
+        0.3,
+        0.55
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.5722873883958107,
+      "warning": null,
+      "chapter_sentence_start": 137,
+      "chapter_sentence_end": 137,
+      "timeline_start_index": 11404,
+      "timeline_end_index": 11404,
+      "highlights": [
+        {
+          "chapter_sentence": 137,
+          "start": 53,
+          "end": 76
+        }
+      ]
+    }
+  ]
+}

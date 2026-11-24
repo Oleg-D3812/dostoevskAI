@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "2_30",
+  "count": 14,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_30_0002",
+      "source_section": "chapter_02_30",
+      "source_sentence": 10,
+      "character_position": 167,
+      "text": "Кити стало очень скучно",
+      "vad": [
+        -0.72,
+        -0.28,
+        -0.08
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.6208236991636299,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 5582,
+      "timeline_end_index": 5582,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 39,
+          "end": 62
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_30_0003",
+      "source_section": "chapter_02_30",
+      "source_sentence": 11,
+      "character_position": 168,
+      "text": "Она не интересовалась теми, кого знала",
+      "vad": [
+        -0.35,
+        -0.45,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.5604800218713397,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 5583,
+      "timeline_end_index": 5583,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 0,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_30_0004",
+      "source_section": "chapter_02_30",
+      "source_sentence": 12,
+      "character_position": 169,
+      "text": "задушевный интерес ее",
+      "vad": [
+        0.4,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2988293550256076,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 5584,
+      "timeline_end_index": 5584,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 11,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_30_0006",
+      "source_section": "chapter_02_30",
+      "source_sentence": 21,
+      "character_position": 170,
+      "text": "Кити интересовали наблюдения над отношениями этой девушки к г-же Шталь и к другим незнакомым ей лицам",
+      "vad": [
+        0.25,
+        0.15,
+        0.05
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.4342283474010234,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 5593,
+      "timeline_end_index": 5593,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 25,
+          "end": 126
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_30_0007",
+      "source_section": "chapter_02_30",
+      "source_sentence": 21,
+      "character_position": 171,
+      "text": "испытывала необъяснимую симпатию к этой m-lle Вареньке",
+      "vad": [
+        0.65,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.0913415963430096,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 5593,
+      "timeline_end_index": 5593,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 156,
+          "end": 210
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_30_0008",
+      "source_section": "chapter_02_30",
+      "source_sentence": 21,
+      "character_position": 172,
+      "text": "чувствовала по встречающимся взглядам, что и она нравится",
+      "vad": [
+        0.6,
+        0.1,
+        0.05
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2098860357002889,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 5593,
+      "timeline_end_index": 5593,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 213,
+          "end": 270
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_30_0009",
+      "source_section": "chapter_02_30",
+      "source_sentence": 25,
+      "character_position": 173,
+      "text": "сдержанного огня жизни и сознания своей привлекательности",
+      "vad": [
+        0.72,
+        0.38,
+        0.48
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.3671296984616355,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 5597,
+      "timeline_end_index": 5597,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 130,
+          "end": 187
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_30_0010",
+      "source_section": "chapter_02_30",
+      "source_sentence": 28,
+      "character_position": 174,
+      "text": "мучительно искала",
+      "vad": [
+        -0.75,
+        0.65,
+        -0.45
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.164571630262284,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 5600,
+      "timeline_end_index": 5600,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 85,
+          "end": 102
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_30_0012",
+      "source_section": "chapter_02_30",
+      "source_sentence": 28,
+      "character_position": 175,
+      "text": "представлявшихся ей теперь позорною выставкой товара",
+      "vad": [
+        -0.85,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.582921353729003,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 5600,
+      "timeline_end_index": 5600,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 208,
+          "end": 260
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_30_0013",
+      "source_section": "chapter_02_30",
+      "source_sentence": 29,
+      "character_position": 176,
+      "text": "тем более она желала познакомиться с ней",
+      "vad": [
+        0.7,
+        0.35,
+        0.15
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.0810234917158663,
+      "warning": null,
+      "chapter_sentence_start": 29,
+      "chapter_sentence_end": 29,
+      "timeline_start_index": 5601,
+      "timeline_end_index": 5601,
+      "highlights": [
+        {
+          "chapter_sentence": 29,
+          "start": 161,
+          "end": 201
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_30_0014",
+      "source_section": "chapter_02_30",
+      "source_sentence": 33,
+      "character_position": 177,
+      "text": "Я просто любуюсь вами и люблю вас",
+      "vad": [
+        0.9,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2558130833948719,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 5605,
+      "timeline_end_index": 5605,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 0,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_30_0015",
+      "source_section": "chapter_02_30",
+      "source_sentence": 40,
+      "character_position": 178,
+      "text": "все мечты об этих двух лицах исчезли",
+      "vad": [
+        -0.45,
+        -0.2,
+        -0.3
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.5061201356980404,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 5612,
+      "timeline_end_index": 5612,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 132,
+          "end": 168
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_30_0016",
+      "source_section": "chapter_02_30",
+      "source_sentence": 41,
+      "character_position": 179,
+      "text": "для Кити эти лица вдруг показались в высшей степени неприятны",
+      "vad": [
+        -0.9,
+        0.25,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.5451415661139439,
+      "warning": null,
+      "chapter_sentence_start": 41,
+      "chapter_sentence_end": 41,
+      "timeline_start_index": 5613,
+      "timeline_end_index": 5613,
+      "highlights": [
+        {
+          "chapter_sentence": 41,
+          "start": 86,
+          "end": 147
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_30_0017",
+      "source_section": "chapter_02_30",
+      "source_sentence": 42,
+      "character_position": 180,
+      "text": "непреодолимое чувство отвращения",
+      "vad": [
+        -0.98,
+        0.72,
+        -0.18
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.4472708767822055,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 5614,
+      "timeline_end_index": 5614,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 72,
+          "end": 104
+        }
+      ]
+    }
+  ]
+}

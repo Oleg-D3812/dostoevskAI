@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "5_2",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_05_02_0001",
+      "source_section": "chapter_05_02",
+      "source_sentence": 147,
+      "character_position": 182,
+      "text": "с доброю и насмешливою улыбкой",
+      "vad": [
+        0.55,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.2008326952155524,
+      "warning": null,
+      "chapter_sentence_start": 147,
+      "chapter_sentence_end": 147,
+      "timeline_start_index": 11414,
+      "timeline_end_index": 11414,
+      "highlights": [
+        {
+          "chapter_sentence": 147,
+          "start": 129,
+          "end": 159
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_05_02_0002",
+      "source_section": "chapter_05_02",
+      "source_sentence": 149,
+      "character_position": 183,
+      "text": "я очень рад",
+      "vad": [
+        0.8,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.1770913056100187,
+      "warning": null,
+      "chapter_sentence_start": 149,
+      "chapter_sentence_end": 149,
+      "timeline_start_index": 11416,
+      "timeline_end_index": 11416,
+      "highlights": [
+        {
+          "chapter_sentence": 149,
+          "start": 10,
+          "end": 21
+        }
+      ]
+    }
+  ]
+}

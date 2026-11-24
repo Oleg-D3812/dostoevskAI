@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "6_29",
+  "count": 8,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_06_29_0001",
+      "source_section": "chapter_06_29",
+      "source_sentence": 7,
+      "character_position": 1059,
+      "text": "не хотелось есть",
+      "vad": [
+        -0.25,
+        -0.3,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3725555329553173,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 16631,
+      "timeline_end_index": 16631,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 7,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_29_0002",
+      "source_section": "chapter_06_29",
+      "source_sentence": 7,
+      "character_position": 1060,
+      "text": "не хотел",
+      "vad": [
+        -0.45,
+        -0.1,
+        0.35
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4005259677328245,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 16631,
+      "timeline_end_index": 16631,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 7,
+          "end": 15
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_29_0003",
+      "source_section": "chapter_06_29",
+      "source_sentence": 8,
+      "character_position": 1061,
+      "text": "не желая с ним встретиться",
+      "vad": [
+        -0.55,
+        0.18,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3537530239613746,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 16632,
+      "timeline_end_index": 16632,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 61,
+          "end": 87
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_29_0004",
+      "source_section": "chapter_06_29",
+      "source_sentence": 10,
+      "character_position": 1062,
+      "text": "Ему было грустно",
+      "vad": [
+        -0.7,
+        -0.2,
+        -0.3
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.6281117140983039,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 16634,
+      "timeline_end_index": 16634,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 0,
+          "end": 16
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_29_0005",
+      "source_section": "chapter_06_29",
+      "source_sentence": 10,
+      "character_position": 1063,
+      "text": "без интереса и без дела",
+      "vad": [
+        -0.55,
+        -0.45,
+        -0.35
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.7188741147751857,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 16634,
+      "timeline_end_index": 16634,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 214,
+          "end": 237
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_29_0006",
+      "source_section": "chapter_06_29",
+      "source_sentence": 48,
+      "character_position": 1064,
+      "text": "я очень плохо понимаю значение дворянских выборов",
+      "vad": [
+        -0.25,
+        -0.1,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5248177257741529,
+      "warning": null,
+      "chapter_sentence_start": 48,
+      "chapter_sentence_end": 48,
+      "timeline_start_index": 16672,
+      "timeline_end_index": 16672,
+      "highlights": [
+        {
+          "chapter_sentence": 48,
+          "start": 31,
+          "end": 80
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_29_0007",
+      "source_section": "chapter_06_29",
+      "source_sentence": 96,
+      "character_position": 1065,
+      "text": "Я всегда чувствую, что нет настоящего расчета в моем хозяйстве",
+      "vad": [
+        -0.45,
+        0.12,
+        -0.38
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3777249316219696,
+      "warning": null,
+      "chapter_sentence_start": 96,
+      "chapter_sentence_end": 96,
+      "timeline_start_index": 16720,
+      "timeline_end_index": 16720,
+      "highlights": [
+        {
+          "chapter_sentence": 96,
+          "start": 0,
+          "end": 62
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_29_0008",
+      "source_section": "chapter_06_29",
+      "source_sentence": 112,
+      "character_position": 1066,
+      "text": "с гордым удовольствием отвечал Левин",
+      "vad": [
+        0.75,
+        0.3,
+        0.5
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.348622934113678,
+      "warning": null,
+      "chapter_sentence_start": 112,
+      "chapter_sentence_end": 112,
+      "timeline_start_index": 16736,
+      "timeline_end_index": 16736,
+      "highlights": [
+        {
+          "chapter_sentence": 112,
+          "start": 8,
+          "end": 44
+        }
+      ]
+    }
+  ]
+}

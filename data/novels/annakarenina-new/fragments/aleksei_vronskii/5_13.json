@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "5_13",
+  "count": 9,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_05_13_0002",
+      "source_section": "chapter_05_13",
+      "source_sentence": 5,
+      "character_position": 428,
+      "text": "как я любил",
+      "vad": [
+        0.75,
+        0.35,
+        0.05
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.1853452088902632,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 12082,
+      "timeline_end_index": 12082,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 30,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_13_0003",
+      "source_section": "chapter_05_13",
+      "source_sentence": 6,
+      "character_position": 429,
+      "text": "ему и другим казалось, что они давно знали его",
+      "vad": [
+        0.45,
+        0.05,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.4032276229129933,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 12083,
+      "timeline_end_index": 12083,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 40,
+          "end": 86
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_13_0004",
+      "source_section": "chapter_05_13",
+      "source_sentence": 15,
+      "character_position": 430,
+      "text": "очевидно, интересовался суждением художника о своей картине",
+      "vad": [
+        0.2,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.486101836263664,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 12092,
+      "timeline_end_index": 12092,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 38,
+          "end": 97
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_13_0005",
+      "source_section": "chapter_05_13",
+      "source_sentence": 25,
+      "character_position": 431,
+      "text": "в глубине души он верил этому",
+      "vad": [
+        0.0,
+        -0.2,
+        0.2
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.4120813221300671,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 12102,
+      "timeline_end_index": 12102,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 31,
+          "end": 60
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_13_0007",
+      "source_section": "chapter_05_13",
+      "source_sentence": 35,
+      "character_position": 432,
+      "text": "Увлечение Вронского живописью и средними веками продолжалось недолго",
+      "vad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.3515161352883419,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 12112,
+      "timeline_end_index": 12112,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 0,
+          "end": 68
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_13_0008",
+      "source_section": "chapter_05_13",
+      "source_sentence": 38,
+      "character_position": 433,
+      "text": "Он смутно чувствовал, что недостатки ее, мало заметные при начале, будут поразительны, если он будет продолжать",
+      "vad": [
+        -0.55,
+        0.12,
+        -0.38
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.3603944157553276,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 12115,
+      "timeline_end_index": 12115,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 0,
+          "end": 111
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_13_0009",
+      "source_section": "chapter_05_13",
+      "source_sentence": 40,
+      "character_position": 434,
+      "text": "не мог обманывать и мучать себя и в особенности озлобляться",
+      "vad": [
+        -0.35,
+        0.2,
+        0.65
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.5006147618276996,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 12117,
+      "timeline_end_index": 12117,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 51,
+          "end": 110
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_13_0010",
+      "source_section": "chapter_05_13",
+      "source_sentence": 42,
+      "character_position": 435,
+      "text": "его разочарованию",
+      "vad": [
+        -0.7,
+        -0.2,
+        -0.15
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.5835075999001622,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 12119,
+      "timeline_end_index": 12119,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 54,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_13_0011",
+      "source_section": "chapter_05_13",
+      "source_sentence": 42,
+      "character_position": 436,
+      "text": "показалась им так скучна",
+      "vad": [
+        -0.65,
+        -0.55,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.7418086601094738,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 12119,
+      "timeline_end_index": 12119,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 73,
+          "end": 97
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "7_7",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_07_07_0002",
+      "source_section": "chapter_07_07",
+      "source_sentence": 88,
+      "character_position": 211,
+      "text": "Ах, княгиня Марья Борисовна, это прелесть!",
+      "vad": [
+        0.75,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.2353735341991558,
+      "warning": null,
+      "chapter_sentence_start": 88,
+      "chapter_sentence_end": 88,
+      "timeline_start_index": 17544,
+      "timeline_end_index": 17544,
+      "highlights": [
+        {
+          "chapter_sentence": 88,
+          "start": 0,
+          "end": 42
+        }
+      ]
+    }
+  ]
+}

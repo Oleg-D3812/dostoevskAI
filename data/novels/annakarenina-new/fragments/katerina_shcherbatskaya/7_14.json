@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "7_14",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_07_14_0001",
+      "source_section": "chapter_07_14",
+      "source_sentence": 70,
+      "character_position": 524,
+      "text": "ее страдания",
+      "vad": [
+        -0.95,
+        0.7,
+        -0.75
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.4458984127813123,
+      "warning": null,
+      "chapter_sentence_start": 70,
+      "chapter_sentence_end": 70,
+      "timeline_start_index": 18144,
+      "timeline_end_index": 18144,
+      "highlights": [
+        {
+          "chapter_sentence": 70,
+          "start": 47,
+          "end": 59
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_07_14_0002",
+      "source_section": "chapter_07_14",
+      "source_sentence": 81,
+      "character_position": 525,
+      "text": "ее воспаленное, то недоумевающее и страдающее, то улыбающееся и успокаивающее его лицо",
+      "vad": [
+        -0.2,
+        0.35,
+        -0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.2992529508644953,
+      "warning": null,
+      "chapter_sentence_start": 81,
+      "chapter_sentence_end": 81,
+      "timeline_start_index": 18155,
+      "timeline_end_index": 18155,
+      "highlights": [
+        {
+          "chapter_sentence": 81,
+          "start": 9,
+          "end": 95
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_07_14_0003",
+      "source_section": "chapter_07_14",
+      "source_sentence": 105,
+      "character_position": 526,
+      "text": "ее покорное, улыбающееся лицо",
+      "vad": [
+        0.2,
+        -0.2,
+        -0.6
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.8466379094121286,
+      "warning": null,
+      "chapter_sentence_start": 105,
+      "chapter_sentence_end": 105,
+      "timeline_start_index": 18179,
+      "timeline_end_index": 18179,
+      "highlights": [
+        {
+          "chapter_sentence": 105,
+          "start": 11,
+          "end": 40
+        }
+      ]
+    }
+  ]
+}

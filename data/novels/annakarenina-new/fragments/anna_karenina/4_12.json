@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "4_12",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_04_12_0001",
+      "source_section": "chapter_04_12",
+      "source_sentence": 55,
+      "character_position": 448,
+      "text": "что она хочет жить сначала",
+      "vad": [
+        -0.65,
+        0.2,
+        -0.35
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.3814299679946879,
+      "warning": null,
+      "chapter_sentence_start": 55,
+      "chapter_sentence_end": 55,
+      "timeline_start_index": 9931,
+      "timeline_end_index": 9931,
+      "highlights": [
+        {
+          "chapter_sentence": 55,
+          "start": 61,
+          "end": 87
+        }
+      ]
+    }
+  ]
+}

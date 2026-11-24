@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "1_18",
+  "count": 5,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_01_18_0001",
+      "source_section": "chapter_01_18",
+      "source_sentence": 3,
+      "character_position": 48,
+      "text": "почувствовал необходимость еще раз взглянуть на нее",
+      "vad": [
+        0.45,
+        0.3,
+        0.05
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.27634261913934,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 1548,
+      "timeline_end_index": 1548,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 38,
+          "end": 89
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_18_0002",
+      "source_section": "chapter_01_18",
+      "source_sentence": 43,
+      "character_position": 49,
+      "text": "отвечал сын холодно",
+      "vad": [
+        -0.35,
+        -0.1,
+        0.35
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.2635731584643952,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 1588,
+      "timeline_end_index": 1588,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 43,
+          "end": 62
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_18_0003",
+      "source_section": "chapter_01_18",
+      "source_sentence": 63,
+      "character_position": 50,
+      "text": "обрадовался тому энергическому пожатию",
+      "vad": [
+        0.7,
+        0.35,
+        0.05
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.1706137298275926,
+      "warning": null,
+      "chapter_sentence_start": 63,
+      "chapter_sentence_end": 63,
+      "timeline_start_index": 1608,
+      "timeline_end_index": 1608,
+      "highlights": [
+        {
+          "chapter_sentence": 63,
+          "start": 64,
+          "end": 102
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_18_0004",
+      "source_section": "chapter_01_18",
+      "source_sentence": 68,
+      "character_position": 51,
+      "text": "ему это показалось досадным",
+      "vad": [
+        -0.55,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.2854670356093647,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 1613,
+      "timeline_end_index": 1613,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 172,
+          "end": 199
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_18_0005",
+      "source_section": "chapter_01_18",
+      "source_sentence": 99,
+      "character_position": 52,
+      "text": "красивое лицо его было серьезно, но совершенно спокойно",
+      "vad": [
+        -0.2,
+        -0.6,
+        0.4
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.7275411814376143,
+      "warning": null,
+      "chapter_sentence_start": 99,
+      "chapter_sentence_end": 99,
+      "timeline_start_index": 1644,
+      "timeline_end_index": 1644,
+      "highlights": [
+        {
+          "chapter_sentence": 99,
+          "start": 19,
+          "end": 74
+        }
+      ]
+    }
+  ]
+}

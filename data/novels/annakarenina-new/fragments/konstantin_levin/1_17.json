@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "1_17",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_01_17_0001",
+      "source_section": "chapter_01_17",
+      "source_sentence": 57,
+      "character_position": 143,
+      "text": "Он очень нервный человек и бывает неприятен, правда, но зато иногда он бывает очень мил.",
+      "vad": [
+        0.2,
+        0.3,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5632492931141192,
+      "warning": null,
+      "chapter_sentence_start": 57,
+      "chapter_sentence_end": 57,
+      "timeline_start_index": 1519,
+      "timeline_end_index": 1519,
+      "highlights": [
+        {
+          "chapter_sentence": 57,
+          "start": 0,
+          "end": 88
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_17_0002",
+      "source_section": "chapter_01_17",
+      "source_sentence": 60,
+      "character_position": 144,
+      "text": "или особенно счастлив, или особенно несчастлив",
+      "vad": [
+        0.0,
+        0.45,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4580724513955843,
+      "warning": null,
+      "chapter_sentence_start": 60,
+      "chapter_sentence_end": 60,
+      "timeline_start_index": 1522,
+      "timeline_end_index": 1522,
+      "highlights": [
+        {
+          "chapter_sentence": 60,
+          "start": 39,
+          "end": 85
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_17_0003",
+      "source_section": "chapter_01_17",
+      "source_sentence": 65,
+      "character_position": 145,
+      "text": "был еще не в духе",
+      "vad": [
+        -0.45,
+        -0.2,
+        -0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.365828335052877,
+      "warning": null,
+      "chapter_sentence_start": 65,
+      "chapter_sentence_end": 65,
+      "timeline_start_index": 1527,
+      "timeline_end_index": 1527,
+      "highlights": [
+        {
+          "chapter_sentence": 65,
+          "start": 24,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_17_0004",
+      "source_section": "chapter_01_17",
+      "source_sentence": 66,
+      "character_position": 146,
+      "text": "Он так давно влюблен",
+      "vad": [
+        0.6,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2220619120671682,
+      "warning": null,
+      "chapter_sentence_start": 66,
+      "chapter_sentence_end": 66,
+      "timeline_start_index": 1528,
+      "timeline_end_index": 1528,
+      "highlights": [
+        {
+          "chapter_sentence": 66,
+          "start": 0,
+          "end": 20
+        }
+      ]
+    }
+  ]
+}

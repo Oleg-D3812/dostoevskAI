@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "4_17",
+  "count": 7,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_04_17_0001",
+      "source_section": "chapter_04_17",
+      "source_sentence": 73,
+      "character_position": 325,
+      "text": "так смутился, что опять сел, втягивая голову в плечи, как бы желая исчезнуть куда-нибудь",
+      "vad": [
+        -0.8,
+        0.7,
+        -0.85
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.4734613817113299,
+      "warning": null,
+      "chapter_sentence_start": 73,
+      "chapter_sentence_end": 73,
+      "timeline_start_index": 10453,
+      "timeline_end_index": 10453,
+      "highlights": [
+        {
+          "chapter_sentence": 73,
+          "start": 16,
+          "end": 104
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_04_17_0002",
+      "source_section": "chapter_04_17",
+      "source_sentence": 162,
+      "character_position": 326,
+      "text": "ужасного по выражению страдания и стыда, которые были на нем",
+      "vad": [
+        -0.95,
+        0.78,
+        -0.8
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.5392181728316618,
+      "warning": null,
+      "chapter_sentence_start": 162,
+      "chapter_sentence_end": 162,
+      "timeline_start_index": 10542,
+      "timeline_end_index": 10542,
+      "highlights": [
+        {
+          "chapter_sentence": 162,
+          "start": 62,
+          "end": 122
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_04_17_0003",
+      "source_section": "chapter_04_17",
+      "source_sentence": 184,
+      "character_position": 327,
+      "text": "чувствуя, что приближается объяснение",
+      "vad": [
+        -0.35,
+        0.35,
+        -0.2
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.448124864925253,
+      "warning": null,
+      "chapter_sentence_start": 184,
+      "chapter_sentence_end": 184,
+      "timeline_start_index": 10564,
+      "timeline_end_index": 10564,
+      "highlights": [
+        {
+          "chapter_sentence": 184,
+          "start": 44,
+          "end": 81
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_04_17_0004",
+      "source_section": "chapter_04_17",
+      "source_sentence": 184,
+      "character_position": 328,
+      "text": "я не могу говорить, не могу понимать",
+      "vad": [
+        -0.8,
+        0.65,
+        -0.8
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.40603073644979,
+      "warning": null,
+      "chapter_sentence_start": 184,
+      "chapter_sentence_end": 184,
+      "timeline_start_index": 10564,
+      "timeline_end_index": 10564,
+      "highlights": [
+        {
+          "chapter_sentence": 184,
+          "start": 85,
+          "end": 121
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_04_17_0005",
+      "source_section": "chapter_04_17",
+      "source_sentence": 186,
+      "character_position": 329,
+      "text": "мне еще ужаснее",
+      "vad": [
+        -0.95,
+        0.85,
+        -0.65
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.517079963405751,
+      "warning": null,
+      "chapter_sentence_start": 186,
+      "chapter_sentence_end": 186,
+      "timeline_start_index": 10566,
+      "timeline_end_index": 10566,
+      "highlights": [
+        {
+          "chapter_sentence": 186,
+          "start": 33,
+          "end": 48
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_04_17_0007",
+      "source_section": "chapter_04_17",
+      "source_sentence": 207,
+      "character_position": 330,
+      "text": "Он был подавлен",
+      "vad": [
+        -0.75,
+        -0.35,
+        -0.55
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.7923334458509634,
+      "warning": null,
+      "chapter_sentence_start": 207,
+      "chapter_sentence_end": 207,
+      "timeline_start_index": 10587,
+      "timeline_end_index": 10587,
+      "highlights": [
+        {
+          "chapter_sentence": 207,
+          "start": 0,
+          "end": 15
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_04_17_0008",
+      "source_section": "chapter_04_17",
+      "source_sentence": 208,
+      "character_position": 331,
+      "text": "Он не понимал чувства Алексея Александровича, но чувствовал, что это было что-то высшее и даже недоступное ему в его мировоззрении",
+      "vad": [
+        -0.35,
+        0.2,
+        -0.3
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.4529758704384477,
+      "warning": null,
+      "chapter_sentence_start": 208,
+      "chapter_sentence_end": 208,
+      "timeline_start_index": 10588,
+      "timeline_end_index": 10588,
+      "highlights": [
+        {
+          "chapter_sentence": 208,
+          "start": 0,
+          "end": 130
+        }
+      ]
+    }
+  ]
+}

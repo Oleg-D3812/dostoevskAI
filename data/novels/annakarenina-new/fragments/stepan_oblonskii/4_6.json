@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "4_6",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_04_06_0003",
+      "source_section": "chapter_04_06",
+      "source_sentence": 32,
+      "character_position": 137,
+      "text": "веселым голосом",
+      "vad": [
+        0.8,
+        0.6,
+        0.1
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.3737539821648436,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 9369,
+      "timeline_end_index": 9369,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 154,
+          "end": 169
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_04_06_0004",
+      "source_section": "chapter_04_06",
+      "source_sentence": 33,
+      "character_position": 138,
+      "text": "веселый, молодой, сияющий",
+      "vad": [
+        0.85,
+        0.6,
+        0.15
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.3857591857886195,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 9370,
+      "timeline_end_index": 9370,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 126,
+          "end": 151
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_04_06_0005",
+      "source_section": "chapter_04_06",
+      "source_sentence": 44,
+      "character_position": 139,
+      "text": "Как я рад тебя видеть!",
+      "vad": [
+        0.9,
+        0.6,
+        0.2
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.4097905070356306,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 9381,
+      "timeline_end_index": 9381,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 0,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_04_06_0007",
+      "source_section": "chapter_04_06",
+      "source_sentence": 82,
+      "character_position": 140,
+      "text": "весело кивнув головой",
+      "vad": [
+        0.7,
+        0.3,
+        0.2
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.0521120065946653,
+      "warning": null,
+      "chapter_sentence_start": 82,
+      "chapter_sentence_end": 82,
+      "timeline_start_index": 9419,
+      "timeline_end_index": 9419,
+      "highlights": [
+        {
+          "chapter_sentence": 82,
+          "start": 49,
+          "end": 70
+        }
+      ]
+    }
+  ]
+}

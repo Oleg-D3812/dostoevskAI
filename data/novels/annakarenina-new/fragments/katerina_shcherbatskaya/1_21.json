@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "1_21",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_21_0002",
+      "source_section": "chapter_01_21",
+      "source_sentence": 44,
+      "character_position": 74,
+      "text": "Она думала, что она одна поняла, зачем он приезжал и отчего не вошел.",
+      "vad": [
+        0.2,
+        0.15,
+        0.35
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.5222147701142149,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 1995,
+      "timeline_end_index": 1995,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 0,
+          "end": 69
+        }
+      ]
+    }
+  ]
+}

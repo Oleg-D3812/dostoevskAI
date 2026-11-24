@@ -1,0 +1,529 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "4_14",
+  "count": 20,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_04_14_0001",
+      "source_section": "chapter_04_14",
+      "source_sentence": 1,
+      "character_position": 606,
+      "text": "почувствовал такое беспокойство без нее и такое нетерпеливое желание поскорее, поскорее дожить до завтрашнего утра",
+      "vad": [
+        -0.65,
+        0.85,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4229931238121392,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 10085,
+      "timeline_end_index": 10085,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 43,
+          "end": 157
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_14_0002",
+      "source_section": "chapter_04_14",
+      "source_sentence": 1,
+      "character_position": 607,
+      "text": "он испугался, как смерти, этих четырнадцати часов",
+      "vad": [
+        -0.85,
+        0.8,
+        -0.65
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4783904669281316,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 10085,
+      "timeline_end_index": 10085,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 217,
+          "end": 266
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_14_0003",
+      "source_section": "chapter_04_14",
+      "source_sentence": 4,
+      "character_position": 608,
+      "text": "что он счастлив и что он любит его",
+      "vad": [
+        0.9,
+        0.4,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2344965305410083,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 10088,
+      "timeline_end_index": 10088,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 32,
+          "end": 66
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_14_0005",
+      "source_section": "chapter_04_14",
+      "source_sentence": 11,
+      "character_position": 609,
+      "text": "Левину неприятны были эти слова Дарьи Александровны",
+      "vad": [
+        -0.55,
+        0.15,
+        -0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3426491738934698,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 10095,
+      "timeline_end_index": 10095,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 3,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_14_0006",
+      "source_section": "chapter_04_14",
+      "source_sentence": 21,
+      "character_position": 610,
+      "text": "Со мной счастье!",
+      "vad": [
+        0.95,
+        0.7,
+        0.25
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.4644706852478466,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 10105,
+      "timeline_end_index": 10105,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 0,
+          "end": 16
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_14_0007",
+      "source_section": "chapter_04_14",
+      "source_sentence": 24,
+      "character_position": 611,
+      "text": "Со мной счастье!",
+      "vad": [
+        0.98,
+        0.72,
+        0.76
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.7750401780193658,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 10108,
+      "timeline_end_index": 10108,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 0,
+          "end": 16
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_14_0009",
+      "source_section": "chapter_04_14",
+      "source_sentence": 36,
+      "character_position": 612,
+      "text": "Я тебя очень люблю!",
+      "vad": [
+        0.98,
+        0.78,
+        0.12
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.5398100599865439,
+      "warning": null,
+      "chapter_sentence_start": 36,
+      "chapter_sentence_end": 36,
+      "timeline_start_index": 10120,
+      "timeline_end_index": 10120,
+      "highlights": [
+        {
+          "chapter_sentence": 36,
+          "start": 58,
+          "end": 77
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_14_0010",
+      "source_section": "chapter_04_14",
+      "source_sentence": 52,
+      "character_position": 613,
+      "text": "ты доволен?",
+      "vad": [
+        0.1,
+        0.0,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3617274436969496,
+      "warning": null,
+      "chapter_sentence_start": 52,
+      "chapter_sentence_end": 52,
+      "timeline_start_index": 10136,
+      "timeline_end_index": 10136,
+      "highlights": [
+        {
+          "chapter_sentence": 52,
+          "start": 13,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_14_0012",
+      "source_section": "chapter_04_14",
+      "source_sentence": 55,
+      "character_position": 614,
+      "text": "Я никак не думал, что это так интересно!",
+      "vad": [
+        0.7,
+        0.55,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2717198413129308,
+      "warning": null,
+      "chapter_sentence_start": 55,
+      "chapter_sentence_end": 55,
+      "timeline_start_index": 10139,
+      "timeline_end_index": 10139,
+      "highlights": [
+        {
+          "chapter_sentence": 55,
+          "start": 0,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_14_0013",
+      "source_section": "chapter_04_14",
+      "source_sentence": 56,
+      "character_position": 615,
+      "text": "Славно, прекрасно!",
+      "vad": [
+        0.9,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2259158033206842,
+      "warning": null,
+      "chapter_sentence_start": 56,
+      "chapter_sentence_end": 56,
+      "timeline_start_index": 10140,
+      "timeline_end_index": 10140,
+      "highlights": [
+        {
+          "chapter_sentence": 56,
+          "start": 0,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_14_0015",
+      "source_section": "chapter_04_14",
+      "source_sentence": 60,
+      "character_position": 616,
+      "text": "Ах, очень рад",
+      "vad": [
+        0.8,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.1335856469757227,
+      "warning": null,
+      "chapter_sentence_start": 60,
+      "chapter_sentence_end": 60,
+      "timeline_start_index": 10144,
+      "timeline_end_index": 10144,
+      "highlights": [
+        {
+          "chapter_sentence": 60,
+          "start": 2,
+          "end": 15
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_14_0017",
+      "source_section": "chapter_04_14",
+      "source_sentence": 61,
+      "character_position": 617,
+      "text": "он очень был рад ехать к ним",
+      "vad": [
+        0.85,
+        0.35,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.1720877199973506,
+      "warning": null,
+      "chapter_sentence_start": 61,
+      "chapter_sentence_end": 61,
+      "timeline_start_index": 10145,
+      "timeline_end_index": 10145,
+      "highlights": [
+        {
+          "chapter_sentence": 61,
+          "start": 215,
+          "end": 243
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_14_0018",
+      "source_section": "chapter_04_14",
+      "source_sentence": 62,
+      "character_position": 618,
+      "text": "это нисколько не неприятно было Левину",
+      "vad": [
+        0.25,
+        0.0,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5078940000747626,
+      "warning": null,
+      "chapter_sentence_start": 62,
+      "chapter_sentence_end": 62,
+      "timeline_start_index": 10146,
+      "timeline_end_index": 10146,
+      "highlights": [
+        {
+          "chapter_sentence": 62,
+          "start": 149,
+          "end": 187
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_14_0019",
+      "source_section": "chapter_04_14",
+      "source_sentence": 63,
+      "character_position": 619,
+      "text": "чувствовал, что Свияжский прав",
+      "vad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.2645568376544562,
+      "warning": null,
+      "chapter_sentence_start": 63,
+      "chapter_sentence_end": 63,
+      "timeline_start_index": 10147,
+      "timeline_end_index": 10147,
+      "highlights": [
+        {
+          "chapter_sentence": 63,
+          "start": 14,
+          "end": 44
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_14_0020",
+      "source_section": "chapter_04_14",
+      "source_sentence": 65,
+      "character_position": 620,
+      "text": "Левину казалось, что они всё уже знают и сочувствуют ему",
+      "vad": [
+        0.5,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2330578835737152,
+      "warning": null,
+      "chapter_sentence_start": 65,
+      "chapter_sentence_end": 65,
+      "timeline_start_index": 10149,
+      "timeline_end_index": 10149,
+      "highlights": [
+        {
+          "chapter_sentence": 65,
+          "start": 0,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_14_0021",
+      "source_section": "chapter_04_14",
+      "source_sentence": 67,
+      "character_position": 621,
+      "text": "тому странному состоянию, в котором был его приятель",
+      "vad": [
+        0.3,
+        0.7,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.6427221498044259,
+      "warning": null,
+      "chapter_sentence_start": 67,
+      "chapter_sentence_end": 67,
+      "timeline_start_index": 10151,
+      "timeline_end_index": 10151,
+      "highlights": [
+        {
+          "chapter_sentence": 67,
+          "start": 54,
+          "end": 106
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_14_0022",
+      "source_section": "chapter_04_14",
+      "source_sentence": 69,
+      "character_position": 622,
+      "text": "испугался мысли о том, как он один теперь с своим нетерпением проведет остающиеся ему еще десять часов",
+      "vad": [
+        -0.75,
+        0.7,
+        -0.55
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3160734432796866,
+      "warning": null,
+      "chapter_sentence_start": 69,
+      "chapter_sentence_end": 69,
+      "timeline_start_index": 10153,
+      "timeline_end_index": 10153,
+      "highlights": [
+        {
+          "chapter_sentence": 69,
+          "start": 29,
+          "end": 131
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_14_0023",
+      "source_section": "chapter_04_14",
+      "source_sentence": 77,
+      "character_position": 623,
+      "text": "с любовью всегда будешь счастлив, потому что счастье бывает только в себе самом",
+      "vad": [
+        0.8,
+        0.1,
+        0.5
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.4274728265686648,
+      "warning": null,
+      "chapter_sentence_start": 77,
+      "chapter_sentence_end": 77,
+      "timeline_start_index": 10161,
+      "timeline_end_index": 10161,
+      "highlights": [
+        {
+          "chapter_sentence": 77,
+          "start": 92,
+          "end": 171
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_14_0024",
+      "source_section": "chapter_04_14",
+      "source_sentence": 85,
+      "character_position": 624,
+      "text": "заразившись восторженностью Левина",
+      "vad": [
+        0.8,
+        0.7,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.4188681251227429,
+      "warning": null,
+      "chapter_sentence_start": 85,
+      "chapter_sentence_end": 85,
+      "timeline_start_index": 10169,
+      "timeline_end_index": 10169,
+      "highlights": [
+        {
+          "chapter_sentence": 85,
+          "start": 37,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_14_0025",
+      "source_section": "chapter_04_14",
+      "source_sentence": 97,
+      "character_position": 625,
+      "text": "слезы выступили ему на глаза от любви и жалости к этому человеку",
+      "vad": [
+        -0.2,
+        0.55,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4853175676898749,
+      "warning": null,
+      "chapter_sentence_start": 97,
+      "chapter_sentence_end": 97,
+      "timeline_start_index": 10181,
+      "timeline_end_index": 10181,
+      "highlights": [
+        {
+          "chapter_sentence": 97,
+          "start": 19,
+          "end": 83
+        }
+      ]
+    }
+  ]
+}

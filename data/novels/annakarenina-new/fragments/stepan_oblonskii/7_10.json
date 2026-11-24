@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "7_10",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_07_10_0001",
+      "source_section": "chapter_07_10",
+      "source_sentence": 58,
+      "character_position": 215,
+      "text": "Кончится тем, что ты ее будешь любить больше своей.",
+      "vad": [
+        -0.35,
+        0.3,
+        0.15
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.3130793245088264,
+      "warning": null,
+      "chapter_sentence_start": 58,
+      "chapter_sentence_end": 58,
+      "timeline_start_index": 17762,
+      "timeline_end_index": 17762,
+      "highlights": [
+        {
+          "chapter_sentence": 58,
+          "start": 2,
+          "end": 53
+        }
+      ]
+    }
+  ]
+}

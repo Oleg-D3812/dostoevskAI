@@ -1,0 +1,425 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "7_31",
+  "count": 16,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_07_31_0001",
+      "source_section": "chapter_07_31",
+      "source_sentence": 6,
+      "character_position": 1060,
+      "text": "ужаснулась на ее безобразие",
+      "vad": [
+        -0.75,
+        0.7,
+        -0.15
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.4112384415136141,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 19656,
+      "timeline_end_index": 19656,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 65,
+          "end": 92
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_31_0002",
+      "source_section": "chapter_07_31",
+      "source_sentence": 13,
+      "character_position": 1061,
+      "text": "дрожа от страха",
+      "vad": [
+        -0.9,
+        0.9,
+        -0.8
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.4899549768172164,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 19663,
+      "timeline_end_index": 19663,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 27,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_31_0003",
+      "source_section": "chapter_07_31",
+      "source_sentence": 17,
+      "character_position": 1062,
+      "text": "ужаса на ее лице",
+      "vad": [
+        -0.98,
+        0.9,
+        -0.75
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.4916570988375647,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 19667,
+      "timeline_end_index": 19667,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 45,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_31_0004",
+      "source_section": "chapter_07_31",
+      "source_sentence": 20,
+      "character_position": 1063,
+      "text": "казались отвратительны Анне",
+      "vad": [
+        -0.82,
+        0.18,
+        -0.32
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.3974168021134435,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 19670,
+      "timeline_end_index": 19670,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 13,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_31_0005",
+      "source_section": "chapter_07_31",
+      "source_sentence": 25,
+      "character_position": 1064,
+      "text": "нельзя было не ненавидеть таких жалких уродов",
+      "vad": [
+        -0.95,
+        0.55,
+        -0.2
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.3678770533300248,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 19675,
+      "timeline_end_index": 19675,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 2,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_31_0006",
+      "source_section": "chapter_07_31",
+      "source_sentence": 27,
+      "character_position": 1065,
+      "text": "смех раздражил ее до боли",
+      "vad": [
+        -0.85,
+        0.8,
+        -0.25
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.3965876468838881,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 19677,
+      "timeline_end_index": 19677,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 64,
+          "end": 89
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_31_0008",
+      "source_section": "chapter_07_31",
+      "source_sentence": 29,
+      "character_position": 1066,
+      "text": "с злобой взглянув на него",
+      "vad": [
+        -0.75,
+        0.65,
+        0.2
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.6487754328608144,
+      "warning": null,
+      "chapter_sentence_start": 29,
+      "chapter_sentence_end": 29,
+      "timeline_start_index": 19679,
+      "timeline_end_index": 19679,
+      "highlights": [
+        {
+          "chapter_sentence": 29,
+          "start": 65,
+          "end": 90
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_31_0009",
+      "source_section": "chapter_07_31",
+      "source_sentence": 34,
+      "character_position": 1067,
+      "text": "жизнь не была бы мученьем",
+      "vad": [
+        -0.9,
+        0.15,
+        -0.7
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.4320028559433987,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 19684,
+      "timeline_end_index": 19684,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 53,
+          "end": 78
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_31_0011",
+      "source_section": "chapter_07_31",
+      "source_sentence": 42,
+      "character_position": 1068,
+      "text": "очень беспокоит меня",
+      "vad": [
+        -0.65,
+        0.62,
+        -0.35
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.2301526281603896,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 19692,
+      "timeline_end_index": 19692,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 5,
+          "end": 25
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_31_0012",
+      "source_section": "chapter_07_31",
+      "source_sentence": 43,
+      "character_position": 1069,
+      "text": "гадко смотреть на все это",
+      "vad": [
+        -0.8,
+        0.3,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.4440728980182481,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 19693,
+      "timeline_end_index": 19693,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 65,
+          "end": 90
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_31_0013",
+      "source_section": "chapter_07_31",
+      "source_sentence": 62,
+      "character_position": 1070,
+      "text": "с злою усмешкой",
+      "vad": [
+        -0.65,
+        0.35,
+        0.2
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.3914800392194555,
+      "warning": null,
+      "chapter_sentence_start": 62,
+      "chapter_sentence_end": 62,
+      "timeline_start_index": 19712,
+      "timeline_end_index": 19712,
+      "highlights": [
+        {
+          "chapter_sentence": 62,
+          "start": 19,
+          "end": 34
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_31_0014",
+      "source_section": "chapter_07_31",
+      "source_sentence": 65,
+      "character_position": 1071,
+      "text": "заставлял ее мучаться",
+      "vad": [
+        -0.85,
+        0.55,
+        -0.7
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.1999691076487595,
+      "warning": null,
+      "chapter_sentence_start": 65,
+      "chapter_sentence_end": 65,
+      "timeline_start_index": 19715,
+      "timeline_end_index": 19715,
+      "highlights": [
+        {
+          "chapter_sentence": 65,
+          "start": 112,
+          "end": 133
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_31_0015",
+      "source_section": "chapter_07_31",
+      "source_sentence": 86,
+      "character_position": 1072,
+      "text": "Чувство, подобное тому, которое она испытывала, когда, купаясь, готовилась войти в воду",
+      "vad": [
+        -0.45,
+        0.7,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.5544638405874913,
+      "warning": null,
+      "chapter_sentence_start": 86,
+      "chapter_sentence_end": 86,
+      "timeline_start_index": 19736,
+      "timeline_end_index": 19736,
+      "highlights": [
+        {
+          "chapter_sentence": 86,
+          "start": 0,
+          "end": 87
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_31_0016",
+      "source_section": "chapter_07_31",
+      "source_sentence": 87,
+      "character_position": 1073,
+      "text": "мрак, покрывавший для нее все, разорвался, и жизнь предстала ей на мгновение со всеми ее светлыми прошедшими радостями",
+      "vad": [
+        0.75,
+        0.25,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.1609424936695764,
+      "warning": null,
+      "chapter_sentence_start": 87,
+      "chapter_sentence_end": 87,
+      "timeline_start_index": 19737,
+      "timeline_end_index": 19737,
+      "highlights": [
+        {
+          "chapter_sentence": 87,
+          "start": 102,
+          "end": 220
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_31_0017",
+      "source_section": "chapter_07_31",
+      "source_sentence": 90,
+      "character_position": 1074,
+      "text": "ужаснулась тому, что делала",
+      "vad": [
+        -0.95,
+        0.85,
+        -0.6
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.3844652472809244,
+      "warning": null,
+      "chapter_sentence_start": 90,
+      "chapter_sentence_end": 90,
+      "timeline_start_index": 19740,
+      "timeline_end_index": 19740,
+      "highlights": [
+        {
+          "chapter_sentence": 90,
+          "start": 24,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_31_0018",
+      "source_section": "chapter_07_31",
+      "source_sentence": 96,
+      "character_position": 1075,
+      "text": "чувствуя невозможность борьбы",
+      "vad": [
+        -0.85,
+        0.2,
+        -0.9
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.5038539674195587,
+      "warning": null,
+      "chapter_sentence_start": 96,
+      "chapter_sentence_end": 96,
+      "timeline_start_index": 19746,
+      "timeline_end_index": 19746,
+      "highlights": [
+        {
+          "chapter_sentence": 96,
+          "start": 19,
+          "end": 48
+        }
+      ]
+    }
+  ]
+}

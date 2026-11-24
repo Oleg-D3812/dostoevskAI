@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "7_20",
+  "count": 14,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_07_20_0002",
+      "source_section": "chapter_07_20",
+      "source_sentence": 5,
+      "character_position": 235,
+      "text": "он чувствовал, что падает духом",
+      "vad": [
+        -0.65,
+        -0.35,
+        -0.2
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.5409837338377268,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 18542,
+      "timeline_end_index": 18542,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 46,
+          "end": 77
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_20_0003",
+      "source_section": "chapter_07_20",
+      "source_sentence": 6,
+      "character_position": 236,
+      "text": "начинал беспокоиться дурным расположением и упреками жены, здоровьем, воспитанием детей, мелкими интересами своей службы",
+      "vad": [
+        -0.55,
+        0.48,
+        -0.32
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.1724349935181929,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 18543,
+      "timeline_end_index": 18543,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 58,
+          "end": 178
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_20_0004",
+      "source_section": "chapter_07_20",
+      "source_sentence": 6,
+      "character_position": 237,
+      "text": "даже то, что у него были долги, беспокоило его",
+      "vad": [
+        -0.55,
+        0.35,
+        -0.3
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.2031711910482691,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 18543,
+      "timeline_end_index": 18543,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 180,
+          "end": 226
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_20_0005",
+      "source_section": "chapter_07_20",
+      "source_sentence": 7,
+      "character_position": 238,
+      "text": "тотчас все мысли эти исчезали и таяли",
+      "vad": [
+        0.65,
+        -0.25,
+        0.35
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.5404459297317412,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 18544,
+      "timeline_end_index": 18544,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 140,
+          "end": 177
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_20_0006",
+      "source_section": "chapter_07_20",
+      "source_sentence": 22,
+      "character_position": 239,
+      "text": "успокоительно действовал на Степана Аркадьича",
+      "vad": [
+        0.55,
+        -0.35,
+        0.2
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.6287588635362662,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 18559,
+      "timeline_end_index": 18559,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 55,
+          "end": 100
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_20_0008",
+      "source_section": "chapter_07_20",
+      "source_sentence": 46,
+      "character_position": 240,
+      "text": "Петербург физически приятно действовал на Степана Аркадьича.",
+      "vad": [
+        0.75,
+        0.45,
+        0.2
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.2027350191826166,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 18583,
+      "timeline_end_index": 18583,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 17,
+          "end": 77
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_20_0009",
+      "source_section": "chapter_07_20",
+      "source_sentence": 48,
+      "character_position": 241,
+      "text": "скучал с молодыми женщинами",
+      "vad": [
+        -0.5,
+        -0.4,
+        0.0
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.4604405559246125,
+      "warning": null,
+      "chapter_sentence_start": 48,
+      "chapter_sentence_end": 48,
+      "timeline_start_index": 18585,
+      "timeline_end_index": 18585,
+      "highlights": [
+        {
+          "chapter_sentence": 48,
+          "start": 115,
+          "end": 142
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_20_0011",
+      "source_section": "chapter_07_20",
+      "source_sentence": 50,
+      "character_position": 242,
+      "text": "Он испытывал в Петербурге то же, что говорил ему вчера еще шестидесятилетний князь Облонский, Петр, только что вернувшийся из-за границы.",
+      "vad": [
+        0.4,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.2854598304046115,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 50,
+      "timeline_start_index": 18587,
+      "timeline_end_index": 18587,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 0,
+          "end": 137
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_20_0012",
+      "source_section": "chapter_07_20",
+      "source_sentence": 60,
+      "character_position": 243,
+      "text": "Степан Аркадьич точно ту же разницу чувствовал",
+      "vad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.3186818744753356,
+      "warning": null,
+      "chapter_sentence_start": 60,
+      "chapter_sentence_end": 60,
+      "timeline_start_index": 18597,
+      "timeline_end_index": 18597,
+      "highlights": [
+        {
+          "chapter_sentence": 60,
+          "start": 0,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_20_0014",
+      "source_section": "chapter_07_20",
+      "source_sentence": 61,
+      "character_position": 244,
+      "text": "в Петербурге же он чувствовал себя опять порядочным человеком",
+      "vad": [
+        0.72,
+        0.18,
+        0.62
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.4329107578051722,
+      "warning": null,
+      "chapter_sentence_start": 61,
+      "chapter_sentence_end": 61,
+      "timeline_start_index": 18598,
+      "timeline_end_index": 18598,
+      "highlights": [
+        {
+          "chapter_sentence": 61,
+          "start": 115,
+          "end": 176
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_20_0015",
+      "source_section": "chapter_07_20",
+      "source_sentence": 64,
+      "character_position": 245,
+      "text": "чувствовал себя столь молодым",
+      "vad": [
+        0.68,
+        0.34,
+        0.18
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.0768928580885327,
+      "warning": null,
+      "chapter_sentence_start": 64,
+      "chapter_sentence_end": 64,
+      "timeline_start_index": 18601,
+      "timeline_end_index": 18601,
+      "highlights": [
+        {
+          "chapter_sentence": 64,
+          "start": 81,
+          "end": 110
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_20_0016",
+      "source_section": "chapter_07_20",
+      "source_sentence": 64,
+      "character_position": 246,
+      "text": "не знал, как выбраться назад",
+      "vad": [
+        -0.55,
+        0.25,
+        -0.7
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.3577819791949816,
+      "warning": null,
+      "chapter_sentence_start": 64,
+      "chapter_sentence_end": 64,
+      "timeline_start_index": 18601,
+      "timeline_end_index": 18601,
+      "highlights": [
+        {
+          "chapter_sentence": 64,
+          "start": 187,
+          "end": 215
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_20_0017",
+      "source_section": "chapter_07_20",
+      "source_sentence": 64,
+      "character_position": 247,
+      "text": "она не только не нравилась, но противна была ему",
+      "vad": [
+        -0.85,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.4686736641419141,
+      "warning": null,
+      "chapter_sentence_start": 64,
+      "chapter_sentence_end": 64,
+      "timeline_start_index": 18601,
+      "timeline_end_index": 18601,
+      "highlights": [
+        {
+          "chapter_sentence": 64,
+          "start": 239,
+          "end": 287
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_20_0018",
+      "source_section": "chapter_07_20",
+      "source_sentence": 66,
+      "character_position": 248,
+      "text": "он уже был очень рад приезду княгини Мягкой",
+      "vad": [
+        0.65,
+        0.2,
+        0.3
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.1211619914018267,
+      "warning": null,
+      "chapter_sentence_start": 66,
+      "chapter_sentence_end": 66,
+      "timeline_start_index": 18603,
+      "timeline_end_index": 18603,
+      "highlights": [
+        {
+          "chapter_sentence": 66,
+          "start": 8,
+          "end": 51
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,425 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "3_17",
+  "count": 16,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_03_17_0001",
+      "source_section": "chapter_03_17",
+      "source_sentence": 5,
+      "character_position": 341,
+      "text": "Анна не хотела ехать",
+      "vad": [
+        -0.35,
+        -0.2,
+        0.2
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.4183238654456427,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 7515,
+      "timeline_end_index": 7515,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 26,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_03_17_0002",
+      "source_section": "chapter_03_17",
+      "source_sentence": 6,
+      "character_position": 342,
+      "text": "в надежде увидать Вронского, пожелала ехать",
+      "vad": [
+        0.65,
+        0.35,
+        0.25
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.1041028669321943,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 7516,
+      "timeline_end_index": 7516,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 15,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_03_17_0003",
+      "source_section": "chapter_03_17",
+      "source_sentence": 13,
+      "character_position": 343,
+      "text": "Ей хотелось спросить, где его барин.",
+      "vad": [
+        -0.1,
+        0.25,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.2922793344432008,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 7523,
+      "timeline_end_index": 7523,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 0,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_03_17_0004",
+      "source_section": "chapter_03_17",
+      "source_sentence": 14,
+      "character_position": 344,
+      "text": "Ей хотелось вернуться назад и послать ему письмо, чтобы он приехал к ней, или самой ехать к нему.",
+      "vad": [
+        -0.45,
+        0.55,
+        -0.25
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.4191005739350203,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 7524,
+      "timeline_end_index": 7524,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 0,
+          "end": 97
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_03_17_0005",
+      "source_section": "chapter_03_17",
+      "source_sentence": 19,
+      "character_position": 345,
+      "text": "Положение нерешительности, неясности было все то же",
+      "vad": [
+        -0.45,
+        0.1,
+        -0.55
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.5288628170971731,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 7529,
+      "timeline_end_index": 7529,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 0,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_03_17_0007",
+      "source_section": "chapter_03_17",
+      "source_sentence": 19,
+      "character_position": 346,
+      "text": "ей было легче, чем дома",
+      "vad": [
+        0.34,
+        -0.08,
+        0.18
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.4631544127805596,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 7529,
+      "timeline_end_index": 7529,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 372,
+          "end": 395
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_03_17_0008",
+      "source_section": "chapter_03_17",
+      "source_sentence": 31,
+      "character_position": 347,
+      "text": "для которой ложь, чуждая ее природе, сделалась не только проста и естественна в обществе, но даже доставляла удовольствие",
+      "vad": [
+        0.55,
+        0.25,
+        0.45
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.2899139619200848,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 7541,
+      "timeline_end_index": 7541,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 39,
+          "end": 160
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_03_17_0009",
+      "source_section": "chapter_03_17",
+      "source_sentence": 43,
+      "character_position": 348,
+      "text": "равнодушно сказала Анна, как бы мало интересуясь этим",
+      "vad": [
+        -0.05,
+        -0.35,
+        0.35
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.7057458532237795,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 7553,
+      "timeline_end_index": 7553,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 2,
+          "end": 55
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_03_17_0010",
+      "source_section": "chapter_03_17",
+      "source_sentence": 44,
+      "character_position": 349,
+      "text": "Эта игра словами, это скрывание тайны, как и для всех женщин, имело большую прелесть для Анны.",
+      "vad": [
+        0.75,
+        0.35,
+        0.3
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.1970841668127202,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 7554,
+      "timeline_end_index": 7554,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 2,
+          "end": 96
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_03_17_0011",
+      "source_section": "chapter_03_17",
+      "source_sentence": 45,
+      "character_position": 350,
+      "text": "самый процесс скрывания увлекал ее",
+      "vad": [
+        0.72,
+        0.68,
+        0.34
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.4346868355480073,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 7555,
+      "timeline_end_index": 7555,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 65,
+          "end": 99
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_03_17_0012",
+      "source_section": "chapter_03_17",
+      "source_sentence": 58,
+      "character_position": 351,
+      "text": "Анна чувствовала, что она понимает отчасти ее положение и что-то затевает.",
+      "vad": [
+        -0.1,
+        0.25,
+        -0.2
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.3489195557737972,
+      "warning": null,
+      "chapter_sentence_start": 58,
+      "chapter_sentence_end": 58,
+      "timeline_start_index": 7568,
+      "timeline_end_index": 7568,
+      "highlights": [
+        {
+          "chapter_sentence": 58,
+          "start": 67,
+          "end": 141
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_03_17_0013",
+      "source_section": "chapter_03_17",
+      "source_sentence": 72,
+      "character_position": 352,
+      "text": "всегда мне была симпатична",
+      "vad": [
+        0.45,
+        -0.2,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.5476639659516724,
+      "warning": null,
+      "chapter_sentence_start": 72,
+      "chapter_sentence_end": 72,
+      "timeline_start_index": 7582,
+      "timeline_end_index": 7582,
+      "highlights": [
+        {
+          "chapter_sentence": 72,
+          "start": 19,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_03_17_0014",
+      "source_section": "chapter_03_17",
+      "source_sentence": 78,
+      "character_position": 353,
+      "text": "что то, что она спрашивала, было для нее важнее, чем бы следовало",
+      "vad": [
+        -0.35,
+        0.45,
+        -0.25
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.37711853019064,
+      "warning": null,
+      "chapter_sentence_start": 78,
+      "chapter_sentence_end": 78,
+      "timeline_start_index": 7588,
+      "timeline_end_index": 7588,
+      "highlights": [
+        {
+          "chapter_sentence": 78,
+          "start": 173,
+          "end": 238
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_03_17_0015",
+      "source_section": "chapter_03_17",
+      "source_sentence": 111,
+      "character_position": 354,
+      "text": "вы склонны смотреть на вещи слишком трагически",
+      "vad": [
+        -0.45,
+        0.1,
+        -0.2
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.212798241758483,
+      "warning": null,
+      "chapter_sentence_start": 111,
+      "chapter_sentence_end": 111,
+      "timeline_start_index": 7621,
+      "timeline_end_index": 7621,
+      "highlights": [
+        {
+          "chapter_sentence": 111,
+          "start": 12,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_03_17_0016",
+      "source_section": "chapter_03_17",
+      "source_sentence": 112,
+      "character_position": 355,
+      "text": "Как бы я желала знать других так, как я себя знаю",
+      "vad": [
+        -0.2,
+        0.1,
+        -0.25
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.3057933326345376,
+      "warning": null,
+      "chapter_sentence_start": 112,
+      "chapter_sentence_end": 112,
+      "timeline_start_index": 7622,
+      "timeline_end_index": 7622,
+      "highlights": [
+        {
+          "chapter_sentence": 112,
+          "start": 2,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_03_17_0017",
+      "source_section": "chapter_03_17",
+      "source_sentence": 112,
+      "character_position": 356,
+      "text": "сказала Анна серьезно и задумчиво",
+      "vad": [
+        -0.1,
+        -0.2,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.4560258351055749,
+      "warning": null,
+      "chapter_sentence_start": 112,
+      "chapter_sentence_end": 112,
+      "timeline_start_index": 7622,
+      "timeline_end_index": 7622,
+      "highlights": [
+        {
+          "chapter_sentence": 112,
+          "start": 55,
+          "end": 88
+        }
+      ]
+    }
+  ]
+}

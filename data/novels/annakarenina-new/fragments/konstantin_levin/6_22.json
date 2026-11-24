@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "6_22",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_06_22_0001",
+      "source_section": "chapter_06_22",
+      "source_sentence": 102,
+      "character_position": 1026,
+      "text": "il est un petit peu toque",
+      "vad": [
+        -0.3,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.1638497589974722,
+      "warning": null,
+      "chapter_sentence_start": 102,
+      "chapter_sentence_end": 102,
+      "timeline_start_index": 16097,
+      "timeline_end_index": 16097,
+      "highlights": [
+        {
+          "chapter_sentence": 102,
+          "start": 15,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_22_0002",
+      "source_section": "chapter_06_22",
+      "source_sentence": 111,
+      "character_position": 1027,
+      "text": "Левин, думающий противоположное, был так же решителен в своих суждениях у себя за столом",
+      "vad": [
+        0.1,
+        0.25,
+        0.75
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.8064681172421286,
+      "warning": null,
+      "chapter_sentence_start": 111,
+      "chapter_sentence_end": 111,
+      "timeline_start_index": 16106,
+      "timeline_end_index": 16106,
+      "highlights": [
+        {
+          "chapter_sentence": 111,
+          "start": 19,
+          "end": 107
+        }
+      ]
+    }
+  ]
+}

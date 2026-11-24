@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "6_19",
+  "count": 10,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_06_19_0001",
+      "source_section": "chapter_06_19",
+      "source_sentence": 28,
+      "character_position": 716,
+      "text": "Анна теперь уже не смущалась",
+      "vad": [
+        0.2,
+        -0.2,
+        0.35
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.6684399824053799,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 15690,
+      "timeline_end_index": 15690,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 0,
+          "end": 28
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_19_0002",
+      "source_section": "chapter_06_19",
+      "source_sentence": 29,
+      "character_position": 717,
+      "text": "Она была совершенно свободна и спокойна",
+      "vad": [
+        0.7,
+        -0.55,
+        0.65
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.9751797281227688,
+      "warning": null,
+      "chapter_sentence_start": 29,
+      "chapter_sentence_end": 29,
+      "timeline_start_index": 15691,
+      "timeline_end_index": 15691,
+      "highlights": [
+        {
+          "chapter_sentence": 29,
+          "start": 0,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_19_0004",
+      "source_section": "chapter_06_19",
+      "source_sentence": 30,
+      "character_position": 718,
+      "text": "при котором как будто дверь в тот отдел, где находились ее чувства и задушевные мысли, была заперта",
+      "vad": [
+        -0.35,
+        -0.4,
+        0.45
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.7256422128757853,
+      "warning": "non_verbatim_evidence",
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 15692,
+      "timeline_end_index": 15692,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 156,
+          "end": 255
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_19_0005",
+      "source_section": "chapter_06_19",
+      "source_sentence": 52,
+      "character_position": 719,
+      "text": "вдруг просветлев лицом",
+      "vad": [
+        0.7,
+        0.4,
+        0.2
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.1403316160352249,
+      "warning": null,
+      "chapter_sentence_start": 52,
+      "chapter_sentence_end": 52,
+      "timeline_start_index": 15714,
+      "timeline_end_index": 15714,
+      "highlights": [
+        {
+          "chapter_sentence": 52,
+          "start": 13,
+          "end": 35
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_19_0006",
+      "source_section": "chapter_06_19",
+      "source_sentence": 74,
+      "character_position": 720,
+      "text": "Мне иногда тяжело, что я как лишняя здесь",
+      "vad": [
+        -0.65,
+        0.25,
+        -0.4
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.3186617188691857,
+      "warning": null,
+      "chapter_sentence_start": 74,
+      "chapter_sentence_end": 74,
+      "timeline_start_index": 15736,
+      "timeline_end_index": 15736,
+      "highlights": [
+        {
+          "chapter_sentence": 74,
+          "start": 2,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_19_0007",
+      "source_section": "chapter_06_19",
+      "source_sentence": 80,
+      "character_position": 721,
+      "text": "я как голодный, которому вдруг поставили полный обед, и он не знает, за что взяться",
+      "vad": [
+        0.75,
+        0.65,
+        -0.3
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.6054547895108253,
+      "warning": null,
+      "chapter_sentence_start": 80,
+      "chapter_sentence_end": 80,
+      "timeline_start_index": 15742,
+      "timeline_end_index": 15742,
+      "highlights": [
+        {
+          "chapter_sentence": 80,
+          "start": 16,
+          "end": 99
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_19_0008",
+      "source_section": "chapter_06_19",
+      "source_sentence": 81,
+      "character_position": 722,
+      "text": "я не знаю, за какой разговор прежде взяться",
+      "vad": [
+        0.18,
+        0.38,
+        -0.12
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.5277267305543628,
+      "warning": null,
+      "chapter_sentence_start": 81,
+      "chapter_sentence_end": 81,
+      "timeline_start_index": 15743,
+      "timeline_end_index": 15743,
+      "highlights": [
+        {
+          "chapter_sentence": 81,
+          "start": 95,
+          "end": 138
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_19_0010",
+      "source_section": "chapter_06_19",
+      "source_sentence": 82,
+      "character_position": 723,
+      "text": "Мне все надо высказать",
+      "vad": [
+        0.1,
+        0.65,
+        0.7
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.8180984206995638,
+      "warning": null,
+      "chapter_sentence_start": 82,
+      "chapter_sentence_end": 82,
+      "timeline_start_index": 15744,
+      "timeline_end_index": 15744,
+      "highlights": [
+        {
+          "chapter_sentence": 82,
+          "start": 0,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_19_0011",
+      "source_section": "chapter_06_19",
+      "source_sentence": 92,
+      "character_position": 724,
+      "text": "ты не понимаешь всей тяжести моего положения",
+      "vad": [
+        -0.85,
+        0.2,
+        -0.65
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.3549871537224393,
+      "warning": null,
+      "chapter_sentence_start": 92,
+      "chapter_sentence_end": 92,
+      "timeline_start_index": 15754,
+      "timeline_end_index": 15754,
+      "highlights": [
+        {
+          "chapter_sentence": 92,
+          "start": 12,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_19_0012",
+      "source_section": "chapter_06_19",
+      "source_sentence": 93,
+      "character_position": 725,
+      "text": "Здесь я совершенно спокойна и счастлива",
+      "vad": [
+        0.9,
+        -0.6,
+        0.4
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.9673188000198052,
+      "warning": null,
+      "chapter_sentence_start": 93,
+      "chapter_sentence_end": 93,
+      "timeline_start_index": 15755,
+      "timeline_end_index": 15755,
+      "highlights": [
+        {
+          "chapter_sentence": 93,
+          "start": 2,
+          "end": 41
+        }
+      ]
+    }
+  ]
+}

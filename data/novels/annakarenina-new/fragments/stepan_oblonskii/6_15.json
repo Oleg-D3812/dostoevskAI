@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "6_15",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_06_15_0001",
+      "source_section": "chapter_06_15",
+      "source_sentence": 107,
+      "character_position": 206,
+      "text": "Степан Аркадьич и княгиня были возмущены поступком Левина.",
+      "vad": [
+        -0.65,
+        0.52,
+        0.05
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.4842808530560319,
+      "warning": null,
+      "chapter_sentence_start": 107,
+      "chapter_sentence_end": 107,
+      "timeline_start_index": 15327,
+      "timeline_end_index": 15327,
+      "highlights": [
+        {
+          "chapter_sentence": 107,
+          "start": 0,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_06_15_0002",
+      "source_section": "chapter_06_15",
+      "source_sentence": 109,
+      "character_position": 207,
+      "text": "к концу этого дня все, за исключением княгини, не прощавшей этот поступок Левину, сделались необыкновенно оживлены и веселы",
+      "vad": [
+        0.85,
+        0.75,
+        0.1
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.5273308884900748,
+      "warning": null,
+      "chapter_sentence_start": 109,
+      "chapter_sentence_end": 109,
+      "timeline_start_index": 15329,
+      "timeline_end_index": 15329,
+      "highlights": [
+        {
+          "chapter_sentence": 109,
+          "start": 21,
+          "end": 144
+        }
+      ]
+    }
+  ]
+}

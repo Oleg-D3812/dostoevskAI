@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "1_21",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_01_21_0001",
+      "source_section": "chapter_01_21",
+      "source_sentence": 23,
+      "character_position": 110,
+      "text": "доволен и весел",
+      "vad": [
+        0.8,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.192136536434113,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 1974,
+      "timeline_end_index": 1974,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 92,
+          "end": 107
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_21_0002",
+      "source_section": "chapter_01_21",
+      "source_sentence": 23,
+      "character_position": 111,
+      "text": "будучи прощен, забыл свою вину",
+      "vad": [
+        0.65,
+        0.1,
+        0.5
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.3437448808652811,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 1974,
+      "timeline_end_index": 1974,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 150,
+          "end": 180
+        }
+      ]
+    }
+  ]
+}

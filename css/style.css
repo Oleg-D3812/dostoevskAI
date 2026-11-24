@@ -194,6 +194,8 @@ a:hover { color: var(--hover-color); }
 }
 .graph-side h3 { margin: 0 0 8px; font-size: 16px; }
 .side-hint { color: var(--text-muted); }
+.graph-side .side-aliases { margin: -2px 0 10px; color: var(--text-muted); font-size: 12px; line-height: 1.5; }
+.graph-side .side-aliases[hidden] { display: none; }
 .side-desc { margin: 10px 0 0; color: var(--text-color); }
 .side-sep { border: 0; border-top: 1px solid var(--border-color); margin: 18px 0; }
 .side-kicker {
@@ -1412,6 +1414,78 @@ a:hover { color: var(--hover-color); }
   border-color: var(--accent-color);
   color: var(--accent-color);
 }
+/* Cluster filter: header (title + All/None) stays put, the character rows
+   scroll inside a fixed-height box so many characters never push the chart down. */
+.filter-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 10px;
+}
+.filter-head .landing-kicker { margin: 0; }
+.filter-head .filter-actions { margin-top: 0; }
+.filter-head .filter-actions button { padding: 5px 12px; }
+.filter-groups {
+  display: block;
+  height: 89px;
+  padding-right: 6px;
+  overflow-y: auto;
+}
+.filter-group {
+  display: grid;
+  grid-template-columns: 340px minmax(0, 1fr);
+  align-items: start;
+  gap: 8px 16px;
+  padding: 4px 0;
+}
+.filter-group:first-child { padding-top: 0; }
+.filter-group:last-child { padding-bottom: 0; }
+.filter-group-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+/* The character's name is itself the on/off-all button. */
+.filter-group-toggle {
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 5px 13px;
+  border: 1px solid color-mix(in srgb, var(--accent-color) 42%, var(--border-color));
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent-color);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: color .15s, background .15s, border-color .15s;
+}
+.filter-group-toggle.is-mixed {
+  background: transparent;
+  color: var(--text-color);
+  border-color: color-mix(in srgb, var(--accent-color) 42%, var(--border-color));
+}
+.filter-group-toggle.is-off {
+  background: transparent;
+  color: var(--text-muted);
+  border-color: var(--border-color);
+}
+.filter-group-toggle:hover {
+  border-color: var(--accent-color);
+}
+.filter-group-clusters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+}
+@media (max-width: 720px) {
+  .filter-group { grid-template-columns: 1fr; }
+}
 .plot-card {
   margin-top: 18px;
   padding: 10px;
@@ -1456,32 +1530,40 @@ a:hover { color: var(--hover-color); }
 .centroids tr:last-child td {
   border-bottom: 0;
 }
+/* Chart / Clusters switch: folder tabs on a baseline, same look as the
+   sub-tabs on the character-graph page. */
 .view-tabs {
   display: flex;
-  gap: 8px;
+  gap: 4px;
   margin-top: 18px;
+  border-bottom: 1px solid var(--border-color);
 }
 .view-tab-btn {
-  border: 1px solid var(--border-color);
-  border-radius: 999px;
-  padding: 8px 16px;
-  background: var(--surface-solid);
+  position: relative;
+  top: 1px;
+  padding: 8px 18px;
+  border: 1px solid transparent;
+  border-bottom: none;
+  border-radius: 8px 8px 0 0;
+  background: transparent;
   color: var(--text-muted);
   font: inherit;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
-  letter-spacing: .08em;
+  letter-spacing: .06em;
   text-transform: uppercase;
   cursor: pointer;
+  transition: color .15s, background .15s;
 }
 .view-tab-btn:hover {
-  border-color: var(--accent-color);
   color: var(--text-color);
+  background: color-mix(in srgb, var(--surface-solid) 70%, transparent);
 }
 .view-tab-btn.active {
-  border-color: var(--accent-color);
-  color: var(--accent-color);
-  background: var(--accent-soft);
+  border-color: var(--border-color);
+  border-bottom: 1px solid var(--bg-color);
+  color: var(--teal-color);
+  background: var(--bg-color);
 }
 .view-panel {
   display: none;

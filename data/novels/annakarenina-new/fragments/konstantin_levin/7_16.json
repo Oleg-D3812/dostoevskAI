@@ -1,0 +1,425 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "7_16",
+  "count": 16,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_07_16_0001",
+      "source_section": "chapter_07_16",
+      "source_sentence": 4,
+      "character_position": 1250,
+      "text": "Он чувствовал себя на какой-то недосягаемой высоте",
+      "vad": [
+        0.7,
+        0.4,
+        0.3
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.1581062663073014,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 18264,
+      "timeline_end_index": 18264,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 0,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_16_0002",
+      "source_section": "chapter_07_16",
+      "source_sentence": 18,
+      "character_position": 1251,
+      "text": "Опять волнение, подобное тому, какое он испытал в минуту родов, подступило ему к сердцу",
+      "vad": [
+        0.25,
+        0.78,
+        -0.15
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.6972478340721333,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 18278,
+      "timeline_end_index": 18278,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 0,
+          "end": 87
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_16_0003",
+      "source_section": "chapter_07_16",
+      "source_sentence": 20,
+      "character_position": 1252,
+      "text": "Он не мог отвечать и отворачивался, убедясь в своей слабости",
+      "vad": [
+        -0.72,
+        0.58,
+        -0.76
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3839770926837263,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 18280,
+      "timeline_end_index": 18280,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 0,
+          "end": 60
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_16_0004",
+      "source_section": "chapter_07_16",
+      "source_sentence": 29,
+      "character_position": 1253,
+      "text": "делал тщетные усилия, чтобы найти в своей душе какие-нибудь признаки к нему отеческого чувства",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.5
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1197719838738232,
+      "warning": null,
+      "chapter_sentence_start": 29,
+      "chapter_sentence_end": 29,
+      "timeline_start_index": 18289,
+      "timeline_end_index": 18289,
+      "highlights": [
+        {
+          "chapter_sentence": 29,
+          "start": 47,
+          "end": 141
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_16_0005",
+      "source_section": "chapter_07_16",
+      "source_sentence": 30,
+      "character_position": 1254,
+      "text": "Он чувствовал к нему только гадливость",
+      "vad": [
+        -0.85,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4578677821989036,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 18290,
+      "timeline_end_index": 18290,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 0,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_16_0006",
+      "source_section": "chapter_07_16",
+      "source_sentence": 31,
+      "character_position": 1255,
+      "text": "на него нашла такая жалость к этому существу и такой страх, что она повредит ему",
+      "vad": [
+        -0.7,
+        0.65,
+        -0.35
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2319564735671802,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 18291,
+      "timeline_end_index": 18291,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 280,
+          "end": 360
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_16_0007",
+      "source_section": "chapter_07_16",
+      "source_sentence": 45,
+      "character_position": 1256,
+      "text": "Левин с огорчением вздохнул",
+      "vad": [
+        -0.55,
+        -0.2,
+        -0.05
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4141002117086295,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 18305,
+      "timeline_end_index": 18305,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 0,
+          "end": 27
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_16_0008",
+      "source_section": "chapter_07_16",
+      "source_sentence": 46,
+      "character_position": 1257,
+      "text": "Этот прекрасный ребенок внушал ему только чувство гадливости и жалости",
+      "vad": [
+        -0.78,
+        0.32,
+        -0.18
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2803908531732387,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 18306,
+      "timeline_end_index": 18306,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 0,
+          "end": 70
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_16_0009",
+      "source_section": "chapter_07_16",
+      "source_sentence": 47,
+      "character_position": 1258,
+      "text": "Это было совсем не то чувство, которого он ожидал",
+      "vad": [
+        -0.55,
+        0.1,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3888452748917564,
+      "warning": null,
+      "chapter_sentence_start": 47,
+      "chapter_sentence_end": 47,
+      "timeline_start_index": 18307,
+      "timeline_end_index": 18307,
+      "highlights": [
+        {
+          "chapter_sentence": 47,
+          "start": 0,
+          "end": 49
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_16_0010",
+      "source_section": "chapter_07_16",
+      "source_sentence": 57,
+      "character_position": 1259,
+      "text": "Улыбаясь и едва удерживая слезы умиления",
+      "vad": [
+        0.75,
+        0.55,
+        0.15
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2296171788972651,
+      "warning": null,
+      "chapter_sentence_start": 57,
+      "chapter_sentence_end": 57,
+      "timeline_start_index": 18317,
+      "timeline_end_index": 18317,
+      "highlights": [
+        {
+          "chapter_sentence": 57,
+          "start": 0,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_16_0011",
+      "source_section": "chapter_07_16",
+      "source_sentence": 58,
+      "character_position": 1260,
+      "text": "Что он испытывал к этому маленькому существу, было совсем не то, что он ожидал",
+      "vad": [
+        -0.15,
+        0.2,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.2966846920483461,
+      "warning": null,
+      "chapter_sentence_start": 58,
+      "chapter_sentence_end": 58,
+      "timeline_start_index": 18318,
+      "timeline_end_index": 18318,
+      "highlights": [
+        {
+          "chapter_sentence": 58,
+          "start": 0,
+          "end": 78
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_16_0012",
+      "source_section": "chapter_07_16",
+      "source_sentence": 59,
+      "character_position": 1261,
+      "text": "Ничего веселого и радостного не было в этом чувстве; напротив, это был новый мучительный страх",
+      "vad": [
+        -0.9,
+        0.8,
+        -0.7
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.5255851898492692,
+      "warning": null,
+      "chapter_sentence_start": 59,
+      "chapter_sentence_end": 59,
+      "timeline_start_index": 18319,
+      "timeline_end_index": 18319,
+      "highlights": [
+        {
+          "chapter_sentence": 59,
+          "start": 0,
+          "end": 94
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_16_0013",
+      "source_section": "chapter_07_16",
+      "source_sentence": 60,
+      "character_position": 1262,
+      "text": "Это было сознание новой области уязвимости",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.089283961039629,
+      "warning": null,
+      "chapter_sentence_start": 60,
+      "chapter_sentence_end": 60,
+      "timeline_start_index": 18320,
+      "timeline_end_index": 18320,
+      "highlights": [
+        {
+          "chapter_sentence": 60,
+          "start": 0,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_16_0014",
+      "source_section": "chapter_07_16",
+      "source_sentence": 61,
+      "character_position": 1263,
+      "text": "это сознание было так мучительно первое время",
+      "vad": [
+        -0.85,
+        0.35,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2049542089712993,
+      "warning": null,
+      "chapter_sentence_start": 61,
+      "chapter_sentence_end": 61,
+      "timeline_start_index": 18321,
+      "timeline_end_index": 18321,
+      "highlights": [
+        {
+          "chapter_sentence": 61,
+          "start": 2,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_16_0015",
+      "source_section": "chapter_07_16",
+      "source_sentence": 61,
+      "character_position": 1264,
+      "text": "страх за то, чтобы не пострадало это беспомощное существо, был так силен",
+      "vad": [
+        -0.85,
+        0.8,
+        -0.65
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4783904669281316,
+      "warning": null,
+      "chapter_sentence_start": 61,
+      "chapter_sentence_end": 61,
+      "timeline_start_index": 18321,
+      "timeline_end_index": 18321,
+      "highlights": [
+        {
+          "chapter_sentence": 61,
+          "start": 49,
+          "end": 121
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_16_0016",
+      "source_section": "chapter_07_16",
+      "source_sentence": 61,
+      "character_position": 1265,
+      "text": "странное чувство бессмысленной радости и даже гордости, которое он испытал",
+      "vad": [
+        0.7,
+        0.35,
+        0.25
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.0944648104547148,
+      "warning": null,
+      "chapter_sentence_start": 61,
+      "chapter_sentence_end": 61,
+      "timeline_start_index": 18321,
+      "timeline_end_index": 18321,
+      "highlights": [
+        {
+          "chapter_sentence": 61,
+          "start": 155,
+          "end": 229
+        }
+      ]
+    }
+  ]
+}

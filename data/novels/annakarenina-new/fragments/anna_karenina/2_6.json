@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "2_6",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_02_06_0001",
+      "source_section": "chapter_02_06",
+      "source_sentence": 70,
+      "character_position": 150,
+      "text": "Анна очень переменилась с своей московской поездки.",
+      "vad": [
+        -0.15,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.2365204329966302,
+      "warning": null,
+      "chapter_sentence_start": 70,
+      "chapter_sentence_end": 70,
+      "timeline_start_index": 3527,
+      "timeline_end_index": 3527,
+      "highlights": [
+        {
+          "chapter_sentence": 70,
+          "start": 2,
+          "end": 53
+        }
+      ]
+    }
+  ]
+}

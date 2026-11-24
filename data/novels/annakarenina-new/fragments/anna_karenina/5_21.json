@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "5_21",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_05_21_0001",
+      "source_section": "chapter_05_21",
+      "source_sentence": 1,
+      "character_position": 575,
+      "text": "жена его желала этого",
+      "vad": [
+        -0.35,
+        0.0,
+        -0.2
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.2513390677742309,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 12739,
+      "timeline_end_index": 12739,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 212,
+          "end": 233
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "6_9",
+  "count": 12,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_06_09_0001",
+      "source_section": "chapter_06_09",
+      "source_sentence": 9,
+      "character_position": 925,
+      "text": "Левину самому хотелось зайти в эти местечки",
+      "vad": [
+        0.45,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2742618539640639,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 14616,
+      "timeline_end_index": 14616,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 0,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_09_0002",
+      "source_section": "chapter_06_09",
+      "source_sentence": 21,
+      "character_position": 926,
+      "text": "надеясь, что они ничего не найдут, кроме чибисов",
+      "vad": [
+        -0.2,
+        0.2,
+        -0.25
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.328014626059449,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 14628,
+      "timeline_end_index": 14628,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 32,
+          "end": 80
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_09_0003",
+      "source_section": "chapter_06_09",
+      "source_sentence": 29,
+      "character_position": 927,
+      "text": "с завистью смотрел на охотников",
+      "vad": [
+        -0.55,
+        0.25,
+        -0.3
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2400893708095846,
+      "warning": null,
+      "chapter_sentence_start": 29,
+      "chapter_sentence_end": 29,
+      "timeline_start_index": 14636,
+      "timeline_end_index": 14636,
+      "highlights": [
+        {
+          "chapter_sentence": 29,
+          "start": 26,
+          "end": 57
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_09_0004",
+      "source_section": "chapter_06_09",
+      "source_sentence": 44,
+      "character_position": 928,
+      "text": "Левин не имел духа выговорить ему",
+      "vad": [
+        -0.45,
+        0.12,
+        -0.62
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4304298962608422,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 14651,
+      "timeline_end_index": 14651,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 3,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_09_0005",
+      "source_section": "chapter_06_09",
+      "source_sentence": 45,
+      "character_position": 929,
+      "text": "нельзя было самому не смеяться",
+      "vad": [
+        0.7,
+        0.45,
+        -0.15
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.3317906499463537,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 14652,
+      "timeline_end_index": 14652,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 240,
+          "end": 270
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_09_0006",
+      "source_section": "chapter_06_09",
+      "source_sentence": 55,
+      "character_position": 930,
+      "text": "Левина начинала разбирать охотничья зависть",
+      "vad": [
+        -0.45,
+        0.35,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3115581992374363,
+      "warning": null,
+      "chapter_sentence_start": 55,
+      "chapter_sentence_end": 55,
+      "timeline_start_index": 14662,
+      "timeline_end_index": 14662,
+      "highlights": [
+        {
+          "chapter_sentence": 55,
+          "start": 0,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_09_0007",
+      "source_section": "chapter_06_09",
+      "source_sentence": 60,
+      "character_position": 931,
+      "text": "радуясь на собаку",
+      "vad": [
+        0.8,
+        0.3,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.1266587324070581,
+      "warning": null,
+      "chapter_sentence_start": 60,
+      "chapter_sentence_end": 60,
+      "timeline_start_index": 14667,
+      "timeline_end_index": 14667,
+      "highlights": [
+        {
+          "chapter_sentence": 60,
+          "start": 35,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_09_0009",
+      "source_section": "chapter_06_09",
+      "source_sentence": 79,
+      "character_position": 932,
+      "text": "Левину было досадно",
+      "vad": [
+        -0.65,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4190564447656397,
+      "warning": null,
+      "chapter_sentence_start": 79,
+      "chapter_sentence_end": 79,
+      "timeline_start_index": 14686,
+      "timeline_end_index": 14686,
+      "highlights": [
+        {
+          "chapter_sentence": 79,
+          "start": 0,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_09_0010",
+      "source_section": "chapter_06_09",
+      "source_sentence": 81,
+      "character_position": 933,
+      "text": "разгоревшись работой",
+      "vad": [
+        0.35,
+        0.65,
+        0.45
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.5463472790205592,
+      "warning": null,
+      "chapter_sentence_start": 81,
+      "chapter_sentence_end": 81,
+      "timeline_start_index": 14688,
+      "timeline_end_index": 14688,
+      "highlights": [
+        {
+          "chapter_sentence": 81,
+          "start": 10,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_09_0011",
+      "source_section": "chapter_06_09",
+      "source_sentence": 81,
+      "character_position": 934,
+      "text": "под влиянием вчерашнего чувства был слишком холоден к Весловскому",
+      "vad": [
+        -0.45,
+        -0.25,
+        -0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.404094775210278,
+      "warning": "non_verbatim_evidence;empty_evidence",
+      "chapter_sentence_start": 81,
+      "chapter_sentence_end": 81,
+      "timeline_start_index": 14688,
+      "timeline_end_index": 14688,
+      "highlights": [
+        {
+          "chapter_sentence": 81,
+          "start": 159,
+          "end": 224
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_09_0013",
+      "source_section": "chapter_06_09",
+      "source_sentence": 93,
+      "character_position": 935,
+      "text": "Левин боялся немного",
+      "vad": [
+        -0.25,
+        0.2,
+        -0.15
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.2359458012031443,
+      "warning": null,
+      "chapter_sentence_start": 93,
+      "chapter_sentence_end": 93,
+      "timeline_start_index": 14700,
+      "timeline_end_index": 14700,
+      "highlights": [
+        {
+          "chapter_sentence": 93,
+          "start": 0,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_09_0014",
+      "source_section": "chapter_06_09",
+      "source_sentence": 93,
+      "character_position": 936,
+      "text": "они все после завтрака в самом веселом расположении духа",
+      "vad": [
+        0.85,
+        0.55,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2816349041726294,
+      "warning": null,
+      "chapter_sentence_start": 93,
+      "chapter_sentence_end": 93,
+      "timeline_start_index": 14700,
+      "timeline_end_index": 14700,
+      "highlights": [
+        {
+          "chapter_sentence": 93,
+          "start": 297,
+          "end": 353
+        }
+      ]
+    }
+  ]
+}

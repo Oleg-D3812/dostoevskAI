@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "4_7",
+  "count": 12,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_04_07_0001",
+      "source_section": "chapter_04_07",
+      "source_sentence": 45,
+      "character_position": 567,
+      "text": "И рад, что был.",
+      "vad": [
+        0.7,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2344104607123477,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 9464,
+      "timeline_end_index": 9464,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 0,
+          "end": 15
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_07_0002",
+      "source_section": "chapter_04_07",
+      "source_sentence": 53,
+      "character_position": 568,
+      "text": "в бодром духе",
+      "vad": [
+        0.7,
+        0.45,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.1275759317091785,
+      "warning": null,
+      "chapter_sentence_start": 53,
+      "chapter_sentence_end": 53,
+      "timeline_start_index": 9472,
+      "timeline_end_index": 9472,
+      "highlights": [
+        {
+          "chapter_sentence": 53,
+          "start": 19,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_07_0003",
+      "source_section": "chapter_04_07",
+      "source_sentence": 54,
+      "character_position": 569,
+      "text": "в каком-то унынии",
+      "vad": [
+        -0.7,
+        -0.35,
+        -0.3
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.7056280714806951,
+      "warning": null,
+      "chapter_sentence_start": 54,
+      "chapter_sentence_end": 54,
+      "timeline_start_index": 9473,
+      "timeline_end_index": 9473,
+      "highlights": [
+        {
+          "chapter_sentence": 54,
+          "start": 56,
+          "end": 73
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_07_0004",
+      "source_section": "chapter_04_07",
+      "source_sentence": 55,
+      "character_position": 570,
+      "text": "я не перестаю думать о смерти",
+      "vad": [
+        -0.65,
+        0.25,
+        -0.35
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.189825997787316,
+      "warning": null,
+      "chapter_sentence_start": 55,
+      "chapter_sentence_end": 55,
+      "timeline_start_index": 9474,
+      "timeline_end_index": 9474,
+      "highlights": [
+        {
+          "chapter_sentence": 55,
+          "start": 13,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_07_0005",
+      "source_section": "chapter_04_07",
+      "source_sentence": 58,
+      "character_position": 571,
+      "text": "я мыслью своею и работой ужасно дорожу",
+      "vad": [
+        0.65,
+        0.35,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.0568201825909701,
+      "warning": null,
+      "chapter_sentence_start": 58,
+      "chapter_sentence_end": 58,
+      "timeline_start_index": 9477,
+      "timeline_end_index": 9477,
+      "highlights": [
+        {
+          "chapter_sentence": 58,
+          "start": 24,
+          "end": 62
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_07_0006",
+      "source_section": "chapter_04_07",
+      "source_sentence": 62,
+      "character_position": 572,
+      "text": "как-то все делается ничтожно",
+      "vad": [
+        -0.55,
+        -0.15,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4455465530436425,
+      "warning": null,
+      "chapter_sentence_start": 62,
+      "chapter_sentence_end": 62,
+      "timeline_start_index": 9481,
+      "timeline_end_index": 9481,
+      "highlights": [
+        {
+          "chapter_sentence": 62,
+          "start": 47,
+          "end": 75
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_07_0007",
+      "source_section": "chapter_04_07",
+      "source_sentence": 63,
+      "character_position": 573,
+      "text": "так все ничтожно",
+      "vad": [
+        -0.75,
+        0.15,
+        -0.3
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3122293974519089,
+      "warning": null,
+      "chapter_sentence_start": 63,
+      "chapter_sentence_end": 63,
+      "timeline_start_index": 9482,
+      "timeline_end_index": 9482,
+      "highlights": [
+        {
+          "chapter_sentence": 63,
+          "start": 65,
+          "end": 81
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_07_0008",
+      "source_section": "chapter_04_07",
+      "source_sentence": 65,
+      "character_position": 574,
+      "text": "чтобы только не думать о смерти",
+      "vad": [
+        -0.7,
+        0.35,
+        -0.3
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1409225636706951,
+      "warning": null,
+      "chapter_sentence_start": 65,
+      "chapter_sentence_end": 65,
+      "timeline_start_index": 9484,
+      "timeline_end_index": 9484,
+      "highlights": [
+        {
+          "chapter_sentence": 65,
+          "start": 54,
+          "end": 85
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_07_0009",
+      "source_section": "chapter_04_07",
+      "source_sentence": 71,
+      "character_position": 575,
+      "text": "Левин запутался",
+      "vad": [
+        -0.45,
+        0.3,
+        -0.4
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2509345840877917,
+      "warning": null,
+      "chapter_sentence_start": 71,
+      "chapter_sentence_end": 71,
+      "timeline_start_index": 9490,
+      "timeline_end_index": 9490,
+      "highlights": [
+        {
+          "chapter_sentence": 71,
+          "start": 2,
+          "end": 17
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_07_0010",
+      "source_section": "chapter_04_07",
+      "source_sentence": 72,
+      "character_position": 576,
+      "text": "я не знаю",
+      "vad": [
+        -0.2,
+        0.1,
+        -0.6
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.600032582238138,
+      "warning": null,
+      "chapter_sentence_start": 72,
+      "chapter_sentence_end": 72,
+      "timeline_start_index": 9491,
+      "timeline_end_index": 9491,
+      "highlights": [
+        {
+          "chapter_sentence": 72,
+          "start": 5,
+          "end": 14
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_07_0011",
+      "source_section": "chapter_04_07",
+      "source_sentence": 75,
+      "character_position": 577,
+      "text": "прелести в жизни меньше, когда думаешь о смерти, — но спокойнее",
+      "vad": [
+        -0.2,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.1644175827228231,
+      "warning": null,
+      "chapter_sentence_start": 75,
+      "chapter_sentence_end": 75,
+      "timeline_start_index": 9494,
+      "timeline_end_index": 9494,
+      "highlights": [
+        {
+          "chapter_sentence": 75,
+          "start": 12,
+          "end": 75
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_07_0012",
+      "source_section": "chapter_04_07",
+      "source_sentence": 88,
+      "character_position": 578,
+      "text": "не знал, вернулась ли она, или нет",
+      "vad": [
+        -0.2,
+        -0.3,
+        -0.4
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5819885938507698,
+      "warning": null,
+      "chapter_sentence_start": 88,
+      "chapter_sentence_end": 88,
+      "timeline_start_index": 9507,
+      "timeline_end_index": 9507,
+      "highlights": [
+        {
+          "chapter_sentence": 88,
+          "start": 85,
+          "end": 119
+        }
+      ]
+    }
+  ]
+}

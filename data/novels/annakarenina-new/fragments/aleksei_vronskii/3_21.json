@@ -1,0 +1,477 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "3_21",
+  "count": 18,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_03_21_0001",
+      "source_section": "chapter_03_21",
+      "source_sentence": 15,
+      "character_position": 247,
+      "text": "счастлив своею любовью",
+      "vad": [
+        0.95,
+        0.45,
+        0.35
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.3395146562822815,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 7833,
+      "timeline_end_index": 7833,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 30,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_21_0002",
+      "source_section": "chapter_03_21",
+      "source_sentence": 15,
+      "character_position": 248,
+      "text": "не мог чувствовать ни зависти к Серпуховскому, ни досады на него",
+      "vad": [
+        0.35,
+        -0.2,
+        0.25
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.6043382722325484,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 7833,
+      "timeline_end_index": 7833,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 144,
+          "end": 208
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_21_0003",
+      "source_section": "chapter_03_21",
+      "source_sentence": 16,
+      "character_position": 249,
+      "text": "был рад ему",
+      "vad": [
+        0.7,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.1602604909856824,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 7834,
+      "timeline_end_index": 7834,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 39,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_21_0004",
+      "source_section": "chapter_03_21",
+      "source_sentence": 17,
+      "character_position": 250,
+      "text": "я очень рад",
+      "vad": [
+        0.8,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.1753436866329847,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 7835,
+      "timeline_end_index": 7835,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 5,
+          "end": 16
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_21_0005",
+      "source_section": "chapter_03_21",
+      "source_sentence": 36,
+      "character_position": 251,
+      "text": "ты в своем мрачном духе",
+      "vad": [
+        -0.55,
+        -0.2,
+        -0.1
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.4620290140920776,
+      "warning": null,
+      "chapter_sentence_start": 36,
+      "chapter_sentence_end": 36,
+      "timeline_start_index": 7854,
+      "timeline_end_index": 7854,
+      "highlights": [
+        {
+          "chapter_sentence": 36,
+          "start": 26,
+          "end": 49
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_21_0006",
+      "source_section": "chapter_03_21",
+      "source_sentence": 63,
+      "character_position": 252,
+      "text": "Я рад, что ты часто видал ее",
+      "vad": [
+        0.7,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.1602604909856824,
+      "warning": null,
+      "chapter_sentence_start": 63,
+      "chapter_sentence_end": 63,
+      "timeline_start_index": 7881,
+      "timeline_end_index": 7881,
+      "highlights": [
+        {
+          "chapter_sentence": 63,
+          "start": 2,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_21_0007",
+      "source_section": "chapter_03_21",
+      "source_sentence": 64,
+      "character_position": 253,
+      "text": "мне приятно",
+      "vad": [
+        0.65,
+        0.05,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.3369981045816628,
+      "warning": null,
+      "chapter_sentence_start": 64,
+      "chapter_sentence_end": 64,
+      "timeline_start_index": 7882,
+      "timeline_end_index": 7882,
+      "highlights": [
+        {
+          "chapter_sentence": 64,
+          "start": 75,
+          "end": 86
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_21_0008",
+      "source_section": "chapter_03_21",
+      "source_sentence": 65,
+      "character_position": 254,
+      "text": "это было ему приятно",
+      "vad": [
+        0.7,
+        0.1,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.2400704858871921,
+      "warning": null,
+      "chapter_sentence_start": 65,
+      "chapter_sentence_end": 65,
+      "timeline_start_index": 7883,
+      "timeline_end_index": 7883,
+      "highlights": [
+        {
+          "chapter_sentence": 65,
+          "start": 71,
+          "end": 91
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_21_0009",
+      "source_section": "chapter_03_21",
+      "source_sentence": 91,
+      "character_position": 255,
+      "text": "мне прекрасно",
+      "vad": [
+        0.8,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.3253058881095463,
+      "warning": null,
+      "chapter_sentence_start": 91,
+      "chapter_sentence_end": 91,
+      "timeline_start_index": 7909,
+      "timeline_end_index": 7909,
+      "highlights": [
+        {
+          "chapter_sentence": 91,
+          "start": 8,
+          "end": 21
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_21_0010",
+      "source_section": "chapter_03_21",
+      "source_sentence": 93,
+      "character_position": 256,
+      "text": "не удовлетворишься этим",
+      "vad": [
+        -0.35,
+        0.18,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.1290356202999629,
+      "warning": null,
+      "chapter_sentence_start": 93,
+      "chapter_sentence_end": 93,
+      "timeline_start_index": 7911,
+      "timeline_end_index": 7911,
+      "highlights": [
+        {
+          "chapter_sentence": 93,
+          "start": 6,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_21_0011",
+      "source_section": "chapter_03_21",
+      "source_sentence": 97,
+      "character_position": 257,
+      "text": "тебя не это удовлетворяет",
+      "vad": [
+        -0.55,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.3236338225526045,
+      "warning": null,
+      "chapter_sentence_start": 97,
+      "chapter_sentence_end": 97,
+      "timeline_start_index": 7915,
+      "timeline_end_index": 7915,
+      "highlights": [
+        {
+          "chapter_sentence": 97,
+          "start": 62,
+          "end": 87
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_21_0013",
+      "source_section": "chapter_03_21",
+      "source_sentence": 126,
+      "character_position": 258,
+      "text": "ему было завидно",
+      "vad": [
+        -0.6,
+        0.25,
+        -0.3
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.2705312166820485,
+      "warning": null,
+      "chapter_sentence_start": 126,
+      "chapter_sentence_end": 126,
+      "timeline_start_index": 7944,
+      "timeline_end_index": 7944,
+      "highlights": [
+        {
+          "chapter_sentence": 126,
+          "start": 33,
+          "end": 49
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_21_0014",
+      "source_section": "chapter_03_21",
+      "source_sentence": 127,
+      "character_position": 259,
+      "text": "недостает желания власти",
+      "vad": [
+        -0.3,
+        -0.2,
+        -0.35
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.5881709247038831,
+      "warning": null,
+      "chapter_sentence_start": 127,
+      "chapter_sentence_end": 127,
+      "timeline_start_index": 7945,
+      "timeline_end_index": 7945,
+      "highlights": [
+        {
+          "chapter_sentence": 127,
+          "start": 71,
+          "end": 95
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_21_0015",
+      "source_section": "chapter_03_21",
+      "source_sentence": 128,
+      "character_position": 260,
+      "text": "Это было, но прошло",
+      "vad": [
+        -0.15,
+        -0.35,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.4860546886702783,
+      "warning": null,
+      "chapter_sentence_start": 128,
+      "chapter_sentence_end": 128,
+      "timeline_start_index": 7946,
+      "timeline_end_index": 7946,
+      "highlights": [
+        {
+          "chapter_sentence": 128,
+          "start": 0,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_21_0016",
+      "source_section": "chapter_03_21",
+      "source_sentence": 144,
+      "character_position": 261,
+      "text": "мне ничего не нужно",
+      "vad": [
+        0.0,
+        -0.25,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.4513801122548332,
+      "warning": null,
+      "chapter_sentence_start": 144,
+      "chapter_sentence_end": 144,
+      "timeline_start_index": 7962,
+      "timeline_end_index": 7962,
+      "highlights": [
+        {
+          "chapter_sentence": 144,
+          "start": 15,
+          "end": 34
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_21_0017",
+      "source_section": "chapter_03_21",
+      "source_sentence": 149,
+      "character_position": 262,
+      "text": "Вронский не должен бояться",
+      "vad": [
+        0.2,
+        -0.2,
+        0.3
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.5882585566317978,
+      "warning": null,
+      "chapter_sentence_start": 149,
+      "chapter_sentence_end": 149,
+      "timeline_start_index": 7967,
+      "timeline_end_index": 7967,
+      "highlights": [
+        {
+          "chapter_sentence": 149,
+          "start": 45,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_21_0018",
+      "source_section": "chapter_03_21",
+      "source_sentence": 150,
+      "character_position": 263,
+      "text": "которую ты любишь",
+      "vad": [
+        0.7,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.1602604909856824,
+      "warning": null,
+      "chapter_sentence_start": 150,
+      "chapter_sentence_end": 150,
+      "timeline_start_index": 7968,
+      "timeline_end_index": 7968,
+      "highlights": [
+        {
+          "chapter_sentence": 150,
+          "start": 70,
+          "end": 87
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_21_0019",
+      "source_section": "chapter_03_21",
+      "source_sentence": 153,
+      "character_position": 264,
+      "text": "Вронскому хотелось теперь дослушать и узнать, что он скажет ему",
+      "vad": [
+        0.3,
+        0.35,
+        -0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.4885819793963005,
+      "warning": null,
+      "chapter_sentence_start": 153,
+      "chapter_sentence_end": 153,
+      "timeline_start_index": 7971,
+      "timeline_end_index": 7971,
+      "highlights": [
+        {
+          "chapter_sentence": 153,
+          "start": 0,
+          "end": 63
+        }
+      ]
+    }
+  ]
+}

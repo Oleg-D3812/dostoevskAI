@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "7_16",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_07_16_0001",
+      "source_section": "chapter_07_16",
+      "source_sentence": 17,
+      "character_position": 532,
+      "text": "На ее лице была та самая перемена от земного к неземному, которая бывает на лице покойников; но там прощание, здесь встреча.",
+      "vad": [
+        0.55,
+        -0.15,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.4668724338627955,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 18277,
+      "timeline_end_index": 18277,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 0,
+          "end": 124
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_07_16_0002",
+      "source_section": "chapter_07_16",
+      "source_sentence": 23,
+      "character_position": 533,
+      "text": "— И мне так хорошо теперь.",
+      "vad": [
+        0.8,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.1718337322131105,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 18283,
+      "timeline_end_index": 18283,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 0,
+          "end": 26
+        }
+      ]
+    }
+  ]
+}

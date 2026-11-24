@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "7_29",
+  "count": 5,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_07_29_0001",
+      "source_section": "chapter_07_29",
+      "source_sentence": 14,
+      "character_position": 541,
+      "text": "Кити, та еще бы более была рада.",
+      "vad": [
+        -0.55,
+        0.18,
+        0.12
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.321173362222193,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 19494,
+      "timeline_end_index": 19494,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 0,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_07_29_0002",
+      "source_section": "chapter_07_29",
+      "source_sentence": 17,
+      "character_position": 542,
+      "text": "И она ревнует и ненавидит меня.",
+      "vad": [
+        -0.8,
+        0.5,
+        0.6
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.8748343976650381,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 19497,
+      "timeline_end_index": 19497,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 0,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_07_29_0003",
+      "source_section": "chapter_07_29",
+      "source_sentence": 18,
+      "character_position": 543,
+      "text": "И презирает еще.",
+      "vad": [
+        -0.75,
+        0.3,
+        -0.35
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.2212695776232421,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 19498,
+      "timeline_end_index": 19498,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 0,
+          "end": 16
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_07_29_0004",
+      "source_section": "chapter_07_29",
+      "source_sentence": 32,
+      "character_position": 544,
+      "text": "И она завидует мне.",
+      "vad": [
+        -0.6,
+        0.25,
+        -0.35
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.2794549291786463,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 19512,
+      "timeline_end_index": 19512,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 0,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_07_29_0005",
+      "source_section": "chapter_07_29",
+      "source_sentence": 33,
+      "character_position": 545,
+      "text": "И ненавидит меня.",
+      "vad": [
+        -0.85,
+        0.3,
+        -0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.3463446376140965,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 19513,
+      "timeline_end_index": 19513,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 0,
+          "end": 17
+        }
+      ]
+    }
+  ]
+}

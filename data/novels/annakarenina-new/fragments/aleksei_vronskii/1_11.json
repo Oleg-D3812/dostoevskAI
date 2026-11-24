@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "1_11",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_01_11_0001",
+      "source_section": "chapter_01_11",
+      "source_sentence": 18,
+      "character_position": 1,
+      "text": "он по уши влюблен в Кити",
+      "vad": [
+        0.85,
+        0.75,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.5204709756953022,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 996,
+      "timeline_end_index": 996,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 63,
+          "end": 87
+        }
+      ]
+    }
+  ]
+}

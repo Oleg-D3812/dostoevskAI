@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "5_7",
+  "count": 10,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_05_07_0001",
+      "source_section": "chapter_05_07",
+      "source_sentence": 57,
+      "character_position": 534,
+      "text": "тою простотой, с которою она принимала свое положение",
+      "vad": [
+        0.45,
+        -0.2,
+        0.4
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.5688858037402169,
+      "warning": null,
+      "chapter_sentence_start": 57,
+      "chapter_sentence_end": 57,
+      "timeline_start_index": 11739,
+      "timeline_end_index": 11739,
+      "highlights": [
+        {
+          "chapter_sentence": 57,
+          "start": 61,
+          "end": 114
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_05_07_0002",
+      "source_section": "chapter_05_07",
+      "source_sentence": 60,
+      "character_position": 535,
+      "text": "прямое и простое отношение к своему положению",
+      "vad": [
+        0.35,
+        0.05,
+        0.45
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.4547309798621146,
+      "warning": null,
+      "chapter_sentence_start": 60,
+      "chapter_sentence_end": 60,
+      "timeline_start_index": 11742,
+      "timeline_end_index": 11742,
+      "highlights": [
+        {
+          "chapter_sentence": 60,
+          "start": 4,
+          "end": 49
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_05_07_0003",
+      "source_section": "chapter_05_07",
+      "source_sentence": 61,
+      "character_position": 536,
+      "text": "добродушно-веселую энергическую манеру Анны",
+      "vad": [
+        0.75,
+        0.7,
+        0.3
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.4473973525072387,
+      "warning": null,
+      "chapter_sentence_start": 61,
+      "chapter_sentence_end": 61,
+      "timeline_start_index": 11743,
+      "timeline_end_index": 11743,
+      "highlights": [
+        {
+          "chapter_sentence": 61,
+          "start": 9,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_05_07_0004",
+      "source_section": "chapter_05_07",
+      "source_sentence": 62,
+      "character_position": 537,
+      "text": "чувствовать себя энергически-веселою и счастливою",
+      "vad": [
+        0.9,
+        0.55,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.3911431482961936,
+      "warning": null,
+      "chapter_sentence_start": 62,
+      "chapter_sentence_end": 62,
+      "timeline_start_index": 11744,
+      "timeline_end_index": 11744,
+      "highlights": [
+        {
+          "chapter_sentence": 62,
+          "start": 155,
+          "end": 204
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_05_07_0005",
+      "source_section": "chapter_05_07",
+      "source_sentence": 68,
+      "character_position": 538,
+      "text": "Очень рада",
+      "vad": [
+        0.8,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.20054911265334,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 11750,
+      "timeline_end_index": 11750,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 2,
+          "end": 12
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_05_07_0006",
+      "source_section": "chapter_05_07",
+      "source_sentence": 72,
+      "character_position": 539,
+      "text": "что она боится",
+      "vad": [
+        -0.75,
+        0.55,
+        -0.65
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.13551860046748,
+      "warning": null,
+      "chapter_sentence_start": 72,
+      "chapter_sentence_end": 72,
+      "timeline_start_index": 11754,
+      "timeline_end_index": 11754,
+      "highlights": [
+        {
+          "chapter_sentence": 72,
+          "start": 98,
+          "end": 112
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_05_07_0007",
+      "source_section": "chapter_05_07",
+      "source_sentence": 75,
+      "character_position": 540,
+      "text": "ей показалось, что она все поняла, главное то, что он доволен ею",
+      "vad": [
+        0.7,
+        0.2,
+        0.3
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.182845959755036,
+      "warning": null,
+      "chapter_sentence_start": 75,
+      "chapter_sentence_end": 75,
+      "timeline_start_index": 11757,
+      "timeline_end_index": 11757,
+      "highlights": [
+        {
+          "chapter_sentence": 75,
+          "start": 2,
+          "end": 66
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_05_07_0008",
+      "source_section": "chapter_05_07",
+      "source_sentence": 93,
+      "character_position": 541,
+      "text": "полную жизни и радости подругу",
+      "vad": [
+        0.9,
+        0.75,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.5433020241478814,
+      "warning": null,
+      "chapter_sentence_start": 93,
+      "chapter_sentence_end": 93,
+      "timeline_start_index": 11775,
+      "timeline_end_index": 11775,
+      "highlights": [
+        {
+          "chapter_sentence": 93,
+          "start": 261,
+          "end": 291
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_05_07_0009",
+      "source_section": "chapter_05_07",
+      "source_sentence": 94,
+      "character_position": 542,
+      "text": "Анна, ласково расположенная ко всем (какою она была это время)",
+      "vad": [
+        0.8,
+        0.1,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.2793489208891185,
+      "warning": null,
+      "chapter_sentence_start": 94,
+      "chapter_sentence_end": 94,
+      "timeline_start_index": 11776,
+      "timeline_end_index": 11776,
+      "highlights": [
+        {
+          "chapter_sentence": 94,
+          "start": 66,
+          "end": 128
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_05_07_0011",
+      "source_section": "chapter_05_07",
+      "source_sentence": 103,
+      "character_position": 543,
+      "text": "с радостною улыбкой",
+      "vad": [
+        0.8,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.208004755551583,
+      "warning": null,
+      "chapter_sentence_start": 103,
+      "chapter_sentence_end": 103,
+      "timeline_start_index": 11785,
+      "timeline_end_index": 11785,
+      "highlights": [
+        {
+          "chapter_sentence": 103,
+          "start": 40,
+          "end": 59
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "3_29",
+  "count": 14,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_03_29_0002",
+      "source_section": "chapter_03_29",
+      "source_sentence": 5,
+      "character_position": 501,
+      "text": "Левин почувствовал, что теперь не до этого",
+      "vad": [
+        -0.25,
+        0.05,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.2474309163887785,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 8621,
+      "timeline_end_index": 8621,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 322,
+          "end": 364
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_29_0003",
+      "source_section": "chapter_03_29",
+      "source_sentence": 12,
+      "character_position": 502,
+      "text": "Левин чувствовал, что желчный помещик был прав",
+      "vad": [
+        -0.1,
+        -0.2,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.313564688784463,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 8628,
+      "timeline_end_index": 8628,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 12,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_29_0004",
+      "source_section": "chapter_03_29",
+      "source_sentence": 13,
+      "character_position": 503,
+      "text": "он и убежден был, что надо спустить уровень хозяйства",
+      "vad": [
+        -0.25,
+        -0.1,
+        0.35
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3475540919023813,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 8629,
+      "timeline_end_index": 8629,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 163,
+          "end": 216
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_29_0005",
+      "source_section": "chapter_03_29",
+      "source_sentence": 13,
+      "character_position": 504,
+      "text": "ему жалко было отказаться от усовершенствований",
+      "vad": [
+        -0.45,
+        0.2,
+        0.15
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.2594372770100145,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 8629,
+      "timeline_end_index": 8629,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 218,
+          "end": 265
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_29_0007",
+      "source_section": "chapter_03_29",
+      "source_sentence": 26,
+      "character_position": 505,
+      "text": "Левин чувствовал, что мужики слушают при этом только пение его голоса и знают твердо, что, что бы он ни говорил, они не дадутся ему в обман",
+      "vad": [
+        -0.55,
+        0.35,
+        -0.65
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2764943658547945,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 8642,
+      "timeline_end_index": 8642,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 78,
+          "end": 217
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_29_0009",
+      "source_section": "chapter_03_29",
+      "source_sentence": 28,
+      "character_position": 506,
+      "text": "Левин думал, что дело шло и что, строго ведя счеты и настаивая на своем, он докажет им в будущем выгоды такого устройства и что тогда дело пойдет само собой",
+      "vad": [
+        0.6,
+        0.25,
+        0.7
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.5533244934331744,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 8644,
+      "timeline_end_index": 8644,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 25,
+          "end": 181
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_29_0011",
+      "source_section": "chapter_03_29",
+      "source_sentence": 31,
+      "character_position": 507,
+      "text": "Он чувствовал, что, не ответив на письмо Дарьи Александровны, своею невежливостью, о которой он без краски стыда не мог вспоминать, он сжег свои корабли и никогда уж не поедет к ним",
+      "vad": [
+        -0.68,
+        0.28,
+        -0.46
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1575383715216524,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 8647,
+      "timeline_end_index": 8647,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 0,
+          "end": 181
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_29_0012",
+      "source_section": "chapter_03_29",
+      "source_sentence": 31,
+      "character_position": 508,
+      "text": "без краски стыда не мог вспоминать",
+      "vad": [
+        -0.75,
+        0.35,
+        -0.55
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1809318423641324,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 8647,
+      "timeline_end_index": 8647,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 96,
+          "end": 130
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_29_0013",
+      "source_section": "chapter_03_29",
+      "source_sentence": 34,
+      "character_position": 509,
+      "text": "ему было все равно",
+      "vad": [
+        0.0,
+        -0.1,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3075463847747416,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 8650,
+      "timeline_end_index": 8650,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 11,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_29_0014",
+      "source_section": "chapter_03_29",
+      "source_sentence": 35,
+      "character_position": 510,
+      "text": "занимало его так, как еще ничто никогда в жизни",
+      "vad": [
+        0.3,
+        0.8,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.6081378726597483,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 8651,
+      "timeline_end_index": 8651,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 40,
+          "end": 87
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_29_0016",
+      "source_section": "chapter_03_29",
+      "source_sentence": 37,
+      "character_position": 511,
+      "text": "с большим жаром",
+      "vad": [
+        0.7,
+        0.8,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.4718081947270043,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 8653,
+      "timeline_end_index": 8653,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 78,
+          "end": 93
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_29_0017",
+      "source_section": "chapter_03_29",
+      "source_sentence": 37,
+      "character_position": 512,
+      "text": "надеясь всякую минуту найти разрешение занимавших его вопросов",
+      "vad": [
+        0.1,
+        0.35,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5124462426284176,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 8653,
+      "timeline_end_index": 8653,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 95,
+          "end": 157
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_29_0019",
+      "source_section": "chapter_03_29",
+      "source_sentence": 49,
+      "character_position": 513,
+      "text": "Он думал, что русский народ, имеющий призвание заселять и обрабатывать огромные незанятые пространства сознательно, до тех пор, пока все земли не заняты, держался нужных для этого приемов и что эти приемы совсем не так дурны, как это обыкновенно думают",
+      "vad": [
+        0.45,
+        0.1,
+        0.3
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.3573003088833625,
+      "warning": null,
+      "chapter_sentence_start": 49,
+      "chapter_sentence_end": 49,
+      "timeline_start_index": 8665,
+      "timeline_end_index": 8665,
+      "highlights": [
+        {
+          "chapter_sentence": 49,
+          "start": 0,
+          "end": 252
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_29_0020",
+      "source_section": "chapter_03_29",
+      "source_sentence": 50,
+      "character_position": 514,
+      "text": "он хотел доказать это теоретически в книге и на практике в своем хозяйстве",
+      "vad": [
+        0.45,
+        0.2,
+        0.7
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.6036583645093038,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 50,
+      "timeline_start_index": 8666,
+      "timeline_end_index": 8666,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 2,
+          "end": 76
+        }
+      ]
+    }
+  ]
+}

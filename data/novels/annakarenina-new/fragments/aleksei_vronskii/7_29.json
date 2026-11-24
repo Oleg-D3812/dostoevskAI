@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "7_29",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_07_29_0001",
+      "source_section": "chapter_07_29",
+      "source_sentence": 64,
+      "character_position": 626,
+      "text": "спокойно разговаривающим с матерью и с Сорокиной и радующимся ее страданиям",
+      "vad": [
+        -0.86,
+        0.68,
+        -0.28
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.3495889887966749,
+      "warning": null,
+      "chapter_sentence_start": 64,
+      "chapter_sentence_end": 64,
+      "timeline_start_index": 19544,
+      "timeline_end_index": 19544,
+      "highlights": [
+        {
+          "chapter_sentence": 64,
+          "start": 33,
+          "end": 108
+        }
+      ]
+    }
+  ]
+}

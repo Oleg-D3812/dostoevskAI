@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "6_21",
+  "count": 14,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_06_21_0001",
+      "source_section": "chapter_06_21",
+      "source_sentence": 4,
+      "character_position": 494,
+      "text": "ему чего-то нужно было от нее",
+      "vad": [
+        0.0,
+        0.2,
+        0.3
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.3479641609211753,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 15893,
+      "timeline_end_index": 15893,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 34,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_21_0002",
+      "source_section": "chapter_06_21",
+      "source_sentence": 7,
+      "character_position": 495,
+      "text": "смеющимися глазами",
+      "vad": [
+        0.6,
+        0.35,
+        0.55
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.3465675183938657,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 15896,
+      "timeline_end_index": 15896,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 13,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_21_0003",
+      "source_section": "chapter_06_21",
+      "source_sentence": 23,
+      "character_position": 496,
+      "text": "Никто больше и сильнее меня не чувствует всей тяжести положения Анны",
+      "vad": [
+        -0.7,
+        0.5,
+        0.2
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.5805318265310478,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 15912,
+      "timeline_end_index": 15912,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 2,
+          "end": 70
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_21_0004",
+      "source_section": "chapter_06_21",
+      "source_sentence": 25,
+      "character_position": 497,
+      "text": "я чувствую его",
+      "vad": [
+        -0.7,
+        0.35,
+        -0.2
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.2839528117228397,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 15914,
+      "timeline_end_index": 15914,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 37,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_21_0005",
+      "source_section": "chapter_06_21",
+      "source_sentence": 30,
+      "character_position": 498,
+      "text": "мрачно нахмурившись",
+      "vad": [
+        -0.65,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.446869622314421,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 15919,
+      "timeline_end_index": 15919,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 2,
+          "end": 21
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_21_0006",
+      "source_section": "chapter_06_21",
+      "source_sentence": 42,
+      "character_position": 499,
+      "text": "я боюсь того, что ожидает нас",
+      "vad": [
+        -0.82,
+        0.68,
+        -0.62
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.3112173483466433,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 15931,
+      "timeline_end_index": 15931,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 8,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_21_0007",
+      "source_section": "chapter_06_21",
+      "source_sentence": 57,
+      "character_position": 500,
+      "text": "Я не хочу этого обмана!",
+      "vad": [
+        -0.82,
+        0.74,
+        0.18
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.7282582650220046,
+      "warning": null,
+      "chapter_sentence_start": 57,
+      "chapter_sentence_end": 57,
+      "timeline_start_index": 15946,
+      "timeline_end_index": 15946,
+      "highlights": [
+        {
+          "chapter_sentence": 57,
+          "start": 0,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_21_0008",
+      "source_section": "chapter_06_21",
+      "source_sentence": 58,
+      "character_position": 501,
+      "text": "мрачно-вопросительно посмотрел на Дарью Александровну",
+      "vad": [
+        -0.65,
+        0.3,
+        -0.2
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.3065144167854484,
+      "warning": null,
+      "chapter_sentence_start": 58,
+      "chapter_sentence_end": 58,
+      "timeline_start_index": 15947,
+      "timeline_end_index": 15947,
+      "highlights": [
+        {
+          "chapter_sentence": 58,
+          "start": 46,
+          "end": 99
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_21_0009",
+      "source_section": "chapter_06_21",
+      "source_sentence": 67,
+      "character_position": 502,
+      "text": "Я счастлив ее любовью",
+      "vad": [
+        0.85,
+        0.25,
+        0.15
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.197707823943965,
+      "warning": null,
+      "chapter_sentence_start": 67,
+      "chapter_sentence_end": 67,
+      "timeline_start_index": 15956,
+      "timeline_end_index": 15956,
+      "highlights": [
+        {
+          "chapter_sentence": 67,
+          "start": 0,
+          "end": 21
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_21_0010",
+      "source_section": "chapter_06_21",
+      "source_sentence": 68,
+      "character_position": 503,
+      "text": "горжусь этим занятием",
+      "vad": [
+        0.75,
+        0.35,
+        0.65
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.4451269149641673,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 15957,
+      "timeline_end_index": 15957,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 23,
+          "end": 44
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_21_0011",
+      "source_section": "chapter_06_21",
+      "source_sentence": 70,
+      "character_position": 504,
+      "text": "я счастлив, доволен",
+      "vad": [
+        0.9,
+        0.2,
+        0.2
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.252895536227311,
+      "warning": null,
+      "chapter_sentence_start": 70,
+      "chapter_sentence_end": 70,
+      "timeline_start_index": 15959,
+      "timeline_end_index": 15959,
+      "highlights": [
+        {
+          "chapter_sentence": 70,
+          "start": 34,
+          "end": 53
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_21_0012",
+      "source_section": "chapter_06_21",
+      "source_sentence": 77,
+      "character_position": 505,
+      "text": "в сильном волнении",
+      "vad": [
+        -0.7,
+        0.9,
+        -0.2
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.536612740829055,
+      "warning": null,
+      "chapter_sentence_start": 77,
+      "chapter_sentence_end": 77,
+      "timeline_start_index": 15966,
+      "timeline_end_index": 15966,
+      "highlights": [
+        {
+          "chapter_sentence": 77,
+          "start": 23,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_21_0014",
+      "source_section": "chapter_06_21",
+      "source_sentence": 89,
+      "character_position": 506,
+      "text": "сказал он мрачно",
+      "vad": [
+        -0.45,
+        -0.1,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.289127171333141,
+      "warning": null,
+      "chapter_sentence_start": 89,
+      "chapter_sentence_end": 89,
+      "timeline_start_index": 15978,
+      "timeline_end_index": 15978,
+      "highlights": [
+        {
+          "chapter_sentence": 89,
+          "start": 14,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_21_0015",
+      "source_section": "chapter_06_21",
+      "source_sentence": 93,
+      "character_position": 507,
+      "text": "хотя мне тяжело, очень тяжело",
+      "vad": [
+        -0.75,
+        0.25,
+        -0.1
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.4181509647582138,
+      "warning": null,
+      "chapter_sentence_start": 93,
+      "chapter_sentence_end": 93,
+      "timeline_start_index": 15982,
+      "timeline_end_index": 15982,
+      "highlights": [
+        {
+          "chapter_sentence": 93,
+          "start": 20,
+          "end": 49
+        }
+      ]
+    }
+  ]
+}

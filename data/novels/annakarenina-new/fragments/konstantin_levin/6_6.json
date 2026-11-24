@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "6_6",
+  "count": 11,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_06_06_0003",
+      "source_section": "chapter_06_06",
+      "source_sentence": 32,
+      "character_position": 884,
+      "text": "Левину досадно было",
+      "vad": [
+        -0.6,
+        0.35,
+        0.05
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4477403585361371,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 14292,
+      "timeline_end_index": 14292,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 0,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_06_0004",
+      "source_section": "chapter_06_06",
+      "source_sentence": 33,
+      "character_position": 885,
+      "text": "а потому неохотно",
+      "vad": [
+        -0.45,
+        -0.2,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3383790713334335,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 14293,
+      "timeline_end_index": 14293,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 65,
+          "end": 82
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_06_0005",
+      "source_section": "chapter_06_06",
+      "source_sentence": 74,
+      "character_position": 886,
+      "text": "Ему было немного досадно",
+      "vad": [
+        -0.35,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.1722181352030012,
+      "warning": null,
+      "chapter_sentence_start": 74,
+      "chapter_sentence_end": 74,
+      "timeline_start_index": 14334,
+      "timeline_end_index": 14334,
+      "highlights": [
+        {
+          "chapter_sentence": 74,
+          "start": 0,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_06_0007",
+      "source_section": "chapter_06_06",
+      "source_sentence": 84,
+      "character_position": 887,
+      "text": "бывший в самом веселом расположении духа",
+      "vad": [
+        0.85,
+        0.45,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2129965882416575,
+      "warning": null,
+      "chapter_sentence_start": 84,
+      "chapter_sentence_end": 84,
+      "timeline_start_index": 14344,
+      "timeline_end_index": 14344,
+      "highlights": [
+        {
+          "chapter_sentence": 84,
+          "start": 28,
+          "end": 68
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_06_0008",
+      "source_section": "chapter_06_06",
+      "source_sentence": 84,
+      "character_position": 888,
+      "text": "мрачно смотрел на всех",
+      "vad": [
+        -0.65,
+        0.2,
+        -0.1
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3867431209677563,
+      "warning": null,
+      "chapter_sentence_start": 84,
+      "chapter_sentence_end": 84,
+      "timeline_start_index": 14344,
+      "timeline_end_index": 14344,
+      "highlights": [
+        {
+          "chapter_sentence": 84,
+          "start": 77,
+          "end": 99
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_06_0009",
+      "source_section": "chapter_06_06",
+      "source_sentence": 87,
+      "character_position": 889,
+      "text": "не понравилась ему",
+      "vad": [
+        -0.65,
+        0.2,
+        0.15
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4323596936956516,
+      "warning": null,
+      "chapter_sentence_start": 87,
+      "chapter_sentence_end": 87,
+      "timeline_start_index": 14347,
+      "timeline_end_index": 14347,
+      "highlights": [
+        {
+          "chapter_sentence": 87,
+          "start": 34,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_06_0010",
+      "source_section": "chapter_06_06",
+      "source_sentence": 90,
+      "character_position": 890,
+      "text": "Отвратительно!",
+      "vad": [
+        -0.95,
+        0.65,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.5470202384463125,
+      "warning": null,
+      "chapter_sentence_start": 90,
+      "chapter_sentence_end": 90,
+      "timeline_start_index": 14350,
+      "timeline_end_index": 14350,
+      "highlights": [
+        {
+          "chapter_sentence": 90,
+          "start": 0,
+          "end": 14
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_06_0011",
+      "source_section": "chapter_06_06",
+      "source_sentence": 92,
+      "character_position": 891,
+      "text": "ему не понравилась",
+      "vad": [
+        -0.65,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4029321285261237,
+      "warning": null,
+      "chapter_sentence_start": 92,
+      "chapter_sentence_end": 92,
+      "timeline_start_index": 14352,
+      "timeline_end_index": 14352,
+      "highlights": [
+        {
+          "chapter_sentence": 92,
+          "start": 68,
+          "end": 86
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_06_0012",
+      "source_section": "chapter_06_06",
+      "source_sentence": 93,
+      "character_position": 892,
+      "text": "показался ему неприятен",
+      "vad": [
+        -0.65,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4029321285261237,
+      "warning": null,
+      "chapter_sentence_start": 93,
+      "chapter_sentence_end": 93,
+      "timeline_start_index": 14353,
+      "timeline_end_index": 14353,
+      "highlights": [
+        {
+          "chapter_sentence": 93,
+          "start": 53,
+          "end": 76
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_06_0013",
+      "source_section": "chapter_06_06",
+      "source_sentence": 94,
+      "character_position": 893,
+      "text": "ему была противна",
+      "vad": [
+        -0.8,
+        0.25,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4684484433083605,
+      "warning": null,
+      "chapter_sentence_start": 94,
+      "chapter_sentence_end": 94,
+      "timeline_start_index": 14354,
+      "timeline_end_index": 14354,
+      "highlights": [
+        {
+          "chapter_sentence": 94,
+          "start": 17,
+          "end": 34
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_06_0014",
+      "source_section": "chapter_06_06",
+      "source_sentence": 95,
+      "character_position": 894,
+      "text": "противнее всех была Кити",
+      "vad": [
+        -0.85,
+        0.15,
+        0.05
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.5699899829963917,
+      "warning": null,
+      "chapter_sentence_start": 95,
+      "chapter_sentence_end": 95,
+      "timeline_start_index": 14355,
+      "timeline_end_index": 14355,
+      "highlights": [
+        {
+          "chapter_sentence": 95,
+          "start": 2,
+          "end": 26
+        }
+      ]
+    }
+  ]
+}

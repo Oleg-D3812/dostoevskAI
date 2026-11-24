@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "5_11",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_05_11_0001",
+      "source_section": "chapter_05_11",
+      "source_sentence": 10,
+      "character_position": 422,
+      "text": "в той равнодушной небрежности, с которою они говорили между собой, смотрели на манекены и бюсты и свободно прохаживались",
+      "vad": [
+        -0.35,
+        -0.45,
+        0.25
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.5408485939849289,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 11955,
+      "timeline_end_index": 11955,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 53,
+          "end": 173
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_11_0002",
+      "source_section": "chapter_05_11",
+      "source_sentence": 60,
+      "character_position": 423,
+      "text": "Вронский отчаивался приобрести эту технику",
+      "vad": [
+        -0.8,
+        0.45,
+        -0.7
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.2521036253446503,
+      "warning": null,
+      "chapter_sentence_start": 60,
+      "chapter_sentence_end": 60,
+      "timeline_start_index": 12005,
+      "timeline_end_index": 12005,
+      "highlights": [
+        {
+          "chapter_sentence": 60,
+          "start": 105,
+          "end": 147
+        }
+      ]
+    }
+  ]
+}

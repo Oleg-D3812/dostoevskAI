@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "7_10",
+  "count": 13,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_07_10_0001",
+      "source_section": "chapter_07_10",
+      "source_sentence": 1,
+      "character_position": 831,
+      "text": "своей радости увидать его",
+      "vad": [
+        0.85,
+        0.45,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.2926251363016614,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 17705,
+      "timeline_end_index": 17705,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 37,
+          "end": 62
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_10_0002",
+      "source_section": "chapter_07_10",
+      "source_sentence": 3,
+      "character_position": 832,
+      "text": "Очень, очень рада",
+      "vad": [
+        0.9,
+        0.5,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.3924577954241918,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 17707,
+      "timeline_end_index": 17707,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 2,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_10_0004",
+      "source_section": "chapter_07_10",
+      "source_sentence": 49,
+      "character_position": 833,
+      "text": "странное любопытство, гнев и гордость",
+      "vad": [
+        -0.2,
+        0.7,
+        0.5
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.7625233866740831,
+      "warning": null,
+      "chapter_sentence_start": 49,
+      "chapter_sentence_end": 49,
+      "timeline_start_index": 17753,
+      "timeline_end_index": 17753,
+      "highlights": [
+        {
+          "chapter_sentence": 49,
+          "start": 68,
+          "end": 105
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_10_0005",
+      "source_section": "chapter_07_10",
+      "source_sentence": 61,
+      "character_position": 834,
+      "text": "Люблю дочь одною любовью, ее — другою",
+      "vad": [
+        0.7,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.2154455197558474,
+      "warning": null,
+      "chapter_sentence_start": 61,
+      "chapter_sentence_end": 61,
+      "timeline_start_index": 17765,
+      "timeline_end_index": 17765,
+      "highlights": [
+        {
+          "chapter_sentence": 61,
+          "start": 0,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_10_0006",
+      "source_section": "chapter_07_10",
+      "source_sentence": 64,
+      "character_position": 835,
+      "text": "просительно-робко взглянула на Левина",
+      "vad": [
+        -0.2,
+        0.25,
+        -0.55
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.576317547212397,
+      "warning": null,
+      "chapter_sentence_start": 64,
+      "chapter_sentence_end": 64,
+      "timeline_start_index": 17768,
+      "timeline_end_index": 17768,
+      "highlights": [
+        {
+          "chapter_sentence": 64,
+          "start": 85,
+          "end": 122
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_10_0007",
+      "source_section": "chapter_07_10",
+      "source_sentence": 66,
+      "character_position": 836,
+      "text": "не могла привязаться к этому делу",
+      "vad": [
+        -0.35,
+        -0.15,
+        -0.55
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.6245569045248155,
+      "warning": null,
+      "chapter_sentence_start": 66,
+      "chapter_sentence_end": 66,
+      "timeline_start_index": 17770,
+      "timeline_end_index": 17770,
+      "highlights": [
+        {
+          "chapter_sentence": 66,
+          "start": 21,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_10_0009",
+      "source_section": "chapter_07_10",
+      "source_sentence": 70,
+      "character_position": 837,
+      "text": "Вот я полюбила эту девочку",
+      "vad": [
+        0.8,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.2216481064524994,
+      "warning": null,
+      "chapter_sentence_start": 70,
+      "chapter_sentence_end": 70,
+      "timeline_start_index": 17774,
+      "timeline_end_index": 17774,
+      "highlights": [
+        {
+          "chapter_sentence": 70,
+          "start": 0,
+          "end": 26
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_10_0010",
+      "source_section": "chapter_07_10",
+      "source_sentence": 72,
+      "character_position": 838,
+      "text": "дорожа его мнением",
+      "vad": [
+        0.5,
+        0.0,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.3229786133496763,
+      "warning": null,
+      "chapter_sentence_start": 72,
+      "chapter_sentence_end": 72,
+      "timeline_start_index": 17776,
+      "timeline_end_index": 17776,
+      "highlights": [
+        {
+          "chapter_sentence": 72,
+          "start": 83,
+          "end": 101
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_10_0011",
+      "source_section": "chapter_07_10",
+      "source_sentence": 77,
+      "character_position": 839,
+      "text": "Je n'ai pas le coeur assez large, чтобы полюбить целый приют с гаденькими девочками",
+      "vad": [
+        -0.55,
+        0.1,
+        -0.35
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.3864744538261328,
+      "warning": null,
+      "chapter_sentence_start": 77,
+      "chapter_sentence_end": 77,
+      "timeline_start_index": 17781,
+      "timeline_end_index": 17781,
+      "highlights": [
+        {
+          "chapter_sentence": 77,
+          "start": 22,
+          "end": 105
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_10_0012",
+      "source_section": "chapter_07_10",
+      "source_sentence": 79,
+      "character_position": 840,
+      "text": "с грустным, доверчивым выражением",
+      "vad": [
+        -0.55,
+        -0.15,
+        -0.3
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.4591912685442381,
+      "warning": null,
+      "chapter_sentence_start": 79,
+      "chapter_sentence_end": 79,
+      "timeline_start_index": 17783,
+      "timeline_end_index": 17783,
+      "highlights": [
+        {
+          "chapter_sentence": 79,
+          "start": 34,
+          "end": 67
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_10_0013",
+      "source_section": "chapter_07_10",
+      "source_sentence": 98,
+      "character_position": 841,
+      "text": "лицо ее, вдруг приняв строгое выражение, как бы окаменело",
+      "vad": [
+        -0.45,
+        0.35,
+        0.3
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.3693446150097198,
+      "warning": null,
+      "chapter_sentence_start": 98,
+      "chapter_sentence_end": 98,
+      "timeline_start_index": 17802,
+      "timeline_end_index": 17802,
+      "highlights": [
+        {
+          "chapter_sentence": 98,
+          "start": 29,
+          "end": 86
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_10_0015",
+      "source_section": "chapter_07_10",
+      "source_sentence": 114,
+      "character_position": 842,
+      "text": "Я очень рада, que la glace est rompue",
+      "vad": [
+        0.8,
+        0.35,
+        0.4
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.3017240575484532,
+      "warning": null,
+      "chapter_sentence_start": 114,
+      "chapter_sentence_end": 114,
+      "timeline_start_index": 17818,
+      "timeline_end_index": 17818,
+      "highlights": [
+        {
+          "chapter_sentence": 114,
+          "start": 2,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_10_0016",
+      "source_section": "chapter_07_10",
+      "source_sentence": 116,
+      "character_position": 843,
+      "text": "я люблю ее",
+      "vad": [
+        0.8,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.2216481064524994,
+      "warning": null,
+      "chapter_sentence_start": 116,
+      "chapter_sentence_end": 116,
+      "timeline_start_index": 17820,
+      "timeline_end_index": 17820,
+      "highlights": [
+        {
+          "chapter_sentence": 116,
+          "start": 28,
+          "end": 38
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,425 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "3_26",
+  "count": 16,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_03_26_0001",
+      "source_section": "chapter_03_26",
+      "source_sentence": 5,
+      "character_position": 470,
+      "text": "он хотел жениться",
+      "vad": [
+        0.35,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.4357507973198874,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 8322,
+      "timeline_end_index": 8322,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 174,
+          "end": 191
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_26_0002",
+      "source_section": "chapter_03_26",
+      "source_sentence": 5,
+      "character_position": 471,
+      "text": "не был влюблен в Кити Щербацкую",
+      "vad": [
+        -0.15,
+        -0.1,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.202818038206089,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 8322,
+      "timeline_end_index": 8322,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 351,
+          "end": 382
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_26_0003",
+      "source_section": "chapter_03_26",
+      "source_sentence": 6,
+      "character_position": 472,
+      "text": "это знание отравляло ему то удовольствие",
+      "vad": [
+        -0.65,
+        0.2,
+        -0.3
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2550785198805695,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 8323,
+      "timeline_end_index": 8323,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 2,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_26_0004",
+      "source_section": "chapter_03_26",
+      "source_sentence": 8,
+      "character_position": 473,
+      "text": "ему хотелось испытать себя, примериться опять к этой девушке",
+      "vad": [
+        0.2,
+        0.3,
+        0.4
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.5415534162540176,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 8325,
+      "timeline_end_index": 8325,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 27,
+          "end": 87
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_26_0005",
+      "source_section": "chapter_03_26",
+      "source_sentence": 9,
+      "character_position": 474,
+      "text": "был для Левина всегда чрезвычайно интересен",
+      "vad": [
+        0.6,
+        0.3,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.1823791803816069,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 8326,
+      "timeline_end_index": 8326,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 136,
+          "end": 179
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_26_0006",
+      "source_section": "chapter_03_26",
+      "source_sentence": 10,
+      "character_position": 475,
+      "text": "всегда удивительных для Левина",
+      "vad": [
+        0.2,
+        0.25,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4879057626182272,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 8327,
+      "timeline_end_index": 8327,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 27,
+          "end": 57
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_26_0007",
+      "source_section": "chapter_03_26",
+      "source_sentence": 25,
+      "character_position": 476,
+      "text": "Левину особенно приятно было побывать у Свияжского",
+      "vad": [
+        0.75,
+        0.2,
+        0.05
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.1822069844095128,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 8342,
+      "timeline_end_index": 8342,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 48,
+          "end": 98
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_26_0008",
+      "source_section": "chapter_03_26",
+      "source_sentence": 26,
+      "character_position": 477,
+      "text": "ему хотелось теперь, чувствуя себя столь недовольным своею жизнью, добраться в Свияжском до того секрета",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2260599778558759,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 8343,
+      "timeline_end_index": 8343,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 137,
+          "end": 241
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_26_0009",
+      "source_section": "chapter_03_26",
+      "source_sentence": 27,
+      "character_position": 478,
+      "text": "ему теперь особенно интересно было поговорить, послушать",
+      "vad": [
+        0.6,
+        0.35,
+        0.05
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.139054508981395,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 8344,
+      "timeline_end_index": 8344,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 72,
+          "end": 128
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_26_0010",
+      "source_section": "chapter_03_26",
+      "source_sentence": 32,
+      "character_position": 479,
+      "text": "отличное расположение духа и то возбужденное умственное состояние, которым всегда сопровождалось у него сильное физическое движение",
+      "vad": [
+        0.86,
+        0.78,
+        0.34
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.5157495433305158,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 8349,
+      "timeline_end_index": 8349,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 106,
+          "end": 237
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_26_0011",
+      "source_section": "chapter_03_26",
+      "source_sentence": 37,
+      "character_position": 480,
+      "text": "но он не имел полной свободы мыслей, потому что ему было мучительно неловко",
+      "vad": [
+        -0.8,
+        0.55,
+        -0.55
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2283103259550055,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 8354,
+      "timeline_end_index": 8354,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 98,
+          "end": 173
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_26_0012",
+      "source_section": "chapter_03_26",
+      "source_sentence": 38,
+      "character_position": 481,
+      "text": "Мучительно неловко ему было",
+      "vad": [
+        -0.78,
+        0.48,
+        -0.42
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1261637841831432,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 8355,
+      "timeline_end_index": 8355,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 0,
+          "end": 27
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_26_0014",
+      "source_section": "chapter_03_26",
+      "source_sentence": 39,
+      "character_position": 482,
+      "text": "считал себя не вправе смотреть на него",
+      "vad": [
+        -0.55,
+        0.2,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2591695536378371,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 8356,
+      "timeline_end_index": 8356,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 76,
+          "end": 114
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_26_0015",
+      "source_section": "chapter_03_26",
+      "source_sentence": 39,
+      "character_position": 483,
+      "text": "чувствовал, что он виноват",
+      "vad": [
+        -0.6,
+        0.3,
+        -0.4
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1448934679287054,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 8356,
+      "timeline_end_index": 8356,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 150,
+          "end": 176
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_26_0016",
+      "source_section": "chapter_03_26",
+      "source_sentence": 40,
+      "character_position": 484,
+      "text": "Левину казалось, что он кого-то обманывает, что ему следует объяснить что-то, но что объяснить этого никак нельзя, и потому он беспрестанно краснел, был беспокоен и неловок",
+      "vad": [
+        -0.78,
+        0.62,
+        -0.58
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2796061232813672,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 8357,
+      "timeline_end_index": 8357,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 0,
+          "end": 172
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_26_0017",
+      "source_section": "chapter_03_26",
+      "source_sentence": 55,
+      "character_position": 485,
+      "text": "чувствуя, что он делает неучтивость, но не в силах более продолжать этот разговор, краснея",
+      "vad": [
+        -0.68,
+        0.62,
+        -0.58
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2552690406970117,
+      "warning": null,
+      "chapter_sentence_start": 55,
+      "chapter_sentence_end": 55,
+      "timeline_start_index": 8372,
+      "timeline_end_index": 8372,
+      "highlights": [
+        {
+          "chapter_sentence": 55,
+          "start": 60,
+          "end": 150
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "6_30",
+  "count": 14,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_06_30_0001",
+      "source_section": "chapter_06_30",
+      "source_sentence": 22,
+      "character_position": 1067,
+      "text": "чувствуя, что он запутался",
+      "vad": [
+        -0.35,
+        0.25,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3643204786531404,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 16780,
+      "timeline_end_index": 16780,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 16,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_30_0002",
+      "source_section": "chapter_06_30",
+      "source_sentence": 41,
+      "character_position": 1068,
+      "text": "все время ждавший случая разговориться с Вронским, чтобы загладить свою грубость при первой встрече",
+      "vad": [
+        0.25,
+        0.2,
+        -0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.5219571778235352,
+      "warning": null,
+      "chapter_sentence_start": 41,
+      "chapter_sentence_end": 41,
+      "timeline_start_index": 16799,
+      "timeline_end_index": 16799,
+      "highlights": [
+        {
+          "chapter_sentence": 41,
+          "start": 90,
+          "end": 189
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_30_0004",
+      "source_section": "chapter_06_30",
+      "source_sentence": 61,
+      "character_position": 1069,
+      "text": "Ах, я ничего не понимаю!",
+      "vad": [
+        -0.65,
+        0.55,
+        -0.6
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2246627601600506,
+      "warning": null,
+      "chapter_sentence_start": 61,
+      "chapter_sentence_end": 61,
+      "timeline_start_index": 16819,
+      "timeline_end_index": 16819,
+      "highlights": [
+        {
+          "chapter_sentence": 61,
+          "start": 2,
+          "end": 26
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_30_0005",
+      "source_section": "chapter_06_30",
+      "source_sentence": 62,
+      "character_position": 1070,
+      "text": "мрачно отвечал Левин",
+      "vad": [
+        -0.65,
+        0.15,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4097463649306819,
+      "warning": null,
+      "chapter_sentence_start": 62,
+      "chapter_sentence_end": 62,
+      "timeline_start_index": 16820,
+      "timeline_end_index": 16820,
+      "highlights": [
+        {
+          "chapter_sentence": 62,
+          "start": 21,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_30_0006",
+      "source_section": "chapter_06_30",
+      "source_sentence": 69,
+      "character_position": 1071,
+      "text": "боялся, не ошибся ли Степан Аркадьич, сказав \"направо\"",
+      "vad": [
+        -0.65,
+        0.55,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1278759106958629,
+      "warning": null,
+      "chapter_sentence_start": 69,
+      "chapter_sentence_end": 69,
+      "timeline_start_index": 16827,
+      "timeline_end_index": 16827,
+      "highlights": [
+        {
+          "chapter_sentence": 69,
+          "start": 59,
+          "end": 113
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_30_0007",
+      "source_section": "chapter_06_30",
+      "source_sentence": 83,
+      "character_position": 1072,
+      "text": "Левин совсем опять забыл про это",
+      "vad": [
+        -0.2,
+        -0.45,
+        -0.15
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.557917947568228,
+      "warning": null,
+      "chapter_sentence_start": 83,
+      "chapter_sentence_end": 83,
+      "timeline_start_index": 16841,
+      "timeline_end_index": 16841,
+      "highlights": [
+        {
+          "chapter_sentence": 83,
+          "start": 0,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_30_0008",
+      "source_section": "chapter_06_30",
+      "source_sentence": 84,
+      "character_position": 1073,
+      "text": "ему скучно было вспоминать, в чем она состояла",
+      "vad": [
+        -0.35,
+        -0.45,
+        0.05
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5289923341781503,
+      "warning": null,
+      "chapter_sentence_start": 84,
+      "chapter_sentence_end": 84,
+      "timeline_start_index": 16842,
+      "timeline_end_index": 16842,
+      "highlights": [
+        {
+          "chapter_sentence": 84,
+          "start": 62,
+          "end": 108
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_30_0009",
+      "source_section": "chapter_06_30",
+      "source_sentence": 85,
+      "character_position": 1074,
+      "text": "На него нашло уныние",
+      "vad": [
+        -0.75,
+        -0.35,
+        -0.3
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.738456346894738,
+      "warning": null,
+      "chapter_sentence_start": 85,
+      "chapter_sentence_end": 85,
+      "timeline_start_index": 16843,
+      "timeline_end_index": 16843,
+      "highlights": [
+        {
+          "chapter_sentence": 85,
+          "start": 0,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_30_0010",
+      "source_section": "chapter_06_30",
+      "source_sentence": 85,
+      "character_position": 1075,
+      "text": "захотелось выбраться из этой толпы",
+      "vad": [
+        -0.35,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.1722181352030012,
+      "warning": null,
+      "chapter_sentence_start": 85,
+      "chapter_sentence_end": 85,
+      "timeline_start_index": 16843,
+      "timeline_end_index": 16843,
+      "highlights": [
+        {
+          "chapter_sentence": 85,
+          "start": 24,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_30_0011",
+      "source_section": "chapter_06_30",
+      "source_sentence": 86,
+      "character_position": 1076,
+      "text": "почувствовал большое облегчение",
+      "vad": [
+        0.8,
+        -0.2,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.5443244172975001,
+      "warning": null,
+      "chapter_sentence_start": 86,
+      "chapter_sentence_end": 86,
+      "timeline_start_index": 16844,
+      "timeline_end_index": 16844,
+      "highlights": [
+        {
+          "chapter_sentence": 86,
+          "start": 140,
+          "end": 171
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_30_0012",
+      "source_section": "chapter_06_30",
+      "source_sentence": 86,
+      "character_position": 1077,
+      "text": "он, казалось, никому не был нужен",
+      "vad": [
+        -0.75,
+        -0.2,
+        -0.7
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.6973598253734918,
+      "warning": null,
+      "chapter_sentence_start": 86,
+      "chapter_sentence_end": 86,
+      "timeline_start_index": 16844,
+      "timeline_end_index": 16844,
+      "highlights": [
+        {
+          "chapter_sentence": 86,
+          "start": 44,
+          "end": 77
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_30_0013",
+      "source_section": "chapter_06_30",
+      "source_sentence": 88,
+      "character_position": 1078,
+      "text": "не желая входить в залу, где ему было так неприятно",
+      "vad": [
+        -0.75,
+        0.2,
+        0.25
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5544533631755045,
+      "warning": null,
+      "chapter_sentence_start": 88,
+      "chapter_sentence_end": 88,
+      "timeline_start_index": 16846,
+      "timeline_end_index": 16846,
+      "highlights": [
+        {
+          "chapter_sentence": 88,
+          "start": 72,
+          "end": 123
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_30_0014",
+      "source_section": "chapter_06_30",
+      "source_sentence": 109,
+      "character_position": 1079,
+      "text": "ему стало скучно",
+      "vad": [
+        -0.35,
+        -0.5,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5800518025568703,
+      "warning": null,
+      "chapter_sentence_start": 109,
+      "chapter_sentence_end": 109,
+      "timeline_start_index": 16867,
+      "timeline_end_index": 16867,
+      "highlights": [
+        {
+          "chapter_sentence": 109,
+          "start": 103,
+          "end": 119
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_30_0015",
+      "source_section": "chapter_06_30",
+      "source_sentence": 110,
+      "character_position": 1080,
+      "text": "ему стало грустно",
+      "vad": [
+        -0.65,
+        -0.25,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5134099887725099,
+      "warning": null,
+      "chapter_sentence_start": 110,
+      "chapter_sentence_end": 110,
+      "timeline_start_index": 16868,
+      "timeline_end_index": 16868,
+      "highlights": [
+        {
+          "chapter_sentence": 110,
+          "start": 78,
+          "end": 95
+        }
+      ]
+    }
+  ]
+}

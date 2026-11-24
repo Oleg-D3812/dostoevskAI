@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "5_1",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_05_01_0001",
+      "source_section": "chapter_05_01",
+      "source_sentence": 30,
+      "character_position": 181,
+      "text": "смеясь",
+      "vad": [
+        0.5,
+        0.4,
+        0.1
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.2283609688573425,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 11159,
+      "timeline_end_index": 11159,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 2,
+          "end": 8
+        }
+      ]
+    }
+  ]
+}

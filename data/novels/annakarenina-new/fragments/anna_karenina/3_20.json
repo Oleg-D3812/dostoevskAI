@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "3_20",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_03_20_0001",
+      "source_section": "chapter_03_20",
+      "source_sentence": 8,
+      "character_position": 365,
+      "text": "подарившая ему свою любовь",
+      "vad": [
+        0.75,
+        0.05,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.2893412505752586,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 7777,
+      "timeline_end_index": 7777,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 29,
+          "end": 55
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_03_20_0004",
+      "source_section": "chapter_03_20",
+      "source_sentence": 44,
+      "character_position": 366,
+      "text": "не хочет изменять свое положение",
+      "vad": [
+        -0.1,
+        -0.2,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.4560258351055749,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 7813,
+      "timeline_end_index": 7813,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 22,
+          "end": 54
+        }
+      ]
+    }
+  ]
+}

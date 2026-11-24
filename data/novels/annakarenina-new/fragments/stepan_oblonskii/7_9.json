@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "7_9",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_07_09_0001",
+      "source_section": "chapter_07_09",
+      "source_sentence": 7,
+      "character_position": 214,
+      "text": "Как я рад",
+      "vad": [
+        0.85,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.2315964617040642,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 17644,
+      "timeline_end_index": 17644,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 2,
+          "end": 11
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "6_1",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_06_01_0002",
+      "source_section": "chapter_06_01",
+      "source_sentence": 4,
+      "character_position": 186,
+      "text": "очень сожалеет",
+      "vad": [
+        -0.6,
+        0.2,
+        -0.2
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.3407720523979363,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 13838,
+      "timeline_end_index": 13838,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 16,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_06_01_0003",
+      "source_section": "chapter_06_01",
+      "source_sentence": 4,
+      "character_position": 187,
+      "text": "для него было бы высшим счастьем",
+      "vad": [
+        0.9,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.3249032439423094,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 13838,
+      "timeline_end_index": 13838,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 96,
+          "end": 128
+        }
+      ]
+    }
+  ]
+}

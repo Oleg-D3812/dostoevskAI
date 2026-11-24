@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "6_31",
+  "count": 9,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_06_31_0001",
+      "source_section": "chapter_06_31",
+      "source_sentence": 2,
+      "character_position": 535,
+      "text": "ему было скучно в деревне",
+      "vad": [
+        -0.45,
+        -0.55,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.6706449316112715,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 16890,
+      "timeline_end_index": 16890,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 41,
+          "end": 66
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_31_0002",
+      "source_section": "chapter_06_31",
+      "source_sentence": 3,
+      "character_position": 536,
+      "text": "так заняло его, так забрало за живое",
+      "vad": [
+        0.6,
+        0.65,
+        0.15
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.353649151690815,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 16891,
+      "timeline_end_index": 16891,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 45,
+          "end": 81
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_31_0003",
+      "source_section": "chapter_06_31",
+      "source_sentence": 8,
+      "character_position": 537,
+      "text": "испытывал приятное чувство торжества",
+      "vad": [
+        0.85,
+        0.55,
+        0.5
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.4138580267353597,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 16896,
+      "timeline_end_index": 16896,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 59,
+          "end": 95
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_31_0004",
+      "source_section": "chapter_06_31",
+      "source_sentence": 9,
+      "character_position": 538,
+      "text": "ему захотелось скакать самому",
+      "vad": [
+        0.7,
+        0.5,
+        0.65
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.4769366298974253,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 16897,
+      "timeline_end_index": 16897,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 164,
+          "end": 193
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_31_0005",
+      "source_section": "chapter_06_31",
+      "source_sentence": 35,
+      "character_position": 539,
+      "text": "Вронский был доволен",
+      "vad": [
+        0.7,
+        0.1,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.2400704858871921,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 16923,
+      "timeline_end_index": 16923,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 0,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_31_0006",
+      "source_section": "chapter_06_31",
+      "source_sentence": 41,
+      "character_position": 540,
+      "text": "любивший это выражение",
+      "vad": [
+        0.4,
+        -0.1,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.5364460215733559,
+      "warning": null,
+      "chapter_sentence_start": 41,
+      "chapter_sentence_end": 41,
+      "timeline_start_index": 16929,
+      "timeline_end_index": 16929,
+      "highlights": [
+        {
+          "chapter_sentence": 41,
+          "start": 38,
+          "end": 60
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_31_0007",
+      "source_section": "chapter_06_31",
+      "source_sentence": 50,
+      "character_position": 541,
+      "text": "особенно неприятная ему",
+      "vad": [
+        -0.75,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.4812748165426433,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 50,
+      "timeline_start_index": 16938,
+      "timeline_end_index": 16938,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 69,
+          "end": 92
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_31_0008",
+      "source_section": "chapter_06_31",
+      "source_sentence": 59,
+      "character_position": 542,
+      "text": "та мрачная, тяжелая любовь, к которой он должен был вернуться",
+      "vad": [
+        -0.75,
+        0.35,
+        -0.4
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.1236446422962525,
+      "warning": null,
+      "chapter_sentence_start": 59,
+      "chapter_sentence_end": 59,
+      "timeline_start_index": 16947,
+      "timeline_end_index": 16947,
+      "highlights": [
+        {
+          "chapter_sentence": 59,
+          "start": 31,
+          "end": 92
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_31_0009",
+      "source_section": "chapter_06_31",
+      "source_sentence": 59,
+      "character_position": 543,
+      "text": "поразили Вронского своею противоположностью",
+      "vad": [
+        -0.1,
+        0.55,
+        -0.2
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.6267175867759238,
+      "warning": null,
+      "chapter_sentence_start": 59,
+      "chapter_sentence_end": 59,
+      "timeline_start_index": 16947,
+      "timeline_end_index": 16947,
+      "highlights": [
+        {
+          "chapter_sentence": 59,
+          "start": 94,
+          "end": 137
+        }
+      ]
+    }
+  ]
+}

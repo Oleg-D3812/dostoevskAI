@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "7_18",
+  "count": 7,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_07_18_0003",
+      "source_section": "chapter_07_18",
+      "source_sentence": 26,
+      "character_position": 874,
+      "text": "чувствуя свою вину пред тобой",
+      "vad": [
+        -0.7,
+        0.25,
+        -0.35
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.3263442740271554,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 18411,
+      "timeline_end_index": 18411,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 43,
+          "end": 72
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_18_0004",
+      "source_section": "chapter_07_18",
+      "source_sentence": 28,
+      "character_position": 875,
+      "text": "ее положение мучительно и невозможно",
+      "vad": [
+        -0.9,
+        0.55,
+        -0.8
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.3108933946505953,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 18413,
+      "timeline_end_index": 18413,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 41,
+          "end": 77
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_18_0005",
+      "source_section": "chapter_07_18",
+      "source_sentence": 31,
+      "character_position": 876,
+      "text": "Положение ее и мучительно для нее",
+      "vad": [
+        -0.85,
+        0.55,
+        -0.65
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.1562595781977764,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 18416,
+      "timeline_end_index": 18416,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 2,
+          "end": 35
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_18_0006",
+      "source_section": "chapter_07_18",
+      "source_sentence": 35,
+      "character_position": 877,
+      "text": "она мучается",
+      "vad": [
+        -0.85,
+        0.55,
+        -0.65
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.1562595781977764,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 18420,
+      "timeline_end_index": 18420,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 7,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_18_0007",
+      "source_section": "chapter_07_18",
+      "source_sentence": 39,
+      "character_position": 878,
+      "text": "ее положение мучительно",
+      "vad": [
+        -0.8,
+        0.4,
+        -0.6
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.1478612123969231,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 18424,
+      "timeline_end_index": 18424,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 24,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_18_0008",
+      "source_section": "chapter_07_18",
+      "source_sentence": 54,
+      "character_position": 879,
+      "text": "каждая встреча ей нож в сердце",
+      "vad": [
+        -0.9,
+        0.7,
+        -0.65
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.2576831100214211,
+      "warning": null,
+      "chapter_sentence_start": 54,
+      "chapter_sentence_end": 54,
+      "timeline_start_index": 18439,
+      "timeline_end_index": 18439,
+      "highlights": [
+        {
+          "chapter_sentence": 54,
+          "start": 20,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_18_0010",
+      "source_section": "chapter_07_18",
+      "source_sentence": 64,
+      "character_position": 880,
+      "text": "Она так несчастна, как только может быть несчастна женщина",
+      "vad": [
+        -0.95,
+        0.55,
+        -0.65
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.2246526663194308,
+      "warning": null,
+      "chapter_sentence_start": 64,
+      "chapter_sentence_end": 64,
+      "timeline_start_index": 18449,
+      "timeline_end_index": 18449,
+      "highlights": [
+        {
+          "chapter_sentence": 64,
+          "start": 0,
+          "end": 58
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,581 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "1_23",
+  "count": 22,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_23_0001",
+      "source_section": "chapter_01_23",
+      "source_sentence": 5,
+      "character_position": 85,
+      "text": "Она ждала с замиранием сердца мазурки.",
+      "vad": [
+        0.65,
+        0.78,
+        -0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.5950802487163916,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 2085,
+      "timeline_end_index": 2085,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 0,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_23_0002",
+      "source_section": "chapter_01_23",
+      "source_sentence": 6,
+      "character_position": 86,
+      "text": "Ей казалось, что в мазурке все должно решиться.",
+      "vad": [
+        0.45,
+        0.55,
+        -0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.4063673540812491,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 2086,
+      "timeline_end_index": 2086,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 0,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_23_0003",
+      "source_section": "chapter_01_23",
+      "source_sentence": 7,
+      "character_position": 87,
+      "text": "не тревожило ее",
+      "vad": [
+        0.35,
+        -0.25,
+        0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.6199525606994843,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 2087,
+      "timeline_end_index": 2087,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 56,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_23_0004",
+      "source_section": "chapter_01_23",
+      "source_sentence": 8,
+      "character_position": 88,
+      "text": "Она была уверена",
+      "vad": [
+        0.1,
+        0.1,
+        0.7
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.7323580963112833,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 2088,
+      "timeline_end_index": 2088,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 0,
+          "end": 16
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_23_0005",
+      "source_section": "chapter_01_23",
+      "source_sentence": 9,
+      "character_position": 89,
+      "text": "Весь бал до последней кадрили был для Кити волшебным сновидением радостных цветов, звуков и движений.",
+      "vad": [
+        0.9,
+        0.75,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.5261970843806293,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 2089,
+      "timeline_end_index": 2089,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 0,
+          "end": 101
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_23_0006",
+      "source_section": "chapter_01_23",
+      "source_sentence": 10,
+      "character_position": 90,
+      "text": "чувствовала себя слишком усталою",
+      "vad": [
+        -0.35,
+        -0.5,
+        -0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.62641394769295,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 2090,
+      "timeline_end_index": 2090,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 31,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_23_0007",
+      "source_section": "chapter_01_23",
+      "source_sentence": 15,
+      "character_position": 91,
+      "text": "Она знала это чувство",
+      "vad": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.3493316357832521,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 2095,
+      "timeline_end_index": 2095,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 0,
+          "end": 21
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_23_0008",
+      "source_section": "chapter_01_23",
+      "source_sentence": 25,
+      "character_position": 92,
+      "text": "Кити посмотрела на него и ужаснулась.",
+      "vad": [
+        -0.85,
+        0.85,
+        -0.55
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.4011424711512645,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 2105,
+      "timeline_end_index": 2105,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 0,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_23_0009",
+      "source_section": "chapter_01_23",
+      "source_sentence": 31,
+      "character_position": 93,
+      "text": "Кити казалось, что всякое сказанное ими слово решало их и ее судьбу.",
+      "vad": [
+        -0.65,
+        0.55,
+        -0.6
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.1726189579196137,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 2111,
+      "timeline_end_index": 2111,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 66,
+          "end": 134
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_23_0010",
+      "source_section": "chapter_01_23",
+      "source_sentence": 33,
+      "character_position": 94,
+      "text": "Весь бал, весь свет, все закрылось туманом в душе Кити.",
+      "vad": [
+        -0.78,
+        0.38,
+        -0.62
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.2240776378385864,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 2113,
+      "timeline_end_index": 2113,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 0,
+          "end": 55
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_23_0011",
+      "source_section": "chapter_01_23",
+      "source_sentence": 35,
+      "character_position": 95,
+      "text": "на Кити нашла минута отчаяния и ужаса",
+      "vad": [
+        -0.95,
+        0.9,
+        -0.85
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.6265068138331142,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 2115,
+      "timeline_end_index": 2115,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 116,
+          "end": 153
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_23_0012",
+      "source_section": "chapter_01_23",
+      "source_sentence": 38,
+      "character_position": 96,
+      "text": "на это у нее не было силы",
+      "vad": [
+        -0.6,
+        -0.3,
+        -0.7
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.8395488362528281,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 2118,
+      "timeline_end_index": 2118,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 61,
+          "end": 86
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_23_0013",
+      "source_section": "chapter_01_23",
+      "source_sentence": 39,
+      "character_position": 97,
+      "text": "Она чувствовала себя убитою.",
+      "vad": [
+        -0.9,
+        -0.3,
+        -0.8
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.892402137097494,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 2119,
+      "timeline_end_index": 2119,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 0,
+          "end": 28
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_23_0014",
+      "source_section": "chapter_01_23",
+      "source_sentence": 42,
+      "character_position": 98,
+      "text": "страшное отчаяние щемило ей сердце",
+      "vad": [
+        -0.95,
+        0.85,
+        -0.75
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.5322251372944391,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 2122,
+      "timeline_end_index": 2122,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 123,
+          "end": 157
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_23_0015",
+      "source_section": "chapter_01_23",
+      "source_sentence": 43,
+      "character_position": 99,
+      "text": "может быть, я ошибаюсь, может быть, этого не было?",
+      "vad": [
+        -0.35,
+        0.35,
+        -0.45
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.377654799161725,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 2123,
+      "timeline_end_index": 2123,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 3,
+          "end": 53
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_23_0016",
+      "source_section": "chapter_01_23",
+      "source_sentence": 53,
+      "character_position": 100,
+      "text": "мне все равно!",
+      "vad": [
+        -0.15,
+        0.45,
+        0.25
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.4138312167653971,
+      "warning": null,
+      "chapter_sentence_start": 53,
+      "chapter_sentence_end": 53,
+      "timeline_start_index": 2133,
+      "timeline_end_index": 2133,
+      "highlights": [
+        {
+          "chapter_sentence": 53,
+          "start": 6,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_23_0017",
+      "source_section": "chapter_01_23",
+      "source_sentence": 55,
+      "character_position": 101,
+      "text": "которого она, может быть, любила",
+      "vad": [
+        0.4,
+        0.2,
+        -0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.3543452931824382,
+      "warning": null,
+      "chapter_sentence_start": 55,
+      "chapter_sentence_end": 55,
+      "timeline_start_index": 2135,
+      "timeline_end_index": 2135,
+      "highlights": [
+        {
+          "chapter_sentence": 55,
+          "start": 101,
+          "end": 133
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_23_0019",
+      "source_section": "chapter_01_23",
+      "source_sentence": 59,
+      "character_position": 102,
+      "text": "тем больше убеждалась, что несчастье ее свершилось",
+      "vad": [
+        -0.93,
+        0.63,
+        -0.68
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.3568205433251724,
+      "warning": null,
+      "chapter_sentence_start": 59,
+      "chapter_sentence_end": 59,
+      "timeline_start_index": 2139,
+      "timeline_end_index": 2139,
+      "highlights": [
+        {
+          "chapter_sentence": 59,
+          "start": 124,
+          "end": 174
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_23_0020",
+      "source_section": "chapter_01_23",
+      "source_sentence": 66,
+      "character_position": 103,
+      "text": "все больше и больше страдала",
+      "vad": [
+        -0.88,
+        0.46,
+        -0.72
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.3311973530324859,
+      "warning": null,
+      "chapter_sentence_start": 66,
+      "chapter_sentence_end": 66,
+      "timeline_start_index": 2146,
+      "timeline_end_index": 2146,
+      "highlights": [
+        {
+          "chapter_sentence": 66,
+          "start": 44,
+          "end": 72
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_23_0021",
+      "source_section": "chapter_01_23",
+      "source_sentence": 67,
+      "character_position": 104,
+      "text": "Кити чувствовала себя раздавленною, и лицо ее выражало это.",
+      "vad": [
+        -0.9,
+        0.5,
+        -0.8
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.408311955430967,
+      "warning": null,
+      "chapter_sentence_start": 67,
+      "chapter_sentence_end": 67,
+      "timeline_start_index": 2147,
+      "timeline_end_index": 2147,
+      "highlights": [
+        {
+          "chapter_sentence": 67,
+          "start": 0,
+          "end": 59
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_23_0022",
+      "source_section": "chapter_01_23",
+      "source_sentence": 73,
+      "character_position": 105,
+      "text": "Кити испуганно смотрела на нее",
+      "vad": [
+        -0.75,
+        0.65,
+        -0.5
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.1735925784270132,
+      "warning": null,
+      "chapter_sentence_start": 73,
+      "chapter_sentence_end": 73,
+      "timeline_start_index": 2153,
+      "timeline_end_index": 2153,
+      "highlights": [
+        {
+          "chapter_sentence": 73,
+          "start": 0,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_23_0023",
+      "source_section": "chapter_01_23",
+      "source_sentence": 75,
+      "character_position": 106,
+      "text": "лицо Кити только выражением отчаяния и удивления ответило на ее улыбку",
+      "vad": [
+        -0.85,
+        0.65,
+        -0.7
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.3353844031729564,
+      "warning": null,
+      "chapter_sentence_start": 75,
+      "chapter_sentence_end": 75,
+      "timeline_start_index": 2155,
+      "timeline_end_index": 2155,
+      "highlights": [
+        {
+          "chapter_sentence": 75,
+          "start": 17,
+          "end": 87
+        }
+      ]
+    }
+  ]
+}

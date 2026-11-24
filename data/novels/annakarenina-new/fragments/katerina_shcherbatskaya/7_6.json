@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "7_6",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_07_06_0001",
+      "source_section": "chapter_07_06",
+      "source_sentence": 48,
+      "character_position": 503,
+      "text": "Кити веселою и благополучною",
+      "vad": [
+        0.85,
+        0.35,
+        0.3
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2661878010922693,
+      "warning": null,
+      "chapter_sentence_start": 48,
+      "chapter_sentence_end": 48,
+      "timeline_start_index": 17456,
+      "timeline_end_index": 17456,
+      "highlights": [
+        {
+          "chapter_sentence": 48,
+          "start": 37,
+          "end": 65
+        }
+      ]
+    }
+  ]
+}

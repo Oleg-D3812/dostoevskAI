@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "2_14",
+  "count": 8,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_02_14_0001",
+      "source_section": "chapter_02_14",
+      "source_sentence": 19,
+      "character_position": 114,
+      "text": "сияющий весельем",
+      "vad": [
+        0.9,
+        0.7,
+        0.2
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.4940025261848279,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 4161,
+      "timeline_end_index": 4161,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 94,
+          "end": 110
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_02_14_0002",
+      "source_section": "chapter_02_14",
+      "source_sentence": 30,
+      "character_position": 115,
+      "text": "как я рад, что добрался до тебя!",
+      "vad": [
+        0.85,
+        0.55,
+        0.2
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.3400774457463154,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 4172,
+      "timeline_end_index": 4172,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 6,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_02_14_0003",
+      "source_section": "chapter_02_14",
+      "source_sentence": 32,
+      "character_position": 116,
+      "text": "я завидую тебе",
+      "vad": [
+        -0.35,
+        0.15,
+        -0.1
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.1700780943324129,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 4174,
+      "timeline_end_index": 4174,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 15,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_02_14_0004",
+      "source_section": "chapter_02_14",
+      "source_sentence": 42,
+      "character_position": 117,
+      "text": "уважения и как будто нежности к себе",
+      "vad": [
+        0.7,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.1746287169693966,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 4184,
+      "timeline_end_index": 4184,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 143,
+          "end": 179
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_02_14_0005",
+      "source_section": "chapter_02_14",
+      "source_sentence": 77,
+      "character_position": 118,
+      "text": "удовольствие",
+      "vad": [
+        0.8,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.2558433479917691,
+      "warning": null,
+      "chapter_sentence_start": 77,
+      "chapter_sentence_end": 77,
+      "timeline_start_index": 4219,
+      "timeline_end_index": 4219,
+      "highlights": [
+        {
+          "chapter_sentence": 77,
+          "start": 29,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_02_14_0006",
+      "source_section": "chapter_02_14",
+      "source_sentence": 79,
+      "character_position": 119,
+      "text": "Как хорошо!",
+      "vad": [
+        0.9,
+        0.55,
+        0.1
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.3841586468579509,
+      "warning": null,
+      "chapter_sentence_start": 79,
+      "chapter_sentence_end": 79,
+      "timeline_start_index": 4221,
+      "timeline_end_index": 4221,
+      "highlights": [
+        {
+          "chapter_sentence": 79,
+          "start": 0,
+          "end": 11
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_02_14_0007",
+      "source_section": "chapter_02_14",
+      "source_sentence": 80,
+      "character_position": 120,
+      "text": "как я желал жить!",
+      "vad": [
+        0.8,
+        0.6,
+        0.2
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.3598434587075739,
+      "warning": null,
+      "chapter_sentence_start": 80,
+      "chapter_sentence_end": 80,
+      "timeline_start_index": 4222,
+      "timeline_end_index": 4222,
+      "highlights": [
+        {
+          "chapter_sentence": 80,
+          "start": 7,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_02_14_0008",
+      "source_section": "chapter_02_14",
+      "source_sentence": 91,
+      "character_position": 121,
+      "text": "Глаза Степана Аркадьича весело заблестели",
+      "vad": [
+        0.7,
+        0.45,
+        0.1
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.2111533565243041,
+      "warning": null,
+      "chapter_sentence_start": 91,
+      "chapter_sentence_end": 91,
+      "timeline_start_index": 4233,
+      "timeline_end_index": 4233,
+      "highlights": [
+        {
+          "chapter_sentence": 91,
+          "start": 0,
+          "end": 41
+        }
+      ]
+    }
+  ]
+}

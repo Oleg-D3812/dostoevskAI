@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "1_9",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_01_09_0001",
+      "source_section": "chapter_01_09",
+      "source_sentence": 130,
+      "character_position": 73,
+      "text": "веселым победителем",
+      "vad": [
+        0.8,
+        0.55,
+        0.8
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.6765381365508528,
+      "warning": null,
+      "chapter_sentence_start": 130,
+      "chapter_sentence_end": 130,
+      "timeline_start_index": 756,
+      "timeline_end_index": 756,
+      "highlights": [
+        {
+          "chapter_sentence": 130,
+          "start": 72,
+          "end": 91
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_09_0002",
+      "source_section": "chapter_01_09",
+      "source_sentence": 131,
+      "character_position": 74,
+      "text": "с грустным, виноватым лицом",
+      "vad": [
+        -0.65,
+        -0.3,
+        -0.35
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.5855206682164066,
+      "warning": null,
+      "chapter_sentence_start": 131,
+      "chapter_sentence_end": 131,
+      "timeline_start_index": 757,
+      "timeline_end_index": 757,
+      "highlights": [
+        {
+          "chapter_sentence": 131,
+          "start": 23,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_09_0003",
+      "source_section": "chapter_01_09",
+      "source_sentence": 135,
+      "character_position": 75,
+      "text": "я очень, очень рад",
+      "vad": [
+        0.9,
+        0.45,
+        0.05
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.3377424935361018,
+      "warning": null,
+      "chapter_sentence_start": 135,
+      "chapter_sentence_end": 135,
+      "timeline_start_index": 761,
+      "timeline_end_index": 761,
+      "highlights": [
+        {
+          "chapter_sentence": 135,
+          "start": 24,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_09_0004",
+      "source_section": "chapter_01_09",
+      "source_sentence": 151,
+      "character_position": 76,
+      "text": "я ужасно люблю тюрбо",
+      "vad": [
+        0.7,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.2168291351035365,
+      "warning": null,
+      "chapter_sentence_start": 151,
+      "chapter_sentence_end": 151,
+      "timeline_start_index": 777,
+      "timeline_end_index": 777,
+      "highlights": [
+        {
+          "chapter_sentence": 151,
+          "start": 4,
+          "end": 24
+        }
+      ]
+    }
+  ]
+}

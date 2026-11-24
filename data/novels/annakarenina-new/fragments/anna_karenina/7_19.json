@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "7_19",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_07_19_0001",
+      "source_section": "chapter_07_19",
+      "source_sentence": 8,
+      "character_position": 881,
+      "text": "то робкое, жалостное выражение",
+      "vad": [
+        -0.78,
+        -0.18,
+        -0.62
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.7074210805385373,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 18471,
+      "timeline_end_index": 18471,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 14,
+          "end": 44
+        }
+      ]
+    }
+  ]
+}

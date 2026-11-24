@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "1_22",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_01_22_0001",
+      "source_section": "chapter_01_22",
+      "source_sentence": 74,
+      "character_position": 55,
+      "text": "сожалея, что все это время не имел удовольствия ее видеть",
+      "vad": [
+        -0.1,
+        0.15,
+        -0.05
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.3014769238865442,
+      "warning": null,
+      "chapter_sentence_start": 74,
+      "chapter_sentence_end": 74,
+      "timeline_start_index": 2073,
+      "timeline_end_index": 2073,
+      "highlights": [
+        {
+          "chapter_sentence": 74,
+          "start": 57,
+          "end": 114
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "6_24",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_06_24_0001",
+      "source_section": "chapter_06_24",
+      "source_sentence": 79,
+      "character_position": 516,
+      "text": "но надеялся, что она сама скажет что-нибудь",
+      "vad": [
+        0.35,
+        0.1,
+        -0.2
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.5648315365136705,
+      "warning": null,
+      "chapter_sentence_start": 79,
+      "chapter_sentence_end": 79,
+      "timeline_start_index": 16365,
+      "timeline_end_index": 16365,
+      "highlights": [
+        {
+          "chapter_sentence": 79,
+          "start": 49,
+          "end": 92
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_24_0003",
+      "source_section": "chapter_06_24",
+      "source_sentence": 84,
+      "character_position": 517,
+      "text": "Но все-таки я ей очень был рад",
+      "vad": [
+        0.7,
+        0.1,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.2400704858871921,
+      "warning": null,
+      "chapter_sentence_start": 84,
+      "chapter_sentence_end": 84,
+      "timeline_start_index": 16370,
+      "timeline_end_index": 16370,
+      "highlights": [
+        {
+          "chapter_sentence": 84,
+          "start": 0,
+          "end": 30
+        }
+      ]
+    }
+  ]
+}

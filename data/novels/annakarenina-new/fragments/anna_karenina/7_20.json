@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "7_20",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_07_20_0001",
+      "source_section": "chapter_07_20",
+      "source_sentence": 75,
+      "character_position": 882,
+      "text": "ее положение тяжело",
+      "vad": [
+        -0.7,
+        0.2,
+        -0.3
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.3942640163673014,
+      "warning": null,
+      "chapter_sentence_start": 75,
+      "chapter_sentence_end": 75,
+      "timeline_start_index": 18612,
+      "timeline_end_index": 18612,
+      "highlights": [
+        {
+          "chapter_sentence": 75,
+          "start": 6,
+          "end": 25
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_20_0002",
+      "source_section": "chapter_07_20",
+      "source_sentence": 78,
+      "character_position": 883,
+      "text": "не хотела обманывать",
+      "vad": [
+        0.35,
+        0.05,
+        0.55
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.5222107558928373,
+      "warning": null,
+      "chapter_sentence_start": 78,
+      "chapter_sentence_end": 78,
+      "timeline_start_index": 18615,
+      "timeline_end_index": 18615,
+      "highlights": [
+        {
+          "chapter_sentence": 78,
+          "start": 66,
+          "end": 86
+        }
+      ]
+    }
+  ]
+}

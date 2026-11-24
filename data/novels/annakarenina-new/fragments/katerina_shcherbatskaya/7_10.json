@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "7_10",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_07_10_0002",
+      "source_section": "chapter_07_10",
+      "source_sentence": 116,
+      "character_position": 504,
+      "text": "ей никогда не прощать меня",
+      "vad": [
+        -0.75,
+        0.2,
+        -0.45
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.2979416297626314,
+      "warning": null,
+      "chapter_sentence_start": 116,
+      "chapter_sentence_end": 116,
+      "timeline_start_index": 17820,
+      "timeline_end_index": 17820,
+      "highlights": [
+        {
+          "chapter_sentence": 116,
+          "start": 115,
+          "end": 141
+        }
+      ]
+    }
+  ]
+}

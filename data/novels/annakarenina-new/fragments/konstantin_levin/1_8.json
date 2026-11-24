@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "1_8",
+  "count": 10,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_01_08_0001",
+      "source_section": "chapter_01_08",
+      "source_sentence": 5,
+      "character_position": 46,
+      "text": "Левин почувствовал, что не может почему-то начать говорить с братом о своем решении жениться",
+      "vad": [
+        -0.45,
+        0.3,
+        -0.55
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2865122558595864,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 567,
+      "timeline_end_index": 567,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 359,
+          "end": 451
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_08_0002",
+      "source_section": "chapter_01_08",
+      "source_sentence": 6,
+      "character_position": 47,
+      "text": "Он чувствовал, что брат его не так, как ему бы хотелось, посмотрит на это",
+      "vad": [
+        -0.55,
+        0.2,
+        -0.35
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2634795109463826,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 568,
+      "timeline_end_index": 568,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 0,
+          "end": 73
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_08_0003",
+      "source_section": "chapter_01_08",
+      "source_sentence": 22,
+      "character_position": 48,
+      "text": "виновато сказал Левин",
+      "vad": [
+        -0.55,
+        0.1,
+        -0.35
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3538801227391273,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 584,
+      "timeline_end_index": 584,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 2,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_08_0004",
+      "source_section": "chapter_01_08",
+      "source_sentence": 28,
+      "character_position": 49,
+      "text": "уныло отвечал Левин",
+      "vad": [
+        -0.65,
+        -0.35,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.6294237042270693,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 590,
+      "timeline_end_index": 590,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 16,
+          "end": 35
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_08_0005",
+      "source_section": "chapter_01_08",
+      "source_sentence": 32,
+      "character_position": 50,
+      "text": "с ужасом вскрикнул Левин",
+      "vad": [
+        -0.93,
+        0.9,
+        -0.62
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.579342187004851,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 594,
+      "timeline_end_index": 594,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 2,
+          "end": 26
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_08_0006",
+      "source_section": "chapter_01_08",
+      "source_sentence": 39,
+      "character_position": 51,
+      "text": "волнение меньшего брата",
+      "vad": [
+        -0.5,
+        0.7,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3811079269662379,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 601,
+      "timeline_end_index": 601,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 77,
+          "end": 100
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_08_0007",
+      "source_section": "chapter_01_08",
+      "source_sentence": 47,
+      "character_position": 52,
+      "text": "В душе его боролись желание забыть теперь о несчастном брате и сознание того, что это будет дурно",
+      "vad": [
+        -0.7,
+        0.35,
+        -0.3
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1409225636706951,
+      "warning": null,
+      "chapter_sentence_start": 47,
+      "chapter_sentence_end": 47,
+      "timeline_start_index": 609,
+      "timeline_end_index": 609,
+      "highlights": [
+        {
+          "chapter_sentence": 47,
+          "start": 0,
+          "end": 97
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_08_0008",
+      "source_section": "chapter_01_08",
+      "source_sentence": 55,
+      "character_position": 53,
+      "text": "я чувствую, особенно в эту минуту — ну да это другое — я чувствую, что я не могу быть спокоен",
+      "vad": [
+        -0.72,
+        0.68,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2598302601838954,
+      "warning": null,
+      "chapter_sentence_start": 55,
+      "chapter_sentence_end": 55,
+      "timeline_start_index": 617,
+      "timeline_end_index": 617,
+      "highlights": [
+        {
+          "chapter_sentence": 55,
+          "start": 34,
+          "end": 127
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_08_0009",
+      "source_section": "chapter_01_08",
+      "source_sentence": 60,
+      "character_position": 54,
+      "text": "Ах, это ужасно, ужасно!",
+      "vad": [
+        -0.95,
+        0.9,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.5518788287440295,
+      "warning": null,
+      "chapter_sentence_start": 60,
+      "chapter_sentence_end": 60,
+      "timeline_start_index": 622,
+      "timeline_end_index": 622,
+      "highlights": [
+        {
+          "chapter_sentence": 60,
+          "start": 2,
+          "end": 25
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_08_0010",
+      "source_section": "chapter_01_08",
+      "source_sentence": 63,
+      "character_position": 55,
+      "text": "для того чтобы иметь душевное спокойствие",
+      "vad": [
+        0.6,
+        -0.4,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.7362079025320007,
+      "warning": null,
+      "chapter_sentence_start": 63,
+      "chapter_sentence_end": 63,
+      "timeline_start_index": 625,
+      "timeline_end_index": 625,
+      "highlights": [
+        {
+          "chapter_sentence": 63,
+          "start": 14,
+          "end": 55
+        }
+      ]
+    }
+  ]
+}

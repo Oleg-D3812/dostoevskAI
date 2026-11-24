@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "7_7",
+  "count": 5,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_07_07_0001",
+      "source_section": "chapter_07_07",
+      "source_sentence": 67,
+      "character_position": 562,
+      "text": "В лице Вронского светилось тоже общее клубное веселое добродушие.",
+      "vad": [
+        0.7,
+        0.35,
+        0.15
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.0800410236493744,
+      "warning": null,
+      "chapter_sentence_start": 67,
+      "chapter_sentence_end": 67,
+      "timeline_start_index": 17523,
+      "timeline_end_index": 17523,
+      "highlights": [
+        {
+          "chapter_sentence": 67,
+          "start": 0,
+          "end": 65
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_07_0002",
+      "source_section": "chapter_07_07",
+      "source_sentence": 68,
+      "character_position": 563,
+      "text": "Он весело облокотился на плечо Степану Аркадьичу",
+      "vad": [
+        0.8,
+        0.45,
+        0.35
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.2335354295857444,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 17524,
+      "timeline_end_index": 17524,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 0,
+          "end": 48
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_07_0003",
+      "source_section": "chapter_07_07",
+      "source_sentence": 68,
+      "character_position": 564,
+      "text": "с тою же веселою улыбкой протянул руку Левину",
+      "vad": [
+        0.72,
+        0.28,
+        0.38
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.1756521360668753,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 17524,
+      "timeline_end_index": 17524,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 70,
+          "end": 115
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_07_0004",
+      "source_section": "chapter_07_07",
+      "source_sentence": 69,
+      "character_position": 565,
+      "text": "Очень рад встретиться",
+      "vad": [
+        0.7,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.1602604909856824,
+      "warning": null,
+      "chapter_sentence_start": 69,
+      "chapter_sentence_end": 69,
+      "timeline_start_index": 17525,
+      "timeline_end_index": 17525,
+      "highlights": [
+        {
+          "chapter_sentence": 69,
+          "start": 2,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_07_0005",
+      "source_section": "chapter_07_07",
+      "source_sentence": 90,
+      "character_position": 566,
+      "text": "так добродушно расхохотался",
+      "vad": [
+        0.8,
+        0.6,
+        0.2
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.3172804690575075,
+      "warning": null,
+      "chapter_sentence_start": 90,
+      "chapter_sentence_end": 90,
+      "timeline_start_index": 17546,
+      "timeline_end_index": 17546,
+      "highlights": [
+        {
+          "chapter_sentence": 90,
+          "start": 23,
+          "end": 50
+        }
+      ]
+    }
+  ]
+}

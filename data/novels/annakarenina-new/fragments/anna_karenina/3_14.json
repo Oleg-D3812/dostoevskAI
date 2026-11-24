@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "3_14",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_03_14_0001",
+      "source_section": "chapter_03_14",
+      "source_sentence": 12,
+      "character_position": 272,
+      "text": "Я вполне уверен, что вы раскаялись и раскаиваетесь в том, что служит поводом настоящего письма",
+      "vad": [
+        0.35,
+        0.1,
+        0.7
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.6222023944038743,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 7261,
+      "timeline_end_index": 7261,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 0,
+          "end": 94
+        }
+      ]
+    }
+  ]
+}

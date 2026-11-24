@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "1_20",
+  "count": 13,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_01_20_0002",
+      "source_section": "chapter_01_20",
+      "source_sentence": 10,
+      "character_position": 25,
+      "text": "любовалась ее красотою и молодостью",
+      "vad": [
+        0.75,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.181263494732254,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 1876,
+      "timeline_end_index": 1876,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 16,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_20_0003",
+      "source_section": "chapter_01_20",
+      "source_sentence": 11,
+      "character_position": 26,
+      "text": "установившемуся на ее лице оживлению",
+      "vad": [
+        0.5,
+        0.45,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.2042779243960677,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 1877,
+      "timeline_end_index": 1877,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 149,
+          "end": 185
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_20_0004",
+      "source_section": "chapter_01_20",
+      "source_sentence": 11,
+      "character_position": 27,
+      "text": "серьезное, иногда грустное выражение ее глаз",
+      "vad": [
+        -0.45,
+        -0.15,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.3194353988656283,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 1877,
+      "timeline_end_index": 1877,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 239,
+          "end": 283
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_20_0005",
+      "source_section": "chapter_01_20",
+      "source_sentence": 14,
+      "character_position": 28,
+      "text": "весело подмигивая",
+      "vad": [
+        0.8,
+        0.45,
+        0.65
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.5379953477541322,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 1880,
+      "timeline_end_index": 1880,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 28,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_20_0006",
+      "source_section": "chapter_01_20",
+      "source_sentence": 27,
+      "character_position": 29,
+      "text": "с нежною насмешкой",
+      "vad": [
+        0.3,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.3691142687724741,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 1893,
+      "timeline_end_index": 1893,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 2,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_20_0007",
+      "source_section": "chapter_01_20",
+      "source_sentence": 31,
+      "character_position": 30,
+      "text": "для меня уж нет таких балов, где весело",
+      "vad": [
+        -0.7,
+        -0.3,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.5623486755314469,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 1897,
+      "timeline_end_index": 1897,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 17,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_20_0009",
+      "source_section": "chapter_01_20",
+      "source_sentence": 44,
+      "character_position": 31,
+      "text": "Я очень рада буду, если вы поедете.",
+      "vad": [
+        0.75,
+        0.3,
+        0.05
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.1829934787163429,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 1910,
+      "timeline_end_index": 1910,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 2,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_20_0011",
+      "source_section": "chapter_01_20",
+      "source_sentence": 46,
+      "character_position": 32,
+      "text": "я буду утешаться мыслью, что это сделает вам удовольствие…",
+      "vad": [
+        0.15,
+        -0.1,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.5993483009178792,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 1912,
+      "timeline_end_index": 1912,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 40,
+          "end": 98
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_20_0012",
+      "source_section": "chapter_01_20",
+      "source_sentence": 70,
+      "character_position": 33,
+      "text": "И я очень была бы рада.",
+      "vad": [
+        0.8,
+        0.3,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.2535668295779882,
+      "warning": null,
+      "chapter_sentence_start": 70,
+      "chapter_sentence_end": 70,
+      "timeline_start_index": 1936,
+      "timeline_end_index": 1936,
+      "highlights": [
+        {
+          "chapter_sentence": 70,
+          "start": 0,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_20_0013",
+      "source_section": "chapter_01_20",
+      "source_sentence": 80,
+      "character_position": 34,
+      "text": "я рада повидать старушку и завтра поеду к ней.",
+      "vad": [
+        0.45,
+        0.1,
+        0.35
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.3105565059879415,
+      "warning": null,
+      "chapter_sentence_start": 80,
+      "chapter_sentence_end": 80,
+      "timeline_start_index": 1946,
+      "timeline_end_index": 1946,
+      "highlights": [
+        {
+          "chapter_sentence": 80,
+          "start": 63,
+          "end": 109
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_20_0015",
+      "source_section": "chapter_01_20",
+      "source_sentence": 81,
+      "character_position": 35,
+      "text": "чем-то недовольная",
+      "vad": [
+        -0.35,
+        -0.1,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.2628366254834013,
+      "warning": null,
+      "chapter_sentence_start": 81,
+      "chapter_sentence_end": 81,
+      "timeline_start_index": 1947,
+      "timeline_end_index": 1947,
+      "highlights": [
+        {
+          "chapter_sentence": 81,
+          "start": 130,
+          "end": 148
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_20_0016",
+      "source_section": "chapter_01_20",
+      "source_sentence": 78,
+      "character_position": 36,
+      "text": "ей неприятно было вспоминать об этом.",
+      "vad": [
+        -0.45,
+        0.2,
+        -0.1
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.1220444853378639,
+      "warning": null,
+      "chapter_sentence_start": 78,
+      "chapter_sentence_end": 78,
+      "timeline_start_index": 1944,
+      "timeline_end_index": 1944,
+      "highlights": [
+        {
+          "chapter_sentence": 78,
+          "start": 10,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_20_0017",
+      "source_section": "chapter_01_20",
+      "source_sentence": 79,
+      "character_position": 37,
+      "text": "Она чувствовала, что в этом было что-то касающееся до нее и такое, чего не должно было быть.",
+      "vad": [
+        -0.55,
+        0.35,
+        -0.3
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.3540114611168337,
+      "warning": null,
+      "chapter_sentence_start": 79,
+      "chapter_sentence_end": 79,
+      "timeline_start_index": 1945,
+      "timeline_end_index": 1945,
+      "highlights": [
+        {
+          "chapter_sentence": 79,
+          "start": 0,
+          "end": 92
+        }
+      ]
+    }
+  ]
+}

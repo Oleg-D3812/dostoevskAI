@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "2_27",
+  "count": 7,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_02_27_0001",
+      "source_section": "chapter_02_27",
+      "source_sentence": 5,
+      "character_position": 234,
+      "text": "ей так показалось ужасно и страшно все, что могло из этого выйти",
+      "vad": [
+        -0.9,
+        0.85,
+        -0.7
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.3980311802917322,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 5326,
+      "timeline_end_index": 5326,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 2,
+          "end": 66
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_27_0002",
+      "source_section": "chapter_02_27",
+      "source_sentence": 5,
+      "character_position": 235,
+      "text": "с веселым, сияющим лицом",
+      "vad": [
+        0.85,
+        0.55,
+        0.25
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.35792072889586,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 5326,
+      "timeline_end_index": 5326,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 103,
+          "end": 127
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_27_0003",
+      "source_section": "chapter_02_27",
+      "source_sentence": 5,
+      "character_position": 236,
+      "text": "чувствуя в себе присутствие уже знакомого ей духа лжи и обмана",
+      "vad": [
+        -0.55,
+        0.45,
+        -0.3
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.3182701357462836,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 5326,
+      "timeline_end_index": 5326,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 153,
+          "end": 215
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_27_0004",
+      "source_section": "chapter_02_27",
+      "source_sentence": 32,
+      "character_position": 237,
+      "text": "говорила весело",
+      "vad": [
+        0.7,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.1994976482703669,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 5353,
+      "timeline_end_index": 5353,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 12,
+          "end": 27
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_27_0005",
+      "source_section": "chapter_02_27",
+      "source_sentence": 35,
+      "character_position": 238,
+      "text": "мучительной боли стыда",
+      "vad": [
+        -0.95,
+        0.75,
+        -0.6
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.3030540573245969,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 5356,
+      "timeline_end_index": 5356,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 71,
+          "end": 93
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_27_0006",
+      "source_section": "chapter_02_27",
+      "source_sentence": 68,
+      "character_position": 239,
+      "text": "сияющая и веселая",
+      "vad": [
+        0.85,
+        0.55,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.3559796818466322,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 5389,
+      "timeline_end_index": 5389,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 23,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_27_0007",
+      "source_section": "chapter_02_27",
+      "source_sentence": 69,
+      "character_position": 240,
+      "text": "с отвращением вздрогнула",
+      "vad": [
+        -0.85,
+        0.6,
+        -0.3
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.2467971241413257,
+      "warning": null,
+      "chapter_sentence_start": 69,
+      "chapter_sentence_end": 69,
+      "timeline_start_index": 5390,
+      "timeline_end_index": 5390,
+      "highlights": [
+        {
+          "chapter_sentence": 69,
+          "start": 113,
+          "end": 137
+        }
+      ]
+    }
+  ]
+}

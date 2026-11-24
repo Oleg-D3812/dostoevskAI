@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "2_2",
+  "count": 7,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_02_0001",
+      "source_section": "chapter_02_02",
+      "source_sentence": 34,
+      "character_position": 118,
+      "text": "ей казалось, что он насквозь видит ее и понимает все то нехорошее, что в ней делается",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.55
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.1848309313198936,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 3159,
+      "timeline_end_index": 3159,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 108,
+          "end": 193
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_02_0002",
+      "source_section": "chapter_02_02",
+      "source_sentence": 35,
+      "character_position": 119,
+      "text": "ожидая поцелуя",
+      "vad": [
+        0.45,
+        0.25,
+        -0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.3909139948345546,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 3160,
+      "timeline_end_index": 3160,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 33,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_02_0003",
+      "source_section": "chapter_02_02",
+      "source_sentence": 46,
+      "character_position": 120,
+      "text": "совсем здорова и весела",
+      "vad": [
+        0.8,
+        0.3,
+        0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.1616353539434686,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 3171,
+      "timeline_end_index": 3171,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 130,
+          "end": 153
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_02_0004",
+      "source_section": "chapter_02_02",
+      "source_sentence": 48,
+      "character_position": 121,
+      "text": "смешалась и растерялась, как уличенный преступник",
+      "vad": [
+        -0.8,
+        0.55,
+        -0.8
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.3737895837872693,
+      "warning": null,
+      "chapter_sentence_start": 48,
+      "chapter_sentence_end": 48,
+      "timeline_start_index": 3173,
+      "timeline_end_index": 3173,
+      "highlights": [
+        {
+          "chapter_sentence": 48,
+          "start": 68,
+          "end": 117
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_02_0005",
+      "source_section": "chapter_02_02",
+      "source_sentence": 49,
+      "character_position": 122,
+      "text": "Да, он все знает, все понимает и этими словами говорит мне, что хотя и стыдно, а надо пережить свой стыд",
+      "vad": [
+        -0.65,
+        0.38,
+        -0.28
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.2058569404080229,
+      "warning": null,
+      "chapter_sentence_start": 49,
+      "chapter_sentence_end": 49,
+      "timeline_start_index": 3174,
+      "timeline_end_index": 3174,
+      "highlights": [
+        {
+          "chapter_sentence": 49,
+          "start": 1,
+          "end": 105
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_02_0006",
+      "source_section": "chapter_02_02",
+      "source_sentence": 50,
+      "character_position": 123,
+      "text": "не могла собраться с духом ответить что-нибудь. Начала было и вдруг расплакалась",
+      "vad": [
+        -0.82,
+        0.72,
+        -0.78
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.4224029722023604,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 51,
+      "timeline_start_index": 3175,
+      "timeline_end_index": 3176,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 4,
+          "end": 52
+        },
+        {
+          "chapter_sentence": 51,
+          "start": 0,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_02_0007",
+      "source_section": "chapter_02_02",
+      "source_sentence": 57,
+      "character_position": 124,
+      "text": "Она так жалка, бедняжка, так жалка, а ты не чувствуешь, что ей больно от всякого намека на то, что причиной",
+      "vad": [
+        -0.55,
+        0.45,
+        0.15
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.4744453406164792,
+      "warning": null,
+      "chapter_sentence_start": 57,
+      "chapter_sentence_end": 57,
+      "timeline_start_index": 3182,
+      "timeline_end_index": 3182,
+      "highlights": [
+        {
+          "chapter_sentence": 57,
+          "start": 2,
+          "end": 109
+        }
+      ]
+    }
+  ]
+}

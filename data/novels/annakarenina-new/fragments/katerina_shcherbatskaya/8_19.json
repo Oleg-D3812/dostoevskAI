@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "8_19",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_08_19_0001",
+      "source_section": "chapter_08_19",
+      "source_sentence": 39,
+      "character_position": 567,
+      "text": "Мне неловко.",
+      "vad": [
+        -0.35,
+        0.2,
+        -0.25
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.3376189259023016,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 20844,
+      "timeline_end_index": 20844,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 0,
+          "end": 12
+        }
+      ]
+    }
+  ]
+}

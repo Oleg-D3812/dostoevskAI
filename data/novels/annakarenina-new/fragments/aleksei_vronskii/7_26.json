@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "7_26",
+  "count": 8,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_07_26_0001",
+      "source_section": "chapter_07_26",
+      "source_sentence": 7,
+      "character_position": 614,
+      "text": "Он не то что охладел к ней, но он ненавидел ее, потому что любил другую женщину",
+      "vad": [
+        -0.85,
+        0.65,
+        -0.2
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.3771027081634268,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 19152,
+      "timeline_end_index": 19152,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 0,
+          "end": 79
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_26_0002",
+      "source_section": "chapter_07_26",
+      "source_sentence": 22,
+      "character_position": 615,
+      "text": "он поверил тому, что ему сказали, не хотел больше ничего узнавать",
+      "vad": [
+        -0.82,
+        0.28,
+        -0.42
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.2055402536045678,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 19167,
+      "timeline_end_index": 19167,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 97,
+          "end": 162
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_26_0003",
+      "source_section": "chapter_07_26",
+      "source_sentence": 27,
+      "character_position": 616,
+      "text": "как он будет мучаться, раскаиваться и любить ее память",
+      "vad": [
+        0.55,
+        0.3,
+        0.45
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.2665387947432853,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 19172,
+      "timeline_end_index": 19172,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 202,
+          "end": 256
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_26_0005",
+      "source_section": "chapter_07_26",
+      "source_sentence": 41,
+      "character_position": 617,
+      "text": "он любит меня!",
+      "vad": [
+        0.9,
+        0.7,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.4657322894827452,
+      "warning": null,
+      "chapter_sentence_start": 41,
+      "chapter_sentence_end": 41,
+      "timeline_start_index": 19186,
+      "timeline_end_index": 19186,
+      "highlights": [
+        {
+          "chapter_sentence": 41,
+          "start": 5,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_26_0006",
+      "source_section": "chapter_07_26",
+      "source_sentence": 46,
+      "character_position": 618,
+      "text": "он посмотрел бы на нее холодным, сознающим свою правоту взглядом",
+      "vad": [
+        -0.7,
+        0.35,
+        -0.55
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.1175957911693996,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 19191,
+      "timeline_end_index": 19191,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 135,
+          "end": 199
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_26_0007",
+      "source_section": "chapter_07_26",
+      "source_sentence": 72,
+      "character_position": 619,
+      "text": "сказал он спокойно",
+      "vad": [
+        0.0,
+        -0.6,
+        0.3
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.7563386341120795,
+      "warning": null,
+      "chapter_sentence_start": 72,
+      "chapter_sentence_end": 72,
+      "timeline_start_index": 19217,
+      "timeline_end_index": 19217,
+      "highlights": [
+        {
+          "chapter_sentence": 72,
+          "start": 2,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_26_0008",
+      "source_section": "chapter_07_26",
+      "source_sentence": 84,
+      "character_position": 620,
+      "text": "Испуганный тем отчаянным выражением, с которым были сказаны эти слова, он вскочил",
+      "vad": [
+        -0.75,
+        0.78,
+        -0.35
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.3678595052385073,
+      "warning": null,
+      "chapter_sentence_start": 84,
+      "chapter_sentence_end": 84,
+      "timeline_start_index": 19229,
+      "timeline_end_index": 19229,
+      "highlights": [
+        {
+          "chapter_sentence": 84,
+          "start": 0,
+          "end": 81
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_26_0010",
+      "source_section": "chapter_07_26",
+      "source_sentence": 85,
+      "character_position": 621,
+      "text": "раздражила его",
+      "vad": [
+        -0.55,
+        0.55,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.5354366996643333,
+      "warning": null,
+      "chapter_sentence_start": 85,
+      "chapter_sentence_end": 85,
+      "timeline_start_index": 19230,
+      "timeline_end_index": 19230,
+      "highlights": [
+        {
+          "chapter_sentence": 85,
+          "start": 48,
+          "end": 62
+        }
+      ]
+    }
+  ]
+}

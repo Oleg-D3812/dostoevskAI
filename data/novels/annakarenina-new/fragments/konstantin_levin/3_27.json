@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "3_27",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_03_27_0001",
+      "source_section": "chapter_03_27",
+      "source_sentence": 38,
+      "character_position": 486,
+      "text": "Левин не находил слов помещика смешными",
+      "vad": [
+        -0.15,
+        0.0,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.1311896465899511,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 8417,
+      "timeline_end_index": 8417,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 103,
+          "end": 142
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_27_0003",
+      "source_section": "chapter_03_27",
+      "source_sentence": 96,
+      "character_position": 487,
+      "text": "с ужасом воскликнул Левин",
+      "vad": [
+        -0.9,
+        0.9,
+        -0.5
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.533793305989309,
+      "warning": null,
+      "chapter_sentence_start": 96,
+      "chapter_sentence_end": 96,
+      "timeline_start_index": 8475,
+      "timeline_end_index": 8475,
+      "highlights": [
+        {
+          "chapter_sentence": 96,
+          "start": 2,
+          "end": 27
+        }
+      ]
+    }
+  ]
+}

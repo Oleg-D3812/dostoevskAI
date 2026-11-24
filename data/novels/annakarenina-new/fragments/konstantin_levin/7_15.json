@@ -1,0 +1,477 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "7_15",
+  "count": 18,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_07_15_0001",
+      "source_section": "chapter_07_15",
+      "source_sentence": 5,
+      "character_position": 1232,
+      "text": "забылся",
+      "vad": [
+        0.0,
+        -0.7,
+        -0.3
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.8805971141950032,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 18184,
+      "timeline_end_index": 18184,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 24,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_15_0002",
+      "source_section": "chapter_07_15",
+      "source_sentence": 6,
+      "character_position": 1233,
+      "text": "совершенно забыл о том, что происходило теперь",
+      "vad": [
+        0.0,
+        -0.55,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.8328022513605118,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 18185,
+      "timeline_end_index": 18185,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 3,
+          "end": 49
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_15_0003",
+      "source_section": "chapter_07_15",
+      "source_sentence": 9,
+      "character_position": 1234,
+      "text": "испуганно-вопросительно посмотрел на доктора",
+      "vad": [
+        -0.7,
+        0.75,
+        -0.35
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3286245837553957,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 18188,
+      "timeline_end_index": 18188,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 74,
+          "end": 118
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_15_0004",
+      "source_section": "chapter_07_15",
+      "source_sentence": 11,
+      "character_position": 1235,
+      "text": "ничто не поражало Левина",
+      "vad": [
+        0.0,
+        -0.25,
+        0.05
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4063698021108488,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 18190,
+      "timeline_end_index": 18190,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 35,
+          "end": 59
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_15_0005",
+      "source_section": "chapter_07_15",
+      "source_sentence": 16,
+      "character_position": 1236,
+      "text": "не видел и не понимал и не хотел видеть и понимать",
+      "vad": [
+        -0.65,
+        0.25,
+        -0.55
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2269993813307243,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 18195,
+      "timeline_end_index": 18195,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 9,
+          "end": 59
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_15_0006",
+      "source_section": "chapter_07_15",
+      "source_sentence": 37,
+      "character_position": 1237,
+      "text": "он знал, что теперь все погибло",
+      "vad": [
+        -0.9,
+        0.45,
+        -0.8
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4547758861986694,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 18216,
+      "timeline_end_index": 18216,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 27,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_15_0008",
+      "source_section": "chapter_07_15",
+      "source_sentence": 39,
+      "character_position": 1238,
+      "text": "давно не желал",
+      "vad": [
+        -0.55,
+        -0.2,
+        -0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4285370144371118,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 18218,
+      "timeline_end_index": 18218,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 15,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_15_0009",
+      "source_section": "chapter_07_15",
+      "source_sentence": 40,
+      "character_position": 1239,
+      "text": "ненавидел этого ребенка",
+      "vad": [
+        -0.9,
+        0.8,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4873425566964562,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 18219,
+      "timeline_end_index": 18219,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 10,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_15_0010",
+      "source_section": "chapter_07_15",
+      "source_sentence": 41,
+      "character_position": 1240,
+      "text": "не желал теперь ее жизни",
+      "vad": [
+        -0.85,
+        0.3,
+        -0.4
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2259145184435101,
+      "warning": null,
+      "chapter_sentence_start": 41,
+      "chapter_sentence_end": 41,
+      "timeline_start_index": 18220,
+      "timeline_end_index": 18220,
+      "highlights": [
+        {
+          "chapter_sentence": 41,
+          "start": 8,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_15_0011",
+      "source_section": "chapter_07_15",
+      "source_sentence": 41,
+      "character_position": 1241,
+      "text": "желал только прекращения этих ужасных страданий",
+      "vad": [
+        -0.9,
+        0.75,
+        -0.8
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.5562302049725819,
+      "warning": null,
+      "chapter_sentence_start": 41,
+      "chapter_sentence_end": 41,
+      "timeline_start_index": 18220,
+      "timeline_end_index": 18220,
+      "highlights": [
+        {
+          "chapter_sentence": 41,
+          "start": 37,
+          "end": 84
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_15_0012",
+      "source_section": "chapter_07_15",
+      "source_sentence": 45,
+      "character_position": 1242,
+      "text": "Боже мой!",
+      "vad": [
+        -0.85,
+        0.9,
+        -0.6
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.5400685584666594,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 18224,
+      "timeline_end_index": 18224,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 0,
+          "end": 9
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_15_0013",
+      "source_section": "chapter_07_15",
+      "source_sentence": 54,
+      "character_position": 1243,
+      "text": "чувствуя, что сердце его разрывается",
+      "vad": [
+        -0.95,
+        0.85,
+        -0.8
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.6399929709469917,
+      "warning": null,
+      "chapter_sentence_start": 54,
+      "chapter_sentence_end": 54,
+      "timeline_start_index": 18233,
+      "timeline_end_index": 18233,
+      "highlights": [
+        {
+          "chapter_sentence": 54,
+          "start": 36,
+          "end": 72
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_15_0014",
+      "source_section": "chapter_07_15",
+      "source_sentence": 59,
+      "character_position": 1244,
+      "text": "мгновенно почувствовал себя перенесенным в прежний, обычный мир, но сияющий теперь таким новым светом счастья, что он не перенес его",
+      "vad": [
+        0.95,
+        0.85,
+        -0.35
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.7745806413285656,
+      "warning": null,
+      "chapter_sentence_start": 59,
+      "chapter_sentence_end": 59,
+      "timeline_start_index": 18238,
+      "timeline_end_index": 18238,
+      "highlights": [
+        {
+          "chapter_sentence": 59,
+          "start": 105,
+          "end": 237
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_15_0015",
+      "source_section": "chapter_07_15",
+      "source_sentence": 61,
+      "character_position": 1245,
+      "text": "Рыдания и слезы радости, которых он никак не предвидел, с такою силой поднялись в нем, колебля все его тело, что долго мешали ему говорить",
+      "vad": [
+        0.93,
+        0.96,
+        -0.28
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.8061144220275388,
+      "warning": null,
+      "chapter_sentence_start": 61,
+      "chapter_sentence_end": 61,
+      "timeline_start_index": 18240,
+      "timeline_end_index": 18240,
+      "highlights": [
+        {
+          "chapter_sentence": 61,
+          "start": 0,
+          "end": 138
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_15_0016",
+      "source_section": "chapter_07_15",
+      "source_sentence": 76,
+      "character_position": 1246,
+      "text": "невыразимо счастлив",
+      "vad": [
+        1.0,
+        0.75,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.548918475541612,
+      "warning": null,
+      "chapter_sentence_start": 76,
+      "chapter_sentence_end": 76,
+      "timeline_start_index": 18255,
+      "timeline_end_index": 18255,
+      "highlights": [
+        {
+          "chapter_sentence": 76,
+          "start": 9,
+          "end": 28
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_15_0017",
+      "source_section": "chapter_07_15",
+      "source_sentence": 77,
+      "character_position": 1247,
+      "text": "этим был вполне счастлив",
+      "vad": [
+        0.9,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.3183298828504646,
+      "warning": null,
+      "chapter_sentence_start": 77,
+      "chapter_sentence_end": 77,
+      "timeline_start_index": 18256,
+      "timeline_end_index": 18256,
+      "highlights": [
+        {
+          "chapter_sentence": 77,
+          "start": 17,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_15_0018",
+      "source_section": "chapter_07_15",
+      "source_sentence": 80,
+      "character_position": 1248,
+      "text": "никак не мог понять, не мог привыкнуть к этой мысли",
+      "vad": [
+        -0.45,
+        0.2,
+        -0.5
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3263820750545571,
+      "warning": null,
+      "chapter_sentence_start": 80,
+      "chapter_sentence_end": 80,
+      "timeline_start_index": 18259,
+      "timeline_end_index": 18259,
+      "highlights": [
+        {
+          "chapter_sentence": 80,
+          "start": 3,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_15_0019",
+      "source_section": "chapter_07_15",
+      "source_sentence": 81,
+      "character_position": 1249,
+      "text": "казалось ему чем-то излишним, избытком, к которому он долго не мог привыкнуть",
+      "vad": [
+        -0.45,
+        0.2,
+        -0.35
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3200064868881293,
+      "warning": null,
+      "chapter_sentence_start": 81,
+      "chapter_sentence_end": 81,
+      "timeline_start_index": 18260,
+      "timeline_end_index": 18260,
+      "highlights": [
+        {
+          "chapter_sentence": 81,
+          "start": 4,
+          "end": 81
+        }
+      ]
+    }
+  ]
+}

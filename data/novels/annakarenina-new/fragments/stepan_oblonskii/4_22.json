@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "4_22",
+  "count": 14,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_04_22_0001",
+      "source_section": "chapter_04_22",
+      "source_sentence": 4,
+      "character_position": 167,
+      "text": "вдруг испытывая непривычное ему чувство смущения",
+      "vad": [
+        -0.35,
+        0.3,
+        -0.45
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.3594387012145406,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 10948,
+      "timeline_end_index": 10948,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 40,
+          "end": 88
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_04_22_0002",
+      "source_section": "chapter_04_22",
+      "source_sentence": 5,
+      "character_position": 168,
+      "text": "это смущение",
+      "vad": [
+        -0.55,
+        0.35,
+        -0.4
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.1609046226118275,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 10949,
+      "timeline_end_index": 10949,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 13,
+          "end": 25
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_04_22_0003",
+      "source_section": "chapter_04_22",
+      "source_sentence": 9,
+      "character_position": 169,
+      "text": "с удивлением чувствуя непривычную робость",
+      "vad": [
+        -0.35,
+        0.3,
+        -0.45
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.3594387012145406,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 10953,
+      "timeline_end_index": 10953,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 82,
+          "end": 123
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_04_22_0004",
+      "source_section": "chapter_04_22",
+      "source_sentence": 10,
+      "character_position": 170,
+      "text": "Чувство это было так неожиданно и странно",
+      "vad": [
+        -0.2,
+        0.35,
+        -0.15
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.3820550115571783,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 10954,
+      "timeline_end_index": 10954,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 0,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_04_22_0005",
+      "source_section": "chapter_04_22",
+      "source_sentence": 11,
+      "character_position": 171,
+      "text": "поборол нашедшую на него робость",
+      "vad": [
+        0.1,
+        0.25,
+        0.75
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.7828722051380923,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 10955,
+      "timeline_end_index": 10955,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 42,
+          "end": 74
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_04_22_0006",
+      "source_section": "chapter_04_22",
+      "source_sentence": 12,
+      "character_position": 172,
+      "text": "мою любовь к сестре и в искреннюю привязанность и уважение к тебе",
+      "vad": [
+        0.75,
+        0.15,
+        0.25
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.1586455708074899,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 10956,
+      "timeline_end_index": 10956,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 27,
+          "end": 92
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_04_22_0007",
+      "source_section": "chapter_04_22",
+      "source_sentence": 14,
+      "character_position": 173,
+      "text": "все еще борясь с непривычною застенчивостью",
+      "vad": [
+        -0.45,
+        0.35,
+        -0.3
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.277863176107735,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 10958,
+      "timeline_end_index": 10958,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 101,
+          "end": 144
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_04_22_0008",
+      "source_section": "chapter_04_22",
+      "source_sentence": 18,
+      "character_position": 174,
+      "text": "с недоумевающим удивлением",
+      "vad": [
+        -0.1,
+        0.45,
+        -0.1
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.4915793347795159,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 10962,
+      "timeline_end_index": 10962,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 29,
+          "end": 55
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_04_22_0010",
+      "source_section": "chapter_04_22",
+      "source_sentence": 26,
+      "character_position": 175,
+      "text": "им обоим так неловко",
+      "vad": [
+        -0.55,
+        0.25,
+        -0.35
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.2436529666679436,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 10970,
+      "timeline_end_index": 10970,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 18,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_04_22_0011",
+      "source_section": "chapter_04_22",
+      "source_sentence": 44,
+      "character_position": 176,
+      "text": "оживляясь",
+      "vad": [
+        0.35,
+        0.65,
+        0.2
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.4894468111208425,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 10988,
+      "timeline_end_index": 10988,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 54,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_04_22_0013",
+      "source_section": "chapter_04_22",
+      "source_sentence": 64,
+      "character_position": 177,
+      "text": "все более и более освобождаясь от стеснения",
+      "vad": [
+        0.2,
+        0.25,
+        0.35
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.481818152519666,
+      "warning": null,
+      "chapter_sentence_start": 64,
+      "chapter_sentence_end": 64,
+      "timeline_start_index": 11008,
+      "timeline_end_index": 11008,
+      "highlights": [
+        {
+          "chapter_sentence": 64,
+          "start": 58,
+          "end": 101
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_04_22_0014",
+      "source_section": "chapter_04_22",
+      "source_sentence": 97,
+      "character_position": 178,
+      "text": "был тронут",
+      "vad": [
+        0.45,
+        0.35,
+        -0.05
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.3356787573863683,
+      "warning": null,
+      "chapter_sentence_start": 97,
+      "chapter_sentence_end": 97,
+      "timeline_start_index": 11041,
+      "timeline_end_index": 11041,
+      "highlights": [
+        {
+          "chapter_sentence": 97,
+          "start": 16,
+          "end": 26
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_04_22_0015",
+      "source_section": "chapter_04_22",
+      "source_sentence": 100,
+      "character_position": 179,
+      "text": "почувствовал, что это было глупо",
+      "vad": [
+        -0.45,
+        0.1,
+        -0.2
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.2584217895798261,
+      "warning": null,
+      "chapter_sentence_start": 100,
+      "chapter_sentence_end": 100,
+      "timeline_start_index": 11044,
+      "timeline_end_index": 11044,
+      "highlights": [
+        {
+          "chapter_sentence": 100,
+          "start": 63,
+          "end": 95
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_04_22_0016",
+      "source_section": "chapter_04_22",
+      "source_sentence": 104,
+      "character_position": 180,
+      "text": "был тронут, но это не мешало ему быть довольным",
+      "vad": [
+        0.45,
+        0.3,
+        0.05
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.2586897478462787,
+      "warning": null,
+      "chapter_sentence_start": 104,
+      "chapter_sentence_end": 104,
+      "timeline_start_index": 11048,
+      "timeline_end_index": 11048,
+      "highlights": [
+        {
+          "chapter_sentence": 104,
+          "start": 48,
+          "end": 95
+        }
+      ]
+    }
+  ]
+}

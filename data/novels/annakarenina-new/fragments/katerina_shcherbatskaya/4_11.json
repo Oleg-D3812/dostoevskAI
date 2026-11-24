@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "4_11",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_04_11_0001",
+      "source_section": "chapter_04_11",
+      "source_sentence": 6,
+      "character_position": 281,
+      "text": "не интересовало ее",
+      "vad": [
+        -0.15,
+        -0.35,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.4615972979158492,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 9839,
+      "timeline_end_index": 9839,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 24,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_04_11_0003",
+      "source_section": "chapter_04_11",
+      "source_sentence": 13,
+      "character_position": 282,
+      "text": "о чем-то ужасно задумались",
+      "vad": [
+        0.0,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.2721860087108633,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 9846,
+      "timeline_end_index": 9846,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 139,
+          "end": 165
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_04_11_0004",
+      "source_section": "chapter_04_11",
+      "source_sentence": 17,
+      "character_position": 283,
+      "text": "она почувствовала, что, напротив, впечатление, произведенное ею, было очень хорошее",
+      "vad": [
+        0.72,
+        0.22,
+        0.08
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.1060821087873345,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 9850,
+      "timeline_end_index": 9850,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 101,
+          "end": 184
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_04_11_0005",
+      "source_section": "chapter_04_11",
+      "source_sentence": 18,
+      "character_position": 284,
+      "text": "Она покраснела и радостно засмеялась",
+      "vad": [
+        0.85,
+        0.55,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.3303039073167833,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 9851,
+      "timeline_end_index": 9851,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 0,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_04_11_0006",
+      "source_section": "chapter_04_11",
+      "source_sentence": 30,
+      "character_position": 285,
+      "text": "Я тоже была о нем очень низкого мнения",
+      "vad": [
+        -0.45,
+        -0.1,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.2876624706529523,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 9863,
+      "timeline_end_index": 9863,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 2,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_04_11_0007",
+      "source_section": "chapter_04_11",
+      "source_sentence": 35,
+      "character_position": 286,
+      "text": "с виноватою и вместе доверчивою улыбкой",
+      "vad": [
+        0.35,
+        0.15,
+        -0.15
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.436119051758665,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 9868,
+      "timeline_end_index": 9868,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 66,
+          "end": 105
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "7_13",
+  "count": 9,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_07_13_0001",
+      "source_section": "chapter_07_13",
+      "source_sentence": 23,
+      "character_position": 515,
+      "text": "выражение особенной нежности и возбужденности",
+      "vad": [
+        0.8,
+        0.7,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.4402620003982187,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 18002,
+      "timeline_end_index": 18002,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 86,
+          "end": 131
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_07_13_0002",
+      "source_section": "chapter_07_13",
+      "source_sentence": 24,
+      "character_position": 516,
+      "text": "в ожидании величайшего события в жизни женщины",
+      "vad": [
+        0.85,
+        0.75,
+        0.05
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.5103459531179213,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 18003,
+      "timeline_end_index": 18003,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 133,
+          "end": 179
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_07_13_0003",
+      "source_section": "chapter_07_13",
+      "source_sentence": 26,
+      "character_position": 517,
+      "text": "Она как будто боролась между жалостью разбудить его и желанием говорить с ним.",
+      "vad": [
+        -0.2,
+        0.35,
+        -0.25
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.3980871528103952,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 18005,
+      "timeline_end_index": 18005,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 0,
+          "end": 78
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_07_13_0004",
+      "source_section": "chapter_07_13",
+      "source_sentence": 34,
+      "character_position": 518,
+      "text": "Я не боюсь нисколько",
+      "vad": [
+        0.2,
+        -0.4,
+        0.5
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.8034995576398433,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 18013,
+      "timeline_end_index": 18013,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 0,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_07_13_0005",
+      "source_section": "chapter_07_13",
+      "source_sentence": 39,
+      "character_position": 519,
+      "text": "сияло радостью и решимостью",
+      "vad": [
+        0.9,
+        0.6,
+        0.75
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.736133011370391,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 18018,
+      "timeline_end_index": 18018,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 88,
+          "end": 115
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_07_13_0006",
+      "source_section": "chapter_07_13",
+      "source_sentence": 43,
+      "character_position": 520,
+      "text": "Она страдала и как будто жаловалась ему на свои страданья.",
+      "vad": [
+        -0.8,
+        0.45,
+        -0.55
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.1522291336362239,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 18022,
+      "timeline_end_index": 18022,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 0,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_07_13_0007",
+      "source_section": "chapter_07_13",
+      "source_sentence": 45,
+      "character_position": 521,
+      "text": "во взгляде ее была нежность",
+      "vad": [
+        0.75,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2467113576095441,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 18024,
+      "timeline_end_index": 18024,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 3,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_07_13_0008",
+      "source_section": "chapter_07_13",
+      "source_sentence": 45,
+      "character_position": 522,
+      "text": "она не только не упрекает его, но любит за эти страдания",
+      "vad": [
+        0.55,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.18836806451418,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 18024,
+      "timeline_end_index": 18024,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 54,
+          "end": 110
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_07_13_0009",
+      "source_section": "chapter_07_13",
+      "source_sentence": 49,
+      "character_position": 523,
+      "text": "Она страдала, жаловалась, и торжествовала этими страданиями, и радовалась ими, и любила их.",
+      "vad": [
+        0.2,
+        0.7,
+        0.3
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.6376309630408451,
+      "warning": null,
+      "chapter_sentence_start": 49,
+      "chapter_sentence_end": 49,
+      "timeline_start_index": 18028,
+      "timeline_end_index": 18028,
+      "highlights": [
+        {
+          "chapter_sentence": 49,
+          "start": 0,
+          "end": 91
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,425 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "7_22",
+  "count": 16,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_07_22_0001",
+      "source_section": "chapter_07_22",
+      "source_sentence": 1,
+      "character_position": 262,
+      "text": "чувствовал себя совершенно озадаченным",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.7
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.2747977929125694,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 18771,
+      "timeline_end_index": 18771,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 16,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_22_0002",
+      "source_section": "chapter_07_22",
+      "source_sentence": 2,
+      "character_position": 263,
+      "text": "Усложненность петербургской жизни вообще возбудительно действовала на него, выводя его из московского застоя",
+      "vad": [
+        0.35,
+        0.6,
+        0.1
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.4628258713766704,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 18772,
+      "timeline_end_index": 18772,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 0,
+          "end": 108
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_22_0003",
+      "source_section": "chapter_07_22",
+      "source_sentence": 2,
+      "character_position": 264,
+      "text": "он был озадачен, ошеломлен",
+      "vad": [
+        -0.7,
+        0.72,
+        -0.6
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.3285955012781024,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 18772,
+      "timeline_end_index": 18772,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 204,
+          "end": 230
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_22_0004",
+      "source_section": "chapter_07_22",
+      "source_sentence": 3,
+      "character_position": 265,
+      "text": "начинал испытывать какую-то особенную тяжесть в голове",
+      "vad": [
+        -0.45,
+        -0.25,
+        -0.2
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.367717326020893,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 18773,
+      "timeline_end_index": 18773,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 144,
+          "end": 198
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_22_0005",
+      "source_section": "chapter_07_22",
+      "source_sentence": 4,
+      "character_position": 266,
+      "text": "Самые разнообразные мысли путались у него в голове",
+      "vad": [
+        -0.45,
+        0.35,
+        -0.5
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.2577430387972542,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 18774,
+      "timeline_end_index": 18774,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 0,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_22_0006",
+      "source_section": "chapter_07_22",
+      "source_sentence": 8,
+      "character_position": 267,
+      "text": "у меня такая тяжесть в голове",
+      "vad": [
+        -0.5,
+        -0.2,
+        -0.15
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.3284015998793613,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 18778,
+      "timeline_end_index": 18778,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 9,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_22_0007",
+      "source_section": "chapter_07_22",
+      "source_sentence": 21,
+      "character_position": 268,
+      "text": "испуганно очнулся, чувствуя себя виноватым и уличенным",
+      "vad": [
+        -0.8,
+        0.7,
+        -0.65
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.36208831054962,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 18791,
+      "timeline_end_index": 18791,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 16,
+          "end": 70
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_22_0008",
+      "source_section": "chapter_07_22",
+      "source_sentence": 22,
+      "character_position": 269,
+      "text": "он утешился",
+      "vad": [
+        0.45,
+        -0.2,
+        0.25
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.5157128616968085,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 18792,
+      "timeline_end_index": 18792,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 13,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_22_0009",
+      "source_section": "chapter_07_22",
+      "source_sentence": 24,
+      "character_position": 270,
+      "text": "ему все казалось странно",
+      "vad": [
+        -0.2,
+        0.15,
+        -0.25
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.3109708570931025,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 18794,
+      "timeline_end_index": 18794,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 91,
+          "end": 115
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_22_0010",
+      "source_section": "chapter_07_22",
+      "source_sentence": 33,
+      "character_position": 271,
+      "text": "у него в голове становится все более и более нехорошо",
+      "vad": [
+        -0.7,
+        0.45,
+        -0.55
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.1250258935118759,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 18803,
+      "timeline_end_index": 18803,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 32,
+          "end": 85
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_22_0011",
+      "source_section": "chapter_07_22",
+      "source_sentence": 40,
+      "character_position": 272,
+      "text": "с одним желанием поскорее выбраться отсюда",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.35
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.082901450644914,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 18810,
+      "timeline_end_index": 18810,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 125,
+          "end": 167
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_22_0012",
+      "source_section": "chapter_07_22",
+      "source_sentence": 40,
+      "character_position": 273,
+      "text": "желая привести себя поскорее в чувство",
+      "vad": [
+        -0.45,
+        0.35,
+        0.4
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.5273620850023834,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 18810,
+      "timeline_end_index": 18810,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 275,
+          "end": 313
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_22_0013",
+      "source_section": "chapter_07_22",
+      "source_sentence": 42,
+      "character_position": 274,
+      "text": "ему было очень не по себе",
+      "vad": [
+        -0.75,
+        0.25,
+        -0.2
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.3051070264314717,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 18812,
+      "timeline_end_index": 18812,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 25,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_22_0014",
+      "source_section": "chapter_07_22",
+      "source_sentence": 49,
+      "character_position": 275,
+      "text": "был в упадке духа",
+      "vad": [
+        -0.7,
+        -0.3,
+        -0.35
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.6152707835734714,
+      "warning": null,
+      "chapter_sentence_start": 49,
+      "chapter_sentence_end": 49,
+      "timeline_start_index": 18819,
+      "timeline_end_index": 18819,
+      "highlights": [
+        {
+          "chapter_sentence": 49,
+          "start": 16,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_22_0015",
+      "source_section": "chapter_07_22",
+      "source_sentence": 50,
+      "character_position": 276,
+      "text": "Все, что он ни вспоминал, все было гадко",
+      "vad": [
+        -0.9,
+        0.35,
+        -0.25
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.2970180286490379,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 50,
+      "timeline_start_index": 18820,
+      "timeline_end_index": 18820,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 0,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_22_0016",
+      "source_section": "chapter_07_22",
+      "source_sentence": 50,
+      "character_position": 277,
+      "text": "точно что-то постыдное",
+      "vad": [
+        -0.7,
+        0.2,
+        -0.2
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.3319580996613819,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 50,
+      "timeline_start_index": 18820,
+      "timeline_end_index": 18820,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 57,
+          "end": 79
+        }
+      ]
+    }
+  ]
+}

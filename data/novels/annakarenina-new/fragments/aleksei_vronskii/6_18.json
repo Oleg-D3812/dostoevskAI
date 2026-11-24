@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "6_18",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_06_18_0001",
+      "source_section": "chapter_06_18",
+      "source_sentence": 45,
+      "character_position": 483,
+      "text": "Он очень любит это именье",
+      "vad": [
+        0.75,
+        0.25,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.2348499507156375,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 15587,
+      "timeline_end_index": 15587,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 0,
+          "end": 25
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_18_0002",
+      "source_section": "chapter_06_18",
+      "source_sentence": 45,
+      "character_position": 484,
+      "text": "он страстно увлекся хозяйством",
+      "vad": [
+        0.8,
+        0.8,
+        0.3
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.5138711806087475,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 15587,
+      "timeline_end_index": 15587,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 55,
+          "end": 85
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_18_0004",
+      "source_section": "chapter_06_18",
+      "source_sentence": 48,
+      "character_position": 485,
+      "text": "он со страстью занимается",
+      "vad": [
+        0.7,
+        0.75,
+        0.4
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.478903658607,
+      "warning": null,
+      "chapter_sentence_start": 48,
+      "chapter_sentence_end": 48,
+      "timeline_start_index": 15590,
+      "timeline_end_index": 15590,
+      "highlights": [
+        {
+          "chapter_sentence": 48,
+          "start": 28,
+          "end": 53
+        }
+      ]
+    }
+  ]
+}

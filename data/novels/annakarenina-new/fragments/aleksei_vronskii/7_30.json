@@ -1,0 +1,477 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "7_30",
+  "count": 18,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_07_30_0001",
+      "source_section": "chapter_07_30",
+      "source_sentence": 13,
+      "character_position": 627,
+      "text": "Мы с графом Вронским также не нашли этого удовольствия, хотя и много ожидали от него",
+      "vad": [
+        -0.45,
+        -0.15,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.3229242762837949,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 19574,
+      "timeline_end_index": 19574,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 2,
+          "end": 86
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_30_0002",
+      "source_section": "chapter_07_30",
+      "source_sentence": 16,
+      "character_position": 628,
+      "text": "Любви не столько, сколько удовлетворения тщеславия",
+      "vad": [
+        -0.55,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.2541950820920902,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 19577,
+      "timeline_end_index": 19577,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 0,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_30_0003",
+      "source_section": "chapter_07_30",
+      "source_sentence": 19,
+      "character_position": 629,
+      "text": "в нем было торжество тщеславного успеха",
+      "vad": [
+        -0.35,
+        0.2,
+        -0.15
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.341459399055149,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 19580,
+      "timeline_end_index": 19580,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 5,
+          "end": 44
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_30_0004",
+      "source_section": "chapter_07_30",
+      "source_sentence": 20,
+      "character_position": 630,
+      "text": "Разумеется, была и любовь, но большая доля была гордость успеха",
+      "vad": [
+        -0.4,
+        0.1,
+        0.05
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.1552407029173686,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 19581,
+      "timeline_end_index": 19581,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 0,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_30_0005",
+      "source_section": "chapter_07_30",
+      "source_sentence": 24,
+      "character_position": 631,
+      "text": "Не гордиться, а стыдиться",
+      "vad": [
+        -0.75,
+        0.35,
+        -0.55
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.1290706868493437,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 19585,
+      "timeline_end_index": 19585,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 0,
+          "end": 25
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_30_0006",
+      "source_section": "chapter_07_30",
+      "source_sentence": 25,
+      "character_position": 632,
+      "text": "я не нужна ему",
+      "vad": [
+        -0.8,
+        0.2,
+        -0.7
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.3454244352778522,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 19586,
+      "timeline_end_index": 19586,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 39,
+          "end": 53
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_30_0007",
+      "source_section": "chapter_07_30",
+      "source_sentence": 26,
+      "character_position": 633,
+      "text": "Он тяготится мною",
+      "vad": [
+        -0.7,
+        0.2,
+        -0.3
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.2915483560586469,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 19587,
+      "timeline_end_index": 19587,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 0,
+          "end": 17
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_30_0008",
+      "source_section": "chapter_07_30",
+      "source_sentence": 27,
+      "character_position": 634,
+      "text": "он хочет развода и женитьбы",
+      "vad": [
+        -0.8,
+        0.4,
+        -0.6
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.1696892316465855,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 19588,
+      "timeline_end_index": 19588,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 25,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_30_0009",
+      "source_section": "chapter_07_30",
+      "source_sentence": 28,
+      "character_position": 635,
+      "text": "Он любит меня — но как? The zest is gone",
+      "vad": [
+        -0.45,
+        0.1,
+        -0.2
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.3966700121293405,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 19589,
+      "timeline_end_index": 19589,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 0,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_30_0010",
+      "source_section": "chapter_07_30",
+      "source_sentence": 30,
+      "character_position": 636,
+      "text": "того вкуса уж нет для него во мне",
+      "vad": [
+        -0.72,
+        0.28,
+        -0.48
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.1585381641747458,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 19591,
+      "timeline_end_index": 19591,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 6,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_30_0011",
+      "source_section": "chapter_07_30",
+      "source_sentence": 31,
+      "character_position": 637,
+      "text": "он в глубине души будет рад",
+      "vad": [
+        0.65,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.1594980354677745,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 19592,
+      "timeline_end_index": 19592,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 21,
+          "end": 48
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_30_0012",
+      "source_section": "chapter_07_30",
+      "source_sentence": 33,
+      "character_position": 638,
+      "text": "а его все гаснет и гаснет",
+      "vad": [
+        -0.75,
+        -0.2,
+        -0.45
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.6390782775050867,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 19594,
+      "timeline_end_index": 19594,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 50,
+          "end": 75
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_30_0013",
+      "source_section": "chapter_07_30",
+      "source_sentence": 36,
+      "character_position": 639,
+      "text": "хочет уйти от меня",
+      "vad": [
+        -0.7,
+        0.35,
+        -0.65
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.1993562970936352,
+      "warning": null,
+      "chapter_sentence_start": 36,
+      "chapter_sentence_end": 36,
+      "timeline_start_index": 19597,
+      "timeline_end_index": 19597,
+      "highlights": [
+        {
+          "chapter_sentence": 36,
+          "start": 25,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_30_0014",
+      "source_section": "chapter_07_30",
+      "source_sentence": 44,
+      "character_position": 640,
+      "text": "возбуждаю в нем отвращение",
+      "vad": [
+        -0.9,
+        0.65,
+        -0.75
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.4062817022743001,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 19605,
+      "timeline_end_index": 19605,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 18,
+          "end": 44
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_30_0015",
+      "source_section": "chapter_07_30",
+      "source_sentence": 45,
+      "character_position": 641,
+      "text": "он не влюблен в Кити",
+      "vad": [
+        -0.1,
+        0.0,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.2717008011155189,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 19606,
+      "timeline_end_index": 19606,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 91,
+          "end": 111
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_30_0016",
+      "source_section": "chapter_07_30",
+      "source_sentence": 47,
+      "character_position": 642,
+      "text": "не любя меня, из долга будет добр, нежен ко мне",
+      "vad": [
+        -0.78,
+        0.48,
+        -0.62
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.1766389036696001,
+      "warning": null,
+      "chapter_sentence_start": 47,
+      "chapter_sentence_end": 47,
+      "timeline_start_index": 19608,
+      "timeline_end_index": 19608,
+      "highlights": [
+        {
+          "chapter_sentence": 47,
+          "start": 9,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_30_0017",
+      "source_section": "chapter_07_30",
+      "source_sentence": 50,
+      "character_position": 643,
+      "text": "Он уж давно не любит меня",
+      "vad": [
+        -0.85,
+        0.55,
+        -0.7
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.2984660600217003,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 50,
+      "timeline_start_index": 19611,
+      "timeline_end_index": 19611,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 0,
+          "end": 25
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_30_0018",
+      "source_section": "chapter_07_30",
+      "source_sentence": 69,
+      "character_position": 644,
+      "text": "делаю его несчастье",
+      "vad": [
+        -0.75,
+        0.35,
+        0.65
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.7138552840484744,
+      "warning": null,
+      "chapter_sentence_start": 69,
+      "chapter_sentence_end": 69,
+      "timeline_start_index": 19630,
+      "timeline_end_index": 19630,
+      "highlights": [
+        {
+          "chapter_sentence": 69,
+          "start": 26,
+          "end": 45
+        }
+      ]
+    }
+  ]
+}

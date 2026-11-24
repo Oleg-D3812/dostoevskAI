@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "7_19",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_07_19_0001",
+      "source_section": "chapter_07_19",
+      "source_sentence": 13,
+      "character_position": 231,
+      "text": "все-таки рад был увидеть племянника",
+      "vad": [
+        0.7,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.1296539602954683,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 18476,
+      "timeline_end_index": 18476,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 62,
+          "end": 97
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_19_0002",
+      "source_section": "chapter_07_19",
+      "source_sentence": 26,
+      "character_position": 232,
+      "text": "я это люблю",
+      "vad": [
+        0.8,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.1877527477886506,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 18489,
+      "timeline_end_index": 18489,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 64,
+          "end": 75
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_19_0003",
+      "source_section": "chapter_07_19",
+      "source_sentence": 32,
+      "character_position": 233,
+      "text": "желая разговориться и не зная, что сказать",
+      "vad": [
+        -0.2,
+        0.2,
+        -0.4
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.4602976499970402,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 18495,
+      "timeline_end_index": 18495,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 13,
+          "end": 55
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_19_0004",
+      "source_section": "chapter_07_19",
+      "source_sentence": 56,
+      "character_position": 234,
+      "text": "с грустью вглядываясь",
+      "vad": [
+        -0.6,
+        -0.2,
+        0.0
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.3596492886178479,
+      "warning": null,
+      "chapter_sentence_start": 56,
+      "chapter_sentence_end": 56,
+      "timeline_start_index": 18519,
+      "timeline_end_index": 18519,
+      "highlights": [
+        {
+          "chapter_sentence": 56,
+          "start": 46,
+          "end": 67
+        }
+      ]
+    }
+  ]
+}

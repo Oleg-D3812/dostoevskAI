@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "1_15",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_01_15_0001",
+      "source_section": "chapter_01_15",
+      "source_sentence": 8,
+      "character_position": 20,
+      "text": "благородное спокойствие",
+      "vad": [
+        0.7,
+        -0.6,
+        0.5
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.9541890868170332,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 1376,
+      "timeline_end_index": 1376,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 55,
+          "end": 78
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_15_0002",
+      "source_section": "chapter_01_15",
+      "source_sentence": 8,
+      "character_position": 21,
+      "text": "светящуюся во всем доброту ко всем",
+      "vad": [
+        0.75,
+        0.1,
+        0.05
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.2769997825205403,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 1376,
+      "timeline_end_index": 1376,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 81,
+          "end": 115
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_15_0004",
+      "source_section": "chapter_01_15",
+      "source_sentence": 41,
+      "character_position": 22,
+      "text": "влюбился",
+      "vad": [
+        0.7,
+        0.5,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.2872884693829418,
+      "warning": null,
+      "chapter_sentence_start": 41,
+      "chapter_sentence_end": 41,
+      "timeline_start_index": 1409,
+      "timeline_end_index": 1409,
+      "highlights": [
+        {
+          "chapter_sentence": 41,
+          "start": 36,
+          "end": 44
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_15_0005",
+      "source_section": "chapter_01_15",
+      "source_sentence": 50,
+      "character_position": 23,
+      "text": "которому только повеселиться",
+      "vad": [
+        0.45,
+        0.25,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.2568836508907078,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 50,
+      "timeline_start_index": 1418,
+      "timeline_end_index": 1418,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 99,
+          "end": 127
+        }
+      ]
+    }
+  ]
+}

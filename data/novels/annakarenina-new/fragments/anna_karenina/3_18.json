@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "3_18",
+  "count": 8,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_03_18_0001",
+      "source_section": "chapter_03_18",
+      "source_sentence": 7,
+      "character_position": 357,
+      "text": "была поражена ее красотою, и крайностью, до которой был доведен ее туалет, и смелостью ее манер",
+      "vad": [
+        0.7,
+        0.6,
+        -0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.4172597043470125,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 7634,
+      "timeline_end_index": 7634,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 56,
+          "end": 151
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_03_18_0002",
+      "source_section": "chapter_03_18",
+      "source_sentence": 36,
+      "character_position": 358,
+      "text": "она почувствовала, что это была неправда",
+      "vad": [
+        -0.2,
+        0.1,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.2178386557312448,
+      "warning": null,
+      "chapter_sentence_start": 36,
+      "chapter_sentence_end": 36,
+      "timeline_start_index": 7663,
+      "timeline_end_index": 7663,
+      "highlights": [
+        {
+          "chapter_sentence": 36,
+          "start": 102,
+          "end": 142
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_03_18_0003",
+      "source_section": "chapter_03_18",
+      "source_sentence": 49,
+      "character_position": 359,
+      "text": "это так волнует",
+      "vad": [
+        -0.45,
+        0.7,
+        -0.25
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.4550856382390978,
+      "warning": null,
+      "chapter_sentence_start": 49,
+      "chapter_sentence_end": 49,
+      "timeline_start_index": 7676,
+      "timeline_end_index": 7676,
+      "highlights": [
+        {
+          "chapter_sentence": 49,
+          "start": 30,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_03_18_0004",
+      "source_section": "chapter_03_18",
+      "source_sentence": 74,
+      "character_position": 360,
+      "text": "женщина, которая может быть счастлива, несчастна, но не скучает",
+      "vad": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.4943987768178952,
+      "warning": null,
+      "chapter_sentence_start": 74,
+      "chapter_sentence_end": 74,
+      "timeline_start_index": 7701,
+      "timeline_end_index": 7701,
+      "highlights": [
+        {
+          "chapter_sentence": 74,
+          "start": 41,
+          "end": 104
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_03_18_0005",
+      "source_section": "chapter_03_18",
+      "source_sentence": 85,
+      "character_position": 361,
+      "text": "Я бы очень рада была",
+      "vad": [
+        0.5,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.2819280735392163,
+      "warning": null,
+      "chapter_sentence_start": 85,
+      "chapter_sentence_end": 85,
+      "timeline_start_index": 7712,
+      "timeline_end_index": 7712,
+      "highlights": [
+        {
+          "chapter_sentence": 85,
+          "start": 2,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_03_18_0006",
+      "source_section": "chapter_03_18",
+      "source_sentence": 96,
+      "character_position": 362,
+      "text": "задумалась в нерешительности",
+      "vad": [
+        -0.2,
+        0.05,
+        -0.35
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.4003537082324849,
+      "warning": null,
+      "chapter_sentence_start": 96,
+      "chapter_sentence_end": 96,
+      "timeline_start_index": 7723,
+      "timeline_end_index": 7723,
+      "highlights": [
+        {
+          "chapter_sentence": 96,
+          "start": 15,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_03_18_0007",
+      "source_section": "chapter_03_18",
+      "source_sentence": 97,
+      "character_position": 363,
+      "text": "она с минуту была в нерешимости",
+      "vad": [
+        -0.25,
+        0.05,
+        -0.35
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.3807278292045327,
+      "warning": null,
+      "chapter_sentence_start": 97,
+      "chapter_sentence_end": 97,
+      "timeline_start_index": 7724,
+      "timeline_end_index": 7724,
+      "highlights": [
+        {
+          "chapter_sentence": 97,
+          "start": 200,
+          "end": 231
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_03_18_0008",
+      "source_section": "chapter_03_18",
+      "source_sentence": 98,
+      "character_position": 364,
+      "text": "страшный для нее",
+      "vad": [
+        -0.85,
+        0.55,
+        -0.45
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.1101576272319365,
+      "warning": null,
+      "chapter_sentence_start": 98,
+      "chapter_sentence_end": 98,
+      "timeline_start_index": 7725,
+      "timeline_end_index": 7725,
+      "highlights": [
+        {
+          "chapter_sentence": 98,
+          "start": 91,
+          "end": 107
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "1_24",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_24_0001",
+      "source_section": "chapter_01_24",
+      "source_sentence": 10,
+      "character_position": 107,
+      "text": "захочет соединить свою жизнь с моею",
+      "vad": [
+        0.35,
+        0.2,
+        -0.35
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.5758935785410074,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 2178,
+      "timeline_end_index": 2178,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 35,
+          "end": 70
+        }
+      ]
+    }
+  ]
+}

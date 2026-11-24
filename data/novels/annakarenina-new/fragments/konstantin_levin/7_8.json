@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "7_8",
+  "count": 5,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_07_08_0001",
+      "source_section": "chapter_07_08",
+      "source_sentence": 39,
+      "character_position": 1148,
+      "text": "ему вдруг стало ужасно скучно",
+      "vad": [
+        -0.75,
+        -0.45,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.7219780364285625,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 17588,
+      "timeline_end_index": 17588,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 68,
+          "end": 97
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_08_0002",
+      "source_section": "chapter_07_08",
+      "source_sentence": 52,
+      "character_position": 1149,
+      "text": "Я очень, очень рад",
+      "vad": [
+        0.9,
+        0.45,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2538975367321235,
+      "warning": null,
+      "chapter_sentence_start": 52,
+      "chapter_sentence_end": 52,
+      "timeline_start_index": 17601,
+      "timeline_end_index": 17601,
+      "highlights": [
+        {
+          "chapter_sentence": 52,
+          "start": 2,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_08_0003",
+      "source_section": "chapter_07_08",
+      "source_sentence": 74,
+      "character_position": 1150,
+      "text": "Левин испытывал приятный отдых от умственной усталости утра",
+      "vad": [
+        0.65,
+        -0.25,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.5842321352495009,
+      "warning": null,
+      "chapter_sentence_start": 74,
+      "chapter_sentence_end": 74,
+      "timeline_start_index": 17623,
+      "timeline_end_index": 17623,
+      "highlights": [
+        {
+          "chapter_sentence": 74,
+          "start": 0,
+          "end": 59
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_08_0004",
+      "source_section": "chapter_07_08",
+      "source_sentence": 75,
+      "character_position": 1151,
+      "text": "Его радовало прекращение враждебности с Вронским",
+      "vad": [
+        0.7,
+        0.2,
+        0.4
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2743967120269406,
+      "warning": null,
+      "chapter_sentence_start": 75,
+      "chapter_sentence_end": 75,
+      "timeline_start_index": 17624,
+      "timeline_end_index": 17624,
+      "highlights": [
+        {
+          "chapter_sentence": 75,
+          "start": 0,
+          "end": 48
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_08_0005",
+      "source_section": "chapter_07_08",
+      "source_sentence": 75,
+      "character_position": 1152,
+      "text": "впечатление спокойствия, приличия и удовольствия не оставляло его",
+      "vad": [
+        0.7,
+        -0.5,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.8314109863460641,
+      "warning": null,
+      "chapter_sentence_start": 75,
+      "chapter_sentence_end": 75,
+      "timeline_start_index": 17624,
+      "timeline_end_index": 17624,
+      "highlights": [
+        {
+          "chapter_sentence": 75,
+          "start": 52,
+          "end": 117
+        }
+      ]
+    }
+  ]
+}

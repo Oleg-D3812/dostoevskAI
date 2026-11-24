@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "6_2",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_06_02_0001",
+      "source_section": "chapter_06_02",
+      "source_sentence": 121,
+      "character_position": 856,
+      "text": "недовольно оглянув всех",
+      "vad": [
+        -0.45,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.243870228006439,
+      "warning": null,
+      "chapter_sentence_start": 121,
+      "chapter_sentence_end": 121,
+      "timeline_start_index": 14009,
+      "timeline_end_index": 14009,
+      "highlights": [
+        {
+          "chapter_sentence": 121,
+          "start": 64,
+          "end": 87
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_02_0002",
+      "source_section": "chapter_06_02",
+      "source_sentence": 122,
+      "character_position": 857,
+      "text": "почувствовал, что разделяет чувство Агафьи Михайловны, недовольство на то, что варят малину без воды, и вообще на чуждое щербацкое влияние",
+      "vad": [
+        -0.35,
+        0.1,
+        0.05
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.1036750054145698,
+      "warning": null,
+      "chapter_sentence_start": 122,
+      "chapter_sentence_end": 122,
+      "timeline_start_index": 14010,
+      "timeline_end_index": 14010,
+      "highlights": [
+        {
+          "chapter_sentence": 122,
+          "start": 14,
+          "end": 152
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_02_0004",
+      "source_section": "chapter_06_02",
+      "source_sentence": 134,
+      "character_position": 858,
+      "text": "очень любил и уважал княгиню",
+      "vad": [
+        0.9,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2981442069322324,
+      "warning": null,
+      "chapter_sentence_start": 134,
+      "chapter_sentence_end": 134,
+      "timeline_start_index": 14022,
+      "timeline_end_index": 14022,
+      "highlights": [
+        {
+          "chapter_sentence": 134,
+          "start": 33,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_02_0006",
+      "source_section": "chapter_06_02",
+      "source_sentence": 142,
+      "character_position": 859,
+      "text": "желая развеселить ее",
+      "vad": [
+        0.4,
+        0.2,
+        0.35
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.3662190949777913,
+      "warning": null,
+      "chapter_sentence_start": 142,
+      "chapter_sentence_end": 142,
+      "timeline_start_index": 14030,
+      "timeline_end_index": 14030,
+      "highlights": [
+        {
+          "chapter_sentence": 142,
+          "start": 45,
+          "end": 65
+        }
+      ]
+    }
+  ]
+}

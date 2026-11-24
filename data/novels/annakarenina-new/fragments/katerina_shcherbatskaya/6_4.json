@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "6_4",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_04_0001",
+      "source_section": "chapter_06_04",
+      "source_sentence": 27,
+      "character_position": 446,
+      "text": "как ребенок безотчетно религиозна и добра, какою была, например, Кити",
+      "vad": [
+        0.85,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2783265170473124,
+      "warning": "non_verbatim_evidence",
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 14182,
+      "timeline_end_index": 14182,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 34,
+          "end": 103
+        }
+      ]
+    }
+  ]
+}

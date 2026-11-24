@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "1_18",
+  "count": 8,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_01_18_0002",
+      "source_section": "chapter_01_18",
+      "source_sentence": 5,
+      "character_position": 1,
+      "text": "дружелюбно, внимательно",
+      "vad": [
+        0.65,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.1237481207117613,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 1550,
+      "timeline_end_index": 1550,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 60,
+          "end": 83
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_18_0003",
+      "source_section": "chapter_01_18",
+      "source_sentence": 6,
+      "character_position": 2,
+      "text": "сдержанную оживленность",
+      "vad": [
+        0.6,
+        0.45,
+        0.55
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.4104015964827203,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 1551,
+      "timeline_end_index": 1551,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 48,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_18_0004",
+      "source_section": "chapter_01_18",
+      "source_sentence": 29,
+      "character_position": 3,
+      "text": "оживлению выразиться в улыбке",
+      "vad": [
+        0.7,
+        0.35,
+        0.2
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.107920946590669,
+      "warning": null,
+      "chapter_sentence_start": 29,
+      "chapter_sentence_end": 29,
+      "timeline_start_index": 1574,
+      "timeline_end_index": 1574,
+      "highlights": [
+        {
+          "chapter_sentence": 29,
+          "start": 173,
+          "end": 202
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_18_0005",
+      "source_section": "chapter_01_18",
+      "source_sentence": 46,
+      "character_position": 4,
+      "text": "весело сказала она",
+      "vad": [
+        0.7,
+        0.3,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.1917114496303632,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 1591,
+      "timeline_end_index": 1591,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 52,
+          "end": 70
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_18_0006",
+      "source_section": "chapter_01_18",
+      "source_sentence": 55,
+      "character_position": 5,
+      "text": "не хотела продолжать разговора в этом тоне",
+      "vad": [
+        -0.2,
+        0.1,
+        0.35
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.4056557914134425,
+      "warning": null,
+      "chapter_sentence_start": 55,
+      "chapter_sentence_end": 55,
+      "timeline_start_index": 1600,
+      "timeline_end_index": 1600,
+      "highlights": [
+        {
+          "chapter_sentence": 55,
+          "start": 16,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_18_0007",
+      "source_section": "chapter_01_18",
+      "source_sentence": 61,
+      "character_position": 6,
+      "text": "от души поверила и порадовалась этому",
+      "vad": [
+        0.78,
+        0.28,
+        0.08
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.1910711923715765,
+      "warning": null,
+      "chapter_sentence_start": 61,
+      "chapter_sentence_end": 61,
+      "timeline_start_index": 1606,
+      "timeline_end_index": 1606,
+      "highlights": [
+        {
+          "chapter_sentence": 61,
+          "start": 49,
+          "end": 86
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_18_0008",
+      "source_section": "chapter_01_18",
+      "source_sentence": 62,
+      "character_position": 7,
+      "text": "с тою же улыбкой, волновавшеюся между губами и глазами",
+      "vad": [
+        0.6,
+        0.25,
+        0.05
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.1289429943517329,
+      "warning": null,
+      "chapter_sentence_start": 62,
+      "chapter_sentence_end": 62,
+      "timeline_start_index": 1607,
+      "timeline_end_index": 1607,
+      "highlights": [
+        {
+          "chapter_sentence": 62,
+          "start": 90,
+          "end": 144
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_18_0009",
+      "source_section": "chapter_01_18",
+      "source_sentence": 107,
+      "character_position": 8,
+      "text": "взволнованным шепотом",
+      "vad": [
+        0.0,
+        0.65,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.6277018100051464,
+      "warning": null,
+      "chapter_sentence_start": 107,
+      "chapter_sentence_end": 107,
+      "timeline_start_index": 1652,
+      "timeline_end_index": 1652,
+      "highlights": [
+        {
+          "chapter_sentence": 107,
+          "start": 2,
+          "end": 23
+        }
+      ]
+    }
+  ]
+}

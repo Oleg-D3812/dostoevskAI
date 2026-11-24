@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "2_21",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_02_21_0006",
+      "source_section": "chapter_02_21",
+      "source_sentence": 91,
+      "character_position": 202,
+      "text": "в ней чувство стыда за эту необходимость обмана и лжи",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.3
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.3022844344453713,
+      "warning": null,
+      "chapter_sentence_start": 91,
+      "chapter_sentence_end": 91,
+      "timeline_start_index": 4863,
+      "timeline_end_index": 4863,
+      "highlights": [
+        {
+          "chapter_sentence": 91,
+          "start": 159,
+          "end": 212
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_21_0007",
+      "source_section": "chapter_02_21",
+      "source_sentence": 95,
+      "character_position": 203,
+      "text": "она прежде была несчастлива, но горда и спокойна; а теперь она не может быть спокойна и достойна, хотя она и не показывает этого",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.55
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.1421287627129401,
+      "warning": null,
+      "chapter_sentence_start": 95,
+      "chapter_sentence_end": 95,
+      "timeline_start_index": 4867,
+      "timeline_end_index": 4867,
+      "highlights": [
+        {
+          "chapter_sentence": 95,
+          "start": 5,
+          "end": 133
+        }
+      ]
+    }
+  ]
+}

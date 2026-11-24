@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "2_8",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_02_08_0002",
+      "source_section": "chapter_02_08",
+      "source_sentence": 41,
+      "character_position": 163,
+      "text": "ее мысли, ее желания",
+      "vad": [
+        0.0,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.3833146886293702,
+      "warning": null,
+      "chapter_sentence_start": 41,
+      "chapter_sentence_end": 41,
+      "timeline_start_index": 3760,
+      "timeline_end_index": 3760,
+      "highlights": [
+        {
+          "chapter_sentence": 41,
+          "start": 49,
+          "end": 69
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_08_0005",
+      "source_section": "chapter_02_08",
+      "source_sentence": 56,
+      "character_position": 164,
+      "text": "ее собственное несчастье",
+      "vad": [
+        -0.65,
+        0.18,
+        0.12
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.3014526163940129,
+      "warning": null,
+      "chapter_sentence_start": 56,
+      "chapter_sentence_end": 56,
+      "timeline_start_index": 3775,
+      "timeline_end_index": 3775,
+      "highlights": [
+        {
+          "chapter_sentence": 56,
+          "start": 253,
+          "end": 277
+        }
+      ]
+    }
+  ]
+}

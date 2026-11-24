@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "8_18",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_08_18_0001",
+      "source_section": "chapter_08_18",
+      "source_sentence": 35,
+      "character_position": 563,
+      "text": "я рада, что ты начинаешь любить его",
+      "vad": [
+        0.75,
+        0.25,
+        0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.1230220568150107,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 20783,
+      "timeline_end_index": 20783,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 6,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_08_18_0002",
+      "source_section": "chapter_08_18",
+      "source_sentence": 36,
+      "character_position": 564,
+      "text": "Я очень рада.",
+      "vad": [
+        0.9,
+        0.45,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2971549984934841,
+      "warning": null,
+      "chapter_sentence_start": 36,
+      "chapter_sentence_end": 36,
+      "timeline_start_index": 20784,
+      "timeline_end_index": 20784,
+      "highlights": [
+        {
+          "chapter_sentence": 36,
+          "start": 2,
+          "end": 15
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_08_18_0003",
+      "source_section": "chapter_08_18",
+      "source_sentence": 37,
+      "character_position": 565,
+      "text": "это меня уже начинало огорчать.",
+      "vad": [
+        -0.55,
+        -0.1,
+        -0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.4430750348370407,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 20785,
+      "timeline_end_index": 20785,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 5,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_08_18_0004",
+      "source_section": "chapter_08_18",
+      "source_sentence": 51,
+      "character_position": 566,
+      "text": "мне теперь больше страшно, как уж прошло.",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.35
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.1151188985919718,
+      "warning": null,
+      "chapter_sentence_start": 51,
+      "chapter_sentence_end": 51,
+      "timeline_start_index": 20799,
+      "timeline_end_index": 20799,
+      "highlights": [
+        {
+          "chapter_sentence": 51,
+          "start": 15,
+          "end": 56
+        }
+      ]
+    }
+  ]
+}

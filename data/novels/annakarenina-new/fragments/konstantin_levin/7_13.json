@@ -1,0 +1,425 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "7_13",
+  "count": 16,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_07_13_0001",
+      "source_section": "chapter_07_13",
+      "source_sentence": 2,
+      "character_position": 1183,
+      "text": "не поверил бы три месяца тому назад",
+      "vad": [
+        -0.05,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.2085010506158486,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 17981,
+      "timeline_end_index": 17981,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 6,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_13_0003",
+      "source_section": "chapter_07_13",
+      "source_sentence": 16,
+      "character_position": 1184,
+      "text": "испуганно проговорил он",
+      "vad": [
+        -0.65,
+        0.75,
+        -0.35
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3270863288634605,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 17995,
+      "timeline_end_index": 17995,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 2,
+          "end": 25
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_13_0004",
+      "source_section": "chapter_07_13",
+      "source_sentence": 23,
+      "character_position": 1185,
+      "text": "ему и подозрительна была тишина ее",
+      "vad": [
+        -0.25,
+        0.1,
+        -0.15
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.1989845580811837,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 18002,
+      "timeline_end_index": 18002,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 5,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_13_0005",
+      "source_section": "chapter_07_13",
+      "source_sentence": 27,
+      "character_position": 1186,
+      "text": "не пугайся",
+      "vad": [
+        0.2,
+        0.2,
+        0.6
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.6676256801866881,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 18006,
+      "timeline_end_index": 18006,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 9,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_13_0007",
+      "source_section": "chapter_07_13",
+      "source_sentence": 34,
+      "character_position": 1187,
+      "text": "его испуганное лицо",
+      "vad": [
+        -0.8,
+        0.75,
+        -0.6
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3960807117207255,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 18013,
+      "timeline_end_index": 18013,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 31,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_13_0008",
+      "source_section": "chapter_07_13",
+      "source_sentence": 38,
+      "character_position": 1188,
+      "text": "Как гадок и ужасен он представлялся себе",
+      "vad": [
+        -0.9,
+        0.5,
+        -0.6
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3097118865793596,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 18017,
+      "timeline_end_index": 18017,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 0,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_13_0009",
+      "source_section": "chapter_07_13",
+      "source_sentence": 40,
+      "character_position": 1189,
+      "text": "был все-таки поражен",
+      "vad": [
+        0.0,
+        0.45,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5181605160080477,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 18019,
+      "timeline_end_index": 18019,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 77,
+          "end": 97
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_13_0010",
+      "source_section": "chapter_07_13",
+      "source_sentence": 44,
+      "character_position": 1190,
+      "text": "ему в первую минуту по привычке показалось, что он виноват",
+      "vad": [
+        -0.35,
+        0.2,
+        -0.25
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3388421430867037,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 18023,
+      "timeline_end_index": 18023,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 2,
+          "end": 60
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_13_0011",
+      "source_section": "chapter_07_13",
+      "source_sentence": 46,
+      "character_position": 1191,
+      "text": "Если не я, то кто же виноват в этом?",
+      "vad": [
+        -0.65,
+        0.3,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1355598391470845,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 18025,
+      "timeline_end_index": 18025,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 1,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_13_0012",
+      "source_section": "chapter_07_13",
+      "source_sentence": 51,
+      "character_position": 1192,
+      "text": "он не мог понять",
+      "vad": [
+        -0.55,
+        0.18,
+        -0.62
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3446757657341069,
+      "warning": null,
+      "chapter_sentence_start": 51,
+      "chapter_sentence_end": 51,
+      "timeline_start_index": 18030,
+      "timeline_end_index": 18030,
+      "highlights": [
+        {
+          "chapter_sentence": 51,
+          "start": 2,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_13_0013",
+      "source_section": "chapter_07_13",
+      "source_sentence": 74,
+      "character_position": 1193,
+      "text": "не мог понять",
+      "vad": [
+        -0.35,
+        0.1,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4571038657001552,
+      "warning": null,
+      "chapter_sentence_start": 74,
+      "chapter_sentence_end": 74,
+      "timeline_start_index": 18053,
+      "timeline_end_index": 18053,
+      "highlights": [
+        {
+          "chapter_sentence": 74,
+          "start": 23,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_13_0014",
+      "source_section": "chapter_07_13",
+      "source_sentence": 79,
+      "character_position": 1194,
+      "text": "сомнения его, но та невозможность по разуму верить, которую он знал в себе",
+      "vad": [
+        -0.55,
+        0.2,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2591695536378371,
+      "warning": null,
+      "chapter_sentence_start": 79,
+      "chapter_sentence_end": 79,
+      "timeline_start_index": 18058,
+      "timeline_end_index": 18058,
+      "highlights": [
+        {
+          "chapter_sentence": 79,
+          "start": 49,
+          "end": 123
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_13_0015",
+      "source_section": "chapter_07_13",
+      "source_sentence": 80,
+      "character_position": 1195,
+      "text": "Все это теперь, как прах, слетело с его души",
+      "vad": [
+        0.75,
+        -0.25,
+        0.45
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.6524650151003807,
+      "warning": null,
+      "chapter_sentence_start": 80,
+      "chapter_sentence_end": 80,
+      "timeline_start_index": 18059,
+      "timeline_end_index": 18059,
+      "highlights": [
+        {
+          "chapter_sentence": 80,
+          "start": 0,
+          "end": 44
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_13_0016",
+      "source_section": "chapter_07_13",
+      "source_sentence": 81,
+      "character_position": 1196,
+      "text": "чувствовал себя, свою душу и свою любовь",
+      "vad": [
+        0.6,
+        0.1,
+        -0.5
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.7031175385808444,
+      "warning": null,
+      "chapter_sentence_start": 81,
+      "chapter_sentence_end": 81,
+      "timeline_start_index": 18060,
+      "timeline_end_index": 18060,
+      "highlights": [
+        {
+          "chapter_sentence": 81,
+          "start": 62,
+          "end": 102
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_13_0017",
+      "source_section": "chapter_07_13",
+      "source_sentence": 82,
+      "character_position": 1197,
+      "text": "чувствуя в себе особенное напряжение и физических сил и внимания",
+      "vad": [
+        0.2,
+        0.7,
+        0.55
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.7237946928272669,
+      "warning": null,
+      "chapter_sentence_start": 82,
+      "chapter_sentence_end": 82,
+      "timeline_start_index": 18061,
+      "timeline_end_index": 18061,
+      "highlights": [
+        {
+          "chapter_sentence": 82,
+          "start": 31,
+          "end": 95
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_13_0018",
+      "source_section": "chapter_07_13",
+      "source_sentence": 86,
+      "character_position": 1198,
+      "text": "с восторгом",
+      "vad": [
+        0.85,
+        0.75,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.455213756975562,
+      "warning": null,
+      "chapter_sentence_start": 86,
+      "chapter_sentence_end": 86,
+      "timeline_start_index": 18065,
+      "timeline_end_index": 18065,
+      "highlights": [
+        {
+          "chapter_sentence": 86,
+          "start": 17,
+          "end": 28
+        }
+      ]
+    }
+  ]
+}

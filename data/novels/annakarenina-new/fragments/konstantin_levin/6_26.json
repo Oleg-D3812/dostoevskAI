@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "6_26",
+  "count": 8,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_06_26_0001",
+      "source_section": "chapter_06_26",
+      "source_sentence": 5,
+      "character_position": 1028,
+      "text": "он скучает в Москве",
+      "vad": [
+        -0.45,
+        -0.65,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.7481045017500183,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 16445,
+      "timeline_end_index": 16445,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 60,
+          "end": 79
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_26_0002",
+      "source_section": "chapter_06_26",
+      "source_sentence": 12,
+      "character_position": 1029,
+      "text": "чувство мучительное, подобное тому досадному бессилию",
+      "vad": [
+        -0.85,
+        0.3,
+        -0.8
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4494741249735362,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 16452,
+      "timeline_end_index": 16452,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 242,
+          "end": 295
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_26_0004",
+      "source_section": "chapter_06_26",
+      "source_sentence": 19,
+      "character_position": 1030,
+      "text": "было обидно",
+      "vad": [
+        -0.65,
+        0.3,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2480079794660981,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 16459,
+      "timeline_end_index": 16459,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 14,
+          "end": 25
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_26_0005",
+      "source_section": "chapter_06_26",
+      "source_sentence": 21,
+      "character_position": 1031,
+      "text": "ему бы не было обидно и досадно",
+      "vad": [
+        0.25,
+        -0.2,
+        0.05
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5688938340368456,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 16461,
+      "timeline_end_index": 16461,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 120,
+          "end": 151
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_26_0006",
+      "source_section": "chapter_06_26",
+      "source_sentence": 22,
+      "character_position": 1032,
+      "text": "он был терпелив",
+      "vad": [
+        0.3,
+        -0.3,
+        0.4
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.7516667578176945,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 16462,
+      "timeline_end_index": 16462,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 52,
+          "end": 67
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_26_0007",
+      "source_section": "chapter_06_26",
+      "source_sentence": 22,
+      "character_position": 1033,
+      "text": "старался не возмущаться",
+      "vad": [
+        -0.25,
+        0.2,
+        0.45
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4238992477451393,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 16462,
+      "timeline_end_index": 16462,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 205,
+          "end": 228
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_26_0010",
+      "source_section": "chapter_06_26",
+      "source_sentence": 37,
+      "character_position": 1034,
+      "text": "почувствовал себя тронутым",
+      "vad": [
+        0.55,
+        0.35,
+        0.05
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.1738957846297689,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 16477,
+      "timeline_end_index": 16477,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 169,
+          "end": 195
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_26_0011",
+      "source_section": "chapter_06_26",
+      "source_sentence": 51,
+      "character_position": 1035,
+      "text": "Левин был удивлен",
+      "vad": [
+        -0.1,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.32182045614293,
+      "warning": null,
+      "chapter_sentence_start": 51,
+      "chapter_sentence_end": 51,
+      "timeline_start_index": 16491,
+      "timeline_end_index": 16491,
+      "highlights": [
+        {
+          "chapter_sentence": 51,
+          "start": 0,
+          "end": 17
+        }
+      ]
+    }
+  ]
+}

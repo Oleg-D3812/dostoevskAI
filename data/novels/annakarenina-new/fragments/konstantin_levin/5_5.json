@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "5_5",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_05_05_0001",
+      "source_section": "chapter_05_05",
+      "source_sentence": 32,
+      "character_position": 732,
+      "text": "он видно, что тронут",
+      "vad": [
+        0.4,
+        0.35,
+        -0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.3849084853809811,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 11615,
+      "timeline_end_index": 11615,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 28,
+          "end": 48
+        }
+      ]
+    }
+  ]
+}

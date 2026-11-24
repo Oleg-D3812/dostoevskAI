@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "6_1",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_06_01_0001",
+      "source_section": "chapter_06_01",
+      "source_sentence": 8,
+      "character_position": 853,
+      "text": "он всех их любил",
+      "vad": [
+        0.8,
+        0.1,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2644688635481358,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 13842,
+      "timeline_end_index": 13842,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 7,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_01_0002",
+      "source_section": "chapter_06_01",
+      "source_sentence": 8,
+      "character_position": 854,
+      "text": "ему немного жалко было своего левинского мира и порядка",
+      "vad": [
+        -0.25,
+        -0.1,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.17781671413508,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 13842,
+      "timeline_end_index": 13842,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 25,
+          "end": 80
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_01_0003",
+      "source_section": "chapter_06_01",
+      "source_sentence": 24,
+      "character_position": 855,
+      "text": "своей страсти защищать самые парадоксальные темы",
+      "vad": [
+        0.35,
+        0.45,
+        0.6
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.5660300063841576,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 13858,
+      "timeline_end_index": 13858,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 173,
+          "end": 221
+        }
+      ]
+    }
+  ]
+}

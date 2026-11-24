@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "1_23",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_01_23_0001",
+      "source_section": "chapter_01_23",
+      "source_sentence": 28,
+      "character_position": 56,
+      "text": "выражение покорности и страха",
+      "vad": [
+        -0.8,
+        0.7,
+        -0.9
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.5144149701525667,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 2108,
+      "timeline_end_index": 2108,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 127,
+          "end": 156
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_23_0002",
+      "source_section": "chapter_01_23",
+      "source_sentence": 29,
+      "character_position": 57,
+      "text": "спасти себя хочу, и не знаю как",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.75
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.2837638157834209,
+      "warning": null,
+      "chapter_sentence_start": 29,
+      "chapter_sentence_end": 29,
+      "timeline_start_index": 2109,
+      "timeline_end_index": 2109,
+      "highlights": [
+        {
+          "chapter_sentence": 29,
+          "start": 70,
+          "end": 101
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_23_0003",
+      "source_section": "chapter_01_23",
+      "source_sentence": 61,
+      "character_position": 58,
+      "text": "выражение потерянности и покорности",
+      "vad": [
+        -0.7,
+        -0.2,
+        -0.85
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.7411121541550775,
+      "warning": null,
+      "chapter_sentence_start": 61,
+      "chapter_sentence_end": 61,
+      "timeline_start_index": 2141,
+      "timeline_end_index": 2141,
+      "highlights": [
+        {
+          "chapter_sentence": 61,
+          "start": 85,
+          "end": 120
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_23_0004",
+      "source_section": "chapter_01_23",
+      "source_sentence": 63,
+      "character_position": 59,
+      "text": "он становился серьезен",
+      "vad": [
+        -0.1,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.2847438450354593,
+      "warning": null,
+      "chapter_sentence_start": 63,
+      "chapter_sentence_end": 63,
+      "timeline_start_index": 2143,
+      "timeline_end_index": 2143,
+      "highlights": [
+        {
+          "chapter_sentence": 63,
+          "start": 20,
+          "end": 42
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "8_16",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_08_16_0001",
+      "source_section": "chapter_08_16",
+      "source_sentence": 41,
+      "character_position": 1383,
+      "text": "робко сказал Левин",
+      "vad": [
+        -0.35,
+        0.2,
+        -0.55
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4133783500632338,
+      "warning": null,
+      "chapter_sentence_start": 41,
+      "chapter_sentence_end": 41,
+      "timeline_start_index": 20668,
+      "timeline_end_index": 20668,
+      "highlights": [
+        {
+          "chapter_sentence": 41,
+          "start": 51,
+          "end": 69
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_16_0003",
+      "source_section": "chapter_08_16",
+      "source_sentence": 50,
+      "character_position": 1384,
+      "text": "которое всегда более всего смущало Левина",
+      "vad": [
+        -0.55,
+        0.2,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2591695536378371,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 50,
+      "timeline_start_index": 20677,
+      "timeline_end_index": 20677,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 163,
+          "end": 204
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_16_0004",
+      "source_section": "chapter_08_16",
+      "source_sentence": 54,
+      "character_position": 1385,
+      "text": "Левин покраснел от досады",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.25
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1633007269703036,
+      "warning": null,
+      "chapter_sentence_start": 54,
+      "chapter_sentence_end": 54,
+      "timeline_start_index": 20681,
+      "timeline_end_index": 20681,
+      "highlights": [
+        {
+          "chapter_sentence": 54,
+          "start": 0,
+          "end": 25
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_16_0005",
+      "source_section": "chapter_08_16",
+      "source_sentence": 54,
+      "character_position": 1386,
+      "text": "он был разбит",
+      "vad": [
+        -0.75,
+        0.35,
+        -0.65
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2654877330981038,
+      "warning": null,
+      "chapter_sentence_start": 54,
+      "chapter_sentence_end": 54,
+      "timeline_start_index": 20681,
+      "timeline_end_index": 20681,
+      "highlights": [
+        {
+          "chapter_sentence": 54,
+          "start": 41,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_16_0006",
+      "source_section": "chapter_08_16",
+      "source_sentence": 57,
+      "character_position": 1387,
+      "text": "та самая гордость ума, которая чуть не погубила его",
+      "vad": [
+        -0.65,
+        0.25,
+        0.15
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4499696524299306,
+      "warning": null,
+      "chapter_sentence_start": 57,
+      "chapter_sentence_end": 57,
+      "timeline_start_index": 20684,
+      "timeline_end_index": 20684,
+      "highlights": [
+        {
+          "chapter_sentence": 57,
+          "start": 32,
+          "end": 83
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_16_0007",
+      "source_section": "chapter_08_16",
+      "source_sentence": 64,
+      "character_position": 1388,
+      "text": "Ему хотелось еще сказать",
+      "vad": [
+        0.1,
+        0.25,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3981653681576338,
+      "warning": null,
+      "chapter_sentence_start": 64,
+      "chapter_sentence_end": 64,
+      "timeline_start_index": 20691,
+      "timeline_end_index": 20691,
+      "highlights": [
+        {
+          "chapter_sentence": 64,
+          "start": 0,
+          "end": 24
+        }
+      ]
+    }
+  ]
+}

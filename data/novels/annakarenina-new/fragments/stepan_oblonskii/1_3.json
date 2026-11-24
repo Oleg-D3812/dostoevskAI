@@ -1,0 +1,529 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "1_3",
+  "count": 20,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_01_03_0001",
+      "source_section": "chapter_01_03",
+      "source_sentence": 1,
+      "character_position": 23,
+      "text": "чувствуя себя чистым, душистым, здоровым и физически веселым, несмотря на свое несчастье",
+      "vad": [
+        0.75,
+        0.45,
+        0.25
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.2085644403973302,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 132,
+      "timeline_end_index": 132,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 199,
+          "end": 287
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_03_0002",
+      "source_section": "chapter_01_03",
+      "source_sentence": 6,
+      "character_position": 24,
+      "text": "эта мысль оскорбляла его",
+      "vad": [
+        -0.55,
+        0.25,
+        0.1
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.3376470132255966,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 137,
+      "timeline_end_index": 137,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 116,
+          "end": 140
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_03_0003",
+      "source_section": "chapter_01_03",
+      "source_sentence": 9,
+      "character_position": 25,
+      "text": "ни наука, ни искусство, ни политика, собственно, не интересовали его",
+      "vad": [
+        -0.2,
+        -0.7,
+        0.1
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.7380309722948502,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 140,
+      "timeline_end_index": 140,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 23,
+          "end": 91
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_03_0004",
+      "source_section": "chapter_01_03",
+      "source_sentence": 14,
+      "character_position": 26,
+      "text": "семейная жизнь доставляла мало удовольствия Степану Аркадьичу",
+      "vad": [
+        -0.55,
+        -0.1,
+        0.0
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.2628141834335629,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 145,
+      "timeline_end_index": 145,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 114,
+          "end": 175
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_03_0005",
+      "source_section": "chapter_01_03",
+      "source_sentence": 14,
+      "character_position": 27,
+      "text": "что было так противно его натуре",
+      "vad": [
+        -0.72,
+        0.28,
+        0.0
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.458214890431497,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 145,
+      "timeline_end_index": 145,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 215,
+          "end": 247
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_03_0006",
+      "source_section": "chapter_01_03",
+      "source_sentence": 16,
+      "character_position": 28,
+      "text": "Степану Аркадьичу, любившему веселую шутку, было приятно иногда озадачить смирного человека",
+      "vad": [
+        0.7,
+        0.2,
+        0.4
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.2149324921735948,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 147,
+      "timeline_end_index": 147,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 14,
+          "end": 105
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_03_0007",
+      "source_section": "chapter_01_03",
+      "source_sentence": 17,
+      "character_position": 29,
+      "text": "он любил свою газету",
+      "vad": [
+        0.6,
+        0.1,
+        0.1
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.2055698623775788,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 148,
+      "timeline_end_index": 148,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 71,
+          "end": 91
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_03_0008",
+      "source_section": "chapter_01_03",
+      "source_sentence": 20,
+      "character_position": 30,
+      "text": "доставляло ему некоторое удовольствие",
+      "vad": [
+        0.45,
+        0.1,
+        0.15
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.2729380676827211,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 151,
+      "timeline_end_index": 151,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 155,
+          "end": 192
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_03_0009",
+      "source_section": "chapter_01_03",
+      "source_sentence": 21,
+      "character_position": 31,
+      "text": "удовольствие это отравлялось воспоминанием о советах Матрены Филимоновны и о том, что в доме так неблагополучно",
+      "vad": [
+        -0.55,
+        0.25,
+        -0.25
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.2911271259436462,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 152,
+      "timeline_end_index": 152,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 11,
+          "end": 122
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_03_0010",
+      "source_section": "chapter_01_03",
+      "source_sentence": 22,
+      "character_position": 32,
+      "text": "не доставляли ему, как прежде, тихого иронического удовольствия",
+      "vad": [
+        -0.45,
+        -0.2,
+        -0.1
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.2807278702215254,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 153,
+      "timeline_end_index": 153,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 178,
+          "end": 241
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_03_0011",
+      "source_section": "chapter_01_03",
+      "source_sentence": 23,
+      "character_position": 33,
+      "text": "радостно улыбнулся",
+      "vad": [
+        0.35,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.4047978884859223,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 154,
+      "timeline_end_index": 154,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 122,
+          "end": 140
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_03_0012",
+      "source_section": "chapter_01_03",
+      "source_sentence": 24,
+      "character_position": 34,
+      "text": "он задумался",
+      "vad": [
+        0.0,
+        -0.1,
+        0.0
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.3407503025648853,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 155,
+      "timeline_end_index": 155,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 55,
+          "end": 67
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_03_0013",
+      "source_section": "chapter_01_03",
+      "source_sentence": 32,
+      "character_position": 35,
+      "text": "сияющее нежностью лицо",
+      "vad": [
+        0.9,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.2745130115582629,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 163,
+      "timeline_end_index": 163,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 67,
+          "end": 89
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_03_0014",
+      "source_section": "chapter_01_03",
+      "source_sentence": 36,
+      "character_position": 36,
+      "text": "меньше любил мальчика, и всегда старался быть ровен",
+      "vad": [
+        -0.2,
+        -0.1,
+        0.5
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.520430217035218,
+      "warning": null,
+      "chapter_sentence_start": 36,
+      "chapter_sentence_end": 36,
+      "timeline_start_index": 167,
+      "timeline_end_index": 167,
+      "highlights": [
+        {
+          "chapter_sentence": 36,
+          "start": 17,
+          "end": 68
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_03_0015",
+      "source_section": "chapter_01_03",
+      "source_sentence": 61,
+      "character_position": 37,
+      "text": "морщась от досады",
+      "vad": [
+        -0.55,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.4013532769376466,
+      "warning": null,
+      "chapter_sentence_start": 61,
+      "chapter_sentence_end": 61,
+      "timeline_start_index": 192,
+      "timeline_end_index": 192,
+      "highlights": [
+        {
+          "chapter_sentence": 61,
+          "start": 43,
+          "end": 60
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_03_0016",
+      "source_section": "chapter_01_03",
+      "source_sentence": 64,
+      "character_position": 38,
+      "text": "что хотел забыть, — жену",
+      "vad": [
+        -0.4,
+        0.1,
+        0.15
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.181239098439945,
+      "warning": null,
+      "chapter_sentence_start": 64,
+      "chapter_sentence_end": 64,
+      "timeline_start_index": 195,
+      "timeline_end_index": 195,
+      "highlights": [
+        {
+          "chapter_sentence": 64,
+          "start": 47,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_03_0017",
+      "source_section": "chapter_01_03",
+      "source_sentence": 66,
+      "character_position": 39,
+      "text": "красивое лицо его приняло тоскливое выражение",
+      "vad": [
+        -0.65,
+        -0.2,
+        -0.15
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.4301379586073555,
+      "warning": null,
+      "chapter_sentence_start": 66,
+      "chapter_sentence_end": 66,
+      "timeline_start_index": 197,
+      "timeline_end_index": 197,
+      "highlights": [
+        {
+          "chapter_sentence": 66,
+          "start": 21,
+          "end": 66
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_03_0018",
+      "source_section": "chapter_01_03",
+      "source_sentence": 69,
+      "character_position": 40,
+      "text": "его сделать стариком, не способным любить",
+      "vad": [
+        -0.7,
+        0.2,
+        -0.6
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.2977301441814809,
+      "warning": null,
+      "chapter_sentence_start": 69,
+      "chapter_sentence_end": 69,
+      "timeline_start_index": 200,
+      "timeline_end_index": 200,
+      "highlights": [
+        {
+          "chapter_sentence": 69,
+          "start": 230,
+          "end": 271
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_03_0019",
+      "source_section": "chapter_01_03",
+      "source_sentence": 70,
+      "character_position": 41,
+      "text": "фальшь и ложь были противны его натуре",
+      "vad": [
+        -0.7,
+        0.2,
+        0.2
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.4629484798698991,
+      "warning": null,
+      "chapter_sentence_start": 70,
+      "chapter_sentence_end": 70,
+      "timeline_start_index": 201,
+      "timeline_end_index": 201,
+      "highlights": [
+        {
+          "chapter_sentence": 70,
+          "start": 52,
+          "end": 90
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_03_0020",
+      "source_section": "chapter_01_03",
+      "source_sentence": 71,
+      "character_position": 42,
+      "text": "стараясь придать себе смелости",
+      "vad": [
+        -0.25,
+        0.35,
+        -0.2
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.3937073856815061,
+      "warning": null,
+      "chapter_sentence_start": 71,
+      "chapter_sentence_end": 71,
+      "timeline_start_index": 202,
+      "timeline_end_index": 202,
+      "highlights": [
+        {
+          "chapter_sentence": 71,
+          "start": 77,
+          "end": 107
+        }
+      ]
+    }
+  ]
+}

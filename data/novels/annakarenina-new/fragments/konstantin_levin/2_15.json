@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "2_15",
+  "count": 7,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_02_15_0001",
+      "source_section": "chapter_02_15",
+      "source_sentence": 20,
+      "character_position": 258,
+      "text": "с неудовольствием",
+      "vad": [
+        -0.55,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3042050265585356,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 4266,
+      "timeline_end_index": 4266,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 32,
+          "end": 49
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_02_15_0002",
+      "source_section": "chapter_02_15",
+      "source_sentence": 41,
+      "character_position": 259,
+      "text": "Ну, я рад, что тебе удалось",
+      "vad": [
+        0.55,
+        0.1,
+        0.05
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.287859448859427,
+      "warning": null,
+      "chapter_sentence_start": 41,
+      "chapter_sentence_end": 41,
+      "timeline_start_index": 4287,
+      "timeline_end_index": 4287,
+      "highlights": [
+        {
+          "chapter_sentence": 41,
+          "start": 2,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_02_15_0003",
+      "source_section": "chapter_02_15",
+      "source_sentence": 41,
+      "character_position": 260,
+      "text": "чувство зависти",
+      "vad": [
+        -0.5,
+        0.1,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3518434975924507,
+      "warning": null,
+      "chapter_sentence_start": 41,
+      "chapter_sentence_end": 41,
+      "timeline_start_index": 4287,
+      "timeline_end_index": 4287,
+      "highlights": [
+        {
+          "chapter_sentence": 41,
+          "start": 74,
+          "end": 89
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_02_15_0004",
+      "source_section": "chapter_02_15",
+      "source_sentence": 62,
+      "character_position": 261,
+      "text": "чувствовал себя столь твердым и спокойным",
+      "vad": [
+        0.35,
+        -0.55,
+        0.6
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 1.0253034903392593,
+      "warning": null,
+      "chapter_sentence_start": 62,
+      "chapter_sentence_end": 62,
+      "timeline_start_index": 4308,
+      "timeline_end_index": 4308,
+      "highlights": [
+        {
+          "chapter_sentence": 62,
+          "start": 6,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_02_15_0005",
+      "source_section": "chapter_02_15",
+      "source_sentence": 62,
+      "character_position": 262,
+      "text": "не мог бы взволновать его",
+      "vad": [
+        0.0,
+        -0.45,
+        0.7
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.8716882735785257,
+      "warning": null,
+      "chapter_sentence_start": 62,
+      "chapter_sentence_end": 62,
+      "timeline_start_index": 4308,
+      "timeline_end_index": 4308,
+      "highlights": [
+        {
+          "chapter_sentence": 62,
+          "start": 78,
+          "end": 103
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_02_15_0007",
+      "source_section": "chapter_02_15",
+      "source_sentence": 82,
+      "character_position": 263,
+      "text": "неприятно было",
+      "vad": [
+        -0.65,
+        0.0,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4077728944497942,
+      "warning": null,
+      "chapter_sentence_start": 82,
+      "chapter_sentence_end": 82,
+      "timeline_start_index": 4328,
+      "timeline_end_index": 4328,
+      "highlights": [
+        {
+          "chapter_sentence": 82,
+          "start": 18,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_02_15_0008",
+      "source_section": "chapter_02_15",
+      "source_sentence": 85,
+      "character_position": 264,
+      "text": "очень жаль",
+      "vad": [
+        -0.65,
+        -0.1,
+        -0.3
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.540827252501579,
+      "warning": null,
+      "chapter_sentence_start": 85,
+      "chapter_sentence_end": 85,
+      "timeline_start_index": 4331,
+      "timeline_end_index": 4331,
+      "highlights": [
+        {
+          "chapter_sentence": 85,
+          "start": 14,
+          "end": 24
+        }
+      ]
+    }
+  ]
+}

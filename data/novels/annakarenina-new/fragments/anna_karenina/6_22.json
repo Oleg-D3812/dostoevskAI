@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "6_22",
+  "count": 5,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_06_22_0001",
+      "source_section": "chapter_06_22",
+      "source_sentence": 34,
+      "character_position": 741,
+      "text": "каждый день удивляюсь",
+      "vad": [
+        0.35,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.3267433494767895,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 16029,
+      "timeline_end_index": 16029,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 162,
+          "end": 183
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_22_0002",
+      "source_section": "chapter_06_22",
+      "source_sentence": 74,
+      "character_position": 742,
+      "text": "Как жаль!",
+      "vad": [
+        -0.5,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.1280883332207366,
+      "warning": null,
+      "chapter_sentence_start": 74,
+      "chapter_sentence_end": 74,
+      "timeline_start_index": 16069,
+      "timeline_end_index": 16069,
+      "highlights": [
+        {
+          "chapter_sentence": 74,
+          "start": 2,
+          "end": 11
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_22_0004",
+      "source_section": "chapter_06_22",
+      "source_sentence": 85,
+      "character_position": 743,
+      "text": "Анна недовольна была",
+      "vad": [
+        -0.65,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.274624080905424,
+      "warning": null,
+      "chapter_sentence_start": 85,
+      "chapter_sentence_end": 85,
+      "timeline_start_index": 16080,
+      "timeline_end_index": 16080,
+      "highlights": [
+        {
+          "chapter_sentence": 85,
+          "start": 32,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_22_0005",
+      "source_section": "chapter_06_22",
+      "source_sentence": 119,
+      "character_position": 744,
+      "text": "Я боюсь, что в последнее время у нас слишком много этих общественных обязанностей.",
+      "vad": [
+        -0.45,
+        0.25,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.1579952640436023,
+      "warning": null,
+      "chapter_sentence_start": 119,
+      "chapter_sentence_end": 119,
+      "timeline_start_index": 16114,
+      "timeline_end_index": 16114,
+      "highlights": [
+        {
+          "chapter_sentence": 119,
+          "start": 2,
+          "end": 84
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_22_0006",
+      "source_section": "chapter_06_22",
+      "source_sentence": 126,
+      "character_position": 745,
+      "text": "чувствовалось раздражение",
+      "vad": [
+        -0.55,
+        0.45,
+        0.2
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.3958358660757919,
+      "warning": null,
+      "chapter_sentence_start": 126,
+      "chapter_sentence_end": 126,
+      "timeline_start_index": 16121,
+      "timeline_end_index": 16121,
+      "highlights": [
+        {
+          "chapter_sentence": 126,
+          "start": 36,
+          "end": 61
+        }
+      ]
+    }
+  ]
+}

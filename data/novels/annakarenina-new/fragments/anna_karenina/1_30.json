@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "1_30",
+  "count": 12,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_01_30_0001",
+      "source_section": "chapter_01_30",
+      "source_sentence": 16,
+      "character_position": 106,
+      "text": "ее охватило чувство радостной гордости",
+      "vad": [
+        0.85,
+        0.65,
+        0.25
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.4349704721764538,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 2705,
+      "timeline_end_index": 2705,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 246,
+          "end": 284
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_30_0002",
+      "source_section": "chapter_01_30",
+      "source_sentence": 22,
+      "character_position": 107,
+      "text": "неудержимая радость и оживление сияли на ее лице",
+      "vad": [
+        0.95,
+        0.8,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.611959598144065,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 2711,
+      "timeline_end_index": 2711,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 2,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_30_0003",
+      "source_section": "chapter_01_30",
+      "source_sentence": 27,
+      "character_position": 108,
+      "text": "Весь ужас метели показался ей еще более прекрасен теперь",
+      "vad": [
+        0.55,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.189697195422392,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 2716,
+      "timeline_end_index": 2716,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 0,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_30_0004",
+      "source_section": "chapter_01_30",
+      "source_sentence": 28,
+      "character_position": 109,
+      "text": "чего желала ее душа, но чего она боялась рассудком",
+      "vad": [
+        0.1,
+        0.65,
+        -0.25
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.7250684575721728,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 2717,
+      "timeline_end_index": 2717,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 20,
+          "end": 70
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_30_0005",
+      "source_section": "chapter_01_30",
+      "source_sentence": 29,
+      "character_position": 110,
+      "text": "на лице ее он видел борьбу",
+      "vad": [
+        -0.45,
+        0.45,
+        -0.35
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.3685304639203786,
+      "warning": null,
+      "chapter_sentence_start": 29,
+      "chapter_sentence_end": 29,
+      "timeline_start_index": 2718,
+      "timeline_end_index": 2718,
+      "highlights": [
+        {
+          "chapter_sentence": 29,
+          "start": 26,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_30_0006",
+      "source_section": "chapter_01_30",
+      "source_sentence": 38,
+      "character_position": 111,
+      "text": "она была испугана и счастлива этим",
+      "vad": [
+        0.35,
+        0.72,
+        -0.28
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.6727951247737866,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 2727,
+      "timeline_end_index": 2727,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 106,
+          "end": 140
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_30_0007",
+      "source_section": "chapter_01_30",
+      "source_sentence": 40,
+      "character_position": 112,
+      "text": "То волшебное напряженное состояние, которое ее мучало сначала, не только возобновилось, но усилилось и дошло до того, что она боялась, что всякую минуту порвется в ней что-то слишком натянутое",
+      "vad": [
+        -0.35,
+        0.9,
+        -0.6
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.5718293630834539,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 2729,
+      "timeline_end_index": 2729,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 0,
+          "end": 192
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_30_0008",
+      "source_section": "chapter_01_30",
+      "source_sentence": 42,
+      "character_position": 113,
+      "text": "в том напряжении и тех грезах, которые наполняли ее воображение, не было ничего неприятного и мрачного; напротив, было что-то радостное, жгучее и возбуждающее",
+      "vad": [
+        0.8,
+        0.85,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.6105755369064354,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 2731,
+      "timeline_end_index": 2731,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 3,
+          "end": 161
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_30_0009",
+      "source_section": "chapter_01_30",
+      "source_sentence": 44,
+      "character_position": 114,
+      "text": "заботы предстоящего дня и следующих обступили ее",
+      "vad": [
+        -0.55,
+        0.28,
+        -0.42
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.3403135187921041,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 2733,
+      "timeline_end_index": 2733,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 41,
+          "end": 89
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_30_0010",
+      "source_section": "chapter_01_30",
+      "source_sentence": 49,
+      "character_position": 115,
+      "text": "Какое-то неприятное чувство щемило ей сердце",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.3
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.2595142462637463,
+      "warning": null,
+      "chapter_sentence_start": 49,
+      "chapter_sentence_end": 49,
+      "timeline_start_index": 2738,
+      "timeline_end_index": 2738,
+      "highlights": [
+        {
+          "chapter_sentence": 49,
+          "start": 0,
+          "end": 44
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_30_0011",
+      "source_section": "chapter_01_30",
+      "source_sentence": 50,
+      "character_position": 116,
+      "text": "чувство недовольства собой, которое она испытала при встрече с ним",
+      "vad": [
+        -0.7,
+        0.35,
+        -0.3
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.286184838279213,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 50,
+      "timeline_start_index": 2739,
+      "timeline_end_index": 2739,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 26,
+          "end": 92
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_30_0012",
+      "source_section": "chapter_01_30",
+      "source_sentence": 51,
+      "character_position": 117,
+      "text": "Чувство то было давнишнее, знакомое чувство, похожее на состояние притворства, которое она испытывала в отношениях к мужу; но прежде она не замечала этого чувства, теперь она ясно и больно сознала его",
+      "vad": [
+        -0.78,
+        0.38,
+        -0.34
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.2277963419934686,
+      "warning": null,
+      "chapter_sentence_start": 51,
+      "chapter_sentence_end": 51,
+      "timeline_start_index": 2740,
+      "timeline_end_index": 2740,
+      "highlights": [
+        {
+          "chapter_sentence": 51,
+          "start": 0,
+          "end": 200
+        }
+      ]
+    }
+  ]
+}

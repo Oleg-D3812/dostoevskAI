@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "6_7",
+  "count": 9,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_07_0002",
+      "source_section": "chapter_06_07",
+      "source_sentence": 70,
+      "character_position": 448,
+      "text": "она, по его понятию, уже была влюблена",
+      "vad": [
+        -0.78,
+        0.52,
+        -0.48
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.0920771606298642,
+      "warning": null,
+      "chapter_sentence_start": 70,
+      "chapter_sentence_end": 70,
+      "timeline_start_index": 14430,
+      "timeline_end_index": 14430,
+      "highlights": [
+        {
+          "chapter_sentence": 70,
+          "start": 243,
+          "end": 281
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_07_0003",
+      "source_section": "chapter_06_07",
+      "source_sentence": 99,
+      "character_position": 449,
+      "text": "робко улыбаясь",
+      "vad": [
+        0.2,
+        0.15,
+        -0.45
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.6758033910376229,
+      "warning": null,
+      "chapter_sentence_start": 99,
+      "chapter_sentence_end": 99,
+      "timeline_start_index": 14459,
+      "timeline_end_index": 14459,
+      "highlights": [
+        {
+          "chapter_sentence": 99,
+          "start": 143,
+          "end": 157
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_07_0004",
+      "source_section": "chapter_06_07",
+      "source_sentence": 110,
+      "character_position": 450,
+      "text": "не смела признаться в этом даже самой себе, тем более не решалась сказать это ему",
+      "vad": [
+        -0.55,
+        0.25,
+        -0.65
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.3518883267755466,
+      "warning": null,
+      "chapter_sentence_start": 110,
+      "chapter_sentence_end": 110,
+      "timeline_start_index": 14470,
+      "timeline_end_index": 14470,
+      "highlights": [
+        {
+          "chapter_sentence": 110,
+          "start": 114,
+          "end": 195
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_07_0005",
+      "source_section": "chapter_06_07",
+      "source_sentence": 117,
+      "character_position": 451,
+      "text": "с страдальчески-соболезнующим выражением",
+      "vad": [
+        -0.45,
+        0.25,
+        -0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.2974558121470404,
+      "warning": null,
+      "chapter_sentence_start": 117,
+      "chapter_sentence_end": 117,
+      "timeline_start_index": 14477,
+      "timeline_end_index": 14477,
+      "highlights": [
+        {
+          "chapter_sentence": 117,
+          "start": 16,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_07_0006",
+      "source_section": "chapter_06_07",
+      "source_sentence": 121,
+      "character_position": 452,
+      "text": "ей была оскорбительна его ревность; ей было досадно",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.3764404561053501,
+      "warning": null,
+      "chapter_sentence_start": 121,
+      "chapter_sentence_end": 121,
+      "timeline_start_index": 14481,
+      "timeline_end_index": 14481,
+      "highlights": [
+        {
+          "chapter_sentence": 121,
+          "start": 16,
+          "end": 67
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_07_0007",
+      "source_section": "chapter_06_07",
+      "source_sentence": 124,
+      "character_position": 453,
+      "text": "в глубине души радуясь той силе любви к ней",
+      "vad": [
+        0.75,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.1321576713312085,
+      "warning": null,
+      "chapter_sentence_start": 124,
+      "chapter_sentence_end": 124,
+      "timeline_start_index": 14484,
+      "timeline_end_index": 14484,
+      "highlights": [
+        {
+          "chapter_sentence": 124,
+          "start": 50,
+          "end": 93
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_07_0008",
+      "source_section": "chapter_06_07",
+      "source_sentence": 135,
+      "character_position": 454,
+      "text": "она задыхалась от волнения",
+      "vad": [
+        -0.45,
+        0.88,
+        -0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.5208307982095439,
+      "warning": null,
+      "chapter_sentence_start": 135,
+      "chapter_sentence_end": 135,
+      "timeline_start_index": 14495,
+      "timeline_end_index": 14495,
+      "highlights": [
+        {
+          "chapter_sentence": 135,
+          "start": 20,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_07_0009",
+      "source_section": "chapter_06_07",
+      "source_sentence": 136,
+      "character_position": 455,
+      "text": "бледному, испуганному лицу",
+      "vad": [
+        -0.8,
+        0.75,
+        -0.45
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.2755884432020177,
+      "warning": null,
+      "chapter_sentence_start": 136,
+      "chapter_sentence_end": 136,
+      "timeline_start_index": 14496,
+      "timeline_end_index": 14496,
+      "highlights": [
+        {
+          "chapter_sentence": 136,
+          "start": 39,
+          "end": 65
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_07_0010",
+      "source_section": "chapter_06_07",
+      "source_sentence": 142,
+      "character_position": 456,
+      "text": "мне тебя жалко",
+      "vad": [
+        -0.35,
+        0.1,
+        -0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.275011410616958,
+      "warning": null,
+      "chapter_sentence_start": 142,
+      "chapter_sentence_end": 142,
+      "timeline_start_index": 14502,
+      "timeline_end_index": 14502,
+      "highlights": [
+        {
+          "chapter_sentence": 142,
+          "start": 7,
+          "end": 21
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "7_10",
+  "count": 11,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_07_10_0001",
+      "source_section": "chapter_07_10",
+      "source_sentence": 6,
+      "character_position": 1160,
+      "text": "Левин чувствовал, что впечатление, произведенное им, было хорошее, и ему с нею тотчас же стало легко, просто и приятно",
+      "vad": [
+        0.8,
+        -0.1,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.4474815570635319,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 17710,
+      "timeline_end_index": 17710,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 87,
+          "end": 205
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_10_0002",
+      "source_section": "chapter_07_10",
+      "source_sentence": 19,
+      "character_position": 1161,
+      "text": "Левин покраснел и, чтобы скрыть свое смущение",
+      "vad": [
+        -0.45,
+        0.55,
+        -0.25
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2946571512310362,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 17723,
+      "timeline_end_index": 17723,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 0,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_10_0004",
+      "source_section": "chapter_07_10",
+      "source_sentence": 30,
+      "character_position": 1162,
+      "text": "говорить с ней было приятно, еще приятнее было слушать ее",
+      "vad": [
+        0.82,
+        0.28,
+        0.08
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.165088139149328,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 17734,
+      "timeline_end_index": 17734,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 2,
+          "end": 59
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_10_0005",
+      "source_section": "chapter_07_10",
+      "source_sentence": 36,
+      "character_position": 1163,
+      "text": "Никогда еще ни одна умная вещь, сказанная Левиным, не доставляла ему такого удовольствия, как эта",
+      "vad": [
+        0.85,
+        0.45,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2129965882416575,
+      "warning": null,
+      "chapter_sentence_start": 36,
+      "chapter_sentence_end": 36,
+      "timeline_start_index": 17740,
+      "timeline_end_index": 17740,
+      "highlights": [
+        {
+          "chapter_sentence": 36,
+          "start": 0,
+          "end": 97
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_10_0006",
+      "source_section": "chapter_07_10",
+      "source_sentence": 47,
+      "character_position": 1164,
+      "text": "Левин, забывшись",
+      "vad": [
+        -0.1,
+        0.1,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.2907566658524539,
+      "warning": null,
+      "chapter_sentence_start": 47,
+      "chapter_sentence_end": 47,
+      "timeline_start_index": 17751,
+      "timeline_end_index": 17751,
+      "highlights": [
+        {
+          "chapter_sentence": 47,
+          "start": 8,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_10_0007",
+      "source_section": "chapter_07_10",
+      "source_sentence": 48,
+      "character_position": 1165,
+      "text": "он был поражен переменой ее выражения",
+      "vad": [
+        -0.1,
+        0.55,
+        -0.25
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5844180665593859,
+      "warning": null,
+      "chapter_sentence_start": 48,
+      "chapter_sentence_end": 48,
+      "timeline_start_index": 17752,
+      "timeline_end_index": 17752,
+      "highlights": [
+        {
+          "chapter_sentence": 48,
+          "start": 62,
+          "end": 99
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_10_0008",
+      "source_section": "chapter_07_10",
+      "source_sentence": 100,
+      "character_position": 1166,
+      "text": "почувствовал к ней нежность и жалость, удивившие его самого",
+      "vad": [
+        0.72,
+        0.38,
+        0.18
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.0648787379536662,
+      "warning": null,
+      "chapter_sentence_start": 100,
+      "chapter_sentence_end": 100,
+      "timeline_start_index": 17804,
+      "timeline_end_index": 17804,
+      "highlights": [
+        {
+          "chapter_sentence": 100,
+          "start": 112,
+          "end": 171
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_10_0009",
+      "source_section": "chapter_07_10",
+      "source_sentence": 104,
+      "character_position": 1167,
+      "text": "его так волновал вопрос о том, что она говорит со Степаном Аркадьичем",
+      "vad": [
+        -0.35,
+        0.55,
+        -0.25
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3739057845681546,
+      "warning": null,
+      "chapter_sentence_start": 104,
+      "chapter_sentence_end": 104,
+      "timeline_start_index": 17808,
+      "timeline_end_index": 17808,
+      "highlights": [
+        {
+          "chapter_sentence": 104,
+          "start": 2,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_10_0010",
+      "source_section": "chapter_07_10",
+      "source_sentence": 108,
+      "character_position": 1168,
+      "text": "Левин все время любовался ею — и красотой ее, и умом, образованностью, и вместе простотой и задушевностью",
+      "vad": [
+        0.85,
+        0.35,
+        0.05
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.1995450306279915,
+      "warning": null,
+      "chapter_sentence_start": 108,
+      "chapter_sentence_end": 108,
+      "timeline_start_index": 17812,
+      "timeline_end_index": 17812,
+      "highlights": [
+        {
+          "chapter_sentence": 108,
+          "start": 32,
+          "end": 137
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_10_0011",
+      "source_section": "chapter_07_10",
+      "source_sentence": 110,
+      "character_position": 1169,
+      "text": "оправдывал ее и вместе жалел и боялся, что Вронский не вполне понимает ее",
+      "vad": [
+        0.35,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.3633548395545295,
+      "warning": null,
+      "chapter_sentence_start": 110,
+      "chapter_sentence_end": 110,
+      "timeline_start_index": 17814,
+      "timeline_end_index": 17814,
+      "highlights": [
+        {
+          "chapter_sentence": 110,
+          "start": 83,
+          "end": 156
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_10_0012",
+      "source_section": "chapter_07_10",
+      "source_sentence": 112,
+      "character_position": 1170,
+      "text": "Левин с сожалением тоже встал",
+      "vad": [
+        -0.35,
+        0.1,
+        0.05
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.1036750054145698,
+      "warning": null,
+      "chapter_sentence_start": 112,
+      "chapter_sentence_end": 112,
+      "timeline_start_index": 17816,
+      "timeline_end_index": 17816,
+      "highlights": [
+        {
+          "chapter_sentence": 112,
+          "start": 0,
+          "end": 29
+        }
+      ]
+    }
+  ]
+}

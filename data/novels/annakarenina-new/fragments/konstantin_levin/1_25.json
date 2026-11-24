@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "1_25",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_01_25_0001",
+      "source_section": "chapter_01_25",
+      "source_sentence": 9,
+      "character_position": 159,
+      "text": "и все больше и больше ему жалко было его",
+      "vad": [
+        -0.45,
+        0.3,
+        -0.15
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.362076861150483,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 2273,
+      "timeline_end_index": 2273,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 51,
+          "end": 91
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_25_0002",
+      "source_section": "chapter_01_25",
+      "source_sentence": 38,
+      "character_position": 160,
+      "text": "робко сказал Константин Левин",
+      "vad": [
+        -0.2,
+        0.1,
+        -0.6
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.600032582238138,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 2302,
+      "timeline_end_index": 2302,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 29,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_25_0003",
+      "source_section": "chapter_01_25",
+      "source_sentence": 79,
+      "character_position": 161,
+      "text": "смутясь, отвечал Константин",
+      "vad": [
+        -0.35,
+        0.25,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3212270130318486,
+      "warning": null,
+      "chapter_sentence_start": 79,
+      "chapter_sentence_end": 79,
+      "timeline_start_index": 2343,
+      "timeline_end_index": 2343,
+      "highlights": [
+        {
+          "chapter_sentence": 79,
+          "start": 14,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_25_0004",
+      "source_section": "chapter_01_25",
+      "source_sentence": 98,
+      "character_position": 162,
+      "text": "с ужасом вглядываясь в жадность",
+      "vad": [
+        -0.8,
+        0.75,
+        -0.35
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3535695378372827,
+      "warning": null,
+      "chapter_sentence_start": 98,
+      "chapter_sentence_end": 98,
+      "timeline_start_index": 2362,
+      "timeline_end_index": 2362,
+      "highlights": [
+        {
+          "chapter_sentence": 98,
+          "start": 83,
+          "end": 114
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_25_0005",
+      "source_section": "chapter_01_25",
+      "source_sentence": 121,
+      "character_position": 163,
+      "text": "Эта робость тронула Константина",
+      "vad": [
+        0.55,
+        0.3,
+        0.05
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.1753978551440496,
+      "warning": null,
+      "chapter_sentence_start": 121,
+      "chapter_sentence_end": 121,
+      "timeline_start_index": 2385,
+      "timeline_end_index": 2385,
+      "highlights": [
+        {
+          "chapter_sentence": 121,
+          "start": 0,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_25_0006",
+      "source_section": "chapter_01_25",
+      "source_sentence": 152,
+      "character_position": 164,
+      "text": "было ему неприятно теперь из уст брата",
+      "vad": [
+        -0.45,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.2067053365744725,
+      "warning": null,
+      "chapter_sentence_start": 152,
+      "chapter_sentence_end": 152,
+      "timeline_start_index": 2416,
+      "timeline_end_index": 2416,
+      "highlights": [
+        {
+          "chapter_sentence": 152,
+          "start": 131,
+          "end": 169
+        }
+      ]
+    }
+  ]
+}

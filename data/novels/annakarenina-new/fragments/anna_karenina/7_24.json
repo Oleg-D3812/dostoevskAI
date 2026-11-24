@@ -1,0 +1,893 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "7_24",
+  "count": 34,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_07_24_0001",
+      "source_section": "chapter_07_24",
+      "source_sentence": 2,
+      "character_position": 909,
+      "text": "с виноватым и кротким выражением на лице",
+      "vad": [
+        -0.55,
+        -0.35,
+        -0.65
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.8374791501820327,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 18881,
+      "timeline_end_index": 18881,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 16,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_24_0002",
+      "source_section": "chapter_07_24",
+      "source_sentence": 3,
+      "character_position": 910,
+      "text": "что она в одном из своих хороших расположении",
+      "vad": [
+        0.7,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.1469184329862025,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 18882,
+      "timeline_end_index": 18882,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 75,
+          "end": 120
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_24_0003",
+      "source_section": "chapter_07_24",
+      "source_sentence": 15,
+      "character_position": 911,
+      "text": "почувствовала в себе поднимающееся желание борьбы",
+      "vad": [
+        -0.55,
+        0.55,
+        0.35
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.5565234818164898,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 18894,
+      "timeline_end_index": 18894,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 237,
+          "end": 286
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_24_0004",
+      "source_section": "chapter_07_24",
+      "source_sentence": 15,
+      "character_position": 912,
+      "text": "встретила Вронского так же весело",
+      "vad": [
+        0.45,
+        0.2,
+        0.15
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.1889174101449702,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 18894,
+      "timeline_end_index": 18894,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 336,
+          "end": 369
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_24_0005",
+      "source_section": "chapter_07_24",
+      "source_sentence": 17,
+      "character_position": 913,
+      "text": "на меня нашло точно вдохновение",
+      "vad": [
+        0.7,
+        0.55,
+        0.25
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.2815900610090097,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 18896,
+      "timeline_end_index": 18896,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 10,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_24_0006",
+      "source_section": "chapter_07_24",
+      "source_sentence": 20,
+      "character_position": 914,
+      "text": "Я не могу больше ждать",
+      "vad": [
+        -0.7,
+        0.5,
+        -0.45
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.1003552361643643,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 18899,
+      "timeline_end_index": 18899,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 0,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_24_0007",
+      "source_section": "chapter_07_24",
+      "source_sentence": 21,
+      "character_position": 915,
+      "text": "Я не хочу надеяться, не хочу ничего слышать про развод",
+      "vad": [
+        -0.75,
+        0.4,
+        0.25
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.5122535309110089,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 18900,
+      "timeline_end_index": 18900,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 0,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_24_0008",
+      "source_section": "chapter_07_24",
+      "source_sentence": 22,
+      "character_position": 916,
+      "text": "Я решила, что это не будет больше иметь влияния на мою жизнь",
+      "vad": [
+        0.3,
+        0.2,
+        0.7
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.6220582404586802,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 18901,
+      "timeline_end_index": 18901,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 0,
+          "end": 60
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_24_0009",
+      "source_section": "chapter_07_24",
+      "source_sentence": 25,
+      "character_position": 917,
+      "text": "ее взволнованное лицо",
+      "vad": [
+        -0.35,
+        0.7,
+        -0.2
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.5572078473875887,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 18904,
+      "timeline_end_index": 18904,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 40,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_24_0011",
+      "source_section": "chapter_07_24",
+      "source_sentence": 48,
+      "character_position": 918,
+      "text": "ее подозрения",
+      "vad": [
+        -0.55,
+        0.35,
+        -0.25
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.3508990602994415,
+      "warning": null,
+      "chapter_sentence_start": 48,
+      "chapter_sentence_end": 48,
+      "timeline_start_index": 18927,
+      "timeline_end_index": 18927,
+      "highlights": [
+        {
+          "chapter_sentence": 48,
+          "start": 28,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_24_0012",
+      "source_section": "chapter_07_24",
+      "source_sentence": 62,
+      "character_position": 919,
+      "text": "до меня тебе никакого дела нет",
+      "vad": [
+        -0.78,
+        0.58,
+        -0.46
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.0848770558047112,
+      "warning": null,
+      "chapter_sentence_start": 62,
+      "chapter_sentence_end": 62,
+      "timeline_start_index": 18941,
+      "timeline_end_index": 18941,
+      "highlights": [
+        {
+          "chapter_sentence": 62,
+          "start": 43,
+          "end": 73
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_24_0013",
+      "source_section": "chapter_07_24",
+      "source_sentence": 63,
+      "character_position": 920,
+      "text": "Ты не хочешь понять моей жизни",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.3
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.2595142462637463,
+      "warning": null,
+      "chapter_sentence_start": 63,
+      "chapter_sentence_end": 63,
+      "timeline_start_index": 18942,
+      "timeline_end_index": 18942,
+      "highlights": [
+        {
+          "chapter_sentence": 63,
+          "start": 0,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_24_0015",
+      "source_section": "chapter_07_24",
+      "source_sentence": 66,
+      "character_position": 921,
+      "text": "я не люблю дочь, а притворяюсь, что люблю эту англичанку",
+      "vad": [
+        -0.75,
+        0.65,
+        -0.2
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.3452560812801119,
+      "warning": null,
+      "chapter_sentence_start": 66,
+      "chapter_sentence_end": 66,
+      "timeline_start_index": 18945,
+      "timeline_end_index": 18945,
+      "highlights": [
+        {
+          "chapter_sentence": 66,
+          "start": 27,
+          "end": 83
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_24_0016",
+      "source_section": "chapter_07_24",
+      "source_sentence": 67,
+      "character_position": 922,
+      "text": "На мгновенье она очнулась и ужаснулась тому, что изменила своему намерению",
+      "vad": [
+        -0.85,
+        0.7,
+        -0.55
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.1993327027027481,
+      "warning": null,
+      "chapter_sentence_start": 67,
+      "chapter_sentence_end": 67,
+      "timeline_start_index": 18946,
+      "timeline_end_index": 18946,
+      "highlights": [
+        {
+          "chapter_sentence": 67,
+          "start": 0,
+          "end": 74
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_24_0017",
+      "source_section": "chapter_07_24",
+      "source_sentence": 68,
+      "character_position": 923,
+      "text": "зная, что она губит себя, она не могла воздержаться, не могла не показать ему, как он был неправ, не могла покориться ему",
+      "vad": [
+        -0.85,
+        0.7,
+        -0.45
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.2087878106983111,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 18947,
+      "timeline_end_index": 18947,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 5,
+          "end": 126
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_24_0018",
+      "source_section": "chapter_07_24",
+      "source_sentence": 81,
+      "character_position": 924,
+      "text": "с ужасом вглядываясь",
+      "vad": [
+        -0.85,
+        0.78,
+        -0.6
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.2836926618134178,
+      "warning": null,
+      "chapter_sentence_start": 81,
+      "chapter_sentence_end": 81,
+      "timeline_start_index": 18960,
+      "timeline_end_index": 18960,
+      "highlights": [
+        {
+          "chapter_sentence": 81,
+          "start": 18,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_24_0019",
+      "source_section": "chapter_07_24",
+      "source_sentence": 88,
+      "character_position": 925,
+      "text": "Я хочу любви, а ее нет",
+      "vad": [
+        -0.8,
+        0.45,
+        -0.55
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.0823300203396977,
+      "warning": null,
+      "chapter_sentence_start": 88,
+      "chapter_sentence_end": 88,
+      "timeline_start_index": 18967,
+      "timeline_end_index": 18967,
+      "highlights": [
+        {
+          "chapter_sentence": 88,
+          "start": 0,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_24_0020",
+      "source_section": "chapter_07_24",
+      "source_sentence": 89,
+      "character_position": 926,
+      "text": "Стало быть, все кончено!",
+      "vad": [
+        -0.85,
+        0.55,
+        -0.45
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.1101576272319365,
+      "warning": null,
+      "chapter_sentence_start": 89,
+      "chapter_sentence_end": 89,
+      "timeline_start_index": 18968,
+      "timeline_end_index": 18968,
+      "highlights": [
+        {
+          "chapter_sentence": 89,
+          "start": 0,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_24_0021",
+      "source_section": "chapter_07_24",
+      "source_sentence": 99,
+      "character_position": 927,
+      "text": "Он ненавидит меня, это ясно",
+      "vad": [
+        -0.75,
+        0.25,
+        -0.35
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.3194158223120019,
+      "warning": null,
+      "chapter_sentence_start": 99,
+      "chapter_sentence_end": 99,
+      "timeline_start_index": 18978,
+      "timeline_end_index": 18978,
+      "highlights": [
+        {
+          "chapter_sentence": 99,
+          "start": 1,
+          "end": 28
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_24_0022",
+      "source_section": "chapter_07_24",
+      "source_sentence": 100,
+      "character_position": 928,
+      "text": "Он любит другую женщину, это еще яснее",
+      "vad": [
+        -0.85,
+        0.3,
+        -0.4
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.26293478818401,
+      "warning": null,
+      "chapter_sentence_start": 100,
+      "chapter_sentence_end": 100,
+      "timeline_start_index": 18979,
+      "timeline_end_index": 18979,
+      "highlights": [
+        {
+          "chapter_sentence": 100,
+          "start": 1,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_24_0023",
+      "source_section": "chapter_07_24",
+      "source_sentence": 101,
+      "character_position": 929,
+      "text": "Я хочу любви, а ее нет",
+      "vad": [
+        -0.7,
+        0.2,
+        -0.5
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.3282171042819865,
+      "warning": null,
+      "chapter_sentence_start": 101,
+      "chapter_sentence_end": 101,
+      "timeline_start_index": 18980,
+      "timeline_end_index": 18980,
+      "highlights": [
+        {
+          "chapter_sentence": 101,
+          "start": 2,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_24_0025",
+      "source_section": "chapter_07_24",
+      "source_sentence": 105,
+      "character_position": 930,
+      "text": "Мысли о том, куда она поедет теперь — к тетке ли, у которой она воспитывалась, к Долли, или просто одна за границу, и о том, что он делает теперь один в кабинете, окончательная ли это ссора, или возможно еще примирение",
+      "vad": [
+        -0.45,
+        0.35,
+        -0.3
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.3540739835304886,
+      "warning": null,
+      "chapter_sentence_start": 105,
+      "chapter_sentence_end": 105,
+      "timeline_start_index": 18984,
+      "timeline_end_index": 18984,
+      "highlights": [
+        {
+          "chapter_sentence": 105,
+          "start": 0,
+          "end": 218
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_24_0026",
+      "source_section": "chapter_07_24",
+      "source_sentence": 105,
+      "character_position": 931,
+      "text": "много других мыслей о том, что будет теперь, после разрыва, приходили ей в голову",
+      "vad": [
+        -0.4,
+        0.25,
+        -0.3
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.3048396452933255,
+      "warning": null,
+      "chapter_sentence_start": 105,
+      "chapter_sentence_end": 105,
+      "timeline_start_index": 18984,
+      "timeline_end_index": 18984,
+      "highlights": [
+        {
+          "chapter_sentence": 105,
+          "start": 347,
+          "end": 428
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_24_0027",
+      "source_section": "chapter_07_24",
+      "source_sentence": 106,
+      "character_position": 932,
+      "text": "В душе ее была какая-то неясная мысль, которая одна интересовала ее",
+      "vad": [
+        -0.2,
+        0.25,
+        -0.25
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.3125147110724199,
+      "warning": null,
+      "chapter_sentence_start": 106,
+      "chapter_sentence_end": 106,
+      "timeline_start_index": 18985,
+      "timeline_end_index": 18985,
+      "highlights": [
+        {
+          "chapter_sentence": 106,
+          "start": 0,
+          "end": 67
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_24_0028",
+      "source_section": "chapter_07_24",
+      "source_sentence": 107,
+      "character_position": 933,
+      "text": "то чувство, которое тогда не оставляло ее",
+      "vad": [
+        -0.85,
+        0.25,
+        -0.65
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.3106473268207855,
+      "warning": null,
+      "chapter_sentence_start": 107,
+      "chapter_sentence_end": 107,
+      "timeline_start_index": 18986,
+      "timeline_end_index": 18986,
+      "highlights": [
+        {
+          "chapter_sentence": 107,
+          "start": 94,
+          "end": 135
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_24_0029",
+      "source_section": "chapter_07_24",
+      "source_sentence": 108,
+      "character_position": 934,
+      "text": "Зачем я не умерла?",
+      "vad": [
+        -0.95,
+        0.7,
+        -0.8
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.378996348596046,
+      "warning": null,
+      "chapter_sentence_start": 108,
+      "chapter_sentence_end": 108,
+      "timeline_start_index": 18987,
+      "timeline_end_index": 18987,
+      "highlights": [
+        {
+          "chapter_sentence": 108,
+          "start": 1,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_24_0031",
+      "source_section": "chapter_07_24",
+      "source_sentence": 110,
+      "character_position": 935,
+      "text": "И она вдруг поняла то, что было в ее душе",
+      "vad": [
+        -0.82,
+        0.48,
+        -0.62
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.1194945108843418,
+      "warning": null,
+      "chapter_sentence_start": 110,
+      "chapter_sentence_end": 110,
+      "timeline_start_index": 18989,
+      "timeline_end_index": 18989,
+      "highlights": [
+        {
+          "chapter_sentence": 110,
+          "start": 0,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_24_0033",
+      "source_section": "chapter_07_24",
+      "source_sentence": 112,
+      "character_position": 936,
+      "text": "Да, умереть!..",
+      "vad": [
+        -0.95,
+        0.78,
+        -0.42
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.3314802760732616,
+      "warning": null,
+      "chapter_sentence_start": 112,
+      "chapter_sentence_end": 112,
+      "timeline_start_index": 18991,
+      "timeline_end_index": 18991,
+      "highlights": [
+        {
+          "chapter_sentence": 112,
+          "start": 1,
+          "end": 15
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_24_0034",
+      "source_section": "chapter_07_24",
+      "source_sentence": 113,
+      "character_position": 937,
+      "text": "мой ужасный стыд",
+      "vad": [
+        -0.9,
+        0.6,
+        -0.5
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.154003427814276,
+      "warning": null,
+      "chapter_sentence_start": 113,
+      "chapter_sentence_end": 113,
+      "timeline_start_index": 18992,
+      "timeline_end_index": 18992,
+      "highlights": [
+        {
+          "chapter_sentence": 113,
+          "start": 52,
+          "end": 68
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_24_0037",
+      "source_section": "chapter_07_24",
+      "source_sentence": 116,
+      "character_position": 938,
+      "text": "развлекли ее",
+      "vad": [
+        0.2,
+        0.15,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.46893592202666,
+      "warning": null,
+      "chapter_sentence_start": 116,
+      "chapter_sentence_end": 116,
+      "timeline_start_index": 18995,
+      "timeline_end_index": 18995,
+      "highlights": [
+        {
+          "chapter_sentence": 116,
+          "start": 31,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_24_0038",
+      "source_section": "chapter_07_24",
+      "source_sentence": 123,
+      "character_position": 939,
+      "text": "не в силах удерживаться более, она зарыдала",
+      "vad": [
+        -0.95,
+        0.9,
+        -0.8
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.5055509486302051,
+      "warning": null,
+      "chapter_sentence_start": 123,
+      "chapter_sentence_end": 123,
+      "timeline_start_index": 19002,
+      "timeline_end_index": 19002,
+      "highlights": [
+        {
+          "chapter_sentence": 123,
+          "start": 50,
+          "end": 93
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_24_0040",
+      "source_section": "chapter_07_24",
+      "source_sentence": 130,
+      "character_position": 940,
+      "text": "Я не хочу мучать тебя, не хочу!",
+      "vad": [
+        -0.7,
+        0.75,
+        -0.35
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.2938697138524535,
+      "warning": null,
+      "chapter_sentence_start": 130,
+      "chapter_sentence_end": 130,
+      "timeline_start_index": 19009,
+      "timeline_end_index": 19009,
+      "highlights": [
+        {
+          "chapter_sentence": 130,
+          "start": 0,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_24_0041",
+      "source_section": "chapter_07_24",
+      "source_sentence": 137,
+      "character_position": 941,
+      "text": "отчаянная ревность Анны",
+      "vad": [
+        -0.85,
+        0.9,
+        -0.65
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.4096562366779435,
+      "warning": null,
+      "chapter_sentence_start": 137,
+      "chapter_sentence_end": 137,
+      "timeline_start_index": 19016,
+      "timeline_end_index": 19016,
+      "highlights": [
+        {
+          "chapter_sentence": 137,
+          "start": 12,
+          "end": 35
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_24_0042",
+      "source_section": "chapter_07_24",
+      "source_sentence": 137,
+      "character_position": 942,
+      "text": "отчаянную, страстную нежность",
+      "vad": [
+        0.7,
+        0.85,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.5875879756476681,
+      "warning": null,
+      "chapter_sentence_start": 137,
+      "chapter_sentence_end": 137,
+      "timeline_start_index": 19016,
+      "timeline_end_index": 19016,
+      "highlights": [
+        {
+          "chapter_sentence": 137,
+          "start": 46,
+          "end": 75
+        }
+      ]
+    }
+  ]
+}

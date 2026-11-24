@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "1_14",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_14_0002",
+      "source_section": "chapter_01_14",
+      "source_sentence": 45,
+      "character_position": 50,
+      "text": "она любила этого человека",
+      "vad": [
+        0.9,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2620099127809583,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 1270,
+      "timeline_end_index": 1270,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 71,
+          "end": 96
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_14_0003",
+      "source_section": "chapter_01_14",
+      "source_sentence": 121,
+      "character_position": 51,
+      "text": "Ей всею душой было жалко его, тем более что она жалела его в несчастии",
+      "vad": [
+        -0.55,
+        0.25,
+        -0.25
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.3455732919929887,
+      "warning": null,
+      "chapter_sentence_start": 121,
+      "chapter_sentence_end": 121,
+      "timeline_start_index": 1346,
+      "timeline_end_index": 1346,
+      "highlights": [
+        {
+          "chapter_sentence": 121,
+          "start": 0,
+          "end": 70
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_14_0004",
+      "source_section": "chapter_01_14",
+      "source_sentence": 122,
+      "character_position": 52,
+      "text": "я так счастлива",
+      "vad": [
+        1.0,
+        0.7,
+        0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.5438876275091303,
+      "warning": null,
+      "chapter_sentence_start": 122,
+      "chapter_sentence_end": 122,
+      "timeline_start_index": 1347,
+      "timeline_end_index": 1347,
+      "highlights": [
+        {
+          "chapter_sentence": 122,
+          "start": 62,
+          "end": 77
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_14_0005",
+      "source_section": "chapter_01_14",
+      "source_sentence": 143,
+      "character_position": 53,
+      "text": "улыбающееся, счастливое лицо Кити",
+      "vad": [
+        0.9,
+        0.25,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2501590976605105,
+      "warning": null,
+      "chapter_sentence_start": 143,
+      "chapter_sentence_end": 143,
+      "timeline_start_index": 1368,
+      "timeline_end_index": 1368,
+      "highlights": [
+        {
+          "chapter_sentence": 143,
+          "start": 127,
+          "end": 160
+        }
+      ]
+    }
+  ]
+}

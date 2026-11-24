@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "4_11",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_04_11_0001",
+      "source_section": "chapter_04_11",
+      "source_sentence": 2,
+      "character_position": 591,
+      "text": "мысли эти, прежде для него очень важные",
+      "vad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.2645568376544562,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 9835,
+      "timeline_end_index": 9835,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 154,
+          "end": 193
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_11_0002",
+      "source_section": "chapter_04_11",
+      "source_sentence": 2,
+      "character_position": 592,
+      "text": "не имели для него теперь ни малейшего интереса",
+      "vad": [
+        -0.3,
+        -0.55,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.6233101228654986,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 9835,
+      "timeline_end_index": 9835,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 233,
+          "end": 279
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_04_11_0003",
+      "source_section": "chapter_04_11",
+      "source_sentence": 3,
+      "character_position": 593,
+      "text": "Ему даже странно казалось",
+      "vad": [
+        -0.1,
+        0.15,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.1772491819185187,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 9836,
+      "timeline_end_index": 9836,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 0,
+          "end": 25
+        }
+      ]
+    }
+  ]
+}

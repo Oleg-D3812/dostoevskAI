@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "6_8",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_06_08_0001",
+      "source_section": "chapter_06_08",
+      "source_sentence": 10,
+      "character_position": 189,
+      "text": "сиявшего своею элегантною, откормленною и веселою барскою фигурой",
+      "vad": [
+        0.85,
+        0.35,
+        0.7
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.5407481619174948,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 14523,
+      "timeline_end_index": 14523,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 65,
+          "end": 130
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_06_08_0002",
+      "source_section": "chapter_06_08",
+      "source_sentence": 69,
+      "character_position": 190,
+      "text": "испытывал подобное же чувство",
+      "vad": [
+        -0.45,
+        0.35,
+        -0.3
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.277863176107735,
+      "warning": null,
+      "chapter_sentence_start": 69,
+      "chapter_sentence_end": 69,
+      "timeline_start_index": 14582,
+      "timeline_end_index": 14582,
+      "highlights": [
+        {
+          "chapter_sentence": 69,
+          "start": 10,
+          "end": 39
+        }
+      ]
+    }
+  ]
+}

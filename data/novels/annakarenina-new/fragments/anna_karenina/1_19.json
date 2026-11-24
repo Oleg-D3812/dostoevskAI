@@ -1,0 +1,425 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "1_19",
+  "count": 16,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_01_19_0001",
+      "source_section": "chapter_01_19",
+      "source_sentence": 25,
+      "character_position": 9,
+      "text": "как я рада тебя видеть!",
+      "vad": [
+        0.8,
+        0.45,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.253688868151792,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 1722,
+      "timeline_end_index": 1722,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 9,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_19_0002",
+      "source_section": "chapter_01_19",
+      "source_sentence": 34,
+      "character_position": 10,
+      "text": "сияешь счастьем и здоровьем!",
+      "vad": [
+        0.9,
+        0.5,
+        0.4
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.4215665538019528,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 1731,
+      "timeline_end_index": 1731,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 7,
+          "end": 35
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_19_0003",
+      "source_section": "chapter_01_19",
+      "source_sentence": 53,
+      "character_position": 11,
+      "text": "мне просто жалко, жалко тебя всею душой!",
+      "vad": [
+        -0.65,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.3484471905994913,
+      "warning": null,
+      "chapter_sentence_start": 53,
+      "chapter_sentence_end": 53,
+      "timeline_start_index": 1750,
+      "timeline_end_index": 1750,
+      "highlights": [
+        {
+          "chapter_sentence": 53,
+          "start": 14,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_19_0004",
+      "source_section": "chapter_01_19",
+      "source_sentence": 68,
+      "character_position": 12,
+      "text": "Участие и любовь непритворные видны были на лице Анны.",
+      "vad": [
+        0.75,
+        0.25,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.1609424936695764,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 1765,
+      "timeline_end_index": 1765,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 0,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_19_0005",
+      "source_section": "chapter_01_19",
+      "source_sentence": 87,
+      "character_position": 13,
+      "text": "О, нет, я понимаю!",
+      "vad": [
+        0.1,
+        0.3,
+        0.2
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.5131702993255268,
+      "warning": null,
+      "chapter_sentence_start": 87,
+      "chapter_sentence_end": 87,
+      "timeline_start_index": 1784,
+      "timeline_end_index": 1784,
+      "highlights": [
+        {
+          "chapter_sentence": 87,
+          "start": 2,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_19_0006",
+      "source_section": "chapter_01_19",
+      "source_sentence": 88,
+      "character_position": 14,
+      "text": "Понимаю, милая Долли, понимаю",
+      "vad": [
+        0.35,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.327897502251644,
+      "warning": null,
+      "chapter_sentence_start": 88,
+      "chapter_sentence_end": 88,
+      "timeline_start_index": 1785,
+      "timeline_end_index": 1785,
+      "highlights": [
+        {
+          "chapter_sentence": 88,
+          "start": 0,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_19_0007",
+      "source_section": "chapter_01_19",
+      "source_sentence": 99,
+      "character_position": 15,
+      "text": "Я не могла без жалости смотреть на него.",
+      "vad": [
+        -0.45,
+        0.25,
+        -0.15
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.1812720670256094,
+      "warning": null,
+      "chapter_sentence_start": 99,
+      "chapter_sentence_end": 99,
+      "timeline_start_index": 1796,
+      "timeline_end_index": 1796,
+      "highlights": [
+        {
+          "chapter_sentence": 99,
+          "start": 0,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_19_0008",
+      "source_section": "chapter_01_19",
+      "source_sentence": 102,
+      "character_position": 16,
+      "text": "Главное, что меня тронуло",
+      "vad": [
+        0.35,
+        0.3,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.3128150890212538,
+      "warning": null,
+      "chapter_sentence_start": 102,
+      "chapter_sentence_end": 102,
+      "timeline_start_index": 1799,
+      "timeline_end_index": 1799,
+      "highlights": [
+        {
+          "chapter_sentence": 102,
+          "start": 0,
+          "end": 25
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_19_0009",
+      "source_section": "chapter_01_19",
+      "source_sentence": 130,
+      "character_position": 17,
+      "text": "сердце ее прямо отзывалось на каждое слово, на каждое выражение лица невестки",
+      "vad": [
+        0.2,
+        0.45,
+        -0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.5169654533132507,
+      "warning": null,
+      "chapter_sentence_start": 130,
+      "chapter_sentence_end": 130,
+      "timeline_start_index": 1827,
+      "timeline_end_index": 1827,
+      "highlights": [
+        {
+          "chapter_sentence": 130,
+          "start": 35,
+          "end": 112
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_19_0010",
+      "source_section": "chapter_01_19",
+      "source_sentence": 137,
+      "character_position": 18,
+      "text": "я не понимала еще всего ужаса твоего положения",
+      "vad": [
+        -0.55,
+        0.15,
+        -0.2
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.256923261468745,
+      "warning": null,
+      "chapter_sentence_start": 137,
+      "chapter_sentence_end": 137,
+      "timeline_start_index": 1834,
+      "timeline_end_index": 1834,
+      "highlights": [
+        {
+          "chapter_sentence": 137,
+          "start": 38,
+          "end": 84
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_19_0011",
+      "source_section": "chapter_01_19",
+      "source_sentence": 138,
+      "character_position": 19,
+      "text": "мне его жалко было",
+      "vad": [
+        -0.25,
+        -0.2,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.3833683959191464,
+      "warning": null,
+      "chapter_sentence_start": 138,
+      "chapter_sentence_end": 138,
+      "timeline_start_index": 1835,
+      "timeline_end_index": 1835,
+      "highlights": [
+        {
+          "chapter_sentence": 138,
+          "start": 48,
+          "end": 66
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_19_0012",
+      "source_section": "chapter_01_19",
+      "source_sentence": 138,
+      "character_position": 20,
+      "text": "мне, не могу тебе сказать, как жаль тебя!",
+      "vad": [
+        -0.75,
+        0.45,
+        -0.2
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.3275030263205739,
+      "warning": null,
+      "chapter_sentence_start": 138,
+      "chapter_sentence_end": 138,
+      "timeline_start_index": 1835,
+      "timeline_end_index": 1835,
+      "highlights": [
+        {
+          "chapter_sentence": 138,
+          "start": 145,
+          "end": 186
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_19_0013",
+      "source_section": "chapter_01_19",
+      "source_sentence": 139,
+      "character_position": 21,
+      "text": "я понимаю твои страдания вполне",
+      "vad": [
+        0.35,
+        0.1,
+        0.35
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.3726962386026737,
+      "warning": null,
+      "chapter_sentence_start": 139,
+      "chapter_sentence_end": 139,
+      "timeline_start_index": 1836,
+      "timeline_end_index": 1836,
+      "highlights": [
+        {
+          "chapter_sentence": 139,
+          "start": 21,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_19_0014",
+      "source_section": "chapter_01_19",
+      "source_sentence": 160,
+      "character_position": 22,
+      "text": "Не знаю.",
+      "vad": [
+        -0.2,
+        0.05,
+        -0.35
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.4003537082324849,
+      "warning": null,
+      "chapter_sentence_start": 160,
+      "chapter_sentence_end": 160,
+      "timeline_start_index": 1857,
+      "timeline_end_index": 1857,
+      "highlights": [
+        {
+          "chapter_sentence": 160,
+          "start": 2,
+          "end": 10
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_19_0015",
+      "source_section": "chapter_01_19",
+      "source_sentence": 161,
+      "character_position": 23,
+      "text": "Я не могу судить…",
+      "vad": [
+        -0.2,
+        -0.15,
+        -0.45
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.5682435558405614,
+      "warning": null,
+      "chapter_sentence_start": 161,
+      "chapter_sentence_end": 161,
+      "timeline_start_index": 1858,
+      "timeline_end_index": 1858,
+      "highlights": [
+        {
+          "chapter_sentence": 161,
+          "start": 0,
+          "end": 17
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_19_0017",
+      "source_section": "chapter_01_19",
+      "source_sentence": 164,
+      "character_position": 24,
+      "text": "Я не была бы тою же, да, но простила бы",
+      "vad": [
+        0.25,
+        0.1,
+        0.55
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.5596492188624432,
+      "warning": null,
+      "chapter_sentence_start": 164,
+      "chapter_sentence_end": 164,
+      "timeline_start_index": 1861,
+      "timeline_end_index": 1861,
+      "highlights": [
+        {
+          "chapter_sentence": 164,
+          "start": 0,
+          "end": 39
+        }
+      ]
+    }
+  ]
+}

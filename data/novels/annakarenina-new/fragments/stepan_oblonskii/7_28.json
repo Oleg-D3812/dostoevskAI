@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "7_28",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_07_28_0001",
+      "source_section": "chapter_07_28",
+      "source_sentence": 72,
+      "character_position": 280,
+      "text": "не может понять, чего именно хочет Алексей Александрович",
+      "vad": [
+        -0.35,
+        0.2,
+        -0.45
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.4092414114822354,
+      "warning": null,
+      "chapter_sentence_start": 72,
+      "chapter_sentence_end": 72,
+      "timeline_start_index": 19407,
+      "timeline_end_index": 19407,
+      "highlights": [
+        {
+          "chapter_sentence": 72,
+          "start": 16,
+          "end": 72
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_28_0002",
+      "source_section": "chapter_07_28",
+      "source_sentence": 80,
+      "character_position": 281,
+      "text": "Стива надеется",
+      "vad": [
+        0.45,
+        0.2,
+        -0.1
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.372313357314067,
+      "warning": null,
+      "chapter_sentence_start": 80,
+      "chapter_sentence_end": 80,
+      "timeline_start_index": 19415,
+      "timeline_end_index": 19415,
+      "highlights": [
+        {
+          "chapter_sentence": 80,
+          "start": 31,
+          "end": 45
+        }
+      ]
+    }
+  ]
+}

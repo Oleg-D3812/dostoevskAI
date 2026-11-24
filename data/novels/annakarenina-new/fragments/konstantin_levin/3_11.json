@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "3_11",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_03_11_0001",
+      "source_section": "chapter_03_11",
+      "source_sentence": 5,
+      "character_position": 429,
+      "text": "как подозревал Левин",
+      "vad": [
+        -0.2,
+        0.15,
+        -0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.1748166162496592,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 7020,
+      "timeline_end_index": 7020,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 28,
+          "end": 48
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_11_0002",
+      "source_section": "chapter_03_11",
+      "source_sentence": 10,
+      "character_position": 430,
+      "text": "Левин понял, что в этом дележе сена что-то нечисто",
+      "vad": [
+        -0.35,
+        0.2,
+        0.25
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.2610825997192738,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 7025,
+      "timeline_end_index": 7025,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 154,
+          "end": 204
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_11_0003",
+      "source_section": "chapter_03_11",
+      "source_sentence": 10,
+      "character_position": 431,
+      "text": "решился съездить сам проверить дело",
+      "vad": [
+        -0.1,
+        0.35,
+        0.7
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.7268139943028489,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 7025,
+      "timeline_end_index": 7025,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 208,
+          "end": 243
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_11_0004",
+      "source_section": "chapter_03_11",
+      "source_sentence": 13,
+      "character_position": 432,
+      "text": "Это еще более утвердило Левина в его предположениях",
+      "vad": [
+        0.1,
+        0.15,
+        0.35
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4707814318999492,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 7028,
+      "timeline_end_index": 7028,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 0,
+          "end": 51
+        }
+      ]
+    }
+  ]
+}

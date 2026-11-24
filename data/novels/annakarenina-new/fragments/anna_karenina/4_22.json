@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "4_22",
+  "count": 7,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_04_22_0001",
+      "source_section": "chapter_04_22",
+      "source_sentence": 19,
+      "character_position": 522,
+      "text": "мое присутствие тяготит вас",
+      "vad": [
+        -0.72,
+        0.28,
+        -0.38
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.2820369133365858,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 10963,
+      "timeline_end_index": 10963,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 13,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_22_0002",
+      "source_section": "chapter_04_22",
+      "source_sentence": 23,
+      "character_position": 523,
+      "text": "истинное счастие и спокойствие вашей души",
+      "vad": [
+        0.85,
+        -0.55,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.8937477417879842,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 10967,
+      "timeline_end_index": 10967,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 34,
+          "end": 75
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_22_0003",
+      "source_section": "chapter_04_22",
+      "source_sentence": 33,
+      "character_position": 524,
+      "text": "она сама не понимает своего положения",
+      "vad": [
+        -0.45,
+        0.15,
+        -0.65
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.506283456308309,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 10977,
+      "timeline_end_index": 10977,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 15,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_22_0004",
+      "source_section": "chapter_04_22",
+      "source_sentence": 35,
+      "character_position": 525,
+      "text": "Она подавлена, именно подавлена твоим великодушием",
+      "vad": [
+        -0.72,
+        0.28,
+        -0.58
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.2526404033910758,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 10979,
+      "timeline_end_index": 10979,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 2,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_22_0005",
+      "source_section": "chapter_04_22",
+      "source_sentence": 36,
+      "character_position": 526,
+      "text": "она не в силах будет ничего сказать",
+      "vad": [
+        -0.7,
+        -0.3,
+        -0.9
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.9068805598843732,
+      "warning": null,
+      "chapter_sentence_start": 36,
+      "chapter_sentence_end": 36,
+      "timeline_start_index": 10980,
+      "timeline_end_index": 10980,
+      "highlights": [
+        {
+          "chapter_sentence": 36,
+          "start": 29,
+          "end": 64
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_22_0006",
+      "source_section": "chapter_04_22",
+      "source_sentence": 53,
+      "character_position": 527,
+      "text": "одного она может желать",
+      "vad": [
+        0.1,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.5256151890781118,
+      "warning": null,
+      "chapter_sentence_start": 53,
+      "chapter_sentence_end": 53,
+      "timeline_start_index": 10997,
+      "timeline_end_index": 10997,
+      "highlights": [
+        {
+          "chapter_sentence": 53,
+          "start": 18,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_22_0007",
+      "source_section": "chapter_04_22",
+      "source_sentence": 85,
+      "character_position": 528,
+      "text": "Она ничего не хочет, не смеет просить",
+      "vad": [
+        -0.75,
+        0.2,
+        -0.85
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.4607021462325228,
+      "warning": null,
+      "chapter_sentence_start": 85,
+      "chapter_sentence_end": 85,
+      "timeline_start_index": 11029,
+      "timeline_end_index": 11029,
+      "highlights": [
+        {
+          "chapter_sentence": 85,
+          "start": 0,
+          "end": 37
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "1_7",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_01_07_0002",
+      "source_section": "chapter_01_07",
+      "source_sentence": 7,
+      "character_position": 40,
+      "text": "Левин сел в ожидании, когда уедет профессор",
+      "vad": [
+        -0.2,
+        -0.3,
+        -0.3
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5092943633708439,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 547,
+      "timeline_end_index": 547,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 0,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_07_0003",
+      "source_section": "chapter_01_07",
+      "source_sentence": 7,
+      "character_position": 41,
+      "text": "заинтересовался предметом разговора",
+      "vad": [
+        0.35,
+        0.4,
+        0.05
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.3582309729918082,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 547,
+      "timeline_end_index": 547,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 54,
+          "end": 89
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_07_0004",
+      "source_section": "chapter_01_07",
+      "source_sentence": 8,
+      "character_position": 42,
+      "text": "интересуясь ими",
+      "vad": [
+        0.35,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.3922109509060877,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 548,
+      "timeline_end_index": 548,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 66,
+          "end": 81
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_07_0005",
+      "source_section": "chapter_01_07",
+      "source_sentence": 8,
+      "character_position": 43,
+      "text": "которые в последнее время чаще и чаще приходили ему на ум",
+      "vad": [
+        -0.45,
+        0.35,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3115581992374363,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 548,
+      "timeline_end_index": 548,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 351,
+          "end": 408
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_07_0007",
+      "source_section": "chapter_01_07",
+      "source_sentence": 9,
+      "character_position": 44,
+      "text": "с трудом понимал, о чем речь",
+      "vad": [
+        -0.45,
+        0.2,
+        -0.35
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3200064868881293,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 549,
+      "timeline_end_index": 549,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 368,
+          "end": 396
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_07_0009",
+      "source_section": "chapter_01_07",
+      "source_sentence": 15,
+      "character_position": 45,
+      "text": "решился предложить профессору вопрос",
+      "vad": [
+        0.1,
+        0.3,
+        0.4
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5487107793201893,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 555,
+      "timeline_end_index": 555,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 85,
+          "end": 121
+        }
+      ]
+    }
+  ]
+}

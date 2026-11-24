@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "5_23",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_05_23_0001",
+      "source_section": "chapter_05_23",
+      "source_sentence": 30,
+      "character_position": 576,
+      "text": "Я несчастна от разлуки с сыном.",
+      "vad": [
+        -0.9,
+        0.65,
+        -0.7
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.2578474182005024,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 12903,
+      "timeline_end_index": 12903,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 0,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_05_23_0002",
+      "source_section": "chapter_05_23",
+      "source_sentence": 37,
+      "character_position": 577,
+      "text": "ту жажду его видеть, которую я испытываю",
+      "vad": [
+        -0.75,
+        0.55,
+        -0.45
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.077993192853529,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 12910,
+      "timeline_end_index": 12910,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 30,
+          "end": 70
+        }
+      ]
+    }
+  ]
+}

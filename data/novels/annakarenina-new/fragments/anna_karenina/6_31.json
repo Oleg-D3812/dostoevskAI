@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "6_31",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_06_31_0001",
+      "source_section": "chapter_06_31",
+      "source_sentence": 52,
+      "character_position": 794,
+      "text": "Я одна теряю голову.",
+      "vad": [
+        -0.8,
+        0.8,
+        -0.7
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.3345013803044852,
+      "warning": null,
+      "chapter_sentence_start": 52,
+      "chapter_sentence_end": 52,
+      "timeline_start_index": 16940,
+      "timeline_end_index": 16940,
+      "highlights": [
+        {
+          "chapter_sentence": 52,
+          "start": 0,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_31_0002",
+      "source_section": "chapter_06_31",
+      "source_sentence": 55,
+      "character_position": 795,
+      "text": "Я сама хотела ехать",
+      "vad": [
+        -0.1,
+        0.35,
+        0.65
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.7400442180280028,
+      "warning": null,
+      "chapter_sentence_start": 55,
+      "chapter_sentence_end": 55,
+      "timeline_start_index": 16943,
+      "timeline_end_index": 16943,
+      "highlights": [
+        {
+          "chapter_sentence": 55,
+          "start": 0,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_31_0003",
+      "source_section": "chapter_06_31",
+      "source_sentence": 58,
+      "character_position": 796,
+      "text": "этот враждебный тон",
+      "vad": [
+        -0.7,
+        0.45,
+        0.3
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.531543953072973,
+      "warning": null,
+      "chapter_sentence_start": 58,
+      "chapter_sentence_end": 58,
+      "timeline_start_index": 16946,
+      "timeline_end_index": 16946,
+      "highlights": [
+        {
+          "chapter_sentence": 58,
+          "start": 15,
+          "end": 34
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "7_8",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_07_08_0001",
+      "source_section": "chapter_07_08",
+      "source_sentence": 50,
+      "character_position": 567,
+      "text": "добродушно шутя",
+      "vad": [
+        0.55,
+        0.2,
+        0.2
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.1650743489263287,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 50,
+      "timeline_start_index": 17599,
+      "timeline_end_index": 17599,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 45,
+          "end": 60
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_08_0003",
+      "source_section": "chapter_07_08",
+      "source_sentence": 55,
+      "character_position": 568,
+      "text": "их взаимное желание",
+      "vad": [
+        0.55,
+        0.25,
+        0.15
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.150417996700204,
+      "warning": null,
+      "chapter_sentence_start": 55,
+      "chapter_sentence_end": 55,
+      "timeline_start_index": 17604,
+      "timeline_end_index": 17604,
+      "highlights": [
+        {
+          "chapter_sentence": 55,
+          "start": 44,
+          "end": 63
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "4_19",
+  "count": 12,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_04_19_0001",
+      "source_section": "chapter_04_19",
+      "source_sentence": 1,
+      "character_position": 472,
+      "text": "раскаяние ее будет искренно",
+      "vad": [
+        0.2,
+        0.0,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.5115531382493005,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 10673,
+      "timeline_end_index": 10673,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 120,
+          "end": 147
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_19_0002",
+      "source_section": "chapter_04_19",
+      "source_sentence": 5,
+      "character_position": 473,
+      "text": "ее страдания и раскаяние",
+      "vad": [
+        -0.4,
+        0.15,
+        0.05
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.0640370108165994,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 10677,
+      "timeline_end_index": 10677,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 30,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_19_0003",
+      "source_section": "chapter_04_19",
+      "source_sentence": 17,
+      "character_position": 474,
+      "text": "Анна боялась его, тяготилась им и не могла смотреть ему прямо в глаза",
+      "vad": [
+        -0.88,
+        0.52,
+        -0.72
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.2289975530610729,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 10689,
+      "timeline_end_index": 10689,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 102,
+          "end": 171
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_19_0004",
+      "source_section": "chapter_04_19",
+      "source_sentence": 18,
+      "character_position": 475,
+      "text": "Она как будто что-то хотела и не решалась сказать ему и, тоже как бы предчувствуя, что их отношения не могут продолжаться, чего-то ожидала от него",
+      "vad": [
+        -0.55,
+        0.35,
+        -0.6
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.2893918520170195,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 10690,
+      "timeline_end_index": 10690,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 0,
+          "end": 146
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_19_0005",
+      "source_section": "chapter_04_19",
+      "source_sentence": 68,
+      "character_position": 476,
+      "text": "Я не для мужа, а для себя не хочу.",
+      "vad": [
+        -0.45,
+        0.2,
+        0.55
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.5651216713772421,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 10740,
+      "timeline_end_index": 10740,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 2,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_19_0006",
+      "source_section": "chapter_04_19",
+      "source_sentence": 70,
+      "character_position": 477,
+      "text": "взволнованный голос Анны",
+      "vad": [
+        -0.2,
+        0.75,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.6153221326993034,
+      "warning": null,
+      "chapter_sentence_start": 70,
+      "chapter_sentence_end": 70,
+      "timeline_start_index": 10742,
+      "timeline_end_index": 10742,
+      "highlights": [
+        {
+          "chapter_sentence": 70,
+          "start": 10,
+          "end": 34
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_19_0007",
+      "source_section": "chapter_04_19",
+      "source_sentence": 72,
+      "character_position": 478,
+      "text": "От этого-то я не хочу.",
+      "vad": [
+        -0.6,
+        0.1,
+        0.3
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.3853579358911988,
+      "warning": null,
+      "chapter_sentence_start": 72,
+      "chapter_sentence_end": 72,
+      "timeline_start_index": 10744,
+      "timeline_end_index": 10744,
+      "highlights": [
+        {
+          "chapter_sentence": 72,
+          "start": 2,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_19_0008",
+      "source_section": "chapter_04_19",
+      "source_sentence": 77,
+      "character_position": 479,
+      "text": "оживление лица ее вдруг исчезло; она опустила голову и беспокойно оглянулась на Бетси",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.45
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.2192889509616034,
+      "warning": null,
+      "chapter_sentence_start": 77,
+      "chapter_sentence_end": 77,
+      "timeline_start_index": 10749,
+      "timeline_end_index": 10749,
+      "highlights": [
+        {
+          "chapter_sentence": 77,
+          "start": 28,
+          "end": 113
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_19_0010",
+      "source_section": "chapter_04_19",
+      "source_sentence": 93,
+      "character_position": 480,
+      "text": "Я не хочу и не могу иметь от вас ничего скрытого",
+      "vad": [
+        0.15,
+        0.35,
+        0.25
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.4723591019438664,
+      "warning": null,
+      "chapter_sentence_start": 93,
+      "chapter_sentence_end": 93,
+      "timeline_start_index": 10765,
+      "timeline_end_index": 10765,
+      "highlights": [
+        {
+          "chapter_sentence": 93,
+          "start": 2,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_19_0011",
+      "source_section": "chapter_04_19",
+      "source_sentence": 96,
+      "character_position": 481,
+      "text": "очевидно, торопилась высказать все, как это ни трудно было ей",
+      "vad": [
+        -0.55,
+        0.55,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.438879761024222,
+      "warning": null,
+      "chapter_sentence_start": 96,
+      "chapter_sentence_end": 96,
+      "timeline_start_index": 10768,
+      "timeline_end_index": 10768,
+      "highlights": [
+        {
+          "chapter_sentence": 96,
+          "start": 29,
+          "end": 90
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_19_0012",
+      "source_section": "chapter_04_19",
+      "source_sentence": 101,
+      "character_position": 482,
+      "text": "я не хочу…",
+      "vad": [
+        -0.65,
+        0.1,
+        0.45
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.5370596723786862,
+      "warning": null,
+      "chapter_sentence_start": 101,
+      "chapter_sentence_end": 101,
+      "timeline_start_index": 10773,
+      "timeline_end_index": 10773,
+      "highlights": [
+        {
+          "chapter_sentence": 101,
+          "start": 16,
+          "end": 26
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_19_0013",
+      "source_section": "chapter_04_19",
+      "source_sentence": 103,
+      "character_position": 483,
+      "text": "видимо сделав над собой усилие",
+      "vad": [
+        -0.35,
+        0.35,
+        0.45
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.4973288980865402,
+      "warning": null,
+      "chapter_sentence_start": 103,
+      "chapter_sentence_end": 103,
+      "timeline_start_index": 10775,
+      "timeline_end_index": 10775,
+      "highlights": [
+        {
+          "chapter_sentence": 103,
+          "start": 113,
+          "end": 143
+        }
+      ]
+    }
+  ]
+}

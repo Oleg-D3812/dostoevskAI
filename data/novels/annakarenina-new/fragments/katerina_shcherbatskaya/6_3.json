@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "6_3",
+  "count": 9,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_03_0001",
+      "source_section": "chapter_06_03",
+      "source_sentence": 1,
+      "character_position": 437,
+      "text": "была в особенности рада случаю побыть с глазу на глаз с мужем",
+      "vad": [
+        0.82,
+        0.2,
+        0.25
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.221040491848972,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 14042,
+      "timeline_end_index": 14042,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 5,
+          "end": 66
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_03_0002",
+      "source_section": "chapter_06_03",
+      "source_sentence": 5,
+      "character_position": 438,
+      "text": "В голосе, как и во взгляде, была мягкость и серьезность",
+      "vad": [
+        0.35,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.3631168348420323,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 14046,
+      "timeline_end_index": 14046,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 0,
+          "end": 55
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_03_0003",
+      "source_section": "chapter_06_03",
+      "source_sentence": 8,
+      "character_position": 439,
+      "text": "Нет, я так рада случаю побыть с тобою наедине, и, признаюсь, как мне ни хорошо с ними, жалко наших зимних вечеров вдвоем.",
+      "vad": [
+        0.55,
+        0.2,
+        0.25
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.1798013328371057,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 14049,
+      "timeline_end_index": 14049,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 2,
+          "end": 123
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_03_0004",
+      "source_section": "chapter_06_03",
+      "source_sentence": 18,
+      "character_position": 440,
+      "text": "Я очень желаю этого",
+      "vad": [
+        0.7,
+        0.45,
+        -0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2873666197426565,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 14059,
+      "timeline_end_index": 14059,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 0,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_03_0006",
+      "source_section": "chapter_06_03",
+      "source_sentence": 47,
+      "character_position": 441,
+      "text": "Я иногда упрекаю себя",
+      "vad": [
+        -0.45,
+        0.2,
+        0.15
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.2468212909247085,
+      "warning": null,
+      "chapter_sentence_start": 47,
+      "chapter_sentence_end": 47,
+      "timeline_start_index": 14088,
+      "timeline_end_index": 14088,
+      "highlights": [
+        {
+          "chapter_sentence": 47,
+          "start": 2,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_03_0007",
+      "source_section": "chapter_06_03",
+      "source_sentence": 60,
+      "character_position": 442,
+      "text": "с насмешливою, любовною улыбкой сказала Кити",
+      "vad": [
+        0.55,
+        0.2,
+        0.35
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2570348535013729,
+      "warning": null,
+      "chapter_sentence_start": 60,
+      "chapter_sentence_end": 60,
+      "timeline_start_index": 14101,
+      "timeline_end_index": 14101,
+      "highlights": [
+        {
+          "chapter_sentence": 60,
+          "start": 2,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_03_0008",
+      "source_section": "chapter_06_03",
+      "source_sentence": 62,
+      "character_position": 443,
+      "text": "она любила это в нем",
+      "vad": [
+        0.8,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2139823238069313,
+      "warning": null,
+      "chapter_sentence_start": 62,
+      "chapter_sentence_end": 62,
+      "timeline_start_index": 14103,
+      "timeline_end_index": 14103,
+      "highlights": [
+        {
+          "chapter_sentence": 62,
+          "start": 186,
+          "end": 206
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_03_0010",
+      "source_section": "chapter_06_03",
+      "source_sentence": 99,
+      "character_position": 444,
+      "text": "мне ужасно хочется",
+      "vad": [
+        0.7,
+        0.7,
+        -0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.5324406786225344,
+      "warning": null,
+      "chapter_sentence_start": 99,
+      "chapter_sentence_end": 99,
+      "timeline_start_index": 14140,
+      "timeline_end_index": 14140,
+      "highlights": [
+        {
+          "chapter_sentence": 99,
+          "start": 7,
+          "end": 25
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_06_03_0011",
+      "source_section": "chapter_06_03",
+      "source_sentence": 105,
+      "character_position": 445,
+      "text": "с волнением следившая за его пальцами",
+      "vad": [
+        0.35,
+        0.65,
+        -0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.5789079602691564,
+      "warning": null,
+      "chapter_sentence_start": 105,
+      "chapter_sentence_end": 105,
+      "timeline_start_index": 14146,
+      "timeline_end_index": 14146,
+      "highlights": [
+        {
+          "chapter_sentence": 105,
+          "start": 44,
+          "end": 81
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "1_14",
+  "count": 13,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_01_14_0001",
+      "source_section": "chapter_01_14",
+      "source_sentence": 52,
+      "character_position": 7,
+      "text": "с добродушно-красивым, чрезвычайно спокойным и твердым лицом",
+      "vad": [
+        0.7,
+        -0.65,
+        0.7
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 1.0763582402409562,
+      "warning": null,
+      "chapter_sentence_start": 52,
+      "chapter_sentence_end": 52,
+      "timeline_start_index": 1277,
+      "timeline_end_index": 1277,
+      "highlights": [
+        {
+          "chapter_sentence": 52,
+          "start": 49,
+          "end": 109
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_14_0002",
+      "source_section": "chapter_01_14",
+      "source_sentence": 55,
+      "character_position": 8,
+      "text": "красивые глаза его особенно нежно заблестели, и с чуть заметною счастливою и скромно-торжествующею улыбкой",
+      "vad": [
+        0.85,
+        0.45,
+        0.4
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.2931405104301847,
+      "warning": null,
+      "chapter_sentence_start": 55,
+      "chapter_sentence_end": 55,
+      "timeline_start_index": 1280,
+      "timeline_end_index": 1280,
+      "highlights": [
+        {
+          "chapter_sentence": 55,
+          "start": 34,
+          "end": 140
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_14_0003",
+      "source_section": "chapter_01_14",
+      "source_sentence": 60,
+      "character_position": 9,
+      "text": "дружелюбно глядя в глаза Левину",
+      "vad": [
+        0.7,
+        0.2,
+        0.5
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.3080154340542042,
+      "warning": null,
+      "chapter_sentence_start": 60,
+      "chapter_sentence_end": 60,
+      "timeline_start_index": 1285,
+      "timeline_end_index": 1285,
+      "highlights": [
+        {
+          "chapter_sentence": 60,
+          "start": 18,
+          "end": 49
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_14_0004",
+      "source_section": "chapter_01_14",
+      "source_sentence": 61,
+      "character_position": 10,
+      "text": "улыбаясь своею простою и открытою улыбкой",
+      "vad": [
+        0.7,
+        0.2,
+        0.4
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.2181192035434819,
+      "warning": null,
+      "chapter_sentence_start": 61,
+      "chapter_sentence_end": 61,
+      "timeline_start_index": 1286,
+      "timeline_end_index": 1286,
+      "highlights": [
+        {
+          "chapter_sentence": 61,
+          "start": 66,
+          "end": 107
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_14_0005",
+      "source_section": "chapter_01_14",
+      "source_sentence": 69,
+      "character_position": 11,
+      "text": "Я люблю деревню",
+      "vad": [
+        0.7,
+        -0.2,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.5229580077439624,
+      "warning": null,
+      "chapter_sentence_start": 69,
+      "chapter_sentence_end": 69,
+      "timeline_start_index": 1294,
+      "timeline_end_index": 1294,
+      "highlights": [
+        {
+          "chapter_sentence": 69,
+          "start": 2,
+          "end": 17
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_14_0006",
+      "source_section": "chapter_01_14",
+      "source_sentence": 72,
+      "character_position": 12,
+      "text": "Я испытал странное чувство",
+      "vad": [
+        0.0,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.3616923075306064,
+      "warning": null,
+      "chapter_sentence_start": 72,
+      "chapter_sentence_end": 72,
+      "timeline_start_index": 1297,
+      "timeline_end_index": 1297,
+      "highlights": [
+        {
+          "chapter_sentence": 72,
+          "start": 0,
+          "end": 26
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_14_0007",
+      "source_section": "chapter_01_14",
+      "source_sentence": 73,
+      "character_position": 13,
+      "text": "Я нигде так не скучал по деревне, русской деревне, с лаптями и мужиками, как прожив с матушкой зиму в Ницце",
+      "vad": [
+        -0.55,
+        -0.2,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.4125813703773897,
+      "warning": null,
+      "chapter_sentence_start": 73,
+      "chapter_sentence_end": 73,
+      "timeline_start_index": 1298,
+      "timeline_end_index": 1298,
+      "highlights": [
+        {
+          "chapter_sentence": 73,
+          "start": 2,
+          "end": 109
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_14_0008",
+      "source_section": "chapter_01_14",
+      "source_sentence": 78,
+      "character_position": 14,
+      "text": "свой спокойный и дружелюбный взгляд",
+      "vad": [
+        0.6,
+        -0.45,
+        0.2
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.7633289122499929,
+      "warning": null,
+      "chapter_sentence_start": 78,
+      "chapter_sentence_end": 78,
+      "timeline_start_index": 1303,
+      "timeline_end_index": 1303,
+      "highlights": [
+        {
+          "chapter_sentence": 78,
+          "start": 73,
+          "end": 108
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_14_0009",
+      "source_section": "chapter_01_14",
+      "source_sentence": 99,
+      "character_position": 15,
+      "text": "со своею открытою веселою улыбкой",
+      "vad": [
+        0.8,
+        0.3,
+        0.5
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.3137047938719528,
+      "warning": null,
+      "chapter_sentence_start": 99,
+      "chapter_sentence_end": 99,
+      "timeline_start_index": 1324,
+      "timeline_end_index": 1324,
+      "highlights": [
+        {
+          "chapter_sentence": 99,
+          "start": 177,
+          "end": 210
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_14_0010",
+      "source_section": "chapter_01_14",
+      "source_sentence": 105,
+      "character_position": 16,
+      "text": "очевидно, интересуясь его словами",
+      "vad": [
+        0.4,
+        0.25,
+        0.05
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.3234140505783074,
+      "warning": null,
+      "chapter_sentence_start": 105,
+      "chapter_sentence_end": 105,
+      "timeline_start_index": 1330,
+      "timeline_end_index": 1330,
+      "highlights": [
+        {
+          "chapter_sentence": 105,
+          "start": 58,
+          "end": 91
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_14_0011",
+      "source_section": "chapter_01_14",
+      "source_sentence": 110,
+      "character_position": 17,
+      "text": "весело улыбнулся",
+      "vad": [
+        0.7,
+        0.4,
+        0.5
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.3016167786601382,
+      "warning": null,
+      "chapter_sentence_start": 110,
+      "chapter_sentence_end": 110,
+      "timeline_start_index": 1335,
+      "timeline_end_index": 1335,
+      "highlights": [
+        {
+          "chapter_sentence": 110,
+          "start": 148,
+          "end": 164
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_14_0013",
+      "source_section": "chapter_01_14",
+      "source_sentence": 134,
+      "character_position": 18,
+      "text": "с дружелюбным недоумением посмотрел на ее отца",
+      "vad": [
+        0.25,
+        0.15,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.4657943931677467,
+      "warning": null,
+      "chapter_sentence_start": 134,
+      "chapter_sentence_end": 134,
+      "timeline_start_index": 1359,
+      "timeline_end_index": 1359,
+      "highlights": [
+        {
+          "chapter_sentence": 134,
+          "start": 91,
+          "end": 137
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_01_14_0014",
+      "source_section": "chapter_01_14",
+      "source_sentence": 140,
+      "character_position": 19,
+      "text": "посмотрел с удивлением на князя",
+      "vad": [
+        0.0,
+        0.35,
+        0.05
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.4179006017651575,
+      "warning": null,
+      "chapter_sentence_start": 140,
+      "chapter_sentence_end": 140,
+      "timeline_start_index": 1365,
+      "timeline_end_index": 1365,
+      "highlights": [
+        {
+          "chapter_sentence": 140,
+          "start": 9,
+          "end": 40
+        }
+      ]
+    }
+  ]
+}

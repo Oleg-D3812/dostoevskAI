@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "1_15",
+  "count": 13,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_15_0001",
+      "source_section": "chapter_01_15",
+      "source_sentence": 1,
+      "character_position": 54,
+      "text": "всю жалость, которую она испытывала к Левину",
+      "vad": [
+        -0.35,
+        0.15,
+        -0.15
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.2352623668007422,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 1369,
+      "timeline_end_index": 1369,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 86,
+          "end": 130
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_15_0002",
+      "source_section": "chapter_01_15",
+      "source_sentence": 1,
+      "character_position": 55,
+      "text": "ее радовала мысль, что ей было сделано предложение",
+      "vad": [
+        0.65,
+        0.25,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.0476829840648079,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 1369,
+      "timeline_end_index": 1369,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 132,
+          "end": 182
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_15_0003",
+      "source_section": "chapter_01_15",
+      "source_sentence": 2,
+      "character_position": 56,
+      "text": "У нее не было сомнения",
+      "vad": [
+        0.2,
+        -0.2,
+        0.8
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.918440303862479,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 1370,
+      "timeline_end_index": 1370,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 0,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_15_0004",
+      "source_section": "chapter_01_15",
+      "source_sentence": 4,
+      "character_position": 57,
+      "text": "Одно впечатление неотступно преследовало ее",
+      "vad": [
+        -0.35,
+        0.45,
+        -0.3
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.3804781160173145,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 1372,
+      "timeline_end_index": 1372,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 0,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_15_0005",
+      "source_section": "chapter_01_15",
+      "source_sentence": 6,
+      "character_position": 58,
+      "text": "ей так жалко стало его, что слезы навернулись на глаза",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.35
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.1151188985919718,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 1374,
+      "timeline_end_index": 1374,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 2,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_15_0006",
+      "source_section": "chapter_01_15",
+      "source_sentence": 8,
+      "character_position": 59,
+      "text": "того, кого она любила",
+      "vad": [
+        0.85,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2442145687237349,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 1376,
+      "timeline_end_index": 1376,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 141,
+          "end": 162
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_15_0007",
+      "source_section": "chapter_01_15",
+      "source_sentence": 8,
+      "character_position": 60,
+      "text": "ей опять стало радостно на душе, и она с улыбкой счастия легла на подушку",
+      "vad": [
+        0.9,
+        0.4,
+        0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2794800708589069,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 1376,
+      "timeline_end_index": 1376,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 166,
+          "end": 239
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_15_0008",
+      "source_section": "chapter_01_15",
+      "source_sentence": 9,
+      "character_position": 61,
+      "text": "Жалко, жалко",
+      "vad": [
+        -0.65,
+        0.25,
+        -0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.3485920334099002,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 1377,
+      "timeline_end_index": 1377,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 1,
+          "end": 13
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_15_0009",
+      "source_section": "chapter_01_15",
+      "source_sentence": 11,
+      "character_position": 62,
+      "text": "В том ли она раскаивалась, что завлекла Левина, или в том, что отказала",
+      "vad": [
+        -0.35,
+        0.3,
+        -0.45
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.399345814945083,
+      "warning": "non_verbatim_evidence",
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 1379,
+      "timeline_end_index": 1379,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 0,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_15_0010",
+      "source_section": "chapter_01_15",
+      "source_sentence": 11,
+      "character_position": 63,
+      "text": "она не знала",
+      "vad": [
+        -0.2,
+        0.0,
+        -0.4
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.4675028422891956,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 1379,
+      "timeline_end_index": 1379,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 75,
+          "end": 87
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_15_0011",
+      "source_section": "chapter_01_15",
+      "source_sentence": 12,
+      "character_position": 64,
+      "text": "счастье ее было отравлено сомнениями",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.3
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.2095463294448634,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 1380,
+      "timeline_end_index": 1380,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 3,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_15_0012",
+      "source_section": "chapter_01_15",
+      "source_sentence": 28,
+      "character_position": 65,
+      "text": "вскружили голову девчонке",
+      "vad": [
+        -0.7,
+        0.65,
+        0.45
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.8164587927017845,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 1396,
+      "timeline_end_index": 1396,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 42,
+          "end": 67
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_15_0014",
+      "source_section": "chapter_01_15",
+      "source_sentence": 57,
+      "character_position": 66,
+      "text": "как и Кити, с ужасом пред неизвестностью будущего",
+      "vad": [
+        -0.85,
+        0.75,
+        -0.65
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.3615581155573583,
+      "warning": null,
+      "chapter_sentence_start": 57,
+      "chapter_sentence_end": 57,
+      "timeline_start_index": 1425,
+      "timeline_end_index": 1425,
+      "highlights": [
+        {
+          "chapter_sentence": 57,
+          "start": 40,
+          "end": 89
+        }
+      ]
+    }
+  ]
+}

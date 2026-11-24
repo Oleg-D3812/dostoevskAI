@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "6_7",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_06_07_0001",
+      "source_section": "chapter_06_07",
+      "source_sentence": 91,
+      "character_position": 188,
+      "text": "пришедший в свое самое милое и поэтическое настроение",
+      "vad": [
+        0.85,
+        0.4,
+        0.2
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.2323517049100985,
+      "warning": null,
+      "chapter_sentence_start": 91,
+      "chapter_sentence_end": 91,
+      "timeline_start_index": 14451,
+      "timeline_end_index": 14451,
+      "highlights": [
+        {
+          "chapter_sentence": 91,
+          "start": 75,
+          "end": 128
+        }
+      ]
+    }
+  ]
+}

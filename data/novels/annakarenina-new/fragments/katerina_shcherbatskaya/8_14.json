@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "8_14",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_08_14_0001",
+      "source_section": "chapter_08_14",
+      "source_sentence": 7,
+      "character_position": 560,
+      "text": "жена, вероятно, беспокоится его долгим отсутствием",
+      "vad": [
+        -0.3,
+        0.2,
+        -0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.1928824626309549,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 20449,
+      "timeline_end_index": 20449,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 173,
+          "end": 223
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_08_14_0003",
+      "source_section": "chapter_08_14",
+      "source_sentence": 39,
+      "character_position": 561,
+      "text": "Она думала, что ты там",
+      "vad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.2707804746343674,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 20481,
+      "timeline_end_index": 20481,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 0,
+          "end": 22
+        }
+      ]
+    }
+  ]
+}

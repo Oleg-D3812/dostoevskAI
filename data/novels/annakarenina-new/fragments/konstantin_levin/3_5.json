@@ -1,0 +1,451 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "3_5",
+  "count": 17,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_03_05_0002",
+      "source_section": "chapter_03_05",
+      "source_sentence": 9,
+      "character_position": 369,
+      "text": "минуты бессознательного состояния",
+      "vad": [
+        0.25,
+        -0.2,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5713800897822748,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 6520,
+      "timeline_end_index": 6520,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 162,
+          "end": 195
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_05_0003",
+      "source_section": "chapter_03_05",
+      "source_sentence": 11,
+      "character_position": 370,
+      "text": "счастливые минуты",
+      "vad": [
+        0.9,
+        0.3,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2218901971856135,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 6522,
+      "timeline_end_index": 6522,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 9,
+          "end": 26
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_05_0004",
+      "source_section": "chapter_03_05",
+      "source_sentence": 12,
+      "character_position": 371,
+      "text": "Еще радостнее были минуты",
+      "vad": [
+        0.8,
+        0.3,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.1991175925449132,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 6523,
+      "timeline_end_index": 6523,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 0,
+          "end": 25
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_05_0005",
+      "source_section": "chapter_03_05",
+      "source_sentence": 17,
+      "character_position": 372,
+      "text": "блаженная медленная прогулка",
+      "vad": [
+        0.85,
+        -0.35,
+        0.15
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.7002576812468299,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 6528,
+      "timeline_end_index": 6528,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 31,
+          "end": 59
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_05_0006",
+      "source_section": "chapter_03_05",
+      "source_sentence": 18,
+      "character_position": 373,
+      "text": "чувствовал минуты забытья",
+      "vad": [
+        0.35,
+        -0.35,
+        -0.15
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.7588630916616319,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 6529,
+      "timeline_end_index": 6529,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 42,
+          "end": 67
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_05_0007",
+      "source_section": "chapter_03_05",
+      "source_sentence": 19,
+      "character_position": 374,
+      "text": "самые блаженные минуты",
+      "vad": [
+        0.95,
+        0.35,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2698277385407109,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 6530,
+      "timeline_end_index": 6530,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 9,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_05_0009",
+      "source_section": "chapter_03_05",
+      "source_sentence": 25,
+      "character_position": 375,
+      "text": "Они оба, наладив одно напряженное движение, находились в азарте работы",
+      "vad": [
+        0.6,
+        0.8,
+        0.45
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.558930604853633,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 6536,
+      "timeline_end_index": 6536,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 0,
+          "end": 70
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_05_0010",
+      "source_section": "chapter_03_05",
+      "source_sentence": 26,
+      "character_position": 376,
+      "text": "Левин не замечал, как проходило время",
+      "vad": [
+        0.2,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.4885572375937913,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 6537,
+      "timeline_end_index": 6537,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 0,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_05_0011",
+      "source_section": "chapter_03_05",
+      "source_sentence": 36,
+      "character_position": 377,
+      "text": "ему не хотелось уезжать",
+      "vad": [
+        0.25,
+        -0.15,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5489471424335847,
+      "warning": null,
+      "chapter_sentence_start": 36,
+      "chapter_sentence_end": 36,
+      "timeline_start_index": 6547,
+      "timeline_end_index": 6547,
+      "highlights": [
+        {
+          "chapter_sentence": 36,
+          "start": 20,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_05_0013",
+      "source_section": "chapter_03_05",
+      "source_sentence": 43,
+      "character_position": 378,
+      "text": "принимая в них живейшее участие",
+      "vad": [
+        0.7,
+        0.4,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.0927522108176117,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 6554,
+      "timeline_end_index": 6554,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 67,
+          "end": 98
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_05_0014",
+      "source_section": "chapter_03_05",
+      "source_sentence": 44,
+      "character_position": 379,
+      "text": "Он чувствовал себя более близким к нему, чем к брату",
+      "vad": [
+        0.75,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2874892307780386,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 6555,
+      "timeline_end_index": 6555,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 0,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_05_0015",
+      "source_section": "chapter_03_05",
+      "source_sentence": 44,
+      "character_position": 380,
+      "text": "нежности, которую он испытывал к этому человеку",
+      "vad": [
+        0.85,
+        0.25,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.1935618797984414,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 6555,
+      "timeline_end_index": 6555,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 77,
+          "end": 124
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_05_0016",
+      "source_section": "chapter_03_05",
+      "source_sentence": 50,
+      "character_position": 381,
+      "text": "Очнувшись",
+      "vad": [
+        0.0,
+        0.1,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.2583329485165856,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 50,
+      "timeline_start_index": 6561,
+      "timeline_end_index": 6561,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 0,
+          "end": 9
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_05_0018",
+      "source_section": "chapter_03_05",
+      "source_sentence": 54,
+      "character_position": 382,
+      "text": "досадно было на солнце",
+      "vad": [
+        -0.45,
+        0.2,
+        -0.25
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3530676235598383,
+      "warning": null,
+      "chapter_sentence_start": 54,
+      "chapter_sentence_end": 54,
+      "timeline_start_index": 6565,
+      "timeline_end_index": 6565,
+      "highlights": [
+        {
+          "chapter_sentence": 54,
+          "start": 59,
+          "end": 81
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_05_0019",
+      "source_section": "chapter_03_05",
+      "source_sentence": 55,
+      "character_position": 383,
+      "text": "Он не чувствовал никакой усталости",
+      "vad": [
+        0.75,
+        0.7,
+        0.65
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.6181719865042011,
+      "warning": null,
+      "chapter_sentence_start": 55,
+      "chapter_sentence_end": 55,
+      "timeline_start_index": 6566,
+      "timeline_end_index": 6566,
+      "highlights": [
+        {
+          "chapter_sentence": 55,
+          "start": 0,
+          "end": 34
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_05_0020",
+      "source_section": "chapter_03_05",
+      "source_sentence": 55,
+      "character_position": 384,
+      "text": "ему только хотелось еще и еще поскорее и как можно больше сработать",
+      "vad": [
+        0.6,
+        0.8,
+        0.7
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.7213852608590287,
+      "warning": null,
+      "chapter_sentence_start": 55,
+      "chapter_sentence_end": 55,
+      "timeline_start_index": 6566,
+      "timeline_end_index": 6566,
+      "highlights": [
+        {
+          "chapter_sentence": 55,
+          "start": 36,
+          "end": 103
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_05_0021",
+      "source_section": "chapter_03_05",
+      "source_sentence": 94,
+      "character_position": 385,
+      "text": "Он чувствовал, что какая-то внешняя сила двигала им",
+      "vad": [
+        -0.1,
+        0.2,
+        -0.7
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.674506867994894,
+      "warning": null,
+      "chapter_sentence_start": 94,
+      "chapter_sentence_end": 94,
+      "timeline_start_index": 6605,
+      "timeline_end_index": 6605,
+      "highlights": [
+        {
+          "chapter_sentence": 94,
+          "start": 0,
+          "end": 51
+        }
+      ]
+    }
+  ]
+}

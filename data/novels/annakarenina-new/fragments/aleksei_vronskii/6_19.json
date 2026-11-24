@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "6_19",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_06_19_0001",
+      "source_section": "chapter_06_19",
+      "source_sentence": 49,
+      "character_position": 486,
+      "text": "Это мучает Алексея.",
+      "vad": [
+        -0.85,
+        0.65,
+        -0.55
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.2746015719540609,
+      "warning": null,
+      "chapter_sentence_start": 49,
+      "chapter_sentence_end": 49,
+      "timeline_start_index": 15711,
+      "timeline_end_index": 15711,
+      "highlights": [
+        {
+          "chapter_sentence": 49,
+          "start": 0,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_19_0002",
+      "source_section": "chapter_06_19",
+      "source_sentence": 105,
+      "character_position": 487,
+      "text": "Алексею нужна публика",
+      "vad": [
+        0.1,
+        0.0,
+        0.2
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.408425043365933,
+      "warning": null,
+      "chapter_sentence_start": 105,
+      "chapter_sentence_end": 105,
+      "timeline_start_index": 15767,
+      "timeline_end_index": 15767,
+      "highlights": [
+        {
+          "chapter_sentence": 105,
+          "start": 32,
+          "end": 53
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_19_0003",
+      "source_section": "chapter_06_19",
+      "source_sentence": 106,
+      "character_position": 488,
+      "text": "Алексей не желал ничего нового",
+      "vad": [
+        -0.3,
+        -0.2,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.2895369313320241,
+      "warning": null,
+      "chapter_sentence_start": 106,
+      "chapter_sentence_end": 106,
+      "timeline_start_index": 15768,
+      "timeline_end_index": 15768,
+      "highlights": [
+        {
+          "chapter_sentence": 106,
+          "start": 48,
+          "end": 78
+        }
+      ]
+    }
+  ]
+}

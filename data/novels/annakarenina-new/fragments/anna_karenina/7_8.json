@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "7_8",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_07_08_0001",
+      "source_section": "chapter_07_08",
+      "source_sentence": 42,
+      "character_position": 823,
+      "text": "Она не то что скучает, но эта неопределенность, нерешительность положения",
+      "vad": [
+        -0.35,
+        0.1,
+        -0.4
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.3965596579125732,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 17591,
+      "timeline_end_index": 17591,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 2,
+          "end": 75
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_07_08_0002",
+      "source_section": "chapter_07_08",
+      "source_sentence": 62,
+      "character_position": 824,
+      "text": "Она будет очень рада.",
+      "vad": [
+        0.8,
+        0.2,
+        0.2
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.2122538400542803,
+      "warning": null,
+      "chapter_sentence_start": 62,
+      "chapter_sentence_end": 62,
+      "timeline_start_index": 17611,
+      "timeline_end_index": 17611,
+      "highlights": [
+        {
+          "chapter_sentence": 62,
+          "start": 2,
+          "end": 23
+        }
+      ]
+    }
+  ]
+}

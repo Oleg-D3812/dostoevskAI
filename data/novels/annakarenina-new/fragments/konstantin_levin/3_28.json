@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "3_28",
+  "count": 13,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_03_28_0001",
+      "source_section": "chapter_03_28",
+      "source_sentence": 1,
+      "character_position": 488,
+      "text": "Левину невыносимо скучно было в этот вечер с дамами",
+      "vad": [
+        -0.8,
+        0.2,
+        -0.1
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4093851403910191,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 8518,
+      "timeline_end_index": 8518,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 0,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_28_0002",
+      "source_section": "chapter_03_28",
+      "source_sentence": 1,
+      "character_position": 489,
+      "text": "его, как никогда прежде, волновала мысль о том, что то недовольство хозяйством, которое он теперь испытывал",
+      "vad": [
+        -0.45,
+        0.65,
+        -0.1
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4380548378043995,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 8518,
+      "timeline_end_index": 8518,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 53,
+          "end": 160
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_28_0003",
+      "source_section": "chapter_03_28",
+      "source_sentence": 13,
+      "character_position": 490,
+      "text": "Левина занимала теперь больше всего мысль о хозяйстве",
+      "vad": [
+        0.05,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3322719940535854,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 8530,
+      "timeline_end_index": 8530,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 20,
+          "end": 73
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_28_0004",
+      "source_section": "chapter_03_28",
+      "source_sentence": 19,
+      "character_position": 491,
+      "text": "меня очень заинтересовал сердитый помещик",
+      "vad": [
+        0.45,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2836340319696759,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 8536,
+      "timeline_end_index": 8536,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 9,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_28_0005",
+      "source_section": "chapter_03_28",
+      "source_sentence": 26,
+      "character_position": 492,
+      "text": "Меня очень занимает вот что",
+      "vad": [
+        0.2,
+        0.45,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.5233706850377139,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 8543,
+      "timeline_end_index": 8543,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 2,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_28_0006",
+      "source_section": "chapter_03_28",
+      "source_sentence": 52,
+      "character_position": 493,
+      "text": "с горячностью возразил Левин",
+      "vad": [
+        -0.25,
+        0.78,
+        0.42
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.8025134589749086,
+      "warning": null,
+      "chapter_sentence_start": 52,
+      "chapter_sentence_end": 52,
+      "timeline_start_index": 8569,
+      "timeline_end_index": 8569,
+      "highlights": [
+        {
+          "chapter_sentence": 52,
+          "start": 36,
+          "end": 64
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_28_0007",
+      "source_section": "chapter_03_28",
+      "source_sentence": 65,
+      "character_position": 494,
+      "text": "с досадой сказал Левин",
+      "vad": [
+        -0.55,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4134000970597013,
+      "warning": null,
+      "chapter_sentence_start": 65,
+      "chapter_sentence_end": 65,
+      "timeline_start_index": 8582,
+      "timeline_end_index": 8582,
+      "highlights": [
+        {
+          "chapter_sentence": 65,
+          "start": 2,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_28_0008",
+      "source_section": "chapter_03_28",
+      "source_sentence": 70,
+      "character_position": 495,
+      "text": "я очень рад или, напротив, очень не рад, что сошелся со Спенсером",
+      "vad": [
+        0.0,
+        0.35,
+        -0.15
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4245583189545989,
+      "warning": null,
+      "chapter_sentence_start": 70,
+      "chapter_sentence_end": 70,
+      "timeline_start_index": 8587,
+      "timeline_end_index": 8587,
+      "highlights": [
+        {
+          "chapter_sentence": 70,
+          "start": 10,
+          "end": 75
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_28_0009",
+      "source_section": "chapter_03_28",
+      "source_sentence": 84,
+      "character_position": 496,
+      "text": "не интересовал Левина",
+      "vad": [
+        -0.35,
+        0.05,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.1112461719698156,
+      "warning": null,
+      "chapter_sentence_start": 84,
+      "chapter_sentence_end": 84,
+      "timeline_start_index": 8601,
+      "timeline_end_index": 8601,
+      "highlights": [
+        {
+          "chapter_sentence": 84,
+          "start": 68,
+          "end": 89
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_28_0010",
+      "source_section": "chapter_03_28",
+      "source_sentence": 81,
+      "character_position": 497,
+      "text": "сильно взволновали Левина",
+      "vad": [
+        -0.35,
+        0.78,
+        0.05
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.6596218897699128,
+      "warning": null,
+      "chapter_sentence_start": 81,
+      "chapter_sentence_end": 81,
+      "timeline_start_index": 8598,
+      "timeline_end_index": 8598,
+      "highlights": [
+        {
+          "chapter_sentence": 81,
+          "start": 140,
+          "end": 165
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_28_0011",
+      "source_section": "chapter_03_28",
+      "source_sentence": 82,
+      "character_position": 498,
+      "text": "собственное недовольство своею деятельностью и смутная надежда найти поправку всему этому — все это сливалось в чувство внутренней тревоги и ожидания близкого разрешения",
+      "vad": [
+        -0.35,
+        0.55,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3980349649357225,
+      "warning": null,
+      "chapter_sentence_start": 82,
+      "chapter_sentence_end": 82,
+      "timeline_start_index": 8599,
+      "timeline_end_index": 8599,
+      "highlights": [
+        {
+          "chapter_sentence": 82,
+          "start": 421,
+          "end": 590
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_28_0012",
+      "source_section": "chapter_03_28",
+      "source_sentence": 94,
+      "character_position": 499,
+      "text": "Мысль эта привела Левина в сильное волнение",
+      "vad": [
+        0.55,
+        0.82,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.509415223047507,
+      "warning": null,
+      "chapter_sentence_start": 94,
+      "chapter_sentence_end": 94,
+      "timeline_start_index": 8611,
+      "timeline_end_index": 8611,
+      "highlights": [
+        {
+          "chapter_sentence": 94,
+          "start": 0,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_03_28_0013",
+      "source_section": "chapter_03_28",
+      "source_sentence": 97,
+      "character_position": 500,
+      "text": "эта свояченица с вырезом в платье производила в нем чувство, подобное стыду и раскаянию в совершенном дурном поступке",
+      "vad": [
+        -0.75,
+        0.45,
+        -0.35
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1069197517364444,
+      "warning": null,
+      "chapter_sentence_start": 97,
+      "chapter_sentence_end": 97,
+      "timeline_start_index": 8614,
+      "timeline_end_index": 8614,
+      "highlights": [
+        {
+          "chapter_sentence": 97,
+          "start": 12,
+          "end": 129
+        }
+      ]
+    }
+  ]
+}

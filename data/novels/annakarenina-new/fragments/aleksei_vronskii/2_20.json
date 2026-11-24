@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "2_20",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_02_20_0002",
+      "source_section": "chapter_02_20",
+      "source_sentence": 65,
+      "character_position": 139,
+      "text": "Что им за дело!",
+      "vad": [
+        -0.55,
+        0.35,
+        0.65
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.6075145287533479,
+      "warning": null,
+      "chapter_sentence_start": 65,
+      "chapter_sentence_end": 65,
+      "timeline_start_index": 4733,
+      "timeline_end_index": 4733,
+      "highlights": [
+        {
+          "chapter_sentence": 65,
+          "start": 1,
+          "end": 16
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_20_0003",
+      "source_section": "chapter_02_20",
+      "source_sentence": 100,
+      "character_position": 140,
+      "text": "Он весело засмеялся",
+      "vad": [
+        0.75,
+        0.55,
+        0.2
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.252781132610861,
+      "warning": null,
+      "chapter_sentence_start": 100,
+      "chapter_sentence_end": 100,
+      "timeline_start_index": 4768,
+      "timeline_end_index": 4768,
+      "highlights": [
+        {
+          "chapter_sentence": 100,
+          "start": 0,
+          "end": 19
+        }
+      ]
+    }
+  ]
+}

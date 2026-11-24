@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "5_13",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_05_13_0002",
+      "source_section": "chapter_05_13",
+      "source_sentence": 14,
+      "character_position": 574,
+      "text": "Анна была более, чем к другим, ласкова к нему и благодарна за свой портрет",
+      "vad": [
+        0.75,
+        0.2,
+        0.05
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.205899368043336,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 12091,
+      "timeline_end_index": 12091,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 0,
+          "end": 74
+        }
+      ]
+    }
+  ]
+}

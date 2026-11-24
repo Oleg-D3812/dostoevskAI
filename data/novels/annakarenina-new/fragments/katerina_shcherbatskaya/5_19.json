@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "5_19",
+  "count": 14,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_19_0003",
+      "source_section": "chapter_05_19",
+      "source_sentence": 8,
+      "character_position": 402,
+      "text": "ни секунды не сомневаясь, знали, как надо действовать с умирающими, и не боялись их",
+      "vad": [
+        0.55,
+        0.1,
+        0.85
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.7495986523087966,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 12521,
+      "timeline_end_index": 12521,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 91,
+          "end": 174
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_19_0004",
+      "source_section": "chapter_05_19",
+      "source_sentence": 16,
+      "character_position": 403,
+      "text": "Кити же, очевидно, не думала и не имела времени думать о себе; она думала о нем",
+      "vad": [
+        0.1,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.4034795529562057,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 12529,
+      "timeline_end_index": 12529,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 0,
+          "end": 79
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_19_0005",
+      "source_section": "chapter_05_19",
+      "source_sentence": 17,
+      "character_position": 404,
+      "text": "и улыбалась, и жалела, и ласкала его",
+      "vad": [
+        0.65,
+        0.3,
+        0.35
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2192031894780309,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 12530,
+      "timeline_end_index": 12530,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 48,
+          "end": 84
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_19_0006",
+      "source_section": "chapter_05_19",
+      "source_sentence": 17,
+      "character_position": 405,
+      "text": "стало быть, она знала",
+      "vad": [
+        0.05,
+        0.0,
+        0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.3443333943953808,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 12530,
+      "timeline_end_index": 12530,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 145,
+          "end": 166
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_19_0007",
+      "source_section": "chapter_05_19",
+      "source_sentence": 24,
+      "character_position": 406,
+      "text": "была оживленнее обыкновенного",
+      "vad": [
+        0.45,
+        0.55,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.3355759522253351,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 12537,
+      "timeline_end_index": 12537,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 9,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_19_0008",
+      "source_section": "chapter_05_19",
+      "source_sentence": 26,
+      "character_position": 407,
+      "text": "В ней было возбуждение и быстрота соображения",
+      "vad": [
+        0.2,
+        0.8,
+        0.4
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.7370023074228053,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 12539,
+      "timeline_end_index": 12539,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 0,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_19_0009",
+      "source_section": "chapter_05_19",
+      "source_sentence": 31,
+      "character_position": 408,
+      "text": "Я очень рада",
+      "vad": [
+        0.8,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.1496248342353562,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 12544,
+      "timeline_end_index": 12544,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 2,
+          "end": 14
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_19_0010",
+      "source_section": "chapter_05_19",
+      "source_sentence": 37,
+      "character_position": 409,
+      "text": "Я все-таки очень рада",
+      "vad": [
+        0.8,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.1622281441883412,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 12550,
+      "timeline_end_index": 12550,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 0,
+          "end": 21
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_19_0011",
+      "source_section": "chapter_05_19",
+      "source_sentence": 39,
+      "character_position": 410,
+      "text": "с одинаковым спокойным сознанием, что это так нужно",
+      "vad": [
+        0.2,
+        -0.5,
+        0.4
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.8223000234714262,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 12552,
+      "timeline_end_index": 12552,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 184,
+          "end": 235
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_19_0012",
+      "source_section": "chapter_05_19",
+      "source_sentence": 40,
+      "character_position": 411,
+      "text": "она была твердо уверена",
+      "vad": [
+        0.2,
+        -0.1,
+        0.7
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.8092351568780386,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 12553,
+      "timeline_end_index": 12553,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 38,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_19_0014",
+      "source_section": "chapter_05_19",
+      "source_sentence": 45,
+      "character_position": 412,
+      "text": "покрасневшие от удовольствия щеки",
+      "vad": [
+        0.8,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2063481866707839,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 12558,
+      "timeline_end_index": 12558,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 96,
+          "end": 129
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_19_0016",
+      "source_section": "chapter_05_19",
+      "source_sentence": 52,
+      "character_position": 413,
+      "text": "Очень, очень верю",
+      "vad": [
+        0.55,
+        0.25,
+        0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.1299603813652408,
+      "warning": null,
+      "chapter_sentence_start": 52,
+      "chapter_sentence_end": 52,
+      "timeline_start_index": 12565,
+      "timeline_end_index": 12565,
+      "highlights": [
+        {
+          "chapter_sentence": 52,
+          "start": 2,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_19_0017",
+      "source_section": "chapter_05_19",
+      "source_sentence": 53,
+      "character_position": 414,
+      "text": "Как я чувствую",
+      "vad": [
+        0.0,
+        -0.1,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.3193636141998525,
+      "warning": null,
+      "chapter_sentence_start": 53,
+      "chapter_sentence_end": 53,
+      "timeline_start_index": 12566,
+      "timeline_end_index": 12566,
+      "highlights": [
+        {
+          "chapter_sentence": 53,
+          "start": 0,
+          "end": 14
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_19_0018",
+      "source_section": "chapter_05_19",
+      "source_sentence": 53,
+      "character_position": 415,
+      "text": "испугалась за то, что сказала, оглянулась на мужа, и слезы выступили ей на глаза",
+      "vad": [
+        -0.75,
+        0.65,
+        -0.45
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.164571630262284,
+      "warning": null,
+      "chapter_sentence_start": 53,
+      "chapter_sentence_end": 53,
+      "timeline_start_index": 12566,
+      "timeline_end_index": 12566,
+      "highlights": [
+        {
+          "chapter_sentence": 53,
+          "start": 57,
+          "end": 137
+        }
+      ]
+    }
+  ]
+}

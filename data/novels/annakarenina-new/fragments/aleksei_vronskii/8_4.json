@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "8_4",
+  "count": 8,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_08_04_0001",
+      "source_section": "chapter_08_04",
+      "source_sentence": 35,
+      "character_position": 647,
+      "text": "он был уже не свой",
+      "vad": [
+        -0.85,
+        0.7,
+        -0.75
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.4136205857846986,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 19976,
+      "timeline_end_index": 19976,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 33,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_08_04_0002",
+      "source_section": "chapter_08_04",
+      "source_sentence": 38,
+      "character_position": 648,
+      "text": "Prostration complète",
+      "vad": [
+        -0.95,
+        -0.8,
+        -0.85
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 1.3180394196425456,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 19979,
+      "timeline_end_index": 19979,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 20,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_08_04_0003",
+      "source_section": "chapter_08_04",
+      "source_sentence": 39,
+      "character_position": 649,
+      "text": "Потом началось почти бешенство",
+      "vad": [
+        -0.85,
+        0.9,
+        -0.7
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.5394584927311156,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 19980,
+      "timeline_end_index": 19980,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 0,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_08_04_0004",
+      "source_section": "chapter_08_04",
+      "source_sentence": 47,
+      "character_position": 650,
+      "text": "моего несчастного сына",
+      "vad": [
+        -0.85,
+        0.2,
+        -0.55
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.2928775647857554,
+      "warning": null,
+      "chapter_sentence_start": 47,
+      "chapter_sentence_end": 47,
+      "timeline_start_index": 19988,
+      "timeline_end_index": 19988,
+      "highlights": [
+        {
+          "chapter_sentence": 47,
+          "start": 54,
+          "end": 76
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_08_04_0005",
+      "source_section": "chapter_08_04",
+      "source_sentence": 52,
+      "character_position": 651,
+      "text": "его ужасно мучает",
+      "vad": [
+        -0.9,
+        0.8,
+        -0.7
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.4755530028427686,
+      "warning": null,
+      "chapter_sentence_start": 52,
+      "chapter_sentence_end": 52,
+      "timeline_start_index": 19993,
+      "timeline_end_index": 19993,
+      "highlights": [
+        {
+          "chapter_sentence": 52,
+          "start": 10,
+          "end": 27
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_08_04_0006",
+      "source_section": "chapter_08_04",
+      "source_sentence": 58,
+      "character_position": 652,
+      "text": "бедный сын мой",
+      "vad": [
+        -0.8,
+        0.25,
+        -0.55
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.2275839083432934,
+      "warning": null,
+      "chapter_sentence_start": 58,
+      "chapter_sentence_end": 58,
+      "timeline_start_index": 19999,
+      "timeline_end_index": 19999,
+      "highlights": [
+        {
+          "chapter_sentence": 58,
+          "start": 3,
+          "end": 17
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_08_04_0007",
+      "source_section": "chapter_08_04",
+      "source_sentence": 58,
+      "character_position": 653,
+      "text": "отдался весь ей",
+      "vad": [
+        -0.2,
+        0.45,
+        -0.75
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.5701295065341982,
+      "warning": null,
+      "chapter_sentence_start": 58,
+      "chapter_sentence_end": 58,
+      "timeline_start_index": 19999,
+      "timeline_end_index": 19999,
+      "highlights": [
+        {
+          "chapter_sentence": 58,
+          "start": 18,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_08_04_0010",
+      "source_section": "chapter_08_04",
+      "source_sentence": 72,
+      "character_position": 654,
+      "text": "Он так грустен",
+      "vad": [
+        -0.8,
+        -0.3,
+        -0.4
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.7470603431897931,
+      "warning": null,
+      "chapter_sentence_start": 72,
+      "chapter_sentence_end": 72,
+      "timeline_start_index": 20013,
+      "timeline_end_index": 20013,
+      "highlights": [
+        {
+          "chapter_sentence": 72,
+          "start": 0,
+          "end": 14
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1049 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "2_3",
+  "count": 40,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0001",
+      "source_section": "chapter_02_03",
+      "source_sentence": 3,
+      "character_position": 125,
+      "text": "холодное, несколько суровое выражение ее лица",
+      "vad": [
+        -0.45,
+        -0.2,
+        0.25
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.4104230323010799,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 3225,
+      "timeline_end_index": 3225,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 28,
+          "end": 73
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0002",
+      "source_section": "chapter_02_03",
+      "source_sentence": 7,
+      "character_position": 126,
+      "text": "испуганно подняв голову",
+      "vad": [
+        -0.7,
+        0.65,
+        -0.25
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.2496167874729373,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 3229,
+      "timeline_end_index": 3229,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 2,
+          "end": 25
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0003",
+      "source_section": "chapter_02_03",
+      "source_sentence": 8,
+      "character_position": 127,
+      "text": "о твоем горе",
+      "vad": [
+        -0.8,
+        0.3,
+        -0.4
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.2226742497173526,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 3230,
+      "timeline_end_index": 3230,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 16,
+          "end": 28
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0004",
+      "source_section": "chapter_02_03",
+      "source_sentence": 9,
+      "character_position": 128,
+      "text": "У меня нет горя.",
+      "vad": [
+        -0.2,
+        0.1,
+        0.4
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.3483698309662073,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 3231,
+      "timeline_end_index": 3231,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 2,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0005",
+      "source_section": "chapter_02_03",
+      "source_sentence": 15,
+      "character_position": 129,
+      "text": "лицо ее имело строгое выражение",
+      "vad": [
+        -0.25,
+        0.2,
+        0.35
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.312375806346429,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 3237,
+      "timeline_end_index": 3237,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 16,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0006",
+      "source_section": "chapter_02_03",
+      "source_sentence": 16,
+      "character_position": 130,
+      "text": "ты страдала из-за него",
+      "vad": [
+        -0.8,
+        0.4,
+        -0.5
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.148246686014063,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 3238,
+      "timeline_end_index": 3238,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 26,
+          "end": 48
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0007",
+      "source_section": "chapter_02_03",
+      "source_sentence": 23,
+      "character_position": 131,
+      "text": "ужаснее всего мне эти соболезнованья!",
+      "vad": [
+        -0.78,
+        0.58,
+        -0.32
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.1717314375870803,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 3245,
+      "timeline_end_index": 3245,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 6,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0008",
+      "source_section": "chapter_02_03",
+      "source_sentence": 24,
+      "character_position": 132,
+      "text": "вдруг рассердившись",
+      "vad": [
+        -0.75,
+        0.65,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.5687949030291193,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 3246,
+      "timeline_end_index": 3246,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 19,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0009",
+      "source_section": "chapter_02_03",
+      "source_sentence": 26,
+      "character_position": 133,
+      "text": "когда она приходила в горячность",
+      "vad": [
+        -0.45,
+        0.78,
+        -0.28
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.4138278439261119,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 3248,
+      "timeline_end_index": 3248,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 52,
+          "end": 84
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0010",
+      "source_section": "chapter_02_03",
+      "source_sentence": 26,
+      "character_position": 134,
+      "text": "в минуту горячности забыться",
+      "vad": [
+        -0.45,
+        0.7,
+        -0.55
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.3404303309801155,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 3248,
+      "timeline_end_index": 3248,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 120,
+          "end": 148
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0011",
+      "source_section": "chapter_02_03",
+      "source_sentence": 29,
+      "character_position": 135,
+      "text": "я была влюблена в человека, который меня знать не хотел",
+      "vad": [
+        -0.85,
+        0.35,
+        -0.65
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.2924991138440344,
+      "warning": null,
+      "chapter_sentence_start": 29,
+      "chapter_sentence_end": 29,
+      "timeline_start_index": 3251,
+      "timeline_end_index": 3251,
+      "highlights": [
+        {
+          "chapter_sentence": 29,
+          "start": 10,
+          "end": 65
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0012",
+      "source_section": "chapter_02_03",
+      "source_sentence": 29,
+      "character_position": 136,
+      "text": "я умираю от любви к нему",
+      "vad": [
+        -0.95,
+        0.86,
+        -0.7
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.5122911754593064,
+      "warning": null,
+      "chapter_sentence_start": 29,
+      "chapter_sentence_end": 29,
+      "timeline_start_index": 3251,
+      "timeline_end_index": 3251,
+      "highlights": [
+        {
+          "chapter_sentence": 29,
+          "start": 73,
+          "end": 97
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0013",
+      "source_section": "chapter_02_03",
+      "source_sentence": 31,
+      "character_position": 137,
+      "text": "Не хочу я этих сожалений и притворств!",
+      "vad": [
+        -0.78,
+        0.7,
+        0.48
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.9098848754077874,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 3253,
+      "timeline_end_index": 3253,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 0,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0014",
+      "source_section": "chapter_02_03",
+      "source_sentence": 33,
+      "character_position": 138,
+      "text": "Зачем ты мучаешь меня?",
+      "vad": [
+        -0.85,
+        0.75,
+        -0.55
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.3156313471914386,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 3255,
+      "timeline_end_index": 3255,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 2,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0015",
+      "source_section": "chapter_02_03",
+      "source_sentence": 35,
+      "character_position": 139,
+      "text": "что огорчена",
+      "vad": [
+        -0.7,
+        0.2,
+        -0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.3820253552435803,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 3257,
+      "timeline_end_index": 3257,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 8,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0017",
+      "source_section": "chapter_02_03",
+      "source_sentence": 37,
+      "character_position": 140,
+      "text": "Мне не о чем сокрушаться и утешаться.",
+      "vad": [
+        -0.25,
+        0.15,
+        0.45
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.3986734083129258,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 3259,
+      "timeline_end_index": 3259,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 2,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0018",
+      "source_section": "chapter_02_03",
+      "source_sentence": 38,
+      "character_position": 141,
+      "text": "настолько горда",
+      "vad": [
+        0.3,
+        0.2,
+        0.7
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.6755334165880545,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 3260,
+      "timeline_end_index": 3260,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 2,
+          "end": 17
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0019",
+      "source_section": "chapter_02_03",
+      "source_sentence": 38,
+      "character_position": 142,
+      "text": "любить человека, который меня не любит",
+      "vad": [
+        -0.65,
+        0.35,
+        0.75
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.8424703412996383,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 3260,
+      "timeline_end_index": 3260,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 47,
+          "end": 85
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0020",
+      "source_section": "chapter_02_03",
+      "source_sentence": 41,
+      "character_position": 143,
+      "text": "лишило Кити последнего самообладания",
+      "vad": [
+        -0.85,
+        0.9,
+        -0.8
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.5606372789654979,
+      "warning": null,
+      "chapter_sentence_start": 41,
+      "chapter_sentence_end": 41,
+      "timeline_start_index": 3263,
+      "timeline_end_index": 3263,
+      "highlights": [
+        {
+          "chapter_sentence": 41,
+          "start": 31,
+          "end": 67
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0021",
+      "source_section": "chapter_02_03",
+      "source_sentence": 42,
+      "character_position": 144,
+      "text": "зачем тебе нужно мучить меня?",
+      "vad": [
+        -0.85,
+        0.75,
+        -0.65
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.3615581155573583,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 3264,
+      "timeline_end_index": 3264,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 12,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0022",
+      "source_section": "chapter_02_03",
+      "source_sentence": 43,
+      "character_position": 145,
+      "text": "я горда",
+      "vad": [
+        0.35,
+        0.25,
+        0.7
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.6460162212425975,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 3265,
+      "timeline_end_index": 3265,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 26,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0024",
+      "source_section": "chapter_02_03",
+      "source_sentence": 53,
+      "character_position": 146,
+      "text": "я так, так несчастна!",
+      "vad": [
+        -0.95,
+        0.78,
+        -0.85
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.5562016055186894,
+      "warning": null,
+      "chapter_sentence_start": 53,
+      "chapter_sentence_end": 53,
+      "timeline_start_index": 3275,
+      "timeline_end_index": 3275,
+      "highlights": [
+        {
+          "chapter_sentence": 53,
+          "start": 12,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0025",
+      "source_section": "chapter_02_03",
+      "source_sentence": 54,
+      "character_position": 147,
+      "text": "виновато прошептала",
+      "vad": [
+        -0.45,
+        0.12,
+        -0.4
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.4512723599285699,
+      "warning": null,
+      "chapter_sentence_start": 54,
+      "chapter_sentence_end": 54,
+      "timeline_start_index": 3276,
+      "timeline_end_index": 3276,
+      "highlights": [
+        {
+          "chapter_sentence": 54,
+          "start": 2,
+          "end": 21
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0026",
+      "source_section": "chapter_02_03",
+      "source_sentence": 57,
+      "character_position": 148,
+      "text": "в сердцах",
+      "vad": [
+        -0.6,
+        0.65,
+        -0.15
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.347938715260423,
+      "warning": null,
+      "chapter_sentence_start": 57,
+      "chapter_sentence_end": 57,
+      "timeline_start_index": 3279,
+      "timeline_end_index": 3279,
+      "highlights": [
+        {
+          "chapter_sentence": 57,
+          "start": 30,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0027",
+      "source_section": "chapter_02_03",
+      "source_sentence": 58,
+      "character_position": 149,
+      "text": "горе, неизлечимое горе Кити",
+      "vad": [
+        -0.95,
+        0.65,
+        -0.7
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.3906773160901595,
+      "warning": null,
+      "chapter_sentence_start": 58,
+      "chapter_sentence_end": 58,
+      "timeline_start_index": 3280,
+      "timeline_end_index": 3280,
+      "highlights": [
+        {
+          "chapter_sentence": 58,
+          "start": 104,
+          "end": 131
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0028",
+      "source_section": "chapter_02_03",
+      "source_sentence": 58,
+      "character_position": 150,
+      "text": "готова была любить Левина и ненавидеть Вронского",
+      "vad": [
+        -0.2,
+        0.65,
+        0.05
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.553873643362486,
+      "warning": null,
+      "chapter_sentence_start": 58,
+      "chapter_sentence_end": 58,
+      "timeline_start_index": 3280,
+      "timeline_end_index": 3280,
+      "highlights": [
+        {
+          "chapter_sentence": 58,
+          "start": 240,
+          "end": 288
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0029",
+      "source_section": "chapter_02_03",
+      "source_sentence": 60,
+      "character_position": 151,
+      "text": "успокоившись",
+      "vad": [
+        0.2,
+        -0.7,
+        0.3
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.9467637187426564,
+      "warning": null,
+      "chapter_sentence_start": 60,
+      "chapter_sentence_end": 60,
+      "timeline_start_index": 3282,
+      "timeline_end_index": 3282,
+      "highlights": [
+        {
+          "chapter_sentence": 60,
+          "start": 44,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0030",
+      "source_section": "chapter_02_03",
+      "source_sentence": 60,
+      "character_position": 152,
+      "text": "мне все стало гадко, противно, грубо, и прежде всего я сама",
+      "vad": [
+        -0.9,
+        0.35,
+        -0.45
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.2468329761526999,
+      "warning": null,
+      "chapter_sentence_start": 60,
+      "chapter_sentence_end": 60,
+      "timeline_start_index": 3282,
+      "timeline_end_index": 3282,
+      "highlights": [
+        {
+          "chapter_sentence": 60,
+          "start": 88,
+          "end": 147
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0031",
+      "source_section": "chapter_02_03",
+      "source_sentence": 61,
+      "character_position": 153,
+      "text": "какие у меня гадкие мысли обо всем",
+      "vad": [
+        -0.78,
+        0.38,
+        -0.42
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.1414515485539466,
+      "warning": null,
+      "chapter_sentence_start": 61,
+      "chapter_sentence_end": 61,
+      "timeline_start_index": 3283,
+      "timeline_end_index": 3283,
+      "highlights": [
+        {
+          "chapter_sentence": 61,
+          "start": 31,
+          "end": 65
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0033",
+      "source_section": "chapter_02_03",
+      "source_sentence": 65,
+      "character_position": 154,
+      "text": "Это не тоска, не скука, а гораздо хуже.",
+      "vad": [
+        -0.75,
+        0.3,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.4874487597658838,
+      "warning": null,
+      "chapter_sentence_start": 65,
+      "chapter_sentence_end": 65,
+      "timeline_start_index": 3287,
+      "timeline_end_index": 3287,
+      "highlights": [
+        {
+          "chapter_sentence": 65,
+          "start": 0,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0034",
+      "source_section": "chapter_02_03",
+      "source_sentence": 66,
+      "character_position": 155,
+      "text": "все, что было хорошего во мне, все спряталось, а осталось одно самое гадкое",
+      "vad": [
+        -0.95,
+        0.45,
+        -0.75
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.3976116917826259,
+      "warning": null,
+      "chapter_sentence_start": 66,
+      "chapter_sentence_end": 66,
+      "timeline_start_index": 3288,
+      "timeline_end_index": 3288,
+      "highlights": [
+        {
+          "chapter_sentence": 66,
+          "start": 10,
+          "end": 85
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0036",
+      "source_section": "chapter_02_03",
+      "source_sentence": 72,
+      "character_position": 156,
+      "text": "Женихов так называемых я видеть не могу.",
+      "vad": [
+        -0.75,
+        0.55,
+        -0.45
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.0761031317077376,
+      "warning": null,
+      "chapter_sentence_start": 72,
+      "chapter_sentence_end": 72,
+      "timeline_start_index": 3294,
+      "timeline_end_index": 3294,
+      "highlights": [
+        {
+          "chapter_sentence": 72,
+          "start": 0,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0037",
+      "source_section": "chapter_02_03",
+      "source_sentence": 74,
+      "character_position": 157,
+      "text": "для меня было просто удовольствие",
+      "vad": [
+        0.75,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.1321576713312085,
+      "warning": null,
+      "chapter_sentence_start": 74,
+      "chapter_sentence_end": 74,
+      "timeline_start_index": 3296,
+      "timeline_end_index": 3296,
+      "highlights": [
+        {
+          "chapter_sentence": 74,
+          "start": 42,
+          "end": 75
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0038",
+      "source_section": "chapter_02_03",
+      "source_sentence": 74,
+      "character_position": 158,
+      "text": "я собой любовалась",
+      "vad": [
+        0.65,
+        0.1,
+        0.15
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.1866861699244342,
+      "warning": null,
+      "chapter_sentence_start": 74,
+      "chapter_sentence_end": 74,
+      "timeline_start_index": 3296,
+      "timeline_end_index": 3296,
+      "highlights": [
+        {
+          "chapter_sentence": 74,
+          "start": 77,
+          "end": 95
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0039",
+      "source_section": "chapter_02_03",
+      "source_sentence": 74,
+      "character_position": 159,
+      "text": "мне стыдно, неловко",
+      "vad": [
+        -0.72,
+        0.28,
+        -0.38
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.2240274890927638,
+      "warning": null,
+      "chapter_sentence_start": 74,
+      "chapter_sentence_end": 74,
+      "timeline_start_index": 3296,
+      "timeline_end_index": 3296,
+      "highlights": [
+        {
+          "chapter_sentence": 74,
+          "start": 104,
+          "end": 123
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0041",
+      "source_section": "chapter_02_03",
+      "source_sentence": 78,
+      "character_position": 160,
+      "text": "ей стал невыносимо неприятен",
+      "vad": [
+        -0.95,
+        0.45,
+        -0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.3529006626048768,
+      "warning": null,
+      "chapter_sentence_start": 78,
+      "chapter_sentence_end": 78,
+      "timeline_start_index": 3300,
+      "timeline_end_index": 3300,
+      "highlights": [
+        {
+          "chapter_sentence": 78,
+          "start": 106,
+          "end": 134
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0042",
+      "source_section": "chapter_02_03",
+      "source_sentence": 78,
+      "character_position": 161,
+      "text": "она не может видеть его без представлений самых грубых и безобразных",
+      "vad": [
+        -0.85,
+        0.55,
+        -0.7
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.3019777525915105,
+      "warning": null,
+      "chapter_sentence_start": 78,
+      "chapter_sentence_end": 78,
+      "timeline_start_index": 3300,
+      "timeline_end_index": 3300,
+      "highlights": [
+        {
+          "chapter_sentence": 78,
+          "start": 141,
+          "end": 209
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0044",
+      "source_section": "chapter_02_03",
+      "source_sentence": 80,
+      "character_position": 162,
+      "text": "Это моя болезнь.",
+      "vad": [
+        -0.72,
+        0.28,
+        -0.3
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.2586646806056133,
+      "warning": null,
+      "chapter_sentence_start": 80,
+      "chapter_sentence_end": 80,
+      "timeline_start_index": 3302,
+      "timeline_end_index": 3302,
+      "highlights": [
+        {
+          "chapter_sentence": 80,
+          "start": 2,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0045",
+      "source_section": "chapter_02_03",
+      "source_sentence": 83,
+      "character_position": 163,
+      "text": "Не могу.",
+      "vad": [
+        -0.45,
+        0.18,
+        -0.62
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.4373150988069009,
+      "warning": null,
+      "chapter_sentence_start": 83,
+      "chapter_sentence_end": 83,
+      "timeline_start_index": 3305,
+      "timeline_end_index": 3305,
+      "highlights": [
+        {
+          "chapter_sentence": 83,
+          "start": 2,
+          "end": 10
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_03_0046",
+      "source_section": "chapter_02_03",
+      "source_sentence": 84,
+      "character_position": 164,
+      "text": "мне хорошо",
+      "vad": [
+        0.7,
+        -0.2,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.50519603527535,
+      "warning": null,
+      "chapter_sentence_start": 84,
+      "chapter_sentence_end": 84,
+      "timeline_start_index": 3306,
+      "timeline_end_index": 3306,
+      "highlights": [
+        {
+          "chapter_sentence": 84,
+          "start": 16,
+          "end": 26
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "7_2",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_07_02_0001",
+      "source_section": "chapter_07_02",
+      "source_sentence": 46,
+      "character_position": 497,
+      "text": "Поговорим, меня это беспокоит.",
+      "vad": [
+        -0.45,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.2903033117476174,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 17151,
+      "timeline_end_index": 17151,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 2,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_07_02_0002",
+      "source_section": "chapter_07_02",
+      "source_sentence": 55,
+      "character_position": 498,
+      "text": "Нет, но я боюсь, что вообще много…",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.35
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.1151188985919718,
+      "warning": null,
+      "chapter_sentence_start": 55,
+      "chapter_sentence_end": 55,
+      "timeline_start_index": 17160,
+      "timeline_end_index": 17160,
+      "highlights": [
+        {
+          "chapter_sentence": 55,
+          "start": 2,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_07_02_0003",
+      "source_section": "chapter_07_02",
+      "source_sentence": 58,
+      "character_position": 499,
+      "text": "Нет, право, я иногда жалею, что послушалась мама.",
+      "vad": [
+        -0.55,
+        0.15,
+        -0.25
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.4220530361310184,
+      "warning": null,
+      "chapter_sentence_start": 58,
+      "chapter_sentence_end": 58,
+      "timeline_start_index": 17163,
+      "timeline_end_index": 17163,
+      "highlights": [
+        {
+          "chapter_sentence": 58,
+          "start": 2,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_07_02_0004",
+      "source_section": "chapter_07_02",
+      "source_sentence": 74,
+      "character_position": 500,
+      "text": "Она презрительно усмехнулась.",
+      "vad": [
+        -0.55,
+        0.25,
+        0.65
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.6852724868493459,
+      "warning": null,
+      "chapter_sentence_start": 74,
+      "chapter_sentence_end": 74,
+      "timeline_start_index": 17179,
+      "timeline_end_index": 17179,
+      "highlights": [
+        {
+          "chapter_sentence": 74,
+          "start": 0,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_07_02_0005",
+      "source_section": "chapter_07_02",
+      "source_sentence": 72,
+      "character_position": 501,
+      "text": "Я столько раз думала, что теперь ничего не думаю и не знаю.",
+      "vad": [
+        -0.45,
+        -0.25,
+        -0.6
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.7689661289995005,
+      "warning": null,
+      "chapter_sentence_start": 72,
+      "chapter_sentence_end": 72,
+      "timeline_start_index": 17177,
+      "timeline_end_index": 17177,
+      "highlights": [
+        {
+          "chapter_sentence": 72,
+          "start": 2,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_07_02_0006",
+      "source_section": "chapter_07_02",
+      "source_sentence": 73,
+      "character_position": 502,
+      "text": "И не страшно?",
+      "vad": [
+        -0.45,
+        0.4,
+        -0.25
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.3297165979600241,
+      "warning": null,
+      "chapter_sentence_start": 73,
+      "chapter_sentence_end": 73,
+      "timeline_start_index": 17178,
+      "timeline_end_index": 17178,
+      "highlights": [
+        {
+          "chapter_sentence": 73,
+          "start": 2,
+          "end": 15
+        }
+      ]
+    }
+  ]
+}

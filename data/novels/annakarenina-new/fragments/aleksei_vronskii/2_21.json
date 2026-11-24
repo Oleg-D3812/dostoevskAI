@@ -1,0 +1,451 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "2_21",
+  "count": 17,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_02_21_0001",
+      "source_section": "chapter_02_21",
+      "source_sentence": 17,
+      "character_position": 141,
+      "text": "хотелось видеть Гладиатора",
+      "vad": [
+        0.35,
+        0.3,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.3869481612780021,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 4789,
+      "timeline_end_index": 4789,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 38,
+          "end": 64
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_21_0002",
+      "source_section": "chapter_02_21",
+      "source_sentence": 19,
+      "character_position": 142,
+      "text": "с чувством человека, отворачивающегося от чужого раскрытого письма",
+      "vad": [
+        -0.25,
+        0.05,
+        0.45
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.2896704234001014,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 4791,
+      "timeline_end_index": 4791,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 35,
+          "end": 101
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_21_0003",
+      "source_section": "chapter_02_21",
+      "source_sentence": 26,
+      "character_position": 143,
+      "text": "энергии и смелости, Вронский не только чувствовал в себе достаточно",
+      "vad": [
+        0.78,
+        0.72,
+        0.76
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.6917333266649116,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 4798,
+      "timeline_end_index": 4798,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 81,
+          "end": 148
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_21_0004",
+      "source_section": "chapter_02_21",
+      "source_sentence": 26,
+      "character_position": 144,
+      "text": "он был твердо убежден, что ни у кого в мире не могло быть этого pluck больше, чем у него",
+      "vad": [
+        0.78,
+        0.38,
+        0.92
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.7180546171674089,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 4798,
+      "timeline_end_index": 4798,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 174,
+          "end": 262
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_21_0005",
+      "source_section": "chapter_02_21",
+      "source_sentence": 57,
+      "character_position": 145,
+      "text": "с радостным сознанием, что лошадь в самом хорошем состоянии",
+      "vad": [
+        0.8,
+        0.25,
+        0.45
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.2752038226101451,
+      "warning": null,
+      "chapter_sentence_start": 57,
+      "chapter_sentence_end": 57,
+      "timeline_start_index": 4829,
+      "timeline_end_index": 4829,
+      "highlights": [
+        {
+          "chapter_sentence": 57,
+          "start": 46,
+          "end": 105
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_21_0006",
+      "source_section": "chapter_02_21",
+      "source_sentence": 58,
+      "character_position": 146,
+      "text": "Волнение лошади сообщилось и Вронскому; он чувствовал, что кровь приливала ему к сердцу и что ему так же, как и лошади, хочется двигаться, кусаться; было и страшно и весело",
+      "vad": [
+        0.35,
+        0.88,
+        0.28
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.6585207215216929,
+      "warning": null,
+      "chapter_sentence_start": 58,
+      "chapter_sentence_end": 58,
+      "timeline_start_index": 4830,
+      "timeline_end_index": 4830,
+      "highlights": [
+        {
+          "chapter_sentence": 58,
+          "start": 0,
+          "end": 172
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_21_0007",
+      "source_section": "chapter_02_21",
+      "source_sentence": 63,
+      "character_position": 147,
+      "text": "с удивлением приподнял голову и посмотрел, как он умел смотреть, не в глаза, а на лоб англичанина, удивляясь смелости его вопроса",
+      "vad": [
+        -0.2,
+        0.45,
+        0.15
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.3814941941526444,
+      "warning": null,
+      "chapter_sentence_start": 63,
+      "chapter_sentence_end": 63,
+      "timeline_start_index": 4835,
+      "timeline_end_index": 4835,
+      "highlights": [
+        {
+          "chapter_sentence": 63,
+          "start": 9,
+          "end": 138
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_21_0008",
+      "source_section": "chapter_02_21",
+      "source_sentence": 68,
+      "character_position": 148,
+      "text": "не будьте не в духе и ничем не расстраивайтесь",
+      "vad": [
+        0.35,
+        -0.25,
+        0.45
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.6879643851384357,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 4840,
+      "timeline_end_index": 4840,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 107,
+          "end": 153
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_21_0009",
+      "source_section": "chapter_02_21",
+      "source_sentence": 71,
+      "character_position": 149,
+      "text": "Плохо!",
+      "vad": [
+        -0.65,
+        0.35,
+        0.05
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.4569640803035175,
+      "warning": null,
+      "chapter_sentence_start": 71,
+      "chapter_sentence_end": 71,
+      "timeline_start_index": 4843,
+      "timeline_end_index": 4843,
+      "highlights": [
+        {
+          "chapter_sentence": 71,
+          "start": 1,
+          "end": 7
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_21_0010",
+      "source_section": "chapter_02_21",
+      "source_sentence": 77,
+      "character_position": 150,
+      "text": "возбуждало в нем злобу — чувство, которое он редко испытывал",
+      "vad": [
+        -0.8,
+        0.7,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.6367740027794623,
+      "warning": null,
+      "chapter_sentence_start": 77,
+      "chapter_sentence_end": 77,
+      "timeline_start_index": 4849,
+      "timeline_end_index": 4849,
+      "highlights": [
+        {
+          "chapter_sentence": 77,
+          "start": 18,
+          "end": 78
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_21_0011",
+      "source_section": "chapter_02_21",
+      "source_sentence": 87,
+      "character_position": 151,
+      "text": "без этой любви для нас ни счастья, ни несчастья — нет жизни",
+      "vad": [
+        0.35,
+        0.72,
+        -0.38
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.7903205460234728,
+      "warning": null,
+      "chapter_sentence_start": 87,
+      "chapter_sentence_end": 87,
+      "timeline_start_index": 4859,
+      "timeline_end_index": 4859,
+      "highlights": [
+        {
+          "chapter_sentence": 87,
+          "start": 67,
+          "end": 126
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_21_0012",
+      "source_section": "chapter_02_21",
+      "source_sentence": 88,
+      "character_position": 152,
+      "text": "Он сердился на всех за вмешательство именно потому, что он чувствовал в душе, что они, эти все, были правы",
+      "vad": [
+        -0.65,
+        0.55,
+        -0.25
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.2522823154073244,
+      "warning": null,
+      "chapter_sentence_start": 88,
+      "chapter_sentence_end": 88,
+      "timeline_start_index": 4860,
+      "timeline_end_index": 4860,
+      "highlights": [
+        {
+          "chapter_sentence": 88,
+          "start": 0,
+          "end": 106
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_21_0013",
+      "source_section": "chapter_02_21",
+      "source_sentence": 89,
+      "character_position": 153,
+      "text": "Он чувствовал, что любовь, связывавшая его с Анной, не была минутное увлечение, которое пройдет, как проходят светские связи, не оставив других следов в жизни того и другого, кроме приятных или неприятных воспоминаний",
+      "vad": [
+        0.7,
+        0.3,
+        0.2
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.0321019066254398,
+      "warning": null,
+      "chapter_sentence_start": 89,
+      "chapter_sentence_end": 89,
+      "timeline_start_index": 4861,
+      "timeline_end_index": 4861,
+      "highlights": [
+        {
+          "chapter_sentence": 89,
+          "start": 0,
+          "end": 217
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_21_0014",
+      "source_section": "chapter_02_21",
+      "source_sentence": 90,
+      "character_position": 154,
+      "text": "Он чувствовал всю мучительность своего и ее положения, всю трудность при той выставленности для глаз всего света, в которой они находились, скрывать свою любовь, лгать и обманывать; и лгать, обманывать, хитрить и постоянно думать о других тогда, когда страсть, связывавшая их, была так сильна, что они оба забывали обо всем другом, кроме своей любви",
+      "vad": [
+        -0.78,
+        0.86,
+        -0.58
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.4452838388481932,
+      "warning": null,
+      "chapter_sentence_start": 90,
+      "chapter_sentence_end": 90,
+      "timeline_start_index": 4862,
+      "timeline_end_index": 4862,
+      "highlights": [
+        {
+          "chapter_sentence": 90,
+          "start": 0,
+          "end": 349
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_21_0015",
+      "source_section": "chapter_02_21",
+      "source_sentence": 92,
+      "character_position": 155,
+      "text": "И он испытал странное чувство, со времени его связи с Анною иногда находившее на него, Это было чувство омерзения к чему-то: к Алексею ли Александровичу, к себе ли, ко всему ли свету, — он не знал хорошенько",
+      "vad": [
+        -0.85,
+        0.45,
+        -0.35
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.1954152992973416,
+      "warning": null,
+      "chapter_sentence_start": 92,
+      "chapter_sentence_end": 92,
+      "timeline_start_index": 4864,
+      "timeline_end_index": 4864,
+      "highlights": [
+        {
+          "chapter_sentence": 92,
+          "start": 0,
+          "end": 207
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_21_0016",
+      "source_section": "chapter_02_21",
+      "source_sentence": 97,
+      "character_position": 156,
+      "text": "ясная мысль о том, что необходимо прекратить эту ложь",
+      "vad": [
+        -0.45,
+        0.2,
+        0.65
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.5204544857320064,
+      "warning": null,
+      "chapter_sentence_start": 97,
+      "chapter_sentence_end": 97,
+      "timeline_start_index": 4869,
+      "timeline_end_index": 4869,
+      "highlights": [
+        {
+          "chapter_sentence": 97,
+          "start": 35,
+          "end": 88
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_21_0017",
+      "source_section": "chapter_02_21",
+      "source_sentence": 98,
+      "character_position": 157,
+      "text": "Бросить все ей и мне и скрыться куда-нибудь одним с своею любовью",
+      "vad": [
+        0.55,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.1718324770745728,
+      "warning": null,
+      "chapter_sentence_start": 98,
+      "chapter_sentence_end": 98,
+      "timeline_start_index": 4870,
+      "timeline_end_index": 4870,
+      "highlights": [
+        {
+          "chapter_sentence": 98,
+          "start": 1,
+          "end": 66
+        }
+      ]
+    }
+  ]
+}

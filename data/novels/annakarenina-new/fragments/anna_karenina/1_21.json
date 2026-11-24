@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "1_21",
+  "count": 11,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_01_21_0001",
+      "source_section": "chapter_01_21",
+      "source_sentence": 5,
+      "character_position": 38,
+      "text": "стараясь понять, было или не было примирения",
+      "vad": [
+        -0.2,
+        0.25,
+        -0.35
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.3947458272940828,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 1956,
+      "timeline_end_index": 1956,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 89,
+          "end": 133
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_21_0003",
+      "source_section": "chapter_01_21",
+      "source_sentence": 13,
+      "character_position": 39,
+      "text": "Бог знает, вполне ли помирились?",
+      "vad": [
+        -0.2,
+        0.2,
+        -0.3
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.3433068048899365,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 1964,
+      "timeline_end_index": 1964,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 1,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_21_0004",
+      "source_section": "chapter_01_21",
+      "source_sentence": 17,
+      "character_position": 40,
+      "text": "Да, должно быть, помирились",
+      "vad": [
+        0.35,
+        0.05,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.3654407348846399,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 1968,
+      "timeline_end_index": 1968,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 1,
+          "end": 28
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_21_0006",
+      "source_section": "chapter_01_21",
+      "source_sentence": 20,
+      "character_position": 41,
+      "text": "радуясь тому, что она была причиной этого",
+      "vad": [
+        0.8,
+        0.35,
+        0.4
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.3017240575484532,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 1971,
+      "timeline_end_index": 1971,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 5,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_21_0008",
+      "source_section": "chapter_01_21",
+      "source_sentence": 26,
+      "character_position": 42,
+      "text": "с гордою материнскою улыбкой",
+      "vad": [
+        0.8,
+        0.2,
+        0.3
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.2469321812595465,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 1977,
+      "timeline_end_index": 1977,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 97,
+          "end": 125
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_21_0009",
+      "source_section": "chapter_01_21",
+      "source_sentence": 27,
+      "character_position": 43,
+      "text": "ей стало грустно, что она так далеко от него",
+      "vad": [
+        -0.65,
+        0.2,
+        -0.2
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.3342694016388164,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 1978,
+      "timeline_end_index": 1978,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 113,
+          "end": 157
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_21_0010",
+      "source_section": "chapter_01_21",
+      "source_sentence": 27,
+      "character_position": 44,
+      "text": "нет-нет и возвращалась мыслью к своему кудрявому Сереже",
+      "vad": [
+        0.5,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.2819280735392163,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 1978,
+      "timeline_end_index": 1978,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 187,
+          "end": 242
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_21_0011",
+      "source_section": "chapter_01_21",
+      "source_sentence": 28,
+      "character_position": 45,
+      "text": "Ей захотелось посмотреть на его карточку и поговорить о нем",
+      "vad": [
+        0.35,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.2875500407774635,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 1979,
+      "timeline_end_index": 1979,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 0,
+          "end": 59
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_21_0012",
+      "source_section": "chapter_01_21",
+      "source_sentence": 36,
+      "character_position": 46,
+      "text": "странное чувство удовольствия и вместе страха чего-то вдруг шевельнулось у нее в сердце",
+      "vad": [
+        0.15,
+        0.65,
+        -0.25
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.7188743033704564,
+      "warning": null,
+      "chapter_sentence_start": 36,
+      "chapter_sentence_end": 36,
+      "timeline_start_index": 1987,
+      "timeline_end_index": 1987,
+      "highlights": [
+        {
+          "chapter_sentence": 36,
+          "start": 51,
+          "end": 138
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_21_0013",
+      "source_section": "chapter_01_21",
+      "source_sentence": 47,
+      "character_position": 47,
+      "text": "всем это показалось странно",
+      "vad": [
+        -0.35,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.0489372700646865,
+      "warning": null,
+      "chapter_sentence_start": 47,
+      "chapter_sentence_end": 47,
+      "timeline_start_index": 1998,
+      "timeline_end_index": 1998,
+      "highlights": [
+        {
+          "chapter_sentence": 47,
+          "start": 157,
+          "end": 184
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_21_0014",
+      "source_section": "chapter_01_21",
+      "source_sentence": 48,
+      "character_position": 48,
+      "text": "Более всех странно и нехорошо это показалось Анне",
+      "vad": [
+        -0.55,
+        0.2,
+        -0.1
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.1980808745739284,
+      "warning": null,
+      "chapter_sentence_start": 48,
+      "chapter_sentence_end": 48,
+      "timeline_start_index": 1999,
+      "timeline_end_index": 1999,
+      "highlights": [
+        {
+          "chapter_sentence": 48,
+          "start": 0,
+          "end": 49
+        }
+      ]
+    }
+  ]
+}

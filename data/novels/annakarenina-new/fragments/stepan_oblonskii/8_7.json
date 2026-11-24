@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "8_7",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_08_07_0001",
+      "source_section": "chapter_08_07",
+      "source_sentence": 43,
+      "character_position": 288,
+      "text": "кающееся письмо Степана Аркадьича к Долли",
+      "vad": [
+        -0.5,
+        0.25,
+        -0.3
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.2915914808349204,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 20178,
+      "timeline_end_index": 20178,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 36,
+          "end": 77
+        }
+      ]
+    }
+  ]
+}

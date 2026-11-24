@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "4_23",
+  "count": 5,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_04_23_0001",
+      "source_section": "chapter_04_23",
+      "source_sentence": 42,
+      "character_position": 529,
+      "text": "Она хотела утишить его, утишить себя",
+      "vad": [
+        -0.2,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.2817448322845177,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 11095,
+      "timeline_end_index": 11095,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 0,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_23_0002",
+      "source_section": "chapter_04_23",
+      "source_sentence": 43,
+      "character_position": 530,
+      "text": "Его чувство сообщилось ей.",
+      "vad": [
+        0.75,
+        0.8,
+        -0.35
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.7384116010855926,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 11096,
+      "timeline_end_index": 11096,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 0,
+          "end": 26
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_23_0003",
+      "source_section": "chapter_04_23",
+      "source_sentence": 45,
+      "character_position": 531,
+      "text": "Да, ты овладел мною, и я твоя",
+      "vad": [
+        0.45,
+        0.78,
+        -0.72
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 1.0270280489123502,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 11098,
+      "timeline_end_index": 11098,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 2,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_23_0004",
+      "source_section": "chapter_04_23",
+      "source_sentence": 51,
+      "character_position": 532,
+      "text": "Все-таки что-то ужасное есть в этом после всего, что было.",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.15
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.3945071346730726,
+      "warning": null,
+      "chapter_sentence_start": 51,
+      "chapter_sentence_end": 51,
+      "timeline_start_index": 11104,
+      "timeline_end_index": 11104,
+      "highlights": [
+        {
+          "chapter_sentence": 51,
+          "start": 2,
+          "end": 60
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_23_0006",
+      "source_section": "chapter_04_23",
+      "source_sentence": 67,
+      "character_position": 533,
+      "text": "Я не хочу развода, мне теперь все равно.",
+      "vad": [
+        -0.35,
+        -0.3,
+        -0.4
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.6051257797702563,
+      "warning": null,
+      "chapter_sentence_start": 67,
+      "chapter_sentence_end": 67,
+      "timeline_start_index": 11120,
+      "timeline_end_index": 11120,
+      "highlights": [
+        {
+          "chapter_sentence": 67,
+          "start": 2,
+          "end": 42
+        }
+      ]
+    }
+  ]
+}

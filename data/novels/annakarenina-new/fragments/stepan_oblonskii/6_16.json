@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "6_16",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_06_16_0001",
+      "source_section": "chapter_06_16",
+      "source_sentence": 95,
+      "character_position": 208,
+      "text": "удивление и замешательство Степана Аркадьича при этом известии",
+      "vad": [
+        -0.2,
+        0.5,
+        -0.3
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.4996077908086281,
+      "warning": null,
+      "chapter_sentence_start": 95,
+      "chapter_sentence_end": 95,
+      "timeline_start_index": 15432,
+      "timeline_end_index": 15432,
+      "highlights": [
+        {
+          "chapter_sentence": 95,
+          "start": 2,
+          "end": 64
+        }
+      ]
+    }
+  ]
+}

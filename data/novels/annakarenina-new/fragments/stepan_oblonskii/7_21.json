@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "7_21",
+  "count": 13,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_07_21_0002",
+      "source_section": "chapter_07_21",
+      "source_sentence": 32,
+      "character_position": 249,
+      "text": "чувствуя, что надо быть как можно осторожнее в этом обществе",
+      "vad": [
+        -0.35,
+        0.3,
+        -0.25
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.3801907142795267,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 18676,
+      "timeline_end_index": 18676,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 22,
+          "end": 82
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_21_0003",
+      "source_section": "chapter_07_21",
+      "source_sentence": 36,
+      "character_position": 250,
+      "text": "я понимаю, что положение Алексея Александровича",
+      "vad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.3186818744753356,
+      "warning": null,
+      "chapter_sentence_start": 36,
+      "chapter_sentence_end": 36,
+      "timeline_start_index": 18680,
+      "timeline_end_index": 18680,
+      "highlights": [
+        {
+          "chapter_sentence": 36,
+          "start": 20,
+          "end": 67
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_21_0004",
+      "source_section": "chapter_07_21",
+      "source_sentence": 37,
+      "character_position": 251,
+      "text": "не понимая хорошенько, в чем дело, и потому желая оставаться в общем",
+      "vad": [
+        -0.35,
+        -0.1,
+        -0.3
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.333273603836023,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 18681,
+      "timeline_end_index": 18681,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 20,
+          "end": 88
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_21_0005",
+      "source_section": "chapter_07_21",
+      "source_sentence": 39,
+      "character_position": 252,
+      "text": "могу представить себе эту перемену",
+      "vad": [
+        0.1,
+        -0.2,
+        0.2
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.5108354666242535,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 18683,
+      "timeline_end_index": 18683,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 27,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_21_0007",
+      "source_section": "chapter_07_21",
+      "source_sentence": 41,
+      "character_position": 253,
+      "text": "соображая, с кем из двух министров она ближе, чтобы знать, о ком из двух придется просить ее",
+      "vad": [
+        0.05,
+        0.18,
+        0.58
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.6978370570353405,
+      "warning": null,
+      "chapter_sentence_start": 41,
+      "chapter_sentence_end": 41,
+      "timeline_start_index": 18685,
+      "timeline_end_index": 18685,
+      "highlights": [
+        {
+          "chapter_sentence": 41,
+          "start": 69,
+          "end": 161
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_21_0009",
+      "source_section": "chapter_07_21",
+      "source_sentence": 57,
+      "character_position": 254,
+      "text": "смутившись, Степан Аркадьич замолчал",
+      "vad": [
+        -0.45,
+        0.2,
+        -0.35
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.3419610451519063,
+      "warning": null,
+      "chapter_sentence_start": 57,
+      "chapter_sentence_end": 57,
+      "timeline_start_index": 18701,
+      "timeline_end_index": 18701,
+      "highlights": [
+        {
+          "chapter_sentence": 57,
+          "start": 5,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_21_0011",
+      "source_section": "chapter_07_21",
+      "source_sentence": 68,
+      "character_position": 255,
+      "text": "вы, к сожалению, из равнодушных",
+      "vad": [
+        -0.35,
+        0.05,
+        0.35
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.344437344792249,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 18712,
+      "timeline_end_index": 18712,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 27,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_21_0012",
+      "source_section": "chapter_07_21",
+      "source_sentence": 69,
+      "character_position": 256,
+      "text": "Как можно быть равнодушным!",
+      "vad": [
+        -0.55,
+        0.68,
+        0.38
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.7900384602651069,
+      "warning": null,
+      "chapter_sentence_start": 69,
+      "chapter_sentence_end": 69,
+      "timeline_start_index": 18713,
+      "timeline_end_index": 18713,
+      "highlights": [
+        {
+          "chapter_sentence": 69,
+          "start": 2,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_21_0013",
+      "source_section": "chapter_07_21",
+      "source_sentence": 71,
+      "character_position": 257,
+      "text": "Я в этом отношении не то что равнодушен, но в ожидании",
+      "vad": [
+        0.05,
+        0.18,
+        -0.05
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.4041726184938388,
+      "warning": null,
+      "chapter_sentence_start": 71,
+      "chapter_sentence_end": 71,
+      "timeline_start_index": 18715,
+      "timeline_end_index": 18715,
+      "highlights": [
+        {
+          "chapter_sentence": 71,
+          "start": 2,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_21_0015",
+      "source_section": "chapter_07_21",
+      "source_sentence": 83,
+      "character_position": 258,
+      "text": "чувствуя, что он кривит душою",
+      "vad": [
+        -0.55,
+        0.2,
+        -0.25
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.3261842729666713,
+      "warning": null,
+      "chapter_sentence_start": 83,
+      "chapter_sentence_end": 83,
+      "timeline_start_index": 18727,
+      "timeline_end_index": 18727,
+      "highlights": [
+        {
+          "chapter_sentence": 83,
+          "start": 106,
+          "end": 135
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_21_0016",
+      "source_section": "chapter_07_21",
+      "source_sentence": 83,
+      "character_position": 259,
+      "text": "не решаясь признаться в своем свободомыслии",
+      "vad": [
+        -0.55,
+        0.45,
+        -0.65
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.2581421244225437,
+      "warning": null,
+      "chapter_sentence_start": 83,
+      "chapter_sentence_end": 83,
+      "timeline_start_index": 18727,
+      "timeline_end_index": 18727,
+      "highlights": [
+        {
+          "chapter_sentence": 83,
+          "start": 183,
+          "end": 226
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_21_0017",
+      "source_section": "chapter_07_21",
+      "source_sentence": 122,
+      "character_position": 260,
+      "text": "довольный тем, что будут читать и дадут ему немножко опомниться",
+      "vad": [
+        0.45,
+        -0.2,
+        -0.3
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.7173463180162565,
+      "warning": null,
+      "chapter_sentence_start": 122,
+      "chapter_sentence_end": 122,
+      "timeline_start_index": 18766,
+      "timeline_end_index": 18766,
+      "highlights": [
+        {
+          "chapter_sentence": 122,
+          "start": 26,
+          "end": 89
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_21_0019",
+      "source_section": "chapter_07_21",
+      "source_sentence": 123,
+      "character_position": 261,
+      "text": "только бы, не напутав, выбраться отсюда",
+      "vad": [
+        -0.65,
+        0.55,
+        -0.55
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.1667747792372075,
+      "warning": null,
+      "chapter_sentence_start": 123,
+      "chapter_sentence_end": 123,
+      "timeline_start_index": 18767,
+      "timeline_end_index": 18767,
+      "highlights": [
+        {
+          "chapter_sentence": 123,
+          "start": 67,
+          "end": 106
+        }
+      ]
+    }
+  ]
+}

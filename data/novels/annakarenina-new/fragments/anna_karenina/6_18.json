@@ -1,0 +1,425 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "6_18",
+  "count": 16,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_06_18_0001",
+      "source_section": "chapter_06_18",
+      "source_sentence": 2,
+      "character_position": 700,
+      "text": "могу ли я быть счастлива в моем положении",
+      "vad": [
+        -0.2,
+        0.25,
+        -0.35
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.3947458272940828,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 15544,
+      "timeline_end_index": 15544,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 51,
+          "end": 92
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_18_0002",
+      "source_section": "chapter_06_18",
+      "source_sentence": 4,
+      "character_position": 701,
+      "text": "Стыдно признаться",
+      "vad": [
+        -0.5,
+        0.25,
+        -0.35
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.3726228623928685,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 15546,
+      "timeline_end_index": 15546,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 0,
+          "end": 17
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_18_0003",
+      "source_section": "chapter_06_18",
+      "source_sentence": 5,
+      "character_position": 702,
+      "text": "сделается страшно, жутко",
+      "vad": [
+        -0.9,
+        0.8,
+        -0.6
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.3190638833539453,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 15547,
+      "timeline_end_index": 15547,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 51,
+          "end": 75
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_18_0004",
+      "source_section": "chapter_06_18",
+      "source_sentence": 5,
+      "character_position": 703,
+      "text": "всех этих страхов нет",
+      "vad": [
+        0.75,
+        -0.2,
+        0.35
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.5438728935733234,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 15547,
+      "timeline_end_index": 15547,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 114,
+          "end": 135
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_18_0005",
+      "source_section": "chapter_06_18",
+      "source_sentence": 7,
+      "character_position": 704,
+      "text": "Я пережила мучительное, страшное",
+      "vad": [
+        -0.85,
+        0.75,
+        0.2
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.7593817124413194,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 15549,
+      "timeline_end_index": 15549,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 0,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_18_0006",
+      "source_section": "chapter_06_18",
+      "source_sentence": 7,
+      "character_position": 705,
+      "text": "так счастлива",
+      "vad": [
+        0.95,
+        0.25,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.3808731954738829,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 15549,
+      "timeline_end_index": 15549,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 87,
+          "end": 100
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_18_0007",
+      "source_section": "chapter_06_18",
+      "source_sentence": 8,
+      "character_position": 706,
+      "text": "с робкою улыбкой вопроса",
+      "vad": [
+        0.25,
+        0.05,
+        -0.3
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.6421127903062906,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 15550,
+      "timeline_end_index": 15550,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 15,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_18_0008",
+      "source_section": "chapter_06_18",
+      "source_sentence": 9,
+      "character_position": 707,
+      "text": "Как я рада!",
+      "vad": [
+        0.9,
+        0.55,
+        0.05
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.4031514079066987,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 15551,
+      "timeline_end_index": 15551,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 2,
+          "end": 13
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_18_0009",
+      "source_section": "chapter_06_18",
+      "source_sentence": 14,
+      "character_position": 708,
+      "text": "я не смела",
+      "vad": [
+        -0.45,
+        0.1,
+        -0.7
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.5580391061689499,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 15556,
+      "timeline_end_index": 15556,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 12,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_18_0010",
+      "source_section": "chapter_06_18",
+      "source_sentence": 34,
+      "character_position": 709,
+      "text": "задумалась, желая вполне понять значение этих слов",
+      "vad": [
+        0.0,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.4365919186840355,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 15576,
+      "timeline_end_index": 15576,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 105,
+          "end": 155
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_18_0013",
+      "source_section": "chapter_06_18",
+      "source_sentence": 59,
+      "character_position": 710,
+      "text": "я еще больше его люблю",
+      "vad": [
+        0.9,
+        0.45,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.3345159173596894,
+      "warning": null,
+      "chapter_sentence_start": 59,
+      "chapter_sentence_end": 59,
+      "timeline_start_index": 15601,
+      "timeline_end_index": 15601,
+      "highlights": [
+        {
+          "chapter_sentence": 59,
+          "start": 36,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_18_0015",
+      "source_section": "chapter_06_18",
+      "source_sentence": 97,
+      "character_position": 711,
+      "text": "как я счастлива!",
+      "vad": [
+        0.95,
+        0.65,
+        0.2
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.4912028746316125,
+      "warning": null,
+      "chapter_sentence_start": 97,
+      "chapter_sentence_end": 97,
+      "timeline_start_index": 15639,
+      "timeline_end_index": 15639,
+      "highlights": [
+        {
+          "chapter_sentence": 97,
+          "start": 16,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_18_0017",
+      "source_section": "chapter_06_18",
+      "source_sentence": 112,
+      "character_position": 712,
+      "text": "как я тебе рада!",
+      "vad": [
+        0.9,
+        0.7,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.5021265355437345,
+      "warning": null,
+      "chapter_sentence_start": 112,
+      "chapter_sentence_end": 112,
+      "timeline_start_index": 15654,
+      "timeline_end_index": 15654,
+      "highlights": [
+        {
+          "chapter_sentence": 112,
+          "start": 16,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_18_0018",
+      "source_section": "chapter_06_18",
+      "source_sentence": 115,
+      "character_position": 713,
+      "text": "я рада, что ты меня увидишь",
+      "vad": [
+        0.8,
+        0.2,
+        0.3
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.2469321812595465,
+      "warning": null,
+      "chapter_sentence_start": 115,
+      "chapter_sentence_end": 115,
+      "timeline_start_index": 15657,
+      "timeline_end_index": 15657,
+      "highlights": [
+        {
+          "chapter_sentence": 115,
+          "start": 3,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_18_0019",
+      "source_section": "chapter_06_18",
+      "source_sentence": 116,
+      "character_position": 714,
+      "text": "Мне, главное, не хотелось бы, чтобы думали",
+      "vad": [
+        -0.25,
+        0.1,
+        -0.2
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.2379090976703607,
+      "warning": null,
+      "chapter_sentence_start": 116,
+      "chapter_sentence_end": 116,
+      "timeline_start_index": 15658,
+      "timeline_end_index": 15658,
+      "highlights": [
+        {
+          "chapter_sentence": 116,
+          "start": 0,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_18_0020",
+      "source_section": "chapter_06_18",
+      "source_sentence": 117,
+      "character_position": 715,
+      "text": "я просто хочу жить",
+      "vad": [
+        0.4,
+        0.1,
+        0.3
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.3157720856537275,
+      "warning": null,
+      "chapter_sentence_start": 117,
+      "chapter_sentence_end": 117,
+      "timeline_start_index": 15659,
+      "timeline_end_index": 15659,
+      "highlights": [
+        {
+          "chapter_sentence": 117,
+          "start": 29,
+          "end": 47
+        }
+      ]
+    }
+  ]
+}

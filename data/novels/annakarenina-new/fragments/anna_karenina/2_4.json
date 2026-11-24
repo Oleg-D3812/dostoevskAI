@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "2_4",
+  "count": 12,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_02_04_0001",
+      "source_section": "chapter_02_04",
+      "source_sentence": 5,
+      "character_position": 138,
+      "text": "то чувство почти набожного уважения, которое она в первое время имела к этим лицам",
+      "vad": [
+        0.35,
+        -0.2,
+        -0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.6216664322088236,
+      "warning": "non_verbatim_evidence",
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 3316,
+      "timeline_end_index": 3316,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 37,
+          "end": 119
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_04_0002",
+      "source_section": "chapter_02_04",
+      "source_sentence": 6,
+      "character_position": 139,
+      "text": "никогда, несмотря на внушение графини Лидии Ивановны, не мог интересовать ее",
+      "vad": [
+        -0.25,
+        -0.55,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.7308320221751907,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 3317,
+      "timeline_end_index": 3317,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 322,
+          "end": 398
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_04_0003",
+      "source_section": "chapter_02_04",
+      "source_sentence": 12,
+      "character_position": 140,
+      "text": "кружок этот ей стал невыносим",
+      "vad": [
+        -0.82,
+        0.28,
+        -0.18
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.4187054241935906,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 3323,
+      "timeline_end_index": 3323,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 37,
+          "end": 66
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_04_0004",
+      "source_section": "chapter_02_04",
+      "source_sentence": 13,
+      "character_position": 141,
+      "text": "ей стало так скучно и неловко в этом обществе",
+      "vad": [
+        -0.65,
+        -0.2,
+        -0.35
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.5660317263413012,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 3324,
+      "timeline_end_index": 3324,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 51,
+          "end": 96
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_04_0006",
+      "source_section": "chapter_02_04",
+      "source_sentence": 19,
+      "character_position": 142,
+      "text": "испытывала волнующую радость при этих встречах",
+      "vad": [
+        0.85,
+        0.7,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.4999358154822628,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 3330,
+      "timeline_end_index": 3330,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 30,
+          "end": 76
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_04_0007",
+      "source_section": "chapter_02_04",
+      "source_sentence": 22,
+      "character_position": 143,
+      "text": "в душе ее загоралось то самое чувство оживления",
+      "vad": [
+        0.7,
+        0.6,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.3605959933160181,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 3333,
+      "timeline_end_index": 3333,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 79,
+          "end": 126
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_04_0008",
+      "source_section": "chapter_02_04",
+      "source_sentence": 23,
+      "character_position": 144,
+      "text": "при виде его радость светилась в ее глазах и морщила ее губы в улыбку",
+      "vad": [
+        0.88,
+        0.58,
+        0.18
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.3914729335434996,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 3334,
+      "timeline_end_index": 3334,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 26,
+          "end": 95
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_04_0009",
+      "source_section": "chapter_02_04",
+      "source_sentence": 23,
+      "character_position": 145,
+      "text": "выражение этой радости",
+      "vad": [
+        0.8,
+        0.5,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.3263131380229113,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 3334,
+      "timeline_end_index": 3334,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 121,
+          "end": 143
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_04_0010",
+      "source_section": "chapter_02_04",
+      "source_sentence": 24,
+      "character_position": 146,
+      "text": "по овладевшей ею грусти",
+      "vad": [
+        -0.72,
+        -0.22,
+        -0.68
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.7590187918403484,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 3335,
+      "timeline_end_index": 3335,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 211,
+          "end": 234
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_04_0011",
+      "source_section": "chapter_02_04",
+      "source_sentence": 24,
+      "character_position": 147,
+      "text": "она обманывала себя",
+      "vad": [
+        -0.35,
+        0.05,
+        -0.25
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.2667133908748721,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 3335,
+      "timeline_end_index": 3335,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 252,
+          "end": 271
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_04_0012",
+      "source_section": "chapter_02_04",
+      "source_sentence": 24,
+      "character_position": 148,
+      "text": "не только не неприятно ей",
+      "vad": [
+        0.45,
+        0.05,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.3393611326184443,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 3335,
+      "timeline_end_index": 3335,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 295,
+          "end": 320
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_04_0013",
+      "source_section": "chapter_02_04",
+      "source_sentence": 24,
+      "character_position": 149,
+      "text": "оно составляет весь интерес ее жизни",
+      "vad": [
+        0.78,
+        0.64,
+        -0.24
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.5620350866712276,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 3335,
+      "timeline_end_index": 3335,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 329,
+          "end": 365
+        }
+      ]
+    }
+  ]
+}

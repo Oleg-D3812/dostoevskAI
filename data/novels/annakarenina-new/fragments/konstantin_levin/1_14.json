@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "1_14",
+  "count": 11,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_01_14_0002",
+      "source_section": "chapter_01_14",
+      "source_sentence": 16,
+      "character_position": 131,
+      "text": "терпеть ее не мог и презирал",
+      "vad": [
+        -0.9,
+        0.5,
+        0.6
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.9553589500142844,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 1241,
+      "timeline_end_index": 1241,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 47,
+          "end": 75
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_14_0003",
+      "source_section": "chapter_01_14",
+      "source_sentence": 17,
+      "character_position": 132,
+      "text": "презирают друг друга до такой степени, что не могут даже серьезно обращаться друг с другом и не могут даже быть оскорблены один другим",
+      "vad": [
+        -0.85,
+        0.45,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.6390136209079165,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 1242,
+      "timeline_end_index": 1242,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 149,
+          "end": 283
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_14_0005",
+      "source_section": "chapter_01_14",
+      "source_sentence": 24,
+      "character_position": 133,
+      "text": "в свое шуточно-враждебное отношение к графине Нордстон",
+      "vad": [
+        -0.25,
+        0.2,
+        0.45
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4238992477451393,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 1249,
+      "timeline_end_index": 1249,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 126,
+          "end": 180
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_14_0006",
+      "source_section": "chapter_01_14",
+      "source_sentence": 30,
+      "character_position": 134,
+      "text": "Как ни неловко было Левину уйти теперь",
+      "vad": [
+        -0.55,
+        0.25,
+        -0.25
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2669629254289756,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 1255,
+      "timeline_end_index": 1255,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 0,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_14_0008",
+      "source_section": "chapter_01_14",
+      "source_sentence": 35,
+      "character_position": 135,
+      "text": "строгое, серьезное лицо",
+      "vad": [
+        -0.2,
+        0.15,
+        0.45
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4144224750855381,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 1260,
+      "timeline_end_index": 1260,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 78,
+          "end": 101
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_14_0009",
+      "source_section": "chapter_01_14",
+      "source_sentence": 48,
+      "character_position": 136,
+      "text": "со щемящею болью в сердце",
+      "vad": [
+        -0.85,
+        0.45,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1902538808900784,
+      "warning": null,
+      "chapter_sentence_start": 48,
+      "chapter_sentence_end": 48,
+      "timeline_start_index": 1273,
+      "timeline_end_index": 1273,
+      "highlights": [
+        {
+          "chapter_sentence": 48,
+          "start": 304,
+          "end": 329
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_14_0010",
+      "source_section": "chapter_01_14",
+      "source_sentence": 62,
+      "character_position": 137,
+      "text": "Константин Дмитрич презирает и ненавидит город и нас, горожан",
+      "vad": [
+        -0.9,
+        0.7,
+        0.4
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.8870332728161944,
+      "warning": null,
+      "chapter_sentence_start": 62,
+      "chapter_sentence_end": 62,
+      "timeline_start_index": 1287,
+      "timeline_end_index": 1287,
+      "highlights": [
+        {
+          "chapter_sentence": 62,
+          "start": 2,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_14_0011",
+      "source_section": "chapter_01_14",
+      "source_sentence": 99,
+      "character_position": 138,
+      "text": "еще более раздражившись",
+      "vad": [
+        -0.62,
+        0.58,
+        0.12
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.554115460926715,
+      "warning": null,
+      "chapter_sentence_start": 99,
+      "chapter_sentence_end": 99,
+      "timeline_start_index": 1324,
+      "timeline_end_index": 1324,
+      "highlights": [
+        {
+          "chapter_sentence": 99,
+          "start": 124,
+          "end": 147
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_14_0012",
+      "source_section": "chapter_01_14",
+      "source_sentence": 115,
+      "character_position": 139,
+      "text": "в вас есть что-то восторженное",
+      "vad": [
+        0.6,
+        0.5,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.247312576971222,
+      "warning": null,
+      "chapter_sentence_start": 115,
+      "chapter_sentence_end": 115,
+      "timeline_start_index": 1340,
+      "timeline_end_index": 1340,
+      "highlights": [
+        {
+          "chapter_sentence": 115,
+          "start": 74,
+          "end": 104
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_14_0014",
+      "source_section": "chapter_01_14",
+      "source_sentence": 123,
+      "character_position": 140,
+      "text": "Всех ненавижу, и вас, и себя",
+      "vad": [
+        -0.95,
+        0.85,
+        -0.55
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.5269938242055878,
+      "warning": null,
+      "chapter_sentence_start": 123,
+      "chapter_sentence_end": 123,
+      "timeline_start_index": 1348,
+      "timeline_end_index": 1348,
+      "highlights": [
+        {
+          "chapter_sentence": 123,
+          "start": 1,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_14_0015",
+      "source_section": "chapter_01_14",
+      "source_sentence": 133,
+      "character_position": 141,
+      "text": "любезность отца была тяжела Левину",
+      "vad": [
+        -0.7,
+        0.2,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3135702424963227,
+      "warning": null,
+      "chapter_sentence_start": 133,
+      "chapter_sentence_end": 133,
+      "timeline_start_index": 1358,
+      "timeline_end_index": 1358,
+      "highlights": [
+        {
+          "chapter_sentence": 133,
+          "start": 49,
+          "end": 83
+        }
+      ]
+    }
+  ]
+}

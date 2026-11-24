@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "8_15",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_08_15_0001",
+      "source_section": "chapter_08_15",
+      "source_sentence": 43,
+      "character_position": 1379,
+      "text": "я бы отдался своему чувству непосредственному",
+      "vad": [
+        0.0,
+        0.35,
+        -0.4
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5840160128123738,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 20573,
+      "timeline_end_index": 20573,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 22,
+          "end": 67
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_15_0002",
+      "source_section": "chapter_08_15",
+      "source_sentence": 44,
+      "character_position": 1380,
+      "text": "И такого непосредственного чувства к угнетению славян нет и не может быть",
+      "vad": [
+        -0.2,
+        -0.15,
+        0.25
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3036103378119734,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 20574,
+      "timeline_end_index": 20574,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 0,
+          "end": 73
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_15_0003",
+      "source_section": "chapter_08_15",
+      "source_sentence": 49,
+      "character_position": 1381,
+      "text": "я не чувствую этого",
+      "vad": [
+        -0.2,
+        -0.4,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4746738431569978,
+      "warning": null,
+      "chapter_sentence_start": 49,
+      "chapter_sentence_end": 49,
+      "timeline_start_index": 20579,
+      "timeline_end_index": 20579,
+      "highlights": [
+        {
+          "chapter_sentence": 49,
+          "start": 77,
+          "end": 96
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_15_0004",
+      "source_section": "chapter_08_15",
+      "source_sentence": 89,
+      "character_position": 1382,
+      "text": "начинавший горячиться Левин",
+      "vad": [
+        -0.25,
+        0.65,
+        0.05
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5803882509674547,
+      "warning": null,
+      "chapter_sentence_start": 89,
+      "chapter_sentence_end": 89,
+      "timeline_start_index": 20619,
+      "timeline_end_index": 20619,
+      "highlights": [
+        {
+          "chapter_sentence": 89,
+          "start": 29,
+          "end": 56
+        }
+      ]
+    }
+  ]
+}

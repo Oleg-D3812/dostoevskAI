@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "5_15",
+  "count": 9,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_15_0002",
+      "source_section": "chapter_05_15",
+      "source_sentence": 20,
+      "character_position": 366,
+      "text": "с странным для себя чувством собственности",
+      "vad": [
+        0.35,
+        0.25,
+        0.3
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.3498333483398553,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 12202,
+      "timeline_end_index": 12202,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 73,
+          "end": 115
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_15_0003",
+      "source_section": "chapter_05_15",
+      "source_sentence": 21,
+      "character_position": 367,
+      "text": "Хоть и жалко отрывать его от занятий",
+      "vad": [
+        -0.2,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.0717705567181581,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 12203,
+      "timeline_end_index": 12203,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 2,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_15_0005",
+      "source_section": "chapter_05_15",
+      "source_sentence": 23,
+      "character_position": 368,
+      "text": "Хочу, ну!",
+      "vad": [
+        0.7,
+        0.5,
+        0.3
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2765204158593831,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 12205,
+      "timeline_end_index": 12205,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 0,
+          "end": 9
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_15_0006",
+      "source_section": "chapter_05_15",
+      "source_sentence": 24,
+      "character_position": 369,
+      "text": "желая этим усилить действие взгляда",
+      "vad": [
+        0.35,
+        0.3,
+        0.55
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.5178414264219225,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 12206,
+      "timeline_end_index": 12206,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 28,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_15_0007",
+      "source_section": "chapter_05_15",
+      "source_sentence": 29,
+      "character_position": 370,
+      "text": "желая догадаться, досадно ли ему или нет",
+      "vad": [
+        -0.15,
+        0.2,
+        -0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.2088495105926568,
+      "warning": null,
+      "chapter_sentence_start": 29,
+      "chapter_sentence_end": 29,
+      "timeline_start_index": 12211,
+      "timeline_end_index": 12211,
+      "highlights": [
+        {
+          "chapter_sentence": 29,
+          "start": 71,
+          "end": 111
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_15_0009",
+      "source_section": "chapter_05_15",
+      "source_sentence": 76,
+      "character_position": 371,
+      "text": "она, я знаю, хотела, но не умела остановить его",
+      "vad": [
+        -0.3,
+        0.1,
+        -0.5
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.5573253440562558,
+      "warning": null,
+      "chapter_sentence_start": 76,
+      "chapter_sentence_end": 76,
+      "timeline_start_index": 12258,
+      "timeline_end_index": 12258,
+      "highlights": [
+        {
+          "chapter_sentence": 76,
+          "start": 192,
+          "end": 239
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_15_0010",
+      "source_section": "chapter_05_15",
+      "source_sentence": 79,
+      "character_position": 372,
+      "text": "совершенно удовлетворена",
+      "vad": [
+        0.8,
+        -0.3,
+        0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.6074219543961227,
+      "warning": null,
+      "chapter_sentence_start": 79,
+      "chapter_sentence_end": 79,
+      "timeline_start_index": 12261,
+      "timeline_end_index": 12261,
+      "highlights": [
+        {
+          "chapter_sentence": 79,
+          "start": 23,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_15_0011",
+      "source_section": "chapter_05_15",
+      "source_sentence": 81,
+      "character_position": 373,
+      "text": "не упрекала себя в минутах беззаботности и счастия любви",
+      "vad": [
+        0.85,
+        0.2,
+        0.45
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.3836305529367286,
+      "warning": "non_verbatim_evidence",
+      "chapter_sentence_start": 81,
+      "chapter_sentence_end": 81,
+      "timeline_start_index": 12263,
+      "timeline_end_index": 12263,
+      "highlights": [
+        {
+          "chapter_sentence": 81,
+          "start": 77,
+          "end": 133
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_15_0012",
+      "source_section": "chapter_05_15",
+      "source_sentence": 81,
+      "character_position": 374,
+      "text": "весело свивая свое будущее гнездо",
+      "vad": [
+        0.8,
+        0.35,
+        0.45
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.3562335735896424,
+      "warning": null,
+      "chapter_sentence_start": 81,
+      "chapter_sentence_end": 81,
+      "timeline_start_index": 12263,
+      "timeline_end_index": 12263,
+      "highlights": [
+        {
+          "chapter_sentence": 81,
+          "start": 169,
+          "end": 202
+        }
+      ]
+    }
+  ]
+}

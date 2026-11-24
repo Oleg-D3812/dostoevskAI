@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "5_18",
+  "count": 14,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_05_18_0001",
+      "source_section": "chapter_05_18",
+      "source_sentence": 1,
+      "character_position": 811,
+      "text": "не мог спокойно смотреть на брата, не мог быть сам естествен и спокоен в его присутствии",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.4
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.0812276016929012,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 12448,
+      "timeline_end_index": 12448,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 6,
+          "end": 94
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_18_0002",
+      "source_section": "chapter_05_18",
+      "source_sentence": 2,
+      "character_position": 812,
+      "text": "глаза и внимание его бессознательно застилались, и он не видел и не различал подробностей положения брата",
+      "vad": [
+        -0.65,
+        0.2,
+        -0.6
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2971653846553033,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 12449,
+      "timeline_end_index": 12449,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 28,
+          "end": 133
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_18_0003",
+      "source_section": "chapter_05_18",
+      "source_sentence": 3,
+      "character_position": 813,
+      "text": "чувствовал, что помочь этому нельзя",
+      "vad": [
+        -0.7,
+        0.2,
+        -0.8
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4525601905216003,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 12450,
+      "timeline_end_index": 12450,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 83,
+          "end": 118
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_18_0004",
+      "source_section": "chapter_05_18",
+      "source_sentence": 4,
+      "character_position": 814,
+      "text": "Ему и в голову не приходило подумать",
+      "vad": [
+        -0.3,
+        -0.2,
+        -0.35
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4821150326764328,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 12451,
+      "timeline_end_index": 12451,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 0,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_18_0005",
+      "source_section": "chapter_05_18",
+      "source_sentence": 6,
+      "character_position": 815,
+      "text": "Он был убежден несомненно, что ничего сделать нельзя ни для продления жизни, ни для облегчения страданий",
+      "vad": [
+        -0.85,
+        -0.35,
+        -0.9
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.9381030698401768,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 12453,
+      "timeline_end_index": 12453,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 0,
+          "end": 104
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_18_0006",
+      "source_section": "chapter_05_18",
+      "source_sentence": 7,
+      "character_position": 816,
+      "text": "раздражало его",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.1
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3123235824631138,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 12454,
+      "timeline_end_index": 12454,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 85,
+          "end": 99
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_18_0007",
+      "source_section": "chapter_05_18",
+      "source_sentence": 8,
+      "character_position": 817,
+      "text": "Левину было еще тяжелее",
+      "vad": [
+        -0.8,
+        0.3,
+        -0.4
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1871596086887655,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 12455,
+      "timeline_end_index": 12455,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 9,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_18_0008",
+      "source_section": "chapter_05_18",
+      "source_sentence": 9,
+      "character_position": 818,
+      "text": "Быть в комнате больного было для него мучительно, не быть еще хуже",
+      "vad": [
+        -0.85,
+        0.65,
+        -0.55
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3198821140285859,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 12456,
+      "timeline_end_index": 12456,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 0,
+          "end": 66
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_18_0009",
+      "source_section": "chapter_05_18",
+      "source_sentence": 10,
+      "character_position": 819,
+      "text": "не в силах будучи оставаться одним",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.7
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2997334445964494,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 12457,
+      "timeline_end_index": 12457,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 65,
+          "end": 99
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_18_0010",
+      "source_section": "chapter_05_18",
+      "source_sentence": 13,
+      "character_position": 820,
+      "text": "чувство ужаса и гадливости, которое она произвела в ее муже",
+      "vad": [
+        -0.95,
+        0.9,
+        -0.65
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.600054206971723,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 12460,
+      "timeline_end_index": 12460,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 51,
+          "end": 110
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_18_0012",
+      "source_section": "chapter_05_18",
+      "source_sentence": 20,
+      "character_position": 821,
+      "text": "Левин не одобрял этого всего; он не верил, чтоб из этого вышла какая-нибудь польза для больного",
+      "vad": [
+        -0.45,
+        0.1,
+        0.05
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.2014003693214697,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 12467,
+      "timeline_end_index": 12467,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 0,
+          "end": 95
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_18_0013",
+      "source_section": "chapter_05_18",
+      "source_sentence": 21,
+      "character_position": 822,
+      "text": "Более же всего он боялся, чтобы больной не рассердился",
+      "vad": [
+        -0.7,
+        0.55,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1317607644761048,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 12468,
+      "timeline_end_index": 12468,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 0,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_18_0014",
+      "source_section": "chapter_05_18",
+      "source_sentence": 60,
+      "character_position": 823,
+      "text": "Как ни страшно было Левину обнять руками это страшное тело",
+      "vad": [
+        -0.85,
+        0.8,
+        -0.4
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4147154768476682,
+      "warning": null,
+      "chapter_sentence_start": 60,
+      "chapter_sentence_end": 60,
+      "timeline_start_index": 12507,
+      "timeline_end_index": 12507,
+      "highlights": [
+        {
+          "chapter_sentence": 60,
+          "start": 0,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_18_0016",
+      "source_section": "chapter_05_18",
+      "source_sentence": 66,
+      "character_position": 824,
+      "text": "Левин затрясся от рыдания и, не в силах ничего выговорить",
+      "vad": [
+        -0.9,
+        0.9,
+        -0.8
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.6543527397756261,
+      "warning": null,
+      "chapter_sentence_start": 66,
+      "chapter_sentence_end": 66,
+      "timeline_start_index": 12513,
+      "timeline_end_index": 12513,
+      "highlights": [
+        {
+          "chapter_sentence": 66,
+          "start": 0,
+          "end": 57
+        }
+      ]
+    }
+  ]
+}

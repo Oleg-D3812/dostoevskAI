@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "2_6",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_02_06_0002",
+      "source_section": "chapter_02_06",
+      "source_sentence": 115,
+      "character_position": 88,
+      "text": "с новым удовольствием",
+      "vad": [
+        0.7,
+        0.2,
+        0.3
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.1424024799407859,
+      "warning": null,
+      "chapter_sentence_start": 115,
+      "chapter_sentence_end": 115,
+      "timeline_start_index": 3572,
+      "timeline_end_index": 3572,
+      "highlights": [
+        {
+          "chapter_sentence": 115,
+          "start": 28,
+          "end": 49
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_06_0003",
+      "source_section": "chapter_02_06",
+      "source_sentence": 117,
+      "character_position": 89,
+      "text": "стыдно",
+      "vad": [
+        -0.5,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.2865483992637705,
+      "warning": null,
+      "chapter_sentence_start": 117,
+      "chapter_sentence_end": 117,
+      "timeline_start_index": 3574,
+      "timeline_end_index": 3574,
+      "highlights": [
+        {
+          "chapter_sentence": 117,
+          "start": 16,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_06_0004",
+      "source_section": "chapter_02_06",
+      "source_sentence": 117,
+      "character_position": 90,
+      "text": "весело",
+      "vad": [
+        0.7,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.1171879334566127,
+      "warning": null,
+      "chapter_sentence_start": 117,
+      "chapter_sentence_end": 117,
+      "timeline_start_index": 3574,
+      "timeline_end_index": 3574,
+      "highlights": [
+        {
+          "chapter_sentence": 117,
+          "start": 91,
+          "end": 97
+        }
+      ]
+    }
+  ]
+}

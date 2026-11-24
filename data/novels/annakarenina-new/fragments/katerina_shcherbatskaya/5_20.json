@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "5_20",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_20_0004",
+      "source_section": "chapter_05_20",
+      "source_sentence": 96,
+      "character_position": 416,
+      "text": "она сама и физически и нравственно была измучена",
+      "vad": [
+        -0.8,
+        -0.55,
+        -0.45
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.9905937678037524,
+      "warning": null,
+      "chapter_sentence_start": 96,
+      "chapter_sentence_end": 96,
+      "timeline_start_index": 12665,
+      "timeline_end_index": 12665,
+      "highlights": [
+        {
+          "chapter_sentence": 96,
+          "start": 92,
+          "end": 140
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_20_0005",
+      "source_section": "chapter_05_20",
+      "source_sentence": 133,
+      "character_position": 417,
+      "text": "от усталости, волнения",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.3
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.2095463294448634,
+      "warning": null,
+      "chapter_sentence_start": 133,
+      "chapter_sentence_end": 133,
+      "timeline_start_index": 12702,
+      "timeline_end_index": 12702,
+      "highlights": [
+        {
+          "chapter_sentence": 133,
+          "start": 39,
+          "end": 61
+        }
+      ]
+    }
+  ]
+}

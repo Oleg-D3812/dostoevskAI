@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "2_18",
+  "count": 12,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_02_18_0001",
+      "source_section": "chapter_02_18",
+      "source_sentence": 1,
+      "character_position": 111,
+      "text": "вся внутренняя жизнь Вронского была наполнена его страстью",
+      "vad": [
+        0.35,
+        0.85,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.6644558727177854,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 4575,
+      "timeline_end_index": 4575,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 20,
+          "end": 78
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_18_0002",
+      "source_section": "chapter_02_18",
+      "source_sentence": 2,
+      "character_position": 112,
+      "text": "он любил полк",
+      "vad": [
+        0.7,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.211970183882709,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 4576,
+      "timeline_end_index": 4576,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 72,
+          "end": 85
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_18_0003",
+      "source_section": "chapter_02_18",
+      "source_sentence": 4,
+      "character_position": 113,
+      "text": "Вронский сознавал этот взгляд на себя товарищей",
+      "vad": [
+        0.1,
+        -0.1,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.4432037598548721,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 4578,
+      "timeline_end_index": 4578,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 0,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_18_0004",
+      "source_section": "chapter_02_18",
+      "source_sentence": 4,
+      "character_position": 114,
+      "text": "любил эту жизнь",
+      "vad": [
+        0.8,
+        0.2,
+        0.3
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.1891191941582636,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 4578,
+      "timeline_end_index": 4578,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 67,
+          "end": 82
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_18_0005",
+      "source_section": "chapter_02_18",
+      "source_sentence": 4,
+      "character_position": 115,
+      "text": "чувствовал себя обязанным поддерживать установившийся на него взгляд",
+      "vad": [
+        -0.25,
+        0.1,
+        0.45
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.2884846394220752,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 4578,
+      "timeline_end_index": 4578,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 84,
+          "end": 152
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_18_0006",
+      "source_section": "chapter_02_18",
+      "source_sentence": 6,
+      "character_position": 116,
+      "text": "его любовь была известна всему городу",
+      "vad": [
+        -0.45,
+        0.2,
+        -0.35
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.3623605455213665,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 4580,
+      "timeline_end_index": 4580,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 24,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_18_0007",
+      "source_section": "chapter_02_18",
+      "source_sentence": 6,
+      "character_position": 117,
+      "text": "самое тяжелое в его любви",
+      "vad": [
+        -0.7,
+        0.1,
+        -0.3
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.3772335681650593,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 4580,
+      "timeline_end_index": 4580,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 200,
+          "end": 225
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_18_0008",
+      "source_section": "chapter_02_18",
+      "source_sentence": 12,
+      "character_position": 118,
+      "text": "какая-то вертеровская, отчаянная страсть",
+      "vad": [
+        -0.8,
+        0.9,
+        -0.6
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.4922101483986225,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 4586,
+      "timeline_end_index": 4586,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 148,
+          "end": 188
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_18_0009",
+      "source_section": "chapter_02_18",
+      "source_sentence": 16,
+      "character_position": 119,
+      "text": "до которых он был страстный охотник",
+      "vad": [
+        0.75,
+        0.8,
+        0.2
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.4965100884636468,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 4590,
+      "timeline_end_index": 4590,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 69,
+          "end": 104
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_18_0011",
+      "source_section": "chapter_02_18",
+      "source_sentence": 18,
+      "character_position": 120,
+      "text": "был страстно, хотя и сдержанно, увлечен предстоящими скачками",
+      "vad": [
+        0.75,
+        0.72,
+        0.45
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.4798191327756566,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 4592,
+      "timeline_end_index": 4592,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 90,
+          "end": 151
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_18_0013",
+      "source_section": "chapter_02_18",
+      "source_sentence": 20,
+      "character_position": 121,
+      "text": "ему нужно было занятие и увлечение",
+      "vad": [
+        0.2,
+        0.3,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.5186496645692052,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 4594,
+      "timeline_end_index": 4594,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 10,
+          "end": 44
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_02_18_0014",
+      "source_section": "chapter_02_18",
+      "source_sentence": 20,
+      "character_position": 122,
+      "text": "на котором он освежался и отдыхал от слишком волновавших его впечатлений",
+      "vad": [
+        0.65,
+        -0.25,
+        0.2
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.5603695240494158,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 4594,
+      "timeline_end_index": 4594,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 73,
+          "end": 145
+        }
+      ]
+    }
+  ]
+}

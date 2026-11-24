@@ -1,0 +1,685 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "5_1",
+  "count": 26,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_05_01_0001",
+      "source_section": "chapter_05_01",
+      "source_sentence": 5,
+      "character_position": 658,
+      "text": "продолжал находиться все в том же состоянии сумасшествия, в котором ему казалось, что он и его счастье составляют главную и единственную цель всего существующего",
+      "vad": [
+        0.95,
+        0.8,
+        0.35
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.5726089411783443,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 11134,
+      "timeline_end_index": 11134,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 6,
+          "end": 167
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_01_0002",
+      "source_section": "chapter_05_01",
+      "source_sentence": 13,
+      "character_position": 659,
+      "text": "Я счастлив, и счастье мое не может быть ни больше, ни меньше, что бы вы ни делали",
+      "vad": [
+        0.95,
+        0.35,
+        0.8
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.6942556193422105,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 11142,
+      "timeline_end_index": 11142,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 0,
+          "end": 81
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_01_0003",
+      "source_section": "chapter_05_01",
+      "source_sentence": 14,
+      "character_position": 660,
+      "text": "очень удивился, что она не соглашалась на это",
+      "vad": [
+        -0.1,
+        0.55,
+        -0.15
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.540568683619323,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 11143,
+      "timeline_end_index": 11143,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 67,
+          "end": 112
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_01_0004",
+      "source_section": "chapter_05_01",
+      "source_sentence": 19,
+      "character_position": 661,
+      "text": "удивило Левина",
+      "vad": [
+        0.1,
+        0.45,
+        -0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5379096053460374,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 11148,
+      "timeline_end_index": 11148,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 37,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_01_0005",
+      "source_section": "chapter_05_01",
+      "source_sentence": 37,
+      "character_position": 662,
+      "text": "присутствие и участие во всяких церковных обрядах было очень тяжело",
+      "vad": [
+        -0.75,
+        0.35,
+        -0.3
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1608347582786519,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 11166,
+      "timeline_end_index": 11166,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 91,
+          "end": 158
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_01_0006",
+      "source_section": "chapter_05_01",
+      "source_sentence": 38,
+      "character_position": 663,
+      "text": "в том чувствительном ко всему, размягченном состоянии духа",
+      "vad": [
+        0.2,
+        0.35,
+        -0.15
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5662354299788457,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 11167,
+      "timeline_end_index": 11167,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 8,
+          "end": 66
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_01_0007",
+      "source_section": "chapter_05_01",
+      "source_sentence": 38,
+      "character_position": 664,
+      "text": "эта необходимость притворяться была Левину не только тяжела, но показалась совершенно невозможна",
+      "vad": [
+        -0.85,
+        0.4,
+        -0.7
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3441945606704447,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 11167,
+      "timeline_end_index": 11167,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 92,
+          "end": 188
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_01_0009",
+      "source_section": "chapter_05_01",
+      "source_sentence": 40,
+      "character_position": 665,
+      "text": "Он чувствовал себя не в состоянии сделать ни того, ни другого",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.6
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1904810866832905,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 11169,
+      "timeline_end_index": 11169,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 0,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_01_0010",
+      "source_section": "chapter_05_01",
+      "source_sentence": 45,
+      "character_position": 666,
+      "text": "того сильного религиозного чувства, которое он пережил от шестнадцати до семнадцати лет",
+      "vad": [
+        0.7,
+        0.6,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.3135394847319779,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 11174,
+      "timeline_end_index": 11174,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 77,
+          "end": 164
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_01_0012",
+      "source_section": "chapter_05_01",
+      "source_sentence": 47,
+      "character_position": 667,
+      "text": "почувствовал, что и этого он никак не мог сделать",
+      "vad": [
+        -0.45,
+        0.2,
+        -0.3
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3332123185423028,
+      "warning": null,
+      "chapter_sentence_start": 47,
+      "chapter_sentence_end": 47,
+      "timeline_start_index": 11176,
+      "timeline_end_index": 11176,
+      "highlights": [
+        {
+          "chapter_sentence": 47,
+          "start": 112,
+          "end": 161
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_01_0013",
+      "source_section": "chapter_05_01",
+      "source_sentence": 48,
+      "character_position": 668,
+      "text": "Левин находился в отношении к религии, как и большинство его современников, в самом неопределенном положении",
+      "vad": [
+        -0.15,
+        0.05,
+        -0.35
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4097601964399447,
+      "warning": null,
+      "chapter_sentence_start": 48,
+      "chapter_sentence_end": 48,
+      "timeline_start_index": 11177,
+      "timeline_end_index": 11177,
+      "highlights": [
+        {
+          "chapter_sentence": 48,
+          "start": 0,
+          "end": 108
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_01_0014",
+      "source_section": "chapter_05_01",
+      "source_sentence": 49,
+      "character_position": 669,
+      "text": "Верить он не мог, а вместе с тем он не был твердо убежден в том, чтобы все это было несправедливо",
+      "vad": [
+        -0.35,
+        0.05,
+        -0.3
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3610618163295409,
+      "warning": null,
+      "chapter_sentence_start": 49,
+      "chapter_sentence_end": 49,
+      "timeline_start_index": 11178,
+      "timeline_end_index": 11178,
+      "highlights": [
+        {
+          "chapter_sentence": 49,
+          "start": 0,
+          "end": 97
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_01_0015",
+      "source_section": "chapter_05_01",
+      "source_sentence": 50,
+      "character_position": 670,
+      "text": "во все время этого говенья он испытывал чувство неловкости и стыда",
+      "vad": [
+        -0.75,
+        0.35,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1224292723860944,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 50,
+      "timeline_start_index": 11179,
+      "timeline_end_index": 11179,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 136,
+          "end": 202
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_01_0016",
+      "source_section": "chapter_05_01",
+      "source_sentence": 51,
+      "character_position": 671,
+      "text": "чувствуя, что он не может понимать и должен осуждать их",
+      "vad": [
+        -0.65,
+        0.2,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2327792056239093,
+      "warning": null,
+      "chapter_sentence_start": 51,
+      "chapter_sentence_end": 51,
+      "timeline_start_index": 11180,
+      "timeline_end_index": 11180,
+      "highlights": [
+        {
+          "chapter_sentence": 51,
+          "start": 125,
+          "end": 180
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_01_0017",
+      "source_section": "chapter_05_01",
+      "source_sentence": 55,
+      "character_position": 672,
+      "text": "Левин чувствовал, что мысль его заперта и запечатана",
+      "vad": [
+        -0.4,
+        -0.2,
+        -0.6
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.7081686010883549,
+      "warning": null,
+      "chapter_sentence_start": 55,
+      "chapter_sentence_end": 55,
+      "timeline_start_index": 11184,
+      "timeline_end_index": 11184,
+      "highlights": [
+        {
+          "chapter_sentence": 55,
+          "start": 134,
+          "end": 186
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_01_0018",
+      "source_section": "chapter_05_01",
+      "source_sentence": 77,
+      "character_position": 673,
+      "text": "Я сомневался, я сомневаюсь во всем",
+      "vad": [
+        -0.65,
+        0.3,
+        -0.55
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.190062818125677,
+      "warning": null,
+      "chapter_sentence_start": 77,
+      "chapter_sentence_end": 77,
+      "timeline_start_index": 11206,
+      "timeline_end_index": 11206,
+      "highlights": [
+        {
+          "chapter_sentence": 77,
+          "start": 2,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_01_0019",
+      "source_section": "chapter_05_01",
+      "source_sentence": 81,
+      "character_position": 674,
+      "text": "Мой главный грех есть сомнение",
+      "vad": [
+        -0.55,
+        0.05,
+        -0.35
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4007941935214597,
+      "warning": null,
+      "chapter_sentence_start": 81,
+      "chapter_sentence_end": 81,
+      "timeline_start_index": 11210,
+      "timeline_end_index": 11210,
+      "highlights": [
+        {
+          "chapter_sentence": 81,
+          "start": 2,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_01_0020",
+      "source_section": "chapter_05_01",
+      "source_sentence": 82,
+      "character_position": 675,
+      "text": "Я во всем сомневаюсь и большею частью нахожусь в сомнении",
+      "vad": [
+        -0.55,
+        0.1,
+        -0.7
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4526003294573231,
+      "warning": null,
+      "chapter_sentence_start": 82,
+      "chapter_sentence_end": 82,
+      "timeline_start_index": 11211,
+      "timeline_end_index": 11211,
+      "highlights": [
+        {
+          "chapter_sentence": 82,
+          "start": 0,
+          "end": 57
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_01_0021",
+      "source_section": "chapter_05_01",
+      "source_sentence": 86,
+      "character_position": 676,
+      "text": "ужаснулся неприличию того, что он говорил",
+      "vad": [
+        -0.78,
+        0.72,
+        -0.36
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3170577312378309,
+      "warning": null,
+      "chapter_sentence_start": 86,
+      "chapter_sentence_end": 86,
+      "timeline_start_index": 11215,
+      "timeline_end_index": 11215,
+      "highlights": [
+        {
+          "chapter_sentence": 86,
+          "start": 73,
+          "end": 114
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_01_0022",
+      "source_section": "chapter_05_01",
+      "source_sentence": 97,
+      "character_position": 677,
+      "text": "Левин чувствовал, что неприлично было бы вступать в философские прения со священником",
+      "vad": [
+        -0.35,
+        0.15,
+        -0.25
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3229182784487049,
+      "warning": null,
+      "chapter_sentence_start": 97,
+      "chapter_sentence_end": 97,
+      "timeline_start_index": 11226,
+      "timeline_end_index": 11226,
+      "highlights": [
+        {
+          "chapter_sentence": 97,
+          "start": 0,
+          "end": 85
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_01_0023",
+      "source_section": "chapter_05_01",
+      "source_sentence": 102,
+      "character_position": 678,
+      "text": "чувствуя, что его слова глупы и что они не могут не быть глупы в таком положении",
+      "vad": [
+        -0.78,
+        0.48,
+        -0.62
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2437459951014421,
+      "warning": null,
+      "chapter_sentence_start": 102,
+      "chapter_sentence_end": 102,
+      "timeline_start_index": 11231,
+      "timeline_end_index": 11231,
+      "highlights": [
+        {
+          "chapter_sentence": 102,
+          "start": 49,
+          "end": 129
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_01_0024",
+      "source_section": "chapter_05_01",
+      "source_sentence": 134,
+      "character_position": 679,
+      "text": "испытывал радостное чувство того, что неловкое положение кончилось",
+      "vad": [
+        0.7,
+        0.25,
+        0.35
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2077744863681428,
+      "warning": null,
+      "chapter_sentence_start": 134,
+      "chapter_sentence_end": 134,
+      "timeline_start_index": 11263,
+      "timeline_end_index": 11263,
+      "highlights": [
+        {
+          "chapter_sentence": 134,
+          "start": 36,
+          "end": 102
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_01_0025",
+      "source_section": "chapter_05_01",
+      "source_sentence": 137,
+      "character_position": 680,
+      "text": "чувствовал теперь, что в душе у него что-то неясно и нечисто",
+      "vad": [
+        -0.45,
+        0.12,
+        -0.35
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3813815707602222,
+      "warning": null,
+      "chapter_sentence_start": 137,
+      "chapter_sentence_end": 137,
+      "timeline_start_index": 11266,
+      "timeline_end_index": 11266,
+      "highlights": [
+        {
+          "chapter_sentence": 137,
+          "start": 26,
+          "end": 86
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_01_0027",
+      "source_section": "chapter_05_01",
+      "source_sentence": 138,
+      "character_position": 681,
+      "text": "Левин был особенно весел",
+      "vad": [
+        0.8,
+        0.5,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2138842452575746,
+      "warning": null,
+      "chapter_sentence_start": 138,
+      "chapter_sentence_end": 138,
+      "timeline_start_index": 11267,
+      "timeline_end_index": 11267,
+      "highlights": [
+        {
+          "chapter_sentence": 138,
+          "start": 39,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_01_0028",
+      "source_section": "chapter_05_01",
+      "source_sentence": 138,
+      "character_position": 682,
+      "text": "то возбужденное состояние, в котором он находился",
+      "vad": [
+        0.2,
+        0.8,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.6929965571465242,
+      "warning": null,
+      "chapter_sentence_start": 138,
+      "chapter_sentence_end": 138,
+      "timeline_start_index": 11267,
+      "timeline_end_index": 11267,
+      "highlights": [
+        {
+          "chapter_sentence": 138,
+          "start": 94,
+          "end": 143
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_01_0029",
+      "source_section": "chapter_05_01",
+      "source_sentence": 138,
+      "character_position": 683,
+      "text": "ему весело, как собаке, которую учили скакать через обруч и которая, поняв наконец и совершив то, что от нее требуется, взвизгивает и, махая хвостом, прыгает от восторга на столы и окна",
+      "vad": [
+        0.9,
+        0.85,
+        0.45
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.633606528297524,
+      "warning": null,
+      "chapter_sentence_start": 138,
+      "chapter_sentence_end": 138,
+      "timeline_start_index": 11267,
+      "timeline_end_index": 11267,
+      "highlights": [
+        {
+          "chapter_sentence": 138,
+          "start": 157,
+          "end": 342
+        }
+      ]
+    }
+  ]
+}

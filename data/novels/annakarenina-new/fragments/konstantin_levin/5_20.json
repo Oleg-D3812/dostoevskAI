@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "5_20",
+  "count": 13,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_05_20_0001",
+      "source_section": "chapter_05_20",
+      "source_sentence": 3,
+      "character_position": 840,
+      "text": "Левину было ужасно смотреть на это",
+      "vad": [
+        -0.8,
+        0.55,
+        -0.55
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2283103259550055,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 12572,
+      "timeline_end_index": 12572,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 154,
+          "end": 188
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_20_0002",
+      "source_section": "chapter_05_20",
+      "source_sentence": 7,
+      "character_position": 841,
+      "text": "ему мучительно больно было смотреть на этот умоляющий, полный надежды взгляд",
+      "vad": [
+        -0.9,
+        0.7,
+        -0.6
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4053419242145036,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 12576,
+      "timeline_end_index": 12576,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 22,
+          "end": 98
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_20_0006",
+      "source_section": "chapter_05_20",
+      "source_sentence": 68,
+      "character_position": 842,
+      "text": "Левин уже устал от напряжения мысли",
+      "vad": [
+        -0.55,
+        0.25,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2998257846340962,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 12637,
+      "timeline_end_index": 12637,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 0,
+          "end": 35
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_20_0007",
+      "source_section": "chapter_05_20",
+      "source_sentence": 72,
+      "character_position": 843,
+      "text": "он чувствовал себя совершенно холодным и не испытывал ни горя, ни потери, ни еще меньше жалости к брату",
+      "vad": [
+        -0.35,
+        -0.7,
+        -0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.7897081327676054,
+      "warning": null,
+      "chapter_sentence_start": 72,
+      "chapter_sentence_end": 72,
+      "timeline_start_index": 12641,
+      "timeline_end_index": 12641,
+      "highlights": [
+        {
+          "chapter_sentence": 72,
+          "start": 18,
+          "end": 121
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_20_0008",
+      "source_section": "chapter_05_20",
+      "source_sentence": 73,
+      "character_position": 844,
+      "text": "скорее зависть за то знание, которое имеет теперь умирающий, но которого он не может иметь",
+      "vad": [
+        -0.45,
+        0.15,
+        -0.4
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3523956559937782,
+      "warning": null,
+      "chapter_sentence_start": 73,
+      "chapter_sentence_end": 73,
+      "timeline_start_index": 12642,
+      "timeline_end_index": 12642,
+      "highlights": [
+        {
+          "chapter_sentence": 73,
+          "start": 44,
+          "end": 134
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_20_0009",
+      "source_section": "chapter_05_20",
+      "source_sentence": 80,
+      "character_position": 845,
+      "text": "и сердито замахал жене",
+      "vad": [
+        -0.55,
+        0.45,
+        0.35
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5710956749721472,
+      "warning": null,
+      "chapter_sentence_start": 80,
+      "chapter_sentence_end": 80,
+      "timeline_start_index": 12649,
+      "timeline_end_index": 12649,
+      "highlights": [
+        {
+          "chapter_sentence": 80,
+          "start": 21,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_20_0010",
+      "source_section": "chapter_05_20",
+      "source_sentence": 101,
+      "character_position": 846,
+      "text": "Левин особенно больно чувствовал",
+      "vad": [
+        -0.8,
+        0.35,
+        -0.25
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2247282082148084,
+      "warning": null,
+      "chapter_sentence_start": 101,
+      "chapter_sentence_end": 101,
+      "timeline_start_index": 12670,
+      "timeline_end_index": 12670,
+      "highlights": [
+        {
+          "chapter_sentence": 101,
+          "start": 90,
+          "end": 122
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_20_0011",
+      "source_section": "chapter_05_20",
+      "source_sentence": 164,
+      "character_position": 847,
+      "text": "Вид брата и близость смерти возобновили в душе Левина то чувство ужаса пред неразгаданностью и вместе близостью и неизбежностью смерти",
+      "vad": [
+        -0.9,
+        0.75,
+        -0.7
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4915736324087672,
+      "warning": null,
+      "chapter_sentence_start": 164,
+      "chapter_sentence_end": 164,
+      "timeline_start_index": 12733,
+      "timeline_end_index": 12733,
+      "highlights": [
+        {
+          "chapter_sentence": 164,
+          "start": 0,
+          "end": 134
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_20_0012",
+      "source_section": "chapter_05_20",
+      "source_sentence": 165,
+      "character_position": 848,
+      "text": "Чувство это теперь было еще сильнее, чем прежде",
+      "vad": [
+        -0.78,
+        0.72,
+        -0.42
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3130080635451027,
+      "warning": null,
+      "chapter_sentence_start": 165,
+      "chapter_sentence_end": 165,
+      "timeline_start_index": 12734,
+      "timeline_end_index": 12734,
+      "highlights": [
+        {
+          "chapter_sentence": 165,
+          "start": 0,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_20_0013",
+      "source_section": "chapter_05_20",
+      "source_sentence": 165,
+      "character_position": 849,
+      "text": "чувство это не приводило его в отчаяние",
+      "vad": [
+        -0.1,
+        0.1,
+        0.3
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.2964617423584701,
+      "warning": null,
+      "chapter_sentence_start": 165,
+      "chapter_sentence_end": 165,
+      "timeline_start_index": 12734,
+      "timeline_end_index": 12734,
+      "highlights": [
+        {
+          "chapter_sentence": 165,
+          "start": 208,
+          "end": 247
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_20_0014",
+      "source_section": "chapter_05_20",
+      "source_sentence": 165,
+      "character_position": 850,
+      "text": "он, несмотря на смерть, чувствовал необходимость жить и любить",
+      "vad": [
+        0.75,
+        0.35,
+        0.55
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.3970037042918114,
+      "warning": null,
+      "chapter_sentence_start": 165,
+      "chapter_sentence_end": 165,
+      "timeline_start_index": 12734,
+      "timeline_end_index": 12734,
+      "highlights": [
+        {
+          "chapter_sentence": 165,
+          "start": 249,
+          "end": 311
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_20_0015",
+      "source_section": "chapter_05_20",
+      "source_sentence": 166,
+      "character_position": 851,
+      "text": "любовь спасала его от отчаяния",
+      "vad": [
+        0.82,
+        0.18,
+        0.28
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2360043217318882,
+      "warning": null,
+      "chapter_sentence_start": 166,
+      "chapter_sentence_end": 166,
+      "timeline_start_index": 12735,
+      "timeline_end_index": 12735,
+      "highlights": [
+        {
+          "chapter_sentence": 166,
+          "start": 19,
+          "end": 49
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_20_0016",
+      "source_section": "chapter_05_20",
+      "source_sentence": 166,
+      "character_position": 852,
+      "text": "любовь эта под угрозой отчаяния становилась еще сильнее и чище",
+      "vad": [
+        0.78,
+        0.52,
+        -0.18
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.4001819255144038,
+      "warning": null,
+      "chapter_sentence_start": 166,
+      "chapter_sentence_end": 166,
+      "timeline_start_index": 12735,
+      "timeline_end_index": 12735,
+      "highlights": [
+        {
+          "chapter_sentence": 166,
+          "start": 56,
+          "end": 118
+        }
+      ]
+    }
+  ]
+}

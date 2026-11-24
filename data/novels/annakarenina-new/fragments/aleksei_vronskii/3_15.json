@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "3_15",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_03_15_0001",
+      "source_section": "chapter_03_15",
+      "source_sentence": 20,
+      "character_position": 211,
+      "text": "что он не любит ее, что он уже начинает тяготиться ею",
+      "vad": [
+        -0.85,
+        0.65,
+        -0.7
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.3489659982789646,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 7327,
+      "timeline_end_index": 7327,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 48,
+          "end": 101
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_15_0002",
+      "source_section": "chapter_03_15",
+      "source_sentence": 61,
+      "character_position": 212,
+      "text": "Вронский охладеет к ней",
+      "vad": [
+        -0.7,
+        0.45,
+        -0.55
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.0807715857880364,
+      "warning": null,
+      "chapter_sentence_start": 61,
+      "chapter_sentence_end": 61,
+      "timeline_start_index": 7368,
+      "timeline_end_index": 7368,
+      "highlights": [
+        {
+          "chapter_sentence": 61,
+          "start": 41,
+          "end": 64
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_03_15_0003",
+      "source_section": "chapter_03_15",
+      "source_sentence": 118,
+      "character_position": 213,
+      "text": "его спокойствие",
+      "vad": [
+        0.2,
+        -0.7,
+        0.5
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.985600808741954,
+      "warning": null,
+      "chapter_sentence_start": 118,
+      "chapter_sentence_end": 118,
+      "timeline_start_index": 7425,
+      "timeline_end_index": 7425,
+      "highlights": [
+        {
+          "chapter_sentence": 118,
+          "start": 48,
+          "end": 63
+        }
+      ]
+    }
+  ]
+}

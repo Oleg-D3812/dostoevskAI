@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "4_9",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_04_09_0001",
+      "source_section": "chapter_04_09",
+      "source_sentence": 24,
+      "character_position": 156,
+      "text": "к ужасу своему",
+      "vad": [
+        -0.9,
+        0.75,
+        -0.45
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.3798865975388172,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 9652,
+      "timeline_end_index": 9652,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 69,
+          "end": 83
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_04_09_0002",
+      "source_section": "chapter_04_09",
+      "source_sentence": 82,
+      "character_position": 157,
+      "text": "в особенности весело Степан Аркадьич",
+      "vad": [
+        0.75,
+        0.45,
+        0.0
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.2855012028378753,
+      "warning": null,
+      "chapter_sentence_start": 82,
+      "chapter_sentence_end": 82,
+      "timeline_start_index": 9710,
+      "timeline_end_index": 9710,
+      "highlights": [
+        {
+          "chapter_sentence": 82,
+          "start": 18,
+          "end": 54
+        }
+      ]
+    }
+  ]
+}

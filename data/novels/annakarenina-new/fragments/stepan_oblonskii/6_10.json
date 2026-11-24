@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "6_10",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_06_10_0001",
+      "source_section": "chapter_06_10",
+      "source_sentence": 3,
+      "character_position": 192,
+      "text": "выражение озабоченности",
+      "vad": [
+        -0.15,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.3790295506645996,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 14703,
+      "timeline_end_index": 14703,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 68,
+          "end": 91
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_06_10_0002",
+      "source_section": "chapter_06_10",
+      "source_sentence": 3,
+      "character_position": 193,
+      "text": "добродушной хитрости",
+      "vad": [
+        0.45,
+        0.2,
+        0.35
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.2649452324386162,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 14703,
+      "timeline_end_index": 14703,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 186,
+          "end": 206
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_06_10_0003",
+      "source_section": "chapter_06_10",
+      "source_sentence": 112,
+      "character_position": 194,
+      "text": "весело улыбаясь",
+      "vad": [
+        0.7,
+        0.3,
+        0.2
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.0521120065946653,
+      "warning": null,
+      "chapter_sentence_start": 112,
+      "chapter_sentence_end": 112,
+      "timeline_start_index": 14812,
+      "timeline_end_index": 14812,
+      "highlights": [
+        {
+          "chapter_sentence": 112,
+          "start": 13,
+          "end": 28
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_06_10_0004",
+      "source_section": "chapter_06_10",
+      "source_sentence": 120,
+      "character_position": 195,
+      "text": "смягчая свое торжество",
+      "vad": [
+        0.6,
+        0.2,
+        0.65
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.4579773141613464,
+      "warning": null,
+      "chapter_sentence_start": 120,
+      "chapter_sentence_end": 120,
+      "timeline_start_index": 14820,
+      "timeline_end_index": 14820,
+      "highlights": [
+        {
+          "chapter_sentence": 120,
+          "start": 56,
+          "end": 78
+        }
+      ]
+    }
+  ]
+}

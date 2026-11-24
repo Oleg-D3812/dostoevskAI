@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "7_11",
+  "count": 12,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_07_11_0001",
+      "source_section": "chapter_07_11",
+      "source_sentence": 3,
+      "character_position": 1171,
+      "text": "Левин был совершенно побежден",
+      "vad": [
+        -0.35,
+        0.35,
+        -0.8
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.5064934743308704,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 17826,
+      "timeline_end_index": 17826,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 56,
+          "end": 85
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_11_0002",
+      "source_section": "chapter_07_11",
+      "source_sentence": 4,
+      "character_position": 1172,
+      "text": "задумчиво отвечал Левин",
+      "vad": [
+        0.0,
+        -0.3,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4491810549186566,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 17827,
+      "timeline_end_index": 17827,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 8,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_11_0003",
+      "source_section": "chapter_07_11",
+      "source_sentence": 6,
+      "character_position": 1173,
+      "text": "Ужасно жалко ее!",
+      "vad": [
+        -0.72,
+        0.42,
+        -0.28
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1426406890874938,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 17829,
+      "timeline_end_index": 17829,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 0,
+          "end": 16
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_11_0004",
+      "source_section": "chapter_07_11",
+      "source_sentence": 10,
+      "character_position": 1174,
+      "text": "все более и более входя в ее положение и чувствуя к ней жалость",
+      "vad": [
+        -0.35,
+        0.2,
+        -0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.2198159132432533,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 17833,
+      "timeline_end_index": 17833,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 143,
+          "end": 206
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_11_0005",
+      "source_section": "chapter_07_11",
+      "source_sentence": 17,
+      "character_position": 1175,
+      "text": "с необыкновенною легкостью решил Левин первый вопрос",
+      "vad": [
+        0.55,
+        0.2,
+        0.7
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.5723602415910413,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 17840,
+      "timeline_end_index": 17840,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 68,
+          "end": 120
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_11_0006",
+      "source_section": "chapter_07_11",
+      "source_sentence": 19,
+      "character_position": 1176,
+      "text": "Он чувствовал себя виноватым пред сестрой",
+      "vad": [
+        -0.65,
+        0.25,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1837969376247625,
+      "warning": null,
+      "chapter_sentence_start": 19,
+      "chapter_sentence_end": 19,
+      "timeline_start_index": 17842,
+      "timeline_end_index": 17842,
+      "highlights": [
+        {
+          "chapter_sentence": 19,
+          "start": 0,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_11_0007",
+      "source_section": "chapter_07_11",
+      "source_sentence": 26,
+      "character_position": 1177,
+      "text": "нежной жалости, которую он испытывал к Анне",
+      "vad": [
+        -0.3,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.1469090191115769,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 17849,
+      "timeline_end_index": 17849,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 66,
+          "end": 109
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_11_0008",
+      "source_section": "chapter_07_11",
+      "source_sentence": 32,
+      "character_position": 1178,
+      "text": "я очень рад был, что встретил Вронского",
+      "vad": [
+        0.7,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2061657534680152,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 17855,
+      "timeline_end_index": 17855,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 6,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_11_0009",
+      "source_section": "chapter_07_11",
+      "source_sentence": 33,
+      "character_position": 1179,
+      "text": "Мне очень легко и просто было с ним",
+      "vad": [
+        0.55,
+        -0.2,
+        0.25
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.5544417581626712,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 17856,
+      "timeline_end_index": 17856,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 0,
+          "end": 35
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_11_0010",
+      "source_section": "chapter_07_11",
+      "source_sentence": 40,
+      "character_position": 1180,
+      "text": "сомнения его о том, хорошо ли, или дурно он сделал, поехав к Анне, были окончательно разрешены",
+      "vad": [
+        0.15,
+        -0.1,
+        0.5
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.6285256371231097,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 17863,
+      "timeline_end_index": 17863,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 45,
+          "end": 139
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_11_0011",
+      "source_section": "chapter_07_11",
+      "source_sentence": 64,
+      "character_position": 1181,
+      "text": "чувство жалости в соединении с вином сбили его и он поддался хитрому влиянию Анны",
+      "vad": [
+        -0.55,
+        0.35,
+        -0.65
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2764943658547945,
+      "warning": null,
+      "chapter_sentence_start": 64,
+      "chapter_sentence_end": 64,
+      "timeline_start_index": 17887,
+      "timeline_end_index": 17887,
+      "highlights": [
+        {
+          "chapter_sentence": 64,
+          "start": 48,
+          "end": 129
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_11_0012",
+      "source_section": "chapter_07_11",
+      "source_sentence": 65,
+      "character_position": 1182,
+      "text": "он ошалел",
+      "vad": [
+        -0.5,
+        0.6,
+        -0.4
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2377977087072113,
+      "warning": null,
+      "chapter_sentence_start": 65,
+      "chapter_sentence_end": 65,
+      "timeline_start_index": 17888,
+      "timeline_end_index": 17888,
+      "highlights": [
+        {
+          "chapter_sentence": 65,
+          "start": 121,
+          "end": 130
+        }
+      ]
+    }
+  ]
+}

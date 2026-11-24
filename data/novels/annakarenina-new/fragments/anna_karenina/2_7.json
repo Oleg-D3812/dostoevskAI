@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "2_7",
+  "count": 12,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_02_07_0001",
+      "source_section": "chapter_02_07",
+      "source_sentence": 72,
+      "character_position": 151,
+      "text": "она смутилась",
+      "vad": [
+        -0.35,
+        0.3,
+        -0.25
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.279396677611255,
+      "warning": null,
+      "chapter_sentence_start": 72,
+      "chapter_sentence_end": 72,
+      "timeline_start_index": 3650,
+      "timeline_end_index": 3650,
+      "highlights": [
+        {
+          "chapter_sentence": 72,
+          "start": 9,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_07_0002",
+      "source_section": "chapter_02_07",
+      "source_sentence": 74,
+      "character_position": 152,
+      "text": "от этого-то боится его",
+      "vad": [
+        -0.8,
+        0.65,
+        -0.7
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.2245740999465037,
+      "warning": null,
+      "chapter_sentence_start": 74,
+      "chapter_sentence_end": 74,
+      "timeline_start_index": 3652,
+      "timeline_end_index": 3652,
+      "highlights": [
+        {
+          "chapter_sentence": 74,
+          "start": 63,
+          "end": 85
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_07_0003",
+      "source_section": "chapter_02_07",
+      "source_sentence": 76,
+      "character_position": 153,
+      "text": "она почувствовала",
+      "vad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.4112901193606976,
+      "warning": null,
+      "chapter_sentence_start": 76,
+      "chapter_sentence_end": 76,
+      "timeline_start_index": 3654,
+      "timeline_end_index": 3654,
+      "highlights": [
+        {
+          "chapter_sentence": 76,
+          "start": 112,
+          "end": 129
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_07_0004",
+      "source_section": "chapter_02_07",
+      "source_sentence": 79,
+      "character_position": 154,
+      "text": "чувствовать себя виновною в чем-то",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.55
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.210306491779091,
+      "warning": null,
+      "chapter_sentence_start": 79,
+      "chapter_sentence_end": 79,
+      "timeline_start_index": 3657,
+      "timeline_end_index": 3657,
+      "highlights": [
+        {
+          "chapter_sentence": 79,
+          "start": 57,
+          "end": 91
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_07_0007",
+      "source_section": "chapter_02_07",
+      "source_sentence": 86,
+      "character_position": 155,
+      "text": "чтоб я была спокойна",
+      "vad": [
+        -0.2,
+        0.1,
+        -0.3
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.3465385606948278,
+      "warning": null,
+      "chapter_sentence_start": 86,
+      "chapter_sentence_end": 86,
+      "timeline_start_index": 3664,
+      "timeline_end_index": 3664,
+      "highlights": [
+        {
+          "chapter_sentence": 86,
+          "start": 73,
+          "end": 93
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_07_0008",
+      "source_section": "chapter_02_07",
+      "source_sentence": 96,
+      "character_position": 156,
+      "text": "взгляд, полный любви",
+      "vad": [
+        0.85,
+        0.45,
+        0.05
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.3084924077407112,
+      "warning": null,
+      "chapter_sentence_start": 96,
+      "chapter_sentence_end": 96,
+      "timeline_start_index": 3674,
+      "timeline_end_index": 3674,
+      "highlights": [
+        {
+          "chapter_sentence": 96,
+          "start": 112,
+          "end": 132
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_07_0009",
+      "source_section": "chapter_02_07",
+      "source_sentence": 100,
+      "character_position": 157,
+      "text": "Она любит меня.",
+      "vad": [
+        0.9,
+        0.8,
+        0.6
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.7230782591174101,
+      "warning": null,
+      "chapter_sentence_start": 100,
+      "chapter_sentence_end": 100,
+      "timeline_start_index": 3678,
+      "timeline_end_index": 3678,
+      "highlights": [
+        {
+          "chapter_sentence": 100,
+          "start": 0,
+          "end": 15
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_07_0010",
+      "source_section": "chapter_02_07",
+      "source_sentence": 101,
+      "character_position": 158,
+      "text": "Она признается в этом",
+      "vad": [
+        0.7,
+        0.45,
+        0.2
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.180939200299685,
+      "warning": null,
+      "chapter_sentence_start": 101,
+      "chapter_sentence_end": 101,
+      "timeline_start_index": 3679,
+      "timeline_end_index": 3679,
+      "highlights": [
+        {
+          "chapter_sentence": 101,
+          "start": 0,
+          "end": 21
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_07_0011",
+      "source_section": "chapter_02_07",
+      "source_sentence": 108,
+      "character_position": 159,
+      "text": "Я не хочу никуда прогонять вас",
+      "vad": [
+        0.35,
+        0.05,
+        0.2
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.3598204277647882,
+      "warning": null,
+      "chapter_sentence_start": 108,
+      "chapter_sentence_end": 108,
+      "timeline_start_index": 3686,
+      "timeline_end_index": 3686,
+      "highlights": [
+        {
+          "chapter_sentence": 108,
+          "start": 2,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_07_0012",
+      "source_section": "chapter_02_07",
+      "source_sentence": 127,
+      "character_position": 160,
+      "text": "сияя улыбкой счастья",
+      "vad": [
+        0.85,
+        0.55,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.3559796818466322,
+      "warning": null,
+      "chapter_sentence_start": 127,
+      "chapter_sentence_end": 127,
+      "timeline_start_index": 3705,
+      "timeline_end_index": 3705,
+      "highlights": [
+        {
+          "chapter_sentence": 127,
+          "start": 16,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_07_0013",
+      "source_section": "chapter_02_07",
+      "source_sentence": 134,
+      "character_position": 161,
+      "text": "слушала с восхищением",
+      "vad": [
+        0.8,
+        0.45,
+        0.05
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.2718384392653706,
+      "warning": null,
+      "chapter_sentence_start": 134,
+      "chapter_sentence_end": 134,
+      "timeline_start_index": 3712,
+      "timeline_end_index": 3712,
+      "highlights": [
+        {
+          "chapter_sentence": 134,
+          "start": 101,
+          "end": 122
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_02_07_0014",
+      "source_section": "chapter_02_07",
+      "source_sentence": 137,
+      "character_position": 162,
+      "text": "не люблю этого слова",
+      "vad": [
+        -0.45,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.1362982367551413,
+      "warning": null,
+      "chapter_sentence_start": 137,
+      "chapter_sentence_end": 137,
+      "timeline_start_index": 3715,
+      "timeline_end_index": 3715,
+      "highlights": [
+        {
+          "chapter_sentence": 137,
+          "start": 120,
+          "end": 140
+        }
+      ]
+    }
+  ]
+}

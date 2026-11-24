@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "4_7",
+  "count": 5,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_04_07_0001",
+      "source_section": "chapter_04_07",
+      "source_sentence": 11,
+      "character_position": 141,
+      "text": "мысль этого обеда во всех отношениях радовала Степана Аркадьича",
+      "vad": [
+        0.85,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.2315964617040642,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 9430,
+      "timeline_end_index": 9430,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 123,
+          "end": 186
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_04_07_0002",
+      "source_section": "chapter_04_07",
+      "source_sentence": 12,
+      "character_position": 142,
+      "text": "Он находился в самом веселом расположении духа",
+      "vad": [
+        0.9,
+        0.55,
+        0.3
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.3836253603932281,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 9431,
+      "timeline_end_index": 9431,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 0,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_04_07_0003",
+      "source_section": "chapter_04_07",
+      "source_sentence": 13,
+      "character_position": 143,
+      "text": "море добродушного веселья, которое волновалось в душе Степана Аркадьича",
+      "vad": [
+        0.9,
+        0.45,
+        0.2
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.3020975096319243,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 9432,
+      "timeline_end_index": 9432,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 80,
+          "end": 151
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_04_07_0004",
+      "source_section": "chapter_04_07",
+      "source_sentence": 14,
+      "character_position": 144,
+      "text": "Степан Аркадьич догадывался, что что-то не ладно между мужем и женою",
+      "vad": [
+        -0.25,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.1030724337191946,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 9433,
+      "timeline_end_index": 9433,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 289,
+          "end": 357
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_04_07_0006",
+      "source_section": "chapter_04_07",
+      "source_sentence": 20,
+      "character_position": 145,
+      "text": "Степан Аркадьич инстинктивно чувствовал, что все образуется прекрасно",
+      "vad": [
+        0.85,
+        0.2,
+        0.45
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.3221102781813437,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 9439,
+      "timeline_end_index": 9439,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 3,
+          "end": 72
+        }
+      ]
+    }
+  ]
+}

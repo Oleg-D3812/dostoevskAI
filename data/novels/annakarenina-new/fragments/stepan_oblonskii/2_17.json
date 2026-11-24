@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "2_17",
+  "count": 7,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_02_17_0001",
+      "source_section": "chapter_02_17",
+      "source_sentence": 2,
+      "character_position": 125,
+      "text": "находился в самом веселом расположении духа",
+      "vad": [
+        0.9,
+        0.5,
+        0.2
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.3343920205926672,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 4453,
+      "timeline_end_index": 4453,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 85,
+          "end": 128
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_02_17_0003",
+      "source_section": "chapter_02_17",
+      "source_sentence": 3,
+      "character_position": 126,
+      "text": "Ему хотелось окончить день за ужином так же приятно, как он был начат",
+      "vad": [
+        0.7,
+        0.15,
+        0.35
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.1955587387115201,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 4454,
+      "timeline_end_index": 4454,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 0,
+          "end": 69
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_02_17_0004",
+      "source_section": "chapter_02_17",
+      "source_sentence": 35,
+      "character_position": 127,
+      "text": "Степан Аркадьич добродушно сморщился, как человек, которого безвинно обижают и расстраивают",
+      "vad": [
+        -0.45,
+        0.25,
+        -0.3
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.3247926993912496,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 4486,
+      "timeline_end_index": 4486,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 0,
+          "end": 91
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_02_17_0005",
+      "source_section": "chapter_02_17",
+      "source_sentence": 69,
+      "character_position": 128,
+      "text": "влажно и блаженно зевая",
+      "vad": [
+        0.65,
+        -0.65,
+        0.1
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.9250149561522444,
+      "warning": null,
+      "chapter_sentence_start": 69,
+      "chapter_sentence_end": 69,
+      "timeline_start_index": 4520,
+      "timeline_end_index": 4520,
+      "highlights": [
+        {
+          "chapter_sentence": 69,
+          "start": 81,
+          "end": 104
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_02_17_0006",
+      "source_section": "chapter_02_17",
+      "source_sentence": 104,
+      "character_position": 129,
+      "text": "искренно и весело",
+      "vad": [
+        0.8,
+        0.45,
+        0.1
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.2510511598327513,
+      "warning": null,
+      "chapter_sentence_start": 104,
+      "chapter_sentence_end": 104,
+      "timeline_start_index": 4555,
+      "timeline_end_index": 4555,
+      "highlights": [
+        {
+          "chapter_sentence": 104,
+          "start": 46,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_02_17_0007",
+      "source_section": "chapter_02_17",
+      "source_sentence": 105,
+      "character_position": 130,
+      "text": "ему искренно нравилось",
+      "vad": [
+        0.7,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.2662792474250956,
+      "warning": null,
+      "chapter_sentence_start": 105,
+      "chapter_sentence_end": 105,
+      "timeline_start_index": 4556,
+      "timeline_end_index": 4556,
+      "highlights": [
+        {
+          "chapter_sentence": 105,
+          "start": 17,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_02_17_0008",
+      "source_section": "chapter_02_17",
+      "source_sentence": 116,
+      "character_position": 131,
+      "text": "Ты не сердишься на меня, Стива?",
+      "vad": [
+        -0.25,
+        0.1,
+        -0.35
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.372604955560963,
+      "warning": null,
+      "chapter_sentence_start": 116,
+      "chapter_sentence_end": 116,
+      "timeline_start_index": 4567,
+      "timeline_end_index": 4567,
+      "highlights": [
+        {
+          "chapter_sentence": 116,
+          "start": 2,
+          "end": 33
+        }
+      ]
+    }
+  ]
+}

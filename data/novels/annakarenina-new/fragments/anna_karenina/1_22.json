@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "1_22",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_01_22_0001",
+      "source_section": "chapter_01_22",
+      "source_sentence": 55,
+      "character_position": 49,
+      "text": "вместе веселая и оживленная",
+      "vad": [
+        0.8,
+        0.65,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.4080957838648475,
+      "warning": null,
+      "chapter_sentence_start": 55,
+      "chapter_sentence_end": 55,
+      "timeline_start_index": 2054,
+      "timeline_end_index": 2054,
+      "highlights": [
+        {
+          "chapter_sentence": 55,
+          "start": 139,
+          "end": 166
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_22_0002",
+      "source_section": "chapter_01_22",
+      "source_sentence": 57,
+      "character_position": 50,
+      "text": "с нежною улыбкой покровительства",
+      "vad": [
+        0.65,
+        0.1,
+        0.45
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.3427168907727811,
+      "warning": null,
+      "chapter_sentence_start": 57,
+      "chapter_sentence_end": 57,
+      "timeline_start_index": 2056,
+      "timeline_end_index": 2056,
+      "highlights": [
+        {
+          "chapter_sentence": 57,
+          "start": 121,
+          "end": 153
+        }
+      ]
+    }
+  ]
+}

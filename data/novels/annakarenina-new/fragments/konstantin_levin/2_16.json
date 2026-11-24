@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "2_16",
+  "count": 14,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_02_16_0001",
+      "source_section": "chapter_02_16",
+      "source_sentence": 1,
+      "character_position": 265,
+      "text": "ему совестно бы было признаться в этом",
+      "vad": [
+        -0.6,
+        0.25,
+        -0.35
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2000631373264921,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 4336,
+      "timeline_end_index": 4336,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 95,
+          "end": 133
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_02_16_0002",
+      "source_section": "chapter_02_16",
+      "source_sentence": 1,
+      "character_position": 266,
+      "text": "было приятно ему",
+      "vad": [
+        0.7,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2802742322392383,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 4336,
+      "timeline_end_index": 4336,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 153,
+          "end": 169
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_02_16_0003",
+      "source_section": "chapter_02_16",
+      "source_sentence": 2,
+      "character_position": 267,
+      "text": "Приятно",
+      "vad": [
+        0.7,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2802742322392383,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 4337,
+      "timeline_end_index": 4337,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 0,
+          "end": 7
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_02_16_0004",
+      "source_section": "chapter_02_16",
+      "source_sentence": 2,
+      "character_position": 268,
+      "text": "была еще надежда",
+      "vad": [
+        0.65,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.1469871244838163,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 4337,
+      "timeline_end_index": 4337,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 23,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_02_16_0006",
+      "source_section": "chapter_02_16",
+      "source_sentence": 2,
+      "character_position": 269,
+      "text": "сделала ему так больно",
+      "vad": [
+        -0.85,
+        0.45,
+        -0.35
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1960845081831948,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 4337,
+      "timeline_end_index": 4337,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 102,
+          "end": 124
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_02_16_0007",
+      "source_section": "chapter_02_16",
+      "source_sentence": 3,
+      "character_position": 270,
+      "text": "никакого интереса",
+      "vad": [
+        0.0,
+        -0.4,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5344979451290786,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 4338,
+      "timeline_end_index": 4338,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 185,
+          "end": 202
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_02_16_0008",
+      "source_section": "chapter_02_16",
+      "source_sentence": 4,
+      "character_position": 271,
+      "text": "сделавшегося столь же мрачным",
+      "vad": [
+        -0.75,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4783723840374279,
+      "warning": "non_verbatim_evidence;empty_evidence",
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 4339,
+      "timeline_end_index": 4339,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 103,
+          "end": 132
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_02_16_0009",
+      "source_section": "chapter_02_16",
+      "source_sentence": 4,
+      "character_position": 272,
+      "text": "был весел минуту тому назад",
+      "vad": [
+        0.7,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2061657534680152,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 4339,
+      "timeline_end_index": 4339,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 145,
+          "end": 172
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_02_16_0010",
+      "source_section": "chapter_02_16",
+      "source_sentence": 12,
+      "character_position": 273,
+      "text": "мрачно сказал Левин",
+      "vad": [
+        -0.65,
+        -0.2,
+        -0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5034457018962291,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 4347,
+      "timeline_end_index": 4347,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 36,
+          "end": 55
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_02_16_0011",
+      "source_section": "chapter_02_16",
+      "source_sentence": 23,
+      "character_position": 274,
+      "text": "Левин презрительно улыбнулся",
+      "vad": [
+        -0.55,
+        0.2,
+        0.45
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5187787373093032,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 4358,
+      "timeline_end_index": 4358,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 0,
+          "end": 28
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_02_16_0012",
+      "source_section": "chapter_02_16",
+      "source_sentence": 32,
+      "character_position": 275,
+      "text": "его дурного расположения духа",
+      "vad": [
+        -0.7,
+        0.1,
+        -0.1
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4543000998417529,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 4367,
+      "timeline_end_index": 4367,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 64,
+          "end": 93
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_02_16_0013",
+      "source_section": "chapter_02_16",
+      "source_sentence": 45,
+      "character_position": 276,
+      "text": "не в духе",
+      "vad": [
+        -0.55,
+        -0.15,
+        -0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3989758841308434,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 4380,
+      "timeline_end_index": 4380,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 3,
+          "end": 12
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_02_16_0014",
+      "source_section": "chapter_02_16",
+      "source_sentence": 46,
+      "character_position": 277,
+      "text": "мрачно сказал Левин",
+      "vad": [
+        -0.55,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3812635005788721,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 4381,
+      "timeline_end_index": 4381,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 15,
+          "end": 34
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_02_16_0015",
+      "source_section": "chapter_02_16",
+      "source_sentence": 63,
+      "character_position": 278,
+      "text": "мрачно хмурясь, сказал Левин",
+      "vad": [
+        -0.7,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4699326206561734,
+      "warning": null,
+      "chapter_sentence_start": 63,
+      "chapter_sentence_end": 63,
+      "timeline_start_index": 4398,
+      "timeline_end_index": 4398,
+      "highlights": [
+        {
+          "chapter_sentence": 63,
+          "start": 2,
+          "end": 30
+        }
+      ]
+    }
+  ]
+}

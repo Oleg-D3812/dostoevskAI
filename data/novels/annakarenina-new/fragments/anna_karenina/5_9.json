@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "5_9",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_05_09_0002",
+      "source_section": "chapter_05_09",
+      "source_sentence": 34,
+      "character_position": 571,
+      "text": "единственное тайное горе в жизни Анны",
+      "vad": [
+        -0.8,
+        0.1,
+        -0.4
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.4377959468435772,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 11869,
+      "timeline_end_index": 11869,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 77,
+          "end": 114
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_05_09_0003",
+      "source_section": "chapter_05_09",
+      "source_sentence": 35,
+      "character_position": 572,
+      "text": "Анна не смела себе признаться, что она боится ревновать эту кормилицу",
+      "vad": [
+        -0.65,
+        0.58,
+        -0.62
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.1675192610936728,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 11870,
+      "timeline_end_index": 11870,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 67,
+          "end": 136
+        }
+      ]
+    }
+  ]
+}

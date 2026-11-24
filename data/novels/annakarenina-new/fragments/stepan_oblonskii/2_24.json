@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "2_24",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_02_24_0001",
+      "source_section": "chapter_02_24",
+      "source_sentence": 59,
+      "character_position": 132,
+      "text": "очень рад, что увижу твое торжество",
+      "vad": [
+        0.7,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.1136678742687276,
+      "warning": null,
+      "chapter_sentence_start": 59,
+      "chapter_sentence_end": 59,
+      "timeline_start_index": 5112,
+      "timeline_end_index": 5112,
+      "highlights": [
+        {
+          "chapter_sentence": 59,
+          "start": 18,
+          "end": 53
+        }
+      ]
+    }
+  ]
+}

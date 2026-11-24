@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "8_7",
+  "count": 10,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_08_07_0001",
+      "source_section": "chapter_08_07",
+      "source_sentence": 6,
+      "character_position": 549,
+      "text": "Эта ручка смущала Кити",
+      "vad": [
+        -0.15,
+        0.3,
+        -0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.3390384424268335,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 20141,
+      "timeline_end_index": 20141,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 0,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_08_07_0002",
+      "source_section": "chapter_08_07",
+      "source_sentence": 6,
+      "character_position": 550,
+      "text": "ей хотелось поцеловать эту ручку",
+      "vad": [
+        0.8,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2139823238069313,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 20141,
+      "timeline_end_index": 20141,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 24,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_08_07_0003",
+      "source_section": "chapter_08_07",
+      "source_sentence": 6,
+      "character_position": 551,
+      "text": "она боялась сделать это",
+      "vad": [
+        -0.3,
+        0.25,
+        -0.3
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.3896012971056066,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 20141,
+      "timeline_end_index": 20141,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 61,
+          "end": 84
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_08_07_0004",
+      "source_section": "chapter_08_07",
+      "source_sentence": 11,
+      "character_position": 552,
+      "text": "досадно, что Кости нет",
+      "vad": [
+        -0.45,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.2341832664502708,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 20146,
+      "timeline_end_index": 20146,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 60,
+          "end": 82
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_08_07_0005",
+      "source_section": "chapter_08_07",
+      "source_sentence": 13,
+      "character_position": 553,
+      "text": "грустно, что он часто бывает там",
+      "vad": [
+        -0.45,
+        -0.1,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.2893044511292788,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 20148,
+      "timeline_end_index": 20148,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 7,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_08_07_0006",
+      "source_section": "chapter_08_07",
+      "source_sentence": 13,
+      "character_position": 554,
+      "text": "я все-таки рада",
+      "vad": [
+        0.65,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.0913415963430096,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 20148,
+      "timeline_end_index": 20148,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 41,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_08_07_0007",
+      "source_section": "chapter_08_07",
+      "source_sentence": 16,
+      "character_position": 555,
+      "text": "мне становилось страшно за него",
+      "vad": [
+        -0.7,
+        0.55,
+        -0.35
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.1100796500373912,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 20151,
+      "timeline_end_index": 20151,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 42,
+          "end": 73
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_08_07_0009",
+      "source_section": "chapter_08_07",
+      "source_sentence": 21,
+      "character_position": 556,
+      "text": "любя более всего на свете душу своего мужа",
+      "vad": [
+        0.95,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.3346221439259692,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 20156,
+      "timeline_end_index": 20156,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 282,
+          "end": 324
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_08_07_0010",
+      "source_section": "chapter_08_07",
+      "source_sentence": 34,
+      "character_position": 557,
+      "text": "вздрогнуть от волнения",
+      "vad": [
+        -0.2,
+        0.75,
+        -0.3
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.5795868357190936,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 20169,
+      "timeline_end_index": 20169,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 44,
+          "end": 66
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_08_07_0011",
+      "source_section": "chapter_08_07",
+      "source_sentence": 46,
+      "character_position": 558,
+      "text": "с невольною улыбкой умиления",
+      "vad": [
+        0.7,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.1632974954878854,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 20181,
+      "timeline_end_index": 20181,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 17,
+          "end": 45
+        }
+      ]
+    }
+  ]
+}

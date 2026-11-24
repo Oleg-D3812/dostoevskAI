@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "7_8",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_07_08_0001",
+      "source_section": "chapter_07_08",
+      "source_sentence": 44,
+      "character_position": 212,
+      "text": "у него на глазах были не слезы, а влажность, как это всегда бывало у него, или когда он выпил, или когда он расчувствовался",
+      "vad": [
+        0.35,
+        0.4,
+        0.0
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.39011798110838,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 17593,
+      "timeline_end_index": 17593,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 47,
+          "end": 170
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_07_08_0003",
+      "source_section": "chapter_07_08",
+      "source_sentence": 46,
+      "character_position": 213,
+      "text": "крепко сжал его руку за локоть, очевидно ни за что не желая выпустить его",
+      "vad": [
+        0.35,
+        0.55,
+        0.65
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.6123942233997391,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 17595,
+      "timeline_end_index": 17595,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 33,
+          "end": 106
+        }
+      ]
+    }
+  ]
+}

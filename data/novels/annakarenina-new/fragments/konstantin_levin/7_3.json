@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "7_3",
+  "count": 13,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_07_03_0001",
+      "source_section": "chapter_07_03",
+      "source_sentence": 2,
+      "character_position": 1109,
+      "text": "Катавасов был ему приятен ясностию и простотой своего миросозерцания.",
+      "vad": [
+        0.65,
+        -0.1,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.4599520490331147,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 17230,
+      "timeline_end_index": 17230,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 0,
+          "end": 69
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_03_0002",
+      "source_section": "chapter_07_03",
+      "source_sentence": 3,
+      "character_position": 1110,
+      "text": "ясность Катавасова была приятна Левину",
+      "vad": [
+        0.6,
+        -0.2,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.5400982425679677,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 17231,
+      "timeline_end_index": 17231,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 188,
+          "end": 226
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_03_0005",
+      "source_section": "chapter_07_03",
+      "source_sentence": 22,
+      "character_position": 1111,
+      "text": "до какой степени он мог надеяться на сочувствие в нем к своим новым взглядам, он не знал и не мог догадаться по умному и спокойному лицу ученого",
+      "vad": [
+        -0.35,
+        0.2,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3913237220725454,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 17250,
+      "timeline_end_index": 17250,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 91,
+          "end": 235
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_03_0006",
+      "source_section": "chapter_07_03",
+      "source_sentence": 26,
+      "character_position": 1112,
+      "text": "он был несогласен",
+      "vad": [
+        -0.3,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.1638497589974722,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 17254,
+      "timeline_end_index": 17254,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 67,
+          "end": 84
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_03_0007",
+      "source_section": "chapter_07_03",
+      "source_sentence": 31,
+      "character_position": 1113,
+      "text": "Левин не понял, потому что и не трудился понимать",
+      "vad": [
+        -0.2,
+        0.1,
+        -0.15
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.2053973060855651,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 17259,
+      "timeline_end_index": 17259,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 39,
+          "end": 88
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_03_0008",
+      "source_section": "chapter_07_03",
+      "source_sentence": 33,
+      "character_position": 1114,
+      "text": "Левин слушал неохотно",
+      "vad": [
+        -0.35,
+        0.05,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.1142179318971179,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 17261,
+      "timeline_end_index": 17261,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 0,
+          "end": 21
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_03_0009",
+      "source_section": "chapter_07_03",
+      "source_sentence": 34,
+      "character_position": 1115,
+      "text": "Ему хотелось перебить Метрова",
+      "vad": [
+        -0.25,
+        0.55,
+        0.35
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5681417346729442,
+      "warning": null,
+      "chapter_sentence_start": 34,
+      "chapter_sentence_end": 34,
+      "timeline_start_index": 17262,
+      "timeline_end_index": 17262,
+      "highlights": [
+        {
+          "chapter_sentence": 34,
+          "start": 0,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_03_0010",
+      "source_section": "chapter_07_03",
+      "source_sentence": 36,
+      "character_position": 1116,
+      "text": "ему теперь уж вовсе не было интересно то, что говорил Метров",
+      "vad": [
+        -0.35,
+        -0.45,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5310347229935057,
+      "warning": null,
+      "chapter_sentence_start": 36,
+      "chapter_sentence_end": 36,
+      "timeline_start_index": 17264,
+      "timeline_end_index": 17264,
+      "highlights": [
+        {
+          "chapter_sentence": 36,
+          "start": 20,
+          "end": 80
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_03_0011",
+      "source_section": "chapter_07_03",
+      "source_sentence": 36,
+      "character_position": 1117,
+      "text": "он испытывал, однако, некоторое удовольствие, слушая его",
+      "vad": [
+        0.45,
+        0.1,
+        0.05
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.345933862444175,
+      "warning": null,
+      "chapter_sentence_start": 36,
+      "chapter_sentence_end": 36,
+      "timeline_start_index": 17264,
+      "timeline_end_index": 17264,
+      "highlights": [
+        {
+          "chapter_sentence": 36,
+          "start": 82,
+          "end": 138
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_03_0012",
+      "source_section": "chapter_07_03",
+      "source_sentence": 37,
+      "character_position": 1118,
+      "text": "Самолюбие его было польщено",
+      "vad": [
+        0.65,
+        0.25,
+        0.35
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2099376684387338,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 17265,
+      "timeline_end_index": 17265,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 0,
+          "end": 27
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_03_0014",
+      "source_section": "chapter_07_03",
+      "source_sentence": 65,
+      "character_position": 1119,
+      "text": "ему уж и не хотелось этого",
+      "vad": [
+        -0.35,
+        -0.25,
+        0.15
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3502199998706869,
+      "warning": null,
+      "chapter_sentence_start": 65,
+      "chapter_sentence_end": 65,
+      "timeline_start_index": 17293,
+      "timeline_end_index": 17293,
+      "highlights": [
+        {
+          "chapter_sentence": 65,
+          "start": 160,
+          "end": 186
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_03_0015",
+      "source_section": "chapter_07_03",
+      "source_sentence": 67,
+      "character_position": 1120,
+      "text": "Ему теперь ясно было",
+      "vad": [
+        0.2,
+        0.1,
+        0.3
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5181204094000543,
+      "warning": null,
+      "chapter_sentence_start": 67,
+      "chapter_sentence_end": 67,
+      "timeline_start_index": 17295,
+      "timeline_end_index": 17295,
+      "highlights": [
+        {
+          "chapter_sentence": 67,
+          "start": 0,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_03_0017",
+      "source_section": "chapter_07_03",
+      "source_sentence": 72,
+      "character_position": 1121,
+      "text": "сожалеет, что не может воспользоваться его приглашением",
+      "vad": [
+        -0.45,
+        0.05,
+        -0.25
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3577907905756645,
+      "warning": null,
+      "chapter_sentence_start": 72,
+      "chapter_sentence_end": 72,
+      "timeline_start_index": 17300,
+      "timeline_end_index": 17300,
+      "highlights": [
+        {
+          "chapter_sentence": 72,
+          "start": 70,
+          "end": 125
+        }
+      ]
+    }
+  ]
+}

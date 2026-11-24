@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "5_31",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_05_31_0005",
+      "source_section": "chapter_05_31",
+      "source_sentence": 43,
+      "character_position": 451,
+      "text": "разлюбив ее, опять полюбить",
+      "vad": [
+        0.55,
+        0.25,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.2533363233718512,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 13551,
+      "timeline_end_index": 13551,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 82,
+          "end": 109
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_31_0006",
+      "source_section": "chapter_05_31",
+      "source_sentence": 62,
+      "character_position": 452,
+      "text": "Алексей изо всех полковых никого не любит, как вас",
+      "vad": [
+        0.75,
+        0.2,
+        0.35
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.1914968100955129,
+      "warning": null,
+      "chapter_sentence_start": 62,
+      "chapter_sentence_end": 62,
+      "timeline_start_index": 13570,
+      "timeline_end_index": 13570,
+      "highlights": [
+        {
+          "chapter_sentence": 62,
+          "start": 0,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_31_0007",
+      "source_section": "chapter_05_31",
+      "source_sentence": 73,
+      "character_position": 453,
+      "text": "со спокойной улыбкой",
+      "vad": [
+        0.35,
+        -0.55,
+        0.2
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.9062052324197644,
+      "warning": null,
+      "chapter_sentence_start": 73,
+      "chapter_sentence_end": 73,
+      "timeline_start_index": 13581,
+      "timeline_end_index": 13581,
+      "highlights": [
+        {
+          "chapter_sentence": 73,
+          "start": 33,
+          "end": 53
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_31_0009",
+      "source_section": "chapter_05_31",
+      "source_sentence": 79,
+      "character_position": 454,
+      "text": "тяжела наша жизнь здесь",
+      "vad": [
+        -0.75,
+        0.2,
+        -0.45
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.2433149412976872,
+      "warning": null,
+      "chapter_sentence_start": 79,
+      "chapter_sentence_end": 79,
+      "timeline_start_index": 13587,
+      "timeline_end_index": 13587,
+      "highlights": [
+        {
+          "chapter_sentence": 79,
+          "start": 26,
+          "end": 49
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "5_29",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_05_29_0001",
+      "source_section": "chapter_05_29",
+      "source_sentence": 22,
+      "character_position": 449,
+      "text": "для него, несмотря на то, что он был главною причиной ее несчастья, вопрос о свидании ее с сыном покажется самою неважною вещью",
+      "vad": [
+        -0.72,
+        0.28,
+        -0.46
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.158592297675117,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 13327,
+      "timeline_end_index": 13327,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 15,
+          "end": 142
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_29_0002",
+      "source_section": "chapter_05_29",
+      "source_sentence": 23,
+      "character_position": 450,
+      "text": "никогда он не будет в силах понять всей глубины ее страданья",
+      "vad": [
+        -0.8,
+        0.35,
+        -0.7
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.2661972181333959,
+      "warning": null,
+      "chapter_sentence_start": 23,
+      "chapter_sentence_end": 23,
+      "timeline_start_index": 13328,
+      "timeline_end_index": 13328,
+      "highlights": [
+        {
+          "chapter_sentence": 23,
+          "start": 15,
+          "end": 75
+        }
+      ]
+    }
+  ]
+}

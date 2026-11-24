@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "3_10",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_03_10_0001",
+      "source_section": "chapter_03_10",
+      "source_sentence": 1,
+      "character_position": 264,
+      "text": "ничего так не желает, как уединения и спокойствия",
+      "vad": [
+        -0.35,
+        -0.55,
+        -0.25
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.7236191657371719,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 6910,
+      "timeline_end_index": 6910,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 22,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_03_10_0002",
+      "source_section": "chapter_03_10",
+      "source_sentence": 22,
+      "character_position": 265,
+      "text": "ее ужасно мучало",
+      "vad": [
+        -0.95,
+        0.65,
+        -0.8
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.4623093000393958,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 6931,
+      "timeline_end_index": 6931,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 38,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_03_10_0003",
+      "source_section": "chapter_03_10",
+      "source_sentence": 44,
+      "character_position": 266,
+      "text": "с этим женским, девичьим стыдом, девушка, которая видит вас, мужчин, издалека, принимает все на слово, — у девушки бывает и может быть такое чувство, что она не знает, кого она любит, и не знает, что сказать",
+      "vad": [
+        -0.35,
+        0.2,
+        -0.45
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.4562728844482124,
+      "warning": "non_verbatim_evidence",
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 6953,
+      "timeline_end_index": 6953,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 34,
+          "end": 241
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_03_10_0004",
+      "source_section": "chapter_03_10",
+      "source_sentence": 58,
+      "character_position": 267,
+      "text": "В ней было колебание. Колебание: вы или Вронский.",
+      "vad": [
+        -0.45,
+        0.25,
+        -0.65
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.4045730182614303,
+      "warning": null,
+      "chapter_sentence_start": 58,
+      "chapter_sentence_end": 59,
+      "timeline_start_index": 6967,
+      "timeline_end_index": 6968,
+      "highlights": [
+        {
+          "chapter_sentence": 58,
+          "start": 0,
+          "end": 22
+        },
+        {
+          "chapter_sentence": 59,
+          "start": 0,
+          "end": 27
+        }
+      ]
+    }
+  ]
+}

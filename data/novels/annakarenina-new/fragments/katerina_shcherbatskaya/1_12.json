@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "1_12",
+  "count": 11,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_12_0001",
+      "source_section": "chapter_01_12",
+      "source_sentence": 7,
+      "character_position": 16,
+      "text": "Кити не имеет к нему привязанности",
+      "vad": [
+        0.0,
+        -0.2,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.3905878999002355,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 1095,
+      "timeline_end_index": 1095,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 165,
+          "end": 199
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_12_0002",
+      "source_section": "chapter_01_12",
+      "source_sentence": 13,
+      "character_position": 17,
+      "text": "Кити не влюбилась в него",
+      "vad": [
+        0.1,
+        -0.3,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.5305220489202892,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 1101,
+      "timeline_end_index": 1101,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 41,
+          "end": 65
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_12_0003",
+      "source_section": "chapter_01_12",
+      "source_sentence": 42,
+      "character_position": 18,
+      "text": "дочь уже влюблена в него",
+      "vad": [
+        0.8,
+        0.65,
+        -0.3
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.5830494513760524,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 1130,
+      "timeline_end_index": 1130,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 16,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_12_0004",
+      "source_section": "chapter_01_12",
+      "source_sentence": 53,
+      "character_position": 19,
+      "text": "дочь, имевшая, как ей казалось, одно время чувство к Левину",
+      "vad": [
+        0.3,
+        0.0,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.4737669274743442,
+      "warning": null,
+      "chapter_sentence_start": 53,
+      "chapter_sentence_end": 53,
+      "timeline_start_index": 1141,
+      "timeline_end_index": 1141,
+      "highlights": [
+        {
+          "chapter_sentence": 53,
+          "start": 19,
+          "end": 78
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_12_0005",
+      "source_section": "chapter_01_12",
+      "source_sentence": 61,
+      "character_position": 20,
+      "text": "Она желала того же, чего желала и мать",
+      "vad": [
+        0.35,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.3424000613177828,
+      "warning": null,
+      "chapter_sentence_start": 61,
+      "chapter_sentence_end": 61,
+      "timeline_start_index": 1149,
+      "timeline_end_index": 1149,
+      "highlights": [
+        {
+          "chapter_sentence": 61,
+          "start": 0,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_12_0006",
+      "source_section": "chapter_01_12",
+      "source_sentence": 61,
+      "character_position": 21,
+      "text": "мотивы желания матери оскорбляли ее",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.2877647313141581,
+      "warning": null,
+      "chapter_sentence_start": 61,
+      "chapter_sentence_end": 61,
+      "timeline_start_index": 1149,
+      "timeline_end_index": 1149,
+      "highlights": [
+        {
+          "chapter_sentence": 61,
+          "start": 43,
+          "end": 78
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_12_0007",
+      "source_section": "chapter_01_12",
+      "source_sentence": 64,
+      "character_position": 22,
+      "text": "Так страшно говорить про это",
+      "vad": [
+        -0.78,
+        0.68,
+        -0.42
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.204658117558751,
+      "warning": null,
+      "chapter_sentence_start": 64,
+      "chapter_sentence_end": 64,
+      "timeline_start_index": 1152,
+      "timeline_end_index": 1152,
+      "highlights": [
+        {
+          "chapter_sentence": 64,
+          "start": 0,
+          "end": 28
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_12_0008",
+      "source_section": "chapter_01_12",
+      "source_sentence": 68,
+      "character_position": 23,
+      "text": "мне нечего говорить теперь",
+      "vad": [
+        -0.1,
+        0.05,
+        -0.15
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.2562373738528452,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 1156,
+      "timeline_end_index": 1156,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 5,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_12_0009",
+      "source_section": "chapter_01_12",
+      "source_sentence": 69,
+      "character_position": 24,
+      "text": "я не знаю, что сказать и как… я не знаю…",
+      "vad": [
+        -0.25,
+        0.45,
+        -0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.434445759646463,
+      "warning": null,
+      "chapter_sentence_start": 69,
+      "chapter_sentence_end": 69,
+      "timeline_start_index": 1157,
+      "timeline_end_index": 1157,
+      "highlights": [
+        {
+          "chapter_sentence": 69,
+          "start": 22,
+          "end": 62
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_12_0010",
+      "source_section": "chapter_01_12",
+      "source_sentence": 70,
+      "character_position": 25,
+      "text": "на ее волнение и счастие",
+      "vad": [
+        0.85,
+        0.65,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.433846786386545,
+      "warning": null,
+      "chapter_sentence_start": 70,
+      "chapter_sentence_end": 70,
+      "timeline_start_index": 1158,
+      "timeline_end_index": 1158,
+      "highlights": [
+        {
+          "chapter_sentence": 70,
+          "start": 80,
+          "end": 104
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_12_0011",
+      "source_section": "chapter_01_12",
+      "source_sentence": 71,
+      "character_position": 26,
+      "text": "как огромно и значительно кажется ей, бедняжке, то, что происходит теперь в ее душе",
+      "vad": [
+        0.25,
+        0.45,
+        -0.3
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.6136384505406929,
+      "warning": null,
+      "chapter_sentence_start": 71,
+      "chapter_sentence_end": 71,
+      "timeline_start_index": 1159,
+      "timeline_end_index": 1159,
+      "highlights": [
+        {
+          "chapter_sentence": 71,
+          "start": 24,
+          "end": 107
+        }
+      ]
+    }
+  ]
+}

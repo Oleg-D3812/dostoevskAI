@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "2_2",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_02_02_0001",
+      "source_section": "chapter_02_02",
+      "source_sentence": 81,
+      "character_position": 192,
+      "text": "Левин хотел сделать предложение Кити",
+      "vad": [
+        0.5,
+        0.2,
+        0.3
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2659146403076372,
+      "warning": null,
+      "chapter_sentence_start": 81,
+      "chapter_sentence_end": 81,
+      "timeline_start_index": 3206,
+      "timeline_end_index": 3206,
+      "highlights": [
+        {
+          "chapter_sentence": 81,
+          "start": 55,
+          "end": 91
+        }
+      ]
+    }
+  ]
+}

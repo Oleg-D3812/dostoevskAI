@@ -1,0 +1,399 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "8_5",
+  "count": 15,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_08_05_0001",
+      "source_section": "chapter_08_05",
+      "source_sentence": 9,
+      "character_position": 655,
+      "text": "мне не может быть так мало неприятно видеться",
+      "vad": [
+        0.45,
+        -0.1,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.512852937707072,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 20026,
+      "timeline_end_index": 20026,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 11,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_08_05_0002",
+      "source_section": "chapter_08_05",
+      "source_sentence": 11,
+      "character_position": 656,
+      "text": "Приятного в жизни мне нет.",
+      "vad": [
+        -0.9,
+        -0.4,
+        -0.5
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.8613820201821208,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 20028,
+      "timeline_end_index": 20028,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 0,
+          "end": 26
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_08_05_0003",
+      "source_section": "chapter_08_05",
+      "source_sentence": 12,
+      "character_position": 657,
+      "text": "очевидно страдающее лицо Вронского",
+      "vad": [
+        -0.8,
+        0.5,
+        -0.5
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.1248020481267713,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 20029,
+      "timeline_end_index": 20029,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 88,
+          "end": 122
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_08_05_0004",
+      "source_section": "chapter_08_05",
+      "source_sentence": 15,
+      "character_position": 658,
+      "text": "как будто с трудом понимая",
+      "vad": [
+        -0.45,
+        0.25,
+        -0.45
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.3099467172364463,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 20032,
+      "timeline_end_index": 20032,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 2,
+          "end": 28
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_08_05_0005",
+      "source_section": "chapter_08_05",
+      "source_sentence": 22,
+      "character_position": 659,
+      "text": "сердито-страдающее выражение",
+      "vad": [
+        -0.8,
+        0.55,
+        -0.35
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.195069080241904,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 20039,
+      "timeline_end_index": 20039,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 23,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_08_05_0006",
+      "source_section": "chapter_08_05",
+      "source_sentence": 27,
+      "character_position": 660,
+      "text": "жизнь для меня ничего не стоит",
+      "vad": [
+        -0.85,
+        0.1,
+        -0.55
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.3782617995315906,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 20044,
+      "timeline_end_index": 20044,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 54,
+          "end": 84
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_08_05_0007",
+      "source_section": "chapter_08_05",
+      "source_sentence": 29,
+      "character_position": 661,
+      "text": "Я рад тому",
+      "vad": [
+        0.65,
+        0.25,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.2228607099633137,
+      "warning": null,
+      "chapter_sentence_start": 29,
+      "chapter_sentence_end": 29,
+      "timeline_start_index": 20046,
+      "timeline_end_index": 20046,
+      "highlights": [
+        {
+          "chapter_sentence": 29,
+          "start": 0,
+          "end": 10
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_08_05_0008",
+      "source_section": "chapter_08_05",
+      "source_sentence": 29,
+      "character_position": 662,
+      "text": "которая мне не то что не нужна, но постыла",
+      "vad": [
+        -0.9,
+        0.35,
+        -0.65
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.2847188465888815,
+      "warning": null,
+      "chapter_sentence_start": 29,
+      "chapter_sentence_end": 29,
+      "timeline_start_index": 20046,
+      "timeline_end_index": 20046,
+      "highlights": [
+        {
+          "chapter_sentence": 29,
+          "start": 46,
+          "end": 88
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_08_05_0009",
+      "source_section": "chapter_08_05",
+      "source_sentence": 31,
+      "character_position": 663,
+      "text": "сделал нетерпеливое движение скулой",
+      "vad": [
+        -0.3,
+        0.35,
+        0.05
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.2922569226416535,
+      "warning": null,
+      "chapter_sentence_start": 31,
+      "chapter_sentence_end": 31,
+      "timeline_start_index": 20048,
+      "timeline_end_index": 20048,
+      "highlights": [
+        {
+          "chapter_sentence": 31,
+          "start": 7,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_08_05_0010",
+      "source_section": "chapter_08_05",
+      "source_sentence": 37,
+      "character_position": 664,
+      "text": "как человек, я — развалина",
+      "vad": [
+        -0.85,
+        0.15,
+        -0.75
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.4286699833789547,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 20054,
+      "timeline_end_index": 20054,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 4,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_08_05_0011",
+      "source_section": "chapter_08_05",
+      "source_sentence": 40,
+      "character_position": 665,
+      "text": "общая мучительная внутренняя неловкость",
+      "vad": [
+        -0.82,
+        0.58,
+        -0.42
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.1957872129678067,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 20057,
+      "timeline_end_index": 20057,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 38,
+          "end": 77
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_08_05_0012",
+      "source_section": "chapter_08_05",
+      "source_sentence": 41,
+      "character_position": 666,
+      "text": "как сумасшедший",
+      "vad": [
+        -0.6,
+        0.8,
+        -0.4
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.3826556371260748,
+      "warning": null,
+      "chapter_sentence_start": 41,
+      "chapter_sentence_end": 41,
+      "timeline_start_index": 20058,
+      "timeline_end_index": 20058,
+      "highlights": [
+        {
+          "chapter_sentence": 41,
+          "start": 196,
+          "end": 211
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_08_05_0014",
+      "source_section": "chapter_08_05",
+      "source_sentence": 43,
+      "character_position": 667,
+      "text": "эти минуты были навсегда отравлены",
+      "vad": [
+        -0.85,
+        0.3,
+        -0.55
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.2201648176362232,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 20060,
+      "timeline_end_index": 20060,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 47,
+          "end": 81
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_08_05_0015",
+      "source_section": "chapter_08_05",
+      "source_sentence": 44,
+      "character_position": 668,
+      "text": "неизгладимого раскаяния",
+      "vad": [
+        -0.85,
+        0.45,
+        -0.55
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.1732497197103852,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 20061,
+      "timeline_end_index": 20061,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 77,
+          "end": 100
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_08_05_0016",
+      "source_section": "chapter_08_05",
+      "source_sentence": 46,
+      "character_position": 669,
+      "text": "овладев собой",
+      "vad": [
+        0.1,
+        -0.3,
+        0.8
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.8404997810992253,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 20063,
+      "timeline_end_index": 20063,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 36,
+          "end": 49
+        }
+      ]
+    }
+  ]
+}

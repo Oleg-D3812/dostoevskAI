@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "5_12",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_05_12_0002",
+      "source_section": "chapter_05_12",
+      "source_sentence": 2,
+      "character_position": 424,
+      "text": "Ах, какая прелесть, что за прелесть!",
+      "vad": [
+        0.95,
+        0.75,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.5624745681779798,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 12039,
+      "timeline_end_index": 12039,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 2,
+          "end": 38
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_12_0003",
+      "source_section": "chapter_05_12",
+      "source_sentence": 3,
+      "character_position": 425,
+      "text": "Чудо!",
+      "vad": [
+        0.9,
+        0.7,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.4657322894827452,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 12040,
+      "timeline_end_index": 12040,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 0,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_12_0004",
+      "source_section": "chapter_05_12",
+      "source_sentence": 4,
+      "character_position": 426,
+      "text": "Какая прелесть!",
+      "vad": [
+        0.9,
+        0.6,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.4260979441734296,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 12041,
+      "timeline_end_index": 12041,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 0,
+          "end": 15
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_12_0007",
+      "source_section": "chapter_05_12",
+      "source_sentence": 37,
+      "character_position": 427,
+      "text": "Что за прелесть!",
+      "vad": [
+        0.85,
+        0.55,
+        0.05
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.3404990797609876,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 12074,
+      "timeline_end_index": 12074,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 2,
+          "end": 18
+        }
+      ]
+    }
+  ]
+}

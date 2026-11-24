@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "6_31",
+  "count": 2,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_06_31_0001",
+      "source_section": "chapter_06_31",
+      "source_sentence": 18,
+      "character_position": 209,
+      "text": "Степан Аркадьич был также рад",
+      "vad": [
+        0.7,
+        0.2,
+        0.0
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.2168291351035365,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 16906,
+      "timeline_end_index": 16906,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 0,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_06_31_0002",
+      "source_section": "chapter_06_31",
+      "source_sentence": 26,
+      "character_position": 210,
+      "text": "Степан Аркадьич, которому было очень весело",
+      "vad": [
+        0.9,
+        0.65,
+        0.1
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.4622641043561615,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 16914,
+      "timeline_end_index": 16914,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 2,
+          "end": 45
+        }
+      ]
+    }
+  ]
+}

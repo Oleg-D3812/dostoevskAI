@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "5_5",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_05_0001",
+      "source_section": "chapter_05_05",
+      "source_sentence": 45,
+      "character_position": 346,
+      "text": "с любовью, надеждой и страхом в сердце",
+      "vad": [
+        0.35,
+        0.5,
+        -0.15
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.466596705447783,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 11628,
+      "timeline_end_index": 11628,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 181,
+          "end": 219
+        }
+      ]
+    }
+  ]
+}

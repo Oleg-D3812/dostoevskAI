@@ -1,0 +1,425 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "6_15",
+  "count": 16,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_06_15_0001",
+      "source_section": "chapter_06_15",
+      "source_sentence": 8,
+      "character_position": 1005,
+      "text": "которому хотелось посоветоваться о своем деле и поэтому досадно было, что он попал некстати",
+      "vad": [
+        -0.35,
+        0.2,
+        -0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.2198159132432533,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 15228,
+      "timeline_end_index": 15228,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 36,
+          "end": 127
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_15_0002",
+      "source_section": "chapter_06_15",
+      "source_sentence": 15,
+      "character_position": 1006,
+      "text": "Но ты что-то расстроен?",
+      "vad": [
+        -0.55,
+        0.3,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2729297653990748,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 15235,
+      "timeline_end_index": 15235,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 2,
+          "end": 25
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_15_0003",
+      "source_section": "chapter_06_15",
+      "source_sentence": 29,
+      "character_position": 1007,
+      "text": "мрачно сказал Левин",
+      "vad": [
+        -0.65,
+        0.2,
+        -0.1
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3867431209677563,
+      "warning": null,
+      "chapter_sentence_start": 29,
+      "chapter_sentence_end": 29,
+      "timeline_start_index": 15249,
+      "timeline_end_index": 15249,
+      "highlights": [
+        {
+          "chapter_sentence": 29,
+          "start": 12,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_15_0004",
+      "source_section": "chapter_06_15",
+      "source_sentence": 32,
+      "character_position": 1008,
+      "text": "теперь я спокоен",
+      "vad": [
+        0.3,
+        -0.7,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.9588329350975654,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 15252,
+      "timeline_end_index": 15252,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 18,
+          "end": 34
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_15_0005",
+      "source_section": "chapter_06_15",
+      "source_sentence": 46,
+      "character_position": 1009,
+      "text": "Мне так это весело будет",
+      "vad": [
+        0.8,
+        0.5,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2096277171235775,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 15266,
+      "timeline_end_index": 15266,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 0,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_15_0006",
+      "source_section": "chapter_06_15",
+      "source_sentence": 46,
+      "character_position": 1010,
+      "text": "действительно весело блестя глазами",
+      "vad": [
+        0.8,
+        0.6,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2964699857189301,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 15266,
+      "timeline_end_index": 15266,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 28,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_15_0007",
+      "source_section": "chapter_06_15",
+      "source_sentence": 62,
+      "character_position": 1011,
+      "text": "Левину жалко стало его и совестно за себя, хозяина дома",
+      "vad": [
+        -0.65,
+        0.25,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2773315744186261,
+      "warning": null,
+      "chapter_sentence_start": 62,
+      "chapter_sentence_end": 62,
+      "timeline_start_index": 15282,
+      "timeline_end_index": 15282,
+      "highlights": [
+        {
+          "chapter_sentence": 62,
+          "start": 34,
+          "end": 89
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_15_0008",
+      "source_section": "chapter_06_15",
+      "source_sentence": 64,
+      "character_position": 1012,
+      "text": "не зная, как начать",
+      "vad": [
+        -0.3,
+        0.1,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4928846655344375,
+      "warning": null,
+      "chapter_sentence_start": 64,
+      "chapter_sentence_end": 64,
+      "timeline_start_index": 15284,
+      "timeline_end_index": 15284,
+      "highlights": [
+        {
+          "chapter_sentence": 64,
+          "start": 71,
+          "end": 90
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_15_0009",
+      "source_section": "chapter_06_15",
+      "source_sentence": 70,
+      "character_position": 1013,
+      "text": "мрачно сказал Левин",
+      "vad": [
+        -0.65,
+        0.15,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4097463649306819,
+      "warning": null,
+      "chapter_sentence_start": 70,
+      "chapter_sentence_end": 70,
+      "timeline_start_index": 15290,
+      "timeline_end_index": 15290,
+      "highlights": [
+        {
+          "chapter_sentence": 70,
+          "start": 29,
+          "end": 48
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_15_0010",
+      "source_section": "chapter_06_15",
+      "source_sentence": 84,
+      "character_position": 1014,
+      "text": "не раздражили Левина",
+      "vad": [
+        0.1,
+        -0.1,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3925571953027778,
+      "warning": null,
+      "chapter_sentence_start": 84,
+      "chapter_sentence_end": 84,
+      "timeline_start_index": 15304,
+      "timeline_end_index": 15304,
+      "highlights": [
+        {
+          "chapter_sentence": 84,
+          "start": 22,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_15_0011",
+      "source_section": "chapter_06_15",
+      "source_sentence": 95,
+      "character_position": 1015,
+      "text": "Мне очень совестно пред тобой и пред ним",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.089283961039629,
+      "warning": null,
+      "chapter_sentence_start": 95,
+      "chapter_sentence_end": 95,
+      "timeline_start_index": 15315,
+      "timeline_end_index": 15315,
+      "highlights": [
+        {
+          "chapter_sentence": 95,
+          "start": 0,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_15_0012",
+      "source_section": "chapter_06_15",
+      "source_sentence": 96,
+      "character_position": 1016,
+      "text": "мне и моей жене его присутствие неприятно",
+      "vad": [
+        -0.7,
+        0.3,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5274962417735717,
+      "warning": null,
+      "chapter_sentence_start": 96,
+      "chapter_sentence_end": 96,
+      "timeline_start_index": 15316,
+      "timeline_end_index": 15316,
+      "highlights": [
+        {
+          "chapter_sentence": 96,
+          "start": 50,
+          "end": 91
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_15_0013",
+      "source_section": "chapter_06_15",
+      "source_sentence": 98,
+      "character_position": 1017,
+      "text": "A мне и оскорбительно и мучительно!",
+      "vad": [
+        -0.9,
+        0.7,
+        -0.6
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4053419242145036,
+      "warning": null,
+      "chapter_sentence_start": 98,
+      "chapter_sentence_end": 98,
+      "timeline_start_index": 15318,
+      "timeline_end_index": 15318,
+      "highlights": [
+        {
+          "chapter_sentence": 98,
+          "start": 2,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_15_0014",
+      "source_section": "chapter_06_15",
+      "source_sentence": 99,
+      "character_position": 1018,
+      "text": "И я ни в чем не виноват, и мне незачем страдать!",
+      "vad": [
+        -0.25,
+        0.45,
+        0.7
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.7560122697997442,
+      "warning": null,
+      "chapter_sentence_start": 99,
+      "chapter_sentence_end": 99,
+      "timeline_start_index": 15319,
+      "timeline_end_index": 15319,
+      "highlights": [
+        {
+          "chapter_sentence": 99,
+          "start": 0,
+          "end": 48
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_15_0016",
+      "source_section": "chapter_06_15",
+      "source_sentence": 108,
+      "character_position": 1019,
+      "text": "он сам чувствовал себя не только ridicule в высшей степени, но и виноватым кругом и опозоренным",
+      "vad": [
+        -0.9,
+        0.45,
+        -0.7
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3729258663910219,
+      "warning": null,
+      "chapter_sentence_start": 108,
+      "chapter_sentence_end": 108,
+      "timeline_start_index": 15328,
+      "timeline_end_index": 15328,
+      "highlights": [
+        {
+          "chapter_sentence": 108,
+          "start": 2,
+          "end": 97
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_15_0017",
+      "source_section": "chapter_06_15",
+      "source_sentence": 108,
+      "character_position": 1020,
+      "text": "то, что он и жена его перестрадали",
+      "vad": [
+        -0.7,
+        0.2,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3135702424963227,
+      "warning": null,
+      "chapter_sentence_start": 108,
+      "chapter_sentence_end": 108,
+      "timeline_start_index": 15328,
+      "timeline_end_index": 15328,
+      "highlights": [
+        {
+          "chapter_sentence": 108,
+          "start": 113,
+          "end": 147
+        }
+      ]
+    }
+  ]
+}

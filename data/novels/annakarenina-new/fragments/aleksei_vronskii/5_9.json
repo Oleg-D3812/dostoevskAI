@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "5_9",
+  "count": 5,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_05_09_0001",
+      "source_section": "chapter_05_09",
+      "source_sentence": 1,
+      "character_position": 417,
+      "text": "во Вронском приятное заблуждение",
+      "vad": [
+        0.65,
+        -0.1,
+        0.2
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.4105951578485284,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 11836,
+      "timeline_end_index": 11836,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 334,
+          "end": 366
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_09_0002",
+      "source_section": "chapter_05_09",
+      "source_sentence": 2,
+      "character_position": 418,
+      "text": "первое время он был спокоен",
+      "vad": [
+        0.35,
+        -0.35,
+        0.45
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.7715214892937502,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 11837,
+      "timeline_end_index": 11837,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 144,
+          "end": 171
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_09_0004",
+      "source_section": "chapter_05_09",
+      "source_sentence": 35,
+      "character_position": 419,
+      "text": "Вронский, писав с нее, любовался ее красотой и средневековостью",
+      "vad": [
+        0.7,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.1602604909856824,
+      "warning": null,
+      "chapter_sentence_start": 35,
+      "chapter_sentence_end": 35,
+      "timeline_start_index": 11870,
+      "timeline_end_index": 11870,
+      "highlights": [
+        {
+          "chapter_sentence": 35,
+          "start": 0,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_09_0005",
+      "source_section": "chapter_05_09",
+      "source_sentence": 21,
+      "character_position": 420,
+      "text": "Вронский, думая, что ему, как русскому меценату, несмотря на то, хороша ли, или дурна его картина, надо бы помочь художнику",
+      "vad": [
+        0.4,
+        0.1,
+        0.35
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.3700200399027729,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 11856,
+      "timeline_end_index": 11856,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 10,
+          "end": 133
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_09_0006",
+      "source_section": "chapter_05_09",
+      "source_sentence": 49,
+      "character_position": 421,
+      "text": "что Вронского не интересовало образование этого художника, а занимала только мысль помочь ему и заказать ему портрет",
+      "vad": [
+        0.6,
+        0.2,
+        0.6
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.4082688145952023,
+      "warning": null,
+      "chapter_sentence_start": 49,
+      "chapter_sentence_end": 49,
+      "timeline_start_index": 11884,
+      "timeline_end_index": 11884,
+      "highlights": [
+        {
+          "chapter_sentence": 49,
+          "start": 90,
+          "end": 206
+        }
+      ]
+    }
+  ]
+}

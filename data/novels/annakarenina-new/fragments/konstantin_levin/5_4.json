@@ -1,0 +1,430 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "5_4",
+  "count": 16,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_05_04_0001",
+      "source_section": "chapter_05_04",
+      "source_sentence": 8,
+      "character_position": 716,
+      "text": "Левин ничего и никого не замечал",
+      "vad": [
+        0.1,
+        0.5,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5578750552558147,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 11485,
+      "timeline_end_index": 11485,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 0,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_04_0002",
+      "source_section": "chapter_05_04",
+      "source_sentence": 10,
+      "character_position": 717,
+      "text": "ему казалось, что она была лучше, чем когда-нибудь",
+      "vad": [
+        0.82,
+        0.28,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2151656249361306,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 11487,
+      "timeline_end_index": 11487,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 223,
+          "end": 273
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_04_0003",
+      "source_section": "chapter_05_04",
+      "source_sentence": 12,
+      "character_position": 718,
+      "text": "Так глупо, что со мной случилось, совестно говорить! — сказал он, краснея",
+      "vad": [
+        -0.65,
+        0.55,
+        -0.4
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1223868706771724,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 11489,
+      "timeline_end_index": 11490,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 2,
+          "end": 55
+        },
+        {
+          "chapter_sentence": 13,
+          "start": 0,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_04_0004",
+      "source_section": "chapter_05_04",
+      "source_sentence": 16,
+      "character_position": 719,
+      "text": "не понимая, о чем ему говорят",
+      "vad": [
+        -0.3,
+        -0.2,
+        -0.5
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.6114980514680505,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 11493,
+      "timeline_end_index": 11493,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 27,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_04_0005",
+      "source_section": "chapter_05_04",
+      "source_sentence": 18,
+      "character_position": 720,
+      "text": "Ты именно теперь в состоянии оценить всю важность его.",
+      "vad": [
+        -0.1,
+        0.2,
+        0.4
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4057525805484994,
+      "warning": null,
+      "chapter_sentence_start": 18,
+      "chapter_sentence_end": 18,
+      "timeline_start_index": 11495,
+      "timeline_end_index": 11495,
+      "highlights": [
+        {
+          "chapter_sentence": 18,
+          "start": 0,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_04_0006",
+      "source_section": "chapter_05_04",
+      "source_sentence": 21,
+      "character_position": 721,
+      "text": "Я решил, но боюсь, что ты не изъявишь согласия.",
+      "vad": [
+        -0.35,
+        0.3,
+        0.15
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.2712372862234972,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 11498,
+      "timeline_end_index": 11498,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 2,
+          "end": 49
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_04_0007",
+      "source_section": "chapter_05_04",
+      "source_sentence": 22,
+      "character_position": 722,
+      "text": "Левин понял, что это была шутка",
+      "vad": [
+        0.0,
+        0.0,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.2658201375717106,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 11499,
+      "timeline_end_index": 11499,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 0,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_04_0008",
+      "source_section": "chapter_05_04",
+      "source_sentence": 28,
+      "character_position": 723,
+      "text": "Левин, растерянно поглядев на него",
+      "vad": [
+        -0.35,
+        0.3,
+        -0.4
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3405155862119244,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 11505,
+      "timeline_end_index": 11505,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 72,
+          "end": 106
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_04_0009",
+      "source_section": "chapter_05_04",
+      "source_sentence": 43,
+      "character_position": 724,
+      "text": "Левин не расслушал того, что сказал священник.",
+      "vad": [
+        -0.2,
+        -0.15,
+        -0.25
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3725977875427016,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 11520,
+      "timeline_end_index": 11520,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 0,
+          "end": 46
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_04_0010",
+      "source_section": "chapter_05_04",
+      "source_sentence": 45,
+      "character_position": 725,
+      "text": "Долго Левин не мог понять, чего от него требовали.",
+      "vad": [
+        -0.45,
+        0.35,
+        -0.65
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3308048266143988,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 11522,
+      "timeline_end_index": 11522,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 0,
+          "end": 50
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_04_0011",
+      "source_section": "chapter_05_04",
+      "source_sentence": 57,
+      "character_position": 726,
+      "text": "Неужели это правда?",
+      "vad": [
+        0.2,
+        0.55,
+        -0.25
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.6707266753752866,
+      "warning": null,
+      "chapter_sentence_start": 57,
+      "chapter_sentence_end": 57,
+      "timeline_start_index": 11534,
+      "timeline_end_index": 11534,
+      "highlights": [
+        {
+          "chapter_sentence": 57,
+          "start": 1,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_04_0012",
+      "source_section": "chapter_05_04",
+      "source_sentence": 62,
+      "character_position": 727,
+      "text": "ему стало радостно и страшно",
+      "vad": [
+        0.2,
+        0.75,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.7344210461717345,
+      "warning": null,
+      "chapter_sentence_start": 62,
+      "chapter_sentence_end": 62,
+      "timeline_start_index": 11539,
+      "timeline_end_index": 11539,
+      "highlights": [
+        {
+          "chapter_sentence": 62,
+          "start": 125,
+          "end": 153
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_04_0014",
+      "source_section": "chapter_05_04",
+      "source_sentence": 72,
+      "character_position": 728,
+      "text": "вспоминая все свои недавние страхи и сомнения",
+      "vad": [
+        -0.55,
+        0.25,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2162498861090528,
+      "warning": null,
+      "chapter_sentence_start": 72,
+      "chapter_sentence_end": 72,
+      "timeline_start_index": 11549,
+      "timeline_end_index": 11549,
+      "highlights": [
+        {
+          "chapter_sentence": 72,
+          "start": 12,
+          "end": 57
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_04_0015",
+      "source_section": "chapter_05_04",
+      "source_sentence": 79,
+      "character_position": 729,
+      "text": "как глубокомысленны эти слова и как соответственны тому, что чувствуешь в эту минуту!",
+      "vad": [
+        0.8,
+        0.5,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2096277171235775,
+      "warning": null,
+      "chapter_sentence_start": 79,
+      "chapter_sentence_end": 79,
+      "timeline_start_index": 11556,
+      "timeline_end_index": 11556,
+      "highlights": [
+        {
+          "chapter_sentence": 79,
+          "start": 61,
+          "end": 146
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_04_0016",
+      "source_section": "chapter_05_04",
+      "source_sentence": 81,
+      "character_position": 730,
+      "text": "Чувствует ли она то же, что я?",
+      "vad": [
+        -0.2,
+        0.35,
+        -0.3
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4487448411295736,
+      "warning": null,
+      "chapter_sentence_start": 81,
+      "chapter_sentence_end": 81,
+      "timeline_start_index": 11558,
+      "timeline_end_index": 11558,
+      "highlights": [
+        {
+          "chapter_sentence": 81,
+          "start": 2,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_05_04_0017",
+      "source_section": "chapter_05_04",
+      "source_sentence": 106,
+      "character_position": 731,
+      "text": "Левин чувствовал все более и более, что все его мысли о женитьбе, его мечты о том, как он устроит свою жизнь, — что все это было ребячество и что это что-то такое, чего он не понимал до сих пор и теперь еще менее понимает, хотя это и совершается над ним; в груди его все выше и выше поднимались содрогания, и непокорные слезы выступали ему на глаза.",
+      "vad": [
+        -0.82,
+        0.84,
+        -0.58
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4705371289417738,
+      "warning": null,
+      "chapter_sentence_start": 106,
+      "chapter_sentence_end": 106,
+      "timeline_start_index": 11583,
+      "timeline_end_index": 11583,
+      "highlights": [
+        {
+          "chapter_sentence": 106,
+          "start": 0,
+          "end": 349
+        }
+      ]
+    }
+  ]
+}

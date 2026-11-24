@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "4_2",
+  "count": 5,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_04_02_0001",
+      "source_section": "chapter_04_02",
+      "source_sentence": 2,
+      "character_position": 410,
+      "text": "Я больна и несчастлива.",
+      "vad": [
+        -0.95,
+        0.35,
+        -0.65
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.2802236447423108,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 8936,
+      "timeline_end_index": 8936,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 13,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_02_0002",
+      "source_section": "chapter_04_02",
+      "source_sentence": 3,
+      "character_position": 411,
+      "text": "не могу долее не видать вас",
+      "vad": [
+        0.25,
+        0.6,
+        -0.5
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.8209552762688481,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 8937,
+      "timeline_end_index": 8937,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 25,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_02_0004",
+      "source_section": "chapter_04_02",
+      "source_sentence": 42,
+      "character_position": 412,
+      "text": "ожидала только от него решения ее судьбы",
+      "vad": [
+        -0.45,
+        0.2,
+        -0.8
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.5324665108627126,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 8976,
+      "timeline_end_index": 8976,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 67,
+          "end": 107
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_02_0005",
+      "source_section": "chapter_04_02",
+      "source_sentence": 50,
+      "character_position": 413,
+      "text": "Я жду, мучаюсь",
+      "vad": [
+        -0.85,
+        0.65,
+        -0.55
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.1557165502245699,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 50,
+      "timeline_start_index": 8984,
+      "timeline_end_index": 8984,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 0,
+          "end": 14
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_02_0006",
+      "source_section": "chapter_04_02",
+      "source_sentence": 55,
+      "character_position": 414,
+      "text": "восторженным и вместе испытующим взглядом",
+      "vad": [
+        0.8,
+        0.6,
+        0.3
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.3812397619738156,
+      "warning": null,
+      "chapter_sentence_start": 55,
+      "chapter_sentence_end": 55,
+      "timeline_start_index": 8989,
+      "timeline_end_index": 8989,
+      "highlights": [
+        {
+          "chapter_sentence": 55,
+          "start": 70,
+          "end": 111
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "7_6",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_07_06_0001",
+      "source_section": "chapter_07_06",
+      "source_sentence": 4,
+      "character_position": 1136,
+      "text": "Экая досада",
+      "vad": [
+        -0.55,
+        0.35,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4125889177620426,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 17412,
+      "timeline_end_index": 17412,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 1,
+          "end": 12
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_06_0002",
+      "source_section": "chapter_07_06",
+      "source_sentence": 22,
+      "character_position": 1137,
+      "text": "ему совершенно было все равно, что о нем подумают",
+      "vad": [
+        0.1,
+        -0.4,
+        0.5
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.7410968744210695,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 17430,
+      "timeline_end_index": 17430,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 49,
+          "end": 98
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_06_0003",
+      "source_section": "chapter_07_06",
+      "source_sentence": 30,
+      "character_position": 1138,
+      "text": "все думал о том, как это глупо",
+      "vad": [
+        -0.45,
+        0.1,
+        -0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.2491125668838268,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 17438,
+      "timeline_end_index": 17438,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 14,
+          "end": 44
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_06_0004",
+      "source_section": "chapter_07_06",
+      "source_sentence": 40,
+      "character_position": 1139,
+      "text": "мне все равно, но все-таки совестно и ужасно глупо",
+      "vad": [
+        -0.65,
+        0.25,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2773315744186261,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 17448,
+      "timeline_end_index": 17448,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 13,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_06_0005",
+      "source_section": "chapter_07_06",
+      "source_sentence": 44,
+      "character_position": 1140,
+      "text": "усталости внимания, которую он начинал испытывать",
+      "vad": [
+        -0.35,
+        -0.25,
+        -0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3653477594527326,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 17452,
+      "timeline_end_index": 17452,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 25,
+          "end": 74
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_06_0006",
+      "source_section": "chapter_07_06",
+      "source_sentence": 44,
+      "character_position": 1141,
+      "text": "с досадой вспоминалась ему",
+      "vad": [
+        -0.55,
+        0.2,
+        -0.15
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3659598926111487,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 17452,
+      "timeline_end_index": 17452,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 139,
+          "end": 165
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "4_9",
+  "count": 10,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_04_09_0001",
+      "source_section": "chapter_04_09",
+      "source_sentence": 15,
+      "character_position": 271,
+      "text": "сбираясь с силами, чтобы не покраснеть",
+      "vad": [
+        -0.45,
+        0.48,
+        0.18
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.4505607175287869,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 9643,
+      "timeline_end_index": 9643,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 24,
+          "end": 62
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_04_09_0002",
+      "source_section": "chapter_04_09",
+      "source_sentence": 48,
+      "character_position": 272,
+      "text": "Она была испуганная, робкая, пристыженная",
+      "vad": [
+        -0.75,
+        0.55,
+        -0.7
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.2665417334011491,
+      "warning": "non_verbatim_evidence",
+      "chapter_sentence_start": 48,
+      "chapter_sentence_end": 48,
+      "timeline_start_index": 9676,
+      "timeline_end_index": 9676,
+      "highlights": [
+        {
+          "chapter_sentence": 48,
+          "start": 0,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_04_09_0003",
+      "source_section": "chapter_04_09",
+      "source_sentence": 50,
+      "character_position": 273,
+      "text": "Она ждала его",
+      "vad": [
+        0.2,
+        0.3,
+        -0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.5521903392005072,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 50,
+      "timeline_start_index": 9678,
+      "timeline_end_index": 9678,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 0,
+          "end": 13
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_04_09_0004",
+      "source_section": "chapter_04_09",
+      "source_sentence": 51,
+      "character_position": 274,
+      "text": "Она обрадовалась и смутилась от своей радости",
+      "vad": [
+        0.75,
+        0.55,
+        -0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.4344687772971932,
+      "warning": null,
+      "chapter_sentence_start": 51,
+      "chapter_sentence_end": 51,
+      "timeline_start_index": 9679,
+      "timeline_end_index": 9679,
+      "highlights": [
+        {
+          "chapter_sentence": 51,
+          "start": 0,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_04_09_0005",
+      "source_section": "chapter_04_09",
+      "source_sentence": 51,
+      "character_position": 275,
+      "text": "казалось, что она не выдержит и заплачет",
+      "vad": [
+        -0.7,
+        0.65,
+        -0.75
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.3432406714913569,
+      "warning": null,
+      "chapter_sentence_start": 51,
+      "chapter_sentence_end": 51,
+      "timeline_start_index": 9679,
+      "timeline_end_index": 9679,
+      "highlights": [
+        {
+          "chapter_sentence": 51,
+          "start": 191,
+          "end": 231
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_04_09_0006",
+      "source_section": "chapter_04_09",
+      "source_sentence": 52,
+      "character_position": 276,
+      "text": "замерла, чуть вздрагивая губами, ожидая его",
+      "vad": [
+        -0.25,
+        0.55,
+        -0.35
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.4625583487318851,
+      "warning": null,
+      "chapter_sentence_start": 52,
+      "chapter_sentence_end": 52,
+      "timeline_start_index": 9680,
+      "timeline_end_index": 9680,
+      "highlights": [
+        {
+          "chapter_sentence": 52,
+          "start": 47,
+          "end": 90
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_04_09_0007",
+      "source_section": "chapter_04_09",
+      "source_sentence": 54,
+      "character_position": 277,
+      "text": "улыбка ее была почти спокойна",
+      "vad": [
+        0.2,
+        -0.45,
+        0.15
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.7132576947551452,
+      "warning": null,
+      "chapter_sentence_start": 54,
+      "chapter_sentence_end": 54,
+      "timeline_start_index": 9682,
+      "timeline_end_index": 9682,
+      "highlights": [
+        {
+          "chapter_sentence": 54,
+          "start": 87,
+          "end": 116
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_04_09_0008",
+      "source_section": "chapter_04_09",
+      "source_sentence": 55,
+      "character_position": 278,
+      "text": "с отчаянною решительностью",
+      "vad": [
+        -0.65,
+        0.7,
+        0.72
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.9837560738372264,
+      "warning": null,
+      "chapter_sentence_start": 55,
+      "chapter_sentence_end": 55,
+      "timeline_start_index": 9683,
+      "timeline_end_index": 9683,
+      "highlights": [
+        {
+          "chapter_sentence": 55,
+          "start": 8,
+          "end": 34
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_04_09_0009",
+      "source_section": "chapter_04_09",
+      "source_sentence": 59,
+      "character_position": 279,
+      "text": "с удивлением",
+      "vad": [
+        0.0,
+        0.45,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.433057929965924,
+      "warning": null,
+      "chapter_sentence_start": 59,
+      "chapter_sentence_end": 59,
+      "timeline_start_index": 9687,
+      "timeline_end_index": 9687,
+      "highlights": [
+        {
+          "chapter_sentence": 59,
+          "start": 15,
+          "end": 27
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_04_09_0010",
+      "source_section": "chapter_04_09",
+      "source_sentence": 103,
+      "character_position": 280,
+      "text": "Тут была и просьба о прощении, и доверие к нему, и ласка, нежная, робкая ласка, и обещание, и надежда, и любовь к нему",
+      "vad": [
+        0.96,
+        0.58,
+        0.22
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.4334507747626259,
+      "warning": null,
+      "chapter_sentence_start": 103,
+      "chapter_sentence_end": 103,
+      "timeline_start_index": 9731,
+      "timeline_end_index": 9731,
+      "highlights": [
+        {
+          "chapter_sentence": 103,
+          "start": 0,
+          "end": 118
+        }
+      ]
+    }
+  ]
+}

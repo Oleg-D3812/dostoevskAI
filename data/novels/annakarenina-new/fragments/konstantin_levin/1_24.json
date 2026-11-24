@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "1_24",
+  "count": 12,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_01_24_0001",
+      "source_section": "chapter_01_24",
+      "source_sentence": 1,
+      "character_position": 147,
+      "text": "что-то есть во мне противное, отталкивающее",
+      "vad": [
+        -0.85,
+        0.4,
+        -0.55
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2331282658295307,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 2169,
+      "timeline_end_index": 2169,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 5,
+          "end": 48
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_24_0002",
+      "source_section": "chapter_01_24",
+      "source_sentence": 2,
+      "character_position": 148,
+      "text": "И не гожусь я для других людей.",
+      "vad": [
+        -0.75,
+        0.2,
+        -0.7
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3782485581197734,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 2170,
+      "timeline_end_index": 2170,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 2,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_24_0003",
+      "source_section": "chapter_01_24",
+      "source_sentence": 3,
+      "character_position": 149,
+      "text": "Гордость, говорят.",
+      "vad": [
+        -0.15,
+        0.1,
+        -0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.1805997368052044,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 2171,
+      "timeline_end_index": 2171,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 0,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_24_0004",
+      "source_section": "chapter_01_24",
+      "source_sentence": 4,
+      "character_position": 150,
+      "text": "у меня нет и гордости",
+      "vad": [
+        -0.55,
+        -0.15,
+        -0.45
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.591610317326733,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 2172,
+      "timeline_end_index": 2172,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 5,
+          "end": 26
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_24_0005",
+      "source_section": "chapter_01_24",
+      "source_sentence": 5,
+      "character_position": 151,
+      "text": "Если бы была гордость, я не поставил бы себя в такое положение",
+      "vad": [
+        -0.72,
+        0.18,
+        -0.34
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.264835914643549,
+      "warning": "non_verbatim_evidence;empty_evidence",
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 2173,
+      "timeline_end_index": 2173,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 0,
+          "end": 62
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_24_0007",
+      "source_section": "chapter_01_24",
+      "source_sentence": 9,
+      "character_position": 152,
+      "text": "Виноват я сам.",
+      "vad": [
+        -0.7,
+        0.15,
+        0.25
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.4994736705310464,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 2177,
+      "timeline_end_index": 2177,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 0,
+          "end": 14
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_24_0008",
+      "source_section": "chapter_01_24",
+      "source_sentence": 13,
+      "character_position": 153,
+      "text": "Ничтожный человек, никому и ни для кого не нужный",
+      "vad": [
+        -0.95,
+        -0.15,
+        -0.9
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.8095895833809845,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 2181,
+      "timeline_end_index": 2181,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 0,
+          "end": 49
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_24_0009",
+      "source_section": "chapter_01_24",
+      "source_sentence": 14,
+      "character_position": 154,
+      "text": "с радостью остановился на этом воспоминании",
+      "vad": [
+        0.65,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.1469871244838163,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 2182,
+      "timeline_end_index": 2182,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 32,
+          "end": 75
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_24_0010",
+      "source_section": "chapter_01_24",
+      "source_sentence": 27,
+      "character_position": 155,
+      "text": "Левину это представлялось совсем не так гадко",
+      "vad": [
+        0.2,
+        -0.2,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5280928024572548,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 2195,
+      "timeline_end_index": 2195,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 30,
+          "end": 75
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_24_0011",
+      "source_section": "chapter_01_24",
+      "source_sentence": 33,
+      "character_position": 156,
+      "text": "я люблю и потому понимаю его",
+      "vad": [
+        0.8,
+        0.2,
+        0.4
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2974666043160198,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 2201,
+      "timeline_end_index": 2201,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 63,
+          "end": 91
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_24_0012",
+      "source_section": "chapter_01_24",
+      "source_sentence": 66,
+      "character_position": 157,
+      "text": "робко отвечал он",
+      "vad": [
+        -0.35,
+        0.2,
+        -0.65
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4567593076723147,
+      "warning": null,
+      "chapter_sentence_start": 66,
+      "chapter_sentence_end": 66,
+      "timeline_start_index": 2234,
+      "timeline_end_index": 2234,
+      "highlights": [
+        {
+          "chapter_sentence": 66,
+          "start": 42,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_24_0013",
+      "source_section": "chapter_01_24",
+      "source_sentence": 68,
+      "character_position": 158,
+      "text": "Робость брата",
+      "vad": [
+        -0.4,
+        -0.2,
+        -0.5
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.627489815825194,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 2236,
+      "timeline_end_index": 2236,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 0,
+          "end": 13
+        }
+      ]
+    }
+  ]
+}

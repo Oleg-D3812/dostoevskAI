@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "4_4",
+  "count": 8,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_04_04_0001",
+      "source_section": "chapter_04_04",
+      "source_sentence": 12,
+      "character_position": 440,
+      "text": "была поражена его видом",
+      "vad": [
+        -0.45,
+        0.55,
+        -0.2
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.4390338697120362,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 9173,
+      "timeline_end_index": 9173,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 54,
+          "end": 77
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_04_0002",
+      "source_section": "chapter_04_04",
+      "source_sentence": 22,
+      "character_position": 441,
+      "text": "с удивлением и робостью молча глядела на него",
+      "vad": [
+        -0.3,
+        0.3,
+        -0.5
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.516031950608141,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 9183,
+      "timeline_end_index": 9183,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 4,
+          "end": 49
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_04_0003",
+      "source_section": "chapter_04_04",
+      "source_sentence": 29,
+      "character_position": 442,
+      "text": "Эта его грубость раздражила ее и придала ей смелости",
+      "vad": [
+        -0.55,
+        0.55,
+        0.45
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.6257472031769196,
+      "warning": null,
+      "chapter_sentence_start": 29,
+      "chapter_sentence_end": 29,
+      "timeline_start_index": 9190,
+      "timeline_end_index": 9190,
+      "highlights": [
+        {
+          "chapter_sentence": 29,
+          "start": 0,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_04_0004",
+      "source_section": "chapter_04_04",
+      "source_sentence": 37,
+      "character_position": 443,
+      "text": "со взрывом злобы вскрикнула Анна",
+      "vad": [
+        -0.85,
+        0.9,
+        0.2
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.817384996344522,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 9198,
+      "timeline_end_index": 9198,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 2,
+          "end": 34
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_04_0005",
+      "source_section": "chapter_04_04",
+      "source_sentence": 44,
+      "character_position": 444,
+      "text": "Она чувствовала всю справедливость его слов",
+      "vad": [
+        -0.4,
+        0.15,
+        -0.1
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.0940158180756989,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 9205,
+      "timeline_end_index": 9205,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 0,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_04_0006",
+      "source_section": "chapter_04_04",
+      "source_sentence": 48,
+      "character_position": 445,
+      "text": "теперь желаемой смерти",
+      "vad": [
+        -0.9,
+        0.2,
+        -0.85
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.4783556361140492,
+      "warning": null,
+      "chapter_sentence_start": 48,
+      "chapter_sentence_end": 48,
+      "timeline_start_index": 9209,
+      "timeline_end_index": 9209,
+      "highlights": [
+        {
+          "chapter_sentence": 48,
+          "start": 89,
+          "end": 111
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_04_0007",
+      "source_section": "chapter_04_04",
+      "source_sentence": 57,
+      "character_position": 446,
+      "text": "Ей стало смешно и тотчас стыдно",
+      "vad": [
+        -0.3,
+        0.35,
+        -0.1
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.2236939293955981,
+      "warning": null,
+      "chapter_sentence_start": 57,
+      "chapter_sentence_end": 57,
+      "timeline_start_index": 9218,
+      "timeline_end_index": 9218,
+      "highlights": [
+        {
+          "chapter_sentence": 57,
+          "start": 0,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_04_0008",
+      "source_section": "chapter_04_04",
+      "source_sentence": 58,
+      "character_position": 447,
+      "text": "ей жалко стало его",
+      "vad": [
+        -0.45,
+        0.2,
+        -0.2
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.2074938069697403,
+      "warning": null,
+      "chapter_sentence_start": 58,
+      "chapter_sentence_end": 58,
+      "timeline_start_index": 9219,
+      "timeline_end_index": 9219,
+      "highlights": [
+        {
+          "chapter_sentence": 58,
+          "start": 77,
+          "end": 95
+        }
+      ]
+    }
+  ]
+}

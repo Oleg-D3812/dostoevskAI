@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "3_13",
+  "count": 3,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_03_13_0001",
+      "source_section": "chapter_03_13",
+      "source_sentence": 78,
+      "character_position": 269,
+      "text": "чтоб она пострадала",
+      "vad": [
+        -0.8,
+        0.35,
+        0.3
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.5559762245669657,
+      "warning": null,
+      "chapter_sentence_start": 78,
+      "chapter_sentence_end": 78,
+      "timeline_start_index": 7239,
+      "timeline_end_index": 7239,
+      "highlights": [
+        {
+          "chapter_sentence": 78,
+          "start": 63,
+          "end": 82
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_03_13_0002",
+      "source_section": "chapter_03_13",
+      "source_sentence": 75,
+      "character_position": 270,
+      "text": "и она и он не должны быть счастливы",
+      "vad": [
+        -0.8,
+        0.35,
+        0.2
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.5072163106734137,
+      "warning": null,
+      "chapter_sentence_start": 75,
+      "chapter_sentence_end": 75,
+      "timeline_start_index": 7236,
+      "timeline_end_index": 7236,
+      "highlights": [
+        {
+          "chapter_sentence": 75,
+          "start": 32,
+          "end": 67
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_03_13_0003",
+      "source_section": "chapter_03_13",
+      "source_sentence": 88,
+      "character_position": 271,
+      "text": "Она должна быть несчастлива",
+      "vad": [
+        -0.65,
+        0.1,
+        0.45
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.5370596723786862,
+      "warning": null,
+      "chapter_sentence_start": 88,
+      "chapter_sentence_end": 88,
+      "timeline_start_index": 7249,
+      "timeline_end_index": 7249,
+      "highlights": [
+        {
+          "chapter_sentence": 88,
+          "start": 0,
+          "end": 27
+        }
+      ]
+    }
+  ]
+}

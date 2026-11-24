@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "5_14",
+  "count": 10,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_14_0003",
+      "source_section": "chapter_05_14",
+      "source_sentence": 24,
+      "character_position": 356,
+      "text": "с радостью мечтала о приезде Долли с детьми",
+      "vad": [
+        0.82,
+        0.38,
+        0.18
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.1967012671243177,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 12146,
+      "timeline_end_index": 12146,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 11,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_14_0004",
+      "source_section": "chapter_05_14",
+      "source_sentence": 25,
+      "character_position": 357,
+      "text": "неудержимо влекло ее к себе",
+      "vad": [
+        0.45,
+        0.55,
+        -0.35
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.5859082137176556,
+      "warning": null,
+      "chapter_sentence_start": 25,
+      "chapter_sentence_end": 25,
+      "timeline_start_index": 12147,
+      "timeline_end_index": 12147,
+      "highlights": [
+        {
+          "chapter_sentence": 25,
+          "start": 59,
+          "end": 86
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_14_0005",
+      "source_section": "chapter_05_14",
+      "source_sentence": 27,
+      "character_position": 358,
+      "text": "мелочная озабоченность Кити",
+      "vad": [
+        -0.35,
+        0.25,
+        -0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.2403253544042514,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 12149,
+      "timeline_end_index": 12149,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 4,
+          "end": 31
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_14_0007",
+      "source_section": "chapter_05_14",
+      "source_sentence": 33,
+      "character_position": 359,
+      "text": "мрачное, никогда не виданное им в ней выражение",
+      "vad": [
+        -0.78,
+        0.34,
+        -0.18
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.316305216565443,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 12155,
+      "timeline_end_index": 12155,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 22,
+          "end": 69
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_14_0008",
+      "source_section": "chapter_05_14",
+      "source_sentence": 37,
+      "character_position": 360,
+      "text": "желая быть спокойно-ядовитою",
+      "vad": [
+        -0.65,
+        0.15,
+        0.4
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.5336749081121169,
+      "warning": null,
+      "chapter_sentence_start": 37,
+      "chapter_sentence_end": 37,
+      "timeline_start_index": 12159,
+      "timeline_end_index": 12159,
+      "highlights": [
+        {
+          "chapter_sentence": 37,
+          "start": 14,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_14_0009",
+      "source_section": "chapter_05_14",
+      "source_sentence": 38,
+      "character_position": 361,
+      "text": "бессмысленной ревности",
+      "vad": [
+        -0.7,
+        0.5,
+        -0.3
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.1446405895275298,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 12160,
+      "timeline_end_index": 12160,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 49,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_14_0010",
+      "source_section": "chapter_05_14",
+      "source_sentence": 38,
+      "character_position": 362,
+      "text": "что мучало ее в эти полчаса",
+      "vad": [
+        -0.85,
+        0.55,
+        -0.35
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.1866457352203632,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 12160,
+      "timeline_end_index": 12160,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 80,
+          "end": 107
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_14_0011",
+      "source_section": "chapter_05_14",
+      "source_sentence": 51,
+      "character_position": 363,
+      "text": "стала нежнее к нему",
+      "vad": [
+        0.7,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.2031799837284427,
+      "warning": null,
+      "chapter_sentence_start": 51,
+      "chapter_sentence_end": 51,
+      "timeline_start_index": 12173,
+      "timeline_end_index": 12173,
+      "highlights": [
+        {
+          "chapter_sentence": 51,
+          "start": 42,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_14_0016",
+      "source_section": "chapter_05_14",
+      "source_sentence": 57,
+      "character_position": 364,
+      "text": "особенно живо чувствовалась натянутость",
+      "vad": [
+        -0.65,
+        0.6,
+        -0.3
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.1861182453776816,
+      "warning": null,
+      "chapter_sentence_start": 57,
+      "chapter_sentence_end": 57,
+      "timeline_start_index": 12179,
+      "timeline_end_index": 12179,
+      "highlights": [
+        {
+          "chapter_sentence": 57,
+          "start": 24,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_14_0017",
+      "source_section": "chapter_05_14",
+      "source_sentence": 58,
+      "character_position": 365,
+      "text": "самым тяжелым и унизительным временем их жизни",
+      "vad": [
+        -0.95,
+        0.35,
+        -0.7
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.3856842760769856,
+      "warning": null,
+      "chapter_sentence_start": 58,
+      "chapter_sentence_end": 58,
+      "timeline_start_index": 12180,
+      "timeline_end_index": 12180,
+      "highlights": [
+        {
+          "chapter_sentence": 58,
+          "start": 166,
+          "end": 212
+        }
+      ]
+    }
+  ]
+}

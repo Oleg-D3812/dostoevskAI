@@ -1,0 +1,451 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "8_18",
+  "count": 17,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_08_18_0001",
+      "source_section": "chapter_08_18",
+      "source_sentence": 1,
+      "character_position": 1393,
+      "text": "разочарование в перемене, долженствовавшей произойти в нем",
+      "vad": [
+        -0.65,
+        -0.1,
+        -0.25
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5253837680448846,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 20749,
+      "timeline_end_index": 20749,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 160,
+          "end": 218
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_18_0002",
+      "source_section": "chapter_08_18",
+      "source_sentence": 1,
+      "character_position": 1394,
+      "text": "радостно слышать полноту своего сердца",
+      "vad": [
+        0.85,
+        0.45,
+        0.05
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2318812021145009,
+      "warning": null,
+      "chapter_sentence_start": 1,
+      "chapter_sentence_end": 1,
+      "timeline_start_index": 20749,
+      "timeline_end_index": 20749,
+      "highlights": [
+        {
+          "chapter_sentence": 1,
+          "start": 234,
+          "end": 272
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_18_0003",
+      "source_section": "chapter_08_18",
+      "source_sentence": 9,
+      "character_position": 1395,
+      "text": "сожалея о перерыве интересного разговора и вместе с тем беспокоясь о том, зачем его звали",
+      "vad": [
+        -0.45,
+        0.4,
+        -0.25
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.2702542685020202,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 20757,
+      "timeline_end_index": 20757,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 24,
+          "end": 113
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_18_0004",
+      "source_section": "chapter_08_18",
+      "source_sentence": 10,
+      "character_position": 1396,
+      "text": "очень заинтересовал его",
+      "vad": [
+        0.65,
+        0.55,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2300707913319524,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 20758,
+      "timeline_end_index": 20758,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 200,
+          "end": 223
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_18_0005",
+      "source_section": "chapter_08_18",
+      "source_sentence": 10,
+      "character_position": 1397,
+      "text": "любопытство и беспокойство о том, зачем его звали, тревожили его",
+      "vad": [
+        -0.45,
+        0.5,
+        -0.25
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.277898688486015,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 20758,
+      "timeline_end_index": 20758,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 247,
+          "end": 311
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_18_0006",
+      "source_section": "chapter_08_18",
+      "source_sentence": 11,
+      "character_position": 1398,
+      "text": "перенесся в то самое настроение, в котором он был нынче утром",
+      "vad": [
+        0.0,
+        0.2,
+        -0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3185458030834323,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 20759,
+      "timeline_end_index": 20759,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 180,
+          "end": 241
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_18_0007",
+      "source_section": "chapter_08_18",
+      "source_sentence": 13,
+      "character_position": 1399,
+      "text": "то чувство, которое руководило им, которое было связано с этими мыслями, и нашел в душе своей это чувство еще более сильным и определенным, чем прежде",
+      "vad": [
+        0.3,
+        0.45,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.4043566716440255,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 20761,
+      "timeline_end_index": 20761,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 21,
+          "end": 171
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_18_0008",
+      "source_section": "chapter_08_18",
+      "source_sentence": 15,
+      "character_position": 1400,
+      "text": "чувство радости и успокоения было живее, чем прежде",
+      "vad": [
+        0.86,
+        0.58,
+        0.46
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.4288741277514931,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 20763,
+      "timeline_end_index": 20763,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 18,
+          "end": 69
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_18_0009",
+      "source_section": "chapter_08_18",
+      "source_sentence": 33,
+      "character_position": 1401,
+      "text": "Левин пришел в неожиданное восхищение",
+      "vad": [
+        0.85,
+        0.55,
+        0.05
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2961748884355424,
+      "warning": null,
+      "chapter_sentence_start": 33,
+      "chapter_sentence_end": 33,
+      "timeline_start_index": 20781,
+      "timeline_end_index": 20781,
+      "highlights": [
+        {
+          "chapter_sentence": 33,
+          "start": 162,
+          "end": 199
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_18_0011",
+      "source_section": "chapter_08_18",
+      "source_sentence": 38,
+      "character_position": 1402,
+      "text": "ничего к нему не чувствуешь",
+      "vad": [
+        -0.45,
+        -0.25,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3794240537197952,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 20786,
+      "timeline_end_index": 20786,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 16,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_18_0012",
+      "source_section": "chapter_08_18",
+      "source_sentence": 40,
+      "character_position": 1403,
+      "text": "Я только говорил, что я разочаровался",
+      "vad": [
+        -0.55,
+        0.1,
+        -0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.334470735632525,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 20788,
+      "timeline_end_index": 20788,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 0,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_18_0013",
+      "source_section": "chapter_08_18",
+      "source_sentence": 42,
+      "character_position": 1404,
+      "text": "Не то что разочаровался в нем, а в своем чувстве; я ждал больше",
+      "vad": [
+        -0.45,
+        0.1,
+        -0.15
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.2814641333900123,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 20790,
+      "timeline_end_index": 20790,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 2,
+          "end": 65
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_18_0014",
+      "source_section": "chapter_08_18",
+      "source_sentence": 43,
+      "character_position": 1405,
+      "text": "Я ждал, что, как сюрприз, распустится во мне новое приятное чувство",
+      "vad": [
+        0.65,
+        0.45,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.137774803133123,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 20791,
+      "timeline_end_index": 20791,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 0,
+          "end": 67
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_18_0015",
+      "source_section": "chapter_08_18",
+      "source_sentence": 44,
+      "character_position": 1406,
+      "text": "гадливость, жалость…",
+      "vad": [
+        -0.75,
+        0.15,
+        -0.2
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3601941029346418,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 20792,
+      "timeline_end_index": 20792,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 23,
+          "end": 43
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_18_0016",
+      "source_section": "chapter_08_18",
+      "source_sentence": 46,
+      "character_position": 1407,
+      "text": "гораздо больше страха и жалости, чем удовольствия",
+      "vad": [
+        -0.65,
+        0.55,
+        -0.35
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.1363995736503804,
+      "warning": null,
+      "chapter_sentence_start": 46,
+      "chapter_sentence_end": 46,
+      "timeline_start_index": 20794,
+      "timeline_end_index": 20794,
+      "highlights": [
+        {
+          "chapter_sentence": 46,
+          "start": 17,
+          "end": 66
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_18_0017",
+      "source_section": "chapter_08_18",
+      "source_sentence": 47,
+      "character_position": 1408,
+      "text": "после этого страха во время грозы я понял, как я люблю его",
+      "vad": [
+        0.8,
+        0.3,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.1266587324070581,
+      "warning": null,
+      "chapter_sentence_start": 47,
+      "chapter_sentence_end": 47,
+      "timeline_start_index": 20795,
+      "timeline_end_index": 20795,
+      "highlights": [
+        {
+          "chapter_sentence": 47,
+          "start": 6,
+          "end": 64
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_08_18_0018",
+      "source_section": "chapter_08_18",
+      "source_sentence": 49,
+      "character_position": 1409,
+      "text": "А ты очень испугался?",
+      "vad": [
+        -0.2,
+        0.3,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.2405082631259101,
+      "warning": null,
+      "chapter_sentence_start": 49,
+      "chapter_sentence_end": 49,
+      "timeline_start_index": 20797,
+      "timeline_end_index": 20797,
+      "highlights": [
+        {
+          "chapter_sentence": 49,
+          "start": 2,
+          "end": 23
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "1_10",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_10_0004",
+      "source_section": "chapter_01_10",
+      "source_sentence": 201,
+      "character_position": 15,
+      "text": "она только простить может",
+      "vad": [
+        0.2,
+        -0.2,
+        -0.3
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.6433922943201773,
+      "warning": null,
+      "chapter_sentence_start": 201,
+      "chapter_sentence_end": 201,
+      "timeline_start_index": 978,
+      "timeline_end_index": 978,
+      "highlights": [
+        {
+          "chapter_sentence": 201,
+          "start": 6,
+          "end": 31
+        }
+      ]
+    }
+  ]
+}

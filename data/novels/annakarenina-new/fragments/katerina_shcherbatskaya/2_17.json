@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "2_17",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_02_17_0001",
+      "source_section": "chapter_02_17",
+      "source_sentence": 6,
+      "character_position": 166,
+      "text": "Кити не замужем и больна, больна от любви к человеку, который пренебрег ею.",
+      "vad": [
+        -0.55,
+        0.25,
+        -0.15
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.396455960481247,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 4457,
+      "timeline_end_index": 4457,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 0,
+          "end": 75
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "1_11",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_01_11_0001",
+      "source_section": "chapter_01_11",
+      "source_sentence": 73,
+      "character_position": 85,
+      "text": "с унылым отчаянием",
+      "vad": [
+        -0.85,
+        0.35,
+        -0.55
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.2291717900234685,
+      "warning": null,
+      "chapter_sentence_start": 73,
+      "chapter_sentence_end": 73,
+      "timeline_start_index": 1051,
+      "timeline_end_index": 1051,
+      "highlights": [
+        {
+          "chapter_sentence": 73,
+          "start": 2,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_11_0002",
+      "source_section": "chapter_01_11",
+      "source_sentence": 106,
+      "character_position": 86,
+      "text": "испытывал это случающееся после обеда крайнее раздвоение вместо сближения",
+      "vad": [
+        -0.75,
+        0.65,
+        -0.45
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.2213375195890985,
+      "warning": null,
+      "chapter_sentence_start": 106,
+      "chapter_sentence_end": 106,
+      "timeline_start_index": 1084,
+      "timeline_end_index": 1084,
+      "highlights": [
+        {
+          "chapter_sentence": 106,
+          "start": 21,
+          "end": 94
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_11_0003",
+      "source_section": "chapter_01_11",
+      "source_sentence": 109,
+      "character_position": 87,
+      "text": "почувствовал облегчение и отдохновение от разговора с Левиным",
+      "vad": [
+        0.72,
+        -0.18,
+        0.2
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.4537341912942343,
+      "warning": null,
+      "chapter_sentence_start": 109,
+      "chapter_sentence_end": 109,
+      "timeline_start_index": 1087,
+      "timeline_end_index": 1087,
+      "highlights": [
+        {
+          "chapter_sentence": 109,
+          "start": 47,
+          "end": 108
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_11_0004",
+      "source_section": "chapter_01_11",
+      "source_sentence": 109,
+      "character_position": 88,
+      "text": "вызывал его всегда на слишком большое умственное и душевное напряжение",
+      "vad": [
+        -0.65,
+        0.55,
+        -0.25
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.2097105931324696,
+      "warning": null,
+      "chapter_sentence_start": 109,
+      "chapter_sentence_end": 109,
+      "timeline_start_index": 1087,
+      "timeline_end_index": 1087,
+      "highlights": [
+        {
+          "chapter_sentence": 109,
+          "start": 118,
+          "end": 188
+        }
+      ]
+    }
+  ]
+}

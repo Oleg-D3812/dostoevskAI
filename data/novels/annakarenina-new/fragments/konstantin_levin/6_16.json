@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "6_16",
+  "count": 5,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_06_16_0001",
+      "source_section": "chapter_06_16",
+      "source_sentence": 4,
+      "character_position": 1021,
+      "text": "мне неприятна твоя поездка",
+      "vad": [
+        -0.5,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.2552134345521854,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 15341,
+      "timeline_end_index": 15341,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 28,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_16_0002",
+      "source_section": "chapter_06_16",
+      "source_sentence": 5,
+      "character_position": 1022,
+      "text": "мне и было это неприятно",
+      "vad": [
+        -0.35,
+        0.05,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.1112461719698156,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 15342,
+      "timeline_end_index": 15342,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 11,
+          "end": 35
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_16_0003",
+      "source_section": "chapter_06_16",
+      "source_sentence": 5,
+      "character_position": 1023,
+      "text": "мне неприятно",
+      "vad": [
+        -0.55,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3042050265585356,
+      "warning": null,
+      "chapter_sentence_start": 5,
+      "chapter_sentence_end": 5,
+      "timeline_start_index": 15342,
+      "timeline_end_index": 15342,
+      "highlights": [
+        {
+          "chapter_sentence": 5,
+          "start": 50,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_16_0004",
+      "source_section": "chapter_06_16",
+      "source_sentence": 7,
+      "character_position": 1024,
+      "text": "неприятно для меня",
+      "vad": [
+        -0.55,
+        0.05,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.3033198226429728,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 15344,
+      "timeline_end_index": 15344,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 34,
+          "end": 52
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_06_16_0005",
+      "source_section": "chapter_06_16",
+      "source_sentence": 9,
+      "character_position": 1025,
+      "text": "огорчить меня",
+      "vad": [
+        -0.45,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.243870228006439,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 15346,
+      "timeline_end_index": 15346,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 20,
+          "end": 33
+        }
+      ]
+    }
+  ]
+}

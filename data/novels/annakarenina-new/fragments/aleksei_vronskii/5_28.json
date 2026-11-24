@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "5_28",
+  "count": 12,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_05_28_0001",
+      "source_section": "chapter_05_28",
+      "source_sentence": 6,
+      "character_position": 437,
+      "text": "он надеется устроить развод",
+      "vad": [
+        0.45,
+        0.1,
+        0.35
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.3349009280108704,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 13243,
+      "timeline_end_index": 13243,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 169,
+          "end": 196
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_28_0002",
+      "source_section": "chapter_05_28",
+      "source_sentence": 7,
+      "character_position": 438,
+      "text": "мне все равно",
+      "vad": [
+        0.2,
+        0.2,
+        0.7
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.687044781953104,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 13244,
+      "timeline_end_index": 13244,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 34,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_28_0003",
+      "source_section": "chapter_05_28",
+      "source_sentence": 10,
+      "character_position": 439,
+      "text": "был в странном заблуждении",
+      "vad": [
+        -0.3,
+        0.0,
+        -0.25
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.4242114401396684,
+      "warning": null,
+      "chapter_sentence_start": 10,
+      "chapter_sentence_end": 10,
+      "timeline_start_index": 13247,
+      "timeline_end_index": 13247,
+      "highlights": [
+        {
+          "chapter_sentence": 10,
+          "start": 109,
+          "end": 135
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_28_0004",
+      "source_section": "chapter_05_28",
+      "source_sentence": 11,
+      "character_position": 440,
+      "text": "в голове его родились какие-то неясные соображения",
+      "vad": [
+        0.05,
+        0.2,
+        -0.2
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.5193142639175802,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 13248,
+      "timeline_end_index": 13248,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 76,
+          "end": 126
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_28_0006",
+      "source_section": "chapter_05_28",
+      "source_sentence": 38,
+      "character_position": 441,
+      "text": "На мать свою он не надеялся",
+      "vad": [
+        -0.55,
+        -0.2,
+        -0.45
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.6535282368550355,
+      "warning": null,
+      "chapter_sentence_start": 38,
+      "chapter_sentence_end": 38,
+      "timeline_start_index": 13275,
+      "timeline_end_index": 13275,
+      "highlights": [
+        {
+          "chapter_sentence": 38,
+          "start": 0,
+          "end": 27
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_28_0007",
+      "source_section": "chapter_05_28",
+      "source_sentence": 40,
+      "character_position": 442,
+      "text": "возлагал большие надежды",
+      "vad": [
+        0.6,
+        0.2,
+        -0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.340001147561112,
+      "warning": null,
+      "chapter_sentence_start": 40,
+      "chapter_sentence_end": 40,
+      "timeline_start_index": 13277,
+      "timeline_end_index": 13277,
+      "highlights": [
+        {
+          "chapter_sentence": 40,
+          "start": 6,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_28_0008",
+      "source_section": "chapter_05_28",
+      "source_sentence": 41,
+      "character_position": 443,
+      "text": "Ему казалось, что она не бросит камня",
+      "vad": [
+        0.3,
+        0.0,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.497628212819684,
+      "warning": null,
+      "chapter_sentence_start": 41,
+      "chapter_sentence_end": 41,
+      "timeline_start_index": 13278,
+      "timeline_end_index": 13278,
+      "highlights": [
+        {
+          "chapter_sentence": 41,
+          "start": 0,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_28_0009",
+      "source_section": "chapter_05_28",
+      "source_sentence": 53,
+      "character_position": 444,
+      "text": "еще мрачнее",
+      "vad": [
+        -0.7,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.4347373725121565,
+      "warning": null,
+      "chapter_sentence_start": 53,
+      "chapter_sentence_end": 53,
+      "timeline_start_index": 13290,
+      "timeline_end_index": 13290,
+      "highlights": [
+        {
+          "chapter_sentence": 53,
+          "start": 2,
+          "end": 13
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_28_0011",
+      "source_section": "chapter_05_28",
+      "source_sentence": 57,
+      "character_position": 445,
+      "text": "мне больно вдвойне",
+      "vad": [
+        -0.8,
+        0.5,
+        -0.2
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.2963664318816332,
+      "warning": null,
+      "chapter_sentence_start": 57,
+      "chapter_sentence_end": 57,
+      "timeline_start_index": 13294,
+      "timeline_end_index": 13294,
+      "highlights": [
+        {
+          "chapter_sentence": 57,
+          "start": 56,
+          "end": 74
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_28_0012",
+      "source_section": "chapter_05_28",
+      "source_sentence": 58,
+      "character_position": 446,
+      "text": "Мне больно еще то, что это разрывает нашу дружбу",
+      "vad": [
+        -0.75,
+        0.35,
+        -0.45
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.1036584734290092,
+      "warning": null,
+      "chapter_sentence_start": 58,
+      "chapter_sentence_end": 58,
+      "timeline_start_index": 13295,
+      "timeline_end_index": 13295,
+      "highlights": [
+        {
+          "chapter_sentence": 58,
+          "start": 0,
+          "end": 48
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_28_0013",
+      "source_section": "chapter_05_28",
+      "source_sentence": 62,
+      "character_position": 447,
+      "text": "которые были так мучительны для него",
+      "vad": [
+        -0.85,
+        0.55,
+        -0.45
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.191824350017289,
+      "warning": null,
+      "chapter_sentence_start": 62,
+      "chapter_sentence_end": 62,
+      "timeline_start_index": 13299,
+      "timeline_end_index": 13299,
+      "highlights": [
+        {
+          "chapter_sentence": 62,
+          "start": 212,
+          "end": 248
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_05_28_0014",
+      "source_section": "chapter_05_28",
+      "source_sentence": 66,
+      "character_position": 448,
+      "text": "Пребывание в Петербурге казалось Вронскому еще тем тяжелее",
+      "vad": [
+        -0.65,
+        0.2,
+        -0.2
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.3622924353714365,
+      "warning": null,
+      "chapter_sentence_start": 66,
+      "chapter_sentence_end": 66,
+      "timeline_start_index": 13303,
+      "timeline_end_index": 13303,
+      "highlights": [
+        {
+          "chapter_sentence": 66,
+          "start": 0,
+          "end": 58
+        }
+      ]
+    }
+  ]
+}

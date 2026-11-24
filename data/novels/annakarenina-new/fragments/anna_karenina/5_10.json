@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "5_10",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_05_10_0001",
+      "source_section": "chapter_05_10",
+      "source_sentence": 50,
+      "character_position": 573,
+      "text": "в то же время, очевидно, желавшей оглядеть подходящего художника",
+      "vad": [
+        0.05,
+        0.12,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.4303645895410026,
+      "warning": null,
+      "chapter_sentence_start": 50,
+      "chapter_sentence_end": 50,
+      "timeline_start_index": 11941,
+      "timeline_end_index": 11941,
+      "highlights": [
+        {
+          "chapter_sentence": 50,
+          "start": 187,
+          "end": 251
+        }
+      ]
+    }
+  ]
+}

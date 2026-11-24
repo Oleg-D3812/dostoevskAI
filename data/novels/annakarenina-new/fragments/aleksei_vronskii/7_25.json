@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "7_25",
+  "count": 11,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_07_25_0001",
+      "source_section": "chapter_07_25",
+      "source_sentence": 24,
+      "character_position": 603,
+      "text": "как бы желая скрыть что-то от нее",
+      "vad": [
+        -0.25,
+        0.3,
+        0.45
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.361221703585551,
+      "warning": null,
+      "chapter_sentence_start": 24,
+      "chapter_sentence_end": 24,
+      "timeline_start_index": 19040,
+      "timeline_end_index": 19040,
+      "highlights": [
+        {
+          "chapter_sentence": 24,
+          "start": 62,
+          "end": 95
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_25_0002",
+      "source_section": "chapter_07_25",
+      "source_sentence": 28,
+      "character_position": 604,
+      "text": "неохотно",
+      "vad": [
+        -0.35,
+        -0.2,
+        -0.1
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.3910950599858959,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 19044,
+      "timeline_end_index": 19044,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 25,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_25_0003",
+      "source_section": "chapter_07_25",
+      "source_sentence": 32,
+      "character_position": 605,
+      "text": "Я не хотел показывать",
+      "vad": [
+        -0.35,
+        0.2,
+        0.25
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.1536386360309603,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 19048,
+      "timeline_end_index": 19048,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 2,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_25_0004",
+      "source_section": "chapter_07_25",
+      "source_sentence": 45,
+      "character_position": 606,
+      "text": "люблю ясность",
+      "vad": [
+        0.35,
+        0.05,
+        0.4
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.4541970885187463,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 19061,
+      "timeline_end_index": 19061,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 28,
+          "end": 41
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_25_0005",
+      "source_section": "chapter_07_25",
+      "source_sentence": 48,
+      "character_position": 607,
+      "text": "Боже мой, опять об любви",
+      "vad": [
+        -0.65,
+        0.4,
+        -0.2
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.2768508021792256,
+      "warning": null,
+      "chapter_sentence_start": 48,
+      "chapter_sentence_end": 48,
+      "timeline_start_index": 19064,
+      "timeline_end_index": 19064,
+      "highlights": [
+        {
+          "chapter_sentence": 48,
+          "start": 1,
+          "end": 25
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_25_0007",
+      "source_section": "chapter_07_25",
+      "source_sentence": 57,
+      "character_position": 608,
+      "text": "я уверен",
+      "vad": [
+        0.1,
+        0.1,
+        0.7
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.6664853851554314,
+      "warning": null,
+      "chapter_sentence_start": 57,
+      "chapter_sentence_end": 57,
+      "timeline_start_index": 19073,
+      "timeline_end_index": 19073,
+      "highlights": [
+        {
+          "chapter_sentence": 57,
+          "start": 74,
+          "end": 82
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_25_0008",
+      "source_section": "chapter_07_25",
+      "source_sentence": 62,
+      "character_position": 609,
+      "text": "с упорством желая высказать свою мысль",
+      "vad": [
+        0.1,
+        0.35,
+        0.55
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.6149358239644654,
+      "warning": null,
+      "chapter_sentence_start": 62,
+      "chapter_sentence_end": 62,
+      "timeline_start_index": 19078,
+      "timeline_end_index": 19078,
+      "highlights": [
+        {
+          "chapter_sentence": 62,
+          "start": 57,
+          "end": 95
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_25_0009",
+      "source_section": "chapter_07_25",
+      "source_sentence": 65,
+      "character_position": 610,
+      "text": "ему противны были рука, и жест, и звук, который она производила губами",
+      "vad": [
+        -0.8,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.5723452256161291,
+      "warning": null,
+      "chapter_sentence_start": 65,
+      "chapter_sentence_end": 65,
+      "timeline_start_index": 19081,
+      "timeline_end_index": 19081,
+      "highlights": [
+        {
+          "chapter_sentence": 65,
+          "start": 88,
+          "end": 158
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_25_0011",
+      "source_section": "chapter_07_25",
+      "source_sentence": 119,
+      "character_position": 611,
+      "text": "Объясняться мне некогда, и ни к чему не поведет",
+      "vad": [
+        -0.35,
+        0.25,
+        0.75
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.6096574038499678,
+      "warning": null,
+      "chapter_sentence_start": 119,
+      "chapter_sentence_end": 119,
+      "timeline_start_index": 19135,
+      "timeline_end_index": 19135,
+      "highlights": [
+        {
+          "chapter_sentence": 119,
+          "start": 98,
+          "end": 145
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_25_0013",
+      "source_section": "chapter_07_25",
+      "source_sentence": 122,
+      "character_position": 612,
+      "text": "сердце его вдруг дрогнуло от сострадания к ней",
+      "vad": [
+        0.2,
+        0.55,
+        -0.15
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.6427870257777162,
+      "warning": null,
+      "chapter_sentence_start": 122,
+      "chapter_sentence_end": 122,
+      "timeline_start_index": 19138,
+      "timeline_end_index": 19138,
+      "highlights": [
+        {
+          "chapter_sentence": 122,
+          "start": 54,
+          "end": 100
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_07_25_0014",
+      "source_section": "chapter_07_25",
+      "source_sentence": 126,
+      "character_position": 613,
+      "text": "опять похолодев",
+      "vad": [
+        -0.55,
+        -0.2,
+        0.25
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.3867878365221092,
+      "warning": null,
+      "chapter_sentence_start": 126,
+      "chapter_sentence_end": 126,
+      "timeline_start_index": 19142,
+      "timeline_end_index": 19142,
+      "highlights": [
+        {
+          "chapter_sentence": 126,
+          "start": 40,
+          "end": 55
+        }
+      ]
+    }
+  ]
+}

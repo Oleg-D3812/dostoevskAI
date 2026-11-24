@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "3_24",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_03_24_0002",
+      "source_section": "chapter_03_24",
+      "source_sentence": 30,
+      "character_position": 270,
+      "text": "она только еще больше возненавидит меня",
+      "vad": [
+        -0.8,
+        0.35,
+        -0.65
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.2701531008366927,
+      "warning": null,
+      "chapter_sentence_start": 30,
+      "chapter_sentence_end": 30,
+      "timeline_start_index": 8226,
+      "timeline_end_index": 8226,
+      "highlights": [
+        {
+          "chapter_sentence": 30,
+          "start": 83,
+          "end": 122
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "5_17",
+  "count": 7,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_17_0002",
+      "source_section": "chapter_05_17",
+      "source_sentence": 27,
+      "character_position": 388,
+      "text": "выражение жадного любопытства",
+      "vad": [
+        0.1,
+        0.55,
+        0.0
+      ],
+      "cluster_id": "katerina_shcherbatskaya-3",
+      "distance_to_centroid": 0.5720114207279549,
+      "warning": null,
+      "chapter_sentence_start": 27,
+      "chapter_sentence_end": 27,
+      "timeline_start_index": 12376,
+      "timeline_end_index": 12376,
+      "highlights": [
+        {
+          "chapter_sentence": 27,
+          "start": 29,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_17_0003",
+      "source_section": "chapter_05_17",
+      "source_sentence": 74,
+      "character_position": 389,
+      "text": "с испуганным лицом",
+      "vad": [
+        -0.75,
+        0.7,
+        -0.35
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.2326558946328475,
+      "warning": null,
+      "chapter_sentence_start": 74,
+      "chapter_sentence_end": 74,
+      "timeline_start_index": 12423,
+      "timeline_end_index": 12423,
+      "highlights": [
+        {
+          "chapter_sentence": 74,
+          "start": 2,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_17_0005",
+      "source_section": "chapter_05_17",
+      "source_sentence": 81,
+      "character_position": 390,
+      "text": "Ты пойми, что мне видеть тебя и не видеть его тяжелее гораздо.",
+      "vad": [
+        -0.8,
+        0.45,
+        -0.35
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.1448152683132,
+      "warning": null,
+      "chapter_sentence_start": 81,
+      "chapter_sentence_end": 81,
+      "timeline_start_index": 12430,
+      "timeline_end_index": 12430,
+      "highlights": [
+        {
+          "chapter_sentence": 81,
+          "start": 2,
+          "end": 64
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_17_0006",
+      "source_section": "chapter_05_17",
+      "source_sentence": 84,
+      "character_position": 391,
+      "text": "умоляла она мужа, как будто счастье жизни ее зависело от этого",
+      "vad": [
+        -0.7,
+        0.75,
+        -0.7
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.3620162035041324,
+      "warning": null,
+      "chapter_sentence_start": 84,
+      "chapter_sentence_end": 84,
+      "timeline_start_index": 12433,
+      "timeline_end_index": 12433,
+      "highlights": [
+        {
+          "chapter_sentence": 84,
+          "start": 2,
+          "end": 64
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_17_0007",
+      "source_section": "chapter_05_17",
+      "source_sentence": 86,
+      "character_position": 392,
+      "text": "показывая ему храброе и сочувственное лицо",
+      "vad": [
+        0.55,
+        0.2,
+        0.45
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.3461290402999217,
+      "warning": null,
+      "chapter_sentence_start": 86,
+      "chapter_sentence_end": 86,
+      "timeline_start_index": 12435,
+      "timeline_end_index": 12435,
+      "highlights": [
+        {
+          "chapter_sentence": 86,
+          "start": 49,
+          "end": 91
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_17_0008",
+      "source_section": "chapter_05_17",
+      "source_sentence": 87,
+      "character_position": 393,
+      "text": "с той, только женщинам свойственною, не оскорбляющею и сочувствующею тихою оживленностью",
+      "vad": [
+        0.55,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "katerina_shcherbatskaya-2",
+      "distance_to_centroid": 0.1386395483016691,
+      "warning": null,
+      "chapter_sentence_start": 87,
+      "chapter_sentence_end": 87,
+      "timeline_start_index": 12436,
+      "timeline_end_index": 12436,
+      "highlights": [
+        {
+          "chapter_sentence": 87,
+          "start": 191,
+          "end": 279
+        }
+      ]
+    },
+    {
+      "id": "katerina_shcherbatskaya::chapter_05_17_0009",
+      "source_section": "chapter_05_17",
+      "source_sentence": 97,
+      "character_position": 394,
+      "text": "Я боюсь",
+      "vad": [
+        -0.75,
+        0.65,
+        -0.45
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.164571630262284,
+      "warning": null,
+      "chapter_sentence_start": 97,
+      "chapter_sentence_end": 97,
+      "timeline_start_index": 12446,
+      "timeline_end_index": 12446,
+      "highlights": [
+        {
+          "chapter_sentence": 97,
+          "start": 2,
+          "end": 9
+        }
+      ]
+    }
+  ]
+}

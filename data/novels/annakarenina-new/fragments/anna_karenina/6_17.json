@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "6_17",
+  "count": 10,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_06_17_0001",
+      "source_section": "chapter_06_17",
+      "source_sentence": 63,
+      "character_position": 690,
+      "text": "вдруг просияло радостною улыбкой",
+      "vad": [
+        0.9,
+        0.55,
+        0.15
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.3852984132084673,
+      "warning": null,
+      "chapter_sentence_start": 63,
+      "chapter_sentence_end": 63,
+      "timeline_start_index": 15496,
+      "timeline_end_index": 15496,
+      "highlights": [
+        {
+          "chapter_sentence": 63,
+          "start": 99,
+          "end": 131
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_17_0002",
+      "source_section": "chapter_06_17",
+      "source_sentence": 66,
+      "character_position": 691,
+      "text": "не смела думать",
+      "vad": [
+        -0.35,
+        0.1,
+        -0.45
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.4459136396752659,
+      "warning": null,
+      "chapter_sentence_start": 66,
+      "chapter_sentence_end": 66,
+      "timeline_start_index": 15499,
+      "timeline_end_index": 15499,
+      "highlights": [
+        {
+          "chapter_sentence": 66,
+          "start": 19,
+          "end": 34
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_17_0003",
+      "source_section": "chapter_06_17",
+      "source_sentence": 67,
+      "character_position": 692,
+      "text": "Вот радость!",
+      "vad": [
+        0.9,
+        0.7,
+        0.3
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.5137885525629899,
+      "warning": null,
+      "chapter_sentence_start": 67,
+      "chapter_sentence_end": 67,
+      "timeline_start_index": 15500,
+      "timeline_end_index": 15500,
+      "highlights": [
+        {
+          "chapter_sentence": 67,
+          "start": 0,
+          "end": 12
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_17_0004",
+      "source_section": "chapter_06_17",
+      "source_sentence": 68,
+      "character_position": 693,
+      "text": "Ты не можешь представить себе мою радость!",
+      "vad": [
+        0.98,
+        0.78,
+        0.34
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.6321836260630551,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 15501,
+      "timeline_end_index": 15501,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 0,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_17_0005",
+      "source_section": "chapter_06_17",
+      "source_sentence": 70,
+      "character_position": 694,
+      "text": "Вот радость, Алексей!",
+      "vad": [
+        0.9,
+        0.7,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.5021265355437345,
+      "warning": null,
+      "chapter_sentence_start": 70,
+      "chapter_sentence_end": 70,
+      "timeline_start_index": 15503,
+      "timeline_end_index": 15503,
+      "highlights": [
+        {
+          "chapter_sentence": 70,
+          "start": 2,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_17_0006",
+      "source_section": "chapter_06_17",
+      "source_sentence": 80,
+      "character_position": 695,
+      "text": "смутилась, покраснела",
+      "vad": [
+        -0.65,
+        0.45,
+        -0.4
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.1829995095196397,
+      "warning": null,
+      "chapter_sentence_start": 80,
+      "chapter_sentence_end": 80,
+      "timeline_start_index": 15513,
+      "timeline_end_index": 15513,
+      "highlights": [
+        {
+          "chapter_sentence": 80,
+          "start": 37,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_17_0007",
+      "source_section": "chapter_06_17",
+      "source_sentence": 91,
+      "character_position": 696,
+      "text": "сердито-ласково ответила Весловскому",
+      "vad": [
+        0.2,
+        0.35,
+        0.1
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.4219109331066574,
+      "warning": null,
+      "chapter_sentence_start": 91,
+      "chapter_sentence_end": 91,
+      "timeline_start_index": 15524,
+      "timeline_end_index": 15524,
+      "highlights": [
+        {
+          "chapter_sentence": 91,
+          "start": 199,
+          "end": 235
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_17_0008",
+      "source_section": "chapter_06_17",
+      "source_sentence": 91,
+      "character_position": 697,
+      "text": "она сама знала это и радовалась этому",
+      "vad": [
+        0.8,
+        0.45,
+        0.35
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.3027665200012396,
+      "warning": null,
+      "chapter_sentence_start": 91,
+      "chapter_sentence_end": 91,
+      "timeline_start_index": 15524,
+      "timeline_end_index": 15524,
+      "highlights": [
+        {
+          "chapter_sentence": 91,
+          "start": 375,
+          "end": 412
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_17_0009",
+      "source_section": "chapter_06_17",
+      "source_sentence": 92,
+      "character_position": 698,
+      "text": "на обеих вдруг нашло смущение",
+      "vad": [
+        -0.45,
+        0.2,
+        -0.2
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.2074938069697403,
+      "warning": null,
+      "chapter_sentence_start": 92,
+      "chapter_sentence_end": 92,
+      "timeline_start_index": 15525,
+      "timeline_end_index": 15525,
+      "highlights": [
+        {
+          "chapter_sentence": 92,
+          "start": 34,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_06_17_0010",
+      "source_section": "chapter_06_17",
+      "source_sentence": 93,
+      "character_position": 699,
+      "text": "Анна смутилась",
+      "vad": [
+        -0.35,
+        0.25,
+        -0.25
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.2582193047441661,
+      "warning": null,
+      "chapter_sentence_start": 93,
+      "chapter_sentence_end": 93,
+      "timeline_start_index": 15526,
+      "timeline_end_index": 15526,
+      "highlights": [
+        {
+          "chapter_sentence": 93,
+          "start": 0,
+          "end": 14
+        }
+      ]
+    }
+  ]
+}

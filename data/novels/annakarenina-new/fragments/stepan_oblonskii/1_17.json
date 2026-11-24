@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "1_17",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_01_17_0001",
+      "source_section": "chapter_01_17",
+      "source_sentence": 48,
+      "character_position": 89,
+      "text": "весело смеясь",
+      "vad": [
+        0.7,
+        0.5,
+        0.3
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.2544236806250912,
+      "warning": null,
+      "chapter_sentence_start": 48,
+      "chapter_sentence_end": 48,
+      "timeline_start_index": 1510,
+      "timeline_end_index": 1510,
+      "highlights": [
+        {
+          "chapter_sentence": 48,
+          "start": 2,
+          "end": 15
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_17_0002",
+      "source_section": "chapter_01_17",
+      "source_sentence": 55,
+      "character_position": 90,
+      "text": "которому очень хотелось рассказать Вронскому о намерениях Левина относительно Кити",
+      "vad": [
+        0.35,
+        0.3,
+        0.15
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.3134879843780822,
+      "warning": null,
+      "chapter_sentence_start": 55,
+      "chapter_sentence_end": 55,
+      "timeline_start_index": 1517,
+      "timeline_end_index": 1517,
+      "highlights": [
+        {
+          "chapter_sentence": 55,
+          "start": 33,
+          "end": 115
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_17_0003",
+      "source_section": "chapter_01_17",
+      "source_sentence": 59,
+      "character_position": 91,
+      "text": "то искреннее сочувствие, которое он вчера испытывал к своему приятелю",
+      "vad": [
+        0.2,
+        0.1,
+        -0.2
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.5633595003128977,
+      "warning": null,
+      "chapter_sentence_start": 59,
+      "chapter_sentence_end": 59,
+      "timeline_start_index": 1521,
+      "timeline_end_index": 1521,
+      "highlights": [
+        {
+          "chapter_sentence": 59,
+          "start": 104,
+          "end": 173
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_17_0005",
+      "source_section": "chapter_01_17",
+      "source_sentence": 66,
+      "character_position": 92,
+      "text": "мне его очень жаль",
+      "vad": [
+        -0.65,
+        0.2,
+        -0.2
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.3326573098748153,
+      "warning": null,
+      "chapter_sentence_start": 66,
+      "chapter_sentence_end": 66,
+      "timeline_start_index": 1528,
+      "timeline_end_index": 1528,
+      "highlights": [
+        {
+          "chapter_sentence": 66,
+          "start": 24,
+          "end": 42
+        }
+      ]
+    }
+  ]
+}

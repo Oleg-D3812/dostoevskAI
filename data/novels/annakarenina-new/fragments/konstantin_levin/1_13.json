@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "1_13",
+  "count": 8,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_01_13_0001",
+      "source_section": "chapter_01_13",
+      "source_sentence": 7,
+      "character_position": 123,
+      "text": "Его любовь к ней",
+      "vad": [
+        0.8,
+        0.4,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2088025102977022,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 1166,
+      "timeline_end_index": 1166,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 0,
+          "end": 16
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_13_0002",
+      "source_section": "chapter_01_13",
+      "source_sentence": 21,
+      "character_position": 124,
+      "text": "он, милый, любит ее, влюблен в нее",
+      "vad": [
+        0.6,
+        0.25,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.1969437206762296,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 1180,
+      "timeline_end_index": 1180,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 11,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_13_0003",
+      "source_section": "chapter_01_13",
+      "source_sentence": 39,
+      "character_position": 125,
+      "text": "робкую фигуру",
+      "vad": [
+        -0.3,
+        0.3,
+        -0.6
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.4306239933199273,
+      "warning": null,
+      "chapter_sentence_start": 39,
+      "chapter_sentence_end": 39,
+      "timeline_start_index": 1198,
+      "timeline_end_index": 1198,
+      "highlights": [
+        {
+          "chapter_sentence": 39,
+          "start": 54,
+          "end": 67
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_13_0004",
+      "source_section": "chapter_01_13",
+      "source_sentence": 42,
+      "character_position": 126,
+      "text": "лицо его сделалось мрачно",
+      "vad": [
+        -0.65,
+        0.25,
+        -0.15
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.317079011836748,
+      "warning": null,
+      "chapter_sentence_start": 42,
+      "chapter_sentence_end": 42,
+      "timeline_start_index": 1201,
+      "timeline_end_index": 1201,
+      "highlights": [
+        {
+          "chapter_sentence": 42,
+          "start": 80,
+          "end": 105
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_13_0005",
+      "source_section": "chapter_01_13",
+      "source_sentence": 44,
+      "character_position": 127,
+      "text": "чтобы не потерять смелости",
+      "vad": [
+        -0.35,
+        0.55,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5139003744977426,
+      "warning": null,
+      "chapter_sentence_start": 44,
+      "chapter_sentence_end": 44,
+      "timeline_start_index": 1203,
+      "timeline_end_index": 1203,
+      "highlights": [
+        {
+          "chapter_sentence": 44,
+          "start": 93,
+          "end": 119
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_13_0006",
+      "source_section": "chapter_01_13",
+      "source_sentence": 55,
+      "character_position": 128,
+      "text": "не зная сам, что говорил; но, почувствовав, что самое страшное сказано",
+      "vad": [
+        -0.65,
+        0.72,
+        -0.58
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3366710623823185,
+      "warning": null,
+      "chapter_sentence_start": 55,
+      "chapter_sentence_end": 55,
+      "timeline_start_index": 1214,
+      "timeline_end_index": 1214,
+      "highlights": [
+        {
+          "chapter_sentence": 55,
+          "start": 17,
+          "end": 87
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_13_0007",
+      "source_section": "chapter_01_13",
+      "source_sentence": 62,
+      "character_position": 129,
+      "text": "его отчаянное лицо",
+      "vad": [
+        -0.9,
+        0.8,
+        -0.7
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.5255851898492692,
+      "warning": null,
+      "chapter_sentence_start": 62,
+      "chapter_sentence_end": 62,
+      "timeline_start_index": 1221,
+      "timeline_end_index": 1221,
+      "highlights": [
+        {
+          "chapter_sentence": 62,
+          "start": 61,
+          "end": 79
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_01_13_0009",
+      "source_section": "chapter_01_13",
+      "source_sentence": 64,
+      "character_position": 130,
+      "text": "стала чужда и далека ему",
+      "vad": [
+        -0.8,
+        0.2,
+        -0.7
+      ],
+      "cluster_id": "konstantin_levin-2",
+      "distance_to_centroid": 0.3925310462100022,
+      "warning": null,
+      "chapter_sentence_start": 64,
+      "chapter_sentence_end": 64,
+      "timeline_start_index": 1223,
+      "timeline_end_index": 1223,
+      "highlights": [
+        {
+          "chapter_sentence": 64,
+          "start": 17,
+          "end": 41
+        }
+      ]
+    }
+  ]
+}

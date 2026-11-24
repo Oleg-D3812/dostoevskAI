@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "stepan_oblonskii",
+  "chapter_id": "1_2",
+  "count": 12,
+  "fragments": [
+    {
+      "id": "stepan_oblonskii::chapter_01_02_0001",
+      "source_section": "chapter_01_02",
+      "source_sentence": 2,
+      "character_position": 11,
+      "text": "что он раскаивается",
+      "vad": [
+        -0.3,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.2075679476908399,
+      "warning": null,
+      "chapter_sentence_start": 2,
+      "chapter_sentence_end": 2,
+      "timeline_start_index": 46,
+      "timeline_end_index": 46,
+      "highlights": [
+        {
+          "chapter_sentence": 2,
+          "start": 42,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_02_0002",
+      "source_section": "chapter_01_02",
+      "source_sentence": 3,
+      "character_position": 12,
+      "text": "не мог раскаиваться теперь",
+      "vad": [
+        -0.2,
+        -0.3,
+        0.1
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.3556391285428145,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 47,
+      "timeline_end_index": 47,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 3,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_02_0003",
+      "source_section": "chapter_01_02",
+      "source_sentence": 3,
+      "character_position": 13,
+      "text": "в чем он раскаивался когда-то",
+      "vad": [
+        -0.55,
+        -0.1,
+        -0.25
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.3683072662631997,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 47,
+      "timeline_end_index": 47,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 37,
+          "end": 66
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_02_0004",
+      "source_section": "chapter_01_02",
+      "source_sentence": 4,
+      "character_position": 14,
+      "text": "не был влюблен в жену",
+      "vad": [
+        -0.45,
+        -0.2,
+        0.05
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.2624133546488458,
+      "warning": null,
+      "chapter_sentence_start": 4,
+      "chapter_sentence_end": 4,
+      "timeline_start_index": 48,
+      "timeline_end_index": 48,
+      "highlights": [
+        {
+          "chapter_sentence": 4,
+          "start": 90,
+          "end": 111
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_02_0006",
+      "source_section": "chapter_01_02",
+      "source_sentence": 6,
+      "character_position": 15,
+      "text": "чувствовал всю тяжесть своего положения и жалел жену, детей и себя",
+      "vad": [
+        -0.65,
+        0.35,
+        -0.4
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.0998042374508659,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 50,
+      "timeline_end_index": 50,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 6,
+          "end": 72
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_02_0007",
+      "source_section": "chapter_01_02",
+      "source_sentence": 8,
+      "character_position": 16,
+      "text": "смутно ему представлялось, что жена давно догадывается, что он не верен ей, и смотрит на это сквозь пальцы",
+      "vad": [
+        0.12,
+        -0.18,
+        0.08
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.4877609749642348,
+      "warning": null,
+      "chapter_sentence_start": 8,
+      "chapter_sentence_end": 8,
+      "timeline_start_index": 52,
+      "timeline_end_index": 52,
+      "highlights": [
+        {
+          "chapter_sentence": 8,
+          "start": 47,
+          "end": 153
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_02_0008",
+      "source_section": "chapter_01_02",
+      "source_sentence": 9,
+      "character_position": 17,
+      "text": "Ему даже казалось, что она, истощенная, состарившаяся, уже некрасивая женщина и ничем не замечательная, простая, только добрая мать семейства, по чувству справедливости должна быть снисходительна",
+      "vad": [
+        0.1,
+        -0.2,
+        0.4
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.6145646557250767,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 53,
+      "timeline_end_index": 53,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 0,
+          "end": 195
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_02_0009",
+      "source_section": "chapter_01_02",
+      "source_sentence": 11,
+      "character_position": 18,
+      "text": "Ах, ужасно! ай, ай, ай! ужасно!",
+      "vad": [
+        -0.95,
+        0.92,
+        -0.68
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.605124929192969,
+      "warning": null,
+      "chapter_sentence_start": 11,
+      "chapter_sentence_end": 11,
+      "timeline_start_index": 55,
+      "timeline_end_index": 55,
+      "highlights": [
+        {
+          "chapter_sentence": 11,
+          "start": 1,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_02_0010",
+      "source_section": "chapter_01_02",
+      "source_sentence": 12,
+      "character_position": 19,
+      "text": "ничего не мог придумать",
+      "vad": [
+        -0.55,
+        0.18,
+        -0.72
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.4135552497994413,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 56,
+      "timeline_end_index": 56,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 33,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_02_0011",
+      "source_section": "chapter_01_02",
+      "source_sentence": 13,
+      "character_position": 20,
+      "text": "как хорошо все это было до этого, как мы хорошо жили!",
+      "vad": [
+        0.45,
+        0.1,
+        -0.2
+      ],
+      "cluster_id": "stepan_oblonskii-2",
+      "distance_to_centroid": 0.4824020358823629,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 57,
+      "timeline_end_index": 57,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 4,
+          "end": 57
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_02_0014",
+      "source_section": "chapter_01_02",
+      "source_sentence": 72,
+      "character_position": 21,
+      "text": "был кругом виноват пред женой и сам чувствовал это",
+      "vad": [
+        -0.8,
+        0.2,
+        -0.5
+      ],
+      "cluster_id": "stepan_oblonskii-3",
+      "distance_to_centroid": 0.2794674619409875,
+      "warning": null,
+      "chapter_sentence_start": 72,
+      "chapter_sentence_end": 72,
+      "timeline_start_index": 116,
+      "timeline_end_index": 116,
+      "highlights": [
+        {
+          "chapter_sentence": 72,
+          "start": 36,
+          "end": 86
+        }
+      ]
+    },
+    {
+      "id": "stepan_oblonskii::chapter_01_02_0015",
+      "source_section": "chapter_01_02",
+      "source_sentence": 74,
+      "character_position": 22,
+      "text": "уныло",
+      "vad": [
+        -0.7,
+        -0.3,
+        -0.4
+      ],
+      "cluster_id": "stepan_oblonskii-1",
+      "distance_to_centroid": 0.6456577472568557,
+      "warning": null,
+      "chapter_sentence_start": 74,
+      "chapter_sentence_end": 74,
+      "timeline_start_index": 118,
+      "timeline_end_index": 118,
+      "highlights": [
+        {
+          "chapter_sentence": 74,
+          "start": 12,
+          "end": 17
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "5_28",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_05_28_0002",
+      "source_section": "chapter_05_28",
+      "source_sentence": 66,
+      "character_position": 580,
+      "text": "в Анне какое-то новое, непонятное для него настроение",
+      "vad": [
+        -0.2,
+        0.1,
+        -0.45
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.4794029717706811,
+      "warning": null,
+      "chapter_sentence_start": 66,
+      "chapter_sentence_end": 66,
+      "timeline_start_index": 13303,
+      "timeline_end_index": 13303,
+      "highlights": [
+        {
+          "chapter_sentence": 66,
+          "start": 87,
+          "end": 140
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_05_28_0003",
+      "source_section": "chapter_05_28",
+      "source_sentence": 67,
+      "character_position": 581,
+      "text": "как будто влюблена в него",
+      "vad": [
+        0.8,
+        0.5,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.3263131380229113,
+      "warning": null,
+      "chapter_sentence_start": 67,
+      "chapter_sentence_end": 67,
+      "timeline_start_index": 13304,
+      "timeline_end_index": 13304,
+      "highlights": [
+        {
+          "chapter_sentence": 67,
+          "start": 12,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_05_28_0004",
+      "source_section": "chapter_05_28",
+      "source_sentence": 67,
+      "character_position": 582,
+      "text": "становилась холодна, раздражительна и непроницаема",
+      "vad": [
+        -0.65,
+        0.45,
+        0.25
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.4737592189898311,
+      "warning": null,
+      "chapter_sentence_start": 67,
+      "chapter_sentence_end": 67,
+      "timeline_start_index": 13304,
+      "timeline_end_index": 13304,
+      "highlights": [
+        {
+          "chapter_sentence": 67,
+          "start": 46,
+          "end": 96
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_05_28_0005",
+      "source_section": "chapter_05_28",
+      "source_sentence": 68,
+      "character_position": 583,
+      "text": "Она чем-то мучалась",
+      "vad": [
+        -0.75,
+        0.45,
+        -0.35
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.1843095140111249,
+      "warning": null,
+      "chapter_sentence_start": 68,
+      "chapter_sentence_end": 68,
+      "timeline_start_index": 13305,
+      "timeline_end_index": 13305,
+      "highlights": [
+        {
+          "chapter_sentence": 68,
+          "start": 0,
+          "end": 19
+        }
+      ]
+    }
+  ]
+}

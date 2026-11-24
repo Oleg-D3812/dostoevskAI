@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "katerina_shcherbatskaya",
+  "chapter_id": "1_6",
+  "count": 1,
+  "fragments": [
+    {
+      "id": "katerina_shcherbatskaya::chapter_01_06_0001",
+      "source_section": "chapter_01_06",
+      "source_sentence": 20,
+      "character_position": 1,
+      "text": "сама Кити не может любить его",
+      "vad": [
+        -0.72,
+        0.08,
+        -0.68
+      ],
+      "cluster_id": "katerina_shcherbatskaya-1",
+      "distance_to_centroid": 0.4763479998832827,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 532,
+      "timeline_end_index": 532,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 147,
+          "end": 176
+        }
+      ]
+    }
+  ]
+}

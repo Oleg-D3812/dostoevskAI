@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "6_22",
+  "count": 4,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_06_22_0001",
+      "source_section": "chapter_06_22",
+      "source_sentence": 12,
+      "character_position": 508,
+      "text": "Алексей доволен твоим приездом, как он редко бывает чем-нибудь",
+      "vad": [
+        0.75,
+        0.2,
+        0.1
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.1758613846865325,
+      "warning": null,
+      "chapter_sentence_start": 12,
+      "chapter_sentence_end": 12,
+      "timeline_start_index": 16007,
+      "timeline_end_index": 16007,
+      "highlights": [
+        {
+          "chapter_sentence": 12,
+          "start": 2,
+          "end": 64
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_22_0002",
+      "source_section": "chapter_06_22",
+      "source_sentence": 13,
+      "character_position": 509,
+      "text": "Он решительно влюблен в тебя",
+      "vad": [
+        0.85,
+        0.65,
+        0.2
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.383973294757167,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 16008,
+      "timeline_end_index": 16008,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 0,
+          "end": 28
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_22_0003",
+      "source_section": "chapter_06_22",
+      "source_sentence": 105,
+      "character_position": 510,
+      "text": "очевидно почему-то затронутый за живое этим разговором",
+      "vad": [
+        -0.35,
+        0.55,
+        -0.1
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.5198964218130971,
+      "warning": null,
+      "chapter_sentence_start": 105,
+      "chapter_sentence_end": 105,
+      "timeline_start_index": 16100,
+      "timeline_end_index": 16100,
+      "highlights": [
+        {
+          "chapter_sentence": 105,
+          "start": 37,
+          "end": 91
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_06_22_0006",
+      "source_section": "chapter_06_22",
+      "source_sentence": 128,
+      "character_position": 511,
+      "text": "лицо Вронского при этом разговоре тотчас же приняло серьезное и упорное выражение",
+      "vad": [
+        -0.25,
+        0.35,
+        0.55
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.4706889944013202,
+      "warning": null,
+      "chapter_sentence_start": 128,
+      "chapter_sentence_end": 128,
+      "timeline_start_index": 16123,
+      "timeline_end_index": 16123,
+      "highlights": [
+        {
+          "chapter_sentence": 128,
+          "start": 23,
+          "end": 104
+        }
+      ]
+    }
+  ]
+}

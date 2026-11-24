@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "1_23",
+  "count": 7,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_01_23_0001",
+      "source_section": "chapter_01_23",
+      "source_sentence": 13,
+      "character_position": 51,
+      "text": "черту возбуждения от успеха",
+      "vad": [
+        0.7,
+        0.7,
+        0.2
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.4158956034093752,
+      "warning": null,
+      "chapter_sentence_start": 13,
+      "chapter_sentence_end": 13,
+      "timeline_start_index": 2093,
+      "timeline_end_index": 2093,
+      "highlights": [
+        {
+          "chapter_sentence": 13,
+          "start": 42,
+          "end": 69
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_23_0002",
+      "source_section": "chapter_01_23",
+      "source_sentence": 14,
+      "character_position": 52,
+      "text": "Анна пьяна вином возбуждаемого ею восхищения",
+      "vad": [
+        0.85,
+        0.8,
+        -0.15
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.6439271455749203,
+      "warning": null,
+      "chapter_sentence_start": 14,
+      "chapter_sentence_end": 14,
+      "timeline_start_index": 2094,
+      "timeline_end_index": 2094,
+      "highlights": [
+        {
+          "chapter_sentence": 14,
+          "start": 16,
+          "end": 60
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_23_0003",
+      "source_section": "chapter_01_23",
+      "source_sentence": 15,
+      "character_position": 53,
+      "text": "улыбку счастья и возбуждения",
+      "vad": [
+        0.85,
+        0.7,
+        0.2
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.4709388905681226,
+      "warning": null,
+      "chapter_sentence_start": 15,
+      "chapter_sentence_end": 15,
+      "timeline_start_index": 2095,
+      "timeline_end_index": 2095,
+      "highlights": [
+        {
+          "chapter_sentence": 15,
+          "start": 112,
+          "end": 140
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_23_0004",
+      "source_section": "chapter_01_23",
+      "source_sentence": 22,
+      "character_position": 54,
+      "text": "в глазах ее вспыхивал радостный блеск, и улыбка счастья изгибала ее румяные губы",
+      "vad": [
+        0.9,
+        0.7,
+        0.0
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.5255542295266434,
+      "warning": null,
+      "chapter_sentence_start": 22,
+      "chapter_sentence_end": 22,
+      "timeline_start_index": 2102,
+      "timeline_end_index": 2102,
+      "highlights": [
+        {
+          "chapter_sentence": 22,
+          "start": 36,
+          "end": 116
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_23_0007",
+      "source_section": "chapter_01_23",
+      "source_sentence": 75,
+      "character_position": 55,
+      "text": "весело заговорила с другою дамой",
+      "vad": [
+        0.7,
+        0.35,
+        0.2
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.107920946590669,
+      "warning": null,
+      "chapter_sentence_start": 75,
+      "chapter_sentence_end": 75,
+      "timeline_start_index": 2155,
+      "timeline_end_index": 2155,
+      "highlights": [
+        {
+          "chapter_sentence": 75,
+          "start": 114,
+          "end": 146
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_23_0008",
+      "source_section": "chapter_01_23",
+      "source_sentence": 77,
+      "character_position": 56,
+      "text": "не хотела оставаться ужинать",
+      "vad": [
+        -0.2,
+        0.2,
+        0.6
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.6359482294330498,
+      "warning": null,
+      "chapter_sentence_start": 77,
+      "chapter_sentence_end": 77,
+      "timeline_start_index": 2157,
+      "timeline_end_index": 2157,
+      "highlights": [
+        {
+          "chapter_sentence": 77,
+          "start": 5,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_01_23_0009",
+      "source_section": "chapter_01_23",
+      "source_sentence": 87,
+      "character_position": 57,
+      "text": "как бы удивляясь смелости его вопроса",
+      "vad": [
+        -0.15,
+        0.35,
+        0.3
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.4282428227360189,
+      "warning": null,
+      "chapter_sentence_start": 87,
+      "chapter_sentence_end": 87,
+      "timeline_start_index": 2167,
+      "timeline_end_index": 2167,
+      "highlights": [
+        {
+          "chapter_sentence": 87,
+          "start": 32,
+          "end": 69
+        }
+      ]
+    }
+  ]
+}

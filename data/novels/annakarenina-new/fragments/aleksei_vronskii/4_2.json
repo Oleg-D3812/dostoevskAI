@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "aleksei_vronskii",
+  "chapter_id": "4_2",
+  "count": 9,
+  "fragments": [
+    {
+      "id": "aleksei_vronskii::chapter_04_02_0001",
+      "source_section": "chapter_04_02",
+      "source_sentence": 9,
+      "character_position": 302,
+      "text": "дрожа от страха",
+      "vad": [
+        -0.85,
+        0.9,
+        -0.65
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.520152269854379,
+      "warning": null,
+      "chapter_sentence_start": 9,
+      "chapter_sentence_end": 9,
+      "timeline_start_index": 8943,
+      "timeline_end_index": 8943,
+      "highlights": [
+        {
+          "chapter_sentence": 9,
+          "start": 24,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_04_02_0002",
+      "source_section": "chapter_04_02",
+      "source_sentence": 16,
+      "character_position": 303,
+      "text": "отчего же это было так ужасно?",
+      "vad": [
+        -0.6,
+        0.45,
+        -0.35
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.15503154093425,
+      "warning": null,
+      "chapter_sentence_start": 16,
+      "chapter_sentence_end": 16,
+      "timeline_start_index": 8950,
+      "timeline_end_index": 8950,
+      "highlights": [
+        {
+          "chapter_sentence": 16,
+          "start": 5,
+          "end": 35
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_04_02_0003",
+      "source_section": "chapter_04_02",
+      "source_sentence": 17,
+      "character_position": 304,
+      "text": "ужас пробежал холодом по его спине",
+      "vad": [
+        -0.95,
+        0.9,
+        -0.65
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.5578703505660355,
+      "warning": null,
+      "chapter_sentence_start": 17,
+      "chapter_sentence_end": 17,
+      "timeline_start_index": 8951,
+      "timeline_end_index": 8951,
+      "highlights": [
+        {
+          "chapter_sentence": 17,
+          "start": 98,
+          "end": 132
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_04_02_0004",
+      "source_section": "chapter_04_02",
+      "source_sentence": 21,
+      "character_position": 305,
+      "text": "мучась только тем, что опоздал",
+      "vad": [
+        -0.45,
+        0.3,
+        -0.15
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.4128935930009665,
+      "warning": null,
+      "chapter_sentence_start": 21,
+      "chapter_sentence_end": 21,
+      "timeline_start_index": 8955,
+      "timeline_end_index": 8955,
+      "highlights": [
+        {
+          "chapter_sentence": 21,
+          "start": 85,
+          "end": 115
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_04_02_0005",
+      "source_section": "chapter_04_02",
+      "source_sentence": 26,
+      "character_position": 306,
+      "text": "Неприятно мне входить в этот дом",
+      "vad": [
+        -0.65,
+        0.3,
+        -0.15
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.3514171398100258,
+      "warning": null,
+      "chapter_sentence_start": 26,
+      "chapter_sentence_end": 26,
+      "timeline_start_index": 8960,
+      "timeline_end_index": 8960,
+      "highlights": [
+        {
+          "chapter_sentence": 26,
+          "start": 0,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_04_02_0006",
+      "source_section": "chapter_04_02",
+      "source_sentence": 36,
+      "character_position": 307,
+      "text": "глаза блестели злым и гордым блеском",
+      "vad": [
+        -0.55,
+        0.7,
+        0.6
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.7958634587128897,
+      "warning": null,
+      "chapter_sentence_start": 36,
+      "chapter_sentence_end": 36,
+      "timeline_start_index": 8970,
+      "timeline_end_index": 8970,
+      "highlights": [
+        {
+          "chapter_sentence": 36,
+          "start": 28,
+          "end": 64
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_04_02_0007",
+      "source_section": "chapter_04_02",
+      "source_sentence": 41,
+      "character_position": 308,
+      "text": "мысли Вронского много изменились",
+      "vad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cluster_id": "aleksei_vronskii-1",
+      "distance_to_centroid": 0.3515161352883419,
+      "warning": null,
+      "chapter_sentence_start": 41,
+      "chapter_sentence_end": 41,
+      "timeline_start_index": 8975,
+      "timeline_end_index": 8975,
+      "highlights": [
+        {
+          "chapter_sentence": 41,
+          "start": 50,
+          "end": 82
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_04_02_0008",
+      "source_section": "chapter_04_02",
+      "source_sentence": 43,
+      "character_position": 309,
+      "text": "чувствуя, что вышел из того круга деятельности, в котором все было определено",
+      "vad": [
+        -0.35,
+        0.05,
+        -0.45
+      ],
+      "cluster_id": "aleksei_vronskii-3",
+      "distance_to_centroid": 0.519630123626149,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 8977,
+      "timeline_end_index": 8977,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 61,
+          "end": 138
+        }
+      ]
+    },
+    {
+      "id": "aleksei_vronskii::chapter_04_02_0009",
+      "source_section": "chapter_04_02",
+      "source_sentence": 43,
+      "character_position": 310,
+      "text": "отдавался весь своему чувству, и чувство это все сильнее и сильнее привязывало его к ней",
+      "vad": [
+        0.8,
+        0.5,
+        -0.35
+      ],
+      "cluster_id": "aleksei_vronskii-2",
+      "distance_to_centroid": 0.6082605902342592,
+      "warning": null,
+      "chapter_sentence_start": 43,
+      "chapter_sentence_end": 43,
+      "timeline_start_index": 8977,
+      "timeline_end_index": 8977,
+      "highlights": [
+        {
+          "chapter_sentence": 43,
+          "start": 140,
+          "end": 228
+        }
+      ]
+    }
+  ]
+}

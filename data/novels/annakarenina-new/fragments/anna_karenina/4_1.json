@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "anna_karenina",
+  "chapter_id": "4_1",
+  "count": 5,
+  "fragments": [
+    {
+      "id": "anna_karenina::chapter_04_01_0003",
+      "source_section": "chapter_04_01",
+      "source_sentence": 6,
+      "character_position": 405,
+      "text": "для которой оно было мучительнее всех",
+      "vad": [
+        -0.9,
+        0.65,
+        -0.6
+      ],
+      "cluster_id": "anna_karenina-1",
+      "distance_to_centroid": 0.2008584441891265,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 8899,
+      "timeline_end_index": 8899,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 42,
+          "end": 79
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_01_0005",
+      "source_section": "chapter_04_01",
+      "source_sentence": 6,
+      "character_position": 406,
+      "text": "ждала",
+      "vad": [
+        0.1,
+        0.2,
+        -0.3
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.5611025154746432,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 8899,
+      "timeline_end_index": 8899,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 122,
+          "end": 127
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_01_0006",
+      "source_section": "chapter_04_01",
+      "source_sentence": 6,
+      "character_position": 407,
+      "text": "твердо была уверена",
+      "vad": [
+        0.2,
+        0.1,
+        0.7
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.6988000671777503,
+      "warning": null,
+      "chapter_sentence_start": 6,
+      "chapter_sentence_end": 6,
+      "timeline_start_index": 8899,
+      "timeline_end_index": 8899,
+      "highlights": [
+        {
+          "chapter_sentence": 6,
+          "start": 132,
+          "end": 151
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_01_0007",
+      "source_section": "chapter_04_01",
+      "source_sentence": 7,
+      "character_position": 408,
+      "text": "Она решительно не знала",
+      "vad": [
+        -0.35,
+        0.1,
+        -0.55
+      ],
+      "cluster_id": "anna_karenina-3",
+      "distance_to_centroid": 0.5449750430779878,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 8900,
+      "timeline_end_index": 8900,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 0,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "id": "anna_karenina::chapter_04_01_0008",
+      "source_section": "chapter_04_01",
+      "source_sentence": 7,
+      "character_position": 409,
+      "text": "твердо была уверена",
+      "vad": [
+        0.25,
+        0.1,
+        0.55
+      ],
+      "cluster_id": "anna_karenina-2",
+      "distance_to_centroid": 0.5596492188624432,
+      "warning": null,
+      "chapter_sentence_start": 7,
+      "chapter_sentence_end": 7,
+      "timeline_start_index": 8900,
+      "timeline_end_index": 8900,
+      "highlights": [
+        {
+          "chapter_sentence": 7,
+          "start": 56,
+          "end": 75
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "novel_id": "annakarenina-new",
+  "character_id": "konstantin_levin",
+  "chapter_id": "7_4",
+  "count": 6,
+  "fragments": [
+    {
+      "id": "konstantin_levin::chapter_07_04_0001",
+      "source_section": "chapter_07_04",
+      "source_sentence": 3,
+      "character_position": 1122,
+      "text": "они в эту зиму очень сошлись и полюбили друг друга",
+      "vad": [
+        0.9,
+        0.3,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2259158033206842,
+      "warning": null,
+      "chapter_sentence_start": 3,
+      "chapter_sentence_end": 3,
+      "timeline_start_index": 17303,
+      "timeline_end_index": 17303,
+      "highlights": [
+        {
+          "chapter_sentence": 3,
+          "start": 107,
+          "end": 157
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_04_0002",
+      "source_section": "chapter_07_04",
+      "source_sentence": 20,
+      "character_position": 1123,
+      "text": "Левин с улыбкой и, как всегда, умиляясь на его низкое мнение о себе",
+      "vad": [
+        0.6,
+        0.25,
+        0.1
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.1303232079517576,
+      "warning": null,
+      "chapter_sentence_start": 20,
+      "chapter_sentence_end": 20,
+      "timeline_start_index": 17320,
+      "timeline_end_index": 17320,
+      "highlights": [
+        {
+          "chapter_sentence": 20,
+          "start": 29,
+          "end": 96
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_04_0003",
+      "source_section": "chapter_07_04",
+      "source_sentence": 28,
+      "character_position": 1124,
+      "text": "Левин хотел объяснить ему, что понять этого нельзя, а надо учить",
+      "vad": [
+        0.05,
+        0.15,
+        0.45
+      ],
+      "cluster_id": "konstantin_levin-3",
+      "distance_to_centroid": 0.5096194490188146,
+      "warning": null,
+      "chapter_sentence_start": 28,
+      "chapter_sentence_end": 28,
+      "timeline_start_index": 17328,
+      "timeline_end_index": 17328,
+      "highlights": [
+        {
+          "chapter_sentence": 28,
+          "start": 0,
+          "end": 64
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_04_0004",
+      "source_section": "chapter_07_04",
+      "source_sentence": 32,
+      "character_position": 1125,
+      "text": "не желал бы детей лучше ваших",
+      "vad": [
+        0.75,
+        0.1,
+        0.2
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.2429911040499816,
+      "warning": null,
+      "chapter_sentence_start": 32,
+      "chapter_sentence_end": 32,
+      "timeline_start_index": 17332,
+      "timeline_end_index": 17332,
+      "highlights": [
+        {
+          "chapter_sentence": 32,
+          "start": 87,
+          "end": 116
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_04_0005",
+      "source_section": "chapter_07_04",
+      "source_sentence": 45,
+      "character_position": 1126,
+      "text": "Интересовавший всегда Левина разговор",
+      "vad": [
+        0.4,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.3987169044835839,
+      "warning": null,
+      "chapter_sentence_start": 45,
+      "chapter_sentence_end": 45,
+      "timeline_start_index": 17345,
+      "timeline_end_index": 17345,
+      "highlights": [
+        {
+          "chapter_sentence": 45,
+          "start": 0,
+          "end": 37
+        }
+      ]
+    },
+    {
+      "id": "konstantin_levin::chapter_07_04_0006",
+      "source_section": "chapter_07_04",
+      "source_sentence": 64,
+      "character_position": 1127,
+      "text": "Левину хотелось поговорить с ними, послушать, что они скажут отцу",
+      "vad": [
+        0.35,
+        0.1,
+        0.0
+      ],
+      "cluster_id": "konstantin_levin-1",
+      "distance_to_centroid": 0.4357507973198874,
+      "warning": null,
+      "chapter_sentence_start": 64,
+      "chapter_sentence_end": 64,
+      "timeline_start_index": 17364,
+      "timeline_end_index": 17364,
+      "highlights": [
+        {
+          "chapter_sentence": 64,
+          "start": 0,
+          "end": 65
+        }
+      ]
+    }
+  ]
+}
